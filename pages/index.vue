@@ -32,6 +32,7 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 import Logo from '~/components/Logo.vue'
 import assetData from '~/assets/data/xml/asset'
+import bonus from '~/assets/data/xml/bonus-event.json'
 @Component({
   components: {
     Logo
@@ -39,6 +40,7 @@ import assetData from '~/assets/data/xml/asset'
 })
 export default class Index extends Vue {
   assetData = assetData
+  bonus: XmlBonusEvent.RootObject = bonus;
 }
 </script>
 

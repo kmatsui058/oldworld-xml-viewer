@@ -29,6 +29,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "case": "^1.6.3",
     "glob": "^7.1.6",
+    "json-format": "^1.0.1",
     "json-to-ts": "^1.7.0",
     "nuxt": "^2.0.0",
     "nuxt-property-decorator": "^2.7.2",
