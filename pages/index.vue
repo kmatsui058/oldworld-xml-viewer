@@ -31,14 +31,14 @@
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
 import Logo from '~/components/Logo.vue'
-
+import assetData from '~/assets/data/xml/asset'
 @Component({
   components: {
     Logo
   }
 })
 export default class Index extends Vue {
-
+  assetData = assetData
 }
 </script>
 
