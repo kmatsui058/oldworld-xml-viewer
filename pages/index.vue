@@ -11,10 +11,12 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="(item, key) in nations" :key="key">
-          <td>{{ getName(item.Name.toString()) }}</td>
-          <td>{{ getLaw(item.aeStartingLaw) }}</td>
-        </tr>
+        <template v-for="item in nations">
+          <tr v-if="typeof item.Name === 'string'" :id="item.Name" :key="item.Name">
+            <td>{{ getName(item.Name.toString()) }}</td>
+            <td>{{ getLaw(item.aeStartingLaw) }}</td>
+          </tr>
+        </template>
       </tbody>
     </table>
   </div>
