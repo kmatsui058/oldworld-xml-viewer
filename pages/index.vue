@@ -15,7 +15,6 @@
         <template v-for="item in nations">
           <tr v-if="typeof item.Name === 'string'" :id="item.Name" :key="item.Name">
             <td>{{ getName(item.Name.toString()) }}</td>
-            <td>{{ getLaw(item.aeStartingLaw) }}</td>
             <td>{{ getTech(item.aeStartingTech) }}</td>
           </tr>
         </template>
@@ -47,20 +46,12 @@ export default class Index extends Vue {
     return test ? test.English.toString().split('~')[0] : ''
   }
 
-  getLaw (obj: XmlNation.AeStartingLaw): string {
-    const key = obj.Pair ? obj.Pair.zValue : ''
-    const test = this.law.find(el => el.zType === key)
-    return test ? test.zName.toString() : ''
-  }
-
   getTech (obj: XmlNation.AeStartingTech): string {
     const result: string[] = []
     const keys = obj.zValue ? obj.zValue : []
     keys.forEach((key) => {
-      console.log(key)
       const test = this.tech.find(el => el.zType === key)
-      console.log(test)
-      if (test && typeof test.zName === 'string') { result.push(test.zName) }
+      if (test && typeof test.Name === 'string') { result.push(test.Name) }
     })
 
     return result.join(', ')
