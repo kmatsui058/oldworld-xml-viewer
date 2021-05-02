@@ -6,28 +6,31 @@
         "zType": {
           
         },
+        "iLevelProb": {
+          "comment": "Every turn, there is this percent chance of an Event of this Class happening (modified by EventLevel)."
+        },
         "iPlayerProb": {
-          
+          "comment": "Every turn, there is this percent chance of an Event of this Class happening."
         },
         "iCharacterProb": {
-          
+          "comment": "Every turn and for each Character, there is this percent chance of an Event of this Class happening."
         },
         "iMinTurns": {
-          
+          "comment": "Events of this Class can't happen until this turn"
         },
         "iMinRepeat": {
-          
+          "comment": "Events of this Class can't happen more frequently than once per this number of turns"
         }
       },
       {
         "zType": "EVENTCLASS_LEADER_SPOUSE",
-        "iPlayerProb": "20",
+        "iLevelProb": "10",
         "iMinTurns": "10",
-        "iMinRepeat": "10"
+        "iMinRepeat": "20"
       },
       {
-        "zType": "EVENTCLASS_GREAT_PERSON",
-        "iPlayerProb": "10",
+        "zType": "EVENTCLASS_COURTIER",
+        "iLevelProb": "10",
         "iMinTurns": "20",
         "iMinRepeat": "30"
       },
@@ -37,43 +40,66 @@
         "iMinRepeat": "2"
       },
       {
+        "zType": "EVENTCLASS_AWAY_FROM_COURT",
+        "iPlayerProb": "30",
+        "iMinRepeat": "2"
+      },
+      {
         "zType": "EVENTCLASS_SUDDEN_DEATH",
-        "iPlayerProb": "10",
         "iMinTurns": "20",
         "iMinRepeat": "20"
       },
       {
         "zType": "EVENTCLASS_STUDY",
-        "iCharacterProb": "60"
+        "iCharacterProb": "60",
+        "iMinRepeat": "2"
       },
       {
         "zType": "EVENTCLASS_RELATIONSHIP_PLAYER",
-        "iPlayerProb": "70",
+        "iLevelProb": "5",
         "iMinTurns": "20",
         "iMinRepeat": "5"
       },
       {
         "zType": "EVENTCLASS_LAW",
-        "iPlayerProb": "100"
+        "iPlayerProb": "100",
+        "iMinRepeat": "1"
       },
       {
-        "zType": "EVENTCLASS_TRAINING_NEWS",
-        "iPlayerProb": "10",
+        "zType": "EVENTCLASS_LAW_OPINION",
+        "iMinTurns": "40",
         "iMinRepeat": "20"
       },
       {
-        "zType": "EVENTCLASS_MERCENARY",
-        "iPlayerProb": "10",
+        "zType": "EVENTCLASS_NO_HEIRS",
+        "iPlayerProb": "100",
+        "iMinTurns": "40",
+        "iMinRepeat": "5"
+      },
+      {
+        "zType": "EVENTCLASS_TRAINING_NEWS",
+        "iMinRepeat": "20"
+      },
+      {
+        "zType": "EVENTCLASS_REIGN",
+        "iPlayerProb": "25",
         "iMinTurns": "20",
         "iMinRepeat": "20"
       },
       {
-        "zType": "EVENTCLASS_PET_FISH",
-        "iPlayerProb": "50"
+        "zType": "EVENTCLASS_MERCENARY",
+        "iMinTurns": "20",
+        "iMinRepeat": "20"
       },
       {
-        "zType": "EVENTCLASS_PET_MONKEY",
-        "iPlayerProb": "50"
+        "zType": "EVENTCLASS_PETS_AND_ODDITIES",
+        "iPlayerProb": "50",
+        "iMinRepeat": "2"
+      },
+      {
+        "zType": "EVENTCLASS_HARVESTING",
+        "iMinTurns": "10",
+        "iMinRepeat": "2"
       }
     ]
   }

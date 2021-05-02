@@ -14,6 +14,8 @@ export interface Entry {
   iWarModifier?: ZType | string;
   iPlayerOpinion?: ZType | string;
   bDeclareWar?: ZType | string;
+  bNoTribeWar?: ZType | string;
+  bNoTribeOfferHuman?: ZType | string;
 }
 export interface ZType {
 }

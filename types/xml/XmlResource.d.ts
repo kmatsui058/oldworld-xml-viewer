@@ -21,8 +21,9 @@ export interface Entry {
   iHarvestRoll: ZType | string;
   bNoVegetation?: ZType | string;
   bClearVegetation?: ZType | string;
+  bUseAnimLOD?: ZType | string;
   aiYieldReveal: AiYieldReveal;
-  aiYieldHarvest: AiYieldHarvest;
+  aiYieldHarvest: AiYieldReveal;
   abTerrainValid: AbTerrainValid;
   abHeightValid: AbTerrainValid;
   abVegetationValid?: AbTerrainValid;
@@ -34,11 +35,8 @@ export interface Pair2 {
   zIndex: string;
   bValue: string;
 }
-export interface AiYieldHarvest {
-  Pair?: Pair;
-}
 export interface AiYieldReveal {
-  Pair?: Pair[] | Pair;
+  Pair?: Pair;
 }
 export interface Pair {
   zIndex: string;

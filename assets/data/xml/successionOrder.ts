@@ -37,6 +37,11 @@
         "zType": "SUCCESSIONORDER_SENIORITY",
         "zName": "Seniority",
         "zHelp": "Oldest dynasty member inherits"
+      },
+      {
+        "zType": "SUCCESSIONORDER_RANDOM",
+        "zName": "Random",
+        "zHelp": "Each player follows a random, potentially different, succession order"
       }
     ]
   }

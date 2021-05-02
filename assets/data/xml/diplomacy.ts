@@ -24,6 +24,15 @@
         "iOpinionEnemy": {
           
         },
+        "iOpinionEthnicity": {
+          
+        },
+        "iOpinionReligion": {
+          
+        },
+        "iBlock": {
+          
+        },
         "bHostile": {
           
         },
@@ -32,12 +41,22 @@
         }
       },
       {
+        "zType": "DIPLOMACY_TEAM",
+        "zName": "Team",
+        "zIconName": "DIPLOMACY_TEAM",
+        "zColor": "COLOR_DIPLOMACY_TEAM",
+        "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",
+        "bPeace": "1"
+      },
+      {
         "zType": "DIPLOMACY_PEACE",
         "zName": "Peace",
         "zIconName": "DIPLOMACY_PEACE",
         "zColor": "COLOR_DIPLOMACY_PEACE",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",
-        "iOpinionEnemy": "-20",
+        "iOpinionEnemy": "-40",
+        "iOpinionEthnicity": "20",
+        "iOpinionReligion": "10",
         "bPeace": "1"
       },
       {
@@ -53,8 +72,11 @@
         "zIconName": "DIPLOMACY_WAR",
         "zColor": "COLOR_DIPLOMACY_WAR",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",
-        "iOpinion": "-50",
+        "iOpinion": "-60",
         "iOpinionEnemy": "20",
+        "iOpinionEthnicity": "-80",
+        "iOpinionReligion": "-40",
+        "iBlock": "5",
         "bHostile": "1"
       }
     ]

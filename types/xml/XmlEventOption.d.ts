@@ -12,13 +12,18 @@ export interface Entry {
   EventLinkStart?: ZType | EventLinkAdd2 | string;
   Text?: ZType | EventLinkAdd2 | string;
   HelpText?: ZType | EventLinkAdd2 | string;
+  zIcon?: EventLinkAdd2 | string;
   aeBonuses?: AeBonuses;
+  aeTriggers?: AeTriggers;
+  PlayerSubject?: ZType | EventLinkAdd2 | string;
   LeaderSubject?: ZType | EventLinkAdd2 | string;
+  LeaderSubjectAny?: LeaderSubjectAny;
   bLawScreen?: ZType | EventLinkAdd2 | string;
-  bReligionScreen?: BReligionScreen;
-  bTimelineScreen?: EventLinkAdd2 | string;
-  bMainMenu?: EventLinkAdd2 | string;
+  bTimelineScreen?: ZType | EventLinkAdd2 | string;
+  bVictoryScreen?: EventLinkAdd2;
+  bMainMenu?: ZType | EventLinkAdd2 | string;
   bHidePrereqs?: ZType | EventLinkAdd2 | string;
+  bHideInvalid?: ZType | EventLinkAdd2 | string;
   bFutureEvents?: ZType | EventLinkAdd2 | string;
   aiMinPrice?: AiMinPrice;
   aiMaxPrice?: AiMinPrice;
@@ -37,12 +42,17 @@ export interface Pair {
   zIndex: string;
   iValue: string;
 }
-export interface BReligionScreen {
+export interface LeaderSubjectAny {
   comment?: string;
+  zValue?: string[];
+}
+export interface AeTriggers {
+  comment?: string;
+  zValue?: (ZType | string)[];
 }
 export interface AeBonuses {
   comment?: string;
-  zValue?: string[] | (ZType | string)[] | string;
+  zValue?: string[] | (ZType | string)[] | ZType[] | ZType | string;
 }
 export interface EventLinkAdd2 {
   comment: string;

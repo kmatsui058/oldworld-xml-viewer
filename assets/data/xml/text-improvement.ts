@@ -32,7 +32,7 @@
       },
       {
         "zType": "TEXT_IMPROVEMENT_RUINS_4",
-        "English": "Fortress Ruins"
+        "English": "Bastion Ruins"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SETTLEMENT_1",
@@ -48,7 +48,7 @@
       },
       {
         "zType": "TEXT_IMPROVEMENT_SETTLEMENT_4",
-        "English": "Fortress~a Fortress~Fortresses"
+        "English": "Bastion~a Bastion~Bastions"
       },
       {
         "zType": "TEXT_IMPROVEMENT_FORT",
@@ -63,12 +63,12 @@
         "English": "Mine~a Mine~Mines"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_LUMBERMILL",
-        "English": "Lumbermill~a Lumbermill~Lumbermills"
-      },
-      {
         "zType": "TEXT_IMPROVEMENT_QUARRY",
         "English": "Quarry~a Quarry~Quarries"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_LUMBERMILL",
+        "English": "Lumbermill~a Lumbermill~Lumbermills"
       },
       {
         "zType": "TEXT_IMPROVEMENT_PASTURE",
@@ -115,6 +115,10 @@
         "English": "Town~a Town~Towns"
       },
       {
+        "zType": "TEXT_IMPROVEMENT_MINOR_CITY",
+        "English": "Minor City~a Minor City~Minor Cities"
+      },
+      {
         "zType": "TEXT_IMPROVEMENT_GARRISON_1",
         "English": "Garrison~a Garrison~Garrisons"
       },
@@ -127,10 +131,6 @@
         "English": "Citadel~a Citadel~Citadels"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_AQUEDUCT",
-        "English": "Aqueduct~an Aqueduct~Aqueducts"
-      },
-      {
         "zType": "TEXT_IMPROVEMENT_BARRACKS",
         "English": "Barracks~a Barracks~Barracks"
       },
@@ -140,15 +140,15 @@
       },
       {
         "zType": "TEXT_IMPROVEMENT_THEATER_1",
-        "English": "Amphitheater~an Amphitheater~Amphitheaters"
+        "English": "Odeon~an Odeon~Odeons"
       },
       {
         "zType": "TEXT_IMPROVEMENT_THEATER_2",
-        "English": "Hippodrome~a Hippodrome~Hippodromes"
+        "English": "Theater~a Theater~Theaters"
       },
       {
         "zType": "TEXT_IMPROVEMENT_THEATER_3",
-        "English": "Colosseum~a Colosseum~Colosseums"
+        "English": "Amphitheater~an Amphitheater~Amphitheaters"
       },
       {
         "zType": "TEXT_IMPROVEMENT_BATHS_1",
@@ -227,8 +227,8 @@
         "English": "Shrine of Athena"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_SHRINE_SHAMAHS",
-        "English": "Shrine of Shamahs"
+        "zType": "TEXT_IMPROVEMENT_SHRINE_SHAMASH",
+        "English": "Shrine of Shamash"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_RA",
@@ -299,16 +299,16 @@
         "English": "Shrine of Tanit"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_SHRINE_TISHTRYA",
-        "English": "Shrine of Tishtrya"
+        "zType": "TEXT_IMPROVEMENT_SHRINE_VESTA",
+        "English": "Shrine of Vesta"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_NEITH",
         "English": "Shrine of Neith"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_SHRINE_DIANA",
-        "English": "Shrine of Diana"
+        "zType": "TEXT_IMPROVEMENT_SHRINE_HVAR_KHSHAITA",
+        "English": "Shrine of Hvar Khshaita"
       },
       {
         "zType": "TEXT_IMPROVEMENT_MONASTERY_ZOROASTRIANISM",
@@ -435,8 +435,8 @@
         "English": "The Hagia Sophia"
       },
       {
-        "zType": "TEXT_IMPROVEMENT_GRAND_BAZAAR",
-        "English": "The Grand Bazaar"
+        "zType": "TEXT_IMPROVEMENT_VIA_RECTA_SOUK",
+        "English": "The Via Recta Souk"
       },
       {
         "zType": "TEXT_IMPROVEMENT_LAURION_MINE",
@@ -449,6 +449,14 @@
       {
         "zType": "TEXT_IMPROVEMENT_FOREST_FIRE_MONUMENT",
         "English": "National Monument~a National Monument~National Monuments"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE",
+        "English": "God's Consort Shrine~a God's Consort Shrine~God's Consort Shrines"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM",
+        "English": "Tribal Shrine~a Tribal Shrine~Tribal Shrines"
       }
     ]
   }

@@ -11,7 +11,7 @@ export interface Entry {
   zName: ZType | string;
   zDesc: ZType | string;
   bGameplay?: ZType | string;
-  bDebug?: ZType;
+  bDebug?: ZType | string;
 }
 export interface ZType {
 }

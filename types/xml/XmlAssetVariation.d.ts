@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   aiValidRotations: ZType | string;
   SingleAsset?: ZType | string;
+  bShowBuildings?: ZType | string;
   aiRandomAssets?: AiRandomAssets;
 }
 export interface AiRandomAssets {

@@ -51,30 +51,6 @@
         "English": "Diplomat"
       },
       {
-        "zType": "TEXT_TRAIT_ROBUST",
-        "English": "Robust"
-      },
-      {
-        "zType": "TEXT_TRAIT_VIGILANT",
-        "English": "Vigilant"
-      },
-      {
-        "zType": "TEXT_TRAIT_STRICT",
-        "English": "Strict"
-      },
-      {
-        "zType": "TEXT_TRAIT_DRILLMASTER",
-        "English": "Drillmaster"
-      },
-      {
-        "zType": "TEXT_TRAIT_KEEN",
-        "English": "Keen"
-      },
-      {
-        "zType": "TEXT_TRAIT_EQUESTRIAN",
-        "English": "Equestrian"
-      },
-      {
         "zType": "TEXT_TRAIT_AFFABLE",
         "English": "Affable"
       },
@@ -87,8 +63,8 @@
         "English": "Warlike"
       },
       {
-        "zType": "TEXT_TRAIT_INSPIRED",
-        "English": "Inspired"
+        "zType": "TEXT_TRAIT_INSPIRING",
+        "English": "Inspiring"
       },
       {
         "zType": "TEXT_TRAIT_INTELLIGENT",
@@ -111,8 +87,8 @@
         "English": "Cruel"
       },
       {
-        "zType": "TEXT_TRAIT_CARELESS",
-        "English": "Careless"
+        "zType": "TEXT_TRAIT_INTOLERANT",
+        "English": "Intolerant"
       },
       {
         "zType": "TEXT_TRAIT_SLOTHFUL",
@@ -139,28 +115,44 @@
         "English": "Debauched"
       },
       {
-        "zType": "TEXT_TRAIT_ANGLER",
-        "English": "Angler"
+        "zType": "TEXT_TRAIT_ROBUST",
+        "English": "Robust"
       },
       {
-        "zType": "TEXT_TRAIT_PLANTER",
-        "English": "Planter"
+        "zType": "TEXT_TRAIT_VIGILANT",
+        "English": "Vigilant"
       },
       {
-        "zType": "TEXT_TRAIT_FORESTER",
-        "English": "Forester"
+        "zType": "TEXT_TRAIT_STRICT",
+        "English": "Strict"
+      },
+      {
+        "zType": "TEXT_TRAIT_EQUESTRIAN",
+        "English": "Equestrian"
+      },
+      {
+        "zType": "TEXT_TRAIT_CARPENTER",
+        "English": "Carpenter"
+      },
+      {
+        "zType": "TEXT_TRAIT_PATHFINDER",
+        "English": "Pathfinder"
+      },
+      {
+        "zType": "TEXT_TRAIT_CULTIVATOR",
+        "English": "Cultivator"
+      },
+      {
+        "zType": "TEXT_TRAIT_NATURALIST",
+        "English": "Naturalist"
       },
       {
         "zType": "TEXT_TRAIT_DELVER",
         "English": "Delver"
       },
       {
-        "zType": "TEXT_TRAIT_SMELTER",
-        "English": "Smelter"
-      },
-      {
-        "zType": "TEXT_TRAIT_HERDER",
-        "English": "Herder"
+        "zType": "TEXT_TRAIT_DEALMAKER",
+        "English": "Dealmaker"
       },
       {
         "zType": "TEXT_TRAIT_TRACKER",
@@ -171,32 +163,20 @@
         "English": "Swift"
       },
       {
-        "zType": "TEXT_TRAIT_HARDY",
-        "English": "Hardy"
-      },
-      {
-        "zType": "TEXT_TRAIT_EAGLE_EYE",
-        "English": "Eagle Eye"
-      },
-      {
-        "zType": "TEXT_TRAIT_MARKSMAN",
-        "English": "Marksman"
-      },
-      {
-        "zType": "TEXT_TRAIT_ENGINEER",
-        "English": "Engineer"
-      },
-      {
         "zType": "TEXT_TRAIT_BESIEGER",
         "English": "Besieger"
       },
       {
-        "zType": "TEXT_TRAIT_GARRISON",
-        "English": "Garrison"
+        "zType": "TEXT_TRAIT_TOUGH",
+        "English": "Tough"
       },
       {
         "zType": "TEXT_TRAIT_BLOODTHIRSTY",
         "English": "Bloodthirsty"
+      },
+      {
+        "zType": "TEXT_TRAIT_HECKLER",
+        "English": "Heckler"
       },
       {
         "zType": "TEXT_TRAIT_STEADFAST",
@@ -215,10 +195,6 @@
         "English": "Ranger"
       },
       {
-        "zType": "TEXT_TRAIT_EXPLORING",
-        "English": "Exploring"
-      },
-      {
         "zType": "TEXT_TRAIT_BRAVE",
         "English": "Brave"
       },
@@ -235,8 +211,8 @@
         "English": "Horsebane"
       },
       {
-        "zType": "TEXT_TRAIT_AGGRESSOR",
-        "English": "Aggressor"
+        "zType": "TEXT_TRAIT_ENGINEER",
+        "English": "Engineer"
       },
       {
         "zType": "TEXT_TRAIT_BOLD",
@@ -255,88 +231,84 @@
         "English": "Greedy"
       },
       {
-        "zType": "TEXT_TRAIT_CUNNING",
-        "English": "Cunning"
-      },
-      {
         "zType": "TEXT_TRAIT_ROMANTIC",
         "English": "Romantic"
-      },
-      {
-        "zType": "TEXT_TRAIT_COMPASSIONATE",
-        "English": "Compassionate"
-      },
-      {
-        "zType": "TEXT_TRAIT_INSPIRING",
-        "English": "Inspiring"
-      },
-      {
-        "zType": "TEXT_TRAIT_LOYAL",
-        "English": "Loyal"
       },
       {
         "zType": "TEXT_TRAIT_BITTER",
         "English": "Bitter"
       },
       {
-        "zType": "TEXT_TRAIT_SPOILED",
-        "English": "Spoiled"
-      },
-      {
-        "zType": "TEXT_TRAIT_HONEST",
-        "English": "Honest"
-      },
-      {
-        "zType": "TEXT_TRAIT_PIOUS",
-        "English": "Pious"
-      },
-      {
-        "zType": "TEXT_TRAIT_HUMBLE",
-        "English": "Humble"
-      },
-      {
-        "zType": "TEXT_TRAIT_HEARTBROKEN",
-        "English": "Heartbroken"
-      },
-      {
-        "zType": "TEXT_TRAIT_INTOLERANT",
-        "English": "Intolerant"
-      },
-      {
-        "zType": "TEXT_TRAIT_VENGEFUL",
-        "English": "Vengeful"
+        "zType": "TEXT_TRAIT_EDUCATED",
+        "English": "Educated"
       },
       {
         "zType": "TEXT_TRAIT_SUPERSTITIOUS",
         "English": "Superstitious"
       },
       {
+        "zType": "TEXT_TRAIT_COMPASSIONATE",
+        "English": "Compassionate"
+      },
+      {
         "zType": "TEXT_TRAIT_RUTHLESS",
         "English": "Ruthless"
+      },
+      {
+        "zType": "TEXT_TRAIT_PIOUS",
+        "English": "Pious"
+      },
+      {
+        "zType": "TEXT_TRAIT_WANTON",
+        "English": "Wanton"
+      },
+      {
+        "zType": "TEXT_TRAIT_LOYAL",
+        "English": "Loyal"
+      },
+      {
+        "zType": "TEXT_TRAIT_CUNNING",
+        "English": "Cunning"
+      },
+      {
+        "zType": "TEXT_TRAIT_HUMBLE",
+        "English": "Humble"
       },
       {
         "zType": "TEXT_TRAIT_PROUD",
         "English": "Proud"
       },
       {
-        "zType": "TEXT_TRAIT_BEAUTIFUL",
-        "English": "Beautiful"
+        "zType": "TEXT_TRAIT_WITTY",
+        "English": "Witty"
       },
       {
-        "zType": "TEXT_TRAIT_STUDY_TACTICS",
-        "English": "Tactics Student"
+        "zType": "TEXT_TRAIT_SPOILED",
+        "English": "Spoiled"
+      },
+      {
+        "zType": "TEXT_TRAIT_STUDY_PHILOSOPHY",
+        "English": "Philosophy Student"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_RHETORIC",
         "English": "Rhetoric Student"
       },
       {
+        "zType": "TEXT_TRAIT_STUDY_TACTICS",
+        "English": "Tactics Student"
+      },
+      {
         "zType": "TEXT_TRAIT_STUDY_COMMERCE",
         "English": "Commerce Student"
       },
       {
-        "zType": "TEXT_TRAIT_STUDY_PHILOSOPHY",
-        "English": "Philosophy Student"
+        "zType": "TEXT_TRAIT_EXPLORING",
+        "English": "Exploring"
+      },
+      {
+        "zType": "TEXT_TRAIT_EXOTIC",
+        "English": "Exotic"
       },
       {
         "zType": "TEXT_TRAIT_BLESSED",
@@ -359,10 +331,6 @@
         "English": "Incubated"
       },
       {
-        "zType": "TEXT_TRAIT_POISONER",
-        "English": "Master of Poisons"
-      },
-      {
         "zType": "TEXT_TRAIT_POISONED",
         "English": "Poisoned"
       },
@@ -383,24 +351,20 @@
         "English": "Blinded"
       },
       {
-        "zType": "TEXT_TRAIT_FLED_COUNTRY",
-        "English": "Fled Country"
-      },
-      {
         "zType": "TEXT_TRAIT_IMPRISONED",
         "English": "Imprisoned"
       },
       {
-        "zType": "TEXT_TRAIT_RELEASED",
-        "English": "Released"
-      },
-      {
-        "zType": "TEXT_TRAIT_ON_THE_RUN",
+        "zType": "TEXT_TRAIT_FUGITIVE",
         "English": "Fugitive"
       },
       {
-        "zType": "TEXT_TRAIT_HIDING_ABROAD",
-        "English": "Hiding Abroad"
+        "zType": "TEXT_TRAIT_MISSING",
+        "English": "Missing"
+      },
+      {
+        "zType": "TEXT_TRAIT_UNDER_ASYLUM",
+        "English": "Under Asylum"
       },
       {
         "zType": "TEXT_TRAIT_ELOPED",
@@ -415,6 +379,14 @@
         "English": "Exiled"
       },
       {
+        "zType": "TEXT_TRAIT_DESERTER",
+        "English": "Deserter"
+      },
+      {
+        "zType": "TEXT_TRAIT_DOOMED",
+        "English": "Doomed"
+      },
+      {
         "zType": "TEXT_TRAIT_GAY",
         "English": "Gay"
       },
@@ -423,36 +395,56 @@
         "English": "Bastard"
       },
       {
+        "zType": "TEXT_TRAIT_LEGITIMIZED",
+        "English": "Legitimized"
+      },
+      {
         "zType": "TEXT_TRAIT_SLIGHTED",
         "English": "Slighted"
       },
       {
-        "zType": "TEXT_TRAIT_INFAMOUS",
-        "English": "Infamous"
+        "zType": "TEXT_TRAIT_CLAIMED",
+        "English": "Claimed"
+      },
+      {
+        "zType": "TEXT_TRAIT_CLERGY",
+        "English": "Clergy"
+      },
+      {
+        "zType": "TEXT_TRAIT_ASCETIC",
+        "English": "Ascetic"
+      },
+      {
+        "zType": "TEXT_TRAIT_ARTIST",
+        "English": "Artist"
       },
       {
         "zType": "TEXT_TRAIT_FAMOUS",
         "English": "Famous"
       },
       {
-        "zType": "TEXT_TRAIT_POPULAR_HERO",
-        "English": "Popular Hero"
+        "zType": "TEXT_TRAIT_INFAMOUS",
+        "English": "Infamous"
       },
       {
         "zType": "TEXT_TRAIT_ADOPTED",
         "English": "Adopted"
       },
       {
-        "zType": "TEXT_TRAIT_BYPASSED_HEIR",
-        "English": "Bypassed Heir"
+        "zType": "TEXT_TRAIT_PREGNANT",
+        "English": "Pregnant"
       },
       {
         "zType": "TEXT_TRAIT_ABDICATED",
         "English": "Abdicated"
       },
       {
-        "zType": "TEXT_TRAIT_EXOTIC",
-        "English": "Exotic"
+        "zType": "TEXT_TRAIT_REGENT",
+        "English": "Regent"
+      },
+      {
+        "zType": "TEXT_TRAIT_RIGHTFUL_HEIR",
+        "English": "Rightful Heir"
       },
       {
         "zType": "TEXT_TRAIT_EXCLUDED",
@@ -471,12 +463,16 @@
         "English": "Drunk"
       },
       {
+        "zType": "TEXT_TRAIT_INSANE",
+        "English": "Insane"
+      },
+      {
         "zType": "TEXT_TRAIT_MOURNING",
         "English": "Mourning"
       },
       {
-        "zType": "TEXT_TRAIT_DEALMAKER",
-        "English": "Dealmaker"
+        "zType": "TEXT_TRAIT_PROPHET",
+        "English": "Prophet"
       },
       {
         "zType": "TEXT_TRAIT_ARCHON",
@@ -503,12 +499,20 @@
         "English": "Monkey Assassin"
       },
       {
+        "zType": "TEXT_TRAIT_MONKEY_PAW",
+        "English": "Monkey Paw Owner"
+      },
+      {
+        "zType": "TEXT_TRAIT_DOG_OWNER",
+        "English": "Dog Owner"
+      },
+      {
         "zType": "TEXT_TRAIT_OVERSEER_OF_THE_FIELDS",
         "English": "Overseer of the Fields"
       },
       {
         "zType": "TEXT_TRAIT_POSSESSOR_OF_VENERATION",
-        "English": "Possessor of Veneration"
+        "English": "Possessor of link(THEOLOGY_VENERATION)"
       },
       {
         "zType": "TEXT_TRAIT_STEWARD_OF_THE_CHAMBER",
@@ -517,6 +521,50 @@
       {
         "zType": "TEXT_TRAIT_ENEMY_OF_THE_STATE",
         "English": "Enemy of the State"
+      },
+      {
+        "zType": "TEXT_TRAIT_AMULET_OWNER_POSITIVE",
+        "English": "Fertility Amulet Owner"
+      },
+      {
+        "zType": "TEXT_TRAIT_AMULET_OWNER_NEGATIVE",
+        "English": "Fertility Amulet Owner"
+      },
+      {
+        "zType": "TEXT_TRAIT_GODS_CONSORT",
+        "English": "God's Consort"
+      },
+      {
+        "zType": "TEXT_TRAIT_DROUGHT_STRICKEN",
+        "English": "Drought Stricken"
+      },
+      {
+        "zType": "TEXT_TRAIT_HORSE",
+        "English": "Horse"
+      },
+      {
+        "zType": "TEXT_TRAIT_AMARNA_REFORMER",
+        "English": "Amarna Reformer"
+      },
+      {
+        "zType": "TEXT_TRAIT_BARRACKS_INSTRUCTOR",
+        "English": "Barracks Instructor"
+      },
+      {
+        "zType": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE",
+        "English": "Savior of the Throne"
+      },
+      {
+        "zType": "TEXT_TRAIT_SAOSHYANT",
+        "English": "Saoshyant"
+      },
+      {
+        "zType": "TEXT_TRAIT_WOUNDED",
+        "English": "Wounded"
+      },
+      {
+        "zType": "TEXT_TRAIT_SEVERELY_WOUNDED",
+        "English": "Severely Wounded"
       }
     ]
   }

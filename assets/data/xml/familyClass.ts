@@ -6,7 +6,13 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "zUnitWidget": {
+          
+        },
+        "zCityWidget": {
           
         },
         "zCharacterPortraitBackground": {
@@ -18,25 +24,13 @@
         "SeatCrest": {
           
         },
-        "iFoundCostBase": {
-          
-        },
-        "iFoundCostPer": {
-          
-        },
-        "iOurGovernorUs": {
-          
-        },
-        "iTheirGovernorUs": {
-          
-        },
-        "iOurGovernorThem": {
-          
-        },
         "iLeaderHeirOpinion": {
           
         },
         "iLeaderSpouseOpinion": {
+          
+        },
+        "iHeirSpouseOpinion": {
           
         },
         "iDescendantSpouseOpinion": {
@@ -48,7 +42,7 @@
         "iLeaderUnmarriedOpinion": {
           
         },
-        "iLeaderBarbarianSpouseOpinion": {
+        "iLeaderTribeSpouseOpinion": {
           
         },
         "iNoCouncilOpinion": {
@@ -81,7 +75,7 @@
         "iNoReligionOpinion": {
           
         },
-        "iNotConnectedOpinion": {
+        "iConnectedOpinion": {
           
         },
         "iCityDamagedOpinion": {
@@ -97,6 +91,12 @@
           
         },
         "iHostileUnitOpinion": {
+          
+        },
+        "bPrefersDistant": {
+          
+        },
+        "EffectUnit": {
           
         },
         "EffectCity": {
@@ -123,626 +123,664 @@
         "aiLawOpinion": {
           
         },
-        "aiStateTheologyOpinion": {
-          
-        },
-        "aiTheologyOpinion": {
-          
-        },
         "aiTraitDie": {
+          
+        },
+        "aeLuxuryEffectCity": {
           
         }
       },
       {
-        "zType": "FAMILY_CLASS_LANDOWNERS",
-        "zName": "Landowners",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_LANDOWNERS",
-        "SeatCrest": "CREST_FAMILY_CLASS_LANDOWNERS_SEAT",
-        "iMostCitiesOpinion": "50",
-        "iFewestCitiesOpinion": "-50",
-        "iCityDefendedOpinion": "20",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_LANDOWNERS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_LANDOWNERS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_LANDOWNERS_SEAT",
+        "zType": "FAMILYCLASS_LANDOWNERS",
+        "Name": "TEXT_FAMILYCLASS_LANDOWNERS",
+        "zUnitWidget": "CIRCLE",
+        "zCityWidget": "CITY_CIRCLE",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_LANDOWNERS",
+        "SeatCrest": "CREST_FAMILYCLASS_LANDOWNERS_SEAT",
+        "iMostCitiesOpinion": "40",
+        "iFewestCitiesOpinion": "-40",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_LANDOWNERS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_LANDOWNERS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_LANDOWNERS_SEAT",
         "aiDowryYieldBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "500"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_WOOD",
-            "iValue": "-50"
-          }
-        },
-        "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_SALT",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_COLONIZATION",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_COIN_DEBASEMENT",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_CENTRALIZATION",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiTheologyOpinion": {
-          "Pair": {
-            "zIndex": "THEOLOGY_ENLIGHTENMENT",
-            "iValue": "10"
-          }
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_CHAMPIONS",
-        "zName": "Champions",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_CHAMPIONS",
-        "SeatCrest": "CREST_FAMILY_CLASS_CHAMPIONS_SEAT",
-        "iLargestMilitaryOpinion": "40",
-        "iSmallestMilitaryOpinion": "-40",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_CHAMPIONS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_CHAMPIONS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_CHAMPIONS_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "250"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "-25"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_ENGINEERING",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_VOLUNTEERS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_TYRANNY",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "10"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_STATESMEN",
-        "zName": "Statesmen",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_STATESMEN",
-        "SeatCrest": "CREST_FAMILY_CLASS_STATESMEN_SEAT",
-        "iLeaderHeirOpinion": "40",
-        "iNoCouncilOpinion": "-20",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_STATESMEN",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_STATESMEN_SEAT",
-        "FoundBonus": "BONUS_FAMILY_CLASS_STATESMEN",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "250"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "-25"
-          }
-        },
-        "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_PEARL",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_CONSTITUTION",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_ELITES",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_POLYTHEISM",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiStateTheologyOpinion": {
-          "Pair": {
-            "zIndex": "THEOLOGY_LEGALISM",
-            "iValue": "20"
-          }
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_PATRONS",
-        "zName": "Patrons",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_PATRONS",
-        "SeatCrest": "CREST_FAMILY_CLASS_PATRONS_SEAT",
-        "iDescendantSpouseOpinion": "20",
-        "iWonderOpinion": "20",
-        "iCityDamagedOpinion": "-40",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_PATRONS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_PATRONS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_PATRONS_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "500"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-50"
-          }
-        },
-        "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_GEM",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_VASSALAGE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_ICONOGRAPHY",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_ASCETICISM",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiTheologyOpinion": {
-          "Pair": {
-            "zIndex": "THEOLOGY_VENERATION",
-            "iValue": "10"
-          }
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_CLERICS",
-        "zName": "Clerics",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_CLERICS",
-        "SeatCrest": "CREST_FAMILY_CLASS_CLERICS_SEAT",
-        "iNoReligionOpinion": "-20",
-        "iUnitInsideOpinion": "10",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_CLERICS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_CLERICS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_CLERICS_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "50"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "-5"
-          }
-        },
-        "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_INCENSE",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_MONOTHEISM",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_HOLY_WAR",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_DIVINE_RULE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_TOLERANCE",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_SAGES",
-        "zName": "Sages",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_SAGES",
-        "SeatCrest": "CREST_FAMILY_CLASS_SAGES_SEAT",
-        "iLeaderBarbarianSpouseOpinion": "-40",
-        "iPillagedOpinion": "-20",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_SAGES",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_SAGES_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_SAGES_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_SCIENCE",
-            "iValue": "250"
-          }
-        },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_SCIENCE",
-            "iValue": "-25"
-          }
-        },
-        "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_PHILOSOPHY",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_SECULARISM",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_ORTHODOXY",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiStateTheologyOpinion": {
-          "Pair": {
-            "zIndex": "THEOLOGY_GNOSTICISM",
-            "iValue": "20"
-          }
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_TRADERS",
-        "zName": "Traders",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_TRADERS",
-        "SeatCrest": "CREST_FAMILY_CLASS_TRADERS_SEAT",
-        "iLeaderSpouseOpinion": "40",
-        "iLeaderUnmarriedOpinion": "-40",
-        "iNotConnectedOpinion": "-40",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_TRADERS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_TRADERS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_TRADERS_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
             "iValue": "1000"
           }
         },
         "aiDowryYieldPer": {
           "Pair": {
-            "zIndex": "YIELD_MONEY",
+            "zIndex": "YIELD_WOOD",
             "iValue": "-100"
           }
         },
         "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_HONEY",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_OLIVE",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
           "Pair": {
-            "zIndex": "RESOURCE_OLIVE",
+            "zIndex": "LAW_SERFDOM",
+            "iValue": "20"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_HONEY",
+              "zValue": "EFFECTCITY_LUXURY_LANDOWNERS_HONEY"
+            },
+            {
+              "zIndex": "RESOURCE_OLIVE",
+              "zValue": "EFFECTCITY_LUXURY_LANDOWNERS_OLIVE"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_CHAMPIONS",
+        "Name": "TEXT_FAMILYCLASS_CHAMPIONS",
+        "zUnitWidget": "SHIELD",
+        "zCityWidget": "CITY_SHIELD",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_CHAMPIONS",
+        "SeatCrest": "CREST_FAMILYCLASS_CHAMPIONS_SEAT",
+        "iLargestMilitaryOpinion": "40",
+        "iSmallestMilitaryOpinion": "-40",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_CHAMPIONS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_CHAMPIONS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_CHAMPIONS_SEAT",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "500"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-50"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_WINE",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_DYE",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_VOLUNTEERS",
+            "iValue": "20"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "10"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_WINE",
+              "zValue": "EFFECTCITY_LUXURY_CHAMPIONS_WINE"
+            },
+            {
+              "zIndex": "RESOURCE_DYE",
+              "zValue": "EFFECTCITY_LUXURY_CHAMPIONS_DYE"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_STATESMEN",
+        "Name": "TEXT_FAMILYCLASS_STATESMEN",
+        "zUnitWidget": "GUITAR_PICK",
+        "zCityWidget": "CITY_GUITAR_PICK",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_STATESMEN",
+        "SeatCrest": "CREST_FAMILYCLASS_STATESMEN_SEAT",
+        "iLeaderUnmarriedOpinion": "-20",
+        "iNoCouncilOpinion": "-20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_STATESMEN",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_STATESMEN_SEAT",
+        "FoundBonus": "BONUS_FAMILYCLASS_STATESMEN",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "500"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "-50"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_WINE",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_CONSTITUTION",
+            "iValue": "10"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "zValue": "EFFECTCITY_LUXURY_STATESMEN_PEARL"
+            },
+            {
+              "zIndex": "RESOURCE_WINE",
+              "zValue": "EFFECTCITY_LUXURY_STATESMEN_WINE"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_PATRONS",
+        "Name": "TEXT_FAMILYCLASS_PATRONS",
+        "zUnitWidget": "SQUARE",
+        "zCityWidget": "CITY_SQUARE",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_PATRONS",
+        "SeatCrest": "CREST_FAMILYCLASS_PATRONS_SEAT",
+        "iLeaderNotAdultOpinion": "-20",
+        "iWonderOpinion": "20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_PATRONS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_PATRONS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_PATRONS_SEAT",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "1000"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-100"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_GEM",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_INCENSE",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_CALLIGRAPHY",
+            "iValue": "40"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_GEM",
+              "zValue": "EFFECTCITY_LUXURY_PATRONS_GEM"
+            },
+            {
+              "zIndex": "RESOURCE_INCENSE",
+              "zValue": "EFFECTCITY_LUXURY_PATRONS_INCENSE"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_CLERICS",
+        "Name": "TEXT_FAMILYCLASS_CLERICS",
+        "zUnitWidget": "HEXAGON",
+        "zCityWidget": "CITY_HEXAGON",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_CLERICS",
+        "SeatCrest": "CREST_FAMILYCLASS_CLERICS_SEAT",
+        "iPopulationOpinion": "40",
+        "iNoReligionOpinion": "-20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_CLERICS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_CLERICS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_CLERICS_SEAT",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "100"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
             "iValue": "-10"
           }
         },
-        "aiLawOpinion": {
+        "aiLuxuryMissingOpinion": {
           "Pair": [
             {
-              "zIndex": "LAW_MONETARY_REFORM",
-              "iValue": "20"
+              "zIndex": "RESOURCE_INCENSE",
+              "iValue": "-10"
             },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_DIVINE_RULE",
+            "iValue": "30"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_INCENSE",
+              "zValue": "EFFECTCITY_LUXURY_CLERICS_INCENSE"
+            },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "zValue": "EFFECTCITY_LUXURY_CLERICS_LAVENDER"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_SAGES",
+        "Name": "TEXT_FAMILYCLASS_SAGES",
+        "zUnitWidget": "OCTAGON",
+        "zCityWidget": "CITY_OCTAGON",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_SAGES",
+        "SeatCrest": "CREST_FAMILYCLASS_SAGES_SEAT",
+        "iLeaderTribeSpouseOpinion": "-40",
+        "iCityDefendedOpinion": "20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_SAGES",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_SAGES_SEAT",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "500"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "-50"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_SALT",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_FREEDOM",
+            "iValue": "10"
+          }
+        },
+        "aiTraitDie": {
+          "Pair": [
+            {
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "zValue": "EFFECTCITY_LUXURY_SAGES_LAVENDER"
+            },
+            {
+              "zIndex": "RESOURCE_SALT",
+              "zValue": "EFFECTCITY_LUXURY_SAGES_SALT"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_TRADERS",
+        "Name": "TEXT_FAMILYCLASS_TRADERS",
+        "zUnitWidget": "DIAMOND",
+        "zCityWidget": "CITY_DIAMOND",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_TRADERS",
+        "SeatCrest": "CREST_FAMILYCLASS_TRADERS_SEAT",
+        "iConnectedOpinion": "10",
+        "iCityDamagedOpinion": "-40",
+        "bPrefersDistant": "1",
+        "EffectUnit": "EFFECTUNIT_SURVEYOR",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_TRADERS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_TRADERS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_TRADERS_SEAT",
+        "aiDowryYieldBase": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2000"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "-200"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_OLIVE",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": [
             {
               "zIndex": "LAW_TRADE_LEAGUE",
               "iValue": "20"
             },
             {
-              "zIndex": "LAW_SERFDOM",
-              "iValue": "-20"
+              "zIndex": "LAW_MONETARY_REFORM",
+              "iValue": "20"
             }
           ]
-        },
-        "aiStateTheologyOpinion": {
-          "Pair": {
-            "zIndex": "THEOLOGY_REDEMPTION",
-            "iValue": "20"
-          }
         },
         "aiTraitDie": {
           "Pair": [
@@ -787,148 +825,159 @@
               "iValue": "1"
             }
           ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_OLIVE",
+              "zValue": "EFFECTCITY_LUXURY_TRADERS_OLIVE"
+            },
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "zValue": "EFFECTCITY_LUXURY_TRADERS_PEARL"
+            }
+          ]
         }
       },
       {
-        "zType": "FAMILY_CLASS_ARTISANS",
-        "zName": "Artisans",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_ARTISANS",
-        "SeatCrest": "CREST_FAMILY_CLASS_ARTISANS_SEAT",
+        "zType": "FAMILYCLASS_ARTISANS",
+        "Name": "TEXT_FAMILYCLASS_ARTISANS",
+        "zUnitWidget": "TRIANGLE",
+        "zCityWidget": "CITY_TRIANGLE",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_ARTISANS",
+        "SeatCrest": "CREST_FAMILYCLASS_ARTISANS_SEAT",
         "iLuxuryOpinion": "20",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_ARTISANS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_ARTISANS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_ARTISANS_SEAT",
+        "iPillagedOpinion": "-20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_ARTISANS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_ARTISANS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_ARTISANS_SEAT",
         "aiDowryYieldBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "500"
+            "iValue": "1000"
           }
         },
         "aiDowryYieldPer": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-50"
+            "iValue": "-100"
           }
         },
         "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_DYE",
-            "iValue": "-10"
-          }
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_DYE",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_GEM",
+              "iValue": "-10"
+            }
+          ]
         },
         "aiLawOpinion": {
-          "Pair": [
-            {
-              "zIndex": "LAW_EPICS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_CALLIGRAPHY",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_ISOLATIONISM",
-              "iValue": "-20"
-            }
-          ]
-        },
-        "aiTheologyOpinion": {
           "Pair": {
-            "zIndex": "THEOLOGY_MYTHOLOGY",
-            "iValue": "10"
-          }
-        },
-        "aiTraitDie": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "FAMILY_CLASS_RIDERS",
-        "zName": "Riders",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_RIDERS",
-        "SeatCrest": "CREST_FAMILY_CLASS_RIDERS_SEAT",
-        "iLargestMilitaryOpinion": "40",
-        "iSmallestMilitaryOpinion": "-40",
-        "iHostileUnitOpinion": "-20",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_RIDERS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_RIDERS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_RIDERS_SEAT",
-        "aiDowryYieldBase": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
+            "zIndex": "LAW_GUILDS",
             "iValue": "50"
           }
         },
-        "aiDowryYieldPer": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "-5"
-          }
-        },
-        "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_WINE",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
+        "aiTraitDie": {
           "Pair": [
             {
-              "zIndex": "LAW_PROFESSIONAL_ARMY",
-              "iValue": "20"
+              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
+              "iValue": "1"
             },
             {
-              "zIndex": "LAW_GUILDS",
-              "iValue": "-20"
+              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "TRAIT_HERO_ARCHETYPE",
+              "iValue": "1"
             }
           ]
         },
-        "aiStateTheologyOpinion": {
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_DYE",
+              "zValue": "EFFECTCITY_LUXURY_ARTISANS_DYE"
+            },
+            {
+              "zIndex": "RESOURCE_GEM",
+              "zValue": "EFFECTCITY_LUXURY_ARTISANS_GEM"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "FAMILYCLASS_RIDERS",
+        "Name": "TEXT_FAMILYCLASS_RIDERS",
+        "zUnitWidget": "PENTAGON",
+        "zCityWidget": "CITY_PENTAGON",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_RIDERS",
+        "SeatCrest": "CREST_FAMILYCLASS_RIDERS_SEAT",
+        "iHostileUnitOpinion": "-20",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_RIDERS_SEAT",
+        "aiDowryYieldBase": {
           "Pair": {
-            "zIndex": "THEOLOGY_REVELATION",
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "100"
+          }
+        },
+        "aiDowryYieldPer": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-10"
+          }
+        },
+        "aiLuxuryMissingOpinion": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_SALT",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "RESOURCE_FUR",
+              "iValue": "-10"
+            }
+          ]
+        },
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_VASSALAGE",
             "iValue": "20"
           }
         },
@@ -975,56 +1024,59 @@
               "iValue": "5"
             }
           ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_SALT",
+              "zValue": "EFFECTCITY_LUXURY_RIDERS_SALT"
+            },
+            {
+              "zIndex": "RESOURCE_FUR",
+              "zValue": "EFFECTCITY_LUXURY_RIDERS_FUR"
+            }
+          ]
         }
       },
       {
-        "zType": "FAMILY_CLASS_HUNTERS",
-        "zName": "Hunters",
-        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILY_CLASS",
-        "Crest": "CREST_FAMILY_CLASS_HUNTERS",
-        "SeatCrest": "CREST_FAMILY_CLASS_HUNTERS_SEAT",
-        "iLeaderNotAdultOpinion": "-40",
-        "iPopulationOpinion": "40",
-        "EffectCity": "EFFECTCITY_FAMILY_CLASS_HUNTERS",
-        "SeatEffectCity": "EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT",
-        "SeatFoundBonus": "BONUS_FAMILY_CLASS_HUNTERS_SEAT",
+        "zType": "FAMILYCLASS_HUNTERS",
+        "Name": "TEXT_FAMILYCLASS_HUNTERS",
+        "zUnitWidget": "ENEMY_ICON",
+        "zCityWidget": "CITY_ENEMY_ICON",
+        "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
+        "Crest": "CREST_FAMILYCLASS_HUNTERS",
+        "SeatCrest": "CREST_FAMILYCLASS_HUNTERS_SEAT",
+        "iUnitInsideOpinion": "5",
+        "EffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS",
+        "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT",
+        "SeatFoundBonus": "BONUS_FAMILYCLASS_HUNTERS_SEAT",
         "aiDowryYieldBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "500"
+            "iValue": "1000"
           }
         },
         "aiDowryYieldPer": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-50"
+            "iValue": "-100"
           }
         },
         "aiLuxuryMissingOpinion": {
-          "Pair": {
-            "zIndex": "RESOURCE_FUR",
-            "iValue": "-10"
-          }
-        },
-        "aiLawOpinion": {
           "Pair": [
             {
-              "zIndex": "LAW_FREEDOM",
-              "iValue": "20"
+              "zIndex": "RESOURCE_FUR",
+              "iValue": "-10"
             },
             {
-              "zIndex": "LAW_EXPLORATION",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "LAW_SLAVERY",
-              "iValue": "-20"
+              "zIndex": "RESOURCE_HONEY",
+              "iValue": "-10"
             }
           ]
         },
-        "aiTheologyOpinion": {
+        "aiLawOpinion": {
           "Pair": {
-            "zIndex": "THEOLOGY_DUALISM",
+            "zIndex": "LAW_EXPLORATION",
             "iValue": "10"
           }
         },
@@ -1069,6 +1121,18 @@
             {
               "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "5"
+            }
+          ]
+        },
+        "aeLuxuryEffectCity": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_FUR",
+              "zValue": "EFFECTCITY_LUXURY_HUNTERS_FUR"
+            },
+            {
+              "zIndex": "RESOURCE_HONEY",
+              "zValue": "EFFECTCITY_LUXURY_HUNTERS_HONEY"
             }
           ]
         }

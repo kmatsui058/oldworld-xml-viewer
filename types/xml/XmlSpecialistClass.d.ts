@@ -8,8 +8,16 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   bUrban?: ZType | string;
+  aeResourceCityEffect?: AeResourceCityEffect;
+}
+export interface AeResourceCityEffect {
+  Pair?: Pair[] | Pair;
+}
+export interface Pair {
+  zIndex: string;
+  zValue: string;
 }
 export interface ZType {
 }

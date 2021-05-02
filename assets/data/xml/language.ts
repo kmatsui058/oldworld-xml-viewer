@@ -76,6 +76,17 @@
         "zCurrencyPrefix": "$",
         "zThousandPostfix": "K",
         "zMillionPostfix": "M"
+      },
+      {
+        "zType": "LANGUAGE_TRANSLATION",
+        "zFieldName": "Translation",
+        "bPublicBuild": "1",
+        "zSingularExpression": "x==1",
+        "zThousandsSeparator": ",",
+        "zDecimalSeparator": ".",
+        "zCurrencyPrefix": "$",
+        "zThousandPostfix": "K",
+        "zMillionPostfix": "M"
       }
     ]
   }

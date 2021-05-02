@@ -19,24 +19,48 @@
         "zName": "Legacy Achieved"
       },
       {
-        "zType": "STAT_BARBARIAN_CLEARED",
-        "zName": "Barbarian Cleared"
+        "zType": "STAT_TRIBE_CONTACTED",
+        "zName": "Tribe Contacted"
       },
       {
-        "zType": "STAT_BARBARIAN_PEACE",
-        "zName": "Barbarian Peace"
+        "zType": "STAT_TRIBE_CLEARED",
+        "zName": "Tribe Cleared"
       },
       {
-        "zType": "STAT_BARBARIAN_ALLIANCE",
-        "zName": "Barbarian Alliance"
+        "zType": "STAT_TRIBE_PEACE",
+        "zName": "Tribal Peace"
       },
       {
-        "zType": "STAT_BARBARIAN_CONVERSION",
-        "zName": "Barbarian Conversion"
+        "zType": "STAT_TRIBE_ALLIANCE",
+        "zName": "Tribal Alliance"
+      },
+      {
+        "zType": "STAT_TRIBE_CONVERSION",
+        "zName": "Tribal Conversion"
+      },
+      {
+        "zType": "STAT_MERCENARIES_RECRUITED",
+        "zName": "Mercenaries Recruited"
+      },
+      {
+        "zType": "STAT_MERCENARIES_HIRED",
+        "zName": "Mercenaries Hired"
+      },
+      {
+        "zType": "STAT_TEAM_CONTACTED",
+        "zName": "Player Contacted"
       },
       {
         "zType": "STAT_TEAM_ALLIANCE",
-        "zName": "Team Alliance"
+        "zName": "Player Alliance"
+      },
+      {
+        "zType": "STAT_CARAVAN_ARRIVED",
+        "zName": "Caravan Arrived"
+      },
+      {
+        "zType": "STAT_CAPITAL_CAPTURED",
+        "zName": "Capitals Captured"
       },
       {
         "zType": "STAT_CITY_FOUNDED",
@@ -67,16 +91,24 @@
         "zName": "Improvements Repaired"
       },
       {
+        "zType": "STAT_LANDMARK_DISCOVERED",
+        "zName": "Landmarks Discovered"
+      },
+      {
+        "zType": "STAT_LANDMARK_NAMED",
+        "zName": "Landmarks Named"
+      },
+      {
+        "zType": "STAT_LEADER_COUNT",
+        "zName": "Leader Count"
+      },
+      {
         "zType": "STAT_NATION_FOUNDED",
         "zName": "Nation Founded"
       },
       {
-        "zType": "STAT_PLAYER_ALLIANCE",
-        "zName": "Player Alliance"
-      },
-      {
-        "zType": "STAT_RELIGION_FOUNDED",
-        "zName": "Religion Founded"
+        "zType": "STAT_WORLD_RELIGION_FOUNDED",
+        "zName": "World Religion Founded"
       },
       {
         "zType": "STAT_RELIGION_SPREAD",
@@ -87,7 +119,7 @@
         "zName": "Ruins Explored"
       },
       {
-        "zType": "STAT_SPECIALIST_TRAINED",
+        "zType": "STAT_SPECIALIST_PRODUCED",
         "zName": "Specialist Trained"
       },
       {
@@ -99,6 +131,10 @@
         "zName": "Theology Established"
       },
       {
+        "zType": "STAT_TILES_REVEALED",
+        "zName": "Tiles Revealed"
+      },
+      {
         "zType": "STAT_UNIT_TRAINED",
         "zName": "Units Trained"
       },
@@ -107,12 +143,20 @@
         "zName": "Units Promoted"
       },
       {
-        "zType": "STAT_UNIT_KILLED",
-        "zName": "Units Killed"
+        "zType": "STAT_UNIT_MILITARY_KILLED",
+        "zName": "Military Units Killed"
+      },
+      {
+        "zType": "STAT_UNIT_MILITARY_KILLED_GENERAL",
+        "zName": "Military Units Killed (as General)"
       },
       {
         "zType": "STAT_UNIT_LOST",
         "zName": "Units Lost"
+      },
+      {
+        "zType": "STAT_VEGETATION_REMOVED",
+        "zName": "Vegetation Removed"
       },
       {
         "zType": "STAT_WONDER_FINISHED",
@@ -121,10 +165,6 @@
       {
         "zType": "STAT_YEARS_REIGNED",
         "zName": "Years Reigned"
-      },
-      {
-        "zType": "STAT_PROJECT_INQUIRY",
-        "zName": "Inquiries Finished"
       }
     ]
   }

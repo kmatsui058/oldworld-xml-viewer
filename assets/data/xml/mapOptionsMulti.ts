@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "Choices": {
@@ -24,7 +24,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_RESOURCE_DENSITY",
-        "zName": "TEXT_MAP_OPTION_RESOURCE_DENSITY",
+        "Name": "TEXT_MAP_OPTION_RESOURCE_DENSITY",
         "Choices": {
           "zValue": [
             "MAP_OPTION_HIGH_RESOURCES",
@@ -36,7 +36,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_SCENARIO_RESOURCES",
-        "zName": "TEXT_MAP_SCENARIO_RESOURCES",
+        "Name": "TEXT_MAP_SCENARIO_RESOURCES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_DEFAULT_RESOURCES",
@@ -47,7 +47,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_SEASIDE_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_PLAYER_START_ANYWHERE",
@@ -60,7 +60,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_SEASIDE_TRIBES",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_SEASIDE_TRIBES_RANDOM",
@@ -74,7 +74,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_SEASIDE_TERRAIN_TYPE_VARIATION",
-        "zName": "TEXT_MAP_OPTION_TERRAIN_TYPE_VARIATION",
+        "Name": "TEXT_MAP_OPTION_TERRAIN_TYPE_VARIATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_SEASIDE_TERRAIN_RANDOM",
@@ -88,7 +88,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_ARID_WATER_SIZE",
-        "zName": "TEXT_MAP_OPTION_WATER_SIZE",
+        "Name": "TEXT_MAP_OPTION_WATER_SIZE",
         "Choices": {
           "zValue": [
             "MAP_OPTION_WATER_SIZE_RANDOM",
@@ -100,7 +100,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_ARID_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_PLAYER_START_ANYWHERE",
@@ -114,7 +114,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_ARID_TRIBES_SP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_ARID_TRIBES_RANDOM",
@@ -129,7 +129,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_ARID_TRIBES_MP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_ARID_TRIBES_BARBARIANS",
@@ -144,7 +144,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_ARID_WATER_LOCATION",
-        "zName": "TEXT_MAP_OPTION_WATER_LOCATION",
+        "Name": "TEXT_MAP_OPTION_WATER_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_ARID_WATER_LOCATION_RANDOM",
@@ -156,7 +156,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_TRIBES_SP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_INLAND_SEA_TRIBES_RANDOM",
@@ -172,7 +172,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_TRIBES_MP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS",
@@ -187,7 +187,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_WATER_SIZE",
-        "zName": "TEXT_MAP_OPTION_WATER_SIZE",
+        "Name": "TEXT_MAP_OPTION_WATER_SIZE",
         "Choices": {
           "zValue": [
             "MAP_OPTION_WATER_SIZE_RANDOM",
@@ -199,7 +199,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_PLAYER_START_ANYWHERE",
@@ -212,7 +212,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_HARDWOOD_FOREST_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA",
@@ -225,7 +225,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_HARDWOOD_FOREST_TRIBES",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST",
@@ -238,7 +238,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_NORTHERN_OCEAN_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT",
@@ -251,7 +251,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_NORTHERN_OCEAN_TRIBES",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE",
@@ -263,7 +263,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_CONTINENT_PLAYER_START_LOCATION",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_CONTINENT_PLAYER_START_SEA",
@@ -276,7 +276,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_CONTINENT_TRIBES",
-        "zName": "TEXT_MAP_OPTION_LOCATION_OF_TRIBAL_LANDS",
+        "Name": "TEXT_MAP_OPTION_LOCATION_OF_TRIBAL_LANDS",
         "Choices": {
           "zValue": [
             "MAP_OPTION_CONTINENT_TRIBES_RANDOM",
@@ -291,7 +291,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_CONTINENT_TERRAIN",
-        "zName": "TEXT_MAP_OPTION_TYPE_OF_EXTREME_TERRAIN",
+        "Name": "TEXT_MAP_OPTION_TYPE_OF_EXTREME_TERRAIN",
         "Choices": {
           "zValue": [
             "MAP_OPTION_CONTINENT_TERRAIN_EITHER",
@@ -304,7 +304,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_COASTAL_RAIN_BASIN_TERRAIN_PLAYER_START",
-        "zName": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
           "zValue": [
             "MAP_OPTION_PLAYER_START_ANYWHERE",
@@ -318,7 +318,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_COASTAL_RAIN_BASIN_TERRAIN_TRIBES_SP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
@@ -333,7 +333,7 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_COASTAL_RAIN_BASIN_TERRAIN_TRIBES_MP",
-        "zName": "TEXT_MAP_OPTION_TRIBES",
+        "Name": "TEXT_MAP_OPTION_TRIBES",
         "Choices": {
           "zValue": [
             "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
@@ -348,18 +348,17 @@
       },
       {
         "zType": "MAP_OPTIONS_MULTI_DISJUNCTION_CONTINENTS",
-        "zName": "TEXT_MAP_OPTION_CONTINENTS",
+        "Name": "TEXT_MAP_OPTION_CONTINENTS",
         "Choices": {
           "zValue": [
             "MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM",
             "MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN",
-            "MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_UNEVEN",
             "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN",
-            "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN"
+            "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN",
+            "MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS"
           ]
         },
-        "Default": "MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM",
-        "bMultiPlayerValid": "0"
+        "Default": "MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS"
       }
     ]
   }

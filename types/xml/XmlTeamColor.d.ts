@@ -9,11 +9,12 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   TeamPlayerColor: ZType | string;
+  bNation?: ZType | string;
   aePlayerColors: AePlayerColors;
   aeBorderPatterns: AePlayerColors;
 }
 export interface AePlayerColors {
-  zValue?: string[];
+  zValue?: string[] | string;
 }
 export interface ZType {
 }

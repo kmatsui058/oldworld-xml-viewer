@@ -56,271 +56,260 @@
         "zType": "MAP_ELEMENT_NAMES_GENERIC",
         "azVolcanoNames": {
           "zValue": [
-            "Kilimanjaro",
+            "Waw an Namus",
             "Mount Elbrus",
             "Mount Kazbek",
-            "Mount Pico",
-            "Mount Meru",
-            "Mount Karisimbi",
-            "Mount Muhabura",
             "Mount Aragats",
-            "Nabro",
-            "Mount Kenya",
-            "Mount Giluwe",
             "Kabargin Oth",
             "Dar-Alages",
             "Ghegam Ridge",
-            "Tousside",
-            "Vakak",
-            "Tarso Voon",
-            "Porak",
-            "Mount Longonot",
-            "Mount Suswa"
+            "Porak"
           ]
         },
         "azMountainRangeNames": {
           "zValue": [
-            "Caucasus Mountains",
             "Pyrenees",
             "Balkan Mountains",
-            "Kunlun Mountains",
             "Carpathian Mountains",
-            "Ural Mountains",
-            "Hindu Kush",
-            "Barasan Mountains",
+            "Dinaric Alps",
+            "Soudeta Mountains",
+            "Caucasus Mountains",
+            "Paropamisadae",
+            "Kackar Mountains",
             "Pontic Mountains",
-            "Vindhya Range",
-            "Arakan Mountains",
-            "Karakoram"
+            "Lebanon Mountains",
+            "Mount Carmel"
           ]
         },
         "azPeakNames": {
           "zValue": [
             "Mount Korab",
-            "Bazarduzu",
-            "Monte Rosa",
             "Moldovenu Peak",
-            "Jebel Toubkal",
-            "Punta La Marmara",
-            "Jabal Sawda",
-            "Dinara",
+            "Mount Bazarduzu",
+            "Shkhara",
+            "Toubkal",
             "Mount Tahat",
-            "Grossglockner",
             "Bikku Bitti",
+            "Grossglockner",
             "Mulhacen",
             "Rysy",
-            "Mount Hernon",
-            "Shkhara",
             "Kekes",
-            "Jabal Umm ad Dami",
             "Triglav",
+            "Mount Herminius",
+            "Mount Hermon",
             "Mount Sannine",
-            "Jabal an Nabi Shu'ayb"
+            "Mount Dindymon"
           ]
         },
         "azRiverNames": {
           "zValue": [
-            "The Danube",
-            "Kura River",
             "Tagus River",
-            "Jordan River",
-            "Dneiper River",
-            "Vistula River",
-            "Sakarya River",
-            "Amu Darya",
-            "Rhone River",
-            "Oued Sebou",
-            "Aras River",
-            "Oder River",
-            "Mondego River",
-            "Kizilirmak River",
-            "Mur River",
-            "Oued Tensift",
-            "Tisza River",
+            "Anas River",
+            "Baetis River",
+            "Durius River",
+            "Hiber River",
+            "Mundicus River",
+            "Thader River",
+            "Sucro River",
+            "Drilo River",
+            "Danube",
+            "Marisus River",
+            "Tisia River",
+            "Draus River",
+            "Sangarius River",
+            "Macestus River",
+            "Calbis River",
+            "Halys River",
+            "Caecus River",
+            "Rhodanus River",
+            "Druentia River",
+            "Liger River",
+            "Sequana River",
+            "Samara River",
+            "Marne River",
+            "Garumna River",
+            "Tarnis River",
+            "Renos River",
+            "Mosella River",
+            "Mosa River",
+            "Albis River",
+            "Visurgis River",
+            "Amisia River",
+            "Tamesis River",
             "Shannon River",
-            "Gediz River",
-            "Oued Draa"
+            "Borysthenes River",
+            "Vistula River",
+            "Viadrus River",
+            "Hypanis River",
+            "Tyras River",
+            "Porata River",
+            "Suevus River",
+            "Maura River",
+            "Jordan River",
+            "Orontes River",
+            "Kura River",
+            "Daix River",
+            "Tanais River",
+            "Rha River",
+            "Oxus River",
+            "Jaxartes River",
+            "Indus River",
+            "Hydaspes River",
+            "Hyphasis River",
+            "Atrek River",
+            "Sububus River",
+            "Draa River"
           ]
         },
         "azForestNames": {
           "zValue": [
-            "Forest1",
-            "Forest2",
-            "Forest3",
-            "Forest4",
-            "Forest5",
-            "Forest6",
-            "Forest7",
-            "Forest8",
-            "Forest9",
-            "Forest10",
-            "Forest11",
-            "Forest12"
+            "Caucasus Mixed Forest",
+            "Hercynian Forest",
+            "Posidium Pine Forest",
+            "Bialowieza Forest",
+            "Boubin Forest",
+            "Lagodekhi Beech Forest",
+            "Singidunum Forest",
+            "The Joglland",
+            "Irati Fir Forest",
+            "Anatolian Conifer Forest",
+            "Retezat Forest",
+            "Carpathian Beech Forest",
+            "Ordesa Forest",
+            "Sauwald Forest",
+            "Phoenician Cedar Forest",
+            "Phoenician Fir Forest"
           ]
         },
         "azHeathNames": {
           "zValue": [
-            "Heath1",
-            "Heath2",
-            "Heath3",
-            "Heath4",
-            "Heath5",
-            "Heath6",
-            "Heath7",
-            "Heath8",
-            "Heath9",
-            "Heath10",
-            "Heath11",
-            "Heath12"
+            "Trillemarka Taiga",
+            "Alcarria Heath",
+            "Acarlar Floodplain Forest",
+            "Gouraud Cedar Forest",
+            "Cyrenaica Juniper Stands",
+            "Vindobona Woods",
+            "Monterey Pine Forest",
+            "Catalonia Woodlands",
+            "Hiber Delta Woodland",
+            "Holm Oak Woodlands",
+            "Xeric Pine and Juniper",
+            "Maquis Shrubland"
           ]
         },
         "azPlainNames": {
           "zValue": [
-            "Plain1",
-            "Plain2",
-            "Plain3",
-            "Plain4",
-            "Plain5",
-            "Plain6",
-            "Plain7",
-            "Plain8",
-            "Plain9",
-            "Plain10",
-            "Plain11",
-            "Plain12"
+            "Bugulma-Belebey Upland",
+            "East European Plain",
+            "Kazakh Hummocks",
+            "Masovian Plain",
+            "Pannonian Plain",
+            "Danubian Plain",
+            "Campidano Plain",
+            "Mesaoria Plain",
+            "Crau Plain",
+            "Plain of Qu'e"
           ]
         },
         "azDesertNames": {
           "zValue": [
-            "The Sahara",
-            "The Arabian Desert",
-            "Desert3",
-            "Desert4",
-            "Desert5",
-            "Desert6",
-            "Desert7",
-            "Desert8",
-            "Desert9",
-            "Desert10",
-            "Desert11",
-            "Desert12"
+            "Tabernas Desert",
+            "Deliblato Sands",
+            "Sahara Desert",
+            "Kyzylkum Desert",
+            "Thar Desert",
+            "Karakum Desert"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "Plateau1",
-            "Plateau2",
-            "Plateau3",
-            "Plateau4",
-            "Plateau5",
-            "Plateau6",
-            "Plateau7",
-            "Plateau8",
-            "Plateau9",
-            "Plateau10",
-            "Plateau11",
-            "Plateau12",
-            "Plateau13",
-            "Plateau14",
-            "Plateau15",
-            "Plateau16",
-            "Plateau17",
-            "Plateau18",
-            "Plateau19",
-            "Plateau20"
+            "Barnim Plateau",
+            "Croix Scaille",
+            "Dumre Plateau",
+            "Elenydd Plateau",
+            "Engstligenalp Plateau",
+            "Krivosije Plateau",
+            "Loser Plateau",
+            "Ludogorie Plateau",
+            "Meseta Plateau",
+            "Caestert Plateau",
+            "Rownia pod Sniezka",
+            "Wardija Ridge",
+            "Campo Imperatore",
+            "Campo Felice",
+            "Plateau d'Assy",
+            "Canjuers Plateau",
+            "Aintab Plateau",
+            "Halab Plateau"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "Valley1",
-            "Valley2",
-            "Valley3",
-            "Valley4",
-            "Valley5",
-            "Valley6",
-            "Valley7",
-            "Valley8",
-            "Valley9",
-            "Valley10",
-            "Valley11",
-            "Valley12"
+            "Aatal Valley",
+            "Alpine Rhine Valley",
+            "Bjelopavlici Valley",
+            "Csanyik Valley",
+            "Diber Valley",
+            "Dischma Valley",
+            "Gauja Valley",
+            "Inntal Valley",
+            "Kaiserbach Valley",
+            "Andorra Valley",
+            "Schams Valley",
+            "Sofia Valley",
+            "Thuringian Gate Valley",
+            "Eisch Valley"
           ]
         },
         "azOceanNames": {
           "zValue": [
             "Indian Ocean",
-            "Atlantic Ocean",
-            "Pacific Ocean",
-            "Arctic Ocean"
+            "Atlantic Ocean"
           ]
         },
         "azSeaNames": {
           "zValue": [
-            "Sea of Marmara",
-            "Thracian Sea",
-            "Baltic Sea",
-            "Sea of Azov",
-            "North Sea",
+            "Suebicum Sea",
+            "Maeotian Lake",
             "Celtic Sea",
-            "White Sea",
-            "Laccadive Sea",
-            "Andaman Sea",
-            "Java Sea",
-            "Celebas Sea",
-            "Banda Sea",
-            "Phillipine Sea",
-            "Timor Sea"
+            "Erythraean Sea"
           ]
         },
         "azBayNames": {
           "zValue": [
-            "Bay1",
-            "Bay2",
-            "Bay3",
-            "Bay4",
-            "Bay5",
-            "Bay6",
-            "Bay7",
-            "Bay8",
-            "Bay9",
-            "Bay10",
-            "Bay11",
-            "Bay12"
+            "Cantabrian Sea",
+            "Gallic Gulf",
+            "Gulf of Cadiz",
+            "Bay of Palma",
+            "Mirabello Bay",
+            "Turkmenbashi Bay",
+            "Bay of Alghero"
           ]
         },
         "azLakeNames": {
           "zValue": [
-            "Lake1",
-            "Lake2",
-            "Lake3",
-            "Lake4",
-            "Lake5",
-            "Lake6",
-            "Lake7",
-            "Lake8",
-            "Lake9",
-            "Lake10",
-            "Lake11",
-            "Lake12",
-            "Lake13",
-            "Lake14",
-            "Lake15"
+            "Lake Flevo",
+            "Lake Brigantinus",
+            "Lake Lemanus",
+            "Dead Sea",
+            "Lake Balaton",
+            "Sarygamysh Lake",
+            "Loch Neagh",
+            "Zerrah Depression",
+            "Aral Sea"
           ]
         },
         "azIslandNames": {
           "zValue": [
-            "Island1",
-            "Island2",
-            "Island3",
-            "Island4",
-            "Island5",
-            "Island6",
-            "Island7",
-            "Island8",
-            "Island9",
-            "Island10",
-            "Island11",
-            "Island12"
+            "Ebusus Island",
+            "Ireland",
+            "Corsica",
+            "Palma Island",
+            "Vectis Island",
+            "Madeira Island",
+            "Sardinia",
+            "Mona Island",
+            "Lopadoussa Island"
           ]
         }
       },
@@ -330,89 +319,58 @@
           "zValue": [
             "Mount Ararat",
             "Mount Suphan",
-            "Monte Tendurek",
-            "Monte Nemrut"
+            "Mount Tondrak",
+            "Mount Argaeus"
           ]
         },
         "azMountainRangeNames": {
           "zValue": [
-            "Sinjar Mountains",
+            "Alborz",
+            "Zagros Mountains",
             "Taurus Mountains",
-            "Kackar Mountains",
-            "Cilo-Sat Mountain Range"
+            "Amanus Mountains"
           ]
         },
         "azPeakNames": {
           "zValue": [
-            "Jabal Zambar",
-            "Mount Alfaf",
-            "Gir-e Kumar",
-            "Mount Abdulaziz",
-            "Jabal Abu Rujmayn",
-            "Zawiya Mountain",
-            "Mount Musa"
+            "Mount Nemrud",
+            "Nipur Mountain",
+            "Mount Sinjar",
+            "Mount Alfaf"
           ]
         },
         "azRiverNames": {
           "zValue": [
-            "Euphrates River",
+            "Araxes River",
             "Tigris River",
-            "Great Zab River",
-            "Little Zab River",
-            "Nahr Al Uzaym",
-            "Wadi Ath Tharthar"
-          ]
-        },
-        "azForestNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
-        },
-        "azHeathNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Zab River",
+            "Euphrates River",
+            "Diyala River"
           ]
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Urmia Plain",
+            "Sinjar Plain"
           ]
         },
         "azDesertNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Syrian Desert",
+            "Arabian Desert"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Anatolian Plateau",
+            "Golan Heights"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Beqaa Valley",
+            "Munzur Valley"
           ]
-        },
-        "azOceanNames": {
-          "zValue": "Indian Ocean"
         },
         "azSeaNames": {
           "zValue": [
@@ -423,41 +381,27 @@
           ]
         },
         "azBayNames": {
-          "zValue": [
-            "Turkmenbashi Bay",
-            "Tahanroz'ka Gulf",
-            "Gulf of Aqaba",
-            "Gulf of Aden"
-          ]
+          "zValue": "Gulf of Aqaba"
         },
         "azLakeNames": {
           "zValue": [
-            "Tharthar Lake",
-            "Habbaniyah Lake",
-            "Van Golu",
-            "Hazar Golu",
-            "Lake Hamrin"
+            "Lake Urmia",
+            "Lake Van",
+            "Lake Sevan",
+            "Lake Hazar",
+            "Lake Habbaniyah",
+            "Tatta Lake"
           ]
         },
         "azIslandNames": {
           "zValue": [
             "Cyprus",
-            "Marmara Adasi",
-            "Lesvos",
-            "Samos"
+            "Failaka Island"
           ]
         }
       },
       {
         "zType": "MAP_ELEMENT_NAMES_FOR_BABYLONIA",
-        "azVolcanoNames": {
-          "zValue": [
-            "Mount Hasan",
-            "Mount Erciyes",
-            "Monte Nemrut",
-            "Monte Tendurek"
-          ]
-        },
         "azMountainRangeNames": {
           "zValue": [
             "Hamrin Mountains",
@@ -467,174 +411,118 @@
         },
         "azPeakNames": {
           "zValue": [
-            "Jabal Kumar",
-            "Jabal Bira Magrun",
-            "Cheeka Dar",
-            "Mount Korek",
-            "Jabal Sanam",
-            "Kuhe Haji Ebrahim",
-            "Al Matla"
+            "Mount Nemrud",
+            "Mount Nipur",
+            "Mount Sinjar",
+            "Cheekha Dar"
           ]
         },
         "azRiverNames": {
           "zValue": [
+            "Araxes River",
             "Tigris River",
+            "Zab River",
             "Euphrates River",
-            "Karun River",
-            "Nahr Al Diyala",
-            "Little Zab River",
-            "Great Zab River"
-          ]
-        },
-        "azForestNames": {
-          "zValue": [
-            "?",
-            "?"
-          ]
-        },
-        "azHeathNames": {
-          "zValue": [
-            "?",
-            "?"
+            "Diyala River",
+            "Pasitigris River"
           ]
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?"
+            "Chaldea Plain",
+            "Edin Plain",
+            "Urmia Plain",
+            "Sinjar Plain"
           ]
         },
         "azDesertNames": {
           "zValue": [
-            "?",
-            "?"
+            "Syrian Desert",
+            "Arabian Desert",
+            "Babylonian Desert"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?"
+            "Persian Plateau",
+            "Plateau of Elam"
           ]
-        },
-        "azValleyNames": {
-          "zValue": [
-            "?",
-            "?"
-          ]
-        },
-        "azOceanNames": {
-          "zValue": "Indian Ocean"
         },
         "azSeaNames": {
           "zValue": [
-            "Arabian Sea",
             "Caspian Sea",
-            "Black Sea",
             "Mediterranean Sea"
           ]
         },
         "azBayNames": {
-          "zValue": [
-            "Persian Gulf",
-            "Gulf of Aqaba",
-            "Gulf of Oman",
-            "Gulf of Aden"
-          ]
+          "zValue": "Persian Gulf"
         },
         "azLakeNames": {
           "zValue": [
-            "Lake Hamrin",
-            "Darbandikhan Lake",
-            "Dukan Lake",
-            "Razazza Lake",
-            "Lake Urmia"
+            "Lake Urmia",
+            "Lake Van",
+            "Lake Sevan",
+            "Lake Habbaniyah"
           ]
         },
         "azIslandNames": {
           "zValue": [
-            "Warbah Island",
-            "Bubiyan Island",
             "Failaka Island",
-            "Bahrain"
+            "Tylos Island"
           ]
         }
       },
       {
         "zType": "MAP_ELEMENT_NAMES_FOR_CARTHAGE",
-        "azVolcanoNames": {
-          "zValue": [
-            "Waw an Namus",
-            "Emi Koussi",
-            "Mount Cameroon"
-          ]
-        },
         "azMountainRangeNames": {
           "zValue": [
             "Aures Mountains",
-            "Atlas Mountains"
+            "Atlas Mountains",
+            "Mogod Mountains",
+            "Tell Atlas"
           ]
         },
         "azPeakNames": {
           "zValue": [
-            "Jebel Boukornine",
-            "Jebel Ressas",
-            "Jebel Serj",
-            "Jebel ech Chambi",
-            "Jebel Orbata",
-            "Jebel Dahar",
-            "Tembaine"
+            "Mount Tidighin",
+            "Ba'al Kornine"
           ]
         },
         "azRiverNames": {
           "zValue": [
-            "Oued Millane",
-            "Oued Medjerda",
-            "Oued Zeroud",
-            "Oued Sejenane",
-            "Oued El Melah",
-            "Oued Nebhana"
+            "Bagradas River",
+            "Muthul River",
+            "Subur River",
+            "Chylemath River",
+            "Malua River"
           ]
         },
         "azForestNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Cork Oak Forest"
         },
         "azHeathNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Thuya Woodlands"
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?",
-            "?"
+            "Zama Plain",
+            "Gefara Plain"
           ]
         },
         "azDesertNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Sahara Desert"
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?",
-            "?"
+            "Nefusa Plateau",
+            "Tripolitania Plateau",
+            "Hautes Plateau"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "?",
-            "?",
-            "?"
+            "Majardah Valley",
+            "Mades Valley"
           ]
         },
         "azOceanNames": {
@@ -651,15 +539,15 @@
         "azBayNames": {
           "zValue": [
             "Gulf of Tunis",
-            "Gulf of Hammamet",
-            "Gulf of Gabes",
-            "Gulf of Bejaia",
-            "Bay of Algiers",
-            "Arzew Gulf"
+            "Gulf of Syrtis",
+            "Gulf of Saldae",
+            "Icosium Bay",
+            "Gulf of Arsenaria"
           ]
         },
         "azLakeNames": {
           "zValue": [
+            "Lake Tritonis",
             "Lake of Tunis",
             "Bizerte Lake",
             "Ichkeul Lake",
@@ -670,133 +558,92 @@
         },
         "azIslandNames": {
           "zValue": [
-            "Malta",
-            "Pantellaria",
-            "Sharqi Island",
-            "Palma"
+            "Melite Island",
+            "Cossyra Island",
+            "Cercinna Island",
+            "Sicily"
           ]
         }
       },
       {
         "zType": "MAP_ELEMENT_NAMES_FOR_EGYPT",
-        "azVolcanoNames": {
-          "zValue": [
-            "Wonchi",
-            "Dendi",
-            "Ayalu",
-            "Kone",
-            "Mount Zuqualla"
-          ]
-        },
         "azMountainRangeNames": {
-          "zValue": [
-            "Marrah Mountains",
-            "Simien Mountains",
-            "Nuba Mountains"
-          ]
+          "zValue": "Uwaynat Mountains"
         },
         "azPeakNames": {
           "zValue": [
-            "Al-Qurn",
+            "Mount Sinai",
+            "Ta Dehent",
             "Mokattam",
-            "Shaiyb al-Banat",
             "Gabal Tingar",
-            "Mount Edmonstone",
-            "Jabal Sufr al Milahah",
-            "Crystal Mountain"
+            "Shaiyb al-Banat"
           ]
         },
         "azRiverNames": {
           "zValue": [
             "The Nile",
-            "White Nile",
-            "Blue Nile",
-            "Sobat River",
-            "Atbarah River"
+            "Tomis",
+            "Astaboras River"
           ]
         },
         "azForestNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Wadi El Rayan"
         },
         "azHeathNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Kafa-Yayu Woodland",
+            "Hamata Mangroves"
           ]
         },
         "azPlainNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Nabta Playa"
         },
         "azDesertNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Libyan Desert",
+            "Nubian Desert",
+            "Bayuda Desert",
+            "Nitrian Desert"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Gefir Kebir Plateau",
+            "Libyan Plateau"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?"
+            "Nile Valley",
+            "Ta sekhet Maat"
           ]
-        },
-        "azOceanNames": {
-          "zValue": "Indian Ocean"
         },
         "azSeaNames": {
           "zValue": [
             "Red Sea",
-            "Mediterranean Sea",
-            "Arabian Sea",
-            "Aegean Sea"
+            "Mediterranean Sea"
           ]
         },
         "azBayNames": {
           "zValue": [
             "Gulf of Suez",
-            "Gulf of Aqaba",
-            "Gulf of Aden"
+            "Gulf of Aqaba"
           ]
         },
         "azLakeNames": {
           "zValue": [
-            "Karun Lake",
+            "Phiom",
+            "Lake Moeris",
             "Toshka Lakes",
             "Great Bitter Lake",
-            "Burullus Lake",
-            "Bardawil Lake"
+            "Lake Serbonis"
           ]
         },
         "azIslandNames": {
           "zValue": [
-            "Tiran Island",
-            "Sanafir Island",
-            "Farasan Island",
-            "Cyprus",
-            "Crete"
+            "Iotabe Island",
+            "Sanufri Island",
+            "Portus Ferresanus"
           ]
         }
       },
@@ -804,115 +651,178 @@
         "zType": "MAP_ELEMENT_NAMES_FOR_GREECE",
         "azVolcanoNames": {
           "zValue": [
-            "Ciomadul",
-            "Adatepe"
+            "Mount Hellanion",
+            "Methana",
+            "Thera"
           ]
         },
         "azMountainRangeNames": {
           "zValue": [
-            "Pindus Mountains",
-            "Rhodope Mountains"
+            "Pindos Mountains",
+            "Taygetos Mountains",
+            "Lefka Ori",
+            "Rhodope Mountains",
+            "Pierian Mountains"
           ]
         },
         "azPeakNames": {
           "zValue": [
-            "Mount Pentelicus",
-            "Parnon",
-            "Mount Olympus",
+            "Mount Pentelikon",
+            "Mount Parnon",
+            "Mount Olympos",
             "Mount Helicon",
-            "Tomaros",
-            "Mount Paiko",
-            "Falakro"
+            "Mount Aroania",
+            "Mount Cyllene",
+            "Mount Varnous",
+            "Mount Erymanthos",
+            "Mount Othrys",
+            "Mount Ida",
+            "Mount Athos",
+            "Mount Tmolos",
+            "Mount Pelion",
+            "Mount Ossa",
+            "Mount Corydallos",
+            "Mount Dirphys",
+            "Mount Minthe",
+            "Mount Lykaion"
           ]
         },
         "azRiverNames": {
           "zValue": [
             "Haliacmon River",
-            "Maritsa River",
-            "Struma River",
-            "Vardar River",
+            "Evros River",
+            "Strymon River",
+            "Axios River",
             "Achelous River",
-            "Pineios River"
+            "Pineios River",
+            "Hermos River",
+            "Aoos River",
+            "Nestos River",
+            "Thyamis River",
+            "Cephissos River",
+            "Maeander River",
+            "Cayster River",
+            "Eurotas River",
+            "Alpheios River",
+            "Asopus River",
+            "Ilisos River"
           ]
         },
         "azForestNames": {
           "zValue": [
-            "?",
-            "?"
+            "Dadia Forest",
+            "Foloi Oak Forest",
+            "Skiritida Forest",
+            "Forest of Aianteio",
+            "Chaintous Forest"
           ]
         },
         "azHeathNames": {
           "zValue": [
-            "?",
-            "?"
+            "Peloponnesian Maquis",
+            "Vai Palm Forest"
           ]
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?"
-          ]
-        },
-        "azDesertNames": {
-          "zValue": [
-            "?",
-            "?"
+            "Drama Plain",
+            "Messara Plain",
+            "Argon Pedion",
+            "Kydonia Plain",
+            "Lelantine Plain",
+            "Thessalian Plain",
+            "Boeotian plain",
+            "Pelagonia"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?"
+            "Lasithi Plateau",
+            "Omalos Plateau",
+            "Nidha Plateau",
+            "Katharo Plateau"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "?",
-            "?"
+            "Vale of Tempe",
+            "Spercheios Valley",
+            "Amari Valley",
+            "Drinos Valley"
           ]
-        },
-        "azOceanNames": {
-          "zValue": "Atlantic Ocean"
         },
         "azSeaNames": {
           "zValue": [
             "Aegean Sea",
+            "Icarian Sea",
             "Myrtoan Sea",
             "Sea of Crete",
-            "Ionian Sea"
+            "Thracian Sea",
+            "Ionian Sea",
+            "Black Sea",
+            "Sea of Marmara",
+            "Livikon Pelagos",
+            "Karpathian Sea",
+            "Mediterranean Sea"
           ]
         },
         "azBayNames": {
           "zValue": [
-            "Gulf of Corinth",
-            "Saronic Gulf",
-            "Gulf of Patras",
-            "North Euboean Gulf",
+            "Corinthian Gulf",
+            "Laconic Gulf",
             "Argolic Gulf",
-            "Pagasetic Gulf",
-            "Ambracian Gulf"
+            "Saronic Gulf",
+            "Thermaic Gulf",
+            "Euboean Gulf",
+            "Pagasaean Gulf",
+            "Ambracian Gulf",
+            "Messinian Gulf",
+            "Megara Gulf",
+            "Malian Gulf",
+            "Alkyonides Gulf",
+            "Thymnias Bay"
           ]
         },
         "azLakeNames": {
           "zValue": [
-            "Limni Iliki",
-            "Limni Paralimni",
-            "Limni Trichonida",
-            "Lake Prespa",
-            "Limni Volvi",
-            "Limni Kerkini",
-            "Limni Pamvotida"
+            "Lake Hylike",
+            "Lake Trephia",
+            "Lake Trichonis",
+            "Lake Brygeis",
+            "Lake Bolbe",
+            "Lake Pamvotis",
+            "Lake Koroneia",
+            "Lake Stymphalia"
           ]
         },
         "azIslandNames": {
           "zValue": [
             "Crete",
-            "Andros",
-            "Sifnos",
-            "Naxos",
-            "Skiros",
-            "Kithnos",
-            "Milos"
+            "Rhodes",
+            "Cyprus",
+            "Delos Island",
+            "Aegina Island",
+            "Naxos Island",
+            "Samos Island",
+            "Lesvos Island",
+            "Lemnos Island",
+            "Kos Island",
+            "Andros Island",
+            "Sifnos Island",
+            "Serifos Island",
+            "Euboea",
+            "Skyros Island",
+            "Skiathos Island",
+            "Skopelos Island",
+            "Kythnos Island",
+            "Melos Island",
+            "Kea Island",
+            "Ios Island",
+            "Icaria Island",
+            "Salamis Island",
+            "Ithaki Island",
+            "Zakynthos Island",
+            "Thasos Island"
           ]
         }
       },
@@ -920,25 +830,27 @@
         "zType": "MAP_ELEMENT_NAMES_FOR_PERSIA",
         "azVolcanoNames": {
           "zValue": [
-            "Damavand",
-            "Sabalan",
+            "Mount Damavand",
+            "Mount Sabalan",
             "Taftan",
             "Sahand",
-            "Bazman"
+            "Bazman",
+            "Mount Ararat"
           ]
         },
         "azMountainRangeNames": {
           "zValue": [
             "Zagros Mountains",
-            "Elhurz Mountains"
+            "Alborz",
+            "Qaflankuh Mountains",
+            "Bashagard Mountains"
           ]
         },
         "azPeakNames": {
           "zValue": [
-            "Mehr Mountain",
-            "Bel Mountain",
-            "Dena",
-            "Tashkooh",
+            "Shir Kuh",
+            "Mount Dena",
+            "Zard Kuh",
             "Alvand",
             "Sialan",
             "Kabir Kuh"
@@ -946,67 +858,54 @@
         },
         "azRiverNames": {
           "zValue": [
-            "Aras River",
+            "Ochus River",
+            "Araxes River",
             "Karun River",
-            "Karkheh",
-            "Atrek River",
-            "Sefid-Rud River",
+            "Choaspes River",
+            "Amardus River",
             "Zayanderud River"
           ]
         },
         "azForestNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Elburz Range Forest-Steppe",
+            "Caspian Hyrcanian Forest",
+            "Nur Forest",
+            "Sorkheh Hesar Forest",
+            "Sohanak Forest",
+            "Barajin Forest",
+            "Mazandaran Forest"
           ]
         },
         "azHeathNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Mangrove Forest of Qeshm"
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Avarayr Plain",
+            "Gorgan Plain",
+            "Khuzestan Plain",
+            "Nisaean Plain",
+            "Urmia Plain"
           ]
         },
         "azDesertNames": {
           "zValue": [
-            "Karakum Desert",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Dasht-e Kavir",
+            "Dasht-e Lut",
+            "Maranjab Desert",
+            "Polond Desert"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Kalat-e Naderi Plateau",
+            "Persian Plateau",
+            "Hazaran Plateau"
           ]
         },
         "azValleyNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
+          "zValue": "Alamut Valley"
         },
         "azOceanNames": {
           "zValue": "Indian Ocean"
@@ -1015,21 +914,18 @@
           "zValue": [
             "Caspian Sea",
             "Arabian Sea",
-            "Red Sea",
             "Black Sea"
           ]
         },
         "azBayNames": {
           "zValue": [
             "Persian Gulf",
-            "Gulf of Oman",
-            "Gorgan Gulf",
-            "Turkmenbashi Gulf"
+            "Gulf of Gorgan"
           ]
         },
         "azLakeNames": {
           "zValue": [
-            "Maharlu Lake",
+            "Maharloo Lake",
             "Tashk Lake",
             "Bakhtegan Lake",
             "Namak Lake",
@@ -1038,12 +934,10 @@
         },
         "azIslandNames": {
           "zValue": [
-            "Qeshm",
-            "Lavan",
-            "Kish",
-            "Hendorabi",
-            "Larak",
-            "Hormuz Island"
+            "Qeshm Island",
+            "Lavan Island",
+            "Kish Island",
+            "Organa Island"
           ]
         }
       },
@@ -1052,8 +946,8 @@
         "azVolcanoNames": {
           "zValue": [
             "Mount Vesuvius",
-            "Mount Etna",
-            "Colli Albani",
+            "Mount Aetna",
+            "Albanus Mons",
             "Monte Vulture",
             "Monte Amiata"
           ]
@@ -1061,122 +955,112 @@
         "azMountainRangeNames": {
           "zValue": [
             "Apennine Mountains",
-            "The Alps"
+            "The Alps",
+            "Nebrodi Mountains",
+            "Apuan Alps"
           ]
         },
         "azPeakNames": {
           "zValue": [
-            "Mount Vellno",
             "Mount Corno",
             "Mount Amaro",
             "Mount Vettore",
             "Mount Cimone",
             "Mount Pollino",
-            "Mount Alto"
+            "Mount Viso",
+            "Mount Cenis",
+            "Mount Rosa",
+            "Mount Garganus",
+            "Mount Eryx"
           ]
         },
         "azRiverNames": {
           "zValue": [
-            "The Tiber",
-            "Po River",
-            "Adige River",
-            "Arno River",
-            "Piave River",
-            "Alcantara River"
+            "Tiber River",
+            "Padus River",
+            "Arnus River",
+            "Plavis River",
+            "Assinus River",
+            "Himera River",
+            "Umbro River",
+            "Rubicon River",
+            "Metaurus River",
+            "Atagis River",
+            "Liris River",
+            "Addua River",
+            "Ollius River",
+            "Aufidus River",
+            "Silarus River",
+            "Tifernus River"
           ]
         },
         "azForestNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
-        },
-        "azHeathNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Silva Ciminia",
+            "Cansiglio Forest",
+            "Silva Arsia",
+            "Pollino Forest",
+            "Casentinesi Forest"
           ]
         },
         "azPlainNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
-          ]
-        },
-        "azDesertNames": {
-          "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Padan Plain",
+            "Plain of Catania",
+            "Campidano Plain",
+            "Pedemontis"
           ]
         },
         "azPlateauNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Argimusco Plateau",
+            "Murge Plateau",
+            "Karst Plateau",
+            "Sila Plateau"
           ]
         },
         "azValleyNames": {
           "zValue": [
-            "?",
-            "?",
-            "?",
-            "?",
-            "?"
+            "Itria Valley",
+            "Latium Valley",
+            "Piscinamanna Valley"
           ]
-        },
-        "azOceanNames": {
-          "zValue": "Atlantic Ocean"
         },
         "azSeaNames": {
           "zValue": [
             "Tyrrhenian Sea",
             "Adriatic Sea",
-            "Ionian Sea",
-            "Ligurian Sea"
+            "Ligurian Sea",
+            "Mediterranean Sea"
           ]
         },
         "azBayNames": {
           "zValue": [
-            "Gulf of Naples",
-            "Gulf of Trieste",
-            "Gulf of Manfredonia",
+            "Gulf of Tarentum",
+            "Gulf of Neapolis",
+            "Gulf of Tergeste",
+            "Gulf of Sipontum",
             "Marano Lagoon",
-            "Venetian Lagoon",
-            "Rada di Alghero"
+            "Lagoon of Altinum",
+            "Gulf of Genoa"
           ]
         },
         "azLakeNames": {
           "zValue": [
-            "Lago di Bracciano",
-            "Lago di Vico",
-            "Lago di Bolsena",
-            "Lago Trasimeno",
-            "Lago di San Giuliano",
-            "Lago di Lentini",
-            "Lago di Mulargia"
+            "Lake Verbanus",
+            "Lake Larius",
+            "Lake Trasumennus",
+            "Lake Benacus",
+            "Lake Fucinus",
+            "Lake Sabatinus"
           ]
         },
         "azIslandNames": {
           "zValue": [
             "Sicily",
             "Sardinia",
-            "Corsica",
-            "Arcipelago Toscano"
+            "Aeolian Island",
+            "Ilva Island"
           ]
         }
       }

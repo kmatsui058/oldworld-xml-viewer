@@ -10,9 +10,11 @@ export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
   zHelp: ZType | string;
-  bDefault?: ZType;
+  bDefaultSinglePlayer?: ZType;
+  bDefaultMultiPlayer?: ZType | string;
   bSinglePlayer?: ZType | string;
   bMultiPlayer?: ZType | string;
+  bDebug?: ZType | string;
   abFirstUnitInvalid?: AbFirstUnitInvalid;
 }
 export interface AbFirstUnitInvalid {

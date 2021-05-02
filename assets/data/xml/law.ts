@@ -42,7 +42,6 @@
         "zName": "Primogeniture",
         "zIconName": "LAW_PRIMOGENITURE",
         "iCostBase": "200",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ORDER",
         "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE"
@@ -52,7 +51,6 @@
         "zName": "Ultimogeniture",
         "zIconName": "LAW_ULTIMOGENITURE",
         "iCostBase": "200",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ORDER",
         "SuccessionOrder": "SUCCESSIONORDER_ULTIMOGENITURE"
@@ -62,7 +60,6 @@
         "zName": "Lateral",
         "zIconName": "LAW_LATERAL",
         "iCostBase": "200",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ORDER",
         "SuccessionOrder": "SUCCESSIONORDER_LATERAL"
@@ -72,7 +69,6 @@
         "zName": "Dynastic",
         "zIconName": "LAW_DYNASTIC",
         "iCostBase": "200",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ORDER",
         "SuccessionOrder": "SUCCESSIONORDER_DYNASTIC"
@@ -82,17 +78,33 @@
         "zName": "Seniority",
         "zIconName": "LAW_SENIORITY",
         "iCostBase": "200",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ORDER",
         "SuccessionOrder": "SUCCESSIONORDER_SENIORITY"
+      },
+      {
+        "zType": "LAW_EPICS",
+        "zName": "Epics",
+        "zIconName": "LAW_EPICS",
+        "iCostBase": "400",
+        "iCostPerChange": "200",
+        "LawClass": "LAWCLASS_EPICS_EXPLORATION",
+        "EffectPlayer": "EFFECTPLAYER_LAW_EPICS"
+      },
+      {
+        "zType": "LAW_EXPLORATION",
+        "zName": "Exploration",
+        "zIconName": "LAW_EXPLORATION",
+        "iCostBase": "400",
+        "iCostPerChange": "200",
+        "LawClass": "LAWCLASS_EPICS_EXPLORATION",
+        "EffectPlayer": "EFFECTPLAYER_LAW_EXPLORATION"
       },
       {
         "zType": "LAW_SLAVERY",
         "zName": "Slavery",
         "zIconName": "LAW_SLAVERY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_SLAVERY_FREEDOM",
         "EffectPlayer": "EFFECTPLAYER_LAW_SLAVERY"
@@ -102,7 +114,6 @@
         "zName": "Freedom",
         "zIconName": "LAW_FREEDOM",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_SLAVERY_FREEDOM",
         "EffectPlayer": "EFFECTPLAYER_LAW_FREEDOM"
@@ -112,7 +123,6 @@
         "zName": "Centralization",
         "zIconName": "LAW_CENTRALIZATION",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_CENTRALIZATION_VASSALAGE",
         "EffectPlayer": "EFFECTPLAYER_LAW_CENTRALIZATION"
@@ -122,7 +132,6 @@
         "zName": "Vassalage",
         "zIconName": "LAW_VASSALAGE",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_CENTRALIZATION_VASSALAGE",
         "EffectPlayer": "EFFECTPLAYER_LAW_VASSALAGE"
@@ -132,41 +141,19 @@
         "zName": "Tyranny",
         "zIconName": "LAW_TYRANNY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_TYRANNY_CONSTITUTION",
-        "EffectPlayer": "EFFECTPLAYER_LAW_TYRANNY"
+        "EffectPlayer": "EFFECTPLAYER_LAW_TYRANNY",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_CIVICS"
       },
       {
         "zType": "LAW_CONSTITUTION",
         "zName": "Constitution",
         "zIconName": "LAW_CONSTITUTION",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_TYRANNY_CONSTITUTION",
-        "EffectPlayer": "EFFECTPLAYER_LAW_CONSTITUTION"
-      },
-      {
-        "zType": "LAW_EPICS",
-        "zName": "Epics",
-        "zIconName": "LAW_EPICS",
-        "iCostBase": "400",
-        "iCostPerCity": "0",
-        "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_EPICS_EXPLORATION",
-        "EffectPlayer": "EFFECTPLAYER_LAW_EPICS",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_CIVICS"
-      },
-      {
-        "zType": "LAW_EXPLORATION",
-        "zName": "Exploration",
-        "zIconName": "LAW_EXPLORATION",
-        "iCostBase": "400",
-        "iCostPerCity": "0",
-        "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_EPICS_EXPLORATION",
-        "EffectPlayer": "EFFECTPLAYER_LAW_EXPLORATION",
+        "EffectPlayer": "EFFECTPLAYER_LAW_CONSTITUTION",
         "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_TRAINING"
       },
       {
@@ -174,7 +161,6 @@
         "zName": "Colonization",
         "zIconName": "LAW_COLONIZATION",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_COLONIZATION_SERFDOM",
         "EffectPlayer": "EFFECTPLAYER_LAW_COLONIZATION",
@@ -185,18 +171,16 @@
         "zName": "Serfdom",
         "zIconName": "LAW_SERFDOM",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_COLONIZATION_SERFDOM",
         "EffectPlayer": "EFFECTPLAYER_LAW_SERFDOM",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_MONEY"
       },
       {
         "zType": "LAW_MONOTHEISM",
         "zName": "Monotheism",
         "zIconName": "LAW_MONOTHEISM",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_MONOTHEISM_POLYTHEISM",
         "EffectPlayer": "EFFECTPLAYER_LAW_MONOTHEISM",
@@ -207,40 +191,36 @@
         "zName": "Polytheism",
         "zIconName": "LAW_POLYTHEISM",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_MONOTHEISM_POLYTHEISM",
         "EffectPlayer": "EFFECTPLAYER_LAW_POLYTHEISM",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_LOW_MONEY"
       },
       {
-        "zType": "LAW_PROFESSIONAL_ARMY",
-        "zName": "Professional Army",
-        "zIconName": "LAW_PROFESSIONAL_ARMY",
+        "zType": "LAW_DIVINE_RULE",
+        "zName": "Divine Rule",
+        "zIconName": "LAW_DIVINE_RULE",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
-        "EffectPlayer": "EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING"
+        "LawClass": "LAWCLASS_DIVINE_RULE_LEGAL_CODE",
+        "EffectPlayer": "EFFECTPLAYER_LAW_DIVINE_RULE",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_MONEY"
       },
       {
-        "zType": "LAW_VOLUNTEERS",
-        "zName": "Volunteers",
-        "zIconName": "LAW_VOLUNTEERS",
+        "zType": "LAW_LEGAL_CODE",
+        "zName": "Legal Code",
+        "zIconName": "LAW_LEGAL_CODE",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
-        "EffectPlayer": "EFFECTPLAYER_LAW_VOLUNTEERS",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING"
+        "LawClass": "LAWCLASS_DIVINE_RULE_LEGAL_CODE",
+        "EffectPlayer": "EFFECTPLAYER_LAW_LEGAL_CODE",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS"
       },
       {
         "zType": "LAW_TOLERANCE",
         "zName": "Tolerance",
         "zIconName": "LAW_TOLERANCE",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_TOLERANCE_ORTHODOXY",
         "EffectPlayer": "EFFECTPLAYER_LAW_TOLERANCE",
@@ -251,32 +231,29 @@
         "zName": "Orthodoxy",
         "zIconName": "LAW_ORTHODOXY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_TOLERANCE_ORTHODOXY",
         "EffectPlayer": "EFFECTPLAYER_LAW_ORTHODOXY",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_MONEY"
       },
       {
-        "zType": "LAW_GUILDS",
-        "zName": "Guilds",
-        "zIconName": "LAW_GUILDS",
+        "zType": "LAW_PROFESSIONAL_ARMY",
+        "zName": "Professional Army",
+        "zIconName": "LAW_PROFESSIONAL_ARMY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_GUILDS_ELITES",
-        "EffectPlayer": "EFFECTPLAYER_LAW_GUILDS",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS"
+        "LawClass": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
+        "EffectPlayer": "EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_MONEY"
       },
       {
-        "zType": "LAW_ELITES",
-        "zName": "Elites",
-        "zIconName": "LAW_ELITES",
+        "zType": "LAW_VOLUNTEERS",
+        "zName": "Volunteers",
+        "zIconName": "LAW_VOLUNTEERS",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_GUILDS_ELITES",
-        "EffectPlayer": "EFFECTPLAYER_LAW_ELITES",
+        "LawClass": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
+        "EffectPlayer": "EFFECTPLAYER_LAW_VOLUNTEERS",
         "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS"
       },
       {
@@ -284,7 +261,6 @@
         "zName": "Philosophy",
         "zIconName": "LAW_PHILOSOPHY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_PHILOSOPHY_ENGINEERING",
         "EffectPlayer": "EFFECTPLAYER_LAW_PHILOSOPHY",
@@ -295,106 +271,96 @@
         "zName": "Engineering",
         "zIconName": "LAW_ENGINEERING",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_PHILOSOPHY_ENGINEERING",
         "EffectPlayer": "EFFECTPLAYER_LAW_ENGINEERING",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_MONEY"
       },
       {
         "zType": "LAW_ICONOGRAPHY",
         "zName": "Iconography",
         "zIconName": "LAW_ICONOGRAPHY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ICONOGRAPHY_CALLIGRAPHY",
         "EffectPlayer": "EFFECTPLAYER_LAW_ICONOGRAPHY",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_TRAINING"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_MONEY"
       },
       {
         "zType": "LAW_CALLIGRAPHY",
         "zName": "Calligraphy",
         "zIconName": "LAW_CALLIGRAPHY",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_ICONOGRAPHY_CALLIGRAPHY",
         "EffectPlayer": "EFFECTPLAYER_LAW_CALLIGRAPHY",
         "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_CIVICS"
       },
       {
-        "zType": "LAW_ISOLATIONISM",
-        "zName": "Isolationism",
-        "zIconName": "LAW_ISOLATIONISM",
+        "zType": "LAW_PILGRIMAGE",
+        "zName": "Pilgrimage",
+        "zIconName": "LAW_PILGRIMAGE",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_ISOLATIONISM_TRADE_LEAGUE",
-        "EffectPlayer": "EFFECTPLAYER_LAW_ISOLATIONISM",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_CIVICS"
-      },
-      {
-        "zType": "LAW_TRADE_LEAGUE",
-        "zName": "Trade League",
-        "zIconName": "LAW_TRADE_LEAGUE",
-        "iCostBase": "400",
-        "iCostPerCity": "0",
-        "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_ISOLATIONISM_TRADE_LEAGUE",
-        "EffectPlayer": "EFFECTPLAYER_LAW_TRADE_LEAGUE",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_CIVICS"
-      },
-      {
-        "zType": "LAW_ASCETICISM",
-        "zName": "Asceticism",
-        "zIconName": "LAW_ASCETICISM",
-        "iCostBase": "400",
-        "iCostPerCity": "0",
-        "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_ASCETICISM_HOLY_WAR",
-        "EffectPlayer": "EFFECTPLAYER_LAW_ASCETICISM",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING"
+        "LawClass": "LAWCLASS_PILGRIMAGE_HOLY_WAR",
+        "EffectPlayer": "EFFECTPLAYER_LAW_PILGRIMAGE",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_TRAINING"
       },
       {
         "zType": "LAW_HOLY_WAR",
         "zName": "Holy War",
         "zIconName": "LAW_HOLY_WAR",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_ASCETICISM_HOLY_WAR",
+        "LawClass": "LAWCLASS_PILGRIMAGE_HOLY_WAR",
         "EffectPlayer": "EFFECTPLAYER_LAW_HOLY_WAR",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_HIGH_SCIENCE"
       },
       {
-        "zType": "LAW_DIVINE_RULE",
-        "zName": "Divine Rule",
-        "zIconName": "LAW_DIVINE_RULE",
+        "zType": "LAW_GUILDS",
+        "zName": "Guilds",
+        "zIconName": "LAW_GUILDS",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_DIVINE_RULE_SECULARISM",
-        "EffectPlayer": "EFFECTPLAYER_LAW_DIVINE_RULE",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS"
+        "LawClass": "LAWCLASS_GUILDS_ELITES",
+        "EffectPlayer": "EFFECTPLAYER_LAW_GUILDS",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY"
       },
       {
-        "zType": "LAW_SECULARISM",
-        "zName": "Secularism",
-        "zIconName": "LAW_SECULARISM",
+        "zType": "LAW_ELITES",
+        "zName": "Elites",
+        "zIconName": "LAW_ELITES",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
-        "LawClass": "LAWCLASS_DIVINE_RULE_SECULARISM",
-        "EffectPlayer": "EFFECTPLAYER_LAW_SECULARISM",
+        "LawClass": "LAWCLASS_GUILDS_ELITES",
+        "EffectPlayer": "EFFECTPLAYER_LAW_ELITES",
         "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING"
+      },
+      {
+        "zType": "LAW_AUTARKY",
+        "zName": "Autarky",
+        "zIconName": "LAW_AUTARKY",
+        "iCostBase": "400",
+        "iCostPerChange": "200",
+        "LawClass": "LAWCLASS_AUTARKY_TRADE_LEAGUE",
+        "EffectPlayer": "EFFECTPLAYER_LAW_AUTARKY",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE"
+      },
+      {
+        "zType": "LAW_TRADE_LEAGUE",
+        "zName": "Trade League",
+        "zIconName": "LAW_TRADE_LEAGUE",
+        "iCostBase": "400",
+        "iCostPerChange": "200",
+        "LawClass": "LAWCLASS_AUTARKY_TRADE_LEAGUE",
+        "EffectPlayer": "EFFECTPLAYER_LAW_TRADE_LEAGUE",
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS"
       },
       {
         "zType": "LAW_COIN_DEBASEMENT",
         "zName": "Coin Debasement",
         "zIconName": "LAW_COIN_DEBASEMENT",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM",
         "EffectPlayer": "EFFECTPLAYER_LAW_COIN_DEBASEMENT",
@@ -405,11 +371,10 @@
         "zName": "Monetary Reform",
         "zIconName": "LAW_MONETARY_REFORM",
         "iCostBase": "400",
-        "iCostPerCity": "0",
         "iCostPerChange": "200",
         "LawClass": "LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM",
         "EffectPlayer": "EFFECTPLAYER_LAW_MONETARY_REFORM",
-        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS"
+        "EffectPlayerUpkeep": "EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY"
       }
     ]
   }

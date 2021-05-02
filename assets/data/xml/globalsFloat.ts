@@ -20,19 +20,31 @@
       },
       {
         "zType": "HILL_TERRAIN_HEIGHT_OFFSET",
-        "fValue": "3.0"
+        "fValue": "1.5"
       },
       {
         "zType": "UNIT_ANIMATION_NORMAL_MOVE_DURATION",
-        "fValue": "0.6"
+        "fValue": ".6"
+      },
+      {
+        "zType": "UNIT_ANIMATION_NORMAL_MOVE_SPEED",
+        "fValue": "1."
+      },
+      {
+        "zType": "UNIT_ANIMATION_INTERMEDIATE_MOVE_DURATION",
+        "fValue": ".4"
+      },
+      {
+        "zType": "UNIT_ANIMATION_INTERMEDIATE_MOVE_SPEED",
+        "fValue": "1.5"
       },
       {
         "zType": "UNIT_ANIMATION_FAST_MOVE_DURATION",
-        "fValue": "0.15"
+        "fValue": ".3"
       },
       {
         "zType": "UNIT_ANIMATION_FAST_MOVE_SPEED",
-        "fValue": "5"
+        "fValue": "2"
       },
       {
         "zType": "UNIT_ANIMATION_ROTATION_SPEED_DEGREES",
@@ -40,15 +52,15 @@
       },
       {
         "zType": "UNIT_ANIMATION_MOVE_SPEED_RANDOMNESS",
-        "fValue": "0.4"
+        "fValue": ".4"
       },
       {
         "zType": "SINGLE_UNIT_SCALE",
-        "fValue": "2"
+        "fValue": "1"
       },
       {
         "zType": "GLOBAL_UNIT_SCALE",
-        "fValue": "1"
+        "fValue": "0.8"
       },
       {
         "zType": "GLOBAL_RESOURCE_SCALE",

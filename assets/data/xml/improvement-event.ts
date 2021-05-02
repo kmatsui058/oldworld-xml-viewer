@@ -12,16 +12,13 @@
         "Class": {
           
         },
-        "Asset": {
-          
-        },
         "AssetVariation": {
           
         },
-        "zIconName": {
+        "AssetConstruction": {
           
         },
-        "fHillHeightOffset": {
+        "zIconName": {
           
         },
         "iBuildTurns": {
@@ -30,16 +27,19 @@
         "iBuildCost": {
           
         },
-        "iUpgradeTurns": {
+        "iDevelopTurns": {
           
         },
-        "iUpgradeRand": {
+        "iDevelopRand": {
           
         },
         "iPillageTurns": {
           
         },
         "iRevealChange": {
+          
+        },
+        "iVisionChange": {
           
         },
         "iDefenseModifier": {
@@ -49,6 +49,9 @@
           
         },
         "iRiverModifier": {
+          
+        },
+        "iSpecialistCost": {
           
         },
         "iVP": {
@@ -66,9 +69,6 @@
         "iCitySiteUnits": {
           
         },
-        "iUpgradeUnits": {
-          
-        },
         "iDefendUnits": {
           
         },
@@ -82,6 +82,9 @@
           
         },
         "iLegitimacy": {
+          
+        },
+        "iOpinionReligion": {
           
         },
         "bBuild": {
@@ -123,10 +126,10 @@
         "bRotateTowardsLand": {
           
         },
-        "bCoastValid": {
+        "bCoastLandValid": {
           
         },
-        "bWaterCoastValid": {
+        "bCoastWaterValid": {
           
         },
         "bCityValid": {
@@ -141,6 +144,9 @@
         "bWonder": {
           
         },
+        "bPause": {
+          
+        },
         "bHeal": {
           
         },
@@ -150,10 +156,7 @@
         "bCitySite": {
           
         },
-        "bBarbarian": {
-          
-        },
-        "bBlockUpgrade": {
+        "bTribe": {
           
         },
         "bRemoveBorder": {
@@ -162,13 +165,28 @@
         "bRemoveBonus": {
           
         },
+        "bNoAnalytics": {
+          
+        },
+        "bText": {
+          
+        },
+        "Achievement": {
+          
+        },
         "NationPrereq": {
           
         },
         "ReligionPrereq": {
           
         },
+        "ReligionSpread": {
+          
+        },
         "CulturePrereq": {
+          
+        },
+        "AdjacentImprovementPrereq": {
           
         },
         "AdjacentImprovementClassPrereq": {
@@ -177,13 +195,16 @@
         "ImprovementPrereq": {
           
         },
-        "RaiseImprovement": {
-          
-        },
         "UpgradeImprovement": {
           
         },
+        "DevelopImprovement": {
+          
+        },
         "BonusImprovement": {
+          
+        },
+        "EffectCityPrereq": {
           
         },
         "EffectCity": {
@@ -207,6 +228,15 @@
         "aiYieldOutput": {
           
         },
+        "aiWonderYieldOutput": {
+          
+        },
+        "aiAdjacentResourceYieldOutput": {
+          
+        },
+        "aiTradeNetworkYieldOutput": {
+          
+        },
         "aiYieldPillage": {
           
         },
@@ -226,9 +256,6 @@
           
         },
         "aiAdjacentImprovementModifier": {
-          
-        },
-        "aiAdjacentImprovementClassModifier": {
           
         },
         "aiUnitTraitHeal": {
@@ -261,10 +288,13 @@
         "abNoBaseOutput": {
           
         },
-        "aeResourceAsset": {
+        "aeResourceAssetVariation": {
           
         },
         "aeUnitDefend": {
+          
+        },
+        "aaiImprovementClassYieldOutput": {
           
         },
         "aaiTerrainYieldModifier": {
@@ -279,7 +309,7 @@
         "aaiAdjacentImprovementYieldModifier": {
           
         },
-        "aaiBarbarianUnitDie": {
+        "aaiTribeUnitDie": {
           
         },
         "zAudioLoopWhenBuilding": {
@@ -293,11 +323,12 @@
         "zType": "IMPROVEMENT_LAURION_MINE",
         "Name": "TEXT_IMPROVEMENT_LAURION_MINE",
         "Class": "IMPROVEMENTCLASS_MINE",
-        "Asset": "ASSET_IMPROVEMENT_MINE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_LAURION_MINE",
         "zIconName": "IMPROVEMENT_MINE",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bText": "1",
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -329,18 +360,8 @@
             {
               "zIndex": "TERRAIN_ARID",
               "bValue": "1"
-            },
-            {
-              "zIndex": "TERRAIN_TUNDRA",
-              "bValue": "1"
             }
           ]
-        },
-        "abTerrainInvalid": {
-          "Pair": {
-            "zIndex": "TERRAIN_SAND",
-            "bValue": "1"
-          }
         },
         "abHeightValid": {
           "Pair": {
@@ -368,27 +389,27 @@
             }
           ]
         },
-        "aeResourceAsset": {
+        "aeResourceAssetVariation": {
           "Pair": [
             {
               "zIndex": "RESOURCE_ORE",
-              "zValue": "ASSET_IMPROVEMENT_MINE_ORE"
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_MINE_ORE"
             },
             {
               "zIndex": "RESOURCE_GOLD",
-              "zValue": "ASSET_IMPROVEMENT_MINE_GOLD"
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_MINE_GOLD"
             },
             {
               "zIndex": "RESOURCE_GEM",
-              "zValue": "ASSET_IMPROVEMENT_MINE_GEM"
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_MINE_GEM"
             },
             {
               "zIndex": "RESOURCE_SILVER",
-              "zValue": "ASSET_IMPROVEMENT_MINE_SILVER"
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_MINE_SILVER"
             },
             {
               "zIndex": "RESOURCE_SALT",
-              "zValue": "ASSET_IMPROVEMENT_MINE_SALT"
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_MINE_SALT"
             }
           ]
         },
@@ -414,16 +435,16 @@
       {
         "zType": "IMPROVEMENT_FOREST_FIRE_TOMB",
         "Name": "TEXT_IMPROVEMENT_FOREST_FIRE_TOMB",
-        "Class": "IMPROVEMENTCLASS_SHRINE",
-        "Asset": "ASSET_IMPROVEMENT_RUINS",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_RUINS",
         "zIconName": "IMPROVEMENT_RUINS",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bText": "1",
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "3"
+            "iValue": "20"
           }
         },
         "aiYieldPillage": {
@@ -447,34 +468,22 @@
               "bValue": "1"
             }
           ]
-        },
-        "abTerrainInvalid": {
-          "Pair": [
-            {
-              "zIndex": "TERRAIN_TUNDRA",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "TERRAIN_SAND",
-              "bValue": "1"
-            }
-          ]
         }
       },
       {
         "zType": "IMPROVEMENT_FOREST_FIRE_MONUMENT",
         "Name": "TEXT_IMPROVEMENT_FOREST_FIRE_MONUMENT",
-        "Class": "IMPROVEMENTCLASS_SHRINE",
-        "Asset": "ASSET_IMPROVEMENT_RUINS",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_RUINS",
         "zIconName": "IMPROVEMENT_RUINS",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bText": "1",
         "aiYieldOutput": {
           "Pair": [
             {
               "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
+              "iValue": "40"
             },
             {
               "zIndex": "YIELD_MONEY",
@@ -503,15 +512,97 @@
               "bValue": "1"
             }
           ]
+        }
+      },
+      {
+        "zType": "IMPROVEMENT_GODS_CONSORT_SHRINE",
+        "Name": "TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_UNDERWORLD",
+        "zIconName": "IMPROVEMENT_SHRINE_UNDERWORLD",
+        "iPillageTurns": "10",
+        "bTerritoryOnly": "1",
+        "bUrban": "1",
+        "bRequiresUrban": "1",
+        "bNoVegetation": "1",
+        "bText": "1",
+        "EffectCity": "EFFECTCITY_IMPROVEMENT_GODS_CONSORT_SHRINE",
+        "aiYieldOutput": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "20"
+          }
         },
-        "abTerrainInvalid": {
+        "aiYieldPillage": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "20"
+          }
+        },
+        "abTerrainValid": {
           "Pair": [
             {
-              "zIndex": "TERRAIN_TUNDRA",
+              "zIndex": "TERRAIN_URBAN",
               "bValue": "1"
             },
             {
-              "zIndex": "TERRAIN_SAND",
+              "zIndex": "TERRAIN_LUSH",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TERRAIN_TEMPERATE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TERRAIN_ARID",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "IMPROVEMENT_SHRINE_TRIBE_PAGANISM",
+        "Name": "TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_WISDOM",
+        "zIconName": "IMPROVEMENT_SHRINE_WISDOM",
+        "iPillageTurns": "10",
+        "bTerritoryOnly": "1",
+        "bUrban": "1",
+        "bNoVegetation": "1",
+        "bText": "1",
+        "aiYieldOutput": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CULTURE",
+              "iValue": "30"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "30"
+            }
+          ]
+        },
+        "aiYieldPillage": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "20"
+          }
+        },
+        "abTerrainValid": {
+          "Pair": [
+            {
+              "zIndex": "TERRAIN_URBAN",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TERRAIN_LUSH",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TERRAIN_TEMPERATE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TERRAIN_ARID",
               "bValue": "1"
             }
           ]

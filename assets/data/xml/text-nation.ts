@@ -12,31 +12,31 @@
       },
       {
         "zType": "TEXT_NATION_ASSYRIA",
-        "English": "Assyria~Assyrian~Assyrians"
+        "English": "Assyria~Assyrian~an Assyrian~Assyrians"
       },
       {
         "zType": "TEXT_NATION_BABYLONIA",
-        "English": "Babylonia~Babylonian~Babylonians"
+        "English": "Babylonia~Babylonian~a Babylonian~Babylonians"
       },
       {
         "zType": "TEXT_NATION_CARTHAGE",
-        "English": "Carthage~Carthaginian~Carthaginians"
+        "English": "Carthage~Carthaginian~a Carthaginian~Carthaginians"
       },
       {
         "zType": "TEXT_NATION_EGYPT",
-        "English": "Egypt~Egyptian~Egyptians"
+        "English": "Egypt~Egyptian~an Egyptian~Egyptians"
       },
       {
         "zType": "TEXT_NATION_GREECE",
-        "English": "Greece~Greek~Greeks"
+        "English": "Greece~Greek~a Greek~Greeks"
       },
       {
         "zType": "TEXT_NATION_PERSIA",
-        "English": "Persia~Persian~Persians"
+        "English": "Persia~Persian~a Persian~Persians"
       },
       {
         "zType": "TEXT_NATION_ROME",
-        "English": "Rome~Roman~Romans"
+        "English": "Rome~Roman~a Roman~Romans"
       }
     ]
   }

@@ -16,10 +16,11 @@ export interface Entry {
   iDefenseModifier?: ZType | string;
   iCriticalChance?: ZType | string;
   iUnitXP?: ZType | string;
-  aiYieldRate: AiYieldRate;
-  aiYieldModifier: AiYieldRate;
+  aiYieldCourtRate: AiYieldCourtRate;
+  aiYieldGovernorModifier: AiYieldCourtRate;
+  aiYieldAgentPercent: AiYieldCourtRate;
 }
-export interface AiYieldRate {
+export interface AiYieldCourtRate {
   Pair?: Pair;
 }
 export interface Pair {

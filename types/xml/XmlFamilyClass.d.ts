@@ -8,21 +8,19 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
+  zUnitWidget: ZType | string;
+  zCityWidget: ZType | string;
   zCharacterPortraitBackground: ZType | string;
   Crest: ZType | string;
   SeatCrest: ZType | string;
-  iFoundCostBase?: ZType;
-  iFoundCostPer?: ZType;
-  iOurGovernorUs?: ZType;
-  iTheirGovernorUs?: ZType;
-  iOurGovernorThem?: ZType;
-  iLeaderHeirOpinion?: ZType | string;
-  iLeaderSpouseOpinion?: ZType | string;
-  iDescendantSpouseOpinion?: ZType | string;
+  iLeaderHeirOpinion?: ZType;
+  iLeaderSpouseOpinion?: ZType;
+  iHeirSpouseOpinion?: ZType;
+  iDescendantSpouseOpinion?: ZType;
   iLeaderNotAdultOpinion?: ZType | string;
   iLeaderUnmarriedOpinion?: ZType | string;
-  iLeaderBarbarianSpouseOpinion?: ZType | string;
+  iLeaderTribeSpouseOpinion?: ZType | string;
   iNoCouncilOpinion?: ZType | string;
   iLuxuryOpinion?: ZType | string;
   iWonderOpinion?: ZType | string;
@@ -33,25 +31,36 @@ export interface Entry {
   iMostCitiesOpinion?: ZType | string;
   iFewestCitiesOpinion?: ZType | string;
   iNoReligionOpinion?: ZType | string;
-  iNotConnectedOpinion?: ZType | string;
+  iConnectedOpinion?: ZType | string;
   iCityDamagedOpinion?: ZType | string;
   iCityDefendedOpinion?: ZType | string;
   iPillagedOpinion?: ZType | string;
   iUnitInsideOpinion?: ZType | string;
   iHostileUnitOpinion?: ZType | string;
+  bPrefersDistant?: ZType | string;
+  EffectUnit?: ZType | string;
   EffectCity: ZType | string;
   SeatEffectCity: ZType | string;
   SeatFoundBonus: ZType | string;
   FoundBonus?: ZType | string;
   aiDowryYieldBase: AiDowryYieldBase;
   aiDowryYieldPer: AiDowryYieldBase;
-  aiLuxuryMissingOpinion?: AiDowryYieldBase;
+  aiLuxuryMissingOpinion: AiLuxuryMissingOpinion;
   aiLawOpinion: AiLawOpinion;
-  aiStateTheologyOpinion?: AiDowryYieldBase;
-  aiTheologyOpinion?: AiDowryYieldBase;
-  aiTraitDie: AiLawOpinion;
+  aiTraitDie: AiLuxuryMissingOpinion;
+  aeLuxuryEffectCity: AeLuxuryEffectCity;
+}
+export interface AeLuxuryEffectCity {
+  Pair?: Pair2[];
+}
+export interface Pair2 {
+  zIndex: string;
+  zValue: string;
 }
 export interface AiLawOpinion {
+  Pair?: Pair[] | Pair;
+}
+export interface AiLuxuryMissingOpinion {
   Pair?: Pair[];
 }
 export interface AiDowryYieldBase {

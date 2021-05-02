@@ -27,6 +27,15 @@
         "SpecialistClass": {
           
         },
+        "aiAdjacentImprovementClassModifier": {
+          
+        },
+        "aiAdjacentResourceYieldOutput": {
+          
+        },
+        "aiTradeNetworkYieldOutput": {
+          
+        },
         "abResourceValid": {
           
         },
@@ -43,7 +52,7 @@
       {
         "zType": "IMPROVEMENTCLASS_FORT",
         "Name": "TEXT_IMPROVEMENTCLASS_FORT",
-        "TechPrereq": "TECH_SIEGECRAFT"
+        "TechPrereq": "TECH_STONECUTTING"
       },
       {
         "zType": "IMPROVEMENTCLASS_FARM",
@@ -69,15 +78,15 @@
           "Pair": [
             {
               "zIndex": "RESOURCE_WHEAT",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_WHEAT"
             },
             {
               "zIndex": "RESOURCE_BARLEY",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_BARLEY"
             },
             {
               "zIndex": "RESOURCE_SORGHUM",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_SORGHUM"
             }
           ]
         },
@@ -88,7 +97,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -101,7 +110,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -114,7 +123,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -166,6 +175,14 @@
             {
               "zIndex": "RESOURCE_GEM",
               "zValue": "EFFECTCITY_RESOURCE_GEM"
+            },
+            {
+              "zIndex": "RESOURCE_GOLD",
+              "zValue": "EFFECTCITY_RESOURCE_GOLD"
+            },
+            {
+              "zIndex": "RESOURCE_SILVER",
+              "zValue": "EFFECTCITY_RESOURCE_SILVER"
             }
           ]
         },
@@ -176,7 +193,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_TRAINING",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_IRON",
@@ -193,7 +210,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_MONEY",
-                  "iValue": "100"
+                  "iValue": "200"
                 }
               ]
             },
@@ -212,32 +229,20 @@
             },
             {
               "zIndex": "RESOURCE_GOLD",
-              "SubPair": [
-                {
-                  "zSubIndex": "YIELD_CULTURE",
-                  "iValue": "20"
-                },
-                {
-                  "zSubIndex": "YIELD_MONEY",
-                  "iValue": "200"
-                }
-              ]
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "400"
+              }
             },
             {
               "zIndex": "RESOURCE_SILVER",
               "SubPair": {
                 "zSubIndex": "YIELD_MONEY",
-                "iValue": "300"
+                "iValue": "400"
               }
             }
           ]
         }
-      },
-      {
-        "zType": "IMPROVEMENTCLASS_LUMBERMILL",
-        "Name": "TEXT_IMPROVEMENTCLASS_LUMBERMILL",
-        "TechPrereq": "TECH_FORESTRY",
-        "SpecialistClass": "SPECIALISTCLASS_WOODCUTTER"
       },
       {
         "zType": "IMPROVEMENTCLASS_QUARRY",
@@ -250,13 +255,19 @@
             "bValue": "1"
           }
         },
+        "aeResourceCityEffect": {
+          "Pair": {
+            "zIndex": "RESOURCE_MARBLE",
+            "zValue": "EFFECTCITY_RESOURCE_MARBLE"
+          }
+        },
         "aaiResourceYieldOutput": {
           "Pair": {
             "zIndex": "RESOURCE_MARBLE",
             "SubPair": [
               {
                 "zSubIndex": "YIELD_CIVICS",
-                "iValue": "10"
+                "iValue": "20"
               },
               {
                 "zSubIndex": "YIELD_STONE",
@@ -265,6 +276,12 @@
             ]
           }
         }
+      },
+      {
+        "zType": "IMPROVEMENTCLASS_LUMBERMILL",
+        "Name": "TEXT_IMPROVEMENTCLASS_LUMBERMILL",
+        "TechPrereq": "TECH_FORESTRY",
+        "SpecialistClass": "SPECIALISTCLASS_WOODCUTTER"
       },
       {
         "zType": "IMPROVEMENTCLASS_PASTURE",
@@ -303,19 +320,19 @@
             },
             {
               "zIndex": "RESOURCE_CATTLE",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_CATTLE"
             },
             {
               "zIndex": "RESOURCE_SHEEP",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_SHEEP"
             },
             {
               "zIndex": "RESOURCE_PIG",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_PIG"
             },
             {
               "zIndex": "RESOURCE_GOAT",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_GOAT"
             }
           ]
         },
@@ -333,7 +350,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -346,7 +363,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -359,7 +376,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -372,7 +389,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -421,6 +438,10 @@
             {
               "zIndex": "RESOURCE_FUR",
               "zValue": "EFFECTCITY_RESOURCE_FUR"
+            },
+            {
+              "zIndex": "RESOURCE_GAME",
+              "zValue": "EFFECTCITY_RESOURCE_GAME"
             }
           ]
         },
@@ -445,7 +466,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -462,7 +483,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_MONEY",
-                  "iValue": "100"
+                  "iValue": "200"
                 }
               ]
             }
@@ -481,7 +502,15 @@
               "bValue": "1"
             },
             {
+              "zIndex": "RESOURCE_HONEY",
+              "bValue": "1"
+            },
+            {
               "zIndex": "RESOURCE_INCENSE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
               "bValue": "1"
             },
             {
@@ -497,8 +526,20 @@
         "aeResourceCityEffect": {
           "Pair": [
             {
+              "zIndex": "RESOURCE_CITRUS",
+              "zValue": "EFFECTCITY_RESOURCE_CITRUS"
+            },
+            {
+              "zIndex": "RESOURCE_HONEY",
+              "zValue": "EFFECTCITY_RESOURCE_HONEY"
+            },
+            {
               "zIndex": "RESOURCE_INCENSE",
               "zValue": "EFFECTCITY_RESOURCE_INCENSE"
+            },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "zValue": "EFFECTCITY_RESOURCE_LAVENDER"
             },
             {
               "zIndex": "RESOURCE_OLIVE",
@@ -526,6 +567,19 @@
               ]
             },
             {
+              "zIndex": "RESOURCE_HONEY",
+              "SubPair": [
+                {
+                  "zSubIndex": "YIELD_CULTURE",
+                  "iValue": "20"
+                },
+                {
+                  "zSubIndex": "YIELD_FOOD",
+                  "iValue": "50"
+                }
+              ]
+            },
+            {
               "zIndex": "RESOURCE_INCENSE",
               "SubPair": [
                 {
@@ -534,7 +588,20 @@
                 },
                 {
                   "zSubIndex": "YIELD_MONEY",
-                  "iValue": "100"
+                  "iValue": "200"
+                }
+              ]
+            },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "SubPair": [
+                {
+                  "zSubIndex": "YIELD_CULTURE",
+                  "iValue": "20"
+                },
+                {
+                  "zSubIndex": "YIELD_MONEY",
+                  "iValue": "200"
                 }
               ]
             },
@@ -603,7 +670,11 @@
             },
             {
               "zIndex": "RESOURCE_FISH",
-              "zValue": "EFFECTCITY_RESOURCE_FOOD_STAPLE"
+              "zValue": "EFFECTCITY_RESOURCE_FISH"
+            },
+            {
+              "zIndex": "RESOURCE_CRAB",
+              "zValue": "EFFECTCITY_RESOURCE_CRAB"
             }
           ]
         },
@@ -630,8 +701,8 @@
                   "iValue": "20"
                 },
                 {
-                  "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "zSubIndex": "YIELD_MONEY",
+                  "iValue": "100"
                 }
               ]
             },
@@ -640,7 +711,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -653,7 +724,7 @@
               "SubPair": [
                 {
                   "zSubIndex": "YIELD_GROWTH",
-                  "iValue": "10"
+                  "iValue": "20"
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
@@ -667,7 +738,14 @@
       {
         "zType": "IMPROVEMENTCLASS_HARBOR",
         "Name": "TEXT_IMPROVEMENTCLASS_HARBOR",
-        "TechPrereq": "TECH_NAVIGATION"
+        "iMaxCultureCount": "1",
+        "TechPrereq": "TECH_CARTOGRAPHY",
+        "aiAdjacentResourceYieldOutput": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_GRANARY",
@@ -679,67 +757,108 @@
         "zType": "IMPROVEMENTCLASS_MILL",
         "Name": "TEXT_IMPROVEMENTCLASS_MILL",
         "iMaxCultureCount": "1",
-        "TechPrereq": "TECH_HYDRAULICS"
+        "TechPrereq": "TECH_HYDRAULICS",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_MINE",
+              "iValue": "60"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_QUARRY",
+              "iValue": "60"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
+              "iValue": "60"
+            }
+          ]
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_HAMLET",
         "Name": "TEXT_IMPROVEMENTCLASS_HAMLET",
         "iMaxCultureCount": "1",
-        "TechPrereq": "TECH_POLIS"
-      },
-      {
-        "zType": "IMPROVEMENTCLASS_AQUEDUCT",
-        "Name": "TEXT_IMPROVEMENTCLASS_AQUEDUCT",
-        "iMaxCultureCount": "1",
-        "TechPrereq": "TECH_DRAWBRIDGE"
+        "TechPrereq": "TECH_POLIS",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_ODEON",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_BARRACKS",
         "Name": "TEXT_IMPROVEMENTCLASS_BARRACKS",
         "TechPrereq": "TECH_MILITARY_DRILL",
-        "SpecialistClass": "SPECIALISTCLASS_OFFICER"
+        "SpecialistClass": "SPECIALISTCLASS_OFFICER",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_GARRISON",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_RANGE",
         "Name": "TEXT_IMPROVEMENTCLASS_RANGE",
-        "TechPrereq": "TECH_SIEGECRAFT",
-        "SpecialistClass": "SPECIALISTCLASS_OFFICER"
+        "TechPrereq": "TECH_MACHINERY",
+        "SpecialistClass": "SPECIALISTCLASS_OFFICER",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_GARRISON",
+            "iValue": "20"
+          }
+        }
       },
       {
-        "zType": "IMPROVEMENTCLASS_THEATER",
-        "Name": "TEXT_IMPROVEMENTCLASS_THEATER",
-        "iAdjacentDiscount": "-10",
+        "zType": "IMPROVEMENTCLASS_ODEON",
+        "Name": "TEXT_IMPROVEMENTCLASS_ODEON",
         "TechPrereq": "TECH_DRAMA",
-        "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_THEATER",
+        "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_ODEON",
         "SpecialistClass": "SPECIALISTCLASS_POET"
       },
       {
         "zType": "IMPROVEMENTCLASS_BATHS",
         "Name": "TEXT_IMPROVEMENTCLASS_BATHS",
-        "iAdjacentDiscount": "-10",
         "TechPrereq": "TECH_ARCHITECTURE",
         "SpecialistClass": "SPECIALISTCLASS_DOCTOR"
       },
       {
         "zType": "IMPROVEMENTCLASS_MARKET",
         "Name": "TEXT_IMPROVEMENTCLASS_MARKET",
-        "iAdjacentDiscount": "-10",
         "TechPrereq": "TECH_COINAGE",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_MARKET",
-        "SpecialistClass": "SPECIALISTCLASS_SHOPKEEPER"
+        "SpecialistClass": "SPECIALISTCLASS_SHOPKEEPER",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_HARBOR",
+            "iValue": "20"
+          }
+        },
+        "aiTradeNetworkYieldOutput": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_LIBRARY",
         "Name": "TEXT_IMPROVEMENTCLASS_LIBRARY",
-        "iAdjacentDiscount": "-10",
         "TechPrereq": "TECH_SCHOLARSHIP",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_LIBRARY",
-        "SpecialistClass": "SPECIALISTCLASS_PHILOSOPHER"
+        "SpecialistClass": "SPECIALISTCLASS_PHILOSOPHER",
+        "aiAdjacentResourceYieldOutput": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "10"
+          }
+        }
       },
       {
         "zType": "IMPROVEMENTCLASS_COURTHOUSE",
         "Name": "TEXT_IMPROVEMENTCLASS_COURTHOUSE",
-        "iAdjacentDiscount": "-10",
         "TechPrereq": "TECH_CITIZENSHIP",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_COURTHOUSE",
         "SpecialistClass": "SPECIALISTCLASS_SCRIBE"
@@ -747,7 +866,6 @@
       {
         "zType": "IMPROVEMENTCLASS_GARRISON",
         "Name": "TEXT_IMPROVEMENTCLASS_GARRISON",
-        "iAdjacentDiscount": "-10",
         "TechPrereq": "TECH_SOVEREIGNTY"
       },
       {
@@ -763,6 +881,12 @@
         "Name": "TEXT_IMPROVEMENTCLASS_MONASTERY",
         "TechPrereq": "TECH_MONASTICISM",
         "SpecialistClass": "SPECIALISTCLASS_MONK",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_GROVE",
+            "iValue": "60"
+          }
+        },
         "aeTheologyCityEffect": {
           "Pair": [
             {
@@ -783,14 +907,24 @@
       {
         "zType": "IMPROVEMENTCLASS_TEMPLE",
         "Name": "TEXT_IMPROVEMENTCLASS_TEMPLE",
-        "TechPrereq": "TECH_THEOLOGY",
+        "TechPrereq": "TECH_DOCTRINE",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE",
         "SpecialistClass": "SPECIALISTCLASS_PRIEST",
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_MONASTERY",
+            "iValue": "20"
+          }
+        },
         "aeTheologyCityEffect": {
           "Pair": [
             {
               "zIndex": "THEOLOGY_REVELATION",
               "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION"
+            },
+            {
+              "zIndex": "THEOLOGY_DUALISM",
+              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM"
             },
             {
               "zIndex": "THEOLOGY_GNOSTICISM",
@@ -810,10 +944,6 @@
             {
               "zIndex": "THEOLOGY_REDEMPTION",
               "zValue": "EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_REDEMPTION"
-            },
-            {
-              "zIndex": "THEOLOGY_DUALISM",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_DUALISM"
             },
             {
               "zIndex": "THEOLOGY_ENLIGHTENMENT",

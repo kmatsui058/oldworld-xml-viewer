@@ -10,20 +10,11 @@ export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
   zHelp: ZType | string;
-  iCities: ZType | string;
-  iCapitalPopulation: ZType | string;
-  iTechs: ZType | string;
-  iAdjacentChange: ZType | string;
-  iDistantChange: ZType | string;
-  iLoneOpponentChange: ZType | string;
-  aiMapSizeChange: AiMapSizeChange;
-}
-export interface AiMapSizeChange {
-  Pair?: Pair[] | Pair;
-}
-export interface Pair {
-  zIndex: string;
-  iValue: string;
+  iAvgCities?: ZType | string;
+  iMaxCities?: ZType | string;
+  iCapitalPopulation?: ZType | string;
+  iTechs?: ZType | string;
+  iLoneOpponentChange?: ZType | string;
 }
 export interface ZType {
 }

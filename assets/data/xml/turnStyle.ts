@@ -21,10 +21,10 @@
         "bSimultaneous": {
           
         },
-        "bCanEndTurn": {
+        "bTeamSplit": {
           
         },
-        "bBarbSplit": {
+        "bTribeSplit": {
           
         },
         "bNoCooldown": {
@@ -44,7 +44,6 @@
         "iTimeModifier": "25",
         "iCombatModifier": "50",
         "bSimultaneous": "1",
-        "bCanEndTurn": "1",
         "bNoCooldown": "1"
       },
       {
@@ -53,32 +52,39 @@
         "zHelp": "No Movement Restrictions",
         "iTimeModifier": "-25",
         "iCombatModifier": "50",
-        "bBarbSplit": "1",
+        "bTribeSplit": "1",
         "bNoCooldown": "1"
       },
       {
         "zType": "TURNSTYLE_NORMAL",
         "zName": "Normal",
-        "zHelp": "Attacking on Enemy Turn gives a Double Cooldown",
-        "iCombatModifier": "25",
-        "bCanEndTurn": "1"
+        "zHelp": "Attacking during another Team's Turn gives a Double Cooldown",
+        "iCombatModifier": "25"
       },
       {
         "zType": "TURNSTYLE_TIGHT",
         "zName": "Tight",
-        "zHelp": "Can only move Non-Military Units during Enemy Turn",
+        "zHelp": "Can only move Non-Military Units during another Team's Turn",
         "iTimeModifier": "25",
         "iCombatModifier": "25",
-        "bCanEndTurn": "1",
+        "bNoMilitary": "1"
+      },
+      {
+        "zType": "TURNSTYLE_TEAMS",
+        "zName": "Teams",
+        "zHelp": "Cannot move any Units during another Team's Turn",
+        "iTimeModifier": "50",
+        "iCombatModifier": "25",
+        "bNoBuild": "1",
         "bNoMilitary": "1"
       },
       {
         "zType": "TURNSTYLE_STRICT",
         "zName": "Strict",
-        "zHelp": "Cannot move any Units during Enemy Turn",
+        "zHelp": "Cannot move any Units during another Player's Turn",
         "iTimeModifier": "50",
         "iCombatModifier": "25",
-        "bCanEndTurn": "1",
+        "bTeamSplit": "1",
         "bNoBuild": "1",
         "bNoMilitary": "1"
       }

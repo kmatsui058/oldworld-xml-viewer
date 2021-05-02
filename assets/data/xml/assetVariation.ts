@@ -12,6 +12,9 @@
         "SingleAsset": {
           
         },
+        "bShowBuildings": {
+          
+        },
         "aiRandomAssets": {
           
         }
@@ -121,16 +124,6 @@
         "SingleAsset": "ASSET_ASSYRIA_URBAN"
       },
       {
-        "zType": "ASSET_VARIATION_CITY_CAPITAL",
-        "aiValidRotations": "0",
-        "SingleAsset": "ASSET_CITY_CAPITAL"
-      },
-      {
-        "zType": "ASSET_VARIATION_CITY_REGULAR",
-        "aiValidRotations": "0",
-        "SingleAsset": "ASSET_CITY_REGULAR"
-      },
-      {
         "zType": "ASSET_VARIATION_CITY_GREECE_CAPITAL",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_CITY_GREECE_CAPITAL"
@@ -151,11 +144,6 @@
         "SingleAsset": "ASSET_PERSIA_URBAN"
       },
       {
-        "zType": "ASSET_VARIATION_CITY_PERSIA_REGULAR",
-        "aiValidRotations": "0",
-        "SingleAsset": "ASSET_CITY_PERSIA_REGULAR"
-      },
-      {
         "zType": "ASSET_VARIATION_CITY_EGYPT_CAPITAL",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_CITY_EGYPT_CAPITAL"
@@ -172,7 +160,7 @@
       },
       {
         "zType": "ASSET_VARIATION_BABYLONIA_URBAN",
-        "aiValidRotations": "0",
+        "aiValidRotations": "0,60,120,180,240,300",
         "SingleAsset": "ASSET_BABYLONIA_URBAN"
       },
       {
@@ -192,7 +180,7 @@
       },
       {
         "zType": "ASSET_VARIATION_ROME_URBAN",
-        "aiValidRotations": "0",
+        "aiValidRotations": "0,60,120,180,240,300",
         "SingleAsset": "ASSET_ROME_URBAN"
       },
       {
@@ -266,6 +254,31 @@
         "SingleAsset": "ASSET_TERRAIN_TILE_HILL_7"
       },
       {
+        "zType": "ASSET_VARIATION_TILE_HILL_ARID",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_ARID"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_HILL_DESERT",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_DESERT"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_HILL_LUSH",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_LUSH"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_HILL_TEMPERATE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_TEMPERATE"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_HILL_TUNDRA",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_TUNDRA"
+      },
+      {
         "zType": "ASSET_VARIATION_TILE_COAST_1",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_TERRAIN_TILE_COAST_1"
@@ -296,8 +309,148 @@
         "SingleAsset": "ASSET_TERRAIN_TILE_OCEAN_3N"
       },
       {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_00",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_00"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_01",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_01"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_02",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_02"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_03",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_03"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_04",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_04"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_05",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_05"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_06",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_06"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_07",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_07"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_08",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_08"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_09",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_09"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_10",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_10"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_11",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_11"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_12",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_12"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_COASTV2_13",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_COASTV2_13"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_00",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_00"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_01",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_01"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_02",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_02"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_03",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_03"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_04",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_04"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_05",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_05"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_06",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_06"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_07",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_07"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_08",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_08"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_09",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_09"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_10",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_10"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_11",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_11"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_12",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_12"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_LAKEV2_13",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_LAKEV2_13"
+      },
+      {
         "zType": "ASSET_VARIATION_RESOURCE_WINE",
-        "aiValidRotations": "0,30,60,90,120,150,180,210,240,300,330",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_RESOURCE_WINE"
       },
       {
@@ -386,9 +539,19 @@
         "SingleAsset": "ASSET_RESOURCE_CITRUS"
       },
       {
+        "zType": "ASSET_VARIATION_RESOURCE_HONEY",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_RESOURCE_HONEY"
+      },
+      {
         "zType": "ASSET_VARIATION_RESOURCE_INCENSE",
-        "aiValidRotations": "0,30,60,90,120,150,180,210,240,300,330",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_RESOURCE_INCENSE"
+      },
+      {
+        "zType": "ASSET_VARIATION_RESOURCE_LAVENDER",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_RESOURCE_LAVENDER"
       },
       {
         "zType": "ASSET_VARIATION_RESOURCE_OLIVE",
@@ -448,7 +611,7 @@
       },
       {
         "zType": "ASSET_VARIATION_VEGETATION_TREES",
-        "aiValidRotations": "0,60,120,180,240,300",
+        "aiValidRotations": "0,0,0,0,0,0",
         "aiRandomAssets": {
           "Pair": [
             {
@@ -467,8 +630,13 @@
         }
       },
       {
+        "zType": "ASSET_VARIATION_VEGETATION_TREES_ARID",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_VEGETATION_TREES_ARID"
+      },
+      {
         "zType": "ASSET_VARIATION_VEGETATION_TREES_HILL",
-        "aiValidRotations": "0,60,120,180,240,300",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_VEGETATION_TREES_HILL"
       },
       {
@@ -478,17 +646,17 @@
       },
       {
         "zType": "ASSET_VARIATION_VEGETATION_SCRUB",
-        "aiValidRotations": "0,60,120,180,240,300",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_VEGETATION_SCRUB"
       },
       {
         "zType": "ASSET_VARIATION_VEGETATION_SCRUB_HILL",
-        "aiValidRotations": "0,60,120,180,240,300",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_VEGETATION_SCRUB_HILL"
       },
       {
         "zType": "ASSET_VARIATION_VEGETATION_SCRUB_CUT",
-        "aiValidRotations": "0,60,120,180,240,300",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_VEGETATION_SCRUB_CUT"
       },
       {
@@ -497,19 +665,575 @@
         "SingleAsset": "ASSET_PROJECT_WALLS"
       },
       {
-        "zType": "ASSET_VARIATION_IMPROVEMENT_CAMP",
-        "aiValidRotations": "0,30,60,180",
-        "SingleAsset": "ASSET_IMPROVEMENT_CAMP"
-      },
-      {
-        "zType": "ASSET_VARIATION_FARM",
-        "aiValidRotations": "0,30,300,330",
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FARM",
+        "aiValidRotations": "0,180,300,330",
         "SingleAsset": "ASSET_IMPROVEMENT_FARM"
       },
       {
-        "zType": "ASSET_VARIATION_GROVE",
-        "aiValidRotations": "0,180,300,330",
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE",
+        "aiValidRotations": "0",
         "SingleAsset": "ASSET_IMPROVEMENT_GROVE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_RUINS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_RUINS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NETS",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_NETS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CITY_SITE",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_CITY_SITE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HOVEL_RUINS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HOVEL_RUINS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_OUTPOST_RUINS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_OUTPOST_RUINS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_ENCAMPMENT_RUINS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_ENCAMPMENT_RUINS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_BASTION_RUINS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_BASTION_RUINS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SETTLEMENT_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SETTLEMENT_1"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SETTLEMENT_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SETTLEMENT_2"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SETTLEMENT_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SETTLEMENT_3"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SETTLEMENT_4",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SETTLEMENT_4"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FORT",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_FORT"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LAURION_MINE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_LAURION_MINE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LUMBERMILL",
+        "aiValidRotations": "0,10,30,320,340",
+        "SingleAsset": "ASSET_IMPROVEMENT_LUMBERMILL"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_QUARRY",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_QUARRY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_QUARRY_MARBLE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_QUARRY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_PASTURE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_PASTURE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CAMP",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CAMP"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HARBOR",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HARBOR"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GRANARY",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GRANARY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_WATERMILL",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_WATERMILL"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_WINDMILL",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_WINDMILL"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HAMLET",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HAMLET"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_VILLAGE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_VILLAGE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_TOWN",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_TOWN"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CITY",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CITY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_BARRACKS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_BARRACKS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_RANGE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_RANGE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_THEATER_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_THEATER_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_THEATER_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_THEATER_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_THEATER_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_THEATER_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_1"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_2"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_3"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MARKET_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MARKET_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MARKET_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MARKET_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MARKET_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MARKET_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LIBRARY_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_LIBRARY_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LIBRARY_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_LIBRARY_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LIBRARY_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_LIBRARY_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_COURTHOUSE_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_COURTHOUSE_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_COURTHOUSE_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_COURTHOUSE_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_COURTHOUSE_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_COURTHOUSE_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GARRISON",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GARRISON",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GARRISON_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GARRISON_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_WAR",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_WAR",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_FIRE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_FIRE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_WISDOM",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_WISDOM",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_SUN",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_SUN",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_WATER",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_WATER",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_LOVE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_LOVE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_UNDERWORLD",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_UNDERWORLD",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_HEALING",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_HEALING",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_KINGSHIP",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_KINGSHIP",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_HEARTH",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_HEARTH",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_SHRINE_HUNTING",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_SHRINE_HUNTING",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MONASTERY_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MONASTERY_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MONASTERY_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MONASTERY_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MONASTERY_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MONASTERY_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MONASTERY_4",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MONASTERY_4",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_TEMPLE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_TEMPLE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_TEMPLE_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_TEMPLE_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CATHEDRAL_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CATHEDRAL_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CATHEDRAL_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CATHEDRAL_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CATHEDRAL_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CATHEDRAL_3",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CATHEDRAL_4",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CATHEDRAL_4",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HOLY_SITE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_1",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HOLY_SITE_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_PYRAMIDS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_PYRAMIDS",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GREAT_ZIGGURAT",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GREAT_ZIGGURAT",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GREAT_ORACLE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_ORACLE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HANGING_GARDENS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HANGING_GARDENS",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NECROPOLIS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_NECROPOLIS",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_ISHTAR_GATE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_ISHTAR_GATE",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_LIGHTHOUSE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_LIGHTHOUSE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_APADANA",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_APADANA",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MAUSOLEUM",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MAUSOLEUM",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_ACROPOLIS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_ACROPOLIS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_COLOSSUS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_COLOSSUS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MUSAEUM",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MUSAEUM",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_CIRCUS_MAXIMUS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_CIRCUS_MAXIMUS",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_PANTHEON",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_PANTHEON",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HAGIA_SOPHIA",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HAGIA_SOPHIA",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_VIA_RECTA_SOUK",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_VIA_RECTA_SOUK",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FARM_BARLEY",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_FARM_BARLEY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FARM_SORGHUM",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_FARM_SORGHUM"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FARM_WHEAT",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_FARM_WHEAT"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_FARM_WINE",
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_FARM"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE_ORE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE_ORE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE_GOLD",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE_GOLD"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE_GEM",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE_GEM"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE_SILVER",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE_SILVER"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_MINE_SALT",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_MINE_SALT"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_HONEY",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_HONEY"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_INCENSE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_INCENSE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_LAVENDER",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_LAVENDER"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_CITRUS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_CITRUS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_WINE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_WINE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GROVE_OLIVE",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GROVE_OLIVE"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NETS_FISH",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_NETS_FISH"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NETS_CRABS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_NETS_CRABS"
       }
     ]
   }

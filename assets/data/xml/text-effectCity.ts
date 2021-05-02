@@ -11,6 +11,18 @@
         }
       },
       {
+        "zType": "TEXT_EFFECTCITY_SEAT_SOURCE",
+        "English": "Seat"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
+        "English": "Capital"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "English": "link(CONCEPT_STATE_RELIGION)"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_BASE",
         "English": "Base"
       },
@@ -20,7 +32,7 @@
       },
       {
         "zType": "TEXT_EFFECTCITY_FAMILY_SEAT",
-        "English": "Family Seat"
+        "English": "link(CONCEPT_FAMILY_SEAT)"
       },
       {
         "zType": "TEXT_EFFECTCITY_CONNECTED",
@@ -35,10 +47,6 @@
         "English": "Holy City"
       },
       {
-        "zType": "TEXT_EFFECTCITY_FRESH_WATER",
-        "English": "Fresh Water Access"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_CITIZEN",
         "English": "Citizen"
       },
@@ -51,116 +59,116 @@
         "English": "Luxury"
       },
       {
+        "zType": "TEXT_EFFECTCITY_LUXURY_LANDOWNERS_HONEY",
+        "English": "Landowner Honey"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_LANDOWNERS_OLIVE",
+        "English": "Landowner Olive"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_CHAMPIONS_WINE",
+        "English": "Champion Wine"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_CHAMPIONS_DYE",
+        "English": "Champion Dye"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_STATESMEN_PEARL",
+        "English": "Statesmen Pearls"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_STATESMEN_WINE",
+        "English": "Statesmen Wine"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_PATRONS_GEM",
+        "English": "Patrons Gems"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_PATRONS_INCENSE",
+        "English": "Patrons Incense"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_CLERICS_INCENSE",
+        "English": "Clerics Incense"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_CLERICS_LAVENDER",
+        "English": "Clerics Lavender"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_SAGES_LAVENDER",
+        "English": "Sages Lavender"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_SAGES_SALT",
+        "English": "Sages Salt"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_TRADERS_OLIVE",
+        "English": "Traders Olives"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_TRADERS_PEARL",
+        "English": "Traders Pearl"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_ARTISANS_DYE",
+        "English": "Artisans Dye"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_ARTISANS_GEM",
+        "English": "Artisans Gem"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_RIDERS_SALT",
+        "English": "Riders Salt"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_RIDERS_FUR",
+        "English": "Riders Fur"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_HUNTERS_FUR",
+        "English": "Hunters Fur"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LUXURY_HUNTERS_HONEY",
+        "English": "Hunters Honey"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE",
+        "English": "Decree"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
+        "English": "Inquiry"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT",
+        "English": "Hunt"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_AMBITION_CAPITAL",
-        "English": "Ambitions Completed"
+        "English": "link(CONCEPT_AMBITION,2) Completed"
       },
       {
         "zType": "TEXT_EFFECTCITY_LEGACY_CAPITAL",
         "English": "Legacies Completed"
       },
       {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_LANDOWNERS",
-        "English": "Landowners"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_LANDOWNERS_SEAT",
-        "English": "Landowners"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_CHAMPIONS",
-        "English": "Champions"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_CHAMPIONS_SEAT",
-        "English": "Champions"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_STATESMEN",
-        "English": "Statesmen"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT",
-        "English": "Statesmen"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT_DECREE",
-        "English": "Decree"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_PATRONS",
-        "English": "Patrons"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_PATRONS_SEAT",
-        "English": "Patrons"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_CLERICS",
-        "English": "Clerics"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_CLERICS_SEAT",
-        "English": "Clerics"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_SAGES",
-        "English": "Sages"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_SAGES_SEAT",
-        "English": "Sages"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_SAGES_SEAT_INQUIRY",
-        "English": "Inquiry"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_TRADERS",
-        "English": "Traders"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_TRADERS_SEAT",
-        "English": "Traders"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_ARTISANS",
-        "English": "Artisans"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_ARTISANS_SEAT",
-        "English": "Artisans"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_RIDERS",
-        "English": "Riders"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_RIDERS_SEAT",
-        "English": "Riders"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_HUNTERS",
-        "English": "Hunters"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT",
-        "English": "Hunters"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT_HUNT",
-        "English": "Hunt"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_CULTURE_DEVELOPING",
-        "English": "Developing"
+        "English": "Developing City"
       },
       {
         "zType": "TEXT_EFFECTCITY_CULTURE_STRONG",
-        "English": "Strong"
+        "English": "Strong City"
       },
       {
         "zType": "TEXT_EFFECTCITY_CULTURE_LEGENDARY",
-        "English": "Legendary"
+        "English": "Legendary City"
       },
       {
         "zType": "TEXT_EFFECTCITY_DIFFICULTY_ABLE",
@@ -227,208 +235,8 @@
         "English": "The Great"
       },
       {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HAMLET",
-        "English": "Hamlet"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_VILLAGE",
-        "English": "Village"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_TOWN",
-        "English": "Town"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_BARRACKS",
-        "English": "Barracks"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_RANGE",
-        "English": "Range"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MARKET_1",
-        "English": "Market"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MARKET_2",
-        "English": "Grocer"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MARKET_3",
-        "English": "Fair"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_LIBRARY_1",
-        "English": "Library"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_LIBRARY_2",
-        "English": "Academy"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_LIBRARY_3",
-        "English": "University"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_COURTHOUSE_1",
-        "English": "Courthouse"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_COURTHOUSE_2",
-        "English": "Ministry"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_COURTHOUSE_3",
-        "English": "Palace"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_GARRISON_1",
-        "English": "Garrison"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_GARRISON_2",
-        "English": "Stronghold"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_GARRISON_3",
-        "English": "Citadel"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_FIRE",
-        "English": "Shrine of Fire"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_UNDERWORLD",
-        "English": "Shrine of the Underworld"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HEALING",
-        "English": "Shrine of Healing"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENT_SHRINE_HUNTING",
         "English": "Shrine of the Hunt"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
-        "English": "The Adur Burzen-Mihr"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HOLY_SITE_JUDAISM",
-        "English": "The Temple of Solomon"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
-        "English": "The Church of the Holy Sepulchre"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
-        "English": "The Cao'an"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_GREAT_ZIGGURAT",
-        "English": "The Great Ziggurat"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_ORACLE",
-        "English": "The Oracle"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HANGING_GARDENS_ALL",
-        "English": "The Hanging Gardens"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_NECROPOLIS",
-        "English": "The Necropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_NECROPOLIS_ALL",
-        "English": "The Necropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_ISHTAR_GATE",
-        "English": "The Ishtar Gate"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_LIGHTHOUSE",
-        "English": "The Lighthouse"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_LIGHTHOUSE_COAST",
-        "English": "The Lighthouse"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_APADANA_STATE",
-        "English": "The Apadana"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MAUSOLEUM_ALL",
-        "English": "The Mausoleum"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_ACROPOLIS",
-        "English": "The Acropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_ACROPOLIS_ALL",
-        "English": "The Acropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_COLOSSUS",
-        "English": "The Colossus"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_COLOSSUS_ALL",
-        "English": "The Colossus"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MUSAEUM",
-        "English": "The Musaeum"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_MUSAEUM_ALL",
-        "English": "The Musaeum"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_CIRCUS_MAXIMUS_ALL",
-        "English": "The Circus Maximus"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_PANTHEON",
-        "English": "The Pantheon"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_PANTHEON_STATE",
-        "English": "The Pantheon"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_HAGIA_SOPHIA_ALL",
-        "English": "The Hagia Sophia"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENT_GRAND_BAZAAR_ALL",
-        "English": "The Grand Bazaar"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_THEATER",
-        "English": "Theaters"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_MARKET",
-        "English": "Markets"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_LIBRARY",
-        "English": "Libraries"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_COURTHOUSE",
-        "English": "Courthouses"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_HOLY_SITE",
-        "English": "Holy Site"
       },
       {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_MYTHOLOGY",
@@ -443,28 +251,20 @@
         "English": "Legalism Monastery"
       },
       {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE",
-        "English": "Temple"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION",
         "English": "Revelation Temple"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM",
+        "English": "Dualism Temple"
       },
       {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM",
         "English": "Gnosticism Temple"
       },
       {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL",
-        "English": "Cathedral"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_REDEMPTION",
         "English": "Redemption Cathedral"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_DUALISM",
-        "English": "Dualism Cathedral"
       },
       {
         "zType": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT",
@@ -483,12 +283,16 @@
         "English": "Centralization"
       },
       {
+        "zType": "TEXT_EFFECTCITY_LAW_SERFDOM",
+        "English": "Serfdom"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_LAW_TYRANNY",
         "English": "Tyranny"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_SERFDOM",
-        "English": "Serfdom"
+        "zType": "TEXT_EFFECTCITY_LAW_CONSTITUTION",
+        "English": "Constitution"
       },
       {
         "zType": "TEXT_EFFECTCITY_LAW_MONOTHEISM",
@@ -499,8 +303,12 @@
         "English": "Polytheism"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY",
-        "English": "Professional Army"
+        "zType": "TEXT_EFFECTCITY_LAW_DIVINE_RULE",
+        "English": "Divine Rule"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LAW_LEGAL_CODE",
+        "English": "Legal Code"
       },
       {
         "zType": "TEXT_EFFECTCITY_LAW_TOLERANCE",
@@ -511,12 +319,12 @@
         "English": "Orthodoxy"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_GUILDS",
-        "English": "Guilds"
+        "zType": "TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY",
+        "English": "Professional Army"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_ELITES",
-        "English": "Elites"
+        "zType": "TEXT_EFFECTCITY_LAW_VOLUNTEERS",
+        "English": "Volunteers"
       },
       {
         "zType": "TEXT_EFFECTCITY_LAW_PHILOSOPHY",
@@ -531,396 +339,136 @@
         "English": "Calligraphy"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_ISOLATIONISM",
-        "English": "Isolationism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_LAW_TRADE_LEAGUE",
-        "English": "Trade League"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_LAW_ASCETICISM",
-        "English": "Asceticism"
+        "zType": "TEXT_EFFECTCITY_LAW_PILGRIMAGE",
+        "English": "Pilgrimage"
       },
       {
         "zType": "TEXT_EFFECTCITY_LAW_HOLY_WAR",
         "English": "Holy War"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_DIVINE_RULE",
-        "English": "Divine Rule"
+        "zType": "TEXT_EFFECTCITY_LAW_GUILDS",
+        "English": "Guilds"
       },
       {
-        "zType": "TEXT_EFFECTCITY_LAW_SECULARISM",
-        "English": "Secularism"
+        "zType": "TEXT_EFFECTCITY_LAW_ELITES",
+        "English": "Elites"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_LAW_AUTARKY",
+        "English": "Autarky"
       },
       {
         "zType": "TEXT_EFFECTCITY_LAW_COIN_DEBASEMENT",
         "English": "Coin Debasement"
       },
       {
-        "zType": "TEXT_EFFECTCITY_NATION_ASSYRIA",
-        "English": "Assyria"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_BABYLONIA",
-        "English": "Babylonia"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_CARTHAGE",
-        "English": "Carthage"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_EGYPT",
-        "English": "Egypt"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_GREECE",
-        "English": "Greece"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_ROME",
-        "English": "Rome"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_NATION_PERSIA",
-        "English": "Persia"
+        "zType": "TEXT_EFFECTCITY_LAW_MONETARY_REFORM",
+        "English": "Monetary Reform"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONFAMILY_FURIOUS",
-        "English": "Furious (Family)"
+        "English": "Furious Family"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONFAMILY_ANGRY",
-        "English": "Angry (Family)"
+        "English": "Angry Family"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONFAMILY_UPSET",
-        "English": "Upset (Family)"
+        "English": "Upset Family"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONFAMILY_PLEASED",
-        "English": "Pleased (Family)"
+        "English": "Pleased Family"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONFAMILY_FRIENDLY",
-        "English": "Friendly (Family)"
+        "English": "Friendly Family"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
-        "English": "Furious (Religion)"
+        "English": "Furious Religion"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
-        "English": "Angry (Religion)"
+        "English": "Angry Religion"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
-        "English": "Upset (Religion)"
+        "English": "Upset Religion"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
-        "English": "Pleased (Religion)"
+        "English": "Pleased Religion"
       },
       {
         "zType": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
-        "English": "Friendly (Religion)"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_MONARCH",
-        "English": "Monarch"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_GOVERNOR",
-        "English": "Governor"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_WALLS",
-        "English": "Walls"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_MOAT",
-        "English": "Moat"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TOWERS",
-        "English": "Towers"
+        "English": "Friendly Religion"
       },
       {
         "zType": "TEXT_EFFECTCITY_PROJECT_TREASURY",
-        "English": "Treasury"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TREASURY_1",
-        "English": "Treasury I"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TREASURY_2",
-        "English": "Treasury II"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TREASURY_3",
-        "English": "Treasury III"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TREASURY_4",
-        "English": "Treasury IV"
+        "English": "Treasury~a Treasury~Treasuries"
       },
       {
         "zType": "TEXT_EFFECTCITY_PROJECT_FORUM",
-        "English": "Forum"
+        "English": "Forum~a Forum~Forums"
       },
       {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FORUM_1",
-        "English": "Forum I"
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_COLLEGES",
+        "English": "Pagan Colleges"
       },
       {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FORUM_2",
-        "English": "Forum II"
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WAR",
+        "English": "Pagan Cult of War"
       },
       {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FORUM_3",
-        "English": "Forum III"
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_FIRE",
+        "English": "Pagan Cult of Fire"
       },
       {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FORUM_4",
-        "English": "Forum IV"
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WISDOM",
+        "English": "Pagan Cult of Wisdom"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_SUN",
+        "English": "Pagan Cult of the Sun"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WATER",
+        "English": "Pagan Cult of the Sea"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_LOVE",
+        "English": "Pagan Cult of Love"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_UNDERWORLD",
+        "English": "Pagan Cult of Death"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEALING",
+        "English": "Pagan Cult of Healing"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_KINGSHIP",
+        "English": "Pagan Cult of Royalty"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEARTH",
+        "English": "Pagan Cult of HearthS"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING",
+        "English": "Pagan Cult of Victory"
       },
       {
         "zType": "TEXT_EFFECTCITY_PROJECT_ARCHIVE",
-        "English": "Archive"
+        "English": "Archive~an Archive~Archives"
       },
       {
-        "zType": "TEXT_EFFECTCITY_PROJECT_ARCHIVE_1",
-        "English": "Archive I"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_ARCHIVE_2",
-        "English": "Archive II"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_ARCHIVE_3",
-        "English": "Archive III"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_ARCHIVE_4",
-        "English": "Archive IV"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FESTIVAL",
-        "English": "Festival"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_INQUIRY",
-        "English": "Inquiry"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_HUNT",
-        "English": "Hunt"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_OLYMPICS",
-        "English": "Olympics"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_CONVOY",
-        "English": "Convoy"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_SWORD_CULT",
-        "English": "Sword Cult"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_SWORD_CULT_TITHE",
-        "English": "Sword Cult Tithe"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_HOSTILE_GARRISON",
-        "English": "Hostile Garrison"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_PUBLIC_MURAL",
-        "English": "Public Mural"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TRIUMPH",
-        "English": "Triumph"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_PURPLE_DYE",
-        "English": "Purple Dye"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_PROPAGANDA",
-        "English": "Propaganda"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_CHILD_LABOR",
-        "English": "Child Labor"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_CORRUPTION_REFORM",
-        "English": "Corruption Reform"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_ROYAL_INSCRIPTIONS",
-        "English": "Royal Clay Inscriptions"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_IMPERIAL_NECROPOLIS",
-        "English": "Imperial Necropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FORCED_DEPORTATIONS",
-        "English": "Forced Deportations"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_GLADIATORS",
-        "English": "Gladiators"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_PLAYS",
-        "English": "Dramatic Plays"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_MERCHANT_TOWN",
-        "English": "Merchant Town"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_OUTBREAK",
-        "English": "Outbreak"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_LUXURIOUS_DELIGHTS",
-        "English": "Luxurious Delights"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_MIDWIFERY",
-        "English": "Midwifery"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_TRADE_PERSIA",
-        "English": "Trade with Persia"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_FEAST_PERSIA",
-        "English": "Host Annual Feast for Persian Guests"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_TRADE_ROME",
-        "English": "Trade with Rome"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_TRADE_BABYLONIA",
-        "English": "Trade with Babylonia"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_TRADE_CARTHAGE",
-        "English": "Trade with Carthage"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_ADVANCED_TRADE_CARTHAGE",
-        "English": "Advanced Trade with Carthage"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NEIGHBORS_INTERNATIONAL_TRADE",
-        "English": "International Trade Agreement"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_MISTHOPHORIA",
-        "English": "Misthophoria"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_GRAIN_DOLE",
-        "English": "Grain Dole"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_FOREIGN_FIGHTERS",
-        "English": "Foreign Fighters"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_WAR_COUNCIL",
-        "English": "War Council"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_SEWER_SYSTEM",
-        "English": "Sewer System"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_CASE_HARDENING",
-        "English": "Case-Hardening"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TURPAN_WELLS",
-        "English": "Turpan Wells"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_NATIONAL_HOLIDAY",
-        "English": "National Holiday"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_SCIENTIFIC_METHOD",
-        "English": "Scientific Method"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_PROTECTION_EDICTS",
-        "English": "Protection Edicts"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_HORREUM",
-        "English": "Horreum Storehouse"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_AVESTA_TREASURY",
-        "English": "Avesta Treasury"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_DISEASED_SETTLERS",
-        "English": "Diseased Citizens"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TERRACE_LOVE_SHRINE",
-        "English": "Ziggurat Love Shrine"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TERRACE_WISDOM_SHRINE",
-        "English": "Ziggurat Wisdom Shrine"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_PROJECT_TERRACE_WAR_SHRINE",
-        "English": "Ziggurat War Shrine"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_JUDAISM",
-        "English": "Judaism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_JUDAISM_STATE",
-        "English": "Judaism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_ZOROASTRIANISM",
-        "English": "Zoroastrianism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_ZOROASTRIANISM_STATE",
-        "English": "Zoroastrianism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_CHRISTIANITY",
-        "English": "Christianity"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_CHRISTIANITY_STATE",
-        "English": "Christianity"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_MANICHAEISM",
-        "English": "Manichaeism"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_RELIGION_MANICHAEISM_STATE",
-        "English": "Manichaeism"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_MARBLE",
+        "English": "Marble"
       },
       {
         "zType": "TEXT_EFFECTCITY_RESOURCE_ORE",
@@ -931,12 +479,56 @@
         "English": "Salt"
       },
       {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_SALT_LUXURY",
+        "English": "Salt Luxury"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_RESOURCE_GEM",
         "English": "Gem"
       },
       {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_GEM_LUXURY",
+        "English": "Gem Luxury"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_GOLD",
+        "English": "Gold"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_SILVER",
+        "English": "Silver"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_RESOURCE_HORSE",
         "English": "Horse"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_CATTLE",
+        "English": "Cattle"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_SHEEP",
+        "English": "Sheep"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_PIG",
+        "English": "Pig"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_GOAT",
+        "English": "Goat"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_WHEAT",
+        "English": "Wheat"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_BARLEY",
+        "English": "Barley"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_SORGHUM",
+        "English": "Sorghum"
       },
       {
         "zType": "TEXT_EFFECTCITY_RESOURCE_CAMEL",
@@ -947,172 +539,92 @@
         "English": "Elephant"
       },
       {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_GAME",
+        "English": "Game"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_RESOURCE_FUR",
         "English": "Fur"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_FUR_LUXURY",
+        "English": "Fur Luxury"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_CITRUS",
+        "English": "Citrus"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_HONEY",
+        "English": "Honey"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_HONEY_LUXURY",
+        "English": "Honey Luxury"
       },
       {
         "zType": "TEXT_EFFECTCITY_RESOURCE_INCENSE",
         "English": "Incense"
       },
       {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_INCENSE_LUXURY",
+        "English": "Incense Luxury"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_LAVENDER",
+        "English": "Lavender"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_LAVENDER_LUXURY",
+        "English": "Lavender Luxury"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_RESOURCE_WINE",
         "English": "Wine"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_WINE_LUXURY",
+        "English": "Wine Luxury"
       },
       {
         "zType": "TEXT_EFFECTCITY_RESOURCE_OLIVE",
         "English": "Olive"
       },
       {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_OLIVE_LUXURY",
+        "English": "Olive Luxury"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_RESOURCE_DYE",
         "English": "Dye"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_RESOURCE_DYE_LUXURY",
+        "English": "Dye Luxury"
       },
       {
         "zType": "TEXT_EFFECTCITY_RESOURCE_PEARL",
         "English": "Pearl"
       },
       {
-        "zType": "TEXT_EFFECTCITY_RESOURCE_SCROLLS",
-        "English": "Scrolls"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_PEARL_LUXURY",
+        "English": "Pearl Luxury"
       },
       {
-        "zType": "TEXT_EFFECTCITY_RESOURCE_FOOD_STAPLE",
-        "English": "Food Staple"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_FISH",
+        "English": "Fish"
       },
       {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_FARMER",
-        "English": "Farmer"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_CRAB",
+        "English": "Crab"
       },
       {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_WOODCUTTER",
-        "English": "Woodcutter"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_CROP",
+        "English": "Crop Resouce"
       },
       {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_STONECUTTER",
-        "English": "Stonecutter"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_MINER",
-        "English": "Miner"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_DOCTOR_1",
-        "English": "Apprentice Doctor"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_DOCTOR_2",
-        "English": "Master Doctor"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_DOCTOR_3",
-        "English": "Elder Doctor"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_ACOLYTE_1",
-        "English": "Apprentice Acolyte"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_ACOLYTE_2",
-        "English": "Master Acolyte"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_ACOLYTE_3",
-        "English": "Elder Acolyte"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_MONK_1",
-        "English": "Apprentice Monk"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_MONK_2",
-        "English": "Master Monk"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_MONK_3",
-        "English": "Elder Monk"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PRIEST_1",
-        "English": "Apprentice Priest"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PRIEST_2",
-        "English": "Master Priest"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PRIEST_3",
-        "English": "Elder Priest"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_BISHOP_1",
-        "English": "Apprentice Bishop"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_BISHOP_2",
-        "English": "Master Bishop"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_BISHOP_3",
-        "English": "Elder Bishoo"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_POET_1",
-        "English": "Apprentice Poet"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_POET_2",
-        "English": "Master Poet"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_POET_3",
-        "English": "Elder Poet"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SHOPKEEPER_1",
-        "English": "Apprentice Shopkeeper"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SHOPKEEPER_2",
-        "English": "Master Shopkeeper"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SHOPKEEPER_3",
-        "English": "Elder Shopkeeper"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PHILOSOPHER_1",
-        "English": "Apprentice Philosopher"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PHILOSOPHER_2",
-        "English": "Master Philosopher"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_PHILOSOPHER_3",
-        "English": "Elder Philosopher"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SCRIBE_1",
-        "English": "Apprentice Scribe"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SCRIBE_2",
-        "English": "Master Scribe"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_SCRIBE_3",
-        "English": "Elder Scribe"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_OFFICER_1",
-        "English": "Apprentice Officer"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_OFFICER_2",
-        "English": "Master Officer"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SPECIALIST_OFFICER_3",
-        "English": "Elder Officer"
+        "zType": "TEXT_EFFECTCITY_RESOURCE_BULLION",
+        "English": "Bullion Resouce"
       },
       {
         "zType": "TEXT_EFFECTCITY_SPECIALIST_RURAL",
@@ -1131,164 +643,140 @@
         "English": "Elder Specialist"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL",
-        "English": "Orator Leader"
+        "zType": "TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL",
+        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL",
-        "English": "Builder Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_ALL",
-        "English": "Commander Leader"
+        "zType": "TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL",
+        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
-        "English": "Zealot Leader"
+        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE",
+        "English": "link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL",
+        "English": "link(TRAIT_ORATOR_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_JUDGE_ARCHETYPE",
+        "English": "link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE",
+        "English": "link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_BUILDER_ARCHETYPE_ALL",
+        "English": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_SCHOLAR_ARCHETYPE",
+        "English": "link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_AFFABLE_ALL",
+        "English": "link(TRAIT_AFFABLE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL",
+        "English": "link(TRAIT_ELOQUENT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL",
+        "English": "link(TRAIT_WARLIKE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL",
+        "English": "link(TRAIT_INSPIRING) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL",
+        "English": "link(TRAIT_INTELLIGENT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL",
+        "English": "link(TRAIT_PROSPEROUS) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL",
+        "English": "link(TRAIT_FRUGAL) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
+        "English": "link(TRAIT_RIGHTEOUS) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_CRUEL_ALL",
+        "English": "link(TRAIT_CRUEL) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL",
+        "English": "link(TRAIT_INTOLERANT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL",
+        "English": "link(TRAIT_SLOTHFUL) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL",
+        "English": "link(TRAIT_UNCOUTH) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL",
+        "English": "link(TRAIT_FOOLISH) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL",
+        "English": "link(TRAIT_EXTRAVAGANT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL",
+        "English": "link(TRAIT_CORRUPT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL",
+        "English": "link(TRAIT_DEBAUCHED) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_ROBUST",
-        "English": "Robust"
+        "English": "link(TRAIT_ROBUST) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_VIGILANT",
-        "English": "Vigilant"
+        "English": "link(TRAIT_VIGILANT) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_STRICT",
-        "English": "Strict"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_DRILLMASTER",
-        "English": "Drillmaster"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_KEEN",
-        "English": "Keen"
+        "English": "link(TRAIT_STRICT) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_EQUESTRIAN",
-        "English": "Equestrian"
+        "English": "link(TRAIT_EQUESTRIAN) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_AFFABLE",
-        "English": "Affable"
+        "zType": "TEXT_EFFECTCITY_TRAIT_CARPENTER",
+        "English": "link(TRAIT_CARPENTER) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_WARLIKE",
-        "English": "Warlike"
+        "zType": "TEXT_EFFECTCITY_TRAIT_PATHFINDER",
+        "English": "link(TRAIT_PATHFINDER) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_ELOQUENT",
-        "English": "Eloquent"
+        "zType": "TEXT_EFFECTCITY_TRAIT_CULTIVATOR",
+        "English": "link(TRAIT_CULTIVATOR) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_INSPIRED",
-        "English": "Inspired"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT",
-        "English": "Intelligent"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS",
-        "English": "Prosperous"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_FRUGAL",
-        "English": "Frugal"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS",
-        "English": "Righteous"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_CRUEL",
-        "English": "Cruel"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_CARELESS",
-        "English": "Careless"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_SLOTHFUL",
-        "English": "Slothful"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_UNCOUTH",
-        "English": "Uncouth"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_FOOLISH",
-        "English": "Foolish"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT",
-        "English": "Extravagant"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_CORRUPT",
-        "English": "Corrupt"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_DEBAUCHED",
-        "English": "Debauched"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_ANGLER",
-        "English": "Angler"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_PLANTER",
-        "English": "Planter"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_FORESTER",
-        "English": "Forester"
+        "zType": "TEXT_EFFECTCITY_TRAIT_NATURALIST",
+        "English": "link(TRAIT_NATURALIST) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_DELVER",
-        "English": "Delver"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_SMELTER",
-        "English": "Smelter"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_HERDER",
-        "English": "Herder"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_MISERABLE",
-        "English": "Miserable"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_MOURNING",
-        "English": "Mourning"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_SOLDIER",
-        "English": "Soldier"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_UNIT_CARAVAN",
-        "English": "Caravan"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_ENEMY_OF_THE_STATE",
-        "English": "Enemy of the State"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_SEAT_SOURCE",
-        "English": "Seat"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "English": "Capital"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
-        "English": "State Religion"
+        "English": "link(TRAIT_DELVER) Leader"
       }
     ]
   }

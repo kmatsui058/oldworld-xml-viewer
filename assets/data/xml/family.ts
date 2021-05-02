@@ -28,7 +28,7 @@
         "NameFemale": "TEXT_FAMILY_SARGONID",
         "iColorIndex": "0",
         "Nation": "NATION_ASSYRIA",
-        "FamilyClass": "FAMILY_CLASS_CHAMPIONS"
+        "FamilyClass": "FAMILYCLASS_CHAMPIONS"
       },
       {
         "zType": "FAMILY_TUDIYA",
@@ -36,7 +36,7 @@
         "NameFemale": "TEXT_FAMILY_TUDIYA",
         "iColorIndex": "1",
         "Nation": "NATION_ASSYRIA",
-        "FamilyClass": "FAMILY_CLASS_HUNTERS"
+        "FamilyClass": "FAMILYCLASS_HUNTERS"
       },
       {
         "zType": "FAMILY_ADASI",
@@ -44,7 +44,7 @@
         "NameFemale": "TEXT_FAMILY_ADASI",
         "iColorIndex": "2",
         "Nation": "NATION_ASSYRIA",
-        "FamilyClass": "FAMILY_CLASS_PATRONS"
+        "FamilyClass": "FAMILYCLASS_PATRONS"
       },
       {
         "zType": "FAMILY_ERISHUM",
@@ -52,7 +52,7 @@
         "NameFemale": "TEXT_FAMILY_ERISHUM",
         "iColorIndex": "3",
         "Nation": "NATION_ASSYRIA",
-        "FamilyClass": "FAMILY_CLASS_CLERICS"
+        "FamilyClass": "FAMILYCLASS_CLERICS"
       },
       {
         "zType": "FAMILY_KASSITE",
@@ -60,7 +60,7 @@
         "NameFemale": "TEXT_FAMILY_KASSITE",
         "iColorIndex": "0",
         "Nation": "NATION_BABYLONIA",
-        "FamilyClass": "FAMILY_CLASS_HUNTERS"
+        "FamilyClass": "FAMILYCLASS_HUNTERS"
       },
       {
         "zType": "FAMILY_CHALDEAN",
@@ -68,7 +68,7 @@
         "NameFemale": "TEXT_FAMILY_CHALDEAN",
         "iColorIndex": "1",
         "Nation": "NATION_BABYLONIA",
-        "FamilyClass": "FAMILY_CLASS_ARTISANS"
+        "FamilyClass": "FAMILYCLASS_ARTISANS"
       },
       {
         "zType": "FAMILY_ISIN",
@@ -76,7 +76,7 @@
         "NameFemale": "TEXT_FAMILY_ISIN",
         "iColorIndex": "2",
         "Nation": "NATION_BABYLONIA",
-        "FamilyClass": "FAMILY_CLASS_TRADERS"
+        "FamilyClass": "FAMILYCLASS_TRADERS"
       },
       {
         "zType": "FAMILY_AMORITE",
@@ -84,7 +84,7 @@
         "NameFemale": "TEXT_FAMILY_AMORITE",
         "iColorIndex": "3",
         "Nation": "NATION_BABYLONIA",
-        "FamilyClass": "FAMILY_CLASS_SAGES"
+        "FamilyClass": "FAMILYCLASS_SAGES"
       },
       {
         "zType": "FAMILY_BARCID",
@@ -92,7 +92,7 @@
         "NameFemale": "TEXT_FAMILY_BARCID",
         "iColorIndex": "0",
         "Nation": "NATION_CARTHAGE",
-        "FamilyClass": "FAMILY_CLASS_CHAMPIONS"
+        "FamilyClass": "FAMILYCLASS_RIDERS"
       },
       {
         "zType": "FAMILY_MAGONID",
@@ -100,7 +100,7 @@
         "NameFemale": "TEXT_FAMILY_MAGONID",
         "iColorIndex": "1",
         "Nation": "NATION_CARTHAGE",
-        "FamilyClass": "FAMILY_CLASS_ARTISANS"
+        "FamilyClass": "FAMILYCLASS_ARTISANS"
       },
       {
         "zType": "FAMILY_HANNONID",
@@ -108,7 +108,7 @@
         "NameFemale": "TEXT_FAMILY_HANNONID",
         "iColorIndex": "2",
         "Nation": "NATION_CARTHAGE",
-        "FamilyClass": "FAMILY_CLASS_TRADERS"
+        "FamilyClass": "FAMILYCLASS_TRADERS"
       },
       {
         "zType": "FAMILY_DIDONIAN",
@@ -116,7 +116,7 @@
         "NameFemale": "TEXT_FAMILY_DIDONIAN",
         "iColorIndex": "3",
         "Nation": "NATION_CARTHAGE",
-        "FamilyClass": "FAMILY_CLASS_SAGES"
+        "FamilyClass": "FAMILYCLASS_STATESMEN"
       },
       {
         "zType": "FAMILY_RAMESSIDE",
@@ -124,7 +124,7 @@
         "NameFemale": "TEXT_FAMILY_RAMESSIDE",
         "iColorIndex": "0",
         "Nation": "NATION_EGYPT",
-        "FamilyClass": "FAMILY_CLASS_RIDERS"
+        "FamilyClass": "FAMILYCLASS_RIDERS"
       },
       {
         "zType": "FAMILY_SAITE",
@@ -132,7 +132,7 @@
         "NameFemale": "TEXT_FAMILY_SAITE",
         "iColorIndex": "1",
         "Nation": "NATION_EGYPT",
-        "FamilyClass": "FAMILY_CLASS_LANDOWNERS"
+        "FamilyClass": "FAMILYCLASS_LANDOWNERS"
       },
       {
         "zType": "FAMILY_AMARNA",
@@ -140,7 +140,7 @@
         "NameFemale": "TEXT_FAMILY_AMARNA",
         "iColorIndex": "2",
         "Nation": "NATION_EGYPT",
-        "FamilyClass": "FAMILY_CLASS_CLERICS"
+        "FamilyClass": "FAMILYCLASS_CLERICS"
       },
       {
         "zType": "FAMILY_THUTMOSID",
@@ -148,7 +148,7 @@
         "NameFemale": "TEXT_FAMILY_THUTMOSID",
         "iColorIndex": "3",
         "Nation": "NATION_EGYPT",
-        "FamilyClass": "FAMILY_CLASS_SAGES"
+        "FamilyClass": "FAMILYCLASS_SAGES"
       },
       {
         "zType": "FAMILY_ARGEAD",
@@ -156,7 +156,7 @@
         "NameFemale": "TEXT_FAMILY_ARGEAD",
         "iColorIndex": "0",
         "Nation": "NATION_GREECE",
-        "FamilyClass": "FAMILY_CLASS_RIDERS"
+        "FamilyClass": "FAMILYCLASS_CHAMPIONS"
       },
       {
         "zType": "FAMILY_CYPSELID",
@@ -164,7 +164,7 @@
         "NameFemale": "TEXT_FAMILY_CYPSELID",
         "iColorIndex": "1",
         "Nation": "NATION_GREECE",
-        "FamilyClass": "FAMILY_CLASS_ARTISANS"
+        "FamilyClass": "FAMILYCLASS_ARTISANS"
       },
       {
         "zType": "FAMILY_SELEUCID",
@@ -172,7 +172,7 @@
         "NameFemale": "TEXT_FAMILY_SELEUCID",
         "iColorIndex": "2",
         "Nation": "NATION_GREECE",
-        "FamilyClass": "FAMILY_CLASS_PATRONS"
+        "FamilyClass": "FAMILYCLASS_PATRONS"
       },
       {
         "zType": "FAMILY_ALCMAEONID",
@@ -180,7 +180,7 @@
         "NameFemale": "TEXT_FAMILY_ALCMAEONID",
         "iColorIndex": "3",
         "Nation": "NATION_GREECE",
-        "FamilyClass": "FAMILY_CLASS_STATESMEN"
+        "FamilyClass": "FAMILYCLASS_SAGES"
       },
       {
         "zType": "FAMILY_SASANID",
@@ -188,7 +188,7 @@
         "NameFemale": "TEXT_FAMILY_SASANID",
         "iColorIndex": "0",
         "Nation": "NATION_PERSIA",
-        "FamilyClass": "FAMILY_CLASS_RIDERS"
+        "FamilyClass": "FAMILYCLASS_RIDERS"
       },
       {
         "zType": "FAMILY_MIHRANID",
@@ -196,7 +196,7 @@
         "NameFemale": "TEXT_FAMILY_MIHRANID",
         "iColorIndex": "1",
         "Nation": "NATION_PERSIA",
-        "FamilyClass": "FAMILY_CLASS_HUNTERS"
+        "FamilyClass": "FAMILYCLASS_HUNTERS"
       },
       {
         "zType": "FAMILY_ARSACID",
@@ -204,7 +204,7 @@
         "NameFemale": "TEXT_FAMILY_ARSACID",
         "iColorIndex": "2",
         "Nation": "NATION_PERSIA",
-        "FamilyClass": "FAMILY_CLASS_CLERICS"
+        "FamilyClass": "FAMILYCLASS_CLERICS"
       },
       {
         "zType": "FAMILY_ACHAEMENID",
@@ -212,7 +212,7 @@
         "NameFemale": "TEXT_FAMILY_ACHAEMENID",
         "iColorIndex": "3",
         "Nation": "NATION_PERSIA",
-        "FamilyClass": "FAMILY_CLASS_STATESMEN"
+        "FamilyClass": "FAMILYCLASS_STATESMEN"
       },
       {
         "zType": "FAMILY_FABIUS",
@@ -220,7 +220,7 @@
         "NameFemale": "TEXT_FAMILY_FABIUS_FEMALE",
         "iColorIndex": "0",
         "Nation": "NATION_ROME",
-        "FamilyClass": "FAMILY_CLASS_CHAMPIONS"
+        "FamilyClass": "FAMILYCLASS_CHAMPIONS"
       },
       {
         "zType": "FAMILY_CLAUDIUS",
@@ -228,7 +228,7 @@
         "NameFemale": "TEXT_FAMILY_CLAUDIUS_FEMALE",
         "iColorIndex": "1",
         "Nation": "NATION_ROME",
-        "FamilyClass": "FAMILY_CLASS_LANDOWNERS"
+        "FamilyClass": "FAMILYCLASS_LANDOWNERS"
       },
       {
         "zType": "FAMILY_VALERIUS",
@@ -236,7 +236,7 @@
         "NameFemale": "TEXT_FAMILY_VALERIUS_FEMALE",
         "iColorIndex": "2",
         "Nation": "NATION_ROME",
-        "FamilyClass": "FAMILY_CLASS_PATRONS"
+        "FamilyClass": "FAMILYCLASS_PATRONS"
       },
       {
         "zType": "FAMILY_JULIUS",
@@ -244,7 +244,7 @@
         "NameFemale": "TEXT_FAMILY_JULIUS_FEMALE",
         "iColorIndex": "3",
         "Nation": "NATION_ROME",
-        "FamilyClass": "FAMILY_CLASS_STATESMEN"
+        "FamilyClass": "FAMILYCLASS_STATESMEN"
       }
     ]
   }

@@ -15,12 +15,40 @@
         "zAsset": "Sprites/UI_HUD_Icon_Atlas"
       },
       {
-        "zType": "ASSET_SPRITE_SHEET_FULLSCREEN_ATLAS",
-        "zAsset": "Sprites/Windows/full-screen-atlas"
+        "zType": "ASSET_GuitarPickUp",
+        "zAsset": "Sprites/GuitarPickUp"
       },
       {
-        "zType": "ASSET_SPRITE_SHEET_TECH_TREE_POPUP",
-        "zAsset": "Sprites/TechTreePopup"
+        "zType": "ASSET_SPRITE_SHEET_HUD_3D_ATLAS",
+        "zAsset": "Sprites/HUD_3D_Atlas"
+      },
+      {
+        "zType": "ASSET_SPRITE_SHEET_MULTIPLAYER_TRIM",
+        "zAsset": "Sprites/MultiplayerTrim"
+      },
+      {
+        "zType": "ASSET_SPRITE_SHEET_NOTIFICATION_BUTTON",
+        "zAsset": "Sprites/notification_button"
+      },
+      {
+        "zType": "ASSET_City-Circle",
+        "zAsset": "Sprites/City-Circle"
+      },
+      {
+        "zType": "ASSET_GuitarPickLeft",
+        "zAsset": "Sprites/GuitarPickLeft"
+      },
+      {
+        "zType": "ASSET_GuitarPickDown",
+        "zAsset": "Sprites/GuitarPickDown"
+      },
+      {
+        "zType": "ASSET_research-bar",
+        "zAsset": "Sprites/research-bar"
+      },
+      {
+        "zType": "ASSET_TECH_DECK",
+        "zAsset": "Sprites/TechDeck"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_TOOL_ICONS",
@@ -39,12 +67,24 @@
         "zAsset": "Sprites/HUD_Atlas_2"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_HUD_TechTree",
+        "zAsset": "Sprites/HUD_TechTree"
+      },
+      {
+        "zType": "ASSET_SPRITE_SHEET_CULTURE_LEVEL_ICONS",
+        "zAsset": "Sprites/CULTURE_LEVEL_ICONS"
+      },
+      {
         "zType": "ASSET_SPRITE_SHEET_HUD_SPRITE_ATLAS",
         "zAsset": "Sprites/HUD_SpriteAtlas"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_HUD_SPRITE_ATLAS_FILTERED",
         "zAsset": "Sprites/HUD_SpriteAtlas_Filtered"
+      },
+      {
+        "zType": "ASSET_SPRITE_SHEET_EVENT_FRAMES",
+        "zAsset": "Sprites/HUD_PopupFrames"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_IMPROVEMENTS",
@@ -59,16 +99,12 @@
         "zAsset": "Sprites/Unit-Portraits"
       },
       {
-        "zType": "ASSET_SPRITE_SHEET_UNIT_PORTRAITS_TEMP",
-        "zAsset": "Sprites/Unit-Portraits-Temp"
+        "zType": "ASSET_SPRITE_SHEET_UNIT_SHAPES",
+        "zAsset": "Sprites/unit-shapes"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_TRAITS",
         "zAsset": "Sprites/Trait-Icons"
-      },
-      {
-        "zType": "ASSET_SPRITE_SHEET_VEGETATION",
-        "zAsset": "Sprites/Feature-Icons"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_RESOURCES",
@@ -128,19 +164,11 @@
       },
       {
         "zType": "ASSET_SPRITE_SHEET_COUNCILS",
-        "zAsset": "Sprites/councils"
-      },
-      {
-        "zType": "ASSET_SPRITE_SHEET_UNIT_BACKGROUNDS",
-        "zAsset": "Sprites/unit-backgrounds"
+        "zAsset": "Sprites/UI_HUD_Icon_Atlas"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_UNIT_ATTACKBACKGROUNDS",
         "zAsset": "Sprites/UnitAttackBackgrounds/Unit-Attack-Backgrounds"
-      },
-      {
-        "zType": "ASSET_SPRITE_SHEET_NATION_ATTACKPREVIEWS",
-        "zAsset": "Sprites/NationAttackPortraits/Nation-Attack-Portraits"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_PINGS",
@@ -161,10 +189,6 @@
       {
         "zType": "ASSET_EVENTSTORY_BACKGROUNDS",
         "zAsset": "Sprites/EventStory-Backgrounds"
-      },
-      {
-        "zType": "ASSET_SPRITE_SHEET_UNIT_ACTIONS",
-        "zAsset": "Sprites/unit-actions"
       },
       {
         "zType": "ASSET_SPRITE_ADD_ROAD",
@@ -199,6 +223,10 @@
         "zAsset": "Sprites/widget-icons"
       },
       {
+        "zType": "ASSET_DEFAULT_CHARACTER_SELECT_BG_PREFAB",
+        "zAsset": "Prefabs/UI/CharacterSelect/CHARACTER_SELECT_DEFAULT"
+      },
+      {
         "zType": "ASSET_MODAL_BACKGROUND",
         "zAsset": "Prefabs/UI/ModalDimBackground"
       },
@@ -213,14 +241,6 @@
       {
         "zType": "ASSET_UNIT_ACTION",
         "zAsset": "Prefabs/UI/UnitActionIndicator"
-      },
-      {
-        "zType": "ASSET_UNIT_ACTION_TEXTURE_ATTACK",
-        "zAsset": "Prefabs/UI/WorldUITextures/unit-attack"
-      },
-      {
-        "zType": "ASSET_UNIT_ACTION_TEXTURE_ATTACK_RANGED",
-        "zAsset": "Prefabs/UI/WorldUITextures/unit-attack-ranged"
       },
       {
         "zType": "ASSET_UNIT_ACTION_TEXTURE_KILL",
@@ -267,6 +287,10 @@
         "zAsset": "Prefabs/Effects/BirdAnimatedFlock"
       },
       {
+        "zType": "ASSET_LIVING_WORLD_PIGEON",
+        "zAsset": "Prefabs/Effects/PigeonFly_Slow"
+      },
+      {
         "zType": "ASSET_TILE_HIGHLIGHT",
         "zAsset": "Prefabs/UI/TileHighlightProjector"
       },
@@ -289,6 +313,10 @@
       {
         "zType": "ASSET_TILE_OVERLAY_MINIMAP",
         "zAsset": "Prefabs/UI/TileOverlayQuadMinimap"
+      },
+      {
+        "zType": "ASSET_TILE_OVERLAY_TIMELINE",
+        "zAsset": "Prefabs/UI/TileOverlayQuadTimeline"
       },
       {
         "zType": "ASSET_EDGE_BORDER",
@@ -323,38 +351,6 @@
         "zAsset": "Prefabs/UI/Widgets/Healthbars/Healthbar"
       },
       {
-        "zType": "ASSET_CITY_WIDGET",
-        "zAsset": "Prefabs/UI/Widgets/CityWidget"
-      },
-      {
-        "zType": "ASSET_UNIT_WIDGET",
-        "zAsset": "Prefabs/UI/Widgets/UnitWidget"
-      },
-      {
-        "zType": "ASSET_WIDGET_DEFAULT_CANVAS",
-        "zAsset": "Prefabs/UI/Widgets/DefaultCanvas"
-      },
-      {
-        "zType": "ASSET_WIDGET_DEFAULT_PANEL",
-        "zAsset": "Prefabs/UI/Widgets/DefaultPanel"
-      },
-      {
-        "zType": "ASSET_WIDGET_DEFAULT_LABEL",
-        "zAsset": "Prefabs/UI/Widgets/DefaultLabel"
-      },
-      {
-        "zType": "ASSET_WIDGET_DEFAULT_BUTTON",
-        "zAsset": "Prefabs/UI/Widgets/DefaultButton"
-      },
-      {
-        "zType": "ASSET_WIDGET_POPUP",
-        "zAsset": "Prefabs/UI/Widgets/ModalPopup"
-      },
-      {
-        "zType": "ASSET_WIDGET_TOOLTIP",
-        "zAsset": "Prefabs/UI/Widgets/Tooltip"
-      },
-      {
         "zType": "ASSET_POPUP_OVERLAY",
         "zAsset": "Prefabs/UI/Widgets/PopupOverlay"
       },
@@ -363,20 +359,8 @@
         "zAsset": "Prefabs/UI/Widgets/PopupOverlayLight"
       },
       {
-        "zType": "ASSET_WIDGET_PLAYER_INFO",
-        "zAsset": "Prefabs/UI/Widgets/PlayerInfo"
-      },
-      {
-        "zType": "ASSET_WIDGET_DEFAULT_SCREEN",
-        "zAsset": "Prefabs/UI/Widgets/DefaultScreen"
-      },
-      {
-        "zType": "ASSET_WIDGET_CARD_BUTTON",
-        "zAsset": "Prefabs/UI/Widgets/CardButton"
-      },
-      {
-        "zType": "ASSET_WIDGET_HUD_BUTTON",
-        "zAsset": "Prefabs/UI/Widgets/Button_Standard"
+        "zType": "ASSET_POPUP_OVERLAY_DARK",
+        "zAsset": "Prefabs/UI/Widgets/PopupOverlayDark"
       },
       {
         "zType": "ASSET_ATTACK_PING",
@@ -403,76 +387,64 @@
         "zAsset": "Prefabs/UI/UI_Objects/Note_Ping"
       },
       {
-        "zType": "ASSET_RELIGION_SCREEN_ANIMATED_BACKGROUND",
-        "zAsset": "Prefabs/UI/AnimatedBackgrounds/ReligionScreenBackgroundTest3D"
-      },
-      {
         "zType": "ASSET_CITY_ASSYRIA_CAPITAL",
         "zAsset": "Prefabs/Cities/Assyria/Assyria_Capital"
       },
       {
         "zType": "ASSET_ASSYRIA_URBAN",
-        "zAsset": "Prefabs/Cities/Assyria/Assyria_Urban_ClutterTransforms"
-      },
-      {
-        "zType": "ASSET_CITY_CAPITAL",
-        "zAsset": "Prefabs/Cities/City_Capitol_Prefab_01"
-      },
-      {
-        "zType": "ASSET_CITY_REGULAR",
-        "zAsset": "Prefabs/Cities/Carthage_v2/Carthage_03_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Assyria/Assyria_Urban"
       },
       {
         "zType": "ASSET_CITY_GREECE_CAPITAL",
-        "zAsset": "Prefabs/Cities/Greece_v3/Greece_02_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Greece/Greece_Capital"
       },
       {
         "zType": "ASSET_GREECE_URBAN",
-        "zAsset": "Prefabs/Cities/Greece_v3/Greece_Urban_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Greece/Greece_Urban"
       },
       {
         "zType": "ASSET_CITY_PERSIA_CAPITAL",
-        "zAsset": "Prefabs/Cities/Persia/Persia_02_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Persia/Persia_Capital"
       },
       {
         "zType": "ASSET_PERSIA_URBAN",
-        "zAsset": "Prefabs/Cities/Persia/Persia_Urban_ClutterTransforms"
-      },
-      {
-        "zType": "ASSET_CITY_PERSIA_REGULAR",
-        "zAsset": "Prefabs/Cities/Persia/Persia_02_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Persia/Persia_Urban"
       },
       {
         "zType": "ASSET_CITY_EGYPT_CAPITAL",
-        "zAsset": "Prefabs/Cities/Egypt_v2/Egypt_Capital_City_Instanced 1"
+        "zAsset": "Prefabs/Cities/Egypt/Egypt_Capital"
       },
       {
         "zType": "ASSET_EGYPT_URBAN",
-        "zAsset": "Prefabs/Cities/Egypt_v2/Egypt_Urban_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Egypt/Egypt_Urban"
       },
       {
         "zType": "ASSET_CITY_BABYLONIA_CAPITAL",
-        "zAsset": "Prefabs/Cities/Babylon/Babylon_Capital"
+        "zAsset": "Prefabs/Cities/Babylonia/Babylonia_Capital"
       },
       {
         "zType": "ASSET_BABYLONIA_URBAN",
-        "zAsset": "Prefabs/Cities/Babylon/Babylon_Urban_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Babylonia/Babylonia_Urban"
       },
       {
         "zType": "ASSET_CITY_CARTHAGE_CAPITAL",
-        "zAsset": "Prefabs/Cities/Carthage_v2/Carthage_02_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Carthage/Carthage_Capital"
       },
       {
         "zType": "ASSET_CARTHAGE_URBAN",
-        "zAsset": "Prefabs/Cities/Carthage_v2/Carthage_Urban_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Carthage/Carthage_Urban"
       },
       {
         "zType": "ASSET_CITY_ROME_CAPITAL",
-        "zAsset": "Prefabs/Cities/Rome/Rome_Capital_New"
+        "zAsset": "Prefabs/Cities/Rome/Rome_Capital"
       },
       {
         "zType": "ASSET_ROME_URBAN",
-        "zAsset": "Prefabs/Cities/Rome/Rome_Urban_ClutterTransforms"
+        "zAsset": "Prefabs/Cities/Rome/Rome_Urban"
+      },
+      {
+        "zType": "ASSET_ROME_WALLS",
+        "zAsset": "Prefabs/Cities/Rome/Rome_Walls"
       },
       {
         "zType": "ASSET_URBAN",
@@ -487,18 +459,6 @@
         "zAsset": "Prefabs/Effects/Projectile"
       },
       {
-        "zType": "ASSET_UNIT_BANNER",
-        "zAsset": "Prefabs/Units/UnitBanner"
-      },
-      {
-        "zType": "ASSET_UNIT_BANNER_BARBARIAN",
-        "zAsset": "Prefabs/Units/UnitBanner_Barbarian"
-      },
-      {
-        "zType": "ASSET_UNIT_BANNER_GREAT_PERSON",
-        "zAsset": "Prefabs/Units/UnitBanner_GreatPerson"
-      },
-      {
         "zType": "ASSET_UNIT_GENERAL_MALE",
         "zAsset": "Prefabs/Units/King"
       },
@@ -511,8 +471,16 @@
         "zAsset": "Prefabs/Units/Settler"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_SETTLER",
+        "zAsset": "Prefabs/Units/Settler_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_WORKER",
         "zAsset": "Prefabs/Units/Worker"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_WORKER",
+        "zAsset": "Prefabs/Units/Worker_portrait"
       },
       {
         "zType": "ASSET_UNIT_WORKER_WATER",
@@ -523,87 +491,171 @@
         "zAsset": "Prefabs/Units/Scout"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_SCOUT",
+        "zAsset": "Prefabs/Units/Scout_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_CARAVAN",
         "zAsset": "Prefabs/Units/Caravan"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CARAVAN",
+        "zAsset": "Prefabs/Units/Caravan_portrait"
       },
       {
         "zType": "ASSET_UNIT_WARRIOR",
         "zAsset": "Prefabs/Units/Warrior"
       },
       {
-        "zType": "ASSET_UNIT_MACEMAN",
-        "zAsset": "Prefabs/Units/Maceman"
-      },
-      {
-        "zType": "ASSET_UNIT_SPEARMAN",
-        "zAsset": "Prefabs/Units/Spearman"
+        "zType": "ASSET_UNIT_PORTRAIT_WARRIOR",
+        "zAsset": "Prefabs/Units/Warrior_portrait"
       },
       {
         "zType": "ASSET_UNIT_AXEMAN",
         "zAsset": "Prefabs/Units/Axeman"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_AXEMAN",
+        "zAsset": "Prefabs/Units/Axeman_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_SPEARMAN",
+        "zAsset": "Prefabs/Units/Spearman"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_SPEARMAN",
+        "zAsset": "Prefabs/Units/Spearman_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_MACEMAN",
+        "zAsset": "Prefabs/Units/Maceman"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_MACEMAN",
+        "zAsset": "Prefabs/Units/Maceman_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_SWORDSMAN",
         "zAsset": "Prefabs/Units/Swordsman"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_SWORDSMAN",
+        "zAsset": "Prefabs/Units/Swordsman_portrait"
       },
       {
         "zType": "ASSET_UNIT_PIKEMAN",
         "zAsset": "Prefabs/Units/Pikeman"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_PIKEMAN",
+        "zAsset": "Prefabs/Units/Pikeman_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_MILITIA",
         "zAsset": "Prefabs/Units/Militia"
       },
       {
-        "zType": "ASSET_UNIT_LEVY",
-        "zAsset": "Prefabs/Units/Militia"
+        "zType": "ASSET_UNIT_PORTRAIT_MILITIA",
+        "zAsset": "Prefabs/Units/Militia_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_CONSCRIPT",
+        "zAsset": "Prefabs/Units/Conscript"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CONSCRIPT",
+        "zAsset": "Prefabs/Units/Conscript_portrait"
       },
       {
         "zType": "ASSET_UNIT_SLINGER",
         "zAsset": "Prefabs/Units/Slinger"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_SLINGER",
+        "zAsset": "Prefabs/Units/Slinger_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_SLINGER_PROJECTILE",
+        "zAsset": "Prefabs/Units/SlingerRock"
+      },
+      {
         "zType": "ASSET_UNIT_ARCHER",
         "zAsset": "Prefabs/Units/Archer"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ARCHER",
+        "zAsset": "Prefabs/Units/Archer_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ARCHER_PROJECTILE",
+        "zAsset": "Prefabs/Units/ArcherArrow"
       },
       {
         "zType": "ASSET_UNIT_LONGBOWMAN",
         "zAsset": "Prefabs/Units/Longbowman"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_LONGBOWMAN",
+        "zAsset": "Prefabs/Units/Longbowman_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_CROSSBOWMAN",
         "zAsset": "Prefabs/Units/Crossbowman"
       },
       {
-        "zType": "ASSET_UNIT_POLYBOLOS",
-        "zAsset": "Prefabs/Units/Polybolos"
+        "zType": "ASSET_UNIT_PORTRAIT_CROSSBOWMAN",
+        "zAsset": "Prefabs/Units/Crossbowman_portrait"
       },
       {
         "zType": "ASSET_UNIT_CHARIOT",
         "zAsset": "Prefabs/Units/Chariot"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_CHARIOT",
+        "zAsset": "Prefabs/Units/Chariot_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_HORSEMAN",
         "zAsset": "Prefabs/Units/Horseman"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_HORSEMAN",
+        "zAsset": "Prefabs/Units/Horseman_portrait"
       },
       {
         "zType": "ASSET_UNIT_HORSE_ARCHER",
         "zAsset": "Prefabs/Units/HorseArcher"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_HORSE_ARCHER",
+        "zAsset": "Prefabs/Units/HorseArcher_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_CAMEL_ARCHER",
         "zAsset": "Prefabs/Units/CamelArcher"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CAMEL_ARCHER",
+        "zAsset": "Prefabs/Units/CamelArcher_portrait"
       },
       {
         "zType": "ASSET_UNIT_WAR_ELEPHANT",
         "zAsset": "Prefabs/Units/WarElephant"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_WAR_ELEPHANT",
+        "zAsset": "Prefabs/Units/WarElephant_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_CATAPHRACT",
         "zAsset": "Prefabs/Units/Cataphract"
       },
       {
-        "zType": "ASSET_UNIT_CATAPULT",
+        "zType": "ASSET_UNIT_PORTRAIT_CATAPHRACT",
+        "zAsset": "Prefabs/Units/Cataphract_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ONAGER",
         "zAsset": "Prefabs/Units/Catapult"
       },
       {
@@ -611,12 +663,36 @@
         "zAsset": "Prefabs/Units/Ballista"
       },
       {
-        "zType": "ASSET_UNIT_ONAGER",
-        "zAsset": "Prefabs/Units/Onager"
+        "zType": "ASSET_UNIT_PORTRAIT_BALLISTA",
+        "zAsset": "Prefabs/Units/Ballista_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_POLYBOLOS",
+        "zAsset": "Prefabs/Units/Polybolos"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_POLYBOLOS",
+        "zAsset": "Prefabs/Units/Polybolos_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ONAGER",
+        "zAsset": "Prefabs/Units/Catapult_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_MANGONEL",
+        "zAsset": "Prefabs/Units/Mangonel"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_MANGONEL",
+        "zAsset": "Prefabs/Units/Mangonel_portrait"
       },
       {
         "zType": "ASSET_UNIT_BIREME",
         "zAsset": "Prefabs/Units/Bireme"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_BIREME",
+        "zAsset": "Prefabs/Units/Bireme_portrait"
       },
       {
         "zType": "ASSET_UNIT_TRIREME",
@@ -631,28 +707,48 @@
         "zAsset": "Prefabs/Units/BatteringRam"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_BATTERING_RAM",
+        "zAsset": "Prefabs/Units/BatteringRam_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_SIEGE_TOWER",
         "zAsset": "Prefabs/Units/SiegeTower"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_SIEGE_TOWER",
+        "zAsset": "Prefabs/Units/SiegeTower_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_AKKADIAN_ARCHER",
-        "zAsset": "Prefabs/Units/CamelRider"
+        "zAsset": "Prefabs/Units/Akkadian_Archer"
       },
       {
         "zType": "ASSET_UNIT_CIMMERIAN_ARCHER",
-        "zAsset": "Prefabs/Units/CamelLancer"
+        "zAsset": "Prefabs/Units/Cimmerian_Archer"
       },
       {
         "zType": "ASSET_UNIT_AFRICAN_ELEPHANT",
-        "zAsset": "Prefabs/Units/Mahout"
+        "zAsset": "Prefabs/Units/African_Elephant"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_AFRICAN_ELEPHANT",
+        "zAsset": "Prefabs/Units/African_Elephant_portrait"
       },
       {
         "zType": "ASSET_UNIT_TURRETED_ELEPHANT",
-        "zAsset": "Prefabs/Units/Howdah"
+        "zAsset": "Prefabs/Units/Turreted_Elephant"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_TURRETED_ELEPHANT",
+        "zAsset": "Prefabs/Units/Turreted_Elephant_portrait"
       },
       {
         "zType": "ASSET_UNIT_LIGHT_CHARIOT",
         "zAsset": "Prefabs/Units/LightChariot"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_LIGHT_CHARIOT",
+        "zAsset": "Prefabs/Units/LightChariot_portrait"
       },
       {
         "zType": "ASSET_UNIT_KUSHITE_CAVALRY",
@@ -661,6 +757,10 @@
       {
         "zType": "ASSET_UNIT_HOPLITE",
         "zAsset": "Prefabs/Units/Hoplite"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_HOPLITE",
+        "zAsset": "Prefabs/Units/Hoplite_portrait"
       },
       {
         "zType": "ASSET_UNIT_PHALANGITE",
@@ -675,316 +775,268 @@
         "zAsset": "Prefabs/Units/CataphractArcher"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_CATAPHRACT_ARCHER",
+        "zAsset": "Prefabs/Units/CataphractArcher_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_HASTATUS",
         "zAsset": "Prefabs/Units/Hastatus"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_HASTATUS",
+        "zAsset": "Prefabs/Units/Hastatus_portrait"
       },
       {
         "zType": "ASSET_UNIT_LEGIONARY",
         "zAsset": "Prefabs/Units/Legionary"
       },
       {
-        "zType": "ASSET_UNIT_GREAT_SOLDIER_MALE",
-        "zAsset": "Prefabs/Units/GreatSoldierMale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_SOLDIER_FEMALE",
-        "zAsset": "Prefabs/Units/GreatSoldierFemale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_MINISTER_MALE",
-        "zAsset": "Prefabs/Units/GreatMinisterMale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_MINISTER_FEMALE",
-        "zAsset": "Prefabs/Units/GreatMinisterFemale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_MERCHANT_MALE",
-        "zAsset": "Prefabs/Units/GreatMerchantMale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_MERCHANT_FEMALE",
-        "zAsset": "Prefabs/Units/GreatMerchantFemale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_SCIENTIST_MALE",
-        "zAsset": "Prefabs/Units/GreatScientistMale"
-      },
-      {
-        "zType": "ASSET_UNIT_GREAT_SCIENTIST_FEMALE",
-        "zAsset": "Prefabs/Units/GreatScientistFemale"
+        "zType": "ASSET_UNIT_PORTRAIT_LEGIONARY",
+        "zAsset": "Prefabs/Units/Legionary_portrait"
       },
       {
         "zType": "ASSET_UNIT_ZOROASTRIANISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleZoroastrianism"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_ZOROASTRIANISM_DISCIPLE",
+        "zAsset": "Prefabs/Units/DiscipleZoroastrianism_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_JUDAISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleJudaism"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_JUDAISM_DISCIPLE",
+        "zAsset": "Prefabs/Units/DiscipleJudaism_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CHRISTIANITY_DISCIPLE",
+        "zAsset": "Prefabs/Units/DiscipleChristianity_portrait"
       },
       {
         "zType": "ASSET_UNIT_CHRISTIANITY_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleChristianity"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_MANICHAEISM_DISCIPLE",
+        "zAsset": "Prefabs/Units/DiscipleManichaeism_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_MANICHAEISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleManichaeism"
       },
       {
-        "zType": "ASSET_UNIT_RAIDER",
+        "zType": "ASSET_UNIT_MARAUDER",
         "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
       },
       {
-        "zType": "ASSET_UNIT_RAIDER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_RAIDER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_RAIDER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_RAIDER_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_RAIDER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_RAIDER_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_RAIDER_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Nomad_Raider"
+        "zType": "ASSET_UNIT_PORTRAIT_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider_portrait"
       },
       {
         "zType": "ASSET_UNIT_SKIRMISHER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Barbarian_Skirmisher"
+        "zAsset": "Prefabs/Units/Barbarians/Skirmisher"
       },
       {
-        "zType": "ASSET_UNIT_SKIRMISHER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Skirmisher"
+        "zType": "ASSET_UNIT_PORTRAIT_SKIRMISHER",
+        "zAsset": "Prefabs/Units/Barbarians/Skirmisher_portrait"
       },
       {
-        "zType": "ASSET_UNIT_SKIRMISHER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Skirmisher"
+        "zType": "ASSET_UNIT_NOMAD_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/Nomad_Raider"
       },
       {
-        "zType": "ASSET_UNIT_SKIRMISHER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Skirmisher"
-      },
-      {
-        "zType": "ASSET_UNIT_SKIRMISHER_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Skirmisher"
+        "zType": "ASSET_UNIT_PORTRAIT_NOMAD_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/Nomad_Raider_portrait"
       },
       {
         "zType": "ASSET_UNIT_NOMAD_SKIRMISHER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Skirmisher"
+        "zAsset": "Prefabs/Units/Barbarians/NomadSkirmisher"
       },
       {
-        "zType": "ASSET_UNIT_NOMAD_SKIRMISHER_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Skirmisher"
+        "zType": "ASSET_UNIT_PORTRAIT_NOMAD_SKIRMISHER",
+        "zAsset": "Prefabs/Units/Barbarians/NomadSkirmisher_portrait"
       },
       {
-        "zType": "ASSET_UNIT_NOMAD_SKIRMISHER_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Nomad_Skirmisher"
+        "zType": "ASSET_UNIT_ELITE_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/EliteRaider"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_RAIDER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Barbarian_EliteRaider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_RAIDER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Elite_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_RAIDER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Elite_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_RAIDER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Elite_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_RAIDER_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Elite_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_RAIDER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_RAIDER_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Raider"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_RAIDER_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Nomad_Raider"
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/EliteRaider_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_SKIRMISHER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Barbarian_EliteSkirmisher"
+        "zAsset": "Prefabs/Units/Barbarians/EliteSkirmisher"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_SKIRMISHER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Elite_Skirmisher"
+        "zType": "ASSET_UNIT_ELITE_NOMAD_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/EliteNomadMarauder"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_SKIRMISHER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Elite_Skirmisher"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_SKIRMISHER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Elite_Skirmisher"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_SKIRMISHER_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Elite_Skirmisher"
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_MARAUDER",
+        "zAsset": "Prefabs/Units/Barbarians/EliteNomadMarauder_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_NOMAD_SKIRMISHER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Elite_Nomad_Skirmisher"
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Skirmisher"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_SKIRMISHER_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Elite_Nomad_Skirmisher"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_SKIRMISHER_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Elite_Nomad_Skirmisher"
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_SKIRMISHER",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Skirmisher_portrait"
       },
       {
         "zType": "ASSET_UNIT_WARLORD",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Warlord"
+        "zAsset": "Prefabs/Units/Barbarians/Warlord"
       },
       {
-        "zType": "ASSET_UNIT_WARLORD_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_WARLORD_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_WARLORD",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Nomad_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_WARLORD_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Nomad_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_NOMAD_WARLORD_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Nomad_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_WARLORD_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Elite_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_WARLORD",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Elite_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_WARLORD_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Elite_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Elite_Nomad_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Elite_Nomad_Warlord"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Elite_Nomad_Warlord"
+        "zType": "ASSET_UNIT_PORTRAIT_WARLORD",
+        "zAsset": "Prefabs/Units/Barbarians/Warlord_portrait"
       },
       {
         "zType": "ASSET_UNIT_JAVELINEER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Javelineer"
+        "zAsset": "Prefabs/Units/Barbarians/Javelineer"
       },
       {
-        "zType": "ASSET_UNIT_JAVELINEER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Javelineer"
+        "zType": "ASSET_UNIT_PORTRAIT_JAVELINEER",
+        "zAsset": "Prefabs/Units/Barbarians/Javelineer_portrait"
       },
       {
-        "zType": "ASSET_UNIT_JAVELINEER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Javelineer"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_JAVELINEER",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Elite_Javelineer"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_JAVELINEER_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Elite_Javelineer"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_JAVELINEER_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Elite_Javelineer"
+        "zType": "ASSET_UNIT_NOMAD_WARLORD",
+        "zAsset": "Prefabs/Units/Nomad_Warlord"
       },
       {
         "zType": "ASSET_UNIT_GAESATA_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Gaesata"
+        "zAsset": "Prefabs/Units/Barbarians/Gaesata"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_GAESATA",
+        "zAsset": "Prefabs/Units/Barbarians/Gaesata_portrait"
       },
       {
         "zType": "ASSET_UNIT_HUSCARL_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Huscarl"
+        "zAsset": "Prefabs/Units/Barbarians/Huscarl"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_GAESATA_GAULS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Gaul_Elite_Gaesata"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_HUSCARL_DANES",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Dane_Elite_Huscarl"
+        "zType": "ASSET_UNIT_PORTRAIT_HUSCARL_DANES",
+        "zAsset": "Prefabs/Units/Barbarians/Huscarl_portrait"
       },
       {
         "zType": "ASSET_UNIT_CLUBTHROWER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_ClubThrower"
+        "zAsset": "Prefabs/Units/Barbarians/ClubThrower"
+      },
+      {
+        "zType": "ASSET_UNIT_CLUBTHROWER_VANDALS_PROJECTILE",
+        "zAsset": "Prefabs/Units/ClubThrower_Hammer"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CLUBTHROWER_VANDALS",
+        "zAsset": "Prefabs/Units/Barbarians/ClubThrower_portrait"
       },
       {
         "zType": "ASSET_UNIT_PELTAST_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Peltast"
+        "zAsset": "Prefabs/Units/Barbarians/Peltast"
       },
       {
-        "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Vandal_Elite_ClubThrower"
-      },
-      {
-        "zType": "ASSET_UNIT_ELITE_PELTAST_THRACIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Thracian_Elite_Peltast"
+        "zType": "ASSET_UNIT_PORTRAIT_PELTAST_THRACIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Peltast_portrait"
       },
       {
         "zType": "ASSET_UNIT_AMAZON_CAVALRY_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Amazon_Cavalry"
+        "zAsset": "Prefabs/Units/Barbarians/Amazon_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_AMAZON_CAVALRY_SCYTHIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Amazon_Cavalry_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_LIBYAN_CAVALRY_NUMIDIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Libyan_Cavalry_portrait"
       },
       {
         "zType": "ASSET_UNIT_LIBYAN_CAVALRY_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Libyan_Cavalry"
+        "zAsset": "Prefabs/Units/Barbarians/Libyan_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_WARLORD",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Warlord"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_WARLORD",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Warlord_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_JAVELINEER",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Javelineer"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_JAVELINEER",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Javelineer_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Warlord"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_WARLORD",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Warlord_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_GAESATA_GAULS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Gaesata"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_GAESATA_GAULS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Gaesata_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_HUSCARL_DANES",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Huscarl"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_HUSCARL_DANES",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Huscarl_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_ClubThrower"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS_PROJECTILE",
+        "zAsset": "Prefabs/Units/Elite_ClubThrower_Hammer"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_CLUBTHROWER_VANDALS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_ClubThrower_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_PELTAST_THRACIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Peltast"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_PELTAST_THRACIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Peltast_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_AMAZON_CAVALRY_SCYTHIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Scythian_Elite_Amazon_Cavalry"
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Amazon_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_AMAZON_CAVALRY_SCYTHIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Amazon_Cavalry_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
-        "zAsset": "Prefabs/Units/Barbarians/stub_Numidian_Elite_Libyan_Cavalry"
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Libyan_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
+        "zAsset": "Prefabs/Units/Barbarians/Elite_Libyan_Cavalry_portrait"
       },
       {
         "zType": "ASSET_TERRAIN_TILE_EMPTY",
         "zAsset": "Prefabs/Terrain/TileEmpty"
-      },
-      {
-        "zType": "ASSET_TERRAIN_TILE_WORLD",
-        "zAsset": "Prefabs/Terrain/TileWorld"
       },
       {
         "zType": "ASSET_TERRAIN_TILE_COAST",
@@ -1107,6 +1159,26 @@
         "zAsset": "Prefabs/Terrain/Hills/TileHill_7"
       },
       {
+        "zType": "ASSET_TERRAIN_TILE_HILL_ARID",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsArid"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_HILL_DESERT",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsDesert"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_HILL_LUSH",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsLush"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_HILL_TEMPERATE",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsTemperate"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_HILL_TUNDRA",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsTundra"
+      },
+      {
         "zType": "ASSET_TERRAIN_TILE_COAST_1",
         "zAsset": "Prefabs/Terrain/Coast/TileCoast_1"
       },
@@ -1159,12 +1231,176 @@
         "zAsset": "Prefabs/Terrain/Rivers/River_A_Curve_3"
       },
       {
+        "zType": "ASSET_RIVERPIECE_CURVE_1",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 1"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_2",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 2"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_3",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 3"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_4",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 4"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_5",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 5"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_6",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 6"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_7",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 7"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_8",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 8"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_CURVE_9",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_Curve 9"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_END_COAST",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_end_coast"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_END_LAKE",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_end_Lake"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_START_LAND",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_start_land"
+      },
+      {
+        "zType": "ASSET_RIVERPIECE_START_LAKE",
+        "zAsset": "Prefabs/Terrain/Rivers/Rivers_V2/River_start_lake"
+      },
+      {
         "zType": "ASSET_TERRAIN_BORDER_SPLINE_CITY",
         "zAsset": "Prefabs/Terrain/Borders/BorderSplineCity"
       },
       {
         "zType": "ASSET_TERRAIN_BORDER_SPLINE_NATION",
         "zAsset": "Prefabs/Terrain/Borders/BorderSplineNation"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_00",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_00Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_01",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_01Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_02",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_02Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_03",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_03Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_04",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_04Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_05",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_05Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_06",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_06Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_07",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_07Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_08",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_08Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_09",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_09Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_10",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_10Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_11",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_11Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_12",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_12Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_COASTV2_13",
+        "zAsset": "Prefabs/Terrain/CoastV2/Coast_13Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_00",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_00Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_01",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_01Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_02",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_02Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_03",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_03Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_04",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_04Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_05",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_05Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_06",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_06Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_07",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_07Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_08",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_08Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_09",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_09Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_10",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_10Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_11",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_11Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_12",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_12Splat"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_LAKEV2_13",
+        "zAsset": "Prefabs/Terrain/CoastV2/Lakes/Lake_13Splat"
       },
       {
         "zType": "ASSET_BORDER_TEXTURE_TRIANGLE",
@@ -1236,7 +1472,7 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_SETTLEMENT_1",
-        "zAsset": "Prefabs/Features/Barbarian_Camp_Lvl_01"
+        "zAsset": "Prefabs/Features/Hovel"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SETTLEMENT_2",
@@ -1248,11 +1484,23 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_SETTLEMENT_4",
-        "zAsset": "Prefabs/Features/Barbarian_Camp_Lvl_03"
+        "zAsset": "Prefabs/Features/Barbarian_Camp_Lvl_04"
       },
       {
-        "zType": "ASSET_IMPROVEMENT_DEAD_SETTLEMENT",
+        "zType": "ASSET_IMPROVEMENT_HOVEL_RUINS",
         "zAsset": "Prefabs/Features/DeadSettlement"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_OUTPOST_RUINS",
+        "zAsset": "Prefabs/Features/OutpostRuins"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_ENCAMPMENT_RUINS",
+        "zAsset": "Prefabs/Features/EncampmentRuins"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_BASTION_RUINS",
+        "zAsset": "Prefabs/Features/BastionRuins"
       },
       {
         "zType": "ASSET_IMPROVEMENT_FORT",
@@ -1276,11 +1524,11 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_LUMBERMILL",
-        "zAsset": "Prefabs/Improvements/Lumber_Mill"
+        "zAsset": "Prefabs/Improvements/LumberMill"
       },
       {
         "zType": "ASSET_IMPROVEMENT_QUARRY",
-        "zAsset": "Prefabs/Improvements/Quarry_New"
+        "zAsset": "Prefabs/Improvements/Quarry"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MINE",
@@ -1307,24 +1555,36 @@
         "zAsset": "Prefabs/Improvements/Mine_salt"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_LAURION_MINE",
+        "zAsset": "Prefabs/Improvements/Mine_laurion"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_PASTURE",
-        "zAsset": "Prefabs/Improvements/pasture-updateWIP"
+        "zAsset": "Prefabs/Improvements/Pasture"
       },
       {
         "zType": "ASSET_IMPROVEMENT_CAMP",
-        "zAsset": "Prefabs/Improvements/Camp_greybox-cluttertransforms"
+        "zAsset": "Prefabs/Improvements/Camp"
       },
       {
         "zType": "ASSET_IMPROVEMENT_GROVE",
         "zAsset": "Prefabs/Improvements/Grove"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_GROVE_CITRUS",
+        "zAsset": "Prefabs/Improvements/Grove_Citrus"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_GROVE_HONEY",
+        "zAsset": "Prefabs/Improvements/Grove_Apiary"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_GROVE_INCENSE",
         "zAsset": "Prefabs/Improvements/Grove_Incense"
       },
       {
-        "zType": "ASSET_IMPROVEMENT_GROVE_CITRUS",
-        "zAsset": "Prefabs/Improvements/Grove_Citrus"
+        "zType": "ASSET_IMPROVEMENT_GROVE_LAVENDER",
+        "zAsset": "Prefabs/Improvements/Grove_Incense"
       },
       {
         "zType": "ASSET_IMPROVEMENT_GROVE_OLIVE",
@@ -1336,15 +1596,19 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS",
-        "zAsset": "Prefabs/Improvements/Nets1"
+        "zAsset": "Prefabs/Improvements/Nets"
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS_FISH",
         "zAsset": "Prefabs/Improvements/NetsFish"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_NETS_CRABS",
+        "zAsset": "Prefabs/Improvements/NetsCrabs"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_HARBOR",
-        "zAsset": "Prefabs/Improvements/harbor"
+        "zAsset": "Prefabs/Improvements/Harbor1"
       },
       {
         "zType": "ASSET_IMPROVEMENT_GRANARY",
@@ -1364,63 +1628,67 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_VILLAGE",
-        "zAsset": "Prefabs/Improvements/Village1"
+        "zAsset": "Prefabs/Improvements/Village"
       },
       {
         "zType": "ASSET_IMPROVEMENT_TOWN",
         "zAsset": "Prefabs/Improvements/Town"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_CITY",
+        "zAsset": "Prefabs/Improvements/Town"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_GARRISON",
-        "zAsset": "Prefabs/Improvements/HolySite"
+        "zAsset": "Prefabs/Improvements/Garrison"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_GARRISON_2",
+        "zAsset": "Prefabs/Improvements/Stronghold"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_WAR",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/WarShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_FIRE",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/FireShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_WISDOM",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/WisdomShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_SUN",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/SunShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_WATER",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/WaterShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_LOVE",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/LoveShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_UNDERWORLD",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/UnderWorldShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_HEALING",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/Healingshrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_KINGSHIP",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/KingshipShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_HEARTH",
-        "zAsset": "Prefabs/Improvements/Shrine"
+        "zAsset": "Prefabs/Improvements/HearthShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_HUNTING",
-        "zAsset": "Prefabs/Improvements/Shrine"
-      },
-      {
-        "zType": "ASSET_IMPROVEMENT_AQUEDUCT",
-        "zAsset": "Prefabs/Improvements/aqueduct-greybox"
+        "zAsset": "Prefabs/Improvements/HUntingShrine"
       },
       {
         "zType": "ASSET_IMPROVEMENT_BARRACKS",
@@ -1432,7 +1700,7 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_THEATER_1",
-        "zAsset": "Prefabs/Improvements/Theater"
+        "zAsset": "Prefabs/Improvements/Odeon"
       },
       {
         "zType": "ASSET_IMPROVEMENT_THEATER_2",
@@ -1440,7 +1708,7 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_THEATER_3",
-        "zAsset": "Prefabs/Improvements/Theater"
+        "zAsset": "Prefabs/Improvements/Amphitheater"
       },
       {
         "zType": "ASSET_IMPROVEMENT_BATHS_1",
@@ -1460,11 +1728,11 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_MARKET_2",
-        "zAsset": "Prefabs/Improvements/Market"
+        "zAsset": "Prefabs/Improvements/Grocer"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MARKET_3",
-        "zAsset": "Prefabs/Improvements/Market"
+        "zAsset": "Prefabs/Improvements/Fair"
       },
       {
         "zType": "ASSET_IMPROVEMENT_LIBRARY_1",
@@ -1480,35 +1748,71 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_1",
-        "zAsset": "Prefabs/Improvements/CourtHouse"
+        "zAsset": "Prefabs/Improvements/Palace"
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_2",
-        "zAsset": "Prefabs/Improvements/CourtHouse"
+        "zAsset": "Prefabs/Improvements/Courthouse"
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_3",
-        "zAsset": "Prefabs/Improvements/CourtHouse"
+        "zAsset": "Prefabs/Improvements/Ministry"
       },
       {
-        "zType": "ASSET_IMPROVEMENT_MONASTERY",
-        "zAsset": "Prefabs/Improvements/Monastery"
+        "zType": "ASSET_IMPROVEMENT_MONASTERY_1",
+        "zAsset": "Prefabs/Improvements/ZoroastrianMonastery"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_MONASTERY_2",
+        "zAsset": "Prefabs/Improvements/MonasteryJewish"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_MONASTERY_3",
+        "zAsset": "Prefabs/Improvements/MonasteryChristian"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_MONASTERY_4",
+        "zAsset": "Prefabs/Improvements/MonasteryManichean"
       },
       {
         "zType": "ASSET_IMPROVEMENT_TEMPLE",
-        "zAsset": "Prefabs/Improvements/Temple"
+        "zAsset": "Prefabs/Improvements/Temple_Manichean"
       },
       {
-        "zType": "ASSET_IMPROVEMENT_CATHEDRAL",
-        "zAsset": "Prefabs/Improvements/Cathedral"
+        "zType": "ASSET_IMPROVEMENT_TEMPLE_1",
+        "zAsset": "Prefabs/Improvements/Temple_Jewish"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_CATHEDRAL_1",
+        "zAsset": "Prefabs/Improvements/Cathedral_Zoroastrian"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_CATHEDRAL_2",
+        "zAsset": "Prefabs/Improvements/Cathedral_Manicean"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_CATHEDRAL_3",
+        "zAsset": "Prefabs/Improvements/Cathedral_Jewish"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_CATHEDRAL_4",
+        "zAsset": "Prefabs/Improvements/Cathedral_Christian"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HOLY_SITE",
-        "zAsset": "Prefabs/Improvements/HolySite"
+        "zAsset": "Prefabs/Improvements/ZoroastrianHolySite"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_HOLY_SITE_1",
+        "zAsset": "Prefabs/Improvements/ManiceanHolysite"
       },
       {
         "zType": "ASSET_IMPROVEMENT_PYRAMIDS",
         "zAsset": "Prefabs/Improvements/Pyramids"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_PYRAMIDS",
+        "zAsset": "Prefabs/Improvements/PyramidsConstruction"
       },
       {
         "zType": "ASSET_IMPROVEMENT_ORACLE",
@@ -1519,12 +1823,24 @@
         "zAsset": "Prefabs/Improvements/HangingGardens1"
       },
       {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_HANGING_GARDENS",
+        "zAsset": "Prefabs/Improvements/HangingGardensConstruction"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_ISHTAR_GATE",
         "zAsset": "Prefabs/Features/Ishtar_Gate"
       },
       {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_ISHTAR_GATE",
+        "zAsset": "Prefabs/Features/Ishtar_Gate_construction"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_NECROPOLIS",
         "zAsset": "Prefabs/Features/Necropolis"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_NECROPOLIS",
+        "zAsset": "Prefabs/Features/NecropolisConstruction"
       },
       {
         "zType": "ASSET_IMPROVEMENT_CIRCUS_MAXIMUS",
@@ -1536,22 +1852,38 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_ACROPOLIS",
-        "zAsset": "Prefabs/Features/parthenon"
+        "zAsset": "Prefabs/Features/Acropolis"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_ACROPOLIS",
+        "zAsset": "Prefabs/Features/Acropolis_Construction"
       },
       {
         "zType": "ASSET_IMPROVEMENT_LIGHTHOUSE",
         "zAsset": "Prefabs/Improvements/Lighthouse"
       },
       {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_LIGHTHOUSE",
+        "zAsset": "Prefabs/Improvements/Lighthouse_cons"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_COLOSSUS",
         "zAsset": "Prefabs/Features/Colossus"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_COLOSSUS",
+        "zAsset": "Prefabs/Features/Colossus_ConsStates"
       },
       {
         "zType": "ASSET_IMPROVEMENT_GREAT_ZIGGURAT",
         "zAsset": "Prefabs/Features/Great_Ziggurat"
       },
       {
-        "zType": "ASSET_IMPROVEMENT_GRAND_BAZAAR",
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_GREAT_ZIGGURAT",
+        "zAsset": "Prefabs/Features/Great_Ziggurat_construction"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_VIA_RECTA_SOUK",
         "zAsset": "Prefabs/Features/Grand_Bazaar"
       },
       {
@@ -1651,8 +1983,16 @@
         "zAsset": "Prefabs/Resource/Dyes"
       },
       {
+        "zType": "ASSET_RESOURCE_HONEY",
+        "zAsset": "Prefabs/Resource/Honey"
+      },
+      {
         "zType": "ASSET_RESOURCE_INCENSE",
         "zAsset": "Prefabs/Resource/Incense"
+      },
+      {
+        "zType": "ASSET_RESOURCE_LAVENDER",
+        "zAsset": "Prefabs/Resource/Lavender"
       },
       {
         "zType": "ASSET_RESOURCE_OLIVE",
@@ -1660,7 +2000,7 @@
       },
       {
         "zType": "ASSET_RESOURCE_WINE",
-        "zAsset": "Prefabs/Resource/Wine_Final"
+        "zAsset": "Prefabs/Resource/Grapes"
       },
       {
         "zType": "ASSET_RESOURCE_SALT",
@@ -1693,6 +2033,10 @@
       {
         "zType": "ASSET_VEGETATION_TREES_HILL",
         "zAsset": "Prefabs/Features/Trees/Temperate_Tree_01_Cluster_Hill_Impostors"
+      },
+      {
+        "zType": "ASSET_VEGETATION_TREES_ARID",
+        "zAsset": "Prefabs/Features/Trees/Arid_Tree_01_Cluster_Impostors"
       },
       {
         "zType": "ASSET_VEGETATION_TREES_CUT",
@@ -1729,6 +2073,90 @@
       {
         "zType": "ASSET_MAIN_MENU_XML",
         "zAsset": "UI/main-menu"
+      },
+      {
+        "zType": "ASSET_UNIT_DUST",
+        "zAsset": "Prefabs/Particles/UnitDust"
+      },
+      {
+        "zType": "ASSET_WORKER_DUST",
+        "zAsset": "Prefabs/Particles/WorkerDust"
+      },
+      {
+        "zType": "ASSET_UNIT_SPARKS",
+        "zAsset": "Prefabs/Particles/UnitSparks"
+      },
+      {
+        "zType": "ASSET_DUST_DEBRI_2",
+        "zAsset": "Prefabs/Particles/DustDebri2"
+      },
+      {
+        "zType": "ASSET_DUST_DEBRI",
+        "zAsset": "Prefabs/Particles/DustDebri"
+      },
+      {
+        "zType": "ASSET_WORKER_DUST_GRAY",
+        "zAsset": "Prefabs/Particles/WorkerDustGray"
+      },
+      {
+        "zType": "ASSET_DIRT_DEBRI",
+        "zAsset": "Prefabs/Particles/DirtDebri"
+      },
+      {
+        "zType": "ASSET_WOODCHOP",
+        "zAsset": "Prefabs/Particles/WoodChop"
+      },
+      {
+        "zType": "ASSET_ATTACKFIRE",
+        "zAsset": "Prefabs/Particles/MangonelFireTrail"
+      },
+      {
+        "zType": "ASSET_MANGONELFIRE",
+        "zAsset": "Prefabs/Particles/FireBall"
+      },
+      {
+        "zType": "ASSET_HORSE_RUN_DUST",
+        "zAsset": "Prefabs/Particles/HorseRunDust"
+      },
+      {
+        "zType": "ASSET_ELEPHANT_RUN_DUST",
+        "zAsset": "Prefabs/Particles/ElephantRunDust"
+      },
+      {
+        "zType": "ASSET_UNIT_PROMOTION_EFFECT",
+        "zAsset": "Prefabs/Particles/Promotion-effect"
+      },
+      {
+        "zType": "ASSET_UNIT_HEAL_EFFECT",
+        "zAsset": "Prefabs/Particles/Heal_Effect2"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_ORDERS",
+        "zAsset": "Videos/Orders-Tutorial-Movement"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_SPEARMAN",
+        "zAsset": "Videos/Spearman-Tutorial-Attack"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_AXEMAN",
+        "zAsset": "Videos/Axeman-Tutorial-Attack"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_ONAGER",
+        "zAsset": "Videos/Catapult-Tutorial-Attack"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_UNDO",
+        "zAsset": "Videos/Undo-Movement-Orders"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_GENERIC",
+        "zAsset": "Prefabs/Improvements/ConstructionGeneric"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_PILLAGED_EFFECT",
+        "zAsset": "Prefabs/Particles/RealisticExplosion02"
       }
     ]
   }

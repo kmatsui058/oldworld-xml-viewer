@@ -13,6 +13,7 @@ export interface Entry {
   bHurryTraining?: ZType;
   bHurryMoney?: ZType;
   bHurryPopulation?: ZType;
+  bHurryOrders?: ZType;
 }
 export interface ZType {
 }

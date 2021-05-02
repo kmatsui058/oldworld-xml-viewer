@@ -6,81 +6,81 @@
         "zType": {
           
         },
-        "zName": {
+        "Text": {
           
         }
       },
       {
         "zType": "RELATIVE_SELF",
-        "zName": "Self"
+        "Text": "TEXT_CHARACTER_RELATION_YOU"
       },
       {
         "zType": "RELATIVE_SPOUSE",
-        "zName": "Spouse"
+        "Text": "TEXT_CHARACTER_RELATION_SPOUSE"
       },
       {
         "zType": "RELATIVE_CHILD",
-        "zName": "Child"
+        "Text": "TEXT_CHARACTER_RELATION_CHILD"
       },
       {
         "zType": "RELATIVE_GRANDCHILD",
-        "zName": "Grandchild"
+        "Text": "TEXT_CHARACTER_RELATION_GRANDCHILD"
       },
       {
         "zType": "RELATIVE_DESCENDANT",
-        "zName": "Descendant"
+        "Text": "TEXT_CHARACTER_RELATION_DESCENDANT"
       },
       {
         "zType": "RELATIVE_PARENT",
-        "zName": "Parent"
+        "Text": "TEXT_CHARACTER_RELATION_PARENT"
       },
       {
         "zType": "RELATIVE_GRANDPARENT",
-        "zName": "Grandparent"
+        "Text": "TEXT_CHARACTER_RELATION_GRANDPARENT"
       },
       {
         "zType": "RELATIVE_ANCESTOR",
-        "zName": "Ancestor"
+        "Text": "TEXT_CHARACTER_RELATION_ANCESTOR"
       },
       {
         "zType": "RELATIVE_SIBLING",
-        "zName": "Sibling"
+        "Text": "TEXT_CHARACTER_RELATION_SIBLING"
       },
       {
         "zType": "RELATIVE_SIBLING_IN_LAW",
-        "zName": "Sibling-in-Law"
+        "Text": "TEXT_CHARACTER_RELATION_SIBLING_IN_LAW"
       },
       {
         "zType": "RELATIVE_HALF_SIBLING",
-        "zName": "Half-Sibling"
+        "Text": "TEXT_CHARACTER_RELATION_HALF_SIBLING"
       },
       {
         "zType": "RELATIVE_COUSIN",
-        "zName": "Cousin"
+        "Text": "TEXT_CHARACTER_RELATION_COUSIN"
       },
       {
         "zType": "RELATIVE_AUNT_UNCLE",
-        "zName": "Aunt/Uncle"
+        "Text": "TEXT_CHARACTER_RELATION_AUNT_UNCLE"
       },
       {
         "zType": "RELATIVE_NIECE_NEPHEW",
-        "zName": "Niece/Nephew"
+        "Text": "TEXT_CHARACTER_RELATION_NIECE_NEPHEW"
       },
       {
         "zType": "RELATIVE_CHILD_IN_LAW",
-        "zName": "Child-in-Law"
+        "Text": "TEXT_CHARACTER_RELATION_CHILD_IN_LAW"
       },
       {
         "zType": "RELATIVE_PARENT_IN_LAW",
-        "zName": "Parent-in-Law"
+        "Text": "TEXT_CHARACTER_RELATION_PARENT_IN_LAW"
       },
       {
         "zType": "RELATIVE_STEPCHILD",
-        "zName": "Stepchild"
+        "Text": "TEXT_CHARACTER_RELATION_STEPCHILD"
       },
       {
         "zType": "RELATIVE_STEPPARENT",
-        "zName": "Stepparent"
+        "Text": "TEXT_CHARACTER_RELATION_STEPPARENT"
       }
     ]
   }

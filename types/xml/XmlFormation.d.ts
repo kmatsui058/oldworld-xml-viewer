@@ -8,12 +8,15 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  UnitAsset: ZType | string;
+  UnitAsset?: ZType | string;
+  UnitPortraitAsset?: ZType | string;
+  UnitProjectileAsset?: ZType | string;
+  UnitProjectileImpactAudio?: ZType | string;
+  UnitProjectileImpactAudioEarly?: ZType | string;
   eGender?: ZType | string;
-  eNation?: ZType;
-  eBarbarian?: ZType | string;
   bLand: ZType | string;
   bWater?: ZType | string;
+  bHeadControl?: ZType | string;
   lf3FrontRow: Lf3FrontRow;
   lf3BackRow?: Lf3BackRow;
 }

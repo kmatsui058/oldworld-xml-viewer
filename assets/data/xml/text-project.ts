@@ -84,19 +84,19 @@
       },
       {
         "zType": "TEXT_PROJECT_DECREE_1",
-        "English": "Decree~a Decree~Decrees"
+        "English": "Decree I~a Decree I~Decrees I"
       },
       {
         "zType": "TEXT_PROJECT_DECREE_2",
-        "English": "Decree~a Decree~Decrees"
+        "English": "Decree II~a Decree II~Decrees II"
       },
       {
         "zType": "TEXT_PROJECT_DECREE_3",
-        "English": "Decree~a Decree~Decrees"
+        "English": "Decree III~a Decree III~Decrees III"
       },
       {
         "zType": "TEXT_PROJECT_DECREE_4",
-        "English": "Decree~a Decree~Decrees"
+        "English": "Decree IV~a Decree IV~Decrees IV"
       },
       {
         "zType": "TEXT_PROJECT_FESTIVAL",
@@ -104,19 +104,19 @@
       },
       {
         "zType": "TEXT_PROJECT_FESTIVAL_1",
-        "English": "Festival~a Festival~Festivals"
+        "English": "Festival I~a Festival I~Festivals I"
       },
       {
         "zType": "TEXT_PROJECT_FESTIVAL_2",
-        "English": "Festival~a Festival~Festivals"
+        "English": "Festival II~a Festival II~Festivals II"
       },
       {
         "zType": "TEXT_PROJECT_FESTIVAL_3",
-        "English": "Festival~a Festival~Festivals"
+        "English": "Festival III~a Festival III~Festivals III"
       },
       {
         "zType": "TEXT_PROJECT_FESTIVAL_4",
-        "English": "Festival~a Festival~Festivals"
+        "English": "Festival IV~a Festival IV~Festivals IV"
       },
       {
         "zType": "TEXT_PROJECT_INQUIRY",
@@ -124,19 +124,19 @@
       },
       {
         "zType": "TEXT_PROJECT_INQUIRY_1",
-        "English": "Inquiry~an Inquiry~Inquiries"
+        "English": "Inquiry I~an Inquiry I~Inquiries I"
       },
       {
         "zType": "TEXT_PROJECT_INQUIRY_2",
-        "English": "Inquiry~an Inquiry~Inquiries"
+        "English": "Inquiry II~an Inquiry II~Inquiries II"
       },
       {
         "zType": "TEXT_PROJECT_INQUIRY_3",
-        "English": "Inquiry~an Inquiry~Inquiries"
+        "English": "Inquiry III~an Inquiry III~Inquiries III"
       },
       {
         "zType": "TEXT_PROJECT_INQUIRY_4",
-        "English": "Inquiry~an Inquiry~Inquiries"
+        "English": "Inquiry IV~an Inquiry IV~Inquiries IV"
       },
       {
         "zType": "TEXT_PROJECT_HUNT",
@@ -144,19 +144,19 @@
       },
       {
         "zType": "TEXT_PROJECT_HUNT_1",
-        "English": "Hunt~a Hunt~Hunts"
+        "English": "Hunt I~a Hunt I~Hunts I"
       },
       {
         "zType": "TEXT_PROJECT_HUNT_2",
-        "English": "Hunt~a Hunt~Hunts"
+        "English": "Hunt II~a Hunt II~Hunts II"
       },
       {
         "zType": "TEXT_PROJECT_HUNT_3",
-        "English": "Hunt~a Hunt~Hunts"
+        "English": "Hunt III~a Hunt III~Hunts III"
       },
       {
         "zType": "TEXT_PROJECT_HUNT_4",
-        "English": "Hunt~a Hunt~Hunts"
+        "English": "Hunt IV~a Hunt IV~Hunts IV"
       },
       {
         "zType": "TEXT_PROJECT_OLYMPICS",
@@ -164,19 +164,19 @@
       },
       {
         "zType": "TEXT_PROJECT_OLYMPICS_1",
-        "English": "Olympiad~an Olympiad~Olympiads"
+        "English": "Olympiad I~an Olympiad I~Olympiads I"
       },
       {
         "zType": "TEXT_PROJECT_OLYMPICS_2",
-        "English": "Olympiad~an Olympiad~Olympiads"
+        "English": "Olympiad II~an Olympiad II~Olympiads II"
       },
       {
         "zType": "TEXT_PROJECT_OLYMPICS_3",
-        "English": "Olympiad~an Olympiad~Olympiads"
+        "English": "Olympiad III~an Olympiad III~Olympiads III"
       },
       {
         "zType": "TEXT_PROJECT_OLYMPICS_4",
-        "English": "Olympiad~an Olympiad~Olympiads"
+        "English": "Olympiad IV~an Olympiad IV~Olympiads IV"
       },
       {
         "zType": "TEXT_PROJECT_CONVOY",
@@ -184,35 +184,35 @@
       },
       {
         "zType": "TEXT_PROJECT_CONVOY_1",
-        "English": "Convoy~a Convoy~Convoys"
+        "English": "Convoy I~a Convoy I~Convoys I"
       },
       {
         "zType": "TEXT_PROJECT_CONVOY_2",
-        "English": "Convoy~a Convoy~Convoys"
+        "English": "Convoy II~a Convoy II~Convoys II"
       },
       {
         "zType": "TEXT_PROJECT_CONVOY_3",
-        "English": "Convoy~a Convoy~Convoys"
+        "English": "Convoy III~a Convoy III~Convoys III"
       },
       {
         "zType": "TEXT_PROJECT_CONVOY_4",
-        "English": "Convoy~a Convoy~Convoys"
+        "English": "Convoy IV~a Convoy IV~Convoys IV"
       },
       {
         "zType": "TEXT_PROJECT_COUNCIL_1",
-        "English": "Council~a Council~Councils"
+        "English": "Council I~a Council I~Councils I"
       },
       {
         "zType": "TEXT_PROJECT_COUNCIL_2",
-        "English": "Council~a Council~Councils"
+        "English": "Council II~a Council II~Councils II"
       },
       {
         "zType": "TEXT_PROJECT_COUNCIL_3",
-        "English": "Council~a Council~Councils"
+        "English": "Council III~a Council III~Councils III"
       },
       {
         "zType": "TEXT_PROJECT_COUNCIL_4",
-        "English": "Council~a Council~Councils"
+        "English": "Council IV~a Council IV~Councils IV"
       }
     ]
   }

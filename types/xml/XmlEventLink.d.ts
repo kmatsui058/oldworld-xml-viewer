@@ -9,7 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   iTurnLimit?: ZType | string;
-  aeSubjectClasses: AeSubjectClasses;
+  aeSubjectClasses?: AeSubjectClasses;
   beginGroup?: string;
 }
 export interface AeSubjectClasses {

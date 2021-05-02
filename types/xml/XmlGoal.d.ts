@@ -8,66 +8,99 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   iAmbitionClass?: ZType | string;
   iMaxTurns?: ZType | string;
   iMinTier?: ZType | string;
   iMaxTier?: ZType | string;
-  TechPrereq?: ZType | string;
-  TechObsolete?: ZType | string;
-  NationPrereq?: ZType | string;
+  TechPrereq?: ZType | TechPrereq2 | string;
+  TechObsolete?: ZType | TechPrereq2 | string;
+  NationPrereq?: ZType | TechPrereq2 | string;
+  StartLaw?: ZType | TechPrereq2 | string;
   EstablishTheology?: ZType | string;
-  StartLaw?: ZType | string;
+  DiplomacyAll?: ZType | string;
+  FinishBonus?: ZType;
   iLegitimacy?: ZType;
   iCities?: ZType | string;
   iConnectedCities?: ZType | string;
   iCitizens?: ZType;
   iSpecialists?: ZType | string;
   iPopulation?: ZType | string;
-  iPopulationHighest?: ZType | string;
-  iMilitaryHighest?: ZType | string;
-  iUrbanImprovements?: ZType | string;
+  iLuxuries?: ZType | TechPrereq2 | string;
+  iPlayerLuxuries?: ZType | TechPrereq2 | string;
+  iTribeLuxuries?: ZType | TechPrereq2 | string;
+  iFamilyLuxuries?: ZType | TechPrereq2 | string;
+  iUrbanTiles?: ZType | TechPrereq2 | string;
+  iUrbanImprovements?: ZType | TechPrereq2 | string;
   iWonders?: ZType | string;
-  iLaws?: ZType | string;
+  iLaws?: ZType | TechPrereq2 | string;
   iRevealLand?: ZType | string;
-  iMilitaryUnits?: ZType | string;
-  iMaxLevelUnits?: ZType;
-  iImprovementClassThreshold?: ZType | string;
-  iUnitThreshold?: ZType | string;
-  iPlayerCapturedData?: ZType | string;
-  iBarbsClearedData?: ZType | string;
-  iPlayerKilledData?: ZType | string;
-  iBarbsKilledData?: ZType | string;
+  iMilitaryUnits?: ZType | TechPrereq2 | string;
+  iMaxLevelUnits?: IMaxLevelUnits;
+  iGeneralCount?: ZType | string;
+  iGovernorCount?: ZType | string;
+  iAgentCount?: ZType;
+  iImprovementClassThreshold?: ZType | TechPrereq2 | string;
+  iUnitThreshold?: ZType | TechPrereq2 | string;
+  iPlayerCapturedData?: ZType | TechPrereq2 | string;
+  iTribeClearedData?: ZType | TechPrereq2 | string;
+  iTribeSettledData?: IMaxLevelUnits;
+  iPlayerKilledData?: ZType | TechPrereq2 | string;
+  iTribeKilledData?: ZType | TechPrereq2 | string;
+  bBlockComplete?: IMaxLevelUnits;
   bVictoryEligible?: ZType | string;
   bStateReligion?: ZType | string;
+  bHighestVP?: ZType | string;
+  bPlayerDead?: ZType;
+  bTribeDead?: ZType;
+  bScenario?: ZType;
   aiFamilyClassWeight?: AiFamilyClassWeight;
   aiDesiredWeight?: AiFamilyClassWeight;
   aiDiplomacyCount?: AiDiplomacyCount;
-  aiBarbsKilledData?: AiDiplomacyCount;
+  aiTribesKilledData?: AiTribesKilledData;
   aiYieldProducedData?: AiDiplomacyCount;
-  aiYieldRate?: AiFamilyClassWeight;
-  aiYieldCount?: AiDiplomacyCount;
-  aiImprovementCount?: AiFamilyClassWeight;
-  aiImprovementClassCount?: AiDiplomacyCount;
+  aiYieldRate?: AiYieldRate;
+  aiYieldCount?: AiTribesKilledData;
+  aiResourceRevealed?: TechPrereq2;
+  aiLuxuryCount?: IMaxLevelUnits;
+  aiPlayerLuxuryCount?: IMaxLevelUnits;
+  aiTribeLuxuryCount?: IMaxLevelUnits;
+  aiFamilyLuxuryCount?: IMaxLevelUnits;
+  aiImprovementCount?: AiImprovementCount;
+  aiCityImprovementCount?: ZType;
+  aiImprovementClassCount?: AiTribesKilledData;
+  aiCityImprovementClassCount?: ZType;
   aiCultureCount?: AiDiplomacyCount;
   aiCultureWonders?: AiDiplomacyCount;
-  aiSpecialistCount?: AiDiplomacyCount;
-  aiProjectCount?: AiFamilyClassWeight;
-  aiEffectCityCount?: AiDiplomacyCount;
-  aiUnitCount?: AiDiplomacyCount;
-  aiUnitTraitCount?: AiFamilyClassWeight;
-  aiUnitTraitMaxLevelCount?: AiUnitTraitMaxLevelCount;
-  aiStatCount?: ZType;
-  aiStatCountData?: AiDiplomacyCount;
+  aiSpecialistCount?: AiTribesKilledData;
+  aiCitySpecialistCount?: ZType;
+  aiProjectCount?: AiImprovementCount;
+  aiCityProjectCount?: ZType;
+  aiEffectCityCount?: AiTribesKilledData;
+  aiCityEffectCityCount?: ZType;
+  aiUnitCount?: AiTribesKilledData;
+  aiUnitTraitCount?: AiImprovementCount;
+  aiUnitTraitMaxLevelCount?: AiYieldRate;
+  aiStatCount?: IMaxLevelUnits;
+  aiStatCountData?: AiTribesKilledData;
   aeTechsAcquired?: AeTechsAcquired;
   aeThresholdImprovementClasses?: AeTechsAcquired;
   aeThresholdUnits?: AeTechsAcquired;
 }
 export interface AeTechsAcquired {
+  comment?: string;
   zValue?: string[];
 }
-export interface AiUnitTraitMaxLevelCount {
+export interface AiImprovementCount {
+  comment?: string;
+  Pair?: Pair[] | Pair;
+}
+export interface AiYieldRate {
   Pair?: Pair[];
+}
+export interface AiTribesKilledData {
+  comment?: string;
+  Pair?: Pair;
 }
 export interface AiDiplomacyCount {
   Pair?: Pair;
@@ -78,6 +111,12 @@ export interface AiFamilyClassWeight {
 export interface Pair {
   zIndex: string;
   iValue: string;
+}
+export interface IMaxLevelUnits {
+  comment?: string;
+}
+export interface TechPrereq2 {
+  comment: string;
 }
 export interface ZType {
 }

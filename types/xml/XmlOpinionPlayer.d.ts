@@ -11,6 +11,7 @@ export interface Entry {
   Name: ZType | string;
   Color: ZType | string;
   iThreshold?: ZType | string;
+  iAlliancePercent?: ZType | string;
   iPeacePercent?: ZType | string;
   iTrucePercent: ZType | string;
   iWarPercent?: ZType | string;

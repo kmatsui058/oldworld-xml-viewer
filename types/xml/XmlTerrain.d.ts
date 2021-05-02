@@ -12,7 +12,6 @@ export interface Entry {
   zIconName: ZType | string;
   iMovementCost: ZType | string;
   iBorderValue?: ZType | string;
-  iTerritoryDefenseModifier?: ZType | string;
   bWater?: ZType | string;
   bUrban?: ZType | string;
   bNoVegetation?: ZType | string;
@@ -20,8 +19,9 @@ export interface Entry {
   bStart?: ZType | string;
   bRoadValid?: ZType | string;
   DefaultHeight: ZType | string;
-  aiDefendUnitTrait?: ZType;
+  aiDefendEffectUnit?: ZType;
   aeHeightAsset: AeHeightAsset;
+  AssetVariation?: ZType | string;
 }
 export interface AeHeightAsset {
   Pair?: Pair[];

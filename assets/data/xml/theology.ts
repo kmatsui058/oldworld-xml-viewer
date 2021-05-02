@@ -6,22 +6,28 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
           
         },
-        "iPrereqCount": {
-          
-        },
-        "iColumn": {
-          
-        },
-        "iRow": {
+        "iTier": {
           
         },
         "iCost": {
+          
+        },
+        "iSpreadChange": {
+          
+        },
+        "Achievement": {
+          
+        },
+        "EffectCity": {
+          
+        },
+        "aiLawOpinion": {
           
         },
         "abPrereqTheology": {
@@ -30,121 +36,128 @@
       },
       {
         "zType": "THEOLOGY_MYTHOLOGY",
-        "zName": "Mythology",
+        "Name": "TEXT_THEOLOGY_MYTHOLOGY",
         "zIconName": "THEOLOGY_MYTHOLOGY",
-        "iPrereqCount": "0",
-        "iColumn": "0",
-        "iRow": "0",
-        "iCost": "400"
+        "iTier": "0",
+        "iCost": "200",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
+        "EffectCity": "EFFECTCITY_THEOLOGY_MYTHOLOGY",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_POLYTHEISM",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "THEOLOGY_VENERATION",
-        "zName": "Veneration",
+        "Name": "TEXT_THEOLOGY_VENERATION",
         "zIconName": "THEOLOGY_VENERATION",
-        "iPrereqCount": "0",
-        "iColumn": "2",
-        "iRow": "0",
-        "iCost": "400"
+        "iTier": "0",
+        "iCost": "200",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_VENERATION",
+        "EffectCity": "EFFECTCITY_THEOLOGY_VENERATION",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_ICONOGRAPHY",
+            "iValue": "40"
+          }
+        }
       },
       {
         "zType": "THEOLOGY_LEGALISM",
-        "zName": "Legalism",
+        "Name": "TEXT_THEOLOGY_LEGALISM",
         "zIconName": "THEOLOGY_LEGALISM",
-        "iPrereqCount": "0",
-        "iColumn": "4",
-        "iRow": "0",
-        "iCost": "400"
+        "iTier": "0",
+        "iCost": "200",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_LEGALISM",
+        "EffectCity": "EFFECTCITY_THEOLOGY_LEGALISM",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_CENTRALIZATION",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "THEOLOGY_REVELATION",
-        "zName": "Revelation",
+        "Name": "TEXT_THEOLOGY_REVELATION",
         "zIconName": "THEOLOGY_REVELATION",
-        "iPrereqCount": "1",
-        "iColumn": "1",
-        "iRow": "1",
-        "iCost": "600",
-        "abPrereqTheology": {
-          "Pair": [
-            {
-              "zIndex": "THEOLOGY_MYTHOLOGY",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "THEOLOGY_VENERATION",
-              "bValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "THEOLOGY_GNOSTICISM",
-        "zName": "Gnosticism",
-        "zIconName": "THEOLOGY_GNOSTICISM",
-        "iPrereqCount": "1",
-        "iColumn": "3",
-        "iRow": "1",
-        "iCost": "600",
-        "abPrereqTheology": {
-          "Pair": [
-            {
-              "zIndex": "THEOLOGY_VENERATION",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "THEOLOGY_LEGALISM",
-              "bValue": "1"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "THEOLOGY_REDEMPTION",
-        "zName": "Redemption",
-        "zIconName": "THEOLOGY_REDEMPTION",
-        "iPrereqCount": "2",
-        "iColumn": "0",
-        "iRow": "2",
-        "iCost": "800",
-        "abPrereqTheology": {
+        "iTier": "1",
+        "iCost": "400",
+        "iSpreadChange": "25",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_REVELATION",
+        "aiLawOpinion": {
           "Pair": {
-            "zIndex": "THEOLOGY_REVELATION",
-            "bValue": "1"
+            "zIndex": "LAW_ORTHODOXY",
+            "iValue": "30"
           }
         }
       },
       {
         "zType": "THEOLOGY_DUALISM",
-        "zName": "Dualism",
+        "Name": "TEXT_THEOLOGY_DUALISM",
         "zIconName": "THEOLOGY_DUALISM",
-        "iPrereqCount": "2",
-        "iColumn": "2",
-        "iRow": "2",
-        "iCost": "800",
-        "abPrereqTheology": {
-          "Pair": [
-            {
-              "zIndex": "THEOLOGY_REVELATION",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "THEOLOGY_GNOSTICISM",
-              "bValue": "1"
-            }
-          ]
+        "iTier": "1",
+        "iCost": "400",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_DUALISM",
+        "EffectCity": "EFFECTCITY_THEOLOGY_DUALISM",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_TOLERANCE",
+            "iValue": "30"
+          }
+        }
+      },
+      {
+        "zType": "THEOLOGY_GNOSTICISM",
+        "Name": "TEXT_THEOLOGY_GNOSTICISM",
+        "zIconName": "THEOLOGY_GNOSTICISM",
+        "iTier": "1",
+        "iCost": "400",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
+        "EffectCity": "EFFECTCITY_THEOLOGY_GNOSTICISM",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_MONOTHEISM",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "THEOLOGY_REDEMPTION",
+        "Name": "TEXT_THEOLOGY_REDEMPTION",
+        "zIconName": "THEOLOGY_REDEMPTION",
+        "iTier": "2",
+        "iCost": "600",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
+        "EffectCity": "EFFECTCITY_THEOLOGY_REDEMPTION",
+        "aiLawOpinion": {
+          "Pair": {
+            "zIndex": "LAW_PILGRIMAGE",
+            "iValue": "40"
+          }
         }
       },
       {
         "zType": "THEOLOGY_ENLIGHTENMENT",
-        "zName": "Enlightenment",
+        "Name": "TEXT_THEOLOGY_ENLIGHTENMENT",
         "zIconName": "THEOLOGY_ENLIGHTENMENT",
-        "iPrereqCount": "2",
-        "iColumn": "4",
-        "iRow": "2",
-        "iCost": "800",
-        "abPrereqTheology": {
+        "iTier": "2",
+        "iCost": "600",
+        "iSpreadChange": "5",
+        "Achievement": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
+        "EffectCity": "EFFECTCITY_THEOLOGY_ENLIGHTENMENT",
+        "aiLawOpinion": {
           "Pair": {
-            "zIndex": "THEOLOGY_GNOSTICISM",
-            "bValue": "1"
+            "zIndex": "LAW_PHILOSOPHY",
+            "iValue": "40"
           }
         }
       }

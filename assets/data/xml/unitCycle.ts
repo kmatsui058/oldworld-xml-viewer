@@ -19,11 +19,6 @@
         "eUnitCycle": "FOUND"
       },
       {
-        "zType": "UNITCYCLE_GREAT_PERSON",
-        "zName": "Great Person",
-        "eUnitCycle": "GREAT_PERSON"
-      },
-      {
         "zType": "UNITCYCLE_WORKER",
         "zName": "Worker",
         "eUnitCycle": "WORKER"

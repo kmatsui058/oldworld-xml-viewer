@@ -9,11 +9,14 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
+  zNameVerb: ZType | string;
   iOpinion: ZType | string;
+  iMinAgeUs?: ZType | string;
+  iMinAgeThem?: ZType | string;
   aeInvalidateRelationship?: AeInvalidateRelationship;
 }
 export interface AeInvalidateRelationship {
-  zValue?: string[];
+  zValue?: string[] | string;
 }
 export interface ZType {
 }

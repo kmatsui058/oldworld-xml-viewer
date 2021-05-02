@@ -10,8 +10,15 @@ export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
   Color: ZType | string;
-  EffectCity?: ZType | string;
   iThreshold?: ZType | string;
+  aeReligionEffectCity?: AeReligionEffectCity;
+}
+export interface AeReligionEffectCity {
+  Pair?: Pair[];
+}
+export interface Pair {
+  zIndex: string;
+  zValue: string;
 }
 export interface ZType {
 }

@@ -23,12 +23,12 @@
         "English": "Mine~a Mine~Mines"
       },
       {
-        "zType": "TEXT_IMPROVEMENTCLASS_LUMBERMILL",
-        "English": "Lumbermill~a Lumbermill~Lumbermills"
-      },
-      {
         "zType": "TEXT_IMPROVEMENTCLASS_QUARRY",
         "English": "Quarry~a Quarry~Quarries"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENTCLASS_LUMBERMILL",
+        "English": "Lumbermill~a Lumbermill~Lumbermills"
       },
       {
         "zType": "TEXT_IMPROVEMENTCLASS_PASTURE",
@@ -63,10 +63,6 @@
         "English": "Hamlet~a Hamlet~Hamlets"
       },
       {
-        "zType": "TEXT_IMPROVEMENTCLASS_AQUEDUCT",
-        "English": "Aqueduct~an Aqueduct~Aqueducts"
-      },
-      {
         "zType": "TEXT_IMPROVEMENTCLASS_BARRACKS",
         "English": "Barracks~a Barracks~Barracks"
       },
@@ -75,8 +71,8 @@
         "English": "Range~a Range~Ranges"
       },
       {
-        "zType": "TEXT_IMPROVEMENTCLASS_THEATER",
-        "English": "Theater~a Theater~Theaters"
+        "zType": "TEXT_IMPROVEMENTCLASS_ODEON",
+        "English": "Odeon~an Odeon~Odeons"
       },
       {
         "zType": "TEXT_IMPROVEMENTCLASS_BATHS",

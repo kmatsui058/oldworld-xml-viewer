@@ -31,6 +31,14 @@
         "English": "Triumph"
       },
       {
+        "zType": "TEXT_PROJECT_CULTURAL_PAGEANT",
+        "English": "Cultural Pageant"
+      },
+      {
+        "zType": "TEXT_PROJECT_CRUMBLING_ZIGGURAT",
+        "English": "The Ziggurat Crumbles"
+      },
+      {
         "zType": "TEXT_PROJECT_PURPLE_DYE",
         "English": "Purple Dye"
       },
@@ -149,6 +157,114 @@
       {
         "zType": "TEXT_PROJECT_TERRACE_WAR_SHRINE",
         "English": "Ziggurat War Shrine"
+      },
+      {
+        "zType": "TEXT_PROJECT_CONSULAR_TRIBUNES",
+        "English": "Consular Tribunes"
+      },
+      {
+        "zType": "TEXT_PROJECT_CONFUCIANISM",
+        "English": "Confucianism"
+      },
+      {
+        "zType": "TEXT_PROJECT_SALT_PRODUCTION",
+        "English": "Salt Production"
+      },
+      {
+        "zType": "TEXT_PROJECT_MANUAL_OF_RHETORIC",
+        "English": "Manual of Rhetoric"
+      },
+      {
+        "zType": "TEXT_PROJECT_LOCAL_ASCETIC",
+        "English": "Local Ascetic"
+      },
+      {
+        "zType": "TEXT_PROJECT_AUTONOMOUS_RULE",
+        "English": "Autonomous Rule"
+      },
+      {
+        "zType": "TEXT_PROJECT_MONUMENTAL_GATE",
+        "English": "Monumental Gate"
+      },
+      {
+        "zType": "TEXT_PROJECT_LEVIATHAN",
+        "English": "Leviathan Skull"
+      },
+      {
+        "zType": "TEXT_PROJECT_GODS_CONSORT_CULT",
+        "English": "God's Consort Cult"
+      },
+      {
+        "zType": "TEXT_PROJECT_LABYRINTH",
+        "English": "Labyrinth"
+      },
+      {
+        "zType": "TEXT_PROJECT_WORK_OF_ART",
+        "English": "Work of Art"
+      },
+      {
+        "zType": "TEXT_PROJECT_PIRACY_SUPPRESSION",
+        "English": "Piracy Suppression"
+      },
+      {
+        "zType": "TEXT_PROJECT_COHORTES",
+        "English": "Urban Cohorts"
+      },
+      {
+        "zType": "TEXT_PROJECT_HUNT_KILLER",
+        "English": "Hunt for the Killer"
+      },
+      {
+        "zType": "TEXT_PROJECT_STATUE_OF_DIONYSUS",
+        "English": "Statue of Dionysus"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_COLLEGES",
+        "English": "Pagan Colleges"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_WAR",
+        "English": "Pagan Cult of War"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_FIRE",
+        "English": "Pagan Cult of Fire"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_WISDOM",
+        "English": "Pagan Cult of Wisdom"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_SUN",
+        "English": "Pagan Cult of the Sun"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_WATER",
+        "English": "Pagan Cult of the Seas"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_LOVE",
+        "English": "Pagan Cult of Love"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_UNDERWORLD",
+        "English": "Pagan Cult of Death"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_HEALING",
+        "English": "Pagan Cult of Healing"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_KINGSHIP",
+        "English": "Pagan Cult of Royalty"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_HEARTH",
+        "English": "Pagan Cult of the Hearth"
+      },
+      {
+        "zType": "TEXT_PROJECT_PAGAN_CULT_HUNTING",
+        "English": "Pagan Cult of Hunting"
       }
     ]
   }

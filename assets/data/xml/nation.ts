@@ -51,16 +51,37 @@
         "bShowSurname": {
           
         },
+        "bPlayable": {
+          
+        },
+        "bDisabled": {
+          
+        },
         "aiStartUnit": {
           
         },
-        "aiStartYield": {
+        "aiCityUnit": {
+          
+        },
+        "aiNationOpinion": {
           
         },
         "aeStartingTech": {
           
         },
         "aeStartingLaw": {
+          
+        },
+        "aeImprovementNotValid": {
+          
+        },
+        "aeProjectNotValid": {
+          
+        },
+        "aeTechNotValid": {
+          
+        },
+        "aeUnitNotValid": {
           
         },
         "aeFirstNamesMale": {
@@ -75,7 +96,7 @@
         "aeCharacterPortraits": {
           
         },
-        "zStory": {
+        "Story": {
           
         }
       },
@@ -97,22 +118,34 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_WARRIOR",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
+          }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_SLINGER",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
+          "Pair": {
+            "zIndex": "NATION_BABYLONIA",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
           "zValue": [
-            "TECH_IRONWORKING",
+            "TECH_TRAPPING",
             "TECH_ADMINISTRATION",
-            "TECH_SOVEREIGNTY"
+            "TECH_MILITARY_DRILL"
           ]
-        },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
         },
         "aeFirstNamesMale": {
           "zValue": [
@@ -192,7 +225,15 @@
             "CITYNAME_CARCHEMISH",
             "CITYNAME_KAHAT",
             "CITYNAME_GOZAN",
-            "CITYNAME_NISIBIS"
+            "CITYNAME_NISIBIS",
+            "CITYNAME_TARSUS",
+            "CITYNAME_PTERIA",
+            "CITYNAME_RESEN",
+            "CITYNAME_KAR_SULMANU_ASAREDU",
+            "CITYNAME_MALIDIYA",
+            "CITYNAME_HAMAT",
+            "CITYNAME_QADESH",
+            "CITYNAME_MELIDDU"
           ]
         },
         "aeCharacterPortraits": {
@@ -212,6 +253,7 @@
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_16",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_03",
@@ -226,10 +268,42 @@
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_01",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_02",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_03",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_04",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_05",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_06",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_07",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_08",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_09",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_10",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_11",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_12",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_13",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_14",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_01",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_02",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_03",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_04",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_05",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_06",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_07",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_08",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_09",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_10",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_11",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_12",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_13",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_14",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_15"
           ]
         },
-        "zStory": "There are two truths about life that many find hard to accept. A ruler can avoid neither if they desire success.\n\nLife is cruel. From the first breath till the last ours is a striving against death. Without blood and pain there is nothing. Life is also beautiful. If it weren’t, what would we be striving towards?\n\nThe first truth we hide from ourselves, for acknowledging the cruelty of life can lead to a life of fear. The second truth we hide from others, lest we reveal to our enemies our weakness, and in doing so make ourselves vulnerable to their will.\n\nI am Ashurbanipal, and even though I was not raised to be a king, life’s cruelty provided me a different fate. You will help me ensure that our world has a chance to be one of beauty as well."
+        "Story": "TEXT_NATION_ASSYRIA_STORY"
       },
       {
         "zType": "NATION_BABYLONIA",
@@ -249,8 +323,26 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_SLINGER",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
+          }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_SLINGER",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
+          "Pair": {
+            "zIndex": "NATION_ASSYRIA",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
@@ -259,12 +351,6 @@
             "TECH_ADMINISTRATION",
             "TECH_RHETORIC"
           ]
-        },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
         },
         "aeFirstNamesMale": {
           "zValue": [
@@ -365,6 +451,8 @@
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_17",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_03",
@@ -379,10 +467,41 @@
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_01",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_02",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_03",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_04",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_05",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_06",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_07",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_08",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_09",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_10",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_11",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_12",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_13",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_14",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_01",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_02",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_03",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_04",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_05",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_06",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_07",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_08",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_09",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_10",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_11",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_12",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_13",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_14",
+            "CHARACTER_PORTRAIT_ASSYRIA_LEADER_FEMALE_15"
           ]
         },
-        "zStory": "Son of a Mesopotamian king and husband to Amytis of Medea, and forever a worshiper of the god Marduk. In the name of my father, I elevated my city Babylon to be the jewel of the region. I am trained in military tactics, conquered kingdoms, and crushed rebellions.\n\nI built The Hanging Gardens for my wife so she can feel closer to the hills of Persia, and The Ishtar Gate to honor Marduk. I connected them both with the Processing Way and all visitors were bewildered by the beauty of my empire.\n\nUnder my rule, women had equal rights as men did, we created intellectuals institutes and temples, and my focus was on art, culture, science, mathematics, and craftsmanship. In a decade, I turned Babylon into a city of light.\n\n I am Nebuchadnezzar."
+        "Story": "TEXT_NATION_BABYLONIA_STORY"
       },
       {
         "zType": "NATION_CARTHAGE",
@@ -402,48 +521,72 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_SLINGER",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
+          }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_SLINGER",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
+          "Pair": {
+            "zIndex": "NATION_ROME",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
           "zValue": [
-            "TECH_STONECUTTING",
             "TECH_TRAPPING",
-            "TECH_MILITARY_DRILL"
+            "TECH_DIVINATION",
+            "TECH_ARISTOCRACY"
           ]
-        },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
         },
         "aeFirstNamesMale": {
           "zValue": [
             "NAME_ABDOSIR",
+            "NAME_ACHERBAS",
             "NAME_ADHERBAL",
             "NAME_ADONIBAAL",
             "NAME_ARMILIK",
             "NAME_AZRUBAAL",
             "NAME_BAALHANNO",
+            "NAME_BAELBAD",
             "NAME_BODASHTART",
             "NAME_BOMILCAR",
             "NAME_BOSTAR",
             "NAME_CARTHALO",
             "NAME_ESHMUNAZAR",
+            "NAME_FEROAN",
             "NAME_GISCO",
             "NAME_HAMILCAR",
             "NAME_HANNIBAL",
             "NAME_HANNO",
             "NAME_HASDRUBAL",
+            "NAME_HISHMAT",
             "NAME_HIMILCO",
             "NAME_HIRAM",
+            "NAME_IBOHAM",
             "NAME_MAGO",
             "NAME_MAHARBAL",
             "NAME_MALCHUS",
             "NAME_MATTANBAAL",
+            "NAME_MELAK",
+            "NAME_NAVOEL",
             "NAME_OZMELEK",
+            "NAME_PYGMALION",
+            "NAME_QAMR",
+            "NAME_QODMUSH",
+            "NAME_RABIH",
+            "NAME_SHADA",
             "NAME_YUTPAN",
             "NAME_ZOUSHAN"
           ]
@@ -453,27 +596,38 @@
             "NAME_AMATBAAL",
             "NAME_AMATMELQART",
             "NAME_AMATMILIK",
+            "NAME_ANBAR",
             "NAME_ARISHAT",
             "NAME_ARISHATBAAL",
             "NAME_ASHDANAT",
+            "NAME_ASHTARTE",
             "NAME_BAALZEBEL",
             "NAME_BATBAAL",
             "NAME_BIRICH",
             "NAME_BIRQOT",
             "NAME_DIDO",
-            "NAME_ELISSA",
+            "NAME_ELISSAR",
+            "NAME_FAIRUZ",
             "NAME_HANBI",
             "NAME_HANNAH",
             "NAME_ILDASH",
             "NAME_IMILCE",
             "NAME_MUTUNBAAL",
+            "NAME_NASMA",
+            "NAME_OTR",
             "NAME_SAPANBAAL",
+            "NAME_SHAMSHYE",
             "NAME_SOPHONISBA",
             "NAME_TABIBA",
             "NAME_THUALATH",
             "NAME_THUBABATH",
             "NAME_UMASHTART",
+            "NAME_YASMIN",
             "NAME_YZBAAL",
+            "NAME_ZANBAK",
+            "NAME_ZOHUR",
+            "NAME_ZMORROD",
+            "NAME_ZYARA",
             "NAME_ZYABQOT"
           ]
         },
@@ -481,24 +635,31 @@
           "zValue": [
             "CITYNAME_CARTHAGO",
             "CITYNAME_UTICA",
-            "CITYNAME_GADES",
-            "CITYNAME_HIPPO_REGIUS",
-            "CITYNAME_PANORMUS",
-            "CITYNAME_LEPTIS_MAGNA",
             "CITYNAME_HADRUMETUM",
+            "CITYNAME_THAPSUS",
+            "CITYNAME_THEVESTE",
+            "CITYNAME_SABRATA",
+            "CITYNAME_LEPTIS_MAGNA",
+            "CITYNAME_HIPPO_REGIUS",
+            "CITYNAME_CADIZ",
+            "CITYNAME_PANORMUS",
             "CITYNAME_LILYBAEUM",
             "CITYNAME_ZAMA",
             "CITYNAME_KARALIS",
-            "CITYNAME_THAPSUS",
             "CITYNAME_KERKUANE",
             "CITYNAME_TINGIS",
             "CITYNAME_SULCI",
-            "CITYNAME_THEVESTE",
             "CITYNAME_MELITE",
             "CITYNAME_NORA",
-            "CITYNAME_KARTEIA",
-            "CITYNAME_SABRATA",
-            "CITYNAME_LIXUS"
+            "CITYNAME_LIXUS",
+            "CITYNAME_CARTHAGO_NOVA",
+            "CITYNAME_MALACA",
+            "CITYNAME_CARTENNA",
+            "CITYNAME_SALDAE",
+            "CITYNAME_SICCA",
+            "CITYNAME_NEAPOLIS",
+            "CITYNAME_THAENAE",
+            "CITYNAME_ARAE_PHILAENORUM"
           ]
         },
         "aeCharacterPortraits": {
@@ -518,6 +679,21 @@
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_20",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_21",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_22",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_23",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_24",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_25",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_26",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_27",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_28",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_29",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_30",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_03",
@@ -532,10 +708,25 @@
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_16",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_17",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_18",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_19",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_20",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_21",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_22",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_23",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_24",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_25",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_26",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_27",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_28",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_29",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_30"
           ]
         },
-        "zStory": "I am a Phoenecian princess who fled her home in Tyre, carrying the name Elissa. Escaping my brother Pygmalion who murdered my beloved husband Acerbas, a priest of Hercules, I arrived in North Africa.\n\nWith my husband’s riches, I bargained with the Berber king Iarbus who wanted to marry me. He mockingly promised me all the land that I could cover with the skin of a dead ox. I cut the skin into the thinnest pieces and, along with my Tyrian settlers, laid out the borders of my beloved city.\n\nI am ready to become Dido the Wanderer, Queen of Carthage, goddess to my people."
+        "Story": "TEXT_NATION_CARTHAGE_STORY"
       },
       {
         "zType": "NATION_EGYPT",
@@ -547,7 +738,7 @@
         "CapitalAsset": "ASSET_VARIATION_CITY_EGYPT_CAPITAL",
         "CityAsset": "ASSET_VARIATION_CITY_EGYPT_CAPITAL",
         "UrbanAsset": "ASSET_VARIATION_EGYPT_URBAN",
-        "Founder": "CHARACTER_HATSHEPSUT",
+        "Founder": "CHARACTER_THUTMOSE_II",
         "FirstRuler": "CHARACTER_HATSHEPSUT",
         "FirstBuild": "UNIT_SETTLER",
         "EffectPlayer": "EFFECTPLAYER_NATION_EGYPT",
@@ -555,22 +746,28 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_WARRIOR",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
           }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_WARRIOR",
+              "iValue": "1"
+            }
+          ]
         },
         "aeStartingTech": {
           "zValue": [
             "TECH_IRONWORKING",
-            "TECH_DIVINATION",
+            "TECH_STONECUTTING",
             "TECH_LABOR_FORCE"
           ]
-        },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
         },
         "aeFirstNamesMale": {
           "zValue": [
@@ -633,25 +830,79 @@
         "aeCityNames": {
           "zValue": [
             "CITYNAME_WASET",
-            "CITYNAME_MEMPHIS",
-            "CITYNAME_ELEPHANTINE",
-            "CITYNAME_PI_RAMESSES",
-            "CITYNAME_HELIOPOLIS",
-            "CITYNAME_ALEXANDRIA",
-            "CITYNAME_SAIS",
-            "CITYNAME_AKHETATEN",
-            "CITYNAME_DENDERA",
-            "CITYNAME_SHEDET",
-            "CITYNAME_AVARIS",
-            "CITYNAME_GIZA",
-            "CITYNAME_BUSIRIS",
-            "CITYNAME_ABYDOS",
-            "CITYNAME_HIERACONPOLIS",
-            "CITYNAME_TANIS",
             "CITYNAME_PELUSIUM",
-            "CITYNAME_ASWAN",
-            "CITYNAME_CAIRO",
-            "CITYNAME_DAMIETTA"
+            "CITYNAME_MEMPHIS",
+            "CITYNAME_KHEM",
+            "CITYNAME_YAMU",
+            "CITYNAME_KHITO",
+            "CITYNAME_PTKHEKA",
+            "CITYNAME_SAIS",
+            "CITYNAME_PER_WADJET",
+            "CITYNAME_KHASUT",
+            "CITYNAME_TIMINHOR",
+            "CITYNAME_PIEMRO",
+            "CITYNAME_THONIS",
+            "CITYNAME_MENOUTHIS",
+            "CITYNAME_PIKUAT",
+            "CITYNAME_PER_ATUM",
+            "CITYNAME_BUSIRIS",
+            "CITYNAME_HUT_HERY_IB",
+            "CITYNAME_TAREMU",
+            "CITYNAME_SETENNU",
+            "CITYNAME_TJEBNUTJER",
+            "CITYNAME_PACHNAMUNIS",
+            "CITYNAME_HELIOPOLIS",
+            "CITYNAME_TJARU",
+            "CITYNAME_PER_AMUN",
+            "CITYNAME_WEPREHWY",
+            "CITYNAME_DAMIETTA",
+            "CITYNAME_DJEDET",
+            "CITYNAME_SEMABEHDET",
+            "CITYNAME_PER_BAST",
+            "CITYNAME_TANIS",
+            "CITYNAME_AVARIS",
+            "CITYNAME_PI_RAMESSES",
+            "CITYNAME_PER_SOPDU",
+            "CITYNAME_ELEPHANTINE",
+            "CITYNAME_SWENETT",
+            "CITYNAME_NUBT",
+            "CITYNAME_BEHDET",
+            "CITYNAME_NEKHEB",
+            "CITYNAME_HIERACONPOLIS",
+            "CITYNAME_TE_SENET",
+            "CITYNAME_PER_HATHOR",
+            "CITYNAME_IUNY",
+            "CITYNAME_SUMENU",
+            "CITYNAME_DJERTY",
+            "CITYNAME_MADU",
+            "CITYNAME_IUSHENSHEN",
+            "CITYNAME_GESY",
+            "CITYNAME_GEBTU",
+            "CITYNAME_DENDERA",
+            "CITYNAME_SESHESH",
+            "CITYNAME_ABYDOS",
+            "CITYNAME_TJENU",
+            "CITYNAME_IPU",
+            "CITYNAME_HUT_REPYT",
+            "CITYNAME_TJEBU",
+            "CITYNAME_SHASHOTEP",
+            "CITYNAME_PER_NEMTY",
+            "CITYNAME_ZAWTY",
+            "CITYNAME_QIS",
+            "CITYNAME_AKHETATEN",
+            "CITYNAME_KHMUN",
+            "CITYNAME_HERWER",
+            "CITYNAME_HEBENU",
+            "CITYNAME_MER_NEFER_ET",
+            "CITYNAME_SAKA",
+            "CITYNAME_TAYU_DJAYET",
+            "CITYNAME_PER_MEDJED",
+            "CITYNAME_HENEN_NESUT",
+            "CITYNAME_SHEDET",
+            "CITYNAME_TEPIHU",
+            "CITYNAME_CHENEM_WASET",
+            "CITYNAME_IKEN",
+            "CITYNAME_BUHEN"
           ]
         },
         "aeCharacterPortraits": {
@@ -671,6 +922,21 @@
             "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_20",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_21",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_22",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_23",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_24",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_25",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_26",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_27",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_28",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_29",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_30",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_03",
@@ -685,10 +951,25 @@
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_16",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_17",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_18",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_19",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_20",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_21",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_22",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_23",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_24",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_25",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_26",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_27",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_28",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_29",
+            "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_30"
           ]
         },
-        "zStory": "I am Hatshepsut, a female Pharoah, though declared myself officially male throughout my reign.\n\nI had to use my ruse to come to the throne, using my vast knowledge of religion which endeared me to my people and declared me wife of the God Amun. I am, also, of royal blood on both sides. Married to my brother Thutmose II, I bore a female heir, Neferure. After that, I could not bear more children.\n\nOccasionally I wore a metal beard but it is a fair price to pay in order to drive my people to a better destiny.\n\nUnder my reign, Egypt created many trade networks and re-established itself as a nation of builders. My love for science and education allowed me to befriend the most talented architects who helped the Egyptian Empire spread its buildings throughout the known world."
+        "Story": "TEXT_NATION_EGYPT_STORY"
       },
       {
         "zType": "NATION_GREECE",
@@ -708,8 +989,26 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_WARRIOR",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
+          }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_WARRIOR",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
+          "Pair": {
+            "zIndex": "NATION_PERSIA",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
@@ -719,38 +1018,59 @@
             "TECH_DRAMA"
           ]
         },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
-        },
         "aeFirstNamesMale": {
           "zValue": [
+            "NAME_AEACIDES",
             "NAME_AGIS",
+            "NAME_ALCETAS",
             "NAME_ALCIBIADES",
             "NAME_ALEXANDER",
             "NAME_ANTIGONUS",
             "NAME_ANTIOCHUS",
             "NAME_ANTIPATER",
+            "NAME_ARISTANDER",
+            "NAME_ARYBBAS",
+            "NAME_ARYMBAS",
+            "NAME_ATTALUS",
+            "NAME_BALACRUS",
+            "NAME_BARDYLIS",
             "NAME_CASSANDER",
+            "NAME_CHRYSEIS",
             "NAME_CIMON",
             "NAME_CLEISTHENES",
+            "NAME_CLEITARCHUS",
             "NAME_CLEOMENES",
             "NAME_CRATERUS",
+            "NAME_DERDAS",
             "NAME_DEMETRIUS",
+            "NAME_DIODORUS",
+            "NAME_HEPHAESTION",
             "NAME_HIPPIAS",
+            "NAME_HIPPOSTRATUS",
             "NAME_LEONIDAS",
+            "NAME_LEONNATUS",
             "NAME_LYSANDER",
+            "NAME_LYSIMACHUS",
+            "NAME_MACHATAS",
+            "NAME_MELEAGER",
             "NAME_MILTIADES",
+            "NAME_NEOPTLEMUS",
             "NAME_NICIAS",
+            "NAME_ORESTES",
             "NAME_PARMENIO",
             "NAME_PAUSANIAS",
+            "NAME_PEITHON",
+            "NAME_PELOPIDAS",
+            "NAME_PERDICCAS",
             "NAME_PERIANDER",
             "NAME_PERICLES",
             "NAME_PERSEUS",
+            "NAME_PHILOTAS",
+            "NAME_POLYPERCHON",
             "NAME_PHILIP",
             "NAME_PYRRHUS",
+            "NAME_SELEUCUS",
+            "NAME_SOPOLIS",
             "NAME_THEMISTOCLES"
           ]
         },
@@ -759,10 +1079,14 @@
             "NAME_ANYTE",
             "NAME_ARCHIDAMIA",
             "NAME_ARETE",
+            "NAME_ARSINOE",
             "NAME_ARTEMISIA",
             "NAME_ASPASIA",
+            "NAME_AUDATA",
             "NAME_BERENICE",
+            "NAME_BILISTICHE",
             "NAME_CHILONIS",
+            "NAME_CYNANE",
             "NAME_DEIDAMIA",
             "NAME_DIONASSA",
             "NAME_DIOTIMA",
@@ -772,10 +1096,20 @@
             "NAME_HIPPARCHIA",
             "NAME_HYDNA",
             "NAME_LAODICE",
+            "NAME_LANASSA",
+            "NAME_LANIKE",
             "NAME_METRODORA",
+            "NAME_MORALIA",
+            "NAME_MYRTALE",
+            "NAME_NICAEA",
+            "NAME_NICASIPOLIS",
             "NAME_OLYMPIAS",
             "NAME_PHERETIMA",
+            "NAME_PHILA",
             "NAME_PHILINNA",
+            "NAME_PHTHIA",
+            "NAME_POLYCRATIA",
+            "NAME_POLYXENA",
             "NAME_STRATONICE",
             "NAME_TELESILLA",
             "NAME_THEANO",
@@ -785,16 +1119,14 @@
         },
         "aeCityNames": {
           "zValue": [
+            "CITYNAME_PELLA",
             "CITYNAME_ATHENS",
             "CITYNAME_SPARTA",
             "CITYNAME_CORINTH",
             "CITYNAME_THEBES",
             "CITYNAME_ARGOS",
-            "CITYNAME_ELIS",
-            "CITYNAME_MESSENE",
             "CITYNAME_ERETRIA",
             "CITYNAME_CORCYRA",
-            "CITYNAME_LARISSA",
             "CITYNAME_MILETUS",
             "CITYNAME_SYRACUSE",
             "CITYNAME_EPHESUS",
@@ -802,9 +1134,38 @@
             "CITYNAME_HALICARNASSUS",
             "CITYNAME_PERGAMON",
             "CITYNAME_BYZANTIUM",
-            "CITYNAME_PELLA",
-            "CITYNAME_THESSALONIKI",
-            "CITYNAME_PATRAS"
+            "CITYNAME_THESSALONIKE",
+            "CITYNAME_PHILIPPI",
+            "CITYNAME_AMPHIPOLIS",
+            "CITYNAME_NEAPOLIS",
+            "CITYNAME_OLYNTHUS",
+            "CITYNAME_POTIDAEA",
+            "CITYNAME_DION",
+            "CITYNAME_MASSALIA",
+            "CITYNAME_LARISSA",
+            "CITYNAME_PATRAS",
+            "CITYNANE_CHALKIS",
+            "CITYNANE_MYTILENE",
+            "CITYNANE_PYLOS",
+            "CITYNANE_GORTYN",
+            "CITYNANE_CROTON",
+            "CITYNANE_RHEGION",
+            "CITYNAME_ALEXANDRIA",
+            "CITYNAME_IALYSUS",
+            "CITYNAME_LINDOS",
+            "CITYNAME_KARYSTOS",
+            "CITYNAME_HERACLEA",
+            "CITYNAME_LYCTOS",
+            "CITYNAME_APOLLONIA",
+            "CITYNAME_PHOCAEA",
+            "CITYNAME_MEGARA",
+            "CITYNAME_CUMAE",
+            "CITYNAME_EPIDAMNOS",
+            "CITYNAME_ATTALEIA",
+            "CITYNAME_NICODMEDIA",
+            "CITYNAME_NICAEA",
+            "CITYNAME_TRAPEZUS",
+            "CITYNAME_ANTIOCHEIA"
           ]
         },
         "aeCharacterPortraits": {
@@ -824,6 +1185,7 @@
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_16",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_03",
@@ -838,10 +1200,42 @@
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_01",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_02",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_03",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_04",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_05",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_06",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_07",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_08",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_09",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_10",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_11",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_12",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_13",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_14",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_01",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_02",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_03",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_04",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_05",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_06",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_07",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_08",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_09",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_10",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_11",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_12",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_13",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_14",
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_15"
           ]
         },
-        "zStory": "I am King Philip II of Macedon, son of King Amyntas III, founder of the Unified Macedonian State.\n\nI received a diplomatic and military education from Epaminondas and established a federation of Greek states known as the League of Corinth. I reformed the Ancient Macedonian Army and established the Macedon Phalanx.\n\nAs a teen, I may have had an older male lover, a general I lived with named Pammenes.\n\nOver the course of my life, I married seven times. One of my wives, Olympias, gave me a son, and I named him Alexander. He was born the year my horse won in the Olympic Games. Alexander is now 13."
+        "Story": "TEXT_NATION_GREECE_STORY"
       },
       {
         "zType": "NATION_PERSIA",
@@ -861,8 +1255,26 @@
         "iFirstBuildPercent": "40",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_SLINGER",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
+          }
+        },
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_SLINGER",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
+          "Pair": {
+            "zIndex": "NATION_GREECE",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
@@ -872,23 +1284,20 @@
             "TECH_HUSBANDRY"
           ]
         },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
-        },
         "aeFirstNamesMale": {
           "zValue": [
             "NAME_ARDASHIR",
             "NAME_ARIASPES",
             "NAME_ARTABANUS",
             "NAME_ARTAXERXES",
+            "NAME_ASTYAGES",
+            "NAME_ARUKU",
             "NAME_BAHRAM",
             "NAME_BARDIYA",
             "NAME_CAMBYSES",
             "NAME_CYRUS",
             "NAME_DARIUS",
+            "NAME_HARPAGUS",
             "NAME_HORMIZD",
             "NAME_HYSTASPES",
             "NAME_KHOSRAU",
@@ -897,8 +1306,10 @@
             "NAME_MITHRIDATES",
             "NAME_ORODES",
             "NAME_OXATHRES",
+            "NAME_PHARNASPES",
             "NAME_PHRAATES",
             "NAME_SHAPUR",
+            "NAME_SMERDIS",
             "NAME_SUKHRA",
             "NAME_TEISPES",
             "NAME_TIRIDATES",
@@ -914,7 +1325,8 @@
             "NAME_APAMA",
             "NAME_ARTAKAMA",
             "NAME_ARTAZOSTRE",
-            "NAME_ATOSSA",
+            "NAME_ARTYSTONE",
+            "NAME_ASTAR",
             "NAME_AZARMIDOKHT",
             "NAME_BARSINE",
             "NAME_BORAN",
@@ -927,8 +1339,9 @@
             "NAME_MANDANA",
             "NAME_MYROD",
             "NAME_PARMIDA",
+            "NAME_PARMYS",
             "NAME_PARYSATIS",
-            "NAME_ROXANE",
+            "NAME_ROXANA",
             "NAME_SHIRIN",
             "NAME_STATEIRA",
             "NAME_SURA",
@@ -944,7 +1357,6 @@
             "CITYNAME_ECBATANA",
             "CITYNAME_ANSHAN",
             "CITYNAME_SARDIS",
-            "CITYNAME_TARSUS",
             "CITYNAME_BACTRA",
             "CITYNAME_GORDIUM",
             "CITYNAME_CTESIPHON",
@@ -953,11 +1365,22 @@
             "CITYNAME_SHUSHTAR",
             "CITYNAME_NISHAPUR",
             "CITYNAME_SHIRAZ",
-            "CITYNAME_ISFAHAN",
-            "CITYNAME_HAMADAN",
             "CITYNAME_KERMANSHAH",
-            "CITYNAME_ARDABIL",
-            "CITYNAME_TABRIZ"
+            "CITYNAME_HYRBA",
+            "CITYNAME_CYRESCHATE",
+            "CITYNAME_ORTOSPANA",
+            "CITYNAME_PAHRAH",
+            "CITYNAME_PROPHTHASIA",
+            "CITYNAME_ARTACOANA",
+            "CITYNAME_TUS",
+            "CITYNAME_ZADRACARTA",
+            "CITYNAME_SADDARVAZEH",
+            "CITYNAME_RHAGES",
+            "CITYNAME_GABAE",
+            "CITYNAME_YAZD",
+            "CITYNAME_CARMANIA",
+            "CITYNAME_HORMIRZAD",
+            "CITYNAME_TEREDON"
           ]
         },
         "aeCharacterPortraits": {
@@ -977,6 +1400,21 @@
             "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_20",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_21",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_22",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_23",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_24",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_25",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_26",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_27",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_28",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_29",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_30",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_03",
@@ -991,10 +1429,25 @@
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_16",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_17",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_18",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_19",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_20",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_21",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_22",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_23",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_24",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_25",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_26",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_27",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_28",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_29",
+            "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_30"
           ]
         },
-        "zStory": "I am Cyrus the Great, second of my name, King of Kings, and son of King Cambyses.\n\nMy grandfather, King Astyages, of the Medean Empire, intended to have me killed upon birth. Instead, I lived to conquer his kingdom and make it mine.\n\nI founded the first Persian empire. Under my rule, all civilized states are free to worship their Gods. I brought into subjection every nation without exception.\n\nIsaiah the Prophet refers to me as Messiah, calling me “His Anointed One.” I am the only non-Jewish figure in the Bible to be so called."
+        "Story": "TEXT_NATION_PERSIA_STORY"
       },
       {
         "zType": "NATION_ROME",
@@ -1012,31 +1465,36 @@
         "EffectPlayer": "EFFECTPLAYER_NATION_ROME",
         "MapElementNames": "MAP_ELEMENT_NAMES_FOR_ROME",
         "iFirstBuildPercent": "40",
-        "bShowSurname": "1",
         "aiStartUnit": {
           "Pair": {
-            "zIndex": "UNIT_WARRIOR",
+            "zIndex": "UNIT_SCOUT",
             "iValue": "1"
           }
         },
-        "aiStartYield": {
+        "aiCityUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_WORKER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_WARRIOR",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiNationOpinion": {
           "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "200"
+            "zIndex": "NATION_CARTHAGE",
+            "iValue": "-40"
           }
         },
         "aeStartingTech": {
           "zValue": [
             "TECH_IRONWORKING",
-            "TECH_DIVINATION",
-            "TECH_ARISTOCRACY"
+            "TECH_STONECUTTING",
+            "TECH_POLIS"
           ]
-        },
-        "aeStartingLaw": {
-          "Pair": {
-            "zIndex": "LAWCLASS_ORDER",
-            "zValue": "LAW_PRIMOGENITURE"
-          }
         },
         "aeFirstNamesMale": {
           "zValue": [
@@ -1103,25 +1561,69 @@
         "aeCityNames": {
           "zValue": [
             "CITYNAME_ROMA",
+            "CITYNAME_ARIMINUM",
+            "CITYNAME_BONONIA",
+            "CITYNAME_AQUILEIA",
+            "CITYNAME_CAPUA",
             "CITYNAME_ANTIUM",
             "CITYNAME_OSTIA",
-            "CITYNAME_BENEVENTUM",
-            "CITYNAME_ARRETIUM",
-            "CITYNAME_CAPUA",
-            "CITYNAME_BRUNDISIUM",
-            "CITYNAME_NEAPOLIS",
-            "CITYNAME_ARIMINUM",
+            "CITYNAME_FLORENTIA",
             "CITYNAME_MEDIOLANUM",
             "CITYNAME_PATAVIUM",
             "CITYNAME_RAVENNA",
+            "CITYNAME_BELUM",
+            "CITYNAME_TARRACO",
+            "CITYNAME_ITALICA",
+            "CITYNAME_MODICIA",
             "CITYNAME_SALERNUM",
-            "CITYNAME_TUSCULUM",
-            "CITYNAME_AQUILEIA",
-            "CITYNAME_CIRCEII",
-            "CITYNAME_BONONIA",
-            "CITYNAME_TICINUM",
-            "CITYNAME_CUMAE",
-            "CITYNAME_FLORENTIA"
+            "CITYNAME_FORUM_LIVII",
+            "CITYNAME_REGIUM_LEPIDI",
+            "CITYNAME_CORDUBA",
+            "CITYNAME_ASCRIVIUM",
+            "CITYNAME_VALENTIA",
+            "CITYNAME_SCALABIS",
+            "CITYNAME_VILLA_EURACINI",
+            "CITYNAME_MASSA",
+            "CITYNAME_PISTORIA",
+            "CITYNAME_GERUNDA",
+            "CITYNAME_POMPALEO",
+            "CITYNAME_NAISSUS",
+            "CITYNAME_VESONTIO",
+            "CITYNAME_LUTETIA",
+            "CITYNAME_HISPALIS",
+            "CITYNAME_LUGDUNUM",
+            "CITYNAME_SISCIA",
+            "CITYNAME_AUGUSTA_TREVERORUM",
+            "CITYNAME_CASTRA_LEGIONIS",
+            "CITYNAME_AUGUSTA_TAURINORUM",
+            "CITYNAME_NOVAESIUM",
+            "CITYNAME_OVILAVA",
+            "CITYNAME_IUVAVUM",
+            "CITYNAME_TURICUM",
+            "CITYNAME_POMPEII",
+            "CITYNAME_VOLUBILIS",
+            "CITYNAME_BARIUM",
+            "CITYNAME_BRIXIA",
+            "CITYNAME_COMUM",
+            "CITYNAME_THERANDA",
+            "CITYNAME_HADRIANOPOLIS",
+            "CITYNAME_DUROVIGUTUM",
+            "CITYNAME_PONUS_AELIUS",
+            "CITYNAME_AQUINCUM",
+            "CITYNAME_CIBALAE",
+            "CITYNAME_SALONA",
+            "CITYNAME_AEMINIUM",
+            "CITYNAME_LENTIA",
+            "CITYNAME_NIDA",
+            "CITYNAME_SUMELOCENNA",
+            "CITYNAME_CALLEVA_ATREBATUM",
+            "CITYNAME_CAMULODUNUM",
+            "CITYNAME_VIMINACIUM",
+            "CITYNAME_LONDINIUM",
+            "CITYNAME_AVENTICUM",
+            "CITYNAME_FAVENTIA",
+            "CITYNAME_MOGONTIACUM",
+            "CITYNAME_SIRMIUM"
           ]
         },
         "aeCharacterPortraits": {
@@ -1141,6 +1643,8 @@
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_17",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_03",
@@ -1155,10 +1659,41 @@
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_12",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_13",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_14",
-            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_15"
+            "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_15",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_01",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_02",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_03",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_04",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_05",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_06",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_07",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_08",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_09",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_10",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_11",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_12",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_13",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_14",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_01",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_02",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_03",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_04",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_05",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_06",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_07",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_08",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_09",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_10",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_11",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_12",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_13",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_14",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_15"
           ]
         },
-        "zStory": "Son of the god Mars, I was saved and raised by a she-wolf with my twin brother, Remus. Aware of his cunning ways, I kept my caution around him, and moved on to found my own tribe unwilling to share my power with him. \n\nMy humble beginnings as an unwanted outcast helped me find hardy men willing to fight alongside me. Unwilling to let us marry their daughters, we kidnapped and married them, anyway. Now, I am allied with powerful tribes.\n\nThe need to recast the narrative is a must, and I will become a righteous leader blessed with divine favor. \n\nI am Romulus, and I have founded Roma, the city destined to rule the world."
+        "Story": "TEXT_NATION_ROME_STORY"
       }
     ]
   }

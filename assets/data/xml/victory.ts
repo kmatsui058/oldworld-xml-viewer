@@ -6,10 +6,25 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "eVictory": {
+        "bToggle": {
+          
+        },
+        "bConquest": {
+          
+        },
+        "bAmbitions": {
+          
+        },
+        "iPercentVP": {
+          
+        },
+        "iOpponentMaxPointPercent": {
+          
+        },
+        "iMinTurns": {
           
         },
         "zHelp": {
@@ -18,26 +33,37 @@
       },
       {
         "zType": "VICTORY_POINTS",
-        "zName": "Points",
-        "eVictory": "POINTS",
-        "zHelp": "Victory from acquiring a set amount of VPs."
+        "Name": "TEXT_VICTORY_POINTS",
+        "bToggle": "1",
+        "iPercentVP": "100",
+        "zHelp": "Victory from acquiring the target number of VPs."
+      },
+      {
+        "zType": "VICTORY_DOUBLE",
+        "Name": "TEXT_VICTORY_DOUBLE",
+        "bToggle": "1",
+        "iPercentVP": "50",
+        "iOpponentMaxPointPercent": "50",
+        "zHelp": "Victory from acquiring twice as many VPs as any other Nation.\n(Must also have at least half the target number of VPs. Only possible for Humans.)"
       },
       {
         "zType": "VICTORY_AMBITION",
-        "zName": "Ambition",
-        "eVictory": "AMBITION",
-        "zHelp": "Victory from completing Ten Ambitions."
+        "Name": "TEXT_VICTORY_AMBITION",
+        "bToggle": "1",
+        "bAmbitions": "1",
+        "zHelp": "Victory from completing int(MAX_AMBITIONS) Ambitions."
       },
       {
         "zType": "VICTORY_TIME",
-        "zName": "Time",
-        "eVictory": "TIME",
+        "Name": "TEXT_VICTORY_TIME",
+        "iOpponentMaxPointPercent": "100",
+        "iMinTurns": "200",
         "zHelp": "Victory from having the most VPs at the end of 200 Years."
       },
       {
         "zType": "VICTORY_CONQUEST",
-        "zName": "Conquest",
-        "eVictory": "CONQUEST",
+        "Name": "TEXT_VICTORY_CONQUEST",
+        "bConquest": "1",
         "zHelp": "Victory from conquering all other Nations."
       }
     ]

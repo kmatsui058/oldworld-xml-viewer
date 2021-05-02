@@ -9,24 +9,37 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  NamePlus?: ZType | string;
-  iCost?: ZType | string;
+  NameTarget?: ZType | string;
+  NameCharacter?: ZType | string;
+  zIcon?: ZType | string;
   iXP?: ZType | string;
   iMissionTurns?: ZType | string;
-  iMinDiplomacyTurnsTurns?: ZType | string;
+  iMissionTurnsScaled?: ZType | string;
+  bBlockDiplomacy?: ZType | string;
+  bTestMission?: ZType | string;
   bVisibleCharacter?: ZType | string;
   bVisibleTarget?: ZType | string;
   bVisibleAlways?: ZType | string;
   bNoPopup?: ZType | string;
-  bHighlight?: ZType | string;
-  SubjectCharacter: ZType | string;
-  SubjectCharacterPlayer?: ZType | string;
+  bCharacterNoEvents?: ZType | string;
+  bTargetNoEvents?: ZType | string;
+  bCharacterUs?: ZType | string;
+  bDisabled?: ZType;
+  MissionRoot?: ZType | string;
+  TechPrereq?: ZType | string;
+  SubjectPlayerEnabled?: ZType | string;
+  SubjectCharacter?: ZType | string;
+  SubjectCharacterEnabled?: ZType | string;
   SubjectTarget?: ZType | string;
-  SubjectRelation?: ZType | string;
+  SubjectTargetStart?: ZType | string;
+  SubjectTargetEnabled?: ZType | string;
+  SubjectRelationStart?: ZType | string;
+  SubjectRelationEnabled?: ZType | string;
   aiResultDie: AiResultDie;
-  aiYieldCost?: AiYieldCost;
+  aiYieldCost?: AiResultDie;
+  aiYieldCostOpinion?: AiYieldCostOpinion;
 }
-export interface AiYieldCost {
+export interface AiYieldCostOpinion {
   Pair?: Pair;
 }
 export interface AiResultDie {

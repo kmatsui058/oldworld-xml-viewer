@@ -11,6 +11,10 @@ export interface Entry {
   Name: ZType | string;
   Color: ZType | string;
   iThreshold?: ZType | string;
+  iBirthModifier?: ZType | string;
+  iMissionCostModifier?: ZType | string;
+  iRateModifier?: ZType | string;
+  iStrengthModifier?: ZType | string;
 }
 export interface ZType {
 }

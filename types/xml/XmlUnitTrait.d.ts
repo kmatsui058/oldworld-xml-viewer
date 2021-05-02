@@ -10,10 +10,9 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
-  iRiverAttackModifier?: ZType | string;
-  iUrbanAttackModifier?: ZType | string;
-  iUrbanDefenseModifier?: ZType | string;
-  iAITargetPercent?: ZType | string;
+  iMinAITargetPercent?: ZType | string;
+  iMaxAITargetPercent?: ZType | string;
+  EffectUnit: ZType | string;
 }
 export interface ZType {
 }

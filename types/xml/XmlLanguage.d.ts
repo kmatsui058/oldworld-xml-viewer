@@ -8,10 +8,10 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  Name: ZType | string;
+  Name?: ZType | string;
   zFieldName?: ZType | string;
-  zISOCode: ZType | string;
-  iExportColumn: ZType | string;
+  zISOCode?: ZType | string;
+  iExportColumn?: ZType | string;
   bPublicBuild: ZType | string;
   bDebug?: ZType | string;
   zSingularExpression: ZType | string;

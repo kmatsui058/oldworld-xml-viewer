@@ -13,7 +13,6 @@ export interface Entry {
   EffectUnit?: ZType | string;
   Color: ZType | string;
   iThreshold?: ZType | string;
-  iCharacterOpinion?: ZType | string;
 }
 export interface ZType {
 }

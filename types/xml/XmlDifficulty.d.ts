@@ -9,13 +9,15 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
+  bNoDeclareWar?: ZType | string;
   EffectPlayer: ZType | string;
   aiYieldStockpile: AiYieldStockpile;
   aiYieldThresholdBase: AiYieldStockpile;
-  aiYieldThresholdPer: AiYieldThresholdPer;
+  aiYieldThresholdPer: AiYieldStockpile;
+  aiEffectCityRebelProb?: AiEffectCityRebelProb;
 }
-export interface AiYieldThresholdPer {
-  Pair?: Pair;
+export interface AiEffectCityRebelProb {
+  Pair?: Pair[] | Pair;
 }
 export interface AiYieldStockpile {
   Pair?: Pair[];

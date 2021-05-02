@@ -79,47 +79,27 @@
         "zValue": "TERRAIN_URBAN"
       },
       {
-        "zType": "REBEL_BARBARIANS",
-        "zValue": "BARBARIAN_REBELS"
+        "zType": "WATER_TERRAIN",
+        "zValue": "TERRAIN_WATER"
       },
       {
-        "zType": "ANARCHY_BARBARIANS",
-        "zValue": "BARBARIAN_ANARCHY"
+        "zType": "REBELS_TRIBE",
+        "zValue": "TRIBE_REBELS"
       },
       {
-        "zType": "RAIDERS_BARBARIANS",
-        "zValue": "BARBARIAN_RAIDERS"
+        "zType": "ANARCHY_TRIBE",
+        "zValue": "TRIBE_ANARCHY"
       },
       {
-        "zType": "TRIBE_BARBARIANS",
-        "zValue": "BARBARIAN_TRIBE"
+        "zType": "RAIDERS_TRIBE",
+        "zValue": "TRIBE_RAIDERS"
       },
       {
-        "zType": "GAUL_BARBARIANS",
-        "zValue": "BARBARIAN_GAULS"
+        "zType": "BARBARIANS_TRIBE",
+        "zValue": "TRIBE_BARBARIANS"
       },
       {
-        "zType": "VANDAL_BARBARIANS",
-        "zValue": "BARBARIAN_VANDALS"
-      },
-      {
-        "zType": "DANE_BARBARIANS",
-        "zValue": "BARBARIAN_DANES"
-      },
-      {
-        "zType": "THRACIAN_BARBARIANS",
-        "zValue": "BARBARIAN_THRACIANS"
-      },
-      {
-        "zType": "SCYTHIAN_BARBARIANS",
-        "zValue": "BARBARIAN_SCYTHIANS"
-      },
-      {
-        "zType": "NUMIDIAN_BARBARIANS",
-        "zValue": "BARBARIAN_NUMIDIANS"
-      },
-      {
-        "zType": "BONUS_IMPROVEMENT",
+        "zType": "RUINS_IMPROVEMENT",
         "zValue": "IMPROVEMENT_ANCIENT_RUINS"
       },
       {
@@ -127,16 +107,24 @@
         "zValue": "IMPROVEMENT_CITY_SITE"
       },
       {
-        "zType": "BARBARIAN_IMPROVEMENT",
+        "zType": "TRIBE_IMPROVEMENT",
         "zValue": "IMPROVEMENT_SETTLEMENT_1"
+      },
+      {
+        "zType": "MINOR_CITY_IMPROVEMENT",
+        "zValue": "IMPROVEMENT_MINOR_CITY"
       },
       {
         "zType": "DEFAULT_TURNSTYLE",
         "zValue": "TURNSTYLE_NORMAL"
       },
       {
-        "zType": "DEFAULT_VICTORY",
-        "zValue": "VICTORY_POINTS"
+        "zType": "TEAMS_TURNSTYLE",
+        "zValue": "TURNSTYLE_TEAMS"
+      },
+      {
+        "zType": "SEQUENTIAL_TURNSTYLE",
+        "zValue": "TURNSTYLE_STRICT"
       },
       {
         "zType": "DEFAULT_TURNTIMER_SP",
@@ -147,6 +135,18 @@
         "zValue": "TURNTIMER_FAST"
       },
       {
+        "zType": "DEFAULT_TURNTIMER_PITBOSS",
+        "zValue": "TURNTIMER_NONE"
+      },
+      {
+        "zType": "DEFAULT_TURNSCALE",
+        "zValue": "TURNSCALE_YEAR"
+      },
+      {
+        "zType": "DEFAULT_EVENTLEVEL",
+        "zValue": "EVENTLEVEL_MODERATE"
+      },
+      {
         "zType": "DEFAULT_MORTALITY",
         "zValue": "MORTALITY_STANDARD"
       },
@@ -155,20 +155,28 @@
         "zValue": "NATION_BABYLONIA"
       },
       {
-        "zType": "DEFAULT_BARBARIANLEVEL_SP",
-        "zValue": "BARBARIANLEVEL_NORMAL"
+        "zType": "DEFAULT_OPPONENTLEVEL",
+        "zValue": "OPPONENTLEVEL_NORMAL"
       },
       {
-        "zType": "DEFAULT_BARBARIANLEVEL_MP",
-        "zValue": "BARBARIANLEVEL_NORMAL"
+        "zType": "DEFAULT_TRIBELEVEL_SP",
+        "zValue": "TRIBELEVEL_NORMAL"
       },
       {
-        "zType": "DEFAULT_DEVELOPMENT",
+        "zType": "DEFAULT_TRIBELEVEL_MP",
+        "zValue": "TRIBELEVEL_NORMAL"
+      },
+      {
+        "zType": "DEFAULT_DEVELOPMENT_SP",
         "zValue": "DEVELOPMENT_ESTABLISHED"
       },
       {
+        "zType": "DEFAULT_DEVELOPMENT_MP",
+        "zValue": "DEVELOPMENT_NONE"
+      },
+      {
         "zType": "DEFAULT_DIFFICULTY",
-        "zValue": "DIFFICULTY_ABLE"
+        "zValue": "DIFFICULTY_GOOD"
       },
       {
         "zType": "CUSTOM_DIFFICULTYMODE",
@@ -176,7 +184,7 @@
       },
       {
         "zType": "DEFAULT_DIFFICULTYMODE",
-        "zValue": "DIFFICULTYMODE_ABLE"
+        "zValue": "DIFFICULTYMODE_JUST"
       },
       {
         "zType": "DEFAULT_MAPSIZE",
@@ -189,6 +197,34 @@
       {
         "zType": "SUCCESSIONORDER_LAWCLASS",
         "zValue": "LAWCLASS_ORDER"
+      },
+      {
+        "zType": "CHANCELLOR_COUNCIL",
+        "zValue": "COUNCIL_CHANCELLOR"
+      },
+      {
+        "zType": "SPYMASTER_COUNCIL",
+        "zValue": "COUNCIL_SPYMASTER"
+      },
+      {
+        "zType": "PLAYER_DECLARE_WAR_MISSION",
+        "zValue": "MISSION_PLAYER_DECLARE_WAR"
+      },
+      {
+        "zType": "PLAYER_DECLARE_WAR_HUMAN_MISSION",
+        "zValue": "MISSION_PLAYER_DECLARE_WAR_HUMAN"
+      },
+      {
+        "zType": "TRIBE_DECLARE_WAR_MISSION",
+        "zValue": "MISSION_TRIBE_DECLARE_WAR"
+      },
+      {
+        "zType": "ADOPT_RELIGION_MISSION",
+        "zValue": "MISSION_ADOPT_RELIGION"
+      },
+      {
+        "zType": "PACIFY_CITY_MISSION",
+        "zValue": "MISSION_PACIFY_CITY"
       },
       {
         "zType": "BASE_EFFECTCITY",
@@ -211,12 +247,8 @@
         "zValue": "EFFECTCITY_DAMAGED"
       },
       {
-        "zType": "HOLY_EFFECTCITY",
+        "zType": "HOLY_CITY_EFFECTCITY",
         "zValue": "EFFECTCITY_HOLY_CITY"
-      },
-      {
-        "zType": "FRESH_WATER_EFFECTCITY",
-        "zValue": "EFFECTCITY_FRESH_WATER"
       },
       {
         "zType": "CITIZEN_EFFECTCITY",
@@ -235,16 +267,20 @@
         "zValue": "EFFECTPLAYER_BASE"
       },
       {
-        "zType": "SKIP_SEAT_BONUS",
-        "zValue": "BONUS_SKIP_SEAT"
+        "zType": "FAMILY_SEAT_BONUS",
+        "zValue": "BONUS_FAMILY_SEAT"
       },
       {
         "zType": "FAMILY_FOUND_BONUS",
         "zValue": "BONUS_FAMILY_FOUND"
       },
       {
-        "zType": "BARBARIAN_FOUND_BONUS",
-        "zValue": "BONUS_BARBARIAN_FOUND"
+        "zType": "DISCOVERED_LANDMARK_BONUS",
+        "zValue": "BONUS_DISCOVERED_LANDMARK"
+      },
+      {
+        "zType": "NAMED_LANDMARK_BONUS",
+        "zValue": "BONUS_NAMED_LANDMARK"
       },
       {
         "zType": "FINISHED_AMBITION_BONUS",
@@ -253,6 +289,22 @@
       {
         "zType": "FINISHED_LEGACY_BONUS",
         "zValue": "BONUS_FINISHED_LEGACY"
+      },
+      {
+        "zType": "ABANDONED_AMBITION_BONUS",
+        "zValue": "BONUS_ABANDONED_AMBITION"
+      },
+      {
+        "zType": "FAILED_LEGACY_BONUS",
+        "zValue": "BONUS_FAILED_LEGACY"
+      },
+      {
+        "zType": "FINISHED_QUEST_BONUS",
+        "zValue": "BONUS_FINISHED_QUEST"
+      },
+      {
+        "zType": "FINISHED_HOLY_SITE_BONUS",
+        "zValue": "BONUS_FINISHED_HOLY_SITE"
       },
       {
         "zType": "FINISHED_WONDER_BONUS",
@@ -267,20 +319,36 @@
         "zValue": "BONUS_LEADER_ADOPTS"
       },
       {
+        "zType": "ESTABLISH_THEOLOGY_BONUS",
+        "zValue": "BONUS_ESTABLISH_THEOLOGY"
+      },
+      {
+        "zType": "PURGE_RELIGION_BONUS",
+        "zValue": "BONUS_PURGE_RELIGION"
+      },
+      {
         "zType": "BREAK_PEACE_BONUS",
         "zValue": "BONUS_BREAK_PEACE"
       },
       {
-        "zType": "DECLARE_WAR_BARBARIAN_BONUS",
-        "zValue": "BONUS_DECLARE_WAR_BARBARIAN"
+        "zType": "DECLARE_WAR_TRIBE_BONUS",
+        "zValue": "BONUS_DECLARE_WAR_TRIBE"
       },
       {
         "zType": "DECLARE_WAR_PLAYER_BONUS",
         "zValue": "BONUS_DECLARE_WAR_PLAYER"
       },
       {
+        "zType": "FIRST_LEADER_COGNOMEN",
+        "zValue": "COGNOMEN_FOUNDER"
+      },
+      {
         "zType": "NEW_LEADER_COGNOMEN",
         "zValue": "COGNOMEN_NEW"
+      },
+      {
+        "zType": "DOOMED_TRAIT",
+        "zValue": "TRAIT_DOOMED"
       },
       {
         "zType": "GAY_TRAIT",
@@ -295,16 +363,20 @@
         "zValue": "TRAIT_ADOPTED"
       },
       {
-        "zType": "BYPASSED_TRAIT",
-        "zValue": "TRAIT_BYPASSED_HEIR"
-      },
-      {
         "zType": "ABDICATED_TRAIT",
         "zValue": "TRAIT_ABDICATED"
       },
       {
-        "zType": "SLIGHTED_TRAIT",
-        "zValue": "TRAIT_SLIGHTED"
+        "zType": "MADE_HEIR_RELATIONSHIP",
+        "zValue": "RELATIONSHIP_MADE_HEIR_BY"
+      },
+      {
+        "zType": "BYPASSED_RELATIONSHIP",
+        "zValue": "RELATIONSHIP_BYPASSED_BY"
+      },
+      {
+        "zType": "DIVORCED_RELATIONSHIP",
+        "zValue": "RELATIONSHIP_DIVORCED_BY"
       },
       {
         "zType": "MALE_GENERAL_FORMATION",
@@ -315,12 +387,20 @@
         "zValue": "FORMATION_GENERAL_FEMALE"
       },
       {
+        "zType": "AGENT_RETURN_UNIT",
+        "zValue": "UNIT_SCOUT"
+      },
+      {
         "zType": "SAMPLE_DIFFICULTYMODE",
         "zValue": "DIFFICULTYMODE_STRONG"
       },
       {
-        "zType": "ROLE_PLAYING",
-        "zValue": "PLAYEROPTION_ROLE_PLAYING"
+        "zType": "NO_TUTORIAL",
+        "zValue": "PLAYEROPTION_NO_TUTORIAL"
+      },
+      {
+        "zType": "NO_REPLAY",
+        "zValue": "PLAYEROPTION_NO_REPLAY"
       },
       {
         "zType": "INSTANT_UNIT_MOVEMENT",
@@ -339,8 +419,8 @@
         "zValue": "PLAYEROPTION_MOVE_TO_FATIGUE"
       },
       {
-        "zType": "SHOW_ORDERS_LEFT",
-        "zValue": "PLAYEROPTION_SHOW_ORDERS_LEFT"
+        "zType": "SHOW_ORDERS_COST",
+        "zValue": "PLAYEROPTION_SHOW_ORDERS_COST"
       },
       {
         "zType": "HIDE_MINIMAP",
@@ -351,8 +431,12 @@
         "zValue": "PLAYEROPTION_HIDE_COUNCIL"
       },
       {
-        "zType": "DEBUG_HELP",
-        "zValue": "PLAYEROPTION_DEBUG_HELP"
+        "zType": "MINI_TECH_CARDS",
+        "zValue": "PLAYEROPTION_MINI_TECH_CARDS"
+      },
+      {
+        "zType": "COMPACT_TECH_TREE",
+        "zValue": "PLAYEROPTION_COMPACT_TECH_TREE"
       },
       {
         "zType": "SHOW_SYSTEM_TIME",
@@ -367,6 +451,10 @@
         "zValue": "PLAYEROPTION_FLIP_UNIT_COLORS"
       },
       {
+        "zType": "SHOW_RIVAL_FAMILY_COLORS",
+        "zValue": "PLAYEROPTION_SHOW_RIVAL_FAMILY_COLORS"
+      },
+      {
         "zType": "HIDE_UNIT_MOVEMENT_STEPS",
         "zValue": "PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS"
       },
@@ -379,12 +467,28 @@
         "zValue": "PLAYEROPTION_MUTE_AUDIO"
       },
       {
+        "zType": "AZERTY_KEYBOARD",
+        "zValue": "PLAYEROPTION_AZERTY_KEYBOARD"
+      },
+      {
+        "zType": "DEBUG_HELP",
+        "zValue": "PLAYEROPTION_DEBUG_HELP"
+      },
+      {
+        "zType": "AUTOMATED_COOLDOWN",
+        "zValue": "COOLDOWN_AUTOMATED"
+      },
+      {
         "zType": "PASS_COOLDOWN",
         "zValue": "COOLDOWN_PASS"
       },
       {
         "zType": "SLEEP_COOLDOWN",
         "zValue": "COOLDOWN_SLEEP"
+      },
+      {
+        "zType": "SENTRY_COOLDOWN",
+        "zValue": "COOLDOWN_SENTRY"
       },
       {
         "zType": "UNLIMBERED_COOLDOWN",
@@ -395,12 +499,20 @@
         "zValue": "COOLDOWN_ANCHORED"
       },
       {
+        "zType": "ROUT_COOLDOWN",
+        "zValue": "COOLDOWN_ROUT"
+      },
+      {
         "zType": "ATTACK_COOLDOWN",
         "zValue": "COOLDOWN_ATTACK"
       },
       {
         "zType": "ATTACKED_COOLDOWN",
         "zValue": "COOLDOWN_ATTACKED"
+      },
+      {
+        "zType": "STUNNED_COOLDOWN",
+        "zValue": "COOLDOWN_STUNNED"
       },
       {
         "zType": "BUILDING_COOLDOWN",
@@ -415,8 +527,8 @@
         "zValue": "COOLDOWN_ADDED_URBAN"
       },
       {
-        "zType": "RAISED_IMPROVEMENT_COOLDOWN",
-        "zValue": "COOLDOWN_RAISED_IMPROVEMENT"
+        "zType": "UPGRADED_IMPROVEMENT_COOLDOWN",
+        "zValue": "COOLDOWN_UPGRADED_IMPROVEMENT"
       },
       {
         "zType": "BUY_TILE_COOLDOWN",
@@ -429,6 +541,14 @@
       {
         "zType": "TESTUDO_COOLDOWN",
         "zValue": "COOLDOWN_TESTUDO"
+      },
+      {
+        "zType": "RECRUITED_COOLDOWN",
+        "zValue": "COOLDOWN_RECRUITED"
+      },
+      {
+        "zType": "HIRED_COOLDOWN",
+        "zValue": "COOLDOWN_HIRED"
       },
       {
         "zType": "GIFTED_COOLDOWN",
@@ -467,6 +587,30 @@
         "zValue": "NONE"
       },
       {
+        "zType": "TRADE_COOLDOWN",
+        "zValue": "COOLDOWN_TRADE"
+      },
+      {
+        "zType": "TIME_VICTORY",
+        "zValue": "VICTORY_TIME"
+      },
+      {
+        "zType": "DOUBLE_VICTORY",
+        "zValue": "VICTORY_DOUBLE"
+      },
+      {
+        "zType": "POINTS_VICTORY",
+        "zValue": "VICTORY_POINTS"
+      },
+      {
+        "zType": "CONQUEST_VICTORY",
+        "zValue": "VICTORY_CONQUEST"
+      },
+      {
+        "zType": "AMBITION_VICTORY",
+        "zValue": "VICTORY_AMBITION"
+      },
+      {
         "zType": "DEFAULT_SUCCESSION_GENDER",
         "zValue": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC"
       },
@@ -477,6 +621,10 @@
       {
         "zType": "DEFAULT_MAP_ELEMENT_NAMES",
         "zValue": "MAP_ELEMENT_NAMES_GENERIC"
+      },
+      {
+        "zType": "TEAM_DIPLOMACY",
+        "zValue": "DIPLOMACY_TEAM"
       },
       {
         "zType": "PEACE_DIPLOMACY",
@@ -519,12 +667,28 @@
         "zValue": "SUCCESSIONORDER_SENIORITY"
       },
       {
+        "zType": "RANDOM_SUCCESSIONORDER",
+        "zValue": "SUCCESSIONORDER_RANDOM"
+      },
+      {
+        "zType": "RANDOM_SUCCESSIONGENDER",
+        "zValue": "SUCCESSIONGENDER_RANDOM"
+      },
+      {
+        "zType": "PLAYER_US_SUBJECT",
+        "zValue": "SUBJECT_PLAYER_US"
+      },
+      {
+        "zType": "LEADER_US_SUBJECT",
+        "zValue": "SUBJECT_LEADER_US"
+      },
+      {
         "zType": "PLAYER_SUBJECTCLASS",
         "zValue": "SUBJECTCLASS_PLAYER"
       },
       {
-        "zType": "BARBARIAN_SUBJECTCLASS",
-        "zValue": "SUBJECTCLASS_BARBARIAN"
+        "zType": "TRIBE_SUBJECTCLASS",
+        "zValue": "SUBJECTCLASS_TRIBE"
       },
       {
         "zType": "RELIGION_SUBJECTCLASS",
@@ -533,6 +697,10 @@
       {
         "zType": "FAMILY_SUBJECTCLASS",
         "zValue": "SUBJECTCLASS_FAMILY"
+      },
+      {
+        "zType": "TECH_SUBJECTCLASS",
+        "zValue": "SUBJECTCLASS_TECH"
       },
       {
         "zType": "LAW_SUBJECTCLASS",
@@ -563,6 +731,10 @@
         "zValue": "SUBJECTCLASS_TILE"
       },
       {
+        "zType": "SAME_PLAYER_SUBJECTRELATION",
+        "zValue": "SUBJECTRELATION_PLAYER_SAME"
+      },
+      {
         "zType": "START_GAME_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_START_GAME"
       },
@@ -587,36 +759,44 @@
         "zValue": "EVENTTRIGGER_TECHNOLOGY"
       },
       {
-        "zType": "RELIGION_FOUNDED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_RELIGION_FOUNDED"
+        "zType": "RELIGION_FOUNDED_US_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_RELIGION_FOUNDED_US"
+      },
+      {
+        "zType": "RELIGION_FOUNDED_THEM_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_RELIGION_FOUNDED_THEM"
       },
       {
         "zType": "RELIGION_SPREAD_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_RELIGION_SPREAD"
       },
       {
+        "zType": "RELIGION_REMOVE_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_RELIGION_REMOVE"
+      },
+      {
         "zType": "THEOLOGY_ESTABLISHED_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_THEOLOGY_ESTABLISHED"
       },
       {
-        "zType": "BARBARIAN_CONTACT_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_CONTACT"
+        "zType": "TRIBE_CONTACT_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_CONTACT"
       },
       {
-        "zType": "BARBARIAN_ALLIANCE_OFFER_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_ALLIANCE_OFFER"
+        "zType": "TRIBE_PEACE_OFFER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_PEACE_OFFER"
       },
       {
-        "zType": "BARBARIAN_PEACE_OFFER_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_PEACE_OFFER"
+        "zType": "TRIBE_TRUCE_OFFER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_TRUCE_OFFER"
       },
       {
-        "zType": "BARBARIAN_TRUCE_OFFER_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_TRUCE_OFFER"
+        "zType": "TRIBE_WAR_OFFER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_WAR_OFFER"
       },
       {
-        "zType": "BARBARIAN_WAR_OFFER_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_WAR_OFFER"
+        "zType": "TRIBE_RAID_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_RAID"
       },
       {
         "zType": "PLAYER_CONTACT_EVENTTRIGGER",
@@ -652,11 +832,19 @@
       },
       {
         "zType": "CITY_BREACHED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_CITY_CAPTURED"
+        "zValue": "EVENTTRIGGER_CITY_BREACHED"
+      },
+      {
+        "zType": "CITY_RAZED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_CITY_RAZED"
       },
       {
         "zType": "CITY_CULTURE_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_CITY_CULTURE"
+      },
+      {
+        "zType": "CITY_DISCONTENT_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_CITY_DISCONTENT"
       },
       {
         "zType": "PRODUCTION_PROJECT_EVENTTRIGGER",
@@ -687,8 +875,16 @@
         "zValue": "EVENTTRIGGER_CHOOSE_AMBITION"
       },
       {
-        "zType": "GOAL_FINISHED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_GOAL_FINISHED"
+        "zType": "AMBITION_FINISHED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_AMBITION_FINISHED"
+      },
+      {
+        "zType": "QUEST_FINISHED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_QUEST_FINISHED"
+      },
+      {
+        "zType": "QUEST_FAILED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_QUEST_FAILED"
       },
       {
         "zType": "MISSION_FINISHED_EVENTTRIGGER",
@@ -715,8 +911,8 @@
         "zValue": "EVENTTRIGGER_ADULTHOOD"
       },
       {
-        "zType": "TUTOR_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_TUTOR"
+        "zType": "COURTIER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_COURTIER"
       },
       {
         "zType": "ADOPTED_EVENTTRIGGER",
@@ -739,12 +935,40 @@
         "zValue": "EVENTTRIGGER_SUCCESSION_THEM"
       },
       {
+        "zType": "SUCCESSION_TRIBE_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_SUCCESSION_TRIBE"
+      },
+      {
+        "zType": "UNIT_COMBAT_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_COMBAT"
+      },
+      {
         "zType": "ATTACKED_CITY_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_ATTACKED_CITY"
       },
       {
+        "zType": "CITY_ATTACKED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_CITY_ATTACKED"
+      },
+      {
+        "zType": "UNIT_KILL_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_KILL"
+      },
+      {
+        "zType": "UNIT_CAPTURE_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_CAPTURED"
+      },
+      {
         "zType": "GENERAL_KILL_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_KILL"
+      },
+      {
+        "zType": "GENERAL_ATTACK_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_ATTACK"
+      },
+      {
+        "zType": "GENERAL_DUEL_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_DUEL"
       },
       {
         "zType": "GENERAL_CRITICAL_EVENTTRIGGER",
@@ -753,10 +977,6 @@
       {
         "zType": "GENERAL_INJURY_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_INJURY"
-      },
-      {
-        "zType": "GENERAL_ATTACK_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_GENERAL_ATTACK"
       },
       {
         "zType": "GENERAL_UNIT_KILLED_EVENTTRIGGER",
@@ -779,16 +999,32 @@
         "zValue": "EVENTTRIGGER_RUINS_EXPLORED"
       },
       {
-        "zType": "BARBARIAN_CLEARED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_BARBARIAN_CLEARED"
+        "zType": "LANDMARK_DISCOVERED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_LANDMARK_DISCOVERED"
+      },
+      {
+        "zType": "TRIBE_CLEARED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_CLEARED"
+      },
+      {
+        "zType": "TRIBE_ELIMINATED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_TRIBE_ELIMINATED"
+      },
+      {
+        "zType": "PLAYER_ELIMINATED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_PLAYER_ELIMINATED"
       },
       {
         "zType": "UNIT_SELECTED_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_UNIT_SELECTED"
       },
       {
-        "zType": "UNIT_ON_COOLDOWN_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_UNIT_ON_COOLDOWN"
+        "zType": "UNIT_ATTACK_COOLDOWN_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_ATTACK_COOLDOWN"
+      },
+      {
+        "zType": "UNIT_MOVE_COOLDOWN_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_MOVE_COOLDOWN"
       },
       {
         "zType": "UNIT_IS_FATIGUED_EVENTTRIGGER",
@@ -823,12 +1059,20 @@
         "zValue": "MEMORYFAMILY_OUR_AMBITION"
       },
       {
+        "zType": "OUR_LEGACY_MEMORY",
+        "zValue": "MEMORYFAMILY_OUR_LEGACY"
+      },
+      {
         "zType": "ADOPTED_RELIGION_MEMORY",
         "zValue": "MEMORYPLAYER_ADOPTED_RELIGION"
       },
       {
         "zType": "STARTED_LAW_MEMORY",
         "zValue": "MEMORYPLAYER_STARTED_LAW"
+      },
+      {
+        "zType": "CHOSE_AMBITION_MEMORY",
+        "zValue": "MEMORYPLAYER_CHOSE_AMBITION"
       },
       {
         "zType": "DIVORCE_MEMORY_PLAYER",
@@ -839,10 +1083,6 @@
         "zValue": "MEMORYFAMILY_DIVORCE"
       },
       {
-        "zType": "LEAVE_COUNCIL_MEMORY",
-        "zValue": "MEMORYFAMILY_LEAVE_COUNCIL"
-      },
-      {
         "zType": "BYPASSED_HEIR_MEMORY",
         "zValue": "MEMORYFAMILY_BYPASSED_HEIR"
       },
@@ -851,48 +1091,52 @@
         "zValue": "MEMORYPLAYER_REMOVED_LUXURY"
       },
       {
+        "zType": "REMOVED_LUXURY_MEMORY_TRIBE",
+        "zValue": "MEMORYTRIBE_REMOVED_LUXURY"
+      },
+      {
         "zType": "REMOVED_LUXURY_MEMORY_FAMILY",
         "zValue": "MEMORYFAMILY_REMOVED_LUXURY"
       },
       {
-        "zType": "TRADE_ROUTE_MEMORY",
-        "zValue": "MEMORYPLAYER_TRADE_ROUTE"
+        "zType": "CARAVAN_ARRIVED_MEMORY",
+        "zValue": "MEMORYPLAYER_CARAVAN_ARRIVED"
       },
       {
-        "zType": "BARBARIAN_RAID_MEMORY",
-        "zValue": "MEMORYBARBARIAN_RAID"
+        "zType": "TRIBE_RAID_MEMORY",
+        "zValue": "MEMORYTRIBE_RAID"
       },
       {
-        "zType": "BARBARIAN_PEACE_MEMORY",
-        "zValue": "MEMORYBARBARIAN_PEACE"
+        "zType": "TRIBE_PEACE_MEMORY",
+        "zValue": "MEMORYTRIBE_PEACE"
       },
       {
-        "zType": "BARBARIAN_TRUCE_MEMORY",
-        "zValue": "MEMORYBARBARIAN_TRUCE"
+        "zType": "TRIBE_TRUCE_MEMORY",
+        "zValue": "MEMORYTRIBE_TRUCE"
       },
       {
-        "zType": "BARBARIAN_WAR_MEMORY",
-        "zValue": "MEMORYBARBARIAN_WAR"
+        "zType": "TRIBE_WAR_MEMORY",
+        "zValue": "MEMORYTRIBE_WAR"
       },
       {
-        "zType": "BARBARIAN_OFFER_MEMORY",
-        "zValue": "MEMORYBARBARIAN_OFFER"
+        "zType": "TRIBE_OFFER_MEMORY",
+        "zValue": "MEMORYTRIBE_OFFER"
       },
       {
-        "zType": "BARBARIAN_OFFER_ALL_MEMORY",
-        "zValue": "MEMORYBARBARIAN_OFFER_ALL"
+        "zType": "TRIBE_OFFER_ALL_MEMORY",
+        "zValue": "MEMORYTRIBE_OFFER_ALL"
       },
       {
-        "zType": "BARBARIAN_CONVERT_RELIGION_MEMORY",
-        "zValue": "MEMORYBARBARIAN_CONVERT_RELIGION"
+        "zType": "TRIBE_CONVERT_RELIGION_MEMORY",
+        "zValue": "MEMORYTRIBE_CONVERT_RELIGION"
       },
       {
-        "zType": "BARBARIAN_ATTACKED_UNIT_MEMORY",
-        "zValue": "MEMORYBARBARIAN_ATTACKED_UNIT"
+        "zType": "TRIBE_ATTACKED_UNIT_MEMORY",
+        "zValue": "MEMORYTRIBE_ATTACKED_UNIT"
       },
       {
-        "zType": "BARBARIAN_ATTACKED_SETTLEMENT_MEMORY",
-        "zValue": "MEMORYBARBARIAN_ATTACKED_SETTLEMENT"
+        "zType": "TRIBE_ATTACKED_SETTLEMENT_MEMORY",
+        "zValue": "MEMORYTRIBE_ATTACKED_SETTLEMENT"
       },
       {
         "zType": "PLAYER_PEACE_MEMORY",
@@ -927,8 +1171,24 @@
         "zValue": "MEMORYPLAYER_CAPTURED_CITY"
       },
       {
+        "zType": "PLAYER_POACHED_CITY_MEMORY",
+        "zValue": "MEMORYPLAYER_POACHED_CITY"
+      },
+      {
         "zType": "PLAYER_ATTACKED_ENEMY_MEMORY",
         "zValue": "MEMORYPLAYER_ATTACKED_ENEMY"
+      },
+      {
+        "zType": "PLAYER_GIFTED_CITY_MEMORY",
+        "zValue": "MEMORYPLAYER_GIFTED_CITY"
+      },
+      {
+        "zType": "PLAYER_GIFTED_UNIT_MEMORY",
+        "zValue": "MEMORYPLAYER_GIFTED_UNIT"
+      },
+      {
+        "zType": "PLAYER_GIFTED_YIELD_MEMORY",
+        "zValue": "MEMORYPLAYER_GIFTED_YIELD"
       },
       {
         "zType": "AMBITION_ACHIEVED_STAT",
@@ -939,24 +1199,48 @@
         "zValue": "STAT_LEGACY_ACHIEVED"
       },
       {
-        "zType": "BARBARIAN_CLEARED_STAT",
-        "zValue": "STAT_BARBARIAN_CLEARED"
+        "zType": "TRIBE_CONTACTED_STAT",
+        "zValue": "STAT_TRIBE_CONTACTED"
       },
       {
-        "zType": "BARBARIAN_PEACE_STAT",
-        "zValue": "STAT_BARBARIAN_PEACE"
+        "zType": "TRIBE_CLEARED_STAT",
+        "zValue": "STAT_TRIBE_CLEARED"
       },
       {
-        "zType": "BARBARIAN_ALLIANCE_STAT",
-        "zValue": "STAT_BARBARIAN_ALLIANCE"
+        "zType": "TRIBE_PEACE_STAT",
+        "zValue": "STAT_TRIBE_PEACE"
       },
       {
-        "zType": "BARBARIAN_CONVERSION_STAT",
-        "zValue": "STAT_BARBARIAN_CONVERSION"
+        "zType": "TRIBE_ALLIANCE_STAT",
+        "zValue": "STAT_TRIBE_ALLIANCE"
+      },
+      {
+        "zType": "TRIBE_CONVERSION_STAT",
+        "zValue": "STAT_TRIBE_CONVERSION"
+      },
+      {
+        "zType": "MERCENARIES_HIRED_STAT",
+        "zValue": "STAT_MERCENARIES_HIRED"
+      },
+      {
+        "zType": "MERCENARIES_RECRUITED_STAT",
+        "zValue": "STAT_MERCENARIES_RECRUITED"
+      },
+      {
+        "zType": "TEAM_CONTACTED_STAT",
+        "zValue": "STAT_TEAM_CONTACTED"
       },
       {
         "zType": "TEAM_ALLIANCE_STAT",
         "zValue": "STAT_TEAM_ALLIANCE"
+      },
+      {
+        "zType": "CARAVAN_ARRIVED_STAT",
+        "zValue": "STAT_CARAVAN_ARRIVED"
+      },
+      {
+        "zType": "CAPITAL_CAPTURED_STAT",
+        "zValue": "STAT_CAPITAL_CAPTURED"
       },
       {
         "zType": "CITY_FOUNDED_STAT",
@@ -987,16 +1271,20 @@
         "zValue": "STAT_IMPROVEMENT_REPAIRED"
       },
       {
-        "zType": "NATION_FOUNDED_STAT",
-        "zValue": "STAT_NATION_FOUNDED"
+        "zType": "LANDMARK_DISCOVERED_STAT",
+        "zValue": "STAT_LANDMARK_DISCOVERED"
       },
       {
-        "zType": "PLAYER_ALLIANCE_STAT",
-        "zValue": "STAT_PLAYER_ALLIANCE"
+        "zType": "LANDMARK_NAMED_STAT",
+        "zValue": "STAT_LANDMARK_NAMED"
       },
       {
-        "zType": "RELIGION_FOUNDED_STAT",
-        "zValue": "STAT_RELIGION_FOUNDED"
+        "zType": "LEADER_COUNT_STAT",
+        "zValue": "STAT_LEADER_COUNT"
+      },
+      {
+        "zType": "WORLD_RELIGION_FOUNDED_STAT",
+        "zValue": "STAT_WORLD_RELIGION_FOUNDED"
       },
       {
         "zType": "RELIGION_SPREAD_STAT",
@@ -1007,8 +1295,8 @@
         "zValue": "STAT_RUINS_EXPLORED"
       },
       {
-        "zType": "SPECIALIST_TRAINED_STAT",
-        "zValue": "STAT_SPECIALIST_TRAINED"
+        "zType": "SPECIALIST_PRODUCED_STAT",
+        "zValue": "STAT_SPECIALIST_PRODUCED"
       },
       {
         "zType": "TECH_DISCOVERED_STAT",
@@ -1019,6 +1307,10 @@
         "zValue": "STAT_THEOLOGY_ESTABLISHED"
       },
       {
+        "zType": "TILES_REVEALED_STAT",
+        "zValue": "STAT_TILES_REVEALED"
+      },
+      {
         "zType": "UNIT_TRAINED_STAT",
         "zValue": "STAT_UNIT_TRAINED"
       },
@@ -1027,12 +1319,20 @@
         "zValue": "STAT_UNIT_PROMOTED"
       },
       {
-        "zType": "UNIT_KILLED_STAT",
-        "zValue": "STAT_UNIT_KILLED"
+        "zType": "UNIT_MILITARY_KILLED_STAT",
+        "zValue": "STAT_UNIT_MILITARY_KILLED"
+      },
+      {
+        "zType": "UNIT_MILITARY_KILLED_GENERAL_STAT",
+        "zValue": "STAT_UNIT_MILITARY_KILLED_GENERAL"
       },
       {
         "zType": "UNIT_LOST_STAT",
         "zValue": "STAT_UNIT_LOST"
+      },
+      {
+        "zType": "VEGETATION_REMOVED_STAT",
+        "zValue": "STAT_VEGETATION_REMOVED"
       },
       {
         "zType": "WONDER_FINISHED_STAT",
@@ -1041,6 +1341,26 @@
       {
         "zType": "YEARS_REIGNED_STAT",
         "zValue": "STAT_YEARS_REIGNED"
+      },
+      {
+        "zType": "DEFAULT_BORDER_PATTERN",
+        "zValue": "BORDER_PATTERN_TRIANGLE"
+      },
+      {
+        "zType": "ALLOW_DUPLICATE_NATIONS",
+        "zValue": "TEAMNATION_ALLOW_DUPLICATES"
+      },
+      {
+        "zType": "GAME_UNIQUE_NATIONS",
+        "zValue": "TEAMNATION_GAME_UNIQUE"
+      },
+      {
+        "zType": "TEAM_UNIQUE_NATIONS",
+        "zValue": "TEAMNATION_TEAM_UNIQUE"
+      },
+      {
+        "zType": "BARBARIAN_INVASION_ACHIEVEMENT",
+        "zValue": "ACHIEVEMENT_BARBARIAN_INVASION"
       }
     ]
   }

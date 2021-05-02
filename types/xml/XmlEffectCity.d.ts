@@ -12,11 +12,12 @@ export interface Entry {
   Source?: ZType | string;
   EffectCityUnlock?: ZType | string;
   SourceUnlock?: ZType | string;
-  SourceEffectPlayer?: ZType;
+  SourceEffectPlayer?: ZType | string;
   SourceFamilyClass?: ZType | string;
   SourceCulture?: ZType | string;
   SourceDifficulty?: ZType | string;
   SourceImprovement?: ZType | string;
+  SourceImprovementClass?: ZType | string;
   SourceLaw?: ZType | string;
   SourceNation?: ZType | string;
   SourceOpinionFamily?: ZType | string;
@@ -29,7 +30,9 @@ export interface Entry {
   SourceTrait?: ZType | string;
   SourceUnit?: ZType | string;
   aeSourceImprovements?: AeSourceImprovements;
+  aeSourceProjects?: AeSourceImprovements;
   aeSourceResources?: AeSourceImprovements;
+  CultureBonus?: ZType | string;
   iCityHP?: ZType | string;
   iUnitXP?: ZType | string;
   iUnitLevel?: ZType | string;
@@ -37,46 +40,59 @@ export interface Entry {
   iRangeChange?: ZType | string;
   iRandomPromotions?: ZType | string;
   iStrengthModifier?: ZType | string;
-  iSpecialistCostModifier?: ZType;
+  iImprovementCostModifier?: ZType | string;
+  iAdjacentClassCostModifier?: ZType | string;
+  iSpecialistCostModifier?: ZType | string;
   iSpecialistRuralTrainTimeModifier?: ZType | string;
   iSpecialistUrbanCostModifier?: ZType | string;
   iSpecialistUrbanTrainTimeModifier?: ZType | string;
   iDiscipleTrainTimeModifier?: ZType | string;
+  iHurryDiscontentModifier?: ZType | string;
+  iBuildTurnChange?: ZType | string;
   iUrbanBuildTurnChange?: ZType | string;
   iFamilyOpinion?: ZType | string;
   iRebelProb?: ZType | string;
   bLuxury?: ZType | string;
+  bAutoBuild?: ZType | string;
   bNoHurry?: ZType | string;
   bHurryCivics?: ZType;
   bHurryTraining?: ZType | string;
-  bHurryMoney?: ZType | string;
+  bHurryMoney?: ZType;
   bHurryPopulation?: ZType | string;
+  bHurryOrders?: ZType | string;
   bEnablesGovernor?: ZType | string;
   bAlwaysConnected?: ZType | string;
   bBuyTile?: ZType | string;
+  bNoReligionSpread?: ZType | string;
   bStateReligionImprovements?: ZType | string;
-  aiYieldCultureGrowth?: AiYieldCultureGrowth;
   aiYieldRate?: AiYieldRate;
   aiYieldRatePopulation?: AiYieldRate;
-  aiYieldRateCulture?: AiYieldCultureGrowth;
-  aiYieldRateOpinion?: AiYieldCultureGrowth;
-  aiYieldRateMilitary?: AiYieldCultureGrowth;
-  aiYieldRateSpecialist?: AiYieldCultureGrowth;
-  aiYieldRateReligion?: AiYieldCultureGrowth;
-  aiYieldRateReligionWorld?: AiYieldCultureGrowth;
+  aiYieldRateCulture?: AiYieldRateCulture;
+  aiYieldRateOpinion?: AiYieldRateCulture;
+  aiYieldRateMilitary?: AiYieldRateCulture;
+  aiYieldRateSpecialist?: AiYieldRateCulture;
+  aiYieldRateDefending?: AiYieldRateCulture;
+  aiYieldRateReligion?: AiYieldRateCulture;
+  aiYieldRateHolyCityWorld?: AiYieldRateCulture;
   aiYieldModifier?: AiYieldRate;
-  aiImprovementModifier?: AiYieldRate;
-  aiImprovementRiverModifier?: AiImprovementRiverModifier;
-  aiImprovementClassModifier?: AiImprovementRiverModifier;
-  aiUnitCostModifier?: AiYieldCultureGrowth;
-  aiUnitTrainModifier?: AiYieldCultureGrowth;
-  aiUnitTraitXP?: AiYieldCultureGrowth;
-  aiUnitTraitLevel?: ZType;
-  aiUnitTraitCostModifier?: AiYieldCultureGrowth;
-  aiUnitTraitTrainModifier?: AiYieldCultureGrowth;
-  aiImprovementClassUpgradeTurnChange?: AiYieldCultureGrowth;
+  aiImprovementModifier?: AiImprovementModifier;
+  aiImprovementRiverModifier?: AiYieldRateCulture;
+  aiImprovementClassModifier?: AiYieldRate;
+  aiUnitCostModifier?: AiYieldRateCulture;
+  aiUnitTrainModifier?: AiYieldRateCulture;
+  aiUnitTraitXP?: AiYieldRate;
+  aiUnitTraitLevel?: AiYieldRateCulture;
+  aiUnitTraitCostModifier?: AiYieldRateCulture;
+  aiUnitTraitTrainModifier?: AiYieldRateCulture;
+  aiImprovementClassUpgradeTurnChange?: AiYieldRateCulture;
   abNoImprovementClassMax?: AbNoImprovementClassMax;
-  aeFreePromotion?: AeFreePromotion;
+  abUrbanTerrainValid?: AbNoImprovementClassMax;
+  aeHurryCivics?: ZType;
+  aeHurryTraining?: ZType;
+  aeHurryMoney?: AeHurryMoney;
+  aeHurryPopulation?: ZType;
+  aeHurryOrders?: ZType;
+  aeFreePromotion?: AeHurryMoney;
   aeFreeUnitEffectCity?: AeSourceImprovements;
   aeTraitPromotion?: AeTraitPromotion;
   aaiImprovementClassYield?: AaiImprovementClassYield;
@@ -90,7 +106,7 @@ export interface Pair5 {
   SubPair: SubPair | SubPair[];
 }
 export interface AaiImprovementClassYield {
-  Pair?: Pair4[] | Pair4;
+  Pair?: Pair4;
 }
 export interface Pair4 {
   zIndex: string;
@@ -107,7 +123,7 @@ export interface Pair3 {
   zIndex: string;
   zValue: string;
 }
-export interface AeFreePromotion {
+export interface AeHurryMoney {
   zValue?: string;
 }
 export interface AbNoImprovementClassMax {
@@ -117,14 +133,14 @@ export interface Pair2 {
   zIndex: string;
   bValue: string;
 }
-export interface AiImprovementRiverModifier {
+export interface AiImprovementModifier {
   Pair?: Pair[];
+}
+export interface AiYieldRateCulture {
+  Pair?: Pair;
 }
 export interface AiYieldRate {
   Pair?: Pair[] | Pair;
-}
-export interface AiYieldCultureGrowth {
-  Pair?: Pair;
 }
 export interface Pair {
   zIndex: string;

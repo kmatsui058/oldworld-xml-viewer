@@ -21,21 +21,14 @@
         "bOff": {
           
         },
-        "bNoCycling": {
-          
-        },
         "bDynamic": {
-          
-        },
-        "bCanEndTurn": {
           
         }
       },
       {
         "zType": "TURNTIMER_NONE",
         "zName": "None",
-        "bOff": "1",
-        "bCanEndTurn": "1"
+        "bOff": "1"
       },
       {
         "zType": "TURNTIMER_24_HOUR",
@@ -73,9 +66,7 @@
         "iBase": "60",
         "iPerCity": "12",
         "iPerUnit": "4",
-        "bNoCycling": "1",
-        "bDynamic": "1",
-        "bCanEndTurn": "1"
+        "bDynamic": "1"
       },
       {
         "zType": "TURNTIMER_MEDIUM",
@@ -83,9 +74,7 @@
         "iBase": "45",
         "iPerCity": "9",
         "iPerUnit": "3",
-        "bNoCycling": "1",
-        "bDynamic": "1",
-        "bCanEndTurn": "1"
+        "bDynamic": "1"
       },
       {
         "zType": "TURNTIMER_FAST",
@@ -93,9 +82,7 @@
         "iBase": "30",
         "iPerCity": "6",
         "iPerUnit": "2",
-        "bNoCycling": "1",
-        "bDynamic": "1",
-        "bCanEndTurn": "1"
+        "bDynamic": "1"
       }
     ]
   }

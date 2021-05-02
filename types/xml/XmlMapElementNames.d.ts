@@ -8,23 +8,23 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  azVolcanoNames: AzVolcanoNames;
-  azMountainRangeNames: AzVolcanoNames;
+  azVolcanoNames?: AzVolcanoNames;
+  azMountainRangeNames: AzMountainRangeNames;
   azPeakNames: AzVolcanoNames;
   azRiverNames: AzVolcanoNames;
-  azForestNames: AzVolcanoNames;
-  azHeathNames: AzVolcanoNames;
-  azPlainNames: AzVolcanoNames;
-  azDesertNames: AzVolcanoNames;
+  azForestNames?: AzMountainRangeNames;
+  azHeathNames?: AzMountainRangeNames;
+  azPlainNames: AzMountainRangeNames;
+  azDesertNames?: AzMountainRangeNames;
   azPlateauNames: AzVolcanoNames;
-  azValleyNames: AzVolcanoNames;
-  azOceanNames: AzOceanNames;
+  azValleyNames?: AzMountainRangeNames;
+  azOceanNames?: AzMountainRangeNames;
   azSeaNames: AzVolcanoNames;
-  azBayNames: AzVolcanoNames;
+  azBayNames: AzMountainRangeNames;
   azLakeNames: AzVolcanoNames;
   azIslandNames: AzVolcanoNames;
 }
-export interface AzOceanNames {
+export interface AzMountainRangeNames {
   zValue?: string[] | string;
 }
 export interface AzVolcanoNames {

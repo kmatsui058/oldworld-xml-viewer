@@ -23,6 +23,10 @@
         "English": "Infantry"
       },
       {
+        "zType": "TEXT_UNITTRAIT_POLEARM",
+        "English": "Polearm"
+      },
+      {
         "zType": "TEXT_UNITTRAIT_MOUNTED",
         "English": "Mounted"
       },

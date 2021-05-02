@@ -49,6 +49,11 @@
         "zHelp": "Only Females descendants can inherit",
         "bSingleGender": "1",
         "Gender": "GENDER_FEMALE"
+      },
+      {
+        "zType": "SUCCESSIONGENDER_RANDOM",
+        "zName": "Random",
+        "zHelp": "Each player follows a random, potentially different, succession gender"
       }
     ]
   }

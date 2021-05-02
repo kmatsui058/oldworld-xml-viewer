@@ -15,10 +15,12 @@ export interface Entry {
   zAudioSelectionType: ZType | string;
   zAudioMovementType: ZType | string;
   zAudioAttackType: ZType | string;
+  zAudioDamagedByProjectileType: ZType | string;
   azGenderIconName?: ZType;
   azGenderPortraitName?: ZType;
   azBarbarianPortraitName?: AzBarbarianPortraitName;
   aeFormations: AeFormations;
+  Achievement?: ZType | string;
   UnitCycle: ZType | string;
   TechPrereq?: ZType | string;
   NationPrereq?: ZType | string;
@@ -43,16 +45,18 @@ export interface Entry {
   iProductionPer?: ZType | string;
   iPopulationCost?: ZType;
   iStartFirst?: ZType | string;
-  iStartCity?: ZType | string;
-  iStartCityAI?: ZType | string;
-  iStartDeveloped?: ZType | string;
   fAttackDuration?: ZType | string;
+  fAnimNormalMoveDuration?: ZType | string;
+  fAnimNormalMoveSpeed?: ZType | string;
+  fAnimIntermediateMoveDuration?: ZType | string;
+  fAnimIntermediateMoveSpeed?: ZType | string;
+  fAnimFastMoveDuration?: ZType | string;
+  fAnimFastMoveSpeed?: ZType | string;
   bWater?: ZType | string;
   bAmphibious?: ZType | string;
   bTerritoryWater?: ZType | string;
-  bReveal?: ZType | string;
   bMelee?: ZType | string;
-  bOutsideConsumption?: ZType | string;
+  bRangeFlat?: ZType | string;
   bOutsideOpinion?: ZType | string;
   bZOC?: ZType | string;
   bIgnoreZOC?: ZType | string;
@@ -65,49 +69,59 @@ export interface Entry {
   bFound?: ZType | string;
   bHarvest?: ZType | string;
   bBuild?: ZType | string;
-  bBuyTile?: ZType | string;
-  bTrade?: ZType | string;
+  bAgent?: ZType | string;
+  bCaravan?: ZType | string;
   bTheology?: ZType | string;
   bReligious?: ZType | string;
   bPromote?: ZType | string;
   bGeneral?: ZType | string;
   bBarbCity?: ZType | string;
-  bNoHurry?: ZType | string;
+  bNoHurry?: ZType;
+  aiStartDifficulty?: AiStartDifficulty;
   aiUnitTraitModifier?: AiUnitTraitModifier;
   aiUnitTraitModifierAttack?: AiUnitTraitModifier;
   aiUnitTraitModifierDefense?: AiUnitTraitModifier;
   aiUnitTraitModifierMelee?: AiUnitTraitModifier;
-  aiYieldCost?: AiYieldCost;
-  aiYieldConsumption?: AiYieldCost;
-  aiAttackValue?: AiUnitTraitModifier;
-  aiAttackPercent?: AiUnitTraitModifier;
-  aeObsoleteTech?: AeFormations;
-  aeUpgradeUnit?: AeFormations;
-  aeUnitTrait?: AeFormations;
-  aeEffectUnit?: AeEffectUnit;
-  aeRemoveVegetation?: AeRemoveVegetation;
+  aiYieldCost?: AiStartDifficulty;
+  aiYieldConsumption?: AiStartDifficulty;
+  aiAttackValue?: AiStartDifficulty;
+  aiAttackPercent?: AiStartDifficulty;
+  aeObsoleteTech?: AeObsoleteTech;
+  aeUpgradeUnit?: AeObsoleteTech;
+  aeUnitTrait: AeObsoleteTech;
+  aeEffectUnit?: AeObsoleteTech;
+  aeRemoveVegetation?: AeFormations;
+  aaiImprovementYieldRate?: AaiImprovementYieldRate;
 }
-export interface AeRemoveVegetation {
-  zValue?: string[];
+export interface AaiImprovementYieldRate {
+  Pair?: Pair3[];
 }
-export interface AeEffectUnit {
-  zValue?: string;
+export interface Pair3 {
+  zIndex: string;
+  SubPair: SubPair;
 }
-export interface AiYieldCost {
-  Pair?: Pair2[] | Pair2;
+export interface SubPair {
+  zSubIndex: string;
+  iValue: string;
+}
+export interface AeObsoleteTech {
+  zValue?: string[] | string;
 }
 export interface AiUnitTraitModifier {
   Pair?: Pair2;
+}
+export interface AiStartDifficulty {
+  Pair?: Pair2[] | Pair2;
 }
 export interface Pair2 {
   zIndex: string;
   iValue: string;
 }
 export interface AeFormations {
-  zValue?: string[] | string;
+  zValue?: string[];
 }
 export interface AzBarbarianPortraitName {
-  Pair?: Pair[];
+  Pair?: Pair[] | Pair;
 }
 export interface Pair {
   zIndex: string;

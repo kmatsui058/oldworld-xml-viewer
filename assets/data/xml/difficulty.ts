@@ -9,6 +9,9 @@
         "zName": {
           
         },
+        "bNoDeclareWar": {
+          
+        },
         "EffectPlayer": {
           
         },
@@ -20,11 +23,15 @@
         },
         "aiYieldThresholdPer": {
           
+        },
+        "aiEffectCityRebelProb": {
+          
         }
       },
       {
         "zType": "DIFFICULTY_ABLE",
         "zName": "The Able",
+        "bNoDeclareWar": "1",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_ABLE",
         "aiYieldStockpile": {
           "Pair": [
@@ -71,10 +78,16 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
         }
       },
       {
@@ -126,10 +139,16 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
         }
       },
       {
@@ -181,10 +200,16 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
         }
       },
       {
@@ -236,10 +261,16 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
         }
       },
       {
@@ -291,10 +322,16 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
         }
       },
       {
@@ -346,9 +383,21 @@
           ]
         },
         "aiYieldThresholdPer": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
+        },
+        "aiEffectCityRebelProb": {
           "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
+            "zIndex": "EFFECTCITY_OPINIONFAMILY_FURIOUS",
+            "iValue": "5"
           }
         }
       },
@@ -401,10 +450,28 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
+        },
+        "aiEffectCityRebelProb": {
+          "Pair": [
+            {
+              "zIndex": "EFFECTCITY_OPINIONFAMILY_FURIOUS",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "EFFECTCITY_OPINIONFAMILY_ANGRY",
+              "iValue": "5"
+            }
+          ]
         }
       },
       {
@@ -456,10 +523,32 @@
           ]
         },
         "aiYieldThresholdPer": {
-          "Pair": {
-            "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "10"
+            }
+          ]
+        },
+        "aiEffectCityRebelProb": {
+          "Pair": [
+            {
+              "zIndex": "EFFECTCITY_OPINIONFAMILY_FURIOUS",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "EFFECTCITY_OPINIONFAMILY_ANGRY",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "EFFECTCITY_OPINIONFAMILY_UPSET",
+              "iValue": "5"
+            }
+          ]
         }
       }
     ]

@@ -67,6 +67,14 @@
         "zClosing": {
           
         }
+      },
+      {
+        "zType": "MARKUP_BREAK",
+        "zTag": "br",
+        "zOpening": "<br>",
+        "zClosing": {
+          
+        }
       }
     ]
   }

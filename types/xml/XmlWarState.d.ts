@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
   iThreshold?: ZType | string;
+  iTruceModifier?: ZType | string;
 }
 export interface ZType {
 }

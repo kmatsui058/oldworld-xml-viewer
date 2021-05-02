@@ -9,7 +9,8 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
-  PromotionPrereq: ZType | string;
+  PromotionPrereq?: ZType | string;
+  NationPrereq?: ZType;
   EffectUnit: ZType | string;
   bPriority?: ZType | string;
   bUpgrade?: ZType | string;

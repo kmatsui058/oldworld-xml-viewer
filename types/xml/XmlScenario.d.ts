@@ -9,17 +9,27 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
-  zMapFile: ZType | string;
-  zMapScript: ZType | string;
-  Nation: ZType | string;
-  abOpponents?: AbOpponents;
-  abBarbarians: AbBarbarians;
+  zSubTitle?: ZType;
+  zIcon?: ZType;
+  zMapFile?: ZType | string;
+  bAllowMap?: ZType | string;
+  zMapScript?: ZType;
+  zModName: ZType | string;
+  zAchievement?: ZType | string;
+  bContinue?: ZType | string;
+  Prereq?: ZType | string;
+  Nation?: ZType | string;
+  abOpponents?: ZType;
+  abTribes?: ZType;
+  abOptionEnabled?: ZType;
+  abOptionValid?: AbOptionValid;
+  azParametersInvalid?: AzParametersInvalid;
 }
-export interface AbBarbarians {
+export interface AzParametersInvalid {
+  zValue?: string[];
+}
+export interface AbOptionValid {
   Pair?: Pair[];
-}
-export interface AbOpponents {
-  Pair?: Pair | Pair[];
 }
 export interface Pair {
   zIndex: string;

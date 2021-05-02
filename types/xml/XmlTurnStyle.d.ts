@@ -13,8 +13,8 @@ export interface Entry {
   iTimeModifier?: ZType | string;
   iCombatModifier: ZType | string;
   bSimultaneous?: ZType | string;
-  bCanEndTurn?: ZType | string;
-  bBarbSplit?: ZType | string;
+  bTeamSplit?: ZType | string;
+  bTribeSplit?: ZType | string;
   bNoCooldown?: ZType | string;
   bNoBuild?: ZType | string;
   bNoMilitary?: ZType | string;

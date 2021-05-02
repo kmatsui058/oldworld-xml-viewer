@@ -411,6 +411,10 @@
         "zName": "Abdosir"
       },
       {
+        "zType": "NAME_ACHERBAS",
+        "zName": "Acherbas"
+      },
+      {
         "zType": "NAME_ADHERBAL",
         "zName": "Adherbal"
       },
@@ -429,6 +433,10 @@
       {
         "zType": "NAME_BAALHANNO",
         "zName": "Baalhanno"
+      },
+      {
+        "zType": "NAME_BAELBAD",
+        "zName": "Baelbad"
       },
       {
         "zType": "NAME_BODASHTART",
@@ -451,6 +459,10 @@
         "zName": "Eshmunazar"
       },
       {
+        "zType": "NAME_FEROAN",
+        "zName": "Feroan"
+      },
+      {
         "zType": "NAME_GISCO",
         "zName": "Gisco"
       },
@@ -471,12 +483,20 @@
         "zName": "Hasdrubal"
       },
       {
+        "zType": "NAME_HISHMAT",
+        "zName": "Hishmat"
+      },
+      {
         "zType": "NAME_HIMILCO",
         "zName": "Himilco"
       },
       {
         "zType": "NAME_HIRAM",
         "zName": "Hiram"
+      },
+      {
+        "zType": "NAME_IBOHAM",
+        "zName": "Iboham"
       },
       {
         "zType": "NAME_MAGO",
@@ -495,8 +515,36 @@
         "zName": "Mattanbaal"
       },
       {
+        "zType": "NAME_MELAK",
+        "zName": "Melak"
+      },
+      {
+        "zType": "NAME_NAVOEL",
+        "zName": "Navoel"
+      },
+      {
         "zType": "NAME_OZMELEK",
         "zName": "Ozmelek"
+      },
+      {
+        "zType": "NAME_PYGMALION",
+        "zName": "Pygmalion"
+      },
+      {
+        "zType": "NAME_QAMR",
+        "zName": "Qamr"
+      },
+      {
+        "zType": "NAME_QODMUSH",
+        "zName": "Qodmush"
+      },
+      {
+        "zType": "NAME_RABIH",
+        "zName": "Rabih"
+      },
+      {
+        "zType": "NAME_SHADA",
+        "zName": "Shada"
       },
       {
         "zType": "NAME_YUTPAN",
@@ -519,6 +567,10 @@
         "zName": "Amatmilik"
       },
       {
+        "zType": "NAME_ANBAR",
+        "zName": "Anbar"
+      },
+      {
         "zType": "NAME_ARISHAT",
         "zName": "Arishat"
       },
@@ -529,6 +581,10 @@
       {
         "zType": "NAME_ASHDANAT",
         "zName": "Ashdanat"
+      },
+      {
+        "zType": "NAME_ASHTARTE",
+        "zName": "Ashtarte"
       },
       {
         "zType": "NAME_BAALZEBEL",
@@ -551,8 +607,12 @@
         "zName": "Dido"
       },
       {
-        "zType": "NAME_ELISSA",
-        "zName": "Elissa"
+        "zType": "NAME_ELISSAR",
+        "zName": "Elissar"
+      },
+      {
+        "zType": "NAME_FAIRUZ",
+        "zName": "Fairuz"
       },
       {
         "zType": "NAME_HANBI",
@@ -575,8 +635,20 @@
         "zName": "Mutunbaal"
       },
       {
+        "zType": "NAME_NASMA",
+        "zName": "Nasma"
+      },
+      {
+        "zType": "NAME_OTR",
+        "zName": "Otr"
+      },
+      {
         "zType": "NAME_SAPANBAAL",
         "zName": "Sapanbaal"
+      },
+      {
+        "zType": "NAME_SHAMSHYE",
+        "zName": "Shamshye"
       },
       {
         "zType": "NAME_SOPHONISBA",
@@ -599,8 +671,28 @@
         "zName": "Umashtart"
       },
       {
+        "zType": "NAME_YASMIN",
+        "zName": "Yasmin"
+      },
+      {
         "zType": "NAME_YZBAAL",
         "zName": "Yzbaal"
+      },
+      {
+        "zType": "NAME_ZANBAK",
+        "zName": "Zanbak"
+      },
+      {
+        "zType": "NAME_ZOHUR",
+        "zName": "Zohur"
+      },
+      {
+        "zType": "NAME_ZMORROD",
+        "zName": "Zmorrod"
+      },
+      {
+        "zType": "NAME_ZYARA",
+        "zName": "Zyara"
       },
       {
         "zType": "NAME_ZYABQOT",
@@ -699,6 +791,10 @@
         "zName": "Seti"
       },
       {
+        "zType": "NAME_THUTMOSE",
+        "zName": "Thutmose"
+      },
+      {
         "zType": "NAME_TUTANKHAMUN",
         "zName": "Tutankhamun"
       },
@@ -729,6 +825,10 @@
       {
         "zType": "NAME_IPUT",
         "zName": "Iput"
+      },
+      {
+        "zType": "NAME_ISIS",
+        "zName": "Isis"
       },
       {
         "zType": "NAME_KHENUT",
@@ -811,8 +911,16 @@
         "zName": "Udjebten"
       },
       {
+        "zType": "NAME_AEACIDES",
+        "zName": "Aeacides"
+      },
+      {
         "zType": "NAME_AGIS",
         "zName": "Agis"
+      },
+      {
+        "zType": "NAME_ALCETAS",
+        "zName": "Alcetas"
       },
       {
         "zType": "NAME_ALCIBIADES",
@@ -835,16 +943,48 @@
         "zName": "Antipater"
       },
       {
-        "zType": "NAME_CASSANDER",
-        "zName": "Cimon"
+        "zType": "NAME_ARISTANDER",
+        "zName": "Aristander"
       },
       {
-        "zType": "NAME_CIMON",
+        "zType": "NAME_ARYBBAS",
+        "zName": "Arybbas"
+      },
+      {
+        "zType": "NAME_ARYMBAS",
+        "zName": "Arymbas"
+      },
+      {
+        "zType": "NAME_ATTALUS",
+        "zName": "Attalus"
+      },
+      {
+        "zType": "NAME_BALACRUS",
+        "zName": "Balacrus"
+      },
+      {
+        "zType": "NAME_BARDYLIS",
+        "zName": "Bardylis"
+      },
+      {
+        "zType": "NAME_CASSANDER",
         "zName": "Cassander"
       },
       {
-        "zType": "NAME_CLEISTHENES",
+        "zType": "NAME_CHRYSEIS",
+        "zName": "Chryseis"
+      },
+      {
+        "zType": "NAME_CIMON",
         "zName": "Cimon"
+      },
+      {
+        "zType": "NAME_CLEISTHENES",
+        "zName": "Cleisthenes"
+      },
+      {
+        "zType": "NAME_CLEITARCHUS",
+        "zName": "Cleitarchus"
       },
       {
         "zType": "NAME_CLEOMENES",
@@ -855,28 +995,68 @@
         "zName": "Craterus"
       },
       {
+        "zType": "NAME_DERDAS",
+        "zName": "Derdas"
+      },
+      {
         "zType": "NAME_DEMETRIUS",
         "zName": "Demetrius"
+      },
+      {
+        "zType": "NAME_DIODORUS",
+        "zName": "Diodorus"
+      },
+      {
+        "zType": "NAME_HEPHAESTION",
+        "zName": "Hephaestion"
       },
       {
         "zType": "NAME_HIPPIAS",
         "zName": "Hippias"
       },
       {
+        "zType": "NAME_HIPPOSTRATUS",
+        "zName": "Hippostratus"
+      },
+      {
         "zType": "NAME_LEONIDAS",
         "zName": "Leonidas"
+      },
+      {
+        "zType": "NAME_LEONNATUS",
+        "zName": "Leonnatus"
       },
       {
         "zType": "NAME_LYSANDER",
         "zName": "Lysander"
       },
       {
+        "zType": "NAME_LYSIMACHUS",
+        "zName": "Lysimachus"
+      },
+      {
+        "zType": "NAME_MACHATAS",
+        "zName": "Machatas"
+      },
+      {
+        "zType": "NAME_MELEAGER",
+        "zName": "Meleager"
+      },
+      {
         "zType": "NAME_MILTIADES",
         "zName": "Miltiades"
       },
       {
+        "zType": "NAME_NEOPTLEMUS",
+        "zName": "Neoptlemus"
+      },
+      {
         "zType": "NAME_NICIAS",
         "zName": "Nicias"
+      },
+      {
+        "zType": "NAME_ORESTES",
+        "zName": "Orestes"
       },
       {
         "zType": "NAME_PARMENIO",
@@ -885,6 +1065,18 @@
       {
         "zType": "NAME_PAUSANIAS",
         "zName": "Pausanias"
+      },
+      {
+        "zType": "NAME_PEITHON",
+        "zName": "Peithon"
+      },
+      {
+        "zType": "NAME_PELOPIDAS",
+        "zName": "Pelopidas"
+      },
+      {
+        "zType": "NAME_PERDICCAS",
+        "zName": "Perdiccas"
       },
       {
         "zType": "NAME_PERIANDER",
@@ -899,12 +1091,28 @@
         "zName": "Perseus"
       },
       {
+        "zType": "NAME_PHILOTAS",
+        "zName": "Philotas"
+      },
+      {
+        "zType": "NAME_POLYPERCHON",
+        "zName": "Polyperchon"
+      },
+      {
         "zType": "NAME_PHILIP",
         "zName": "Philip"
       },
       {
         "zType": "NAME_PYRRHUS",
         "zName": "Pyrrhus"
+      },
+      {
+        "zType": "NAME_SELEUCUS",
+        "zName": "Seleucus"
+      },
+      {
+        "zType": "NAME_SOPOLIS",
+        "zName": "Sopolis"
       },
       {
         "zType": "NAME_THEMISTOCLES",
@@ -923,6 +1131,10 @@
         "zName": "Arete"
       },
       {
+        "zType": "NAME_ARSINOE",
+        "zName": "Arsinoe"
+      },
+      {
         "zType": "NAME_ARTEMISIA",
         "zName": "Artemisia"
       },
@@ -931,12 +1143,24 @@
         "zName": "Aspasia"
       },
       {
+        "zType": "NAME_AUDATA",
+        "zName": "Audata"
+      },
+      {
         "zType": "NAME_BERENICE",
         "zName": "Berenice"
       },
       {
+        "zType": "NAME_BILISTICHE",
+        "zName": "Bilistiche"
+      },
+      {
         "zType": "NAME_CHILONIS",
         "zName": "Chilonis"
+      },
+      {
+        "zType": "NAME_CYNANE",
+        "zName": "Cynane"
       },
       {
         "zType": "NAME_DEIDAMIA",
@@ -975,8 +1199,32 @@
         "zName": "Laodice"
       },
       {
+        "zType": "NAME_LANASSA",
+        "zName": "Lanassa"
+      },
+      {
+        "zType": "NAME_LANIKE",
+        "zName": "Lanike"
+      },
+      {
         "zType": "NAME_METRODORA",
         "zName": "Metrodora"
+      },
+      {
+        "zType": "NAME_MORALIA",
+        "zName": "Moralia"
+      },
+      {
+        "zType": "NAME_MYRTALE",
+        "zName": "Myrtale"
+      },
+      {
+        "zType": "NAME_NICAEA",
+        "zName": "Nicaea"
+      },
+      {
+        "zType": "NAME_NICASIPOLIS",
+        "zName": "Nicasipolis"
       },
       {
         "zType": "NAME_OLYMPIAS",
@@ -987,8 +1235,24 @@
         "zName": "Pheretima"
       },
       {
+        "zType": "NAME_PHILA",
+        "zName": "Phila"
+      },
+      {
         "zType": "NAME_PHILINNA",
         "zName": "Philinna"
+      },
+      {
+        "zType": "NAME_PHTHIA",
+        "zName": "Phthia"
+      },
+      {
+        "zType": "NAME_POLYCRATIA",
+        "zName": "Polycratia"
+      },
+      {
+        "zType": "NAME_POLYXENA",
+        "zName": "Polyxena"
       },
       {
         "zType": "NAME_STRATONICE",
@@ -1027,6 +1291,14 @@
         "zName": "Artaxerxes"
       },
       {
+        "zType": "NAME_ASTYAGES",
+        "zName": "Astyages"
+      },
+      {
+        "zType": "NAME_ARUKU",
+        "zName": "Aruku"
+      },
+      {
         "zType": "NAME_BAHRAM",
         "zName": "Bahram"
       },
@@ -1045,6 +1317,10 @@
       {
         "zType": "NAME_DARIUS",
         "zName": "Darius"
+      },
+      {
+        "zType": "NAME_HARPAGUS",
+        "zName": "Harpagus"
       },
       {
         "zType": "NAME_HORMIZD",
@@ -1079,12 +1355,20 @@
         "zName": "Oxathres"
       },
       {
+        "zType": "NAME_PHARNASPES",
+        "zName": "Pharnaspes"
+      },
+      {
         "zType": "NAME_PHRAATES",
         "zName": "Phraates"
       },
       {
         "zType": "NAME_SHAPUR",
         "zName": "Shapur"
+      },
+      {
+        "zType": "NAME_SMERDIS",
+        "zName": "Smerdis"
       },
       {
         "zType": "NAME_SUKHRA",
@@ -1129,6 +1413,10 @@
       {
         "zType": "NAME_ARTAZOSTRE",
         "zName": "Artazostre"
+      },
+      {
+        "zType": "NAME_ARTYSTONE",
+        "zName": "Artystone"
       },
       {
         "zType": "NAME_ASTAR",
@@ -1183,12 +1471,16 @@
         "zName": "Parmida"
       },
       {
+        "zType": "NAME_PARMYS",
+        "zName": "Parmys"
+      },
+      {
         "zType": "NAME_PARYSATIS",
         "zName": "Parysatis"
       },
       {
-        "zType": "NAME_ROXANE",
-        "zName": "Roxane"
+        "zType": "NAME_ROXANA",
+        "zName": "Roxana"
       },
       {
         "zType": "NAME_SHIRIN",
@@ -1223,7 +1515,7 @@
         "zName": "Brutus"
       },
       {
-        "zType": "NAME_CASSIUS",
+        "zType": "NAME_VAULTING",
         "zName": "Cassius"
       },
       {
@@ -1831,6 +2123,10 @@
         "zName": "Rorik"
       },
       {
+        "zType": "NAME_SOREN",
+        "zName": "Soren"
+      },
+      {
         "zType": "NAME_SWEYN",
         "zName": "Sweyn"
       },
@@ -2432,7 +2728,7 @@
       },
       {
         "zType": "NAME_TUTOR_ARISTOTLE",
-        "zName": "Artistotle"
+        "zName": "Aristotle"
       },
       {
         "zType": "NAME_TUTOR_PYTHAGORAS",
@@ -2499,8 +2795,48 @@
         "zName": "Kartir"
       },
       {
-        "zType": "NAME_MOONFACE",
-        "zName": "Moonface"
+        "zType": "NAME_PIEFACE",
+        "zName": "Pieface"
+      },
+      {
+        "zType": "NAME_CIMON_THE_FOREIGNER",
+        "zName": "Cimon"
+      },
+      {
+        "zType": "NAME_CONFUCIUS",
+        "zName": "Confucius"
+      },
+      {
+        "zType": "NAME_BOUDICEA",
+        "zName": "Boudicea"
+      },
+      {
+        "zType": "NAME_EPICTETUS",
+        "zName": "Epictetus"
+      },
+      {
+        "zType": "NAME_ZENOBIA",
+        "zName": "Zenobia"
+      },
+      {
+        "zType": "NAME_THE_ORPHAN_EATER",
+        "zName": "The Orphan Eater"
+      },
+      {
+        "zType": "NAME_PROPHET",
+        "zName": "The Prophet"
+      },
+      {
+        "zType": "NAME_SEER",
+        "zName": "The Seer"
+      },
+      {
+        "zType": "NAME_INCITATUS",
+        "zName": "Incitatus"
+      },
+      {
+        "zType": "NAME_DIEGYLIS",
+        "zName": "Diegylis"
       }
     ]
   }

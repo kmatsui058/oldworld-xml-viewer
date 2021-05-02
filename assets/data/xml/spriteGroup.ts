@@ -15,17 +15,60 @@
         "aeSpriteSheets": {
           "zValue": [
             "ASSET_SPRITE_SHEET_HUD_ICONS",
-            "ASSET_SPRITE_SHEET_UNIT_ACTIONS",
             "ASSET_SPRITE_SHEET_TOOL_ICONS",
+            "ASSET_SPRITE_SHEET_NOTIFICATION_BUTTON",
             "ASSET_SPRITE_SHEET_SHINE_ATLAS",
-            "ASSET_SPRITE_SHEET_FULLSCREEN_ATLAS"
+            "ASSET_SPRITE_SHEET_HUD_ATLAS_2",
+            "ASSET_SPRITE_SHEET_HUD_TechTree"
           ]
+        }
+      },
+      {
+        "zType": "SPRITE_GROUP_CULTURE_ICONS",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_CULTURE_LEVEL_ICONS"
         }
       },
       {
         "zType": "SPRITE_GROUP_GOODS_AND_RESOURCE_ICONS",
         "aeSpriteSheets": {
           "zValue": "ASSET_SPRITE_SHEET_RESOURCES"
+        }
+      },
+      {
+        "zType": "SPRITE_GROUP_3D_ICONS",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_HUD_3D_ATLAS"
+        }
+      },
+      {
+        "zType": "SPRITE_City-Circle",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_City-Circle"
+        }
+      },
+      {
+        "zType": "SPRITE_GuitarPickUp",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_GuitarPickUp"
+        }
+      },
+      {
+        "zType": "SPRITE_research-bar",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_research-bar"
+        }
+      },
+      {
+        "zType": "SPRITE_GuitarPickDown",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_GuitarPickDown"
+        }
+      },
+      {
+        "zType": "SPRITE_GuitarPickLeft",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_GuitarPickLeft"
         }
       },
       {
@@ -56,15 +99,9 @@
         }
       },
       {
-        "zType": "SPRITE_GROUP_NATION_ICONS",
+        "zType": "SPRITE_GROUP_UNIT_SHAPES",
         "aeSpriteSheets": {
-          "zValue": "ASSET_SPRITE_SHEET_NATION_ATTACKPREVIEWS"
-        }
-      },
-      {
-        "zType": "SPRITE_GROUP_VEGETATION_ICONS",
-        "aeSpriteSheets": {
-          "zValue": "ASSET_SPRITE_SHEET_VEGETATION"
+          "zValue": "ASSET_SPRITE_SHEET_UNIT_SHAPES"
         }
       },
       {
@@ -109,7 +146,10 @@
       {
         "zType": "SPRITE_GROUP_LAW_ICONS",
         "aeSpriteSheets": {
-          "zValue": "ASSET_SPRITE_SHEET_LAWS"
+          "zValue": [
+            "ASSET_SPRITE_SHEET_LAWS",
+            "ASSET_SPRITE_SHEET_CRESTS"
+          ]
         }
       },
       {
@@ -148,12 +188,6 @@
         }
       },
       {
-        "zType": "SPRITE_GROUP_TECH_BACKGROUNDS",
-        "aeSpriteSheets": {
-          "zValue": "ASSET_SPRITE_SHEET_UNIT_BACKGROUNDS"
-        }
-      },
-      {
         "zType": "SPRITE_GROUP_CRESTS",
         "aeSpriteSheets": {
           "zValue": "ASSET_SPRITE_SHEET_CRESTS"
@@ -174,10 +208,7 @@
       {
         "zType": "SPRITE_GROUP_EFFECTUNIT_ICONS",
         "aeSpriteSheets": {
-          "zValue": [
-            "ASSET_SPRITE_SHEET_UNIT_EFFECTS",
-            "ASSET_SPRITE_SHEET_UNIT_EFFECTS"
-          ]
+          "zValue": "ASSET_SPRITE_SHEET_UNIT_EFFECTS"
         }
       },
       {
@@ -189,8 +220,9 @@
             "ASSET_SPRITE_SHEET_HUD_ATLAS",
             "ASSET_SPRITE_SHEET_HUD_ATLAS_2",
             "ASSET_SPRITE_SHEET_HUD_SPRITE_ATLAS",
+            "ASSET_SPRITE_SHEET_MULTIPLAYER_TRIM",
             "ASSET_SPRITE_SHEET_HUD_SPRITE_ATLAS_FILTERED",
-            "ASSET_SPRITE_SHEET_TECH_TREE_POPUP"
+            "ASSET_SPRITE_SHEET_EVENT_FRAMES"
           ]
         }
       },

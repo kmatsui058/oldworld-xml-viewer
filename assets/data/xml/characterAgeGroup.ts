@@ -15,11 +15,16 @@
       },
       {
         "zType": "CHARACTER_AGE_GROUP_BABY",
-        "iEndAge": "3"
+        "iEndAge": "2"
       },
       {
         "zType": "CHARACTER_AGE_GROUP_YOUTH",
-        "iStartAge": "4",
+        "iStartAge": "3",
+        "iEndAge": "10"
+      },
+      {
+        "zType": "CHARACTER_AGE_GROUP_TEEN",
+        "iStartAge": "11",
         "iEndAge": "17"
       },
       {

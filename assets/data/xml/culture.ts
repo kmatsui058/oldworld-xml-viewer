@@ -9,10 +9,10 @@
         "zName": {
           
         },
-        "iThreshold": {
+        "zIconName": {
           
         },
-        "iSteps": {
+        "iThreshold": {
           
         },
         "iVP": {
@@ -40,17 +40,20 @@
       {
         "zType": "CULTURE_WEAK",
         "zName": "Weak",
-        "iThreshold": "50",
-        "iSteps": "1",
+        "zIconName": "CULTURE_WEAK",
+        "iThreshold": "100",
+        "iVP": "1",
+        "iXP": "2",
         "DefaultProject": "PROJECT_COUNCIL_1",
         "ShortfallProject": "PROJECT_COUNCIL_1"
       },
       {
         "zType": "CULTURE_DEVELOPING",
         "zName": "Developing",
-        "iThreshold": "200",
-        "iSteps": "2",
-        "iXP": "2",
+        "zIconName": "CULTURE_DEVELOPING",
+        "iThreshold": "500",
+        "iVP": "2",
+        "iXP": "4",
         "iExtraCaptureTurns": "1",
         "iExtraAssimilateTurns": "10",
         "EffectCity": "EFFECTCITY_CULTURE_DEVELOPING",
@@ -60,9 +63,10 @@
       {
         "zType": "CULTURE_STRONG",
         "zName": "Strong",
-        "iThreshold": "500",
-        "iSteps": "3",
-        "iXP": "4",
+        "zIconName": "CULTURE_STRONG",
+        "iThreshold": "2000",
+        "iVP": "3",
+        "iXP": "6",
         "iExtraCaptureTurns": "2",
         "iExtraAssimilateTurns": "20",
         "EffectCity": "EFFECTCITY_CULTURE_STRONG",
@@ -72,9 +76,10 @@
       {
         "zType": "CULTURE_LEGENDARY",
         "zName": "Legendary",
-        "iThreshold": "1000",
-        "iVP": "1",
-        "iXP": "6",
+        "zIconName": "CULTURE_LEGENDARY",
+        "iThreshold": "5000",
+        "iVP": "4",
+        "iXP": "8",
         "iExtraCaptureTurns": "3",
         "iExtraAssimilateTurns": "30",
         "EffectCity": "EFFECTCITY_CULTURE_LEGENDARY",

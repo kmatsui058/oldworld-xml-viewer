@@ -11,12 +11,24 @@
         }
       },
       {
-        "zType": "NO_CHARACTERS",
+        "zType": "MIN_PLAYERS",
+        "iValue": "1"
+      },
+      {
+        "zType": "MAX_PLAYERS",
+        "iValue": "10"
+      },
+      {
+        "zType": "MAX_TEAMS",
+        "iValue": "10"
+      },
+      {
+        "zType": "NO_WONDERS",
         "iValue": "0"
       },
       {
-        "zType": "MAX_TURNS",
-        "iValue": "200"
+        "zType": "SCENARIO_GOALS_ONLY",
+        "iValue": "0"
       },
       {
         "zType": "UNIT_FATIGUE_LIMIT",
@@ -28,7 +40,7 @@
       },
       {
         "zType": "UNIT_MARCH_COST",
-        "iValue": "50"
+        "iValue": "100"
       },
       {
         "zType": "UNIT_PROMOTE_COST",
@@ -36,6 +48,14 @@
       },
       {
         "zType": "UNIT_UPGRADE_COST",
+        "iValue": "1"
+      },
+      {
+        "zType": "UNIT_RECRUIT_COST",
+        "iValue": "1"
+      },
+      {
+        "zType": "UNIT_HIRE_COST",
         "iValue": "1"
       },
       {
@@ -87,11 +107,11 @@
         "iValue": "1"
       },
       {
-        "zType": "UNIT_RAISE_IMPROVEMENT_COST",
+        "zType": "UNIT_UPGRADE_IMPROVEMENT_COST",
         "iValue": "1"
       },
       {
-        "zType": "UNIT_TRADE_COST",
+        "zType": "UNIT_CARAVAN_MISSION_COST",
         "iValue": "1"
       },
       {
@@ -103,8 +123,12 @@
         "iValue": "1"
       },
       {
-        "zType": "REPLACE_GOVERNOR_COST",
-        "iValue": "1"
+        "zType": "AGENT_NETWORK_TURNS",
+        "iValue": "5"
+      },
+      {
+        "zType": "AGENT_CHARACTER_COST",
+        "iValue": "2"
       },
       {
         "zType": "MIN_GIFT_CITY_TURNS",
@@ -112,11 +136,15 @@
       },
       {
         "zType": "GIFT_CITY_COST",
+        "iValue": "2"
+      },
+      {
+        "zType": "GIFT_YIELD_COST",
         "iValue": "1"
       },
       {
-        "zType": "GIFT_GOOD_COST",
-        "iValue": "1"
+        "zType": "GIFT_YIELD_QUANTITY",
+        "iValue": "50"
       },
       {
         "zType": "MIN_LUXURY_TRADE_LENGTH",
@@ -124,7 +152,7 @@
       },
       {
         "zType": "TRADE_LUXURY_COST",
-        "iValue": "1"
+        "iValue": "2"
       },
       {
         "zType": "TRADE_MONEY_BASE",
@@ -143,6 +171,30 @@
         "iValue": "40"
       },
       {
+        "zType": "MIN_TREATY_TURNS",
+        "iValue": "5"
+      },
+      {
+        "zType": "MAX_CITIES",
+        "iValue": "0"
+      },
+      {
+        "zType": "MAX_VPS",
+        "iValue": "100"
+      },
+      {
+        "zType": "MAX_AMBITIONS",
+        "iValue": "10"
+      },
+      {
+        "zType": "AMBITION_DELAY_TURNS",
+        "iValue": "5"
+      },
+      {
+        "zType": "LEGACY_MAX_TURNS",
+        "iValue": "20"
+      },
+      {
         "zType": "MAX_CIVICS",
         "iValue": "2000"
       },
@@ -159,12 +211,36 @@
         "iValue": "100"
       },
       {
+        "zType": "FOUND_CITY_TRIBE_COST_BASE",
+        "iValue": "1000"
+      },
+      {
+        "zType": "FOUND_CITY_TRIBE_COST_PER",
+        "iValue": "500"
+      },
+      {
+        "zType": "CARAVAN_TARGET_PERCENT",
+        "iValue": "25"
+      },
+      {
+        "zType": "CARAVAN_EXTRA_MONEY_MIN_TURNS",
+        "iValue": "80"
+      },
+      {
         "zType": "VP_PER_PLAYER",
         "iValue": "25"
       },
       {
         "zType": "MAX_TECHS_AVAILABLE",
         "iValue": "4"
+      },
+      {
+        "zType": "TECH_GLOBAL_MODIFIER",
+        "iValue": "0"
+      },
+      {
+        "zType": "TECH_REPEAT_MODIFIER",
+        "iValue": "25"
       },
       {
         "zType": "AVAILABLE_WONDERS",
@@ -183,16 +259,12 @@
         "iValue": "15"
       },
       {
-        "zType": "MIN_CITY_COUNT_FOR_AI_NATIONS",
-        "iValue": "2"
-      },
-      {
         "zType": "INITIAL_CITIZENS",
         "iValue": "1"
       },
       {
         "zType": "CITY_STRENGTH_BASE",
-        "iValue": "40"
+        "iValue": "80"
       },
       {
         "zType": "CITY_STRENGTH_PER",
@@ -208,7 +280,7 @@
       },
       {
         "zType": "HURRY_DISCONTENT_COST_PER",
-        "iValue": "20"
+        "iValue": "10"
       },
       {
         "zType": "HURRY_CIVICS_COST_BASE",
@@ -224,7 +296,7 @@
       },
       {
         "zType": "HURRY_TRAINING_COST_MODIFIER",
-        "iValue": "100"
+        "iValue": "50"
       },
       {
         "zType": "HURRY_MONEY_COST_BASE",
@@ -243,6 +315,14 @@
         "iValue": "80"
       },
       {
+        "zType": "HURRY_ORDERS_COST_BASE",
+        "iValue": "2"
+      },
+      {
+        "zType": "HURRY_ORDERS_COST_MODIFIER",
+        "iValue": "-90"
+      },
+      {
         "zType": "CITY_ATTACKED_DISCONTENT",
         "iValue": "100"
       },
@@ -252,7 +332,7 @@
       },
       {
         "zType": "BORDER_VISIBILITY",
-        "iValue": "3"
+        "iValue": "4"
       },
       {
         "zType": "MOVEMENT_MULTIPLER",
@@ -291,12 +371,20 @@
         "iValue": "20"
       },
       {
+        "zType": "CITY_HP_HEAL_PER_TURN",
+        "iValue": "1"
+      },
+      {
         "zType": "CITY_DAMAGE_YIELD_MODIFIER",
         "iValue": "-50"
       },
       {
         "zType": "CITY_ASSIMILATE_YIELD_MODIFIER",
         "iValue": "-50"
+      },
+      {
+        "zType": "SPECIALIST_COST_PRODUCED_MODIFIER",
+        "iValue": "5"
       },
       {
         "zType": "HAPPINESS_THRESHOLD",
@@ -311,16 +399,16 @@
         "iValue": "10"
       },
       {
+        "zType": "CREATE_AGENT_NETWORK_COST",
+        "iValue": "400"
+      },
+      {
         "zType": "XP_THRESHOLD",
         "iValue": "100"
       },
       {
         "zType": "MAX_LEVELS",
         "iValue": "5"
-      },
-      {
-        "zType": "MIN_UNIT_LEVEL_GENERAL",
-        "iValue": "2"
       },
       {
         "zType": "ACTIVE_HEAL",
@@ -347,7 +435,23 @@
         "iValue": "6"
       },
       {
+        "zType": "COUNTER_ATTACK_DAMAGE",
+        "iValue": "1"
+      },
+      {
         "zType": "DISTANCE_MODIFIER",
+        "iValue": "-20"
+      },
+      {
+        "zType": "LAND_WATER_MODIFIER",
+        "iValue": "-50"
+      },
+      {
+        "zType": "HIDDEN_ATTACK_MODIFIER",
+        "iValue": "10"
+      },
+      {
+        "zType": "SAME_FAMILY_MODIFIER",
         "iValue": "-10"
       },
       {
@@ -355,15 +459,31 @@
         "iValue": "10"
       },
       {
+        "zType": "GENERAL_SAME_NATION_MODIFIER",
+        "iValue": "-25"
+      },
+      {
+        "zType": "GENERAL_SAME_TRIBE_MODIFIER",
+        "iValue": "-25"
+      },
+      {
+        "zType": "GENERAL_DIFF_TRIBE_MODIFIER",
+        "iValue": "25"
+      },
+      {
+        "zType": "GENERAL_SAME_FAMILY_MODIFIER",
+        "iValue": "-25"
+      },
+      {
         "zType": "MISS_PROB",
         "iValue": "0"
       },
       {
         "zType": "INJURY_PROB",
-        "iValue": "5"
+        "iValue": "4"
       },
       {
-        "zType": "OFFENSIVE_UNITS",
+        "zType": "SENTRY_RANGE",
         "iValue": "5"
       },
       {
@@ -387,8 +507,16 @@
         "iValue": "4"
       },
       {
+        "zType": "CONSUMPTION_MERCENARY_MODIFIER",
+        "iValue": "50"
+      },
+      {
         "zType": "CONSUMPTION_BORDERS_MODIFIER",
         "iValue": "50"
+      },
+      {
+        "zType": "COURTIER_SOFT_CAP",
+        "iValue": "4"
       },
       {
         "zType": "SUCCESSION_COUNT",
@@ -404,7 +532,7 @@
       },
       {
         "zType": "GENERAL_START_AGE",
-        "iValue": "60"
+        "iValue": "50"
       },
       {
         "zType": "GENERAL_RETIRE_AGE",
@@ -412,10 +540,38 @@
       },
       {
         "zType": "TUTORS_AGE",
-        "iValue": "5"
+        "iValue": "9"
       },
       {
-        "zType": "TUTOR_PROB",
+        "zType": "ELDER_COGNOMEN_AGE_DIFFERENCE",
+        "iValue": "20"
+      },
+      {
+        "zType": "MAX_STRENGTHS",
+        "iValue": "3"
+      },
+      {
+        "zType": "MAX_WEAKNESSES",
+        "iValue": "3"
+      },
+      {
+        "zType": "ADOPT_HEIR_AGE",
+        "iValue": "40"
+      },
+      {
+        "zType": "CHARACTER_NEW_AMBITION_PROB",
+        "iValue": "1"
+      },
+      {
+        "zType": "MARRIAGE_PROPOSAL_INTERVAL",
+        "iValue": "3"
+      },
+      {
+        "zType": "NON_LEADER_MARRIAGE_PROB",
+        "iValue": "20"
+      },
+      {
+        "zType": "SUITOR_MAX_YEARS_FROM_FERTILE",
         "iValue": "10"
       },
       {
@@ -423,8 +579,48 @@
         "iValue": "10"
       },
       {
-        "zType": "ELDER_COGNOMEN_AGE_DIFFERENCE",
+        "zType": "CHARACTER_RELIGION_PROB",
+        "iValue": "10"
+      },
+      {
+        "zType": "CHARACTER_RELIGION_DELAY_TURNS",
+        "iValue": "10"
+      },
+      {
+        "zType": "CHARACTER_ROYAL_RATING_CHANGE_PROB",
+        "iValue": "5"
+      },
+      {
+        "zType": "CHARACTER_NICKNAME_PROB",
         "iValue": "20"
+      },
+      {
+        "zType": "DOOMED_DIE_PROB",
+        "iValue": "80"
+      },
+      {
+        "zType": "CHARACTER_INIT_TURNS",
+        "iValue": "20"
+      },
+      {
+        "zType": "FAMILY_HEAD_PREFERRED_MIN_AGE",
+        "iValue": "25"
+      },
+      {
+        "zType": "LEADER_NO_HEIR_SAFE_MIN_AGE",
+        "iValue": "60"
+      },
+      {
+        "zType": "LEADER_NO_HEIR_SAFE_MAX_AGE",
+        "iValue": "70"
+      },
+      {
+        "zType": "SOLE_HEIR_SAFE_MIN_AGE",
+        "iValue": "40"
+      },
+      {
+        "zType": "SOLE_HEIR_SAFE_MAX_AGE",
+        "iValue": "50"
       },
       {
         "zType": "COMBAT_BASE_XP",
@@ -447,7 +643,11 @@
         "iValue": "16"
       },
       {
-        "zType": "MAX_FAMILY_SEATS",
+        "zType": "MIN_REBEL_TURNS",
+        "iValue": "20"
+      },
+      {
+        "zType": "MAX_FAMILIES",
         "iValue": "3"
       },
       {
@@ -457,6 +657,18 @@
       {
         "zType": "GENERAL_OPINION",
         "iValue": "20"
+      },
+      {
+        "zType": "LEADER_SPOUSE_OPINION",
+        "iValue": "20"
+      },
+      {
+        "zType": "HEIR_OPINION",
+        "iValue": "20"
+      },
+      {
+        "zType": "PARENT_OPINION",
+        "iValue": "40"
       },
       {
         "zType": "LEGITIMACY_OPINION_PERCENT",
@@ -471,72 +683,136 @@
         "iValue": "-20"
       },
       {
-        "zType": "THEIR_GOVERNOR_US_OPINION",
-        "iValue": "0"
-      },
-      {
-        "zType": "OUR_GOVERNOR_THEM_OPINION",
-        "iValue": "0"
-      },
-      {
-        "zType": "OUR_GOVERNOR_US_OPINION",
-        "iValue": "0"
-      },
-      {
-        "zType": "LEADER_OR_HEIR_OPINION",
-        "iValue": "40"
-      },
-      {
-        "zType": "LEADER_SPOUSE_OPINION_PLAYER",
+        "zType": "COUNCIL_ETHNICITY_OPINION_TRIBE",
         "iValue": "80"
       },
       {
-        "zType": "LEADER_SPOUSE_OPINION_BARBARIAN",
-        "iValue": "100"
+        "zType": "LEADER_OPINION_TRIBE",
+        "iValue": "160"
+      },
+      {
+        "zType": "LEADER_SPOUSE_OPINION_TRIBE",
+        "iValue": "80"
+      },
+      {
+        "zType": "HEIR_OPINION_TRIBE",
+        "iValue": "80"
+      },
+      {
+        "zType": "HEIR_SPOUSE_OPINION_TRIBE",
+        "iValue": "40"
+      },
+      {
+        "zType": "DESCENDANT_OPINION_TRIBE",
+        "iValue": "40"
+      },
+      {
+        "zType": "DESCENDANT_SPOUSE_OPINION_TRIBE",
+        "iValue": "40"
+      },
+      {
+        "zType": "LEADER_OR_HEIR_OPINION_FAMILY",
+        "iValue": "40"
       },
       {
         "zType": "LEADER_SPOUSE_OPINION_FAMILY",
         "iValue": "40"
       },
       {
-        "zType": "DESCENDANT_SPOUSE_OPINION_PLAYER",
+        "zType": "HEIR_SPOUSE_OPINION_FAMILY",
         "iValue": "20"
-      },
-      {
-        "zType": "DESCENDANT_SPOUSE_OPINION_BARBARIAN",
-        "iValue": "40"
       },
       {
         "zType": "DESCENDANT_SPOUSE_OPINION_FAMILY",
         "iValue": "10"
       },
       {
-        "zType": "NO_COURTIER_OPINION",
+        "zType": "OUR_ALLY_OPINION_PLAYER",
+        "iValue": "60"
+      },
+      {
+        "zType": "NOT_OUR_ALLY_OPINION_PLAYER",
+        "iValue": "-40"
+      },
+      {
+        "zType": "COUNCIL_ETHNICITY_OPINION_PLAYER",
+        "iValue": "40"
+      },
+      {
+        "zType": "LEADER_OPINION_PLAYER",
+        "iValue": "80"
+      },
+      {
+        "zType": "LEADER_SPOUSE_OPINION_PLAYER",
+        "iValue": "40"
+      },
+      {
+        "zType": "HEIR_OPINION_PLAYER",
+        "iValue": "40"
+      },
+      {
+        "zType": "HEIR_SPOUSE_OPINION_PLAYER",
+        "iValue": "20"
+      },
+      {
+        "zType": "DESCENDANT_OPINION_PLAYER",
+        "iValue": "20"
+      },
+      {
+        "zType": "DESCENDANT_SPOUSE_OPINION_PLAYER",
+        "iValue": "20"
+      },
+      {
+        "zType": "FAMILYCLASS_OPINION_PLAYER",
+        "iValue": "40"
+      },
+      {
+        "zType": "PLAY_TO_WIN_OPINION_PLAYER_50",
+        "iValue": "-40"
+      },
+      {
+        "zType": "PLAY_TO_WIN_OPINION_PLAYER_40",
+        "iValue": "-80"
+      },
+      {
+        "zType": "PLAY_TO_WIN_OPINION_PLAYER_30",
+        "iValue": "-120"
+      },
+      {
+        "zType": "PLAY_TO_WIN_OPINION_PLAYER_20",
+        "iValue": "-160"
+      },
+      {
+        "zType": "NO_COUNCIL_OPINION",
         "iValue": "-20"
       },
       {
-        "zType": "LUXURY_OPINION",
+        "zType": "LUXURY_OPINION_PLAYER",
         "iValue": "40"
+      },
+      {
+        "zType": "LUXURY_OPINION_TRIBE",
+        "iValue": "40"
+      },
+      {
+        "zType": "LUXURY_OPINION_FAMILY",
+        "iValue": "20"
       },
       {
         "zType": "HOLY_CITY_OPINION",
-        "iValue": "40"
-      },
-      {
-        "zType": "STATE_RELIGION_OPINION_PLAYER",
-        "iValue": "50"
-      },
-      {
-        "zType": "STATE_RELIGION_OPINION_BARBARIAN",
-        "iValue": "50"
+        "iValue": "20"
       },
       {
         "zType": "STATE_RELIGION_OPINION_RELIGION",
-        "iValue": "100"
+        "iValue": "20"
       },
       {
-        "zType": "STATE_RELIGION_OPINION_FAMILY",
-        "iValue": "50"
+        "zType": "MIN_OPINION_FROM_RELIGION",
+        "iValue": "-200"
+      },
+      {
+        "zType": "MAX_OPINION_FROM_RELIGION",
+        "iValue": "200"
       },
       {
         "zType": "STRENGTH_OPINION_PLAYER",
@@ -548,10 +824,10 @@
       },
       {
         "zType": "TRADING_ENEMY_OPINION_PLAYER",
-        "iValue": "-50"
+        "iValue": "-40"
       },
       {
-        "zType": "BARB_CITY_DEFENDERS",
+        "zType": "TRIBE_CITY_DEFENDERS",
         "iValue": "2"
       },
       {
@@ -584,27 +860,55 @@
       },
       {
         "zType": "REVEAL_DISTANCE_FULL_VALUE",
-        "iValue": "6"
+        "iValue": "8"
       },
       {
         "zType": "REVEAL_DISTANCE_MIN_VALUE",
-        "iValue": "18"
+        "iValue": "24"
       },
       {
         "zType": "HARVEST_DISTANCE_FULL_VALUE",
-        "iValue": "6"
+        "iValue": "8"
       },
       {
         "zType": "HARVEST_DISTANCE_MIN_VALUE",
-        "iValue": "18"
+        "iValue": "24"
       },
       {
         "zType": "REMOVE_HARVEST_MODIFIER",
         "iValue": "400"
       },
       {
+        "zType": "REMOVE_VEGETATION_DISTANCE_FULL_VALUE",
+        "iValue": "8"
+      },
+      {
         "zType": "PRICE_SELL_PERCENT",
         "iValue": "50"
+      },
+      {
+        "zType": "NO_NAMING_LANDMARKS",
+        "iValue": "0"
+      },
+      {
+        "zType": "MIN_AI_PLAYERS",
+        "iValue": "1"
+      },
+      {
+        "zType": "MAX_AI_PLAYERS",
+        "iValue": "10"
+      },
+      {
+        "zType": "NUM_AUTOSAVES",
+        "iValue": "10"
+      },
+      {
+        "zType": "CAMERA_MAX_TRAVEL_DISTANCE",
+        "iValue": "150"
+      },
+      {
+        "zType": "UNIT_ANIMATION_NUM_TILES_TO_WARP",
+        "iValue": "6"
       }
     ]
   }

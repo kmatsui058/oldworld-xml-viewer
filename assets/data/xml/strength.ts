@@ -20,14 +20,22 @@
         },
         "bDeclareWar": {
           
+        },
+        "bNoTribePeace": {
+          
+        },
+        "bNoTribeOfferHuman": {
+          
         }
       },
       {
         "zType": "STRENGTH_MUCH_WEAKER",
         "zName": "Much Weaker",
-        "iPercent": "50",
+        "iPercent": "40",
         "iTruceModifier": "50",
-        "iWarModifier": "-50"
+        "iWarModifier": "-50",
+        "bNoTribePeace": "1",
+        "bNoTribeOfferHuman": "1"
       },
       {
         "zType": "STRENGTH_WEAKER",
@@ -39,13 +47,13 @@
       {
         "zType": "STRENGTH_SIMILAR",
         "zName": "Similar",
-        "iPercent": "133",
+        "iPercent": "150",
         "bDeclareWar": "1"
       },
       {
         "zType": "STRENGTH_STRONGER",
         "zName": "Stronger",
-        "iPercent": "200",
+        "iPercent": "250",
         "iTruceModifier": "-25",
         "iWarModifier": "25",
         "bDeclareWar": "1"
@@ -55,7 +63,8 @@
         "zName": "Much Stronger",
         "iTruceModifier": "-50",
         "iWarModifier": "50",
-        "bDeclareWar": "1"
+        "bDeclareWar": "1",
+        "bNoTribePeace": "1"
       }
     ]
   }

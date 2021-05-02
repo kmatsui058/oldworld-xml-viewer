@@ -8,8 +8,9 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zIconName: ZType | string;
+  Achievement?: ZType | string;
   BonusDiscover?: ZType | string;
   EffectPlayer?: ZType | string;
   iCost: ZType | string;
@@ -17,8 +18,7 @@ export interface Entry {
   iRow?: ZType | string;
   bHide?: ZType | string;
   bTrash?: ZType | string;
-  bNoBonus?: ZType | string;
-  bSkipLog?: ZType | string;
+  bNoFree?: ZType | string;
   bReturn?: ZType | string;
   bValidAll?: ZType | string;
   abNationValid?: AbNationValid;

@@ -11,6 +11,8 @@ export interface Entry {
   zName: ZType | string;
   iWidth: ZType | string;
   iHeight: ZType | string;
+  iWidthMPTwoTeams: ZType | string;
+  iHeightMPTwoTeams: ZType | string;
   iMaxOpponents: ZType | string;
   iVP: ZType | string;
 }

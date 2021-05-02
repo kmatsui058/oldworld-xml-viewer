@@ -22,26 +22,29 @@ export interface Entry {
   EffectPlayer: ZType | string;
   MapElementNames: ZType | string;
   iFirstBuildPercent: ZType | string;
-  bShowSurname?: ZType | string;
+  bShowSurname?: ZType;
+  bPlayable?: ZType;
+  bDisabled?: ZType;
   aiStartUnit: AiStartUnit;
-  aiStartYield?: AiStartUnit;
+  aiCityUnit: AiCityUnit;
+  aiNationOpinion?: AiStartUnit;
   aeStartingTech: AeStartingTech;
-  aeStartingLaw: AeStartingLaw;
+  aeStartingLaw?: ZType;
+  aeImprovementNotValid?: ZType;
+  aeProjectNotValid?: ZType;
+  aeTechNotValid?: ZType;
+  aeUnitNotValid?: ZType;
   aeFirstNamesMale: AeStartingTech;
   aeFirstNamesFemale: AeStartingTech;
   aeCityNames: AeStartingTech;
   aeCharacterPortraits: AeStartingTech;
-  zStory: ZType | string;
-}
-export interface AeStartingLaw {
-  Pair?: Pair2;
-}
-export interface Pair2 {
-  zIndex: string;
-  zValue: string;
+  Story: ZType | string;
 }
 export interface AeStartingTech {
   zValue?: string[];
+}
+export interface AiCityUnit {
+  Pair?: Pair[];
 }
 export interface AiStartUnit {
   Pair?: Pair;

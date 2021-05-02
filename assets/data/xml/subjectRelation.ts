@@ -6,6 +6,9 @@
         "zType": {
           
         },
+        "zName": {
+          
+        },
         "Relative": {
           
         },
@@ -21,10 +24,10 @@
         "MaxDiplomacyPlayer": {
           
         },
-        "MinDiplomacyBarbarian": {
+        "MinDiplomacyTribe": {
           
         },
-        "MaxDiplomacyBarbarian": {
+        "MaxDiplomacyTribe": {
           
         },
         "MinProximityPlayer": {
@@ -33,10 +36,10 @@
         "MaxProximityPlayer": {
           
         },
-        "MinProximityBarbarian": {
+        "MinProximityTribe": {
           
         },
-        "MaxProximityBarbarian": {
+        "MaxProximityTribe": {
           
         },
         "MinStrengthPlayer": {
@@ -45,10 +48,10 @@
         "MaxStrengthPlayer": {
           
         },
-        "MinStrengthBarbarian": {
+        "MinStrengthTribe": {
           
         },
-        "MaxStrengthBarbarian": {
+        "MaxStrengthTribe": {
           
         },
         "MinWarStatePlayer": {
@@ -57,10 +60,10 @@
         "MaxWarStatePlayer": {
           
         },
-        "MinWarStateBarbarian": {
+        "MinWarStateTribe": {
           
         },
-        "MaxWarStateBarbarian": {
+        "MaxWarStateTribe": {
           
         },
         "MinOpinionPlayer": {
@@ -69,10 +72,10 @@
         "MaxOpinionPlayer": {
           
         },
-        "MinOpinionBarbarian": {
+        "MinOpinionTribe": {
           
         },
-        "MaxOpinionBarbarian": {
+        "MaxOpinionTribe": {
           
         },
         "MinOpinionReligion": {
@@ -93,10 +96,19 @@
         "MaxOpinionCharacter": {
           
         },
+        "bNotDescendant": {
+          
+        },
         "bBehindSuccession": {
           
         },
+        "bCanAdopt": {
+          
+        },
         "bAttractedTo": {
+          
+        },
+        "bAttractedMutual": {
           
         },
         "bGenderSame": {
@@ -105,22 +117,64 @@
         "bGenderDiff": {
           
         },
+        "bYounger": {
+          
+        },
+        "bOlder": {
+          
+        },
+        "bSimilarAge": {
+          
+        },
+        "bArchetypeSame": {
+          
+        },
+        "bArchetypeDiff": {
+          
+        },
+        "bArchetypeDislikes": {
+          
+        },
         "bPlayerSame": {
           
         },
         "bPlayerDiff": {
           
         },
-        "bPlayerAlliance": {
+        "bNationEthnicity": {
           
         },
-        "bBarbarianSame": {
+        "bNationSame": {
           
         },
-        "bBarbarianDiff": {
+        "bNationDiff": {
           
         },
-        "bBarbarianAlliance": {
+        "bTeamAlliance": {
+          
+        },
+        "bNoTeamAllianceAny": {
+          
+        },
+        "bCanEndWar": {
+          
+        },
+        "bMinTreatyTurns": {
+          
+        },
+        "bTribeEthnicity": {
+          
+        },
+        "bTribeSame": {
+          
+        },
+        "bTribeDiff": {
+          
+        },
+        "bTribeAlliance": {
+          
+        },
+        "bNoTribeAllianceAny": {
           
         },
         "bFamilySame": {
@@ -156,25 +210,43 @@
         "bReligionHolyCity": {
           
         },
+        "bReligionHead": {
+          
+        },
+        "bTechAcquired": {
+          
+        },
+        "bTechNotAcquired": {
+          
+        },
+        "bTechSameCost": {
+          
+        },
         "bLawActive": {
+          
+        },
+        "bLawInactive": {
           
         },
         "bLawPositive": {
           
         },
+        "bLawMinNeutral": {
+          
+        },
         "bLawNegative": {
+          
+        },
+        "bLawClassSame": {
           
         },
         "bTheologyActive": {
           
         },
-        "bTheologyPositive": {
-          
-        },
-        "bTheologyNegative": {
-          
-        },
         "bPlayerLuxury": {
+          
+        },
+        "bFamilyMissing": {
           
         },
         "bTileResource": {
@@ -183,7 +255,31 @@
         "bCitySame": {
           
         },
+        "bCityDiff": {
+          
+        },
+        "bCityOriginal": {
+          
+        },
+        "bCityClosest": {
+          
+        },
+        "bCityTerritorySame": {
+          
+        },
+        "bFirstPlayer": {
+          
+        },
         "bUnitSame": {
+          
+        },
+        "bTileSame": {
+          
+        },
+        "bTileAdjacent": {
+          
+        },
+        "bNoDebugHelp": {
           
         }
       },
@@ -256,40 +352,72 @@
         "Relative": "RELATIVE_STEPPARENT"
       },
       {
-        "zType": "SUBJECTRELATION_ENDEARED_TO",
-        "RelationshipPrereq": "RELATIONSHIP_ENDEARED_TO"
+        "zType": "SUBJECTRELATION_IN_LOVE_WITH",
+        "RelationshipPrereq": "RELATIONSHIP_IN_LOVE_WITH"
       },
       {
-        "zType": "SUBJECTRELATION_SUSPICIOUS_OF",
-        "RelationshipPrereq": "RELATIONSHIP_SUSPICIOUS_OF"
-      },
-      {
-        "zType": "SUBJECTRELATION_JEALOUS_ABOUT",
-        "RelationshipPrereq": "RELATIONSHIP_JEALOUS_ABOUT"
-      },
-      {
-        "zType": "SUBJECTRELATION_OBLIGED_TO",
-        "RelationshipPrereq": "RELATIONSHIP_OBLIGED_TO"
-      },
-      {
-        "zType": "SUBJECTRELATION_DISAPPOINTED_WITH",
-        "RelationshipPrereq": "RELATIONSHIP_DISAPPOINTED_WITH"
-      },
-      {
-        "zType": "SUBJECTRELATION_ALLIED_WITH",
-        "RelationshipPrereq": "RELATIONSHIP_ALLIED_WITH"
+        "zType": "SUBJECTRELATION_NOT_IN_LOVE_WITH",
+        "RelationshipInvalid": "RELATIONSHIP_IN_LOVE_WITH"
       },
       {
         "zType": "SUBJECTRELATION_LOVER_OF",
         "RelationshipPrereq": "RELATIONSHIP_LOVER_OF"
       },
       {
+        "zType": "SUBJECTRELATION_NOT_LOVER_OF",
+        "RelationshipInvalid": "RELATIONSHIP_LOVER_OF"
+      },
+      {
+        "zType": "SUBJECTRELATION_ALLIED_WITH",
+        "RelationshipPrereq": "RELATIONSHIP_ALLIED_WITH"
+      },
+      {
+        "zType": "SUBJECTRELATION_ENDEARED_TO",
+        "RelationshipPrereq": "RELATIONSHIP_ENDEARED_TO"
+      },
+      {
+        "zType": "SUBJECTRELATION_TERRIFIED_OF",
+        "RelationshipPrereq": "RELATIONSHIP_TERRIFIED_OF"
+      },
+      {
+        "zType": "SUBJECTRELATION_NOT_TERRIFIED_OF",
+        "RelationshipInvalid": "RELATIONSHIP_TERRIFIED_OF"
+      },
+      {
+        "zType": "SUBJECTRELATION_INFLUENCED_BY",
+        "RelationshipPrereq": "RELATIONSHIP_INFLUENCED_BY"
+      },
+      {
+        "zType": "SUBJECTRELATION_INTERCESSED_FOR",
+        "RelationshipPrereq": "RELATIONSHIP_INTERCESSED_FOR"
+      },
+      {
+        "zType": "SUBJECTRELATION_HOLDS_FAVOR_FROM",
+        "RelationshipPrereq": "RELATIONSHIP_HOLDS_FAVOR_FROM"
+      },
+      {
+        "zType": "SUBJECTRELATION_OWES_FAVOR_TO",
+        "RelationshipPrereq": "RELATIONSHIP_OWES_FAVOR_TO"
+      },
+      {
+        "zType": "SUBJECTRELATION_JEALOUS_ABOUT",
+        "RelationshipPrereq": "RELATIONSHIP_JEALOUS_ABOUT"
+      },
+      {
+        "zType": "SUBJECTRELATION_SUSPICIOUS_OF",
+        "RelationshipPrereq": "RELATIONSHIP_SUSPICIOUS_OF"
+      },
+      {
+        "zType": "SUBJECTRELATION_DISAPPOINTED_WITH",
+        "RelationshipPrereq": "RELATIONSHIP_DISAPPOINTED_WITH"
+      },
+      {
         "zType": "SUBJECTRELATION_ESTRANGED_FROM",
         "RelationshipPrereq": "RELATIONSHIP_ESTRANGED_FROM"
       },
       {
-        "zType": "SUBJECTRELATION_IN_LOVE_WITH",
-        "RelationshipPrereq": "RELATIONSHIP_IN_LOVE_WITH"
+        "zType": "SUBJECTRELATION_NOT_ESTRANGED_FROM",
+        "RelationshipInvalid": "RELATIONSHIP_ESTRANGED_FROM"
       },
       {
         "zType": "SUBJECTRELATION_VENGEFUL_AGAINST",
@@ -300,12 +428,12 @@
         "RelationshipPrereq": "RELATIONSHIP_PLOTTING_AGAINST"
       },
       {
-        "zType": "SUBJECTRELATION_NOT_IN_LOVE_WITH",
-        "RelationshipInvalid": "RELATIONSHIP_IN_LOVE_WITH"
+        "zType": "SUBJECTRELATION_BYPASSED_BY",
+        "RelationshipPrereq": "RELATIONSHIP_BYPASSED_BY"
       },
       {
-        "zType": "SUBJECTRELATION_NOT_ESTRANGED_FROM",
-        "RelationshipInvalid": "RELATIONSHIP_ESTRANGED_FROM"
+        "zType": "SUBJECTRELATION_DIVORCED_BY",
+        "RelationshipPrereq": "RELATIONSHIP_DIVORCED_BY"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_PEACE",
@@ -333,29 +461,55 @@
         "MaxDiplomacyPlayer": "DIPLOMACY_WAR"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_PEACE",
-        "MinDiplomacyBarbarian": "DIPLOMACY_PEACE",
-        "MaxDiplomacyBarbarian": "DIPLOMACY_PEACE"
+        "zType": "SUBJECTRELATION_PLAYER_NO_ALLIANCE",
+        "bNoTeamAllianceAny": "1"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_PEACE_OR_TRUCE",
-        "MinDiplomacyBarbarian": "DIPLOMACY_PEACE",
-        "MaxDiplomacyBarbarian": "DIPLOMACY_TRUCE"
+        "zType": "SUBJECTRELATION_PLAYER_NO_ALLIANCE_PEACE",
+        "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
+        "MaxDiplomacyPlayer": "DIPLOMACY_PEACE",
+        "bNoTeamAllianceAny": "1"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_TRUCE",
-        "MinDiplomacyBarbarian": "DIPLOMACY_TRUCE",
-        "MaxDiplomacyBarbarian": "DIPLOMACY_TRUCE"
+        "zType": "SUBJECTRELATION_PLAYER_PEACE_FRIENDLY",
+        "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
+        "MaxDiplomacyPlayer": "DIPLOMACY_PEACE",
+        "MinOpinionPlayer": "OPINIONPLAYER_FRIENDLY"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_TRUCE_OR_WAR",
-        "MinDiplomacyBarbarian": "DIPLOMACY_TRUCE",
-        "MaxDiplomacyBarbarian": "DIPLOMACY_TRUCE"
+        "zType": "SUBJECTRELATION_TRIBE_PEACE",
+        "MinDiplomacyTribe": "DIPLOMACY_PEACE",
+        "MaxDiplomacyTribe": "DIPLOMACY_PEACE"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_WAR",
-        "MinDiplomacyBarbarian": "DIPLOMACY_WAR",
-        "MaxDiplomacyBarbarian": "DIPLOMACY_WAR"
+        "zType": "SUBJECTRELATION_TRIBE_PEACE_OR_TRUCE",
+        "MinDiplomacyTribe": "DIPLOMACY_PEACE",
+        "MaxDiplomacyTribe": "DIPLOMACY_TRUCE"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_TRUCE",
+        "MinDiplomacyTribe": "DIPLOMACY_TRUCE",
+        "MaxDiplomacyTribe": "DIPLOMACY_TRUCE"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_TRUCE_OR_WAR",
+        "MinDiplomacyTribe": "DIPLOMACY_TRUCE",
+        "MaxDiplomacyTribe": "DIPLOMACY_TRUCE"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_WAR",
+        "MinDiplomacyTribe": "DIPLOMACY_WAR",
+        "MaxDiplomacyTribe": "DIPLOMACY_WAR"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_NO_ALLIANCE",
+        "bNoTribeAllianceAny": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_PEACE_FRIENDLY",
+        "MinDiplomacyTribe": "DIPLOMACY_PEACE",
+        "MaxDiplomacyTribe": "DIPLOMACY_PEACE",
+        "MinOpinionTribe": "OPINIONTRIBE_FRIENDLY"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_VERY_CLOSE",
@@ -382,20 +536,39 @@
         "MaxProximityPlayer": "PROXIMITY_NEAR"
       },
       {
+        "zType": "SUBJECTRELATION_PLAYER_MAX_DISTANT",
+        "MaxProximityPlayer": "PROXIMITY_DISTANT"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_MIN_DISTANT",
         "MinProximityPlayer": "PROXIMITY_DISTANT"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MIN_DISTANT",
-        "MinProximityBarbarian": "PROXIMITY_DISTANT"
+        "zType": "SUBJECTRELATION_TRIBE_MIN_DISTANT",
+        "MinProximityTribe": "PROXIMITY_DISTANT"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MAX_CLOSE",
-        "MaxProximityBarbarian": "PROXIMITY_CLOSE"
+        "zType": "SUBJECTRELATION_TRIBE_MAX_CLOSE",
+        "MaxProximityTribe": "PROXIMITY_CLOSE"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MAX_NEAR",
-        "MaxProximityBarbarian": "PROXIMITY_NEAR"
+        "zType": "SUBJECTRELATION_TRIBE_MAX_NEAR",
+        "MaxProximityTribe": "PROXIMITY_NEAR"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_SIMILAR",
+        "MinStrengthPlayer": "STRENGTH_SIMILAR",
+        "MaxStrengthPlayer": "STRENGTH_SIMILAR"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_STRONGER",
+        "MinStrengthPlayer": "STRENGTH_STRONGER",
+        "MaxStrengthPlayer": "STRENGTH_STRONGER"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_MUCH_STRONGER",
+        "MinStrengthPlayer": "STRENGTH_MUCH_STRONGER",
+        "MaxStrengthPlayer": "STRENGTH_MUCH_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MAX_WEAKER",
@@ -418,12 +591,20 @@
         "MinStrengthPlayer": "STRENGTH_STRONGER"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MIN_SIMILAR",
-        "MinStrengthBarbarian": "STRENGTH_SIMILAR"
+        "zType": "SUBJECTRELATION_TRIBE_MAX_WEAKER",
+        "MaxStrengthTribe": "STRENGTH_WEAKER"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MIN_STRONGER",
-        "MinStrengthBarbarian": "STRENGTH_STRONGER"
+        "zType": "SUBJECTRELATION_TRIBE_MIN_WEAKER",
+        "MinStrengthTribe": "STRENGTH_WEAKER"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_SIMILAR",
+        "MinStrengthTribe": "STRENGTH_SIMILAR"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_STRONGER",
+        "MinStrengthTribe": "STRENGTH_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_ROUTED",
@@ -459,6 +640,14 @@
         "MaxWarStatePlayer": "WARSTATE_NEUTRAL"
       },
       {
+        "zType": "SUBJECTRELATION_PLAYER_MAX_WINNING",
+        "MaxWarStatePlayer": "WARSTATE_WINNING"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_MIN_LOSING",
+        "MinWarStatePlayer": "WARSTATE_LOSING"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_MIN_NEUTRAL",
         "MinWarStatePlayer": "WARSTATE_NEUTRAL"
       },
@@ -467,45 +656,50 @@
         "MinWarStatePlayer": "WARSTATE_WINNING"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_ROUTED",
-        "MinWarStateBarbarian": "WARSTATE_ROUTED",
-        "MaxWarStateBarbarian": "WARSTATE_ROUTED"
+        "zType": "SUBJECTRELATION_PLAYER_NEUTRAL_TO_WINNING",
+        "MinWarStatePlayer": "WARSTATE_NEUTRAL",
+        "MaxWarStatePlayer": "WARSTATE_WINNING"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_LOSING",
-        "MinWarStateBarbarian": "WARSTATE_LOSING",
-        "MaxWarStateBarbarian": "WARSTATE_LOSING"
+        "zType": "SUBJECTRELATION_TRIBE_ROUTED",
+        "MinWarStateTribe": "WARSTATE_ROUTED",
+        "MaxWarStateTribe": "WARSTATE_ROUTED"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_NEUTRAL",
-        "MinWarStateBarbarian": "WARSTATE_NEUTRAL",
-        "MaxWarStateBarbarian": "WARSTATE_NEUTRAL"
+        "zType": "SUBJECTRELATION_TRIBE_LOSING",
+        "MinWarStateTribe": "WARSTATE_LOSING",
+        "MaxWarStateTribe": "WARSTATE_LOSING"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_WINNING",
-        "MinWarStateBarbarian": "WARSTATE_WINNING",
-        "MaxWarStateBarbarian": "WARSTATE_WINNING"
+        "zType": "SUBJECTRELATION_TRIBE_NEUTRAL",
+        "MinWarStateTribe": "WARSTATE_NEUTRAL",
+        "MaxWarStateTribe": "WARSTATE_NEUTRAL"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_TRIUMPHANT",
-        "MinWarStateBarbarian": "WARSTATE_TRIUMPHANT",
-        "MaxWarStateBarbarian": "WARSTATE_TRIUMPHANT"
+        "zType": "SUBJECTRELATION_TRIBE_WINNING",
+        "MinWarStateTribe": "WARSTATE_WINNING",
+        "MaxWarStateTribe": "WARSTATE_WINNING"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MAX_ROUTED",
-        "MaxWarStateBarbarian": "WARSTATE_ROUTED"
+        "zType": "SUBJECTRELATION_TRIBE_TRIUMPHANT",
+        "MinWarStateTribe": "WARSTATE_TRIUMPHANT",
+        "MaxWarStateTribe": "WARSTATE_TRIUMPHANT"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MAX_LOSING",
-        "MaxWarStateBarbarian": "WARSTATE_LOSING"
+        "zType": "SUBJECTRELATION_TRIBE_MAX_ROUTED",
+        "MaxWarStateTribe": "WARSTATE_ROUTED"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MIN_WINNING",
-        "MinWarStateBarbarian": "WARSTATE_WINNING"
+        "zType": "SUBJECTRELATION_TRIBE_MAX_LOSING",
+        "MaxWarStateTribe": "WARSTATE_LOSING"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MIN_TRIUMPHANT",
-        "MinWarStateBarbarian": "WARSTATE_TRIUMPHANT"
+        "zType": "SUBJECTRELATION_TRIBE_MIN_WINNING",
+        "MinWarStateTribe": "WARSTATE_WINNING"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_TRIUMPHANT",
+        "MinWarStateTribe": "WARSTATE_TRIUMPHANT"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_FRIENDLY",
@@ -568,6 +762,10 @@
         "MinOpinionPlayer": "OPINIONPLAYER_PLEASED"
       },
       {
+        "zType": "SUBJECTRELATION_PLAYER_MIN_FRIENDLY",
+        "MinOpinionPlayer": "OPINIONPLAYER_FRIENDLY"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_ANGRY_TO_PLEASED",
         "MinOpinionPlayer": "OPINIONPLAYER_ANGRY",
         "MaxOpinionPlayer": "OPINIONPLAYER_PLEASED"
@@ -598,8 +796,60 @@
         "MaxOpinionPlayer": "OPINIONPLAYER_PLEASED"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_MAX_CAUTIOUS",
-        "MaxOpinionBarbarian": "OPINIONBARBARIAN_CAUTIOUS"
+        "zType": "SUBJECTRELATION_TRIBE_FRIENDLY",
+        "MinOpinionTribe": "OPINIONTRIBE_FRIENDLY"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_PLEASED",
+        "MinOpinionTribe": "OPINIONTRIBE_PLEASED",
+        "MaxOpinionTribe": "OPINIONTRIBE_PLEASED"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_CAUTIOUS",
+        "MinOpinionTribe": "OPINIONTRIBE_CAUTIOUS",
+        "MaxOpinionTribe": "OPINIONTRIBE_CAUTIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_UPSET",
+        "MinOpinionTribe": "OPINIONTRIBE_UPSET",
+        "MaxOpinionTribe": "OPINIONTRIBE_UPSET"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_ANGRY",
+        "MinOpinionTribe": "OPINIONTRIBE_ANGRY",
+        "MaxOpinionTribe": "OPINIONTRIBE_ANGRY"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_FURIOUS",
+        "MaxOpinionTribe": "OPINIONTRIBE_FURIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MAX_ANGRY",
+        "MaxOpinionTribe": "OPINIONTRIBE_ANGRY"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MAX_UPSET",
+        "MaxOpinionTribe": "OPINIONTRIBE_UPSET"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MAX_CAUTIOUS",
+        "MaxOpinionTribe": "OPINIONTRIBE_CAUTIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_CAUTIOUS",
+        "MinOpinionTribe": "OPINIONTRIBE_CAUTIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_PLEASED",
+        "MinOpinionTribe": "OPINIONTRIBE_PLEASED"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_MIN_FRIENDLY",
+        "MinOpinionTribe": "OPINIONTRIBE_FRIENDLY"
+      },
+      {
+        "zType": "SUBJECTRELATION_FAMILY_MAX_PLEASED",
+        "MaxOpinionFamily": "OPINIONFAMILY_PLEASED"
       },
       {
         "zType": "SUBJECTRELATION_FAMILY_MAX_CAUTIOUS",
@@ -616,6 +866,10 @@
       {
         "zType": "SUBJECTRELATION_FAMILY_MAX_FURIOUS",
         "MaxOpinionFamily": "OPINIONFAMILY_FURIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_FAMILY_MIN_UPSET",
+        "MinOpinionFamily": "OPINIONFAMILY_UPSET"
       },
       {
         "zType": "SUBJECTRELATION_FAMILY_MIN_CAUTIOUS",
@@ -646,12 +900,60 @@
         "MaxOpinionCharacter": "OPINIONCHARACTER_FURIOUS"
       },
       {
+        "zType": "SUBJECTRELATION_CHARACTER_MIN_CAUTIOUS",
+        "MinOpinionCharacter": "OPINIONCHARACTER_CAUTIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_MIN_PLEASED",
+        "MinOpinionCharacter": "OPINIONCHARACTER_PLEASED"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_FRIENDLY",
+        "MinOpinionCharacter": "OPINIONCHARACTER_FRIENDLY"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_PLEASED",
+        "MinOpinionCharacter": "OPINIONCHARACTER_PLEASED",
+        "MaxOpinionCharacter": "OPINIONCHARACTER_PLEASED"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_CAUTIOUS",
+        "MinOpinionCharacter": "OPINIONCHARACTER_CAUTIOUS",
+        "MaxOpinionCharacter": "OPINIONCHARACTER_CAUTIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_UPSET",
+        "MinOpinionCharacter": "OPINIONCHARACTER_UPSET",
+        "MaxOpinionCharacter": "OPINIONCHARACTER_UPSET"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_ANGRY",
+        "MinOpinionCharacter": "OPINIONCHARACTER_ANGRY",
+        "MaxOpinionCharacter": "OPINIONCHARACTER_ANGRY"
+      },
+      {
+        "zType": "SUBJECTRELATION_CHARACTER_FURIOUS",
+        "MaxOpinionCharacter": "OPINIONCHARACTER_FURIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_NOT_DESCENDANT",
+        "bNotDescendant": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_BEHIND_SUCCESSION",
         "bBehindSuccession": "1"
       },
       {
+        "zType": "SUBJECTRELATION_CAN_ADOPT",
+        "bCanAdopt": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_ATTRACTED_TO",
         "bAttractedTo": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_MUTUAL_ATTRACTION",
+        "bAttractedMutual": "1"
       },
       {
         "zType": "SUBJECTRELATION_GENDER_SAME",
@@ -662,28 +964,79 @@
         "bGenderDiff": "1"
       },
       {
+        "zType": "SUBJECTRELATION_YOUNGER",
+        "bYounger": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_OLDER",
+        "bOlder": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_SIMILAR_AGE",
+        "bSimilarAge": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_ARCHETYPE_SAME",
+        "bArchetypeSame": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_ARCHETYPE_DIFF",
+        "bArchetypeDiff": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_ARCHETYPE_DISLIKES",
+        "bArchetypeDislikes": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_SAME",
-        "bPlayerSame": "1"
+        "bPlayerSame": "1",
+        "bNoDebugHelp": "1"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_DIFF",
         "bPlayerDiff": "1"
       },
       {
+        "zType": "SUBJECTRELATION_NATION_ETHNICITY",
+        "bNationEthnicity": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_NATION_SAME",
+        "bNationSame": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_NATION_DIFF",
+        "bNationDiff": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_ALLIANCE",
-        "bPlayerAlliance": "1"
+        "bTeamAlliance": "1"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_SAME",
-        "bBarbarianSame": "1"
+        "zType": "SUBJECTRELATION_CAN_END_WAR",
+        "bCanEndWar": "1"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_DIFF",
-        "bBarbarianDiff": "1"
+        "zType": "SUBJECTRELATION_MIN_CONFLICT_TURNS",
+        "zName": "Shorter than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)",
+        "bMinTreatyTurns": "1"
       },
       {
-        "zType": "SUBJECTRELATION_BARBARIAN_ALLIANCE",
-        "bBarbarianAlliance": "1"
+        "zType": "SUBJECTRELATION_TRIBE_ETHNICITY",
+        "bTribeEthnicity": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_SAME",
+        "bTribeSame": "1",
+        "bNoDebugHelp": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_DIFF",
+        "bTribeDiff": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_ALLIANCE",
+        "bTribeAlliance": "1"
       },
       {
         "zType": "SUBJECTRELATION_FAMILY_SAME",
@@ -718,6 +1071,14 @@
         "bReligionPlayerNo": "1"
       },
       {
+        "zType": "SUBJECTRELATION_RELIGION_MAX_UPSET",
+        "MaxOpinionReligion": "OPINIONRELIGION_UPSET"
+      },
+      {
+        "zType": "SUBJECTRELATION_RELIGION_MAX_ANGRY",
+        "MaxOpinionReligion": "OPINIONRELIGION_ANGRY"
+      },
+      {
         "zType": "SUBJECTRELATION_RELIGION_CITY",
         "bReligionCity": "1"
       },
@@ -730,32 +1091,56 @@
         "bReligionHolyCity": "1"
       },
       {
+        "zType": "SUBJECTRELATION_RELIGION_HEAD",
+        "bReligionHead": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TECH_ACQUIRED",
+        "bTechAcquired": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TECH_NOT_ACQUIRED",
+        "bTechNotAcquired": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TECH_SAME_COST",
+        "bTechSameCost": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_LAW_ACTIVE",
         "bLawActive": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_LAW_INACTIVE",
+        "bLawInactive": "1"
       },
       {
         "zType": "SUBJECTRELATION_LAW_POSITIVE",
         "bLawPositive": "1"
       },
       {
+        "zType": "SUBJECTRELATION_LAW_MIN_NEUTRAL",
+        "bLawMinNeutral": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_LAW_NEGATIVE",
         "bLawNegative": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_LAW_CLASS_SAME",
+        "bLawClassSame": "1"
       },
       {
         "zType": "SUBJECTRELATION_THEOLOGY_ACTIVE",
         "bTheologyActive": "1"
       },
       {
-        "zType": "SUBJECTRELATION_THEOLOGY_POSITIVE",
-        "bTheologyPositive": "1"
-      },
-      {
-        "zType": "SUBJECTRELATION_THEOLOGY_NEGATIVE",
-        "bTheologyNegative": "1"
-      },
-      {
         "zType": "SUBJECTRELATION_PLAYER_LUXURY",
         "bPlayerLuxury": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_FAMILY_MISSING",
+        "bFamilyMissing": "1"
       },
       {
         "zType": "SUBJECTRELATION_TILE_RESOURCE",
@@ -766,8 +1151,36 @@
         "bCitySame": "1"
       },
       {
+        "zType": "SUBJECTRELATION_CITY_DIFF",
+        "bCityDiff": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_CITY_ORIGINAL",
+        "bCityOriginal": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_CITY_CLOSEST",
+        "bCityClosest": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_CITY_TERRITORY_SAME",
+        "bCityTerritorySame": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_FIRST_PLAYER",
+        "bFirstPlayer": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_UNIT_SAME",
         "bUnitSame": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TILE_SAME",
+        "bTileSame": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TILE_ADJACENT",
+        "bTileAdjacent": "1"
       },
       {
         "zType": "SUBJECTRELATION_MISSION_PLAYER_PLAYER_WAR",

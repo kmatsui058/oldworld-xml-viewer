@@ -51,6 +51,12 @@
         "zHexValue": "#e9e691"
       },
       {
+        "zType": "COLOR_WHITE",
+        "zName": "White",
+        "ColorClass": "COLORCLASS_TEXT",
+        "zHexValue": "#ffffffff"
+      },
+      {
         "zType": "COLOR_POSITIVE",
         "zName": "Positive",
         "ColorClass": "COLORCLASS_TEXT",
@@ -180,13 +186,13 @@
         "zType": "COLOR_SLEEP",
         "zName": "Sleep",
         "ColorClass": "COLORCLASS_STATUS",
-        "zHexValue": "#d4caffff"
+        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_COOLDOWN",
         "zName": "Cooldown",
         "ColorClass": "COLORCLASS_STATUS",
-        "zHexValue": "#ff876fff"
+        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_HEIGHT_HILL",
@@ -282,7 +288,7 @@
         "zType": "COLOR_UNIT_MOVE",
         "zName": "Move",
         "ColorClass": "COLORCLASS_HEALTH",
-        "zHexValue": "#00ffffff"
+        "zHexValue": "#ffffffff"
       },
       {
         "zType": "COLOR_UNIT_FATIGUE_MOVE",
@@ -381,6 +387,12 @@
         "zHexValue": "#ffff00ff"
       },
       {
+        "zType": "COLOR_RESOURCE",
+        "zName": "Resource",
+        "ColorClass": "COLORCLASS_OVERLAYS",
+        "zHexValue": "#bbbbbb33"
+      },
+      {
         "zType": "COLOR_NATION_ASSYRIA",
         "zName": "Assyria",
         "ColorClass": "COLORCLASS_NATIONS",
@@ -396,109 +408,97 @@
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_01",
         "zName": "Assyria Family 1",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ab552b"
+        "zHexValue": "#b53c01"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_01_TEXT",
         "zName": "Assyria Family 1 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ab552b"
+        "zHexValue": "#b53c01"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_02",
         "zName": "Assyria Family 2",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#9d3012"
+        "zHexValue": "#658d16"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_02_TEXT",
         "zName": "Assyria Family 2 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#9d3012"
+        "zHexValue": "#658d16"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_03",
         "zName": "Assyria Family 3",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#887d34"
+        "zHexValue": "#aeaa94"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_03_TEXT",
         "zName": "Assyria Family 3 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#887d34"
+        "zHexValue": "#aeaa94"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_04",
         "zName": "Assyria Family 4",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#b8474a"
+        "zHexValue": "#ff829f"
       },
       {
         "zType": "COLOR_NATION_ASSYRIA_FAMILY_04_TEXT",
         "zName": "Assyria Family 4 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#b8474a"
+        "zHexValue": "#ff829f"
       },
       {
-        "zType": "COLOR_NATION_ASSYRIA_FAMILY_05",
-        "zName": "Assyria Family 5",
+        "zType": "COLOR_NATION_ASSYRIA_FAMILY_NONE",
+        "zName": "Assyria Family None",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#4f83c3"
       },
       {
-        "zType": "COLOR_NATION_ASSYRIA_FAMILY_05_TEXT",
-        "zName": "Assyria Family 5 Text",
+        "zType": "COLOR_NATION_ASSYRIA_FAMILY_NONE_TEXT",
+        "zName": "Assyria Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#4f83c3"
-      },
-      {
-        "zType": "COLOR_NATION_ASSYRIA_FAMILY_06",
-        "zName": "Assyria Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_NATION_ASSYRIA_FAMILY_06_TEXT",
-        "zName": "Assyria Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA",
         "zName": "Babylon",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#257b79"
+        "zHexValue": "#147a18"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_TEXT",
         "zName": "Babylon Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#257b79"
+        "zHexValue": "#147a18"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_01",
         "zName": "Babylon Family 1",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#c35ce6"
+        "zHexValue": "#c7ddff"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_01_TEXT",
         "zName": "Babylon Family 1 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#c35ce6"
+        "zHexValue": "#c7ddff"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_02",
         "zName": "Babylon Family 2",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#3eec9c"
+        "zHexValue": "#6dadfb"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_02_TEXT",
         "zName": "Babylon Family 2 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#3eec9c"
+        "zHexValue": "#6dadfb"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_03",
@@ -516,37 +516,25 @@
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_04",
         "zName": "Babylon Family 4",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#384fa8"
+        "zHexValue": "#8aff7f"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_04_TEXT",
         "zName": "Babylon Family 4 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#384fa8"
+        "zHexValue": "#8aff7f"
       },
       {
-        "zType": "COLOR_NATION_BABYLONIA_FAMILY_05",
-        "zName": "Babylon Family 5",
+        "zType": "COLOR_NATION_BABYLONIA_FAMILY_NONE",
+        "zName": "Babylon Family None",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#2d5e6fff"
+        "zHexValue": "#6dadfb"
       },
       {
-        "zType": "COLOR_NATION_BABYLONIA_FAMILY_05_TEXT",
-        "zName": "Babylon Family 5 Text",
+        "zType": "COLOR_NATION_BABYLONIA_FAMILY_NONE_TEXT",
+        "zName": "Babylon Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#2d5e6fff"
-      },
-      {
-        "zType": "COLOR_NATION_BABYLONIA_FAMILY_06",
-        "zName": "Babylon Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#efefef"
-      },
-      {
-        "zType": "COLOR_NATION_BABYLONIA_FAMILY_06_TEXT",
-        "zName": "Babylon Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#efefef"
+        "zHexValue": "#6dadfb"
       },
       {
         "zType": "COLOR_NATION_CARTHAGE",
@@ -609,28 +597,16 @@
         "zHexValue": "#b47800"
       },
       {
-        "zType": "COLOR_NATION_CARTHAGE_FAMILY_05",
-        "zName": "Carthage Family 5",
+        "zType": "COLOR_NATION_CARTHAGE_FAMILY_NONE",
+        "zName": "Carthage Family None",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#8acb61"
       },
       {
-        "zType": "COLOR_NATION_CARTHAGE_FAMILY_05_TEXT",
-        "zName": "Carthage Family 5 Text",
+        "zType": "COLOR_NATION_CARTHAGE_FAMILY_NONE_TEXT",
+        "zName": "Carthage Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#8acb61"
-      },
-      {
-        "zType": "COLOR_NATION_CARTHAGE_FAMILY_06",
-        "zName": "Carthage Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#f0a7d6"
-      },
-      {
-        "zType": "COLOR_NATION_CARTHAGE_FAMILY_06_TEXT",
-        "zName": "Carthage Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#f0a7d6"
       },
       {
         "zType": "COLOR_NATION_EGYPT",
@@ -693,34 +669,22 @@
         "zHexValue": "#e8f815"
       },
       {
-        "zType": "COLOR_NATION_EGYPT_FAMILY_05",
-        "zName": "Egypt Family 5",
+        "zType": "COLOR_NATION_EGYPT_FAMILY_NONE",
+        "zName": "Egypt Family None",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#6bd5dc"
       },
       {
-        "zType": "COLOR_NATION_EGYPT_FAMILY_05_TEXT",
-        "zName": "Egypt Family 5 Text",
+        "zType": "COLOR_NATION_EGYPT_FAMILY_NONE_TEXT",
+        "zName": "Egypt Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#6bd5dc"
-      },
-      {
-        "zType": "COLOR_NATION_EGYPT_FAMILY_06",
-        "zName": "Egypt Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_NATION_EGYPT_FAMILY_06_TEXT",
-        "zName": "Egypt Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_NATION_GREECE",
         "zName": "Greece",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#0f3978"
+        "zHexValue": "#2360bc"
       },
       {
         "zType": "COLOR_NATION_GREECE_TEXT",
@@ -777,34 +741,22 @@
         "zHexValue": "#3fffdd"
       },
       {
-        "zType": "COLOR_NATION_GREECE_FAMILY_05",
-        "zName": "Greece Family 5",
+        "zType": "COLOR_NATION_GREECE_FAMILY_NONE",
+        "zName": "Greece Family None",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#8ad04b"
       },
       {
-        "zType": "COLOR_NATION_GREECE_FAMILY_05_TEXT",
-        "zName": "Greece Family 5 Text",
+        "zType": "COLOR_NATION_GREECE_FAMILY_NONE_TEXT",
+        "zName": "Greece Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#8ad04b"
-      },
-      {
-        "zType": "COLOR_NATION_GREECE_FAMILY_06",
-        "zName": "Greece Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_NATION_GREECE_FAMILY_06_TEXT",
-        "zName": "Greece Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_NATION_ROME",
         "zName": "Rome",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#65034bff"
+        "zHexValue": "#880d56"
       },
       {
         "zType": "COLOR_NATION_ROME_TEXT",
@@ -861,28 +813,16 @@
         "zHexValue": "#e9bf4e"
       },
       {
-        "zType": "COLOR_NATION_ROME_FAMILY_05",
-        "zName": "Rome Family 5",
+        "zType": "COLOR_NATION_ROME_FAMILY_NONE",
+        "zName": "Rome Family None",
+        "ColorClass": "COLORCLASS_NATIONS",
+        "zHexValue": "#cc4b4b"
+      },
+      {
+        "zType": "COLOR_NATION_ROME_FAMILY_NONE_TEXT",
+        "zName": "Rome Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#bf1431"
-      },
-      {
-        "zType": "COLOR_NATION_ROME_FAMILY_05_TEXT",
-        "zName": "Rome Family 5 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#bf1431"
-      },
-      {
-        "zType": "COLOR_NATION_ROME_FAMILY_06",
-        "zName": "Rome Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_NATION_ROME_FAMILY_06_TEXT",
-        "zName": "Rome Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_NATION_PERSIA",
@@ -945,34 +885,22 @@
         "zHexValue": "#7ba0ff"
       },
       {
-        "zType": "COLOR_NATION_PERSIA_FAMILY_05",
-        "zName": "Persia Family 5",
+        "zType": "COLOR_NATION_PERSIA_FAMILY_NONE",
+        "zName": "Persia Family None",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#828282ff"
       },
       {
-        "zType": "COLOR_NATION_PERSIA_FAMILY_05_TEXT",
-        "zName": "Persia Family 5 Text",
+        "zType": "COLOR_NATION_PERSIA_FAMILY_NONE_TEXT",
+        "zName": "Persia Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
         "zHexValue": "#828282ff"
-      },
-      {
-        "zType": "COLOR_NATION_PERSIA_FAMILY_06",
-        "zName": "Persia Family 6",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_NATION_PERSIA_FAMILY_06_TEXT",
-        "zName": "Persia Family 6 Text",
-        "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ffffff"
       },
       {
         "zType": "COLOR_BARBARIANS",
         "zName": "Tribes",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#000000"
+        "zHexValue": "#323030"
       },
       {
         "zType": "COLOR_BARBARIANS_SECONDARY",
@@ -1014,13 +942,13 @@
         "zType": "COLOR_BARBARIAN_TRIBE_03",
         "zName": "Tribe 3",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#7a45cd"
+        "zHexValue": "#9c5dff"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_03_TEXT",
         "zName": "Tribe 3 Text",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#7a45cd"
+        "zHexValue": "#9c5dff"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_04",
@@ -1050,13 +978,13 @@
         "zType": "COLOR_BARBARIAN_TRIBE_06",
         "zName": "Tribe 6",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#6e6e6e"
+        "zHexValue": "#e6e1ca"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_06_TEXT",
         "zName": "Tribe 6 Text",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#6e6e6e"
+        "zHexValue": "#e6e1ca"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_07",
@@ -1074,571 +1002,457 @@
         "zType": "COLOR_TEAM_01",
         "zName": "Team 1",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#0f3978ff"
+        "zHexValue": "#2162c2"
       },
       {
         "zType": "COLOR_TEAM_01_TEXT",
         "zName": "Team 1 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#1e70d5ff"
+        "zHexValue": "#2162c2"
       },
       {
         "zType": "COLOR_TEAM_01_SECONDARY",
         "zName": "Team 1 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#154fa4ff"
+        "zHexValue": "#32a2c1"
       },
       {
-        "zType": "COLOR_TEAM_01_PLAYER_01",
-        "zName": "Team 1 Player 1",
+        "zType": "COLOR_TEAM_01_FIRST",
+        "zName": "Team 1 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#32a2c1ff"
+        "zHexValue": "#3fc8ee"
       },
       {
-        "zType": "COLOR_TEAM_01_PLAYER_01_TEXT",
-        "zName": "Team 1 Player 1 Text",
+        "zType": "COLOR_TEAM_01_FIRST_TEXT",
+        "zName": "Team 1 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#32a2c1ff"
+        "zHexValue": "#3fc8ee"
       },
       {
-        "zType": "COLOR_TEAM_01_PLAYER_02",
-        "zName": "Team 1 Player 2",
+        "zType": "COLOR_TEAM_01_OTHERS",
+        "zName": "Team 1 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#6b46c7ff"
+        "zHexValue": "#8acb61"
       },
       {
-        "zType": "COLOR_TEAM_01_PLAYER_02_TEXT",
-        "zName": "Team 1 Player 2 Text",
+        "zType": "COLOR_TEAM_01_OTHERS_TEXT",
+        "zName": "Team 1 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#6b46c7ff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_03",
-        "zName": "Team 1 Player 3",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#87d457ff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_03_TEXT",
-        "zName": "Team 1 Player 3 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#87d457ff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_04",
-        "zName": "Team 1 Player 4",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_04_TEXT",
-        "zName": "Team 1 Player 4 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_05",
-        "zName": "Team 1 Player 5",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e3d12fff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_05_TEXT",
-        "zName": "Team 1 Player 5 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e3d12fff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_06",
-        "zName": "Team 1 Player 6",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7f3639ff"
-      },
-      {
-        "zType": "COLOR_TEAM_01_PLAYER_06_TEXT",
-        "zName": "Team 1 Player 6 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7f3639ff"
+        "zHexValue": "#8acb61"
       },
       {
         "zType": "COLOR_TEAM_02",
         "zName": "Team 2",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#c94736ff"
+        "zHexValue": "#bf1431"
       },
       {
         "zType": "COLOR_TEAM_02_TEXT",
         "zName": "Team 2 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#c94736ff"
+        "zHexValue": "#bf1431"
       },
       {
         "zType": "COLOR_TEAM_02_SECONDARY",
         "zName": "Team 2 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#d94f43ff"
+        "zHexValue": "#4f4f56"
       },
       {
         "zType": "COLOR_TEAM_02_PLAYER_01",
         "zName": "Team 2 Player 1",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f7d00cff"
+        "zHexValue": "#4f4f56"
       },
       {
-        "zType": "COLOR_TEAM_02_PLAYER_01_TEXT",
-        "zName": "Team 2 Player 1 Text",
+        "zType": "COLOR_TEAM_02_FIRST",
+        "zName": "Team 2 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f7d00cff"
+        "zHexValue": "#4f4f56"
       },
       {
-        "zType": "COLOR_TEAM_02_PLAYER_02",
-        "zName": "Team 2 Player 2",
+        "zType": "COLOR_TEAM_02_FIRST_TEXT",
+        "zName": "Team 2 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7a2513ff"
+        "zHexValue": "#4f4f56"
       },
       {
-        "zType": "COLOR_TEAM_02_PLAYER_02_TEXT",
-        "zName": "Team 2 Player 2 Text",
+        "zType": "COLOR_TEAM_02_OTHERS",
+        "zName": "Team 2 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7a2513ff"
+        "zHexValue": "#fddfae"
       },
       {
-        "zType": "COLOR_TEAM_02_PLAYER_03",
-        "zName": "Team 2 Player 3",
+        "zType": "COLOR_TEAM_02_OTHERS_TEXT",
+        "zName": "Team 2 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ff7329ff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_03_TEXT",
-        "zName": "Team 2 Player 3 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ff7329ff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_04",
-        "zName": "Team 2 Player 4",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_04_TEXT",
-        "zName": "Team 2 Player 4 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_05",
-        "zName": "Team 2 Player 5",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f66994ff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_05_TEXT",
-        "zName": "Team 2 Player 5 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f66994ff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_06",
-        "zName": "Team 2 Player 6",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#556db4ff"
-      },
-      {
-        "zType": "COLOR_TEAM_02_PLAYER_06_TEXT",
-        "zName": "Team 2 Player 6 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#556db4ff"
+        "zHexValue": "#fddfae"
       },
       {
         "zType": "COLOR_TEAM_03",
         "zName": "Team 3",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ec8d32ff"
+        "zHexValue": "#4f4f56"
       },
       {
         "zType": "COLOR_TEAM_03_TEXT",
         "zName": "Team 3 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ec8d32ff"
+        "zHexValue": "#4f4f56"
       },
       {
         "zType": "COLOR_TEAM_03_SECONDARY",
         "zName": "Team 3 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ec8d32ff"
+        "zHexValue": "#fdee2d"
       },
       {
-        "zType": "COLOR_TEAM_03_PLAYER_01",
-        "zName": "Team 3 Player 1",
+        "zType": "COLOR_TEAM_03_FIRST",
+        "zName": "Team 3 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f4e55cff"
+        "zHexValue": "#fdee2d"
       },
       {
-        "zType": "COLOR_TEAM_03_PLAYER_01_TEXT",
-        "zName": "Team 3 Player 1 Text",
+        "zType": "COLOR_TEAM_03_FIRST_TEXT",
+        "zName": "Team 3 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f4e55cff"
+        "zHexValue": "#fdee2d"
       },
       {
-        "zType": "COLOR_TEAM_03_PLAYER_02",
-        "zName": "Team 3 Player 2",
+        "zType": "COLOR_TEAM_03_OTHERS",
+        "zName": "Team 3 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#66378cff"
+        "zHexValue": "#32a2c3ff"
       },
       {
-        "zType": "COLOR_TEAM_03_PLAYER_02_TEXT",
-        "zName": "Team 3 Player 2 Text",
+        "zType": "COLOR_TEAM_03_OTHERS_TEXT",
+        "zName": "Team 3 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#66378cff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_03",
-        "zName": "Team 3 Player 3",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#599749ff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_03_TEXT",
-        "zName": "Team 3 Player 3 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#599749ff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_04",
-        "zName": "Team 3 Player 4",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b5211dff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_04_TEXT",
-        "zName": "Team 3 Player 4 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b5211dff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_05",
-        "zName": "Team 3 Player 5",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#81d5dbff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_05_TEXT",
-        "zName": "Team 3 Player 5 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#81d5dbff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_06",
-        "zName": "Team 3 Player 6",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_03_PLAYER_06_TEXT",
-        "zName": "Team 3 Player 6 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#100020"
       },
       {
         "zType": "COLOR_TEAM_04",
         "zName": "Team 4",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#69245aff"
+        "zHexValue": "#f6efe1"
       },
       {
         "zType": "COLOR_TEAM_04_TEXT",
         "zName": "Team 4 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#69245aff"
+        "zHexValue": "#f6efe1"
       },
       {
         "zType": "COLOR_TEAM_04_SECONDARY",
         "zName": "Team 4 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#69245aff"
+        "zHexValue": "#2d5e6f"
       },
       {
-        "zType": "COLOR_TEAM_04_PLAYER_01",
-        "zName": "Team 4 Player 1",
+        "zType": "COLOR_TEAM_04_FIRST",
+        "zName": "Team 4 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e0802bff"
+        "zHexValue": "#2d5e6f"
       },
       {
-        "zType": "COLOR_TEAM_04_PLAYER_01_TEXT",
-        "zName": "Team 4 Player 1 Text",
+        "zType": "COLOR_TEAM_04_FIRST_TEXT",
+        "zName": "Team 4 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e0802bff"
+        "zHexValue": "#2d5e6f"
       },
       {
-        "zType": "COLOR_TEAM_04_PLAYER_02",
-        "zName": "Team 4 Player 2",
+        "zType": "COLOR_TEAM_04_OTHERS",
+        "zName": "Team 4 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#8fdcccff"
+        "zHexValue": "#ac5996"
       },
       {
-        "zType": "COLOR_TEAM_04_PLAYER_02_TEXT",
-        "zName": "Team 4 Player 2 Text",
+        "zType": "COLOR_TEAM_04_OTHERS_TEXT",
+        "zName": "Team 4 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#8fdcccff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_03",
-        "zName": "Team 4 Player 3",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#75b84dff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_03_TEXT",
-        "zName": "Team 4 Player 3 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#75b84dff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_04",
-        "zName": "Team 4 Player 4",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#fbe848ff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_04_TEXT",
-        "zName": "Team 4 Player 4 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#fbe848ff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_05",
-        "zName": "Team 4 Player 5",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b31234ff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_05_TEXT",
-        "zName": "Team 4 Player 5 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b31234ff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_06",
-        "zName": "Team 4 Player 6",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
-      },
-      {
-        "zType": "COLOR_TEAM_04_PLAYER_06_TEXT",
-        "zName": "Team 4 Player 6 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffffff"
+        "zHexValue": "#ac5996"
       },
       {
         "zType": "COLOR_TEAM_05",
         "zName": "Team 5",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f5efe2ff"
+        "zHexValue": "#e8f815"
       },
       {
         "zType": "COLOR_TEAM_05_TEXT",
         "zName": "Team 5 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f5efe2ff"
+        "zHexValue": "#e8f815"
       },
       {
         "zType": "COLOR_TEAM_05_SECONDARY",
         "zName": "Team 5 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f5efe2ff"
+        "zHexValue": "#963100"
       },
       {
-        "zType": "COLOR_TEAM_05_PLAYER_01",
-        "zName": "Team 5 Player 1",
+        "zType": "COLOR_TEAM_05_FIRST",
+        "zName": "Team 5 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b03c2dff"
+        "zHexValue": "#963100"
       },
       {
-        "zType": "COLOR_TEAM_05_PLAYER_01_TEXT",
-        "zName": "Team 5 Player 1 Text",
+        "zType": "COLOR_TEAM_05_FIRST_TEXT",
+        "zName": "Team 5 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b03c2dff"
+        "zHexValue": "#963100"
       },
       {
-        "zType": "COLOR_TEAM_05_PLAYER_02",
-        "zName": "Team 5 Player 2",
+        "zType": "COLOR_TEAM_05_OTHERS",
+        "zName": "Team 5 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#5fabfaff"
+        "zHexValue": "#8ad04b"
       },
       {
-        "zType": "COLOR_TEAM_05_PLAYER_02_TEXT",
-        "zName": "Team 5 Player 2 Text",
+        "zType": "COLOR_TEAM_05_OTHERS_TEXT",
+        "zName": "Team 5 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#5fabfaff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_03",
-        "zName": "Team 5 Player 3",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f49940ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_03_TEXT",
-        "zName": "Team 5 Player 3 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#f49940ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_04",
-        "zName": "Team 5 Player 4",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#5352b0ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_04_TEXT",
-        "zName": "Team 5 Player 4 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#5352b0ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_05",
-        "zName": "Team 5 Player 5",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#94c968ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_05_TEXT",
-        "zName": "Team 5 Player 5 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#94c968ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_06",
-        "zName": "Team 5 Player 6",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e8a8d5ff"
-      },
-      {
-        "zType": "COLOR_TEAM_05_PLAYER_06_TEXT",
-        "zName": "Team 5 Player 6 Text",
-        "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e8a8d5ff"
+        "zHexValue": "#8ad04b"
       },
       {
         "zType": "COLOR_TEAM_06",
         "zName": "Team 6",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#1c3c76ff"
+        "zHexValue": "#158861"
       },
       {
         "zType": "COLOR_TEAM_06_SECONDARY",
         "zName": "Team 6 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#1c3c76ff"
+        "zHexValue": "#fa6cf2"
       },
       {
         "zType": "COLOR_TEAM_06_TEXT",
         "zName": "Team 6 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#1c3c76ff"
+        "zHexValue": "#158861"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_01",
-        "zName": "Team 6 Player 1",
+        "zType": "COLOR_TEAM_06_FIRST",
+        "zName": "Team 6 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e0ce44ff"
+        "zHexValue": "#fa6cf2"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_01_TEXT",
-        "zName": "Team 6 Player 1 Text",
+        "zType": "COLOR_TEAM_06_FIRST_TEXT",
+        "zName": "Team 6 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#e0ce44ff"
+        "zHexValue": "#fa6cf2"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_02",
-        "zName": "Team 6 Player 2",
+        "zType": "COLOR_TEAM_06_OTHERS",
+        "zName": "Team 6 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7ecbb0ff"
+        "zHexValue": "#9293ff"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_02_TEXT",
-        "zName": "Team 6 Player 2 Text",
+        "zType": "COLOR_TEAM_06_OTHERS_TEXT",
+        "zName": "Team 6 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#7ecbb0ff"
+        "zHexValue": "#9293ff"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_03",
-        "zName": "Team 6 Player 3",
+        "zType": "COLOR_TEAM_07",
+        "zName": "Team 7",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b4331eff"
+        "zHexValue": "#ffabe8"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_03_TEXT",
-        "zName": "Team 6 Player 3 Text",
+        "zType": "COLOR_TEAM_07_SECONDARY",
+        "zName": "Team 7 Secondary",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#b4331eff"
+        "zHexValue": "#65034b"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_04",
-        "zName": "Team 6 Player 4",
+        "zType": "COLOR_TEAM_07_TEXT",
+        "zName": "Team 7 Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#c56c31ff"
+        "zHexValue": "#ffabe8"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_04_TEXT",
-        "zName": "Team 6 Player 4 Text",
+        "zType": "COLOR_TEAM_07_FIRST",
+        "zName": "Team 7 First",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#c56c31ff"
+        "zHexValue": "#65034b"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_05",
-        "zName": "Team 6 Player 5",
+        "zType": "COLOR_TEAM_07_FIRST_TEXT",
+        "zName": "Team 7 First Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#95ce56ff"
+        "zHexValue": "#65034b"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_05_TEXT",
-        "zName": "Team 6 Player 5 Text",
+        "zType": "COLOR_TEAM_07_OTHERS",
+        "zName": "Team 7 Others",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#95ce56ff"
+        "zHexValue": "#3eec9c"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_06",
-        "zName": "Team 6 Player 6",
+        "zType": "COLOR_TEAM_07_OTHERS_TEXT",
+        "zName": "Team 7 Others Text",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#3eec9c"
       },
       {
-        "zType": "COLOR_TEAM_06_PLAYER_06_TEXT",
-        "zName": "Team 6 Player 6 Text",
+        "zType": "COLOR_TEAM_08",
+        "zName": "Team 8",
         "ColorClass": "COLORCLASS_PLAYERS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#f88f1f"
+      },
+      {
+        "zType": "COLOR_TEAM_08_SECONDARY",
+        "zName": "Team 8 Secondary",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#933838"
+      },
+      {
+        "zType": "COLOR_TEAM_08_TEXT",
+        "zName": "Team 8 Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#f88f1f"
+      },
+      {
+        "zType": "COLOR_TEAM_08_FIRST",
+        "zName": "Team 8 First",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#933838"
+      },
+      {
+        "zType": "COLOR_TEAM_08_FIRST_TEXT",
+        "zName": "Team 8 First Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#933838"
+      },
+      {
+        "zType": "COLOR_TEAM_08_OTHERS",
+        "zName": "Team 8 Others",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#4c6b0e"
+      },
+      {
+        "zType": "COLOR_TEAM_08_OTHERS_TEXT",
+        "zName": "Team 8 Others Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#4c6b0e"
+      },
+      {
+        "zType": "COLOR_TEAM_09",
+        "zName": "Team 9",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#999686"
+      },
+      {
+        "zType": "COLOR_TEAM_09_SECONDARY",
+        "zName": "Team 9 Secondary",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#8ad04b"
+      },
+      {
+        "zType": "COLOR_TEAM_09_TEXT",
+        "zName": "Team 9 Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#999686"
+      },
+      {
+        "zType": "COLOR_TEAM_09_FIRST",
+        "zName": "Team 9 First",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#8ad04b"
+      },
+      {
+        "zType": "COLOR_TEAM_09_FIRST_TEXT",
+        "zName": "Team 9 First Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#8ad04b"
+      },
+      {
+        "zType": "COLOR_TEAM_09_OTHERS",
+        "zName": "Team 9 Others",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#e1c35d"
+      },
+      {
+        "zType": "COLOR_TEAM_09_OTHERS_TEXT",
+        "zName": "Team 9 Others Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#e1c35d"
+      },
+      {
+        "zType": "COLOR_TEAM_10",
+        "zName": "Team 10",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#fadc3b"
+      },
+      {
+        "zType": "COLOR_TEAM_10_SECONDARY",
+        "zName": "Team 10 Secondary",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#ab2c38"
+      },
+      {
+        "zType": "COLOR_TEAM_10_TEXT",
+        "zName": "Team 10 Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#fadc3b"
+      },
+      {
+        "zType": "COLOR_TEAM_10_FIRST",
+        "zName": "Team 10 First",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#ab2c38"
+      },
+      {
+        "zType": "COLOR_TEAM_10_FIRST_TEXT",
+        "zName": "Team 10 First Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#ab2c38"
+      },
+      {
+        "zType": "COLOR_TEAM_10_OTHERS",
+        "zName": "Team 10 Others",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#4f4f56"
+      },
+      {
+        "zType": "COLOR_TEAM_10_OTHERS_TEXT",
+        "zName": "Team 10 Others Text",
+        "ColorClass": "COLORCLASS_PLAYERS",
+        "zHexValue": "#4f4f56"
       },
       {
         "zType": "COLOR_YIELD_GROWTH",
         "zName": "Growth",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#2dbe78"
       },
       {
         "zType": "COLOR_YIELD_CIVICS",
         "zName": "Civics",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#b47b44"
+        "zHexValue": "#d78d46"
       },
       {
         "zType": "COLOR_YIELD_TRAINING",
         "zName": "Training",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#f77d76"
+        "zHexValue": "#a93b3b"
       },
       {
         "zType": "COLOR_YIELD_CULTURE",
         "zName": "Culture",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#43B2B0"
       },
       {
         "zType": "COLOR_YIELD_DISCONTENT",
         "zName": "Discontent",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#ffffff"
+        "zHexValue": "#A47EBF"
       },
       {
         "zType": "COLOR_YIELD_SCIENCE",
@@ -1749,10 +1563,10 @@
         "zHexValue": "#2a9c3aff"
       },
       {
-        "zType": "COLOR_RATING_COURAGE",
-        "zName": "Courage",
+        "zType": "COLOR_RATING_WISDOM",
+        "zName": "Wisdom",
         "ColorClass": "COLORCLASS_RATINGS",
-        "zHexValue": "#dc5a43"
+        "zHexValue": "#31a157"
       },
       {
         "zType": "COLOR_RATING_CHARISMA",
@@ -1761,16 +1575,22 @@
         "zHexValue": "#dcaf43"
       },
       {
+        "zType": "COLOR_RATING_COURAGE",
+        "zName": "Courage",
+        "ColorClass": "COLORCLASS_RATINGS",
+        "zHexValue": "#dc5a43"
+      },
+      {
         "zType": "COLOR_RATING_DISCIPLINE",
         "zName": "Discipline",
         "ColorClass": "COLORCLASS_RATINGS",
         "zHexValue": "#3a4b96"
       },
       {
-        "zType": "COLOR_RATING_WISDOM",
-        "zName": "Wisdom",
-        "ColorClass": "COLORCLASS_RATINGS",
-        "zHexValue": "#31a157"
+        "zType": "COLOR_DIPLOMACY_TEAM",
+        "zName": "Team",
+        "ColorClass": "COLORCLASS_RELATIONSHIPS",
+        "zHexValue": "#00e2ffff"
       },
       {
         "zType": "COLOR_DIPLOMACY_PEACE",
@@ -1795,6 +1615,18 @@
         "zName": "Inactive",
         "ColorClass": "COLORCLASS_RELATIONSHIPS",
         "zHexValue": "#ffffff44"
+      },
+      {
+        "zType": "COLOR_SETTLER_MAIN",
+        "zName": "Settler Main",
+        "ColorClass": "COLORCLASS_SELECTION",
+        "zHexValue": "#e7d5a3"
+      },
+      {
+        "zType": "COLOR_SETTLER_FLAG_TRIM",
+        "zName": "Settler Flag and Trim",
+        "ColorClass": "COLORCLASS_SELECTION",
+        "zHexValue": "#8d6651"
       }
     ]
   }

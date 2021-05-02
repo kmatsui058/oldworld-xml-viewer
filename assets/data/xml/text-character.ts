@@ -51,84 +51,97 @@
         "English": "Gov. {0_name}"
       },
       {
+        "zType": "TEXT_CHARACTER_TITLE_AGENT",
+        "English": "Agent {0_name}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_PATRIARCH",
+        "English": "<masculine_0>Patriarch<feminine>Matriarch<end> {0_name}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_OLIGRARCH",
+        "English": "Oligarch {0_name}"
+      },
+      {
+        "comment": "TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender",
         "zType": "TEXT_CHARACTER_RELATION_YOU",
-        "English": "You!"
+        "English": "you"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SPOUSE",
-        "English": "Your <masculine_0>Husband<feminine>Wife<end>"
+        "English": "your <masculine_0>Husband<feminine>Wife<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD",
-        "English": "Your <masculine_0>Son<feminine>Daughter<end>"
+        "English": "your <masculine_0>Son<feminine>Daughter<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDCHILD",
-        "English": "Your <masculine_0>Grandson<feminine>Granddaughter<end>"
+        "English": "your <masculine_0>Grandson<feminine>Granddaughter<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_DESCENDANT",
-        "English": "Your Descendant"
+        "English": "your Descendant"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT",
-        "English": "Your <masculine_0>Father<feminine>Mother<end>"
+        "English": "your <masculine_0>Father<feminine>Mother<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDPARENT",
-        "English": "Your <masculine_0>Grandfather<feminine>Grandmother<end>"
+        "English": "your <masculine_0>Grandfather<feminine>Grandmother<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_ANCESTOR",
-        "English": "Your Ancestor"
+        "English": "your Ancestor"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING",
-        "English": "Your <masculine_0>Brother<feminine>Sister<end>"
+        "English": "your <masculine_0>Brother<feminine>Sister<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING_IN_LAW",
-        "English": "Your <masculine_0>Brother-in-Law<feminine>Sister-in-Law<end>"
+        "English": "your <masculine_0>Brother-in-Law<feminine>Sister-in-Law<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_HALF_SIBLING",
-        "English": "Your <masculine_0>Half-Brother<feminine>Half-Sister<end>"
+        "English": "your <masculine_0>Half-Brother<feminine>Half-Sister<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_COUSIN",
-        "English": "Your Cousin"
+        "English": "your Cousin"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_AUNT_UNCLE",
-        "English": "Your <masculine_0>Uncle<feminine>Aunt<end>"
+        "English": "your <masculine_0>Uncle<feminine>Aunt<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_NIECE_NEPHEW",
-        "English": "Your <masculine_0>Nephew<feminine>Niece<end>"
+        "English": "your <masculine_0>Nephew<feminine>Niece<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD_IN_LAW",
-        "English": "Your <masculine_0>Son-in-Law<feminine>Daughter-in-Law<end>"
+        "English": "your <masculine_0>Son-in-Law<feminine>Daughter-in-Law<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT_IN_LAW",
-        "English": "Your <masculine_0>Father-in-Law<feminine>Mother-in-Law<end>"
+        "English": "your <masculine_0>Father-in-Law<feminine>Mother-in-Law<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPCHILD",
-        "English": "Your <masculine_0>Stepson<feminine>Stepdaughter<end>"
+        "English": "your <masculine_0>Stepson<feminine>Stepdaughter<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPPARENT",
-        "English": "Your <masculine_0>Stepfather<feminine>Stepmother<end>"
+        "English": "your <masculine_0>Stepfather<feminine>Stepmother<end>"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_RELATIVE",
-        "English": "Your Relative"
+        "English": "your Relative"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_IN_LAW",
-        "English": "Your In-Law"
+        "English": "your In-Law"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_1",
@@ -152,19 +165,27 @@
       },
       {
         "zType": "TEXT_CHARACTER_DEAD",
-        "English": "<icon>skull</icon> {0_name}"
+        "English": "<icon>DeathSkull</icon> {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_HAS_COGNOMEN",
         "English": "{0_name} {1_cognomen}"
       },
       {
-        "zType": "TEXT_CHARACTER_GOVERNOR_OF",
-        "English": "Governor of {0_city}"
+        "zType": "TEXT_CHARACTER_GENERAL_OF",
+        "English": "link(CONCEPT_GENERAL) of {0_unit}"
       },
       {
-        "zType": "TEXT_CHARACTER_GENERAL_OF",
-        "English": "General of {0_unit}"
+        "zType": "TEXT_CHARACTER_GOVERNOR_OF",
+        "English": "link(CONCEPT_GOVERNOR) of {0_city}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_AGENT_IN",
+        "English": "link(CONCEPT_AGENT) in {0_city}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_YOUR_HEIR",
+        "English": "Your Heir"
       },
       {
         "zType": "TEXT_CHARACTER_FULL_NAME_EXTRA",
@@ -187,12 +208,24 @@
         "English": "{0_name} of {1_nation}"
       },
       {
+        "zType": "TEXT_CHARACTER_THE_YOUNGER",
+        "English": "the Younger"
+      },
+      {
+        "zType": "TEXT_CHARACTER_THE_ELDER",
+        "English": "the Elder"
+      },
+      {
+        "zType": "TEXT_COUNCIL_HAS_DIED",
+        "English": "Your {0_council}, {1_character}, has died!"
+      },
+      {
         "zType": "TEXT_CHARACTER_HAS_DIED",
         "English": "{0_character} has died!"
       },
       {
         "zType": "TEXT_CHARACTER_LEADER_NEW_COGNOMEN",
-        "English": "<comment variable 0 is leader for gender purposes>You are now known as {1_cognomen}!"
+        "English": "You are now known as {0_name} {1_cognomen}!"
       }
     ]
   }

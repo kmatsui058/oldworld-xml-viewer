@@ -9,6 +9,9 @@
         "zName": {
           
         },
+        "zIconName": {
+          
+        },
         "iMovementCost": {
           
         },
@@ -42,41 +45,52 @@
         "Color": {
           
         },
-        "aiDefendUnitTrait": {
+        "aiDefendEffectUnit": {
           
         }
       },
       {
         "zType": "HEIGHT_OCEAN",
         "zName": "Ocean",
+        "zIconName": "OceanEditorIcon",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_COAST",
         "zName": "Coast",
+        "zIconName": "CoastEditorIcon",
         "iLandValueAdjacent": "10",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_LAKE",
         "zName": "Lake",
+        "zIconName": "LakeEditorIcon",
         "iLandValueAdjacent": "20",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_FLAT",
         "zName": "Flat",
+        "zIconName": "FlatEditorIcon",
         "iRevealChange": "1",
-        "aiDefendUnitTrait": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "-25"
-          }
+        "aiDefendEffectUnit": {
+          "Pair": [
+            {
+              "zIndex": "EFFECTUNIT_MOUNTED",
+              "iValue": "-25"
+            },
+            {
+              "zIndex": "EFFECTUNIT_MANEUVERS",
+              "iValue": "-25"
+            }
+          ]
         }
       },
       {
         "zType": "HEIGHT_HILL",
         "zName": "Hill",
+        "zIconName": "HillsEditorIcon",
         "iMovementCost": "9",
         "iRangeChange": "1",
         "iRevealChange": "2",
@@ -88,6 +102,7 @@
       {
         "zType": "HEIGHT_MOUNTAIN",
         "zName": "Mountain",
+        "zIconName": "MountainEditorIcon",
         "iRangeChange": "2",
         "iRevealChange": "3",
         "iBorderValue": "-1",
@@ -99,6 +114,7 @@
       {
         "zType": "HEIGHT_VOLCANO",
         "zName": "Volcano",
+        "zIconName": "VolcanoEditorIcon",
         "iRangeChange": "2",
         "iRevealChange": "3",
         "iBorderValue": "-1",

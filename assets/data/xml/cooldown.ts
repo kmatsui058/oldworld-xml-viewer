@@ -14,14 +14,24 @@
         }
       },
       {
+        "zType": "COOLDOWN_AUTOMATED",
+        "zName": "Automated",
+        "zIconName": "STATUS_AUTOMATED"
+      },
+      {
         "zType": "COOLDOWN_PASS",
         "zName": "Pass",
-        "zIconName": "COOLDOWN_PASS"
+        "zIconName": "STATUS_PASS"
       },
       {
         "zType": "COOLDOWN_SLEEP",
         "zName": "Sleep",
-        "zIconName": "COOLDOWN_SLEEP"
+        "zIconName": "STATUS_SLEEP"
+      },
+      {
+        "zType": "COOLDOWN_SENTRY",
+        "zName": "Sentry",
+        "zIconName": "STATUS_SENTRY"
       },
       {
         "zType": "COOLDOWN_UNLIMBERED",
@@ -31,7 +41,12 @@
       {
         "zType": "COOLDOWN_ANCHORED",
         "zName": "Anchored",
-        "zIconName": "COOLDOWN_UNPACK"
+        "zIconName": "COOLDOWN_ANCHOR"
+      },
+      {
+        "zType": "COOLDOWN_ROUT",
+        "zName": "Rout",
+        "zIconName": "COOLDOWN_ROUT"
       },
       {
         "zType": "COOLDOWN_ATTACK",
@@ -44,24 +59,29 @@
         "zIconName": "COOLDOWN_ATTACKED"
       },
       {
+        "zType": "COOLDOWN_STUNNED",
+        "zName": "Stunned",
+        "zIconName": "COOLDOWN_ATTACKED"
+      },
+      {
         "zType": "COOLDOWN_BUILDING",
         "zName": "Building",
-        "zIconName": "SPRITE_BUILD"
+        "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_ADDED_ROAD",
         "zName": "Added Road",
-        "zIconName": "SPRITE_BUILD"
+        "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_ADDED_URBAN",
         "zName": "Added Urban",
-        "zIconName": "SPRITE_BUILD"
+        "zIconName": "COOLDOWN_BUILD"
       },
       {
-        "zType": "COOLDOWN_RAISED_IMPROVEMENT",
-        "zName": "Raised Improvement",
-        "zIconName": "SPRITE_BUILD"
+        "zType": "COOLDOWN_UPGRADED_IMPROVEMENT",
+        "zName": "Upgraded Improvement",
+        "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_BUY_TILE",
@@ -72,6 +92,16 @@
         "zType": "COOLDOWN_FORTIFY",
         "zName": "Fortify",
         "zIconName": "SPRITE_FORTIFY"
+      },
+      {
+        "zType": "COOLDOWN_RECRUITED",
+        "zName": "Recruited",
+        "zIconName": "COOLDOWN_RECRUITED"
+      },
+      {
+        "zType": "COOLDOWN_HIRED",
+        "zName": "Hired",
+        "zIconName": "COOLDOWN_HIRED"
       },
       {
         "zType": "COOLDOWN_GIFTED",
@@ -101,7 +131,7 @@
       {
         "zType": "COOLDOWN_REPAIRED",
         "zName": "Repaired",
-        "zIconName": "COOLDOWN_REPAIR"
+        "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_UPGRADED",
@@ -120,8 +150,13 @@
       },
       {
         "zType": "COOLDOWN_DISEMBARKED",
-        "zName": "Locked",
-        "zIconName": "COOLDOWN_PASS"
+        "zName": "Disembarked",
+        "zIconName": "STATUS_PASS"
+      },
+      {
+        "zType": "COOLDOWN_TRADE",
+        "zName": "Trade",
+        "zIconName": "STATUS_PASS"
       }
     ]
   }

@@ -30,10 +30,16 @@
         "iRemoveCost": {
           
         },
+        "iRemoveStat": {
+          
+        },
         "iBuildCost": {
           
         },
         "iGrowthRoll": {
+          
+        },
+        "iSpreadRoll": {
           
         },
         "iBorderValue": {
@@ -48,13 +54,16 @@
         "VegetationGrow": {
           
         },
+        "VegetationSpread": {
+          
+        },
         "aiYieldRemove": {
           
         },
         "aiYieldBuild": {
           
         },
-        "aiDefendUnitTrait": {
+        "aiDefendEffectUnit": {
           
         },
         "aeTerrainAssetVariation": {
@@ -71,10 +80,13 @@
         "zRemovalAudio": "AUDIO_UNIT_WORKER_REMOVES_VEGETATION_TREES",
         "iMovementCost": "9",
         "iRemoveCost": "1",
+        "iRemoveStat": "2",
         "iBuildCost": "3",
+        "iSpreadRoll": "5000",
         "iBorderValue": "200",
         "iRevealChange": "1",
         "VegetationRemove": "VEGETATION_TREES_CUT",
+        "VegetationSpread": "VEGETATION_SCRUB",
         "aiYieldRemove": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
@@ -87,20 +99,29 @@
             "iValue": "40"
           }
         },
-        "aiDefendUnitTrait": {
+        "aiDefendEffectUnit": {
           "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
+            "zIndex": "EFFECTUNIT_RANGED",
             "iValue": "50"
           }
         },
         "aeTerrainAssetVariation": {
-          "Triple": {
-            "First": {
-              
+          "Triple": [
+            {
+              "First": {
+                
+              },
+              "Second": "HEIGHT_HILL",
+              "Third": "ASSET_VARIATION_VEGETATION_TREES_HILL"
             },
-            "Second": "HEIGHT_HILL",
-            "Third": "ASSET_VARIATION_VEGETATION_TREES_HILL"
-          }
+            {
+              "First": "TERRAIN_ARID",
+              "Second": {
+                
+              },
+              "Third": "ASSET_VARIATION_VEGETATION_TREES_ARID"
+            }
+          ]
         }
       },
       {
@@ -111,6 +132,7 @@
         "zIconName": "VEGETATION_TREES_CUT",
         "zRemoveIcon": "REMOVE_TREES_CUT",
         "iRemoveCost": "2",
+        "iRemoveStat": "1",
         "iBuildCost": "2",
         "iGrowthRoll": "40",
         "iBorderValue": "100",
@@ -137,9 +159,12 @@
         "zRemoveIcon": "REMOVE_SCRUB",
         "zRemovalAudio": "AUDIO_UNIT_WORKER_REMOVES_VEGETATION_SCRUB",
         "iMovementCost": "9",
+        "iRemoveStat": "2",
         "iBuildCost": "1",
+        "iGrowthRoll": "2000",
         "iRevealChange": "1",
         "VegetationRemove": "VEGETATION_SCRUB_CUT",
+        "VegetationGrow": "VEGETATION_TREES",
         "aiYieldRemove": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
@@ -152,9 +177,9 @@
             "iValue": "20"
           }
         },
-        "aiDefendUnitTrait": {
+        "aiDefendEffectUnit": {
           "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
+            "zIndex": "EFFECTUNIT_RANGED",
             "iValue": "25"
           }
         },
@@ -176,6 +201,7 @@
         "zIconName": "VEGETATION_SCRUB_CUT",
         "zRemoveIcon": "REMOVE_SCRUB_CUT",
         "iRemoveCost": "1",
+        "iRemoveStat": "1",
         "iBuildCost": "1",
         "iGrowthRoll": "20",
         "VegetationGrow": "VEGETATION_SCRUB",

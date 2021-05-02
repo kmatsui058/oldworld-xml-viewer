@@ -9,10 +9,9 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
-  bGeneric?: ZType | string;
-  iLegitimacyActive?: ZType | string;
-  iLegitimacyLegacy?: ZType | string;
+  iLegitimacy?: ZType | string;
   iMinValue?: ZType | string;
+  Achievement?: ZType | string;
   aiStatValue?: AiStatValue;
 }
 export interface AiStatValue {

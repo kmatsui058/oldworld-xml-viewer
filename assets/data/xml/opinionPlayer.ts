@@ -15,6 +15,9 @@
         "iThreshold": {
           
         },
+        "iAlliancePercent": {
+          
+        },
         "iPeacePercent": {
           
         },
@@ -43,7 +46,7 @@
         "Color": "COLOR_OPINION_ANGRY",
         "iThreshold": "-100",
         "iTrucePercent": "10",
-        "iWarPercent": "60",
+        "iWarPercent": "40",
         "bDeclareWar": "1"
       },
       {
@@ -52,7 +55,7 @@
         "Color": "COLOR_OPINION_UPSET",
         "iThreshold": "-1",
         "iTrucePercent": "20",
-        "iWarPercent": "40",
+        "iWarPercent": "20",
         "bDeclareWar": "1"
       },
       {
@@ -62,21 +65,23 @@
         "iThreshold": "99",
         "iPeacePercent": "10",
         "iTrucePercent": "30",
-        "iWarPercent": "20"
+        "iWarPercent": "10"
       },
       {
         "zType": "OPINIONPLAYER_PLEASED",
         "Name": "TEXT_OPINIONPLAYER_PLEASED",
         "Color": "COLOR_OPINION_PLEASED",
         "iThreshold": "199",
+        "iAlliancePercent": "10",
         "iPeacePercent": "20",
         "iTrucePercent": "40",
-        "iWarPercent": "10"
+        "iWarPercent": "5"
       },
       {
         "zType": "OPINIONPLAYER_FRIENDLY",
         "Name": "TEXT_OPINIONPLAYER_FRIENDLY",
         "Color": "COLOR_OPINION_FRIENDLY",
+        "iAlliancePercent": "20",
         "iPeacePercent": "30",
         "iTrucePercent": "50"
       }

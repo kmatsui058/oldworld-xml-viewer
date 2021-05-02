@@ -8,11 +8,17 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  eDataAllowed?: ZType | string;
-  iProb?: IProb | string;
-  bModal?: IProb | string;
+  Data?: Datum | string;
+  SubjectClass?: Datum | string;
+  ExtraClass?: Datum | string;
+  iMinTurns?: Datum;
+  iProb?: Datum | string;
+  iSortOrder?: Datum | string;
+  bLevel?: Datum | string;
+  bModal?: Datum | string;
+  comment?: string;
 }
-export interface IProb {
+export interface Datum {
   comment: string;
 }
 export interface ZType {

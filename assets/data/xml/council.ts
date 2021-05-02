@@ -21,13 +21,22 @@
         "iOpinion": {
           
         },
+        "bDisable": {
+          
+        },
+        "EffectPlayer": {
+          
+        },
         "AssignMission": {
           
         },
         "aiPlayerOpinion": {
           
         },
-        "aiBarbarianOpinion": {
+        "aiTribeOpinion": {
+          
+        },
+        "aiReligionOpinion": {
           
         },
         "aiFamilyOpinion": {
@@ -36,7 +45,10 @@
         "abTraitPrereq": {
           
         },
-        "aaiRatingYieldRate": {
+        "aaiRatingYieldGlobal": {
+          
+        },
+        "aaiRatingYieldCity": {
           
         }
       },
@@ -50,11 +62,11 @@
         "AssignMission": "MISSION_AMBASSADOR",
         "aiPlayerOpinion": {
           "Pair": {
-            "zIndex": "RATING_CHARISMA",
+            "zIndex": "RATING_WISDOM",
             "iValue": "10"
           }
         },
-        "aiBarbarianOpinion": {
+        "aiTribeOpinion": {
           "Pair": {
             "zIndex": "RATING_COURAGE",
             "iValue": "10"
@@ -63,11 +75,11 @@
         "abTraitPrereq": {
           "Pair": [
             {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
+              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
               "bValue": "1"
             },
             {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
+              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
               "bValue": "1"
             },
             {
@@ -75,20 +87,44 @@
               "bValue": "1"
             }
           ]
+        },
+        "aaiRatingYieldGlobal": {
+          "Pair": {
+            "zIndex": "RATING_CHARISMA",
+            "SubPair": {
+              "zSubIndex": "YIELD_CIVICS",
+              "iValue": "20"
+            }
+          }
+        },
+        "aaiRatingYieldCity": {
+          "Pair": {
+            "zIndex": "RATING_DISCIPLINE",
+            "SubPair": {
+              "zSubIndex": "YIELD_GROWTH",
+              "iValue": "10"
+            }
+          }
         }
       },
       {
         "zType": "COUNCIL_CHANCELLOR",
         "zName": "Chancellor",
         "zIconName": "COUNCIL_CHANCELLOR",
-        "TechPrereq": "TECH_RAMPARTS",
+        "TechPrereq": "TECH_SPOKED_WHEEL",
         "iXP": "5",
         "iOpinion": "40",
         "AssignMission": "MISSION_CHANCELLOR",
+        "aiFamilyOpinion": {
+          "Pair": {
+            "zIndex": "RATING_CHARISMA",
+            "iValue": "10"
+          }
+        },
         "abTraitPrereq": {
           "Pair": [
             {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
+              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
               "bValue": "1"
             },
             {
@@ -101,43 +137,46 @@
             }
           ]
         },
-        "aaiRatingYieldRate": {
+        "aaiRatingYieldGlobal": {
           "Pair": [
             {
-              "zIndex": "RATING_CHARISMA",
+              "zIndex": "RATING_COURAGE",
               "SubPair": {
-                "zSubIndex": "YIELD_ORDERS",
-                "iValue": "5"
+                "zSubIndex": "YIELD_TRAINING",
+                "iValue": "30"
               }
             },
             {
               "zIndex": "RATING_DISCIPLINE",
               "SubPair": {
                 "zSubIndex": "YIELD_MONEY",
-                "iValue": "50"
-              }
-            },
-            {
-              "zIndex": "RATING_WISDOM",
-              "SubPair": {
-                "zSubIndex": "YIELD_CIVICS",
-                "iValue": "20"
+                "iValue": "60"
               }
             }
           ]
+        },
+        "aaiRatingYieldCity": {
+          "Pair": {
+            "zIndex": "RATING_WISDOM",
+            "SubPair": {
+              "zSubIndex": "YIELD_CULTURE",
+              "iValue": "10"
+            }
+          }
         }
       },
       {
         "zType": "COUNCIL_SPYMASTER",
         "zName": "Spymaster",
         "zIconName": "COUNCIL_SPYMASTER",
-        "TechPrereq": "TECH_DRAWBRIDGE",
+        "TechPrereq": "TECH_PORTCULLIS",
         "iXP": "5",
         "iOpinion": "40",
+        "EffectPlayer": "EFFECTPLAYER_COUNCIL_SPYMASTER",
         "AssignMission": "MISSION_SPYMASTER",
-        "aiFamilyOpinion": {
+        "aiReligionOpinion": {
           "Pair": {
-            "zIndex": "RATING_COURAGE",
+            "zIndex": "RATING_CHARISMA",
             "iValue": "10"
           }
         },
@@ -148,32 +187,41 @@
               "bValue": "1"
             },
             {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
+              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
               "bValue": "1"
             },
             {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
+              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
               "bValue": "1"
             }
           ]
         },
-        "aaiRatingYieldRate": {
+        "aaiRatingYieldGlobal": {
           "Pair": [
-            {
-              "zIndex": "RATING_DISCIPLINE",
-              "SubPair": {
-                "zSubIndex": "YIELD_TRAINING",
-                "iValue": "20"
-              }
-            },
             {
               "zIndex": "RATING_WISDOM",
               "SubPair": {
                 "zSubIndex": "YIELD_SCIENCE",
-                "iValue": "20"
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "RATING_DISCIPLINE",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "5"
               }
             }
           ]
+        },
+        "aaiRatingYieldCity": {
+          "Pair": {
+            "zIndex": "RATING_COURAGE",
+            "SubPair": {
+              "zSubIndex": "YIELD_DISCONTENT",
+              "iValue": "-5"
+            }
+          }
         }
       }
     ]

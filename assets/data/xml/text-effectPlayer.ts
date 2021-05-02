@@ -23,6 +23,10 @@
         "English": "Legacy"
       },
       {
+        "zType": "TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER",
+        "English": "Spymaster"
+      },
+      {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_ABLE",
         "English": "The Able"
       },
@@ -55,64 +59,12 @@
         "English": "The Great"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_PYRAMIDS",
-        "English": "The Pyramids"
+        "zType": "TEXT_EFFECTPLAYER_LAW_EPICS",
+        "English": "Epics"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_GREAT_ZIGGURAT",
-        "English": "The Great Ziggurat"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_ORACLE",
-        "English": "The Oracle"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_HANGING_GARDENS",
-        "English": "The Hanging Gardens"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_NECROPOLIS",
-        "English": "The Necropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_LIGHTHOUSE",
-        "English": "The Lighthouse"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_APADANA",
-        "English": "The Apadana"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_MAUSOLEUM",
-        "English": "The Mausoleum"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_ACROPOLIS",
-        "English": "The Acropolis"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_COLOSSUS",
-        "English": "The Colossus"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_MUSAEUM",
-        "English": "The Musaeum"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_CIRCUS_MAXIMUS",
-        "English": "The Circus Maximus"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_PANTHEON",
-        "English": "The Pantheon"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_HAGIA_SOPHIA",
-        "English": "The Hagia Sophia"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_IMPROVEMENT_GRAND_BAZAAR",
-        "English": "The Grand Bazaar"
+        "zType": "TEXT_EFFECTPLAYER_LAW_EXPLORATION",
+        "English": "Exploration"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_LAW_SLAVERY",
@@ -143,14 +95,6 @@
         "English": "Decree in Capital"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_EPICS",
-        "English": "Epics"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_EXPLORATION",
-        "English": "Exploration"
-      },
-      {
         "zType": "TEXT_EFFECTPLAYER_LAW_COLONIZATION",
         "English": "Colonization"
       },
@@ -167,12 +111,12 @@
         "English": "Polytheism"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
-        "English": "Professional Army"
+        "zType": "TEXT_EFFECTPLAYER_LAW_DIVINE_RULE",
+        "English": "Divine Rule"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_VOLUNTEERS",
-        "English": "Volunteers"
+        "zType": "TEXT_EFFECTPLAYER_LAW_LEGAL_CODE",
+        "English": "Legal Code"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_LAW_TOLERANCE",
@@ -183,12 +127,12 @@
         "English": "Orthodoxy"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_GUILDS",
-        "English": "Guilds"
+        "zType": "TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
+        "English": "Professional Army"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ELITES",
-        "English": "Elites"
+        "zType": "TEXT_EFFECTPLAYER_LAW_VOLUNTEERS",
+        "English": "Volunteers"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_LAW_PHILOSOPHY",
@@ -207,8 +151,24 @@
         "English": "Calligraphy"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ISOLATIONISM",
-        "English": "Isolationism"
+        "zType": "TEXT_EFFECTPLAYER_LAW_PILGRIMAGE",
+        "English": "Pilgrimage"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_LAW_HOLY_WAR",
+        "English": "Holy War"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_LAW_GUILDS",
+        "English": "Guilds"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_LAW_ELITES",
+        "English": "Elites"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_LAW_AUTARKY",
+        "English": "Autarky"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE",
@@ -219,22 +179,6 @@
         "English": "Convoy"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ASCETICISM",
-        "English": "Asceticism"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_HOLY_WAR",
-        "English": "Holy War"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_DIVINE_RULE",
-        "English": "Divine Rule"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_SECULARISM",
-        "English": "Secularism"
-      },
-      {
         "zType": "TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT",
         "English": "Coin Debasement"
       },
@@ -243,60 +187,36 @@
         "English": "Monetary Reform"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_NATION_ASSYRIA",
-        "English": "Assyria"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_BABYLONIA",
-        "English": "Babylonia"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_CARTHAGE",
-        "English": "Carthage"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_EGYPT",
-        "English": "Egypt"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_GREECE",
-        "English": "Greece"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_GREECE_OLYMPICS",
-        "English": "Olympics"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_ROME",
-        "English": "Rome"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_NATION_PERSIA",
-        "English": "Persia"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_RELIGION_JUDAISM",
-        "English": "Mythology"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_RELIGION_ZOROASTRIANISM",
-        "English": "Zoroastrianism"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_RELIGION_CHRISTIANITY",
-        "English": "Christianity"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_RELIGION_MANICHAEISM",
-        "English": "Manichaeism"
-      },
-      {
         "zType": "TEXT_EFFECTPLAYER_TECH_LABOR_FORCE",
         "English": "Roads"
       },
       {
+        "zType": "TEXT_EFFECTPLAYER_TECH_DRAMA",
+        "English": "Music"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_TECH_COINAGE",
+        "English": "Automate link(UNIT_WORKER,2)"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_VICTORY_POINT",
+        "English": "Victory Point"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
+        "English": "Hero Leader"
+      },
+      {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE",
         "English": "Tactician Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
+        "English": "Commander Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
+        "English": "Zealot Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",
@@ -323,48 +243,16 @@
         "English": "Schemer Leader"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
-        "English": "Commander Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
-        "English": "Zealot Leader"
-      },
-      {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
         "English": "Diplomat Leader"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
-        "English": "Hero Leader"
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE",
+        "English": "High Science"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_MISERABLE",
-        "English": "Miserable"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_DRUNK",
-        "English": "Drunk"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_ROMANTIC",
-        "English": "Romantic"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_MOURNING",
-        "English": "Mourning"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_CUNNING",
-        "English": "Cunning"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_SOLDIER",
-        "English": "Soldier"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_TRAIT_DEALMAKER",
-        "English": "Dealmaker"
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE",
+        "English": "Very High Science"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS",
@@ -397,6 +285,22 @@
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING",
         "English": "Very High Training"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_MONEY",
+        "English": "Low Money"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_MONEY",
+        "English": "Medium Money"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_MONEY",
+        "English": "High Money"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY",
+        "English": "Very High Money"
       }
     ]
   }

@@ -15,7 +15,7 @@
         "zName": "Player"
       },
       {
-        "zType": "SUBJECTCLASS_BARBARIAN",
+        "zType": "SUBJECTCLASS_TRIBE",
         "zName": "Barbarian"
       },
       {
@@ -25,6 +25,10 @@
       {
         "zType": "SUBJECTCLASS_FAMILY",
         "zName": "Family"
+      },
+      {
+        "zType": "SUBJECTCLASS_TECH",
+        "zName": "Tech"
       },
       {
         "zType": "SUBJECTCLASS_LAW",

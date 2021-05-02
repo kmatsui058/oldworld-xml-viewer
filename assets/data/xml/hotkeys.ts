@@ -15,7 +15,13 @@
         "Keys": {
           
         },
+        "bKeyboardMap": {
+          
+        },
         "bHold": {
+          
+        },
+        "bOnDown": {
           
         },
         "fRepeatDelay": {
@@ -33,6 +39,7 @@
         "zName": "Move North",
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "W,UpArrow",
+        "bKeyboardMap": "1",
         "bHold": "1"
       },
       {
@@ -40,6 +47,7 @@
         "zName": "Move West",
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "A,LeftArrow",
+        "bKeyboardMap": "1",
         "bHold": "1"
       },
       {
@@ -47,6 +55,7 @@
         "zName": "Move South",
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "S,DownArrow",
+        "bKeyboardMap": "1",
         "bHold": "1"
       },
       {
@@ -54,6 +63,7 @@
         "zName": "Move East",
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "D,RightArrow",
+        "bKeyboardMap": "1",
         "bHold": "1"
       },
       {
@@ -76,6 +86,7 @@
         "zName": "Hide Vegetation",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "Z",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -84,6 +95,7 @@
         "zName": "Hide Improvements",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "LeftShift+Z,RightShift+Z",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -91,7 +103,8 @@
         "zType": "HOTKEY_HIDE_UNITS",
         "zName": "Hide Units",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
-        "Keys": "LeftControl+Z,RightControl+Z",
+        "Keys": "LeftAlt+Z,RightAlt+Z",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -99,7 +112,8 @@
         "zType": "HOTKEY_HIDE_ALL",
         "zName": "Hide All",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
-        "Keys": "LeftShift+LeftControl+Z,RightShift+RightControl+Z",
+        "Keys": "LeftShift+LeftAlt+Z,RightShift+RightAlt+Z",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -108,6 +122,7 @@
         "zName": "Show Zone of Control",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "X",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -116,6 +131,7 @@
         "zName": "Show Danger Tiles",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "C",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -124,6 +140,7 @@
         "zName": "Show Trade Network",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "V",
+        "bKeyboardMap": "1",
         "bHold": "1"
       },
       {
@@ -131,14 +148,16 @@
         "zName": "Show Idle Units",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "B",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
       {
-        "zType": "HOTKEY_SHOW_TILE_GOODS",
-        "zName": "Show Tile Goods",
+        "zType": "HOTKEY_SHOW_TILE_YIELDS",
+        "zName": "Show Tile Yields",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "N",
+        "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
       },
@@ -152,8 +171,14 @@
         "zType": "HOTKEY_HIDE_UI",
         "zName": "Hide UI",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
-        "Keys": "LeftAlt+Z,RightAlt+Z",
+        "Keys": "LeftAlt+X,RightAlt+X",
         "bHold": "1"
+      },
+      {
+        "zType": "HOTKEY_ROAD_TO",
+        "zName": "Toggle City Connection Mode",
+        "HotkeyClass": "HOTKEYCLASS_GAMEPLAY",
+        "Keys": "LeftControl+R, RightControl+R"
       },
       {
         "zType": "HOTKEY_SPEND_TRAINING_FOR_ORDERS",
@@ -252,22 +277,28 @@
         "Keys": "LeftShift+Alpha4,RightShift+Alpha4"
       },
       {
-        "zType": "HOTKEY_END_TURN",
-        "zName": "End Year",
+        "zType": "HOTKEY_CYCLE_IDLE_5",
+        "zName": "Cycle Idle 5",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
         "Keys": "Alpha5"
       },
       {
-        "zType": "HOTKEY_PREVIOUS_CITY",
-        "zName": "Previous City",
+        "zType": "HOTKEY_CYCLE_PASS_IDLE_5",
+        "zName": "Cycle/Pass Idle 5",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
-        "Keys": "Q"
+        "Keys": "LeftShift+Alpha5,RightShift+Alpha5"
       },
       {
-        "zType": "HOTKEY_NEXT_CITY",
-        "zName": "Next City",
+        "zType": "HOTKEY_END_TURN",
+        "zName": "End Turn",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
-        "Keys": "E"
+        "Keys": "Alpha6"
+      },
+      {
+        "zType": "HOTKEY_END_TURN_FORCE",
+        "zName": "End Turn (Force)",
+        "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
+        "Keys": "LeftShift+Alpha6,RightShift+Alpha6"
       },
       {
         "zType": "HOTKEY_PASS",
@@ -282,10 +313,34 @@
         "Keys": "LeftShift+Space, RightShift+Space"
       },
       {
+        "zType": "HOTKEY_SENTRY",
+        "zName": "Cycle and Sentry Selected Unit",
+        "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
+        "Keys": "LeftControl+Space, RightControl+Space"
+      },
+      {
         "zType": "HOTKEY_CYCLE_ALL",
         "zName": "Cycle Selection",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
         "Keys": "Tab"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_ALL_REVERSE",
+        "zName": "Cycle Selection (Reverse)",
+        "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
+        "Keys": "LeftShift+Tab, RightShift+Tab"
+      },
+      {
+        "zType": "HOTKEY_UNDO",
+        "zName": "Undo",
+        "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
+        "Keys": "LeftControl+Z,RightControl+Z"
+      },
+      {
+        "zType": "HOTKEY_REDO",
+        "zName": "Redo",
+        "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
+        "Keys": "LeftControl+Y,RightControl+Y"
       },
       {
         "zType": "HOTKEY_PING",
@@ -299,7 +354,7 @@
         "zType": "HOTKEY_CHAT",
         "zName": "Chat",
         "HotkeyClass": "HOTKEYCLASS_COMMUNICATION",
-        "Keys": "Return"
+        "Keys": "Return,KeypadEnter"
       },
       {
         "zType": "HOTKEY_VICTORY_SCREEN",
@@ -320,8 +375,8 @@
         "Keys": "F3"
       },
       {
-        "zType": "HOTKEY_RELIGION_SCREEN",
-        "zName": "Show Religion Screen",
+        "zType": "HOTKEY_LOG_SCREEN",
+        "zName": "Show VICTORY Screen",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
         "Keys": "F4"
       },
@@ -329,25 +384,45 @@
         "zType": "HOTKEY_TECH_SCREEN",
         "zName": "Show Tech Screen",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
-        "Keys": "F6"
+        "Keys": "F5"
       },
       {
         "zType": "HOTKEY_CITY_LIST",
         "zName": "Show City List",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
-        "Keys": "F7"
+        "Keys": "F6"
       },
       {
         "zType": "HOTKEY_MAP_SCREEN",
         "zName": "Show Map Screen",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
-        "Keys": "F8"
+        "Keys": "F7"
       },
       {
         "zType": "HOTKEY_HELP_SCREEN",
         "zName": "Show Help Screen",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
-        "Keys": "F9"
+        "Keys": "F8"
+      },
+      {
+        "zType": "HOTKEY_AI_LOG",
+        "zName": "Show AI Log",
+        "HotkeyClass": "HOTKEYCLASS_SCREENS",
+        "Keys": "F10"
+      },
+      {
+        "zType": "HOTKEY_PREVIOUS_TAB",
+        "zName": "Previous Tab/City",
+        "HotkeyClass": "HOTKEYCLASS_SCREENS",
+        "Keys": "Q",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_NEXT_TAB",
+        "zName": "Next Tab/City",
+        "HotkeyClass": "HOTKEYCLASS_SCREENS",
+        "Keys": "E",
+        "bKeyboardMap": "1"
       },
       {
         "zType": "HOTKEY_GAME_EDITOR",
@@ -366,60 +441,6 @@
         "zName": "Close Popup",
         "HotkeyClass": "HOTKEYCLASS_POPUPS",
         "Keys": "Escape"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_1",
-        "zName": "Popup Choice 1",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha1"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_2",
-        "zName": "Popup Choice 2",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha2"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_3",
-        "zName": "Popup Choice 3",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha3"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_4",
-        "zName": "Popup Choice 4",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha4"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_5",
-        "zName": "Popup Choice 5",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha5"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_6",
-        "zName": "Popup Choice 6",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha6"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_7",
-        "zName": "Popup Choice 7",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha7"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_8",
-        "zName": "Popup Choice 8",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha8"
-      },
-      {
-        "zType": "HOTKEY_POPUP_OPTION_9",
-        "zName": "Popup Choice 9",
-        "HotkeyClass": "HOTKEYCLASS_POPUPS",
-        "Keys": "Alpha9"
       },
       {
         "zType": "HOTKEY_EXPAND_TOOLTIP",
@@ -594,7 +615,7 @@
       },
       {
         "zType": "HOTKEY_MAP_EDITOR_UNDO",
-        "zName": "Redo",
+        "zName": "Undo",
         "HotkeyClass": "HOTKEYCLASS_MAP_EDITOR",
         "Keys": "Z,LeftControl+Z"
       },
@@ -654,13 +675,69 @@
         "zType": "HOTKEY_EVENT_BROWSER_NEXT_INPUT",
         "zName": "Go to next input",
         "HotkeyClass": "HOTKEYCLASS_EVENT_BROWSER",
-        "Keys": "Tab"
+        "Keys": "Tab",
+        "bOnDown": "1"
       },
       {
         "zType": "HOTKEY_EVENT_BROWSER_PREVIOUS_INPUT",
         "zName": "Go to previous input",
         "HotkeyClass": "HOTKEYCLASS_EVENT_BROWSER",
-        "Keys": "LeftShift+Tab"
+        "Keys": "LeftShift+Tab",
+        "bOnDown": "1"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_1",
+        "zName": "Cycle Player 1",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha1,RightAlt+Alpha1"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_2",
+        "zName": "Cycle Player 2",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha2,RightAlt+Alpha2"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_3",
+        "zName": "Cycle Player 3",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha3,RightAlt+Alpha3"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_4",
+        "zName": "Cycle Player 4",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha4,RightAlt+Alpha4"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_5",
+        "zName": "Cycle Player 5",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha5,RightAlt+Alpha5"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_6",
+        "zName": "Cycle Player 6",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha6,RightAlt+Alpha6"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_7",
+        "zName": "Cycle Player 7",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha7,RightAlt+Alpha7"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_8",
+        "zName": "Cycle Player 8",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha8,RightAlt+Alpha8"
+      },
+      {
+        "zType": "HOTKEY_CYCLE_PLAYER_9",
+        "zName": "Cycle Player 9",
+        "HotkeyClass": "HOTKEYCLASS_DEBUG",
+        "Keys": "LeftAlt+Alpha9,RightAlt+Alpha9"
       }
     ]
   }

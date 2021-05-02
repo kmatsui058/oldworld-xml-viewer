@@ -8,10 +8,12 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zText: ZText | string;
+  zText?: ZText | string;
+  MemoryLevel?: ZType | string;
   iValue?: ZText | string;
   iTurns?: ZText | string;
   bName?: ZText | string;
+  bVisible?: ZText | string;
   beginGroup?: string;
 }
 export interface ZText {

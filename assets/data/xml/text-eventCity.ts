@@ -36,19 +36,19 @@
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_SOLDIER",
-        "English": "A Great Soldier has emerged from {CITY}"
+        "English": "A Court Soldier has emerged from {CITY}"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_MINISTER",
-        "English": "A Great Minister has emerged from {CITY}"
+        "English": "A Court Minister has emerged from {CITY}"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_MERCHANT",
-        "English": "A Great Merchant has emerged from {CITY}"
+        "English": "A Court Merchant has emerged from {CITY}"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_SCIENTIST",
-        "English": "A Great Scientist has emerged from {CITY}"
+        "English": "A Court Scholar has emerged from {CITY}"
       },
       {
         "zType": "TEXT_EVENTCITY_POPULATION_BOOM_NAME",
@@ -56,39 +56,39 @@
       },
       {
         "zType": "TEXT_EVENTCITY_CIVICS_BOOM_NAME",
-        "English": "Civics Boom"
+        "English": "link(YIELD_CIVICS) Boom"
       },
       {
         "zType": "TEXT_EVENTCITY_TRAINING_BOOM_NAME",
-        "English": "Training Boom"
+        "English": "link(YIELD_TRAINING) Boom"
       },
       {
         "zType": "TEXT_EVENTCITY_SCIENCE_BOOM_NAME",
-        "English": "Science Boom"
+        "English": "link(YIELD_SCIENCE) Boom"
       },
       {
         "zType": "TEXT_EVENTCITY_MONEY_BOOM_NAME",
-        "English": "Money Boom"
+        "English": "link(YIELD_MONEY) Boom"
       },
       {
         "zType": "TEXT_EVENTCITY_ORDERS_BOOM_NAME",
-        "English": "Orders Boom"
+        "English": "link(YIELD_ORDERS) Boom"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_SOLDIER_NAME",
-        "English": "Great Soldier"
+        "English": "Court Soldier"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_MINISTER_NAME",
-        "English": "Great Minister"
+        "English": "Court Minister"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_MERCHANT_NAME",
-        "English": "Great Merchant"
+        "English": "Court Merchant"
       },
       {
         "zType": "TEXT_EVENTCITY_GREAT_SCIENTIST_NAME",
-        "English": "Great Scientist"
+        "English": "Court Scholar"
       }
     ]
   }

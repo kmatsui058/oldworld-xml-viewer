@@ -6,245 +6,514 @@
         "zType": {
           
         },
-        "eDataAllowed": {
-          
+        "Data": {
+          "comment": "The Event requires this Data type"
+        },
+        "SubjectClass": {
+          "comment": "The Event can test for this Subject via TriggerSubject"
+        },
+        "ExtraClass": {
+          "comment": "The Event can test for this Subject via TriggerExtra"
+        },
+        "iMinTurns": {
+          "comment": "The minimum turns for this trigger to fire any Event"
         },
         "iProb": {
-          "comment": "Chance out of 100 that this trigger will create an event."
+          "comment": "The probability of an Event if this Trigger occurs"
+        },
+        "iSortOrder": {
+          "comment": "The order in which Events are sorted (higher means earlier)"
+        },
+        "bLevel": {
+          "comment": "The probability of an Event is modifier by EventLevel"
         },
         "bModal": {
-          "comment": "If set to 1 (true), this trigger can cause events to happen instantly mid-turn. Otherwise, it will only trigger events at the start of a turn."
+          "comment": "The event will popup immediately"
         }
       },
       {
         "zType": "EVENTTRIGGER_START_GAME",
+        "iSortOrder": "10",
         "bModal": "1"
       },
       {
+        "comment": "Data = VictoryType",
         "zType": "EVENTTRIGGER_WIN_GAME",
+        "Data": "VICTORY",
+        "iSortOrder": "10",
         "bModal": "1"
       },
       {
         "zType": "EVENTTRIGGER_LOSE_GAME",
+        "iSortOrder": "10",
         "bModal": "1"
       },
       {
         "zType": "EVENTTRIGGER_NEW_TURN"
       },
       {
-        "zType": "EVENTTRIGGER_NEW_TURN_CHARACTER"
+        "comment": "Subject = Character",
+        "zType": "EVENTTRIGGER_NEW_TURN_CHARACTER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER"
       },
       {
+        "comment": "Data = TechType",
         "zType": "EVENTTRIGGER_TECHNOLOGY",
-        "eDataAllowed": "TECH"
+        "Data": "TECH"
       },
       {
-        "zType": "EVENTTRIGGER_RELIGION_FOUNDED",
-        "eDataAllowed": "RELIGION"
+        "comment": "Subject = City, Extra = Religion",
+        "zType": "EVENTTRIGGER_RELIGION_FOUNDED_US",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_RELIGION",
+        "iSortOrder": "5"
       },
       {
+        "comment": "Subject = City, Extra = Religion",
+        "zType": "EVENTTRIGGER_RELIGION_FOUNDED_THEM",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_RELIGION",
+        "iSortOrder": "5"
+      },
+      {
+        "comment": "Subject = City, Extra = Religion",
         "zType": "EVENTTRIGGER_RELIGION_SPREAD",
-        "eDataAllowed": "RELIGION"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_RELIGION",
+        "iProb": "10"
       },
       {
+        "comment": "Subject = City, Extra = Religion",
+        "zType": "EVENTTRIGGER_RELIGION_REMOVE",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_RELIGION",
+        "iProb": "10"
+      },
+      {
+        "comment": "Subject = City, Extra = Theology",
         "zType": "EVENTTRIGGER_THEOLOGY_ESTABLISHED",
-        "eDataAllowed": "THEOLOGY"
+        "SubjectClass": "SUBJECTCLASS_RELIGION",
+        "ExtraClass": "SUBJECTCLASS_THEOLOGY",
+        "iProb": "10"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_CONTACT",
+        "comment": "Subject = Tribe, Extra = Tile",
+        "zType": "EVENTTRIGGER_TRIBE_CONTACT",
+        "SubjectClass": "SUBJECTCLASS_TRIBE",
+        "ExtraClass": "SUBJECTCLASS_TILE",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_ALLIANCE_OFFER"
+        "comment": "Subject = Tribe",
+        "zType": "EVENTTRIGGER_TRIBE_PEACE_OFFER",
+        "SubjectClass": "SUBJECTCLASS_TRIBE"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_PEACE_OFFER"
+        "comment": "Subject = Tribe",
+        "zType": "EVENTTRIGGER_TRIBE_TRUCE_OFFER",
+        "SubjectClass": "SUBJECTCLASS_TRIBE"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_TRUCE_OFFER"
+        "comment": "Subject = Tribe",
+        "zType": "EVENTTRIGGER_TRIBE_WAR_OFFER",
+        "SubjectClass": "SUBJECTCLASS_TRIBE",
+        "iSortOrder": "2"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_WAR_OFFER"
+        "comment": "Subject = Tribe, Extra = Tile",
+        "zType": "EVENTTRIGGER_TRIBE_RAID",
+        "SubjectClass": "SUBJECTCLASS_TRIBE",
+        "ExtraClass": "SUBJECTCLASS_TILE"
       },
       {
+        "comment": "Subject = Player, Extra = Tile",
         "zType": "EVENTTRIGGER_PLAYER_CONTACT",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_TILE",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_PLAYER_PEACE_OFFER"
+        "comment": "Subject = Player",
+        "zType": "EVENTTRIGGER_PLAYER_PEACE_OFFER",
+        "SubjectClass": "SUBJECTCLASS_PLAYER"
       },
       {
-        "zType": "EVENTTRIGGER_PLAYER_TRUCE_OFFER"
+        "comment": "Subject = Player",
+        "zType": "EVENTTRIGGER_PLAYER_TRUCE_OFFER",
+        "SubjectClass": "SUBJECTCLASS_PLAYER"
       },
       {
-        "zType": "EVENTTRIGGER_PLAYER_WAR_OFFER"
+        "comment": "Subject = Player",
+        "zType": "EVENTTRIGGER_PLAYER_WAR_OFFER",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "iSortOrder": "2"
       },
       {
-        "zType": "EVENTTRIGGER_PLAYER_WAR_DECLARE"
+        "comment": "Subject = Player",
+        "zType": "EVENTTRIGGER_PLAYER_WAR_DECLARE",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "iSortOrder": "3"
       },
       {
-        "zType": "EVENTTRIGGER_PLAYER_DIPLOMACY_OFFER"
+        "comment": "Subject = Player",
+        "zType": "EVENTTRIGGER_PLAYER_DIPLOMACY_OFFER",
+        "SubjectClass": "SUBJECTCLASS_PLAYER"
       },
       {
+        "comment": "Subject = City",
         "zType": "EVENTTRIGGER_CITY_FOUNDED",
+        "SubjectClass": "SUBJECTCLASS_CITY",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_CITY_LOST"
+        "comment": "Subject = Player, Extra = City",
+        "zType": "EVENTTRIGGER_CITY_LOST",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_CITY",
+        "iProb": "10"
       },
       {
-        "zType": "EVENTTRIGGER_CITY_CAPTURED",
+        "comment": "Subject = Player, Extra = City",
+        "zType": "EVENTTRIGGER_CITY_BREACHED",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_CITY",
+        "iProb": "10",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_CITY_CULTURE"
+        "comment": "Subject = Player, Extra = Tile",
+        "zType": "EVENTTRIGGER_CITY_RAZED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "bModal": "1"
       },
       {
+        "comment": "Subject = City",
+        "zType": "EVENTTRIGGER_CITY_CULTURE",
+        "SubjectClass": "SUBJECTCLASS_CITY"
+      },
+      {
+        "comment": "Subject = City",
+        "zType": "EVENTTRIGGER_CITY_DISCONTENT",
+        "SubjectClass": "SUBJECTCLASS_CITY"
+      },
+      {
+        "comment": "Subject = City, Data = ProjectType",
         "zType": "EVENTTRIGGER_PRODUCTION_PROJECT",
-        "eDataAllowed": "PROJECT"
+        "Data": "PROJECT",
+        "SubjectClass": "SUBJECTCLASS_CITY"
       },
       {
+        "comment": "Subject = City, Data = SpecialistType",
         "zType": "EVENTTRIGGER_PRODUCTION_SPECIALIST",
-        "eDataAllowed": "SPECIALIST"
+        "Data": "SPECIALIST",
+        "SubjectClass": "SUBJECTCLASS_CITY"
       },
       {
+        "comment": "Subject = City, Extra = Unit, Data = UnitType",
         "zType": "EVENTTRIGGER_PRODUCTION_UNIT",
-        "eDataAllowed": "UNIT"
+        "Data": "UNIT",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_UNIT"
       },
       {
+        "comment": "Subject = City, Data = ImprovementType",
         "zType": "EVENTTRIGGER_IMPROVEMENT_FINISHED",
-        "eDataAllowed": "IMPROVEMENT"
+        "Data": "IMPROVEMENT",
+        "SubjectClass": "SUBJECTCLASS_CITY"
       },
       {
+        "comment": "Subject = Tribe, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_TRIBE",
-        "eDataAllowed": "IMPROVEMENT"
+        "SubjectClass": "SUBJECTCLASS_TRIBE",
+        "ExtraClass": "SUBJECTCLASS_TILE"
       },
       {
+        "comment": "Subject = Player, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_ENEMY",
-        "eDataAllowed": "IMPROVEMENT"
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_TILE"
       },
       {
         "zType": "EVENTTRIGGER_CHOOSE_AMBITION"
       },
       {
-        "zType": "EVENTTRIGGER_GOAL_FINISHED",
-        "eDataAllowed": "GOAL",
+        "comment": "Data = GoalType",
+        "zType": "EVENTTRIGGER_AMBITION_FINISHED",
+        "Data": "GOAL",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_MISSION_FINISHED"
+        "comment": "Data = GoalType",
+        "zType": "EVENTTRIGGER_QUEST_FINISHED",
+        "Data": "GOAL",
+        "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_MARRIAGE_OFFER"
+        "comment": "Data = GoalType",
+        "zType": "EVENTTRIGGER_QUEST_FAILED",
+        "Data": "GOAL",
+        "bModal": "1"
       },
       {
+        "comment": "Extra = Character, Data = MissionType",
+        "zType": "EVENTTRIGGER_MISSION_FINISHED",
+        "Data": "MISSION",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iSortOrder": "4"
+      },
+      {
+        "comment": "Subject = Character",
+        "zType": "EVENTTRIGGER_MARRIAGE_OFFER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER"
+      },
+      {
+        "comment": "Subject = Character, Extra = Character",
         "zType": "EVENTTRIGGER_MARRIAGE",
-        "iProb": "25"
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "25",
+        "bLevel": "1"
       },
       {
+        "comment": "Subject = Character",
         "zType": "EVENTTRIGGER_BIRTH",
-        "iProb": "25"
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "25",
+        "bLevel": "1"
       },
       {
+        "comment": "Subject = Character",
         "zType": "EVENTTRIGGER_DEATH",
-        "bModal": "1"
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "iSortOrder": "7"
       },
       {
+        "comment": "Subject = Character",
         "zType": "EVENTTRIGGER_ADULTHOOD",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "iProb": "25",
+        "bLevel": "1"
+      },
+      {
+        "comment": "Subject = Character",
+        "zType": "EVENTTRIGGER_COURTIER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_TUTOR"
-      },
-      {
+        "comment": "Subject = Character, Extra = Character",
         "zType": "EVENTTRIGGER_ADOPTED",
-        "iProb": "25"
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "25",
+        "bLevel": "1"
       },
       {
+        "comment": "Subject = Character, Extra = Character",
         "zType": "EVENTTRIGGER_DIVORCE",
-        "iProb": "25"
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "25",
+        "bLevel": "1"
       },
       {
+        "comment": "Subject = Character, Data = CognomenType",
         "zType": "EVENTTRIGGER_COGNOMEN",
-        "eDataAllowed": "COGNOMEN"
+        "Data": "COGNOMEN",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER"
       },
       {
-        "zType": "EVENTTRIGGER_SUCCESSION_US"
+        "comment": "Subject = Character, Extra = Character",
+        "zType": "EVENTTRIGGER_SUCCESSION_US",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iSortOrder": "6"
       },
       {
-        "zType": "EVENTTRIGGER_SUCCESSION_THEM"
+        "comment": "Subject = Character, Extra = Character",
+        "zType": "EVENTTRIGGER_SUCCESSION_THEM",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER"
       },
       {
+        "comment": "Subject = Character, Extra = Character",
+        "zType": "EVENTTRIGGER_SUCCESSION_TRIBE",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER"
+      },
+      {
+        "comment": "Subject = Unit, Extra = Unit",
+        "zType": "EVENTTRIGGER_UNIT_COMBAT",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "iProb": "1",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = City, Extra = Unit",
         "zType": "EVENTTRIGGER_ATTACKED_CITY",
-        "iProb": "25",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "iProb": "5",
         "bModal": "1"
       },
       {
+        "comment": "Subject = City, Extra = Player",
+        "zType": "EVENTTRIGGER_CITY_ATTACKED",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "5"
+      },
+      {
+        "comment": "Subject = Unit, Extra = Player",
+        "zType": "EVENTTRIGGER_UNIT_KILL",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "1",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Unit",
+        "zType": "EVENTTRIGGER_UNIT_CAPTURED",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_KILL",
-        "iProb": "25",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "5",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_GENERAL_CRITICAL",
-        "iProb": "25",
-        "bModal": "1"
-      },
-      {
-        "zType": "EVENTTRIGGER_GENERAL_INJURY",
-        "iProb": "25",
-        "bModal": "1"
-      },
-      {
+        "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_ATTACK",
-        "iProb": "25",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "5",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED",
-        "iProb": "25"
-      },
-      {
-        "zType": "EVENTTRIGGER_UNIT_PROMOTION",
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_DUEL",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "50",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_SET_TILE",
-        "bModal": "1"
-      },
-      {
-        "zType": "EVENTTRIGGER_RESOURCE_HARVESTED",
-        "eDataAllowed": "RESOURCE",
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_CRITICAL",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",
         "bModal": "1"
       },
       {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_INJURY",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bLevel": "1"
+      },
+      {
+        "comment": "Subject = Unit, Data = PromotionType",
+        "zType": "EVENTTRIGGER_UNIT_PROMOTION",
+        "Data": "PROMOTION",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Unit, Extra = Tile",
+        "zType": "EVENTTRIGGER_SET_TILE",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "ExtraClass": "SUBJECTCLASS_TILE",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Tile, Extra = Unit",
+        "zType": "EVENTTRIGGER_RESOURCE_HARVESTED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "iProb": "10",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Tile, Extra = Unit",
         "zType": "EVENTTRIGGER_RUINS_EXPLORED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "iSortOrder": "1",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_BARBARIAN_CLEARED",
-        "eDataAllowed": "IMPROVEMENT",
+        "comment": "Subject = Tile",
+        "zType": "EVENTTRIGGER_LANDMARK_DISCOVERED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "iProb": "10",
         "bModal": "1"
       },
       {
+        "comment": "Subject = Tile, Extra = Unit",
+        "zType": "EVENTTRIGGER_TRIBE_CLEARED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Tile, Extra = Unit",
+        "zType": "EVENTTRIGGER_TRIBE_ELIMINATED",
+        "SubjectClass": "SUBJECTCLASS_TILE",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Player, Extra = Player",
+        "zType": "EVENTTRIGGER_PLAYER_ELIMINATED",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Unit, Data = UnitType",
         "zType": "EVENTTRIGGER_UNIT_SELECTED",
-        "eDataAllowed": "UNIT",
+        "Data": "UNIT",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
         "bModal": "1"
       },
       {
-        "zType": "EVENTTRIGGER_UNIT_ON_COOLDOWN",
-        "eDataAllowed": "UNIT",
+        "comment": "Subject = Unit",
+        "zType": "EVENTTRIGGER_UNIT_ATTACK_COOLDOWN",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
         "bModal": "1"
       },
       {
+        "comment": "Subject = Unit",
+        "zType": "EVENTTRIGGER_UNIT_MOVE_COOLDOWN",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Unit",
         "zType": "EVENTTRIGGER_UNIT_IS_FATIGUED",
-        "eDataAllowed": "UNIT",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
         "bModal": "1"
       },
       {
+        "comment": "Subject = Unit",
         "zType": "EVENTTRIGGER_UNIT_NO_ORDERS",
-        "eDataAllowed": "UNIT",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
         "bModal": "1"
       }
     ]

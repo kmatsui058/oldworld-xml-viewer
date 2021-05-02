@@ -14,9 +14,9 @@ export interface Entry {
   aiRatingRand: AiRatingBase;
   aiAdjectiveDie: AiAdjectiveDie;
   aiArchetypeDie: AiAdjectiveDie;
-  aeCognomen: AeCognomen;
+  azNicknames: AzNicknames;
 }
-export interface AeCognomen {
+export interface AzNicknames {
   zValue?: string;
 }
 export interface AiAdjectiveDie {

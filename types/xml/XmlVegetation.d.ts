@@ -16,23 +16,31 @@ export interface Entry {
   zRemovalAudio?: ZType | string;
   iMovementCost?: ZType | string;
   iRemoveCost?: ZType | string;
+  iRemoveStat: ZType | string;
   iBuildCost: ZType | string;
   iGrowthRoll?: ZType | string;
+  iSpreadRoll?: ZType | string;
   iBorderValue?: ZType | string;
   iRevealChange?: ZType | string;
   VegetationRemove?: ZType | string;
   VegetationGrow?: ZType | string;
+  VegetationSpread?: ZType | string;
   aiYieldRemove: AiYieldRemove;
   aiYieldBuild: AiYieldRemove;
-  aiDefendUnitTrait?: AiYieldRemove;
+  aiDefendEffectUnit?: AiYieldRemove;
   aeTerrainAssetVariation?: AeTerrainAssetVariation;
 }
 export interface AeTerrainAssetVariation {
-  Triple?: Triple;
+  Triple?: Triple[] | Triple2;
 }
-export interface Triple {
+export interface Triple2 {
   First: ZType;
   Second: string;
+  Third: string;
+}
+export interface Triple {
+  First: ZType | string;
+  Second: ZType | string;
   Third: string;
 }
 export interface AiYieldRemove {

@@ -23,7 +23,7 @@
               "iValue": "1"
             },
             {
-              "zIndex": "UNIT_LEVY",
+              "zIndex": "UNIT_CONSCRIPT",
               "iValue": "2"
             }
           ]
@@ -39,11 +39,11 @@
               "iValue": "1"
             },
             {
-              "zIndex": "UNIT_MACEMAN",
+              "zIndex": "UNIT_AXEMAN",
               "iValue": "2"
             },
             {
-              "zIndex": "UNIT_AXEMAN",
+              "zIndex": "UNIT_MACEMAN",
               "iValue": "3"
             },
             {
@@ -91,7 +91,7 @@
               "iValue": "3"
             },
             {
-              "zIndex": "UNIT_POLYBOLOS",
+              "zIndex": "UNIT_LONGBOWMAN",
               "iValue": "4"
             }
           ]
@@ -118,6 +118,22 @@
         }
       },
       {
+        "zType": "BONUSUNITCLASS_RANGED_CAVALRY",
+        "zName": "Ranged Cavalry",
+        "aiBonusUnit": {
+          "Pair": [
+            {
+              "zIndex": "UNIT_CAMEL_ARCHER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "UNIT_HORSE_ARCHER",
+              "iValue": "2"
+            }
+          ]
+        }
+      },
+      {
         "zType": "BONUSUNITCLASS_SIEGE",
         "zName": "Siege",
         "aiBonusUnit": {
@@ -127,12 +143,16 @@
               "iValue": "1"
             },
             {
-              "zIndex": "UNIT_CATAPULT",
+              "zIndex": "UNIT_ONAGER",
               "iValue": "2"
             },
             {
-              "zIndex": "UNIT_ONAGER",
+              "zIndex": "UNIT_POLYBOLOS",
               "iValue": "3"
+            },
+            {
+              "zIndex": "UNIT_MANGONEL",
+              "iValue": "4"
             }
           ]
         }

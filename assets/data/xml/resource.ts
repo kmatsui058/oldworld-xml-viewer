@@ -45,6 +45,9 @@
         "bClearVegetation": {
           
         },
+        "bUseAnimLOD": {
+          
+        },
         "aiYieldReveal": {
           
         },
@@ -69,7 +72,7 @@
         "iProbThousand": "10",
         "iMinDist": "2",
         "iMinPerPlayer": "1",
-        "iBorderValue": "2000",
+        "iBorderValue": "2400",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
         "bClearVegetation": "1",
@@ -116,7 +119,7 @@
         "iProbThousand": "20",
         "iMinDist": "3",
         "iMinPerPlayer": "1",
-        "iBorderValue": "2000",
+        "iBorderValue": "2400",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
         "bClearVegetation": "1",
@@ -161,26 +164,20 @@
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SALT",
         "zIconName": "RESOURCE_SALT",
         "iProbThousand": "12",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bClearVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -209,26 +206,20 @@
         "zIconName": "RESOURCE_GEM",
         "iProbThousand": "20",
         "iMinDist": "3",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bClearVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -257,21 +248,15 @@
         "zIconName": "RESOURCE_GOLD",
         "iProbThousand": "20",
         "iMinDist": "4",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bClearVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
@@ -305,7 +290,7 @@
         "zIconName": "RESOURCE_SILVER",
         "iProbThousand": "20",
         "iMinDist": "5",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bClearVegetation": "1",
@@ -352,6 +337,7 @@
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bClearVegetation": "1",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -391,10 +377,11 @@
         "iProbThousand": "8",
         "iMinDist": "2",
         "iMinLatitude": "20",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -428,10 +415,11 @@
         "iProbThousand": "20",
         "iMinDist": "2",
         "iMinLatitude": "30",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -471,9 +459,10 @@
         "iProbThousand": "15",
         "iMinDist": "3",
         "iMaxLatitude": "50",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -518,10 +507,11 @@
         "zIconName": "RESOURCE_GOAT",
         "iProbThousand": "25",
         "iMinDist": "2",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -566,7 +556,7 @@
         "zIconName": "RESOURCE_WHEAT",
         "iProbThousand": "20",
         "iMinLatitude": "30",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
@@ -602,7 +592,7 @@
         "zIconName": "RESOURCE_BARLEY",
         "iProbThousand": "20",
         "iMinLatitude": "20",
-        "iBorderValue": "1200",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
@@ -637,7 +627,7 @@
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SORGHUM",
         "zIconName": "RESOURCE_SORGHUM",
         "iProbThousand": "25",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
@@ -681,10 +671,11 @@
         "iProbThousand": "20",
         "iMinDist": "5",
         "iMaxLatitude": "50",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -724,7 +715,7 @@
         "iProbThousand": "15",
         "iMinDist": "5",
         "iMaxLatitude": "60",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
@@ -764,10 +755,11 @@
         "zName": "Game",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_GAME",
         "zIconName": "RESOURCE_GAME",
-        "iProbThousand": "25",
-        "iBorderValue": "1200",
+        "iProbThousand": "20",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -815,26 +807,21 @@
         "AssetVariation": "ASSET_VARIATION_RESOURCE_FUR",
         "zIconName": "RESOURCE_FUR",
         "iProbThousand": "25",
-        "iMinLatitude": "55",
-        "iBorderValue": "1200",
+        "iMinLatitude": "40",
+        "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
+        "bUseAnimLOD": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -875,7 +862,7 @@
         "zIconName": "RESOURCE_CITRUS",
         "iProbThousand": "15",
         "iMaxLatitude": "40",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
@@ -888,7 +875,7 @@
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "15"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -917,31 +904,66 @@
         }
       },
       {
-        "zType": "RESOURCE_INCENSE",
-        "zName": "Incense",
-        "AssetVariation": "ASSET_VARIATION_RESOURCE_INCENSE",
-        "zIconName": "RESOURCE_INCENSE",
+        "zType": "RESOURCE_HONEY",
+        "zName": "Honey",
+        "AssetVariation": "ASSET_VARIATION_RESOURCE_HONEY",
+        "zIconName": "RESOURCE_HONEY",
         "iProbThousand": "15",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
+          }
+        },
+        "abTerrainValid": {
+          "Pair": {
+            "zIndex": "TERRAIN_LUSH",
+            "bValue": "1"
+          }
+        },
+        "abHeightValid": {
+          "Pair": [
+            {
+              "zIndex": "HEIGHT_FLAT",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "HEIGHT_HILL",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "RESOURCE_INCENSE",
+        "zName": "Incense",
+        "AssetVariation": "ASSET_VARIATION_RESOURCE_INCENSE",
+        "zIconName": "RESOURCE_INCENSE",
+        "iProbThousand": "10",
+        "iBorderValue": "1200",
+        "iHarvestCost": "1",
+        "iHarvestRoll": "10",
+        "bNoVegetation": "1",
+        "aiYieldReveal": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
+        },
+        "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -964,33 +986,62 @@
         }
       },
       {
+        "zType": "RESOURCE_LAVENDER",
+        "zName": "Lavender",
+        "AssetVariation": "ASSET_VARIATION_RESOURCE_LAVENDER",
+        "zIconName": "RESOURCE_LAVENDER",
+        "iProbThousand": "10",
+        "iBorderValue": "1200",
+        "iHarvestCost": "1",
+        "iHarvestRoll": "10",
+        "bNoVegetation": "1",
+        "aiYieldReveal": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
+        },
+        "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "abTerrainValid": {
+          "Pair": {
+            "zIndex": "TERRAIN_TEMPERATE",
+            "bValue": "1"
+          }
+        },
+        "abHeightValid": {
+          "Pair": {
+            "zIndex": "HEIGHT_FLAT",
+            "bValue": "1"
+          }
+        }
+      },
+      {
         "zType": "RESOURCE_OLIVE",
         "zName": "Olives",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_OLIVE",
         "zIconName": "RESOURCE_OLIVE",
         "iProbThousand": "15",
         "iMaxLatitude": "40",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "bClearVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "5"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -1020,26 +1071,20 @@
         "iProbThousand": "15",
         "iMinLatitude": "30",
         "iMaxLatitude": "60",
-        "iBorderValue": "800",
+        "iBorderValue": "1200",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "5"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -1060,28 +1105,22 @@
         "zName": "Dyes",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_DYE",
         "zIconName": "RESOURCE_DYE",
-        "iProbThousand": "15",
+        "iProbThousand": "20",
         "iMaxLatitude": "60",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "aiYieldReveal": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
+          }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -1102,22 +1141,22 @@
         "zName": "Pearls",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_PEARL",
         "zIconName": "RESOURCE_PEARL",
-        "iProbThousand": "15",
+        "iProbThousand": "20",
         "iMinLatitude": "30",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "aiYieldReveal": {
           "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
           }
         },
         "aiYieldHarvest": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "5"
+            "iValue": "10"
           }
         },
         "abTerrainValid": {
@@ -1139,7 +1178,7 @@
         "AssetVariation": "ASSET_VARIATION_RESOURCE_FISH",
         "zIconName": "RESOURCE_FISH",
         "iProbThousand": "20",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
         "bNoVegetation": "1",
@@ -1174,7 +1213,7 @@
         "AssetVariation": "ASSET_VARIATION_RESOURCE_CRAB",
         "zIconName": "RESOURCE_CRAB",
         "iProbThousand": "15",
-        "iBorderValue": "1600",
+        "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
         "bNoVegetation": "1",

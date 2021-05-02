@@ -8,8 +8,13 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  eVictory: ZType | string;
+  Name: ZType | string;
+  bToggle?: ZType | string;
+  bConquest?: ZType | string;
+  bAmbitions?: ZType | string;
+  iPercentVP?: ZType | string;
+  iOpponentMaxPointPercent?: ZType | string;
+  iMinTurns?: ZType | string;
   zHelp: ZType | string;
 }
 export interface ZType {

@@ -11,7 +11,7 @@ export interface Entry {
   zName: ZType | string;
   zIconName: ZType | string;
   iCostBase: ZType | string;
-  iCostPerCity: ZType | string;
+  iCostPerCity?: ZType;
   iCostPerChange: ZType | string;
   LawClass: ZType | string;
   EffectPlayer?: ZType | string;

@@ -35,7 +35,7 @@
         "English": "Militia~a Militia~Militias"
       },
       {
-        "zType": "TEXT_UNIT_LEVY",
+        "zType": "TEXT_UNIT_CONSCRIPT",
         "English": "Conscript~a Conscript~Conscripts"
       },
       {
@@ -43,16 +43,16 @@
         "English": "Warrior~a Warrior~Warriors"
       },
       {
-        "zType": "TEXT_UNIT_MACEMAN",
-        "English": "Maceman~a Maceman~Macemen"
+        "zType": "TEXT_UNIT_AXEMAN",
+        "English": "Axeman~an Axeman~Axemen"
       },
       {
         "zType": "TEXT_UNIT_SPEARMAN",
         "English": "Spearman~a Spearman~Spearmen"
       },
       {
-        "zType": "TEXT_UNIT_AXEMAN",
-        "English": "Axeman~an Axeman~Axemen"
+        "zType": "TEXT_UNIT_MACEMAN",
+        "English": "Maceman~a Maceman~Macemen"
       },
       {
         "zType": "TEXT_UNIT_SWORDSMAN",
@@ -77,10 +77,6 @@
       {
         "zType": "TEXT_UNIT_CROSSBOWMAN",
         "English": "Crossbowman~a Crossbowman~Crossbowmen"
-      },
-      {
-        "zType": "TEXT_UNIT_POLYBOLOS",
-        "English": "Polybolos~a Polybolos~Polyboloi"
       },
       {
         "zType": "TEXT_UNIT_CHARIOT",
@@ -111,12 +107,16 @@
         "English": "Ballista~a Ballista~Ballistas"
       },
       {
-        "zType": "TEXT_UNIT_CATAPULT",
-        "English": "Catapult~a Catapult~Catapults"
+        "zType": "TEXT_UNIT_POLYBOLOS",
+        "English": "Polybolos~a Polybolos~Polyboloi"
       },
       {
         "zType": "TEXT_UNIT_ONAGER",
         "English": "Onager~an Onager~Onagers"
+      },
+      {
+        "zType": "TEXT_UNIT_MANGONEL",
+        "English": "Mangonel~a Mangonel~Mangonels"
       },
       {
         "zType": "TEXT_UNIT_BIREME",
@@ -148,7 +148,7 @@
       },
       {
         "zType": "TEXT_UNIT_AFRICAN_ELEPHANT",
-        "English": "African Elephants~an African Elephant~African Elephants"
+        "English": "African Elephant~an African Elephant~African Elephants"
       },
       {
         "zType": "TEXT_UNIT_TURRETED_ELEPHANT",
@@ -187,32 +187,32 @@
         "English": "Legionary~a Legionary~Legionaries"
       },
       {
-        "zType": "TEXT_UNIT_RAIDER_1",
-        "English": "Raider~a Raider~Raiders"
+        "zType": "TEXT_UNIT_MARAUDER_1",
+        "English": "Marauder~a Marauder~Marauders"
       },
       {
         "zType": "TEXT_UNIT_SKIRMISHER_1",
         "English": "Skirmisher~a Skirmisher~Skirmishers"
       },
       {
-        "zType": "TEXT_UNIT_NOMAD_RAIDER_1",
-        "English": "Nomad Raider~a Nomad Raider~Nomad Raiders"
+        "zType": "TEXT_UNIT_NOMAD_MARAUDER_1",
+        "English": "Nomad Marauder~a Nomad Marauder~Nomad Marauders"
       },
       {
         "zType": "TEXT_UNIT_NOMAD_SKIRMISHER_1",
         "English": "Nomad Skirmisher~a Nomad Skirmisher~Nomad Skirmishers"
       },
       {
-        "zType": "TEXT_UNIT_RAIDER_2",
-        "English": "Elite Raider~an Elite Raider~Elite Raiders"
+        "zType": "TEXT_UNIT_MARAUDER_2",
+        "English": "Elite Marauder~an Elite Marauder~Elite Marauders"
       },
       {
         "zType": "TEXT_UNIT_SKIRMISHER_2",
         "English": "Elite Skirmisher~an Elite Skirmisher~Elite Skirmishers"
       },
       {
-        "zType": "TEXT_UNIT_NOMAD_RAIDER_2",
-        "English": "Elite Nomad Raider~an Elite Nomad Raider~Elite Nomad Raiders"
+        "zType": "TEXT_UNIT_NOMAD_MARAUDER_2",
+        "English": "Elite Nomad Marauder~an Elite Nomad Marauder~Elite Nomad Marauders"
       },
       {
         "zType": "TEXT_UNIT_NOMAD_SKIRMISHER_2",

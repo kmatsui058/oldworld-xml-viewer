@@ -43,8 +43,9 @@
         "English": "Maintenance"
       },
       {
+        "comment": "Note, since this is the only countable noun (non-mass) using a different scheme for the alternate forms",
         "zType": "TEXT_YIELD_ORDERS",
-        "English": "Orders"
+        "English": "Orders~Order~an Order"
       },
       {
         "zType": "TEXT_YIELD_FOOD",
@@ -55,12 +56,12 @@
         "English": "Iron"
       },
       {
-        "zType": "TEXT_YIELD_WOOD",
-        "English": "Wood"
-      },
-      {
         "zType": "TEXT_YIELD_STONE",
         "English": "Stone"
+      },
+      {
+        "zType": "TEXT_YIELD_WOOD",
+        "English": "Wood"
       }
     ]
   }

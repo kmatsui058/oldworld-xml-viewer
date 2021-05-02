@@ -21,16 +21,7 @@
         "iMaxCount": {
           
         },
-        "iFree": {
-          
-        },
-        "iFirstFree": {
-          
-        },
-        "iRemoveProb": {
-          
-        },
-        "iHealHP": {
+        "iFreeNoCharacters": {
           
         },
         "iExtraPopRequired": {
@@ -69,6 +60,9 @@
         "EffectCityExtra": {
           
         },
+        "EffectPlayer": {
+          
+        },
         "MinimumCulture": {
           
         },
@@ -90,9 +84,6 @@
         "CapitalEffectPlayerPrereq": {
           
         },
-        "Stat": {
-          
-        },
         "aiYieldCost": {
           
         },
@@ -107,23 +98,16 @@
         "zType": "PROJECT_REPAIR",
         "Name": "TEXT_PROJECT_REPAIR",
         "zIcon": "PROJECT_REPAIR",
-        "iHealHP": "3",
         "bRepeat": "1",
         "bNoHurry": "1",
-        "bRequiresDamage": "1"
-      },
-      {
-        "zType": "PROJECT_MONARCH",
-        "Name": "TEXT_PROJECT_MONARCH",
-        "zIcon": "PROJECT_MONARCH",
-        "bHidden": "1",
-        "CityProject": "PROJECT_MONARCH",
-        "EffectCity": "EFFECTCITY_PROJECT_MONARCH"
+        "bRequiresDamage": "1",
+        "Bonus": "BONUS_PROJECT_REPAIRS"
       },
       {
         "zType": "PROJECT_GOVERNOR",
         "Name": "TEXT_PROJECT_GOVERNOR",
         "zIcon": "PROJECT_GOVERNOR",
+        "iFreeNoCharacters": "1",
         "bHidden": "1",
         "CityProject": "PROJECT_GOVERNOR",
         "EffectCity": "EFFECTCITY_PROJECT_GOVERNOR"
@@ -138,7 +122,7 @@
         "bCaptureDestroy": "1",
         "CityProject": "PROJECT_WALLS",
         "EffectCity": "EFFECTCITY_PROJECT_WALLS",
-        "TechPrereq": "TECH_RAMPARTS",
+        "TechPrereq": "TECH_POLIS",
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -155,7 +139,7 @@
         "bCaptureDestroy": "1",
         "CityProject": "PROJECT_MOAT",
         "EffectCity": "EFFECTCITY_PROJECT_MOAT",
-        "TechPrereq": "TECH_DRAWBRIDGE",
+        "TechPrereq": "TECH_PORTCULLIS",
         "ProjectPrereq": "PROJECT_WALLS",
         "aiYieldCost": {
           "Pair": {
@@ -173,7 +157,7 @@
         "bCaptureDestroy": "1",
         "CityProject": "PROJECT_TOWERS",
         "EffectCity": "EFFECTCITY_PROJECT_TOWERS",
-        "TechPrereq": "TECH_WARRIOR_CODE",
+        "TechPrereq": "TECH_MARTIAL_CODE",
         "ProjectPrereq": "PROJECT_MOAT",
         "aiYieldCost": {
           "Pair": {
@@ -188,6 +172,7 @@
         "zIcon": "PROJECT_TREASURY_1",
         "iCivics": "40",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_TREASURY_1",
         "CityProject": "PROJECT_TREASURY_1",
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_1",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
@@ -222,6 +207,7 @@
         "zIcon": "PROJECT_TREASURY_2",
         "iCivics": "60",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_TREASURY_2",
         "CityProject": "PROJECT_TREASURY_2",
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
@@ -250,8 +236,9 @@
         "zType": "PROJECT_TREASURY_3",
         "Name": "TEXT_PROJECT_TREASURY_3",
         "zIcon": "PROJECT_TREASURY_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_TREASURY_3",
         "CityProject": "PROJECT_TREASURY_3",
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
@@ -274,8 +261,9 @@
         "zType": "PROJECT_TREASURY_4",
         "Name": "TEXT_PROJECT_TREASURY_4",
         "zIcon": "PROJECT_TREASURY_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_TREASURY_4",
         "CityProject": "PROJECT_TREASURY_4",
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
@@ -294,6 +282,7 @@
         "zIcon": "PROJECT_FORUM_1",
         "iCivics": "40",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_FORUM_1",
         "CityProject": "PROJECT_FORUM_1",
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_1",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
@@ -328,6 +317,7 @@
         "zIcon": "PROJECT_FORUM_2",
         "iCivics": "60",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_FORUM_2",
         "CityProject": "PROJECT_FORUM_2",
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
@@ -356,8 +346,9 @@
         "zType": "PROJECT_FORUM_3",
         "Name": "TEXT_PROJECT_FORUM_3",
         "zIcon": "PROJECT_FORUM_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_FORUM_3",
         "CityProject": "PROJECT_FORUM_3",
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
@@ -380,8 +371,9 @@
         "zType": "PROJECT_FORUM_4",
         "Name": "TEXT_PROJECT_FORUM_4",
         "zIcon": "PROJECT_FORUM_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_FORUM_4",
         "CityProject": "PROJECT_FORUM_4",
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
@@ -400,6 +392,7 @@
         "zIcon": "PROJECT_ARCHIVE_1",
         "iCivics": "40",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_ARCHIVE_1",
         "CityProject": "PROJECT_ARCHIVE_1",
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_1",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
@@ -434,6 +427,7 @@
         "zIcon": "PROJECT_ARCHIVE_2",
         "iCivics": "60",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_ARCHIVE_2",
         "CityProject": "PROJECT_ARCHIVE_2",
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
@@ -462,8 +456,9 @@
         "zType": "PROJECT_ARCHIVE_3",
         "Name": "TEXT_PROJECT_ARCHIVE_3",
         "zIcon": "PROJECT_ARCHIVE_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_ARCHIVE_3",
         "CityProject": "PROJECT_ARCHIVE_3",
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
@@ -486,8 +481,9 @@
         "zType": "PROJECT_ARCHIVE_4",
         "Name": "TEXT_PROJECT_ARCHIVE_4",
         "zIcon": "PROJECT_ARCHIVE_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "iMaxCount": "1",
+        "Bonus": "BONUS_PROJECT_ARCHIVE_4",
         "CityProject": "PROJECT_ARCHIVE_4",
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
@@ -508,7 +504,7 @@
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_DECREE_1",
         "RequiresCulture": "CULTURE_WEAK",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT_DECREE",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE"
       },
       {
@@ -519,29 +515,29 @@
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_DECREE_2",
         "RequiresCulture": "CULTURE_DEVELOPING",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT_DECREE",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE"
       },
       {
         "zType": "PROJECT_DECREE_3",
         "Name": "TEXT_PROJECT_DECREE_3",
         "zIcon": "PROJECT_DECREE_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_DECREE_3",
         "RequiresCulture": "CULTURE_STRONG",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT_DECREE",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE"
       },
       {
         "zType": "PROJECT_DECREE_4",
         "Name": "TEXT_PROJECT_DECREE_4",
         "zIcon": "PROJECT_DECREE_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_DECREE_4",
         "RequiresCulture": "CULTURE_LEGENDARY",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_STATESMEN_SEAT_DECREE",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_STATESMEN_SEAT_DECREE",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE"
       },
       {
@@ -575,7 +571,7 @@
         "zType": "PROJECT_FESTIVAL_3",
         "Name": "TEXT_PROJECT_FESTIVAL_3",
         "zIcon": "PROJECT_FESTIVAL_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_FESTIVAL_3",
         "CityProject": "PROJECT_FESTIVAL",
@@ -585,7 +581,7 @@
         "zType": "PROJECT_FESTIVAL_4",
         "Name": "TEXT_PROJECT_FESTIVAL_4",
         "zIcon": "PROJECT_FESTIVAL_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_FESTIVAL_4",
         "CityProject": "PROJECT_FESTIVAL",
@@ -597,7 +593,7 @@
         "zIcon": "PROJECT_INQUIRY_1",
         "bHidden": "1",
         "EffectCity": "EFFECTCITY_PROJECT_INQUIRY",
-        "Stat": "STAT_PROJECT_INQUIRY"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY"
       },
       {
         "zType": "PROJECT_INQUIRY_1",
@@ -608,7 +604,7 @@
         "Bonus": "BONUS_PROJECT_INQUIRY_1",
         "CityProject": "PROJECT_INQUIRY",
         "RequiresCulture": "CULTURE_WEAK",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_SAGES_SEAT_INQUIRY",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
       },
       {
@@ -620,31 +616,31 @@
         "Bonus": "BONUS_PROJECT_INQUIRY_2",
         "CityProject": "PROJECT_INQUIRY",
         "RequiresCulture": "CULTURE_DEVELOPING",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_SAGES_SEAT_INQUIRY",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
       },
       {
         "zType": "PROJECT_INQUIRY_3",
         "Name": "TEXT_PROJECT_INQUIRY_3",
         "zIcon": "PROJECT_INQUIRY_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_INQUIRY_3",
         "CityProject": "PROJECT_INQUIRY",
         "RequiresCulture": "CULTURE_STRONG",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_SAGES_SEAT_INQUIRY",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
       },
       {
         "zType": "PROJECT_INQUIRY_4",
         "Name": "TEXT_PROJECT_INQUIRY_4",
         "zIcon": "PROJECT_INQUIRY_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_INQUIRY_4",
         "CityProject": "PROJECT_INQUIRY",
         "RequiresCulture": "CULTURE_LEGENDARY",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_SAGES_SEAT_INQUIRY",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
         "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
       },
       {
@@ -652,7 +648,8 @@
         "Name": "TEXT_PROJECT_HUNT",
         "zIcon": "PROJECT_HUNT_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_HUNT"
+        "EffectCity": "EFFECTCITY_PROJECT_HUNT",
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
       },
       {
         "zType": "PROJECT_HUNT_1",
@@ -663,7 +660,7 @@
         "Bonus": "BONUS_PROJECT_HUNT_1",
         "CityProject": "PROJECT_HUNT",
         "RequiresCulture": "CULTURE_WEAK",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT_HUNT"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
       },
       {
         "zType": "PROJECT_HUNT_2",
@@ -674,36 +671,37 @@
         "Bonus": "BONUS_PROJECT_HUNT_2",
         "CityProject": "PROJECT_HUNT",
         "RequiresCulture": "CULTURE_DEVELOPING",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT_HUNT"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
       },
       {
         "zType": "PROJECT_HUNT_3",
         "Name": "TEXT_PROJECT_HUNT_3",
         "zIcon": "PROJECT_HUNT_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_HUNT_3",
         "CityProject": "PROJECT_HUNT",
         "RequiresCulture": "CULTURE_STRONG",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT_HUNT"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
       },
       {
         "zType": "PROJECT_HUNT_4",
         "Name": "TEXT_PROJECT_HUNT_4",
         "zIcon": "PROJECT_HUNT_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_HUNT_4",
         "CityProject": "PROJECT_HUNT",
         "RequiresCulture": "CULTURE_LEGENDARY",
-        "EffectCityPrereq": "EFFECTCITY_FAMILY_CLASS_HUNTERS_SEAT_HUNT"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
       },
       {
         "zType": "PROJECT_OLYMPICS",
         "Name": "TEXT_PROJECT_OLYMPICS",
         "zIcon": "PROJECT_OLYMPICS_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_OLYMPICS"
+        "EffectCity": "EFFECTCITY_PROJECT_OLYMPICS",
+        "EffectPlayerPrereq": "EFFECTPLAYER_NATION_GREECE_OLYMPICS"
       },
       {
         "zType": "PROJECT_OLYMPICS_1",
@@ -731,7 +729,7 @@
         "zType": "PROJECT_OLYMPICS_3",
         "Name": "TEXT_PROJECT_OLYMPICS_3",
         "zIcon": "PROJECT_OLYMPICS_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_OLYMPICS_3",
         "CityProject": "PROJECT_OLYMPICS",
@@ -742,7 +740,7 @@
         "zType": "PROJECT_OLYMPICS_4",
         "Name": "TEXT_PROJECT_OLYMPICS_4",
         "zIcon": "PROJECT_OLYMPICS_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "Bonus": "BONUS_PROJECT_OLYMPICS_4",
         "CityProject": "PROJECT_OLYMPICS",
@@ -754,7 +752,8 @@
         "Name": "TEXT_PROJECT_CONVOY",
         "zIcon": "PROJECT_CONVOY_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_CONVOY"
+        "EffectCity": "EFFECTCITY_PROJECT_CONVOY",
+        "EffectPlayerPrereq": "EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY"
       },
       {
         "zType": "PROJECT_CONVOY_1",
@@ -784,7 +783,7 @@
         "zType": "PROJECT_CONVOY_3",
         "Name": "TEXT_PROJECT_CONVOY_3",
         "zIcon": "PROJECT_CONVOY_3",
-        "iCivics": "80",
+        "iCivics": "100",
         "bRepeat": "1",
         "bNoHurry": "1",
         "Bonus": "BONUS_PROJECT_CONVOY_3",
@@ -796,7 +795,7 @@
         "zType": "PROJECT_CONVOY_4",
         "Name": "TEXT_PROJECT_CONVOY_4",
         "zIcon": "PROJECT_CONVOY_4",
-        "iCivics": "100",
+        "iCivics": "160",
         "bRepeat": "1",
         "bNoHurry": "1",
         "Bonus": "BONUS_PROJECT_CONVOY_4",

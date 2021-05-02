@@ -389,19 +389,19 @@
         "zDescription": "Two continents of nearly-equal size"
       },
       {
-        "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_UNEVEN",
-        "zName": "Two Continents, Split Evenly",
-        "zDescription": "Two continents, one larger than the other"
-      },
-      {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN",
-        "zName": "Three Continents, Split Unevenly",
+        "zName": "Three Continents, Split Evenly",
         "zDescription": "Three continents of nearly-equal size"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN",
         "zName": "Three Continents, Split Unevenly",
         "zDescription": "Three continents of uneven sizes"
+      },
+      {
+        "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS",
+        "zName": "One continent per team",
+        "zDescription": "One continent per team, with size proportional to the number of team members"
       }
     ]
   }

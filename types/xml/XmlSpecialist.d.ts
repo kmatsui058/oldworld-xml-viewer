@@ -12,12 +12,13 @@ export interface Entry {
   zIconName: ZType | string;
   Class: ZType | string;
   iCivics: ZType | string;
+  iOpinionReligion?: ZType | string;
   bUpgrade?: ZType | string;
   SpecialistPrereq?: ZType | string;
   EffectCity?: ZType | string;
   EffectCityExtra: ZType | string;
   aiYieldCost?: AiYieldCost;
-  aiImprovementModifier?: AiYieldCost;
+  aiImprovementClassModifier?: AiYieldCost;
 }
 export interface AiYieldCost {
   Pair?: Pair;

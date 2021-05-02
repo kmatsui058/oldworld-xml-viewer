@@ -12,6 +12,9 @@
         "zIconName": {
           
         },
+        "SourceUnitTrait": {
+          
+        },
         "iStrengthModifier": {
           
         },
@@ -19,6 +22,9 @@
           
         },
         "iCriticalChance": {
+          
+        },
+        "iConvertOnKillChance": {
           
         },
         "iVisionExtra": {
@@ -36,19 +42,40 @@
         "iRiverAttackModifier": {
           
         },
+        "iWaterLandAttackModifier": {
+          
+        },
+        "iHomeModifier": {
+          
+        },
         "iSettlementAttackModifier": {
           
         },
         "iUrbanAttackModifier": {
           
         },
-        "iDamagedModifier": {
+        "iUrbanDefenseModifier": {
           
         },
-        "iBarbarianModifier": {
+        "iDamagedUsModifier": {
           
         },
-        "iAdjacentEffectDefenseModifier": {
+        "iDamagedThemModifier": {
+          
+        },
+        "iGeneralModifier": {
+          
+        },
+        "iTribeModifier": {
+          
+        },
+        "iFlankingAttackModifier": {
+          
+        },
+        "iAdjacentSameModifier": {
+          
+        },
+        "iAdjacentSameDefenseModifier": {
           
         },
         "iHealExtra": {
@@ -60,19 +87,43 @@
         "bRout": {
           
         },
+        "bPush": {
+          
+        },
+        "bStun": {
+          
+        },
+        "bLastStand": {
+          
+        },
         "bIgnoresDistance": {
+          
+        },
+        "bCriticalImmune": {
+          
+        },
+        "bHealNeutral": {
           
         },
         "bLaunchOffensive": {
           
         },
-        "aiTerrainModifier": {
+        "bNoRoadCooldown": {
           
         },
-        "aiHeightModifier": {
+        "aiAttackValue": {
           
         },
-        "aiVegetationModifier": {
+        "aiAttackPercent": {
+          
+        },
+        "aiTerrainFromModifier": {
+          
+        },
+        "aiHeightFromModifier": {
+          
+        },
+        "aiVegetationFromModifier": {
           
         },
         "aiUnitTraitModifier": {
@@ -91,6 +142,12 @@
           
         },
         "abUnitTraitValid": {
+          
+        },
+        "abUnitTraitInvalid": {
+          
+        },
+        "aeUnitTraitZOC": {
           
         }
       },
@@ -185,33 +242,10 @@
         "iCriticalChance": "20"
       },
       {
-        "zType": "EFFECTUNIT_HERO",
-        "Name": "TEXT_EFFECTUNIT_HERO",
-        "zIconName": "EFFECTUNIT_HERO",
-        "iStrengthModifier": "10",
-        "iCriticalChance": "10",
-        "abUnitTraitValid": {
-          "Pair": [
-            {
-              "zIndex": "UNITTRAIT_INFANTRY",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "UNITTRAIT_MOUNTED",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "UNITTRAIT_SHIP",
-              "bValue": "1"
-            }
-          ]
-        }
-      },
-      {
         "zType": "EFFECTUNIT_TRACKER",
         "Name": "TEXT_EFFECTUNIT_TRACKER",
         "zIconName": "EFFECTUNIT_TRACKER",
-        "iVisionExtra": "2",
+        "iVisionExtra": "3",
         "abUnitTraitValid": {
           "Pair": [
             {
@@ -252,28 +286,6 @@
         }
       },
       {
-        "zType": "EFFECTUNIT_HARDY",
-        "Name": "TEXT_EFFECTUNIT_HARDY",
-        "zIconName": "EFFECTUNIT_HARDY",
-        "iFatigueExtra": "2",
-        "abUnitTraitValid": {
-          "Pair": [
-            {
-              "zIndex": "UNITTRAIT_INFANTRY",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "UNITTRAIT_RANGED",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "UNITTRAIT_SHIP",
-              "bValue": "1"
-            }
-          ]
-        }
-      },
-      {
         "zType": "EFFECTUNIT_EAGLE_EYE",
         "Name": "TEXT_EFFECTUNIT_EAGLE_EYE",
         "zIconName": "EFFECTUNIT_EAGLE_EYE",
@@ -281,6 +293,12 @@
         "abUnitTraitValid": {
           "Pair": {
             "zIndex": "UNITTRAIT_RANGED",
+            "bValue": "1"
+          }
+        },
+        "abUnitTraitInvalid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SIEGE",
             "bValue": "1"
           }
         }
@@ -298,15 +316,22 @@
         }
       },
       {
-        "zType": "EFFECTUNIT_ENGINEER",
-        "Name": "TEXT_EFFECTUNIT_ENGINEER",
-        "zIconName": "EFFECTUNIT_ENGINEER",
+        "zType": "EFFECTUNIT_AMPHIBIOUS",
+        "Name": "TEXT_EFFECTUNIT_AMPHIBIOUS",
+        "zIconName": "EFFECTUNIT_AMPHIBIOUS",
         "iRiverAttackModifier": "50",
+        "iWaterLandAttackModifier": "50",
         "abUnitTraitValid": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "bValue": "1"
-          }
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
         }
       },
       {
@@ -331,7 +356,7 @@
         "zType": "EFFECTUNIT_GARRISON",
         "Name": "TEXT_EFFECTUNIT_GARRISON",
         "zIconName": "EFFECTUNIT_GARRISON",
-        "aiTerrainModifier": {
+        "aiTerrainFromModifier": {
           "Pair": {
             "zIndex": "TERRAIN_URBAN",
             "iValue": "25"
@@ -351,16 +376,28 @@
         }
       },
       {
+        "zType": "EFFECTUNIT_TOUGH",
+        "Name": "TEXT_EFFECTUNIT_TOUGH",
+        "zIconName": "EFFECTUNIT_TOUGH",
+        "iDamagedUsModifier": "10"
+      },
+      {
         "zType": "EFFECTUNIT_BLOODTHIRSTY",
         "Name": "TEXT_EFFECTUNIT_BLOODTHIRSTY",
         "zIconName": "EFFECTUNIT_BLOODTHIRSTY",
-        "iDamagedModifier": "10"
+        "iDamagedThemModifier": "10"
+      },
+      {
+        "zType": "EFFECTUNIT_HECKLER",
+        "Name": "TEXT_EFFECTUNIT_HECKLER",
+        "zIconName": "EFFECTUNIT_HECKLER",
+        "iGeneralModifier": "25"
       },
       {
         "zType": "EFFECTUNIT_STEADFAST",
         "Name": "TEXT_EFFECTUNIT_STEADFAST",
         "zIconName": "EFFECTUNIT_STEADFAST",
-        "iBarbarianModifier": "25",
+        "iTribeModifier": "25",
         "abUnitTraitValid": {
           "Pair": [
             {
@@ -370,6 +407,10 @@
             {
               "zIndex": "UNITTRAIT_RANGED",
               "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
             }
           ]
         }
@@ -378,7 +419,7 @@
         "zType": "EFFECTUNIT_HERBALIST",
         "Name": "TEXT_EFFECTUNIT_HERBALIST",
         "zIconName": "EFFECTUNIT_HERBALIST",
-        "iHealExtra": "2"
+        "iHealExtra": "4"
       },
       {
         "zType": "EFFECTUNIT_HEALER",
@@ -390,7 +431,7 @@
         "zType": "EFFECTUNIT_NOMAD",
         "Name": "TEXT_EFFECTUNIT_NOMAD",
         "zIconName": "EFFECTUNIT_NOMAD",
-        "aiTerrainModifier": {
+        "aiTerrainFromModifier": {
           "Pair": {
             "zIndex": "TERRAIN_SAND",
             "iValue": "25"
@@ -413,7 +454,7 @@
         "zType": "EFFECTUNIT_COLD",
         "Name": "TEXT_EFFECTUNIT_COLD",
         "zIconName": "EFFECTUNIT_COLD",
-        "aiTerrainModifier": {
+        "aiTerrainFromModifier": {
           "Pair": {
             "zIndex": "TERRAIN_TUNDRA",
             "iValue": "25"
@@ -436,7 +477,7 @@
         "zType": "EFFECTUNIT_HIGHLANDER",
         "Name": "TEXT_EFFECTUNIT_HIGHLANDER",
         "zIconName": "EFFECTUNIT_HIGHLANDER",
-        "aiHeightModifier": {
+        "aiHeightFromModifier": {
           "Pair": {
             "zIndex": "HEIGHT_HILL",
             "iValue": "25"
@@ -459,7 +500,7 @@
         "zType": "EFFECTUNIT_RANGER",
         "Name": "TEXT_EFFECTUNIT_RANGER",
         "zIconName": "EFFECTUNIT_RANGER",
-        "aiVegetationModifier": {
+        "aiVegetationFromModifier": {
           "Pair": {
             "zIndex": "VEGETATION_TREES",
             "iValue": "25"
@@ -497,6 +538,10 @@
             {
               "zIndex": "UNITTRAIT_RANGED",
               "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
             }
           ]
         }
@@ -519,6 +564,10 @@
             },
             {
               "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
               "bValue": "1"
             }
           ]
@@ -543,6 +592,10 @@
             {
               "zIndex": "UNITTRAIT_RANGED",
               "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
             }
           ]
         }
@@ -566,18 +619,316 @@
             {
               "zIndex": "UNITTRAIT_RANGED",
               "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
             }
           ]
         }
       },
       {
-        "zType": "EFFECTUNIT_AGGRESSOR",
-        "Name": "TEXT_EFFECTUNIT_AGGRESSOR",
-        "zIconName": "EFFECTUNIT_AGGRESSOR",
+        "zType": "EFFECTUNIT_ENGINEER",
+        "Name": "TEXT_EFFECTUNIT_ENGINEER",
+        "zIconName": "EFFECTUNIT_ENGINEER",
+        "aiUnitTraitModifier": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_SIEGE",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "iValue": "25"
+            }
+          ]
+        },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SHRAPNEL",
+        "Name": "TEXT_EFFECTUNIT_SHRAPNEL",
+        "zIconName": "EFFECTUNIT_SHRAPNEL",
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_COCKSWAIN",
+        "Name": "TEXT_EFFECTUNIT_COCKSWAIN",
+        "zIconName": "EFFECTUNIT_COCKSWAIN",
+        "bRout": "1",
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_GRAPPLER",
+        "Name": "TEXT_EFFECTUNIT_GRAPPLER",
+        "zIconName": "EFFECTUNIT_GRAPPLER",
+        "bStun": "1",
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SEABORN",
+        "Name": "TEXT_EFFECTUNIT_SEABORN",
+        "zIconName": "EFFECTUNIT_SEABORN",
+        "aiHeightFromModifier": {
+          "Pair": {
+            "zIndex": "HEIGHT_OCEAN",
+            "iValue": "20"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_OVERWHELM",
+        "Name": "TEXT_EFFECTUNIT_OVERWHELM",
+        "zIconName": "EFFECTUNIT_OVERWHELM",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_ARC",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_ARC",
+            "iValue": "25"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_FIRESHIP",
+        "Name": "TEXT_EFFECTUNIT_FIRESHIP",
+        "zIconName": "EFFECTUNIT_FIRESHIP",
+        "iDefenseModifier": "-50",
+        "bPush": "1",
+        "aiUnitTraitModifierAttack": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "iValue": "100"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_INGENUITY",
+        "Name": "TEXT_EFFECTUNIT_INGENUITY",
+        "zIconName": "EFFECTUNIT_INGENUITY",
+        "iStrengthModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_SADDLEBORN",
+        "Name": "TEXT_EFFECTUNIT_SADDLEBORN",
+        "zIconName": "EFFECTUNIT_SADDLEBORN",
+        "aiUnitTraitModifierDefense": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MELEE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SNIPING",
+        "Name": "TEXT_EFFECTUNIT_SNIPING",
+        "zIconName": "EFFECTUNIT_SNIPING",
+        "iHomeModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_TRACKER_ALL",
+        "Name": "TEXT_EFFECTUNIT_TRACKER_ALL",
+        "zIconName": "EFFECTUNIT_TRACKER_ALL",
+        "iVisionExtra": "2",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_INFANTRY",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_MOUNTED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SWIFT_ALL",
+        "Name": "TEXT_EFFECTUNIT_SWIFT_ALL",
+        "zIconName": "EFFECTUNIT_SWIFT_ALL",
+        "iFatigueExtra": "1",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_INFANTRY",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_MOUNTED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_BESIEGER_ALL",
+        "Name": "TEXT_EFFECTUNIT_BESIEGER_ALL",
+        "zIconName": "EFFECTUNIT_BESIEGER_ALL",
+        "iUrbanAttackModifier": "10",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_INFANTRY",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SIEGE",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_TOUGH_ALL",
+        "Name": "TEXT_EFFECTUNIT_TOUGH_ALL",
+        "zIconName": "EFFECTUNIT_TOUGH_ALL",
+        "iDamagedUsModifier": "5"
+      },
+      {
+        "zType": "EFFECTUNIT_BLOODTHIRSTY_ALL",
+        "Name": "TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL",
+        "zIconName": "EFFECTUNIT_BLOODTHIRSTY_ALL",
+        "iDamagedThemModifier": "5"
+      },
+      {
+        "zType": "EFFECTUNIT_HECKLER_ALL",
+        "Name": "TEXT_EFFECTUNIT_HECKLER_ALL",
+        "zIconName": "EFFECTUNIT_HECKLER_ALL",
+        "iGeneralModifier": "10"
+      },
+      {
+        "zType": "EFFECTUNIT_STEADFAST_ALL",
+        "Name": "TEXT_EFFECTUNIT_STEADFAST_ALL",
+        "zIconName": "EFFECTUNIT_STEADFAST_ALL",
+        "iTribeModifier": "10",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_HERBALIST_ALL",
+        "Name": "TEXT_EFFECTUNIT_HERBALIST_ALL",
+        "zIconName": "EFFECTUNIT_HERBALIST_ALL",
+        "iHealExtra": "2"
+      },
+      {
+        "zType": "EFFECTUNIT_HIGHLANDER_ALL",
+        "Name": "TEXT_EFFECTUNIT_HIGHLANDER_ALL",
+        "zIconName": "EFFECTUNIT_HIGHLANDER_ALL",
+        "aiHeightFromModifier": {
+          "Pair": {
+            "zIndex": "HEIGHT_HILL",
+            "iValue": "10"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_INFANTRY",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_RANGER_ALL",
+        "Name": "TEXT_EFFECTUNIT_RANGER_ALL",
+        "zIconName": "EFFECTUNIT_RANGER_ALL",
+        "aiVegetationFromModifier": {
+          "Pair": {
+            "zIndex": "VEGETATION_TREES",
+            "iValue": "10"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_INFANTRY",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_BRAVE_ALL",
+        "Name": "TEXT_EFFECTUNIT_BRAVE_ALL",
+        "zIconName": "EFFECTUNIT_BRAVE_ALL",
         "aiUnitTraitModifier": {
           "Pair": {
-            "zIndex": "UNITTRAIT_SIEGE",
-            "iValue": "25"
+            "zIndex": "UNITTRAIT_MELEE",
+            "iValue": "5"
           }
         },
         "abUnitTraitValid": {
@@ -589,6 +940,114 @@
             {
               "zIndex": "UNITTRAIT_RANGED",
               "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SHIELDBEARER_ALL",
+        "Name": "TEXT_EFFECTUNIT_SHIELDBEARER_ALL",
+        "zIconName": "EFFECTUNIT_SHIELDBEARER_ALL",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_RANGED",
+            "iValue": "5"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_HORSEBANE_ALL",
+        "Name": "TEXT_EFFECTUNIT_HORSEBANE_ALL",
+        "zIconName": "EFFECTUNIT_HORSEBANE_ALL",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MOUNTED",
+            "iValue": "10"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ENGINEER_ALL",
+        "Name": "TEXT_EFFECTUNIT_ENGINEER_ALL",
+        "zIconName": "EFFECTUNIT_ENGINEER_ALL",
+        "aiUnitTraitModifier": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_SIEGE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "iValue": "10"
+            }
+          ]
+        },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_FIERCE_ALL",
+        "Name": "TEXT_EFFECTUNIT_FIERCE_ALL",
+        "zIconName": "EFFECTUNIT_FIERCE_ALL",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "5"
+          }
+        },
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_RANGED",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
             }
           ]
         }
@@ -598,6 +1057,12 @@
         "Name": "TEXT_EFFECTUNIT_ROUT",
         "zIconName": "EFFECTUNIT_ROUT",
         "bRout": "1"
+      },
+      {
+        "zType": "EFFECTUNIT_PANIC",
+        "Name": "TEXT_EFFECTUNIT_PANIC",
+        "zIconName": "EFFECTUNIT_PANIC",
+        "bPush": "1"
       },
       {
         "zType": "EFFECTUNIT_STEALTH",
@@ -614,96 +1079,143 @@
         "zType": "EFFECTUNIT_ASSAULT",
         "Name": "TEXT_EFFECTUNIT_ASSAULT",
         "zIconName": "EFFECTUNIT_ASSAULT",
-        "iSettlementAttackModifier": "200"
+        "iSettlementAttackModifier": "50",
+        "iUrbanAttackModifier": "25"
       },
       {
         "zType": "EFFECTUNIT_FORMATION",
         "Name": "TEXT_EFFECTUNIT_FORMATION",
         "zIconName": "EFFECTUNIT_FORMATION",
-        "iAdjacentEffectDefenseModifier": "20"
+        "iAdjacentSameDefenseModifier": "20"
       },
       {
-        "zType": "EFFECTUNIT_VALOR",
-        "Name": "TEXT_EFFECTUNIT_VALOR",
-        "zIconName": "EFFECTUNIT_VALOR",
+        "zType": "EFFECTUNIT_MANEUVERS",
+        "Name": "TEXT_EFFECTUNIT_MANEUVERS",
+        "zIconName": "EFFECTUNIT_MANEUVERS"
+      },
+      {
+        "zType": "EFFECTUNIT_CRIPPLED",
+        "Name": "TEXT_EFFECTUNIT_CRIPPLED",
+        "zIconName": "EFFECTUNIT_CRIPPLED",
+        "iFatigueExtra": "-1"
+      },
+      {
+        "zType": "EFFECTUNIT_SOLDIER",
+        "Name": "TEXT_EFFECTUNIT_SOLDIER",
+        "zIconName": "EFFECTUNIT_SOLDIER",
         "iStrengthModifier": "20"
       },
       {
-        "zType": "EFFECTUNIT_INGENUITY",
-        "Name": "TEXT_EFFECTUNIT_INGENUITY",
-        "zIconName": "EFFECTUNIT_INGENUITY",
-        "iStrengthModifier": "20"
+        "zType": "EFFECTUNIT_SURVEYOR",
+        "Name": "TEXT_EFFECTUNIT_SURVEYOR",
+        "zIconName": "EFFECTUNIT_SURVEYOR",
+        "bNoRoadCooldown": "1"
       },
       {
-        "zType": "EFFECTUNIT_SADDLEBORN",
-        "Name": "TEXT_EFFECTUNIT_SADDLEBORN",
-        "zIconName": "EFFECTUNIT_SADDLEBORN",
-        "iStrengthModifier": "20"
+        "zType": "EFFECTUNIT_HERO",
+        "Name": "TEXT_EFFECTUNIT_HERO",
+        "zIconName": "EFFECTUNIT_HERO",
+        "bHealNeutral": "1"
       },
       {
-        "zType": "EFFECTUNIT_SNIPING",
-        "Name": "TEXT_EFFECTUNIT_SNIPING",
-        "zIconName": "EFFECTUNIT_SNIPING",
-        "iStrengthModifier": "20"
+        "zType": "EFFECTUNIT_HERO_LEADER",
+        "Name": "TEXT_EFFECTUNIT_HERO_LEADER",
+        "zIconName": "EFFECTUNIT_HERO_LEADER",
+        "bLaunchOffensive": "1"
       },
       {
-        "zType": "EFFECTUNIT_TIMIDITY",
-        "Name": "TEXT_EFFECTUNIT_TIMIDITY",
-        "zIconName": "EFFECTUNIT_TIMIDITY",
-        "iStrengthModifier": "-20"
+        "zType": "EFFECTUNIT_HERO_MELEE",
+        "Name": "TEXT_EFFECTUNIT_HERO_MELEE",
+        "zIconName": "EFFECTUNIT_HERO_MELEE",
+        "iStrengthModifier": "10"
+      },
+      {
+        "zType": "EFFECTUNIT_COMMANDER",
+        "Name": "TEXT_EFFECTUNIT_COMMANDER",
+        "zIconName": "EFFECTUNIT_COMMANDER",
+        "iAdjacentSameModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_COMMANDER_LEADER",
+        "Name": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
+        "zIconName": "EFFECTUNIT_COMMANDER_LEADER",
+        "iFlankingAttackModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_COMMANDER_INFANTRY",
+        "Name": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
+        "zIconName": "EFFECTUNIT_COMMANDER_INFANTRY",
+        "iDefenseModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_TACTICIAN_RANGED",
+        "Name": "TEXT_EFFECTUNIT_TACTICIAN_RANGED",
+        "zIconName": "EFFECTUNIT_TACTICIAN_RANGED",
+        "abHideVegetation": {
+          "Pair": {
+            "zIndex": "VEGETATION_TREES",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_TACTICIAN",
+        "Name": "TEXT_EFFECTUNIT_TACTICIAN",
+        "zIconName": "EFFECTUNIT_TACTICIAN",
+        "bCriticalImmune": "1"
+      },
+      {
+        "zType": "EFFECTUNIT_TACTICIAN_LEADER",
+        "Name": "TEXT_EFFECTUNIT_TACTICIAN_LEADER",
+        "zIconName": "EFFECTUNIT_TACTICIAN_LEADER",
+        "bStun": "1"
+      },
+      {
+        "zType": "EFFECTUNIT_ZEALOT",
+        "Name": "TEXT_EFFECTUNIT_ZEALOT",
+        "zIconName": "EFFECTUNIT_ZEALOT",
+        "bLastStand": "1"
+      },
+      {
+        "zType": "EFFECTUNIT_ZEALOT_LEADER",
+        "Name": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
+        "zIconName": "EFFECTUNIT_ZEALOT_LEADER",
+        "iConvertOnKillChance": "5"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_FURIOUS",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS",
         "zIconName": "EFFECTUNIT_FURIOUS",
-        "iStrengthModifier": "-30"
+        "iStrengthModifier": "-20"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_ANGRY",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY",
         "zIconName": "EFFECTUNIT_ANGRY",
-        "iStrengthModifier": "-20"
+        "iStrengthModifier": "-10"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_UPSET",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET",
         "zIconName": "EFFECTUNIT_UPSET",
-        "iStrengthModifier": "-10"
+        "iStrengthModifier": "-5"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_PLEASED",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED",
         "zIconName": "EFFECTUNIT_PLEASED",
-        "iStrengthModifier": "10"
+        "iStrengthModifier": "5"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_FRIENDLY",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY",
         "zIconName": "EFFECTUNIT_FRIENDLY",
-        "iStrengthModifier": "20"
-      },
-      {
-        "zType": "EFFECTUNIT_TRAIT_HERO_ARCHETYPE_LEADER",
-        "Name": "TEXT_EFFECTUNIT_TRAIT_HERO_ARCHETYPE_LEADER",
-        "zIconName": "EFFECTUNIT_HERO",
-        "bLaunchOffensive": "1"
-      },
-      {
-        "zType": "EFFECTUNIT_TRAIT_TACTICIAN_ARCHETYPE",
-        "Name": "TEXT_EFFECTUNIT_TRAIT_TACTICIAN_ARCHETYPE",
-        "zIconName": "EFFECTUNIT_TACTICIAN",
-        "iCriticalChance": "10"
-      },
-      {
-        "zType": "EFFECTUNIT_TRAIT_CRIPPLED",
-        "Name": "TEXT_EFFECTUNIT_TRAIT_CRIPPLED",
-        "zIconName": "EFFECTUNIT_CRIPPLED",
-        "iFatigueExtra": "-1"
+        "iStrengthModifier": "10"
       },
       {
         "zType": "EFFECTUNIT_SWORD_OF_THE_GODS",
         "Name": "TEXT_EFFECTUNIT_SWORD_OF_THE_GODS",
-        "zIconName": "EFFECTUNIT_BRAVE",
+        "zIconName": "EFFECTUNIT_EVENT",
         "aiUnitTraitModifier": {
           "Pair": {
             "zIndex": "UNITTRAIT_INFANTRY",
@@ -716,6 +1228,80 @@
             "bValue": "1"
           }
         }
+      },
+      {
+        "zType": "EFFECTUNIT_MELEE",
+        "Name": "TEXT_UNITTRAIT_MELEE",
+        "zIconName": "UNITTRAIT_MELEE",
+        "SourceUnitTrait": "UNITTRAIT_MELEE",
+        "iRiverAttackModifier": "-50"
+      },
+      {
+        "zType": "EFFECTUNIT_RANGED",
+        "Name": "TEXT_UNITTRAIT_RANGED",
+        "zIconName": "UNITTRAIT_RANGED",
+        "SourceUnitTrait": "UNITTRAIT_RANGED"
+      },
+      {
+        "zType": "EFFECTUNIT_INFANTRY",
+        "Name": "TEXT_UNITTRAIT_INFANTRY",
+        "zIconName": "UNITTRAIT_INFANTRY",
+        "SourceUnitTrait": "UNITTRAIT_INFANTRY",
+        "iUrbanDefenseModifier": "25"
+      },
+      {
+        "zType": "EFFECTUNIT_POLEARM",
+        "Name": "TEXT_UNITTRAIT_POLEARM",
+        "zIconName": "UNITTRAIT_POLEARM",
+        "SourceUnitTrait": "UNITTRAIT_POLEARM",
+        "aeUnitTraitZOC": {
+          "zValue": "UNITTRAIT_MOUNTED"
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_MOUNTED",
+        "Name": "TEXT_UNITTRAIT_MOUNTED",
+        "zIconName": "UNITTRAIT_MOUNTED",
+        "SourceUnitTrait": "UNITTRAIT_MOUNTED",
+        "iUrbanAttackModifier": "-25",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SIEGE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_HORSE",
+        "Name": "TEXT_UNITTRAIT_HORSE",
+        "zIconName": "UNITTRAIT_HORSE",
+        "SourceUnitTrait": "UNITTRAIT_HORSE"
+      },
+      {
+        "zType": "EFFECTUNIT_CAMEL",
+        "Name": "TEXT_UNITTRAIT_CAMEL",
+        "zIconName": "UNITTRAIT_CAMEL",
+        "SourceUnitTrait": "UNITTRAIT_CAMEL"
+      },
+      {
+        "zType": "EFFECTUNIT_ELEPHANT",
+        "Name": "TEXT_UNITTRAIT_ELEPHANT",
+        "zIconName": "UNITTRAIT_ELEPHANT",
+        "SourceUnitTrait": "UNITTRAIT_ELEPHANT"
+      },
+      {
+        "zType": "EFFECTUNIT_SIEGE",
+        "Name": "TEXT_UNITTRAIT_SIEGE",
+        "zIconName": "UNITTRAIT_SIEGE",
+        "SourceUnitTrait": "UNITTRAIT_SIEGE",
+        "iUrbanAttackModifier": "50",
+        "bIgnoresDistance": "1"
+      },
+      {
+        "zType": "EFFECTUNIT_SHIP",
+        "Name": "TEXT_UNITTRAIT_SHIP",
+        "zIconName": "UNITTRAIT_SHIP",
+        "SourceUnitTrait": "UNITTRAIT_SHIP"
       }
     ]
   }

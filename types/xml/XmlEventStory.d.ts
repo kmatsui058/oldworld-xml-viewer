@@ -9,57 +9,79 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | Name2 | string;
-  Text?: ZType | Name2 | string;
+  Text: ZType | Name2 | string;
   zBackgroundName?: ZType | string;
+  zFrameType?: ZFrameType;
+  zVideoAsset?: Name2 | string;
   zEventURL?: ZType | Name2 | string;
+  zCommunityContribution?: Name2 | string;
   zAudioTrigger?: ZType | Name2 | string;
-  zEventAuthor?: ZType | Name2 | string;
-  aeSubjects: AeSubjects;
+  zAuthor: ZType | Name2 | string;
+  zNotes?: ZFrameType;
+  aeSubjects?: AeSubjects;
   SubjectRepeatTurns?: SubjectRepeatTurns;
-  SubjectExtras?: SubjectExtras;
+  SubjectExtras?: SubjectRepeatTurns;
+  SubjectNotExtras?: SubjectNotExtras;
+  SubjectAny?: SubjectAny;
   SubjectRelations?: SubjectRelations;
-  aeBonuses?: AeSubjects;
-  aeOptions: AeSubjects;
+  SubjectNotRelations?: SubjectNotRelations;
+  aeBonuses?: AeBonuses;
+  aeOptions?: AeSubjects;
   Class?: ZType | Name2 | string;
   Trigger?: ZType | Name2 | string;
   TriggerData?: ZType | Name2 | string;
   iTriggerSubject?: ZType | Name2 | string;
   iTriggerExtra?: ZType | Name2 | string;
   iImageSubject?: ZType | Name2 | string;
-  iImageExtra?: IImageExtra;
+  iImageExtra?: ZType | Name2 | string;
+  iImageOther?: ZType | Name2 | string;
+  iLookAtSubject?: ZType | Name2 | string;
+  iSortOrder?: ZType | Name2 | string;
   EventLinkPrereq?: ZType | Name2 | string;
   iEventLinkTurns?: ZType | Name2 | string;
-  TechPrereq?: ZType | Name2 | string;
-  TechInvalid?: ZType | Name2 | string;
   LawPrereq?: ZType | Name2 | string;
   CouncilInvalid?: ZType | Name2 | string;
+  MinOpponentLevel?: ZType | Name2 | string;
+  MaxOpponentLevel?: ZFrameType;
+  MinDifficulty?: ZType | Name2 | string;
+  MaxDifficulty?: ZFrameType;
   iMinLeader?: ZType | Name2 | string;
   iMinTurns?: ZType | Name2 | string;
+  iMaxTurns?: ZType | Name2 | string;
   iPriority?: ZType | Name2 | string;
-  iWeight: ZType | Name2 | string;
+  iWeight?: ZType | Name2 | string;
   iProb?: ZType | Name2 | string;
   iRepeatTurns?: ZType | Name2 | string;
   bHidePrereqs?: ZType | Name2 | string;
   bNoCharacters?: ZType | Name2 | string;
   bModal?: ZType | Name2 | string;
-  bAllOptions?: IImageExtra;
+  bAllOptions?: ZType | Name2 | string;
   bIgnoreOptions?: ZType | Name2 | string;
+  bAlwaysTriggers?: ZType | Name2 | string;
   bTutorial?: ZType | Name2 | string;
-  aiMortalitySkipProb?: AiMortalitySkipProb;
+  bHidden?: ZType | Name2 | string;
+  bMultiples?: ZType | Name2 | string;
+  aiRatingWeight?: AiRatingWeight;
+  aiMortalitySkipProb?: AiRatingWeight;
   aeLawInvalid?: AeSubjects;
-  aeEventStoryNoRepeat?: AeSubjects;
+  aeEventStoryRepeatTurns?: AeSubjects;
   beginGroup?: string;
 }
-export interface AiMortalitySkipProb {
+export interface AiRatingWeight {
   comment?: string;
-  Pair?: Pair2[];
+  Pair?: Pair2[] | Pair2;
 }
 export interface Pair2 {
   zIndex: string;
   iValue: string;
 }
-export interface IImageExtra {
+export interface AeBonuses {
   comment?: string;
+  zValue?: string[] | (ZType | string)[] | string;
+}
+export interface SubjectNotRelations {
+  comment?: string;
+  Triple?: Triple;
 }
 export interface SubjectRelations {
   comment?: string;
@@ -70,13 +92,17 @@ export interface Triple {
   Second: string;
   Third: string;
 }
-export interface SubjectExtras {
+export interface SubjectAny {
   comment?: string;
-  Pair?: Pair[] | Pair;
+  Pair?: Pair[];
+}
+export interface SubjectNotExtras {
+  comment?: string;
+  Pair?: Pair;
 }
 export interface SubjectRepeatTurns {
   comment?: string;
-  Pair?: Pair;
+  Pair?: Pair[] | Pair;
 }
 export interface Pair {
   First: string;
@@ -85,6 +111,9 @@ export interface Pair {
 export interface AeSubjects {
   comment?: string;
   zValue?: string[] | string;
+}
+export interface ZFrameType {
+  comment?: string;
 }
 export interface Name2 {
   comment: string;

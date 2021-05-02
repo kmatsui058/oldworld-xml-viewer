@@ -12,11 +12,8 @@ export interface Entry {
   zIcon: ZType | string;
   ProjectAsset?: ZType;
   iCivics?: ZType;
-  iMaxCount?: ZType;
-  iFree?: ZType;
-  iFirstFree?: ZType;
-  iRemoveProb?: ZType;
-  iHealHP?: ZType;
+  iMaxCount: ZType | string;
+  iFreeNoCharacters?: ZType;
   iExtraPopRequired?: ZType;
   bHidden: ZType | string;
   bRepeat?: ZType;
@@ -26,9 +23,10 @@ export interface Entry {
   bRequiresDamage?: ZType;
   bCaptureDestroy?: ZType;
   Bonus?: ZType;
-  CityProject: ZType | string;
-  EffectCity: ZType | string;
+  CityProject?: ZType | string;
+  EffectCity?: ZType | string;
   EffectCityExtra?: ZType;
+  EffectPlayer?: ZType;
   MinimumCulture?: ZType;
   RequiresCulture?: ZType;
   TechPrereq?: ZType;
@@ -36,7 +34,6 @@ export interface Entry {
   EffectCityPrereq?: ZType;
   EffectPlayerPrereq?: ZType;
   CapitalEffectPlayerPrereq?: ZType;
-  Stat?: ZType;
   aiYieldCost?: ZType;
   aiYieldModifier?: ZType;
   abInvalidBy?: ZType;

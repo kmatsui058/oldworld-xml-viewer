@@ -18,9 +18,6 @@
         "iBorderValue": {
           
         },
-        "iTerritoryDefenseModifier": {
-          
-        },
         "bWater": {
           
         },
@@ -42,10 +39,13 @@
         "DefaultHeight": {
           
         },
-        "aiDefendUnitTrait": {
+        "aiDefendEffectUnit": {
           
         },
         "aeHeightAsset": {
+          
+        },
+        "AssetVariation": {
           
         }
       },
@@ -55,7 +55,6 @@
         "zIconName": "TERRAIN_WATER",
         "iMovementCost": "9",
         "iBorderValue": "-1",
-        "iTerritoryDefenseModifier": "25",
         "bWater": "1",
         "bNoVegetation": "1",
         "DefaultHeight": "HEIGHT_COAST",
@@ -83,6 +82,7 @@
         "iMovementCost": "9",
         "bUrban": "1",
         "bNoVegetation": "1",
+        "bCitySite": "1",
         "bRoadValid": "1",
         "DefaultHeight": "HEIGHT_FLAT",
         "aeHeightAsset": {
@@ -127,7 +127,8 @@
               "zValue": "ASSET_VARIATION_TILE_LUSH_FLAT"
             }
           ]
-        }
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_LUSH"
       },
       {
         "zType": "TERRAIN_TEMPERATE",
@@ -158,7 +159,8 @@
               "zValue": "ASSET_VARIATION_TILE_TEMPERATE_FLAT"
             }
           ]
-        }
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TEMPERATE"
       },
       {
         "zType": "TERRAIN_ARID",
@@ -188,7 +190,8 @@
               "zValue": "ASSET_VARIATION_TILE_ARID_FLAT"
             }
           ]
-        }
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_ARID"
       },
       {
         "zType": "TERRAIN_SAND",
@@ -216,7 +219,8 @@
               "zValue": "ASSET_VARIATION_TILE_SAND_FLAT"
             }
           ]
-        }
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_DESERT"
       },
       {
         "zType": "TERRAIN_TUNDRA",
@@ -224,7 +228,6 @@
         "zIconName": "TERRAIN_TUNDRA",
         "iMovementCost": "9",
         "iBorderValue": "100",
-        "bNoVegetation": "1",
         "bRoadValid": "1",
         "DefaultHeight": "HEIGHT_FLAT",
         "aeHeightAsset": {
@@ -246,7 +249,8 @@
               "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
             }
           ]
-        }
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TUNDRA"
       }
     ]
   }

@@ -8,10 +8,14 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  iPlayerProb?: ZType | string;
-  iCharacterProb?: ZType | string;
-  iMinTurns?: ZType | string;
-  iMinRepeat?: ZType | string;
+  iLevelProb?: ILevelProb | string;
+  iPlayerProb?: ILevelProb | string;
+  iCharacterProb?: ILevelProb | string;
+  iMinTurns?: ILevelProb | string;
+  iMinRepeat: ILevelProb | string;
+}
+export interface ILevelProb {
+  comment: string;
 }
 export interface ZType {
 }

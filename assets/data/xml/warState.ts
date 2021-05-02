@@ -11,31 +11,38 @@
         },
         "iThreshold": {
           
+        },
+        "iTruceModifier": {
+          
         }
       },
       {
         "zType": "WARSTATE_ROUTED",
         "zName": "Routed",
-        "iThreshold": "-20"
+        "iThreshold": "-200",
+        "iTruceModifier": "50"
       },
       {
         "zType": "WARSTATE_LOSING",
         "zName": "Losing",
-        "iThreshold": "-1"
+        "iThreshold": "-20",
+        "iTruceModifier": "25"
       },
       {
         "zType": "WARSTATE_NEUTRAL",
         "zName": "Neutral",
-        "iThreshold": "0"
+        "iThreshold": "20"
       },
       {
         "zType": "WARSTATE_WINNING",
         "zName": "Winning",
-        "iThreshold": "20"
+        "iThreshold": "200",
+        "iTruceModifier": "-25"
       },
       {
         "zType": "WARSTATE_TRIUMPHANT",
-        "zName": "Triumphant"
+        "zName": "Triumphant",
+        "iTruceModifier": "-50"
       }
     ]
   }

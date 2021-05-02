@@ -13,6 +13,8 @@ export interface Entry {
   iTruceModifier?: ZType | string;
   iWarModifier?: ZType | string;
   bDeclareWar?: ZType | string;
+  bNoTribePeace?: ZType | string;
+  bNoTribeOfferHuman?: ZType | string;
 }
 export interface ZType {
 }

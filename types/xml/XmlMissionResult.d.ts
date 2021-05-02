@@ -10,10 +10,9 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   Description?: ZType | string;
-  bIgnoreTest?: ZType;
-  bTestEnabled?: ZType | string;
   TargetBonus?: ZType | string;
   EventTrigger?: ZType | string;
+  EventTriggerTarget?: ZType | string;
   aiRatingModifier?: AiRatingModifier;
 }
 export interface AiRatingModifier {

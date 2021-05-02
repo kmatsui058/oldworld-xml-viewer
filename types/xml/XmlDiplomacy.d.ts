@@ -14,6 +14,9 @@ export interface Entry {
   zInactiveColor: ZType | string;
   iOpinion?: ZType | string;
   iOpinionEnemy?: ZType | string;
+  iOpinionEthnicity?: ZType | string;
+  iOpinionReligion?: ZType | string;
+  iBlock?: ZType | string;
   bHostile?: ZType | string;
   bPeace?: ZType | string;
 }

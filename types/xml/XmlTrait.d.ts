@@ -9,7 +9,9 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Nickname?: ZType | string;
   zIconName?: ZType | string;
+  iMinAge?: ZType | string;
   iAdjectiveDie?: ZType | string;
   iNoFamilyDie?: ZType | string;
   iBarbDie?: ZType | string;
@@ -18,25 +20,53 @@ export interface Entry {
   iDieProb?: ZType | string;
   iRemoveProb?: ZType | string;
   iOpinion?: ZType | string;
+  iOpinionSame?: ZType | string;
+  iOpinionFamily?: ZType | string;
+  iOpinionReligion?: ZType | string;
+  iOpinionProximity?: ZType | string;
+  iOpinionStrength?: ZType | string;
+  iOpinionKnowledge?: ZType | string;
+  iOpinionGenerals?: ZType | string;
+  iOpinionGovernors?: ZType | string;
+  iOpinionWonders?: ZType | string;
+  iOpinionLaws?: ZType | string;
+  iOpinionCognomen?: ZType | string;
+  iOpinionTrades?: ZType | string;
   iBirthModifier?: ZType | string;
+  iPeaceModifier?: ZType | string;
+  iTruceModifier?: ZType | string;
+  iWarModifier?: ZType | string;
   bArchetype?: ZType | string;
-  bAdjective?: ZType | string;
+  bStrength?: ZType | string;
+  bWeakness?: ZType | string;
+  bNickname?: ZType | string;
   bUpgrade?: ZType | string;
   bNoEvents?: ZType | string;
+  bNoMissions?: ZType | string;
   bNoMarry?: ZType | string;
   bNoBirth?: ZType | string;
   bNoHeir?: ZType | string;
   bNoJob?: ZType | string;
-  bGovernorPrereq?: ZType | string;
+  bNoCourtier?: ZType | string;
   bGeneralPrereq?: ZType | string;
+  bGeneralAll?: ZType;
+  bGovernorPrereq?: ZType | string;
+  bGovernorAll?: ZType;
+  bAgentPrereq?: ZType | string;
   bRemoveLeader?: ZType | string;
+  bRemoveDeath?: ZType | string;
+  bDoomed?: ZType | string;
+  bGiveBirth?: ZType;
+  bTeamAlliance?: ZType | string;
   LeaderEffectPlayer?: ZType | string;
   GovernorEffectCity?: ZType | string;
   GeneralEffectUnit?: ZType | string;
   LeaderEffectUnit?: ZType | string;
-  Cognomen?: ZType | string;
+  MemoryCharacter?: ZType | string;
   aiRating?: AiRating;
-  aiTraitProb?: AiTraitProb;
+  aiTraitOpinion?: AiTraitOpinion;
+  aiTraitProb?: AiRating;
+  aiLawOpinion?: AiRating;
   aiMortalityDieProb?: AiMortalityDieProb;
   aiDecadeProb?: AiDecadeProb;
   abSkipDecade?: AbSkipDecade;
@@ -63,7 +93,7 @@ export interface AiDecadeProb {
 export interface AiMortalityDieProb {
   Pair?: Pair[];
 }
-export interface AiTraitProb {
+export interface AiTraitOpinion {
   Pair?: Pair;
 }
 export interface AiRating {

@@ -13,18 +13,25 @@ export interface Entry {
   iCostBase: ZType | string;
   iCostPerCity?: ZType;
   iCostPerChange: ZType | string;
-  iSpreadThreshold: ZType | string;
+  iSpreadPercent?: ZType | string;
   iRequiresCitizens?: ZType | string;
-  EffectCity: ZType | string;
+  bDisabled?: ZType;
+  Achievement: ZType | string;
+  EffectCity?: ZType | string;
   EffectPlayerState: ZType | string;
-  EffectPlayerUpkeep: ZType | string;
+  EffectPlayerUpkeep?: ZType | string;
+  PaganNation?: ZType | string;
+  RequiresReligion?: ZType | string;
   RequiresTech?: ZType | string;
-  SpreadUnit: ZType | string;
+  SpreadUnit?: ZType | string;
   aiRequiresImprovement?: ZType;
   aiRequiresImprovementClass?: ZType;
   aiRequiresSpecialist?: AiRequiresSpecialist;
   aiRequiresSpecialistClass?: AiRequiresSpecialist;
-  aiRequiresReligion?: AiRequiresSpecialist;
+  aiRequiresReligion?: AiRequiresReligion;
+}
+export interface AiRequiresReligion {
+  Pair?: Pair[] | Pair;
 }
 export interface AiRequiresSpecialist {
   Pair?: Pair;

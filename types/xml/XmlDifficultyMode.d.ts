@@ -11,7 +11,8 @@ export interface Entry {
   zName: ZType | string;
   Difficulty?: ZType | string;
   Development?: ZType | string;
-  BarbarianLevel?: ZType | string;
+  OpponentLevel?: ZType | string;
+  TribeLevel?: ZType | string;
 }
 export interface ZType {
 }

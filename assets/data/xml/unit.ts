@@ -27,6 +27,9 @@
         "zAudioAttackType": {
           
         },
+        "zAudioDamagedByProjectileType": {
+          
+        },
         "azGenderIconName": {
           
         },
@@ -37,6 +40,9 @@
           
         },
         "aeFormations": {
+          
+        },
+        "Achievement": {
           
         },
         "UnitCycle": {
@@ -111,16 +117,25 @@
         "iStartFirst": {
           
         },
-        "iStartCity": {
-          
-        },
-        "iStartCityAI": {
-          
-        },
-        "iStartDeveloped": {
-          
-        },
         "fAttackDuration": {
+          
+        },
+        "fAnimNormalMoveDuration": {
+          
+        },
+        "fAnimNormalMoveSpeed": {
+          
+        },
+        "fAnimIntermediateMoveDuration": {
+          
+        },
+        "fAnimIntermediateMoveSpeed": {
+          
+        },
+        "fAnimFastMoveDuration": {
+          
+        },
+        "fAnimFastMoveSpeed": {
           
         },
         "bWater": {
@@ -132,13 +147,10 @@
         "bTerritoryWater": {
           
         },
-        "bReveal": {
-          
-        },
         "bMelee": {
           
         },
-        "bOutsideConsumption": {
+        "bRangeFlat": {
           
         },
         "bOutsideOpinion": {
@@ -177,10 +189,10 @@
         "bBuild": {
           
         },
-        "bBuyTile": {
+        "bAgent": {
           
         },
-        "bTrade": {
+        "bCaravan": {
           
         },
         "bTheology": {
@@ -199,6 +211,9 @@
           
         },
         "bNoHurry": {
+          
+        },
+        "aiStartDifficulty": {
           
         },
         "aiUnitTraitModifier": {
@@ -239,6 +254,9 @@
         },
         "aeRemoveVegetation": {
           
+        },
+        "aaiImprovementYieldRate": {
+          
         }
       },
       {
@@ -248,26 +266,34 @@
         "zPortraitName": "UNIT_SETTLER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SETTLER",
-        "zAudioMovementType": "SETTLER",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_SETTLER"
+          "zValue": [
+            "FORMATION_SETTLER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_FOUND",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "80",
         "iProductionPer": "10",
         "iStartFirst": "1",
-        "bReveal": "1",
+        "fAnimNormalMoveDuration": "1",
+        "fAnimNormalMoveSpeed": "1.2",
+        "fAnimIntermediateMoveDuration": ".6",
+        "fAnimIntermediateMoveSpeed": "1.4",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bFound": "1",
         "bHarvest": "1",
-        "bNoHurry": "1",
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -279,6 +305,12 @@
             "zIndex": "YIELD_FOOD",
             "iValue": "2"
           }
+        },
+        "aeUpgradeUnit": {
+          "zValue": "UNIT_WORKER"
+        },
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
         }
       },
       {
@@ -288,8 +320,9 @@
         "zPortraitName": "UNIT_WORKER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "WORKER",
-        "zAudioMovementType": "WORKER",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
             "FORMATION_WORKER",
@@ -299,25 +332,30 @@
         "UnitCycle": "UNITCYCLE_WORKER",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "50",
-        "iProductionPer": "10",
-        "iStartCity": "1",
-        "iStartDeveloped": "1",
+        "iProductionPer": "5",
         "bTerritoryWater": "1",
-        "bReveal": "1",
         "bOutsideOpinion": "1",
         "bHarvest": "1",
         "bBuild": "1",
-        "bBuyTile": "1",
+        "aiStartDifficulty": {
+          "Pair": {
+            "zIndex": "DIFFICULTY_ABLE",
+            "iValue": "1"
+          }
+        },
         "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "2"
           }
+        },
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
         },
         "aeRemoveVegetation": {
           "zValue": [
@@ -335,25 +373,43 @@
         "zPortraitName": "UNIT_SCOUT",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SCOUT",
-        "zAudioMovementType": "SCOUT",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_SCOUT"
+          "zValue": [
+            "FORMATION_SCOUT",
+            "FORMATION_SCOUT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_SCOUT",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iReveal": "1",
         "iFatigue": "4",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "50",
-        "iProductionPer": "10",
-        "iStartCity": "1",
-        "bReveal": "1",
+        "iProductionPer": "5",
         "bIgnoreZOC": "1",
         "bHarvest": "1",
+        "bAgent": "1",
+        "aiStartDifficulty": {
+          "Pair": [
+            {
+              "zIndex": "DIFFICULTY_ABLE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "DIFFICULTY_JUST",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
+        },
         "aeEffectUnit": {
           "zValue": "EFFECTUNIT_STEALTH"
         }
@@ -364,37 +420,47 @@
         "zIconName": "UNIT_CARAVAN",
         "zPortraitName": "UNIT_CARAVAN",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
+        "zAudioSelectionType": "CARAVAN",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_CARAVAN"
+          "zValue": [
+            "FORMATION_CARAVAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_CARAVAN",
         "EffectCityPrereq": "EFFECTCITY_UNIT_CARAVAN",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "2",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
-        "iProduction": "80",
-        "iProductionPer": "10",
+        "iProduction": "60",
+        "iProductionPer": "5",
         "bAmphibious": "1",
-        "bReveal": "1",
-        "bTrade": "1"
+        "bCaravan": "1",
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_MOUNTED"
+        }
       },
       {
         "zType": "UNIT_ZOROASTRIANISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
         "zIconName": "RELIGION_ZOROASTRIANISM",
         "zPortraitName": "UNIT_ZOROASTRIANISM_DISCIPLE",
-        "zBackgroundName": "DiscipleUnitAttackBackground",
+        "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
-        "zAudioMovementType": "DISCIPLE",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_ZOROASTRIANISM_DISCIPLE"
+          "zValue": [
+            "FORMATION_ZOROASTRIANISM_DISCIPLE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_DISCIPLE",
         "RequiresReligion": "RELIGION_ZOROASTRIANISM",
@@ -402,27 +468,58 @@
         "BuildReligion": "RELIGION_ZOROASTRIANISM",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "3",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "80",
-        "iProductionPer": "10",
-        "bBuyTile": "1",
+        "iProductionPer": "5",
         "bTheology": "1",
-        "bReligious": "1"
+        "bReligious": "1",
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
+        },
+        "aaiImprovementYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENT_MONASTERY_ZOROASTRIANISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_SCIENCE",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "50"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_CATHEDRAL_ZOROASTRIANISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "10"
+              }
+            }
+          ]
+        }
       },
       {
         "zType": "UNIT_JUDAISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
         "zIconName": "RELIGION_JUDAISM",
         "zPortraitName": "UNIT_JUDAISM_DISCIPLE",
-        "zBackgroundName": "DiscipleUnitAttackBackground",
+        "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
-        "zAudioMovementType": "DISCIPLE",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_JUDAISM_DISCIPLE"
+          "zValue": [
+            "FORMATION_JUDAISM_DISCIPLE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_DISCIPLE",
         "RequiresReligion": "RELIGION_JUDAISM",
@@ -430,27 +527,58 @@
         "BuildReligion": "RELIGION_JUDAISM",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "3",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "80",
-        "iProductionPer": "10",
-        "bBuyTile": "1",
+        "iProductionPer": "5",
         "bTheology": "1",
-        "bReligious": "1"
+        "bReligious": "1",
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
+        },
+        "aaiImprovementYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENT_MONASTERY_JUDAISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_SCIENCE",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_TEMPLE_JUDAISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "50"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_CATHEDRAL_JUDAISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "10"
+              }
+            }
+          ]
+        }
       },
       {
         "zType": "UNIT_CHRISTIANITY_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
         "zIconName": "RELIGION_CHRISTIANITY",
         "zPortraitName": "UNIT_CHRISTIANITY_DISCIPLE",
-        "zBackgroundName": "DiscipleUnitAttackBackground",
+        "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
-        "zAudioMovementType": "DISCIPLE",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_CHRISTIANITY_DISCIPLE"
+          "zValue": [
+            "FORMATION_CHRISTIANITY_DISCIPLE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_DISCIPLE",
         "RequiresReligion": "RELIGION_CHRISTIANITY",
@@ -458,27 +586,58 @@
         "BuildReligion": "RELIGION_CHRISTIANITY",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "3",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "80",
-        "iProductionPer": "10",
-        "bBuyTile": "1",
+        "iProductionPer": "5",
         "bTheology": "1",
-        "bReligious": "1"
+        "bReligious": "1",
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
+        },
+        "aaiImprovementYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENT_MONASTERY_CHRISTIANITY",
+              "SubPair": {
+                "zSubIndex": "YIELD_SCIENCE",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_TEMPLE_CHRISTIANITY",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "50"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_CATHEDRAL_CHRISTIANITY",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "10"
+              }
+            }
+          ]
+        }
       },
       {
         "zType": "UNIT_MANICHAEISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
         "zIconName": "RELIGION_MANICHAEISM",
         "zPortraitName": "UNIT_MANICHAEISM_DISCIPLE",
-        "zBackgroundName": "DiscipleUnitAttackBackground",
+        "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
-        "zAudioMovementType": "DISCIPLE",
+        "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_MANICHAEISM_DISCIPLE"
+          "zValue": [
+            "FORMATION_MANICHAEISM_DISCIPLE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_DISCIPLE",
         "RequiresReligion": "RELIGION_MANICHAEISM",
@@ -486,15 +645,42 @@
         "BuildReligion": "RELIGION_MANICHAEISM",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "3",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "80",
-        "iProductionPer": "10",
-        "bBuyTile": "1",
+        "iProductionPer": "5",
         "bTheology": "1",
-        "bReligious": "1"
+        "bReligious": "1",
+        "aeUnitTrait": {
+          "zValue": "UNITTRAIT_INFANTRY"
+        },
+        "aaiImprovementYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENT_MONASTERY_MANICHAEISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_SCIENCE",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_TEMPLE_MANICHAEISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "50"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENT_CATHEDRAL_MANICHAEISM",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "10"
+              }
+            }
+          ]
+        }
       },
       {
         "zType": "UNIT_MILITIA",
@@ -503,24 +689,26 @@
         "zPortraitName": "UNIT_MILITIA",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "MILITIA",
-        "zAudioMovementType": "INFANTRY_LEATHER_LIGHT",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_MILITIA"
+          "zValue": [
+            "FORMATION_MILITIA",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "30",
         "iHPMax": "20",
         "iProduction": "60",
         "iProductionPer": "2",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -535,7 +723,7 @@
           "zValue": "TECH_MANOR"
         },
         "aeUpgradeUnit": {
-          "zValue": "UNIT_LEVY"
+          "zValue": "UNIT_CONSCRIPT"
         },
         "aeUnitTrait": {
           "zValue": [
@@ -545,31 +733,33 @@
         }
       },
       {
-        "zType": "UNIT_LEVY",
-        "Name": "TEXT_UNIT_LEVY",
+        "zType": "UNIT_CONSCRIPT",
+        "Name": "TEXT_UNIT_CONSCRIPT",
         "zIconName": "UNIT_LEVY",
         "zPortraitName": "UNIT_LEVY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITIA",
-        "zAudioMovementType": "INFANTRY_LEATHER_LIGHT",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "CONSCRIPT",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_LEVY"
+          "zValue": [
+            "FORMATION_CONSCRIPT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "TechPrereq": "TECH_MANOR",
         "ProductionType": "YIELD_GROWTH",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
         "iProductionPer": "2",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -577,7 +767,7 @@
         "aiUnitTraitModifierMelee": {
           "Pair": {
             "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
+            "iValue": "25"
           }
         },
         "aiYieldConsumption": {
@@ -589,7 +779,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_POLEARM"
           ]
         }
       },
@@ -600,24 +791,26 @@
         "zPortraitName": "UNIT_WARRIOR",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SWORD",
-        "zAudioMovementType": "INFANTRY_METAL_LIGHT",
-        "zAudioAttackType": "MELEE_SWORD",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_WARRIOR"
+          "zValue": [
+            "FORMATION_WARRIOR",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "TechPrereq": "TECH_IRONWORKING",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "40",
         "iHPMax": "20",
         "iProduction": "60",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -640,13 +833,13 @@
         },
         "aeObsoleteTech": {
           "zValue": [
-            "TECH_BATTLELINE",
+            "TECH_STEEL",
             "TECH_PHALANX"
           ]
         },
         "aeUpgradeUnit": {
           "zValue": [
-            "UNIT_MACEMAN",
+            "UNIT_AXEMAN",
             "UNIT_SPEARMAN"
           ]
         },
@@ -658,30 +851,32 @@
         }
       },
       {
-        "zType": "UNIT_MACEMAN",
-        "Name": "TEXT_UNIT_MACEMAN",
-        "zIconName": "UNIT_MACEMAN",
-        "zPortraitName": "UNIT_MACEMAN",
+        "zType": "UNIT_AXEMAN",
+        "Name": "TEXT_UNIT_AXEMAN",
+        "zIconName": "UNIT_AXEMAN",
+        "zPortraitName": "UNIT_AXEMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "MACE",
-        "zAudioMovementType": "INFANTRY_METAL_HEAVY",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_MACEMAN"
+          "zValue": [
+            "FORMATION_AXEMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
-        "TechPrereq": "TECH_BATTLELINE",
+        "TechPrereq": "TECH_STEEL",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -690,6 +885,12 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_POLEARM",
+            "iValue": "25"
+          }
+        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -715,11 +916,11 @@
           }
         },
         "aeObsoleteTech": {
-          "zValue": "TECH_UNIT_TACTICS"
+          "zValue": "TECH_COHORTS"
         },
         "aeUpgradeUnit": {
           "zValue": [
-            "UNIT_AXEMAN",
+            "UNIT_MACEMAN",
             "UNIT_SWORDSMAN"
           ]
         },
@@ -737,24 +938,26 @@
         "zPortraitName": "UNIT_SPEARMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SPEAR",
-        "zAudioMovementType": "INFANTRY_METAL_LIGHT",
-        "zAudioAttackType": "MELEE_SPEAR",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_SPEARMAN"
+          "zValue": [
+            "FORMATION_SPEARMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "TechPrereq": "TECH_PHALANX",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -800,7 +1003,7 @@
           }
         },
         "aeObsoleteTech": {
-          "zValue": "TECH_SARISSA"
+          "zValue": "TECH_INFANTRY_SQUARE"
         },
         "aeUpgradeUnit": {
           "zValue": [
@@ -811,35 +1014,38 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_POLEARM"
           ]
         }
       },
       {
-        "zType": "UNIT_AXEMAN",
-        "Name": "TEXT_UNIT_AXEMAN",
-        "zIconName": "UNIT_AXEMAN",
-        "zPortraitName": "UNIT_AXEMAN",
+        "zType": "UNIT_MACEMAN",
+        "Name": "TEXT_UNIT_MACEMAN",
+        "zIconName": "UNIT_MACEMAN",
+        "zPortraitName": "UNIT_MACEMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "AXE",
-        "zAudioMovementType": "INFANTRY_METAL_HEAVY",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_AXEMAN"
+          "zValue": [
+            "FORMATION_MACEMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
-        "TechPrereq": "TECH_STEEL",
+        "TechPrereq": "TECH_BATTLELINE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "60",
         "iHPMax": "20",
         "iProduction": "100",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -873,7 +1079,7 @@
           ]
         },
         "aeObsoleteTech": {
-          "zValue": "TECH_UNIT_TACTICS"
+          "zValue": "TECH_COHORTS"
         },
         "aeUpgradeUnit": {
           "zValue": [
@@ -897,22 +1103,24 @@
         "zAudioSelectionType": "SWORD",
         "zAudioMovementType": "INFANTRY_METAL_HEAVY",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_SWORDSMAN"
+          "zValue": [
+            "FORMATION_SWORDSMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
-        "TechPrereq": "TECH_UNIT_TACTICS",
+        "TechPrereq": "TECH_COHORTS",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "120",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -971,24 +1179,26 @@
         "zPortraitName": "UNIT_PIKEMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SPEAR",
-        "zAudioMovementType": "INFANTRY_METAL_LIGHT",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_PIKEMAN"
+          "zValue": [
+            "FORMATION_PIKEMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
-        "TechPrereq": "TECH_SARISSA",
+        "TechPrereq": "TECH_INFANTRY_SQUARE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "120",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -1042,7 +1252,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_POLEARM"
           ]
         }
       },
@@ -1053,10 +1264,14 @@
         "zPortraitName": "UNIT_SLINGER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SLINGER",
-        "zAudioMovementType": "SLINGER",
-        "zAudioAttackType": "RANGED_SLINGER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_SLINGER"
+          "zValue": [
+            "FORMATION_SLINGER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "TechPrereq": "TECH_TRAPPING",
@@ -1068,10 +1283,7 @@
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "60",
-        "iStartCityAI": "1",
-        "fAttackDuration": "4",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -1081,18 +1293,18 @@
         "bBarbCity": "1",
         "aiYieldCost": {
           "Pair": {
-            "zIndex": "YIELD_FOOD",
+            "zIndex": "YIELD_STONE",
             "iValue": "50"
           }
         },
         "aiYieldConsumption": {
           "Pair": {
-            "zIndex": "YIELD_FOOD",
+            "zIndex": "YIELD_STONE",
             "iValue": "1"
           }
         },
         "aeObsoleteTech": {
-          "zValue": "TECH_STRATEGY"
+          "zValue": "TECH_WINDLASS"
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_ARCHER"
@@ -1111,10 +1323,14 @@
         "zPortraitName": "UNIT_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "BOW",
-        "zAudioMovementType": "BOW",
-        "zAudioAttackType": "RANGED_BOW",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "aeFormations": {
-          "zValue": "FORMATION_ARCHER"
+          "zValue": [
+            "FORMATION_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "TechPrereq": "TECH_COMPOSITE_BOW",
@@ -1126,9 +1342,7 @@
         "iRangeMax": "3",
         "iHPMax": "20",
         "iProduction": "80",
-        "fAttackDuration": "1",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -1152,7 +1366,10 @@
           "zValue": "TECH_BODKIN_ARROW"
         },
         "aeUpgradeUnit": {
-          "zValue": "UNIT_LONGBOWMAN"
+          "zValue": [
+            "UNIT_LONGBOWMAN",
+            "UNIT_CROSSBOWMAN"
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -1168,10 +1385,14 @@
         "zPortraitName": "UNIT_LONGBOWMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "LONGBOW",
-        "zAudioMovementType": "BOW",
-        "zAudioAttackType": "RANGED_BOW",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_LONGBOWMAN"
+          "zValue": [
+            "FORMATION_LONGBOWMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "TechPrereq": "TECH_BODKIN_ARROW",
@@ -1183,9 +1404,7 @@
         "iRangeMax": "3",
         "iHPMax": "20",
         "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -1225,24 +1444,27 @@
         "zPortraitName": "UNIT_CROSSBOWMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "CROSSBOW",
-        "zAudioMovementType": "INFANTRY_METAL_LIGHT",
-        "zAudioAttackType": "RANGED_CROSSBOW",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_CROSSBOWMAN"
+          "zValue": [
+            "FORMATION_CROSSBOWMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
-        "TechPrereq": "TECH_STRATEGY",
+        "TechPrereq": "TECH_WINDLASS",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
         "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
+        "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
         "fAttackDuration": "2",
-        "bReveal": "1",
-        "bMelee": "1",
-        "bOutsideConsumption": "1",
+        "bRangeFlat": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -1300,87 +1522,6 @@
         }
       },
       {
-        "zType": "UNIT_POLYBOLOS",
-        "Name": "TEXT_UNIT_POLYBOLOS",
-        "zIconName": "UNIT_POLYBOLOS",
-        "zPortraitName": "UNIT_POLYBOLOS",
-        "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "POLYBOLOS",
-        "zAudioMovementType": "SIEGE_METAL",
-        "zAudioAttackType": "SIEGE_POLYBOLOS",
-        "aeFormations": {
-          "zValue": "FORMATION_POLYBOLOS"
-        },
-        "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
-        "TechPrereq": "TECH_WINDLASS",
-        "ProductionType": "YIELD_TRAINING",
-        "iMovement": "2",
-        "iVision": "4",
-        "iFatigue": "3",
-        "iStrength": "100",
-        "iHPMax": "20",
-        "iProduction": "120",
-        "fAttackDuration": "2",
-        "bReveal": "1",
-        "bMelee": "1",
-        "bOutsideConsumption": "1",
-        "bOutsideOpinion": "1",
-        "bZOC": "1",
-        "bBlocks": "1",
-        "bPillage": "1",
-        "bPromote": "1",
-        "bGeneral": "1",
-        "bBarbCity": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "50"
-          }
-        },
-        "aiYieldCost": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_IRON",
-              "iValue": "100"
-            }
-          ]
-        },
-        "aiYieldConsumption": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "2"
-            },
-            {
-              "zIndex": "YIELD_IRON",
-              "iValue": "4"
-            }
-          ]
-        },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_ARC",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_ARC",
-            "iValue": "50"
-          }
-        },
-        "aeUnitTrait": {
-          "zValue": [
-            "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
-          ]
-        }
-      },
-      {
         "zType": "UNIT_CHARIOT",
         "Name": "TEXT_UNIT_CHARIOT",
         "zIconName": "UNIT_CHARIOT",
@@ -1389,23 +1530,25 @@
         "zAudioSelectionType": "CHARIOT",
         "zAudioMovementType": "CHARIOT",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_CHARIOT"
+          "zValue": [
+            "FORMATION_CHARIOT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "TechPrereq": "TECH_SPOKED_WHEEL",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -1458,25 +1601,33 @@
         "zPortraitName": "UNIT_HORSEMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "HORSEMAN",
-        "zAudioMovementType": "HORSE",
-        "zAudioAttackType": "ANIMAL_HORSE_LANCER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_HORSEMAN"
+          "zValue": [
+            "FORMATION_HORSEMAN",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "TechPrereq": "TECH_STIRRUPS",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "60",
         "iHPMax": "20",
         "iProduction": "100",
         "fAttackDuration": "2",
-        "bReveal": "1",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -1484,12 +1635,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierAttack": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_SIEGE",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1540,23 +1685,25 @@
         "zAudioSelectionType": "CATAPHRACT",
         "zAudioMovementType": "CATAPHRACT",
         "zAudioAttackType": "ANIMAL_HORSE_LANCER",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_CATAPHRACT"
+          "zValue": [
+            "FORMATION_CATAPHRACT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "TechPrereq": "TECH_BARDING",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "100",
         "iHPMax": "20",
         "iProduction": "160",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -1564,12 +1711,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierAttack": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_SIEGE",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1626,23 +1767,25 @@
         "zAudioSelectionType": "HORSEARCHER",
         "zAudioMovementType": "HORSE",
         "zAudioAttackType": "ANIMAL_HORSE_ARCHER",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_HORSE_ARCHER"
+          "zValue": [
+            "FORMATION_HORSE_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
-        "TechPrereq": "TECH_MOUNTED_ARCHERY",
+        "TechPrereq": "TECH_STIRRUPS",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -1691,23 +1834,25 @@
         "zAudioSelectionType": "CAMEL_ARCHER",
         "zAudioMovementType": "CAMEL_ARCHER",
         "zAudioAttackType": "ANIMAL_CAMEL_ARCHER",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_CAMEL_ARCHER"
+          "zValue": [
+            "FORMATION_CAMEL_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
-        "TechPrereq": "TECH_MOUNTED_ARCHERY",
+        "TechPrereq": "TECH_LAND_CONSOLIDATION",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_CAMEL",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "4",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "80",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -1715,6 +1860,12 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_HORSE",
+            "iValue": "50"
+          }
+        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1756,11 +1907,15 @@
         "zIconName": "UNIT_WAR_ELEPHANT",
         "zPortraitName": "UNIT_WAR_ELEPHANT",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "WAR_ELEPHANT",
-        "zAudioMovementType": "WAR_ELEPHANT",
-        "zAudioAttackType": "ANIMAL_WAR_ELEPHANT",
+        "zAudioSelectionType": "ELEPHANT",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_WAR_ELEPHANT"
+          "zValue": [
+            "FORMATION_WAR_ELEPHANT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "TechPrereq": "TECH_LAND_CONSOLIDATION",
@@ -1772,22 +1927,20 @@
         "iStrength": "60",
         "iHPMax": "20",
         "iProduction": "120",
-        "fAttackDuration": "2",
-        "bReveal": "1",
+        "fAttackDuration": "2.5",
+        "fAnimNormalMoveDuration": "2.5",
+        "fAnimNormalMoveSpeed": "2",
+        "fAnimIntermediateMoveDuration": "2",
+        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimFastMoveDuration": ".75",
+        "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1820,7 +1973,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_ROUT"
+          "zValue": [
+            "EFFECTUNIT_ROUT",
+            "EFFECTUNIT_PANIC"
+          ]
         }
       },
       {
@@ -1831,23 +1987,32 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "BALLISTA",
         "zAudioMovementType": "SIEGE_METAL",
-        "zAudioAttackType": "SIEGE_BALLISTA",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
-          "zValue": "FORMATION_BALLISTA"
+          "zValue": [
+            "FORMATION_BALLISTA",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
         "TechPrereq": "TECH_TORSION",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "50",
+        "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
         "fAttackDuration": "2",
-        "bReveal": "1",
-        "bMelee": "1",
-        "bOutsideConsumption": "1",
+        "fAnimNormalMoveDuration": "1",
+        "fAnimNormalMoveSpeed": "1",
+        "fAnimIntermediateMoveDuration": ".5",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".3",
+        "fAnimFastMoveSpeed": "2",
+        "bRangeFlat": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPromote": "1",
@@ -1894,6 +2059,9 @@
             "iValue": "50"
           }
         },
+        "aeUpgradeUnit": {
+          "zValue": "UNIT_POLYBOLOS"
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -1902,31 +2070,134 @@
         }
       },
       {
-        "zType": "UNIT_CATAPULT",
-        "Name": "TEXT_UNIT_CATAPULT",
-        "zIconName": "UNIT_CATAPULT",
-        "zPortraitName": "UNIT_CATAPULT",
+        "zType": "UNIT_POLYBOLOS",
+        "Name": "TEXT_UNIT_POLYBOLOS",
+        "zIconName": "UNIT_POLYBOLOS",
+        "zPortraitName": "UNIT_POLYBOLOS",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "CATAPULT",
-        "zAudioMovementType": "SIEGE_WOOD_LARGE",
-        "zAudioAttackType": "SIEGE_CATAPULT",
+        "zAudioSelectionType": "POLYBOLOS",
+        "zAudioMovementType": "SIEGE_METAL",
+        "zAudioAttackType": "SIEGE_POLYBOLOS",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
-          "zValue": "FORMATION_CATAPULT"
+          "zValue": [
+            "FORMATION_POLYBOLOS",
+            "FORMATION_DEFAULT_WATER"
+          ]
+        },
+        "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
+        "TechPrereq": "TECH_CHAIN_DRIVE",
+        "ProductionType": "YIELD_TRAINING",
+        "iMovement": "2",
+        "iVision": "4",
+        "iFatigue": "3",
+        "iStrength": "100",
+        "iRangeMax": "1",
+        "iHPMax": "20",
+        "iProduction": "120",
+        "fAttackDuration": "2",
+        "bRangeFlat": "1",
+        "bOutsideOpinion": "1",
+        "bBlocks": "1",
+        "bPillage": "1",
+        "bPromote": "1",
+        "bGeneral": "1",
+        "bBarbCity": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_RANGED",
+            "iValue": "50"
+          }
+        },
+        "aiYieldCost": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_WOOD",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "100"
+            }
+          ]
+        },
+        "aiYieldConsumption": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "2"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "4"
+            }
+          ]
+        },
+        "aiAttackValue": {
+          "Pair": [
+            {
+              "zIndex": "ATTACK_FORWARD",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "ATTACK_ARC",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiAttackPercent": {
+          "Pair": [
+            {
+              "zIndex": "ATTACK_FORWARD",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "ATTACK_ARC",
+              "iValue": "50"
+            }
+          ]
+        },
+        "aeUnitTrait": {
+          "zValue": [
+            "UNITTRAIT_RANGED",
+            "UNITTRAIT_SIEGE"
+          ]
+        }
+      },
+      {
+        "zType": "UNIT_ONAGER",
+        "Name": "TEXT_UNIT_ONAGER",
+        "zIconName": "UNIT_ONAGER",
+        "zPortraitName": "UNIT_ONAGER",
+        "zBackgroundName": "GenericUnitAttackBackground",
+        "zAudioSelectionType": "ONAGER",
+        "zAudioMovementType": "SIEGE_WOOD_MEDIUM",
+        "zAudioAttackType": "SIEGE_ONAGER",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
+        "aeFormations": {
+          "zValue": [
+            "FORMATION_ONAGER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
         "TechPrereq": "TECH_MACHINERY",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "60",
         "iRangeMin": "2",
         "iRangeMax": "4",
         "iHPMax": "20",
         "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": "1",
+        "fAnimNormalMoveSpeed": "1",
+        "fAnimIntermediateMoveDuration": ".5",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".3",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bUnlimber": "1",
@@ -1969,10 +2240,10 @@
           }
         },
         "aeObsoleteTech": {
-          "zValue": "TECH_VAULTING"
+          "zValue": "TECH_BALLISTICS"
         },
         "aeUpgradeUnit": {
-          "zValue": "UNIT_ONAGER"
+          "zValue": "UNIT_MANGONEL"
         },
         "aeUnitTrait": {
           "zValue": [
@@ -1982,31 +2253,39 @@
         }
       },
       {
-        "zType": "UNIT_ONAGER",
-        "Name": "TEXT_UNIT_ONAGER",
-        "zIconName": "UNIT_ONAGER",
-        "zPortraitName": "UNIT_ONAGER",
+        "zType": "UNIT_MANGONEL",
+        "Name": "TEXT_UNIT_MANGONEL",
+        "zIconName": "UNIT_MANGONEL",
+        "zPortraitName": "UNIT_MANGONEL",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "ONAGER",
-        "zAudioMovementType": "SIEGE_WOOD_LARGE",
-        "zAudioAttackType": "SIEGE_ONAGER",
+        "zAudioSelectionType": "MANGONEL",
+        "zAudioMovementType": "SIEGE_WOOD_METAL_LARGE",
+        "zAudioAttackType": "SIEGE_MANGONEL",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
-          "zValue": "FORMATION_ONAGER"
+          "zValue": [
+            "FORMATION_MANGONEL",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
-        "TechPrereq": "TECH_VAULTING",
+        "TechPrereq": "TECH_BALLISTICS",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
         "iStrength": "80",
         "iRangeMin": "2",
         "iRangeMax": "5",
         "iHPMax": "20",
         "iProduction": "120",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".7",
+        "fAnimNormalMoveSpeed": "1",
+        "fAnimIntermediateMoveDuration": ".5",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".3",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bUnlimber": "1",
@@ -2064,31 +2343,36 @@
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_BIREME"
+          "zValue": [
+            "FORMATION_BIREME",
+            "FORMATION_BIREME_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_WATER",
         "TechPrereq": "TECH_NAVIGATION",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iReveal": "1",
         "iFatigue": "3",
         "iWaterControl": "3",
-        "iStrength": "40",
+        "iStrength": "60",
+        "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "80",
         "fAttackDuration": "2",
         "bWater": "1",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bAnchor": "1",
+        "bHarvest": "1",
         "bPromote": "1",
+        "bGeneral": "1",
         "aiYieldCost": {
           "Pair": [
             {
@@ -2126,31 +2410,36 @@
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_TRIREME"
+          "zValue": [
+            "FORMATION_TRIREME",
+            "FORMATION_TRIREME_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_WATER",
         "TechPrereq": "TECH_CARTOGRAPHY",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "4",
-        "iVision": "5",
+        "iVision": "6",
         "iReveal": "1",
         "iFatigue": "3",
         "iWaterControl": "4",
-        "iStrength": "60",
+        "iStrength": "80",
+        "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
         "fAttackDuration": "2",
         "bWater": "1",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bAnchor": "1",
+        "bHarvest": "1",
         "bPromote": "1",
+        "bGeneral": "1",
         "aiYieldCost": {
           "Pair": [
             {
@@ -2194,31 +2483,36 @@
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_DROMON"
+          "zValue": [
+            "FORMATION_DROMON",
+            "FORMATION_DROMON_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_WATER",
         "TechPrereq": "TECH_LATEEN_SAIL",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "5",
-        "iVision": "6",
+        "iVision": "7",
         "iReveal": "1",
         "iFatigue": "3",
         "iWaterControl": "5",
-        "iStrength": "80",
+        "iStrength": "100",
+        "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "120",
         "fAttackDuration": "2",
         "bWater": "1",
-        "bReveal": "1",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bAnchor": "1",
+        "bHarvest": "1",
         "bPromote": "1",
+        "bGeneral": "1",
         "aiYieldCost": {
           "Pair": [
             {
@@ -2254,27 +2548,35 @@
         "zPortraitName": "UNIT_BATTERING_RAM",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "BATTERING_RAM",
-        "zAudioMovementType": "SIEGE_WOOD_LARGE",
-        "zAudioAttackType": "SIEGE_BATTERING_RAM",
+        "zAudioMovementType": "SIEGE_WOOD_METAL_LARGE",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
-          "zValue": "FORMATION_BATTERING_RAM"
+          "zValue": [
+            "FORMATION_BATTERING_RAM",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
         "NationPrereq": "NATION_ASSYRIA",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
-        "iStrength": "30",
+        "iStrength": "60",
         "iHPMax": "20",
-        "iProduction": "80",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".7",
+        "fAnimNormalMoveSpeed": "1",
+        "fAnimIntermediateMoveDuration": ".5",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".3",
+        "fAnimFastMoveSpeed": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPillage": "1",
@@ -2283,14 +2585,14 @@
         "aiUnitTraitModifierDefense": {
           "Pair": {
             "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "200"
+            "iValue": "25"
           }
         },
         "aiYieldCost": {
           "Pair": [
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "50"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_IRON",
@@ -2325,25 +2627,34 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SIEGE_TOWER",
         "zAudioMovementType": "SIEGE_WOOD_LARGE",
-        "zAudioAttackType": "GENERIC",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
-          "zValue": "FORMATION_SIEGE_TOWER"
+          "zValue": [
+            "FORMATION_SIEGE_TOWER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
         "NationPrereq": "NATION_ASSYRIA",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
-        "iVision": "2",
+        "iVision": "3",
         "iFatigue": "3",
-        "iStrength": "40",
+        "iStrength": "80",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".7",
+        "fAnimNormalMoveSpeed": "1",
+        "fAnimIntermediateMoveDuration": ".5",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".3",
+        "fAnimFastMoveSpeed": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPillage": "1",
@@ -2352,7 +2663,7 @@
         "aiUnitTraitModifierDefense": {
           "Pair": {
             "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "200"
+            "iValue": "25"
           }
         },
         "aiYieldCost": {
@@ -2363,7 +2674,7 @@
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "50"
+              "iValue": "100"
             }
           ]
         },
@@ -2398,12 +2709,16 @@
         "zAudioSelectionType": "BOW",
         "zAudioMovementType": "BOW",
         "zAudioAttackType": "RANGED_BOW",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_AKKADIAN_ARCHER"
+          "zValue": [
+            "FORMATION_AKKADIAN_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "NationPrereq": "NATION_BABYLONIA",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
@@ -2413,13 +2728,10 @@
         "iStrength": "60",
         "iRangeMax": "3",
         "iHPMax": "20",
-        "iProduction": "80",
-        "fAttackDuration": "1",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
-        "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bPromote": "1",
@@ -2427,13 +2739,25 @@
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "100"
+            "iValue": "150"
           }
         },
         "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "2"
+          }
+        },
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "25"
           }
         },
         "aeUpgradeUnit": {
@@ -2455,27 +2779,29 @@
         "zAudioSelectionType": "BOW",
         "zAudioMovementType": "BOW",
         "zAudioAttackType": "RANGED_BOW",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_CIMMERIAN_ARCHER"
+          "zValue": [
+            "FORMATION_CIMMERIAN_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "NationPrereq": "NATION_BABYLONIA",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
         "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
-        "iRangeMax": "4",
+        "iRangeMax": "3",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
-        "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bPromote": "1",
@@ -2483,7 +2809,7 @@
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "150"
+            "iValue": "200"
           }
         },
         "aiYieldConsumption": {
@@ -2498,6 +2824,18 @@
             }
           ]
         },
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "50"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -2511,40 +2849,42 @@
         "zIconName": "UNIT_AFRICAN_ELEPHANT",
         "zPortraitName": "UNIT_AFRICAN_ELEPHANT",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELEPHANT",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_AFRICAN_ELEPHANT"
+          "zValue": [
+            "FORMATION_AFRICAN_ELEPHANT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_CARTHAGE",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_ELEPHANT",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
-        "iMovement": "3",
-        "iVision": "4",
+        "iMovement": "2",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "60",
         "iHPMax": "20",
-        "iProduction": "140",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2.5",
+        "fAnimNormalMoveDuration": "2.5",
+        "fAnimNormalMoveSpeed": "2",
+        "fAnimIntermediateMoveDuration": "2",
+        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimFastMoveDuration": ".75",
+        "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2592,7 +2932,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_ROUT"
+          "zValue": [
+            "EFFECTUNIT_ROUT",
+            "EFFECTUNIT_PANIC"
+          ]
         }
       },
       {
@@ -2601,39 +2944,42 @@
         "zIconName": "UNIT_TURRETED_ELEPHANT",
         "zPortraitName": "UNIT_TURRETED_ELEPHANT",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELEPHANT",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_TURRETED_ELEPHANT"
+          "zValue": [
+            "FORMATION_TURRETED_ELEPHANT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_CARTHAGE",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_ELEPHANT",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
-        "iMovement": "3",
-        "iVision": "4",
+        "iMovement": "2",
+        "iVision": "5",
         "iFatigue": "3",
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "160",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2.5",
+        "fAnimNormalMoveDuration": "2.5",
+        "fAnimNormalMoveSpeed": "2",
+        "fAnimIntermediateMoveDuration": "2",
+        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimFastMoveDuration": ".75",
+        "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2678,7 +3024,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_ROUT"
+          "zValue": [
+            "EFFECTUNIT_ROUT",
+            "EFFECTUNIT_PANIC"
+          ]
         }
       },
       {
@@ -2687,15 +3036,19 @@
         "zIconName": "UNIT_LIGHT_CHARIOT",
         "zPortraitName": "UNIT_LIGHT_CHARIOT",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "GENERIC",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_LIGHT_CHARIOT"
+          "zValue": [
+            "FORMATION_LIGHT_CHARIOT",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_EGYPT",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
@@ -2703,13 +3056,11 @@
         "iMovement": "4",
         "iVision": "6",
         "iFatigue": "3",
-        "iStrength": "50",
+        "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "iProduction": "80",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -2720,7 +3071,7 @@
           "Pair": [
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "50"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_WOOD",
@@ -2751,28 +3102,31 @@
         "zIconName": "UNIT_KUSHITE_CAVALRY",
         "zPortraitName": "UNIT_KUSHITE_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "GENERIC",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_KUSHITE_CAVALRY"
+          "zValue": [
+            "FORMATION_KUSHITE_CAVALRY",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_EGYPT",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "4",
         "iVision": "6",
         "iFatigue": "3",
-        "iStrength": "70",
+        "iStrength": "80",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -2787,7 +3141,7 @@
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "50"
+              "iValue": "100"
             }
           ]
         },
@@ -2817,28 +3171,30 @@
         "zIconName": "UNIT_HOPLITE",
         "zPortraitName": "UNIT_HOPLITE",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "HOPLITE",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_HOPLITE"
+          "zValue": [
+            "FORMATION_HOPLITE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "NationPrereq": "NATION_GREECE",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "60",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -2888,7 +3244,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_POLEARM"
           ]
         },
         "aeEffectUnit": {
@@ -2901,27 +3258,30 @@
         "zIconName": "UNIT_PHALANGITE",
         "zPortraitName": "UNIT_PHALANGITE",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "GENERIC",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_PHALANGITE"
+          "zValue": [
+            "FORMATION_PHALANGITE",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_PHALANGITE",
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "NationPrereq": "NATION_GREECE",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
         "iHPMax": "20",
-        "iProduction": "120",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
@@ -2962,19 +3322,20 @@
         "aiAttackValue": {
           "Pair": {
             "zIndex": "ATTACK_FORWARD",
-            "iValue": "1"
+            "iValue": "2"
           }
         },
         "aiAttackPercent": {
           "Pair": {
             "zIndex": "ATTACK_FORWARD",
-            "iValue": "50"
+            "iValue": "25"
           }
         },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_POLEARM"
           ]
         },
         "aeEffectUnit": {
@@ -2987,29 +3348,31 @@
         "zIconName": "UNIT_PALTON_CAVALRY",
         "zPortraitName": "UNIT_PALTON_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "GENERIC",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
-          "zValue": "FORMATION_PALTON_CAVALRY"
+          "zValue": [
+            "FORMATION_PALTON_CAVALRY",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_PERSIA",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
-        "iMovement": "2",
-        "iVision": "3",
+        "iMovement": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -3043,6 +3406,9 @@
             "UNITTRAIT_MOUNTED",
             "UNITTRAIT_HORSE"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_MANEUVERS"
         }
       },
       {
@@ -3051,28 +3417,31 @@
         "zIconName": "UNIT_CATAPHRACT_ARCHER",
         "zPortraitName": "UNIT_CATAPHRACT_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "GENERIC",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_CATAPHRACT_ARCHER"
+          "zValue": [
+            "FORMATION_CATAPHRACT_ARCHER",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "NationPrereq": "NATION_PERSIA",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "EffectCityPrereq": "EFFECTCITY_RESOURCE_HORSE",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
-        "iMovement": "2",
-        "iVision": "3",
+        "iMovement": "3",
+        "iVision": "4",
         "iFatigue": "3",
         "iStrength": "80",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "iProduction": "120",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
-        "bOutsideConsumption": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
@@ -3109,6 +3478,9 @@
             "UNITTRAIT_MOUNTED",
             "UNITTRAIT_HORSE"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_MANEUVERS"
         }
       },
       {
@@ -3117,28 +3489,30 @@
         "zIconName": "UNIT_HASTATUS",
         "zPortraitName": "UNIT_HASTATUS",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "HASTATUS",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
-          "zValue": "FORMATION_HASTATUS"
+          "zValue": [
+            "FORMATION_HASTATUS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "NationPrereq": "NATION_ROME",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_2",
         "ImprovementObsolete": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
-        "iStrength": "70",
+        "iStrength": "60",
         "iHPMax": "20",
-        "iProduction": "100",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "120",
+        "fAttackDuration": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bIgnoreZOC": "1",
@@ -3148,6 +3522,12 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "25"
+          }
+        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -3176,27 +3556,30 @@
         "zIconName": "UNIT_LEGIONARY",
         "zPortraitName": "UNIT_LEGIONARY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "LEGIONARY",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
-          "zValue": "FORMATION_LEGIONARY"
+          "zValue": [
+            "FORMATION_LEGIONARY",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
+        "Achievement": "ACHIEVEMENT_UNIT_LEGIONARY",
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "NationPrereq": "NATION_ROME",
-        "CulturePrereq": "CULTURE_LEGENDARY",
+        "CulturePrereq": "CULTURE_STRONG",
         "ImprovementPrereq": "IMPROVEMENT_GARRISON_3",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "3",
-        "iStrength": "100",
+        "iStrength": "80",
         "iHPMax": "20",
-        "iProduction": "120",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "iProduction": "160",
+        "fAttackDuration": "2",
         "bMelee": "1",
-        "bOutsideConsumption": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bIgnoreZOC": "1",
@@ -3206,6 +3589,12 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "25"
+          }
+        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -3232,76 +3621,60 @@
         }
       },
       {
-        "zType": "UNIT_RAIDER_1",
-        "Name": "TEXT_UNIT_RAIDER_1",
-        "zIconName": "UNIT_RAIDER",
-        "zPortraitName": "UNIT_RAIDER",
+        "zType": "UNIT_MARAUDER_1",
+        "Name": "TEXT_UNIT_MARAUDER_1",
+        "zIconName": "UNIT_MARAUDER",
+        "zPortraitName": "UNIT_MARAUDER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_TRIBE",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_BARBARIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_RAIDERS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_RAIDER"
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_RAIDER"
+              "zIndex": "TRIBE_DANES",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_MARAUDER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_RAIDER_NONE",
-            "FORMATION_RAIDER_TRIBE",
-            "FORMATION_RAIDER_RAIDER",
-            "FORMATION_RAIDER_GAULS",
-            "FORMATION_RAIDER_VANDALS",
-            "FORMATION_RAIDER_DANES",
-            "FORMATION_RAIDER_THRACIANS"
+            "FORMATION_MARAUDER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "30",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
-          "zValue": "UNIT_RAIDER_2"
+          "zValue": "UNIT_MARAUDER_2"
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3316,61 +3689,53 @@
         "zIconName": "UNIT_SKIRMISHER",
         "zPortraitName": "UNIT_SKIRMISHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "SKIRMISHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
+              "zIndex": "TRIBE_BARBARIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_SKIRMISHER"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
+              "zIndex": "TRIBE_THRACIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
+              "zIndex": "TRIBE_DANES",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_SKIRMISHER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_SKIRMISHER_NONE",
-            "FORMATION_SKIRMISHER_TRIBE",
-            "FORMATION_SKIRMISHER_RAIDER",
-            "FORMATION_SKIRMISHER_GAULS",
-            "FORMATION_SKIRMISHER_VANDALS",
-            "FORMATION_SKIRMISHER_DANES",
-            "FORMATION_SKIRMISHER_THRACIANS"
+            "FORMATION_SKIRMISHER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "30",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_SKIRMISHER_2"
         },
@@ -3382,65 +3747,54 @@
         }
       },
       {
-        "zType": "UNIT_NOMAD_RAIDER_1",
-        "Name": "TEXT_UNIT_NOMAD_RAIDER_1",
-        "zIconName": "UNIT_NOMAD_RAIDER",
-        "zPortraitName": "UNIT_NOMAD_RAIDER",
+        "zType": "UNIT_NOMAD_MARAUDER_1",
+        "Name": "TEXT_UNIT_NOMAD_MARAUDER_1",
+        "zIconName": "UNIT_NOMAD_MARAUDER",
+        "zPortraitName": "UNIT_NOMAD_MARAUDER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "NOMAD_MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_RAIDER"
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_RAIDER"
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_MARAUDER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_NOMAD_RAIDER_TRIBE",
-            "FORMATION_NOMAD_RAIDER_RAIDER",
-            "FORMATION_NOMAD_RAIDER_SCYTHIANS",
-            "FORMATION_NOMAD_RAIDER_NUMIDIANS"
+            "FORMATION_NOMAD_MARAUDER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "30",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
-          "zValue": "UNIT_NOMAD_RAIDER_2"
+          "zValue": "UNIT_NOMAD_MARAUDER_2"
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3456,58 +3810,47 @@
         "zIconName": "UNIT_NOMAD_SKIRMISHER",
         "zPortraitName": "UNIT_NOMAD_SKIRMISHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "NOMAD_SKIRMISHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
+              "zIndex": "TRIBE_SCYTHIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_NUMIDIANS",
+              "zIndex": "TRIBE_NUMIDIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_SKIRMISHER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_NOMAD_SKIRMISHER_TRIBE",
-            "FORMATION_NOMAD_SKIRMISHER_RAIDER",
-            "FORMATION_NOMAD_SKIRMISHER_SCYTHIANS",
-            "FORMATION_NOMAD_SKIRMISHER_NUMIDIANS"
+            "FORMATION_NOMAD_SKIRMISHER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "30",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_NOMAD_SKIRMISHER_2"
         },
@@ -3520,73 +3863,58 @@
         }
       },
       {
-        "zType": "UNIT_RAIDER_2",
-        "Name": "TEXT_UNIT_RAIDER_2",
-        "zIconName": "UNIT_ELITE_RAIDER",
-        "zPortraitName": "UNIT_ELITE_RAIDER",
+        "zType": "UNIT_MARAUDER_2",
+        "Name": "TEXT_UNIT_MARAUDER_2",
+        "zIconName": "UNIT_ELITE_MARAUDER",
+        "zPortraitName": "UNIT_ELITE_MARAUDER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_TRIBE",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_BARBARIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_RAIDERS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_RAIDER"
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_RAIDER"
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_RAIDER"
+              "zIndex": "TRIBE_DANES",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_MARAUDER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_ELITE_RAIDER_TRIBE",
-            "FORMATION_ELITE_RAIDER_RAIDER",
-            "FORMATION_ELITE_RAIDER_GAULS",
-            "FORMATION_ELITE_RAIDER_VANDALS",
-            "FORMATION_ELITE_RAIDER_DANES",
-            "FORMATION_ELITE_RAIDER_THRACIANS"
+            "FORMATION_ELITE_MARAUDER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "40",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -3600,60 +3928,53 @@
         "zIconName": "UNIT_ELITE_SKIRMISHER",
         "zPortraitName": "UNIT_ELITE_SKIRMISHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_SKIRMISHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
+              "zIndex": "TRIBE_BARBARIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_SKIRMISHER"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
+              "zIndex": "TRIBE_THRACIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
+              "zIndex": "TRIBE_DANES",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_SKIRMISHER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_ELITE_SKIRMISHER_TRIBE",
-            "FORMATION_ELITE_SKIRMISHER_RAIDER",
-            "FORMATION_ELITE_SKIRMISHER_GAULS",
-            "FORMATION_ELITE_SKIRMISHER_VANDALS",
-            "FORMATION_ELITE_SKIRMISHER_DANES",
-            "FORMATION_ELITE_SKIRMISHER_THRACIANS"
+            "FORMATION_ELITE_SKIRMISHER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "40",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -3662,63 +3983,52 @@
         }
       },
       {
-        "zType": "UNIT_NOMAD_RAIDER_2",
-        "Name": "TEXT_UNIT_NOMAD_RAIDER_2",
-        "zIconName": "UNIT_ELITE_NOMAD_RAIDER",
-        "zPortraitName": "UNIT_ELITE_NOMAD_RAIDER",
+        "zType": "UNIT_NOMAD_MARAUDER_2",
+        "Name": "TEXT_UNIT_NOMAD_MARAUDER_2",
+        "zIconName": "UNIT_ELITE_NOMAD_MARAUDER",
+        "zPortraitName": "UNIT_ELITE_NOMAD_MARAUDER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_NOMAD_MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_RAIDER"
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_MARAUDER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_RAIDER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_RAIDER"
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_MARAUDER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_ELITE_NOMAD_RAIDER_TRIBE",
-            "FORMATION_ELITE_NOMAD_RAIDER_RAIDER",
-            "FORMATION_ELITE_NOMAD_RAIDER_SCYTHIANS",
-            "FORMATION_ELITE_NOMAD_RAIDER_NUMIDIANS"
+            "FORMATION_ELITE_NOMAD_MARAUDER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "40",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_NOMAD_WARLORD_1"
         },
@@ -3736,58 +4046,47 @@
         "zIconName": "UNIT_ELITE_NOMAD_SKIRMISHER",
         "zPortraitName": "UNIT_ELITE_NOMAD_SKIRMISHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_NOMAD_SKIRMISHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
+              "zIndex": "TRIBE_SCYTHIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_SKIRMISHER"
             },
             {
-              "zIndex": "BARBARIAN_NUMIDIANS",
+              "zIndex": "TRIBE_NUMIDIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_SKIRMISHER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_SKIRMISHER"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
-            "FORMATION_ELITE_NOMAD_SKIRMISHER_TRIBE",
-            "FORMATION_ELITE_NOMAD_SKIRMISHER_RAIDER",
-            "FORMATION_ELITE_NOMAD_SKIRMISHER_SCYTHIANS",
-            "FORMATION_ELITE_NOMAD_SKIRMISHER_NUMIDIANS"
+            "FORMATION_ELITE_NOMAD_SKIRMISHER",
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "40",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -3802,57 +4101,41 @@
         "zIconName": "UNIT_WARLORD",
         "zPortraitName": "UNIT_WARLORD",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "WARLORD",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
+              "zIndex": "TRIBE_VANDALS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_WARLORD"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
+              "zIndex": "TRIBE_THRACIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_WARLORD"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
             "FORMATION_WARLORD",
-            "FORMATION_WARLORD_VANDALS",
-            "FORMATION_WARLORD_THRACIANS"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_WARLORD_2"
         },
@@ -3869,33 +4152,18 @@
         "zIconName": "UNIT_JAVELINEER",
         "zPortraitName": "UNIT_JAVELINEER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "JAVELINEER",
         "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
+              "zIndex": "TRIBE_GAULS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_JAVELINEER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
+              "zIndex": "TRIBE_DANES",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_JAVELINEER"
             }
           ]
@@ -3903,23 +4171,22 @@
         "aeFormations": {
           "zValue": [
             "FORMATION_JAVELINEER",
-            "FORMATION_JAVELINEER_GAULS",
-            "FORMATION_JAVELINEER_DANES"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_JAVELINEER_2"
         },
@@ -3936,57 +4203,41 @@
         "zIconName": "UNIT_NOMAD_WARLORD",
         "zPortraitName": "UNIT_NOMAD_WARLORD",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "NOMAD_WARLORD",
         "zAudioMovementType": "GENERIC",
         "zAudioAttackType": "GENERIC",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
+              "zIndex": "TRIBE_SCYTHIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_WARLORD"
             },
             {
-              "zIndex": "BARBARIAN_NUMIDIANS",
+              "zIndex": "TRIBE_NUMIDIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_WARLORD"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
             "FORMATION_NOMAD_WARLORD",
-            "FORMATION_NOMAD_WARLORD_SCYTHIANS",
-            "FORMATION_NOMAD_WARLORD_NUMIDIANS"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_NOMAD_WARLORD_2"
         },
@@ -4004,53 +4255,35 @@
         "zIconName": "UNIT_GAESATA",
         "zPortraitName": "UNIT_GAESATA",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "GAESATA",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_GAESATA"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_GAULS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_GAESATA"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_GAESATA_GAULS"
+          "zValue": [
+            "FORMATION_GAESATA_GAULS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aiAttackValue": {
           "Pair": {
             "zIndex": "ATTACK_FORWARD",
@@ -4082,53 +4315,35 @@
         "zIconName": "UNIT_HUSCARL",
         "zPortraitName": "UNIT_HUSCARL",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "HUSCARL",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_HUSCARL"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_DANES",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_HUSCARL"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_HUSCARL_DANES"
+          "zValue": [
+            "FORMATION_HUSCARL_DANES",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aiAttackValue": {
           "Pair": {
             "zIndex": "ATTACK_ARC",
@@ -4160,53 +4375,35 @@
         "zIconName": "UNIT_CLUBTHROWER",
         "zPortraitName": "UNIT_CLUBTHROWER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "CLUBTHROWER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_CLUBTHROWER"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_VANDALS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_CLUBTHROWER"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_CLUBTHROWER_VANDALS"
+          "zValue": [
+            "FORMATION_CLUBTHROWER_VANDALS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_CLUBTHROWER_2"
         },
@@ -4226,53 +4423,35 @@
         "zIconName": "UNIT_PELTAST",
         "zPortraitName": "UNIT_PELTAST",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "PELTAST",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_PELTAST"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_THRACIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_PELTAST"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_PELTAST_THRACIANS"
+          "zValue": [
+            "FORMATION_PELTAST_THRACIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_PELTAST_2"
         },
@@ -4292,53 +4471,41 @@
         "zIconName": "UNIT_AMAZON_CAVALRY",
         "zPortraitName": "UNIT_AMAZON_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "AMAZON_CAVALRY",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_AMAZON_CAVALRY"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_SCYTHIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_AMAZON_CAVALRY"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_AMAZON_CAVALRY_SCYTHIANS"
+          "zValue": [
+            "FORMATION_AMAZON_CAVALRY_SCYTHIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_AMAZON_CAVALRY_2"
         },
@@ -4359,53 +4526,41 @@
         "zIconName": "UNIT_LIBYAN_CAVALRY",
         "zPortraitName": "UNIT_LIBYAN_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "LIBYAN_CAVALRY",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_LIBYAN_CAVALRY"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_NUMIDIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_LIBYAN_CAVALRY"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_LIBYAN_CAVALRY_NUMIDIANS"
+          "zValue": [
+            "FORMATION_LIBYAN_CAVALRY_NUMIDIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUpgradeUnit": {
           "zValue": "UNIT_LIBYAN_CAVALRY_2"
         },
@@ -4426,57 +4581,41 @@
         "zIconName": "UNIT_ELITE_WARLORD",
         "zPortraitName": "UNIT_ELITE_WARLORD",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_WARLORD",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
+              "zIndex": "TRIBE_VANDALS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_WARLORD"
             },
             {
-              "zIndex": "BARBARIAN_THRACIANS",
+              "zIndex": "TRIBE_THRACIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_WARLORD"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
             "FORMATION_ELITE_WARLORD",
-            "FORMATION_ELITE_WARLORD_VANDALS",
-            "FORMATION_ELITE_WARLORD_THRACIANS"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4490,33 +4629,18 @@
         "zIconName": "UNIT_ELITE_JAVELINEER",
         "zPortraitName": "UNIT_ELITE_JAVELINEER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
+        "zAudioSelectionType": "ELITE_JAVELINEER",
         "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
+              "zIndex": "TRIBE_GAULS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_JAVELINEER"
             },
             {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_JAVELINEER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
+              "zIndex": "TRIBE_DANES",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_JAVELINEER"
             }
           ]
@@ -4524,23 +4648,22 @@
         "aeFormations": {
           "zValue": [
             "FORMATION_ELITE_JAVELINEER",
-            "FORMATION_ELITE_JAVELINEER_GAULS",
-            "FORMATION_ELITE_JAVELINEER_DANES"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4554,57 +4677,41 @@
         "zIconName": "UNIT_ELITE_NOMAD_WARLORD",
         "zPortraitName": "UNIT_ELITE_NOMAD_WARLORD",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_NOMAD_WARLORD",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
           "Pair": [
             {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
+              "zIndex": "TRIBE_SCYTHIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_NOMAD_WARLORD"
             },
             {
-              "zIndex": "BARBARIAN_NUMIDIANS",
+              "zIndex": "TRIBE_NUMIDIANS",
               "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_NOMAD_WARLORD"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_NOMAD_WARLORD"
             }
           ]
         },
         "aeFormations": {
           "zValue": [
             "FORMATION_ELITE_NOMAD_WARLORD",
-            "FORMATION_ELITE_NOMAD_WARLORD_SCYTHIANS",
-            "FORMATION_ELITE_NOMAD_WARLORD_NUMIDIANS"
+            "FORMATION_DEFAULT_WATER"
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4619,53 +4726,35 @@
         "zIconName": "UNIT_ELITE_GAESATA",
         "zPortraitName": "UNIT_ELITE_GAESATA",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_GAESATA",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_GAESATA"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_GAESATA"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_GAULS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_GAESATA"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_GAESATA_GAULS"
+          "zValue": [
+            "FORMATION_ELITE_GAESATA_GAULS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aiAttackValue": {
           "Pair": {
             "zIndex": "ATTACK_FORWARD",
@@ -4694,53 +4783,35 @@
         "zIconName": "UNIT_ELITE_HUSCARL",
         "zPortraitName": "UNIT_ELITE_HUSCARL",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_HUSCARL",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_HUSCARL"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_HUSCARL"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_DANES",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_HUSCARL"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_HUSCARL_DANES"
+          "zValue": [
+            "FORMATION_ELITE_HUSCARL_DANES",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_INFANTRY",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
         "fAttackDuration": "2",
-        "bReveal": "1",
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aiAttackValue": {
           "Pair": {
             "zIndex": "ATTACK_ARC",
@@ -4769,53 +4840,35 @@
         "zIconName": "UNIT_ELITE_CLUBTHROWER",
         "zPortraitName": "UNIT_ELITE_CLUBTHROWER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_CLUBTHROWER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_CLUBTHROWER"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_CLUBTHROWER"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_VANDALS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_CLUBTHROWER"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_CLUBTHROWER_VANDALS"
+          "zValue": [
+            "FORMATION_ELITE_CLUBTHROWER_VANDALS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4832,53 +4885,35 @@
         "zIconName": "UNIT_ELITE_PELTAST",
         "zPortraitName": "UNIT_ELITE_PELTAST",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_PELTAST",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_PELTAST"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_PELTAST"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_THRACIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_PELTAST"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_PELTAST_THRACIANS"
+          "zValue": [
+            "FORMATION_ELITE_PELTAST_THRACIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "iMovement": "2",
-        "iVision": "3",
+        "iVision": "4",
         "iFatigue": "1",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4895,53 +4930,41 @@
         "zIconName": "UNIT_ELITE_AMAZON_CAVALRY",
         "zPortraitName": "UNIT_ELITE_AMAZON_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_AMAZON_CAVALRY",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_AMAZON_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_AMAZON_CAVALRY"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_SCYTHIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_AMAZON_CAVALRY"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_AMAZON_CAVALRY_SCYTHIANS"
+          "zValue": [
+            "FORMATION_ELITE_AMAZON_CAVALRY_SCYTHIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
+        "fAnimNormalMoveDuration": ".5",
+        "fAnimNormalMoveSpeed": "1.5",
+        "fAnimIntermediateMoveDuration": ".3",
+        "fAnimIntermediateMoveSpeed": "1.2",
+        "fAnimFastMoveDuration": ".2",
+        "fAnimFastMoveSpeed": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4959,53 +4982,35 @@
         "zIconName": "UNIT_ELITE_LIBYAN_CAVALRY",
         "zPortraitName": "UNIT_ELITE_LIBYAN_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "MILITARY",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "ELITE_LIBYAN_CAVALRY",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "flesh",
         "azBarbarianPortraitName": {
-          "Pair": [
-            {
-              "zIndex": "BARBARIAN_GAULS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_GAULS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_VANDALS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_VANDALS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_THRACIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_THRACIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_SCYTHIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_SCYTHIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_NUMIDIANS",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_LIBYAN_CAVALRY"
-            },
-            {
-              "zIndex": "BARBARIAN_DANES",
-              "zValue": "BARBARIANPORTRAIT_BARBARIAN_DANES_UNIT_LIBYAN_CAVALRY"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TRIBE_NUMIDIANS",
+            "zValue": "BARBARIANPORTRAIT_BARBARIAN_NUMIDIANS_UNIT_LIBYAN_CAVALRY"
+          }
         },
         "aeFormations": {
-          "zValue": "FORMATION_ELITE_LIBYAN_CAVALRY_NUMIDIANS"
+          "zValue": [
+            "FORMATION_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
+            "FORMATION_DEFAULT_WATER"
+          ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_MOUNTED",
         "iMovement": "3",
-        "iVision": "4",
+        "iVision": "5",
         "iFatigue": "1",
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
-        "fAttackDuration": ".5",
-        "bReveal": "1",
+        "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
+        "bGeneral": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",

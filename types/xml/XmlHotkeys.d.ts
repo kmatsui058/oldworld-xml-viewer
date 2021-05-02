@@ -11,7 +11,9 @@ export interface Entry {
   zName: ZType | string;
   HotkeyClass: ZType | string;
   Keys: ZType | string;
+  bKeyboardMap?: ZType | string;
   bHold?: ZType | string;
+  bOnDown?: ZType | string;
   fRepeatDelay?: ZType | string;
   bIgnoreMouse?: ZType | string;
   IgnoreHotkeys?: IgnoreHotkeys;

@@ -13,15 +13,22 @@ export interface Entry {
   TechPrereq: ZType | string;
   iXP: ZType | string;
   iOpinion: ZType | string;
+  bDisable?: ZType;
+  EffectPlayer?: ZType | string;
   AssignMission: ZType | string;
   aiPlayerOpinion?: AiPlayerOpinion;
-  aiBarbarianOpinion?: AiPlayerOpinion;
+  aiTribeOpinion?: AiPlayerOpinion;
+  aiReligionOpinion?: AiPlayerOpinion;
   aiFamilyOpinion?: AiPlayerOpinion;
   abTraitPrereq: AbTraitPrereq;
-  aaiRatingYieldRate?: AaiRatingYieldRate;
+  aaiRatingYieldGlobal: AaiRatingYieldGlobal;
+  aaiRatingYieldCity: AaiRatingYieldCity;
 }
-export interface AaiRatingYieldRate {
-  Pair?: Pair3[];
+export interface AaiRatingYieldCity {
+  Pair?: Pair3;
+}
+export interface AaiRatingYieldGlobal {
+  Pair?: Pair3[] | Pair3;
 }
 export interface Pair3 {
   zIndex: string;

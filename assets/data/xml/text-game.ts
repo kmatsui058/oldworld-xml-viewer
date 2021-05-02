@@ -19,23 +19,23 @@
         "English": "You are now in an alliance with {0_team}."
       },
       {
-        "zType": "TEXT_GAME_LOST_BARBARIAN_ALLIANCE",
+        "zType": "TEXT_GAME_LOST_TRIBE_ALLIANCE",
         "English": "You are no longer in an alliance with the {0_barbarians}."
       },
       {
-        "zType": "TEXT_GAME_GAINED_BARBARIAN_ALLIANCE",
+        "zType": "TEXT_GAME_GAINED_TRIBE_ALLIANCE",
         "English": "You are now in an alliance with the {0_barbarians}."
       },
       {
-        "zType": "TEXT_GAME_MET_BARBARIANS",
+        "zType": "TEXT_GAME_MET_TRIBE",
         "English": "You have met the {0_barbarians}"
       },
       {
-        "zType": "TEXT_GAME_BARBARIANS_NEW_DIPLOMACY",
-        "English": "You are now at {0_newDiplomacy} with the {1_barbarians}."
+        "zType": "TEXT_GAME_TRIBE_NEW_DIPLOMACY",
+        "English": "{0_team} is now at {1_newDiplomacy} with the {2_barbarians}."
       },
       {
-        "zType": "TEXT_GAME_BARBARIANS_DIPLOMACY_LOG_DATA",
+        "zType": "TEXT_GAME_TRIBE_DIPLOMACY_LOG_DATA",
         "English": "{0_barbarians}: {1_newDiplomacy}"
       },
       {
@@ -48,31 +48,63 @@
       },
       {
         "zType": "TEXT_GAME_TEAM_NEW_DIPLOMACY",
-        "English": "You are now at {0_newDiplomacy} with {1_team}."
+        "English": "{0_team} is now at {1_newDiplomacy} with {2_team}."
+      },
+      {
+        "zType": "TEXT_GAME_TEAM_FROM_DIPLOMACY_LOG_DATA",
+        "English": "{true_2:Declared {1_newDiplomacy} on {0_team}:Made {1_newDiplomacy} with {0_team}}"
+      },
+      {
+        "zType": "TEXT_GAME_TEAM_TO_DIPLOMACY_LOG_DATA",
+        "English": "{true_2:{0_team} Declared {1_newDiplomacy} on us:Made {1_newDiplomacy} with {0_team}}"
+      },
+      {
+        "zType": "TEXT_GAME_TEAM_ALLIANCE_WAR",
+        "English": "Because of an link(CONCEPT_ALLIANCE_PLAYER) with {0_team}, {1_player} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!"
+      },
+      {
+        "zType": "TEXT_GAME_TRIBE_ALLIANCE_WAR",
+        "English": "Because of an link(CONCEPT_ALLIANCE_TRIBE) with {0_team}, {1_tribe} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!"
+      },
+      {
+        "zType": "TEXT_GAME_RELIGION_THEOLOGY",
+        "English": "{0_religion} has established {1_theology} Theology."
       },
       {
         "zType": "TEXT_GAME_GAME_OVER_POPUP",
         "English": "You have reached the end of the game."
       },
       {
-        "zType": "TEXT_GAME_DEFEAT_POPUP",
-        "English": "You have been eliminated. Game Over!"
-      },
-      {
         "zType": "TEXT_GAME_TEAM_DEFEAT_POPUP",
         "English": "The nation of {0_player} has been eliminated!"
       },
       {
-        "zType": "TEXT_GAME_BARBARIAN_SCENARIO_WIN_POPUP",
-        "English": "You have eliminated all of the Barbarians. Congratulations!"
+        "zType": "TEXT_GAME_TEAM_DEFEAT_POPUP_NO_HEIR",
+        "English": "The royal dynasty of {0_player} has come to an end!"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_SURRENDER_POPUP",
+        "English": "{0_player} has surrendered!"
       },
       {
         "zType": "TEXT_GAME_RELIGION_FOUNDED",
         "English": "{0_religion} founded in {1_city}!"
       },
       {
+        "zType": "TEXT_GAME_RELIGION_HEAD",
+        "English": "{0_character} is now the Head of {1_religion}!"
+      },
+      {
         "zType": "TEXT_GAME_RELIGION_FAMILY",
         "English": "The {0_family} Family has converted to {1_religion}!"
+      },
+      {
+        "zType": "TEXT_GAME_RELIGION_TRIBE",
+        "English": "The {0_tribe} have converted to {1_religion}!"
+      },
+      {
+        "zType": "TEXT_GAME_FAMILY_HEAD",
+        "English": "{0_character} is now Head of the {1_family} Family!"
       },
       {
         "zType": "TEXT_GAME_IMPROVEMENT_STARTED",
@@ -91,32 +123,68 @@
         "English": "Your doctors and diviners have warned you that the end is near! Time to get your affairs in order."
       },
       {
-        "zType": "TEXT_GAME_NEW_RULER_ABDICATE_POPUP",
-        "English": "Our old ruler has abdicated. Now begins the reign of {0_newLeader}. Long live the <masculine_0>King<feminine>Queen<end>!"
-      },
-      {
-        "zType": "TEXT_GAME_NEW_RULER_POPUP",
-        "English": "Our old ruler is dead. Now begins the reign of {0_newLeader}. Long live the <masculine_0>King<feminine>Queen<end>!"
-      },
-      {
         "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP",
         "English": "News has arrived from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne."
+      },
+      {
+        "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP",
+        "English": "News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne."
+      },
+      {
+        "zType": "TEXT_GAME_TRIBE_NEW_RULER_POPUP",
+        "English": "News has arrived from abroad that {0_oldLeader} is dead. {1_newLeader} now leads the {2_tribe}."
       },
       {
         "zType": "TEXT_GAME_NEW_LAW_FOR_HEIR_POPUP",
         "English": "Because, under the old laws, your dynasty has no legitimate heir, it switches to {0_law} to enable the ascension of {1_character}"
       },
       {
-        "zType": "TEXT_GAME_AMBITION_POPUP",
+        "zType": "TEXT_GAME_START_AMBITION",
+        "English": "{0_character} has started a new Ambition: {1_ambition}"
+      },
+      {
+        "zType": "TEXT_GAME_START_AMBITION_DESIRED",
+        "English": "{0_character} is now pursuing <masculine_0>his<feminine>her<end> Desired Ambition: {1_ambition}"
+      },
+      {
+        "zType": "TEXT_GAME_START_QUEST",
+        "English": "You have started a Quest: {0} <true_1>(within {1} turns)<false><end>"
+      },
+      {
+        "zType": "TEXT_GAME_FINISH_AMBITION",
         "English": "You have completed an Ambition: {0}"
       },
       {
-        "zType": "TEXT_GAME_LEGACY_POPUP",
+        "zType": "TEXT_GAME_FINISH_LEGACY",
         "English": "You have completed a Legacy: {0}"
       },
       {
+        "zType": "TEXT_GAME_FINISH_QUEST",
+        "English": "You have completed a Quest: {0}"
+      },
+      {
+        "zType": "TEXT_GAME_FAIL_AMBITION",
+        "English": "You have failed {true_1:a Legacy:an Ambition}: {0}"
+      },
+      {
+        "zType": "TEXT_GAME_FAIL_QUEST",
+        "English": "You have failed a Quest: {0}"
+      },
+      {
+        "zType": "TEXT_GAME_MAKE_LEGACY",
+        "English": "An old link(CONCEPT_AMBITION), {0_ambition}, is now link(CONCEPT_LEGACY,1). You will have {1} {2_turnScale} to complete it."
+      },
+      {
+        "zType": "TEXT_GAME_MAKE_LEGACIES",
+        "English": "The following link(CONCEPT_AMBITION,2) are now link(CONCEPT_LEGACY,2):"
+      },
+      {
+        "zType": "TEXT_GAME_MAKE_LEGACIES_GOAL",
+        "English": "{0_goal} ({1} {2_turnScale} Left)"
+      },
+      {
         "zType": "TEXT_GAME_AMBITION_IMPOSSIBLE",
-        "English": "This Ambition is now impossible and has been removed: {0}"
+        "English": "This {true_1:Legacy:Ambition} is now impossible and has been removed: {0}"
       },
       {
         "zType": "TEXT_GAME_QUEST_IMPOSSIBLE",
@@ -124,11 +192,15 @@
       },
       {
         "zType": "TEXT_GAME_BARBARIAN_WAVE_COMING_POPUP",
-        "English": "Your sentries inform you that a Barbarian Wave is likely to erupt in the coming years."
+        "English": "Your sentries inform you that a link(TRIBE_BARBARIANS,1) Wave is likely to erupt in the coming years."
       },
       {
         "zType": "TEXT_GAME_COURTIER_JOINED_POPUP",
         "English": "{0_character} has joined your Court!"
+      },
+      {
+        "zType": "TEXT_GAME_CHARACTER_TUTORS_AGE",
+        "English": "{0_character} is now old enough to be Tutored by {1,2_Courtier}."
       },
       {
         "zType": "TEXT_GAME_CHARACTER_ADULT_POPUP",
@@ -139,8 +211,20 @@
         "English": "{0_character} now has a new Desired Ambition: {1_goal}"
       },
       {
+        "zType": "TEXT_GAME_CHARACTER_CHOOSES_RELIGION",
+        "English": "{0_character} has converted to {1_religion}"
+      },
+      {
         "zType": "TEXT_GAME_COVER_DEBTS_LOG_DATA",
         "English": "Sold {0_goodsList} to cover debts!"
+      },
+      {
+        "zType": "TEXT_GAME_SHORTFALL_LOG_DATA",
+        "English": "{0_project} built in {1_city} to avoid {2_yield} shortfall"
+      },
+      {
+        "zType": "TEXT_GAME_QUEUED_BUILD_BUY_GOODS_LOG_DATA",
+        "English": "Queued action: Spent {0_money} to buy {1_yields} ({2_improvement})"
       },
       {
         "zType": "TEXT_GAME_FOUNDED_CITY_LOG_DATA",
@@ -151,12 +235,8 @@
         "English": "Discovered {0_tech}"
       },
       {
-        "zType": "TEXT_GAME_CITY_LOSES_PROJECT",
-        "English": "{0_city} loses a Project: {1_project}"
-      },
-      {
         "zType": "TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA",
-        "English": "{0_city} finished a Project: {1_project}"
+        "English": "{0_city} finished a link(CONCEPT_PROJECT_INFO): {1_project}"
       },
       {
         "zType": "TEXT_GAME_CITY_DEVELOPED_SPECIALIST_LOG_DATA",
@@ -175,20 +255,24 @@
         "English": "{0_character} is no longer {1_trait}!"
       },
       {
-        "zType": "TEXT_GAME_CHARACTER_TUTORS_CHILD",
-        "English": "{0_tutorCharacter} {1_tutorsVerb} {2_character}: +1 {3_ratingLink}"
-      },
-      {
-        "zType": "TEXT_GAME_CHARACTER_TUTORS_CHILD_VERB",
-        "English": "tutors"
+        "zType": "TEXT_GAME_CHARACTER_RATING_CHANGE",
+        "English": "{0_character}: {1_value} {2_rating}"
       },
       {
         "zType": "TEXT_GAME_CHARACTER_ACQUIRES_TRAIT",
         "English": "{0_character} has acquired a new Trait: {1_trait}!"
       },
       {
+        "zType": "TEXT_GAME_LANDMARK_DISCOVERED",
+        "English": "Landmark Discovered: {0_name}!"
+      },
+      {
+        "zType": "TEXT_GAME_LANDMARK_NAMED",
+        "English": "You are the first to discover this Landmark. What will you name it?"
+      },
+      {
         "zType": "TEXT_GAME_RAID_WARNING",
-        "English": "Reports of a Barbarian Raid near {0_city}!"
+        "English": "Reports of a Raid from {0,2_tribe} {1_improvement} near {2_city}!"
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_LOG_DATA",
@@ -215,28 +299,84 @@
         "English": "{0_event} in {1_city}"
       },
       {
+        "zType": "TEXT_GAME_TEAM",
+        "English": "Team {0_teamNum}"
+      },
+      {
         "zType": "TEXT_GAME_DECISION_RETIRING_GENERAL_TITLE",
-        "English": "Retiring General"
+        "English": "Retiring link(CONCEPT_GENERAL)"
       },
       {
         "zType": "TEXT_GAME_DECISION_RETIRING_GENERAL",
-        "English": "{0_character}, General of the {1_unit} is too old and has retired from the field."
+        "English": "{0_character}, link(CONCEPT_GENERAL) of the {1_unit} is too old and has retired from the field."
       },
       {
         "zType": "TEXT_GAME_DECISION_RETIRING_GENERAL_PROMPT",
-        "English": "Choose New General"
+        "English": "Choose New link(CONCEPT_GENERAL)"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_COUNCIL_TITLE",
+        "English": "Death of {0_council}"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_COUNCIL",
+        "English": "{0_character}, our {1_council}, has died in office."
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_COUNCIL_PROMPT",
+        "English": "Choose New {0_council}"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_GOVERNOR_TITLE",
+        "English": "Death of link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_GOVERNOR",
+        "English": "{0_character}, link(CONCEPT_GOVERNOR) of {1_city}, has died in office."
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_GOVERNOR_PROMPT",
+        "English": "Choose New link(CONCEPT_GOVERNOR)"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_AGENT_TITLE",
+        "English": "Death of link(CONCEPT_AGENT)"
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_AGENT",
+        "English": "{0_character}, link(CONCEPT_AGENT) in {1_city}, has died while still serving."
+      },
+      {
+        "zType": "TEXT_GAME_DECISION_DEAD_AGENT_PROMPT",
+        "English": "Choose New link(CONCEPT_AGENT)"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_MEMORY_ALL_PLAYERS",
+        "English": "All Nations: {0_memory}, {1_value} Opinion"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_MEMORY_ALL_TRIBES",
+        "English": "All Tribes: {0_memory}, {1_value} Opinion"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_MEMORY_ALL_FAMILIES",
-        "English": "All Famil(ies): {0_memory} ({1_value} Opinion)"
+        "English": "All Families: {0_memory}, {1_value} Opinion"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_MEMORY_SUBJECT",
-        "English": "{0_subject}: {1_memory} ({2_value} Opinion)"
+        "English": "{0_subject}: {1_memory}, {2_value} Opinion"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS",
+        "English": "({0_turns} {1_turnScale})"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FORGET_SUBJECT",
-        "English": "{0_subject}: Forgets {1_memory} ({2_value} Opinion)"
+        "English": "{0_subject}: Forgets {1_memory}, {2_value} Opinion"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_RENAME",
+        "English": "Renamed {0_name}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_END_ALLIANCE",
@@ -247,12 +387,20 @@
         "English": "{0_diplomacy} with {1_player}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_SEND_PLAYER",
-        "English": "Send {0_trade} to {1_player}"
+        "zType": "TEXT_GAME_DO_BONUS_ALLIANCE_WITH",
+        "English": "{0_player} in Alliance with {1_other}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_TRADE_FOR_PLAYER",
-        "English": "{0_trade} Trade Boost for {1_player}"
+        "zType": "TEXT_GAME_DO_BONUS_OTHER_PLAYER",
+        "English": "Gain {0_yield} from {1_player}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_SEND_PLAYER",
+        "English": "Send {0_yield} to {1_player}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_TRADE_PLAYER",
+        "English": "{0_trade} Trade with {1_player}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_TRIBUTE_PLAYER",
@@ -263,20 +411,40 @@
         "English": "{0_other} at {1_diplomacy} with {2_target}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_BARBARIAN",
+        "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_TRIBE",
         "English": "{0_diplomacy} with {1_barbarian}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_TRIBUTE_BARBARIAN",
+        "zType": "TEXT_GAME_DO_BONUS_TRIBUTE_TRIBE",
         "English": "{0_tribute} Tribute with {1_barbarian}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_STATE_RELIGION",
-        "English": "Adopts {0_religion} as State Religion"
+        "zType": "TEXT_GAME_DO_BONUS_TRIBE_DIPLOMACY_PLAYER",
+        "English": "{0_barbarian}: {1_diplomacy} with {2_player}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_ADOPT_RELIGION",
+        "English": "Adopts {0_religion} as link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_SPREAD_RELIGION",
         "English": "{0_religion} Spreads to {1_city}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_REMOVE_RELIGION",
+        "English": "Remove {0_religion} from {1_city}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_CONVERT_RELIGION",
+        "English": "{0_character} Converts to {1_religion}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_HEAD_RELIGION",
+        "English": "{0_character} Becomes Head of {1_religion}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_HEAD_FAMILY",
+        "English": "{0_character} Becomes Head of {1_family}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FAMILY_LAW",
@@ -296,15 +464,15 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FOUND_RELIGION_CITY",
-        "English": "Found {1_religion}"
+        "English": "Found {0_religion}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_ADD_X",
+        "English": "Add {0}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_CITIZENS",
         "English": "{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_HP",
-        "English": "{0_damage} HP"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_BORDER_GROWTH",
@@ -316,7 +484,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_DISCONTENT_LEVELS",
-        "English": "{0_value} Discontent <singular_0>Level<plural>Levels<end>"
+        "English": "{0_value} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end>"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REBEL_UNITS",
@@ -325,6 +493,14 @@
       {
         "zType": "TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED",
         "English": "{0_value} <singular_0>Improvement<plural>Improvements<end> Destroyed"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_HP",
+        "English": "{0_damage} HP"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_AGENT_CITY",
+        "English": "{0_character} becomes link(CONCEPT_AGENT)"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_PLUS_ONE",
@@ -336,19 +512,23 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_MEMORY_CHARACTER",
-        "English": "{0_memory} ({1_value} Opinion)"
+        "English": "{0_memory}, {1_value} Opinion"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FORGET_CHARACTER",
-        "English": "Forgets {0_memory} ({1_value} Opinion)"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_DESIRED AMBITION",
-        "English": "Becomes {0}"
+        "English": "Forgets {0_memory}, {1_value} Opinion"
       },
       {
         "zType": "TEXT_DO_BONUS_DESIRED_AMBITION",
         "English": "Desires {0}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_RANDOM_TRAIT",
+        "English": "{0_character} becomes {1_trait}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_RANDOM_RELATIONSHIP_LEADER",
+        "English": "{0_character} is now {1_relationship} {2_leader}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_GAINS",
@@ -359,52 +539,44 @@
         "English": "No longer {0}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_MAKE_COURTIER",
-        "English": "Make Courtier: {0_courtier}"
-      },
-      {
         "zType": "TEXT_GAME_DO_BONUS_STARTS_MISSION",
-        "English": "Starts Mission: {0_mission}"
+        "English": "{0_character} Starts Mission: {1_mission}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_MAKE_COUNCIL",
-        "English": "Make Council: {0_council}"
+        "zType": "TEXT_GAME_DO_BONUS_STARTS_MISSION_FREE",
+        "English": "Free"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_NICKNAME",
-        "English": "Becomes known as {0_nickname}"
+        "zType": "TEXT_GAME_DO_BONUS_VICTORY",
+        "English": "{0_victory} Victory"
+      },
+      {
+        "zType": "TEXT_GAME_DO_DEFEAT",
+        "English": "Player Defeat"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_ADD_COURTIER_OTHER",
+        "English": "{0,1_player} {1_courtier}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_PLAYER_START_LAW",
         "English": "{0_player}: Start {1_law}"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_PLAYER_END_LAW",
+        "English": "{0_player}: End {1_law}"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_PLAYER_FREE_LAW",
         "English": "{0_player}: Free {1_law}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_LEAVE_COURT",
-        "English": "Leave Court"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_LEAVE_COUNCIL",
-        "English": "Resign as {0_council}"
-      },
-      {
         "zType": "TEXT_GAME_DO_BONUS_MAKE_GOVERNOR",
-        "English": "Governor of {0_city}"
+        "English": "link(CONCEPT_GOVERNOR) of {0_city}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_MAKE_GENERAL",
-        "English": "General of {0_unit}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_RELEASE_GENERAL_UNIT",
-        "English": "Leave {0_unit}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_RELEASE_GENERAL",
-        "English": "Leave Unit"
+        "English": "link(CONCEPT_GENERAL) of {0_unit}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_ADOPTION",
@@ -415,28 +587,20 @@
         "English": "Marries {0_suitor}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_DIVORCES",
-        "English": "Divorces {0_spouse}"
+        "zType": "TEXT_GAME_DO_BONUS_DIVORCED_BY",
+        "English": "Divorced by {0_spouse}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_DIVORCES_GENERIC",
-        "English": "Divorces Spouse"
+        "zType": "TEXT_GAME_DO_BONUS_BIRTH_WITH",
+        "English": "Has Child with {0_parent}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_ABDICATES",
         "English": "Abdicates"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_SEIZES_THRONE",
-        "English": "Seizes Throne"
-      },
-      {
         "zType": "TEXT_GAME_DO_BONUS_CHOSEN_HEIR",
         "English": "Is Chosen Heir"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_DOOM_CHARACTER",
-        "English": "is Doomed"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_KILL_CHARACTER",
@@ -447,24 +611,12 @@
         "English": "Has an Illegitimate Child"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD",
-        "English": "Is {0_relationship} {1_character}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD_REVERSE",
-        "English": "{1_character} is {0_relationship} Me"
-      },
-      {
         "zType": "TEXT_GAME_DO_BONUS_RELATIONSHIP_ADD_REMOVE",
-        "English": "(Removes {0_relationship}...)"
+        "English": "{0} (Removes {1_list})"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_RELATIONSHIP_REMOVE",
-        "English": "Not {0_relationship} {1_character}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_RELATIONSHIP_REMOVE_REVERSE",
-        "English": "{1_character} is not {0_relationship} Me"
+        "English": "No longer {0_relationship} {1_character}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_XP",
@@ -492,15 +644,19 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REMOVE_VEGETATION",
-        "English": "{0_vegetation} from {1_tile}"
+        "English": "Remove {0_vegetation} from {1_tile}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_ADOPT_STATE_RELIGION",
-        "English": "{0_player}: Adopt {1_religion} as State Religion"
+        "zType": "TEXT_GAME_DO_BONUS_TRIBE_RAID",
+        "English": "Raid from {0,1_barbarian} {1_improvement} from {2_tile}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_PLAYER_FREE_THEOLOGY",
         "English": "{0_player}: Free {1_theology} ({2_religion})"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_HOLY_CITY_AGENTS",
+        "English": "{0_player}: Free link(CONCEPT_AGENT) in all Holy Cities"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FOUND_RELIGION",
@@ -508,7 +664,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_STATE_RELIGION_END",
-        "English": "{0_player}: End State Religion ({1_religion})"
+        "English": "{0_player}: End link(CONCEPT_STATE_RELIGION) ({1_religion})"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_TECH",
@@ -516,7 +672,7 @@
       },
       {
         "zType": "TEXT_GAME_POPUP_BONUS_TECH",
-        "English": "You have a discovered a new technology: {0_tech}."
+        "English": "{0_player} discovers a new technology: {1_tech}."
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_LOG_DATA",
@@ -528,7 +684,7 @@
       },
       {
         "zType": "TEXT_GAME_CHARACTER_MISSION_NO_EFFECT",
-        "English": "No Effect"
+        "English": "{0_character}: {1_mission} has no effect"
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACK_CRITICAL",
@@ -539,20 +695,24 @@
         "English": "-{0_damage} HP!"
       },
       {
+        "zType": "TEXT_GAME_UNIT_ATTACK_CAPTURED",
+        "English": "Captured!"
+      },
+      {
         "zType": "TEXT_GAME_CITY_ATTACKED_LOG_DATA",
-        "English": "{0_city} Attacked!"
+        "English": "{0_city} Attacked by {1_owner} {2_unit}! ({3_discontent})"
       },
       {
         "zType": "TEXT_GAME_CAMP_DESTROYED_LOG_DATA",
         "English": "{0_barbarian} {1_improvement} Destroyed!"
       },
       {
-        "zType": "TEXT_GAME_CITY_CAPTURED_LOG_DATA",
-        "English": "{0_city} captured by {1_player}"
+        "zType": "TEXT_GAME_CITY_RAZED_LOG_DATA",
+        "English": "{0_city} has been razed!"
       },
       {
-        "zType": "TEXT_GAME_CITY_WE_CAPTURED_LOG_DATA",
-        "English": "{0_city} captured from {1_player}"
+        "zType": "TEXT_GAME_CITY_CAPTURED_LOG_DATA",
+        "English": "{0_city} captured by {1_player}"
       },
       {
         "zType": "TEXT_GAME_CITY_CANCEL_BUILD_LOG_DATA",
@@ -560,19 +720,27 @@
       },
       {
         "zType": "TEXT_GAME_CITY_DISCONTENT_CHANGE_LOG_DATA",
-        "English": "{0_level} Discontent <singular_0>Level<plural>Levels<end> in {1_city}"
+        "English": "{0_level} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end> in {1_city}"
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACKED_LOG_DATA",
-        "English": "{0_unit} Attacked!"
+        "English": "{0_unit} Attacked by {1_owner} {2_unit}!"
       },
       {
-        "zType": "TEXT_GAME_UNIT_KILLED",
-        "English": "{0_unit} Killed!"
+        "zType": "TEXT_GAME_UNIT_KILLED_LOG_DATA",
+        "English": "{0_unit} Killed by {1_owner} {2_unit}!"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_CAPTURED_LOG_DATA",
+        "English": "{0_unit} Captured by {1_owner} {2_unit}!"
       },
       {
         "zType": "TEXT_GAME_UNIT_SEEN",
-        "English": "Hostile {0_unit} seen!"
+        "English": "Hostile {0_owner} {1_unit} seen!"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_MOVE_CANCELLED",
+        "English": "{0_unit} cancelled auto-move"
       },
       {
         "zType": "TEXT_GAME_LAUNCH_OFFENSIVE_LOG_DATA",
@@ -580,7 +748,7 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_ESTABLISH_THEOLOGY_LOG_DATA",
-        "English": "{0,1_religion} {1_theology} established by {2_player} in {3_city}!"
+        "English": "{0,1_religion} {1_theology} established by {2_player}!"
       },
       {
         "zType": "TEXT_GAME_TILE_CITY_SITE",
@@ -591,20 +759,48 @@
         "English": "Unrevealed Site"
       },
       {
-        "zType": "TEXT_GAME_TILE_NEXT_UNIT",
-        "English": "Next Unit: {0_turns}"
-      },
-      {
-        "zType": "TEXT_GAME_TILE_PILLAGED",
-        "English": "Pillaged<true_0> ({0_turns})<false><end>"
-      },
-      {
-        "zType": "TEXT_GAME_TILE_IMPROVEMENT_UNFINISHED_TURNS",
-        "English": "Unfinished: {0_turns}"
-      },
-      {
-        "zType": "TEXT_GAME_TILE_IMPROVEMENT_UPGRADE",
+        "zType": "TEXT_GAME_TILE_IMPROVEMENT_DEVELOP",
         "English": "({0_name}: {1_turns})"
+      },
+      {
+        "zType": "TEXT_GAME_UPLOADING_GAME_POPUP",
+        "English": "Game uploading..."
+      },
+      {
+        "zType": "TEXT_GAME_NOT_CONNECTED_TO_ONLINE_SERVICES_POPUP",
+        "English": "Not Connected to online services"
+      },
+      {
+        "zType": "TEXT_GAME_UPLOAD_COMPLETE_POPUP",
+        "English": "Game Upload Complete"
+      },
+      {
+        "zType": "TEXT_GAME_UPLOAD_FAILED_POPUP",
+        "English": "Game Upload Failed"
+      },
+      {
+        "zType": "TEXT_GAME_SAVED",
+        "English": "Game Saved"
+      },
+      {
+        "zType": "TEXT_GAME_FAILED_TO_SAVE",
+        "English": "Failed to Save"
+      },
+      {
+        "zType": "TEXT_GAME_CHAT_ALL_TAG",
+        "English": "ALL"
+      },
+      {
+        "zType": "TEXT_GAME_CHAT_TEAM_TAG",
+        "English": "TEAM"
+      },
+      {
+        "zType": "TEXT_GAME_CHAT_MESSAGE_FORMAT",
+        "English": "{0_fromPlayer}[{1_tag}]: {2_msg}"
+      },
+      {
+        "zType": "TEXT_GAME_TILE_NOT_UNLIMBERED",
+        "English": "Not Unlimbered"
       },
       {
         "zType": "TEXT_GAME_UNIT_TILE_DAMAGE",
@@ -621,6 +817,78 @@
       {
         "zType": "TEXT_GAME_UNIT_TILE_JOIN_CITY",
         "English": "{0} {1,2_citizenLink}"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA",
+        "English": "{0} Pillaged by {1_owner} {2_unit}!"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION",
+        "English": "link(CONCEPT_CARAVAN_MISSION) with {0_player} complete: {1_money}<br>{2_memory}"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION",
+        "English": "link(CONCEPT_CARAVAN_MISSION) arrives from {0_player}: {1_money}"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_STUNNED",
+        "English": "Stunned"
+      },
+      {
+        "zType": "TEXT_GAME_CITY_YIELD_FROM_CULTURE_EVENT",
+        "English": "From link(CONCEPT_CULTURE_EVENT): {0}"
+      },
+      {
+        "zType": "TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY",
+        "English": "link(TRIBE_REBELS) have formed a {0_unit} near {1_city}!"
+      },
+      {
+        "zType": "TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST",
+        "English": "{0} Citizen(s)"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_ACHIEVEMENT_UNLOCKED",
+        "English": "Achievement Unlocked: {0}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_RESOURCE_SHORTFALL",
+        "English": "Resource Shortfall: Spent {0} to buy {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_MISSION_CANCELLED",
+        "English": "{0}'s Mission is Cancelled: {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_YIELD_ORDERS_SOLD_FOR_YIELD",
+        "English": "{0} is sold for {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_YIELD_YIELD_CONVERTED_TO_ORDERS",
+        "English": "{0} is converted into {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_SAVE_AND_RELOAD_TO_PLAY_POPUP",
+        "English": "No user ID found: Save and reload to play as next player"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_FAILED_TO_UPLOAD_TO_CLOUD_POPUP",
+        "English": "Failed to upload. Please exit and replay your turn."
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED",
+        "English": "{0_amount} {1} Received!"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_DECLARED_WAR_ON",
+        "English": "Declared war on {0_strength} {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_TRUCE_WITH",
+        "English": "Declared truce with {0_strength} {1}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_AI_ORDERS_TO_TEAMMATES",
+        "English": "{0_player} gifts you {1} unused {2_yield}"
       }
     ]
   }

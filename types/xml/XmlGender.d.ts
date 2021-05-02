@@ -11,6 +11,8 @@ export interface Entry {
   zName: ZType | string;
   bMasculine: ZType | string;
   iMaxFertile: ZType | string;
+  iMaxSpouseAgeDifference: ZType | string;
+  iMarriageDelayTurns: ZType | string;
   GeneralFormation: ZType | string;
   zLeaderTitle: ZType | string;
 }

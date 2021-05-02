@@ -13,9 +13,7 @@ export interface Entry {
   iPerCity?: ZType | string;
   iPerUnit?: ZType | string;
   bOff?: ZType | string;
-  bNoCycling?: ZType | string;
   bDynamic?: ZType | string;
-  bCanEndTurn?: ZType | string;
 }
 export interface ZType {
 }

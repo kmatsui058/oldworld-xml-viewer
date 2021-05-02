@@ -8,20 +8,22 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zIconName: ZType | string;
-  iPrereqCount: ZType | string;
-  iColumn: ZType | string;
-  iRow: ZType | string;
+  iTier: ZType | string;
   iCost: ZType | string;
-  abPrereqTheology?: AbPrereqTheology;
+  iSpreadChange: ZType | string;
+  Achievement: ZType | string;
+  EffectCity?: ZType | string;
+  aiLawOpinion: AiLawOpinion;
+  abPrereqTheology?: ZType;
 }
-export interface AbPrereqTheology {
-  Pair?: Pair | Pair[];
+export interface AiLawOpinion {
+  Pair?: Pair;
 }
 export interface Pair {
   zIndex: string;
-  bValue: string;
+  iValue: string;
 }
 export interface ZType {
 }

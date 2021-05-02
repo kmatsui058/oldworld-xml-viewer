@@ -22,6 +22,10 @@
         "bSuccession": "1"
       },
       {
+        "zType": "LAWCLASS_EPICS_EXPLORATION",
+        "TechPrereq": "TECH_RHETORIC"
+      },
+      {
         "zType": "LAWCLASS_SLAVERY_FREEDOM",
         "TechPrereq": "TECH_LABOR_FORCE"
       },
@@ -34,10 +38,6 @@
         "TechPrereq": "TECH_SOVEREIGNTY"
       },
       {
-        "zType": "LAWCLASS_EPICS_EXPLORATION",
-        "TechPrereq": "TECH_RHETORIC"
-      },
-      {
         "zType": "LAWCLASS_COLONIZATION_SERFDOM",
         "TechPrereq": "TECH_NAVIGATION"
       },
@@ -46,16 +46,16 @@
         "TechPrereq": "TECH_MONASTICISM"
       },
       {
-        "zType": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
+        "zType": "LAWCLASS_DIVINE_RULE_LEGAL_CODE",
         "TechPrereq": "TECH_CITIZENSHIP"
       },
       {
         "zType": "LAWCLASS_TOLERANCE_ORTHODOXY",
-        "TechPrereq": "TECH_THEOLOGY"
+        "TechPrereq": "TECH_DOCTRINE"
       },
       {
-        "zType": "LAWCLASS_GUILDS_ELITES",
-        "TechPrereq": "TECH_COINAGE"
+        "zType": "LAWCLASS_PROFESSIONAL_ARMY_VOLUNTEERS",
+        "TechPrereq": "TECH_MANOR"
       },
       {
         "zType": "LAWCLASS_PHILOSOPHY_ENGINEERING",
@@ -63,19 +63,19 @@
       },
       {
         "zType": "LAWCLASS_ICONOGRAPHY_CALLIGRAPHY",
-        "TechPrereq": "TECH_AESTHETICS"
+        "TechPrereq": "TECH_VAULTING"
       },
       {
-        "zType": "LAWCLASS_ISOLATIONISM_TRADE_LEAGUE",
-        "TechPrereq": "TECH_LATEEN_SAIL"
+        "zType": "LAWCLASS_PILGRIMAGE_HOLY_WAR",
+        "TechPrereq": "TECH_MARTIAL_CODE"
       },
       {
-        "zType": "LAWCLASS_ASCETICISM_HOLY_WAR",
-        "TechPrereq": "TECH_WARRIOR_CODE"
-      },
-      {
-        "zType": "LAWCLASS_DIVINE_RULE_SECULARISM",
+        "zType": "LAWCLASS_GUILDS_ELITES",
         "TechPrereq": "TECH_JURISPRUDENCE"
+      },
+      {
+        "zType": "LAWCLASS_AUTARKY_TRADE_LEAGUE",
+        "TechPrereq": "TECH_LATEEN_SAIL"
       },
       {
         "zType": "LAWCLASS_COIN_DEBASEMENT_MONETARY_REFORM",

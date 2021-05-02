@@ -11,48 +11,16 @@
         }
       },
       {
-        "zType": "TEXT_BARBARIAN_PLURAL",
-        "English": "{0,0}"
+        "zType": "TEXT_TRIBE_ADJECTIVE",
+        "English": "{0,1_TribeAdjective}"
       },
       {
-        "zType": "TEXT_BARBARIAN_SINGULAR",
-        "English": "{0,1}"
+        "zType": "TEXT_TRIBE_SITE",
+        "English": "{0,1_TribeAdjective} Site"
       },
       {
-        "zType": "TEXT_BARBARIAN_ADJECTIVE",
-        "English": "{0,2}"
-      },
-      {
-        "zType": "TEXT_BARBARIAN_SITE",
-        "English": "{0,2_BarbarianAdjective} Site"
-      },
-      {
-        "zType": "TEXT_NATION_NAME",
-        "English": "{0,0}"
-      },
-      {
-        "zType": "TEXT_NATION_SINGULAR",
-        "English": "{0,1}"
-      },
-      {
-        "zType": "TEXT_NATION_PLURAL",
-        "English": "{0,2}"
-      },
-      {
-        "zType": "TEXT_NATION_ADJECTIVE",
-        "English": "{0,3}"
-      },
-      {
-        "zType": "TEXT_FAMILY_SINGULAR",
-        "English": "{0,0}"
-      },
-      {
-        "zType": "TEXT_FAMILY_PLURAL",
-        "English": "{0,1}"
-      },
-      {
-        "zType": "TEXT_FAMILY_ADJECTIVE",
-        "English": "{0,2}"
+        "zType": "TEXT_NATION_SITE",
+        "English": "{0,1_NationAdjective} Site"
       },
       {
         "zType": "TEXT_PLAYER_NUMBER",
@@ -67,6 +35,10 @@
         "English": "{0_key}+{1_key}"
       },
       {
+        "zType": "TEXT_HOTKEY_LEFT_CLICK",
+        "English": "[LEFT-CLICK]"
+      },
+      {
         "zType": "TEXT_HOTKEY_RIGHT_CLICK",
         "English": "[RIGHT-CLICK]"
       },
@@ -77,6 +49,10 @@
       {
         "zType": "TEXT_HOTKEY_SHIFT_CLICK",
         "English": "[SHIFT+CLICK]"
+      },
+      {
+        "zType": "TEXT_HOTKEY_ALT_CLICK",
+        "English": "[ALT+CLICK]"
       },
       {
         "zType": "TEXT_HOTKEY_CTRL_SHIFT_CLICK",
@@ -145,6 +121,10 @@
       {
         "zType": "TEXT_MAP_OPTION_CONTINENTS",
         "English": "Continents"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_KING_OF_THE_HILL",
+        "English": "King of the Hill"
       }
     ]
   }

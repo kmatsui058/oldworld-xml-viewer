@@ -79,83 +79,83 @@
         "zSpriteName": "CREST_TRIBE_NUMIDIANS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_LANDOWNERS",
+        "zType": "CREST_FAMILYCLASS_LANDOWNERS",
         "zSpriteName": "CREST_ARCHETYPE_LANDOWNERS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_CHAMPIONS",
+        "zType": "CREST_FAMILYCLASS_CHAMPIONS",
         "zSpriteName": "CREST_ARCHETYPE_CHAMPIONS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_STATESMEN",
+        "zType": "CREST_FAMILYCLASS_STATESMEN",
         "zSpriteName": "CREST_ARCHETYPE_STATESMEN"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_PATRONS",
+        "zType": "CREST_FAMILYCLASS_PATRONS",
         "zSpriteName": "CREST_ARCHETYPE_PATRONS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_CLERICS",
+        "zType": "CREST_FAMILYCLASS_CLERICS",
         "zSpriteName": "CREST_ARCHETYPE_CLERICS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_SAGES",
+        "zType": "CREST_FAMILYCLASS_SAGES",
         "zSpriteName": "CREST_ARCHETYPE_SAGES"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_TRADERS",
+        "zType": "CREST_FAMILYCLASS_TRADERS",
         "zSpriteName": "CREST_ARCHETYPE_TRADERS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_ARTISANS",
+        "zType": "CREST_FAMILYCLASS_ARTISANS",
         "zSpriteName": "CREST_ARCHETYPE_ARTISANS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_RIDERS",
+        "zType": "CREST_FAMILYCLASS_RIDERS",
         "zSpriteName": "CREST_ARCHETYPE_RIDERS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_HUNTERS",
+        "zType": "CREST_FAMILYCLASS_HUNTERS",
         "zSpriteName": "CREST_ARCHETYPE_HUNTERS"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_LANDOWNERS_SEAT",
+        "zType": "CREST_FAMILYCLASS_LANDOWNERS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_LANDOWNERS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_CHAMPIONS_SEAT",
+        "zType": "CREST_FAMILYCLASS_CHAMPIONS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_CHAMPIONS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_STATESMEN_SEAT",
+        "zType": "CREST_FAMILYCLASS_STATESMEN_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_STATESMEN_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_PATRONS_SEAT",
+        "zType": "CREST_FAMILYCLASS_PATRONS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_PATRONS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_CLERICS_SEAT",
+        "zType": "CREST_FAMILYCLASS_CLERICS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_CLERICS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_SAGES_SEAT",
+        "zType": "CREST_FAMILYCLASS_SAGES_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_SAGES_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_TRADERS_SEAT",
+        "zType": "CREST_FAMILYCLASS_TRADERS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_TRADERS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_ARTISANS_SEAT",
+        "zType": "CREST_FAMILYCLASS_ARTISANS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_ARTISANS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_RIDERS_SEAT",
+        "zType": "CREST_FAMILYCLASS_RIDERS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_RIDERS_SEAT"
       },
       {
-        "zType": "CREST_FAMILY_CLASS_HUNTERS_SEAT",
+        "zType": "CREST_FAMILYCLASS_HUNTERS_SEAT",
         "zSpriteName": "CREST_ARCHETYPE_HUNTERS_SEAT"
       },
       {

@@ -12,6 +12,9 @@
         "PromotionPrereq": {
           
         },
+        "NationPrereq": {
+          
+        },
         "EffectUnit": {
           
         },
@@ -25,7 +28,6 @@
       {
         "zType": "PROMOTION_COMBAT1",
         "zName": "Combat I",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_COMBAT1",
         "bPriority": "1",
         "bUpgrade": "1"
@@ -49,7 +51,6 @@
       {
         "zType": "PROMOTION_GUARD1",
         "zName": "Guard I",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_GUARD1",
         "bPriority": "1",
         "bUpgrade": "1"
@@ -73,7 +74,6 @@
       {
         "zType": "PROMOTION_FOCUS1",
         "zName": "Focus I",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_FOCUS1",
         "bPriority": "1",
         "bUpgrade": "1"
@@ -97,7 +97,6 @@
       {
         "zType": "PROMOTION_TRACKER",
         "zName": "Tracker",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_TRACKER",
         "bUpgrade": "1"
       },
@@ -109,16 +108,8 @@
         "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_HARDY",
-        "zName": "Hardy",
-        "PromotionPrereq": "PROMOTION_TRACKER",
-        "EffectUnit": "EFFECTUNIT_HARDY",
-        "bUpgrade": "1"
-      },
-      {
         "zType": "PROMOTION_EAGLE_EYE",
         "zName": "Eagle Eye",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_EAGLE_EYE",
         "bUpgrade": "1"
       },
@@ -130,44 +121,50 @@
         "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_ENGINEER",
-        "zName": "Engineer",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_ENGINEER",
+        "zType": "PROMOTION_AMPHIBIOUS",
+        "zName": "Amphibious",
+        "EffectUnit": "EFFECTUNIT_AMPHIBIOUS",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BESIEGER",
         "zName": "Besieger",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_BESIEGER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_GARRISON",
         "zName": "Garrison",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_GARRISON",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_TOUGH",
+        "zName": "Tough",
+        "EffectUnit": "EFFECTUNIT_TOUGH",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BLOODTHIRSTY",
         "zName": "Bloodthirsty",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_BLOODTHIRSTY",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_HECKLER",
+        "zName": "Heckler",
+        "EffectUnit": "EFFECTUNIT_HECKLER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_STEADFAST",
         "zName": "Steadfast",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_STEADFAST",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HERBALIST",
         "zName": "Herbalist",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_HERBALIST",
         "bUpgrade": "1"
       },
@@ -181,93 +178,95 @@
       {
         "zType": "PROMOTION_HIGHLANDER",
         "zName": "Highlander",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_HIGHLANDER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_RANGER",
         "zName": "Ranger",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_RANGER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BRAVE",
         "zName": "Brave",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_BRAVE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_SHIELDBEARER",
         "zName": "Shieldbearer",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_SHIELDBEARER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_FIERCE",
         "zName": "Fierce",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_FIERCE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HORSEBANE",
         "zName": "Horsebane",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_HORSEBANE",
         "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_AGGRESSOR",
-        "zName": "Aggressor",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_AGGRESSOR",
+        "zType": "PROMOTION_ENGINEER",
+        "zName": "Engineer",
+        "EffectUnit": "EFFECTUNIT_ENGINEER",
         "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_STEALTH",
-        "zName": "Stealth",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_STEALTH"
+        "zType": "PROMOTION_SHRAPNEL",
+        "zName": "Shrapnel",
+        "EffectUnit": "EFFECTUNIT_SHRAPNEL",
+        "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_VALOR",
-        "zName": "Valor",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_VALOR"
+        "zType": "PROMOTION_COCKSWAIN",
+        "zName": "Cockswain",
+        "EffectUnit": "EFFECTUNIT_COCKSWAIN",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_GRAPPLER",
+        "zName": "Grappler",
+        "EffectUnit": "EFFECTUNIT_GRAPPLER",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_SEABORN",
+        "zName": "Seaborn",
+        "EffectUnit": "EFFECTUNIT_SEABORN",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_OVERWHELM",
+        "zName": "Overwhelm",
+        "EffectUnit": "EFFECTUNIT_OVERWHELM",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_FIRESHIP",
+        "zName": "Fireship",
+        "EffectUnit": "EFFECTUNIT_FIRESHIP",
+        "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_INGENUITY",
         "zName": "Ingenuity",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_INGENUITY"
       },
       {
         "zType": "PROMOTION_SADDLEBORN",
         "zName": "Saddleborn",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_SADDLEBORN"
       },
       {
         "zType": "PROMOTION_SNIPING",
         "zName": "Sniping",
-        "PromotionPrereq": "NONE",
         "EffectUnit": "EFFECTUNIT_SNIPING"
-      },
-      {
-        "zType": "PROMOTION_TIMIDITY",
-        "zName": "Timidity",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_TIMIDITY"
-      },
-      {
-        "zType": "PROMOTION_SWORD_OF_THE_GODS",
-        "zName": "Sword of the Gods",
-        "PromotionPrereq": "NONE",
-        "EffectUnit": "EFFECTUNIT_SWORD_OF_THE_GODS"
       }
     ]
   }
