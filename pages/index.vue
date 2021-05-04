@@ -1,73 +1,60 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        oldworld-xml-viewer
-      </h1>
-      <h2 class="subtitle">
-        My tremendous Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
+    <h2 class="title is-2">
+      NATIONS
+    </h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th> Name </th>
+          <th> Stating Law </th>
+          <th> Stating Tech </th>
+        </tr>
+      </thead>
+      <tbody>
+        <template v-for="item in nations">
+          <tr v-if="typeof item.Name === 'string'" :id="item.Name" :key="item.Name">
+            <td>{{ getName(item.Name.toString()) }}</td>
+            <td>{{ getTech(item.aeStartingTech) }}</td>
+          </tr>
+        </template>
+      </tbody>
+    </table>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import { Vue, Component } from 'nuxt-property-decorator'
 import Logo from '~/components/Logo.vue'
-
-export default Vue.extend({
+import nation from '~/assets/data/xml/nation'
+import textNation from '~/assets/data/xml/text-nation'
+import law from '~/assets/data/xml/law'
+import tech from '~/assets/data/xml/tech'
+// import name from '~/assets/data/xml/name'
+@Component({
   components: {
     Logo
   }
 })
+export default class Index extends Vue {
+  nations = nation.Root.Entry
+  textNations = textNation.Root.Entry
+  law = law.Root.Entry
+  tech = tech.Root.Entry
+  getName (key: string): string {
+    const test = this.textNations.find(el => el.zType === key)
+    return test ? test.English.toString().split('~')[0] : ''
+  }
+
+  getTech (obj: XmlNation.AeStartingTech): string {
+    const result: string[] = []
+    const keys = obj.zValue ? obj.zValue : []
+    keys.forEach((key) => {
+      const test = this.tech.find(el => el.zType === key)
+      if (test && typeof test.Name === 'string') { result.push(test.Name) }
+    })
+
+    return result.join(', ')
+  }
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
