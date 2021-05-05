@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="section">
     <h2 class="title is-2">
       NATIONS
     </h2>
@@ -7,7 +7,6 @@
       <thead>
         <tr>
           <th> Name </th>
-          <th> Stating Law </th>
           <th> Stating Tech </th>
         </tr>
       </thead>
@@ -20,7 +19,7 @@
         </template>
       </tbody>
     </table>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
@@ -30,6 +29,7 @@ import nation from '~/assets/data/xml/nation'
 import textNation from '~/assets/data/xml/text-nation'
 import law from '~/assets/data/xml/law'
 import tech from '~/assets/data/xml/tech'
+import textInfo from '~/assets/data/xml/text-infos'
 // import name from '~/assets/data/xml/name'
 @Component({
   components: {
@@ -41,8 +41,15 @@ export default class Index extends Vue {
   textNations = textNation.Root.Entry
   law = law.Root.Entry
   tech = tech.Root.Entry
+  textInfo = textInfo.Root.Entry
+
   getName (key: string): string {
     const test = this.textNations.find(el => el.zType === key)
+    return test ? test.English.toString().split('~')[0] : ''
+  }
+
+  getTechName (key: string): string {
+    const test = this.textInfo.find(el => el.zType === key)
     return test ? test.English.toString().split('~')[0] : ''
   }
 
@@ -51,7 +58,7 @@ export default class Index extends Vue {
     const keys = obj.zValue ? obj.zValue : []
     keys.forEach((key) => {
       const test = this.tech.find(el => el.zType === key)
-      if (test && typeof test.Name === 'string') { result.push(test.Name) }
+      if (test && typeof test.Name === 'string') { result.push(this.getTechName(test.Name)) }
     })
 
     return result.join(', ')
