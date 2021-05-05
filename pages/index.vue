@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <section class="section">
     <h2 class="title is-2">
       NATIONS
     </h2>
@@ -7,7 +7,6 @@
       <thead>
         <tr>
           <th> Name </th>
-          <th> Stating Law </th>
           <th> Stating Tech </th>
         </tr>
       </thead>
@@ -20,7 +19,7 @@
         </template>
       </tbody>
     </table>
-  </div>
+  </section>
 </template>
 
 <script lang="ts">
