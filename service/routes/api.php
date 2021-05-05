@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Laravel\Socialite\Facades\Socialite;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +17,12 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:api', 'cors')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('/auth/google/redirect', function () {
+    return Socialite::driver('google')->redirect()->getTargetUrl();;
+});
+Route::get('/auth/google/callback', function () {
+    $user = Socialite::driver('google')->user();
+    // $user->token
 });
