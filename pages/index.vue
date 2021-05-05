@@ -24,7 +24,6 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import { DefaultApi } from '~/api'
 import Logo from '~/components/Logo.vue'
 import nation from '~/assets/data/xml/nation'
 import textNation from '~/assets/data/xml/text-nation'
@@ -63,12 +62,6 @@ export default class Index extends Vue {
     })
 
     return result.join(', ')
-  }
-
-  created () {
-    new DefaultApi({
-      basePath: 'http://localhost:8080/api'
-    }).authGoogleRedirectGet()
   }
 }
 </script>
