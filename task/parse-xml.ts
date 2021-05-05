@@ -10,6 +10,12 @@ const jsonConfig = {
   size: 2
 }
 
+const excludeFileName = ['eventStory', 'eventOption', 'bonus-event']
+
+const isExclude = (fileName: string): boolean => {
+  return !!excludeFileName.find(test => fileName === test)
+}
+
 glob('XML/**/*.xml', {}, function (_er: any, files: string[]) {
   files.forEach(file => makeFile(file))
 })
@@ -29,7 +35,7 @@ function makeFile (file: string): void {
 
   const json: string = parser.toJson(text)
 
-  if (filename === 'bonus-event') {
+  if (isExclude(filename)) {
     fs.writeFileSync(`./assets/data/xml/${filename}.json`, jsonFormat(JSON.parse(json)))
   } else {
     const jsonTemplate: string = `
