@@ -27,6 +27,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/v-tooltip'
   ],
   /*
   ** Nuxt.js dev-modules
