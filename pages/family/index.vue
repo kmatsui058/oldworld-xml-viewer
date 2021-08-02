@@ -17,7 +17,6 @@
           >
             <td>
               <nuxt-link
-                :key="family.entry"
                 :to="`/family/${family.zType}`"
               >
                 {{ family.name }}

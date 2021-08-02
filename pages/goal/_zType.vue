@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="title is-2">
       <nuxt-link to="/goal/">
-        goal
+        Ambition
       </nuxt-link>/ {{ goal.name }}
     </h2>
   </section>

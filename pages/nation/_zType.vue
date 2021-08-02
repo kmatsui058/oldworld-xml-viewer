@@ -2,7 +2,7 @@
   <section class="section">
     <h2 class="title is-2">
       <nuxt-link to="/nation/">
-        nation
+        Nation
       </nuxt-link>/ {{ nation.name }}
     </h2>
     <section id="nation" class="section">
