@@ -9,9 +9,11 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Hint?: ZType | string;
   Class?: ZType | string;
   AssetVariation: ZType | string;
   AssetConstruction?: ZType | string;
+  WorkerAnimation?: ZType | string;
   zIconName: ZType | string;
   iBuildTurns?: ZType | string;
   iBuildCost?: ZType | string;
@@ -31,7 +33,6 @@ export interface Entry {
   iCitySiteUnits?: ZType | string;
   iDefendUnits?: ZType | string;
   iUnitTurns?: ZType | string;
-  iUnitReligionDie?: ZType | string;
   iUnitHeal?: ZType | string;
   iLegitimacy?: ZType | string;
   iOpinionReligion?: ZType | string;
@@ -40,7 +41,6 @@ export interface Entry {
   bTerritoryOnly?: ZType | string;
   bUrban?: ZType | string;
   bRequiresUrban?: ZType | string;
-  bTradeNetwork?: ZType | string;
   bSpreadsBorders?: ZType | string;
   bNoAdjacentReligion?: ZType | string;
   bNoVegetation?: ZType | string;
@@ -48,6 +48,7 @@ export interface Entry {
   bFreshWaterValid?: ZType | string;
   bRiverValid?: ZType | string;
   bRotateTowardsLand?: ZType | string;
+  bRotateToRiverEdge?: ZType | string;
   bCoastLandValid?: ZType;
   bCoastWaterValid?: ZType | string;
   bCityValid?: ZType | string;
@@ -88,27 +89,24 @@ export interface Entry {
   aiYieldPillage?: AiWonderYieldOutput;
   aiYieldFreshWaterModifier?: AiWonderYieldOutput;
   aiYieldRiverModifier?: AiWonderYieldOutput;
-  aiTerrainModifier?: ZType;
-  aiHeightModifier?: ZType;
-  aiAdjacentHeightModifier?: AiAdjacentHeightModifier;
   aiAdjacentImprovementModifier?: AiWonderYieldOutput;
   aiUnitTraitHeal?: ZType;
   aiUnitTraitXP?: AiWonderYieldOutput;
-  aiUnitDie?: ZType;
-  aiBonusDie?: AiAdjacentHeightModifier;
+  aiUnitDie?: AiWonderYieldOutput;
+  aiBonusDie?: AiBonusDie;
   abTerrainValid?: AbTerrainValid;
   abTerrainInvalid?: AbTerrainInvalid;
   abHeightValid?: AbTerrainInvalid;
+  abHeightInvalid?: AbTerrainInvalid;
   abHeightAdjacentValid?: AbTerrainValid;
   abVegetationValid?: AbTerrainInvalid;
   abNoBaseOutput?: AbTerrainValid;
   aeResourceAssetVariation?: AeResourceAssetVariation;
-  aeUnitDefend?: AeUnitDefend;
-  aaiImprovementClassYieldOutput?: AaiImprovementClassYieldOutput;
+  aeTribeUnitDefend?: AeTribeUnitDefend;
+  aaiAdjacentImprovementClassYield?: AaiAdjacentImprovementClassYield;
   aaiTerrainYieldModifier?: AaiTerrainYieldModifier;
-  aaiHeightYieldModifier?: AaiImprovementClassYieldOutput;
+  aaiHeightYieldModifier?: AaiAdjacentImprovementClassYield;
   aaiAdjacentHeightYieldModifier?: AaiTerrainYieldModifier;
-  aaiAdjacentImprovementYieldModifier?: ZType;
   aaiTribeUnitDie?: AaiTribeUnitDie;
   zAudioLoopWhenBuilding?: ZType | string;
   zAudioSwitchName?: ZType | string;
@@ -123,7 +121,7 @@ export interface Pair5 {
 export interface AaiTerrainYieldModifier {
   Pair?: Pair4[] | Pair4;
 }
-export interface AaiImprovementClassYieldOutput {
+export interface AaiAdjacentImprovementClassYield {
   Pair?: Pair4;
 }
 export interface Pair4 {
@@ -134,7 +132,7 @@ export interface SubPair {
   zSubIndex: string;
   iValue: string;
 }
-export interface AeUnitDefend {
+export interface AeTribeUnitDefend {
   Pair?: Pair3[];
 }
 export interface AeResourceAssetVariation {
@@ -154,7 +152,7 @@ export interface Pair2 {
   zIndex: string;
   bValue: string;
 }
-export interface AiAdjacentHeightModifier {
+export interface AiBonusDie {
   Pair?: Pair[];
 }
 export interface AiWonderYieldOutput {

@@ -8,14 +8,14 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zText?: ZText | string;
+  Text?: Text | string;
   MemoryLevel?: ZType | string;
-  iValue?: ZText | string;
-  iTurns?: ZText | string;
-  bName?: ZText | string;
+  iValue?: Text | string;
+  iTurns?: Text | string;
+  bName?: Text | string;
   beginGroup?: string;
 }
-export interface ZText {
+export interface Text {
   comment: string;
 }
 export interface ZType {

@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName?: ZType | string;
+  Name?: ZType | string;
   Relative?: ZType | string;
   RelationshipPrereq?: ZType | string;
   RelationshipInvalid?: ZType | string;
@@ -20,10 +20,12 @@ export interface Entry {
   MaxProximityPlayer?: ZType | string;
   MinProximityTribe?: ZType | string;
   MaxProximityTribe?: ZType | string;
-  MinStrengthPlayer?: ZType | string;
-  MaxStrengthPlayer?: ZType | string;
-  MinStrengthTribe?: ZType | string;
-  MaxStrengthTribe?: ZType | string;
+  MinPowerPlayer?: ZType | string;
+  MaxPowerPlayer?: ZType | string;
+  MinPowerTribe?: ZType | string;
+  MaxPowerTribe?: ZType | string;
+  MinKnowledgePlayer?: ZType | string;
+  MaxKnowledgePlayer?: ZType;
   MinWarStatePlayer?: ZType | string;
   MaxWarStatePlayer?: ZType | string;
   MinWarStateTribe?: ZType | string;
@@ -38,6 +40,9 @@ export interface Entry {
   MaxOpinionFamily?: ZType | string;
   MinOpinionCharacter?: ZType | string;
   MaxOpinionCharacter?: ZType | string;
+  iMinDistance?: ZType;
+  iMaxDistance?: ZType | string;
+  bAnyDescendant?: ZType | string;
   bNotDescendant?: ZType | string;
   bBehindSuccession?: ZType | string;
   bCanAdopt?: ZType | string;
@@ -57,14 +62,16 @@ export interface Entry {
   bNationSame?: ZType | string;
   bNationDiff?: ZType | string;
   bTeamAlliance?: ZType | string;
-  bNoTeamAllianceAny?: ZType | string;
+  bNotTeamAlliance?: ZType | string;
+  bCanTeamAlliance?: ZType | string;
   bCanEndWar?: ZType | string;
   bMinTreatyTurns?: ZType | string;
   bTribeEthnicity?: ZType | string;
   bTribeSame?: ZType | string;
   bTribeDiff?: ZType | string;
   bTribeAlliance?: ZType | string;
-  bNoTribeAllianceAny?: ZType | string;
+  bNotTribeAlliance?: ZType | string;
+  bCanTribeAlliance?: ZType | string;
   bFamilySame?: ZType | string;
   bFamilyDiff?: ZType | string;
   bReligionSame?: ZType | string;
@@ -84,6 +91,7 @@ export interface Entry {
   bLawInactive?: ZType | string;
   bLawPositive?: ZType | string;
   bLawMinNeutral?: ZType | string;
+  bLawMaxNeutral?: ZType | string;
   bLawNegative?: ZType | string;
   bLawClassSame?: ZType | string;
   bTheologyActive?: ZType | string;

@@ -71,6 +71,10 @@
         "English": "{0}"
       },
       {
+        "zType": "TEXT_HELPTEXT_ADD_TWO_SPACES_BETWEEN",
+        "English": "{0}  {1}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_INDENT",
         "English": "{0}"
       },
@@ -200,6 +204,10 @@
         "English": "{0}{true_1: ({1})}"
       },
       {
+        "zType": "TEXT_HELPTEXT_CONCAT_SPACE_TWO_ENCLOSED_PARENTHESIS",
+        "English": "{0} {1} ({2})"
+      },
+      {
         "zType": "TEXT_HELPTEXT_CONCAT_COLON_ENCLOSED_PARENTHESIS",
         "English": "{0}: {1} ({2})"
       },
@@ -309,7 +317,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_PERCENT_VALUE",
-        "English": "{0_value}%"
+        "English": "{0}%"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_PERCENT_VALUE_COLON",
+        "English": "{0}: {1}%"
       },
       {
         "zType": "TEXT_HELPTEXT_SIGNED_VALUE",
@@ -348,6 +360,10 @@
         "English": "Requires {0}"
       },
       {
+        "zType": "TEXT_HELPTEXT_REQUIRES_NOT",
+        "English": "Requires Not {0}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_REQUIRES_X",
         "English": "Requires {0_num} {1}"
       },
@@ -368,16 +384,44 @@
         "English": "{0_rate} used for {1_production}"
       },
       {
+        "zType": "TEXT_HELPTEXT_FROM",
+        "English": "From {0}:"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_FROM_LIST",
+        "English": "From {0}: {LIST}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ADJACENT_COLON",
+        "English": "Adjacent {0}: {1}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_OPINION_COLON",
         "English": "{0} Opinion: {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EACH_COLON",
+        "English": "Each {0}: {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_NOTABLE_CHARACTERS",
         "English": "Notable Characters:"
       },
       {
+        "zType": "TEXT_HELPTEXT_XP",
+        "English": "{0} XP"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ADJACENT_UNITS",
+        "English": "[Adjacent Units] {0}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_XP_PER_YEAR",
-        "English": "{0} XP/{1_turnScale}"
+        "English": "{0} link(CONCEPT_XP)/{1_turnScale}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_HP_PER_YEAR",
+        "English": "{0} HP/{1_turnScale}"
       },
       {
         "zType": "TEXT_HELPTEXT_SELECTION_OPTIONAL_ARROWS",
@@ -396,12 +440,12 @@
         "English": "{0_religion} as link(CONCEPT_STATE_RELIGION)"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_RELIGION_TYPE",
-        "English": "{0_source} Religion ({1_religion})"
+        "zType": "TEXT_HELPTEXT_LINK_EFFECT_PLAYER_SOURCE_TRAIT",
+        "English": "{0_source} Leader"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_LEADER",
-        "English": "{0_source} Leader"
+        "zType": "TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_RELIGION_TYPE",
+        "English": "{0_source} Religion ({1_religion})"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE_GOVERNOR",
@@ -416,10 +460,6 @@
         "English": "{0_source} Religion"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_EFFECT_CITY_SOURCE",
-        "English": "{0_source} (as {1_sourceOther})"
-      },
-      {
         "zType": "TEXT_HELPTEXT_LINK_CONNECTED",
         "English": "{0_icon}<true_1> Connected<false><end>"
       },
@@ -429,7 +469,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_ROAD",
-        "English": "Road"
+        "English": "Road~a Road~Roads"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_OUTSIDE_BORDERS",
@@ -454,6 +494,14 @@
       {
         "zType": "TEXT_HELPTEXT_LINK_SMALLEST_MILITARY",
         "English": "Smallest Military"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_MOST_CITIES",
+        "English": "Most Cities"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_FEWEST_CITIES",
+        "English": "Fewest Cities"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_CITIZEN",
@@ -496,6 +544,10 @@
         "English": "icon(PILLAGED_WORLD){0_turns}"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_UPGRADE_ICON",
+        "English": "icon(UPGRADE_IMPROVEMENT){0_turns}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_LAUNCH_OFFENSIVE",
         "English": "Launch Offensive"
       },
@@ -509,15 +561,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_CAPITAL",
-        "English": "{0_icon}<true_1>Capital<false><end>"
+        "English": "{0_icon}Capital"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_TECH_PROGRESS",
-        "English": "({0}/{1} icon(YIELD_SCIENCE))"
+        "English": "({0}/{1} {YIELD_SCIENCE})"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_TECH_PROGRESS_APPEND",
-        "English": "{0} ({1}/{2} icon(YIELD_SCIENCE))"
+        "English": "{0} ({1}/{2} {YIELD_SCIENCE})"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_BUILD_QUEUE_PROJECT",
@@ -568,6 +620,10 @@
         "English": "Improvement(s)"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_CITY_CAPTURE",
+        "English": "Capturing{true_0: (PAUSED)}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_CITY_LUXURIES",
         "English": "Luxurie(s)"
       },
@@ -600,8 +656,12 @@
         "English": "Next Unit"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_NEXT_DEVELOPMENT",
+        "English": "Next Upgrade"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_OPINION_PREFERENCES",
-        "English": "Opinion Preferences"
+        "English": "link(CONCEPT_OPINION_FAMILY,3) Preferences"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_OUR_CITIES",
@@ -621,7 +681,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_RIVER",
-        "English": "River"
+        "English": "River~a River~Rivers"
       },
       {
         "zType": "TEXT_HELPTEXT_ROLE_LEADER",
@@ -629,23 +689,31 @@
       },
       {
         "zType": "TEXT_HELPTEXT_ROLE_SPOUSE",
-        "English": "Spouse"
+        "English": "link(CONCEPT_SPOUSE)"
       },
       {
         "zType": "TEXT_HELPTEXT_ROLE_HEIR",
-        "English": "Heir"
+        "English": "Heir (link(CONCEPT_SUCCESSION))"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ROLE_RATING_YIELD",
+        "English": "{0_rating} {true_1:increases:decreases} {2_yield}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ROLE_RATING_YIELD_NON_LINEAR",
+        "English": "(All at a non-linear rate)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_RURAL_SPECIALISTS",
-        "English": "Rural Specialists"
+        "English": "Rural link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_URBAN_SPECIALISTS",
-        "English": "link(CONCEPT_URBAN) Specialists"
+        "English": "link(CONCEPT_URBAN) link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_STATE_RELIGION",
-        "English": "State Religion"
+        "English": "link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_TILE",
@@ -676,6 +744,14 @@
         "English": "Requires:"
       },
       {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_SINGLE_AND_LINK",
+        "English": "{0}, {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_LINK",
+        "English": "..."
+      },
+      {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_NO",
         "English": "No {0}"
       },
@@ -684,52 +760,76 @@
         "English": "no one is {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_TWO",
-        "English": "{0}: {1} {2}"
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_NOT_X",
+        "English": "{0}: Not {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_TWO_NOT",
         "English": "{0}: Not {1} {2}"
       },
       {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_MEMORY",
+        "English": "Memory: {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_HAS",
+        "English": "Has {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_IS_X",
+        "English": "{0} is {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_IS_TWO",
+        "English": "{0} is {1} {2}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_ARE_X",
+        "English": "{0} are {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_IN_X",
+        "English": "{0} in {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_AT_X",
+        "English": "{0} at {1}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_GT_LT",
-        "English": "{0}: >= {1} and <= {2}"
+        "English": "{0} {true_3:is:are} icon(GreaterThan) {1} and icon(LessThan) {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_GT",
-        "English": "{0}: >= {1}"
+        "English": "{0} {true_2:is:are} icon(GreaterThan) {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_LT",
-        "English": "{0}: <= {1}"
+        "English": "{0} {true_2:is:are} icon(LessThan) {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_GT_TWO",
-        "English": "{0}: >= {1} {2}"
+        "English": "{0} {true_3:is:are} icon(GreaterThan) {1} {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_LT_TWO",
-        "English": "{0}: <= {1} {2}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_NOT_X",
-        "English": "{0}: Not {1}"
+        "English": "{0} {true_3:is:are} icon(LessThan) {1} {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_AGE_RANGE",
-        "English": "{0} Age: >= {1} and <= {2}"
+        "English": "{0} is Age icon(GreaterThan) {1} and icon(LessThan) {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_AGE_GT",
-        "English": "{0} Age: >= {1}"
+        "English": "{0} is Age icon(GreaterThan) {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_AGE_LT",
-        "English": "{0} Age: <= {1}"
+        "English": "{0} is Age icon(LessThan) {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIRES_MIN_DISCONTENT",
-        "English": "{0}: >= {1} {2} Level"
+        "English": "{0} has icon(GreaterThan) {1} {2} Level"
       },
       {
         "zType": "TEXT_HELPTEXT_EVENT_REQUIREMENT_MARRIED",
@@ -809,7 +909,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_MONEY_SUMMARY_TEXT",
-        "English": "{0_moneyGain} (Income)<br>{1_moneyLoss} (link(YIELD_MAINTENANCE))<br>= {2_yield} (Net)"
+        "English": "{0_moneyGain} (Income)<br>{1_moneyLoss} (link(YIELD_MAINTENANCE))<br> {2_yield} (Net)"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_COST",
@@ -824,16 +924,28 @@
         "English": "({0_value}/{1_value} {2_yield})"
       },
       {
-        "zType": "TEXT_HELPTEXT_TURNS_TEXT",
+        "zType": "TEXT_HELPTEXT_TURNS_TEXT_SHORT",
         "English": "<true_1>({0_number}{2_turnScale})<false>{0_number}{2_turnScale}<end>"
       },
       {
-        "zType": "TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN",
+        "zType": "TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN_SHORT",
         "English": "<true_0>(?{1_turnScale})<false>?{1_turnScale}<end>"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TURNS_TEXT",
+        "English": "<true_1>({0_number} {2_turnScale})<false>{0_number} {2_turnScale}<end>"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TURNS_TEXT_UNKNOWN",
+        "English": "<true_0>(? {1_turnScale})<false>? {1_turnScale}<end>"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MENU_SCENARIO",
         "English": "Scenario: {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_MENU_NATION",
+        "English": "Nation: {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MENU_DIFFICULTY",
@@ -909,7 +1021,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MENU_VICTORY_TYPE_ENABLED",
-        "English": "{0} Victory Enabled"
+        "English": "{0} Enabled"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MENU_MAP_SEED",
@@ -929,7 +1041,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LOAD",
-        "English": "Load the Game {0_presskey}"
+        "English": "Load the Game that was previously Quick-Saved {0_presskey}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LOAD_CLOUD",
@@ -965,11 +1077,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_CITY_LIST_ENTRY",
-        "English": "{0_city}: {1_culture}, {2_discontent} icon(YIELD_DISCONTENT)"
+        "English": "{0_city}: {1_culture}, {2_discontent} {YIELD_DISCONTENT}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_GAME_LOG",
         "English": "Show Game Log{true_0:<br>{0_presskey}}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY",
+        "English": "Show Zone of Control Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_DANGER_OVERLAY",
@@ -984,12 +1100,16 @@
         "English": "Show City Connections Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_RESOURCES_OVERLAY",
-        "English": "Show Tile Resources Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
+        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_ROADS_RIVERS_OVERLAY",
+        "English": "Show Roads and Rivers Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_ZOC_OVERLAY",
-        "English": "Show Zone of Control Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
+        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_TILE_YIELDS_OVERLAY",
+        "English": "Show Tile Yields Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_TILE_SPECIALISTS_OVERLAY",
+        "English": "Show Tile Specialists Overlay<br>[Shift+Click] to lock overlay<br>{true_0:{0_presskey}}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_NOTIFICATIONS_PREVIOUS",
@@ -1001,7 +1121,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_WORKER_ACTION_FILTER_GENERAL",
-        "English": "Show Improvements and basic actions"
+        "English": "Show Valid Improvements"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_WORKER_ACTION_FILTER_WONDERS",
@@ -1033,15 +1153,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_NEXT_UNIT",
-        "English": "Cycle to Next Unit ({0_unit}){true_1: {1_presskey}}"
+        "English": "Cycle to Next Unit{true_0: ({0_unit})}{true_1: {1_presskey}}\n<TEXT_HOTKEY_RIGHT_CLICK> to Cycle in Reverse"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_STATE_UNIT_CYCLE_KEY",
-        "English": "<TEXT_HOTKEY_RIGHT_CLICK><true_0> or {0_presskey}<false><end> to Pass to Next Unit"
+        "English": "{true_0:{0_key} to Pass this Unit.}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_STATE_UNIT_CENTER_KEY",
-        "English": "Press [{0_key}] to Center Camera on Unit."
+        "English": "{true_0:{0_key} to Center Camera on Unit.}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_STATE_IDLE_CHOOSE_CITY_PRODUCTION",
@@ -1117,11 +1237,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_WONDERS_AVAILABLE",
-        "English": "Available Wonders:"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_WIDGET_WONDERS_CANNOT_BUILD",
-        "English": "Cannot Build Wonders with {LIST}"
+        "English": "Available link(CONCEPT_WONDER,2):"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_WONDERS_OWNED_BY",
@@ -1138,6 +1254,10 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LAWS",
         "English": "Show Laws Screen{true_0:<br>{0_presskey}}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_LAWS_SUCCESSION",
+        "English": "Succession: {0_gender} {1_order}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LAWS_ACTIVE",
@@ -1244,16 +1364,12 @@
         "English": "City Luxuries:"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_FAMILY",
-        "English": "From {0_family}:"
-      },
-      {
         "zType": "TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_OPINION",
         "English": "Opinion from any Luxury: {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_MISSING_OPINION",
-        "English": "Opinion from Missing {0_effectCity}: {1_value} per City"
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Missing {0_effectCity}: {1_value} per City"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TRADE_LUXURY_TURNS_LEFT",
@@ -1282,6 +1398,10 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_BUILD_INSERT_FRONT",
         "English": "Hold <TEXT_HOTKEY_CTRL> to Insert at the Front."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_BUILD_INSERT_END",
+        "English": "Hold <TEXT_HOTKEY_CTRL> to Insert at the End."
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_BUILD_SPECIALIST_NEXT",
@@ -1349,7 +1469,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PLAYER_SELECT",
-        "English": "Click to center the camera on {0_player}'s capital"
+        "English": "Click to center the camera on {0_player}'s capital (if discovered)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COGNOMEN",
@@ -1362,6 +1482,10 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_COUNT",
         "English": "{0_value}: {1_link}{true_2: (x{2})}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_RIGHT_CLICK_MISSIONS",
+        "English": "<TEXT_HOTKEY_RIGHT_CLICK> to Show Potential Missions"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PLAYER_LEGITIMACY_SHOW_INHERITANCE",
@@ -1384,6 +1508,10 @@
         "English": "{0_character} serves as {1_unit}"
       },
       {
+        "zType": "TEXT_HELPTEXT_WIDGET_CHOOSE_GOVERNOR_PREREQS",
+        "English": "Must not be of a different link(CONCEPT_FAMILY) than {0_family}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_WIDGET_ADD_GENERAL",
         "English": "Add a link(CONCEPT_GENERAL) to lead the {0_unit}"
       },
@@ -1392,8 +1520,16 @@
         "English": "No candidates available"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS",
-        "English": "Must be younger than {0} and not of a different Family (or Tribe)"
+        "zType": "TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_AGE",
+        "English": "Must be younger than {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_FAMILY",
+        "English": "Must not be of a different link(CONCEPT_FAMILY) than {0_family}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_ADD_GENERAL_PREREQS_TRIBE",
+        "English": "Must be a descendant of the {0_tribe} link(CONCEPT_TRIBE)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_RELEASE_GENERAL",
@@ -1406,6 +1542,14 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_RELEASE_GOVERNOR",
         "English": "Releases {0_governor} from {1_city}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_RELEASE_AGENT",
+        "English": "Releases {0_agent} from {1_city}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_RELEASE_AGENT_MISSION",
+        "English": "Cannot Release during a Mission: {0}{true_2: ({2_link})}, {1_turns}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_START_MISSION_CANCEL",
@@ -1433,7 +1577,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_TRIBE",
-        "English": "Make {0_peace} with {0_barbarian} for {2_money}"
+        "English": "Make {0_peace} with {0_barbarian} (Costs {2_money})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_TRIBE_INSPIRE_TROOPS",
@@ -1441,7 +1585,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE",
-        "English": "End {0_barbarian} {1_diplomacy} for {2_money}"
+        "English": "End {0_barbarian} {1_diplomacy} (Costs {2_money})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_TRIBE_INSPIRE_TROOPS",
@@ -1449,11 +1593,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_PEACE_PLAYER",
-        "English": "Make {0_peace} with {1_player} for {2_money}"
+        "English": "Make {0_peace} with {1_player} (Costs {2_money})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_OFFER_TRUCE_PLAYER",
-        "English": "End {0_player} {1_diplomacy} for {2_money}"
+        "English": "End {0_player} {1_diplomacy} (Costs {2_money})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_STORY_LAW_SCREEN",
@@ -1465,7 +1609,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_TRAIT_OPINION",
-        "English": "{0_character}: {1_value} Opinion from {2_trait}"
+        "English": "{0_character}: {1_value} link(CONCEPT_OPINION_CHARACTER,3) from {2_trait}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MAKE_DECISION_EVENT_CHARACTER_COUNCIL",
@@ -1485,7 +1629,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HEAL",
-        "English": "Heal Unit: {0_amount} HP"
+        "English": "link(CONCEPT_HEAL) Unit: {0_amount} HP"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HEAL_CURRENT_HP",
@@ -1493,7 +1637,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HEAL_IDLE_UNIT",
-        "English": "({0_idle} Units Heal {1_amount} HP each {2_turnScale}.)"
+        "English": "({0_idle} Units link(CONCEPT_HEAL) {1_amount} HP each {2_turnScale}.)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HEAL_NEUTRAL_TERRITORY",
@@ -1505,23 +1649,23 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_FORTIFY",
-        "English": "Fortify Unit\n{0_amount} Bonus per {1_turnScale} (up to {2_max}%)"
+        "English": "link(CONCEPT_FORTIFY) Unit\n{0_amount} Bonus per {1_turnScale} (up to {2_max}%)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TESTUDO",
-        "English": "Testudo Formation\n{0_amount} Bonus vs link(UNITTRAIT_RANGED) Units per {1_turnScale} (up to {2_max}%)"
+        "English": "link(CONCEPT_TESTUDO) Formation\n{0_amount} Bonus vs ranged Units per {1_turnScale} (up to {2_max}%)"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER",
+        "zType": "TEXT_HELPTEXT_WIDGET_AUTOMATE_UNIT",
         "English": "Automates the Unit"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER_CANCEL",
+        "zType": "TEXT_HELPTEXT_WIDGET_AUTOMATE_UNIT_CANCEL",
         "English": "Cancels the Automation"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_AUTOMATE_WORKER_FRIENDLY_TERRITORY",
-        "English": "Must be in Friendly territory"
+        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_AUTOMATE_SCOUTS",
+        "English": "Can Automate link(UNIT_SCOUT,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_MARCH",
@@ -1545,7 +1689,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_UNLIMBER_HELP",
-        "English": "A Unit cannot attack until the turn after it Unlimbered"
+        "English": "Some link(UNITTRAIT_SIEGE) Units cannot attack until the Turn after they Unlimber."
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_ANCHOR",
@@ -1553,7 +1697,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_ANCHOR_HELP",
-        "English": "After Anchoring, Land Units can move through Water Tiles within the Anchored Unit's movement range."
+        "English": "Naval Units can Anchor to allow Land Units to move through Water Tiles within the Naval Unit's Anchor range. Anchoring takes a full Turn to complete, so Land Units cannot move through the Tiles until the Turn after Anchoring."
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PILLAGE",
@@ -1613,7 +1757,31 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_DISTANCE",
-        "English": "Opinion from Distance: From {0} to {1}"
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Distance from {0} to {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_MISSING_LUXURIES",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Missing link(CONCEPT_LUXURY){true_LIST-COUNT: ({LIST})} from {0} to {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_CONNECTED_CITIES",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from {0_connected} Cities from {1} to {2}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_ENVY",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Envy from {0} to {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_ENVY_FAMILY",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Envy from {1} to {2} ({0_family})"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_MOST_FEWEST_CITIES",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Most/Fewest Cities from {0} to {1}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CITY_OPINION_MOST_FEWEST_CITIES_FAMILY",
+        "English": "link(CONCEPT_OPINION_FAMILY,3) from Most/Fewest Cities from {1} to {2} ({0_family})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_FOUND_COST",
@@ -1645,15 +1813,23 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_NEEDS_URBAN",
-        "English": "Needs to be on {0,1_urbanLink} Tile"
+        "English": "Needs to be on an link(CONCEPT_URBAN) Tile"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_NEEDS_CITY_SITE",
+        "English": "Needs to be connected via link(CONCEPT_URBAN) Tiles to a link(CONCEPT_CITY_SITE)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_TRIBE",
-        "English": "Cannot Found nearby {0_barbarian}"
+        "English": "Founding blocked by {0,2_tribe} Unit on link(CONCEPT_CITY_SITE)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_UNIT",
-        "English": "Founding blocked by enemy {0_unit}"
+        "English": "Founding blocked by rival {0_unit} on link(CONCEPT_CITY_SITE)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_FOUND_CITY_CANNOT_FOUND_NEAR_UNIT_UNKNOWN",
+        "English": "Founding blocked by rival Unit on link(CONCEPT_CITY_SITE)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_JOIN_CITY",
@@ -1681,11 +1857,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_BUY_KEY",
-        "English": "Hold <TEXT_HOTKEY_ALT> to Buy: {0_money}"
+        "English": "Hold <TEXT_HOTKEY_ALT> to Buy {0_list}: {1_money}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_ROAD_TO_KEY",
         "English": "{0} to enable Road-To mode"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ROAD_NETWORK_HOTKEY",
+        "English": "Hold [{0_key}] to see all link(CONCEPT_ROAD,2) and link(CONCEPT_RIVER,2)."
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_CANCEL_ROAD_TO_KEY",
@@ -1725,7 +1905,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_CITY_TERRITORY",
-        "English": "Cannot Harvest inside City Territory"
+        "English": "Cannot Harvest inside City Territory. Use link(UNIT_WORKER,1) to construct an link(CONCEPT_IMPROVEMENT) instead."
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HARVEST_RESOURCE_IMPROVEMENT",
@@ -1752,8 +1932,20 @@
         "English": "Create {0_agentNetwork} for {1_money} in {2_city}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION",
+        "zType": "TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_NO_PLAYERS",
+        "English": "Start link(CONCEPT_CARAVAN_MISSION)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_NO_PLAYERS_CONTACT",
+        "English": "Requires Contact with other link(CONCEPT_NATION,2)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_START",
         "English": "Start link(CONCEPT_CARAVAN_MISSION) to {0_player}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_CARAVAN_MISSION_CANCEL",
+        "English": "Cancel link(CONCEPT_CARAVAN_MISSION) to {0_player}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TRADE_ROUTE_DESTINATION",
@@ -1778,6 +1970,10 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PROMOTE_ALREADY_HAS",
         "English": "(Already has this Promotion)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_PROMOTE_ALREADY_HAS_GENERAL",
+        "English": "(Already has from {0_character})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_PROMOTE_LEVEL",
@@ -1809,11 +2005,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_RECRUIT_MERCENARY",
-        "English": "Recruit {0_unit} as link(CONCEPT_MERCENARY,1)"
+        "English": "Recruit {0_unit} as a link(CONCEPT_MERCENARY)"
       },
       {
-        "zType": "TEXT_HELPTEXT_TRIBE_NO_MERCENARY",
-        "English": "{0_tribe} cannot be as link(CONCEPT_MERCENARY,2)"
+        "zType": "TEXT_HELPTEXT_RECRUIT_NO_MERCENARY_TRIBE",
+        "English": "{0_tribe} cannot be recruited as link(CONCEPT_MERCENARY,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_RECRUIT_MERCENARY_COST",
@@ -1821,7 +2017,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_HIRE_MERCENARY",
-        "English": "Hire {0_unit} as link(CONCEPT_MERCENARY,1)"
+        "English": "Hire {0_unit} as a link(CONCEPT_MERCENARY)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_HIRE_NO_MERCENARY_TRIBE",
+        "English": "{0_tribe} cannot be hired as link(CONCEPT_MERCENARY,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_GIFT_UNIT",
@@ -1844,12 +2044,12 @@
         "English": "Establish {0,1_religion} {1_theology}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_NOT_IN_TERRITORY",
-        "English": "Must be in City Territory with {0,1_religion}"
+        "zType": "TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION",
+        "English": "Requires {0_religion} as link(CONCEPT_STATE_RELIGION)"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_STATE_RELIGION",
-        "English": "Requires a link(CONCEPT_STATE_RELIGION)"
+        "zType": "TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_DIFFERENT_STATE_RELIGION",
+        "English": "Requires {0_religion} as link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_ESTABLISH_THEOLOGY_REQUIRES_PREVIOUS_TIER",
@@ -1861,7 +2061,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION",
-        "English": "Spread {0_religion} to {true_1:{1_city}:a City}"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) {0_religion} to {true_1:{1_city}:a City}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_AS_STATE_RELIGION",
@@ -1880,24 +2080,16 @@
         "English": "Purge {0_religion} from {true_1:{1_city}:a City}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION",
-        "English": "Convert {0_barbarian} to {1_religion}"
+        "zType": "TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE",
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) {0_religion} to {1,1_tribe} Site"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_GENERIC",
+        "zType": "TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE_GENERIC",
         "English": "Convert Tribal Site to {0_religion}"
       },
       {
-        "zType": "TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_PEACE_WARNING",
-        "English": "Must be at {0_peaceLink}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_PEACE_WARNING_GENERIC",
-        "English": "(Must be at {0_peace} and adjacent to Tribal Site)"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_WIDGET_CONVERT_RELIGION_PEACE_DESCRIPTION",
-        "English": "Barbarians following your link(CONCEPT_STATE_RELIGION) are less likely to<br>declare {0_warLink}"
+        "zType": "TEXT_HELPTEXT_WIDGET_SPREAD_RELIGION_TRIBE_WARNING",
+        "English": "(Must be adjacent to Site and not be at {0_war})"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_COURTIER",
@@ -1965,7 +2157,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_WONDER_FINISHED",
-        "English": "Construction of {0,1_improvement} has begun.{true_1: (Worth {1} VPs)}"
+        "English": "Construction of {0,1_improvement} has begun.{true_1: (Worth {1} Victory {singular_1:Point:Points})}"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_LOG_MESSAGE_GIFT_GOODS",
@@ -1996,14 +2188,6 @@
         "English": "Undo last move"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_UPGRADE",
-        "English": "Upgrades convert a Combat Unit to a different, more advanced type, at the cost of some Training, and other Unit specific resources."
-      },
-      {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_XP",
-        "English": "Units and Characters can earn XP (Experience), which can be used for a link(CONCEPT_PROMOTION), or to improve a Character Trait. Units earn XP during combat, or by being link(CONCEPT_IDLE) on a Training link(CONCEPT_IMPROVEMENT). link(UNITTRAIT_MELEE) Units train in a link(IMPROVEMENT_BARRACKS), and link(UNITTRAIT_RANGED) units train at a link(IMPROVEMENT_RANGE). Characters earn XP through performing missions, holding roles such as link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR) or link(CONCEPT_COUNCILOR), and through events or other Character actions."
-      },
-      {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_REPLAY_MOVE_REDO",
         "English": "Redo last undone move"
       },
@@ -2014,6 +2198,14 @@
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TURN_REPLAY_DO_AI_MOVES_X",
         "English": "Auto-play {0_number} {singular_0:turn:turns}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_TOGGLE_MUSIC_PLAYER",
+        "English": "Click to show/hide music player"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_WIDGET_MUSIC_PLAYER_LOCKED",
+        "English": "<color=red>Music requires researching link(TECH_DRAMA)</color>"
       },
       {
         "zType": "TEXT_HELPTEXT_WIDGET_TECH_DECK",
@@ -2056,20 +2248,256 @@
         "English": "Consumes the Unit"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ORDERS",
+        "English": "Units can move multiple times each turn, but each move consumes one link(YIELD_ORDERS,3). Other actions, such as attacking or building, also consume link(YIELD_ORDERS).\n\nYour remaining link(YIELD_ORDERS) can be seen in the lower left corner of your screen to the right of your Leader's Portrait. Consider your use of link(YIELD_ORDERS) carefully and whether you need to prioritize construction, combat, or movement.\n\t\t\nAt turn end, unused link(YIELD_ORDERS) are exchanged for link(YIELD_MONEY,1).\n\nUnits can't act if you don't have an link(YIELD_ORDERS) to command them. You get more link(YIELD_ORDERS) at the start of each turn, but if you need to, you can spend int(TRAINING_PER_ORDER) link(YIELD_TRAINING,1) to get a new link(YIELD_ORDERS,2)).\n\nThe most important source of link(YIELD_ORDERS) is  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SCOUTS",
+        "English": "link(UNIT_SCOUT,2) are fantastic explorers that can see further into the unknown than other Units. They can also hide in link(VEGETATION_TREES), making them invaluable as an early warning against invading enemies.\n\nSend link(UNIT_SCOUT,2) out into the wilderness to look for new link(IMPROVEMENT_CITY_SITE,2) and mysterious link(IMPROVEMENT_ANCIENT_RUINS,2). link(UNIT_SCOUT,2) (as well as link(UNIT_SETTLER,2) and link(UNIT_WORKER,2)) can also link(CONCEPT_HARVEST_RESOURCE,1)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AGENTS",
+        "English": "With a link(COUNCIL_SPYMASTER) on your Council, you can convert link(UNIT_SCOUT,2) into an link(CONCEPT_AGENT_NETWORK) in a rival City (temporarily consuming the link(UNIT_SCOUT) in the process). If you move your link(UNIT_SCOUT) adjacent to the territory of that City, the link(CONCEPT_AGENT_NETWORK)  icon(CREATE_AGENT_NETWORK) Button will be enabled in the Unit Panel on the left. \n\nOnce you have established an link(CONCEPT_AGENT_NETWORK) in a City, an eligible Character can then be assigned as the local link(CONCEPT_AGENT) there. To do so, you need to click the link(CONCEPT_AGENT)  icon(AGENT_HIGHLIGHTED) Button below the City Banner.\n\nA dedicated link(CONCEPT_AGENT) Character can perform link(MISSION_INSURRECTION) and link(MISSION_TREACHERY) Missions and will siphon off a percentage of the City's Yields, depending on the Ratings of the Character. (For example, a Character's link(RATING_WISDOM) will determine how much {YIELD_SCIENCE}link(YIELD_SCIENCE) they will gather.)\n\nYou can choose link(CONCEPT_AGENT) Missions to perform from the link(CONCEPT_AGENT) Character's Panel, the link(COUNCIL_SPYMASTER) Character's Panel, or even directly from the City in question by clicking the link(CONCEPT_AGENT)  icon(AGENT_HIGHLIGHTED) Button beneath the City banner."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPYMASTER",
+        "English": "You can use your link(COUNCIL_SPYMASTER) to conduct secret Missions! Just select the portrait of your link(COUNCIL_SPYMASTER) in the top right, and you will see their available actions in the panel on the left side of the screen.\n\nA link(COUNCIL_SPYMASTER) can can execute missions like link(MISSION_INFILTRATE), link(MISSION_STEAL_RESEARCH), link(MISSION_ASSASSINATE), and more!\t\t\n\t\nIf you have researched the link(TECH_PORTCULLIS) technology and you have an available candidate on your court with the link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), or link(TRAIT_SCHOLAR_ARCHETYPE) trait, then you may appoint link(COUNCIL_SPYMASTER,1) using the glowing eye icon  icon(COUNCIL_SPYMASTER) in the top right of the screen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHANCELLOR",
+        "English": "You can use your link(COUNCIL_CHANCELLOR) to help manage your realm with special Missions. Just select the portrait of your link(COUNCIL_CHANCELLOR) in the top right, and you will see their available actions in the panel on the left side of the screen.\n\nA link(COUNCIL_CHANCELLOR) can give link(MISSION_FAMILY_GIFT) to improve relations with your powerful link(CONCEPT_FAMILY,2), lower {YIELD_DISCONTENT}link(YIELD_DISCONTENT) with link(MISSION_PACIFY_CITY), and even link(MISSION_IMPRISON) troublesome Characters!\n\t\nIf you have researched the link(TECH_SPOKED_WHEEL) technology and you have an available candidate on your court with the link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), or link(TRAIT_BUILDER_ARCHETYPE) trait, then you may appoint link(COUNCIL_CHANCELLOR,1) using the glowing quill pen icon  icon(COUNCIL_CHANCELLOR) in the top right of the screen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AMBASSADOR",
+        "English": "You can use your link(COUNCIL_AMBASSADOR) to conduct diplomatic Missions. Just select the portrait of your link(COUNCIL_AMBASSADOR) in the top right, and you will see their available actions in the panel on the left side of the screen. An link(COUNCIL_AMBASSADOR) can make link(DIPLOMACY_PEACE) with link(CONCEPT_NATION,2) and link(CONCEPT_TRIBE,2), form a link(MISSION_TRADE_MISSION), offer and demand Tribute, and more!\t\n\t\nONce you have researched the link(TECH_ARISTOCRACY) technology and you have an available candidate on your court with the link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_DIPLOMAT_ARCHETYPE), or link(TRAIT_COMMANDER_ARCHETYPE) Trait, then you may appoint link(COUNCIL_AMBASSADOR,1) using the glowing scroll icon  icon(COUNCIL_AMBASSADOR) in the top right of the screen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_FAMILY",
+        "English": "link(CONCEPT_OPINION_FAMILY,1) is influenced by the {YIELD_DISCONTENT}link(YIELD_DISCONTENT) in their Cities and by Event choices. Cities gain {YIELD_DISCONTENT}link(YIELD_DISCONTENT) over time. You can reduce {YIELD_DISCONTENT}link(YIELD_DISCONTENT) by connecting your cities with the link(CONCEPT_TRADE_NETWORK), adopting a link(CONCEPT_STATE_RELIGION), building certain link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_BATHS,2), and enacting certain Laws such as link(LAW_CONSTITUTION) and link(LAW_TOLERANCE).\n\nIf a link(CONCEPT_FAMILY) is link(OPINIONFAMILY_ANGRY) with you, then Rebel Units may begin spawning in their Cities!\n\nlink(CONCEPT_FAMILY,2) have link(CONCEPT_FAMILY_CLASS,2) that determine what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy.\n\nlink(FAMILYCLASS_LANDOWNERS) need land of course, so they want to have the most Cities of any of your link(CONCEPT_FAMILY,2), and they are especially displeased by having the fewest. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_OLIVE) and link(RESOURCE_HONEY). Always in need of labor for their fields, link(FAMILYCLASS_LANDOWNERS) are pleased by the link(LAW_SERFDOM) Law\n\t\nlink(FAMILYCLASS_CHAMPIONS) like to fight, and their opinion of you will improve if they have the largest military of all your link(CONCEPT_FAMILY,2). Likewise, they will feel insulted if given the fewest military units. Their opinion of you will also increase with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_WINE) and link(RESOURCE_DYE). link(FAMILYCLASS_CHAMPIONS) are pleased by the link(LAW_VOLUNTEERS) Law.\n\t\nlink(FAMILYCLASS_STATESMEN) are of course concerned with matters of state and public opinion, and cast a wary eye on unmarried Leaders. They also seek advancement for themselves, and are dismayed by a Leader who does not share power by appointing Council Members. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_PEARL) and link(RESOURCE_WINE). link(FAMILYCLASS_STATESMEN) are pleased by the adoption of a link(LAW_CONSTITUTION).\n\t\nlink(FAMILYCLASS_PATRONS) are especially impressed by building Wonders, but they don't have much tolerance for child Leaders. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_GEM) and link(RESOURCE_INCENSE). link(FAMILYCLASS_PATRONS) are also pleased by the link(LAW_CALLIGRAPHY) Law.\n\t\nlink(FAMILYCLASS_CLERICS) want nothing more than to spread their faith, and so they are especially pleased when ruling over the most subjects of all your link(CONCEPT_FAMILY,2). Likewise, they will be displeased when ruling over a City without a Religion. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_INCENSE) and link(RESOURCE_LAVENDER). Enacting link(LAW_DIVINE_RULE) will also improve their opinion of you.\n\t\nlink(FAMILYCLASS_SAGES) look down on leaders with Tribal spouses, and they especially like their Cities to be protected. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_SALT) and link(RESOURCE_LAVENDER). link(FAMILYCLASS_SAGES) are also pleased by the link(LAW_FREEDOM) Law.\n\t\nlink(FAMILYCLASS_TRADERS) will like you more if you keep their Cities connected, but are displeased by damaged Cities. It's bad for business. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_OLIVE) and link(RESOURCE_PEARL). link(FAMILYCLASS_TRADERS) are naturally pleased by the link(LAW_TRADE_LEAGUE) and link(LAW_MONETARY_REFORM) Laws.\n\t\nlink(FAMILYCLASS_ARTISANS) can't stand interruptions in production, and so they are particularly distressed by pillaged link(CONCEPT_IMPROVEMENT,2) in their territories. Their opinion of you will improve with access to link(CONCEPT_LUXURY,2), especially link(RESOURCE_GEM) and link(RESOURCE_DYE). link(FAMILYCLASS_ARTISANS) are also pleased by the link(LAW_GUILDS) Law.\n\t\nlink(FAMILYCLASS_RIDERS) won't suffer the indignity of hostile Units inside their territory, but their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_FUR) and link(RESOURCE_SALT). link(FAMILYCLASS_RIDERS) are also pleased by the link(LAW_VASSALAGE) Law.\n\t\nlink(FAMILYCLASS_HUNTERS) want to keep their Units close to home, and their opinion of you will improve with access to link(CONCEPT_LUXURY,2) like link(RESOURCE_FUR) and link(RESOURCE_HONEY). link(FAMILYCLASS_HUNTERS) are also pleased by the link(LAW_EXPLORATION) Law."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ONAGER",
+        "English": "The link(UNIT_ONAGER) is a link(UNITTRAIT_RANGED) link(UNITTRAIT_SIEGE) Unit that has splash damage, so it will hurt all enemies adjacent to the target Tile."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AXEMAN",
+        "English": "The link(UNIT_AXEMAN) Unit has a arcing Cleave attack, striking foes adjacent to its target for partial damage."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPEARMAN",
+        "English": "The link(UNIT_SPEARMAN) is the first link(UNITTRAIT_POLEARM) Unit available to your Nation. link(UNITTRAIT_POLEARM) Units excel against enemy link(UNITTRAIT_MOUNTED) Units. Only link(UNITTRAIT_POLEARM) Units can exert a link(CONCEPT_ZOC) on link(UNITTRAIT_MOUNTED) Units. link(UNIT_SPEARMAN,2) also have a Pierce attack, striking the unit behind their target for partial damage."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GENERAL",
+        "English": "A Character can be assigned as a link(CONCEPT_GENERAL) to a Unit, contributing their Unique bonuses to the Unit. Assign a link(CONCEPT_GENERAL) by selecting a Unit and then clicking the Add link(CONCEPT_GENERAL)  icon(JOB_GENERAL) Button in the action panel on the left.\n\nA General (with the exception of the Leader) cannot be from a different link(CONCEPT_FAMILY) from that of the Unit."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_MARRIAGE",
+        "English": "Marriages are a useful diplomatic tool for forming bonds with other link(CONCEPT_FAMILY,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_NATION,2). They also allow your link(CONCEPT_FAMILY) to continue their line with legitimate Heirs who will be eligible to take over once your current Ruler is gone.\n\nIf you die without an Heir, the game will end!"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_LEGITIMACY",
+        "English": "Higher  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) grants you additional link(YIELD_ORDERS,1) and improves your standing with your link(CONCEPT_FAMILY,2). Keeping your  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) high is important for controlling a large Nation!\n\nicon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) comes from achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). There are also Events that can raise your  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INHERITANCE_LAWS",
+        "English": "On the left side of the top bar, you can open the Inheritance Screen with the Crown  icon(INHERITANCE_Normal) button. \n\nThe Inheritance Screen will show your current link(CONCEPT_SUCCESSION). If you click the Change Law button, you can see who the new Heirs would be, depending on which link(CONCEPT_SUCCESSION_LAW) you select to preview.\n\nYou can choose different schemes, like link(LAW_ULTIMOGENITURE) or link(LAW_SENIORITY), based on your preference."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SUCCESSION",
+        "English": "Training strong Heirs will be vital for the survival of your Nation as once your current Ruler is gone, someone will need to take the reins. Once your Heir has grown up a bit, you'll be able to choose an educational path to guide them into the role you need them to fulfill.\n\nThe first four Heirs in the link(CONCEPT_SUCCESSION) are members of your link(CONCEPT_COURT), and their Ratings will affect your Global Yields. (For example, an Heir with high link(RATING_WISDOM) will increase your {YIELD_SCIENCE}link(YIELD_SCIENCE).)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_AMBITION",
+        "English": "link(CONCEPT_AMBITION,2) are goals that your link(CONCEPT_FAMILY,2) would like for you to pursue, and completing them will grant you, and all of your descendants, a permanent boost to  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY).\n\nCompleting an link(CONCEPT_AMBITION) unlocks a new one and completing ten is one way to win via link(VICTORY_AMBITION,1), so always do your best to fulfill your current link(CONCEPT_AMBITION,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_MERCENARIES",
+        "English": "Any Nation with an link(TRAIT_ORATOR_ARCHETYPE) Leader may recruit link(CONCEPT_MERCENARY,2) from link(CONCEPT_TRIBE,2) at the cost of some  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY). As link(NATION_CARTHAGE), you can hire link(CONCEPT_MERCENARY,2) in exchange for {YIELD_MONEY}link(YIELD_MONEY) instead. You may not hire link(TRIBE_RAIDERS).\n\nlink(CONCEPT_MERCENARY,2) have no associated link(CONCEPT_FAMILY) and int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs. They cannot receive link(CONCEPT_PROMOTION,2), but they can be link(CONCEPT_UPGRADE,3). They may only be led by a link(CONCEPT_GENERAL) from their own Ethnicity.\n\nTo recruit a link(CONCEPT_MERCENARY) Unit, simply select a Tribal Unit that is not garrisoning a Tribal Site, and click the Recruit link(CONCEPT_MERCENARY)  icon(RECRUIT_MERCENARY) button, or the Hire link(CONCEPT_MERCENARY)icon(HIRE_MERCENARY) button as link(NATION_CARTHAGE), in the Unit Panel on the left."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRAINING_IMPROVEMENT",
+        "English": "link(UNITTRAIT_MELEE) Units that remain link(CONCEPT_IDLE) on a link(IMPROVEMENT_BARRACKS) will earn link(CONCEPT_XP). There is a similar bonus for idle link(UNITTRAIT_RANGED) Units on a link(IMPROVEMENT_RANGE).\n\nUnit link(CONCEPT_PROMOTION,2) are cheaper for Units with more link(CONCEPT_XP,1), so make sure to train your Units while not at war to keep them sharp!"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SPECIALIST",
+        "English": "A link(CONCEPT_SPECIALIST) can be recruited from the City Screen by clicking the  icon(specialist_border) Button on an link(CONCEPT_IMPROVEMENT) so long as you have an available link(CONCEPT_CITIZEN). Although link(CONCEPT_IMPROVEMENT,2) are already productive on their own, a link(CONCEPT_SPECIALIST) can boost their yields.\n\nlink(CONCEPT_LUXURY) are special resources that you acquire by adding a Rural link(CONCEPT_SPECIALIST) to an link(CONCEPT_IMPROVEMENT) on the correct Tile. For example, you access link(RESOURCE_GEM) by adding a link(SPECIALIST_MINER) link(CONCEPT_SPECIALIST) to a link(IMPROVEMENT_MINE) link(CONCEPT_IMPROVEMENT) on a link(RESOURCE_GEM) Tile.\n\nUrban link(CONCEPT_SPECIALIST,2), like link(SPECIALISTCLASS_ACOLYTE,1) and link(SPECIALISTCLASS_OFFICER,1), can be trained to higher levels for further yield boosts."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRIBES",
+        "English": "Once you've driven the local link(CONCEPT_TRIBE,2) away from a link(IMPROVEMENT_CITY_SITE), you can claim it by placing a Unit on it. This will prevent the return of the link(CONCEPT_TRIBE) and will also keep other Nations from founding a City there.\n\nlink(CONCEPT_TRIBE,2) can engage in limited diplomacy but generally won't be coordinated in the way opposing Nations are. Finding a weak link(CONCEPT_TRIBE) and claiming their link(IMPROVEMENT_CITY_SITE,2) for yourself will be an important step toward growing your Nation\n\t\t\t\nYou may have to defeat some link(TRIBE_BARBARIANS) to access more link(IMPROVEMENT_CITY_SITE,2). link(TRIBE_BARBARIANS) do not behave like link(CONCEPT_TRIBE,2) as you are always at link(DIPLOMACY_WAR) with them. They are good targets for early expansion as they are easier to drive away than a more organized link(CONCEPT_TRIBE)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_NATION_CONTACT",
+        "English": "Rival Nations are your primary opponents in Old World. You may engage them diplomatically, which could lead to gaining a powerful trade partner and ally, or declare link(DIPLOMACY_WAR) on them to conquer their territory. You decide which Nations are worthy of being your allies and which should simply be conquered.\n\nAt some difficulty levels, other Nations begin the game already established with a number of Cities, Units, and Improvements. If you hover the mouse over a Nation's name in the leaderboard at the top left of screen, you can find out important information about them, such as the number of Cities they have, how strong their Military is, how developed they are technologically, and also with whom they are currently at link(DIPLOMACY_WAR) or link(DIPLOMACY_PEACE).\n\nTo conduct diplomacy, you must appoint an link(COUNCIL_AMBASSADOR) (requires link(TECH_ARISTOCRACY))."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHARIOT_SELECTED",
+        "English": "link(UNITTRAIT_MOUNTED) link(UNITTRAIT_MELEE) Units, like link(UNIT_CHARIOT,2), move quickly and have the unique ability to link(EFFECTUNIT_ROUT) your enemies, allowing you an additional attack if the first one destroys a Unit."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_GOVERNOR",
+        "English": "A City link(CONCEPT_GOVERNOR) can be recruited from your court by clicking the wreath icon  icon(JOB_GOVERNOR) button below the City banner or within the City Screen by clicking the question mark button in the bottom left. A link(CONCEPT_GOVERNOR) can boost the yields of a City based on their unique Traits.\n\nA Governor (with the exception of the Leader) cannot be from a different link(CONCEPT_FAMILY) from that of the City."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RELIGION",
+        "English": "link(CONCEPT_RELIGION,2) provide {YIELD_CULTURE}link(YIELD_CULTURE) and affect {YIELD_DISCONTENT}link(YIELD_DISCONTENT) in Cities with them. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your link(CONCEPT_NATION), allowing you to guide the impact that link(CONCEPT_RELIGION) has on your Cities via link(CONCEPT_THEOLOGY,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNDO",
+        "English": "You can link(CONCEPT_UNDO) as many decisions as you want, including moves, combat, building link(CONCEPT_IMPROVEMENT,2), and Event choices up to five past turns. Undo is performed with hotkey(HOTKEY_UNDO) or by pressing the backwards arrow link(CONCEPT_UNDO) button in the bottom left of the screen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_LUXURIES",
+        "English": "link(CONCEPT_LUXURY) are special Resources (like link(RESOURCE_GEM) or link(RESOURCE_DYE)) that can be traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2) and link(CONCEPT_FAMILY,2) in exchange for an Opinion boost. Certain link(CONCEPT_FAMILY_CLASS,2) even have favorite link(CONCEPT_LUXURY) that they especially desire! In order to acquire a link(CONCEPT_LUXURY,1), you must build the correct link(CONCEPT_IMPROVEMENT) on that Resource, and the link(CONCEPT_IMPROVEMENT) must be augmented with a link(CONCEPT_SPECIALIST).\n\nlink(CONCEPT_LUXURY) can be sent to the desired target with the Manage Luxuries  icon(LuxuryUp) Button on the action panel, while a Nation, link(CONCEPT_TRIBE), or link(CONCEPT_FAMILY) is selected, or in the bottom left of the City Screen for Cities. To send the same type of a link(CONCEPT_LUXURY,1) to multiple targets, you must have multiple sources of it."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TOOLTIPS",
+        "English": "The nested tooltip system in Old World allows windows to persist as you link from one to another. Simply hold hotkey(HOTKEY_FREEZE_TOOLTIP) while clicking a link, or click it with the Middle Mouse Button, to lock the new window in place. This lets you continue to view a window while opening more links, even if you move the cursor off of the window altogether.\n\nTry it out on this Unit link: link(UNIT_SPEARMAN). Press the ESC key, or click away from all tooltip windows, to make them disappear after they are locked."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TECH_DECK",
+        "English": "Upon completing the research for a new Technology, you will unlock the next Technology on the Tree (entering it into the discard pile), and four new cards will be drawn from the draw pile of available Technologies for you to select from.\n\nAfter making your new selection from the four drawn cards, the remaining three cards will be sent to the discard pile, and ultimately recycled back into the draw pile when it is empty.\n\nFree Unit and Bonus cards are never recycled and are instead permanently discarded if not chosen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CHOP_WOODS",
+        "English": "link(UNIT_WORKER,2) can spend one link(YIELD_ORDERS,3) to cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel on the left, and two more link(YIELD_ORDERS) to further Clear the land. These actions both harvest link(YIELD_WOOD,1) and add it to your stockpile. The Tile in question does not have to be in your territory to  icon(REMOVE_TREES) cut down the link(VEGETATION_TREES).\n\nOnce cut down, link(VEGETATION_TREES) take some time to regrow. If you build an link(CONCEPT_IMPROVEMENT) on a link(VEGETATION_TREES,1) Tile, the link(YIELD_WOOD) is automatically harvested as the land is Cleared, all at the cost of three link(YIELD_ORDERS).\n\nEventually, you can research the link(TECH_FORESTRY) Tech to enable the construction of link(IMPROVEMENT_LUMBERMILL,2), which are a more regular and sustainable source of link(YIELD_WOOD). However, they must be built on a link(VEGETATION_TREES) Tile, so don't Cut down all of your forests!\n\nYou can also spend link(YIELD_MONEY,1) to purchase link(YIELD_WOOD,1) directly from the top bar where it shows your current stockpile totals."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ANCHORING",
+        "English": "link(UNITTRAIT_SHIP) Units, like the link(UNIT_BIREME), link(UNIT_TRIREME), and link(UNIT_DROMON), can link(CONCEPT_ANCHORED,1) to enable Land Units to move over water tiles. Without the help of an link(CONCEPT_ANCHORED) link(UNITTRAIT_SHIP), Land Units can only move through water Tiles within their Nation's territory.\n\nlink(CONCEPT_ANCHORED,2) comes at the cost of one link(YIELD_ORDERS,3), and puts the link(UNITTRAIT_SHIP) Unit on Cooldown. Land Units may move over water within the movement range of the link(CONCEPT_ANCHORED) link(UNITTRAIT_SHIP) starting on the turn after the link(UNITTRAIT_SHIP) in question has link(CONCEPT_ANCHORED). \n\nThe link(CONCEPT_ANCHORED) status of a link(UNITTRAIT_SHIP) persists until it is moved. link(CONCEPT_ANCHORED,1) a link(UNITTRAIT_SHIP) by pressing the  icon(ANCHOR) button in it's action panel on the left side of the screen while the link(UNITTRAIT_SHIP) Unit is selected."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SECOND_CITY",
+        "English": "link(UNIT_SETTLER,2) are key to expanding your link(CONCEPT_NATION) because only they can found new Cities. Move a link(UNIT_SETTLER) to a link(CONCEPT_CITY_SITE) to be able to establish a new City.\n\nlink(CONCEPT_CITY_SITE,2) can be claimed prior to sending a link(UNIT_SETTLER) to colonize them. Place a Unit of any type on the link(CONCEPT_CITY_SITE) Tile to claim it as your own, thereby preventing Foreign link(UNIT_SETTLER,2) from founding a City there.\n\nWhen you found a City, you will have to choose which link(CONCEPT_FAMILY) to grant it to. This link(CONCEPT_FAMILY) will provide powerful bonuses to the City. After granting a City to a third distinct link(CONCEPT_FAMILY), you will lose access to your nation's fourth link(CONCEPT_FAMILY), so carefully consider what bonuses you want and which link(CONCEPT_FAMILY) you can go without."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_PAGAN_SHRINE",
+        "English": "link(CONCEPT_PAGAN_RELIGION,2) are founded by building your first link(CONCEPT_SHRINE), and they spread by building more link(CONCEPT_SHRINE,2). They have no link(CONCEPT_DISCIPLE,2), link(CONCEPT_THEOLOGY,2), or access to special Religious link(CONCEPT_IMPROVEMENT,2), but improving the Religion's link(CONCEPT_OPINION_RELIGION,3) will reduce link(YIELD_DISCONTENT) in Cities with the link(CONCEPT_RELIGION).\n\nPaganism can be adopted as a link(CONCEPT_STATE_RELIGION) if you enact link(LAW_DIVINE_RULE)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RALLY_TROOPS",
+        "English": "You can conduct a link(MISSION_RALLY_TROOPS) Mission by clicking the  icon(MISSION_RALLY_TROOPS)  button in the action panel on the left while your Leader is selected. link(MISSION_RALLY_TROOPS) Missions give you the chance to gain some link(YIELD_TRAINING,1), at the cost of a few link(YIELD_ORDERS,1) and some link(YIELD_CIVICS,1). They may also lead to follow up events."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_HOLD_COURT",
+        "English": "link(MISSION_HOLD_COURT) Missions give you the chance to gain some {YIELD_CIVICS}link(YIELD_CIVICS) at the cost of a few link(YIELD_ORDERS,1) and some link(YIELD_TRAINING,1). They may also lead to follow up events.\n\nWith a link(TRAIT_JUDGE_ARCHETYPE) Leader, you can conduct a link(MISSION_HOLD_COURT) Mission by clicking the gavel  icon(MISSION_HOLD_COURT) button in the action panel on the left while your leader is selected."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INFLUENCE",
+        "English": "link(MISSION_INFLUENCE) Missions give you the chance to improve another Character's Opinion of your leader, at the cost of a few link(YIELD_ORDERS,1) and some link(YIELD_MONEY,1). They may also lead to follow up Events.\n\nYou can conduct an link(MISSION_INFLUENCE) Mission by clicking the silhouette  icon(MISSION_INFLUENCE) button in the action panel on the left while a Character other than your Leader is selected. You may influence members of any link(CONCEPT_NATION), not just your own."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_INTERCESSION",
+        "English": "link(MISSION_INTERCESSION_RELIGION) and link(MISSION_INTERCESSION_FAMILY) Missions give you the chance to have a link(CONCEPT_RELIGION) or link(CONCEPT_FAMILY) Head speak to another Character on behalf of your Leader, potentially increasing that Character's link(CONCEPT_OPINION_CHARACTER) of your leader at the cost of a few link(YIELD_ORDERS,1) and some {YIELD_MONEY}link(YIELD_MONEY). Such Missions may also lead to follow up Events.\n\nYou can conduct an link(MISSION_INTERCESSION_RELIGION) or link(MISSION_INTERCESSION_FAMILY) Mission by clicking the dialogue  icon(MISSION_INTERCESSION) button in the action panel on the left while a Character other than your Leader is selected. The link(CONCEPT_RELIGION) Head may intercede with members of any link(CONCEPT_NATION) or link(CONCEPT_TRIBE) if they follow the same link(CONCEPT_RELIGION). The link(CONCEPT_FAMILY) Head may intercede with any members of their link(CONCEPT_FAMILY)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_WORKER",
+        "English": "link(UNIT_WORKER,2) build Improvements for your City. Rural link(CONCEPT_IMPROVEMENT,2), such as link(IMPROVEMENT_FARM,2) and link(IMPROVEMENT_MINE,2), gather raw materials. link(CONCEPT_URBAN) Improvements, such as link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_THEATER_1,2), provide {YIELD_TRAINING}link(YIELD_TRAINING) or {YIELD_CULTURE}link(YIELD_CULTURE).\n\nWith some exceptions, link(CONCEPT_URBAN) Improvements must be built on or adjacent to other link(CONCEPT_URBAN) Tiles. A lack of link(CONCEPT_URBAN) Improvements will lead to {YIELD_DISCONTENT}link(YIELD_DISCONTENT), so plan carefully, and leave some room for them near your cities. link(CONCEPT_IMPROVEMENT) output can be augmented with link(CONCEPT_SPECIALIST,2) from the City screen."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RUSH_BUYING",
+        "English": "Once a City has reached the link(CULTURE_DEVELOPING) link(CONCEPT_CULTURE_LEVEL), various options for link(CONCEPT_HURRY,1) in it become available. \n\nWith the link(CULTURE_DEVELOPING) (or higher) link(CONCEPT_CULTURE_LEVEL) alone, a City can link(CONCEPT_HURRY) at the cost of some {YIELD_CIVICS}link(YIELD_CIVICS) and {YIELD_DISCONTENT}link(YIELD_DISCONTENT). Other methods of link(CONCEPT_HURRY,1) are further enabled by certain link(CONCEPT_GOVERNOR) traits or Laws like link(LAW_ORTHODOXY) and link(LAW_VOLUNTEERS). These distinct means of link(CONCEPT_HURRY,1) cost resources other than {YIELD_CIVICS}link(YIELD_CIVICS) (although they all produce {YIELD_DISCONTENT}link(YIELD_DISCONTENT)).\n\nYou can see the different options for link(CONCEPT_HURRY,1) in the City Panel underneath the current production in progress. link(CONCEPT_HURRY,1) can be expensive but can also save you in a tight spot!"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CARAVAN_SELECTED",
+        "English": "link(UNIT_CARAVAN) Units can be sent on a link(CONCEPT_CARAVAN_MISSION) to a Foreign link(CONCEPT_CAPITAL). Upon safe arrival, the link(UNIT_CARAVAN) is consumed, and you receive a lump sum of {YIELD_MONEY}link(YIELD_MONEY). A successful link(CONCEPT_CARAVAN_MISSION) also results in an link(CONCEPT_OPINION_PLAYER,3) boost from their link(CONCEPT_NATION).\n\nBe sure to protect your link(UNIT_CARAVAN,2) en-route to their destination as they are quite vulnerable to attack!"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_SLINGER",
+        "English": "The link(UNIT_SLINGER) is a link(UNITTRAIT_RANGED) Unit with a default maximum range of two Tiles. link(UNITTRAIT_RANGED) Units can shoot farther from on top of a link(HEIGHT_HILL) but suffer a int(DISTANCE_MODIFIER)% damage reduction for every Tile between them and their target. Firing into link(VEGETATION_TREES) or link(VEGETATION_SCRUB) also reduces their damage."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_WARRIOR",
+        "English": "The link(UNIT_WARRIOR) is the first link(UNITTRAIT_MELEE) Unit available to your Nation. link(UNITTRAIT_MELEE) Units will form the backbone of your army, defending you from enemy link(CONCEPT_TRIBE,2) and link(CONCEPT_NATION,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_RURAL_YIELDS",
+        "English": "The Rural Yields are {YIELD_FOOD}link(YIELD_FOOD), {YIELD_IRON}link(YIELD_IRON), {YIELD_STONE}link(YIELD_STONE), and {YIELD_WOOD}link(YIELD_WOOD). They are primarily drawn from rural link(CONCEPT_IMPROVEMENT,2) and collect in the Global stockpile. You can spend {YIELD_MONEY}link(YIELD_MONEY) to purchase Rural Yields directly from the top bar where it shows your current stockpile.\n\nThe primary source of {YIELD_FOOD}link(YIELD_FOOD) is link(IMPROVEMENT_FARM,2), which are most fruitful next to link(CONCEPT_FRESH_WATER) and on link(TERRAIN_LUSH) Terrain. {YIELD_FOOD}link(YIELD_FOOD) is needed to feed your link(CONCEPT_POPULATION) and to produce new link(UNIT_SETTLER,2).\n\nThe primary source of {YIELD_IRON}link(YIELD_IRON) is link(IMPROVEMENT_MINE,2), which are most productive on link(RESOURCE_ORE) and link(HEIGHT_HILL,2). {YIELD_IRON}link(YIELD_IRON) is needed to produce many types of Military Units, including link(UNIT_WARRIOR,2) and link(UNIT_AXEMAN,2).\n\nThe primary source of {YIELD_STONE}link(YIELD_STONE) is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and when adjacent to link(HEIGHT_MOUNTAIN,2). {YIELD_STONE}link(YIELD_STONE) is needed primarily to build link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENTCLASS_SHRINE,2) and City link(CONCEPT_PROJECT,2) such as link(PROJECT_WALLS).\n\nThe link(TECH_FORESTRY) Tech enables the construction of link(IMPROVEMENT_LUMBERMILL,2) on link(VEGETATION_TREES) to produce {YIELD_WOOD}link(YIELD_WOOD). link(UNIT_WORKER,2) can also cut down link(VEGETATION_TREES) with the  icon(REMOVE_TREES) Button in the Actions panel.  {YIELD_WOOD}link(YIELD_WOOD) is needed to build City link(CONCEPT_IMPROVEMENT,2) like link(IMPROVEMENT_BARRACKS), Military Units like link(UNIT_ARCHER,2), and link(UNITTRAIT_SHIP) Units like link(UNIT_BIREME,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_YIELDS",
+        "English": "Cities produce the following Yields: {YIELD_GROWTH}link(YIELD_GROWTH), {YIELD_TRAINING}link(YIELD_TRAINING), {YIELD_CIVICS}link(YIELD_CIVICS), {YIELD_MONEY}link(YIELD_MONEY), {YIELD_SCIENCE}link(YIELD_SCIENCE), {YIELD_CULTURE}link(YIELD_CULTURE), and {YIELD_DISCONTENT}link(YIELD_DISCONTENT).\n\t\t\n{YIELD_GROWTH}link(YIELD_GROWTH), {YIELD_TRAINING}link(YIELD_TRAINING), and {YIELD_CIVICS}link(YIELD_CIVICS) are all used for City production. ({YIELD_GROWTH}link(YIELD_GROWTH) for Civilian Units, {YIELD_TRAINING}link(YIELD_TRAINING) for Military Units, and {YIELD_CIVICS}link(YIELD_CIVICS) for link(CONCEPT_PROJECT,2) and link(CONCEPT_SPECIALIST,2).) When not being used for City production, {YIELD_TRAINING}link(YIELD_TRAINING) and {YIELD_CIVICS}link(YIELD_CIVICS) go to the Global stockpile and {YIELD_GROWTH}link(YIELD_GROWTH) goes into the production of new link(CONCEPT_CITIZEN,2).\n\n{YIELD_CULTURE}link(YIELD_CULTURE) and {YIELD_DISCONTENT}link(YIELD_DISCONTENT) both go into their respective progress bars. When the {YIELD_CULTURE}link(YIELD_CULTURE) bar fills, a positive Event occurs and new link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_WONDER,2) are unlocked. When the {YIELD_DISCONTENT}link(YIELD_DISCONTENT) bar fills, link(YIELD_MAINTENANCE) goes us and {YIELD_GROWTH}link(YIELD_GROWTH) and link(YIELD_SCIENCE) go down.\n\n{YIELD_MONEY}link(YIELD_MONEY) and {YIELD_SCIENCE}link(YIELD_SCIENCE) both go directly into the Global stockpile."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_GROWTH",
+        "English": "link(YIELD_GROWTH,1) is essential for expanding your Population and increasing the Yields of your Cities. Cities produce a new link(CONCEPT_CITIZEN) each time their link(YIELD_GROWTH) bar fills up. Each link(EFFECTCITY_CITIZEN) provides a small amount of link(YIELD_ORDERS,1) and can be converted into link(CONCEPT_SPECIALIST,1).  \n\nCities with high link(YIELD_GROWTH) train new Civilian Units like link(UNIT_SETTLER,2), link(UNIT_WORKER,2), and link(UNIT_SCOUT,2) more rapidly. While a City produces a Civilian Unit, its link(YIELD_GROWTH) bar no longer fills. link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) Units are also produced with link(YIELD_GROWTH) instead of link(YIELD_TRAINING,1) like other Military Units.\n\t\t\t\nYou can increase a City's link(YIELD_GROWTH) by training link(SPECIALIST_FARMER,2) and building link(IMPROVEMENT_GRANARY,2) and link(IMPROVEMENT_TOWN,2). link(IMPROVEMENT_FARM,2) will also augment link(YIELD_GROWTH) even further if built on a link(EFFECTCITY_RESOURCE_CROP) like link(RESOURCE_WHEAT) or link(RESOURCE_BARLEY). It is worth noting that although many link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_SPECIALIST,2) provide both link(YIELD_GROWTH) and link(YIELD_FOOD), they are not the same Resource (link(YIELD_FOOD) is used to start producing link(UNIT_SETTLER,2) and feed your link(CONCEPT_POPULATION))."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_CIVICS",
+        "English": "Cities produce link(CONCEPT_SPECIALIST,2) and link(CONCEPT_PROJECT,2) with their {YIELD_CIVICS}link(YIELD_CIVICS). Unused {YIELD_CIVICS}link(YIELD_CIVICS) go into the Global stockpile, which can be used to enact Laws, establish link(CONCEPT_THEOLOGY,2), construct Wonders, hire link(CONCEPT_SPECIALIST,2), link(CONCEPT_HURRY), execute Character Missions like link(MISSION_INFLUENCE), and conduct diplomacy. {YIELD_CIVICS}link(YIELD_CIVICS) stockpiles are capped at int(MAX_CIVICS). Above this value, they'll be converted to {YIELD_SCIENCE}link(YIELD_SCIENCE).\n\nIncrease {YIELD_CIVICS}link(YIELD_CIVICS) by hiring link(SPECIALIST_STONECUTTER,2), building link(IMPROVEMENTCLASS_COURTHOUSE,2), and completing link(EFFECTCITY_PROJECT_FORUM,2) in your Cities. Global {YIELD_CIVICS}link(YIELD_CIVICS) also comes from members of your link(CONCEPT_COURT) with high link(RATING_CHARISMA). Laws like link(LAW_CENTRALIZATION) and link(LAW_LEGAL_CODE) also improve {YIELD_CIVICS}link(YIELD_CIVICS) production. Certain combinations, like a link(IMPROVEMENTCLASS_QUARRY) built on link(RESOURCE_MARBLE) or a link(IMPROVEMENTCLASS_MONASTERY) with the link(THEOLOGY_LEGALISM) link(CONCEPT_THEOLOGY), can also improve {YIELD_CIVICS}link(YIELD_CIVICS)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_TRAINING",
+        "English": "link(YIELD_TRAINING,1) is used by Cities to produce Military Units. Unused link(YIELD_TRAINING) goes into the Global stockpile, which can be used to buy link(YIELD_ORDERS,1), conduct link(CONCEPT_MARCH,1), and for Unit link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2). Increase {YIELD_TRAINING}Training by producing link(SPECIALIST_MINER,2) and building link(IMPROVEMENT_BARRACKS,2) or link(IMPROVEMENT_RANGE,2). Both link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2) can have link(SPECIALISTCLASS_OFFICER) Specialists, which further boosts link(YIELD_TRAINING) in the City.\n\t\t\nGlobal link(YIELD_TRAINING) also comes from members of your link(CONCEPT_COURT) with high link(RATING_COURAGE). link(IMPROVEMENT_MINE,2) provide link(YIELD_TRAINING) if built on link(RESOURCE_ORE), and the link(MISSION_RALLY_TROOPS) Mission of the Leader can also provide link(YIELD_TRAINING). link(YIELD_TRAINING) stockpiles are capped at int(MAX_TRAINING). Above this value, they'll be converted automatically to to link(YIELD_ORDERS)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_CULTURE",
+        "English": "When a City's {YIELD_CULTURE}link(YIELD_CULTURE) bar fills up, a positive Event occurs, and the City's overall {YIELD_CULTURE}Culture Level increases. Cities start at link(CULTURE_WEAK) {YIELD_CULTURE}link(YIELD_CULTURE) Level, and the highest Level is link(CULTURE_LEGENDARY). The {YIELD_CULTURE}link(YIELD_CULTURE) Level affects which link(CONCEPT_IMPROVEMENT,2) and Wonders can be built in a City's territory, and whether the City can link(CONCEPT_HURRY) (which requires at least link(CULTURE_DEVELOPING) {YIELD_CULTURE}Culture Level).\n\nYou can Improve {YIELD_CULTURE}link(YIELD_CULTURE) by building Urban link(CONCEPT_IMPROVEMENT,2), like link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2), and by building Rural link(CONCEPT_IMPROVEMENT,2) on certain Resources, like a link(IMPROVEMENTCLASS_MINE) on link(RESOURCE_GEM), a link(IMPROVEMENTCLASS_CAMP) on link(RESOURCE_FUR), a link(IMPROVEMENTCLASS_GROVE) on link(RESOURCE_INCENSE), or link(IMPROVEMENTCLASS_NETS) on link(RESOURCE_DYE).\n\nlink(CONCEPT_RELIGION,2) that link(CONCEPT_SPREAD_RELIGION,1) to a City and the unique link(CONCEPT_IMPROVEMENT,2) of that link(CONCEPT_RELIGION) also increase {YIELD_CULTURE}link(YIELD_CULTURE), and those gains be even further augmented by Laws and link(CONCEPT_THEOLOGY,2). link(CONCEPT_SPECIALIST,2) like the link(SPECIALIST_ACOLYTE_1), the link(SPECIALIST_POET_1), and the link(SPECIALIST_MONK_1), and their upgrades, also improve {YIELD_CULTURE}link(YIELD_CULTURE) production."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_DISCONTENT",
+        "English": "Cities gain link(YIELD_DISCONTENT,1) over time. Having fewer of link(CONCEPT_URBAN) Tiles than link(CONCEPT_POPULATION) will increase link(YIELD_DISCONTENT), and so do certain laws like link(LAW_SLAVERY). When a City's link(YIELD_DISCONTENT) bar is filled, its overall link(YIELD_DISCONTENT) Level goes up, which increases link(YIELD_MAINTENANCE,1) and reduces link(YIELD_GROWTH,1) and link(YIELD_SCIENCE,1). High link(YIELD_DISCONTENT,1) Levels reduce the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY) of that City. \n\nYou can reduce link(YIELD_DISCONTENT) by connecting your Cities with the link(CONCEPT_TRADE_NETWORK), adopting Laws such as link(LAW_CONSTITUTION), link(LAW_TOLERANCE), and link(LAW_MONETARY_REFORM), and building link(IMPROVEMENTCLASS_BATHS,2) and link(IMPROVEMENT_THEATER_3,2). link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT), and Religious Opinion affects the link(YIELD_DISCONTENT) of your Cities with that link(CONCEPT_RELIGION). The link(MISSION_PACIFY_CITY) Mission of the link(COUNCIL_CHANCELLOR) can also reduce link(YIELD_DISCONTENT) in targeted Cities."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_SCIENCE",
+        "English": "{YIELD_SCIENCE}link(YIELD_SCIENCE) increases the rate at which your link(CONCEPT_NATION) discovers Technologies. Increase {YIELD_SCIENCE}link(YIELD_SCIENCE) by adopting the Laws link(LAW_FREEDOM) and link(LAW_CENTRALIZATION), completing link(EFFECTCITY_PROJECT_ARCHIVE,2), or producing any type of link(CONCEPT_SPECIALIST) in your Cities. {YIELD_SCIENCE}link(YIELD_SCIENCE) also comes from members of your link(CONCEPT_COURT) with high link(RATING_WISDOM). Building link(IMPROVEMENTCLASS_LIBRARY,2), link(IMPROVEMENT_WATERMILL,2), and link(IMPROVEMENT_WINDMILL,2) will also provide you with {YIELD_SCIENCE}link(YIELD_SCIENCE)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_URBAN_MONEY",
+        "English": "{YIELD_MONEY}link(YIELD_MONEY) is most useful for purchasing {YIELD_FOOD}link(YIELD_FOOD), {YIELD_IRON}link(YIELD_IRON), {YIELD_STONE}link(YIELD_STONE), and {YIELD_WOOD}link(YIELD_WOOD) (You can also sell all of these if you need more {YIELD_MONEY}link(YIELD_MONEY)). Increase {YIELD_MONEY}link(YIELD_MONEY) by building link(IMPROVEMENT_HAMLET,2) and producing link(EFFECTCITY_PROJECT_TREASURY,2) in your Cities. {YIELD_MONEY}link(YIELD_MONEY) also comes from members of your link(CONCEPT_COURT) with high link(RATING_DISCIPLINE).\n\nlink(YIELD_MAINTENANCE,1) decreases the amount of link(YIELD_MONEY,1) a City generates. link(YIELD_MAINTENANCE,1) costs increase with each link(CONCEPT_CITIZEN) and link(CONCEPT_SPECIALIST) and with the distance a City is from your link(CONCEPT_CAPITAL). link(YIELD_MAINTENANCE,1) can be reduced by connecting a City to your link(CONCEPT_TRADE_NETWORK) and by improving the link(CONCEPT_OPINION_FAMILY,3) of its ruling link(CONCEPT_FAMILY). Certain link(CONCEPT_IMPROVEMENT,2) like the link(IMPROVEMENT_GARRISON_3) and the link(IMPROVEMENT_COURTHOUSE_3) also reduce link(YIELD_MAINTENANCE), but link(CONCEPT_IMPROVEMENT,2) without link(CONCEPT_SPECIALIST,1) increase link(YIELD_MAINTENANCE) costs."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_ROUT",
+        "English": "Units that can link(CONCEPT_ROUT) will move into an enemy's Tile upon destroying them, which allows them to attack again this Turn as long as there is another enemy Unit adjacent to their new location.\n\nGenerally, only link(UNITTRAIT_MOUNTED) link(UNITTRAIT_MELEE) Units like link(UNIT_HORSEMAN,2) and link(UNIT_CHARIOT,2) can perform a link(CONCEPT_ROUT). If well placed, this can permit a single Unit to chain together multiple kills in one Turn."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_UPGRADES",
+        "English": "Units can receive both link(CONCEPT_UPGRADE,2) and link(CONCEPT_PROMOTION,2). link(CONCEPT_UPGRADE,2) convert a Unit to a different type. For example, a link(UNIT_WARRIOR) can be link(CONCEPT_UPGRADE,3) to an link(UNIT_AXEMAN). link(CONCEPT_PROMOTION,2) provide various combat buffs. Both link(CONCEPT_PROMOTION,2) and link(CONCEPT_UPGRADE,2) cost {YIELD_TRAINING}link(YIELD_TRAINING). link(CONCEPT_UPGRADE,2) can only be performed inside of friendly territory while link(CONCEPT_PROMOTION,2) can be done anywhere."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_IMPRISON",
+        "English": "link(MISSION_IMPRISON) Missions let you place a member of your court in jail at the cost of a few link(YIELD_ORDERS,1) and some link(YIELD_TRAINING,1). You must have a link(COUNCIL_CHANCELLOR) to conduct link(MISSION_IMPRISON) Missions. link(MISSION_IMPRISON) Missions may also lead to follow up Events.\n\nYou can conduct an link(MISSION_IMPRISON) Mission by clicking the prison bars  icon(MISSION_IMPRISON) button in the action panel on the left while a character other than your leader or link(COUNCIL_CHANCELLOR) is selected. You may only link(MISSION_IMPRISON) members of your own Nation. An link(TRAIT_IMPRISONED) Character cannot marry, have children, succeed to the throne, or have a job of any kind."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CITY_CAPTURED",
+        "English": "It will take some time for the people of a City to accept you as their new ruler. If you want to capture a City, keep a Unit stationed in a newly breached City for a few years until the period of anarchy has subsided."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_CULTURE",
+        "English": "Higher levels of {YIELD_CULTURE}link(YIELD_CULTURE) unlock additional link(CONCEPT_IMPROVEMENT,2) and Wonders for your Cities. Each new level will also trigger a positive link(CONCEPT_CULTURE_EVENT) for the City."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_TRADE_NETWORK",
+        "English": "A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), will produce extra {YIELD_MONEY}link(YIELD_MONEY) if brought into your link(CONCEPT_TRADE_NETWORK)! Bringing a City into your link(CONCEPT_TRADE_NETWORK) will reduce {YIELD_DISCONTENT}link(YIELD_DISCONTENT) there.\n\nThe link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City. Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another via link(CONCEPT_ROAD,2), link(CONCEPT_RIVER,2), link(TERRAIN_URBAN) Tiles, and even open water. You can connect a City to its link(IMPROVEMENT_HARBOR) with a link(CONCEPT_ROAD). You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key, and verify that a City is link(EFFECTCITY_CONNECTED) to the link(CONCEPT_TRADE_NETWORK) by checking that the  icon(CONNECTED) icon is displayed under its City banner."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_HARVEST_RESOURCE",
+        "English": "link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can spend an link(YIELD_ORDERS,3) to harvest Yields from a link(CONCEPT_HARVEST_RESOURCE,2). These Resources will then take a number of Turns to renew before they can be Harvested again.\n\nResources that are within a City's limits, or that are too far from one of your Cities, cannot be harvested."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_ATTACK_COOLDOWN",
+        "English": "If a Unit is on Cooldown, which can come from combat, construction, or other actions, it must wait until the next turn to act again."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTORIAL_UNIT_FATIGUED",
+        "English": "A Unit that has used all of its moves becomes link(CONCEPT_FATIGUE,1). A link(CONCEPT_FATIGUE,1) Unit can still be moved with a link(CONCEPT_MARCH), but each move on a link(CONCEPT_MARCH) costs twice as many link(YIELD_ORDERS,1) to execute. Units will refresh their moves on a new Turn."
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_AGENT",
-        "English": "Agents can be sent to Cities with link(CONCEPT_AGENT_NETWORK,1) to conduct Missions and siphon off a percentage of their Yields."
+        "English": "Agents can be sent to Cities with an link(CONCEPT_AGENT_NETWORK) to conduct link(MISSION_TREACHERY) and link(MISSION_INSURRECTION) Missions and siphon off a percentage of its Yields, depending on the Ratings of the Character. (For example, a Character's link(RATING_WISDOM) will determine how much {YIELD_SCIENCE}link(YIELD_SCIENCE) they will gather.)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_AGENT_NETWORK",
-        "English": "Insert link(UNIT_SCOUT,1) into a Foreign City to gain visibility. A Character can then be sent to the City to serve as link(CONCEPT_AGENT,1). The link(UNIT_SCOUT) will be returned after int(AGENT_NETWORK_TURNS) Turns."
+        "English": "Once you have a link(COUNCIL_SPYMASTER), a link(UNIT_SCOUT,1) can create an Agent Network in a Foreign City to gain visibility. (The link(UNIT_SCOUT) will be automatically returned after int(AGENT_NETWORK_TURNS) Turns.) A Character can then be sent to the City to serve as an link(CONCEPT_AGENT)."
       },
       {
         "zType": "TEXT_HELPTEXT_HELP_ALLIANCE_TRIBE",
-        "English": "The player can give Move and Attack Orders to the Units of an Allied link(CONCEPT_TRIBE), and found Cities near their link(CONCEPT_SETTLEMENT,2). Allied link(CONCEPT_TRIBE,2) will share your Diplomatic stance toward other link(CONCEPT_TRIBE,2) and Nations, including joining you in link(DIPLOMACY_WAR). You can have an Alliance with only one link(CONCEPT_TRIBE) at a time."
+        "English": "You can move and attack with Units of an Allied link(CONCEPT_TRIBE) and also found Cities near their link(CONCEPT_SETTLEMENT,2). Allied link(CONCEPT_TRIBE,2) will share your Diplomatic stance toward other link(CONCEPT_TRIBE,2) and declare link(DIPLOMACY_WAR) against Nations that declare link(DIPLOMACY_WAR) on you. You can have an Alliance with only one link(CONCEPT_TRIBE) at a time. Only link(TRAIT_DIPLOMAT_ARCHETYPE) Leaders can initiate Tribal Alliances."
       },
       {
         "zType": "TEXT_HELPTEXT_HELP_ALLIANCE_PLAYER",
-        "English": "Allied Nations Will share your Diplomatic stance toward other link(CONCEPT_TRIBE,2) and Nations, including joining you in link(DIPLOMACY_WAR). The player can have an Alliance with only one other Nation."
+        "English": "Allied Nations share visibility and will declare link(DIPLOMACY_WAR) on Nations that declare link(DIPLOMACY_WAR) on their Ally. Each link(CONCEPT_NATION) can have an Alliance with only one other link(CONCEPT_NATION). Only link(TRAIT_DIPLOMAT_ARCHETYPE) Leaders can initiate National Alliances."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_ATTACK",
@@ -2077,15 +2505,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_BUY_TILE",
-        "English": "Units can Buy Tiles adjacent to your Territory from their Unit Panel, if you have the link(LAW_COLONIZATION) Law."
-      },
-      {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT",
-        "English": "Upgrades to {0_improvement} in {1_numTurns}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_TRIBE_IMPROVEMENT_NO_DEVELOP",
-        "English": "Does not Develop"
+        "English": "Units can Buy Tiles adjacent to City territory if the link(LAW_COLONIES) Law is active."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TRIBE_UNITS",
@@ -2093,11 +2513,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TRIBE_INVASION",
-        "English": "A wave of units from a link(CONCEPT_TRIBE) set out to attack in a massive invasion."
+        "English": "A wave of Units from a link(CONCEPT_TRIBE) sets out to attack in a massive invasion."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TUTOR",
+        "English": "Children older than int(TUTORS_AGE) can be tutored by link(CONCEPT_COURTIER,2)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_UNDO",
-        "English": "You can Undo as many decisions as you want using CTRL+Z."
+        "English": "You can undo as many decisions as you want using CTRL+Z."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CITY_CAPTURE",
@@ -2105,11 +2529,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_X",
-        "English": "{0} from {1}{true_2: x{2}}"
+        "English": "{0_yield}: from {1}{true_2: x{2}}"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CITY_YIELD_FROM_IMPROVEMENT",
-        "English": "{0_yield} {1} (from Improvement)"
+        "English": "{0_yield}: {1} (from Improvement)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CITY_GOVERNOR_IS_LEADER",
@@ -2164,20 +2588,28 @@
         "English": "{0_yield}: {1_project} (Current Build)"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_AMBITION_VICTORY",
+        "English": "Complete int(MAX_AMBITIONS) link(CONCEPT_AMBITION,2) for link(VICTORY_AMBITION,1) Victory"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_NO_AMBITIONS_FINISHED",
         "English": "No link(CONCEPT_AMBITION,0) Finished"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CARAVAN_MISSION",
-        "English": "Caravan Units can be sent on a Caravan Mission to a Foreign Capital. Upon safe arrival, the Caravan is consumed, you receive a lump sum of link(YIELD_MONEY), and there is a mutual Opinion boost."
+        "English": "link(UNIT_CARAVAN) Units can be sent on a Caravan Mission to a Foreign link(CONCEPT_CAPITAL). The link(UNIT_CARAVAN) moves once per Turn (costing one link(YIELD_ORDERS,1)), and upon safe arrival, the Unit is consumed, producing a lump sum of link(YIELD_MONEY) and an link(CONCEPT_OPINION_PLAYER) boost."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_CITY_SITE",
+        "English": "The map is full of City Sites, which are the only locations link(UNIT_SETTLER,2) can found new Cities. (The City can be founded on any of the link(CONCEPT_URBAN) Tiles connected to the City Site.) Many City Sites are occupied by link(CONCEPT_TRIBE,2), which must either be defeated or joined in link(CONCEPT_ALLIANCE_TRIBE,2) before founding a City is possible.\n\nA Unit placed directly on a City Site will block other link(CONCEPT_NATION,2) from founding Cities there (although doing so costs one link(YIELD_ORDERS,3) per Turn)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CLEAR",
-        "English": "link(CONCEPT_CLEAR) Tiles have no Vegetation"
+        "English": "link(CONCEPT_CLEAR) Tiles are not link(CONCEPT_URBAN) and have no Vegetation."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CLEAR_DEFENDING",
-        "English": "Vs. {0_unit} on {1_terrain}: {2_value}"
+        "English": "Vs. {0_unit} on {1_terrain}: {2_value} (Melee Combat)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CONNECTED_FOREIGN",
@@ -2185,15 +2617,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CRITICAL_HIT",
-        "English": "Critical Hits deal double damage. Critical Hit chance is improved with the Focus link(CONCEPT_PROMOTION,2), and by some link(CONCEPT_GENERAL,2)."
+        "English": "Critical Hits deal double damage, and the chance to land a Critical Hit is improved with some link(CONCEPT_PROMOTION,2) and by link(CONCEPT_GENERAL,2) with link(RATING_WISDOM)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CULTURE_EVENT",
-        "English": "link(YIELD_CULTURE) Events occur when a City's link(YIELD_CULTURE) bar fills up."
+        "English": "Positive {YIELD_CULTURE}link(YIELD_CULTURE) Events occur when a City's {YIELD_CULTURE}link(YIELD_CULTURE) bar fills up."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL_CONCEPT",
-        "English": "Increases when a City's link(YIELD_CULTURE) bar fills up."
+        "English": "A City's {YIELD_CULTURE}link(YIELD_CULTURE) Level increases when a City's {YIELD_CULTURE}link(YIELD_CULTURE) bar fills up. Each Level unlocks new link(CONCEPT_IMPROVEMENT,2) and is worth an extra Victory Point towards link(VICTORY_POINTS,1) Victory."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL",
@@ -2201,11 +2633,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HURRY",
-        "English": "You may hurry City productions at the cost of some yields and link(YIELD_DISCONTENT)."
+        "English": "You may Hurry Production in a City of at least link(CULTURE_DEVELOPING) {YIELD_CULTURE}link(YIELD_CULTURE) at the cost of some Yields and increased {YIELD_DISCONTENT}link(YIELD_DISCONTENT). All Cities can Hurry Production with {YIELD_CIVICS}link(YIELD_CIVICS) while other types of Hurrying can be unlocked with Laws, link(CONCEPT_ARCHETYPE,2), or link(CONCEPT_FAMILY_CLASS,2). The item being produced will be available on the following Turn."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DISTANCE_MODIFIER",
-        "English": "int(DISTANCE_MODIFIER)% per Tile for link(UNITTRAIT_RANGED) Units."
+        "English": "link(UNITTRAIT_RANGED) Units (excluding those with link(UNITTRAIT_SIEGE)) receive a int(DISTANCE_MODIFIER)%icon(ATTACK) attack penalty per Tile of distance to the target."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DEFENSE",
@@ -2217,7 +2649,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_OPINION",
-        "English": "{0_value} {1_family} Opinion"
+        "English": "{0_value} {1_family} link(CONCEPT_OPINION_FAMILY,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY_DEFENDING",
@@ -2233,15 +2665,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_TRIBE",
-        "English": "You cannot attack each other.{br}They will not send link(TRIBE_RAIDERS) against you.{br}They can enter and heal in your territory."
+        "English": "The link(CONCEPT_NATION) and link(CONCEPT_TRIBE) cannot attack each other. The link(CONCEPT_TRIBE) will not target your Cities with link(TRIBE_RAIDERS) (although link(TRIBE_RAIDERS,1) Units will still attack you if nearby). They can enter and heal in your territory."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_PLAYER",
-        "English": "You cannot attack each other.{br}They are less likely to declare link(DIPLOMACY_WAR) against you.{br}You can enter and heal in each other's territory."
+        "English": "The two link(CONCEPT_NATION,2) at Peace cannot attack each other. They are also less likely to declare link(DIPLOMACY_WAR) on each other, and they can enter and heal in each other's territory."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_TRUCE",
-        "English": "You cannot attack each other."
+        "English": "You cannot attack each other without declaring link(DIPLOMACY_WAR). (Also, a Truce cannot be ended by link(DIPLOMACY_WAR) until int(MIN_TREATY_TURNS) Turns have passed.)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_WAR",
@@ -2249,23 +2681,23 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DISCONTENT_FAMILY",
-        "English": "Opinion change from {0_discontentIcon} Level of Family Cities."
+        "English": "link(CONCEPT_OPINION_FAMILY,3) change from {0_discontentIcon} Level of Family Cities."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_ENVY",
-        "English": "Families with fewer Cities than others will be more envious, and have a lower Opinion of your Leader."
+        "English": "Families with fewer Cities than others will be more envious and have a lower link(CONCEPT_OPINION_FAMILY,3) of the Leader."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT",
-        "English": "The first City given to a Family. They get special bonuses beyond other Cities of the same Family."
+        "English": "The Seat is the first City given to a Family and receives a special bonus determined by the link(CONCEPT_FAMILY_CLASS)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY",
-        "English": "Families are the leading clans of your empire, with different dispositions and conflicting interests. They are granted control of your Cities, for which their particular bonuses are important to consider. Their preferences control what link(CONCEPT_AMBITION,2) you can pursue, and their opinions of you can lead to different events.\n\t\t\nFamily Units fighting within their Family Territory receive a modifier(FAMILY_TERRITORY_MODIFIER) combat modifier."
+        "English": "Families are the leading clans of your empire, with different dispositions and conflicting interests. They are granted control of your Cities, for which their particular bonuses are important to consider.\n\t\t\nTheir preferences determine what link(CONCEPT_AMBITION,2) you can pursue, and their link(CONCEPT_OPINION_FAMILY,3) of you can lead to different events. Units fighting within their Family's territory receive a modifier(FAMILY_TERRITORY_MODIFIER) combat modifier."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_CLASS",
-        "English": "link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions keep them happy."
+        "English": "link(CONCEPT_FAMILY) Classes determine what effects a link(CONCEPT_FAMILY) has on its Cities, as well as what Laws, link(CONCEPT_LUXURY,2), and other conditions make them happy."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FROM_GENERAL",
@@ -2276,8 +2708,16 @@
         "English": "{0_family} Cities:"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_CITIES_ALL",
+        "English": "Number of Cit(ies)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_CITIES_ALL_DESC",
+        "English": "Number of Cities owned by each Family"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_LAW_OPINION",
-        "English": "{0_family} Opinion from {1_law}"
+        "English": "{0_family} link(CONCEPT_OPINION_FAMILY,3) from {1_law}"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_LAW_OPINION_HEAD",
@@ -2301,7 +2741,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_MILITARY_ALL_DESC",
-        "English": "Based on number of military units for each family"
+        "English": "Based on number of Military Units for each Family"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL",
@@ -2309,7 +2749,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_POPULATION_ALL_DESC",
-        "English": "Based on total citizens and specialists for family's cities"
+        "English": "Based on total Citizens and Specialists for Family's Cities"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FAMILY_SEAT_EFFECTS",
@@ -2325,7 +2765,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HARVEST_RESOURCE",
-        "English": "link(UNIT_SCOUT,2), link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) can Harvest a Resource for a quick supply of Goods. The Resource cannot be Harvested again until it randomly recharges."
+        "English": "link(UNIT_SCOUT,2), link(UNIT_SETTLER,2), and link(UNIT_WORKER,2) can Harvest a Resource to increase your stockpiles. The Resource cannot be Harvested again until after some time."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HARVEST_RESOURCE",
@@ -2333,31 +2773,47 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_MARCH",
-        "English": "A Forced March permits a Unit to continue moving this turn when out of Moves, at the cost of int(UNIT_MARCH_COST) link(YIELD_TRAINING)icon(YIELD_TRAINING), and twice as many link(YIELD_ORDERS)icon(YIELD_ORDERS) per additional Move."
+        "English": "A Forced March permits a Unit to continue moving this Turn when out of Moves, at the cost of int(UNIT_MARCH_COST) {YIELD_TRAINING}link(YIELD_TRAINING) and twice as many link(YIELD_ORDERS,1) per additional Move."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FATIGUE",
-        "English": "A Unit becomes Fatigued after using all of its Moves. A Fatigued Unit will refresh its Moves the next turn. Once Fatigued, a Unit can only Move again this turn through a link(CONCEPT_MARCH)."
+        "English": "A Unit becomes Fatigued after using all of its {MOVEMENT}Moves. Once Fatigued, a Unit can only move again on the same Turn with a link(CONCEPT_MARCH). (Fatigued Unit always refresh their {MOVEMENT}Moves the following turn.)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_FLANKING",
-        "English": "Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. For example, if you are attacking from the West of a target, you must have another Unit to its East."
+        "English": "Flanking occurs when attacking an enemy Unit with a friendly Unit on the opposite side. For example, if you are attacking from a Tile West of a target, you must have another Unit to its East."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_FORTIFY",
+        "English": "Fortified Units receive a +int(FORTIFY_BONUS_PER)% defensive bonus per Turn (up to a maximum of int(MAX_FORTIFY_TURNS) Turns). After the first Fortify Turn, Units can still attack as long as they stay on the Tile."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_AMBITION",
-        "English": "Ambitions are goals for you to pursue, and completing them will grant you a permanent boost to link(CONCEPT_LEGITIMACY).\nComplete ten Ambitions and link(CONCEPT_LEGACY,2), and you win link(VICTORY_AMBITION,1) Victory"
+        "English": "Complete ten Ambitions and link(CONCEPT_LEGACY,2) to win link(VICTORY_AMBITION,1). Completing individual Ambitions (and link(CONCEPT_LEGACY,2)) will also grant you a permanent boost to link(CONCEPT_LEGITIMACY)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_LEGACY",
-        "English": "When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy in time will reduce your link(CONCEPT_LEGITIMACY).\nComplete ten link(CONCEPT_AMBITION,2) and Legacies, and you win link(VICTORY_AMBITION,1) Victory"
+        "English": "Complete ten link(CONCEPT_AMBITION,2) and Legacies to win link(VICTORY_AMBITION,1). When the Leader dies, all the current link(CONCEPT_AMBITION,2) become Legacies, which must be completed in int(LEGACY_MAX_TURNS) Turns. Failing to finish a Legacy will reduce link(CONCEPT_LEGITIMACY)."
       },
       {
         "zType": "TEXT_HELPTEXT_HELP_TRIBE",
-        "English": "Tribes can engage in limited diplomacy, but generally won't be coordinated the way opposing Nations are."
+        "English": "Tribes occupy most of the link(CONCEPT_CITY_SITE,2) spread across the map, which can be used as locations to found new Cities. These Tribes (with the exception of link(TRIBE_BARBARIANS)) can intermarry with your Characters, can convert to a link(CONCEPT_RELIGION), and can conduct diplomacy with link(CONCEPT_NATION,2), potentially leading to link(CONCEPT_PEACE_TRIBE) or link(CONCEPT_ALLIANCE_TRIBE,1)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_GENERAL",
+        "English": "A General modifies the stats of a Unit. Generals must not be of a different link(CONCEPT_FAMILY) from the Unit and also must be younger than int(GENERAL_START_AGE) to be assigned. Generals can be link(CONCEPT_INJURY,3) when attacked. (Generals retire at age int(GENERAL_RETIRE_AGE).)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_GOVERNOR",
+        "English": "A Governor modifies the Yields of a City. Governors must not be of a different link(CONCEPT_FAMILY) from the City and can only be appointed in Cities with a link(IMPROVEMENT_GARRISON_1)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HEIGHT",
         "English": "{0} Height"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_MOVEMENT_COST",
+        "English": "{0}{MOVEMENT} (Movement Cost)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HEIGHT_BUILD",
@@ -2368,60 +2824,112 @@
         "English": "{0} (Adjacent): {1_value}"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_VS_IF",
-        "English": "Vs. {0_unitTrait} (if {1}): {2_value}"
+        "zType": "TEXT_HELPTEXT_LINK_HELP_HEIGHT_DEFENDING_CLEAR",
+        "English": "Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1} (Melee Combat)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_HEAL",
+        "English": "link(CONCEPT_IDLE) Units in friendly territory will Heal 1 Hit Point (HP) each Turn. Units can also take a Heal action in friendly territory, at the cost of one {YIELD_ORDERS}link(YIELD_ORDERS), to Heal int(ACTIVE_HEAL) HP."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HIDDEN",
-        "English": "Hidden units cannot be seen by other Units. link(UNIT_SCOUT,2) are Hidden while on a link(VEGETATION_TREES) Tile in Neutral or Friendly territory, or at all times with a link(TRAIT_SCHEMER_ARCHETYPE) Leader. Hiddens Units have a int(HIDDEN_ATTACK_MODIFIER)% modifier when attacking."
-      },
-      {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_GENERAL",
-        "English": "Generals can boost the stats of a Unit. Generals must be younger than int(GENERAL_START_AGE) to be assigned to a Unit, and they are retired at int(GENERAL_RETIRE_AGE)."
-      },
-      {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_GOVERNOR",
-        "English": "Governors can be appointed in Cities with link(IMPROVEMENT_GARRISON_1,1) to provide a boost to Yields."
+        "English": "Hidden units cannot be seen by other Units. link(UNIT_SCOUT,2) (and link(UNITTRAIT_RANGED) Units with a link(TRAIT_TACTICIAN_ARCHETYPE) Leader) are Hidden while on a link(VEGETATION_TREES) Tile in neutral or friendly territory. Hidden Units have a +int(HIDDEN_ATTACK_MODIFIER)%icon(ATTACK) attack modifier (and will be visible for one Turn after attacking)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_COUNCILOR",
-        "English": "Councilors can fill the role of link(COUNCIL_CHANCELLOR), link(COUNCIL_AMBASSADOR), or link(COUNCIL_SPYMASTER)."
+        "English": "The Council includes the link(COUNCIL_CHANCELLOR), the link(COUNCIL_AMBASSADOR), and the link(COUNCIL_SPYMASTER). Each Councillor has a unique set of Missions that can help your link(CONCEPT_NATION). (For example, the link(COUNCIL_AMBASSADOR) can conduct link(MISSION_TRADE_MISSION,1) with a Foreign link(CONCEPT_NATION) to trade resources and improve link(CONCEPT_OPINION_PLAYER).)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_CITIZEN",
+        "English": "Citizens are produced automatically by Cities from link(YIELD_GROWTH). Each link(EFFECTCITY_CITIZEN) provides a small amount of {YIELD_ORDERS}link(YIELD_ORDERS), can be converted into link(CONCEPT_SPECIALIST,1), and augments the output of certain link(CONCEPT_SPECIALIST,2) such as link(SPECIALIST_PRIEST_3,2) and link(SPECIALIST_POET_3,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_POPULATION",
+        "English": "Population is the sum of your link(CONCEPT_SPECIALIST,2) and link(CONCEPT_CITIZEN,2), and each point of your Population consumes {YIELD_FOOD}link(YIELD_FOOD) and increases City {YIELD_MAINTENANCE}link(YIELD_MAINTENANCE)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_SPECIALIST",
-        "English": "Specialists can boost the Yields of an link(CONCEPT_IMPROVEMENT) at the cost of some link(YIELD_CIVICS)."
+        "English": "Specialists can boost the Yields of an link(CONCEPT_IMPROVEMENT) at the cost of a link(CONCEPT_CITIZEN) and sometimes an amount of {YIELD_FOOD}link(YIELD_FOOD). All Specialists produce a small amount of {YIELD_SCIENCE}link(YIELD_SCIENCE). link(CONCEPT_IMPROVEMENT,2) without a Specialist increase the City's {YIELD_MAINTENANCE}link(YIELD_MAINTENANCE). link(CONCEPT_URBAN) Improvement Specialists can be upgraded across three levels (link(EFFECTCITY_SPECIALIST_APPRENTICE), link(EFFECTCITY_SPECIALIST_MASTER), and link(EFFECTCITY_SPECIALIST_ELDER))."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_SPREAD_RELIGION",
+        "English": "Each link(CONCEPT_WORLD_RELIGION,2) has a specific % chance (which can be modified by link(CONCEPT_THEOLOGY,2)) of spreading to one random City or Tribal Site each Turn. Cities and Tribal Sites are more likely to get the the link(CONCEPT_RELIGION) if they are closer to the link(CONCEPT_HOLY_CITY) and less likely if they already have link(CONCEPT_RELIGION,2). link(CONCEPT_WORLD_RELIGION,2) can also be spread with link(CONCEPT_DISCIPLE,2), and link(CONCEPT_PAGAN_RELIGION,2) are spread with link(CONCEPT_SHRINE,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_SPOUSE",
+        "English": "The Ratings of your Spouse(s) affect your Global Yields (at half the rate of the Leader). For example, their link(RATING_DISCIPLINE) will increase your {YIELD_MONEY}link(YIELD_MONEY). Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_SHRINE",
-        "English": "Shrines provide various benefits, and can help to spread Paganism."
+        "English": "Shrines can found and spread link(CONCEPT_PAGAN_RELIGION,2) and provide various benefits. For example, link(IMPROVEMENT_SHRINE_MARS,1) gives link(CONCEPT_XP) to link(CONCEPT_IDLE) link(UNITTRAIT_INFANTRY) Units on its Tile and also provides the City extra {YIELD_TRAINING}link(YIELD_TRAINING)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_HOLY_CITY",
+        "English": "A Holy City is where a link(CONCEPT_RELIGION) was first founded. A link(CONCEPT_HOLY_SITE) can only be built in a Holy City."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_HOLY_SITE",
+        "English": "A Holy Site is a Religious link(CONCEPT_IMPROVEMENT) which can only be built at the link(CONCEPT_HOLY_CITY) of a link(CONCEPT_WORLD_RELIGION). For example, link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) can only be built at the link(RELIGION_CHRISTIANITY,1) link(CONCEPT_HOLY_CITY)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_IDLE",
-        "English": "Idle Units are not yet on Cooldown, and are thus eligible to perform more actions this turn, such as an Attack, link(CONCEPT_PROMOTION), or link(CONCEPT_UPGRADE)."
+        "English": "Idle Units are not yet on Cooldown and are thus eligible to perform more actions this Turn, such as an Attack, a link(CONCEPT_PROMOTION), or an link(CONCEPT_UPGRADE)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_IGNORES_ZOC",
-        "English": "Ignores the Zone-of-Control of enemy Units."
+        "English": "Ignores the link(CONCEPT_ZOC,1) of enemy Units."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT",
+        "English": "link(UNIT_WORKER,2) can build link(CONCEPT_URBAN) and Rural Improvements on Tiles within a City's territory. Improvements without link(CONCEPT_SPECIALIST,1) increase the City's {YIELD_MAINTENANCE}link(YIELD_MAINTENANCE)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_KEY",
         "English": "Hold [{0_key}] to hide all Improvements."
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS",
+        "English": "{0} {1_turnScale} to build {2,1_improvement}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS_DAMAGED",
+        "English": "Damaged Unit"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT_BUILD_TURNS_FAMILY",
+        "English": "Different Family"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_INJURY",
+        "English": "link(CONCEPT_GENERAL,2) whose Units are attacked have a int(INJURY_PROB)% chance of suffering an Injury, such as link(TRAIT_SCARRED), link(TRAIT_CRIPPLED), and link(TRAIT_BLINDED)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_INVISIBLE",
+        "English": "Invisible units are considered always link(CONCEPT_HIDDEN) and can also freely enter the territory of link(CONCEPT_NATION,2) during a link(DIPLOMACY_TRUCE). link(UNIT_SCOUT,2) are Invisible at all times with a link(TRAIT_SCHEMER_ARCHETYPE) Leader."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_KNOWLEDGE",
+        "English": "Comparison of the technological advancement of the two link(CONCEPT_NATION,2), with the following levels:\n{bullet}Primitive\n{bullet}Naive\n{bullet}Competent\n{bullet}Learned\n{bullet}Erudite"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_LEGITIMACY",
-        "English": "Legitimacy comes from achieving link(CONCEPT_AMBITION,2), and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher Legitimacy improves Family Opinions, and produces more link(YIELD_ORDERS) per year."
+        "English": "Legitimacy comes from achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). (Legitimacy from the link(CONCEPT_COGNOMEN,2) of previous Leaders decays each time a new Leader takes control.)\n\t\t\nHigher Legitimacy improves link(CONCEPT_OPINION_FAMILY,1) and produces more link(YIELD_ORDERS) per Turn."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_LEGITIMACY_OPINIONS",
-        "English": "{0_value}: Family Opinions"
+        "English": "{0_value}: link(CONCEPT_OPINION_FAMILY,2)"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION",
-        "English": "Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's opinion of your Nation, and also both reduces link(YIELD_DISCONTENT) and enables the recruitment of link(CONCEPT_DISCIPLE,2) in your Cities of that Religion."
+        "zType": "TEXT_HELPTEXT_LINK_HELP_COASTAL_CITIES",
+        "English": "A Coastal City requires the City Tile to be adjacent to Salt Water."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_COGNOMEN",
-        "English": "A Cognomen is an acquired title that increases the Legitimacyicon(YIELD_LEGITIMACY) of your Leader"
+        "English": "A Cognomen is an acquired title that increases the  icon(YIELD_LEGITIMACY)Legitimacy of the Leader, such as link(COGNOMEN_INVINCIBLE), link(COGNOMEN_WISE), and link(COGNOMEN_GREAT). New Cognomens are acquired when the specific stats associated with that Cognomen cross the necessary threshold. For example, one becomes link(COGNOMEN_WISE) by discovering a great number of Technologies. (The threshold increases for each subsequent Leader of a link(CONCEPT_NATION).)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_COURT",
+        "English": "A Nation's Court consists of you, your link(CONCEPT_SPOUSE), the first four Heirs in your link(CONCEPT_SUCCESSION), and your link(CONCEPT_COURTIER,2). The Ratings of Characters in your Court affect your Global Yields (at a non-linear rate). For example, their link(RATING_COURAGE) will increase your {YIELD_TRAINING}link(YIELD_TRAINING)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_LOCATION",
@@ -2429,15 +2937,27 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_LUXURY",
-        "English": "Luxuries can be Traded to a City to reduce link(YIELD_DISCONTENT). They can also be Traded to other Nations, link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation."
+        "English": "Luxuries can be traded to a City to reduce link(YIELD_DISCONTENT). They can also be traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of you.\n\t\t\nlink(CONCEPT_FAMILY_CLASS,2) all have two specific Luxuries which give them a higher link(CONCEPT_OPINION_FAMILY,3) boost. (For example, link(FAMILYCLASS_CLERICS,2) prefer link(RESOURCE_INCENSE) and link(RESOURCE_LAVENDER).)\n\nLuxuries come from the following Resources:\n{bullet}link(RESOURCE_SALT)\n{bullet}link(RESOURCE_GEM)\n{bullet}link(RESOURCE_FUR)\n{bullet}link(RESOURCE_HONEY)\n{bullet}link(RESOURCE_INCENSE)\n{bullet}link(RESOURCE_LAVENDER)\n{bullet}link(RESOURCE_OLIVE)\n{bullet}link(RESOURCE_WINE)\n{bullet}link(RESOURCE_DYE)\n{bullet}link(RESOURCE_PEARL)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_MERCENARY",
-        "English": "Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by Carthage, and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders. Other Mercenaries are hired from events. They have no associated link(CONCEPT_FAMILY), and int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs."
+        "English": "Tribal Mercenary Units can be hired from link(CONCEPT_TRIBE,2) by link(NATION_CARTHAGE) and by Nations with link(TRAIT_ORATOR_ARCHETYPE) Leaders. (The price is determined by the icon(ATTACKDEFENSE)Strength of the Unit, their Tribe's link(CONCEPT_OPINION_TRIBE,3) of you, and the number of Mercenaries recruited so far.) Other Mercenaries can be hired from Events.\n\t\t\nMercenaries have int(CONSUMPTION_MERCENARY_MODIFIER)% higher consumption costs and no associated link(CONCEPT_FAMILY,2)."
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_MAP_SIZE",
-        "English": "Width: {0}{br}Height: {1}"
+        "zType": "TEXT_HELPTEXT_LINK_HELP_MINOR_CITY",
+        "English": "link(CONCEPT_CITY_SITE,2) without a Tribal link(CONCEPT_SETTLEMENT) can be turned into a link(IMPROVEMENT_MINOR_CITY) if all of the link(TERRAIN_URBAN) Tiles connected to the link(CONCEPT_CITY_SITE) are surrounded by your territory."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_WIDTH",
+        "English": "Width: {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_HEIGHT",
+        "English": "Height: {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_MAP_SIZE_RECOMMENDED_PLAYERS",
+        "English": "Recommended for {0} players"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_MEMORY_TURNS_LEFT",
@@ -2449,47 +2969,87 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_MOVEMENT",
-        "English": "Move(s) per Ordericon(YIELD_ORDERS)"
+        "English": "Move(s) per link(YIELD_ORDERS,3)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_NEXT_DEVELOP",
+        "English": "Will develop into {0,1_improvement} in {1} {2_turnScale}"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_NEXT_UNIT",
         "English": "Will produce a new unit in {0} {1_turnScale}"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_NATION",
+        "English": "Nations are the major states that are vying for Victory in Old World."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_OPINION_FAMILY",
+        "English": "link(CONCEPT_FAMILY) Opinion modifies the icon(ATTACKDEFENSE)Strength of their Units and the link(YIELD_CIVICS,1), link(YIELD_TRAINING,1), and link(YIELD_MAINTENANCE,1) of their Cities. Further, a negative Opinion can lead to link(TRIBE_REBELS) spawing near the link(CONCEPT_FAMILY) Cities."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_OPINION_CHARACTER",
+        "English": "Character Opinion affects the cost of their Missions, their combat effectiveness as link(CONCEPT_GENERAL,2), and the link(YIELD_DISCONTENT,1) of their Cities as link(CONCEPT_GOVERNOR,2). The Opinion of the Heads of link(CONCEPT_FAMILY,2), link(CONCEPT_RELIGION,2), link(CONCEPT_NATION,2), and link(CONCEPT_TRIBE,2) will also affect the Opinion towards you of those entities as a whole."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_OPINION_PLAYER",
+        "English": "link(CONCEPT_NATION) Opinion affects the success rates of diplomatic Mission like link(CONCEPT_ALLIANCE_PLAYER), link(DIPLOMACY_PEACE), and link(DIPLOMACY_TRUCE), as well as the odds that a Player will declare link(DIPLOMACY_WAR) on you."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_OPINION_RELIGION",
+        "English": "Religious Opinion affects the {YIELD_DISCONTENT}link(YIELD_DISCONTENT) of your Cities with that link(CONCEPT_RELIGION)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_OPINION_TRIBE",
+        "English": "link(CONCEPT_TRIBE) Opinion affects the success rates of diplomatic Missions like link(CONCEPT_ALLIANCE_TRIBE), link(DIPLOMACY_PEACE) and link(DIPLOMACY_TRUCE), as well as the odds that a link(CONCEPT_TRIBE) will declare link(DIPLOMACY_WAR) on you or send link(TRIBE_RAIDERS) into your lands. link(CONCEPT_TRIBE) Opinion also affects the cost of both hiring them as link(CONCEPT_MERCENARY,2) and settling Cities on their Tribal sites."
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_PILLAGED",
         "English": "Repair the {0_improvement}, or it will be destroyed in {1_turns} {2_turnScale}."
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_PROJECT_INFO",
-        "English": "Projects are internal City enhancements such as an link(PROJECT_ARCHIVE_1), or link(PROJECT_WALLS)."
+        "zType": "TEXT_HELPTEXT_LINK_HELP_PAGAN_RELIGION",
+        "English": "Each link(CONCEPT_NATION) has a unique Pagan Religion which is founded and spread by building link(IMPROVEMENTCLASS_SHRINE,1). link(LAW_POLYTHEISM) allows building unlimited link(CONCEPT_SHRINE,2), and link(LAW_DIVINE_RULE) unlocks adopting Paganism as a link(CONCEPT_STATE_RELIGION). Pagan Religions don’t have the link(CONCEPT_DISCIPLE,2), link(CONCEPT_IMPROVEMENT,2), or link(CONCEPT_THEOLOGY,2) of link(CONCEPT_WORLD_RELIGION,2)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_POWER",
+        "English": "Comparison of the military strength of the two link(CONCEPT_NATION,2) and/or link(CONCEPT_TRIBE,2), with the following levels:\n{bullet}Much Weaker\n{bullet}Weaker\n{bullet}Similar\n{bullet}Stronger\n{bullet}Much Stronger"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_PROJECT",
+        "English": "Projects are internal City enhancements such as an link(EFFECTCITY_PROJECT_ARCHIVE,2) or link(PROJECT_WALLS), and they are produced using a City's {YIELD_CIVICS}link(YIELD_CIVICS) output."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_PROMOTION",
-        "English": "Promotions provide various combat buffs at the cost of some link(YIELD_TRAINING)."
+        "English": "Promotions provide various combat bonuses to Units. They are earned when leveling up from either acquiring link(CONCEPT_XP) or spending some {YIELD_TRAINING}link(YIELD_TRAINING). Each time a Unit chooses a Promotion, three new ones are randomly chosen from the eligible pool for the Unit's next Level. (Units have a maximum of int(MAX_LEVELS) Levels.)\n\nUnits also can temporarily inherit Promotions from the Traits of their link(CONCEPT_GENERAL,2)."
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS",
-        "English": "Upgrade an Improvement to the next level (for example, link(IMPROVEMENT_THEATER_1) to link(IMPROVEMENT_THEATER_2))."
+        "zType": "TEXT_HELPTEXT_LINK_HELP_PROMOTION_AVAILABLE",
+        "English": "Promotion Available"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_IMPROVEMENT",
-        "English": "link(UNIT_WORKER,2) can build link(CONCEPT_URBAN) and Rural Improvements for your Cities on available Tiles."
+        "zType": "TEXT_HELPTEXT_LINK_HELP_PROXIMITY",
+        "English": "Comparison of the distance between the Cities of the two link(CONCEPT_NATION,2) and/or link(CONCEPT_TRIBE,2), with the following levels:\n{bullet}Very Close\n{bullet}Close\n{bullet}Near\n{bullet}Distant\n{bullet}Far"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_RANGE",
         "English": "Distance for link(UNITTRAIT_RANGED) Attacks"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_REBEL",
-        "English": "Rebel Units can appear outside of Cities with a high link(YIELD_DISCONTENT). Like link(TRIBE_BARBARIANS), you are always at link(DIPLOMACY_WAR) with Rebels."
+        "zType": "TEXT_HELPTEXT_LINK_HELP_RELIGION",
+        "English": "There are two types of Religions: World and Pagan. link(CONCEPT_WORLD_RELIGION,2), such as link(RELIGION_JUDAISM), are founded by the first link(CONCEPT_NATION) to fulfill its specific requirements. link(CONCEPT_PAGAN_RELIGION,2) are founded by building the first of your Nation's link(CONCEPT_SHRINE,2).\n\t\t\nAll Religions give {YIELD_CULTURE}link(YIELD_CULTURE) to their Cities, and a link(OPINIONRELIGION_PLEASED) or link(OPINIONRELIGION_FRIENDLY) Religion will reduce {YIELD_DISCONTENT}link(YIELD_DISCONTENT) while an link(OPINIONRELIGION_UPSET), link(OPINIONRELIGION_ANGRY), or link(OPINIONRELIGION_FURIOUS) Religion will increase {YIELD_DISCONTENT}link(YIELD_DISCONTENT)."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION",
-        "English": "A Character's Desired link(CONCEPT_AMBITION) will become a new National link(CONCEPT_AMBITION) if s/he becomes the Leader."
+        "English": "A Character's Desired link(CONCEPT_AMBITION) will become a new National link(CONCEPT_AMBITION) if they becomes the Leader."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_DISCIPLE",
-        "English": "A Disciple can spread your link(CONCEPT_STATE_RELIGION), and purge other Religions from your Cities."
+        "English": "A Disciple can spread its link(CONCEPT_RELIGION), build link(CONCEPT_IMPROVEMENT,2) of its link(CONCEPT_RELIGION), and (with the link(LAW_ORTHODOXY) Law) Purge other link(CONCEPT_RELIGION,2) from Cities. Disciples can only be built in Cities with its link(CONCEPT_RELIGION) if the City is its link(CONCEPT_HOLY_CITY), if it is the link(CONCEPT_STATE_RELIGION), or if the link(CONCEPT_NATION) has the link(LAW_TOLERANCE) Law.\n\t\t\nlink(CONCEPT_IDLE) Disciples produce a small Yield amount if positioned on an link(CONCEPT_IMPROVEMENT) of their link(CONCEPT_RELIGION). For example, a Disciple on a link(IMPROVEMENTCLASS_MONASTERY) will produce some {YIELD_SCIENCE}link(YIELD_SCIENCE) each Turn."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_RELIGION_CITY_IMPROVEMENTS",
+        "English": "link(CONCEPT_IMPROVEMENT,2) in {0_city}:"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_RELIGION_CITIES_US",
@@ -2508,16 +3068,20 @@
         "English": "{0_freshWaterLink} Access"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_RIVER_MOVEMENT",
+        "English": "Movement along the edge of a River costs 2/3 of a {MOVEMENT} movement point and ignores any extra costs from Terrain, Height, or Vegetation. (This movement bonus only applies in friendly territory or with the link(LAW_COLONIES) Law in neutral territory). Crossing a River costs an extra {MOVEMENT} movement point."
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_RIVER_CROSSINGS",
         "English": "{0} vs. {1} Crossings"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_ROAD",
-        "English": "Roads extend your link(CONCEPT_TRADE_NETWORK), improve Unit Movement, and connect Cities."
+        "English": "Roads extend your link(CONCEPT_TRADE_NETWORK) and increase Unit movement range. Each step along a Road costs 2/3 of a {MOVEMENT} movement point (and ignores any extra costs from Terrain, Height, or Vegetation). Roads in enemy territory do not affect movement."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_ROUT",
-        "English": "link(UNITTRAIT_MOUNTED) Units, after killing an enemy, may make a followup attack on adjacent enemy Units on the same turn."
+        "English": "After killing an adjacent enemy, Units with Rout will advance into the now empty Tile and can make another attack on the same turn. After advancing, any further melee combat costs the attacking Unit -1 HP. (Units with Rout on a City Tile or a link(CONCEPT_CITY_SITE) will not advance and attack again.)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_SELECT_TRIBE",
@@ -2548,8 +3112,20 @@
         "English": "Settlement Tiles include Cities and Tribal Sites."
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_STATE_RELIGION",
+        "English": "Adopting a link(CONCEPT_STATE_RELIGION) improves that Religion's link(CONCEPT_OPINION_RELIGION,3), reduces {YIELD_DISCONTENT}link(YIELD_DISCONTENT) in Cities of that link(CONCEPT_RELIGION), and also enables the recruitment of link(CONCEPT_DISCIPLE,2) in those Cities (for link(CONCEPT_WORLD_RELIGION,2))."
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_STRENGTH",
-        "English": "Attack and Defense Strength"
+        "English": "Positive Character Traits, of which they can have a maximum of int(MAX_STRENGTHS)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_SUCCESSION",
+        "English": "The Ratings of your first four Characters in your Succession affect your Global Yields (at half the rate of the Leader). For example, their link(RATING_COURAGE) will increase your {YIELD_TRAINING}link(YIELD_TRAINING). Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_SUCCESSION_LAW",
+        "English": "Your Succession Law determines who is the next Heir. Changing Succession Laws costs {YIELD_CIVICS}link(YIELD_CIVICS) and can upset Characters who are moved farther from the throne."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_SUBJECT_TRAIT_ANY",
@@ -2560,8 +3136,8 @@
         "English": "Must not be {0_list}"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_TEAM_LIST",
-        "English": "Team {0_num}: {LIST}"
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TEAM",
+        "English": "Team {0_num}:"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TERRAIN",
@@ -2572,12 +3148,16 @@
         "English": "Cannot have a {0_link}"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_UNIT",
-        "English": "Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1}"
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TERRAIN_DEFENDING_CLEAR",
+        "English": "Vs. {0_unit} (if link(CONCEPT_CLEAR)): {1} (Melee Combat)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_TESTUDO",
+        "English": "Units in Testudo receive a +int(TESTUDO_BONUS_PER)% defensive bonus against ranged Units per Turn (up to a maximum of int(MAX_TESTUDO_TURNS) Turns). After the first Testudo Turn, Units can still attack as long as they stay on the Tile."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_THEOLOGY",
-        "English": "Establishing a Theology grants additional bonuses to a World Religion. Theologies are established using Disciples, and, once established, will be active for all Nations that adopt the associated Religion."
+        "English": "Establishing a Theology grants additional bonuses to a link(CONCEPT_WORLD_RELIGION). They are established using link(CONCEPT_DISCIPLE,2), and the link(CONCEPT_RELIGION) must be your Nation's link(CONCEPT_STATE_RELIGION). The effects of the Theology are Global and will be active for all link(CONCEPT_NATION,2) with the associated Religion."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TRADE_BONUS_US",
@@ -2589,7 +3169,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TRADE_NETWORK",
-        "English": "The Trade Network consists of all Tiles connected to your Capital{0_capital} via a {1_roads}, a {2_roads}, or open Water."
+        "English": "The Trade Network consists of all Tiles connected to the {0_capital} via link(CONCEPT_ROAD,2), link(CONCEPT_RIVER,2), link(CONCEPT_URBAN) Tiles, and open Water.\n\nForeign Cities on your Trade Network (which requires link(CONCEPT_PEACE_PLAYER)) produce {YIELD_MONEY}link(YIELD_MONEY) each Turn."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_TRIBUTE_FROM_TURNS",
@@ -2624,6 +3204,10 @@
         "English": "{0_unitCycle} Units:"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_UNIT_STRENGTH",
+        "English": "Attack and Defense Strength"
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_UPKEEP",
         "English": "Current Upkeep:"
       },
@@ -2636,8 +3220,8 @@
         "English": "Spreads Borders"
       },
       {
-        "zType": "TEXT_HELPTEXT_LINK_HELP_URBAN_CITIZEN",
-        "English": "Each link(CONCEPT_URBAN) Tile supports {0_value} {1_citizen}"
+        "zType": "TEXT_HELPTEXT_LINK_HELP_URBAN_TRADE_NETWORK",
+        "English": "Extends link(CONCEPT_TRADE_NETWORK)"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_VEGETATION",
@@ -2657,7 +3241,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_VICTORY_TOTAL",
-        "English": "Total: {0}"
+        "English": "Total Victory Points: {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_VICTORY_FROM_CULTURE_CITIES",
@@ -2676,20 +3260,64 @@
         "English": "0: from Wonders"
       },
       {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_UPGRADE",
+        "English": "Many Units can be Upgraded to a more advanced type, at the cost of some {YIELD_TRAINING}link(YIELD_TRAINING) and other Yields."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_UPGRADE_IMPROVEMENTS",
+        "English": "link(TRAIT_JUDGE_ARCHETYPE) Leaders can Upgrade an Improvement to the next level (for example, link(IMPROVEMENT_THEATER_1,1) to link(IMPROVEMENT_THEATER_2,1))."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_VISION",
+        "English": "Vision is the range of Tiles around a Unit which are visible. (These Tiles must have been previously revealed.)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_WEAKNESS",
+        "English": "Negative Character Trait, of which they can have a maximum of int(MAX_WEAKNESSES)."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_WONDER",
+        "English": "Wonders are unique link(CONCEPT_IMPROVEMENT,2) which can only be built once. As soon as one link(CONCEPT_NATION) begins a Wonder, no one else can build it unless a hostile Units enters the Tile of an unfinished Wonder and destroys it.\n\t\t\nNot all Wonders are available each game; the Wonders available are chosen randomly at the start of the game."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_WORLD_RELIGION",
+        "English": "The four World Religions (link(RELIGION_JUDAISM), link(RELIGION_ZOROASTRIANISM), link(RELIGION_CHRISTIANITY), and link(RELIGION_MANICHAEISM)) are founded when a link(CONCEPT_NATION) achieves each one's specific prerequisites. Cities with that Religion can then build link(CONCEPT_DISCIPLE,2) which are capable of spreading the Religion to other link(CONCEPT_SETTLEMENT,2). These link(CONCEPT_DISCIPLE,2) can also build link(IMPROVEMENTCLASS_MONASTERY,2), link(IMPROVEMENTCLASS_TEMPLE,2), link(IMPROVEMENTCLASS_CATHEDRAL,2), and link(IMPROVEMENTCLASS_HOLY_SITE,2) of their link(CONCEPT_RELIGION). Finally, link(CONCEPT_DISCIPLE,2) can establish a link(CONCEPT_THEOLOGY) for World Religions."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_LINK_HELP_XP",
+        "English": "Over time, Units and Characters earn XP (Experience), which can be used for link(CONCEPT_PROMOTION,2) and Traits, respectively.\n\t\t\nUnits earn XP during combat or by being link(CONCEPT_IDLE) on certain link(CONCEPT_IMPROVEMENT,2). (link(UNITTRAIT_MELEE) Units earn XP in link(IMPROVEMENT_BARRACKS,1), and link(UNITTRAIT_RANGED) Units earn XP at link(IMPROVEMENT_RANGE,1).)\n\nCharacters earn XP through performing Missions, holding roles such as link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), or link(CONCEPT_COUNCILOR), and through Events."
+      },
+      {
         "zType": "TEXT_HELPTEXT_LINK_HELP_ZOC",
-        "English": "A Unit exerts Zone-of-Control over all adjacent Tiles (except across a {0_riverLink}), which prevents enemy Units from moving through them. Hold [{1_key}] to see Unit ZOCs."
+        "English": "A Unit exerts a Zone-of-Control (ZOC) over all adjacent Tiles (except across a link(CONCEPT_RIVER)), which prevents enemy Units from moving from a Hostile ZOC directly into an adjacent Tile also with a Hostile ZOC.\n\nHold [{0_key}] to see Unit ZOCs."
       },
       {
         "zType": "TEXT_HELPTEXT_LINK_HELP_HOTKEY_NONE",
         "English": "No keybind has been specified for this hotkey."
       },
       {
-        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_OWNER",
-        "English": "Owner"
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_INTO_EFFECT_UNIT",
+        "English": "As {0_effectUnit} (Into)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_FROM_EFFECT_UNIT",
+        "English": "As {0_effectUnit} (From)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_VS_EFFECT_UNIT",
+        "English": "Vs. {0_effectUnit}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_VS_EFFECT_UNIT_MELEE",
+        "English": "Vs. {0_effectUnit} (Melee Combat)"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_RESOURCE",
         "English": "Resource"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_OWNER",
+        "English": "Owner"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_HARVEST",
@@ -2724,8 +3352,12 @@
         "English": "Develops into{true_0: {0_barbarian}} {1_improvment}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_LEFT",
-        "English": "Work Left"
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_COMPLETED",
+        "English": "Work Completed"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_WORK_COMPLETED_VALUE",
+        "English": "{0}/{1}{2_turnScale}"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_TOOLTIP_IMPROVEMENT_PILLAGED",
@@ -2796,6 +3428,10 @@
         "English": "{0}: Upkeep"
       },
       {
+        "zType": "TEXT_HELPTEXT_YIELD_NET_GLOBAL_STOCKPILE",
+        "English": "Global Stockpile:"
+      },
+      {
         "zType": "TEXT_HELPTEXT_YIELD_NET_ROYALS",
         "English": "{0}: Royal(s)"
       },
@@ -2820,32 +3456,8 @@
         "English": "{0}: From {1,2_unit}"
       },
       {
-        "zType": "TEXT_HELPTEXT_CITY_TITLE",
-        "English": "City: {0_name}/{1_owner}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_FAMILY",
-        "English": "Family: {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_GOVERNOR",
-        "English": "link(CONCEPT_GOVERNOR): {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_HP",
-        "English": "HP: {0}/{1}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_STRENGTH",
-        "English": "Strength: {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_CITIZENS",
-        "English": "{singular_1:{0}:{0,2}}: {1_num}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_CITY_ID",
-        "English": "ID: {0}"
+        "zType": "TEXT_HELPTEXT_YIELD_NET_CITY_PRODUCTION",
+        "English": "City Production:"
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_CAPITAL_EFFECT",
@@ -2865,7 +3477,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_HOLY_CITY",
-        "English": "Requires {0,1_religion} Holy City"
+        "English": "Requires {0,1_religion} link(CONCEPT_HOLY_CITY)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_COAST_LAND",
@@ -2881,7 +3493,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_HOLY_CITY_ANY",
-        "English": "Holy City (Any Religion)"
+        "English": "link(CONCEPT_HOLY_CITY) (Any Religion)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_ADJACENT_HEIGHT",
@@ -2894,6 +3506,10 @@
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_URBAN",
         "English": "Must be Adjacent to City or {true_0:one {1_urban} Coast Tile:two {1_urban} Tiles}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_NO_TERRAIN",
+        "English": "Cannot be built on {0_terrain}"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_REQUIRES_NO_ADJACENT",
@@ -2937,7 +3553,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TECH_DISCOVER_BONUS",
-        "English": "Discover Bonus: {LIST}"
+        "English": "[Discover Bonus] {LIST}"
       },
       {
         "zType": "TEXT_HELPTEXT_TECH_UNLOCKS_GENERIC",
@@ -2945,7 +3561,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TECH_UNLOCKS_PROJECT",
-        "English": "Unlocks {0_project} link(CONCEPT_PROJECT_INFO):"
+        "English": "Unlocks {0_project} link(CONCEPT_PROJECT):"
       },
       {
         "zType": "TEXT_HELPTEXT_TECH_UNLOCKS_UNIT",
@@ -2960,8 +3576,12 @@
         "English": "Unlocks New Laws:"
       },
       {
-        "zType": "TEXT_HELPTEXT_TECH_TRASHED_WHEN_DISCARDED",
+        "zType": "TEXT_HELPTEXT_TECH_TRASHED",
         "English": "Permanently trashed when discarded"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TECH_REPEATABLE",
+        "English": "Can be researched multiple times"
       },
       {
         "zType": "TEXT_HELPTEXT_TECH_WITH",
@@ -2980,32 +3600,28 @@
         "English": "Build {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_IMPROVEMENT_TOOLTIP_BUY_HINT",
-        "English": "Hold <TEXT_HOTKEY_ALT> to Buy: {0}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_YIELD_PER_YEAR",
         "English": "{0}/{1_turnScale}"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_FROM",
-        "English": "{0} from {1}"
+        "English": "{0} Output from {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_FROM_ADJACENT",
-        "English": "{0} from Adjacent {1}"
+        "English": "{0} Output from Adjacent {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_FROM_ADJACENT_WONDER",
-        "English": "{0} from Adjacent Wonder(s)"
+        "English": "{0} Output from Adjacent link(CONCEPT_WONDER,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_FROM_ADJACENT_RESOURCE",
-        "English": "{0} from Adjacent Resource(s)"
+        "English": "{0} Output from Adjacent Resource(s)"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_FROM_TRADE_NETWORK",
-        "English": "{0} from link(CONCEPT_TRADE_NETWORK)"
+        "English": "{0} Output from link(CONCEPT_TRADE_NETWORK)"
       },
       {
         "zType": "TEXT_HELPTEXT_YIELD_PERCENT_FROM",
@@ -3054,6 +3670,10 @@
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_FAMILY_LABEL",
         "English": "Family"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_UNIT_TYPE_TRIBE_LABEL",
+        "English": "Tribe"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_FORTIFIED_LABEL",
@@ -3112,6 +3732,10 @@
         "English": "Can Establish link(CONCEPT_THEOLOGY)"
       },
       {
+        "zType": "TEXT_HELPTEXT_UNIT_TYPE_MUST_UNLIMBER",
+        "English": "Must be link(CONCEPT_UNLIMBERED) before Attacking"
+      },
+      {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_CAN_FOUND_CITY",
         "English": "Can Found City"
       },
@@ -3132,8 +3756,12 @@
         "English": "Has {0_zocLink}"
       },
       {
+        "zType": "TEXT_HELPTEXT_UNIT_TYPE_CAN_FORTIFY",
+        "English": "Can link(CONCEPT_FORTIFY)"
+      },
+      {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_CAN_TESTUDO",
-        "English": "Can Testudo (Bonus vs link(UNITTRAIT_RANGED))"
+        "English": "Can link(CONCEPT_TESTUDO)"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_START_LEVELS",
@@ -3157,7 +3785,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_NO_TRAIN_OR_PROMOTE",
-        "English": "Cannot Train or Earn XP"
+        "English": "Cannot be promoted or earn XP"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_POPULATION_COST",
@@ -3165,7 +3793,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_PRODUCTION",
-        "English": "Construction: {0} {1_yield}"
+        "English": "Production: {0} {1_yield}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_PRODUCTION_TRAINING",
+        "English": "Production: {0} {YIELD_TRAINING}link(YIELD_TRAINING)"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_TYPE_UPGRADES_FROM",
@@ -3190,10 +3822,6 @@
       {
         "zType": "TEXT_HELPTEXT_UNIT_LINE_FREE_PROMOTION_INDICATOR",
         "English": "{0_promotionLevel}+"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_UNIT_LINE_GENERAL_ABBREVIATION",
-        "English": "G"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_LINE_HP",
@@ -3221,7 +3849,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_STRENGTH",
-        "English": "Strength: {0} icon(STRENGTH)"
+        "English": "Attack/Defense: {0} icon(ATTACKDEFENSE)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_UNIT_ATTACK",
+        "English": "Attack: {0} icon(ATTACK)"
       },
       {
         "zType": "TEXT_HELPTEXT_UNIT_DEFENSE",
@@ -3256,6 +3888,10 @@
         "English": "{0_general} {1_opinion}: {2}"
       },
       {
+        "zType": "TEXT_HELPTEXT_MELEE_COUNTER",
+        "English": "Counterattacks for -1 HP during Melee Combat"
+      },
+      {
         "zType": "TEXT_HELPTEXT_PROMOTION_LEADS_TO",
         "English": "Leads to {LIST}"
       },
@@ -3272,6 +3908,14 @@
         "English": "Already contains {0_improvement}"
       },
       {
+        "zType": "TEXT_HELPTEXT_URBAN_TILE_RURAL_IMPROVEMENT",
+        "English": "Cannot build {0_improvement} on link(CONCEPT_URBAN) Tiles"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_CANNOT_REPLACE_IMPROVEMENT",
+        "English": "Cannot replace {0_improvement} (Improvement is permanent)"
+      },
+      {
         "zType": "TEXT_HELPTEXT_REPLACES_IMPROVEMENT",
         "English": "Replaces the {0_improvement} (Hold <TEXT_HOTKEY_CTRL>)"
       },
@@ -3285,7 +3929,19 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_VISION",
-        "English": "<true_1>{0_value} Vision<false>Vision: {0_value}<end>"
+        "English": "<true_1>{0_value} link(CONCEPT_VISION)<false>link(CONCEPT_VISION): {0_value}<end>"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_WATER_CONTROL",
+        "English": "<true_1>{0_value} link(CONCEPT_ANCHORED,1) Range<false>link(CONCEPT_ANCHORED,1) Range: {0_value}<end>"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_ENLIST_ON_KILL",
+        "English": "<true_1>Enlist chance on kill: {0_value}<false>{0_value} Enlist chance on kill<end>"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_PILLAGE_YIELD",
+        "English": "<true_1>Pillage Yield: {0_value}<false>{0_value} Pillage Yield<end>"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_ACROSS_RIVER",
@@ -3304,8 +3960,8 @@
         "English": "<true_2>Into {0_tileLink}: {1_value}<false>{1_value} Into {0_tileLink}<end>"
       },
       {
-        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO_OTHER",
-        "English": "<true_3>Into {0_tileLink}/{1_other}: {2_value}<false>{2_value} Into {0_tileLink}/{1_other}<end>"
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_ATTACK_INTO_MELEE",
+        "English": "<true_2>Into {0_tileLink}/link(CONCEPT_CLEAR): {1_value} (Melee Combat)<false>{1_value} (Melee Combat) Into {0_tileLink}/link(CONCEPT_CLEAR)<end>"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_FIGHT_FROM",
@@ -3325,7 +3981,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_VS_TRIBES",
-        "English": "<true_1>Vs. Tribes/Rebels: {0_value}<false>{0_value} Vs. Tribes/Rebels<end>"
+        "English": "<true_1>Vs. Units without a link(CONCEPT_NATION): {0_value}<false>{0_value} Vs. Units without a link(CONCEPT_NATION)<end>"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_FLANKING_ATTACK",
@@ -3337,19 +3993,27 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_EXTRA",
-        "English": "<true_1>Healing: {0_value} HP<false>{0_value} HP from Healing<end>"
+        "English": "<true_1>link(CONCEPT_HEAL) Action: {0_value} HP<false>{0_value} HP from link(CONCEPT_HEAL) Action<end>"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_ALWAYS",
-        "English": "{0_value} HP/Year"
+        "English": "{0_value} HP from link(CONCEPT_IDLE) link(CONCEPT_HEAL,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_CAN_ROUT",
         "English": "Can {0_routLink} (attack again) after Combat"
       },
       {
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_PUSH_WATER",
+        "English": "Target Retreats (Water Only)"
+      },
+      {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_PUSH",
-        "English": "Target Retreats after Combat"
+        "English": "Target Retreats"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_STUN_WATER",
+        "English": "Stuns Target (Water Only)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_STUN",
@@ -3357,7 +4021,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAST_STAND",
-        "English": "Cannot die with more than 1 HP"
+        "English": "Cannot die with 2+ HP"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_IGNORES_DISTANCE",
@@ -3369,7 +4033,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_HEAL_NEUTRAL",
-        "English": "Heal in Neutral Territory"
+        "English": "link(CONCEPT_HEAL) in Neutral Territory"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_LAUNCH_OFFENSIVE",
@@ -3392,16 +4056,12 @@
         "English": "<true_2>link(UNITTRAIT_MELEE) Combat Vs. {0_unitTrait}: {1_value}<false>{1_value} link(UNITTRAIT_MELEE) Combat Vs. {0_unitTrait}<end>"
       },
       {
-        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_INVISIBLE_IN",
-        "English": "Invisible in Non-Hostile {0_vegetation}"
+        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_HELP_HIDDEN_IN",
+        "English": "link(CONCEPT_HIDDEN) in Friendly or Neutral {0_vegetation}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_UNIT_ZOC_BLOCKS",
         "English": "link(CONCEPT_ZOC) blocks {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_EFFECT_UNIT_CONVERT_ON_KILL",
-        "English": "{0} chance to capture enemy unit with a fatal blow"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNLOCKS",
@@ -3425,7 +4085,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_HEAL",
-        "English": "{0_value} HP/Year for {1_idle} Units"
+        "English": "{0_value} HP/{1_turnScale} for {2_idle} Units"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_RANGE",
@@ -3453,7 +4113,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_RURAL_SPECIALIST_TRAIN_TIME",
-        "English": "{0_value} {1_specialist} Construction Time"
+        "English": "{0_value} {1_specialist} Production Time"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_SPECIALIST_COST",
@@ -3461,19 +4121,19 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_SPECIALIST_TRAIN_TIME",
-        "English": "{0_value} {1_specialist} Construction Time"
+        "English": "{0_value} {1_specialist} Production Time"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_DISCIPLE_TRAIN_TIME",
-        "English": "{0_value} Disciple Construction Time"
+        "English": "{0_value} Disciple Production Time"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT_NONE",
-        "English": "No icon(YIELD_DISCONTENT) from Hurrying"
+        "English": "No {YIELD_DISCONTENT} from Hurrying"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_DISCONTENT",
-        "English": "{0_value} icon(YIELD_DISCONTENT) from Hurrying"
+        "English": "{0_value} {YIELD_DISCONTENT} from Hurrying"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_BUILD_TURNS",
@@ -3485,11 +4145,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_FAMILY_OPINION",
-        "English": "{0_value} Family Opinion{true_1: ({2_familyLink})}"
+        "English": "{0_value} link(CONCEPT_OPINION_FAMILY,1){true_1: ({2_familyLink})}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_REBEL_PROBABILITY",
-        "English": "{0_value} {1_rebel} Units"
+        "English": "{0_value} {1_rebel} Chance"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ADDS_LUXURY",
@@ -3505,23 +4165,23 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_CIVICS",
-        "English": "Can Hurry City Production with link(YIELD_CIVICS)"
+        "English": "Can Hurry Production with link(YIELD_CIVICS)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_TRAINING",
-        "English": "Can Hurry City Production with link(YIELD_TRAINING)"
+        "English": "Can Hurry Production with link(YIELD_TRAINING)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_MONEY",
-        "English": "Can Hurry City Production with link(YIELD_MONEY)"
+        "English": "Can Hurry Production with link(YIELD_MONEY)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_POPULATION",
-        "English": "Can Hurry City Production with Population"
+        "English": "Can Hurry Production with Population"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_HURRY_ORDERS",
-        "English": "Can Hurry City Production with link(YIELD_ORDERS)"
+        "English": "Can Hurry Production with link(YIELD_ORDERS)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_ENABLES_GOVERNOR",
@@ -3533,7 +4193,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_NO_RELIGION_SPREAD",
-        "English": "No Random Non-link(CONCEPT_STATE_RELIGION) Spread"
+        "English": "No Random Non-link(CONCEPT_STATE_RELIGION) link(CONCEPT_SPREAD_RELIGION,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_STATE_RELIGION_IMPROVEMENTS",
@@ -3545,7 +4205,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIN_MODIFIER",
-        "English": "{0_value} Construction Time for {1,2_unit}"
+        "English": "{0_value} Production Time for {1,2_unit}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIT_XP",
@@ -3561,7 +4221,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNIT_TRAIT_TRAIN_MODIFIER",
-        "English": "{0_value} Construction Time for {1_unitTrait} Units"
+        "English": "{0_value} Production Time for {1_unitTrait} Units"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_IMPROVEMENT_UPGRADE_TURNS",
@@ -3573,7 +4233,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_URBAN_TERRAIN_VALID",
-        "English": "Can Build link(CONCEPT_URBAN) Improvements and link(CONCEPT_ROAD,2) on {0_terrain}"
+        "English": "Can Build link(CONCEPT_URBAN) Improvements on {0_terrain}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_HURRY_CIVICS",
@@ -3609,7 +4269,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_NO_YIELDS_UNLOCKS_PROJECT",
-        "English": "Unlocks link(CONCEPT_PROJECT_INFO): {0_project}"
+        "English": "Unlocks link(CONCEPT_PROJECT): {0_project}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_YEAR",
@@ -3621,43 +4281,51 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_POPULATION",
-        "English": "{0_yield}/{1_turnScale} per Population{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per Population"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_CULTURE_LEVEL",
-        "English": "{0_yield}/{1_turnScale} per link(YIELD_CULTURE) Level and Step{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per link(YIELD_CULTURE) Level"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_FAMILY_OPINION",
-        "English": "{0_yield}/{1_turnScale} per Family Opinion Level{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per link(CONCEPT_OPINION_FAMILY,1) Level"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_MILITARY_IN_CITY",
-        "English": "{0_yield}/{1_turnScale} per Military Unit in Territory{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per Military Unit in Territory"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_SPECIALIST",
-        "English": "{0_yield}/{1_turnScale} per Specialist{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per Specialist"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING",
-        "English": "{0_yield}/{1_turnScale} if {true_3:Family }Military Defending{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} if Military Defending"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_IF_DEFENDING_FAMILY",
+        "English": "{0_yield}/{1_turnScale} if link(CONCEPT_FAMILY) Military Defending"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION",
-        "English": "{0_yield}/{1_turnScale} per Religion{true_2: ({2_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} per Religion"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_PER_RELIGION_NON_STATE",
+        "English": "{0_yield}/{1_turnScale} per Non-State Religion"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_HOLY_CITY_WORLD",
-        "English": "[{2_holyCity}] {0_yield}/{1_turnScale} per Cities with Religion"
+        "English": "{2_holyCity}: {0_yield}/{1_turnScale} per Cities with Religion"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELD_RATE_FROM_EFFECT_CITY",
-        "English": "{0_yield}/{1_turnScale} from {2_effectCity}{true_3: ({3_cityYield})}"
+        "English": "{0_yield}/{1_turnScale} from {2_effectCity}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_MODIFIER",
-        "English": "{0_yield}{true_1: ({1_yieldModified}/{2_turnScale}{true_3: in {3_city}})}"
+        "English": "{0_yield}{true_1: ({1_yieldModified})}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_IMPROVEMENT_MODIFIER_YIELD",
@@ -3677,15 +4345,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_CITY_HELP_YIELDS_EFFECT_CITY_YIELD_RATE",
-        "English": "Each {0_effectCity}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}"
+        "English": "{true_3:Each }{0_effectCity}: {1_yieldValueList}{true_2: ({2_cityYieldValueList})}"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_VP",
-        "English": "{0_value} VPs"
+        "English": "{0_value} Victory {singular_0:Point:Points}"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_VISION_CHANGE",
-        "English": "{0_value} Unit Vision"
+        "English": "{0_value} Unit link(CONCEPT_VISION)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_PRODUCES_TRIBE_UNITS",
@@ -3698,10 +4366,6 @@
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_BONUS",
         "English": "Gives Bonus upon entering Tile"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_ADJACENT_HEIGHT_MODIFIER",
-        "English": "Adjacent {0_height}: {1_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_FOR_ADJACENT_IMPROVEMENT_MODIFIER",
@@ -3717,11 +4381,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_LEGITIMACY",
-        "English": "{0_value} Legitimacyicon(YIELD_LEGITIMACY)"
+        "English": "{0_value}  icon(YIELD_LEGITIMACY)Legitimacy"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_OPINION_RELIGION",
-        "English": "{0_value} {1_religion} Opinion"
+        "English": "{0_value} {1_religion} link(CONCEPT_OPINION_RELIGION,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_UNIT_TRAIT_HEALS_UNIT",
@@ -3740,16 +4404,16 @@
         "English": "{0_urban} Improvement"
       },
       {
+        "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_PERMANENT_BUILDING",
+        "English": "Cannot be replaced"
+      },
+      {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_URBAN_BUILDING_ANYWHERE",
-        "English": "{0} (Ignores Adjacency Requirements)"
+        "English": "{0} (But Build Anywhere)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_SPREADS_BORDERS",
         "English": "Spreads Borders"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_TRADE_NETWORK",
-        "English": "Extends link(CONCEPT_TRADE_NETWORK)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_FRESH_WATER_SOURCE",
@@ -3765,7 +4429,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_WONDER",
-        "English": "{LIST}/{0_turnScale} per Adjacent Wonder"
+        "English": "{LIST}/{0_turnScale} per Adjacent link(CONCEPT_WONDER)"
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_YIELDS_ADJACENT_RESOURCE",
@@ -3796,6 +4460,14 @@
         "English": "Unlocks {0_unit}"
       },
       {
+        "zType": "TEXT_HELPTEXT_IMPROVEMENT_WONDER",
+        "English": "link(CONCEPT_WONDER) of the World"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_IMPROVEMENT_CITY_SITE",
+        "English": "Occupy this Tile with a Unit to prevent Rival Nations from founding a City"
+      },
+      {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_HELP_CREATES_UNITS",
         "English": "Creates {LIST,1} every {0_number} {1_turnScale}"
       },
@@ -3817,7 +4489,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_IMPROVEMENT_COST_PER_YEAR",
-        "English": "{0} (for {1} {2_turnScale})"
+        "English": "{0} (for {1})"
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_CONNECTED",
@@ -3829,7 +4501,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_CONNECTED_HOTKEY",
-        "English": "Hold [{0_key}] to see Tiles connected to your Capital{1_capital}."
+        "English": "Hold [{0_key}] to see Tiles connected to the {1_capital}."
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_CURRENT_CITIZENS_NEXT",
@@ -3844,12 +4516,20 @@
         "English": "Citizens: {0}"
       },
       {
+        "zType": "TEXT_HELPTEXT_CITIZENS_AVAILABLE_COUNT",
+        "English": "Citizens Available: {0}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_SPECIALISTS_COUNT",
         "English": "Specialists: {0}"
       },
       {
+        "zType": "TEXT_HELPTEXT_SPECIALISTS_AVAILABLE_COUNT",
+        "English": "Specialists Available"
+      },
+      {
         "zType": "TEXT_HELPTEXT_CITY_STRENGTH_TITLE",
-        "English": "Strength:"
+        "English": "Defense:"
       },
       {
         "zType": "TEXT_HELPTEXT_CITY_STRENGTH_BASE",
@@ -3869,7 +4549,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_COAST_CITIES_EFFECT",
-        "English": "[Coast Cities] {0}"
+        "English": "[link(CONCEPT_COASTAL_CITIES,2)] {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RELIGIOUS_CITIES_EFFECT",
@@ -3901,7 +4581,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_VPS",
-        "English": "{0_value} VPs"
+        "English": "{0_value} Victory {singular_0:Point:Points}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_MAX_ACTIONS",
@@ -3925,7 +4605,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_WONDER_MODIFIER",
-        "English": "{0_value} Wonder Costs"
+        "English": "{0_value} link(CONCEPT_WONDER) Costs"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_LAW_MODIFIER",
@@ -3949,7 +4629,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_VISION_CHANGE",
-        "English": "{0_value} Vision Range"
+        "English": "{0_value} link(CONCEPT_VISION) Range"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_TECH_AVAILABLE_CHANGE",
@@ -3957,15 +4637,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_LEADER_OPINION_CHANGE",
-        "English": "All Foreign Leader Opinions {0_value}"
+        "English": "All Other Leader Opinions {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_RELIGION_OPINION_CHANGE",
-        "English": "All Religion Opinions {0_value}"
+        "English": "All link(CONCEPT_OPINION_RELIGION,2) {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_FAMILY_OPINION_CHANGE",
-        "English": "All Family Opinions {0_value}"
+        "English": "All link(CONCEPT_OPINION_FAMILY,2) {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_START_MUSIC",
@@ -3986,18 +4666,6 @@
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_CAN_UPGRADE_IMPROVEMENT",
         "English": "Can link(CONCEPT_UPGRADE_IMPROVEMENTS)"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_WONDERS",
-        "English": "Cannot build Wonders"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_RELIGIONS",
-        "English": "Cannot Found Religions"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_THEOLOGIES",
-        "English": "Cannot Establish Theologies"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_MULTIPLER_WORKERS",
@@ -4021,7 +4689,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_NO_OUTSIDE_UNIT_CONSUMPTION",
-        "English": "No Extra Unit Consumption Costs when {0_outsideBorders}"
+        "English": "No Extra Unit Consumption when {0_outsideBorders}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_PURGE_RELIGIONS",
@@ -4037,7 +4705,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_LEGITIMACY_ORDERS",
-        "English": "Use {0_legitimacy} to buy icon(YIELD_ORDERS)link(YIELD_ORDERS)"
+        "English": "Use {0_legitimacy} to buy link(YIELD_ORDERS,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_RECRUIT_MERCENARIES",
@@ -4061,7 +4729,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE",
-        "English": "{true_0:[Global] }{1_yield} per {2_turnScale}"
+        "English": "{true_0:[Global] }{1_yield}/{2_turnScale}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_RATE_LAWS",
+        "English": "{true_0:[Global] }{1_yield}/{2_turnScale} per Active Law"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_YIELD_UPKEEP",
@@ -4076,16 +4748,16 @@
         "English": "{0,2_unit} Move on Water"
       },
       {
-        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_HIDE_UNIT",
-        "English": "{0,2_unit} Always link(CONCEPT_HIDDEN)"
+        "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_INVISIBLE_UNIT",
+        "English": "{0,2_unit} are link(CONCEPT_INVISIBLE)"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNLOCKS_PROJECT",
-        "English": "Unlocks link(CONCEPT_PROJECT_INFO): {0_project}"
+        "English": "Unlocks link(CONCEPT_PROJECT): {0_project}"
       },
       {
         "zType": "TEXT_HELPTEXT_EFFECT_PLAYER_HELP_UNLOCKS_PROJECT_CAPITAL",
-        "English": "Unlocks link(CONCEPT_PROJECT_INFO) (in {0_capital}): {1_project}"
+        "English": "Unlocks link(CONCEPT_PROJECT) (in {0_capital}): {1_project}"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_FAMILY_UNITS_BULLET_LINE_START",
@@ -4113,7 +4785,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_PREFERENCES",
-        "English": "Opinion Preferences:"
+        "English": "link(CONCEPT_OPINION_FAMILY,1) Preferences:"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_NATIONS_WITH_CLASS",
@@ -4156,20 +4828,20 @@
         "English": "No Council Members: {0_value}"
       },
       {
+        "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_GENERAL",
+        "English": "Each General: {0_value}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_GOVERNOR",
+        "English": "Each Governor: {0_value}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_WONDERS",
         "English": "Wonders: {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_HOLY_CITIES",
         "English": "Holy Cities: {0_value}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_MOST_CITIES",
-        "English": "Most Cities: {0_value}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_LEAST_CITIES",
-        "English": "Fewest Cities: {0_value}"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILYCLASS_OPINION_NO_RELIGION",
@@ -4224,12 +4896,12 @@
         "English": "Current Religion: {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TRIBE_STRENGTH",
-        "English": "Strength: {0}"
+        "zType": "TEXT_HELPTEXT_TRIBE_POWER",
+        "English": "link(CONCEPT_POWER): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_TRIBE_PROXIMITY",
-        "English": "Proximity: {0}*"
+        "English": "link(CONCEPT_PROXIMITY): {0}*"
       },
       {
         "zType": "TEXT_HELPTEXT_TRIBE_LEVEL",
@@ -4357,7 +5029,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_DISCOVER_BONUS",
-        "English": "Discover Bonus:"
+        "English": "[Discover Bonus]"
       },
       {
         "zType": "TEXT_HELPTEXT_SHOW_CHOOSE_RESEARCH_POPUP_DESC_UNLOCKS_PROJECT",
@@ -4416,6 +5088,14 @@
         "English": "{0_subject}: End {1_alliance}"
       },
       {
+        "zType": "TEXT_HELPTEXT_BONUS_DIPLOMACY_HOSTILE_FROM",
+        "English": "Declare {1_war} on {0_subject}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_BONUS_DIPLOMACY_HOSTILE_TO",
+        "English": "{0_subject} declares {1_war}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_BONUS_ALLIANCE_WITH",
         "English": "{0_player} Alliance with {1_other}"
       },
@@ -4433,7 +5113,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_FAMILY_LAW_OPINION",
-        "English": "{0_family}: {1_value} Opinion of {2_law}"
+        "English": "{0_family}: {1_value} link(CONCEPT_OPINION_FAMILY,3) of {2_law}"
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_OTHER_YIELD",
@@ -4572,6 +5252,14 @@
         "English": "Remove Vegetation from {0_tile}"
       },
       {
+        "zType": "TEXT_HELPTEXT_BONUS_CLEAR_ANY_IMPROVEMENT",
+        "English": "Clear link(CONCEPT_IMPROVEMENT) from {0_tile}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_BONUS_PILLAGE_ANY_IMPROVEMENT",
+        "English": "Pillage link(CONCEPT_IMPROVEMENT) on {0_tile}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_BONUS_FREE_UNIT",
         "English": "Gain {0_unit}{true_1: (x{1_number})}{true_2: in {2_city}}"
       },
@@ -4589,7 +5277,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_RAZE_CITY",
-        "English": "{0_city} gets razed"
+        "English": "{0_city} is razed"
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_VICTORY",
@@ -4629,7 +5317,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_ADOPT_RELIGION",
-        "English": "Adopts {0_religion} ({1_cost}) as link(CONCEPT_STATE_RELIGION)"
+        "English": "Adopt {0_religion} ({1_cost}) as link(CONCEPT_STATE_RELIGION)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_BONUS_STATE_RELIGION",
+        "English": "Adopt {0_religion} as link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_FREE_THEOLOGY",
@@ -4637,7 +5329,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_HOLY_CITY_AGENTS",
-        "English": "Free link(CONCEPT_AGENT) in all Holy Cities"
+        "English": "Free link(CONCEPT_AGENT_NETWORK) in all Holy Cities"
       },
       {
         "zType": "TEXT_HELPTEXT_BONUS_FOUND_RELIGION",
@@ -4657,19 +5349,19 @@
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_RIVAL_NATION_OPINION",
-        "English": "{0} Foreign Opinion"
+        "English": "{0} Foreign link(CONCEPT_OPINION_PLAYER,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_TRIBE_OPINION",
-        "English": "{0} Tribe Opinion"
+        "English": "{0} link(CONCEPT_OPINION_TRIBE,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_RELIGION_OPINION",
-        "English": "{0} Religion Opinion"
+        "English": "{0} link(CONCEPT_OPINION_RELIGION,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_FAMILY_OPINION",
-        "English": "{0} Family Opinion"
+        "English": "{0} link(CONCEPT_OPINION_FAMILY,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_YIELD_GLOBAL",
@@ -4681,7 +5373,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_OPINION",
-        "English": "{0} Opinion"
+        "English": "{0} link(CONCEPT_OPINION_CHARACTER,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_COUNCIL_CHARACTER_SLIGHTED",
@@ -4692,8 +5384,12 @@
         "English": "Missions:"
       },
       {
-        "zType": "TEXT_HELPTEXT_COURTIER_JOB",
-        "English": "Can serve as link(CONCEPT_GENERAL), link(CONCEPT_GOVERNOR), or link(CONCEPT_AGENT)."
+        "zType": "TEXT_HELPTEXT_POTENTIAL_COURTIER",
+        "English": "Potential Courtiers:"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_COURTIER",
+        "English": "All Courtiers can serve as link(CONCEPT_GENERAL,2), link(CONCEPT_GOVERNOR,2), or link(CONCEPT_AGENT,2), regardless of their link(CONCEPT_ARCHETYPE). Their Ratings affect your Global Yields (at one-third of the rate of the Leader). For example, their link(RATING_CHARISMA) will increase your {YIELD_CIVICS}link(YIELD_CIVICS). Further, their link(CONCEPT_OPINION_CHARACTER,3) of you will increase or decrease these Yield rates."
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_CITY",
@@ -4701,15 +5397,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP",
-        "English": "{0} link(YIELD_CULTURE)"
+        "English": "{0}{1} (Requires {2} link(YIELD_CULTURE))"
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_VPS",
-        "English": "{0} VPs"
+        "English": "{0} Victory {singular_0:Point:Points}"
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_VPS_STEPS",
-        "English": "+1 VP per Extra Step (II, III, etc)"
+        "English": "+1 Point per Extra Step (II, III, etc)"
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_GOVERNOR_XP",
@@ -4717,7 +5413,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_CAN_HURRY",
-        "English": "Can Hurry City Production"
+        "English": "Can Hurry Production"
       },
       {
         "zType": "TEXT_HELPTEXT_CULTURE_HELP_ENABLES_IMPROVEMENT",
@@ -4728,8 +5424,12 @@
         "English": "{0_turnScale} to Complete: {1_value}"
       },
       {
+        "zType": "TEXT_HELPTEXT_MISSION_TURNS_TO_COMPLETE_ACTIVE",
+        "English": "Time to Complete: {0_turnScale}{true_1: ({1_link})}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_MISSION_RESULT_PERCENT_CHANCE",
-        "English": "{0_percent} Chance: {1_result}{true_2: ({2})}"
+        "English": "{0_percent}: {1_result}{true_2: ({2})}"
       },
       {
         "zType": "TEXT_HELPTEXT_MISSION_FROM_RATING",
@@ -4761,11 +5461,15 @@
       },
       {
         "zType": "TEXT_HELPTEXT_MISSION_DIPLOMACY_TURNS",
-        "English": "Cannot conduct Diplomacy for {0} {1_turnScale}"
+        "English": "Cannot conduct Diplomacy for {0} more {1_turnScale}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ARCHETYPE_HELP",
+        "English": "A character can only have one Archetype, and they are Traits that determine which jobs a Character may have. (For example, link(TRAIT_JUDGE_ARCHETYPE,1) can be either a link(CONCEPT_GOVERNOR) or a link(COUNCIL_CHANCELLOR).) Each Archetype also grants different bonuses, some of which only apply if the character is doing a particular job, such as link(CONCEPT_GENERAL) or link(CONCEPT_GOVERNOR). The field of study you choose for your Heirs determines their eventual Archetype."
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_TITLE",
-        "English": "{0_trait} (Trait)"
+        "English": "{true_0:{0_icon} }{1_trait} ({true_2:link(CONCEPT_ARCHETYPE):Trait})"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_LEADER_MISSION",
@@ -4773,7 +5477,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_LEADER",
-        "English": "Leader: {0}"
+        "English": "As Leader: {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_GOVERNOR",
@@ -4788,8 +5492,8 @@
         "English": "link(CONCEPT_GENERAL) (if Leader): {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TRAIT_NO_EVENTS",
-        "English": "Less likely to be in a Random Event"
+        "zType": "TEXT_HELPTEXT_TRAIT_GENERAL_ADJACENT",
+        "English": "link(CONCEPT_GENERAL) (Adjacent Units): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_NO_MARRY",
@@ -4817,87 +5521,87 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_DEATH_CHANCE",
-        "English": "{0_value}% Chance of Death"
+        "English": "{0_value}% Chance/Year of Death"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION",
-        "English": "{0_value} Opinion of Leader"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) of Leader"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_FAMILY",
-        "English": "{0_value} Family Opinion"
+        "English": "{0_value} link(CONCEPT_OPINION_FAMILY,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_RELIGION",
-        "English": "{0_value} Opinion if not of your link(CONCEPT_STATE_RELIGION)"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if not of same link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_PROXIMITY",
-        "English": "{0_value} Opinion if too close to us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if too close to us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_STRENGTH",
-        "English": "{0_value} Opinion if stronger than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if stronger than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_KNOWLEDGE",
-        "English": "{0_value} Opinion if more knowledgeable than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more knowledgeable than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_GENERALS",
-        "English": "{0_value} Opinion if more link(CONCEPT_GENERAL,2) than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more link(CONCEPT_GENERAL,2) than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_GOVERNORS",
-        "English": "{0_value} Opinion if more link(CONCEPT_GOVERNOR,2) than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more link(CONCEPT_GOVERNOR,2) than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_WONDERS",
-        "English": "{0_value} Opinion if more Wonders than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more Wonders than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_LAWS",
-        "English": "{0_value} Opinion if more Active Laws than us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more Active Laws than us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_COGNOMEN",
-        "English": "{0_value} Opinion if Leader has better Cognomen than our Leader"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if Leader has better Cognomen than our Leader"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OPINION_TRADES",
-        "English": "{0_value} Opinion if more Trades with another Nation than with us"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) if more Trades with another Nation than with us"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_BIRTH_CHANCE",
-        "English": "{0_value}% Chance to have Children"
+        "English": "{0_value}% Chance/Year to have Children"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_CHANCE",
-        "English": "{0_value}% Chance of {1_trait}"
+        "English": "{0_value}% Chance/Year of becoming {1_trait}"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_OTHER_TRAIT_OPINION",
-        "English": "{0_value} Opinion of {1_trait} Characters"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) of {1_trait} Characters"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_LAW_OPINION",
-        "English": "{0_value} Opinion of {1_law}"
+        "English": "{0_value} link(CONCEPT_OPINION_CHARACTER,3) of {1_law}"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_STRENGTH_COUNT",
-        "English": "Strength ({0}/int(MAX_STRENGTHS))"
+        "English": "link(CONCEPT_STRENGTH) ({0}/int(MAX_STRENGTHS))"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_STRENGTH",
-        "English": "Strength (Max: int(MAX_STRENGTHS))"
+        "English": "link(CONCEPT_STRENGTH) (Max: int(MAX_STRENGTHS))"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_WEAKNESS_COUNT",
-        "English": "Weakness ({0}/int(MAX_WEAKNESSES))"
+        "English": "link(CONCEPT_WEAKNESS) ({0}/int(MAX_WEAKNESSES))"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_WEAKNESS",
-        "English": "Weakness (Max: int(MAX_WEAKNESSES))"
+        "English": "link(CONCEPT_WEAKNESS) (Max: int(MAX_WEAKNESSES))"
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_INCLUDED_IN",
@@ -4909,7 +5613,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TRAIT_COMMON_FAMILYCLASS",
-        "English": "Common in Families:"
+        "English": "Common in Families: {LIST}"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_NAME_AND_TEAM",
@@ -4949,7 +5653,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_OPINION",
-        "English": "Opinion: {0_opinion} ({1_value})"
+        "English": "link(CONCEPT_OPINION_PLAYER,3): {0_opinion} ({1_value})"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_OPINION_FAMILYCLASS",
@@ -4964,6 +5668,14 @@
         "English": "{0_opinion}: Your Strength"
       },
       {
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_TRIBUTE_TO_US",
+        "English": "{0_opinion}: Tribute to Us"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_TRIBUTE_FROM_US",
+        "English": "{0_opinion}: Tribute from Us"
+      },
+      {
         "zType": "TEXT_HELPTEXT_PLAYER_OPINION_TRADING_US",
         "English": "{0_opinion}: Trading with Us"
       },
@@ -4972,8 +5684,8 @@
         "English": "{0_opinion}: Trading with Our {1_link}"
       },
       {
-        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_DIPLOMACY_ENEMY",
-        "English": "{0_opinion}: {1_diplomacy} with Our {2_link}"
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_STOPPED",
+        "English": "{0_opinion}: You must be stopped from winning"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_OPINION_PLAY_TO_WIN_VERY_CLOSE",
@@ -4997,31 +5709,39 @@
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_RELIGION",
-        "English": "{0_opinion}: Our Religion ({1_religion})"
+        "English": "{0_opinion}: Our Religion's link(CONCEPT_OPINION_RELIGION,3) of You ({1_religion})"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_OUR_LAWS",
+        "English": "{0_value}: Our Laws{true_LIST-COUNT: ({LIST})}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_PEACE",
         "English": "{0_opinion}: Lengthy {1_peace}"
       },
       {
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_ENEMY",
+        "English": "{0_opinion}: {1_diplomacy} with Our {2_link}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_PLAYER_YOU",
         "English": "[This is You]"
       },
       {
-        "zType": "TEXT_HELPTEXT_PLAYER_STRENGTH",
-        "English": "Strength: {0}"
+        "zType": "TEXT_HELPTEXT_PLAYER_POWER",
+        "English": "link(CONCEPT_POWER): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_KNOWLEDGE",
-        "English": "Knowledge: {0}"
+        "English": "link(CONCEPT_KNOWLEDGE): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_PROXIMITY",
-        "English": "Proximity: {0}"
+        "English": "link(CONCEPT_PROXIMITY): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_RELATIONSHIP_OPINION",
-        "English": "Opinion: {0}"
+        "English": "link(CONCEPT_OPINION_CHARACTER,3): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_NAME",
@@ -5037,7 +5757,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_OPINION",
-        "English": "Opinion: {0} ({1})"
+        "English": "link(CONCEPT_OPINION_RELIGION,3): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_CURRENT_FOLLOWERS",
@@ -5057,7 +5777,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_OPINION_CITY_EFFECT",
-        "English": "From {0_opinion} Opinion: {LIST}"
+        "English": "From {0_opinion} link(CONCEPT_OPINION_RELIGION,3): {LIST}"
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_SPREAD_HELP",
@@ -5090,10 +5810,6 @@
       {
         "zType": "TEXT_HELPTEXT_FAMILY_TITLE",
         "English": "{0_family} Family"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_FAMILY_NATION",
-        "English": "Nation: {0_nation}"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILY_RELIGION",
@@ -5160,12 +5876,12 @@
         "English": "{0_value}: No link(CONCEPT_COUNCILOR,2) from Our Family"
       },
       {
-        "zType": "TEXT_HELPTEXT_FAMILY_OUR_LAWS",
-        "English": "{0_value}: Our Laws{true_LIST-COUNT: ({LIST})}"
+        "zType": "TEXT_HELPTEXT_FAMILY_GENERALS",
+        "English": "{0_value}: Our link(CONCEPT_GENERAL,2)"
       },
       {
-        "zType": "TEXT_HELPTEXT_FAMILY_STATE_RELIGION",
-        "English": "{0_value}: Our Religion ({1_religionLink})"
+        "zType": "TEXT_HELPTEXT_FAMILY_GOVERNORS",
+        "English": "{0_value}: Our link(CONCEPT_GOVERNOR,2)"
       },
       {
         "zType": "TEXT_HELPTEXT_FAMILY_OUR_LUXURIES",
@@ -5237,7 +5953,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_DECISION_NAME_UPGRADE_CHARACTER",
-        "English": "Promote {0_character}"
+        "English": "Upgrade {0_character}"
       },
       {
         "zType": "TEXT_HELPTEXT_DECISION_NAME_CHOOSE_AMBITION",
@@ -5328,8 +6044,16 @@
         "English": "Create link(CONCEPT_AGENT_NETWORK) in {0_city}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TILE_CARAVAN_MISSION_BUTTON",
-        "English": "link(CONCEPT_CARAVAN_MISSION) ({0_player})"
+        "zType": "TEXT_HELPTEXT_TILE_CARAVAN_MISSION_START_BUTTON",
+        "English": "link(CONCEPT_CARAVAN_MISSION) to {0_player}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_CARAVAN_MISSION_NO_PLAYERS",
+        "English": "link(CONCEPT_CARAVAN_MISSION) (No Contacts)"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TILE_CARAVAN_MISSION_CANCEL_BUTTON",
+        "English": "Cancel link(CONCEPT_CARAVAN_MISSION) ({0_player})"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_ADD_ROAD_BUTTON",
@@ -5417,19 +6141,19 @@
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_SPREAD_RELIGION_BUTTON",
-        "English": "Spread {0_religion} to {1_city}"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) {0_religion} to {1_city}"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_PURGE_RELIGION_BUTTON",
         "English": "Purge {0_religion}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_BUTTON",
-        "English": "Convert to {0_religion} ({1_barbarian})"
+        "zType": "TEXT_HELPTEXT_TILE_SPREAD_RELIGION_TO_TRIBE_BUTTON",
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) {0_religion} to {1_tribe}"
       },
       {
-        "zType": "TEXT_HELPTEXT_TILE_CONVERT_TRIBE_TO_RELIGION_GENERIC_BUTTON",
-        "English": "Convert to {0_religion}"
+        "zType": "TEXT_HELPTEXT_TILE_SPREAD_RELIGION_TO_TRIBE_GENERIC_BUTTON",
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) {0_religion} to a link(CONCEPT_TRIBE)"
       },
       {
         "zType": "TEXT_HELPTEXT_TILE_LOCK_BUTTON",
@@ -5464,16 +6188,8 @@
         "English": "Harvest: {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_RESOURCE_FROM",
-        "English": "From {0}:"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_RESOURCE_FROM_LIST",
-        "English": "From {0}: {LIST}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_RESOURCE_MISSING",
-        "English": "{0}: {1_value} Opinion/City if Missing"
+        "English": "Desired by {0}: {1_value} link(CONCEPT_OPINION_FAMILY,3)/City if Missing"
       },
       {
         "zType": "TEXT_HELPTEXT_PROJECT_NAME",
@@ -5508,8 +6224,8 @@
         "English": "Replaces {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_PROJECT_BUILD_COST",
-        "English": "Construction: {0} link(YIELD_CIVICS)"
+        "zType": "TEXT_HELPTEXT_PRODUCTION_CIVICS",
+        "English": "Production: {0} {YIELD_CIVICS}link(YIELD_CIVICS)"
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_YIELD_PER_YEAR",
@@ -5529,11 +6245,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_OPINION_RELIGION",
-        "English": "{0_value} Religion Opinion"
+        "English": "{0_value} link(CONCEPT_OPINION_RELIGION,1)"
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_OPINION_RELIGION_X",
-        "English": "{0_value} {1_religion} Opinion"
+        "English": "{0_value} {1_religion} link(CONCEPT_OPINION_RELIGION,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_COSTS_SINGLE",
@@ -5541,7 +6257,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_BUILD",
-        "English": "Construction: {0} link(YIELD_CIVICS) {1_progress}"
+        "English": "Production: {0} {YIELD_CIVICS}link(YIELD_CIVICS) {1_progress}"
       },
       {
         "zType": "TEXT_HELPTEXT_SPECIALIST_LEADS_TO",
@@ -5564,10 +6280,6 @@
         "English": "Spouse(s):"
       },
       {
-        "zType": "TEXT_HELPTEXT_SUCCESSION_HELP_CURRENT_SUCCESSION_LAW",
-        "English": "Current Succession Law: {0_law}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_TAB_PANEL_CHARACTERS_HEIRS",
         "English": "Heir(s):"
       },
@@ -5577,15 +6289,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_THEOLOGY_HELP_SPREAD_CHANGE",
-        "English": "{0}% Spread Chance (per Year)"
+        "English": "{0}% link(CONCEPT_SPREAD_RELIGION,1) Chance (per {1_turnScale})"
       },
       {
         "zType": "TEXT_HELPTEXT_THEOLOGY_HELP_LAW_OPINION",
-        "English": "Religion's Opinion from {0_law}: {1}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_THEOLOGY_HELP_CANNOT_ESTABLISH",
-        "English": "Cannot Establish Theologies with {LIST}"
+        "English": "{true_0:{0_religion} link(CONCEPT_OPINION_RELIGION,3):link(CONCEPT_OPINION_RELIGION,1)} from {1_law}: {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_THEOLOGY_HELP_LEADS_TO",
@@ -5616,18 +6324,6 @@
         "English": "{true_0:{0}:City}: {1}"
       },
       {
-        "zType": "TEXT_HELPTEXT_RATING_HELP_GENERAL_STRENGTH",
-        "English": "{0} Strength"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_RATING_HELP_GENERAL_DEFENSE",
-        "English": "{0} Defense"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_RATING_HELP_GENERAL_CRITICAL_CHANCE",
-        "English": "{0} Critical Chance"
-      },
-      {
         "zType": "TEXT_HELPTEXT_RATING_HELP_UNIT",
         "English": "{true_0:{0}:Unit}: {1}"
       },
@@ -5656,6 +6352,10 @@
         "English": "{0}% of {1_yield}"
       },
       {
+        "zType": "TEXT_HELPTEXT_UNIT_EFFECT_ADJACENT",
+        "English": "{0}: [Adjacent Units] {1}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_UNIT_EFFECT_INVALID_PROMOTION",
         "English": "(Promotion not valid for this Unit)"
       },
@@ -5668,20 +6368,12 @@
         "English": "{true_0:Keep:Make} {1} link(CONCEPT_GENERAL) of {2}"
       },
       {
-        "zType": "TEXT_HELPTEXT_MAKE_GENERAL_MOVEMENT",
-        "English": "{0} Movement (as Leader)"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_MAKE_GENERAL_OPINION_STRENGTH",
-        "English": "{0}icon(STRENGTH): {1_opinion}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_MAKE_GENERAL_XP_FROM_COMBAT",
         "English": "Gains XP from Combat"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_GENERAL_OPINION",
-        "English": "{0} Opinion"
+        "English": "{0} link(CONCEPT_OPINION_CHARACTER,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_PLAYER_LEADER_COGNOMEN",
@@ -5785,11 +6477,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_CHARACTER_HELP_OPINION_OF_YOU",
-        "English": "Opinion of You: {0} ({1})"
+        "English": "link(CONCEPT_OPINION_CHARACTER,3) of You: {0} ({1})"
       },
       {
         "zType": "TEXT_HELPTEXT_CHARACTER_HELP_PLAYER_OPINION_OF_YOU",
-        "English": "{0,1_player} Opinion of You: {1} ({2})"
+        "English": "{0,1_player} link(CONCEPT_OPINION_PLAYER,3) of You: {1} ({2})"
       },
       {
         "zType": "TEXT_HELPTEXT_CHARACTER_NATION_ETHNICITY",
@@ -5840,12 +6532,12 @@
         "English": "{0}: At {1_diplomacy} with {2}"
       },
       {
-        "zType": "TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION",
-        "English": "{0}: {1_religion} is link(CONCEPT_STATE_RELIGION)"
+        "zType": "TEXT_HELPTEXT_CHARACTER_OPINION_LEADER_RELIGION",
+        "English": "{0}: You {true_2:don't }follow {1_religion}"
       },
       {
-        "zType": "TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION_NOT",
-        "English": "{0}: {1_religion} is not link(CONCEPT_STATE_RELIGION)"
+        "zType": "TEXT_HELPTEXT_CHARACTER_OPINION_STATE_RELIGION",
+        "English": "{0}: {1_religion} is {true_2:not }link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_HELPTEXT_CHARACTER_OPINION_TRAIT_RELIGION",
@@ -5888,20 +6580,28 @@
         "English": "{0}: More Trades with another Nation, {1}, than with {3_player}, {2}"
       },
       {
-        "zType": "TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_ARCHETYPE",
-        "English": "Archetype: {0}"
+        "zType": "TEXT_HELPTEXT_CHARACTER_TRAIT_STRENGTH",
+        "English": "{0} (link(CONCEPT_STRENGTH))"
       },
       {
-        "zType": "TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_GOVERNOR",
-        "English": "(As link(CONCEPT_GOVERNOR), {0})"
+        "zType": "TEXT_HELPTEXT_CHARACTER_TRAIT_WEAKNESS",
+        "English": "{0} (link(CONCEPT_WEAKNESS))"
       },
       {
-        "zType": "TEXT_HELPTEXT_CHARACTER_RATING_TRAIT_GENERAL",
-        "English": "(As link(CONCEPT_GENERAL), {0})"
+        "zType": "TEXT_HELPTEXT_CHARACTER_TRAIT_GOVERNOR",
+        "English": "As link(CONCEPT_GOVERNOR): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL",
+        "English": "As link(CONCEPT_GENERAL): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_CHARACTER_TRAIT_GENERAL_ADJACENT",
+        "English": "As link(CONCEPT_GENERAL): [Adjacent Units]{0}"
       },
       {
         "zType": "TEXT_HELPTEXT_LEADER_COLON_SPACE",
-        "English": "Leader: {0}"
+        "English": "As Leader: {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_CHARACTER_MARRIES",
@@ -5940,6 +6640,10 @@
         "English": "Will stop being the link(CONCEPT_AGENT) in {0_city}"
       },
       {
+        "zType": "TEXT_HELPTEXT_DEATH_WARNING",
+        "English": "Warning: {0_character} is {1_trait}"
+      },
+      {
         "zType": "TEXT_HELPTEXT_CHOOSE_GOVERNOR",
         "English": "Choose link(CONCEPT_GOVERNOR) for {0_city}"
       },
@@ -5961,7 +6665,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_GOVERNOR_OPINION",
-        "English": "{0} Opinion"
+        "English": "{0} link(CONCEPT_OPINION_CHARACTER,3)"
       },
       {
         "zType": "TEXT_HELPTEXT_MAKE_AGENT",
@@ -5970,10 +6674,6 @@
       {
         "zType": "TEXT_HELPTEXT_MAKE_AGENT_ALREADY",
         "English": "Is Already link(CONCEPT_AGENT)"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_MAKE_AGENT_OPINION",
-        "English": "Opinion: {0} ({1})"
       },
       {
         "zType": "TEXT_HELPTEXT_CHOOSE_AGENT_FOR_CITY",
@@ -6112,6 +6812,10 @@
         "English": "Load the single-player game that was last saved"
       },
       {
+        "zType": "TEXT_HELPTEXT_MAIN_MENU_NEW_GAME",
+        "English": "The current mod does not allow new games - use the scenario menu"
+      },
+      {
         "zType": "TEXT_HELPTEXT_MAIN_MENU_WEBSITE",
         "English": "Visit the Mohawk website for more info"
       },
@@ -6148,8 +6852,20 @@
         "English": "Active player surrenders and becomes controlled by the AI"
       },
       {
+        "zType": "TEXT_HELPTEXT_CLOUD_SKIP",
+        "English": "Skip the active player's turn"
+      },
+      {
         "zType": "TEXT_HELPTEXT_CLOUD_REFRESH",
         "English": "Click to check for updates for the status of your cloud games"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_CLOUD_GAME_RIVAL_TURN",
+        "English": "It is currently another player's turn in this cloud game. [CTRL+Click] to load the game anyway."
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OBSERVER_SWITCH",
+        "English": "[ALT+Click] to switch observer perspective to {0_player}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPTION_TEAM_NATIONS",
@@ -6197,11 +6913,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_INHERITANCE_NEW_LAW_DESC",
-        "English": "Spend {0_cost}icon(YIELD_CIVICS) to pass {1_law}?"
+        "English": "Spend {0_cost}{YIELD_CIVICS} to pass {1_law}?"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_INHERITANCE_REPLACE_LAW_DESC",
-        "English": "Spend {0_cost}icon(YIELD_CIVICS) to replace {1_law} with {2_law}?"
+        "English": "Spend {0_cost}{YIELD_CIVICS} to replace {1_law} with {2_law}?"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_INHERITANCE_CURRENT_PLACE_IN_LINE",
@@ -6225,11 +6941,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_LAWS_PASS_NEW_LAW_DESC",
-        "English": "Spend {0}icon(YIELD_CIVICS) to pass this Law?"
+        "English": "Spend {0}{YIELD_CIVICS} to pass this Law?"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_LAWS_REPLACE_LAW_DESC",
-        "English": "Spend {0}icon(YIELD_CIVICS) to replace {1_law} with {2_law}?"
+        "English": "Spend {0}{YIELD_CIVICS} to replace {1_law} with {2_law}?"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_CUSTOM_MAP_OPTIONS",
@@ -6277,7 +6993,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_SPREAD_BY_RELIGION",
-        "English": "Spread By"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) By"
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_UNITS",
@@ -6321,11 +7037,11 @@
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_REQUIRES_PROJECTS",
-        "English": "Requires {singular_0:link(CONCEPT_PROJECT_INFO):Projects}"
+        "English": "Requires {singular_0:link(CONCEPT_PROJECT):Projects}"
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_UNLOCKS_PROJECTS",
-        "English": "Unlocks {singular_0:link(CONCEPT_PROJECT_INFO):Projects}"
+        "English": "Unlocks {singular_0:link(CONCEPT_PROJECT):Projects}"
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_PROJECT_LEADS_TO",
@@ -6333,7 +7049,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_PROJECTS",
-        "English": "{singular_0:link(CONCEPT_PROJECT_INFO):Projects}"
+        "English": "{singular_0:link(CONCEPT_PROJECT):Projects}"
       },
       {
         "zType": "TEXT_HELPTEXT_HELPSCREEN_REQUIRED_RELIGIONS",
@@ -6445,7 +7161,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_AGENT",
-        "English": "link(CONCEPT_AGENT,1) in {0_city}"
+        "English": "an link(CONCEPT_AGENT) in {0_city}"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_DECISION_UPGRADE_CHARACTER_COURTIER",
@@ -6457,7 +7173,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_AMBITION_DESC",
-        "English": "Is it time to choose your next link(CONCEPT_AMBITION), the future direction of {0_nation}?"
+        "English": "It is time to choose your next link(CONCEPT_AMBITION). What shall be the future direction of {0_nation}?"
       },
       {
         "zType": "TEXT_HELPTEXT_POPUP_DECISION_CHOOSE_CITY_FAMILY_TITLE",
@@ -6480,6 +7196,10 @@
         "English": "(AI plays on this level)"
       },
       {
+        "zType": "TEXT_HELPTEXT_BOUNDARY_RAIDS",
+        "English": "link(TRIBE_RAIDERS) invade from distant lands"
+      },
+      {
         "zType": "TEXT_HELPTEXT_NO_DECLARE_WAR",
         "English": "Nations will not Declare link(DIPLOMACY_WAR)"
       },
@@ -6493,7 +7213,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_DIFFICULTY_EFFECT_CITY_REBEL_PROB",
-        "English": "{0_effectCity}: {1} {2_rebels} Units"
+        "English": "{0_effectCity}: {1} {2_rebel} Chance"
       },
       {
         "zType": "TEXT_HELPTEXT_END_YEAR",
@@ -6533,7 +7253,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_LEGITIMACY",
-        "English": "Requires {0} Legitimacy icon(YIELD_LEGITIMACY)"
+        "English": "Requires {0}  icon(YIELD_LEGITIMACY)Legitimacy"
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_CITIES",
@@ -6581,7 +7301,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS",
-        "English": "Requires {0} {singular_0:Wonder:Wonders}"
+        "English": "Requires {0} {singular_0:link(CONCEPT_WONDER):link(CONCEPT_WONDER,2)}"
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_ACTIVE_LAWS",
@@ -6640,10 +7360,6 @@
         "English": "Requires link(CONCEPT_STATE_RELIGION)"
       },
       {
-        "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_HIGHEST_VP",
-        "English": "Requires Highest VP"
-      },
-      {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_PLAYER_DEAD",
         "English": "Eliminate {true_0:{0}:a Nation}"
       },
@@ -6693,7 +7409,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_REQUIRES_WONDERS_CULTURE",
-        "English": "Requires {0_num} {singular_0:Wonder:Wonders} with {1_cultureLevel} link(YIELD_CULTURE)"
+        "English": "Requires {0_num} {singular_0:link(CONCEPT_WONDER):link(CONCEPT_WONDER,2)} with {1_cultureLevel} link(YIELD_CULTURE)"
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_TURNS_LEFT",
@@ -6705,7 +7421,7 @@
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_VICTORY_ELIGIBLE",
-        "English": "(Crowning Ambition: will never become link(CONCEPT_LEGACY,1))"
+        "English": "(Crowning Ambition: Will never become a link(CONCEPT_LEGACY))"
       },
       {
         "zType": "TEXT_HELPTEXT_GOAL_HELP_MIN_TIER",
@@ -6812,36 +7528,52 @@
         "English": "{0_opinion}: {1,1_ethnicity} Marriage(s) to Leader's Descendants"
       },
       {
-        "zType": "TEXT_HELPTEXT_OPINION_HELP_OPINION_TOTAL",
-        "English": "Total: {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_OPINION_HELP_OPINION_OF",
-        "English": "{0} Opinion of {1}: {2}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION",
-        "English": "Tribe Opinion: {0}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_MERCENARY_COST_MODIFIER",
         "English": "link(CONCEPT_MERCENARY) Cost Modifier: {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION",
-        "English": "Religion Opinion: {0}"
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_OPINION_TOTAL",
+        "English": "Total: {0}"
       },
       {
-        "zType": "TEXT_HELPTEXT_OPINION_HELP_OPINION_OF_YOU",
-        "English": "{0} Opinion of You: {1}"
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION_OF",
+        "English": "{0} link(CONCEPT_OPINION_TRIBE,3) of {true_1:{1}:You}: {2}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_TRIBE_OPINION",
+        "English": "link(CONCEPT_OPINION_TRIBE,1): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_CHARACTER_OPINION_OF",
+        "English": "{0} link(CONCEPT_OPINION_CHARACTER,3) of {true_1:{1}:You}: {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_CHARACTER_OPINION",
-        "English": "Character Opinion: {0}"
+        "English": "link(CONCEPT_OPINION_CHARACTER,1): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_FAMILY_OPINION_OF",
+        "English": "{0} link(CONCEPT_OPINION_FAMILY,3) of {true_1:{1}:You}: {2}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_FAMILY_OPINION",
-        "English": "Family Opinion: {0}"
+        "English": "link(CONCEPT_OPINION_FAMILY,1): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER",
+        "English": "{0_player} link(CONCEPT_OPINION_PLAYER,3) of {true_1:{1}:You}: {2}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_RIVAL_NATION",
+        "English": "Foreign link(CONCEPT_OPINION_PLAYER,3): {0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION_OF",
+        "English": "{0} link(CONCEPT_OPINION_RELIGION,3) of {true_1:{1}:You}: {2}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OPINION_HELP_RELIGION_OPINION",
+        "English": "link(CONCEPT_OPINION_RELIGION,1): {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_BIRTH_MODIFIER",
@@ -6857,23 +7589,27 @@
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_STRENGTH_MODIFIER",
-        "English": "As link(CONCEPT_GENERAL): {0}icon(STRENGTH)"
+        "English": "As link(CONCEPT_GENERAL): {0}icon(ATTACKDEFENSE)"
       },
       {
         "zType": "TEXT_HELPTEXT_OPINION_HELP_YIELD_RATE",
         "English": "As link(CONCEPT_GOVERNOR): {0}{1_yield}"
       },
       {
+        "zType": "TEXT_HELPTEXT_LEADER_OPINION",
+        "English": "Leader: {0_leader} ({1})"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_HEAD_OPINION",
+        "English": "Head: {0_head} ({1})"
+      },
+      {
         "zType": "TEXT_HELPTEXT_OPINION_NO_EFFECTS",
         "English": "No Effects"
       },
       {
-        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_OF_PLAYER",
-        "English": "{0_player} Opinion of {true_1:{1}:You}: {2}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_PLAYER_OPINION_RIVAL_NATION",
-        "English": "Foreign Opinion: {0}"
+        "zType": "TEXT_HELPTEXT_RELIGION_EFFECT_CITY_EACH",
+        "English": "[Each {true_0:{0_religion} }City] {1}"
       },
       {
         "zType": "TEXT_HELPTEXT_RELIGION_OPINION_RELIGIOUS_IMPROVEMENTS",
@@ -6884,20 +7620,8 @@
         "English": "{0}: {1,1_religion} Specialists"
       },
       {
-        "zType": "TEXT_HELPTEXT_RELIGION_OUR_LAWS",
-        "English": "{0_value}: Our Laws{true_LIST-COUNT: ({LIST})}"
-      },
-      {
         "zType": "TEXT_HELPTEXT_RELIGION_OPINION_DIPLOMACY",
         "English": "{0}: {1_diplomacy} with {2,1_religion} Nations/Tribes"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_RELIGION_OPINION_RELIGION_OPINION",
-        "English": "Religion Opinion: {0}"
-      },
-      {
-        "zType": "TEXT_HELPTEXT_RELIGION_EFFECT_CITY_EACH",
-        "English": "[Each City] {0}"
       },
       {
         "zType": "TEXT_HELPTEXT_OPPONENT_LEVEL",
@@ -6916,8 +7640,12 @@
         "English": "Expand Tooltip: {true_0: {0_presskey}}"
       },
       {
+        "zType": "TEXT_HELPTEXT_TOOLTIP_RIGHT_CLICK_CITY",
+        "English": "[RIGHT-CLICK] to Choose Production"
+      },
+      {
         "zType": "TEXT_HELPTEXT_TOOLTIP_FREEZE_TOOLTIP",
-        "English": "Freeze Tooltip: [MIDDLE-CLICK]<br>{true_0: or {0_presskey}}"
+        "English": "Freeze Tooltip:\n[MIDDLE-CLICK]{true_0: or {0_presskey}}"
       },
       {
         "zType": "TEXT_HELPTEXT_TOOLTIP_TILE_XY",
@@ -6926,6 +7654,58 @@
       {
         "zType": "TEXT_HELPTEXT_TOOLTIP_COMMUNITY_CONTRIBUTION",
         "English": "Community Contribution:<br>{0}"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_AND",
+        "English": "and"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_OR",
+        "English": "or"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_AI_VALUE",
+        "English": "AI Value"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_AI_STOCKPILE",
+        "English": "AI Stockpile"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_AI_ROLE",
+        "English": "AI Role"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TARGET",
+        "English": "Target"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_BEST_FAMILY",
+        "English": "Best Family"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_DEBUG_STAR",
+        "English": "debug*"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_STAR_ID",
+        "English": "*ID"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_INFERTILE",
+        "English": "Infertile"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_ROYAL",
+        "English": "Royal"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_RETIRED",
+        "English": "Retired"
+      },
+      {
+        "zType": "TEXT_HELPTEXT_TEMPORARY",
+        "English": "Temporary"
       }
     ]
   }

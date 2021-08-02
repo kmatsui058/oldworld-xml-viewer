@@ -38,7 +38,7 @@
         "TechPrereq": "TECH_SOVEREIGNTY"
       },
       {
-        "zType": "LAWCLASS_COLONIZATION_SERFDOM",
+        "zType": "LAWCLASS_COLONIES_SERFDOM",
         "TechPrereq": "TECH_NAVIGATION"
       },
       {

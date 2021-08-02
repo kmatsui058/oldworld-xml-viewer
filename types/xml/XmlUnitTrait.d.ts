@@ -12,6 +12,7 @@ export interface Entry {
   zIconName: ZType | string;
   iMinAITargetPercent?: ZType | string;
   iMaxAITargetPercent?: ZType | string;
+  bMeleeCounter?: ZType | string;
   EffectUnit: ZType | string;
 }
 export interface ZType {

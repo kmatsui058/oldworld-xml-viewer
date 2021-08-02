@@ -69,6 +69,14 @@
         "English": "Graphics Presets for all options"
       },
       {
+        "zType": "TEXT_MISCOPTION_LOD_QUALITY_NAME",
+        "English": "Building Quality"
+      },
+      {
+        "zType": "TEXT_MISCOPTION_LOD_QUALITY_DESC",
+        "English": "Building quality and level of detail"
+      },
+      {
         "zType": "TEXT_MISCOPTION_RENDERING_QUALITY_NAME",
         "English": "Rendering Quality"
       },
@@ -91,6 +99,14 @@
       {
         "zType": "TEXT_MISCOPTION_FOW_QUALITY_DESC",
         "English": "FOW rendering quality"
+      },
+      {
+        "zType": "TEXT_MISCOPTION_FOREST_QUALITY_NAME",
+        "English": "Forest Quality"
+      },
+      {
+        "zType": "TEXT_MISCOPTION_FOREST_QUALITY_DESC",
+        "English": "Forest Density and Variety"
       },
       {
         "zType": "TEXT_MISCOPTION_COLORBLIND_FILTER_NAME",
@@ -157,6 +173,14 @@
         "English": "Enable Motion Blur post-process"
       },
       {
+        "zType": "TEXT_MISCOPTION_DEPTH_OF_FIELD_NAME",
+        "English": "Depth of Field"
+      },
+      {
+        "zType": "TEXT_MISCOPTION_DEPTH_OF_FIELD_DESC",
+        "English": "Enable blur effect at the top of the scree"
+      },
+      {
         "zType": "TEXT_MISCOPTION_COLOR_CORRECTION_NAME",
         "English": "Color Correction"
       },
@@ -170,15 +194,15 @@
       },
       {
         "zType": "TEXT_MISCOPTION_ANIMATION_LOD_DESC",
-        "English": "Disable unit/resource idle animations when the camera is zoomed out"
+        "English": "Reduce the level of detail of animated objects when the camera is zoomed out"
       },
       {
-        "zType": "TEXT_MISCOPTION_SINGLE_UNITS_NAME",
-        "English": "Show single units"
+        "zType": "TEXT_MISCOPTION_SINGLE_OBJECTS_NAME",
+        "English": "Show single objects"
       },
       {
-        "zType": "TEXT_MISCOPTION_SINGLE_UNITS_DESC",
-        "English": "Display single units instead of groups"
+        "zType": "TEXT_MISCOPTION_SINGLE_OBJECTS_DESC",
+        "English": "Display single units and resource instead of groups"
       },
       {
         "zType": "TEXT_MISCOPTION_MUSIC_VOLUME_NAME",

@@ -8,8 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  Name: ZType | Name2 | string;
-  Text: ZType | Name2 | string;
+  Name?: ZType | Name2 | string;
+  Text?: ZType | Name2 | string;
   zBackgroundName?: ZType | string;
   zFrameType?: ZFrameType;
   zVideoAsset?: Name2 | string;
@@ -18,15 +18,15 @@ export interface Entry {
   zAudioTrigger?: ZType | Name2 | string;
   zAuthor: ZType | Name2 | string;
   zNotes?: ZFrameType;
-  aeSubjects?: AeSubjects;
+  aeSubjects: AeSubjects;
   SubjectRepeatTurns?: SubjectRepeatTurns;
   SubjectExtras?: SubjectRepeatTurns;
-  SubjectNotExtras?: SubjectNotExtras;
+  SubjectNotExtras?: SubjectRepeatTurns;
   SubjectAny?: SubjectAny;
   SubjectRelations?: SubjectRelations;
-  SubjectNotRelations?: SubjectNotRelations;
+  SubjectNotRelations?: SubjectRelations;
   aeBonuses?: AeBonuses;
-  aeOptions?: AeSubjects;
+  aeOptions: AeSubjects;
   Class?: ZType | Name2 | string;
   Trigger?: ZType | Name2 | string;
   TriggerData?: ZType | Name2 | string;
@@ -36,6 +36,7 @@ export interface Entry {
   iImageExtra?: ZType | Name2 | string;
   iImageOther?: ZType | Name2 | string;
   iLookAtSubject?: ZType | Name2 | string;
+  iMarryTempSubject?: ZType | Name2 | string;
   iSortOrder?: ZType | Name2 | string;
   EventLinkPrereq?: ZType | Name2 | string;
   iEventLinkTurns?: ZType | Name2 | string;
@@ -51,10 +52,9 @@ export interface Entry {
   iPriority?: ZType | Name2 | string;
   iWeight?: ZType | Name2 | string;
   iProb?: ZType | Name2 | string;
-  iRepeatTurns?: ZType | Name2 | string;
+  iRepeatTurns: ZType | Name2 | string;
   bHidePrereqs?: ZType | Name2 | string;
   bNoCharacters?: ZType | Name2 | string;
-  bModal?: ZType | Name2 | string;
   bAllOptions?: ZType | Name2 | string;
   bIgnoreOptions?: ZType | Name2 | string;
   bAlwaysTriggers?: ZType | Name2 | string;
@@ -79,10 +79,6 @@ export interface AeBonuses {
   comment?: string;
   zValue?: string[] | (ZType | string)[] | string;
 }
-export interface SubjectNotRelations {
-  comment?: string;
-  Triple?: Triple;
-}
 export interface SubjectRelations {
   comment?: string;
   Triple?: Triple | Triple[];
@@ -95,10 +91,6 @@ export interface Triple {
 export interface SubjectAny {
   comment?: string;
   Pair?: Pair[];
-}
-export interface SubjectNotExtras {
-  comment?: string;
-  Pair?: Pair;
 }
 export interface SubjectRepeatTurns {
   comment?: string;

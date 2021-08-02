@@ -8,7 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
+  Range: ZType | string;
   EffectCity?: ZType | string;
   EffectUnit?: ZType | string;
   Color: ZType | string;

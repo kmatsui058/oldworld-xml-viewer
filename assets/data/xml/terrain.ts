@@ -39,7 +39,7 @@
         "DefaultHeight": {
           
         },
-        "aiDefendEffectUnit": {
+        "aiDefendMeleeEffectUnit": {
           
         },
         "aeHeightAsset": {

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -54,7 +54,7 @@
       },
       {
         "zType": "COUNCIL_AMBASSADOR",
-        "zName": "Ambassador",
+        "Name": "TEXT_COUNCIL_AMBASSADOR",
         "zIconName": "COUNCIL_AMBASSADOR",
         "TechPrereq": "TECH_ARISTOCRACY",
         "iXP": "5",
@@ -62,13 +62,19 @@
         "AssignMission": "MISSION_AMBASSADOR",
         "aiPlayerOpinion": {
           "Pair": {
-            "zIndex": "RATING_WISDOM",
+            "zIndex": "RATING_CHARISMA",
             "iValue": "10"
           }
         },
         "aiTribeOpinion": {
           "Pair": {
             "zIndex": "RATING_COURAGE",
+            "iValue": "10"
+          }
+        },
+        "aiFamilyOpinion": {
+          "Pair": {
+            "zIndex": "RATING_DISCIPLINE",
             "iValue": "10"
           }
         },
@@ -88,20 +94,11 @@
             }
           ]
         },
-        "aaiRatingYieldGlobal": {
-          "Pair": {
-            "zIndex": "RATING_CHARISMA",
-            "SubPair": {
-              "zSubIndex": "YIELD_CIVICS",
-              "iValue": "20"
-            }
-          }
-        },
         "aaiRatingYieldCity": {
           "Pair": {
-            "zIndex": "RATING_DISCIPLINE",
+            "zIndex": "RATING_WISDOM",
             "SubPair": {
-              "zSubIndex": "YIELD_GROWTH",
+              "zSubIndex": "YIELD_CULTURE",
               "iValue": "10"
             }
           }
@@ -109,18 +106,12 @@
       },
       {
         "zType": "COUNCIL_CHANCELLOR",
-        "zName": "Chancellor",
+        "Name": "TEXT_COUNCIL_CHANCELLOR",
         "zIconName": "COUNCIL_CHANCELLOR",
         "TechPrereq": "TECH_SPOKED_WHEEL",
         "iXP": "5",
         "iOpinion": "40",
         "AssignMission": "MISSION_CHANCELLOR",
-        "aiFamilyOpinion": {
-          "Pair": {
-            "zIndex": "RATING_CHARISMA",
-            "iValue": "10"
-          }
-        },
         "abTraitPrereq": {
           "Pair": [
             {
@@ -139,6 +130,13 @@
         },
         "aaiRatingYieldGlobal": {
           "Pair": [
+            {
+              "zIndex": "RATING_CHARISMA",
+              "SubPair": {
+                "zSubIndex": "YIELD_CIVICS",
+                "iValue": "20"
+              }
+            },
             {
               "zIndex": "RATING_COURAGE",
               "SubPair": {
@@ -159,7 +157,7 @@
           "Pair": {
             "zIndex": "RATING_WISDOM",
             "SubPair": {
-              "zSubIndex": "YIELD_CULTURE",
+              "zSubIndex": "YIELD_GROWTH",
               "iValue": "10"
             }
           }
@@ -167,7 +165,7 @@
       },
       {
         "zType": "COUNCIL_SPYMASTER",
-        "zName": "Spymaster",
+        "Name": "TEXT_COUNCIL_SPYMASTER",
         "zIconName": "COUNCIL_SPYMASTER",
         "TechPrereq": "TECH_PORTCULLIS",
         "iXP": "5",

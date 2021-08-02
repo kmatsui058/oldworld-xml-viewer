@@ -6,1197 +6,1281 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         }
       },
       {
-        "zType": "CITYNAME_ASSUR",
-        "zName": "Assur"
-      },
-      {
-        "zType": "CITYNAME_NINEVEH",
-        "zName": "Nineveh"
-      },
-      {
-        "zType": "CITYNAME_DAMASCUS",
-        "zName": "Damascus"
-      },
-      {
-        "zType": "CITYNAME_MELIDDU",
-        "zName": "Meliddu"
-      },
-      {
-        "zType": "CITYNAME_KALHU",
-        "zName": "Nimrud"
-      },
-      {
-        "zType": "CITYNAME_HALAB",
-        "zName": "Halab"
-      },
-      {
-        "zType": "CITYNAME_ARPAD",
-        "zName": "Arpad"
-      },
-      {
-        "zType": "CITYNAME_KANESH",
-        "zName": "Kanesh"
-      },
-      {
-        "zType": "CITYNAME_DUR_SHARRUKIN",
-        "zName": "Dur-Sharrukin"
-      },
-      {
-        "zType": "CITYNAME_QATNA",
-        "zName": "Qatna"
-      },
-      {
-        "zType": "CITYNAME_HARRAN",
-        "zName": "Carrhae"
-      },
-      {
-        "zType": "CITYNAME_SAREISA",
-        "zName": "Sareisa"
-      },
-      {
-        "zType": "CITYNAME_ERBIL",
-        "zName": "Erbil"
-      },
-      {
-        "zType": "CITYNAME_MARDAMAN",
-        "zName": "Mardaman"
-      },
-      {
-        "zType": "CITYNAME_EKALLATUM",
-        "zName": "Ekallatum"
-      },
-      {
-        "zType": "CITYNAME_TUSHHAN",
-        "zName": "Tushhan"
-      },
-      {
-        "zType": "CITYNAME_MARDIN",
-        "zName": "Izala"
-      },
-      {
-        "zType": "CITYNAME_ARRAPHA",
-        "zName": "Arrapha"
-      },
-      {
-        "zType": "CITYNAME_CARCHEMISH",
-        "zName": "Carchemish"
-      },
-      {
-        "zType": "CITYNAME_KAHAT",
-        "zName": "Kahat"
-      },
-      {
-        "zType": "CITYNAME_GOZAN",
-        "zName": "Gozan"
-      },
-      {
-        "zType": "CITYNAME_NISIBIS",
-        "zName": "Nisibis"
-      },
-      {
-        "zType": "CITYNAME_RESEN",
-        "zName": "Resen"
-      },
-      {
-        "zType": "CITYNAME_KAR_SULMANU_ASAREDU",
-        "zName": "Til Barsip"
-      },
-      {
-        "zType": "CITYNAME_MALIDIYA",
-        "zName": "Malidiya"
-      },
-      {
-        "zType": "CITYNAME_HAMAT",
-        "zName": "Hamata"
-      },
-      {
-        "zType": "CITYNAME_QADESH",
-        "zName": "Qadesh"
-      },
-      {
-        "zType": "CITYNAME_BABYLON",
-        "zName": "Babylon"
-      },
-      {
-        "zType": "CITYNAME_AKKAD",
-        "zName": "Akkad"
-      },
-      {
-        "zType": "CITYNAME_NIPPUR",
-        "zName": "Nippur"
-      },
-      {
-        "zType": "CITYNAME_BORSIPPA",
-        "zName": "Borsippa"
-      },
-      {
-        "zType": "CITYNAME_MARI",
-        "zName": "Mari"
-      },
-      {
-        "zType": "CITYNAME_SIPPAR",
-        "zName": "Sippar"
-      },
-      {
-        "zType": "CITYNAME_ESHNUNNA",
-        "zName": "Eshnunna"
-      },
-      {
-        "zType": "CITYNAME_DUR_KURIGALZU",
-        "zName": "Dur-Kurigalzu"
-      },
-      {
-        "zType": "CITYNAME_ELLASAR",
-        "zName": "Ellasar"
-      },
-      {
-        "zType": "CITYNAME_OPIS",
-        "zName": "Opis"
-      },
-      {
-        "zType": "CITYNAME_LARSA",
-        "zName": "Larsa"
-      },
-      {
-        "zType": "CITYNAME_UR",
-        "zName": "Ur"
-      },
-      {
-        "zType": "CITYNAME_KISH",
-        "zName": "Kish"
-      },
-      {
-        "zType": "CITYNAME_SHURUPPAK",
-        "zName": "Shuruppak"
-      },
-      {
-        "zType": "CITYNAME_LAGASH",
-        "zName": "Lagash"
-      },
-      {
-        "zType": "CITYNAME_KISURRA",
-        "zName": "Kisurra"
-      },
-      {
-        "zType": "CITYNAME_ERIDU",
-        "zName": "Eridu"
-      },
-      {
-        "zType": "CITYNAME_URUK",
-        "zName": "Uruk"
-      },
-      {
-        "zType": "CITYNAME_MARAD",
-        "zName": "Marad"
-      },
-      {
-        "zType": "CITYNAME_DILBAT",
-        "zName": "Dilbat"
-      },
-      {
-        "zType": "CITYNAME_CARTHAGO",
-        "zName": "Carthago"
-      },
-      {
-        "zType": "CITYNAME_UTICA",
-        "zName": "Utica"
-      },
-      {
-        "zType": "CITYNAME_CADIZ",
-        "zName": "Gadir"
-      },
-      {
-        "zType": "CITYNAME_HIPPO_REGIUS",
-        "zName": "Hippo Regius"
-      },
-      {
-        "zType": "CITYNAME_PANORMUS",
-        "zName": "Panormus"
-      },
-      {
-        "zType": "CITYNAME_LEPTIS_MAGNA",
-        "zName": "Leptis Magna"
-      },
-      {
-        "zType": "CITYNAME_HADRUMETUM",
-        "zName": "Hadrumetum"
-      },
-      {
-        "zType": "CITYNAME_LILYBAEUM",
-        "zName": "Lilybaeum"
-      },
-      {
-        "zType": "CITYNAME_ZAMA",
-        "zName": "Zama"
-      },
-      {
-        "zType": "CITYNAME_KARALIS",
-        "zName": "Karalis"
-      },
-      {
-        "zType": "CITYNAME_THAPSUS",
-        "zName": "Thapsus"
-      },
-      {
-        "zType": "CITYNAME_KERKUANE",
-        "zName": "Kerkuane"
-      },
-      {
-        "zType": "CITYNAME_TINGIS",
-        "zName": "Tingis"
-      },
-      {
-        "zType": "CITYNAME_SULCI",
-        "zName": "Sulci"
-      },
-      {
-        "zType": "CITYNAME_THEVESTE",
-        "zName": "Theveste"
-      },
-      {
-        "zType": "CITYNAME_MELITE",
-        "zName": "Maleth"
-      },
-      {
-        "zType": "CITYNAME_NORA",
-        "zName": "Nora"
-      },
-      {
-        "zType": "CITYNAME_SABRATA",
-        "zName": "Sabrata"
-      },
-      {
-        "zType": "CITYNAME_LIXUS",
-        "zName": "Lixus"
-      },
-      {
-        "zType": "CITYNAME_CARTHAGO_NOVA",
-        "zName": "Carthago Nova"
-      },
-      {
-        "zType": "CITYNAME_MALACA",
-        "zName": "Malaca"
-      },
-      {
-        "zType": "CITYNAME_CARTENNA",
-        "zName": "Cartenna"
-      },
-      {
-        "zType": "CITYNAME_SALDAE",
-        "zName": "Saldae"
-      },
-      {
-        "zType": "CITYNAME_SICCA",
-        "zName": "Sicca"
-      },
-      {
-        "zType": "CITYNAME_THAENAE",
-        "zName": "Thaenae"
-      },
-      {
-        "zType": "CITYNAME_ARAE_PHILAENORUM",
-        "zName": "Arae Philaenorum"
-      },
-      {
-        "zType": "CITYNAME_WASET",
-        "zName": "Waset"
-      },
-      {
-        "zType": "CITYNAME_MEMPHIS",
-        "zName": "Menefer"
-      },
-      {
-        "zType": "CITYNAME_ELEPHANTINE",
-        "zName": "Abu"
-      },
-      {
-        "zType": "CITYNAME_PI_RAMESSES",
-        "zName": "Pi-Ramesses"
-      },
-      {
-        "zType": "CITYNAME_HELIOPOLIS",
-        "zName": "Iunu"
-      },
-      {
-        "zType": "CITYNAME_ALEXANDRIA",
-        "zName": "Alexandria"
-      },
-      {
-        "zType": "CITYNAME_SAIS",
-        "zName": "Zau"
-      },
-      {
-        "zType": "CITYNAME_AKHETATEN",
-        "zName": "Akhetaten"
-      },
-      {
-        "zType": "CITYNAME_DENDERA",
-        "zName": "Iunet"
-      },
-      {
-        "zType": "CITYNAME_SHEDET",
-        "zName": "Shedet"
-      },
-      {
-        "zType": "CITYNAME_AVARIS",
-        "zName": "Hut-waret"
-      },
-      {
-        "zType": "CITYNAME_BUSIRIS",
-        "zName": "Djedu"
-      },
-      {
         "zType": "CITYNAME_ABYDOS",
-        "zName": "Abdju"
-      },
-      {
-        "zType": "CITYNAME_HIERACONPOLIS",
-        "zName": "Nekhen"
-      },
-      {
-        "zType": "CITYNAME_TANIS",
-        "zName": "Djanet"
-      },
-      {
-        "zType": "CITYNAME_PELUSIUM",
-        "zName": "Pelusium"
-      },
-      {
-        "zType": "CITYNAME_DAMIETTA",
-        "zName": "Tamiat"
-      },
-      {
-        "zType": "CITYNAME_KHEM",
-        "zName": "Khem"
-      },
-      {
-        "zType": "CITYNAME_YAMU",
-        "zName": "Yamu"
-      },
-      {
-        "zType": "CITYNAME_KHITO",
-        "zName": "Khito"
-      },
-      {
-        "zType": "CITYNAME_PTKHEKA",
-        "zName": "Ptkheka"
-      },
-      {
-        "zType": "CITYNAME_PER_WADJET",
-        "zName": "Per-Wadjet"
-      },
-      {
-        "zType": "CITYNAME_KHASUT",
-        "zName": "Khasut"
-      },
-      {
-        "zType": "CITYNAME_TIMINHOR",
-        "zName": "Timinhor"
-      },
-      {
-        "zType": "CITYNAME_PIEMRO",
-        "zName": "Piemro"
-      },
-      {
-        "zType": "CITYNAME_THONIS",
-        "zName": "Thonis"
-      },
-      {
-        "zType": "CITYNAME_MENOUTHIS",
-        "zName": "Menouthis"
-      },
-      {
-        "zType": "CITYNAME_PIKUAT",
-        "zName": "Pikuat"
-      },
-      {
-        "zType": "CITYNAME_PER_ATUM",
-        "zName": "Per-Atum"
-      },
-      {
-        "zType": "CITYNAME_HUT_HERY_IB",
-        "zName": "Hut-hery-ib"
-      },
-      {
-        "zType": "CITYNAME_TAREMU",
-        "zName": "Taremu"
-      },
-      {
-        "zType": "CITYNAME_SETENNU",
-        "zName": "Setennu"
-      },
-      {
-        "zType": "CITYNAME_TJEBNUTJER",
-        "zName": "Tjebnutjer"
-      },
-      {
-        "zType": "CITYNAME_PACHNAMUNIS",
-        "zName": "Pachnamunis"
-      },
-      {
-        "zType": "CITYNAME_TJARU",
-        "zName": "Tjaru"
-      },
-      {
-        "zType": "CITYNAME_PER_AMUN",
-        "zName": "Per-Amun"
-      },
-      {
-        "zType": "CITYNAME_WEPREHWY",
-        "zName": "Weprehwy"
-      },
-      {
-        "zType": "CITYNAME_DJEDET",
-        "zName": "Djedet"
-      },
-      {
-        "zType": "CITYNAME_SEMABEHDET",
-        "zName": "Semabehdet"
-      },
-      {
-        "zType": "CITYNAME_PER_BAST",
-        "zName": "Per-Bast"
-      },
-      {
-        "zType": "CITYNAME_PER_SOPDU",
-        "zName": "Per-Sopdu"
-      },
-      {
-        "zType": "CITYNAME_SWENETT",
-        "zName": "Swenett"
-      },
-      {
-        "zType": "CITYNAME_NUBT",
-        "zName": "Nubt"
-      },
-      {
-        "zType": "CITYNAME_BEHDET",
-        "zName": "Behdet"
-      },
-      {
-        "zType": "CITYNAME_NEKHEB",
-        "zName": "Nekheb"
-      },
-      {
-        "zType": "CITYNAME_TE_SENET",
-        "zName": "Ta-senet"
-      },
-      {
-        "zType": "CITYNAME_PER_HATHOR",
-        "zName": "Per-Hathor"
-      },
-      {
-        "zType": "CITYNAME_IUNY",
-        "zName": "Iuny"
-      },
-      {
-        "zType": "CITYNAME_SUMENU",
-        "zName": "Sumenu"
-      },
-      {
-        "zType": "CITYNAME_DJERTY",
-        "zName": "Djerty"
-      },
-      {
-        "zType": "CITYNAME_MADU",
-        "zName": "Madu"
-      },
-      {
-        "zType": "CITYNAME_IUSHENSHEN",
-        "zName": "Iushenshen"
-      },
-      {
-        "zType": "CITYNAME_GESY",
-        "zName": "Gesy"
-      },
-      {
-        "zType": "CITYNAME_GEBTU",
-        "zName": "Gebtu"
-      },
-      {
-        "zType": "CITYNAME_SESHESH",
-        "zName": "Seshesh"
-      },
-      {
-        "zType": "CITYNAME_TJENU",
-        "zName": "Tjenu"
-      },
-      {
-        "zType": "CITYNAME_IPU",
-        "zName": "Ipu"
-      },
-      {
-        "zType": "CITYNAME_HUT_REPYT",
-        "zName": "Hut-Repyt"
-      },
-      {
-        "zType": "CITYNAME_TJEBU",
-        "zName": "Tjebu"
-      },
-      {
-        "zType": "CITYNAME_SHASHOTEP",
-        "zName": "Shashotep"
-      },
-      {
-        "zType": "CITYNAME_PER_NEMTY",
-        "zName": "Per-Nemty"
-      },
-      {
-        "zType": "CITYNAME_ZAWTY",
-        "zName": "Zawty"
-      },
-      {
-        "zType": "CITYNAME_QIS",
-        "zName": "Qis"
-      },
-      {
-        "zType": "CITYNAME_KHMUN",
-        "zName": "Khmun"
-      },
-      {
-        "zType": "CITYNAME_HERWER",
-        "zName": "Herwer"
-      },
-      {
-        "zType": "CITYNAME_HEBENU",
-        "zName": "Hebenu"
-      },
-      {
-        "zType": "CITYNAME_MER_NEFER_ET",
-        "zName": "Mer-nefer-et"
-      },
-      {
-        "zType": "CITYNAME_SAKA",
-        "zName": "Saka"
-      },
-      {
-        "zType": "CITYNAME_TAYU_DJAYET",
-        "zName": "Tayu-djayet"
-      },
-      {
-        "zType": "CITYNAME_PER_MEDJED",
-        "zName": "Per-Medjed"
-      },
-      {
-        "zType": "CITYNAME_HENEN_NESUT",
-        "zName": "Henen-nesut"
-      },
-      {
-        "zType": "CITYNAME_TEPIHU",
-        "zName": "Tepihu"
-      },
-      {
-        "zType": "CITYNAME_CHENEM_WASET",
-        "zName": "Chenem-Waset"
-      },
-      {
-        "zType": "CITYNAME_IKEN",
-        "zName": "Iken"
-      },
-      {
-        "zType": "CITYNAME_BUHEN",
-        "zName": "Buhen"
-      },
-      {
-        "zType": "CITYNAME_ATHENS",
-        "zName": "Athenai"
-      },
-      {
-        "zType": "CITYNAME_SPARTA",
-        "zName": "Sparta"
-      },
-      {
-        "zType": "CITYNAME_CORINTH",
-        "zName": "Corinth"
-      },
-      {
-        "zType": "CITYNAME_THEBES",
-        "zName": "Thebes"
-      },
-      {
-        "zType": "CITYNAME_ARGOS",
-        "zName": "Argos"
-      },
-      {
-        "zType": "CITYNAME_ERETRIA",
-        "zName": "Eretria"
-      },
-      {
-        "zType": "CITYNAME_CORCYRA",
-        "zName": "Corcyra"
-      },
-      {
-        "zType": "CITYNAME_LARISSA",
-        "zName": "Larissa"
-      },
-      {
-        "zType": "CITYNAME_MILETUS",
-        "zName": "Miletus"
-      },
-      {
-        "zType": "CITYNAME_SYRACUSE",
-        "zName": "Syracuse"
-      },
-      {
-        "zType": "CITYNAME_DELPHI",
-        "zName": "Delphi"
-      },
-      {
-        "zType": "CITYNAME_RHODES",
-        "zName": "Rhodes"
-      },
-      {
-        "zType": "CITYNAME_EPHESUS",
-        "zName": "Ephesus"
-      },
-      {
-        "zType": "CITYNAME_CYRENE",
-        "zName": "Cyrene"
-      },
-      {
-        "zType": "CITYNAME_HALICARNASSUS",
-        "zName": "Halicarnassus"
-      },
-      {
-        "zType": "CITYNAME_PERGAMON",
-        "zName": "Pergamon"
-      },
-      {
-        "zType": "CITYNAME_BYZANTIUM",
-        "zName": "Byzantium"
-      },
-      {
-        "zType": "CITYNAME_THESSALONIKE",
-        "zName": "Thessalonike"
-      },
-      {
-        "zType": "CITYNAME_PELLA",
-        "zName": "Pella"
-      },
-      {
-        "zType": "CITYNAME_PATRAS",
-        "zName": "Patras"
-      },
-      {
-        "zType": "CITYNAME_PHILIPPI",
-        "zName": "Philippi"
-      },
-      {
-        "zType": "CITYNAME_AMPHIPOLIS",
-        "zName": "Amphipolis"
-      },
-      {
-        "zType": "CITYNAME_OLYNTHUS",
-        "zName": "Olynthus"
-      },
-      {
-        "zType": "CITYNAME_POTIDAEA",
-        "zName": "Potidaea"
-      },
-      {
-        "zType": "CITYNAME_DION",
-        "zName": "Dion"
-      },
-      {
-        "zType": "CITYNANE_CHALKIS",
-        "zName": "Chalkis"
-      },
-      {
-        "zType": "CITYNANE_MYTILENE",
-        "zName": "Mytilene"
-      },
-      {
-        "zType": "CITYNANE_PYLOS",
-        "zName": "Pylos"
-      },
-      {
-        "zType": "CITYNANE_GORTYN",
-        "zName": "Gortyn"
-      },
-      {
-        "zType": "CITYNANE_CROTON",
-        "zName": "Croton"
-      },
-      {
-        "zType": "CITYNANE_RHEGION",
-        "zName": "Rhegion"
-      },
-      {
-        "zType": "CITYNANE_ALEXANDRIA",
-        "zName": "Alexandria"
-      },
-      {
-        "zType": "CITYNAME_IALYSUS",
-        "zName": "Ialysus"
-      },
-      {
-        "zType": "CITYNAME_LINDOS",
-        "zName": "Lindos"
-      },
-      {
-        "zType": "CITYNAME_KARYSTOS",
-        "zName": "Karystos"
-      },
-      {
-        "zType": "CITYNAME_HERACLEA",
-        "zName": "Heraclea"
-      },
-      {
-        "zType": "CITYNAME_LYCTOS",
-        "zName": "Lyctos"
-      },
-      {
-        "zType": "CITYNAME_APOLLONIA",
-        "zName": "Apollonia"
-      },
-      {
-        "zType": "CITYNAME_PHOCAEA",
-        "zName": "Phocaea"
-      },
-      {
-        "zType": "CITYNAME_MEGARA",
-        "zName": "Megara"
-      },
-      {
-        "zType": "CITYNAME_EPIDAMNOS",
-        "zName": "Epidamnos"
-      },
-      {
-        "zType": "CITYNAME_ATTALEIA",
-        "zName": "Attaleia"
-      },
-      {
-        "zType": "CITYNAME_ASPALATHOS",
-        "zName": "Aspalathos"
-      },
-      {
-        "zType": "CITYNAME_NICODMEDIA",
-        "zName": "Nicomedia"
-      },
-      {
-        "zType": "CITYNAME_NICAEA",
-        "zName": "Nicaea"
-      },
-      {
-        "zType": "CITYNAME_TRAPEZUS",
-        "zName": "Trapezus"
-      },
-      {
-        "zType": "CITYNAME_ANTIOCHEIA",
-        "zName": "Antiocheia"
-      },
-      {
-        "zType": "CITYNAME_MASSALIA",
-        "zName": "Massalia"
-      },
-      {
-        "zType": "CITYNAME_PERSEPOLIS",
-        "zName": "Parsa"
-      },
-      {
-        "zType": "CITYNAME_SUSA",
-        "zName": "Susa"
-      },
-      {
-        "zType": "CITYNAME_PASARGADAE",
-        "zName": "Pasargadae"
-      },
-      {
-        "zType": "CITYNAME_ECBATANA",
-        "zName": "Ecbatana"
-      },
-      {
-        "zType": "CITYNAME_ANSHAN",
-        "zName": "Anshan"
-      },
-      {
-        "zType": "CITYNAME_SARDIS",
-        "zName": "Sardis"
-      },
-      {
-        "zType": "CITYNAME_TARSUS",
-        "zName": "Tarsos"
-      },
-      {
-        "zType": "CITYNAME_BACTRA",
-        "zName": "Bactra"
-      },
-      {
-        "zType": "CITYNAME_GORDIUM",
-        "zName": "Gordium"
-      },
-      {
-        "zType": "CITYNAME_CTESIPHON",
-        "zName": "Ctesiphon"
-      },
-      {
-        "zType": "CITYNAME_SAMARKAND",
-        "zName": "Samarkand"
-      },
-      {
-        "zType": "CITYNAME_HATRA",
-        "zName": "Hatra"
-      },
-      {
-        "zType": "CITYNAME_SHUSHTAR",
-        "zName": "Shushtar"
-      },
-      {
-        "zType": "CITYNAME_NISHAPUR",
-        "zName": "Nishapur"
-      },
-      {
-        "zType": "CITYNAME_SHIRAZ",
-        "zName": "Shiraz"
-      },
-      {
-        "zType": "CITYNAME_KERMANSHAH",
-        "zName": "Kermanshah"
-      },
-      {
-        "zType": "CITYNAME_PTERIA",
-        "zName": "Pteria"
-      },
-      {
-        "zType": "CITYNAME_HYRBA",
-        "zName": "Hyrba"
-      },
-      {
-        "zType": "CITYNAME_CYRESCHATE",
-        "zName": "Cyreschate"
-      },
-      {
-        "zType": "CITYNAME_ORTOSPANA",
-        "zName": "Ortospana"
-      },
-      {
-        "zType": "CITYNAME_PAHRAH",
-        "zName": "Pahrah"
-      },
-      {
-        "zType": "CITYNAME_PROPHTHASIA",
-        "zName": "Prophthasia"
-      },
-      {
-        "zType": "CITYNAME_ARTACOANA",
-        "zName": "Artacoana"
-      },
-      {
-        "zType": "CITYNAME_TUS",
-        "zName": "Tus"
-      },
-      {
-        "zType": "CITYNAME_ZADRACARTA",
-        "zName": "Zadracarta"
-      },
-      {
-        "zType": "CITYNAME_SADDARVAZEH",
-        "zName": "Saddarvazeh"
-      },
-      {
-        "zType": "CITYNAME_RHAGES",
-        "zName": "Rhages"
-      },
-      {
-        "zType": "CITYNAME_GABAE",
-        "zName": "Gabae"
-      },
-      {
-        "zType": "CITYNAME_YAZD",
-        "zName": "Yazd"
-      },
-      {
-        "zType": "CITYNAME_CARMANIA",
-        "zName": "Carmania"
-      },
-      {
-        "zType": "CITYNAME_HORMIRZAD",
-        "zName": "Hormirzad"
-      },
-      {
-        "zType": "CITYNAME_TEREDON",
-        "zName": "Teredon"
-      },
-      {
-        "zType": "CITYNAME_ROMA",
-        "zName": "Roma"
-      },
-      {
-        "zType": "CITYNAME_ANTIUM",
-        "zName": "Antium"
-      },
-      {
-        "zType": "CITYNAME_OSTIA",
-        "zName": "Ostia"
-      },
-      {
-        "zType": "CITYNAME_CAPUA",
-        "zName": "Capua"
-      },
-      {
-        "zType": "CITYNAME_NEAPOLIS",
-        "zName": "Neapolis"
-      },
-      {
-        "zType": "CITYNAME_ARIMINUM",
-        "zName": "Ariminum"
-      },
-      {
-        "zType": "CITYNAME_MEDIOLANUM",
-        "zName": "Mediolanum"
-      },
-      {
-        "zType": "CITYNAME_PATAVIUM",
-        "zName": "Patavium"
-      },
-      {
-        "zType": "CITYNAME_RAVENNA",
-        "zName": "Ravenna"
-      },
-      {
-        "zType": "CITYNAME_SALERNUM",
-        "zName": "Salernum"
-      },
-      {
-        "zType": "CITYNAME_AQUILEIA",
-        "zName": "Aquileia"
-      },
-      {
-        "zType": "CITYNAME_BONONIA",
-        "zName": "Bononia"
-      },
-      {
-        "zType": "CITYNAME_CUMAE",
-        "zName": "Cumae"
-      },
-      {
-        "zType": "CITYNAME_FLORENTIA",
-        "zName": "Florentia"
-      },
-      {
-        "zType": "CITYNAME_BERYTUS",
-        "zName": "Berytus"
-      },
-      {
-        "zType": "CITYNAME_SERDICA",
-        "zName": "Serdica"
-      },
-      {
-        "zType": "CITYNAME_CELEIA",
-        "zName": "Celeia"
-      },
-      {
-        "zType": "CITYNAME_BELUM",
-        "zName": "Belum"
-      },
-      {
-        "zType": "CITYNAME_TARRACO",
-        "zName": "Tarraco"
-      },
-      {
-        "zType": "CITYNAME_ITALICA",
-        "zName": "Italica"
-      },
-      {
-        "zType": "CITYNAME_MODICIA",
-        "zName": "Modicia"
-      },
-      {
-        "zType": "CITYNAME_FORUM_LIVII",
-        "zName": "Forum Livii"
-      },
-      {
-        "zType": "CITYNAME_REGIUM_LEPIDI",
-        "zName": "Regium Lepidi"
-      },
-      {
-        "zType": "CITYNAME_CORDUBA",
-        "zName": "Corduba"
-      },
-      {
-        "zType": "CITYNAME_ASCRIVIUM",
-        "zName": "Ascrivium"
-      },
-      {
-        "zType": "CITYNAME_VALENTIA",
-        "zName": "Valentia"
-      },
-      {
-        "zType": "CITYNAME_SCALABIS",
-        "zName": "Scalabis"
-      },
-      {
-        "zType": "CITYNAME_VILLA_EURACINI",
-        "zName": "Villa Euracini"
-      },
-      {
-        "zType": "CITYNAME_MASSA",
-        "zName": "Massa"
-      },
-      {
-        "zType": "CITYNAME_PISTORIA",
-        "zName": "Pistoria"
-      },
-      {
-        "zType": "CITYNAME_GERUNDA",
-        "zName": "Gerunda"
-      },
-      {
-        "zType": "CITYNAME_POMPALEO",
-        "zName": "Pompaleo"
-      },
-      {
-        "zType": "CITYNAME_NAISSUS",
-        "zName": "Naissus"
-      },
-      {
-        "zType": "CITYNAME_VESONTIO",
-        "zName": "Vesontio"
-      },
-      {
-        "zType": "CITYNAME_LUTETIA",
-        "zName": "Lutetia"
-      },
-      {
-        "zType": "CITYNAME_HISPALIS",
-        "zName": "Hispalis"
-      },
-      {
-        "zType": "CITYNAME_LUGDUNUM",
-        "zName": "Lugdunum"
-      },
-      {
-        "zType": "CITYNAME_SISCIA",
-        "zName": "Siscia"
-      },
-      {
-        "zType": "CITYNAME_AUGUSTA_TREVERORUM",
-        "zName": "Augusta Treverorum"
-      },
-      {
-        "zType": "CITYNAME_CASTRA_LEGIONIS",
-        "zName": "Castra Legionis"
-      },
-      {
-        "zType": "CITYNAME_AUGUSTA_TAURINORUM",
-        "zName": "Augusta Taurinorum"
-      },
-      {
-        "zType": "CITYNAME_NOVAESIUM",
-        "zName": "Novaesium"
-      },
-      {
-        "zType": "CITYNAME_OVILAVA",
-        "zName": "Ovilava"
-      },
-      {
-        "zType": "CITYNAME_IUVAVUM",
-        "zName": "Iuvanum"
-      },
-      {
-        "zType": "CITYNAME_TURICUM",
-        "zName": "Turicum"
-      },
-      {
-        "zType": "CITYNAME_POMPEII",
-        "zName": "Pompeii"
-      },
-      {
-        "zType": "CITYNAME_VOLUBILIS",
-        "zName": "Volubilis"
-      },
-      {
-        "zType": "CITYNAME_BARIUM",
-        "zName": "Barium"
-      },
-      {
-        "zType": "CITYNAME_BRIXIA",
-        "zName": "Brixia"
-      },
-      {
-        "zType": "CITYNAME_COMUM",
-        "zName": "Comum"
-      },
-      {
-        "zType": "CITYNAME_THERANDA",
-        "zName": "Theranda"
-      },
-      {
-        "zType": "CITYNAME_HADRIANOPOLIS",
-        "zName": "Hadrianopolis"
-      },
-      {
-        "zType": "CITYNAME_DUROVIGUTUM",
-        "zName": "Durovigutum"
-      },
-      {
-        "zType": "CITYNAME_PONUS_AELIUS",
-        "zName": "Ponus Aelius"
-      },
-      {
-        "zType": "CITYNAME_AQUINCUM",
-        "zName": "Aquincum"
-      },
-      {
-        "zType": "CITYNAME_CIBALAE",
-        "zName": "Cibalae"
-      },
-      {
-        "zType": "CITYNAME_SALONA",
-        "zName": "Salona"
+        "Name": "TEXT_CITYNAME_ABYDOS"
       },
       {
         "zType": "CITYNAME_AEMINIUM",
-        "zName": "Aeminium"
+        "Name": "TEXT_CITYNAME_AEMINIUM"
       },
       {
-        "zType": "CITYNAME_LENTIA",
-        "zName": "Lentia"
+        "zType": "CITYNAME_AKHETATEN",
+        "Name": "TEXT_CITYNAME_AKHETATEN"
       },
       {
-        "zType": "CITYNAME_NIDA",
-        "zName": "Nida"
+        "zType": "CITYNAME_AKKAD",
+        "Name": "TEXT_CITYNAME_AKKAD"
       },
       {
-        "zType": "CITYNAME_SUMELOCENNA",
-        "zName": "Sumelocenna"
+        "zType": "CITYNAME_ALEXANDRIA",
+        "Name": "TEXT_CITYNAME_ALEXANDRIA"
       },
       {
-        "zType": "CITYNAME_CALLEVA_ATREBATUM",
-        "zName": "Calleva Atrebatum"
+        "zType": "CITYNAME_AMPHIPOLIS",
+        "Name": "TEXT_CITYNAME_AMPHIPOLIS"
       },
       {
-        "zType": "CITYNAME_CAMULODUNUM",
-        "zName": "Camulodunum"
+        "zType": "CITYNAME_ANSHAN",
+        "Name": "TEXT_CITYNAME_ANSHAN"
       },
       {
-        "zType": "CITYNAME_VIMINACIUM",
-        "zName": "Viminacium"
+        "zType": "CITYNAME_ANTIOCHEIA",
+        "Name": "TEXT_CITYNAME_ANTIOCHEIA"
       },
       {
-        "zType": "CITYNAME_LONDINIUM",
-        "zName": "Londinium"
+        "zType": "CITYNAME_ANTIUM",
+        "Name": "TEXT_CITYNAME_ANTIUM"
+      },
+      {
+        "zType": "CITYNAME_APOLLONIA",
+        "Name": "TEXT_CITYNAME_APOLLONIA"
+      },
+      {
+        "zType": "CITYNAME_AQUILEIA",
+        "Name": "TEXT_CITYNAME_AQUILEIA"
+      },
+      {
+        "zType": "CITYNAME_AQUINCUM",
+        "Name": "TEXT_CITYNAME_AQUINCUM"
+      },
+      {
+        "zType": "CITYNAME_ARAE_PHILAENORUM",
+        "Name": "TEXT_CITYNAME_ARAE_PHILAENORUM"
+      },
+      {
+        "zType": "CITYNAME_ARGOS",
+        "Name": "TEXT_CITYNAME_ARGOS"
+      },
+      {
+        "zType": "CITYNAME_ARIMINUM",
+        "Name": "TEXT_CITYNAME_ARIMINUM"
+      },
+      {
+        "zType": "CITYNAME_ARPAD",
+        "Name": "TEXT_CITYNAME_ARPAD"
+      },
+      {
+        "zType": "CITYNAME_ARRAPHA",
+        "Name": "TEXT_CITYNAME_ARRAPHA"
+      },
+      {
+        "zType": "CITYNAME_ARTACOANA",
+        "Name": "TEXT_CITYNAME_ARTACOANA"
+      },
+      {
+        "zType": "CITYNAME_ASCRIVIUM",
+        "Name": "TEXT_CITYNAME_ASCRIVIUM"
+      },
+      {
+        "zType": "CITYNAME_ASPALATHOS",
+        "Name": "TEXT_CITYNAME_ASPALATHOS"
+      },
+      {
+        "zType": "CITYNAME_ASSUR",
+        "Name": "TEXT_CITYNAME_ASSUR"
+      },
+      {
+        "zType": "CITYNAME_ATHENS",
+        "Name": "TEXT_CITYNAME_ATHENS"
+      },
+      {
+        "zType": "CITYNAME_ATTALEIA",
+        "Name": "TEXT_CITYNAME_ATTALEIA"
+      },
+      {
+        "zType": "CITYNAME_AUGUSTA_TAURINORUM",
+        "Name": "TEXT_CITYNAME_AUGUSTA_TAURINORUM"
+      },
+      {
+        "zType": "CITYNAME_AUGUSTA_TREVERORUM",
+        "Name": "TEXT_CITYNAME_AUGUSTA_TREVERORUM"
+      },
+      {
+        "zType": "CITYNAME_AVARIS",
+        "Name": "TEXT_CITYNAME_AVARIS"
       },
       {
         "zType": "CITYNAME_AVENTICUM",
-        "zName": "Aventicum"
+        "Name": "TEXT_CITYNAME_AVENTICUM"
+      },
+      {
+        "zType": "CITYNAME_BABYLON",
+        "Name": "TEXT_CITYNAME_BABYLON"
+      },
+      {
+        "zType": "CITYNAME_BACTRA",
+        "Name": "TEXT_CITYNAME_BACTRA"
+      },
+      {
+        "zType": "CITYNAME_BARIUM",
+        "Name": "TEXT_CITYNAME_BARIUM"
+      },
+      {
+        "zType": "CITYNAME_BEHDET",
+        "Name": "TEXT_CITYNAME_BEHDET"
+      },
+      {
+        "zType": "CITYNAME_BELUM",
+        "Name": "TEXT_CITYNAME_BELUM"
+      },
+      {
+        "zType": "CITYNAME_BERYTUS",
+        "Name": "TEXT_CITYNAME_BERYTUS"
+      },
+      {
+        "zType": "CITYNAME_BONONIA",
+        "Name": "TEXT_CITYNAME_BONONIA"
+      },
+      {
+        "zType": "CITYNAME_BORSIPPA",
+        "Name": "TEXT_CITYNAME_BORSIPPA"
+      },
+      {
+        "zType": "CITYNAME_BRIXIA",
+        "Name": "TEXT_CITYNAME_BRIXIA"
+      },
+      {
+        "zType": "CITYNAME_BUHEN",
+        "Name": "TEXT_CITYNAME_BUHEN"
+      },
+      {
+        "zType": "CITYNAME_BUSIRIS",
+        "Name": "TEXT_CITYNAME_BUSIRIS"
+      },
+      {
+        "zType": "CITYNAME_BYZANTIUM",
+        "Name": "TEXT_CITYNAME_BYZANTIUM"
+      },
+      {
+        "zType": "CITYNAME_CADIZ",
+        "Name": "TEXT_CITYNAME_CADIZ"
+      },
+      {
+        "zType": "CITYNAME_CALLEVA_ATREBATUM",
+        "Name": "TEXT_CITYNAME_CALLEVA_ATREBATUM"
+      },
+      {
+        "zType": "CITYNAME_CAMULODUNUM",
+        "Name": "TEXT_CITYNAME_CAMULODUNUM"
+      },
+      {
+        "zType": "CITYNAME_CAPUA",
+        "Name": "TEXT_CITYNAME_CAPUA"
+      },
+      {
+        "zType": "CITYNAME_CARCHEMISH",
+        "Name": "TEXT_CITYNAME_CARCHEMISH"
+      },
+      {
+        "zType": "CITYNAME_CARMANIA",
+        "Name": "TEXT_CITYNAME_CARMANIA"
+      },
+      {
+        "zType": "CITYNAME_CARTENNA",
+        "Name": "TEXT_CITYNAME_CARTENNA"
+      },
+      {
+        "zType": "CITYNAME_CARTHAGO_NOVA",
+        "Name": "TEXT_CITYNAME_CARTHAGO_NOVA"
+      },
+      {
+        "zType": "CITYNAME_CARTHAGO",
+        "Name": "TEXT_CITYNAME_CARTHAGO"
+      },
+      {
+        "zType": "CITYNAME_CASTRA_LEGIONIS",
+        "Name": "TEXT_CITYNAME_CASTRA_LEGIONIS"
+      },
+      {
+        "zType": "CITYNAME_CELEIA",
+        "Name": "TEXT_CITYNAME_CELEIA"
+      },
+      {
+        "zType": "CITYNAME_CHALKIS",
+        "Name": "TEXT_CITYNAME_CHALKIS"
+      },
+      {
+        "zType": "CITYNAME_CHENEM_WASET",
+        "Name": "TEXT_CITYNAME_CHENEM_WASET"
+      },
+      {
+        "zType": "CITYNAME_CIBALAE",
+        "Name": "TEXT_CITYNAME_CIBALAE"
+      },
+      {
+        "zType": "CITYNAME_COMUM",
+        "Name": "TEXT_CITYNAME_COMUM"
+      },
+      {
+        "zType": "CITYNAME_CORCYRA",
+        "Name": "TEXT_CITYNAME_CORCYRA"
+      },
+      {
+        "zType": "CITYNAME_CORDUBA",
+        "Name": "TEXT_CITYNAME_CORDUBA"
+      },
+      {
+        "zType": "CITYNAME_CORINTH",
+        "Name": "TEXT_CITYNAME_CORINTH"
+      },
+      {
+        "zType": "CITYNAME_CROTON",
+        "Name": "TEXT_CITYNAME_CROTON"
+      },
+      {
+        "zType": "CITYNAME_CTESIPHON",
+        "Name": "TEXT_CITYNAME_CTESIPHON"
+      },
+      {
+        "zType": "CITYNAME_CUMAE",
+        "Name": "TEXT_CITYNAME_CUMAE"
+      },
+      {
+        "zType": "CITYNAME_CYRENE",
+        "Name": "TEXT_CITYNAME_CYRENE"
+      },
+      {
+        "zType": "CITYNAME_CYRESCHATE",
+        "Name": "TEXT_CITYNAME_CYRESCHATE"
+      },
+      {
+        "zType": "CITYNAME_DAMASCUS",
+        "Name": "TEXT_CITYNAME_DAMASCUS"
+      },
+      {
+        "zType": "CITYNAME_DAMIETTA",
+        "Name": "TEXT_CITYNAME_DAMIETTA"
+      },
+      {
+        "zType": "CITYNAME_DELPHI",
+        "Name": "TEXT_CITYNAME_DELPHI"
+      },
+      {
+        "zType": "CITYNAME_DENDERA",
+        "Name": "TEXT_CITYNAME_DENDERA"
+      },
+      {
+        "zType": "CITYNAME_DILBAT",
+        "Name": "TEXT_CITYNAME_DILBAT"
+      },
+      {
+        "zType": "CITYNAME_DION",
+        "Name": "TEXT_CITYNAME_DION"
+      },
+      {
+        "zType": "CITYNAME_DJEDET",
+        "Name": "TEXT_CITYNAME_DJEDET"
+      },
+      {
+        "zType": "CITYNAME_DJERTY",
+        "Name": "TEXT_CITYNAME_DJERTY"
+      },
+      {
+        "zType": "CITYNAME_DUR_KURIGALZU",
+        "Name": "TEXT_CITYNAME_DUR_KURIGALZU"
+      },
+      {
+        "zType": "CITYNAME_DUR_SHARRUKIN",
+        "Name": "TEXT_CITYNAME_DUR_SHARRUKIN"
+      },
+      {
+        "zType": "CITYNAME_DUROVIGUTUM",
+        "Name": "TEXT_CITYNAME_DUROVIGUTUM"
+      },
+      {
+        "zType": "CITYNAME_ECBATANA",
+        "Name": "TEXT_CITYNAME_ECBATANA"
+      },
+      {
+        "zType": "CITYNAME_EKALLATUM",
+        "Name": "TEXT_CITYNAME_EKALLATUM"
+      },
+      {
+        "zType": "CITYNAME_ELEPHANTINE",
+        "Name": "TEXT_CITYNAME_ELEPHANTINE"
+      },
+      {
+        "zType": "CITYNAME_ELLASAR",
+        "Name": "TEXT_CITYNAME_ELLASAR"
+      },
+      {
+        "zType": "CITYNAME_EPHESUS",
+        "Name": "TEXT_CITYNAME_EPHESUS"
+      },
+      {
+        "zType": "CITYNAME_EPIDAMNOS",
+        "Name": "TEXT_CITYNAME_EPIDAMNOS"
+      },
+      {
+        "zType": "CITYNAME_ERBIL",
+        "Name": "TEXT_CITYNAME_ERBIL"
+      },
+      {
+        "zType": "CITYNAME_ERETRIA",
+        "Name": "TEXT_CITYNAME_ERETRIA"
+      },
+      {
+        "zType": "CITYNAME_ERIDU",
+        "Name": "TEXT_CITYNAME_ERIDU"
+      },
+      {
+        "zType": "CITYNAME_ESHNUNNA",
+        "Name": "TEXT_CITYNAME_ESHNUNNA"
       },
       {
         "zType": "CITYNAME_FAVENTIA",
-        "zName": "Faventia"
+        "Name": "TEXT_CITYNAME_FAVENTIA"
+      },
+      {
+        "zType": "CITYNAME_FLORENTIA",
+        "Name": "TEXT_CITYNAME_FLORENTIA"
+      },
+      {
+        "zType": "CITYNAME_FORUM_LIVII",
+        "Name": "TEXT_CITYNAME_FORUM_LIVII"
+      },
+      {
+        "zType": "CITYNAME_GABAE",
+        "Name": "TEXT_CITYNAME_GABAE"
+      },
+      {
+        "zType": "CITYNAME_GEBTU",
+        "Name": "TEXT_CITYNAME_GEBTU"
+      },
+      {
+        "zType": "CITYNAME_GERUNDA",
+        "Name": "TEXT_CITYNAME_GERUNDA"
+      },
+      {
+        "zType": "CITYNAME_GESY",
+        "Name": "TEXT_CITYNAME_GESY"
+      },
+      {
+        "zType": "CITYNAME_GORDIUM",
+        "Name": "TEXT_CITYNAME_GORDIUM"
+      },
+      {
+        "zType": "CITYNAME_GORTYN",
+        "Name": "TEXT_CITYNAME_GORTYN"
+      },
+      {
+        "zType": "CITYNAME_GOZAN",
+        "Name": "TEXT_CITYNAME_GOZAN"
+      },
+      {
+        "zType": "CITYNAME_HADRIANOPOLIS",
+        "Name": "TEXT_CITYNAME_HADRIANOPOLIS"
+      },
+      {
+        "zType": "CITYNAME_HADRUMETUM",
+        "Name": "TEXT_CITYNAME_HADRUMETUM"
+      },
+      {
+        "zType": "CITYNAME_HALAB",
+        "Name": "TEXT_CITYNAME_HALAB"
+      },
+      {
+        "zType": "CITYNAME_HALICARNASSUS",
+        "Name": "TEXT_CITYNAME_HALICARNASSUS"
+      },
+      {
+        "zType": "CITYNAME_HAMAT",
+        "Name": "TEXT_CITYNAME_HAMAT"
+      },
+      {
+        "zType": "CITYNAME_HARRAN",
+        "Name": "TEXT_CITYNAME_HARRAN"
+      },
+      {
+        "zType": "CITYNAME_HATRA",
+        "Name": "TEXT_CITYNAME_HATRA"
+      },
+      {
+        "zType": "CITYNAME_HEBENU",
+        "Name": "TEXT_CITYNAME_HEBENU"
+      },
+      {
+        "zType": "CITYNAME_HELIOPOLIS",
+        "Name": "TEXT_CITYNAME_HELIOPOLIS"
+      },
+      {
+        "zType": "CITYNAME_HENEN_NESUT",
+        "Name": "TEXT_CITYNAME_HENEN_NESUT"
+      },
+      {
+        "zType": "CITYNAME_HERACLEA",
+        "Name": "TEXT_CITYNAME_HERACLEA"
+      },
+      {
+        "zType": "CITYNAME_HERWER",
+        "Name": "TEXT_CITYNAME_HERWER"
+      },
+      {
+        "zType": "CITYNAME_HIERACONPOLIS",
+        "Name": "TEXT_CITYNAME_HIERACONPOLIS"
+      },
+      {
+        "zType": "CITYNAME_HIPPO_REGIUS",
+        "Name": "TEXT_CITYNAME_HIPPO_REGIUS"
+      },
+      {
+        "zType": "CITYNAME_HISPALIS",
+        "Name": "TEXT_CITYNAME_HISPALIS"
+      },
+      {
+        "zType": "CITYNAME_HORMIRZAD",
+        "Name": "TEXT_CITYNAME_HORMIRZAD"
+      },
+      {
+        "zType": "CITYNAME_HUT_HERY_IB",
+        "Name": "TEXT_CITYNAME_HUT_HERY_IB"
+      },
+      {
+        "zType": "CITYNAME_HUT_REPYT",
+        "Name": "TEXT_CITYNAME_HUT_REPYT"
+      },
+      {
+        "zType": "CITYNAME_HYRBA",
+        "Name": "TEXT_CITYNAME_HYRBA"
+      },
+      {
+        "zType": "CITYNAME_IALYSUS",
+        "Name": "TEXT_CITYNAME_IALYSUS"
+      },
+      {
+        "zType": "CITYNAME_IKEN",
+        "Name": "TEXT_CITYNAME_IKEN"
+      },
+      {
+        "zType": "CITYNAME_IPU",
+        "Name": "TEXT_CITYNAME_IPU"
+      },
+      {
+        "zType": "CITYNAME_ITALICA",
+        "Name": "TEXT_CITYNAME_ITALICA"
+      },
+      {
+        "zType": "CITYNAME_IUNY",
+        "Name": "TEXT_CITYNAME_IUNY"
+      },
+      {
+        "zType": "CITYNAME_IUSHENSHEN",
+        "Name": "TEXT_CITYNAME_IUSHENSHEN"
+      },
+      {
+        "zType": "CITYNAME_IUVAVUM",
+        "Name": "TEXT_CITYNAME_IUVAVUM"
+      },
+      {
+        "zType": "CITYNAME_KAHAT",
+        "Name": "TEXT_CITYNAME_KAHAT"
+      },
+      {
+        "zType": "CITYNAME_KALHU",
+        "Name": "TEXT_CITYNAME_KALHU"
+      },
+      {
+        "zType": "CITYNAME_KANESH",
+        "Name": "TEXT_CITYNAME_KANESH"
+      },
+      {
+        "zType": "CITYNAME_KAR_SULMANU_ASAREDU",
+        "Name": "TEXT_CITYNAME_KAR_SULMANU_ASAREDU"
+      },
+      {
+        "zType": "CITYNAME_KARALIS",
+        "Name": "TEXT_CITYNAME_KARALIS"
+      },
+      {
+        "zType": "CITYNAME_KARYSTOS",
+        "Name": "TEXT_CITYNAME_KARYSTOS"
+      },
+      {
+        "zType": "CITYNAME_KERKUANE",
+        "Name": "TEXT_CITYNAME_KERKUANE"
+      },
+      {
+        "zType": "CITYNAME_KERMANSHAH",
+        "Name": "TEXT_CITYNAME_KERMANSHAH"
+      },
+      {
+        "zType": "CITYNAME_KHASUT",
+        "Name": "TEXT_CITYNAME_KHASUT"
+      },
+      {
+        "zType": "CITYNAME_KHEM",
+        "Name": "TEXT_CITYNAME_KHEM"
+      },
+      {
+        "zType": "CITYNAME_KHITO",
+        "Name": "TEXT_CITYNAME_KHITO"
+      },
+      {
+        "zType": "CITYNAME_KHMUN",
+        "Name": "TEXT_CITYNAME_KHMUN"
+      },
+      {
+        "zType": "CITYNAME_KISH",
+        "Name": "TEXT_CITYNAME_KISH"
+      },
+      {
+        "zType": "CITYNAME_KISURRA",
+        "Name": "TEXT_CITYNAME_KISURRA"
+      },
+      {
+        "zType": "CITYNAME_LAGASH",
+        "Name": "TEXT_CITYNAME_LAGASH"
+      },
+      {
+        "zType": "CITYNAME_LARISSA",
+        "Name": "TEXT_CITYNAME_LARISSA"
+      },
+      {
+        "zType": "CITYNAME_LARSA",
+        "Name": "TEXT_CITYNAME_LARSA"
+      },
+      {
+        "zType": "CITYNAME_LENTIA",
+        "Name": "TEXT_CITYNAME_LENTIA"
+      },
+      {
+        "zType": "CITYNAME_LEPTIS_MAGNA",
+        "Name": "TEXT_CITYNAME_LEPTIS_MAGNA"
+      },
+      {
+        "zType": "CITYNAME_LILYBAEUM",
+        "Name": "TEXT_CITYNAME_LILYBAEUM"
+      },
+      {
+        "zType": "CITYNAME_LINDOS",
+        "Name": "TEXT_CITYNAME_LINDOS"
+      },
+      {
+        "zType": "CITYNAME_LIXUS",
+        "Name": "TEXT_CITYNAME_LIXUS"
+      },
+      {
+        "zType": "CITYNAME_LONDINIUM",
+        "Name": "TEXT_CITYNAME_LONDINIUM"
+      },
+      {
+        "zType": "CITYNAME_LUGDUNUM",
+        "Name": "TEXT_CITYNAME_LUGDUNUM"
+      },
+      {
+        "zType": "CITYNAME_LUTETIA",
+        "Name": "TEXT_CITYNAME_LUTETIA"
+      },
+      {
+        "zType": "CITYNAME_LYCTOS",
+        "Name": "TEXT_CITYNAME_LYCTOS"
+      },
+      {
+        "zType": "CITYNAME_MADU",
+        "Name": "TEXT_CITYNAME_MADU"
+      },
+      {
+        "zType": "CITYNAME_MALACA",
+        "Name": "TEXT_CITYNAME_MALACA"
+      },
+      {
+        "zType": "CITYNAME_MALIDIYA",
+        "Name": "TEXT_CITYNAME_MALIDIYA"
+      },
+      {
+        "zType": "CITYNAME_MARAD",
+        "Name": "TEXT_CITYNAME_MARAD"
+      },
+      {
+        "zType": "CITYNAME_MARDAMAN",
+        "Name": "TEXT_CITYNAME_MARDAMAN"
+      },
+      {
+        "zType": "CITYNAME_MARDIN",
+        "Name": "TEXT_CITYNAME_MARDIN"
+      },
+      {
+        "zType": "CITYNAME_MARI",
+        "Name": "TEXT_CITYNAME_MARI"
+      },
+      {
+        "zType": "CITYNAME_MASSA",
+        "Name": "TEXT_CITYNAME_MASSA"
+      },
+      {
+        "zType": "CITYNAME_MASSALIA",
+        "Name": "TEXT_CITYNAME_MASSALIA"
+      },
+      {
+        "zType": "CITYNAME_MEDIOLANUM",
+        "Name": "TEXT_CITYNAME_MEDIOLANUM"
+      },
+      {
+        "zType": "CITYNAME_MEGARA",
+        "Name": "TEXT_CITYNAME_MEGARA"
+      },
+      {
+        "zType": "CITYNAME_MELIDDU",
+        "Name": "TEXT_CITYNAME_MELIDDU"
+      },
+      {
+        "zType": "CITYNAME_MELITE",
+        "Name": "TEXT_CITYNAME_MELITE"
+      },
+      {
+        "zType": "CITYNAME_MEMPHIS",
+        "Name": "TEXT_CITYNAME_MEMPHIS"
+      },
+      {
+        "zType": "CITYNAME_MENOUTHIS",
+        "Name": "TEXT_CITYNAME_MENOUTHIS"
+      },
+      {
+        "zType": "CITYNAME_MER_NEFER_ET",
+        "Name": "TEXT_CITYNAME_MER_NEFER_ET"
+      },
+      {
+        "zType": "CITYNAME_MILETUS",
+        "Name": "TEXT_CITYNAME_MILETUS"
+      },
+      {
+        "zType": "CITYNAME_MODICIA",
+        "Name": "TEXT_CITYNAME_MODICIA"
       },
       {
         "zType": "CITYNAME_MOGONTIACUM",
-        "zName": "Mogontiacum"
+        "Name": "TEXT_CITYNAME_MOGONTIACUM"
+      },
+      {
+        "zType": "CITYNAME_MYTILENE",
+        "Name": "TEXT_CITYNAME_MYTILENE"
+      },
+      {
+        "zType": "CITYNAME_NAISSUS",
+        "Name": "TEXT_CITYNAME_NAISSUS"
+      },
+      {
+        "zType": "CITYNAME_NEAPOLIS",
+        "Name": "TEXT_CITYNAME_NEAPOLIS"
+      },
+      {
+        "zType": "CITYNAME_NEKHEB",
+        "Name": "TEXT_CITYNAME_NEKHEB"
+      },
+      {
+        "zType": "CITYNAME_NICAEA",
+        "Name": "TEXT_CITYNAME_NICAEA"
+      },
+      {
+        "zType": "CITYNAME_NICODMEDIA",
+        "Name": "TEXT_CITYNAME_NICODMEDIA"
+      },
+      {
+        "zType": "CITYNAME_NIDA",
+        "Name": "TEXT_CITYNAME_NIDA"
+      },
+      {
+        "zType": "CITYNAME_NINEVEH",
+        "Name": "TEXT_CITYNAME_NINEVEH"
+      },
+      {
+        "zType": "CITYNAME_NIPPUR",
+        "Name": "TEXT_CITYNAME_NIPPUR"
+      },
+      {
+        "zType": "CITYNAME_NISHAPUR",
+        "Name": "TEXT_CITYNAME_NISHAPUR"
+      },
+      {
+        "zType": "CITYNAME_NISIBIS",
+        "Name": "TEXT_CITYNAME_NISIBIS"
+      },
+      {
+        "zType": "CITYNAME_NORA",
+        "Name": "TEXT_CITYNAME_NORA"
+      },
+      {
+        "zType": "CITYNAME_NOVAESIUM",
+        "Name": "TEXT_CITYNAME_NOVAESIUM"
+      },
+      {
+        "zType": "CITYNAME_NUBT",
+        "Name": "TEXT_CITYNAME_NUBT"
+      },
+      {
+        "zType": "CITYNAME_OLBIA",
+        "Name": "TEXT_CITYNAME_OLBIA"
+      },
+      {
+        "zType": "CITYNAME_OLYNTHUS",
+        "Name": "TEXT_CITYNAME_OLYNTHUS"
+      },
+      {
+        "zType": "CITYNAME_OPIS",
+        "Name": "TEXT_CITYNAME_OPIS"
+      },
+      {
+        "zType": "CITYNAME_ORTOSPANA",
+        "Name": "TEXT_CITYNAME_ORTOSPANA"
+      },
+      {
+        "zType": "CITYNAME_OSTIA",
+        "Name": "TEXT_CITYNAME_OSTIA"
+      },
+      {
+        "zType": "CITYNAME_OVILAVA",
+        "Name": "TEXT_CITYNAME_OVILAVA"
+      },
+      {
+        "zType": "CITYNAME_PACHNAMUNIS",
+        "Name": "TEXT_CITYNAME_PACHNAMUNIS"
+      },
+      {
+        "zType": "CITYNAME_PAHRAH",
+        "Name": "TEXT_CITYNAME_PAHRAH"
+      },
+      {
+        "zType": "CITYNAME_PANORMUS",
+        "Name": "TEXT_CITYNAME_PANORMUS"
+      },
+      {
+        "zType": "CITYNAME_PASARGADAE",
+        "Name": "TEXT_CITYNAME_PASARGADAE"
+      },
+      {
+        "zType": "CITYNAME_PATAVIUM",
+        "Name": "TEXT_CITYNAME_PATAVIUM"
+      },
+      {
+        "zType": "CITYNAME_PATRAS",
+        "Name": "TEXT_CITYNAME_PATRAS"
+      },
+      {
+        "zType": "CITYNAME_PELLA",
+        "Name": "TEXT_CITYNAME_PELLA"
+      },
+      {
+        "zType": "CITYNAME_PELUSIUM",
+        "Name": "TEXT_CITYNAME_PELUSIUM"
+      },
+      {
+        "zType": "CITYNAME_PER_AMUN",
+        "Name": "TEXT_CITYNAME_PER_AMUN"
+      },
+      {
+        "zType": "CITYNAME_PER_ATUM",
+        "Name": "TEXT_CITYNAME_PER_ATUM"
+      },
+      {
+        "zType": "CITYNAME_PER_BAST",
+        "Name": "TEXT_CITYNAME_PER_BAST"
+      },
+      {
+        "zType": "CITYNAME_PER_HATHOR",
+        "Name": "TEXT_CITYNAME_PER_HATHOR"
+      },
+      {
+        "zType": "CITYNAME_PER_MEDJED",
+        "Name": "TEXT_CITYNAME_PER_MEDJED"
+      },
+      {
+        "zType": "CITYNAME_PER_NEMTY",
+        "Name": "TEXT_CITYNAME_PER_NEMTY"
+      },
+      {
+        "zType": "CITYNAME_PER_SOPDU",
+        "Name": "TEXT_CITYNAME_PER_SOPDU"
+      },
+      {
+        "zType": "CITYNAME_PER_WADJET",
+        "Name": "TEXT_CITYNAME_PER_WADJET"
+      },
+      {
+        "zType": "CITYNAME_PERGAMON",
+        "Name": "TEXT_CITYNAME_PERGAMON"
+      },
+      {
+        "zType": "CITYNAME_PERSEPOLIS",
+        "Name": "TEXT_CITYNAME_PERSEPOLIS"
+      },
+      {
+        "zType": "CITYNAME_PHILIPPI",
+        "Name": "TEXT_CITYNAME_PHILIPPI"
+      },
+      {
+        "zType": "CITYNAME_PHOCAEA",
+        "Name": "TEXT_CITYNAME_PHOCAEA"
+      },
+      {
+        "zType": "CITYNAME_PI_RAMESSES",
+        "Name": "TEXT_CITYNAME_PI_RAMESSES"
+      },
+      {
+        "zType": "CITYNAME_PIEMRO",
+        "Name": "TEXT_CITYNAME_PIEMRO"
+      },
+      {
+        "zType": "CITYNAME_PIKUAT",
+        "Name": "TEXT_CITYNAME_PIKUAT"
+      },
+      {
+        "zType": "CITYNAME_PISTORIA",
+        "Name": "TEXT_CITYNAME_PISTORIA"
+      },
+      {
+        "zType": "CITYNAME_POMPALEO",
+        "Name": "TEXT_CITYNAME_POMPALEO"
+      },
+      {
+        "zType": "CITYNAME_POMPEII",
+        "Name": "TEXT_CITYNAME_POMPEII"
+      },
+      {
+        "zType": "CITYNAME_PONUS_AELIUS",
+        "Name": "TEXT_CITYNAME_PONUS_AELIUS"
+      },
+      {
+        "zType": "CITYNAME_POTIDAEA",
+        "Name": "TEXT_CITYNAME_POTIDAEA"
+      },
+      {
+        "zType": "CITYNAME_PROPHTHASIA",
+        "Name": "TEXT_CITYNAME_PROPHTHASIA"
+      },
+      {
+        "zType": "CITYNAME_PTERIA",
+        "Name": "TEXT_CITYNAME_PTERIA"
+      },
+      {
+        "zType": "CITYNAME_PTKHEKA",
+        "Name": "TEXT_CITYNAME_PTKHEKA"
+      },
+      {
+        "zType": "CITYNAME_PYLOS",
+        "Name": "TEXT_CITYNAME_PYLOS"
+      },
+      {
+        "zType": "CITYNAME_QADESH",
+        "Name": "TEXT_CITYNAME_QADESH"
+      },
+      {
+        "zType": "CITYNAME_QATNA",
+        "Name": "TEXT_CITYNAME_QATNA"
+      },
+      {
+        "zType": "CITYNAME_QIS",
+        "Name": "TEXT_CITYNAME_QIS"
+      },
+      {
+        "zType": "CITYNAME_RAVENNA",
+        "Name": "TEXT_CITYNAME_RAVENNA"
+      },
+      {
+        "zType": "CITYNAME_REGIUM_LEPIDI",
+        "Name": "TEXT_CITYNAME_REGIUM_LEPIDI"
+      },
+      {
+        "zType": "CITYNAME_RESEN",
+        "Name": "TEXT_CITYNAME_RESEN"
+      },
+      {
+        "zType": "CITYNAME_RHAGES",
+        "Name": "TEXT_CITYNAME_RHAGES"
+      },
+      {
+        "zType": "CITYNAME_RHEGION",
+        "Name": "TEXT_CITYNAME_RHEGION"
+      },
+      {
+        "zType": "CITYNAME_RHODES",
+        "Name": "TEXT_CITYNAME_RHODES"
+      },
+      {
+        "zType": "CITYNAME_ROMA",
+        "Name": "TEXT_CITYNAME_ROMA"
+      },
+      {
+        "zType": "CITYNAME_SABRATA",
+        "Name": "TEXT_CITYNAME_SABRATA"
+      },
+      {
+        "zType": "CITYNAME_SADDARVAZEH",
+        "Name": "TEXT_CITYNAME_SADDARVAZEH"
+      },
+      {
+        "zType": "CITYNAME_SAIS",
+        "Name": "TEXT_CITYNAME_SAIS"
+      },
+      {
+        "zType": "CITYNAME_SAKA",
+        "Name": "TEXT_CITYNAME_SAKA"
+      },
+      {
+        "zType": "CITYNAME_SALDAE",
+        "Name": "TEXT_CITYNAME_SALDAE"
+      },
+      {
+        "zType": "CITYNAME_SALERNUM",
+        "Name": "TEXT_CITYNAME_SALERNUM"
+      },
+      {
+        "zType": "CITYNAME_SALONA",
+        "Name": "TEXT_CITYNAME_SALONA"
+      },
+      {
+        "zType": "CITYNAME_SAMARKAND",
+        "Name": "TEXT_CITYNAME_SAMARKAND"
+      },
+      {
+        "zType": "CITYNAME_SARDIS",
+        "Name": "TEXT_CITYNAME_SARDIS"
+      },
+      {
+        "zType": "CITYNAME_SAREISA",
+        "Name": "TEXT_CITYNAME_SAREISA"
+      },
+      {
+        "zType": "CITYNAME_SCALABIS",
+        "Name": "TEXT_CITYNAME_SCALABIS"
+      },
+      {
+        "zType": "CITYNAME_SEMABEHDET",
+        "Name": "TEXT_CITYNAME_SEMABEHDET"
+      },
+      {
+        "zType": "CITYNAME_SERDICA",
+        "Name": "TEXT_CITYNAME_SERDICA"
+      },
+      {
+        "zType": "CITYNAME_SESHESH",
+        "Name": "TEXT_CITYNAME_SESHESH"
+      },
+      {
+        "zType": "CITYNAME_SETENNU",
+        "Name": "TEXT_CITYNAME_SETENNU"
+      },
+      {
+        "zType": "CITYNAME_SHASHOTEP",
+        "Name": "TEXT_CITYNAME_SHASHOTEP"
+      },
+      {
+        "zType": "CITYNAME_SHEDET",
+        "Name": "TEXT_CITYNAME_SHEDET"
+      },
+      {
+        "zType": "CITYNAME_SHIRAZ",
+        "Name": "TEXT_CITYNAME_SHIRAZ"
+      },
+      {
+        "zType": "CITYNAME_SHURUPPAK",
+        "Name": "TEXT_CITYNAME_SHURUPPAK"
+      },
+      {
+        "zType": "CITYNAME_SHUSHTAR",
+        "Name": "TEXT_CITYNAME_SHUSHTAR"
+      },
+      {
+        "zType": "CITYNAME_SICCA",
+        "Name": "TEXT_CITYNAME_SICCA"
+      },
+      {
+        "zType": "CITYNAME_SIPPAR",
+        "Name": "TEXT_CITYNAME_SIPPAR"
       },
       {
         "zType": "CITYNAME_SIRMIUM",
-        "zName": "Sirmium"
+        "Name": "TEXT_CITYNAME_SIRMIUM"
+      },
+      {
+        "zType": "CITYNAME_SISCIA",
+        "Name": "TEXT_CITYNAME_SISCIA"
+      },
+      {
+        "zType": "CITYNAME_SPARTA",
+        "Name": "TEXT_CITYNAME_SPARTA"
+      },
+      {
+        "zType": "CITYNAME_SULCI",
+        "Name": "TEXT_CITYNAME_SULCI"
+      },
+      {
+        "zType": "CITYNAME_SUMELOCENNA",
+        "Name": "TEXT_CITYNAME_SUMELOCENNA"
+      },
+      {
+        "zType": "CITYNAME_SUMENU",
+        "Name": "TEXT_CITYNAME_SUMENU"
+      },
+      {
+        "zType": "CITYNAME_SUSA",
+        "Name": "TEXT_CITYNAME_SUSA"
+      },
+      {
+        "zType": "CITYNAME_SWENETT",
+        "Name": "TEXT_CITYNAME_SWENETT"
+      },
+      {
+        "zType": "CITYNAME_SYRACUSE",
+        "Name": "TEXT_CITYNAME_SYRACUSE"
+      },
+      {
+        "zType": "CITYNAME_TANIS",
+        "Name": "TEXT_CITYNAME_TANIS"
+      },
+      {
+        "zType": "CITYNAME_TAREMU",
+        "Name": "TEXT_CITYNAME_TAREMU"
+      },
+      {
+        "zType": "CITYNAME_TARRACO",
+        "Name": "TEXT_CITYNAME_TARRACO"
+      },
+      {
+        "zType": "CITYNAME_TARSUS",
+        "Name": "TEXT_CITYNAME_TARSUS"
+      },
+      {
+        "zType": "CITYNAME_TAYU_DJAYET",
+        "Name": "TEXT_CITYNAME_TAYU_DJAYET"
+      },
+      {
+        "zType": "CITYNAME_TE_SENET",
+        "Name": "TEXT_CITYNAME_TE_SENET"
+      },
+      {
+        "zType": "CITYNAME_TEPIHU",
+        "Name": "TEXT_CITYNAME_TEPIHU"
+      },
+      {
+        "zType": "CITYNAME_TEREDON",
+        "Name": "TEXT_CITYNAME_TEREDON"
+      },
+      {
+        "zType": "CITYNAME_THAENAE",
+        "Name": "TEXT_CITYNAME_THAENAE"
+      },
+      {
+        "zType": "CITYNAME_THAPSUS",
+        "Name": "TEXT_CITYNAME_THAPSUS"
+      },
+      {
+        "zType": "CITYNAME_THEBES",
+        "Name": "TEXT_CITYNAME_THEBES"
+      },
+      {
+        "zType": "CITYNAME_THERANDA",
+        "Name": "TEXT_CITYNAME_THERANDA"
+      },
+      {
+        "zType": "CITYNAME_THESSALONIKE",
+        "Name": "TEXT_CITYNAME_THESSALONIKE"
+      },
+      {
+        "zType": "CITYNAME_THEVESTE",
+        "Name": "TEXT_CITYNAME_THEVESTE"
+      },
+      {
+        "zType": "CITYNAME_THONIS",
+        "Name": "TEXT_CITYNAME_THONIS"
+      },
+      {
+        "zType": "CITYNAME_TIMINHOR",
+        "Name": "TEXT_CITYNAME_TIMINHOR"
+      },
+      {
+        "zType": "CITYNAME_TINGIS",
+        "Name": "TEXT_CITYNAME_TINGIS"
+      },
+      {
+        "zType": "CITYNAME_TJARU",
+        "Name": "TEXT_CITYNAME_TJARU"
+      },
+      {
+        "zType": "CITYNAME_TJEBNUTJER",
+        "Name": "TEXT_CITYNAME_TJEBNUTJER"
+      },
+      {
+        "zType": "CITYNAME_TJEBU",
+        "Name": "TEXT_CITYNAME_TJEBU"
+      },
+      {
+        "zType": "CITYNAME_TJENU",
+        "Name": "TEXT_CITYNAME_TJENU"
+      },
+      {
+        "zType": "CITYNAME_TRAPEZUS",
+        "Name": "TEXT_CITYNAME_TRAPEZUS"
+      },
+      {
+        "zType": "CITYNAME_TURICUM",
+        "Name": "TEXT_CITYNAME_TURICUM"
+      },
+      {
+        "zType": "CITYNAME_TUS",
+        "Name": "TEXT_CITYNAME_TUS"
+      },
+      {
+        "zType": "CITYNAME_TUSHHAN",
+        "Name": "TEXT_CITYNAME_TUSHHAN"
+      },
+      {
+        "zType": "CITYNAME_UR",
+        "Name": "TEXT_CITYNAME_UR"
+      },
+      {
+        "zType": "CITYNAME_URUK",
+        "Name": "TEXT_CITYNAME_URUK"
+      },
+      {
+        "zType": "CITYNAME_UTICA",
+        "Name": "TEXT_CITYNAME_UTICA"
+      },
+      {
+        "zType": "CITYNAME_VALENTIA",
+        "Name": "TEXT_CITYNAME_VALENTIA"
+      },
+      {
+        "zType": "CITYNAME_VESONTIO",
+        "Name": "TEXT_CITYNAME_VESONTIO"
+      },
+      {
+        "zType": "CITYNAME_VILLA_EURACINI",
+        "Name": "TEXT_CITYNAME_VILLA_EURACINI"
+      },
+      {
+        "zType": "CITYNAME_VIMINACIUM",
+        "Name": "TEXT_CITYNAME_VIMINACIUM"
+      },
+      {
+        "zType": "CITYNAME_VOLUBILIS",
+        "Name": "TEXT_CITYNAME_VOLUBILIS"
+      },
+      {
+        "zType": "CITYNAME_WASET",
+        "Name": "TEXT_CITYNAME_WASET"
+      },
+      {
+        "zType": "CITYNAME_WEPREHWY",
+        "Name": "TEXT_CITYNAME_WEPREHWY"
+      },
+      {
+        "zType": "CITYNAME_YAMU",
+        "Name": "TEXT_CITYNAME_YAMU"
+      },
+      {
+        "zType": "CITYNAME_YAZD",
+        "Name": "TEXT_CITYNAME_YAZD"
+      },
+      {
+        "zType": "CITYNAME_ZADRACARTA",
+        "Name": "TEXT_CITYNAME_ZADRACARTA"
+      },
+      {
+        "zType": "CITYNAME_ZAMA",
+        "Name": "TEXT_CITYNAME_ZAMA"
+      },
+      {
+        "zType": "CITYNAME_ZAWTY",
+        "Name": "TEXT_CITYNAME_ZAWTY"
+      },
+      {
+        "zType": "CITYNAME_ALALIA",
+        "Name": "TEXT_CITYNAME_ALALIA"
+      },
+      {
+        "zType": "CITYNAME_ALERIA",
+        "Name": "TEXT_CITYNAME_ALERIA"
+      },
+      {
+        "zType": "CITYNAME_ARRETIUM",
+        "Name": "TEXT_CITYNAME_ARRETIUM"
+      },
+      {
+        "zType": "CITYNAME_BALEARIC_ISLANDS",
+        "Name": "TEXT_CITYNAME_BALEARIC_ISLANDS"
+      },
+      {
+        "zType": "CITYNAME_BENEVENTUM",
+        "Name": "TEXT_CITYNAME_BENEVENTUM"
+      },
+      {
+        "zType": "CITYNAME_CARALIS",
+        "Name": "TEXT_CITYNAME_CARALIS"
+      },
+      {
+        "zType": "CITYNAME_CARTHAGE",
+        "Name": "TEXT_CITYNAME_CARTHAGE"
+      },
+      {
+        "zType": "CITYNAME_EMPORION",
+        "Name": "TEXT_CITYNAME_EMPORION"
+      },
+      {
+        "zType": "CITYNAME_BRUNDISIUM",
+        "Name": "TEXT_CITYNAME_BRUNDISIUM"
+      },
+      {
+        "zType": "CITYNAME_EPIDAMNUS",
+        "Name": "TEXT_CITYNAME_EPIDAMNUS"
+      },
+      {
+        "zType": "CITYNAME_EUSPERIDES",
+        "Name": "TEXT_CITYNAME_EUSPERIDES"
+      },
+      {
+        "zType": "CITYNAME_GADES",
+        "Name": "TEXT_CITYNAME_GADES"
+      },
+      {
+        "zType": "CITYNAME_IGILGILI",
+        "Name": "TEXT_CITYNAME_IGILGILI"
+      },
+      {
+        "zType": "CITYNAME_LOCROI",
+        "Name": "TEXT_CITYNAME_LOCROI"
+      },
+      {
+        "zType": "CITYNAME_MESSANA",
+        "Name": "TEXT_CITYNAME_MESSANA"
+      },
+      {
+        "zType": "CITYNAME_OEA",
+        "Name": "TEXT_CITYNAME_OEA"
+      },
+      {
+        "zType": "CITYNAME_RUSADIR",
+        "Name": "TEXT_CITYNAME_RUSADIR"
+      },
+      {
+        "zType": "CITYNAME_SAGUNTUM",
+        "Name": "TEXT_CITYNAME_SAGUNTUM"
+      },
+      {
+        "zType": "CITYNAME_SICCA_VENERIA",
+        "Name": "TEXT_CITYNAME_SICCA_VENERIA"
+      },
+      {
+        "zType": "CITYNAME_TACAPE",
+        "Name": "TEXT_CITYNAME_TACAPE"
+      },
+      {
+        "zType": "CITYNAME_TARENTUM",
+        "Name": "TEXT_CITYNAME_TARENTUM"
       }
     ]
   }

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zText": {
+        "Text": {
           "comment": "Player-facing string describing the memory."
         },
         "MemoryLevel": {
@@ -23,357 +23,371 @@
         }
       },
       {
-        "zType": "MEMORYTRIBE_CONVERT_RELIGION",
-        "zText": "Tribe Convert Religion"
+        "zType": "MEMORYTRIBE_SPREAD_RELIGION",
+        "Text": "TEXT_MEMORYTRIBE_SPREAD_RELIGION"
       },
       {
         "zType": "MEMORYTRIBE_RAID",
-        "zText": "Tribe Raid",
+        "Text": "TEXT_MEMORYTRIBE_RAID",
         "iTurns": "3"
       },
       {
         "zType": "MEMORYTRIBE_PEACE",
-        "zText": "Tribe Peace",
+        "Text": "TEXT_MEMORYTRIBE_PEACE",
         "iTurns": "10"
       },
       {
         "zType": "MEMORYTRIBE_TRUCE",
-        "zText": "Tribe Truce",
-        "iTurns": "10"
+        "Text": "TEXT_MEMORYTRIBE_TRUCE",
+        "iTurns": "5"
       },
       {
         "zType": "MEMORYTRIBE_WAR",
-        "zText": "Tribe War",
+        "Text": "TEXT_MEMORYTRIBE_WAR",
         "iTurns": "10"
       },
       {
         "zType": "MEMORYTRIBE_OFFER",
-        "zText": "Tribe Offer",
+        "Text": "TEXT_MEMORYTRIBE_OFFER",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYTRIBE_OFFER_ALL",
-        "zText": "Tribe Offer (All)",
+        "Text": "TEXT_MEMORYTRIBE_OFFER_ALL",
         "iTurns": "2"
       },
       {
         "zType": "MEMORYTRIBE_BROKE_PEACE",
-        "zText": "Broke a Peace Treaty",
+        "Text": "TEXT_MEMORYTRIBE_BROKE_PEACE",
         "iValue": "-20",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYTRIBE_REMOVED_LUXURY",
-        "zText": "Removed Luxury",
-        "iValue": "-50",
-        "iTurns": "5"
+        "Text": "TEXT_MEMORYTRIBE_REMOVED_LUXURY",
+        "iValue": "-40",
+        "iTurns": "10"
       },
       {
         "zType": "MEMORYTRIBE_PLAYER_TRIBE_WAR",
-        "zText": "Convinced a Nation to declare on us",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
+        "Text": "TEXT_MEMORYTRIBE_PLAYER_TRIBE_WAR",
+        "iValue": "-80",
+        "iTurns": "80"
       },
       {
         "zType": "MEMORYTRIBE_ATTACKED_UNIT",
-        "zText": "Attacked our Unit(s)",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+        "Text": "TEXT_MEMORYTRIBE_ATTACKED_UNIT",
+        "iValue": "-20",
+        "iTurns": "20"
       },
       {
         "zType": "MEMORYTRIBE_ATTACKED_SETTLEMENT",
-        "zText": "Attacked our Sites(s)",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+        "Text": "TEXT_MEMORYTRIBE_ATTACKED_SETTLEMENT",
+        "iValue": "-20",
+        "iTurns": "20"
+      },
+      {
+        "zType": "MEMORYTRIBE_ATTACKED_ENEMY",
+        "Text": "TEXT_MEMORYTRIBE_ATTACKED_ENEMY",
+        "iValue": "2",
+        "iTurns": "10"
       },
       {
         "zType": "MEMORYTRIBE_DECLARED_WAR",
-        "zText": "Declared War on us",
+        "Text": "TEXT_MEMORYTRIBE_DECLARED_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_EXECUTION",
-        "zText": "They executed our prisoners.",
+        "Text": "TEXT_MEMORYTRIBE_EXECUTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_DESECRATION",
-        "zText": "Our tombs were desecrated.",
+        "Text": "TEXT_MEMORYTRIBE_DESECRATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_RESPECT",
-        "zText": "Our tombs were spared.",
+        "Text": "TEXT_MEMORYTRIBE_RESPECT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_DENIED_SPOILS",
-        "zText": "Denied our rival's spoils.",
+        "Text": "TEXT_MEMORYTRIBE_DENIED_SPOILS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_SALTED_FIELDS",
-        "zText": "Burned our spoils and salted our fields",
+        "Text": "TEXT_MEMORYTRIBE_SALTED_FIELDS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_SHARED_SPOILS",
-        "zText": "Shared rival's spoils",
+        "Text": "TEXT_MEMORYTRIBE_SHARED_SPOILS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ZEALOTS_OPPRESSED",
-        "zText": "Subdued warlike zealots",
+        "Text": "TEXT_MEMORYTRIBE_ZEALOTS_OPPRESSED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_DISREGARDED_KNOWLEDGE",
-        "zText": "Disregarded our knowledge",
+        "Text": "TEXT_MEMORYTRIBE_DISREGARDED_KNOWLEDGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_RETURNED_HOSTAGE",
-        "zText": "Returned royal hostage",
+        "Text": "TEXT_MEMORYTRIBE_RETURNED_HOSTAGE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_KEPT_HOSTAGE",
-        "zText": "Kept a royal ward as hostage",
+        "Text": "TEXT_MEMORYTRIBE_KEPT_HOSTAGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_DOOMED_HOSTAGE",
-        "zText": "They doomed our royal hostage",
+        "Text": "TEXT_MEMORYTRIBE_DOOMED_HOSTAGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_MURDERED_QUEEN",
-        "zText": "Murdered our queen",
+        "Text": "TEXT_MEMORYTRIBE_MURDERED_QUEEN",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_INSULTED_CUSTOMS",
-        "zText": "Insulted our customs",
+        "Text": "TEXT_MEMORYTRIBE_INSULTED_CUSTOMS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ACCEPTED_CUSTOMS",
-        "zText": "Accepted our customs",
+        "Text": "TEXT_MEMORYTRIBE_ACCEPTED_CUSTOMS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_RETURNED_FAMILY",
-        "zText": "Returned the royal family",
+        "Text": "TEXT_MEMORYTRIBE_RETURNED_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_STOLE_FAMILY",
-        "zText": "Abducted royal family",
+        "Text": "TEXT_MEMORYTRIBE_STOLE_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_MET_OUR_DELEGATION",
-        "zText": "Met our delegation",
+        "Text": "TEXT_MEMORYTRIBE_MET_OUR_DELEGATION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_SENT_A_PROXY",
-        "zText": "Sent a proxy to meet our delegation",
+        "Text": "TEXT_MEMORYTRIBE_SENT_A_PROXY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ATTACKED_DELEGATION",
-        "zText": "Attacked our delegation",
+        "Text": "TEXT_MEMORYTRIBE_ATTACKED_DELEGATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ANNEXED_LAND",
-        "zText": "Planning to annex our land",
+        "Text": "TEXT_MEMORYTRIBE_ANNEXED_LAND",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_REFUSED_ANNEXATION",
-        "zText": "Did not annex our land",
+        "Text": "TEXT_MEMORYTRIBE_REFUSED_ANNEXATION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_AVOIDED_RUINS",
-        "zText": "Avoided ancient ruins",
+        "Text": "TEXT_MEMORYTRIBE_AVOIDED_RUINS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_DESECRATED_RUINS",
-        "zText": "Desecrated ancient ruins",
+        "Text": "TEXT_MEMORYTRIBE_DESECRATED_RUINS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_TREATED_WITH_LEADER",
-        "zText": "Treated with our leader",
+        "Text": "TEXT_MEMORYTRIBE_TREATED_WITH_LEADER",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_RESTRICTED_PIRACY",
-        "zText": "Restircted tribal piracy",
+        "Text": "TEXT_MEMORYTRIBE_RESTRICTED_PIRACY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "beginGroup": "Contact",
         "zType": "MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF",
-        "zText": "Offended our ambassador",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_WAR_AMBASSADOR_IF",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_TRIBE_CONTACT_AGGRESSION",
-        "zText": "Acted aggressively on first contact",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_CONTACT_AGGRESSION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_TRIBE_CONTACT_GAVE_GIFTS",
-        "zText": "Gave gifts on first contact",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_CONTACT_GAVE_GIFTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_TRIBE_CONTACT_RANSOM",
-        "zText": "Paid ransom for their unit",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_CONTACT_RANSOM",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_TRIBE_CONTACT_TOOK_HOSTAGE",
-        "zText": "Took our unit hostage",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_CONTACT_TOOK_HOSTAGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_FEASTED_IN_OUR_HONOR",
-        "zText": "Feasted in our honor",
+        "Text": "TEXT_MEMORYTRIBE_FEASTED_IN_OUR_HONOR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_TRIBE_CONTACT_CULTURAL_DELEGATION_NO",
-        "zText": "Refused our cultural delegation",
+        "Text": "TEXT_MEMORYTRIBE_TRIBE_CONTACT_CULTURAL_DELEGATION_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_REFUSED_OUR_ENEMIES",
-        "zText": "Refused to aid our enemies",
+        "Text": "TEXT_MEMORYTRIBE_REFUSED_OUR_ENEMIES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_STRANGE_ENCOUNTER",
-        "zText": "Respected our sacred ground",
+        "Text": "TEXT_MEMORYTRIBE_STRANGE_ENCOUNTER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
-        "zType": "MEMORYTRIBE_RUMOR_HAS_IT_SAVED",
-        "zText": "Respected our snakes",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
-      },
-      {
         "zType": "MEMORYTRIBE_LAW_FREED_CAPTIVES",
-        "zText": "Freed our captives",
+        "Text": "TEXT_MEMORYTRIBE_LAW_FREED_CAPTIVES",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_RUINS_RESTORED_CITY",
-        "zText": "Restores our ancient capital",
+        "Text": "TEXT_MEMORYTRIBE_RUINS_RESTORED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Combat",
         "zType": "MEMORY_IGNORED_PROPOSAL",
-        "zText": "Refused king's proposal",
+        "Text": "TEXT_MEMORY_IGNORED_PROPOSAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORY_WOOED_BARBARIAN_KING",
-        "zText": "Wooed our king",
+        "Text": "TEXT_MEMORY_WOOED_BARBARIAN_KING",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
-        "beginGroup": "Marriage",
         "zType": "MEMORYTRIBE_MARRIAGE_OFFER_NO",
-        "zText": "Rejected marriage proposal",
+        "Text": "TEXT_MEMORYTRIBE_MARRIAGE_OFFER_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Miscellaneous",
         "zType": "MEMORYTRIBE_SMUGGLED_SPIES",
-        "zText": "Smuggled our spies",
+        "Text": "TEXT_MEMORYTRIBE_SMUGGLED_SPIES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ASSISTED_IN_MONSOON",
-        "zText": "Helped us in a monsoon",
+        "Text": "TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Character",
         "zType": "MEMORYTRIBE_REBUKED_US",
-        "zText": "Rebuked our relationship",
+        "Text": "TEXT_MEMORYTRIBE_REBUKED_US",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_REFUSED_INVITATION",
-        "zText": "Refused our invitation",
+        "Text": "TEXT_MEMORYTRIBE_REFUSED_INVITATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_GAVE_JUSTICE",
-        "zText": "Executed those who desecrated ruins",
+        "Text": "TEXT_MEMORYTRIBE_GAVE_JUSTICE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_REFUSED_JUSTICE",
-        "zText": "Refused to give barbarians peace",
+        "Text": "TEXT_MEMORYTRIBE_REFUSED_JUSTICE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_EXPLAINED_MISTAKE",
-        "zText": "Explained accidental desecration",
+        "Text": "TEXT_MEMORYTRIBE_EXPLAINED_MISTAKE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ACCEPTED_GENERAL",
-        "zText": "Accepted our veteran general",
+        "Text": "TEXT_MEMORYTRIBE_ACCEPTED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_PRESERVED_PIRACY",
-        "zText": "Preserved piracy as a viable profession",
+        "Text": "TEXT_MEMORYTRIBE_PRESERVED_PIRACY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_MEDIATOR",
-        "zText": "Other tribe mediated on our behalf",
+        "Text": "TEXT_MEMORYTRIBE_MEDIATOR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_COURTIER_WED",
-        "zText": "Courtier wed barbarian bride",
+        "Text": "TEXT_MEMORYTRIBE_COURTIER_WED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Exploration",
         "zType": "MEMORYTRIBE_GIFT_OF_CAMELS",
-        "zText": "Received gift of camels",
+        "Text": "TEXT_MEMORYTRIBE_GIFT_OF_CAMELS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_RETURNED_SHEPHERD",
-        "zText": "Returned young shepherd",
+        "Text": "TEXT_MEMORYTRIBE_RETURNED_SHEPHERD",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "beginGroup": "Diplomacy",
         "zType": "MEMORYTRIBE_SENT_SPIES",
-        "zText": "Sent agents to sow unrest",
+        "Text": "TEXT_MEMORYTRIBE_SENT_SPIES",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_ACCEPTED_RELIGIOUS_PRACTICE",
-        "zText": "Accepted religious practice",
+        "Text": "TEXT_MEMORYTRIBE_ACCEPTED_RELIGIOUS_PRACTICE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE",
-        "zText": "Argued religious practice",
+        "Text": "TEXT_MEMORYTRIBE_ARGUED_RELIGIOUS_PRACTICE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_EXTORTED",
+        "Text": "TEXT_MEMORYTRIBE_EXTORTED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "MEMORYTRIBE_RUMOR_HAS_IT_SAVED",
+        "Text": "TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       }
     ]
   }

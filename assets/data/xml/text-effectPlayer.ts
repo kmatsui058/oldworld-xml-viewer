@@ -11,6 +11,10 @@
         }
       },
       {
+        "zType": "TEXT_EFFECTPLAYER_CAPITAL_SOURCE",
+        "English": "in link(CONCEPT_CAPITAL)"
+      },
+      {
         "zType": "TEXT_EFFECTPLAYER_BASE",
         "English": "Base"
       },
@@ -59,132 +63,8 @@
         "English": "The Great"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_LAW_EPICS",
-        "English": "Epics"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_EXPLORATION",
-        "English": "Exploration"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_SLAVERY",
-        "English": "Slavery"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_FREEDOM",
-        "English": "Freedom"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_CENTRALIZATION",
-        "English": "Centralization"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_VASSALAGE",
-        "English": "Vassalage"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_TYRANNY",
-        "English": "Tyranny"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_CONSTITUTION",
-        "English": "Constitution"
-      },
-      {
         "zType": "TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE",
-        "English": "Decree in Capital"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_COLONIZATION",
-        "English": "Colonization"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_SERFDOM",
-        "English": "Serfdom"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_MONOTHEISM",
-        "English": "Monotheism"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_POLYTHEISM",
-        "English": "Polytheism"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_DIVINE_RULE",
-        "English": "Divine Rule"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_LEGAL_CODE",
-        "English": "Legal Code"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_TOLERANCE",
-        "English": "Tolerance"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ORTHODOXY",
-        "English": "Orthodoxy"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
-        "English": "Professional Army"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_VOLUNTEERS",
-        "English": "Volunteers"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_PHILOSOPHY",
-        "English": "Philosophy"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ENGINEERING",
-        "English": "Engineering"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ICONOGRAPHY",
-        "English": "Iconography"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_CALLIGRAPHY",
-        "English": "Calligraphy"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_PILGRIMAGE",
-        "English": "Pilgrimage"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_HOLY_WAR",
-        "English": "Holy War"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_GUILDS",
-        "English": "Guilds"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_ELITES",
-        "English": "Elites"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_AUTARKY",
-        "English": "Autarky"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE",
-        "English": "Trade League"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY",
-        "English": "Convoy"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT",
-        "English": "Coin Debasement"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LAW_MONETARY_REFORM",
-        "English": "Monetary Reform"
+        "English": "Decrees in link(CONCEPT_CAPITAL)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TECH_LABOR_FORCE",
@@ -199,52 +79,52 @@
         "English": "Automate link(UNIT_WORKER,2)"
       },
       {
-        "zType": "TEXT_EFFECTPLAYER_VICTORY_POINT",
-        "English": "Victory Point"
+        "zType": "TEXT_EFFECTPLAYER_TECH_NAVIGATION",
+        "English": "Automate link(UNIT_SCOUT,2)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
-        "English": "Hero Leader"
+        "English": "link(TRAIT_HERO_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE",
-        "English": "Tactician Leader"
+        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
-        "English": "Commander Leader"
+        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
-        "English": "Zealot Leader"
+        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",
-        "English": "Judge Leader"
+        "English": "link(TRAIT_JUDGE_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE",
-        "English": "Orator Leader"
+        "English": "link(TRAIT_ORATOR_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE",
-        "English": "Scholar Leader"
+        "English": "link(TRAIT_SCHOLAR_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY",
-        "English": "Inquiry in Capital"
+        "English": "Inquiries in link(CONCEPT_CAPITAL)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE",
-        "English": "Builder Leader"
+        "English": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE",
-        "English": "Schemer Leader"
+        "English": "link(TRAIT_SCHEMER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
-        "English": "Diplomat Leader"
+        "English": "link(TRAIT_DIPLOMAT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE",
@@ -253,6 +133,18 @@
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE",
         "English": "Very High Science"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS",
+        "English": "Medium Orders"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_ORDERS",
+        "English": "High Orders"
+      },
+      {
+        "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS",
+        "English": "Very High Orders"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS",

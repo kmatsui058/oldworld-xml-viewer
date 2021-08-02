@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Source?: ZType | string;
   zIconName?: ZType | string;
   SourceCouncil?: ZType | string;
   SourceDifficulty?: ZType | string;
@@ -49,9 +50,6 @@ export interface Entry {
   bAddRoad?: ZType | string;
   bAddUrban?: ZType | string;
   bUpgradeImprovement?: ZType | string;
-  bNoWonders?: ZType;
-  bNoReligions?: ZType;
-  bNoTheologies?: ZType;
   bMultipleWorkers?: ZType | string;
   bBuyTile?: ZType | string;
   bAgent?: ZType | string;
@@ -65,14 +63,16 @@ export interface Entry {
   bRecruitMercenaries?: ZType | string;
   bHireMercenaries?: ZType | string;
   bAutomateWorkers?: ZType | string;
+  bAutomateScouts?: ZType | string;
   aiMilitaryKillYield?: AiMilitaryKillYield;
   aiWarYield?: AiMilitaryKillYield;
-  aiYieldRate?: AiMilitaryKillYield;
+  aiYieldRate?: AiYieldRate;
+  aiYieldRateLaws?: AiMilitaryKillYield;
   aiYieldUpkeep?: AiMilitaryKillYield;
   aeEffectUnit?: AeEffectUnit;
   aeTradeYield?: AeTradeYield;
   aeWaterUnit?: AeTradeYield;
-  aeHideUnit?: AeTradeYield;
+  aeInvisibleUnit?: AeTradeYield;
 }
 export interface AeTradeYield {
   zValue?: string;
@@ -83,6 +83,9 @@ export interface AeEffectUnit {
 export interface Pair2 {
   zIndex: string;
   zValue: string;
+}
+export interface AiYieldRate {
+  Pair?: Pair[] | Pair;
 }
 export interface AiMilitaryKillYield {
   Pair?: Pair;

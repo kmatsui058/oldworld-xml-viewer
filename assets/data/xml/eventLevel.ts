@@ -6,10 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zHelp": {
+        "Help": {
           
         },
         "iPercent": {
@@ -21,22 +21,22 @@
       },
       {
         "zType": "EVENTLEVEL_LOW",
-        "zName": "Low",
-        "zHelp": "Fewer Events than normal",
+        "Name": "TEXT_EVENTLEVEL_LOW",
+        "Help": "TEXT_EVENTLEVEL_LOW_HELP",
         "iPercent": "50",
         "iTurns": "8"
       },
       {
         "zType": "EVENTLEVEL_MODERATE",
-        "zName": "Moderate",
-        "zHelp": "The default Event rate",
+        "Name": "TEXT_EVENTLEVEL_MODERATE",
+        "Help": "TEXT_EVENTLEVEL_MODERATE_HELP",
         "iPercent": "75",
         "iTurns": "6"
       },
       {
         "zType": "EVENTLEVEL_HIGH",
-        "zName": "High",
-        "zHelp": "More Events than normal",
+        "Name": "TEXT_EVENTLEVEL_HIGH",
+        "Help": "TEXT_EVENTLEVEL_HIGH_HELP",
         "iPercent": "100",
         "iTurns": "4"
       }

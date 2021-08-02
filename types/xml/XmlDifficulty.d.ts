@@ -8,7 +8,9 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
+  iRaidProbCity?: ZType | string;
+  iRaidNumCity?: ZType | string;
   bNoDeclareWar?: ZType | string;
   EffectPlayer: ZType | string;
   aiYieldStockpile: AiYieldStockpile;

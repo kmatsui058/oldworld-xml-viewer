@@ -23,12 +23,20 @@
         "English": "Cancel"
       },
       {
+        "zType": "TEXT_GENERIC_OK",
+        "English": "Ok"
+      },
+      {
         "zType": "TEXT_GENERIC_NONE",
         "English": "None"
       },
       {
         "zType": "TEXT_UI_INPUT_MAX_CHARACTERS",
         "English": "(Max characters: {0})"
+      },
+      {
+        "zType": "TEXT_UI_FAILED_LOAD_LOCKED_SAVE",
+        "English": "Failed to load save. Specified file is either invalid or was started with the \"Locked Save\" option enabled and the file has subsequently been modified"
       },
       {
         "zType": "TEXT_UI_REDRAW_TECH",
@@ -52,7 +60,7 @@
       },
       {
         "zType": "TEXT_UI_THEIR_TURN",
-        "English": "{0}'s Turn"
+        "English": "{0}'s Turn{true_1:\n{1}{YIELD_ORDERS}}"
       },
       {
         "zType": "TEXT_UI_HOTSEAT_PLAYER",
@@ -83,6 +91,10 @@
         "English": "Next Unit"
       },
       {
+        "zType": "TEXT_UI_IDLE_LABEL_MOVE_UNIT",
+        "English": "Move Unit"
+      },
+      {
         "zType": "TEXT_UI_IDLE_LABEL_CHOOSE_PRODUCTION",
         "English": "Choose Production<br><color=#e3c08c>({0_city})</color>"
       },
@@ -101,6 +113,10 @@
       {
         "zType": "TEXT_UI_EVENT_LOG_ACHIEVEMENT",
         "English": "ACHIEVEMENT"
+      },
+      {
+        "zType": "TEXT_UI_EVENT_LOG_CHARACTER_SUCCESSION",
+        "English": "SUCCESSION"
       },
       {
         "zType": "TEXT_UI_EVENT_LOG_DO_BONUS",
@@ -231,8 +247,12 @@
         "English": "CITY EVENT"
       },
       {
-        "zType": "TEXT_UI_EVENT_LOG_CITY_BUILT",
-        "English": "CITY BUILT"
+        "zType": "TEXT_UI_EVENT_LOG_CITY_PRODUCTION",
+        "English": "CITY PRODUCTION"
+      },
+      {
+        "zType": "TEXT_UI_EVENT_LOG_CITY_BREACHED",
+        "English": "CITY BREACHED"
       },
       {
         "zType": "TEXT_UI_EVENT_LOG_CITY_CANCELLED",
@@ -267,6 +287,10 @@
         "English": "LAUNCH OFFENSIVE"
       },
       {
+        "zType": "TEXT_UI_EVENT_LOG_OFFENSIVE_LAUNCHED",
+        "English": "OFFENSIVE LAUNCHED"
+      },
+      {
         "zType": "TEXT_UI_EVENT_LOG_GIFT_GOOD",
         "English": "GIFT GOOD"
       },
@@ -296,7 +320,7 @@
       },
       {
         "zType": "TEXT_UI_EVENT_LOG_DISMISS_TOOLTIP",
-        "English": "<TEXT_HOTKEY_RIGHT_CLICK> to dismiss"
+        "English": "<TEXT_HOTKEY_RIGHT_CLICK> to dismiss this notification<br><TEXT_HOTKEY_CTRL_RIGHT_CLICK> to dismiss all notifications"
       },
       {
         "zType": "TEXT_UI_TILE_BOUNDARY_TOOLTIP_WATER_TITLE",
@@ -313,6 +337,10 @@
       {
         "zType": "TEXT_UI_TILE_BOUNDARY_TOOLTIP_LAND_BODY",
         "English": "HIC SUNT LEONES"
+      },
+      {
+        "zType": "TEXT_UI_CITY_TOOLTIP_CAPTURING",
+        "English": "Capturing ({true_1:PAUSED:{0_player}})"
       },
       {
         "zType": "TEXT_UI_CITY_TOOLTIP_FAMILY",
@@ -332,7 +360,7 @@
       },
       {
         "zType": "TEXT_UI_CITY_TOOLTIP_STRENGTH",
-        "English": "Strength"
+        "English": "Defense"
       },
       {
         "zType": "TEXT_UI_CITY_TOOLTIP_CITIZENS",
@@ -403,8 +431,12 @@
         "English": "Distance"
       },
       {
-        "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_STRENGTH",
-        "English": "Strength"
+        "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_ATTACK",
+        "English": "Attack"
+      },
+      {
+        "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_DEFENSE",
+        "English": "Defense"
       },
       {
         "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_KILLING_BLOW",
@@ -527,14 +559,6 @@
         "English": "{0} XP"
       },
       {
-        "zType": "TEXT_UI_CITY_ACTIONS_PROJECTS_CATEGORY",
-        "English": "Projects"
-      },
-      {
-        "zType": "TEXT_UI_CITY_ACTIONS_SPECIALISTS_CATEGORY",
-        "English": "Specialists"
-      },
-      {
         "zType": "TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_GROWTH",
         "English": "Growth"
       },
@@ -545,6 +569,14 @@
       {
         "zType": "TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_CIVICS",
         "English": "Civics"
+      },
+      {
+        "zType": "TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_PROJECTS",
+        "English": "Civics: Projects"
+      },
+      {
+        "zType": "TEXT_UI_CITY_ACTIONS_PRODUCTION_CATEGORY_SPECIALISTS",
+        "English": "Civics: Specialists"
       },
       {
         "zType": "TEXT_UI_CHARACTER_ACTIONS_SEND_RESOURCE",
@@ -627,8 +659,8 @@
         "English": "{0} (STATE)"
       },
       {
-        "zType": "TEXT_UI_GOAL_PANEL_YEARS_LEFT",
-        "English": "{0_turnScale}: {1}"
+        "zType": "TEXT_UI_GOAL_PANEL_YEARS_LEFT_LEGACY",
+        "English": "{0_character}{true_1: {1_cognomen}}'s link(CONCEPT_LEGACY): {2_turnsVariable}"
       },
       {
         "zType": "TEXT_UI_CITY_LIST_IDLE",
@@ -751,12 +783,8 @@
         "English": "Prerequisite for a targeted tech"
       },
       {
-        "zType": "TEXT_UI_TOOLTIP_LUXURIES",
-        "English": "Luxuries:"
-      },
-      {
         "zType": "TEXT_UI_TOOLTIP_LUXURIES_HELP",
-        "English": "link(CONCEPT_LUXURY) can be given to Nations, Tribes, and Families to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT).\nLuxuries are unlocked by constructing Specialists on Improvements. For example, the link(RESOURCE_HONEY) Luxury comes from link(SPECIALIST_GARDENER,1) on link(IMPROVEMENT_GROVE,1)."
+        "English": "link(CONCEPT_LUXURY) can be given to link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve Opinion. They also can be given to Cities to reduce link(YIELD_DISCONTENT). Luxuries are unlocked by constructing Specialists on Improvements. For example, the link(RESOURCE_HONEY) Luxury comes from link(SPECIALIST_GARDENER,1) on link(IMPROVEMENT_GROVE,1)."
       },
       {
         "zType": "TEXT_UI_TOOLTIP_LUXURIES_NONE",
@@ -895,6 +923,10 @@
         "English": "[{0} Attacks {1}]"
       },
       {
+        "zType": "TEXT_UI_EVENT_STORY_UNIT_COMBAT_EMPTY",
+        "English": "[Unit Combat]"
+      },
+      {
         "zType": "TEXT_UI_EVENT_STORY_ATTACKED_CITY",
         "English": "[Attacked {0}]"
       },
@@ -920,7 +952,7 @@
       },
       {
         "zType": "TEXT_UI_EVENT_STORY_GENERAL_INJURY",
-        "English": "[General Injured]"
+        "English": "[General link(CONCEPT_INJURY,3)]"
       },
       {
         "zType": "TEXT_UI_EVENT_STORY_UNIT_PROMOTION",
@@ -944,7 +976,7 @@
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_COURT",
-        "English": "Court Members"
+        "English": "link(CONCEPT_COURT) Members"
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_GENERALS",
@@ -960,15 +992,15 @@
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_AMBASSADORS",
-        "English": "Eligible link(COUNCIL_AMBASSADOR,1)"
+        "English": "Eligible link(COUNCIL_AMBASSADOR,2)"
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_CHANCELLORS",
-        "English": "Eligible link(COUNCIL_CHANCELLOR,1)"
+        "English": "Eligible link(COUNCIL_CHANCELLOR,2)"
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_SPYMASTERS",
-        "English": "Eligible link(COUNCIL_SPYMASTER,1)"
+        "English": "Eligible link(COUNCIL_SPYMASTER,2)"
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_GENERAL_AGE",
@@ -1035,8 +1067,8 @@
         "English": "None"
       },
       {
-        "zType": "TEXT_UI_SELECTED_RELIGION_FOLLOWERS_EMPIRES",
-        "English": "Empires"
+        "zType": "TEXT_UI_SELECTED_RELIGION_FOLLOWERS_NATIONS",
+        "English": "Nations"
       },
       {
         "zType": "TEXT_UI_SELECTED_RELIGION_FOLLOWERS_FAMILIES",
@@ -1053,6 +1085,10 @@
       {
         "zType": "TEXT_UI_EXIT_DIALOG",
         "English": "Are you sure you want to exit?\nAny unsaved progress will be lost."
+      },
+      {
+        "zType": "TEXT_UI_LOAD_DIALOG",
+        "English": "Are you sure you want to load another game?\nAny unsaved progress will be lost."
       },
       {
         "zType": "TEXT_UI_RESTART_DIALOG",
@@ -1089,10 +1125,6 @@
       {
         "zType": "TEXT_MENU_SCREEN_QUIT_BUTTON",
         "English": "Quit to Desktop"
-      },
-      {
-        "zType": "TEXT_MENU_SCREEN_PREVIOUS_BUTTON",
-        "English": "Previous"
       },
       {
         "zType": "TEXT_MENU_SCREEN_NEWSLETTER",
@@ -1179,6 +1211,14 @@
         "English": "Vegetation"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_HEIGHTS",
+        "English": "Heights"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_RATINGS",
+        "English": "Ratings"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TERRAIN",
         "English": "Terrain"
       },
@@ -1195,6 +1235,10 @@
         "English": "Improvements (Wonders)"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_MISSIONS",
+        "English": "Missions"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS",
         "English": "Improvements (Religion)"
       },
@@ -1203,12 +1247,24 @@
         "English": "Traits (Other)"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS",
+        "English": "Hints"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS",
+        "English": "Promotions"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES",
         "English": "Traits (Adjectives)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES",
         "English": "Theologies"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TUTORIALS",
+        "English": "Tutorials"
       },
       {
         "zType": "TEXT_GIFT_CITY_TEAMMATE",
@@ -1247,6 +1303,10 @@
         "English": "Agent Missions"
       },
       {
+        "zType": "TEXT_ASSIGN_CHARACTER_AGENTS",
+        "English": "Agent Networks"
+      },
+      {
         "zType": "TEXT_AGENT_MISSION_NAME",
         "English": "{0_missionLink} <color=#e3c08c>({1_cityLink})</color>"
       },
@@ -1273,6 +1333,10 @@
       {
         "zType": "TEXT_MP_KICK_ACTIVE_PLAYER",
         "English": "Kick the current player?"
+      },
+      {
+        "zType": "TEXT_MP_SKIP_ACTIVE_PLAYER",
+        "English": "Skip the current player's turn?"
       },
       {
         "zType": "TEXT_MP_DELETE_CLOUD_SAVE",
@@ -1305,6 +1369,10 @@
       {
         "zType": "TEXT_CLOUD_SCREEN_KICK_ACTIVE_PLAYER",
         "English": "Kick Active Player"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_SKIP_ACTIVE_PLAYER",
+        "English": "Skip Active Player"
       },
       {
         "zType": "TEXT_CLOUD_SCREEN_DOWNLOAD_SAVE",
@@ -1340,15 +1408,15 @@
       },
       {
         "zType": "TEXT_MP_WIZARD_SCREEN_NETWORK_MODE_BUTTON",
-        "English": "Network Mode"
+        "English": "Network"
       },
       {
         "zType": "TEXT_MP_WIZARD_SCREEN_PLAY_BY_CLOUD_MODE_BUTTON",
-        "English": "Play By Cloud Mode"
+        "English": "Play By Cloud"
       },
       {
         "zType": "TEXT_MP_WIZARD_SCREEN_HOTSEAT_MODE_BUTTON",
-        "English": "Hotseat Mode"
+        "English": "Hotseat"
       },
       {
         "zType": "TEXT_MP_WIZARD_SCREEN_SERVER_MODE_BUTTON",
@@ -1391,8 +1459,12 @@
         "English": "Version"
       },
       {
+        "zType": "TEXT_GAME_HEADER_PASSWORD_CELL",
+        "English": "Password"
+      },
+      {
         "zType": "TEXT_MP_PLAYERS_SCREEN_OBSERVE_BUTTON",
-        "English": "Observe"
+        "English": "Join as observer"
       },
       {
         "zType": "TEXT_MP_PLAYERS_SCREEN_BACK_BUTTON",
@@ -1483,6 +1555,10 @@
         "English": "Encyclopedia"
       },
       {
+        "zType": "TOOLS_SCREEN_CREDITS_BUTTON",
+        "English": "Credits"
+      },
+      {
         "zType": "TOOLS_SCREEN_BACK_BUTTON",
         "English": "Back"
       },
@@ -1517,10 +1593,6 @@
       {
         "zType": "TEXT_MP_SETUP_SEC_BUTTON_ADVANCED",
         "English": "Schedule"
-      },
-      {
-        "zType": "TEXT_MP_SETUP_VICTORY",
-        "English": "Victory"
       },
       {
         "zType": "TEXT_MP_SETUP_TITLE_LABEL_HOSTG",
@@ -1561,6 +1633,10 @@
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD",
         "English": "Host Password"
+      },
+      {
+        "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURN_URL",
+        "English": "Turn Notification URL"
       },
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_PLAYERS",
@@ -1649,6 +1725,10 @@
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_SEED",
         "English": "Seed"
+      },
+      {
+        "zType": "TEXT_MP_SETUP_SHOW_HIDDEN_SCRIPTS",
+        "English": "Show Hidden Map Scripts"
       },
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_USE_OTHER_MODS",
@@ -1767,6 +1847,10 @@
         "English": "Reset"
       },
       {
+        "zType": "TEXT_OPTIONS_MENU_REQUIRES_RESTART_DIALOG",
+        "English": "The game must be restarted to apply this change."
+      },
+      {
         "zType": "TEXT_SCENARIO_SETUP_NEWSCENARIO",
         "English": "New Scenario"
       },
@@ -1823,6 +1907,10 @@
         "English": "Start Game"
       },
       {
+        "zType": "TEXT_SCENARIO_SETUP_LOCKED_PREREQ",
+        "English": "Achieve victory on {0_scenario} to unlock"
+      },
+      {
         "zType": "TEXT_SP_SETUP_TABS_BIO",
         "English": "Bio"
       },
@@ -1849,6 +1937,10 @@
       {
         "zType": "TEXT_SP_SETUP_TABS_SETUP_FAMILIES",
         "English": "Families"
+      },
+      {
+        "zType": "TEXT_SP_SETUP_TABS_SETUP_ARCHETYPE",
+        "English": "Leader link(CONCEPT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_SP_SETUP_RANDOM",
@@ -1927,8 +2019,8 @@
         "English": "Seed"
       },
       {
-        "zType": "TEXT_TAB_PANEL_CHARTAB_COURT",
-        "English": "Court"
+        "zType": "TEXT_SP_SETUP_SHOW_HIDDEN_SCRIPTS",
+        "English": "Show Hidden Map Scripts"
       },
       {
         "zType": "TEXT_TAB_PANEL_CHARTAB_CHARACTERS",
@@ -1939,8 +2031,8 @@
         "English": "Spouse"
       },
       {
-        "zType": "TEXT_TAB_PANEL_CHARTAB_HEIRS",
-        "English": "Heirs"
+        "zType": "TEXT_TAB_PANEL_CHARTAB_SUCCESSION",
+        "English": "Succession"
       },
       {
         "zType": "TEXT_TAB_PANEL_CHARTAB_COURT_COURTIERS",
@@ -1955,8 +2047,8 @@
         "English": "Families"
       },
       {
-        "zType": "TEXT_TAB_PANEL_DIPLOTAB_EMPIRES",
-        "English": "Empires"
+        "zType": "TEXT_TAB_PANEL_DIPLOTAB_NATIONS",
+        "English": "Nations"
       },
       {
         "zType": "TEXT_TAB_PANEL_DIPLOTAB_TRIBES",
@@ -1965,6 +2057,10 @@
       {
         "zType": "TEXT_TAB_PANEL_DIPLOTAB_CITIES",
         "English": "Cities{true_0: by {0_filter}}"
+      },
+      {
+        "zType": "TEXT_TAB_PANEL_DIPLOTAB_AGENTS",
+        "English": "Agent Cities{true_0: by {0_filter}}"
       },
       {
         "zType": "TEXT_UI_CITYSORT_PRODUCTION",
@@ -1985,6 +2081,14 @@
       {
         "zType": "TEXT_UI_CITYSORT_POPULATION",
         "English": "Population (Citizens + Specialists)"
+      },
+      {
+        "zType": "TEXT_UI_CITYTAB_CITIES_MODE",
+        "English": "Show Your Cities"
+      },
+      {
+        "zType": "TEXT_UI_CITYTAB_AGENTS_MODE",
+        "English": "Show Cities with link(CONCEPT_AGENT_NETWORK,2)"
       },
       {
         "zType": "TEXT_TAB_PANEL_DIPLOTAB_UNITS",
@@ -2104,7 +2208,7 @@
       },
       {
         "zType": "TEXT_UI_VICTORY_DOUBLE_PROGRESS",
-        "English": "Points Required: {0}"
+        "English": "Victory Points Required: {0}"
       },
       {
         "zType": "TEXT_OVERVIEW_MAP_MAPOPTIONS",
@@ -2215,6 +2319,10 @@
         "English": "Upgrade"
       },
       {
+        "zType": "TEXT_SELECTED_UNIT_CARAVAN",
+        "English": "Start Caravan Mission"
+      },
+      {
         "zType": "TEXT_SELECTED_UNIT_TURN",
         "English": "Turn"
       },
@@ -2267,14 +2375,6 @@
         "English": "Laws"
       },
       {
-        "zType": "TEXT_POPUP_LAWS_LAW_UPKEEP",
-        "English": "{0}"
-      },
-      {
-        "zType": "TEXT_POPUP_LAWS_LAW_FAMILY_OPINION",
-        "English": "{0} {1}"
-      },
-      {
         "zType": "TEXT_POPUP_INPUT_TITLE",
         "English": "Title"
       },
@@ -2293,6 +2393,10 @@
       {
         "zType": "TEXT_LEADER_INFO_QUESTS",
         "English": "Quests:"
+      },
+      {
+        "zType": "TEXT_HELP_SCREEN_TOGGLE_ALPHA_SORT",
+        "English": "<true_0>Disable<false>Enable<end> alphabetical sort"
       },
       {
         "zType": "TEXT_HELP_SCREEN_STATS_HP",
@@ -2320,7 +2424,7 @@
       },
       {
         "zType": "TEXT_GAME_LOG",
-        "English": "Timeline: {0_turnScale} {1_turn}"
+        "English": "Timeline: {1_turn}"
       },
       {
         "zType": "TEXT_GAME_LOG_LEADERS",
@@ -2448,7 +2552,7 @@
       },
       {
         "zType": "TEXT_TECH_TREE_OVERRIDE_TARGET_RESEARCH",
-        "English": "<TEXT_HOTKEY_LEFT_CLICK> to target with a flag when choosing research"
+        "English": "<TEXT_HOTKEY_LEFT_CLICK> to set as a target"
       },
       {
         "zType": "TEXT_TECH_TREE_BONUS_CARD_DISCARDED",
@@ -2901,6 +3005,14 @@
       {
         "zType": "TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP",
         "English": "icon(bullet)1280x720 or larger recommended<br>icon(bullet)16:9 aspect ratio recommended<br>icon(bullet)8mb maximum<br>icon(bullet)GIFs will be converted to PNG"
+      },
+      {
+        "zType": "TEXT_UI_MODS_REPORT_TOOLTIP",
+        "English": "Report mod content for violating mod.io's {0_tosLink}"
+      },
+      {
+        "zType": "TEXT_UI_MODS_TERMS_OF_USE_LINK_TEXT",
+        "English": "Terms of Use"
       },
       {
         "zType": "TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_TITLE",

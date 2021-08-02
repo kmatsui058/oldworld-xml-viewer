@@ -23,6 +23,18 @@
         "English": "Combat III"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_STRIKE1",
+        "English": "Strike I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_STRIKE2",
+        "English": "Strike II"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_STRIKE3",
+        "English": "Strike III"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_GUARD1",
         "English": "Guard I"
       },
@@ -219,6 +231,10 @@
         "English": "Fireship"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_LADING",
+        "English": "Lading"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_INGENUITY",
         "English": "Ingenuity"
       },
@@ -251,10 +267,6 @@
         "English": "Formation"
       },
       {
-        "zType": "TEXT_EFFECTUNIT_MANEUVERS",
-        "English": "Maneuvers"
-      },
-      {
         "zType": "TEXT_EFFECTUNIT_CRIPPLED",
         "English": "Crippled"
       },
@@ -267,16 +279,20 @@
         "English": "Surveyor"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_ASSYRIA",
+        "English": "link(NATION_ASSYRIA)"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_HERO",
         "English": "link(TRAIT_HERO_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO_LEADER",
-        "English": "link(TRAIT_HERO_ARCHETYPE) (Leader)"
+        "English": "link(TRAIT_HERO_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO_MELEE",
-        "English": "link(TRAIT_HERO_ARCHETYPE) (link(UNITTRAIT_MELEE))"
+        "English": "link(TRAIT_HERO_ARCHETYPE) Leader (link(UNITTRAIT_MELEE))"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER",
@@ -284,11 +300,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE) (Leader)"
+        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE) (link(UNITTRAIT_INFANTRY))"
+        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader (link(UNITTRAIT_INFANTRY))"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN",
@@ -296,11 +312,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_LEADER",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) (Leader)"
+        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_RANGED",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) (link(UNITTRAIT_RANGED))"
+        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT",
@@ -308,27 +324,27 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
-        "English": "link(TRAIT_ZEALOT_ARCHETYPE) (Leader)"
+        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS",
-        "English": "link(OPINIONFAMILY_FURIOUS) (Family)"
+        "English": "link(OPINIONFAMILY_FURIOUS) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY",
-        "English": "link(OPINIONFAMILY_ANGRY) (Family)"
+        "English": "link(OPINIONFAMILY_ANGRY) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET",
-        "English": "link(OPINIONFAMILY_UPSET) (Family)"
+        "English": "link(OPINIONFAMILY_UPSET) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED",
-        "English": "link(OPINIONFAMILY_PLEASED) (Family)"
+        "English": "link(OPINIONFAMILY_PLEASED) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY",
-        "English": "link(OPINIONFAMILY_FRIENDLY) (Family)"
+        "English": "link(OPINIONFAMILY_FRIENDLY) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SWORD_OF_THE_GODS",

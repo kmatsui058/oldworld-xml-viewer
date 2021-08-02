@@ -49,6 +49,11 @@
         "eDesc": "TEXT_MISCOPTION_GRAPHICS_PRESET_DESC"
       },
       {
+        "zType": "MISCOPTION_LOD_QUALITY",
+        "eName": "TEXT_MISCOPTION_LOD_QUALITY_NAME",
+        "eDesc": "TEXT_MISCOPTION_LOD_QUALITY_DESC"
+      },
+      {
         "zType": "MISCOPTION_RENDERING_QUALITY",
         "eName": "TEXT_MISCOPTION_RENDERING_QUALITY_NAME",
         "eDesc": "TEXT_MISCOPTION_RENDERING_QUALITY_DESC"
@@ -62,6 +67,11 @@
         "zType": "MISCOPTION_FOW_QUALITY",
         "eName": "TEXT_MISCOPTION_FOW_QUALITY_NAME",
         "eDesc": "TEXT_MISCOPTION_FOW_QUALITY_DESC"
+      },
+      {
+        "zType": "MISCOPTION_FOREST_QUALITY",
+        "eName": "TEXT_MISCOPTION_FOREST_QUALITY_NAME",
+        "eDesc": "TEXT_MISCOPTION_FOREST_QUALITY_DESC"
       },
       {
         "zType": "MISCOPTION_COLORBLIND_FILTER",
@@ -104,6 +114,11 @@
         "eDesc": "TEXT_MISCOPTION_MOTION_BLUR_DESC"
       },
       {
+        "zType": "MISCOPTION_DEPTH_OF_FIELD",
+        "eName": "TEXT_MISCOPTION_DEPTH_OF_FIELD_NAME",
+        "eDesc": "TEXT_MISCOPTION_DEPTH_OF_FIELD_DESC"
+      },
+      {
         "zType": "MISCOPTION_COLOR_CORRECTION",
         "eName": "TEXT_MISCOPTION_COLOR_CORRECTION_NAME",
         "eDesc": "TEXT_MISCOPTION_COLOR_CORRECTION_DESC"
@@ -114,9 +129,9 @@
         "eDesc": "TEXT_MISCOPTION_ANIMATION_LOD_DESC"
       },
       {
-        "zType": "MISCOPTION_SINGLE_UNITS",
-        "eName": "TEXT_MISCOPTION_SINGLE_UNITS_NAME",
-        "eDesc": "TEXT_MISCOPTION_SINGLE_UNITS_DESC"
+        "zType": "MISCOPTION_SINGLE_OBJECTS",
+        "eName": "TEXT_MISCOPTION_SINGLE_OBJECTS_NAME",
+        "eDesc": "TEXT_MISCOPTION_SINGLE_OBJECTS_DESC"
       },
       {
         "zType": "MISCOPTION_MUSIC_VOLUME",

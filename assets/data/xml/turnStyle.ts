@@ -6,10 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zHelp": {
+        "Help": {
           
         },
         "iTimeModifier": {
@@ -24,9 +24,6 @@
         "bTeamSplit": {
           
         },
-        "bTribeSplit": {
-          
-        },
         "bNoCooldown": {
           
         },
@@ -39,8 +36,8 @@
       },
       {
         "zType": "TURNSTYLE_SIMULTANEOUS",
-        "zName": "Simultaneous",
-        "zHelp": "Simultaneous Turns",
+        "Name": "TEXT_TURNSTYLE_SIMULTANEOUS",
+        "Help": "TEXT_TURNSTYLE_SIMULTANEOUS_HELP",
         "iTimeModifier": "25",
         "iCombatModifier": "50",
         "bSimultaneous": "1",
@@ -48,31 +45,30 @@
       },
       {
         "zType": "TURNSTYLE_LOOSE",
-        "zName": "Loose",
-        "zHelp": "No Movement Restrictions",
+        "Name": "TEXT_TURNSTYLE_LOOSE",
+        "Help": "TEXT_TURNSTYLE_LOOSE_HELP",
         "iTimeModifier": "-25",
         "iCombatModifier": "50",
-        "bTribeSplit": "1",
         "bNoCooldown": "1"
       },
       {
         "zType": "TURNSTYLE_NORMAL",
-        "zName": "Normal",
-        "zHelp": "Attacking during another Team's Turn gives a Double Cooldown",
+        "Name": "TEXT_TURNSTYLE_NORMAL",
+        "Help": "TEXT_TURNSTYLE_NORMAL_HELP",
         "iCombatModifier": "25"
       },
       {
         "zType": "TURNSTYLE_TIGHT",
-        "zName": "Tight",
-        "zHelp": "Can only move Non-Military Units during another Team's Turn",
+        "Name": "TEXT_TURNSTYLE_TIGHT",
+        "Help": "TEXT_TURNSTYLE_TIGHT_HELP",
         "iTimeModifier": "25",
         "iCombatModifier": "25",
         "bNoMilitary": "1"
       },
       {
         "zType": "TURNSTYLE_TEAMS",
-        "zName": "Teams",
-        "zHelp": "Cannot move any Units during another Team's Turn",
+        "Name": "TEXT_TURNSTYLE_TEAMS",
+        "Help": "TEXT_TURNSTYLE_TEAMS_HELP",
         "iTimeModifier": "50",
         "iCombatModifier": "25",
         "bNoBuild": "1",
@@ -80,8 +76,8 @@
       },
       {
         "zType": "TURNSTYLE_STRICT",
-        "zName": "Strict",
-        "zHelp": "Cannot move any Units during another Player's Turn",
+        "Name": "TEXT_TURNSTYLE_STRICT",
+        "Help": "TEXT_TURNSTYLE_STRICT_HELP",
         "iTimeModifier": "50",
         "iCombatModifier": "25",
         "bTeamSplit": "1",

@@ -6,402 +6,402 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zDescription": {
+        "Description": {
           
         }
       },
       {
         "zType": "MAP_OPTION_HIGH_RESOURCES",
-        "zName": "High",
-        "zDescription": "More resources on the map"
+        "Name": "TEXT_MAP_OPTION_HIGH_RESOURCES",
+        "Description": "TEXT_MAP_OPTION_HIGH_RESOURCES_HELP"
       },
       {
         "zType": "MAP_OPTION_MEDIUM_RESOURCES",
-        "zName": "Medium",
-        "zDescription": "Regular amount of resources"
+        "Name": "TEXT_MAP_OPTION_MEDIUM_RESOURCES",
+        "Description": "TEXT_MAP_OPTION_MEDIUM_RESOURCES_HELP"
       },
       {
         "zType": "MAP_OPTION_LOW_RESOURCES",
-        "zName": "Low",
-        "zDescription": "Fewer resources on the map"
+        "Name": "TEXT_MAP_OPTION_LOW_RESOURCES",
+        "Description": "TEXT_MAP_OPTION_LOW_RESOURCES_HELP"
       },
       {
         "zType": "MAP_OPTION_DEFAULT_RESOURCES",
-        "zName": "Default",
-        "zDescription": "Use painted map's resources"
+        "Name": "TEXT_MAP_OPTION_DEFAULT_RESOURCES",
+        "Description": "TEXT_MAP_OPTION_DEFAULT_RESOURCES_HELP"
       },
       {
         "zType": "MAP_OPTION_RANDOM_RESOURCES",
-        "zName": "Randomized",
-        "zDescription": "Use random resource placement"
+        "Name": "TEXT_MAP_OPTION_RANDOM_RESOURCES",
+        "Description": "TEXT_MAP_OPTION_RANDOM_RESOURCES_HELP"
       },
       {
         "zType": "MAP_OPTION_PLAYER_START_ANYWHERE",
-        "zName": "Anywhere",
-        "zDescription": "Start anywhere"
+        "Name": "TEXT_MAP_OPTION_PLAYER_START_ANYWHERE",
+        "Description": "TEXT_MAP_OPTION_PLAYER_START_ANYWHERE_HELP"
       },
       {
         "zType": "MAP_OPTION_WATER_SIZE_RANDOM",
-        "zName": "Random",
-        "zDescription": "Randomly chooses an option"
+        "Name": "TEXT_MAP_OPTION_WATER_SIZE_RANDOM",
+        "Description": "TEXT_MAP_OPTION_WATER_SIZE_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_PLAYER_START_COAST",
-        "zName": "Coastal",
-        "zDescription": "Start adjacent to salt water"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_COAST",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_COAST_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_PLAYER_START_INLAND",
-        "zName": "Inland",
-        "zDescription": "Start away from salt water"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_INLAND",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Varied in number and distribution"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TRIBES_FIVE",
-        "zName": "Five Tribes",
-        "zDescription": "Wide variation in size of Tribes"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TRIBES_FIVE",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TRIBES_FIVE_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TRIBES_FOUR",
-        "zName": "Four Tribes",
-        "zDescription": "Quadrants"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TRIBES_FOUR",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TRIBES_FOUR_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TRIBES_THREE",
-        "zName": "Three Tribes",
-        "zDescription": "Tribes of similar sizes. More unaffiliated camps."
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TRIBES_THREE",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TRIBES_THREE_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TERRAIN_RANDOM",
-        "zName": "Random",
-        "zDescription": "Randomly choose one of the other selections"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_RANDOM",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TERRAIN_TUNDRA",
-        "zName": "Tundra",
-        "zDescription": "This game will include some Tundra"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_TUNDRA",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_TUNDRA_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TERRAIN_DESERT",
-        "zName": "Desert",
-        "zDescription": "This game will include a major Desert"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_DESERT",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_DESERT_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TERRAIN_MOUNTAINS",
-        "zName": "Extra Mountains",
-        "zDescription": "This game will include extra Mountains"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_MOUNTAINS",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_MOUNTAINS_HELP"
       },
       {
         "zType": "MAP_OPTION_SEASIDE_TERRAIN_WATER",
-        "zName": "Extra Water",
-        "zDescription": "This game will include extra Water"
+        "Name": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_WATER",
+        "Description": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_WATER_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_PLAYER_START_PLATEAU",
-        "zName": "The Plateau",
-        "zDescription": "Start in the south, on the great plateau"
+        "Name": "TEXT_MAP_OPTION_ARID_PLAYER_START_PLATEAU",
+        "Description": "TEXT_MAP_OPTION_ARID_PLAYER_START_PLATEAU_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_PLAYER_START_MIDLAND",
-        "zName": "The Midland",
-        "zDescription": "Start in the middle latitudes"
+        "Name": "TEXT_MAP_OPTION_ARID_PLAYER_START_MIDLAND",
+        "Description": "TEXT_MAP_OPTION_ARID_PLAYER_START_MIDLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_PLAYER_START_TUNDRA",
-        "zName": "Near the Tundra",
-        "zDescription": "Start in the north, where it is colder"
+        "Name": "TEXT_MAP_OPTION_ARID_PLAYER_START_TUNDRA",
+        "Description": "TEXT_MAP_OPTION_ARID_PLAYER_START_TUNDRA_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_FIVE",
-        "zName": "Five Tribes",
-        "zDescription": "Scattered"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_FIVE",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_FIVE_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_FOUR",
-        "zName": "Four Tribes",
-        "zDescription": "Quadrants"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_FOUR",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_FOUR_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_THREE",
-        "zName": "Three Tribes",
-        "zDescription": "One Tribe per latitude band"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_THREE",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_THREE_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_TWO",
-        "zName": "Two Tribes",
-        "zDescription": "One Tribe prefers flat areas and water. The other prefers to live on hills"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_TWO",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_TWO_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_BARBARIANS",
-        "zName": "Barbarians Only",
-        "zDescription": "No Tribes, only Barbarian camps"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_ONE",
-        "zName": "One Tribe",
-        "zDescription": "One colossal Tribe owns the middle of the map"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_ONE",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_ONE_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Varied in number and distribution"
+        "Name": "TEXT_MAP_OPTION_ARID_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_ARID_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_WATER_SIZE_LARGE",
-        "zName": "Large Seas",
-        "zDescription": "Fewer, larger seas of irregular shape"
+        "Name": "TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE",
+        "Description": "TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_WATER_SIZE_SMALL",
-        "zName": "Small Jagged Seas",
-        "zDescription": "Several small seas will be narrow and jagged. They may interconnect."
+        "Name": "TEXT_MAP_OPTION_ARID_WATER_SIZE_SMALL",
+        "Description": "TEXT_MAP_OPTION_ARID_WATER_SIZE_SMALL_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_WATER_LOCATION_RANDOM",
-        "zName": "Random",
-        "zDescription": "Randomly chooses an option"
+        "Name": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_RANDOM",
+        "Description": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH",
-        "zName": "Far North",
-        "zDescription": "Usually forms bays that range offscreen"
+        "Name": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH",
+        "Description": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH_HELP"
       },
       {
         "zType": "MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH",
-        "zName": "Middle North",
-        "zDescription": "Usually forms seas with land passage to their north"
+        "Name": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH",
+        "Description": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_SIX",
-        "zName": "Six Tribes",
-        "zDescription": "Clockwise around the inland sea(s)"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Varied in number and distribution"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_FOUR",
-        "zName": "Four Tribes",
-        "zDescription": "Quadrants"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_FOUR",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_FOUR_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_THREE",
-        "zName": "Three Tribes",
-        "zDescription": "One Tribe per latitude band"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_THREE",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_THREE_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_TWO",
-        "zName": "Two Tribes",
-        "zDescription": "One west, one east"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_TWO_INLAND",
-        "zName": "Two Tribes, Inland",
-        "zDescription": "Tribes inhabit land away from the water"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_INLAND",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_TWO_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS",
-        "zName": "Barbarians Only",
-        "zDescription": "No Tribes, only Barbarian camps"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_BARBARIANS_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE",
-        "zName": "Large Sea",
-        "zDescription": "Aims to provide one large, irregular sea"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL",
-        "zName": "Small Jagged Seas",
-        "zDescription": "Several small seas will be narrow and jagged. They may interconnect."
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_PLAYER_START_SEA",
-        "zName": "Coast",
-        "zDescription": "Start on the Sea"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA_HELP"
       },
       {
         "zType": "MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND",
-        "zName": "Inland",
-        "zDescription": "Start away from the Sea"
+        "Name": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND",
+        "Description": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA",
-        "zName": "Coastal",
-        "zDescription": "Start adjacent to salt water"
+        "Name": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA",
+        "Description": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA_HELP"
       },
       {
         "zType": "MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND",
-        "zName": "Inland",
-        "zDescription": "Start away from salt water"
+        "Name": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND",
+        "Description": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST",
-        "zName": "Forest",
-        "zDescription": "Tribes own the great forest. Nations start in the plains."
+        "Name": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST",
+        "Description": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST_HELP"
       },
       {
         "zType": "MAP_OPTION_HARDWOOD_FOREST_TRIBES_PLAINS",
-        "zName": "Plains",
-        "zDescription": "Tribes occupy the open plains. Nations start in the forest."
+        "Name": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_PLAINS",
+        "Description": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_PLAINS_HELP"
       },
       {
         "zType": "MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED",
-        "zName": "Scattered",
-        "zDescription": "Nations and Tribes can start anywhere"
+        "Name": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED",
+        "Description": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED_HELP"
       },
       {
         "zType": "MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT",
-        "zName": "On the Continent",
-        "zDescription": "Start on the main continent. Selecting a high number of Nations may require some to be in the north."
+        "Name": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT",
+        "Description": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT_HELP"
       },
       {
         "zType": "MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS",
-        "zName": "Islands and Peninsulas",
-        "zDescription": "Start in the north, on an island or snaky peninsula. Selecting a high number of Nations may require some to be on the continent."
+        "Name": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS",
+        "Description": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS_HELP"
       },
       {
         "zType": "MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE",
-        "zName": "Native",
-        "zDescription": "Use Tribal homelands native to Northern Ocean"
+        "Name": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE",
+        "Description": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE_HELP"
       },
       {
         "zType": "MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Makes use of a randomly selected core Tribe method instead of using the one tailored to this map"
+        "Name": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_PLAYER_START_SEA",
-        "zName": "Coastal",
-        "zDescription": "Start adjacent to salt water"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_PLAYER_START_INLAND",
-        "zName": "Inland",
-        "zDescription": "Start away from salt water"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_INLAND",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Varied in number and distribution"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TRIBES_SCATTERED",
-        "zName": "Five Tribes",
-        "zDescription": "Scattered"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TRIBES_SCATTERED",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TRIBES_SCATTERED_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TRIBES_QUADRANTS",
-        "zName": "Four Tribes",
-        "zDescription": "Quadrants"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TRIBES_INLAND",
-        "zName": "Inland Only",
-        "zDescription": "Two Tribes in play, all camps away from the ocean"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TRIBES_COASTAL",
-        "zName": "Coastal Only",
-        "zDescription": "Two Mounted Tribes in play, all camps near salt water"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TERRAIN_EITHER",
-        "zName": "Either",
-        "zDescription": "Extreme terrain can be either tundra or desert"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TERRAIN_TUNDRA",
-        "zName": "Tundra",
-        "zDescription": "Extreme terrain on this map will be tundra"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA_HELP"
       },
       {
         "zType": "MAP_OPTION_CONTINENT_TERRAIN_DESERT",
-        "zName": "Desert",
-        "zDescription": "Extreme terrain on this map will be desert"
+        "Name": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT",
+        "Description": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU",
-        "zName": "The Plateau",
-        "zDescription": "Start in the south, on the great plateau"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND",
-        "zName": "The Midland",
-        "zDescription": "Start in the middle latitudes"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN",
-        "zName": "Near the Ocean",
-        "zDescription": "Start in the north, near the ocean"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_OCEAN_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
-        "zName": "Random",
-        "zDescription": "Varied in number and distribution"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE",
-        "zName": "Five Tribes",
-        "zDescription": "Scattered"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR",
-        "zName": "Four Tribes",
-        "zDescription": "Quadrants"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE",
-        "zName": "Three Tribes",
-        "zDescription": "One Tribe per latitude band"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO",
-        "zName": "Two Tribes",
-        "zDescription": "One Tribe in the west, the other in the east"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE",
-        "zName": "One Tribe",
-        "zDescription": "One colossal Tribe owns the middle of the map"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE_HELP"
       },
       {
         "zType": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
-        "zName": "Barbarians Only",
-        "zDescription": "No Tribes, only Barbarian camps"
+        "Name": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
+        "Description": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS_HELP"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM",
-        "zName": "Weighted Random",
-        "zDescription": "Each of the eight continent generation methods has an equal chance to be used"
+        "Name": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM",
+        "Description": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM_HELP"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN",
-        "zName": "Two Continents, Split Evenly",
-        "zDescription": "Two continents of nearly-equal size"
+        "Name": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN",
+        "Description": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TWO_EVEN_HELP"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN",
-        "zName": "Three Continents, Split Evenly",
-        "zDescription": "Three continents of nearly-equal size"
+        "Name": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN",
+        "Description": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_EVEN_HELP"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN",
-        "zName": "Three Continents, Split Unevenly",
-        "zDescription": "Three continents of uneven sizes"
+        "Name": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN",
+        "Description": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_THREE_UNEVEN_HELP"
       },
       {
         "zType": "MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS",
-        "zName": "One continent per team",
-        "zDescription": "One continent per team, with size proportional to the number of team members"
+        "Name": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS",
+        "Description": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS_HELP"
       }
     ]
   }

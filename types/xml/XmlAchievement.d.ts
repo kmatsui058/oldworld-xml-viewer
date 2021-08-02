@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   Victory: ZType | string;
   EventLevel: ZType | string;
   Mortality: ZType | string;
@@ -19,7 +19,10 @@ export interface Entry {
   aiStatCount: AiCultureCount;
   aeGameOptions: AeGameOptions;
   bGOTW?: ZType | string;
+  bTrueFaith?: ZType | string;
   iNumOpponents?: ZType | string;
+  iNumCities?: ZType | string;
+  iNumFamilies?: ZType | string;
 }
 export interface AeGameOptions {
   zValue?: string[] | string;

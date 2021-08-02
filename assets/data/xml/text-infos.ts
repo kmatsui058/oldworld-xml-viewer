@@ -23,6 +23,246 @@
         "English": "Unit~a Unit~Units"
       },
       {
+        "zType": "TEXT_TUTORIAL_ORDERS",
+        "English": "Tutorial: Orders"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SCOUTS",
+        "English": "Tutorial: Scout"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_LUXURIES",
+        "English": "Tutorial: Luxuries"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TOOLTIPS",
+        "English": "Tutorial: Tooltips"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TECH_DECK",
+        "English": "Tutorial: Tech Deck"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHOP_WOOD",
+        "English": "Tutorial: Chop Wood"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ANCHORING",
+        "English": "Tutorial: Anchoring"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SECOND_CITY",
+        "English": "Tutorial: Second City"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_PAGAN_SHRINE",
+        "English": "Tutorial: Pagan Shrine"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RALLY_TROOPS",
+        "English": "Tutorial: Rally Troops"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_HOLD_COURT",
+        "English": "Tutorial: Hold Court"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INFLUENCE",
+        "English": "Tutorial: Influence"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_IMPRISON",
+        "English": "Tutorial: Imprison"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INTERCESSION",
+        "English": "Tutorial: Intercession"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_WORKER",
+        "English": "Tutorial: Worker"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RUSH_BUYING",
+        "English": "Tutorial: Rush Buying"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CARAVAN_SELECTED",
+        "English": "Tutorial: Caravans"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SLINGER",
+        "English": "Tutorial: Slinger"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_WARRIOR",
+        "English": "Tutorial: Warrior"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ROUT",
+        "English": "Tutorial: Rout"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_UPGRADES",
+        "English": "Tutorial: Unit Upgrades"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRIBE_CAMP_CLEARED",
+        "English": "Tutorial: Tribal Camps"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CITY_CAPTURED",
+        "English": "Tutorial: City Capture"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CULTURE",
+        "English": "Tutorial: Culture"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_HARVEST_RESOURCE",
+        "English": "Tutorial: Harvest Resource"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_ATTACK_COOLDOWN",
+        "English": "Tutorial: Attack Cooldown"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_FATIGUED",
+        "English": "Tutorial: Unit Fatigued"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNDO",
+        "English": "Tutorial: Undo"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RELIGION",
+        "English": "Tutorial: Religion"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHARIOT_SELECTED",
+        "English": "Tutorial: Chariots"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_NATION_CONTACT",
+        "English": "Tutorial: Nations"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRIBES",
+        "English": "Tutorial: Tribes"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPECIALIST",
+        "English": "Tutorial: Specialist"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_GOVERNOR",
+        "English": "Tutorial: Governor"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRAINING_IMPROVEMENT",
+        "English": "Tutorial: Training Improvement"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRADE_NETWORK",
+        "English": "Tutorial: Trade Network"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_MERCENARIES",
+        "English": "Tutorial: Mercenaries"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AMBITION",
+        "English": "Tutorial: Ambitions"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SUCCESSION",
+        "English": "Tutorial: Succession"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INHERITANCE_LAWS",
+        "English": "Tutorial: Inheritance Laws"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_LEGITIMACY",
+        "English": "Tutorial: Legitimacy"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_MARRIAGE",
+        "English": "Tutorial: Marriage"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_GENERAL",
+        "English": "Tutorial: General"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPEARMAN",
+        "English": "Tutorial: Spearman"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AXEMAN",
+        "English": "Tutorial: Axeman"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ONAGER",
+        "English": "Tutorial: Onager"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_FAMILY",
+        "English": "Tutorial: Families"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AMBASSADOR",
+        "English": "Tutorial: Ambassador"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHANCELLOR",
+        "English": "Tutorial: Chancellor"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPYMASTER",
+        "English": "Tutorial: Spymaster"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AGENTS",
+        "English": "Tutorial: Agents"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RURAL_YIELDS",
+        "English": "Tutorial: Rural Yields"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_YIELDS",
+        "English": "Tutorial: Urban Yields"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_GROWTH",
+        "English": "Tutorial: Urban Yields (Growth)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_CIVICS",
+        "English": "Tutorial: Urban Yields (Civics)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_TRAINING",
+        "English": "Tutorial: Urban Yields (Training)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_CULTURE",
+        "English": "Tutorial: Urban Yields (Culture)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_DISCONTENT",
+        "English": "Tutorial: Urban Yields (Discontent)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_SCIENCE",
+        "English": "Tutorial: Urban Yields (Science)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_MONEY",
+        "English": "Tutorial: Urban Yields (Money)"
+      },
+      {
         "zType": "TEXT_CONCEPT_AGENT",
         "English": "Agent~an Agent~Agents"
       },
@@ -40,11 +280,19 @@
       },
       {
         "zType": "TEXT_CONCEPT_ALLIANCE_PLAYER",
-        "English": "Player Alliance"
+        "English": "National Alliance"
+      },
+      {
+        "zType": "TEXT_CONCEPT_AMBITION",
+        "English": "Ambition~an Ambition~Ambitions"
       },
       {
         "zType": "TEXT_CONCEPT_ANCHORED",
-        "English": "Anchored"
+        "English": "Anchored~Anchor~Anchoring"
+      },
+      {
+        "zType": "TEXT_CONCEPT_ARCHETYPE",
+        "English": "Archetype~an Archetype~Archetypes"
       },
       {
         "zType": "TEXT_CONCEPT_BUY_TILE",
@@ -59,8 +307,20 @@
         "English": "Caravan Mission"
       },
       {
+        "zType": "TEXT_CONCEPT_CITIZEN",
+        "English": "Citizen~a Citizen~Citizens"
+      },
+      {
+        "zType": "TEXT_CONCEPT_CITY_SITE",
+        "English": "City Site~a City Site~City Sites"
+      },
+      {
         "zType": "TEXT_CONCEPT_CLEAR",
         "English": "Clear"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COUNCILOR",
+        "English": "Councilor~a Councilor~Councilors"
       },
       {
         "zType": "TEXT_CONCEPT_CRITICAL_HIT",
@@ -83,6 +343,10 @@
         "English": "Desired Ambition"
       },
       {
+        "zType": "TEXT_CONCEPT_DISCIPLE",
+        "English": "Disciple~a Disciple~Disciples"
+      },
+      {
         "zType": "TEXT_CONCEPT_DISTANCE_MODIFIER",
         "English": "Distance Modifier"
       },
@@ -103,6 +367,22 @@
         "English": "Family Class~a Family Class~Family Classes"
       },
       {
+        "zType": "TEXT_CONCEPT_FATIGUE",
+        "English": "Fatigue~Fatigued"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FRESH_WATER",
+        "English": "Fresh Water"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FLANKING",
+        "English": "Flanking"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FORTIFY",
+        "English": "Fortify"
+      },
+      {
         "zType": "TEXT_CONCEPT_GENERAL",
         "English": "General~a General~Generals"
       },
@@ -111,48 +391,60 @@
         "English": "Governor~a Governor~Governors"
       },
       {
-        "zType": "TEXT_CONCEPT_COUNCILOR",
-        "English": "Councilor~a Councilor~Councilors"
-      },
-      {
-        "zType": "TEXT_CONCEPT_SHRINE",
-        "English": "Shrine~a Shrine~Shrines"
-      },
-      {
-        "zType": "TEXT_CONCEPT_SPECIALIST",
-        "English": "Specialist~a Specialist~Specialists"
-      },
-      {
         "zType": "TEXT_CONCEPT_HARVEST_RESOURCE",
         "English": "Harvest Resource~Harvest Resources~Harvestable Resource"
       },
       {
         "zType": "TEXT_CONCEPT_MARCH",
-        "English": "Forced March~Forced Marches~Forced Marching~Force Marched~Force March"
-      },
-      {
-        "zType": "TEXT_CONCEPT_FATIGUE",
-        "English": "Fatigue~Fatigued"
-      },
-      {
-        "zType": "TEXT_CONCEPT_FLANKING",
-        "English": "Flanking"
-      },
-      {
-        "zType": "TEXT_CONCEPT_AMBITION",
-        "English": "Ambition~an Ambition~Ambitions"
+        "English": "Forced March~a Forced March~Forced Marches~Force March"
       },
       {
         "zType": "TEXT_CONCEPT_STATE_RELIGION",
         "English": "State Religion~a State Religion~State Religions"
       },
       {
+        "zType": "TEXT_CONCEPT_STRENGTH",
+        "English": "Strength"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SUCCESSION",
+        "English": "Succession"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SUCCESSION_LAW",
+        "English": "Succession Law~Succession Laws"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COASTAL_CITIES",
+        "English": "Coastal City~a Coastal City~Coastal Cities"
+      },
+      {
         "zType": "TEXT_CONCEPT_COGNOMEN",
         "English": "Cognomen~a Cognomen~Cognomens"
       },
       {
+        "zType": "TEXT_CONCEPT_COURT",
+        "English": "Court"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COURTIER",
+        "English": "Courtier~a Courtier~Courtiers"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HEAL",
+        "English": "Heal~Healing"
+      },
+      {
         "zType": "TEXT_CONCEPT_HIDDEN",
         "English": "Hidden"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HOLY_CITY",
+        "English": "Holy City~a Holy City~Holy Cities"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HOLY_SITE",
+        "English": "Holy Site~a Holy Site~Holy Sites"
       },
       {
         "zType": "TEXT_CONCEPT_IDLE",
@@ -161,6 +453,22 @@
       {
         "zType": "TEXT_CONCEPT_IGNORES_ZOC",
         "English": "Ignores ZOC"
+      },
+      {
+        "zType": "TEXT_CONCEPT_IMPROVEMENT",
+        "English": "Improvement~an Improvement~Improvements"
+      },
+      {
+        "zType": "TEXT_CONCEPT_INJURY",
+        "English": "Injury~an Injury~Injuries~Injured"
+      },
+      {
+        "zType": "TEXT_CONCEPT_INVISIBLE",
+        "English": "Invisible"
+      },
+      {
+        "zType": "TEXT_CONCEPT_KNOWLEDGE",
+        "English": "Knowledge"
       },
       {
         "zType": "TEXT_CONCEPT_LEGACY",
@@ -172,35 +480,79 @@
       },
       {
         "zType": "TEXT_CONCEPT_LUXURY",
-        "English": "Luxuries"
+        "English": "Luxuries~Luxury"
       },
       {
         "zType": "TEXT_CONCEPT_MERCENARY",
         "English": "Mercenary~a Mercenary~Mercenaries"
       },
       {
-        "zType": "TEXT_CONCEPT_PROJECT_INFO",
-        "English": "Project"
+        "zType": "TEXT_CONCEPT_MINOR_CITY",
+        "English": "Minor City~a Minor City~Minor Cities"
+      },
+      {
+        "zType": "TEXT_CONCEPT_NATION",
+        "English": "Nation~a Nation~Nations"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_FAMILY",
+        "English": "Opinion: Family~Family Opinion~Family Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_PLAYER",
+        "English": "Opinion: Nation~National Opinion~National Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_RELIGION",
+        "English": "Opinion: Religion~Religion Opinion~Religion Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_TRIBE",
+        "English": "Opinion: Tribe~Tribe Opinion~Tribe Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_CHARACTER",
+        "English": "Opinion: Character~Character Opinion~Character Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PAGAN_RELIGION",
+        "English": "Pagan Religion~a Pagan Religion~Pagan Religions"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PEACE_TRIBE",
+        "English": "Tribal Peace"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PEACE_PLAYER",
+        "English": "National Peace"
+      },
+      {
+        "zType": "TEXT_CONCEPT_POPULATION",
+        "English": "Population"
+      },
+      {
+        "zType": "TEXT_CONCEPT_POWER",
+        "English": "Power"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PROJECT",
+        "English": "Project~a Project~Projects"
       },
       {
         "zType": "TEXT_CONCEPT_PROMOTION",
         "English": "Promotion~a Promotion~Promotions~Promoted~Promote"
       },
       {
-        "zType": "TEXT_CONCEPT_UPGRADE_IMPROVEMENTS",
-        "English": "Upgrade Improvements"
+        "zType": "TEXT_CONCEPT_PROXIMITY",
+        "English": "Proximity"
       },
       {
-        "zType": "TEXT_CONCEPT_IMPROVEMENT",
-        "English": "Improvement~an Improvement~Improvements"
+        "zType": "TEXT_CONCEPT_RELIGION",
+        "English": "Religion~a Religion~Religions"
       },
       {
-        "zType": "TEXT_CONCEPT_REBEL",
-        "English": "Rebel"
-      },
-      {
-        "zType": "TEXT_CONCEPT_DISCIPLE",
-        "English": "Disciple~a Disciple~Disciples"
+        "zType": "TEXT_CONCEPT_RIVER",
+        "English": "River~a River~Rivers"
       },
       {
         "zType": "TEXT_CONCEPT_ROAD",
@@ -215,6 +567,26 @@
         "English": "Settlement~a Settlement~Settlements"
       },
       {
+        "zType": "TEXT_CONCEPT_SHRINE",
+        "English": "Shrine~a Shrine~Shrines"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPECIALIST",
+        "English": "Specialist~a Specialist~Specialists"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPREAD_RELIGION",
+        "English": "Spread Religion~Spread"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPOUSE",
+        "English": "Spouse"
+      },
+      {
+        "zType": "TEXT_CONCEPT_TESTUDO",
+        "English": "Testudo"
+      },
+      {
         "zType": "TEXT_CONCEPT_THEOLOGY",
         "English": "Theology~a Theology~Theologies"
       },
@@ -227,6 +599,10 @@
         "English": "Tribal Invasion"
       },
       {
+        "zType": "TEXT_CONCEPT_TUTOR",
+        "English": "Tutor~a Tutor~Tutors~Tutored"
+      },
+      {
         "zType": "TEXT_CONCEPT_UNDO",
         "English": "Undo"
       },
@@ -236,15 +612,35 @@
       },
       {
         "zType": "TEXT_CONCEPT_UPGRADE",
-        "English": "Upgrade~an Upgrades~Upgrades~Upgraded"
+        "English": "Upgrade~an Upgrade~Upgrades~Upgraded"
+      },
+      {
+        "zType": "TEXT_CONCEPT_UPGRADE_IMPROVEMENTS",
+        "English": "Upgrade Improvements"
       },
       {
         "zType": "TEXT_CONCEPT_URBAN",
-        "English": "Urban~an Urban<comment this text is an adjective>"
+        "English": "Urban~an Urban"
+      },
+      {
+        "zType": "TEXT_CONCEPT_VISION",
+        "English": "Vision"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WEAKNESS",
+        "English": "Weakness"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WONDER",
+        "English": "Wonder~a Wonder~Wonders"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WORLD_RELIGION",
+        "English": "World Religion~a World Religion~World Religions"
       },
       {
         "zType": "TEXT_CONCEPT_ZOC",
-        "English": "ZOC"
+        "English": "ZOC~Zone-of-Control"
       },
       {
         "zType": "TEXT_CONCEPT_XP",
@@ -255,40 +651,80 @@
         "English": "Landowners~Landowner"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_LANDOWNERS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_LANDOWNERS) are best at expanding your territory. Their {YIELD_GROWTH}link(YIELD_GROWTH) bonus makes them build link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) faster, and link(FAMILYCLASS_LANDOWNERS,1) cities build link(EFFECTCITY_SPECIALIST_RURAL,2) in half the time. link(FAMILYCLASS_LANDOWNERS) are a good choice when near link(EFFECTCITY_RESOURCE_CROP,1)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_CHAMPIONS",
         "English": "Champions~Champion"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_CHAMPIONS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_CHAMPIONS) excel at military. Their cities have stronger defense and train military units faster, and any units trained will be link(EFFECTUNIT_STEADFAST). The first link(FAMILYCLASS_CHAMPIONS,1) city will get a link(IMPROVEMENT_GARRISON_1), letting you immediately assign a link(CONCEPT_GOVERNOR)."
       },
       {
         "zType": "TEXT_FAMILYCLASS_STATESMEN",
         "English": "Statesmen~Statesman"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_STATESMEN_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_STATESMEN,1) cities are good at boosting your {YIELD_ORDERS}link(YIELD_ORDERS) and {YIELD_CIVICS}link(YIELD_CIVICS). The family's cities will produce more {YIELD_CIVICS}link(YIELD_CIVICS) as the family's opinion of you improves. link(FAMILYCLASS_STATESMEN,1) cities are good at producing link(CONCEPT_SPECIALIST,2)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_PATRONS",
         "English": "Patrons~Patron"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_PATRONS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_PATRONS) are focused on {YIELD_CULTURE}link(YIELD_CULTURE) and link(CONCEPT_SPECIALIST,2). Their cities produce extra {YIELD_CIVICS}link(YIELD_CIVICS), which makes them build link(CONCEPT_SPECIALIST,2) faster, and each link(CONCEPT_SPECIALIST) increases the link(FAMILYCLASS_PATRONS,1) City's {YIELD_CULTURE}link(YIELD_CULTURE)."
       },
       {
         "zType": "TEXT_FAMILYCLASS_CLERICS",
         "English": "Clerics~Cleric"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_CLERICS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_CLERICS) are entirely focused on link(CONCEPT_RELIGION). Founding the first link(FAMILYCLASS_CLERICS,1) city will automatically found a link(CONCEPT_RELIGION). Their cities gain increased yields from religious buildings and have lower {YIELD_DISCONTENT}link(YIELD_DISCONTENT). link(FAMILYCLASS_CLERICS,1) cities are the only ones that can build on link(TERRAIN_SAND)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_SAGES",
         "English": "Sages~Sage"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_SAGES_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_SAGES,1) cities are focused on {YIELD_SCIENCE}link(YIELD_SCIENCE) and link(CONCEPT_SPECIALIST,2). Their cities produce extra {YIELD_CIVICS}link(YIELD_CIVICS), which helps them build link(CONCEPT_SPECIALIST,2) faster, and each link(CONCEPT_SPECIALIST) increases the link(FAMILYCLASS_SAGES,1) city's {YIELD_SCIENCE}link(YIELD_SCIENCE) yield."
       },
       {
         "zType": "TEXT_FAMILYCLASS_TRADERS",
         "English": "Traders~Trader"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_TRADERS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_TRADERS) are a family focused on {YIELD_MONEY}link(YIELD_MONEY). Found near a link(EFFECTCITY_RESOURCE_BULLION) to reap more benefits. link(FAMILYCLASS_TRADERS,1) link(UNIT_WORKER,2) can build several Roads per turn, which makes them especially good at extending your link(CONCEPT_TRADE_NETWORK)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_ARTISANS",
         "English": "Artisans~Artisan"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_ARTISANS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_ARTISANS) generate extra {YIELD_CULTURE}link(YIELD_CULTURE) and receive a significant bonus to link(IMPROVEMENT_MINE,2) and link(IMPROVEMENT_LUMBERMILL,2). They are a good choice for hilly or heavily forested areas."
       },
       {
         "zType": "TEXT_FAMILYCLASS_RIDERS",
         "English": "Riders~Rider"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_RIDERS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_RIDERS) are a military family. Their first city will be able to build link(UNITTRAIT_MOUNTED) units like link(UNIT_WAR_ELEPHANT,2) or link(UNIT_HORSEMAN,2) even without having the associated resource. link(FAMILYCLASS_RIDERS,1) cities are always link(EFFECTCITY_CONNECTED), which makes link(FAMILYCLASS_RIDERS) a good choice for locations that would be harder to connect by Roads."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_HUNTERS",
         "English": "Hunters~Hunter"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_HUNTERS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_HUNTERS) are a military and {YIELD_GROWTH}link(YIELD_GROWTH) family. Their link(UNITTRAIT_RANGED) units fight better in your territory, and all link(IMPROVEMENT_CAMP,2) and link(IMPROVEMENT_NETS,2) have double output in link(FAMILYCLASS_HUNTERS,2) cities. This makes link(FAMILYCLASS_HUNTERS,2) very effective near resources like link(RESOURCE_GAME), link(RESOURCE_FISH), and link(RESOURCE_CRAB)."
       },
       {
         "zType": "TEXT_GOAL_EPICS",
@@ -323,8 +759,8 @@
         "English": "Enact link(LAW_CONSTITUTION)"
       },
       {
-        "zType": "TEXT_GOAL_COLONIZATION",
-        "English": "Enact link(LAW_COLONIZATION)"
+        "zType": "TEXT_GOAL_COLONIES",
+        "English": "Enact link(LAW_COLONIES)"
       },
       {
         "zType": "TEXT_GOAL_SERFDOM",
@@ -504,35 +940,35 @@
       },
       {
         "zType": "TEXT_GOAL_FOOD_400",
-        "English": "Produce 400 icon(YIELD_FOOD)"
+        "English": "Produce 400 icon(YIELD_FOOD)link(YIELD_FOOD)"
       },
       {
         "zType": "TEXT_GOAL_FOOD_800",
-        "English": "Produce 800 icon(YIELD_FOOD)"
+        "English": "Produce 800 icon(YIELD_FOOD)link(YIELD_FOOD)"
       },
       {
         "zType": "TEXT_GOAL_WOOD_400",
-        "English": "Produce 400 icon(YIELD_WOOD)"
+        "English": "Produce 400 icon(YIELD_WOOD)link(YIELD_WOOD)"
       },
       {
         "zType": "TEXT_GOAL_WOOD_800",
-        "English": "Produce 800 icon(YIELD_WOOD)"
+        "English": "Produce 800 icon(YIELD_WOOD)link(YIELD_WOOD)"
       },
       {
         "zType": "TEXT_GOAL_STONE_400",
-        "English": "Produce 400 icon(YIELD_STONE)"
+        "English": "Produce 400 icon(YIELD_STONE)link(YIELD_STONE)"
       },
       {
         "zType": "TEXT_GOAL_STONE_800",
-        "English": "Produce 800 icon(YIELD_STONE)"
+        "English": "Produce 800 icon(YIELD_STONE)link(YIELD_STONE)"
       },
       {
         "zType": "TEXT_GOAL_IRON_400",
-        "English": "Produce 400 icon(YIELD_IRON)"
+        "English": "Produce 400 icon(YIELD_IRON)link(YIELD_IRON)"
       },
       {
         "zType": "TEXT_GOAL_IRON_800",
-        "English": "Produce 800 icon(YIELD_IRON)"
+        "English": "Produce 800 icon(YIELD_IRON)link(YIELD_IRON)"
       },
       {
         "zType": "TEXT_GOAL_20_GOODS_TURN",
@@ -696,19 +1132,19 @@
       },
       {
         "zType": "TEXT_GOAL_FIVE_DEVELOPING",
-        "English": "Control Five Developing Cities"
+        "English": "Control Five link(CULTURE_DEVELOPING) Cities"
       },
       {
         "zType": "TEXT_GOAL_FOUR_STRONG",
-        "English": "Control Four Strong Cities"
+        "English": "Control Four link(CULTURE_STRONG) Cities"
       },
       {
         "zType": "TEXT_GOAL_THREE_LEGENDARY",
-        "English": "Control Three Legendary Cities"
+        "English": "Control Three link(CULTURE_LEGENDARY) Cities"
       },
       {
         "zType": "TEXT_GOAL_SIX_LEGENDARY",
-        "English": "Control Six Legendary Cities"
+        "English": "Control Six link(CULTURE_LEGENDARY) Cities"
       },
       {
         "zType": "TEXT_GOAL_TWO_WONDERS",
@@ -776,55 +1212,55 @@
       },
       {
         "zType": "TEXT_GOAL_THREE_SPECIALISTS",
-        "English": "Control Three Specialists"
+        "English": "Control Three link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_10_SPECIALISTS",
-        "English": "Control 10 Specialists"
+        "English": "Control 10 link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_20_SPECIALISTS",
-        "English": "Control 20 Specialists"
+        "English": "Control 20 link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_5_ELDER_SPECIALISTS",
-        "English": "Control Five Elder Specialists"
+        "English": "Control Five Elder link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_10_ELDER_SPECIALISTS",
-        "English": "Control 10 Elder Specialists"
+        "English": "Control 10 Elder link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_WALLS",
-        "English": "Control Six Walls"
+        "English": "Control Six link(PROJECT_WALLS)"
       },
       {
         "zType": "TEXT_GOAL_SIX_MOATS",
-        "English": "Control Six Moats"
+        "English": "Control Six link(PROJECT_MOAT,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TOWERS",
-        "English": "Control Six Towers"
+        "English": "Control Six link(PROJECT_TOWERS)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TREASURIES",
-        "English": "Control Six Treasuries"
+        "English": "Control Six link(EFFECTCITY_PROJECT_TREASURY,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_FORUMS",
-        "English": "Control Six Forums"
+        "English": "Control Six link(EFFECTCITY_PROJECT_FORUM,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_ARCHIVES",
-        "English": "Control Six Archives"
+        "English": "Control Six link(EFFECTCITY_PROJECT_ARCHIVE,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_FESTIVALS",
-        "English": "Complete Six Festivals"
+        "English": "Complete Six link(PROJECT_FESTIVAL,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_CONVOYS",
-        "English": "Complete Six Convoys"
+        "English": "Complete Six link(PROJECT_CONVOY,2)"
       },
       {
         "zType": "TEXT_GOAL_LEGENDARY_PROJECTS",
@@ -844,23 +1280,19 @@
       },
       {
         "zType": "TEXT_GOAL_TRIBE_PEACE",
-        "English": "Make Peace with a Tribe"
+        "English": "Make link(CONCEPT_PEACE_TRIBE) with a Tribe"
       },
       {
         "zType": "TEXT_GOAL_TRIBE_ALLIANCE",
-        "English": "Form an Alliance with a Tribe"
-      },
-      {
-        "zType": "TEXT_GOAL_TRIBE_CONVERSION",
-        "English": "Convert Two Tribal Sites"
+        "English": "Form an link(CONCEPT_ALLIANCE_TRIBE) with a Tribe"
       },
       {
         "zType": "TEXT_GOAL_THREE_PEACE",
-        "English": "Make Peace with Three Tribes or Empires"
+        "English": "Make link(DIPLOMACY_PEACE) with Three Tribes or Nations"
       },
       {
         "zType": "TEXT_GOAL_ALL_PEACE",
-        "English": "Make Peace with All Tribes and Empires"
+        "English": "Make link(DIPLOMACY_PEACE) with All Tribes and Nations"
       },
       {
         "zType": "TEXT_GOAL_STATE_RELIGION",
@@ -868,7 +1300,7 @@
       },
       {
         "zType": "TEXT_GOAL_FOUND_WORLD_RELIGION",
-        "English": "Found a World Religion"
+        "English": "Found a link(CONCEPT_WORLD_RELIGION)"
       },
       {
         "zType": "TEXT_GOAL_ESTABLISH_THEOLOGY",
@@ -876,19 +1308,19 @@
       },
       {
         "zType": "TEXT_GOAL_FOUR_RELIGION_SPREAD",
-        "English": "Spread Religion (x4)"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x4)"
       },
       {
         "zType": "TEXT_GOAL_EIGHT_RELIGION_SPREAD",
-        "English": "Spread Religion (x8)"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x8)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TECHS",
-        "English": "Discover Six Techs"
+        "English": "Discover Six Technologies"
       },
       {
         "zType": "TEXT_GOAL_EIGHT_TECHS",
-        "English": "Discover Eight Techs"
+        "English": "Discover Eight Technologies"
       },
       {
         "zType": "TEXT_GOAL_SCHOLARSHIP_VAULTING",
@@ -1239,8 +1671,8 @@
         "English": "Control Three link(IMPROVEMENTCLASS_CATHEDRAL,2)"
       },
       {
-        "zType": "TEXT_GOAL_SIX_CATHEDRAL",
-        "English": "Control Six link(IMPROVEMENTCLASS_CATHEDRAL,2)"
+        "zType": "TEXT_GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL",
+        "English": "Control Two link(IMPROVEMENTCLASS_HOLY_SITE,2) and Six link(IMPROVEMENTCLASS_CATHEDRAL,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_URBAN_IMPROVEMENTS",
@@ -1265,10 +1697,6 @@
       {
         "zType": "TEXT_GOAL_100_URBAN_TILES",
         "English": "Control 100 link(TERRAIN_URBAN) Tiles"
-      },
-      {
-        "zType": "TEXT_GOAL_HIGHEST_VP",
-        "English": "Attain the Most VPs"
       },
       {
         "zType": "TEXT_GOAL_THREE_CITIES_FOREIGN",
@@ -1360,23 +1788,23 @@
       },
       {
         "zType": "TEXT_NATION_ASSYRIA_STORY",
-        "English": "I am Ashurbanipal, king of the universe, descendants of great kings. I was the fourth in line for the succession, but my father, Esarhaddon, picked me to rule Assyria because of my bravery and intelligence while sending an older brother to rule a distant kingdom. Unrest comes from his land, and I need to show him how to be the greatest king of them all.\n\n      While my father was alive, I worked as a spymaster and studied etiquette and military training. I constructed the first systematically organized library of the Old World, containing 30,000 clay tablets. I was known for fluency in languages, especially Akkadian and Sumerian, endearing me to many old families.\n\n      I commissioned reliefs of myself hunting lions, a public event which was reserved for Assyrian royalty."
+        "English": "I am Ashurbanipal, king of the universe, descendant of great kings. I was the fourth in line for the succession, but my father, Esarhaddon, picked me to rule Assyria because of my bravery and intelligence while sending an older brother to rule a distant kingdom. Unrest comes from his land, and I must prove that I can be the greatest king of all.\n\n      While my father was alive, I worked as a spymaster and studied etiquette and military training. I constructed the first systematically organized library of the Old World, containing 30,000 clay tablets. I am known for fluency in languages, especially Akkadian and Sumerian, endearing me to many old families.\n\n      I commissioned reliefs of myself hunting lions, a public event which was reserved for Assyrian royalty."
       },
       {
         "zType": "TEXT_NATION_BABYLONIA_STORY",
-        "English": "Son of a Mesopotamian king and husband to Amytis of Medea, and forever a worshiper of the god Marduk. In the name of my father, I elevated my city Babylon to be the jewel of the region. I am trained in military tactics, conquered kingdoms, and crushed rebellions.\n\n    I built link(IMPROVEMENT_HANGING_GARDENS) for my wife so she can feel closer to the hills of Persia, and link(IMPROVEMENT_ISHTAR_GATE) to honor Marduk. I connected them both with the Processing Way and all visitors were bewildered by the beauty of my empire.\n\n    Under my rule, women had equal rights as men did, we created intellectuals institutes and temples, and my focus was on art, culture, science, mathematics, and craftsmanship. In a decade, I turned Babylon into a city of light. I am Nebuchadnezzar."
+        "English": "I am Nebuchadnezzar, son of a Mesopotamian king, husband to Amytis of Medea, and forever a worshiper of the god Marduk. In the name of my father, I elevated my city Babylon to be the jewel of the region. I have trained in military tactics, conquered kingdoms, and crushed rebellions.\n\n    I built link(IMPROVEMENT_HANGING_GARDENS) for my wife so she could feel closer to the hills of Persia and link(IMPROVEMENT_ISHTAR_GATE) to honor Marduk. I connected them both with the Processional Way, and all visitors are bewildered by the beauty of my empire.\n\n    Under my rule, women have equal rights to men. We create intellectual institutes and temples, and my focus is on art, culture, science, mathematics, and craftsmanship. In a decade, I turned Babylon into a city of light."
       },
       {
         "zType": "TEXT_NATION_CARTHAGE_STORY",
-        "English": "I am a Phoenecian princess who fled her home in Tyre, carrying the name Elissa. Escaping my brother Pygmalion who murdered my beloved husband Acerbas, a priest of Hercules, I arrived in North Africa.\n\n     With my husband’s riches, I bargained with the Berber king Iarbus who wanted to marry me. He mockingly promised me all the land that I could cover with the skin of a dead ox. I cut the skin into the thinnest pieces and, along with my Tyrian settlers, laid out the borders of my beloved city.\n\n    I am ready to become Dido the Wanderer, Queen of Carthage, goddess to my people."
+        "English": "I am a Phoenecian princess, carrying the name Elissa, who fled her home in Tyre. Having escaped my brother Pygmalion, who murdered my beloved husband Acerbas, a priest of Hercules, I arrived in North Africa.\n\n    With my husband’s riches, I bargained with the Berber king Iarbus, who wanted to marry me. He mockingly promised me all the land that I could cover with the skin of a dead ox. I cut the hide into thin pieces and, along with my Tyrian settlers, laid out the borders of my beloved city.\n\n    I am ready to become Dido the Wanderer, Queen of Carthage, goddess to my people."
       },
       {
         "zType": "TEXT_NATION_EGYPT_STORY",
-        "English": "I am Hatshepsut, a woman Pharaoh, though declared myself officially a man throughout my reign.\n\n    I had to use my ruse to come to the throne, applying my vast knowledge of religion which endeared me to my people, being wife of the God Amun, declared myself his descendant as well. I am, also, of royal blood on both sides. Married to my brother Thutmose II, I bore a female heir, Neferure. After that, I could not bear more children.\n\n    Occasionally I wore a metal beard but it is a fair price to pay in order to drive my people to a better destiny. Under my reign, Egypt created many trade networks and re-established itself as a nation of builders. My love for science and education allowed me to befriend the most talented architects who helped the Egyptian Empire spread its buildings throughout the known world."
+        "English": "I am Hatshepsut, a woman Pharaoh, though I declared myself officially a man throughout my reign.\n\n    While my ruse was necessary to gain the throne, my vast knowledge of religion endeared me to my people. Being wife of the God Amun, I declared myself his descendant. I am of royal blood on both sides. Married to my brother Thutmose II, I bore a female heir, Neferure. After that, I could bear no more children.\n\n    Occasionally I wore a metal beard, but it is a fair price to pay in order to drive my people to a better destiny. Under my reign, Egypt created many trade networks and re-established itself as a nation of builders. My love for science and education allow me to befriend the most talented architects, who help the Egyptian Empire spread its buildings throughout the known world."
       },
       {
         "zType": "TEXT_NATION_GREECE_STORY",
-        "English": "I am King Philip II of Macedon, son of King Amyntas III, founder of the Unified Macedonian State.\n\n    I received a diplomatic and military education from Epaminondas and established a federation of Greek states known as the League of Corinth. I reformed the Ancient Macedonian Army and established the Macedon Phalanx.\n\n    As a teen, I may have had an older male lover, a general I lived with named Pammenes.\n\n    Over the course of my life, I married seven times. One of my wives, Olympias, gave me a son, and I named him Alexander. He was born the year my horse won in the Olympic Games. Alexander is now 13."
+        "English": "I am King Philip II of Macedon, son of King Amyntas III, founder of the Unified Macedonian State.\n\n    I received a diplomatic and military education from Epaminondas and established a federation of Greek states known as the League of Corinth. I reformed the Ancient Macedonian Army and established the Macedonian Phalanx.\n\n    As a teen, I may have had an older male lover, a general I lived with named Pammenes.\n\n    Over the course of my life, I married seven times. One of my wives, Olympias, gave me a son. I named him Alexander. He was born the year my horse won in the Olympic Games. Alexander is now 13."
       },
       {
         "zType": "TEXT_NATION_PERSIA_STORY",
@@ -1384,7 +1812,31 @@
       },
       {
         "zType": "TEXT_NATION_ROME_STORY",
-        "English": "Son of the god Mars, I was saved and raised by a she-wolf with my twin brother, Remus. Aware of his cunning ways, I kept my caution around him, and moved on to found my own tribe unwilling to share my power with him. \n\n    My humble beginnings as an unwanted outcast helped me find hardy men willing to fight alongside me. Unwilling to let us marry their daughters, we kidnapped and married them, anyway. Now, I am allied with powerful tribes.\n\n    The need to recast the narrative is a must, and I will become a righteous leader blessed with divine favor. \n\n    I am Romulus, and I have founded Roma, the city destined to rule the world."
+        "English": "I am Romulus, son of the god Mars. I was saved and raised by a she-wolf with my twin brother, Remus. Aware of his cunning ways and unwilling to share my power, I kept my caution around him and moved on to found my own tribe. \n\n    My humble beginnings as an unwanted outcast helped me find hardy men willing to fight alongside me. Unwilling to let us marry their daughters, we kidnapped and married them anyway. Now, I am allied with powerful tribes.\n\n    The need to recast the narrative is a must, and I will become a righteous leader blessed with divine favor. \n\n    I am Romulus, and I have founded Roma, the city destined to rule the world."
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_FURIOUS",
+        "English": "-200 and Lower"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_ANGRY",
+        "English": "-199 to -100"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_UPSET",
+        "English": "-99 to -1"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_CAUTIOUS",
+        "English": "0 to 99"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_PLEASED",
+        "English": "100 to 199"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_FRIENDLY",
+        "English": "200 and Higher"
       },
       {
         "zType": "TEXT_OPINIONTRIBE_FURIOUS",
@@ -1456,6 +1908,54 @@
       },
       {
         "zType": "TEXT_OPINIONPLAYER_FRIENDLY",
+        "English": "Friendly"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_FURIOUS",
+        "English": "Furious"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_ANGRY",
+        "English": "Angry"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_UPSET",
+        "English": "Upset"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_CAUTIOUS",
+        "English": "Cautious"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_PLEASED",
+        "English": "Pleased"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_FRIENDLY",
+        "English": "Friendly"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_FURIOUS",
+        "English": "Furious"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_ANGRY",
+        "English": "Angry"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_UPSET",
+        "English": "Upset"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_CAUTIOUS",
+        "English": "Cautious"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_PLEASED",
+        "English": "Pleased"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_FRIENDLY",
         "English": "Friendly"
       },
       {
@@ -1855,6 +2355,10 @@
         "English": "Vaulting"
       },
       {
+        "zType": "TEXT_TECH_VAULTING_BONUS_DISCONTENT",
+        "English": "link(YIELD_DISCONTENT) Boost"
+      },
+      {
         "zType": "TEXT_TECH_BODKIN_ARROW",
         "English": "Bodkin Arrow"
       },
@@ -2068,75 +2572,75 @@
       },
       {
         "zType": "TEXT_VICTORY_POINTS",
-        "English": "Points~a Points"
+        "English": "Points Victory~a Points Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_POINTS_HELP",
+        "English": "Victory from acquiring the target number of Victory Points."
       },
       {
         "zType": "TEXT_VICTORY_DOUBLE",
-        "English": "Double~a Double"
+        "English": "Double Victory~a Double Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_DOUBLE_HELP",
+        "English": "Victory from acquiring twice as many Victory Points as any other Nation.\n(Must also have at least half the target Victory Points. Only possible for Humans.)"
       },
       {
         "zType": "TEXT_VICTORY_AMBITION",
-        "English": "Ambition~an Ambition"
+        "English": "Ambition Victory~an Ambition Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_AMBITION_HELP",
+        "English": "Victory from completing int(MAX_AMBITIONS) Ambitions."
       },
       {
         "zType": "TEXT_VICTORY_TIME",
-        "English": "Time~a Time"
+        "English": "Time Victory~a Time Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_TIME_HELP",
+        "English": "Victory from having the most Victory Points at the end of 200 Years."
       },
       {
         "zType": "TEXT_VICTORY_CONQUEST",
-        "English": "Conquest~a Conquest"
+        "English": "Conquest Victory~a Conquest Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_CONQUEST_HELP",
+        "English": "Victory from conquering all other Nations."
       },
       {
         "zType": "TEXT_VICTORY_EPIC",
         "English": "Epic Victory~an Epic Victory"
       },
       {
+        "zType": "TEXT_VICTORY_EPIC_HELP",
+        "English": "Complete all 12 Goals"
+      },
+      {
         "zType": "TEXT_VICTORY_GOLD",
         "English": "Gold Victory~a Gold Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_GOLD_HELP",
+        "English": "Complete 10 Goals"
       },
       {
         "zType": "TEXT_VICTORY_SILVER",
         "English": "Silver Victory~a Silver Victory"
       },
       {
+        "zType": "TEXT_VICTORY_SILVER_HELP",
+        "English": "Complete 8 Goals"
+      },
+      {
         "zType": "TEXT_VICTORY_BRONZE",
         "English": "Bronze Victory~a Bronze Victory"
       },
       {
-        "zType": "TEXT_YIELD_GROWTH_HELP",
-        "English": "When a City's link(YIELD_GROWTH){YIELD_GROWTH} fills up, the City gains a new Citizen. Basic ways to improve link(YIELD_GROWTH){YIELD_GROWTH} include training link(SPECIALIST_FARMER,2) and link(IMPROVEMENTCLASS_BATHS,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_CIVICS_HELP",
-        "English": "Used to develop Specialists and finish Projects. Unused link(YIELD_CIVICS){YIELD_CIVICS} go into the national stockpile, which can be used to enact Laws and establish Theologies. Increase link(YIELD_CIVICS){YIELD_CIVICS} by building link(IMPROVEMENTCLASS_COURTHOUSE,2) and link(PROJECT_FORUM_1,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_TRAINING_HELP",
-        "English": "Used to train Military Units. Unused link(YIELD_TRAINING){YIELD_TRAINING} goes into the national stockpile, which can be used to Promote and Upgrade Units. Increase link(YIELD_TRAINING){YIELD_TRAINING} by building link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_CULTURE_HELP",
-        "English": "When a City's link(YIELD_CULTURE){YIELD_CULTURE} fills up, a positive event occurs. The City's overall link(YIELD_CULTURE){YIELD_CULTURE} Level affects what Improvements and Wonders can be built. Improve link(YIELD_CULTURE){YIELD_CULTURE} by building link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_DISCONTENT_HELP",
-        "English": "Cities gain link(YIELD_DISCONTENT){YIELD_DISCONTENT} over time. When a City's link(YIELD_DISCONTENT){YIELD_DISCONTENT} meter is filled, its overall link(YIELD_DISCONTENT){YIELD_DISCONTENT} Level goes up, which increases link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} and reduces link(YIELD_GROWTH){YIELD_GROWTH}. You can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_SCIENCE_HELP",
-        "English": "Used to research technologies. Increase link(YIELD_SCIENCE){YIELD_SCIENCE} by building link(PROJECT_ARCHIVE_1,2) and link(IMPROVEMENTCLASS_LIBRARY,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_MONEY_HELP",
-        "English": "Used to purchase other resources. Increase link(YIELD_MONEY){YIELD_MONEY} by building link(IMPROVEMENT_HAMLET,2) and link(IMPROVEMENTCLASS_MARKET,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_MAINTENANCE_HELP",
-        "English": "Decreases the amount of link(YIELD_MONEY){YIELD_MONEY} income a City generates. link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} can be reduced by connecting the City to your Capital."
-      },
-      {
-        "zType": "TEXT_YIELD_ORDERS_HELP",
-        "English": "link(YIELD_ORDERS){YIELD_ORDERS} can be spent on various actions such as moving, attacking, and building Improvements. Unused link(YIELD_ORDERS){YIELD_ORDERS} are sold for link(YIELD_MONEY){YIELD_MONEY} at the end of the Year."
+        "zType": "TEXT_VICTORY_BRONZE_HELP",
+        "English": "Complete 6 Goals"
       },
       {
         "zType": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME",
@@ -2347,8 +2851,8 @@
         "English": "the Bold"
       },
       {
-        "zType": "TEXT_TRAIT_COWARDLY_NICKNAME",
-        "English": "the Cowardly"
+        "zType": "TEXT_TRAIT_TIMID_NICKNAME",
+        "English": "the Timid"
       },
       {
         "zType": "TEXT_TRAIT_GRACIOUS_NICKNAME",
@@ -2395,8 +2899,8 @@
         "English": "the Loyal"
       },
       {
-        "zType": "TEXT_TRAIT_CUNNING_NICKNAME",
-        "English": "the Cunning"
+        "zType": "TEXT_TRAIT_DECEITFUL_NICKNAME",
+        "English": "the Deceitful"
       },
       {
         "zType": "TEXT_TRAIT_HUMBLE_NICKNAME",
@@ -2405,6 +2909,10 @@
       {
         "zType": "TEXT_TRAIT_PROUD_NICKNAME",
         "English": "the Proud"
+      },
+      {
+        "zType": "TEXT_TRAIT_CUNNING_NICKNAME",
+        "English": "the Cunning"
       },
       {
         "zType": "TEXT_TRAIT_WITTY_NICKNAME",

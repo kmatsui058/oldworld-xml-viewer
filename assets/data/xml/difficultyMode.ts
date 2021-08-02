@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "Difficulty": {
@@ -24,15 +24,15 @@
       },
       {
         "zType": "DIFFICULTYMODE_ABLE",
-        "zName": "The Able",
+        "Name": "TEXT_DIFFICULTYMODE_ABLE",
         "Difficulty": "DIFFICULTY_ABLE",
-        "Development": "DEVELOPMENT_FLEDGLING",
+        "Development": "DEVELOPMENT_NONE",
         "OpponentLevel": "OPPONENTLEVEL_PEACEFUL",
         "TribeLevel": "TRIBELEVEL_PASSIVE"
       },
       {
         "zType": "DIFFICULTYMODE_JUST",
-        "zName": "The Just",
+        "Name": "TEXT_DIFFICULTYMODE_JUST",
         "Difficulty": "DIFFICULTY_JUST",
         "Development": "DEVELOPMENT_FLEDGLING",
         "OpponentLevel": "OPPONENTLEVEL_PEACEFUL",
@@ -40,15 +40,15 @@
       },
       {
         "zType": "DIFFICULTYMODE_GOOD",
-        "zName": "The Good",
+        "Name": "TEXT_DIFFICULTYMODE_GOOD",
         "Difficulty": "DIFFICULTY_GOOD",
-        "Development": "DEVELOPMENT_ESTABLISHED",
+        "Development": "DEVELOPMENT_FLEDGLING",
         "OpponentLevel": "OPPONENTLEVEL_NORMAL",
         "TribeLevel": "TRIBELEVEL_WEAK"
       },
       {
         "zType": "DIFFICULTYMODE_STRONG",
-        "zName": "The Strong",
+        "Name": "TEXT_DIFFICULTYMODE_STRONG",
         "Difficulty": "DIFFICULTY_STRONG",
         "Development": "DEVELOPMENT_ESTABLISHED",
         "OpponentLevel": "OPPONENTLEVEL_NORMAL",
@@ -56,15 +56,15 @@
       },
       {
         "zType": "DIFFICULTYMODE_NOBLE",
-        "zName": "The Noble",
+        "Name": "TEXT_DIFFICULTYMODE_NOBLE",
         "Difficulty": "DIFFICULTY_NOBLE",
-        "Development": "DEVELOPMENT_ADVANCED",
+        "Development": "DEVELOPMENT_ESTABLISHED",
         "OpponentLevel": "OPPONENTLEVEL_AGGRESSIVE",
         "TribeLevel": "TRIBELEVEL_NORMAL"
       },
       {
         "zType": "DIFFICULTYMODE_GLORIOUS",
-        "zName": "The Glorious",
+        "Name": "TEXT_DIFFICULTYMODE_GLORIOUS",
         "Difficulty": "DIFFICULTY_GLORIOUS",
         "Development": "DEVELOPMENT_ADVANCED",
         "OpponentLevel": "OPPONENTLEVEL_AGGRESSIVE",
@@ -72,15 +72,15 @@
       },
       {
         "zType": "DIFFICULTYMODE_MAGNIFICENT",
-        "zName": "The Magnificent",
+        "Name": "TEXT_DIFFICULTYMODE_MAGNIFICENT",
         "Difficulty": "DIFFICULTY_MAGNIFICENT",
-        "Development": "DEVELOPMENT_MASSIVE",
+        "Development": "DEVELOPMENT_ADVANCED",
         "OpponentLevel": "OPPONENTLEVEL_COMPETITIVE",
         "TribeLevel": "TRIBELEVEL_STRONG"
       },
       {
         "zType": "DIFFICULTYMODE_GREAT",
-        "zName": "The Great",
+        "Name": "TEXT_DIFFICULTYMODE_GREAT",
         "Difficulty": "DIFFICULTY_GREAT",
         "Development": "DEVELOPMENT_MASSIVE",
         "OpponentLevel": "OPPONENTLEVEL_COMPETITIVE",
@@ -88,7 +88,7 @@
       },
       {
         "zType": "DIFFICULTYMODE_CUSTOM",
-        "zName": "Custom"
+        "Name": "TEXT_DIFFICULTYMODE_CUSTOM"
       }
     ]
   }

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iPercent": {
@@ -15,27 +15,27 @@
       },
       {
         "zType": "KNOWLEDGE_PRIMITIVE",
-        "zName": "Primitive",
+        "Name": "TEXT_KNOWLEDGE_PRIMITIVE",
         "iPercent": "70"
       },
       {
         "zType": "KNOWLEDGE_NAIVE",
-        "zName": "Naive",
+        "Name": "TEXT_KNOWLEDGE_NAIVE",
         "iPercent": "85"
       },
       {
         "zType": "KNOWLEDGE_COMPETENT",
-        "zName": "Competent",
+        "Name": "TEXT_KNOWLEDGE_COMPETENT",
         "iPercent": "120"
       },
       {
         "zType": "KNOWLEDGE_LEARNED",
-        "zName": "Learned",
+        "Name": "TEXT_KNOWLEDGE_LEARNED",
         "iPercent": "150"
       },
       {
         "zType": "KNOWLEDGE_ERUDITE",
-        "zName": "Erudite"
+        "Name": "TEXT_KNOWLEDGE_ERUDITE"
       }
     ]
   }

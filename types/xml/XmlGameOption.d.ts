@@ -15,14 +15,6 @@ export interface Entry {
   bSinglePlayer?: ZType | string;
   bMultiPlayer?: ZType | string;
   bDebug?: ZType | string;
-  abFirstUnitInvalid?: AbFirstUnitInvalid;
-}
-export interface AbFirstUnitInvalid {
-  Pair?: Pair;
-}
-export interface Pair {
-  zIndex: string;
-  bValue: string;
 }
 export interface ZType {
 }

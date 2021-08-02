@@ -12,6 +12,12 @@
         "Nickname": {
           
         },
+        "GainTexts": {
+          
+        },
+        "LoseTexts": {
+          
+        },
         "zIconName": {
           
         },
@@ -81,6 +87,12 @@
         "iBirthModifier": {
           
         },
+        "iTribeAllianceModifier": {
+          
+        },
+        "iAllianceModifier": {
+          
+        },
         "iPeaceModifier": {
           
         },
@@ -112,6 +124,9 @@
           
         },
         "bNoMarry": {
+          
+        },
+        "bNoSpouse": {
           
         },
         "bNoBirth": {
@@ -153,9 +168,6 @@
         "bGiveBirth": {
           
         },
-        "bTeamAlliance": {
-          
-        },
         "LeaderEffectPlayer": {
           
         },
@@ -166,6 +178,9 @@
           
         },
         "LeaderEffectUnit": {
+          
+        },
+        "AdjacentEffectUnit": {
           
         },
         "MemoryCharacter": {
@@ -375,6 +390,8 @@
         "iBarbDie": "1",
         "iOpinionSame": "40",
         "iOpinionCognomen": "-40",
+        "iTribeAllianceModifier": "50",
+        "iAllianceModifier": "50",
         "iPeaceModifier": "50",
         "bArchetype": "1",
         "bAgentPrereq": "1",
@@ -460,9 +477,9 @@
         "iOpinionTrades": "-40",
         "iPeaceModifier": "50",
         "bArchetype": "1",
-        "bAgentPrereq": "1",
-        "bTeamAlliance": "1",
+        "bGovernorPrereq": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
+        "GovernorEffectCity": "EFFECTCITY_TRAIT_DIPLOMAT",
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
@@ -477,7 +494,7 @@
         },
         "aiLawOpinion": {
           "Pair": {
-            "zIndex": "LAW_COLONIZATION",
+            "zIndex": "LAW_COLONIES",
             "iValue": "20"
           }
         }
@@ -594,6 +611,12 @@
         "zType": "TRAIT_AFFABLE",
         "Name": "TEXT_TRAIT_AFFABLE",
         "Nickname": "TEXT_TRAIT_AFFABLE_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_AFFABLE_GAIN_1",
+            "TEXT_TRAIT_AFFABLE_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -604,7 +627,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_CRUEL",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -618,6 +641,12 @@
         "zType": "TRAIT_ELOQUENT",
         "Name": "TEXT_TRAIT_ELOQUENT",
         "Nickname": "TEXT_TRAIT_ELOQUENT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_ELOQUENT_GAIN_1",
+            "TEXT_TRAIT_ELOQUENT_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -628,7 +657,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_INTOLERANT",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -642,6 +671,12 @@
         "zType": "TRAIT_WARLIKE",
         "Name": "TEXT_TRAIT_WARLIKE",
         "Nickname": "TEXT_TRAIT_WARLIKE_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_WARLIKE_GAIN_1",
+            "TEXT_TRAIT_WARLIKE_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -653,7 +688,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_SLOTHFUL",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -667,6 +702,12 @@
         "zType": "TRAIT_INSPIRING",
         "Name": "TEXT_TRAIT_INSPIRING",
         "Nickname": "TEXT_TRAIT_INSPIRING_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_INSPIRING_GAIN_1",
+            "TEXT_TRAIT_INSPIRING_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -678,17 +719,26 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_UNCOUTH",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_UNCOUTH"
+        },
+        "aePositiveRating": {
+          "zValue": "RATING_CHARISMA"
         }
       },
       {
         "zType": "TRAIT_INTELLIGENT",
         "Name": "TEXT_TRAIT_INTELLIGENT",
         "Nickname": "TEXT_TRAIT_INTELLIGENT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_INTELLIGENT_GAIN_1",
+            "TEXT_TRAIT_INTELLIGENT_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -699,7 +749,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_FOOLISH",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -713,6 +763,12 @@
         "zType": "TRAIT_PROSPEROUS",
         "Name": "TEXT_TRAIT_PROSPEROUS",
         "Nickname": "TEXT_TRAIT_PROSPEROUS_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_PROSPEROUS_GAIN_1",
+            "TEXT_TRAIT_PROSPEROUS_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -724,7 +780,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_EXTRAVAGANT",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -738,6 +794,12 @@
         "zType": "TRAIT_FRUGAL",
         "Name": "TEXT_TRAIT_FRUGAL",
         "Nickname": "TEXT_TRAIT_FRUGAL_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_FRUGAL_GAIN_1",
+            "TEXT_TRAIT_FRUGAL_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -748,7 +810,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_CORRUPT",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -762,6 +824,12 @@
         "zType": "TRAIT_RIGHTEOUS",
         "Name": "TEXT_TRAIT_RIGHTEOUS",
         "Nickname": "TEXT_TRAIT_RIGHTEOUS_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_RIGHTEOUS_GAIN_1",
+            "TEXT_TRAIT_RIGHTEOUS_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -772,7 +840,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_DEBAUCHED",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -783,10 +851,16 @@
         "zType": "TRAIT_CRUEL",
         "Name": "TEXT_TRAIT_CRUEL",
         "Nickname": "TEXT_TRAIT_CRUEL_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_CRUEL_GAIN_1",
+            "TEXT_TRAIT_CRUEL_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CRUEL",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_CRUEL",
@@ -804,9 +878,15 @@
         "zType": "TRAIT_INTOLERANT",
         "Name": "TEXT_TRAIT_INTOLERANT",
         "Nickname": "TEXT_TRAIT_INTOLERANT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_INTOLERANT_GAIN_1",
+            "TEXT_TRAIT_INTOLERANT_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_INTOLERANT",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_INTOLERANT",
@@ -827,9 +907,15 @@
         "zType": "TRAIT_SLOTHFUL",
         "Name": "TEXT_TRAIT_SLOTHFUL",
         "Nickname": "TEXT_TRAIT_SLOTHFUL_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_SLOTHFUL_GAIN_1",
+            "TEXT_TRAIT_SLOTHFUL_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_SLOTHFUL",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_SLOTHFUL",
@@ -850,9 +936,15 @@
         "zType": "TRAIT_UNCOUTH",
         "Name": "TEXT_TRAIT_UNCOUTH",
         "Nickname": "TEXT_TRAIT_UNCOUTH_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_UNCOUTH_GAIN_1",
+            "TEXT_TRAIT_UNCOUTH_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_UNCOUTH",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_UNCOUTH",
@@ -873,9 +965,15 @@
         "zType": "TRAIT_FOOLISH",
         "Name": "TEXT_TRAIT_FOOLISH",
         "Nickname": "TEXT_TRAIT_FOOLISH_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_FOOLISH_GAIN_1",
+            "TEXT_TRAIT_FOOLISH_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_FOOLISH",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_FOOLISH",
@@ -896,9 +994,16 @@
         "zType": "TRAIT_EXTRAVAGANT",
         "Name": "TEXT_TRAIT_EXTRAVAGANT",
         "Nickname": "TEXT_TRAIT_EXTRAVAGANT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_EXTRAVAGANT_GAIN_1",
+            "TEXT_TRAIT_EXTRAVAGANT_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iBarbDie": "1",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_EXTRAVAGANT",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_EXTRAVAGANT",
@@ -919,9 +1024,15 @@
         "zType": "TRAIT_CORRUPT",
         "Name": "TEXT_TRAIT_CORRUPT",
         "Nickname": "TEXT_TRAIT_CORRUPT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_CORRUPT_GAIN_1",
+            "TEXT_TRAIT_CORRUPT_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CORRUPT",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_CORRUPT",
@@ -942,9 +1053,15 @@
         "zType": "TRAIT_DEBAUCHED",
         "Name": "TEXT_TRAIT_DEBAUCHED",
         "Nickname": "TEXT_TRAIT_DEBAUCHED_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_DEBAUCHED_GAIN_1",
+            "TEXT_TRAIT_DEBAUCHED_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_DEBAUCHED",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_DEBAUCHED",
@@ -965,6 +1082,12 @@
         "zType": "TRAIT_ROBUST",
         "Name": "TEXT_TRAIT_ROBUST",
         "Nickname": "TEXT_TRAIT_ROBUST_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_ROBUST_GAIN_1",
+            "TEXT_TRAIT_ROBUST_GAIN_2"
+          ]
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -977,6 +1100,12 @@
         "zType": "TRAIT_VIGILANT",
         "Name": "TEXT_TRAIT_VIGILANT",
         "Nickname": "TEXT_TRAIT_VIGILANT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_VIGILANT_GAIN_1",
+            "TEXT_TRAIT_VIGILANT_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -992,6 +1121,12 @@
         "zType": "TRAIT_STRICT",
         "Name": "TEXT_TRAIT_STRICT",
         "Nickname": "TEXT_TRAIT_STRICT_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_STRICT_GAIN_1",
+            "TEXT_TRAIT_STRICT_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1008,6 +1143,12 @@
         "zType": "TRAIT_EQUESTRIAN",
         "Name": "TEXT_TRAIT_EQUESTRIAN",
         "Nickname": "TEXT_TRAIT_EQUESTRIAN_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_EQUESTRIAN_GAIN_1",
+            "TEXT_TRAIT_EQUESTRIAN_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1021,6 +1162,9 @@
         "zType": "TRAIT_CARPENTER",
         "Name": "TEXT_TRAIT_CARPENTER",
         "Nickname": "TEXT_TRAIT_CARPENTER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_CARPENTER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1033,6 +1177,9 @@
         "zType": "TRAIT_PATHFINDER",
         "Name": "TEXT_TRAIT_PATHFINDER",
         "Nickname": "TEXT_TRAIT_PATHFINDER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_PATHFINDER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1045,6 +1192,9 @@
         "zType": "TRAIT_CULTIVATOR",
         "Name": "TEXT_TRAIT_CULTIVATOR",
         "Nickname": "TEXT_TRAIT_CULTIVATOR_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_CULTIVATOR_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1057,6 +1207,9 @@
         "zType": "TRAIT_NATURALIST",
         "Name": "TEXT_TRAIT_NATURALIST",
         "Nickname": "TEXT_TRAIT_NATURALIST_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_NATURALIST_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1069,6 +1222,9 @@
         "zType": "TRAIT_DELVER",
         "Name": "TEXT_TRAIT_DELVER",
         "Nickname": "TEXT_TRAIT_DELVER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_DELVER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1081,6 +1237,12 @@
         "zType": "TRAIT_DEALMAKER",
         "Name": "TEXT_TRAIT_DEALMAKER",
         "Nickname": "TEXT_TRAIT_DEALMAKER_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_DEALMAKER_GAIN_1",
+            "TEXT_TRAIT_DEALMAKER_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1092,6 +1254,9 @@
         "zType": "TRAIT_TRACKER",
         "Name": "TEXT_TRAIT_TRACKER",
         "Nickname": "TEXT_TRAIT_TRACKER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_TRACKER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1105,6 +1270,9 @@
         "zType": "TRAIT_SWIFT",
         "Name": "TEXT_TRAIT_SWIFT",
         "Nickname": "TEXT_TRAIT_SWIFT_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_SWIFT_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1118,6 +1286,9 @@
         "zType": "TRAIT_BESIEGER",
         "Name": "TEXT_TRAIT_BESIEGER",
         "Nickname": "TEXT_TRAIT_BESIEGER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_BESIEGER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1131,6 +1302,9 @@
         "zType": "TRAIT_TOUGH",
         "Name": "TEXT_TRAIT_TOUGH",
         "Nickname": "TEXT_TRAIT_TOUGH_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_TOUGH_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1144,6 +1318,12 @@
         "zType": "TRAIT_BLOODTHIRSTY",
         "Name": "TEXT_TRAIT_BLOODTHIRSTY",
         "Nickname": "TEXT_TRAIT_BLOODTHIRSTY_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_BLOODTHIRSTY_GAIN_1",
+            "TEXT_TRAIT_BLOODTHIRSTY_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1157,6 +1337,9 @@
         "zType": "TRAIT_HECKLER",
         "Name": "TEXT_TRAIT_HECKLER",
         "Nickname": "TEXT_TRAIT_HECKLER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_HECKLER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1170,6 +1353,9 @@
         "zType": "TRAIT_STEADFAST",
         "Name": "TEXT_TRAIT_STEADFAST",
         "Nickname": "TEXT_TRAIT_STEADFAST_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_STEADFAST_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1183,6 +1369,9 @@
         "zType": "TRAIT_HERBALIST",
         "Name": "TEXT_TRAIT_HERBALIST",
         "Nickname": "TEXT_TRAIT_HERBALIST_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_HERBALIST_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1196,6 +1385,9 @@
         "zType": "TRAIT_HIGHLANDER",
         "Name": "TEXT_TRAIT_HIGHLANDER",
         "Nickname": "TEXT_TRAIT_HIGHLANDER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_HIGHLANDER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1209,6 +1401,9 @@
         "zType": "TRAIT_RANGER",
         "Name": "TEXT_TRAIT_RANGER",
         "Nickname": "TEXT_TRAIT_RANGER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_RANGER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1222,6 +1417,9 @@
         "zType": "TRAIT_BRAVE",
         "Name": "TEXT_TRAIT_BRAVE",
         "Nickname": "TEXT_TRAIT_BRAVE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_BRAVE_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1238,6 +1436,9 @@
         "zType": "TRAIT_SHIELDBEARER",
         "Name": "TEXT_TRAIT_SHIELDBEARER",
         "Nickname": "TEXT_TRAIT_SHIELDBEARER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_SHIELDBEARER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1251,6 +1452,9 @@
         "zType": "TRAIT_FIERCE",
         "Name": "TEXT_TRAIT_FIERCE",
         "Nickname": "TEXT_TRAIT_FIERCE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_FIERCE_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1267,6 +1471,9 @@
         "zType": "TRAIT_HORSEBANE",
         "Name": "TEXT_TRAIT_HORSEBANE",
         "Nickname": "TEXT_TRAIT_HORSEBANE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_HORSEBANE_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1280,6 +1487,9 @@
         "zType": "TRAIT_ENGINEER",
         "Name": "TEXT_TRAIT_ENGINEER",
         "Nickname": "TEXT_TRAIT_ENGINEER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_ENGINEER_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1293,6 +1503,9 @@
         "zType": "TRAIT_BOLD",
         "Name": "TEXT_TRAIT_BOLD",
         "Nickname": "TEXT_TRAIT_BOLD_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_BOLD_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1305,21 +1518,27 @@
         },
         "aiTraitOpinion": {
           "Pair": {
-            "zIndex": "TRAIT_COWARDLY",
-            "iValue": "-40"
+            "zIndex": "TRAIT_TIMID",
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
-          "zValue": "TRAIT_COWARDLY"
+          "zValue": "TRAIT_TIMID"
+        },
+        "aePositiveRating": {
+          "zValue": "RATING_COURAGE"
         }
       },
       {
-        "zType": "TRAIT_COWARDLY",
-        "Name": "TEXT_TRAIT_COWARDLY",
-        "Nickname": "TEXT_TRAIT_COWARDLY_NICKNAME",
+        "zType": "TRAIT_TIMID",
+        "Name": "TEXT_TRAIT_TIMID",
+        "Nickname": "TEXT_TRAIT_TIMID_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_TIMID_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": {
@@ -1335,12 +1554,18 @@
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_BOLD"
+        },
+        "aeNegativeRating": {
+          "zValue": "RATING_COURAGE"
         }
       },
       {
         "zType": "TRAIT_GRACIOUS",
         "Name": "TEXT_TRAIT_GRACIOUS",
         "Nickname": "TEXT_TRAIT_GRACIOUS_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_GRACIOUS_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1354,19 +1579,26 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_GREEDY",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_GREEDY"
+        },
+        "aePositiveRating": {
+          "zValue": "RATING_CHARISMA"
         }
       },
       {
         "zType": "TRAIT_GREEDY",
         "Name": "TEXT_TRAIT_GREEDY",
         "Nickname": "TEXT_TRAIT_GREEDY_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_GREEDY_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": {
@@ -1382,12 +1614,18 @@
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_GRACIOUS"
+        },
+        "aeNegativeRating": {
+          "zValue": "RATING_CHARISMA"
         }
       },
       {
         "zType": "TRAIT_ROMANTIC",
         "Name": "TEXT_TRAIT_ROMANTIC",
         "Nickname": "TEXT_TRAIT_ROMANTIC_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_ROMANTIC_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1402,7 +1640,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_BITTER",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -1413,9 +1651,12 @@
         "zType": "TRAIT_BITTER",
         "Name": "TEXT_TRAIT_BITTER",
         "Nickname": "TEXT_TRAIT_BITTER_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_BITTER_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": {
@@ -1437,6 +1678,9 @@
         "zType": "TRAIT_EDUCATED",
         "Name": "TEXT_TRAIT_EDUCATED",
         "Nickname": "TEXT_TRAIT_EDUCATED_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_EDUCATED_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1450,21 +1694,27 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_SUPERSTITIOUS",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_SUPERSTITIOUS"
+        },
+        "aePositiveRating": {
+          "zValue": "RATING_WISDOM"
         }
       },
       {
         "zType": "TRAIT_SUPERSTITIOUS",
         "Name": "TEXT_TRAIT_SUPERSTITIOUS",
         "Nickname": "TEXT_TRAIT_SUPERSTITIOUS_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_SUPERSTITIOUS_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": {
@@ -1480,12 +1730,18 @@
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_EDUCATED"
+        },
+        "aeNegativeRating": {
+          "zValue": "RATING_WISDOM"
         }
       },
       {
         "zType": "TRAIT_COMPASSIONATE",
         "Name": "TEXT_TRAIT_COMPASSIONATE",
         "Nickname": "TEXT_TRAIT_COMPASSIONATE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_COMPASSIONATE_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1506,7 +1762,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_RUTHLESS",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -1517,9 +1773,13 @@
         "zType": "TRAIT_RUTHLESS",
         "Name": "TEXT_TRAIT_RUTHLESS",
         "Nickname": "TEXT_TRAIT_RUTHLESS_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_RUTHLESS_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": [
@@ -1547,6 +1807,9 @@
         "zType": "TRAIT_PIOUS",
         "Name": "TEXT_TRAIT_PIOUS",
         "Nickname": "TEXT_TRAIT_PIOUS_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_PIOUS_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1566,7 +1829,7 @@
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_WANTON",
-            "iValue": "-40"
+            "iValue": "-20"
           }
         },
         "aeTraitInvalid": {
@@ -1577,9 +1840,12 @@
         "zType": "TRAIT_WANTON",
         "Name": "TEXT_TRAIT_WANTON",
         "Nickname": "TEXT_TRAIT_WANTON_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_WANTON_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "iBirthModifier": "25",
         "bWeakness": "1",
         "aiRating": {
@@ -1608,6 +1874,9 @@
         "zType": "TRAIT_LOYAL",
         "Name": "TEXT_TRAIT_LOYAL",
         "Nickname": "TEXT_TRAIT_LOYAL_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_LOYAL_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1620,22 +1889,34 @@
         },
         "aiTraitOpinion": {
           "Pair": {
-            "zIndex": "TRAIT_CUNNING",
+            "zIndex": "TRAIT_DECEITFUL",
             "iValue": "-40"
           }
         },
         "aeTraitInvalid": {
-          "zValue": "TRAIT_CUNNING"
+          "zValue": "TRAIT_DECEITFUL"
+        },
+        "aePositiveRating": {
+          "zValue": "RATING_DISCIPLINE"
         }
       },
       {
-        "zType": "TRAIT_CUNNING",
-        "Name": "TEXT_TRAIT_CUNNING",
-        "Nickname": "TEXT_TRAIT_CUNNING_NICKNAME",
+        "zType": "TRAIT_DECEITFUL",
+        "Name": "TEXT_TRAIT_DECEITFUL",
+        "Nickname": "TEXT_TRAIT_DECEITFUL_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_DECEITFUL_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "bStrength": "1",
-        "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CUNNING",
+        "iOpinionSame": "40",
+        "bWeakness": "1",
+        "aiRating": {
+          "Pair": {
+            "zIndex": "RATING_DISCIPLINE",
+            "iValue": "-2"
+          }
+        },
         "aiTraitOpinion": {
           "Pair": {
             "zIndex": "TRAIT_LOYAL",
@@ -1644,12 +1925,18 @@
         },
         "aeTraitInvalid": {
           "zValue": "TRAIT_LOYAL"
+        },
+        "aeNegativeRating": {
+          "zValue": "RATING_DISCIPLINE"
         }
       },
       {
         "zType": "TRAIT_HUMBLE",
         "Name": "TEXT_TRAIT_HUMBLE",
         "Nickname": "TEXT_TRAIT_HUMBLE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_HUMBLE_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1680,6 +1967,9 @@
         "zType": "TRAIT_PROUD",
         "Name": "TEXT_TRAIT_PROUD",
         "Nickname": "TEXT_TRAIT_PROUD_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_PROUD_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1709,9 +1999,25 @@
         }
       },
       {
+        "zType": "TRAIT_CUNNING",
+        "Name": "TEXT_TRAIT_CUNNING",
+        "Nickname": "TEXT_TRAIT_CUNNING_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_CUNNING_GAIN_1"
+        },
+        "iMinAge": "7",
+        "iAdjectiveDie": "1",
+        "iOpinionSame": "20",
+        "bStrength": "1",
+        "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CUNNING"
+      },
+      {
         "zType": "TRAIT_WITTY",
         "Name": "TEXT_TRAIT_WITTY",
         "Nickname": "TEXT_TRAIT_WITTY_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_WITTY_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
@@ -1733,9 +2039,12 @@
         "zType": "TRAIT_SPOILED",
         "Name": "TEXT_TRAIT_SPOILED",
         "Nickname": "TEXT_TRAIT_SPOILED_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_SPOILED_GAIN_1"
+        },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "aiRating": {
           "Pair": {
@@ -1748,9 +2057,15 @@
         "zType": "TRAIT_DRUNK",
         "Name": "TEXT_TRAIT_DRUNK",
         "Nickname": "TEXT_TRAIT_DRUNK_NICKNAME",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_DRUNK_GAIN_1",
+            "TEXT_TRAIT_DRUNK_GAIN_2"
+          ]
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
+        "iOpinionSame": "40",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_DRUNK",
         "aiRating": {
@@ -1764,6 +2079,9 @@
         "zType": "TRAIT_INSANE",
         "Name": "TEXT_TRAIT_INSANE",
         "Nickname": "TEXT_TRAIT_INSANE_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_INSANE_GAIN_1"
+        },
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
@@ -1799,6 +2117,7 @@
         "zType": "TRAIT_EXOTIC",
         "Name": "TEXT_TRAIT_EXOTIC",
         "Nickname": "TEXT_TRAIT_EXOTIC_NICKNAME",
+        "iBarbDie": "1",
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
@@ -1839,6 +2158,8 @@
       {
         "zType": "TRAIT_EXPLORING",
         "Name": "TEXT_TRAIT_EXPLORING",
+        "bNoEvents": "1",
+        "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
         "bNoJob": "1",
@@ -1944,6 +2265,9 @@
       {
         "zType": "TRAIT_INCUBATED",
         "Name": "TEXT_TRAIT_INCUBATED",
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_INCUBATED_LOSS_1"
+        },
         "iRemoveProb": "30",
         "bNoJob": "1",
         "bRemoveLeader": "1",
@@ -1981,6 +2305,22 @@
       {
         "zType": "TRAIT_ILL",
         "Name": "TEXT_TRAIT_ILL",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_ILL_GAIN_1",
+            "TEXT_TRAIT_ILL_GAIN_2",
+            "TEXT_TRAIT_ILL_GAIN_3",
+            "TEXT_TRAIT_ILL_GAIN_4",
+            "TEXT_TRAIT_ILL_GAIN_5"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_TRAIT_ILL_LOSS_1",
+            "TEXT_TRAIT_ILL_LOSS_2",
+            "TEXT_TRAIT_ILL_LOSS_3"
+          ]
+        },
         "iRemoveProb": "60",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
@@ -2036,8 +2376,23 @@
       {
         "zType": "TRAIT_SEVERELY_ILL",
         "Name": "TEXT_TRAIT_SEVERELY_ILL",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_SEVERELY_ILL_GAIN_1",
+            "TEXT_TRAIT_SEVERELY_ILL_GAIN_2",
+            "TEXT_TRAIT_SEVERELY_ILL_GAIN_3",
+            "TEXT_TRAIT_SEVERELY_ILL_GAIN_4",
+            "TEXT_TRAIT_SEVERELY_ILL_GAIN_5"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_TRAIT_SEVERELY_ILL_LOSS_1",
+            "TEXT_TRAIT_SEVERELY_ILL_LOSS_2",
+            "TEXT_TRAIT_SEVERELY_ILL_LOSS_3"
+          ]
+        },
         "iRemoveProb": "40",
-        "bNoEvents": "1",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2086,7 +2441,14 @@
       {
         "zType": "TRAIT_WOUNDED",
         "Name": "TEXT_TRAIT_WOUNDED",
-        "iRemoveProb": "80",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_WOUNDED_GAIN_1"
+        },
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_WOUNDED_LOSS_1"
+        },
+        "iInjuryDie": "6",
+        "iRemoveProb": "40",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2098,7 +2460,7 @@
         "aiTraitProb": {
           "Pair": {
             "zIndex": "TRAIT_SCARRED",
-            "iValue": "20"
+            "iValue": "60"
           }
         },
         "aiMortalityDieProb": {
@@ -2121,8 +2483,14 @@
       {
         "zType": "TRAIT_SEVERELY_WOUNDED",
         "Name": "TEXT_TRAIT_SEVERELY_WOUNDED",
-        "iRemoveProb": "40",
-        "bNoEvents": "1",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_SEVERELY_WOUNDED_GAIN_1"
+        },
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_SEVERELY_WOUNDED_LOSS_1"
+        },
+        "iInjuryDie": "3",
+        "iRemoveProb": "20",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2133,6 +2501,10 @@
         },
         "aiTraitProb": {
           "Pair": [
+            {
+              "zIndex": "TRAIT_SCARRED",
+              "iValue": "20"
+            },
             {
               "zIndex": "TRAIT_CRIPPLED",
               "iValue": "20"
@@ -2163,6 +2535,9 @@
       {
         "zType": "TRAIT_POISONED",
         "Name": "TEXT_TRAIT_POISONED",
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_POISONED_LOSS_1"
+        },
         "iRemoveProb": "25",
         "bRemoveLeader": "1",
         "aiMortalityDieProb": {
@@ -2197,7 +2572,14 @@
       {
         "zType": "TRAIT_SCARRED",
         "Name": "TEXT_TRAIT_SCARRED",
-        "iInjuryDie": "6",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_TRAIT_SCARRED_GAIN_1",
+            "TEXT_TRAIT_SCARRED_GAIN_2",
+            "TEXT_TRAIT_SCARRED_GAIN_3"
+          ]
+        },
+        "iInjuryDie": "4",
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_COURAGE",
@@ -2209,6 +2591,9 @@
         "zType": "TRAIT_CRIPPLED",
         "Name": "TEXT_TRAIT_CRIPPLED",
         "Nickname": "TEXT_TRAIT_CRIPPLED_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_CRIPPLED_GAIN_1"
+        },
         "iInjuryDie": "3",
         "GeneralEffectUnit": "EFFECTUNIT_CRIPPLED"
       },
@@ -2216,13 +2601,15 @@
         "zType": "TRAIT_BLINDED",
         "Name": "TEXT_TRAIT_BLINDED",
         "Nickname": "TEXT_TRAIT_BLINDED_NICKNAME",
+        "GainTexts": {
+          "zValue": "TEXT_TRAIT_BLINDED_GAIN_1"
+        },
         "iInjuryDie": "1",
         "bNoJob": "1"
       },
       {
         "zType": "TRAIT_DOOMED",
         "Name": "TEXT_TRAIT_DOOMED",
-        "bNoEvents": "1",
         "bRemoveDeath": "1",
         "bDoomed": "1"
       },
@@ -2258,7 +2645,7 @@
       {
         "zType": "TRAIT_CLERGY",
         "Name": "TEXT_TRAIT_CLERGY",
-        "bNoMarry": "1",
+        "bNoSpouse": "1",
         "bNoBirth": "1",
         "bNoHeir": "1",
         "bNoJob": "1",
@@ -2272,9 +2659,8 @@
       {
         "zType": "TRAIT_ASCETIC",
         "Name": "TEXT_TRAIT_ASCETIC",
-        "bNoMarry": "1",
+        "bNoSpouse": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
         "bNoJob": "1",
         "aiRating": {
           "Pair": [
@@ -2284,11 +2670,11 @@
             },
             {
               "zIndex": "RATING_DISCIPLINE",
-              "iValue": "1"
+              "iValue": "2"
             },
             {
               "zIndex": "RATING_WISDOM",
-              "iValue": "1"
+              "iValue": "2"
             }
           ]
         }
@@ -2334,7 +2720,8 @@
       },
       {
         "zType": "TRAIT_ABDICATED",
-        "Name": "TEXT_TRAIT_ABDICATED"
+        "Name": "TEXT_TRAIT_ABDICATED",
+        "bRemoveLeader": "1"
       },
       {
         "zType": "TRAIT_REGENT",
@@ -2360,6 +2747,9 @@
       {
         "zType": "TRAIT_MOURNING",
         "Name": "TEXT_TRAIT_MOURNING",
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_MOURNING_LOSS_1"
+        },
         "iRemoveProb": "25",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_MOURNING",
         "aiRating": {
@@ -2395,6 +2785,18 @@
         "aePositiveRating": {
           "zValue": "RATING_WISDOM"
         }
+      },
+      {
+        "zType": "TRAIT_KING_OF_TYRE",
+        "Name": "TEXT_TRAIT_KING_OF_TYRE",
+        "bNoMissions": "1",
+        "bNoHeir": "1",
+        "bNoJob": "1",
+        "bNoCourtier": "1"
+      },
+      {
+        "zType": "TRAIT_CHEIF_PRIEST_OF_MELQUART",
+        "Name": "TEXT_TRAIT_CHEIF_PRIEST_OF_MELQUART"
       },
       {
         "zType": "TRAIT_MYSTERIOUS_SWORD",
@@ -2465,6 +2867,9 @@
       {
         "zType": "TRAIT_DROUGHT_STRICKEN",
         "Name": "TEXT_TRAIT_DROUGHT_STRICKEN",
+        "LoseTexts": {
+          "zValue": "TEXT_TRAIT_DROUGHT_STRICKEN_LOSS_1"
+        },
         "iDieProb": "10",
         "iRemoveProb": "50",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_DROUGHT_STRICKEN"
@@ -2473,7 +2878,6 @@
         "zType": "TRAIT_HORSE",
         "Name": "TEXT_TRAIT_HORSE",
         "bNoEvents": "1",
-        "bNoMissions": "1",
         "bNoBirth": "1",
         "bNoHeir": "1",
         "aiRating": {

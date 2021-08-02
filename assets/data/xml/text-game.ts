@@ -12,35 +12,31 @@
       },
       {
         "zType": "TEXT_GAME_LOST_TEAM_ALLIANCE",
-        "English": "You are no longer in an alliance with {0_team}."
+        "English": "You are no longer in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}."
       },
       {
         "zType": "TEXT_GAME_GAINED_TEAM_ALLIANCE",
-        "English": "You are now in an alliance with {0_team}."
+        "English": "You are now in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}."
       },
       {
         "zType": "TEXT_GAME_LOST_TRIBE_ALLIANCE",
-        "English": "You are no longer in an alliance with the {0_barbarians}."
+        "English": "You are no longer in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}."
       },
       {
         "zType": "TEXT_GAME_GAINED_TRIBE_ALLIANCE",
-        "English": "You are now in an alliance with the {0_barbarians}."
+        "English": "You are now in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}."
       },
       {
         "zType": "TEXT_GAME_MET_TRIBE",
-        "English": "You have met the {0_barbarians}"
+        "English": "You have met the {0_tribe}"
       },
       {
         "zType": "TEXT_GAME_TRIBE_NEW_DIPLOMACY",
-        "English": "{0_team} is now at {1_newDiplomacy} with the {2_barbarians}."
+        "English": "{0_team} is now at {1_newDiplomacy} with the {2_tribe}."
       },
       {
         "zType": "TEXT_GAME_TRIBE_DIPLOMACY_LOG_DATA",
         "English": "{0_barbarians}: {1_newDiplomacy}"
-      },
-      {
-        "zType": "TEXT_GAME_UNIT_COMBAT_EFFECT_LOG_DATA",
-        "English": "{0_character} is now {1_trait} from combat!"
       },
       {
         "zType": "TEXT_GAME_TEAM_CONTACT_LOG_DATA",
@@ -48,7 +44,7 @@
       },
       {
         "zType": "TEXT_GAME_TEAM_NEW_DIPLOMACY",
-        "English": "{0_team} is now at {1_newDiplomacy} with {2_team}."
+        "English": "{true_3:{0_team} declares {1_newDiplomacy} on {2_team}.:{0_team} is now at {1_newDiplomacy} with {2_team}.}"
       },
       {
         "zType": "TEXT_GAME_TEAM_FROM_DIPLOMACY_LOG_DATA",
@@ -88,27 +84,39 @@
       },
       {
         "zType": "TEXT_GAME_RELIGION_FOUNDED",
-        "English": "{0_religion} founded in {1_city}!"
+        "English": "{0_religion} founded in {1_city}."
       },
       {
         "zType": "TEXT_GAME_RELIGION_HEAD",
-        "English": "{0_character} is now the Head of {1_religion}!"
+        "English": "{0_character} is now the Head of {1_religion}. (Their Opinion of you is now {2_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_RELIGION_FAMILY",
-        "English": "The {0_family} Family has converted to {1_religion}!"
+        "English": "The {0_family} Family has converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_RELIGION_TRIBE",
-        "English": "The {0_tribe} have converted to {1_religion}!"
+        "English": "The {0_tribe} have converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)"
+      },
+      {
+        "zType": "TEXT_GAME_RELIGION_PLAYER",
+        "English": "{0_player} has converted to {1_religion}.{true_2: (Their Opinion of you is now {2_opinion}.)}"
+      },
+      {
+        "zType": "TEXT_GAME_NO_RELIGION_PLAYER",
+        "English": "{0_player} no longer has a State Religion. (Their Opinion of you is now {1_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_FAMILY_HEAD",
-        "English": "{0_character} is now Head of the {1_family} Family!"
+        "English": "{0_character} is now Head of the {1_family} Family. (Their Opinion of you is now {2_opinion}.)"
+      },
+      {
+        "zType": "TEXT_GAME_IMPROVEMENT_PILLAGED",
+        "English": "{0_improvement} will disappear in {1} {2_turnScale}!"
       },
       {
         "zType": "TEXT_GAME_IMPROVEMENT_STARTED",
-        "English": "{0_player} has begun construction of {1_improvement}!"
+        "English": "{0_player} has begun construction of {1_improvement}."
       },
       {
         "zType": "TEXT_GAME_IMPROVEMENT_COMPLETED",
@@ -116,19 +124,27 @@
       },
       {
         "zType": "TEXT_GAME_RELIGION_SPREAD_TO_CITY",
-        "English": "{0_religion} spreads to {1_city}"
+        "English": "{0_religion} spreads to {1_city}."
       },
       {
         "zType": "TEXT_GAME_DOOMED_POPUP",
         "English": "Your doctors and diviners have warned you that the end is near! Time to get your affairs in order."
       },
       {
+        "zType": "TEXT_GAME_ABDICATION",
+        "English": "{0_oldLeader} has abdicated the throne."
+      },
+      {
+        "zType": "TEXT_GAME_NEW_RULER",
+        "English": "A new ruler, {0_newLeader}, has taken the throne."
+      },
+      {
         "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP",
-        "English": "News has arrived from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne."
+        "English": "News has arrived from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP",
-        "English": "News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne."
+        "English": "News has arrived from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_TRIBE_NEW_RULER_POPUP",
@@ -148,7 +164,7 @@
       },
       {
         "zType": "TEXT_GAME_START_QUEST",
-        "English": "You have started a Quest: {0} <true_1>(within {1} turns)<false><end>"
+        "English": "You have started a Quest: {0}{true_1: (within {1} turns)}"
       },
       {
         "zType": "TEXT_GAME_FINISH_AMBITION",
@@ -156,7 +172,7 @@
       },
       {
         "zType": "TEXT_GAME_FINISH_LEGACY",
-        "English": "You have completed a Legacy: {0}"
+        "English": "You have completed {true_1:the Legacy of {1_character}:a Legacy}: {0}"
       },
       {
         "zType": "TEXT_GAME_FINISH_QUEST",
@@ -172,7 +188,7 @@
       },
       {
         "zType": "TEXT_GAME_MAKE_LEGACY",
-        "English": "An old link(CONCEPT_AMBITION), {0_ambition}, is now link(CONCEPT_LEGACY,1). You will have {1} {2_turnScale} to complete it."
+        "English": "An old link(CONCEPT_AMBITION), {0_ambition}, is now a link(CONCEPT_LEGACY). You will have {1} {2_turnScale} to complete it."
       },
       {
         "zType": "TEXT_GAME_MAKE_LEGACIES",
@@ -196,11 +212,11 @@
       },
       {
         "zType": "TEXT_GAME_COURTIER_JOINED_POPUP",
-        "English": "{0_character} has joined your Court!"
+        "English": "{0_character} has joined your Court."
       },
       {
         "zType": "TEXT_GAME_CHARACTER_TUTORS_AGE",
-        "English": "{0_character} is now old enough to be Tutored by {1,2_Courtier}."
+        "English": "{0_character} is now old enough to be link(CONCEPT_TUTOR,3) by {1,2_Courtier}."
       },
       {
         "zType": "TEXT_GAME_CHARACTER_ADULT_POPUP",
@@ -216,7 +232,7 @@
       },
       {
         "zType": "TEXT_GAME_COVER_DEBTS_LOG_DATA",
-        "English": "Sold {0_goodsList} to cover debts!"
+        "English": "Sold {0_goodsList} to cover debts."
       },
       {
         "zType": "TEXT_GAME_SHORTFALL_LOG_DATA",
@@ -236,47 +252,47 @@
       },
       {
         "zType": "TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA",
-        "English": "{0_city} finished a link(CONCEPT_PROJECT_INFO): {1_project}"
+        "English": "{0_city} finished a link(CONCEPT_PROJECT,1): {1_project}"
       },
       {
         "zType": "TEXT_GAME_CITY_DEVELOPED_SPECIALIST_LOG_DATA",
-        "English": "{0_city} developed {1,1_specialist}"
+        "English": "{0_city} developed a link(CONCEPT_SPECIALIST,1): {1_specialist}"
       },
       {
         "zType": "TEXT_GAME_CITY_TRAINED_UNIT_LOG_DATA",
-        "English": "{0_city} trained {1,1_unit}"
+        "English": "{0_city} trained a Unit: {1_unit}"
       },
       {
         "zType": "TEXT_GAME_CHARACTER_GAINS_TRAIT",
-        "English": "{0_character} is now {1_trait}!"
+        "English": "{0_character} now has the {1_trait} trait."
       },
       {
         "zType": "TEXT_GAME_CHARACTER_LOSES_TRAIT",
-        "English": "{0_character} is no longer {1_trait}!"
+        "English": "{0_character} no longer has the {1_trait} trait."
       },
       {
         "zType": "TEXT_GAME_CHARACTER_RATING_CHANGE",
         "English": "{0_character}: {1_value} {2_rating}"
       },
       {
-        "zType": "TEXT_GAME_CHARACTER_ACQUIRES_TRAIT",
-        "English": "{0_character} has acquired a new Trait: {1_trait}!"
-      },
-      {
         "zType": "TEXT_GAME_LANDMARK_DISCOVERED",
-        "English": "Landmark Discovered: {0_name}!"
+        "English": "Landmark Discovered: {0_name}"
       },
       {
         "zType": "TEXT_GAME_LANDMARK_NAMED",
         "English": "You are the first to discover this Landmark. What will you name it?"
       },
       {
-        "zType": "TEXT_GAME_RAID_WARNING",
+        "zType": "TEXT_GAME_TRIBE_RAID_WARNING",
         "English": "Reports of a Raid from {0,2_tribe} {1_improvement} near {2_city}!"
       },
       {
+        "zType": "TEXT_GAME_BOUNDARY_RAID_WARNING",
+        "English": "Reports of a Raid from distant lands near {0_city}!"
+      },
+      {
         "zType": "TEXT_GAME_GIVE_BIRTH_LOG_DATA",
-        "English": "{0_childName} was born!"
+        "English": "{0_childName} was born."
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_LEADER",
@@ -368,11 +384,11 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_MEMORY_SUBJECT_TURNS",
-        "English": "({0_turns} {1_turnScale})"
+        "English": "{0_turns} {1_turnScale}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FORGET_SUBJECT",
-        "English": "{0_subject}: Forgets {1_memory}, {2_value} Opinion"
+        "English": "{0_subject}: Forgets {1_memory} (Currently {2_value} Opinion)"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_RENAME",
@@ -380,11 +396,19 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_END_ALLIANCE",
-        "English": "End {0_alliance} with {1_subject}"
+        "English": "Ends {0_alliance} with {1_subject}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_WITH_PLAYER",
         "English": "{0_diplomacy} with {1_player}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_FROM",
+        "English": "Declares {0_diplomacy} on {1_player}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_HOSTILE_TO",
+        "English": "{1_player} declares {0_diplomacy}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_ALLIANCE_WITH",
@@ -399,24 +423,12 @@
         "English": "Send {0_yield} to {1_player}"
       },
       {
-        "zType": "TEXT_GAME_DO_BONUS_TRADE_PLAYER",
-        "English": "{0_trade} Trade with {1_player}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_TRIBUTE_PLAYER",
-        "English": "{0_tribute} Tribute with {1_player}"
-      },
-      {
         "zType": "TEXT_GAME_DO_BONUS_OTHER_PLAYER_DIPLOMACY",
         "English": "{0_other} at {1_diplomacy} with {2_target}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_DIPLOMACY_TRIBE",
         "English": "{0_diplomacy} with {1_barbarian}"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_TRIBUTE_TRIBE",
-        "English": "{0_tribute} Tribute with {1_barbarian}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_TRIBE_DIPLOMACY_PLAYER",
@@ -432,7 +444,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REMOVE_RELIGION",
-        "English": "Remove {0_religion} from {1_city}"
+        "English": "Removes {0_religion} from {1_city}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_CONVERT_RELIGION",
@@ -503,6 +515,10 @@
         "English": "{0_character} becomes link(CONCEPT_AGENT)"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_DISTANT_RAID",
+        "English": "Distant Raid"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_PLUS_ONE",
         "English": "+1 {0}"
       },
@@ -516,7 +532,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_FORGET_CHARACTER",
-        "English": "Forgets {0_memory}, {1_value} Opinion"
+        "English": "Forgets {0_memory} (Currently {1_value} Opinion)"
       },
       {
         "zType": "TEXT_DO_BONUS_DESIRED_AMBITION",
@@ -545,10 +561,6 @@
       {
         "zType": "TEXT_GAME_DO_BONUS_STARTS_MISSION_FREE",
         "English": "Free"
-      },
-      {
-        "zType": "TEXT_GAME_DO_BONUS_VICTORY",
-        "English": "{0_victory} Victory"
       },
       {
         "zType": "TEXT_GAME_DO_DEFEAT",
@@ -647,6 +659,14 @@
         "English": "Remove {0_vegetation} from {1_tile}"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_CLEAR_IMPROVEMENT",
+        "English": "Clear {0_improvement} from {1_tile}"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_PILLAGE_IMPROVEMENT",
+        "English": "Pillage {0_improvement} on {1_tile}"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_TRIBE_RAID",
         "English": "Raid from {0,1_barbarian} {1_improvement} from {2_tile}"
       },
@@ -676,7 +696,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_LOG_DATA",
-        "English": "From {0}:"
+        "English": "[{0}]"
       },
       {
         "zType": "TEXT_GAME_CHARACTER_FINISHED_MISSION",
@@ -692,23 +712,27 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACK_DAMAGE",
-        "English": "-{0_damage} HP!"
+        "English": "-{0_damage} HP"
       },
       {
-        "zType": "TEXT_GAME_UNIT_ATTACK_CAPTURED",
-        "English": "Captured!"
+        "zType": "TEXT_GAME_UNIT_ATTACK_ENLISTED",
+        "English": "Enlisted!"
       },
       {
         "zType": "TEXT_GAME_CITY_ATTACKED_LOG_DATA",
-        "English": "{0_city} Attacked by {1_owner} {2_unit}! ({3_discontent})"
+        "English": "{0_city} Attacked by {1,2_owner} {2_unit}. ({3_discontent})"
       },
       {
         "zType": "TEXT_GAME_CAMP_DESTROYED_LOG_DATA",
-        "English": "{0_barbarian} {1_improvement} Destroyed!"
+        "English": "{0_barbarian} {1_improvement} Destroyed."
       },
       {
         "zType": "TEXT_GAME_CITY_RAZED_LOG_DATA",
         "English": "{0_city} has been razed!"
+      },
+      {
+        "zType": "TEXT_GAME_CITY_BREACHED_LOG_DATA",
+        "English": "{0_city} breached by {1_playerOrTribe}"
       },
       {
         "zType": "TEXT_GAME_CITY_CAPTURED_LOG_DATA",
@@ -724,19 +748,23 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACKED_LOG_DATA",
-        "English": "{0_unit} Attacked by {1_owner} {2_unit}!"
+        "English": "{0_unit} Attacked by {1,2_owner} {2_unit}."
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_CRITICAL_LOG_DATA",
+        "English": "{0_unit} link(CONCEPT_CRITICAL_HIT) by {1,2_owner} {2_unit}."
       },
       {
         "zType": "TEXT_GAME_UNIT_KILLED_LOG_DATA",
-        "English": "{0_unit} Killed by {1_owner} {2_unit}!"
+        "English": "{0_unit} Killed by {1,2_owner} {2_unit}."
       },
       {
         "zType": "TEXT_GAME_UNIT_CAPTURED_LOG_DATA",
-        "English": "{0_unit} Captured by {1_owner} {2_unit}!"
+        "English": "{0_unit} Captured by {1,2_owner} {2_unit}."
       },
       {
         "zType": "TEXT_GAME_UNIT_SEEN",
-        "English": "Hostile {0_owner} {1_unit} seen!"
+        "English": "Hostile {0_owner} {1_unit} seen."
       },
       {
         "zType": "TEXT_GAME_UNIT_MOVE_CANCELLED",
@@ -748,7 +776,7 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_ESTABLISH_THEOLOGY_LOG_DATA",
-        "English": "{0,1_religion} {1_theology} established by {2_player}!"
+        "English": "{0,1_religion} {1_theology} established by {2_player}."
       },
       {
         "zType": "TEXT_GAME_TILE_CITY_SITE",
@@ -803,12 +831,16 @@
         "English": "Not Unlimbered"
       },
       {
+        "zType": "TEXT_GAME_TILE_REQUIRES_ANCHORED",
+        "English": "Requires Anchored Ship"
+      },
+      {
         "zType": "TEXT_GAME_UNIT_TILE_DAMAGE",
         "English": "{0} HP"
       },
       {
         "zType": "TEXT_GAME_UNIT_TILE_LEVEL_UP",
-        "English": "{0} Level!"
+        "English": "{0} Level"
       },
       {
         "zType": "TEXT_GAME_UNIT_TILE_GAIN_XP",
@@ -820,7 +852,11 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA",
-        "English": "{0} Pillaged by {1_owner} {2_unit}!"
+        "English": "{0} Pillaged by {1_owner} {2_unit}."
+      },
+      {
+        "zType": "TEXT_GAME_PILLAGED__LOG_DATA",
+        "English": "{0} Pillaged by {1_owner} {2_unit}."
       },
       {
         "zType": "TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION",
@@ -876,7 +912,7 @@
       },
       {
         "zType": "TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED",
-        "English": "{0_amount} {1} Received!"
+        "English": "{0_amount} {1} Received"
       },
       {
         "zType": "TEXT_GAME_PLAYER_DECLARED_WAR_ON",
@@ -889,6 +925,70 @@
       {
         "zType": "TEXT_GAME_PLAYER_AI_ORDERS_TO_TEAMMATES",
         "English": "{0_player} gifts you {1} unused {2_yield}"
+      },
+      {
+        "zType": "TEXT_RATING_WISDOM_GAIN_1",
+        "English": "{0} has recently proven {masculine_0:his:her} good sense and insight. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_WISDOM_GAIN_2",
+        "English": "{0} has reflected on {masculine_0:his:her} recent experiences, and absorbed many important lessons. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_WISDOM_LOSS_1",
+        "English": "The recent actions of {0} have called into question the soundness of {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_WISDOM_LOSS_2",
+        "English": "{0} has made one mistake after another as of late, and many have begun to question {masculine_0:his:her} judgement. {masculine_0:He:She} has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_CHARISMA_GAIN_1",
+        "English": "{0} has grown more confident and charming. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_CHARISMA_GAIN_2",
+        "English": "Self-assured and assertive, {0} exudes an aura of confidence. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_CHARISMA_LOSS_1",
+        "English": "{0} has lost some of {masculine_0:his:her} confidence and ability to charm. {masculine_0:He:She} has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_CHARISMA_LOSS_2",
+        "English": "Recent events have shaken the confidence of {0}, and {masculine_0:he:she} has lost some of {masculine_0:his:her} charm. {masculine_0:He:She} has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_COURAGE_GAIN_1",
+        "English": "{0} still feels fear, as does any sane {masculine_0:man:woman}, but {masculine_0:he:she} never lets it stop {masculine_0:him:her}. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_COURAGE_GAIN_2",
+        "English": "More confident than ever in the face of danger, {0} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_COURAGE_LOSS_1",
+        "English": "{0} has been overcome by fear, and has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_COURAGE_LOSS_2",
+        "English": "After recent exposures to danger, {0} has acquired new phobias, and lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_DISCIPLINE_GAIN_1",
+        "English": "{0} follows a strict regime, never taking the easy way if it is not the best way. {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_DISCIPLINE_GAIN_2",
+        "English": "There is no easy day in the life of {0}! {masculine_0:He:She} has gained {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_DISCIPLINE_LOSS_1",
+        "English": "{0} gives into {masculine_0:his:her} basic desires more often lately. {masculine_0:He:She} has lost {1} {2}."
+      },
+      {
+        "zType": "TEXT_RATING_DISCIPLINE_LOSS_2",
+        "English": "Ever more slothful and lazy, {0} has stopped following {masculine_0:his:her} strict regimen of diet and exercise. {masculine_0:He:She} has lost {1} {2}."
       }
     ]
   }

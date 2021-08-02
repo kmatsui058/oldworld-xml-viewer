@@ -8,8 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zHelp: ZType | string;
+  Name: ZType | string;
+  Help: ZType | string;
   bSingleGender?: ZType | string;
   Gender?: ZType | string;
 }

@@ -6,13 +6,13 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zScriptType": {
           
         },
-        "zHelp": {
+        "Help": {
           
         },
         "bRandom": {
@@ -21,14 +21,14 @@
         "bHidden": {
           
         },
-        "bGameOfTheWeek": {
+        "bIncludeRandom": {
           
         }
       },
       {
         "zType": "MAPCLASS_RANDOM",
-        "zName": "Random",
-        "zHelp": "Random map script",
+        "Name": "TEXT_MAPCLASS_RANDOM",
+        "Help": "TEXT_MAPCLASS_RANDOM_HELP",
         "bRandom": "1"
       }
     ]

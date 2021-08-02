@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName?: ZType | string;
+  Name?: ZType | string;
   Class: ZType | string;
   RelationUs?: ZType | RelationUs2 | string;
   RelationLeader?: ZType | RelationUs2 | string;
@@ -40,7 +40,6 @@ export interface Entry {
   FamilyClassPrereq?: ZType | RelationUs2 | string;
   GenderPrereq?: ZType | RelationUs2 | string;
   CouncilPrereq?: ZType | RelationUs2 | string;
-  CouncilInvalid?: ZType | RelationUs2 | string;
   CourtierPrereq?: ZType | RelationUs2 | string;
   TraitNone?: ZType | RelationUs2 | string;
   TraitPrereq?: ZType | RelationUs2 | string;
@@ -70,7 +69,8 @@ export interface Entry {
   iMinDamagePercent?: ZType | RelationUs2 | string;
   iMinAge?: ZType | RelationUs2 | string;
   iMaxAge?: ZType | RelationUs2 | string;
-  iYearsReigned?: ZType | RelationUs2 | string;
+  iMinReign?: ZType | RelationUs2 | string;
+  iMaxReign?: ZType | RelationUs2 | string;
   iMinCourtiers?: ActiveQuest;
   iMaxCourtiers?: ZType | RelationUs2 | string;
   iMaxHeirs?: ZType | RelationUs2 | string;
@@ -82,6 +82,7 @@ export interface Entry {
   bIsSameTeam?: ZType | RelationUs2 | string;
   bIsDiffTeam?: ZType | RelationUs2 | string;
   bContactBoth?: ZType | RelationUs2 | string;
+  bNoContact?: RelationUs2 | string;
   bHuman?: ZType | RelationUs2 | string;
   bHumanOrAI?: ZType | RelationUs2 | string;
   bHasPlayer?: ZType | RelationUs2 | string;
@@ -99,7 +100,7 @@ export interface Entry {
   bNewestCity?: ZType | RelationUs2 | string;
   bPaganReligion?: ZType | RelationUs2 | string;
   bWorldReligion?: ZType | RelationUs2 | string;
-  bCanAdopt?: ZType | RelationUs2 | string;
+  bUnlockedReligion?: ZType | RelationUs2 | string;
   bTribeReligion?: ActiveQuest;
   bNoTribeReligion?: ZType | RelationUs2 | string;
   bFamilyReligion?: ZType | RelationUs2 | string;
@@ -113,6 +114,7 @@ export interface Entry {
   bWasLeader?: ZType | RelationUs2 | string;
   bLeader?: ZType | RelationUs2 | string;
   bNonLeader?: ZType | RelationUs2 | string;
+  bNoRelationLeader?: ZType | RelationUs2 | string;
   bLeaderOrDescendant?: ZType | RelationUs2 | string;
   bHeir?: ZType | RelationUs2 | string;
   bNonHeir?: ZType | RelationUs2 | string;
@@ -132,11 +134,12 @@ export interface Entry {
   bTutor?: ZType | RelationUs2 | string;
   bTutorStudent?: ZType | RelationUs2 | string;
   bOfStateReligion?: ZType | RelationUs2 | string;
-  bNotOfStateReligion?: ZType | RelationUs2 | string;
   bReligionHead?: ZType | RelationUs2 | string;
   bNonReligionHead?: ActiveQuest;
+  bWasReligionHead?: ZType | RelationUs2 | string;
   bFamilyHead?: ZType | RelationUs2 | string;
   bNonFamilyHead?: ActiveQuest;
+  bWasFamilyHead?: ZType | RelationUs2 | string;
   bTribe?: ZType | RelationUs2 | string;
   bTribeLeader?: ZType | RelationUs2 | string;
   bHasSpouse?: ZType | RelationUs2 | string;
@@ -165,13 +168,17 @@ export interface Entry {
   aiMinRating?: AiMinRating;
   aiMaxRating?: AiMinRating;
   aeTraitAny?: AeTraitAny;
-  aeTraitNone?: AeTraitAny;
+  aeTraitNone?: AeTraitNone;
   aeYieldNegative?: AeYieldNegative;
   comment?: string;
 }
 export interface AeYieldNegative {
   comment?: string;
   zValue?: string;
+}
+export interface AeTraitNone {
+  comment?: string;
+  zValue?: string[] | string;
 }
 export interface AeTraitAny {
   comment?: string;

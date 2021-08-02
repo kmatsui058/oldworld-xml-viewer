@@ -8,8 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zDescription: ZType | string;
+  Name: ZType | string;
+  Description: ZType | string;
 }
 export interface ZType {
 }

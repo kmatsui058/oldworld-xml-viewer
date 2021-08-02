@@ -6,42 +6,42 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zHelp": {
+        "Help": {
           
         }
       },
       {
         "zType": "SUCCESSIONORDER_PRIMOGENITURE",
-        "zName": "Primogeniture",
-        "zHelp": "Oldest child inherits"
+        "Name": "TEXT_SUCCESSIONORDER_PRIMOGENITURE",
+        "Help": "TEXT_SUCCESSIONORDER_PRIMOGENITURE_HELP"
       },
       {
         "zType": "SUCCESSIONORDER_ULTIMOGENITURE",
-        "zName": "Ultimogeniture",
-        "zHelp": "Youngest child inherits"
+        "Name": "TEXT_SUCCESSIONORDER_ULTIMOGENITURE",
+        "Help": "TEXT_SUCCESSIONORDER_ULTIMOGENITURE_HELP"
       },
       {
         "zType": "SUCCESSIONORDER_LATERAL",
-        "zName": "Lateral",
-        "zHelp": "Siblings inherit before children"
+        "Name": "TEXT_SUCCESSIONORDER_LATERAL",
+        "Help": "TEXT_SUCCESSIONORDER_LATERAL_HELP"
       },
       {
         "zType": "SUCCESSIONORDER_DYNASTIC",
-        "zName": "Dynastic",
-        "zHelp": "Oldest direct line from Founder"
+        "Name": "TEXT_SUCCESSIONORDER_DYNASTIC",
+        "Help": "TEXT_SUCCESSIONORDER_DYNASTIC_HELP"
       },
       {
         "zType": "SUCCESSIONORDER_SENIORITY",
-        "zName": "Seniority",
-        "zHelp": "Oldest dynasty member inherits"
+        "Name": "TEXT_SUCCESSIONORDER_SENIORITY",
+        "Help": "TEXT_SUCCESSIONORDER_SENIORITY_HELP"
       },
       {
         "zType": "SUCCESSIONORDER_RANDOM",
-        "zName": "Random",
-        "zHelp": "Each player follows a random, potentially different, succession order"
+        "Name": "TEXT_SUCCESSIONORDER_RANDOM",
+        "Help": "TEXT_SUCCESSIONORDER_RANDOM_HELP"
       }
     ]
   }

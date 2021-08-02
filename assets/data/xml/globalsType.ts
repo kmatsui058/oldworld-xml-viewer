@@ -47,6 +47,110 @@
         "zValue": "YIELD_ORDERS"
       },
       {
+        "zType": "PROJECT_BUILD",
+        "zValue": "BUILD_PROJECT"
+      },
+      {
+        "zType": "SPECIALIST_BUILD",
+        "zValue": "BUILD_SPECIALIST"
+      },
+      {
+        "zType": "UNIT_BUILD",
+        "zValue": "BUILD_UNIT"
+      },
+      {
+        "zType": "VERY_CLOSE_PROXIMITY",
+        "zValue": "PROXIMITY_VERY_CLOSE"
+      },
+      {
+        "zType": "CLOSE_PROXIMITY",
+        "zValue": "PROXIMITY_CLOSE"
+      },
+      {
+        "zType": "NEAR_PROXIMITY",
+        "zValue": "PROXIMITY_NEAR"
+      },
+      {
+        "zType": "DISTANT_PROXIMITY",
+        "zValue": "PROXIMITY_DISTANT"
+      },
+      {
+        "zType": "FAR_PROXIMITY",
+        "zValue": "PROXIMITY_FAR"
+      },
+      {
+        "zType": "SELF_RELATIVE",
+        "zValue": "RELATIVE_SELF"
+      },
+      {
+        "zType": "SPOUSE_RELATIVE",
+        "zValue": "RELATIVE_SPOUSE"
+      },
+      {
+        "zType": "CHILD_RELATIVE",
+        "zValue": "RELATIVE_CHILD"
+      },
+      {
+        "zType": "GRANDCHILD_RELATIVE",
+        "zValue": "RELATIVE_GRANDCHILD"
+      },
+      {
+        "zType": "DESCENDANT_RELATIVE",
+        "zValue": "RELATIVE_DESCENDANT"
+      },
+      {
+        "zType": "PARENT_RELATIVE",
+        "zValue": "RELATIVE_PARENT"
+      },
+      {
+        "zType": "GRANDPARENT_RELATIVE",
+        "zValue": "RELATIVE_GRANDPARENT"
+      },
+      {
+        "zType": "ANCESTOR_RELATIVE",
+        "zValue": "RELATIVE_ANCESTOR"
+      },
+      {
+        "zType": "SIBLING_RELATIVE",
+        "zValue": "RELATIVE_SIBLING"
+      },
+      {
+        "zType": "SIBLING_IN_LAW_RELATIVE",
+        "zValue": "RELATIVE_SIBLING_IN_LAW"
+      },
+      {
+        "zType": "HALF_SIBLING_RELATIVE",
+        "zValue": "RELATIVE_HALF_SIBLING"
+      },
+      {
+        "zType": "COUSIN_RELATIVE",
+        "zValue": "RELATIVE_COUSIN"
+      },
+      {
+        "zType": "AUNT_UNCLE_RELATIVE",
+        "zValue": "RELATIVE_AUNT_UNCLE"
+      },
+      {
+        "zType": "NIECE_NEPHEW_RELATIVE",
+        "zValue": "RELATIVE_NIECE_NEPHEW"
+      },
+      {
+        "zType": "CHILD_IN_LAW_RELATIVE",
+        "zValue": "RELATIVE_CHILD_IN_LAW"
+      },
+      {
+        "zType": "PARENT_IN_LAW_RELATIVE",
+        "zValue": "RELATIVE_PARENT_IN_LAW"
+      },
+      {
+        "zType": "STEPCHILD_RELATIVE",
+        "zValue": "RELATIVE_STEPCHILD"
+      },
+      {
+        "zType": "STEPPARENT_RELATIVE",
+        "zValue": "RELATIVE_STEPPARENT"
+      },
+      {
         "zType": "DEFAULT_HEIGHT",
         "zValue": "HEIGHT_FLAT"
       },
@@ -163,6 +267,10 @@
         "zValue": "TRIBELEVEL_NORMAL"
       },
       {
+        "zType": "DEFAULT_TRIBELEVEL_PREVIEW",
+        "zValue": "TRIBELEVEL_RAGING"
+      },
+      {
         "zType": "DEFAULT_TRIBELEVEL_MP",
         "zValue": "TRIBELEVEL_NORMAL"
       },
@@ -199,6 +307,10 @@
         "zValue": "LAWCLASS_ORDER"
       },
       {
+        "zType": "AMBASSADOR_COUNCIL",
+        "zValue": "COUNCIL_AMBASSADOR"
+      },
+      {
         "zType": "CHANCELLOR_COUNCIL",
         "zValue": "COUNCIL_CHANCELLOR"
       },
@@ -227,12 +339,40 @@
         "zValue": "MISSION_PACIFY_CITY"
       },
       {
+        "zType": "TUTOR_MISSION",
+        "zValue": "MISSION_TUTOR"
+      },
+      {
+        "zType": "TUTOR_SCHOLAR_MISSION",
+        "zValue": "MISSION_TUTOR_SCHOLAR"
+      },
+      {
+        "zType": "WEAK_CULTURE",
+        "zValue": "CULTURE_WEAK"
+      },
+      {
+        "zType": "DEVELOPING_CULTURE",
+        "zValue": "CULTURE_DEVELOPING"
+      },
+      {
+        "zType": "STRONG_CULTURE",
+        "zValue": "CULTURE_STRONG"
+      },
+      {
+        "zType": "LEGENDARY_CULTURE",
+        "zValue": "CULTURE_LEGENDARY"
+      },
+      {
         "zType": "BASE_EFFECTCITY",
         "zValue": "EFFECTCITY_BASE"
       },
       {
         "zType": "CAPITAL_EFFECTCITY",
         "zValue": "EFFECTCITY_CAPITAL"
+      },
+      {
+        "zType": "CAPITAL_NO_CHARACTERS_EFFECTCITY",
+        "zValue": "EFFECTCITY_CAPITAL_NO_CHARACTERS"
       },
       {
         "zType": "FAMILY_SEAT_EFFECTCITY",
@@ -307,8 +447,20 @@
         "zValue": "BONUS_FINISHED_HOLY_SITE"
       },
       {
-        "zType": "FINISHED_WONDER_BONUS",
-        "zValue": "BONUS_FINISHED_WONDER"
+        "zType": "FINISHED_WONDER_WEAK_BONUS",
+        "zValue": "BONUS_FINISHED_WONDER_WEAK"
+      },
+      {
+        "zType": "FINISHED_WONDER_DEVELOPING_BONUS",
+        "zValue": "BONUS_FINISHED_WONDER_DEVELOPING"
+      },
+      {
+        "zType": "FINISHED_WONDER_STRONG_BONUS",
+        "zValue": "BONUS_FINISHED_WONDER_STRONG"
+      },
+      {
+        "zType": "FINISHED_WONDER_LEGENDARY_BONUS",
+        "zValue": "BONUS_FINISHED_WONDER_LEGENDARY"
       },
       {
         "zType": "CONVERT_LEGITIMACY_BONUS",
@@ -321,6 +473,10 @@
       {
         "zType": "ESTABLISH_THEOLOGY_BONUS",
         "zValue": "BONUS_ESTABLISH_THEOLOGY"
+      },
+      {
+        "zType": "SPREAD_RELIGION_BONUS",
+        "zValue": "BONUS_SPREAD_RELIGION"
       },
       {
         "zType": "PURGE_RELIGION_BONUS",
@@ -379,14 +535,6 @@
         "zValue": "RELATIONSHIP_DIVORCED_BY"
       },
       {
-        "zType": "MALE_GENERAL_FORMATION",
-        "zValue": "FORMATION_GENERAL_MALE"
-      },
-      {
-        "zType": "FEMALE_GENERAL_FORMATION",
-        "zValue": "FORMATION_GENERAL_FEMALE"
-      },
-      {
         "zType": "AGENT_RETURN_UNIT",
         "zValue": "UNIT_SCOUT"
       },
@@ -399,20 +547,24 @@
         "zValue": "PLAYEROPTION_NO_TUTORIAL"
       },
       {
-        "zType": "NO_REPLAY",
-        "zValue": "PLAYEROPTION_NO_REPLAY"
-      },
-      {
         "zType": "INSTANT_UNIT_MOVEMENT",
         "zValue": "PLAYEROPTION_INSTANT_UNIT_MOVEMENT"
       },
       {
-        "zType": "NO_UNIT_CYCLING",
-        "zValue": "PLAYEROPTION_NO_UNIT_CYCLING"
+        "zType": "UNIT_CYCLING",
+        "zValue": "PLAYEROPTION_UNIT_CYCLING"
       },
       {
         "zType": "FATIGUE_CYCLING",
         "zValue": "PLAYEROPTION_FATIGUE_CYCLING"
+      },
+      {
+        "zType": "AUTOMATED_UNITS_LAST",
+        "zValue": "PLAYEROPTION_AUTOMATED_UNITS_LAST"
+      },
+      {
+        "zType": "DISABLE_EDGE_SCROLLING",
+        "zValue": "PLAYEROPTION_DISABLE_EDGE_SCROLLING"
       },
       {
         "zType": "MOVE_TO_FATIGUE",
@@ -467,6 +619,14 @@
         "zValue": "PLAYEROPTION_MUTE_AUDIO"
       },
       {
+        "zType": "SKIP_LICENSED_MUSIC_TRACKS",
+        "zValue": "PLAYEROPTION_SKIP_LICENSED_MUSIC_TRACKS"
+      },
+      {
+        "zType": "CONTINUE_AUDIO_WHEN_APP_LOSES_FOCUS",
+        "zValue": "PLAYEROPTION_CONTINUE_AUDIO_WHEN_APP_LOSES_FOCUS"
+      },
+      {
         "zType": "AZERTY_KEYBOARD",
         "zValue": "PLAYEROPTION_AZERTY_KEYBOARD"
       },
@@ -511,6 +671,10 @@
         "zValue": "COOLDOWN_ATTACKED"
       },
       {
+        "zType": "STUNNED_PRE_COOLDOWN",
+        "zValue": "COOLDOWN_STUNNED_PRE"
+      },
+      {
         "zType": "STUNNED_COOLDOWN",
         "zValue": "COOLDOWN_STUNNED"
       },
@@ -553,6 +717,10 @@
       {
         "zType": "GIFTED_COOLDOWN",
         "zValue": "COOLDOWN_GIFTED"
+      },
+      {
+        "zType": "PURGED_COOLDOWN",
+        "zValue": "COOLDOWN_PURGED"
       },
       {
         "zType": "HEALED_COOLDOWN",
@@ -823,6 +991,14 @@
         "zValue": "EVENTTRIGGER_PLAYER_DIPLOMACY_OFFER"
       },
       {
+        "zType": "PLAYER_POACHED_CITY_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_PLAYER_POACHED_CITY"
+      },
+      {
+        "zType": "PLAYER_STOLE_CITY_SITE_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_PLAYER_STOLE_CITY_SITE"
+      },
+      {
         "zType": "CITY_FOUNDED_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_CITY_FOUNDED"
       },
@@ -847,6 +1023,10 @@
         "zValue": "EVENTTRIGGER_CITY_DISCONTENT"
       },
       {
+        "zType": "CITY_DISTANT_RAID_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_CITY_DISTANT_RAID"
+      },
+      {
         "zType": "PRODUCTION_PROJECT_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_PRODUCTION_PROJECT"
       },
@@ -869,6 +1049,10 @@
       {
         "zType": "IMPROVEMENT_PILLAGED_ENEMY_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_ENEMY"
+      },
+      {
+        "zType": "IMPROVEMENT_PILLAGED_US_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_US"
       },
       {
         "zType": "CHOOSE_AMBITION_EVENTTRIGGER",
@@ -943,6 +1127,10 @@
         "zValue": "EVENTTRIGGER_UNIT_COMBAT"
       },
       {
+        "zType": "UNIT_COMBAT_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_COMBAT_WATER"
+      },
+      {
         "zType": "ATTACKED_CITY_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_ATTACKED_CITY"
       },
@@ -955,6 +1143,14 @@
         "zValue": "EVENTTRIGGER_UNIT_KILL"
       },
       {
+        "zType": "UNIT_KILL_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_KILL_WATER"
+      },
+      {
+        "zType": "UNIT_ROUT_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_UNIT_ROUT"
+      },
+      {
         "zType": "UNIT_CAPTURE_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_UNIT_CAPTURED"
       },
@@ -963,24 +1159,48 @@
         "zValue": "EVENTTRIGGER_GENERAL_KILL"
       },
       {
+        "zType": "GENERAL_KILL_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_KILL_WATER"
+      },
+      {
         "zType": "GENERAL_ATTACK_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_ATTACK"
+      },
+      {
+        "zType": "GENERAL_ATTACK_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_ATTACK_WATER"
       },
       {
         "zType": "GENERAL_DUEL_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_DUEL"
       },
       {
+        "zType": "GENERAL_DUEL_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_DUEL_WATER"
+      },
+      {
         "zType": "GENERAL_CRITICAL_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_CRITICAL"
+      },
+      {
+        "zType": "GENERAL_CRITICAL_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_CRITICAL_WATER"
       },
       {
         "zType": "GENERAL_INJURY_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_INJURY"
       },
       {
+        "zType": "GENERAL_INJURY_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_INJURY_WATER"
+      },
+      {
         "zType": "GENERAL_UNIT_KILLED_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_UNIT_KILLED"
+      },
+      {
+        "zType": "GENERAL_UNIT_KILLED_WATER_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_UNIT_KILLED_WATER"
       },
       {
         "zType": "UNIT_PROMOTION_EVENTTRIGGER",
@@ -1127,8 +1347,8 @@
         "zValue": "MEMORYTRIBE_OFFER_ALL"
       },
       {
-        "zType": "TRIBE_CONVERT_RELIGION_MEMORY",
-        "zValue": "MEMORYTRIBE_CONVERT_RELIGION"
+        "zType": "TRIBE_SPREAD_RELIGION_MEMORY",
+        "zValue": "MEMORYTRIBE_SPREAD_RELIGION"
       },
       {
         "zType": "TRIBE_ATTACKED_UNIT_MEMORY",
@@ -1137,6 +1357,10 @@
       {
         "zType": "TRIBE_ATTACKED_SETTLEMENT_MEMORY",
         "zValue": "MEMORYTRIBE_ATTACKED_SETTLEMENT"
+      },
+      {
+        "zType": "TRIBE_ATTACKED_ENEMY_MEMORY",
+        "zValue": "MEMORYTRIBE_ATTACKED_ENEMY"
       },
       {
         "zType": "PLAYER_PEACE_MEMORY",
@@ -1171,10 +1395,6 @@
         "zValue": "MEMORYPLAYER_CAPTURED_CITY"
       },
       {
-        "zType": "PLAYER_POACHED_CITY_MEMORY",
-        "zValue": "MEMORYPLAYER_POACHED_CITY"
-      },
-      {
         "zType": "PLAYER_ATTACKED_ENEMY_MEMORY",
         "zValue": "MEMORYPLAYER_ATTACKED_ENEMY"
       },
@@ -1189,6 +1409,10 @@
       {
         "zType": "PLAYER_GIFTED_YIELD_MEMORY",
         "zValue": "MEMORYPLAYER_GIFTED_YIELD"
+      },
+      {
+        "zType": "CHARACTER_UPGRADED_MEMORY",
+        "zValue": "MEMORYCHARACTER_UPGRADED_RECENTLY"
       },
       {
         "zType": "AMBITION_ACHIEVED_STAT",
@@ -1215,10 +1439,6 @@
         "zValue": "STAT_TRIBE_ALLIANCE"
       },
       {
-        "zType": "TRIBE_CONVERSION_STAT",
-        "zValue": "STAT_TRIBE_CONVERSION"
-      },
-      {
         "zType": "MERCENARIES_HIRED_STAT",
         "zValue": "STAT_MERCENARIES_HIRED"
       },
@@ -1229,6 +1449,10 @@
       {
         "zType": "TEAM_CONTACTED_STAT",
         "zValue": "STAT_TEAM_CONTACTED"
+      },
+      {
+        "zType": "TEAM_PEACE_STAT",
+        "zValue": "STAT_TEAM_PEACE"
       },
       {
         "zType": "TEAM_ALLIANCE_STAT",
@@ -1361,6 +1585,26 @@
       {
         "zType": "BARBARIAN_INVASION_ACHIEVEMENT",
         "zValue": "ACHIEVEMENT_BARBARIAN_INVASION"
+      },
+      {
+        "zType": "RANGED_TRAIT",
+        "zValue": "UNITTRAIT_RANGED"
+      },
+      {
+        "zType": "MELEE_TRAIT",
+        "zValue": "UNITTRAIT_MELEE"
+      },
+      {
+        "zType": "MOUNTED_TRAIT",
+        "zValue": "UNITTRAIT_MOUNTED"
+      },
+      {
+        "zType": "SHIP_TRAIT",
+        "zValue": "UNITTRAIT_SHIP"
+      },
+      {
+        "zType": "INIT_UNIT_FACING",
+        "zValue": "DIRECTION_SW"
       }
     ]
   }

@@ -6,33 +6,33 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         }
       },
       {
         "zType": "DIRECTION_NW",
-        "zName": "NW"
+        "Name": "TEXT_DIRECTION_NW"
       },
       {
         "zType": "DIRECTION_NE",
-        "zName": "NE"
+        "Name": "TEXT_DIRECTION_NE"
       },
       {
         "zType": "DIRECTION_E",
-        "zName": "E"
+        "Name": "TEXT_DIRECTION_E"
       },
       {
         "zType": "DIRECTION_SE",
-        "zName": "SE"
+        "Name": "TEXT_DIRECTION_SE"
       },
       {
         "zType": "DIRECTION_SW",
-        "zName": "SW"
+        "Name": "TEXT_DIRECTION_SW"
       },
       {
         "zType": "DIRECTION_W",
-        "zName": "W"
+        "Name": "TEXT_DIRECTION_W"
       }
     ]
   }

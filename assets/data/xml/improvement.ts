@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "Hint": {
+          
+        },
         "Class": {
           
         },
@@ -16,6 +19,9 @@
           
         },
         "AssetConstruction": {
+          
+        },
+        "WorkerAnimation": {
           
         },
         "zIconName": {
@@ -75,9 +81,6 @@
         "iUnitTurns": {
           
         },
-        "iUnitReligionDie": {
-          
-        },
         "iUnitHeal": {
           
         },
@@ -102,9 +105,6 @@
         "bRequiresUrban": {
           
         },
-        "bTradeNetwork": {
-          
-        },
         "bSpreadsBorders": {
           
         },
@@ -124,6 +124,9 @@
           
         },
         "bRotateTowardsLand": {
+          
+        },
+        "bRotateToRiverEdge": {
           
         },
         "bCoastLandValid": {
@@ -246,15 +249,6 @@
         "aiYieldRiverModifier": {
           
         },
-        "aiTerrainModifier": {
-          
-        },
-        "aiHeightModifier": {
-          
-        },
-        "aiAdjacentHeightModifier": {
-          
-        },
         "aiAdjacentImprovementModifier": {
           
         },
@@ -279,6 +273,9 @@
         "abHeightValid": {
           
         },
+        "abHeightInvalid": {
+          
+        },
         "abHeightAdjacentValid": {
           
         },
@@ -291,10 +288,10 @@
         "aeResourceAssetVariation": {
           
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           
         },
         "aaiTerrainYieldModifier": {
@@ -304,9 +301,6 @@
           
         },
         "aaiAdjacentHeightYieldModifier": {
-          
-        },
-        "aaiAdjacentImprovementYieldModifier": {
           
         },
         "aaiTribeUnitDie": {
@@ -331,6 +325,14 @@
           "Pair": [
             {
               "zIndex": "BONUS_REVEAL_MAP",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "BONUS_YIELD_CIVICS",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "BONUS_YIELD_TRAINING",
               "iValue": "1"
             },
             {
@@ -485,7 +487,7 @@
             }
           ]
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           "Pair": [
             {
               "zIndex": "TRIBE_SCYTHIANS",
@@ -633,7 +635,7 @@
             }
           ]
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           "Pair": [
             {
               "zIndex": "TRIBE_SCYTHIANS",
@@ -785,7 +787,7 @@
             }
           ]
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           "Pair": [
             {
               "zIndex": "TRIBE_VANDALS",
@@ -946,7 +948,7 @@
             }
           ]
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           "Pair": [
             {
               "zIndex": "TRIBE_VANDALS",
@@ -1110,9 +1112,11 @@
       {
         "zType": "IMPROVEMENT_FARM",
         "Name": "TEXT_IMPROVEMENT_FARM",
+        "Hint": "TEXT_IMPROVEMENT_FARM_HINT",
         "Class": "IMPROVEMENTCLASS_FARM",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_FARM",
         "AssetConstruction": "NONE",
+        "WorkerAnimation": "FARM",
         "zIconName": "IMPROVEMENT_FARM",
         "iBuildTurns": "3",
         "iBuildCost": "1",
@@ -1220,9 +1224,11 @@
       {
         "zType": "IMPROVEMENT_MINE",
         "Name": "TEXT_IMPROVEMENT_MINE",
+        "Hint": "TEXT_IMPROVEMENT_MINE_HINT",
         "Class": "IMPROVEMENTCLASS_MINE",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_MINE",
         "AssetConstruction": "NONE",
+        "WorkerAnimation": "MINE",
         "zIconName": "IMPROVEMENT_MINE",
         "iBuildTurns": "3",
         "iBuildCost": "1",
@@ -1334,6 +1340,7 @@
       {
         "zType": "IMPROVEMENT_QUARRY",
         "Name": "TEXT_IMPROVEMENT_QUARRY",
+        "Hint": "TEXT_IMPROVEMENT_QUARRY_HINT",
         "Class": "IMPROVEMENTCLASS_QUARRY",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_QUARRY",
         "AssetConstruction": "NONE",
@@ -1440,9 +1447,11 @@
       {
         "zType": "IMPROVEMENT_LUMBERMILL",
         "Name": "TEXT_IMPROVEMENT_LUMBERMILL",
+        "Hint": "TEXT_IMPROVEMENT_LUMBERMILL_HINT",
         "Class": "IMPROVEMENTCLASS_LUMBERMILL",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_LUMBERMILL",
         "AssetConstruction": "NONE",
+        "WorkerAnimation": "CUT",
         "zIconName": "IMPROVEMENT_LUMBERMILL",
         "iBuildTurns": "3",
         "iBuildCost": "1",
@@ -1490,9 +1499,11 @@
       {
         "zType": "IMPROVEMENT_PASTURE",
         "Name": "TEXT_IMPROVEMENT_PASTURE",
+        "Hint": "TEXT_IMPROVEMENT_PASTURE_HINT",
         "Class": "IMPROVEMENTCLASS_PASTURE",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_PASTURE",
         "AssetConstruction": "NONE",
+        "WorkerAnimation": "FARM",
         "zIconName": "IMPROVEMENT_PASTURE",
         "iBuildTurns": "3",
         "iBuildCost": "1",
@@ -1523,6 +1534,7 @@
       {
         "zType": "IMPROVEMENT_CAMP",
         "Name": "TEXT_IMPROVEMENT_CAMP",
+        "Hint": "TEXT_IMPROVEMENT_CAMP_HINT",
         "Class": "IMPROVEMENTCLASS_CAMP",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_CAMP",
         "AssetConstruction": "NONE",
@@ -1555,9 +1567,11 @@
       {
         "zType": "IMPROVEMENT_GROVE",
         "Name": "TEXT_IMPROVEMENT_GROVE",
+        "Hint": "TEXT_IMPROVEMENT_GROVE_HINT",
         "Class": "IMPROVEMENTCLASS_GROVE",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_GROVE",
         "AssetConstruction": "NONE",
+        "WorkerAnimation": "FARM",
         "zIconName": "IMPROVEMENT_GROVE",
         "iBuildTurns": "3",
         "iBuildCost": "1",
@@ -1657,7 +1671,6 @@
         "iPillageTurns": "10",
         "bBuild": "1",
         "bTerritoryOnly": "1",
-        "bTradeNetwork": "1",
         "bSpreadsBorders": "1",
         "bRotateTowardsLand": "1",
         "bCoastWaterValid": "1",
@@ -1674,8 +1687,8 @@
               "iValue": "100"
             },
             {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
+              "zIndex": "YIELD_STONE",
+              "iValue": "-10"
             }
           ]
         },
@@ -1702,6 +1715,7 @@
       {
         "zType": "IMPROVEMENT_GRANARY",
         "Name": "TEXT_IMPROVEMENT_GRANARY",
+        "Hint": "TEXT_IMPROVEMENT_GRANARY_HINT",
         "Class": "IMPROVEMENTCLASS_GRANARY",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_GRANARY",
         "zIconName": "IMPROVEMENT_GRANARY",
@@ -1725,7 +1739,7 @@
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
+              "iValue": "-10"
             }
           ]
         },
@@ -1771,9 +1785,10 @@
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
         "bRiverValid": "1",
+        "bRotateToRiverEdge": "1",
         "aiYieldCost": {
           "Pair": {
-            "zIndex": "YIELD_STONE",
+            "zIndex": "YIELD_WOOD",
             "iValue": "40"
           }
         },
@@ -1781,7 +1796,7 @@
           "Pair": [
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
+              "iValue": "-10"
             },
             {
               "zIndex": "YIELD_SCIENCE",
@@ -1793,6 +1808,12 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "20"
+          }
+        },
+        "abHeightInvalid": {
+          "Pair": {
+            "zIndex": "HEIGHT_HILL",
+            "bValue": "1"
           }
         }
       },
@@ -1817,8 +1838,8 @@
         "aiYieldOutput": {
           "Pair": [
             {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
+              "zIndex": "YIELD_STONE",
+              "iValue": "-10"
             },
             {
               "zIndex": "YIELD_SCIENCE",
@@ -1852,7 +1873,6 @@
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
-        "bTradeNetwork": "1",
         "bNoVegetation": "1",
         "bPermanent": "1",
         "DevelopImprovement": "IMPROVEMENT_VILLAGE",
@@ -1866,11 +1886,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "50"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "-20"
+              "iValue": "-10"
             }
           ]
         },
@@ -1917,7 +1937,6 @@
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bUrban": "1",
-        "bTradeNetwork": "1",
         "bNoVegetation": "1",
         "bPermanent": "1",
         "DevelopImprovement": "IMPROVEMENT_TOWN",
@@ -1925,11 +1944,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "50"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "-30"
+              "iValue": "-20"
             }
           ]
         },
@@ -1976,7 +1995,6 @@
         "iDefenseModifier": "10",
         "bTerritoryOnly": "1",
         "bUrban": "1",
-        "bTradeNetwork": "1",
         "bNoVegetation": "1",
         "bPermanent": "1",
         "EffectCity": "EFFECTCITY_IMPROVEMENT_TOWN",
@@ -1988,11 +2006,11 @@
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "50"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "-40"
+              "iValue": "-30"
             }
           ]
         },
@@ -2037,7 +2055,19 @@
         "iVP": "2",
         "bNoVegetation": "1",
         "bPermanent": "1",
-        "bText": "1"
+        "bText": "1",
+        "aiYieldOutput": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "400"
+            },
+            {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "-40"
+            }
+          ]
+        }
       },
       {
         "zType": "IMPROVEMENT_BARRACKS",
@@ -2723,7 +2753,7 @@
         "Name": "TEXT_IMPROVEMENT_LIBRARY_2",
         "Class": "IMPROVEMENTCLASS_LIBRARY",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_LIBRARY_2",
-        "zIconName": "IMPROVEMENT_LIBRARY_TEMP",
+        "zIconName": "IMPROVEMENT_ACADEMY",
         "iBuildTurns": "5",
         "iBuildCost": "1",
         "iPillageTurns": "10",
@@ -2782,7 +2812,7 @@
         "Name": "TEXT_IMPROVEMENT_LIBRARY_3",
         "Class": "IMPROVEMENTCLASS_LIBRARY",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_LIBRARY_3",
-        "zIconName": "IMPROVEMENT_LIBRARY_TEMP",
+        "zIconName": "IMPROVEMENT_UNIVERSITY",
         "iBuildTurns": "6",
         "iBuildCost": "1",
         "iPillageTurns": "10",
@@ -3144,7 +3174,7 @@
         "zType": "IMPROVEMENT_GARRISON_3",
         "Name": "TEXT_IMPROVEMENT_GARRISON_3",
         "Class": "IMPROVEMENTCLASS_GARRISON",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_GARRISON",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_GARRISON_3",
         "zIconName": "IMPROVEMENT_GARRISON_3",
         "iBuildTurns": "6",
         "iBuildCost": "1",
@@ -3229,16 +3259,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3298,16 +3322,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3366,12 +3384,6 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        },
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -3404,7 +3416,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
             "SubPair": {
@@ -3438,12 +3450,6 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        },
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -3476,7 +3482,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
             "SubPair": {
@@ -3510,12 +3516,6 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        },
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -3548,7 +3548,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
             "SubPair": {
@@ -3583,16 +3583,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3620,7 +3614,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_ODEON",
             "SubPair": {
@@ -3655,16 +3649,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3692,7 +3680,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_COURTHOUSE",
             "SubPair": {
@@ -3727,16 +3715,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3796,16 +3778,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3865,16 +3841,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3934,16 +3904,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4003,16 +3967,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4072,16 +4030,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4141,16 +4093,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_GROWTH",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_GROWTH",
+            "iValue": "10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4210,16 +4156,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_GROWTH",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_GROWTH",
+            "iValue": "10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4279,16 +4219,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_GROWTH",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_GROWTH",
+            "iValue": "10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4359,24 +4293,6 @@
             "iValue": "20"
           }
         },
-        "aiAdjacentHeightModifier": {
-          "Pair": [
-            {
-              "zIndex": "HEIGHT_MOUNTAIN",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "HEIGHT_VOLCANO",
-              "iValue": "100"
-            }
-          ]
-        },
-        "aiAdjacentImprovementModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENT_QUARRY",
-            "iValue": "20"
-          }
-        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -4412,6 +4328,24 @@
             {
               "zIndex": "HEIGHT_VOLCANO",
               "bValue": "1"
+            }
+          ]
+        },
+        "aaiAdjacentHeightYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "HEIGHT_MOUNTAIN",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
+            },
+            {
+              "zIndex": "HEIGHT_VOLCANO",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
             }
           ]
         }
@@ -4452,24 +4386,6 @@
             "iValue": "20"
           }
         },
-        "aiAdjacentHeightModifier": {
-          "Pair": [
-            {
-              "zIndex": "HEIGHT_MOUNTAIN",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "HEIGHT_VOLCANO",
-              "iValue": "100"
-            }
-          ]
-        },
-        "aiAdjacentImprovementModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENT_QUARRY",
-            "iValue": "20"
-          }
-        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -4505,6 +4421,24 @@
             {
               "zIndex": "HEIGHT_VOLCANO",
               "bValue": "1"
+            }
+          ]
+        },
+        "aaiAdjacentHeightYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "HEIGHT_MOUNTAIN",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
+            },
+            {
+              "zIndex": "HEIGHT_VOLCANO",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
             }
           ]
         }
@@ -4545,24 +4479,6 @@
             "iValue": "20"
           }
         },
-        "aiAdjacentHeightModifier": {
-          "Pair": [
-            {
-              "zIndex": "HEIGHT_MOUNTAIN",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "HEIGHT_VOLCANO",
-              "iValue": "100"
-            }
-          ]
-        },
-        "aiAdjacentImprovementModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENT_QUARRY",
-            "iValue": "20"
-          }
-        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -4600,6 +4516,24 @@
               "bValue": "1"
             }
           ]
+        },
+        "aaiAdjacentHeightYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "HEIGHT_MOUNTAIN",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
+            },
+            {
+              "zIndex": "HEIGHT_VOLCANO",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "100"
+              }
+            }
+          ]
         }
       },
       {
@@ -4625,12 +4559,6 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "40"
-          }
-        },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
           }
         },
         "aiYieldPillage": {
@@ -4659,7 +4587,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_GROVE",
             "SubPair": {
@@ -4694,12 +4622,6 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        },
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -4726,7 +4648,7 @@
             }
           ]
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_GROVE",
             "SubPair": {
@@ -4761,16 +4683,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "20"
+          }
         },
         "aiWonderYieldOutput": {
           "Pair": {
@@ -4830,16 +4746,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "20"
+          }
         },
         "aiWonderYieldOutput": {
           "Pair": {
@@ -4899,16 +4809,10 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "20"
+          }
         },
         "aiWonderYieldOutput": {
           "Pair": {
@@ -4970,7 +4874,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "40"
+            "iValue": "20"
           }
         },
         "aiAdjacentResourceYieldOutput": {
@@ -5033,7 +4937,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "40"
+            "iValue": "20"
           }
         },
         "aiAdjacentResourceYieldOutput": {
@@ -5094,12 +4998,6 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        },
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -5156,12 +5054,6 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "40"
-          }
-        },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
           }
         },
         "aiYieldPillage": {
@@ -5449,7 +5341,7 @@
         "zType": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
         "Name": "TEXT_IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
         "Class": "IMPROVEMENTCLASS_TEMPLE",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TEMPLE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TEMPLE3",
         "zIconName": "IMPROVEMENT_ZOROASTRIANISM_TEMPLE",
         "iBuildTurns": "5",
         "iBuildCost": "1",
@@ -5575,8 +5467,8 @@
         "zType": "IMPROVEMENT_TEMPLE_CHRISTIANITY",
         "Name": "TEXT_IMPROVEMENT_TEMPLE_CHRISTIANITY",
         "Class": "IMPROVEMENTCLASS_TEMPLE",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TEMPLE",
-        "zIconName": "IMPROVEMENT_ZOROASTRIANISM_TEMPLE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TEMPLE2",
+        "zIconName": "IMPROVEMENT_CHRISTIANITY_TEMPLE",
         "iBuildTurns": "5",
         "iBuildCost": "1",
         "iPillageTurns": "10",
@@ -5639,7 +5531,7 @@
         "Name": "TEXT_IMPROVEMENT_TEMPLE_MANICHAEISM",
         "Class": "IMPROVEMENTCLASS_TEMPLE",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TEMPLE",
-        "zIconName": "IMPROVEMENT_ZOROASTRIANISM_TEMPLE",
+        "zIconName": "IMPROVEMENT_MANICHAEISM_TEMPLE",
         "iBuildTurns": "5",
         "iBuildCost": "1",
         "iPillageTurns": "10",
@@ -5717,6 +5609,7 @@
         "bNoAdjacentReligion": "1",
         "bNoVegetation": "1",
         "ReligionPrereq": "RELIGION_ZOROASTRIANISM",
+        "CulturePrereq": "CULTURE_STRONG",
         "AdjacentImprovementPrereq": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
         "aiYieldCost": {
           "Pair": {
@@ -5951,7 +5844,6 @@
         "iVP": "2",
         "iMaxPlayerCount": "1",
         "iUnitTurns": "20",
-        "iUnitReligionDie": "1",
         "iOpinionReligion": "10",
         "bBuild": "1",
         "bHolyCity": "1",
@@ -5983,6 +5875,12 @@
             "iValue": "-20"
           }
         },
+        "aiUnitDie": {
+          "Pair": {
+            "zIndex": "UNIT_ZOROASTRIANISM_DISCIPLE",
+            "iValue": "1"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -6008,14 +5906,13 @@
         "zType": "IMPROVEMENT_HOLY_SITE_JUDAISM",
         "Name": "TEXT_IMPROVEMENT_HOLY_SITE_JUDAISM",
         "Class": "IMPROVEMENTCLASS_HOLY_SITE",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_3",
         "zIconName": "IMPROVEMENT_HOLY_SITE_JUDAISM",
         "iBuildTurns": "8",
         "iBuildCost": "1",
         "iVP": "2",
         "iMaxPlayerCount": "1",
         "iUnitTurns": "20",
-        "iUnitReligionDie": "1",
         "iOpinionReligion": "10",
         "bBuild": "1",
         "bHolyCity": "1",
@@ -6047,6 +5944,12 @@
             "iValue": "-20"
           }
         },
+        "aiUnitDie": {
+          "Pair": {
+            "zIndex": "UNIT_JUDAISM_DISCIPLE",
+            "iValue": "1"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -6072,14 +5975,13 @@
         "zType": "IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
         "Name": "TEXT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
         "Class": "IMPROVEMENTCLASS_HOLY_SITE",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_2",
         "zIconName": "IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
         "iBuildTurns": "8",
         "iBuildCost": "1",
         "iVP": "2",
         "iMaxPlayerCount": "1",
         "iUnitTurns": "20",
-        "iUnitReligionDie": "1",
         "iOpinionReligion": "10",
         "bBuild": "1",
         "bHolyCity": "1",
@@ -6109,6 +6011,12 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-20"
+          }
+        },
+        "aiUnitDie": {
+          "Pair": {
+            "zIndex": "UNIT_CHRISTIANITY_DISCIPLE",
+            "iValue": "1"
           }
         },
         "abTerrainValid": {
@@ -6143,7 +6051,6 @@
         "iVP": "2",
         "iMaxPlayerCount": "1",
         "iUnitTurns": "20",
-        "iUnitReligionDie": "1",
         "iOpinionReligion": "10",
         "bBuild": "1",
         "bHolyCity": "1",
@@ -6173,6 +6080,12 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-20"
+          }
+        },
+        "aiUnitDie": {
+          "Pair": {
+            "zIndex": "UNIT_MANICHAEISM_DISCIPLE",
+            "iValue": "1"
           }
         },
         "abTerrainValid": {
@@ -6304,6 +6217,7 @@
         "zType": "IMPROVEMENT_ORACLE",
         "Name": "TEXT_IMPROVEMENT_ORACLE",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_GREAT_ORACLE",
+        "AssetConstruction": "ASSET_CONSTRUCTION_IMPROVEMENT_GREAT_ORACLE",
         "zIconName": "IMPROVEMENT_ORACLE",
         "iBuildTurns": "10",
         "iBuildCost": "1",
@@ -6496,9 +6410,7 @@
         "iVP": "2",
         "bBuild": "1",
         "bTerritoryOnly": "1",
-        "bTradeNetwork": "1",
         "bSpreadsBorders": "1",
-        "bRotateTowardsLand": "1",
         "bCoastWaterValid": "1",
         "bPermanent": "1",
         "bWonder": "1",
@@ -6580,6 +6492,7 @@
         "zType": "IMPROVEMENT_MAUSOLEUM",
         "Name": "TEXT_IMPROVEMENT_MAUSOLEUM",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_MAUSOLEUM",
+        "AssetConstruction": "ASSET_CONSTRUCTION_IMPROVEMENT_MAUSOLEUM",
         "zIconName": "IMPROVEMENT_MAUSOLEUM",
         "iBuildTurns": "14",
         "iBuildCost": "1",
@@ -6678,7 +6591,6 @@
         "iVP": "2",
         "bBuild": "1",
         "bTerritoryOnly": "1",
-        "bTradeNetwork": "1",
         "bSpreadsBorders": "1",
         "bRotateTowardsLand": "1",
         "bCoastWaterValid": "1",
@@ -6821,6 +6733,7 @@
         "zType": "IMPROVEMENT_PANTHEON",
         "Name": "TEXT_IMPROVEMENT_PANTHEON",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_PANTHEON",
+        "AssetConstruction": "ASSET_CONSTRUCTION_IMPROVEMENT_PANTHEON",
         "zIconName": "IMPROVEMENT_PANTHEON",
         "iBuildTurns": "16",
         "iBuildCost": "1",
@@ -6866,6 +6779,7 @@
         "zType": "IMPROVEMENT_HAGIA_SOPHIA",
         "Name": "TEXT_IMPROVEMENT_HAGIA_SOPHIA",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_HAGIA_SOPHIA",
+        "AssetConstruction": "ASSET_CONSTRUCTION_IMPROVEMENT_HAGIA_SOPHIA",
         "zIconName": "IMPROVEMENT_HAGIA_SOPHIA",
         "iBuildTurns": "16",
         "iBuildCost": "1",
@@ -6915,6 +6829,7 @@
         "iBuildTurns": "16",
         "iBuildCost": "1",
         "iVP": "2",
+        "iUnitTurns": "10",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -6926,7 +6841,6 @@
         "bPause": "1",
         "Achievement": "ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
         "CulturePrereq": "CULTURE_LEGENDARY",
-        "EffectCity": "EFFECTCITY_IMPROVEMENT_VIA_RECTA_SOUK",
         "EffectPlayer": "EFFECTPLAYER_IMPROVEMENT_VIA_RECTA_SOUK",
         "aiYieldCost": {
           "Pair": [
@@ -6955,6 +6869,12 @@
               "iValue": "100"
             }
           ]
+        },
+        "aiUnitDie": {
+          "Pair": {
+            "zIndex": "UNIT_CARAVAN",
+            "iValue": "1"
+          }
         },
         "abTerrainInvalid": {
           "Pair": {

@@ -162,7 +162,7 @@
         "zType": "COLOR_MULTIPLIER_FOUND_BORDER_PREVIEW",
         "zName": "Found Border",
         "ColorClass": "COLORCLASS_OVERLAYS",
-        "zHexValue": "#ffffff7b"
+        "zHexValue": "#ffffff9b"
       },
       {
         "zType": "COLOR_LINK",
@@ -228,13 +228,13 @@
         "zType": "COLOR_OPINION_PLEASED",
         "zName": "Pleased",
         "ColorClass": "COLORCLASS_RELATIONSHIPS",
-        "zHexValue": "#b7de70"
+        "zHexValue": "#66bc37"
       },
       {
         "zType": "COLOR_OPINION_FRIENDLY",
         "zName": "Friendly",
         "ColorClass": "COLORCLASS_RELATIONSHIPS",
-        "zHexValue": "#11af58"
+        "zHexValue": "#008a3d"
       },
       {
         "zType": "COLOR_BANNER_COOLDOWN",
@@ -327,7 +327,7 @@
         "zHexValue": "#00ff0033"
       },
       {
-        "zType": "COLOR_VALID_CAPITAL_CONNECTION",
+        "zType": "COLOR_CAPITAL_CONNECTION_STRONG",
         "zName": "Valid Capital Connection",
         "ColorClass": "COLORCLASS_OVERLAYS",
         "zHexValue": "#00ff00a8"
@@ -339,7 +339,7 @@
         "zHexValue": "#ffff0033"
       },
       {
-        "zType": "COLOR_VALID_CITY_CONNECTION",
+        "zType": "COLOR_CITY_CONNECTION_STRONG",
         "zName": "Valid City Connection",
         "ColorClass": "COLORCLASS_OVERLAYS",
         "zHexValue": "#ffff00a8"
@@ -468,7 +468,7 @@
         "zType": "COLOR_NATION_BABYLONIA",
         "zName": "Babylon",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#147a18"
+        "zHexValue": "#3EA942"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_TEXT",
@@ -528,13 +528,13 @@
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_NONE",
         "zName": "Babylon Family None",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#6dadfb"
+        "zHexValue": "#154a2f"
       },
       {
         "zType": "COLOR_NATION_BABYLONIA_FAMILY_NONE_TEXT",
         "zName": "Babylon Family None Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#6dadfb"
+        "zHexValue": "#154a2f"
       },
       {
         "zType": "COLOR_NATION_CARTHAGE",
@@ -624,25 +624,25 @@
         "zType": "COLOR_NATION_EGYPT_FAMILY_01",
         "zName": "Egypt Family 1",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#fddfae"
+        "zHexValue": "#faebd3"
       },
       {
         "zType": "COLOR_NATION_EGYPT_FAMILY_01_TEXT",
         "zName": "Egypt Family 1 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#fddfae"
+        "zHexValue": "#faebd3"
       },
       {
         "zType": "COLOR_NATION_EGYPT_FAMILY_02",
         "zName": "Egypt Family 2",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#e1c35d"
+        "zHexValue": "#fdba4d"
       },
       {
         "zType": "COLOR_NATION_EGYPT_FAMILY_02_TEXT",
         "zName": "Egypt Family 2 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#e1c35d"
+        "zHexValue": "#fdba4d"
       },
       {
         "zType": "COLOR_NATION_EGYPT_FAMILY_03",
@@ -762,7 +762,7 @@
         "zType": "COLOR_NATION_ROME_TEXT",
         "zName": "Rome Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#ac5996ff"
+        "zHexValue": "#ac5996"
       },
       {
         "zType": "COLOR_NATION_ROME_FAMILY_01",
@@ -852,13 +852,13 @@
         "zType": "COLOR_NATION_PERSIA_FAMILY_02",
         "zName": "Persia Family 2",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#fff0c8"
+        "zHexValue": "#fff8e6"
       },
       {
         "zType": "COLOR_NATION_PERSIA_FAMILY_02_TEXT",
         "zName": "Persia Family 2 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#fff0c8"
+        "zHexValue": "#fff8e6"
       },
       {
         "zType": "COLOR_NATION_PERSIA_FAMILY_03",
@@ -876,13 +876,13 @@
         "zType": "COLOR_NATION_PERSIA_FAMILY_04",
         "zName": "Persia Family 4",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#7ba0ff"
+        "zHexValue": "#5597e9"
       },
       {
         "zType": "COLOR_NATION_PERSIA_FAMILY_04_TEXT",
         "zName": "Persia Family 4 Text",
         "ColorClass": "COLORCLASS_NATIONS",
-        "zHexValue": "#7ba0ff"
+        "zHexValue": "#5597e9"
       },
       {
         "zType": "COLOR_NATION_PERSIA_FAMILY_NONE",
@@ -906,25 +906,25 @@
         "zType": "COLOR_BARBARIANS_SECONDARY",
         "zName": "Tribes Secondary",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#000000ff"
+        "zHexValue": "#323030"
       },
       {
         "zType": "COLOR_BARBARIANS_TEXT",
         "zName": "Tribes Text",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#000000"
+        "zHexValue": "#323030"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_01",
         "zName": "Tribe 1",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#ad3a0c"
+        "zHexValue": "#c84732"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_01_TEXT",
         "zName": "Tribe 1 Text",
         "ColorClass": "COLORCLASS_TRIBES",
-        "zHexValue": "#ad3a0c"
+        "zHexValue": "#c84732"
       },
       {
         "zType": "COLOR_BARBARIAN_TRIBE_02",
@@ -1428,7 +1428,7 @@
         "zType": "COLOR_YIELD_GROWTH",
         "zName": "Growth",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#2dbe78"
+        "zHexValue": "#3d9f70"
       },
       {
         "zType": "COLOR_YIELD_CIVICS",
@@ -1446,13 +1446,13 @@
         "zType": "COLOR_YIELD_CULTURE",
         "zName": "Culture",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#43B2B0"
+        "zHexValue": "#639aad"
       },
       {
         "zType": "COLOR_YIELD_DISCONTENT",
         "zName": "Discontent",
         "ColorClass": "COLORCLASS_YIELDS",
-        "zHexValue": "#A47EBF"
+        "zHexValue": "#8987c3"
       },
       {
         "zType": "COLOR_YIELD_SCIENCE",

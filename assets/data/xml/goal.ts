@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "HelpText": {
+          
+        },
         "iAmbitionClass": {
           
         },
@@ -132,9 +135,6 @@
         "bStateReligion": {
           
         },
-        "bHighestVP": {
-          
-        },
         "bPlayerDead": {
           
         },
@@ -246,6 +246,9 @@
           
         },
         "Name": {
+          
+        },
+        "HelpText": {
           
         },
         "iAmbitionClass": {
@@ -369,9 +372,6 @@
           
         },
         "bStateReligion": {
-          
-        },
-        "bHighestVP": {
           
         },
         "bPlayerDead": {
@@ -646,13 +646,13 @@
         }
       },
       {
-        "zType": "GOAL_COLONIZATION",
-        "Name": "TEXT_GOAL_COLONIZATION",
+        "zType": "GOAL_COLONIES",
+        "Name": "TEXT_GOAL_COLONIES",
         "iAmbitionClass": "1",
         "iMinTier": "2",
         "iMaxTier": "3",
         "TechObsolete": "TECH_NAVIGATION",
-        "StartLaw": "LAW_COLONIZATION",
+        "StartLaw": "LAW_COLONIES",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_LANDOWNERS",
@@ -1736,7 +1736,7 @@
         "Name": "TEXT_GOAL_FOOD_800",
         "iAmbitionClass": "5",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_LANDOWNERS",
@@ -1803,7 +1803,7 @@
         "Name": "TEXT_GOAL_WOOD_800",
         "iAmbitionClass": "5",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "TechPrereq": "TECH_FORESTRY",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -1875,7 +1875,7 @@
         "Name": "TEXT_GOAL_STONE_800",
         "iAmbitionClass": "5",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "TechPrereq": "TECH_STONECUTTING",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -1942,7 +1942,7 @@
         "Name": "TEXT_GOAL_IRON_800",
         "iAmbitionClass": "5",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_CHAMPIONS",
@@ -4970,31 +4970,6 @@
         }
       },
       {
-        "zType": "GOAL_TRIBE_CONVERSION",
-        "Name": "TEXT_GOAL_TRIBE_CONVERSION",
-        "iAmbitionClass": "14",
-        "iMinTier": "4",
-        "iMaxTier": "6",
-        "aiFamilyClassWeight": {
-          "Pair": {
-            "zIndex": "FAMILYCLASS_CLERICS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
-        "aiStatCountData": {
-          "Pair": {
-            "zIndex": "STAT_TRIBE_CONVERSION",
-            "iValue": "2"
-          }
-        }
-      },
-      {
         "zType": "GOAL_THREE_PEACE",
         "Name": "TEXT_GOAL_THREE_PEACE",
         "iAmbitionClass": "14",
@@ -7138,6 +7113,7 @@
         "iAmbitionClass": "24",
         "iMinTier": "2",
         "iMaxTier": "4",
+        "TechPrereq": "TECH_FORESTRY",
         "iTribeLuxuries": "2",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -7158,6 +7134,7 @@
         "iAmbitionClass": "24",
         "iMinTier": "3",
         "iMaxTier": "5",
+        "TechPrereq": "TECH_FORESTRY",
         "iPlayerLuxuries": "4",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -7178,6 +7155,7 @@
         "iAmbitionClass": "24",
         "iMinTier": "4",
         "iMaxTier": "6",
+        "TechPrereq": "TECH_FORESTRY",
         "iFamilyLuxuries": "6",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -7198,6 +7176,7 @@
         "iAmbitionClass": "24",
         "iMinTier": "5",
         "iMaxTier": "7",
+        "TechPrereq": "TECH_FORESTRY",
         "iLuxuries": "8",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -8245,8 +8224,8 @@
         "zType": "GOAL_EIGHT_SHRINES",
         "Name": "TEXT_GOAL_EIGHT_SHRINES",
         "iAmbitionClass": "28",
-        "iMinTier": "6",
-        "iMaxTier": "7",
+        "iMinTier": "3",
+        "iMaxTier": "5",
         "TechPrereq": "TECH_MONASTICISM",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -8349,8 +8328,8 @@
         "zType": "GOAL_THREE_CATHEDRAL",
         "Name": "TEXT_GOAL_THREE_CATHEDRAL",
         "iAmbitionClass": "28",
-        "iMinTier": "8",
-        "iMaxTier": "9",
+        "iMinTier": "6",
+        "iMaxTier": "8",
         "TechPrereq": "TECH_VAULTING",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -8378,8 +8357,8 @@
         }
       },
       {
-        "zType": "GOAL_SIX_CATHEDRAL",
-        "Name": "TEXT_GOAL_SIX_CATHEDRAL",
+        "zType": "GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL",
+        "Name": "TEXT_GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL",
         "iAmbitionClass": "28",
         "iMinTier": "10",
         "iMaxTier": "10",
@@ -8391,10 +8370,16 @@
           }
         },
         "aiImprovementClassCount": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
-            "iValue": "6"
-          }
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
+              "iValue": "6"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_HOLY_SITE",
+              "iValue": "2"
+            }
+          ]
         }
       },
       {
@@ -8594,15 +8579,6 @@
         }
       },
       {
-        "zType": "GOAL_HIGHEST_VP",
-        "Name": "TEXT_GOAL_HIGHEST_VP",
-        "iAmbitionClass": "30",
-        "iMinTier": "10",
-        "iMaxTier": "10",
-        "bVictoryEligible": "1",
-        "bHighestVP": "1"
-      },
-      {
         "zType": "GOAL_THREE_CITIES_FOREIGN",
         "Name": "TEXT_GOAL_THREE_CITIES_FOREIGN",
         "iMinTier": "2",
@@ -8626,8 +8602,9 @@
       {
         "zType": "GOAL_SIX_TEMPLES_ZOROASTRIANISM",
         "Name": "TEXT_GOAL_SIX_TEMPLES_ZOROASTRIANISM",
-        "iMinTier": "3",
-        "iMaxTier": "6",
+        "iMinTier": "5",
+        "iMaxTier": "8",
+        "TechPrereq": "TECH_DOCTRINE",
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
@@ -8638,8 +8615,9 @@
       {
         "zType": "GOAL_SIX_TEMPLES_JUDAISM",
         "Name": "TEXT_GOAL_SIX_TEMPLES_JUDAISM",
-        "iMinTier": "3",
-        "iMaxTier": "6",
+        "iMinTier": "5",
+        "iMaxTier": "8",
+        "TechPrereq": "TECH_DOCTRINE",
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_TEMPLE_JUDAISM",
@@ -8650,8 +8628,9 @@
       {
         "zType": "GOAL_THREE_CATHEDRALS_CHRISTIANITY",
         "Name": "TEXT_GOAL_THREE_CATHEDRALS_CHRISTIANITY",
-        "iMinTier": "5",
-        "iMaxTier": "8",
+        "iMinTier": "6",
+        "iMaxTier": "9",
+        "TechPrereq": "TECH_VAULTING",
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_CATHEDRAL_CHRISTIANITY",
@@ -8662,8 +8641,9 @@
       {
         "zType": "GOAL_THREE_CATHEDRALS_MANICHAEISM",
         "Name": "TEXT_GOAL_THREE_CATHEDRALS_MANICHAEISM",
-        "iMinTier": "5",
-        "iMaxTier": "8",
+        "iMinTier": "6",
+        "iMaxTier": "9",
+        "TechPrereq": "TECH_VAULTING",
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_CATHEDRAL_MANICHAEISM",

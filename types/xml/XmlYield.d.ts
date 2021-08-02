@@ -10,7 +10,8 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   Color: ZType | string;
-  Help?: ZType | string;
+  Help: ZType | string;
+  Encyclopedia?: ZType | string;
   zIconName: ZType | string;
   iMinimum?: ZType | string;
   iLeaderGovernor?: ZType | string;
@@ -50,11 +51,9 @@ export interface Entry {
   bCanGift?: ZType | string;
   bSellDebt?: ZType | string;
   AddToYield?: ZType | string;
-  aiRoadCost?: AiRoadCost;
-  aiUrbanCost?: AiRoadCost;
-  aiOpinionCharacterRate?: AiRoadCost;
+  aiOpinionCharacterRate?: AiOpinionCharacterRate;
 }
-export interface AiRoadCost {
+export interface AiOpinionCharacterRate {
   Pair?: Pair[];
 }
 export interface Pair {

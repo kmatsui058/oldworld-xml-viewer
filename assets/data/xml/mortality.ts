@@ -6,27 +6,27 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zHelp": {
+        "Help": {
           
         }
       },
       {
         "zType": "MORTALITY_LONG",
-        "zName": "Lengthy",
-        "zHelp": "Characters live longer lives"
+        "Name": "TEXT_MORTALITY_LONG",
+        "Help": "TEXT_MORTALITY_LONG_HELP"
       },
       {
         "zType": "MORTALITY_STANDARD",
-        "zName": "Standard",
-        "zHelp": "Characters do not frequently die young"
+        "Name": "TEXT_MORTALITY_STANDARD",
+        "Help": "TEXT_MORTALITY_STANDARD_HELP"
       },
       {
         "zType": "MORTALITY_REALISTIC",
-        "zName": "Realistic",
-        "zHelp": "Nasty, Brutish, and Short"
+        "Name": "TEXT_MORTALITY_REALISTIC",
+        "Help": "TEXT_MORTALITY_REALISTIC_HELP"
       }
     ]
   }

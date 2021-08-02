@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  English?: ZType | string;
+  English: ZType | string;
   beginGroup?: string;
 }
 export interface ZType {

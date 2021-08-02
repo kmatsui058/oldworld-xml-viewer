@@ -15,7 +15,7 @@ export interface Entry {
   iPercentVP?: ZType | string;
   iOpponentMaxPointPercent?: ZType | string;
   iMinTurns?: ZType | string;
-  zHelp: ZType | string;
+  Help: ZType | string;
 }
 export interface ZType {
 }

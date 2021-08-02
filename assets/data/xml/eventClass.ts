@@ -72,13 +72,9 @@
       },
       {
         "zType": "EVENTCLASS_NO_HEIRS",
-        "iPlayerProb": "100",
-        "iMinTurns": "40",
+        "iPlayerProb": "50",
+        "iMinTurns": "30",
         "iMinRepeat": "5"
-      },
-      {
-        "zType": "EVENTCLASS_TRAINING_NEWS",
-        "iMinRepeat": "20"
       },
       {
         "zType": "EVENTCLASS_REIGN",
@@ -93,13 +89,30 @@
       },
       {
         "zType": "EVENTCLASS_PETS_AND_ODDITIES",
-        "iPlayerProb": "50",
+        "iPlayerProb": "40",
         "iMinRepeat": "2"
       },
       {
         "zType": "EVENTCLASS_HARVESTING",
         "iMinTurns": "10",
         "iMinRepeat": "2"
+      },
+      {
+        "zType": "EVENTCLASS_YOUNG_RULER",
+        "iCharacterProb": "50",
+        "iMinRepeat": "3"
+      },
+      {
+        "zType": "EVENTCLASS_IRON_SHARPENS",
+        "iMinRepeat": "20"
+      },
+      {
+        "zType": "EVENTCLASS_TRAIT_INHERITANCE",
+        "iMinRepeat": "2"
+      },
+      {
+        "zType": "EVENTCLASS_GENERAL_DUEL",
+        "iMinRepeat": "5"
       }
     ]
   }

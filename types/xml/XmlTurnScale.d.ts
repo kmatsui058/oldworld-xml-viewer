@@ -8,9 +8,9 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zScaleSingular: ZType | string;
-  zScalePlural: ZType | string;
-  zScaleShort: ZType | string;
+  ScaleSingular: ZType | string;
+  ScalePlural: ZType | string;
+  ScaleShort: ZType | string;
   bEnabled?: ZType | string;
   iCognomenModifier?: ZType | string;
   azTurnNames?: AzTurnNames;

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zText": {
+        "Text": {
           "comment": "Player-facing string describing the memory."
         },
         "MemoryLevel": {
@@ -36,984 +36,920 @@
       },
       {
         "zType": "MEMORYCHARACTER_IMPRISONED_RECENTLY",
-        "zText": "link(TRAIT_IMPRISONED) recently",
+        "Text": "TEXT_MEMORYCHARACTER_IMPRISONED_RECENTLY",
         "iTurns": "4"
       },
       {
+        "zType": "MEMORYCHARACTER_UPGRADED_RECENTLY",
+        "Text": "TEXT_MEMORYCHARACTER_UPGRADED_RECENTLY",
+        "iValue": "20",
+        "iTurns": "10"
+      },
+      {
         "zType": "MEMORYCHARACTER_MATCH_PREVENT",
-        "zText": "Prevented my desired match",
+        "Text": "TEXT_MEMORYCHARACTER_MATCH_PREVENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED",
-        "zText": "Chided my boastful heir",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_DEFENDED",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED",
-        "zText": "Chided me for boasting",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_OPPOSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED",
-        "zText": "Supported heir's arrogant boast",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_OPPOSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED",
-        "zText": "Supported my boast",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_DEFENDED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_SMOOTHED",
-        "zText": "Smoothed over my heir's boast",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_LEADER_SMOOTHED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_BOASTFUL_HEIR_SMOOTHED",
-        "zText": "Smoothed over my boast",
+        "Text": "TEXT_MEMORYCHARACTER_BOASTFUL_HEIR_SMOOTHED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NO_WAR",
-        "zText": "Stepped back from the brink",
+        "Text": "TEXT_MEMORYCHARACTER_NO_WAR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SMUGGLED_OUT_POET",
-        "zText": "Welcomed my enemy",
+        "Text": "TEXT_MEMORYCHARACTER_SMUGGLED_OUT_POET",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
+        "zType": "MEMORYCHARACTER_SPOUSE_WAR_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_WAR_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_WAR_POS",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_WAR_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADULT_CHILDREN_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_ADULT_CHILDREN_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_ADULT_CHILDREN_POS",
+        "Text": "TEXT_MEMORYCHARACTER_ADULT_CHILDREN_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_AMB_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_AMB_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_AMB_POS",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_AMB_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PATRIARCH_OLIGARCH_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_PATRIARCH_OLIGARCH_POS",
+        "Text": "TEXT_MEMORYCHARACTER_PATRIARCH_OLIGARCH_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREEMENT_COUNCIL_NEG",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISAGREEMENT_COUNCIL_POS",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREEMENT_COUNCIL_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
         "zType": "MEMORYCHARACTER_DENIED_POET",
-        "zText": "Denied entry of my enemy",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_POET",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE",
-        "zText": "Didn't help my education",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DENIED_PEACE_DEAL",
-        "zText": "My request for diplomacy was ignored",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LOST_CONSORT",
-        "zText": "Took away my consort",
+        "Text": "TEXT_MEMORYCHARACTER_LOST_CONSORT",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_KEPT_CONSORT",
-        "zText": "I was able to keep my consort",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_CONSORT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RELEASED_CONSORT",
-        "zText": "Released our stolen princess",
+        "Text": "TEXT_MEMORYCHARACTER_RELEASED_CONSORT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE",
-        "zText": "Ignored my plea to abdicate",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_ABDICATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE",
-        "zText": "Ignored my plea to infiltrate a suspicious neighbor",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_INFILTRATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER",
-        "zText": "Ignored my plea to slander a neighbor",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_SUGGESTION_TO_SLANDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE",
-        "zText": "Acceded to my request to infiltrate a suspicious neighbor",
+        "Text": "TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_INFILTRATE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER",
-        "zText": "Acceded to my request to slander a neighbor",
+        "Text": "TEXT_MEMORYCHARACTER_FOLLOWED_SUGGESTION_TO_SLANDER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION",
-        "zText": "Acceded to my request to establish relations with my home country",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_FOLLOWED_SUGGESTION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION",
-        "zText": "Ignored to my request to establish relations with my home country",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_COURTIER_IGNORED_SUGGESTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_WARNED_TO_STOP",
-        "zText": "Warned to stop expanding",
+        "Text": "TEXT_MEMORYCHARACTER_WARNED_TO_STOP",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_AVOIDED_WAR",
-        "zText": "We avoided a costly war",
+        "Text": "TEXT_MEMORYCHARACTER_AVOIDED_WAR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_HOSTILE_ACCUSATIONS",
-        "zText": "Hostile accusations",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_ACCUSATIONS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRADE_DEAL",
-        "zText": "Better trade terms",
+        "Text": "TEXT_MEMORYCHARACTER_TRADE_DEAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_WORKED_IT_OUT",
-        "zText": "Found solution to dispute",
+        "Text": "TEXT_MEMORYCHARACTER_WORKED_IT_OUT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_ACCEPTED_CHALLENGE",
-        "zText": "Accepted my challenge",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_CHALLENGE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_CHALLENGE",
-        "zText": "Refused my challenge",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_CHALLENGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IMPRISONED",
-        "zText": "Imprisoned by paranoid ruler",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+        "Text": "TEXT_MEMORYCHARACTER_IMPRISONED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TAKE_NO_PRISONERS",
-        "zText": "We take no prisoners now",
+        "Text": "TEXT_MEMORYCHARACTER_TAKE_NO_PRISONERS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_MERCY_FOR_PRISONERS",
-        "zText": "Declined to slaughter prisoners",
+        "Text": "TEXT_MEMORYCHARACTER_MERCY_FOR_PRISONERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED",
-        "zText": "We recruited foreign fighters",
+        "Text": "TEXT_MEMORYCHARACTER_FOREIGN_FIGHTERS_RECRUITED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS",
-        "zText": "Refused foreign fighters",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_FOREIGN_FIGHTERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_NO_DISSECTION",
-        "zText": "Did not permit human dissection",
+        "Text": "TEXT_MEMORYCHARACTER_GP_NO_DISSECTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_YES_DISSECTION",
-        "zText": "Allowed for human dissections",
+        "Text": "TEXT_MEMORYCHARACTER_GP_YES_DISSECTION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SOLDIER_DISSECTIONS",
-        "zText": "Ordered me to supply bodies for dissection",
+        "Text": "TEXT_MEMORYCHARACTER_SOLDIER_DISSECTIONS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE",
-        "zText": "Ignored rumors about me",
+        "Text": "TEXT_MEMORYCHARACTER_GP_IGNORED_MY_INFLUENCE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_REMOVED_FROM_COURT",
-        "zText": "Removed me from court",
+        "Text": "TEXT_MEMORYCHARACTER_GP_REMOVED_FROM_COURT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_FOUGHT_USURY",
-        "zText": "Warned unethical traders",
+        "Text": "TEXT_MEMORYCHARACTER_GP_FOUGHT_USURY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_USURY_CRACKDOWN",
-        "zText": "Cracked down on usury",
+        "Text": "TEXT_MEMORYCHARACTER_GP_USURY_CRACKDOWN",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_KEPT_IN_COURT",
-        "zText": "Kept me on as court merchant",
+        "Text": "TEXT_MEMORYCHARACTER_GP_KEPT_IN_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_LITERATURE_YES",
-        "zText": "Approved writing of wisdom literature",
+        "Text": "TEXT_MEMORYCHARACTER_GP_LITERATURE_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_LITERATURE_NO",
-        "zText": "Refused creation of wisdom literature",
+        "Text": "TEXT_MEMORYCHARACTER_GP_LITERATURE_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_PROMOTION",
-        "zText": "Promoted to a higher title",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
-        "zText": "Welcomed our ambassadors",
+        "Text": "TEXT_MEMORYCHARACTER_GP_PROMOTION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD",
-        "zText": "Ignored my ambassadors",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
-        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT",
-        "zText": "Wished to treat with our ambassadors",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
         "zType": "MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS",
-        "zText": "Gifted priceless artifacts",
+        "Text": "TEXT_MEMORYCHARACTER_GIFTED_PRICELESS_ARTIFACTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYCHARACTER_APPROVED_POISON_LAB",
-        "zText": "Approved the poison lab",
+        "Text": "TEXT_MEMORYCHARACTER_APPROVED_POISON_LAB",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GIVEN_AUDIENCE",
-        "zText": "Given audience with ruler",
+        "Text": "TEXT_MEMORYCHARACTER_GIVEN_AUDIENCE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_AUDIENCE",
-        "zText": "Refused audience with ruler",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_AUDIENCE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_ADDED_TO_COURT",
-        "zText": "Made me a courtier",
+        "Text": "TEXT_MEMORYCHARACTER_ADDED_TO_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE",
-        "zText": "Took our citizen hostage",
+        "Text": "TEXT_MEMORYCHARACTER_FRIEND_OR_FOE_HOSTAGE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_EXECUTION",
-        "zText": "Executed our emissary!",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EXECUTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_TRIBUTE",
-        "zText": "Paid your Tribute",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_TRIBUTE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_IGNORED_US",
-        "zText": "Ignored our Emissary",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_IGNORED_US",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_HUMILITY",
-        "zText": "We admire your culture's humility",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_HUMILITY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_OFFEND",
-        "zText": "We did not mean to offend",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_OFFEND",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_SPIES",
-        "zText": "Spared the lives of our spies",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_SPIES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_SOLD_ART",
-        "zText": "Sold us fine works of art",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_SOLD_ART",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BIG_INSULT",
-        "zText": "An imposter duped you into insulting us",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BIG_INSULT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_SMALL_INSULT",
-        "zText": "Our relations are off to a rocky start",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_SMALL_INSULT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_EGYPT_REFUSED",
-        "zText": "You refused to honor our gods",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_REFUSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_EGYPT_RA",
-        "zText": "You displeased Ra",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_EGYPT_RA",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_TRUST",
-        "zText": "Your friendliness has earned our trust",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_TRUST",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH",
-        "zText": "You lavished us with gifts",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_CODE",
-        "zText": "You respected the Code of Hammurabi",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_CODE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH_GREECE",
-        "zText": "Your generosity knows no bounds",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_GREECE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_LAVISH_NO_MORE",
-        "zText": "Your lack of generosity",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_LAVISH_NO_MORE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_VICTORY",
-        "zText": "You proved your strength!",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VICTORY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_DEFEAT",
-        "zText": "You kissed our ring in defeat",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_DEFEAT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ROME_VENDETTA",
-        "zText": "Only one of our cultures will survive this war!",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ROME_VENDETTA",
         "iValue": "-100"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_DUEL",
-        "zText": "You are braggarts but you do pay your debts",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_DUEL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_WAR",
-        "zText": "Your arrogance knows no bounds",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_PERSIA_TRICKED",
-        "zText": "How did we end up at peace with you?",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_PERSIA_TRICKED",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_FEE",
-        "zText": "You made us pay a fee to talk with you",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_FEE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_FEE",
-        "zText": "Your turn to pay a fee",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_FEE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABLYON_CHARISMA",
-        "zText": "You are arrogant yet we like you anyway",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABLYON_CHARISMA",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_WAR",
-        "zText": "Your insufferable pride led to war",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_INSULT",
-        "zText": "Your insults are unforgivable",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_INSULT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_BABYLON_TEDIOUS",
-        "zText": "You are tedious but you paid us to put up with you",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_BABYLON_TEDIOUS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_GREED",
-        "zText": "We admire your strength and your greed",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_GREED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BULLIED",
-        "zText": "You bullied us into paying excessive tribute",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_BULLIED",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_CARTHAGE_TRADE",
-        "zText": "We admire your strength and your negotiating skill",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_CARTHAGE_TRADE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ASSYRIA_PRIDE",
-        "zText": "You are strong like us",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_PRIDE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_ASSYRIA_CRAZY",
-        "zText": "The gods have touched you with madness!",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_ASSYRIA_CRAZY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NEIGHBORS_TALK_IS_CHEAP",
-        "zText": "We may have misjudged you",
+        "Text": "TEXT_MEMORYCHARACTER_NEIGHBORS_TALK_IS_CHEAP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRUSTED_ALLY",
-        "zText": "We trust you like family",
+        "Text": "TEXT_MEMORYCHARACTER_TRUSTED_ALLY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_ATTACKED_BY_A_BEAR_AID",
-        "zText": "You aided our citizens",
+        "Text": "TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_AID",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_ATTACKED_BY_A_BEAR_NOTIFY",
-        "zText": "Notified us of our citizens in distress",
+        "Text": "TEXT_MEMORYCHARACTER_ATTACKED_BY_A_BEAR_NOTIFY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_FIRST_REFUSE",
-        "zText": "You refused to pay Tribute",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_FIRST_REFUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_PAID_TWICE",
-        "zText": "You paid us sufficient Tribute for now",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_PAID_TWICE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_DIPLOMAT",
-        "zText": "Persuaded us to trade with you",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_DIPLOMAT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_HOSTILE_NEIGHBORS_SECOND_REFUSE",
-        "zText": "Your refusal to pay us Tribute must be punished",
+        "Text": "TEXT_MEMORYCHARACTER_HOSTILE_NEIGHBORS_SECOND_REFUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NO_TRADE_TECH",
-        "zText": "Refused to trade us a technology",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+        "Text": "TEXT_MEMORYCHARACTER_NO_TRADE_TECH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_YES_TRADE_TECH",
-        "zText": "Helped us with a technology",
+        "Text": "TEXT_MEMORYCHARACTER_YES_TRADE_TECH",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PEACE_GIFT",
-        "zText": "You were generous for Peace",
+        "Text": "TEXT_MEMORYCHARACTER_PEACE_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_TRIBUTE_DEMAND_REFUSED",
-        "zText": "You refused to pay us Tribute",
+        "Text": "TEXT_MEMORYCHARACTER_TRIBUTE_DEMAND_REFUSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_HONORED_OUR_SOVEREIGNTY",
-        "zText": "Honored Our Sovereignty",
+        "Text": "TEXT_MEMORYCHARACTER_HONORED_OUR_SOVEREIGNTY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_STEPPED_ON_OUR_SOVEREIGNTY",
-        "zText": "Stepped on our sovereignty",
+        "Text": "TEXT_MEMORYCHARACTER_STEPPED_ON_OUR_SOVEREIGNTY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_PROBLEM_SOLVED",
-        "zText": "[STUB] You solved our Problem",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_PROBLEM_NOT_SOLVED",
-        "zText": "[STUB] You failed to solve our Problem",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_PROBLEM_NOT_SOLVED_WAR",
-        "zText": "[STUB] Warring with you gives us dignity",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_PROBLEM_SOLVED_OPINION_DROP",
-        "zText": "[STUB] Solving our Problem staved off War, for now",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_OPINION_DROP",
-        "zText": "[STUB] Ruluctantly agreed to maintain our Peace deal",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_OPINION_DROP_PLEASED",
-        "zText": "[STUB] We are disappointed that an Incident has occurred",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_TRUCE_ANGRY",
-        "zText": "[STUB] Your response to the Incident has avoided a War, but we are still angry",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_PEACE_INCIDENT_WAR",
-        "zText": "[STUB] We are eager to right the wrongs you have done to us",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_PROBLEM_SOLVED_DIPLOMATIC",
-        "zText": "[STUB] What a brilliant solution to our Problem!",
-        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_PROBLEM_SOLVED",
-        "zText": "[STUB] You solved our Problem",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_PROBLEM_NOT_SOLVED",
-        "zText": "[STUB] You failed to solve our Problem",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_PROBLEM_SOLVED_OPINION_DROP",
-        "zText": "[STUB] Solving our Problem staved off War, for now",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_LESSER_OPINION_DROP",
-        "zText": "[STUB] We agreed to maintain our Truce",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_OPINION_DROP",
-        "zText": "[STUB] Ruluctantly agreed to maintain our Truce",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_BIGGER_OPINION_DROP",
-        "zText": "[STUB] Our Truce with you is hanging by a thread",
-        "iValue": "-100",
-        "iTurns": "20"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_OPINION_DROP_PLEASED",
-        "zText": "[STUB] We are disappointed that an Incident has occurred",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_OPINION_DROP_ANGRY",
-        "zText": "[STUB] Your reparations have averted a War, but we do not trust you",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_PLAYER_WAR_AT_TRUCE_INCIDENT_PEACE",
-        "zText": "[STUB] Your solution to the Incident has won our trust",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID",
-        "zText": "Paid us Tribute to avoid a War",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRIBUTE_PAID",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET",
-        "zText": "We are unsettled by your threat to instruct us in the arts of war",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE",
-        "zText": "We declared War over your refusal to pay Tribute.",
+        "Text": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES",
-        "zText": "Agreed to Cancel Trade with our enemy",
+        "Text": "TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO",
-        "zText": "Refused to Cancel Trade with our enemy",
+        "Text": "TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
       },
       {
         "zType": "MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES",
-        "zText": "Converted to our link(CONCEPT_STATE_RELIGION)",
+        "Text": "TEXT_MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_LET_KEEP_LOOT",
-        "zText": "Let me keet the loot",
+        "Text": "TEXT_MEMORYCHARACTER_LET_KEEP_LOOT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD",
-        "zText": "Adopted mysterious child",
+        "Text": "TEXT_MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_RETURNED_MYSTERIOUS_CHILD",
-        "zText": "Returned mysterious child",
+        "Text": "TEXT_MEMORYCHARACTER_RETURNED_MYSTERIOUS_CHILD",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_CHILD_NO_BABY",
-        "zText": "Made me give up baby",
+        "Text": "TEXT_MEMORYCHARACTER_CHILD_NO_BABY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CHILD_DISOWNED_DAUGHTER",
-        "zText": "Disowned our daughter",
+        "Text": "TEXT_MEMORYCHARACTER_CHILD_DISOWNED_DAUGHTER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_NEGATIVE",
-        "zText": "My request to change the heir was refused",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_NEGATIVE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_POSITIVE",
-        "zText": "My request to change heir was heeded",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_CHANGE_SUCCESSION_POSITIVE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRAIT_TOOK_ME_TO_RECOVER",
-        "zText": "Took me away to recover",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_TOOK_ME_TO_RECOVER",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CHANGED_TO_SENIORITY",
-        "zText": "Removed me from succession",
+        "Text": "TEXT_MEMORYCHARACTER_CHANGED_TO_SENIORITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_KEPT_IN_SUCCESSION",
-        "zText": "Kept me as successor",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_IN_SUCCESSION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LEADER_REFUSED_TO_ABDICATE",
-        "zText": "Refused to abdicate",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_REFUSED_TO_ABDICATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SPOUSE_NO_ABDICATE",
-        "zText": "Spouse would not step down",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_NO_ABDICATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PARENT_NO_ABDICATE",
-        "zText": "Ruler would not abdicate",
+        "Text": "TEXT_MEMORYCHARACTER_PARENT_NO_ABDICATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RULER_ACCEPTED_CUP",
-        "zText": "Accepted my cup of wine",
+        "Text": "TEXT_MEMORYCHARACTER_RULER_ACCEPTED_CUP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RULER_REFUSED_CUP",
-        "zText": "Refused my cup of wine",
+        "Text": "TEXT_MEMORYCHARACTER_RULER_REFUSED_CUP",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LEADER_WISHED_FOR_PEACE",
-        "zText": "Reached out to improve relations",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_WISHED_FOR_PEACE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SEPARATED_MENTEE",
-        "zText": "Separated me from protege",
+        "Text": "TEXT_MEMORYCHARACTER_SEPARATED_MENTEE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_KEPT_ME_ON_COURT",
-        "zText": "Kept me on the court",
+        "Text": "TEXT_MEMORYCHARACTER_KEPT_ME_ON_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DISCIPLINED_AT_TRAINING",
-        "zText": "Disciplined in training",
+        "Text": "TEXT_MEMORYCHARACTER_DISCIPLINED_AT_TRAINING",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SUPPORTED_AT_SCHOOL",
-        "zText": "Did not discipline me",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_AT_SCHOOL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RUINED_RELATIONSHIP",
-        "zText": "Ruined romantic relationship",
+        "Text": "TEXT_MEMORYCHARACTER_RUINED_RELATIONSHIP",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SUPPORTED_RELATIONSHIP",
-        "zText": "Supported my romantic relationship",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_RELATIONSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_MADE_GOVERNOR",
-        "zText": "Installed me as governor",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_GOVERNOR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_MADE_CHANCELLOR",
-        "zText": "Made me Chancellor",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_CHANCELLOR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_UNHAPPY_SIBLING_NO",
-        "zText": "Still feel unappreciated",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_DOMESTIC_DISPUTE",
-        "zText": "Exiled a rival for your attention",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_IMPUDENT_MATCH",
-        "zText": "Married one of our enemies",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
-      },
-      {
-        "zType": "MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD",
-        "zText": "Didn't force a match on me",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION",
-        "zText": "Granted special title",
+        "Text": "TEXT_MEMORYCHARACTER_GRANTED_SPECIAL_RECOGNITION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SUPPORTED_ALLIANCE",
-        "zText": "Supported alliance with family",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_ALLIANCE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_ACCUSED_OF_PLOTTING",
-        "zText": "Accused of plotting",
+        "Text": "TEXT_MEMORYCHARACTER_ACCUSED_OF_PLOTTING",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GP_IGNORED_MY_REQUEST",
-        "zText": "Ignored my request",
+        "Text": "TEXT_MEMORYCHARACTER_GP_IGNORED_MY_REQUEST",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_APPROVED_CAMPAIGN",
-        "zText": "Approved preemptive strike",
+        "Text": "TEXT_MEMORYCHARACTER_APPROVED_CAMPAIGN",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT",
-        "zText": "Forced rival off court",
+        "Text": "TEXT_MEMORYCHARACTER_FORCED_RIVAL_OFF_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
-        "zType": "MEMORYCHARACTER_A_NEW_GENERAL_NO",
-        "zText": "Didn't make our child a link(CONCEPT_GENERAL)",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
         "zType": "MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT",
-        "zText": "Supported in court",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_SUPPORTED_IN_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LAW_IGNORED_IN_COURT",
-        "zText": "Ignored in court",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_IGNORED_IN_COURT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
-        "zText": "Created plan for a Professional Army",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW",
-        "zText": "Refused to change law",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TO_CHANGE_LAW",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT",
-        "zText": "Refused to pay debt",
+        "Text": "TEXT_MEMORYCHARACTER_LAW_REFUSED_TO_PAY_DEBT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_WONDER_GIFTED_MAUSOLEUM",
-        "zText": "I was given a wondrous resting place",
+        "Text": "TEXT_MEMORYCHARACTER_WONDER_GIFTED_MAUSOLEUM",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION",
-        "zText": "Adopted my religion",
+        "Text": "TEXT_MEMORYCHARACTER_ADOPTED_SPOUSE_RELIGION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION",
-        "zText": "Did not convert to Zoroastrianism",
+        "Text": "TEXT_MEMORYCHARACTER_DID_NOT_ADOPT_SPOUSE_RELIGION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SCRIPTURE_AS_TEXT",
-        "zText": "Read religious text for pleasure only",
+        "Text": "TEXT_MEMORYCHARACTER_SCRIPTURE_AS_TEXT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER",
-        "zText": "Accepted my condolences",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_GIFT_POSITIVE_LEADER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER",
-        "zText": "Refused my condolences",
+        "Text": "TEXT_MEMORYCHARACTER_TRAIT_GIFT_NEGATIVE_LEADER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH",
-        "zText": "Punished while Studying Philosopy",
+        "Text": "TEXT_MEMORYCHARACTER_STUDY_PHILOSOPHY_PUNISH",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RECEIVED_CONGRATULATORY_GIFT",
-        "zText": "Recieved congratulatory gift",
+        "Text": "TEXT_MEMORYCHARACTER_RECEIVED_CONGRATULATORY_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RUINS_NEW_HUMANS",
-        "zText": "Destroyed strange remains",
+        "Text": "TEXT_MEMORYCHARACTER_RUINS_NEW_HUMANS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_OVERCOMING_NATURE",
-        "zText": "My spouse is trying their best",
+        "Text": "TEXT_MEMORYCHARACTER_OVERCOMING_NATURE",
         "iValue": "25",
         "iTurns": "15",
         "bName": "1"
       },
       {
         "zType": "MEMORYCHARACTER_GREAT_PARTY",
-        "zText": "Hosted a wonderful party!",
+        "Text": "TEXT_MEMORYCHARACTER_GREAT_PARTY",
         "iValue": "30",
         "iTurns": "10",
         "bName": "1"
       },
       {
+        "zType": "MEMORYCHARACTER_LIKES_HEADS",
+        "Text": "TEXT_MEMORYCHARACTER_LIKES_HEADS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL",
+        "bName": "1"
+      },
+      {
         "beginGroup": "Character",
         "zType": "MEMORYCHARACTER_MARRIAGE_OF_STATE",
-        "zText": "Married me for politics",
+        "Text": "TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_BOUGHT_SILENCE",
-        "zText": "Bought my silence",
+        "Text": "TEXT_MEMORYCHARACTER_BOUGHT_SILENCE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_MILITARY_ADVICE",
-        "zText": "Ignored military advice",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_MILITARY_ADVICE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_ADDRESSED_GRIEVANCES",
-        "zText": "Addressed grievances publicly",
+        "Text": "TEXT_MEMORYCHARACTER_ADDRESSED_GRIEVANCES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_MADE_TRUCE",
-        "zText": "Made truce at my suggestion",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_TRUCE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORY_FIXED_FINANCIALS",
-        "zText": "Fixed financial inconsistencies",
+        "Text": "TEXT_MEMORY_FIXED_FINANCIALS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORY_BECAME_PERSONAL_ADVISER",
-        "zText": "Made personal adviser",
+        "Text": "TEXT_MEMORY_BECAME_PERSONAL_ADVISER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_FIRED_FROM_COURT",
-        "zText": "Removed from court",
+        "Text": "TEXT_MEMORYCHARACTER_FIRED_FROM_COURT",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_WATCH_CLOSELY",
-        "zText": "Watching me closely",
+        "Text": "TEXT_MEMORYCHARACTER_WATCH_CLOSELY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_GIVEN_BAD_JOB",
-        "zText": "Told to watch dangerous student",
+        "Text": "TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CONVINCE_TO_CHANGE",
-        "zText": "Convinced to give up questionable interests",
+        "Text": "TEXT_MEMORYCHARACTER_CONVINCE_TO_CHANGE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PAID_FOR_MY_SILENCE",
-        "zText": "Ruler bought my silence",
+        "Text": "TEXT_MEMORYCHARACTER_PAID_FOR_MY_SILENCE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_RENEWED_BOND",
-        "zText": "Renewed bond with me",
+        "Text": "TEXT_MEMORYCHARACTER_RENEWED_BOND",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_BLAMED_REVELS_ON_ME",
-        "zText": "Blamed for wild, drunken revels",
+        "Text": "TEXT_MEMORYCHARACTER_BLAMED_REVELS_ON_ME",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_EXOTIC_GETAWAY",
-        "zText": "Took me on exotic getaway",
+        "Text": "TEXT_MEMORYCHARACTER_EXOTIC_GETAWAY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_NO_EXOTIC_GETAWAY",
-        "zText": "Refused to take me on a holiday",
+        "Text": "TEXT_MEMORYCHARACTER_NO_EXOTIC_GETAWAY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_POOR_SPOUSE",
-        "zText": "My spouse is poor company",
+        "Text": "TEXT_MEMORYCHARACTER_POOR_SPOUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT",
         "bName": "1"
       },
       {
         "zType": "MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
-        "zText": "My spouse cares about my interests",
+        "Text": "TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT",
         "bName": "1"
       },
@@ -1023,219 +959,270 @@
       {
         "beginGroup": "Miscellaneous",
         "zType": "MEMORYCHARACTER_TOOK_MY_AMBITION",
-        "zText": "Took my link(CONCEPT_AMBITION)",
+        "Text": "TEXT_MEMORYCHARACTER_TOOK_MY_AMBITION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SUPPORTED_AMBITION",
-        "zText": "Supported my link(CONCEPT_AMBITION)",
+        "Text": "TEXT_MEMORYCHARACTER_SUPPORTED_AMBITION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CITY_EXECUTION",
-        "zText": "Refused to support execution",
+        "Text": "TEXT_MEMORYCHARACTER_CITY_EXECUTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_COURT_FAVORS",
-        "zText": "Provided favors in court",
+        "Text": "TEXT_MEMORYCHARACTER_COURT_FAVORS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IN_INNER_CIRCLE",
-        "zText": "Invited to feast of inner circle",
+        "Text": "TEXT_MEMORYCHARACTER_IN_INNER_CIRCLE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_KILLED_SPOUSE",
-        "zText": "Killed spouse for me",
+        "Text": "TEXT_MEMORYCHARACTER_KILLED_SPOUSE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_AGREED_WITH_LEADER",
-        "zText": "Agreed with philosophy of war",
+        "Text": "TEXT_MEMORYCHARACTER_AGREED_WITH_LEADER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DISAGREED_WITH_LEADER",
-        "zText": "Disagreed with policy of peace",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREED_WITH_LEADER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_AGREED_WITH_HEIR",
-        "zText": "Disagreed with policy of war",
+        "Text": "TEXT_MEMORYCHARACTER_AGREED_WITH_HEIR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_DISAGREED_WITH_HEIR",
-        "zText": "Disagreed with policy of peace",
+        "Text": "TEXT_MEMORYCHARACTER_DISAGREED_WITH_HEIR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_MADE_NO_DECISION",
-        "zText": "Made no decision",
+        "Text": "TEXT_MEMORYCHARACTER_MADE_NO_DECISION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR",
-        "zText": "Started correspondence with heir",
+        "Text": "TEXT_MEMORYCHARACTER_CORRESPONDENCE_WITH_HEIR",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SPURNED_MY_INVITATION",
-        "zText": "Refused to correspond with me",
+        "Text": "TEXT_MEMORYCHARACTER_SPURNED_MY_INVITATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LEADER_MADE_A_SCENE",
-        "zText": "Made a scene at a funeral",
+        "Text": "TEXT_MEMORYCHARACTER_LEADER_MADE_A_SCENE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PLOTTED_WITH_ME",
-        "zText": "Supported my plot for the throne",
+        "Text": "TEXT_MEMORYCHARACTER_PLOTTED_WITH_ME",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_MY_CAUSE",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_MY_CAUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_EARNED_CONFIDENCE",
-        "zText": "Earned confidence of a critic",
+        "Text": "TEXT_MEMORYCHARACTER_EARNED_CONFIDENCE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_INFLUENCED_BY_SPY",
-        "zText": "Influenced by a foreign spy",
+        "Text": "TEXT_MEMORYCHARACTER_INFLUENCED_BY_SPY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_SENT_TO_EXPLORE",
-        "zText": "Sent me on an important exploration mission",
+        "Text": "TEXT_MEMORYCHARACTER_SENT_TO_EXPLORE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "beginGroup": "Diplomacy",
         "zType": "MEMORYCHARACTER_GAVE_TECH",
-        "zText": "Shared technology with me",
+        "Text": "TEXT_MEMORYCHARACTER_GAVE_TECH",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_TECH",
-        "zText": "Refused to share technology",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TECH",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_SCOLDED_ME",
-        "zText": "Admonished me in public",
+        "Text": "TEXT_MEMORYCHARACTER_SCOLDED_ME",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_LIKED_FLIRTATION",
-        "zText": "Enjoyed flirtation",
+        "Text": "TEXT_MEMORYCHARACTER_LIKED_FLIRTATION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DEMAND_APOLOGY",
-        "zText": "Demanded an apology for flirting",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES",
-        "zText": "Blamed for espionage debacle",
+        "Text": "TEXT_MEMORYCHARACTER_DEMAND_APOLOGY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Combat",
         "zType": "MEMORYCHARACTER_REFUSED_FUNDS",
-        "zText": "Refused to provide military funds",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_FUNDS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Community",
         "zType": "MEMORYCHARACTER_REFUSED_REQUEST",
-        "zText": "Ignored my advice and refused my request",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_REQUEST",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT",
-        "zText": "Granted a request for a Barracks assignment",
+        "Text": "TEXT_MEMORYCHARACTER_ALLOWED_BARRACKS_ASSIGNMENT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT",
-        "zText": "Denied our request to teach at the Barracks",
+        "Text": "TEXT_MEMORYCHARACTER_DENIED_BARRACKS_ASSIGNMENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP",
-        "zText": "Commended our battlefield leadership",
+        "Text": "TEXT_MEMORYCHARACTER_COMMENDED_FIELD_LEADERSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_ACCEPTED_JUDGMENT",
-        "zText": "Sided with our view of justice",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_JUDGMENT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_DAY_OF_DUPES_DEAL",
-        "zText": "Resolved a power struggle",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_DEAL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_DAY_OF_DUPES_POS",
-        "zText": "Supported us in a power struggle",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_DAY_OF_DUPES_NEG",
-        "zText": "Sided against us in a power struggle",
+        "Text": "TEXT_MEMORYCHARACTER_DAY_OF_DUPES_NEG",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_DENOUNCED_FINDINGS",
-        "zText": "Denounced my findings",
+        "Text": "TEXT_MEMORYCHARACTER_DENOUNCED_FINDINGS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYCHARACTER_ACCEPTED_PRAISE",
-        "zText": "Denounced my findings",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_PRAISE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IGNORED_OBJECTION",
-        "zText": "Ignored my objections",
+        "Text": "TEXT_MEMORYCHARACTER_IGNORED_OBJECTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_UPHELD_OBJECTION",
-        "zText": "Accepted my objections",
+        "Text": "TEXT_MEMORYCHARACTER_UPHELD_OBJECTION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL",
-        "zText": "Impressed by skill as an Orator",
+        "Text": "TEXT_MEMORYCHARACTER_IMPRESSED_BY_ORATOR_SKILL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_REFUSED_TO_SACRIFICE",
-        "zText": "Refused to make a sacrifice",
+        "Text": "TEXT_MEMORYCHARACTER_REFUSED_TO_SACRIFICE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_PILGRIMAGED_TOGETHER",
-        "zText": "Went on a pilgrimage together",
+        "Text": "TEXT_MEMORYCHARACTER_PILGRIMAGED_TOGETHER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
-        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE"
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_ONE_LIVE"
       },
       {
-        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE"
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_TWO_LIVE"
       },
       {
-        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE"
+        "zType": "MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE",
+        "Text": "TEXT_MEMORYCHARACTER_SCHEMING_HEIR_THREE_LIVE"
+      },
+      {
+        "zType": "MEMORYCHARACTER_TRUSTED",
+        "Text": "TEXT_MEMORYCHARACTER_TRUSTED",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_POISONED_MY_PREDECESSOR",
+        "Text": "TEXT_MEMORYCHARACTER_POISONED_MY_PREDECESSOR"
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES",
+        "Text": "TEXT_MEMORYCHARACTER_BLAMED_FOR_EXECUTED_SPIES",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "beginGroup": "Courtier",
+        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT",
+        "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GREAT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD",
+        "Text": "TEXT_MEMORYCHARACTER_A_LITTLE_PUSHBACK_CHILD",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_IMPUDENT_MATCH",
+        "Text": "TEXT_MEMORYCHARACTER_IMPUDENT_MATCH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DOMESTIC_DISPUTE",
+        "Text": "TEXT_MEMORYCHARACTER_DOMESTIC_DISPUTE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_UNHAPPY_SIBLING_NO",
+        "Text": "TEXT_MEMORYCHARACTER_UNHAPPY_SIBLING_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_A_NEW_GENERAL_NO",
+        "Text": "TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       }
     ]
   }

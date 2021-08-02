@@ -44,7 +44,7 @@
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_ACOLYTE",
-        "English": "Acolyte"
+        "English": "Acolyte~Acolytes"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_MONK",
@@ -56,7 +56,7 @@
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_OFFICER",
-        "English": "Officer"
+        "English": "Officer~Officers"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_POET",
@@ -64,7 +64,7 @@
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_SCRIBE",
-        "English": "Scribe"
+        "English": "Scribe~Scribes"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_SHOPKEEPER",
