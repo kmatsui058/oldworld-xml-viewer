@@ -1,7 +1,9 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      Tech: {{ tech.name }}
+      <nuxt-link to="/tech/">
+        tech
+      </nuxt-link>/ {{ tech.name }}
     </h2>
   </section>
 </template>

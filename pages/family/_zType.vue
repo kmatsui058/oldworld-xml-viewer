@@ -1,7 +1,9 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      Family: {{ family.name }}
+      <nuxt-link to="/family/">
+        Family
+      </nuxt-link>/ {{ family.name }}
     </h2>
     <section
       id="nation"

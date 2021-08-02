@@ -1,7 +1,9 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      Family Class: {{ familyClass.name }}
+      <nuxt-link to="/family-class/">
+        Family Class
+      </nuxt-link>/ {{ familyClass.name }}
     </h2>
   </section>
 </template>
