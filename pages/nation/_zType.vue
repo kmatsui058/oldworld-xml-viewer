@@ -28,7 +28,6 @@ export default class Index extends Vue {
     const entry = nation.Root.Entry.find((item) => {
       return item.zType === this.$route.params.zType
     })
-    console.log(entry)
     if (!entry) {
       this.$nuxt.error({ statusCode: 404 })
       throw new Error('not found')

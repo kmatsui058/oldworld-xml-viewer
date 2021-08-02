@@ -2,10 +2,11 @@
   <nav class="main-nav navbar is-primary">
     <div class="container">
       <div class="navbar-start ">
-        <a class="navbar-item" href="https://jenil.github.io/bulmaswatch/">
-          <img src="/bulmaswatch/assets/icons/apple-touch-icon-144x144.png" alt="" class="logo">
-          <h1 class="title is-5">Bulmaswatch</h1>
-        </a>
+        <nuxt-link class="navbar-item" to="/">
+          <h1 class="title is-5">
+            Bulmaswatch
+          </h1>
+        </nuxt-link>
         <a class="navbar-item " href="https://jenil.github.io/bulmaswatch/">Home</a>
 
         <div class="navbar-item has-dropdown is-hoverable">
