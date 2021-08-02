@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      {{ familyClass.name }}
+      Family Class: {{ familyClass.name }}
     </h2>
   </section>
 </template>

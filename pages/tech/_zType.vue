@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      {{ tech.name }}
+      Tech: {{ tech.name }}
     </h2>
   </section>
 </template>

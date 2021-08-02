@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      {{ nation.name }}
+      Nation: {{ nation.name }}
     </h2>
     <section id="nation" class="section">
       <h3 class="title">
