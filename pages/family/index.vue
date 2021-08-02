@@ -10,13 +10,19 @@
         </tr>
       </thead>
       <tbody>
-        <template v-for="item in families">
+        <template v-for="family in families">
           <tr
-            v-if="typeof item.Name === 'string'"
-            :id="item.Name"
-            :key="item.Name"
+            :id="family.zType"
+            :key="family.zType"
           >
-            <td>{{ getName(item.Name.toString()) }}</td>
+            <td>
+              <nuxt-link
+                :key="family.entry"
+                :to="`/family/${family.zType}`"
+              >
+                {{ family.name }}
+              </nuxt-link>
+            </td>
           </tr>
         </template>
       </tbody>
@@ -26,33 +32,16 @@
 
 <script lang="ts">
 import { Vue, Component } from 'nuxt-property-decorator'
-import Logo from '~/components/Logo.vue'
-import nation from '~/assets/data/xml/nation'
 import families from '~/assets/data/xml/family'
-import textNation from '~/assets/data/xml/text-nation'
-import law from '~/assets/data/xml/law'
-import tech from '~/assets/data/xml/tech'
-import textInfo from '~/assets/data/xml/text-infos'
-import textFamily from '~/assets/data/xml/text-family'
+import Family from '~/classes/Family'
 
-// import name from '~/assets/data/xml/name'
 @Component({
-  components: {
-    Logo
-  }
 })
 export default class Index extends Vue {
-  nations = nation.Root.Entry;
-  textNations = textNation.Root.Entry;
-  law = law.Root.Entry;
-  tech = tech.Root.Entry;
-  textInfo = textInfo.Root.Entry;
-  textFamily = textFamily.Root.Entry;
-  families = families.Root.Entry;
-
-  getName (key: string): string {
-    const test = this.textFamily.find(el => el.zType === key)
-    return test ? test.English.toString().split('~')[0] : ''
+  get families (): Family[] {
+    return families.Root.Entry.map((item) => {
+      return new Family(item)
+    }).filter(nation => nation.name)
   }
 }
 </script>

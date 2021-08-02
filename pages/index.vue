@@ -1,47 +1,36 @@
 <template>
   <section class="section">
     <h2 class="title is-2">
-      NATIONS
+      Menu
     </h2>
-    <table class="table">
-      <thead>
-        <tr>
-          <th> Name </th>
-          <th> Stating Tech </th>
-          <th> Families </th>
-        </tr>
-      </thead>
-      <tbody>
-        <template v-for="nation in nations">
-          <tr
-            :id="nation.entry.zType"
-            :key="nation.entry.zType"
+    <aside class="menu">
+      <p class="menu-label">
+        General
+      </p>
+      <ul class="menu-list">
+        <li>
+          <nuxt-link
+            :to="`/nation/`"
           >
-            <td>{{ nation.name }}</td>
-            <td>
-              <template v-for="tech in nation.teches">
-                <nuxt-link
-                  :key="tech.entry"
-                  :to="`/tech/${tech.zType}`"
-                >
-                  {{ tech.name }}
-                </nuxt-link>
-              </template>
-            </td>
-            <td>
-              <template v-for="family in nation.families">
-                <nuxt-link
-                  :key="family.entry"
-                  :to="`/tech/${family.zType}`"
-                >
-                  {{ family.name }}
-                </nuxt-link>
-              </template>
-            </td>
-          </tr>
-        </template>
-      </tbody>
-    </table>
+            Nations
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link
+            :to="`/tech/`"
+          >
+            Teches
+          </nuxt-link>
+        </li>
+        <li>
+          <nuxt-link
+            :to="`/family/`"
+          >
+            Families
+          </nuxt-link>
+        </li>
+      </ul>
+    </aside>
   </section>
 </template>
 

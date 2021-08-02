@@ -14,6 +14,10 @@ export default class Nation {
     this.entry = entry
   }
 
+  get zType (): string {
+    return typeof this.entry.zType === 'string' ? this.entry.zType : ''
+  }
+
   get name (): string {
     const test = this.textNations.find(el => el.zType === this.entry.Name)
     return test ? test.English.toString().split('~')[0] : ''
