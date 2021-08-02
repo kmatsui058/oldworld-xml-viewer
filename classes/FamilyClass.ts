@@ -1,4 +1,6 @@
 import textInfos from '~/assets/data/xml/text-infos'
+import goals from '~/assets/data/xml/goal'
+import Goal from '~/classes/Goal'
 
 export default class FamilyClass {
   private readonly textInfos = textInfos.Root.Entry;
@@ -16,5 +18,11 @@ export default class FamilyClass {
 
   get zType (): string {
     return typeof this.entry.zType === 'string' ? this.entry.zType : ''
+  }
+
+  get ambitions (): Goal[] {
+    return goals.Root.Entry.map((item) => {
+      return new Goal(item)
+    }).filter(goal => goal.familyClassWeights.find(test => test.familyClass.zType === this.zType))
   }
 }

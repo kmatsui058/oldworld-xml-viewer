@@ -37,6 +37,16 @@
         </nuxt-link>
       </p>
     </section>
+    <section
+      id="abmitions"
+      class="section"
+    >
+      <h3 class="title">
+        Ambitions
+      </h3>
+      <hr>
+      <ambition-table :goals="family.familyClass.ambitions" />
+    </section>
   </section>
 </template>
 
@@ -44,8 +54,9 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 import families from '~/assets/data/xml/family'
 import Family from '~/classes/Family'
+import AmbitionTable from '~/components/AmbitionTable.vue'
 
-@Component({})
+@Component({ components: { AmbitionTable } })
 export default class Index extends Vue {
   get family (): Family {
     const entry = families.Root.Entry.find((item) => {
