@@ -434,7 +434,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_16",
+        "zType": "CHARACTER_PORTRAIT_ASHURBANIPAL",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -1722,7 +1722,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_16",
+        "zType": "CHARACTER_PORTRAIT_DIDO",
         "Gender": "GENDER_FEMALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -1744,7 +1744,7 @@
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
-              "zValue": "CARTHAGE_LEADER_FEMALE_16_ADULT"
+              "zValue": "CARTHAGE_LEADER_FEMALE_16_SENIOR"
             }
           ]
         }
@@ -2752,7 +2752,7 @@
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
-              "zValue": "EGYPT_LEADER_MALE_07_ADULT"
+              "zValue": "EGYPT_LEADER_MALE_07_SENIOR"
             }
           ]
         }
@@ -3010,7 +3010,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_02",
+        "zType": "CHARACTER_PORTRAIT_HATSHEPSUT",
         "Gender": "GENDER_FEMALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -4662,7 +4662,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_16",
+        "zType": "CHARACTER_PORTRAIT_PHILIP",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -5950,7 +5950,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_16",
+        "zType": "CHARACTER_PORTRAIT_CYRUS",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -6280,7 +6280,7 @@
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
-              "zValue": "PERSIA_LEADER_MALE_27_ADULT"
+              "zValue": "PERSIA_LEADER_MALE_27_SENIOR"
             }
           ]
         }
@@ -7238,7 +7238,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_17",
+        "zType": "CHARACTER_PORTRAIT_ROMULUS",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -8134,7 +8134,7 @@
         }
       },
       {
-        "zType": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_17",
+        "zType": "CHARACTER_PORTRAIT_NEBUCHANEZZAR",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
           "Pair": [
@@ -10430,6 +10430,34 @@
         }
       },
       {
+        "zType": "CHARACTER_PORTRAIT_INCITATUS",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "ANIMAL_PORTRAIT_HORSE"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "ANIMAL_PORTRAIT_HORSE"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "ANIMAL_PORTRAIT_HORSE"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "ANIMAL_PORTRAIT_HORSE"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "ANIMAL_PORTRAIT_HORSE"
+            }
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_PORTRAIT_AUGUSTINE",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
@@ -10644,11 +10672,11 @@
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_ADULT",
-              "zValue": "ASSYRIA_LEADER_MALE_10_ADULT"
+              "zValue": "HISTORICAL_PERSON_BARDAISAN"
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
-              "zValue": "ASSYRIA_LEADER_MALE_10_SENIOR"
+              "zValue": "HISTORICAL_PERSON_BARDAISAN"
             }
           ]
         }
@@ -11293,6 +11321,62 @@
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
               "zValue": "THRACIAN_FEMALE_03_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_HANNIBAL_BARCA",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_02"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_05_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "CARTHAGE_LEADER_MALE_02_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "HISTORICAL_PERSON_HANNIBAL"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "HISTORICAL_PERSON_HANNIBAL"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_ARCHIMEDES",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_01"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_03_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_07_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "HISTORICAL_PERSON_ARCHIMEDES"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "HISTORICAL_PERSON_ARCHIMEDES"
             }
           ]
         }

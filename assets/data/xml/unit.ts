@@ -114,6 +114,9 @@
         "iPopulationCost": {
           
         },
+        "iUpgradeCost": {
+          
+        },
         "iStartFirst": {
           
         },
@@ -210,6 +213,9 @@
         "bBarbCity": {
           
         },
+        "bBarbRaid": {
+          
+        },
         "bNoHurry": {
           
         },
@@ -244,6 +250,9 @@
           
         },
         "aeUpgradeUnit": {
+          
+        },
+        "aeTribeUpgradeUnit": {
           
         },
         "aeUnitTrait": {
@@ -321,11 +330,24 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "WORKER",
         "zAudioMovementType": "ANIMATED",
-        "zAudioAttackType": "GENERIC",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
+        "azGenderPortraitName": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "UNIT_WORKER"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "UNIT_FEMALE_WORKER"
+            }
+          ]
+        },
         "aeFormations": {
           "zValue": [
             "FORMATION_WORKER",
+            "FORMATION_WORKER_FEMALE",
             "FORMATION_WORKER_WATER"
           ]
         },
@@ -338,6 +360,7 @@
         "iHPMax": "20",
         "iProduction": "50",
         "iProductionPer": "5",
+        "iUpgradeCost": "80",
         "bTerritoryWater": "1",
         "bOutsideOpinion": "1",
         "bHarvest": "1",
@@ -376,9 +399,22 @@
         "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "GENERIC",
         "zAudioDamagedByProjectileType": "flesh",
+        "azGenderPortraitName": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "UNIT_SCOUT"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "UNIT_FEMALE_SCOUT"
+            }
+          ]
+        },
         "aeFormations": {
           "zValue": [
             "FORMATION_SCOUT",
+            "FORMATION_SCOUT_FEMALE",
             "FORMATION_SCOUT_WATER"
           ]
         },
@@ -421,8 +457,8 @@
         "zPortraitName": "UNIT_CARAVAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "CARAVAN",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
@@ -440,6 +476,12 @@
         "iHPMax": "20",
         "iProduction": "60",
         "iProductionPer": "5",
+        "fAnimNormalMoveDuration": "1.2",
+        "fAnimNormalMoveSpeed": "2",
+        "fAnimIntermediateMoveDuration": ".8",
+        "fAnimIntermediateMoveSpeed": "3",
+        "fAnimFastMoveDuration": ".6",
+        "fAnimFastMoveSpeed": "4",
         "bAmphibious": "1",
         "bCaravan": "1",
         "aeUnitTrait": {
@@ -758,6 +800,7 @@
         "iHPMax": "20",
         "iProduction": "80",
         "iProductionPer": "2",
+        "iUpgradeCost": "80",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -875,6 +918,7 @@
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
+        "iUpgradeCost": "80",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -905,13 +949,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "25"
           }
         },
@@ -956,6 +1000,7 @@
         "iStrength": "50",
         "iHPMax": "20",
         "iProduction": "80",
+        "iUpgradeCost": "80",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -992,13 +1037,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "25"
           }
         },
@@ -1044,6 +1089,7 @@
         "iStrength": "60",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -1101,8 +1147,8 @@
         "zPortraitName": "UNIT_SWORDSMAN",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "SWORD",
-        "zAudioMovementType": "INFANTRY_METAL_HEAVY",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -1119,6 +1165,7 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "120",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -1155,13 +1202,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "50"
           }
         },
@@ -1197,6 +1244,7 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "120",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -1239,13 +1287,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "50"
           }
         },
@@ -1326,9 +1374,22 @@
         "zAudioMovementType": "ANIMATED",
         "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_chain_mail",
+        "azGenderPortraitName": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "UNIT_ARCHER"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "UNIT_FEMALE_ARCHER"
+            }
+          ]
+        },
         "aeFormations": {
           "zValue": [
             "FORMATION_ARCHER",
+            "FORMATION_ARCHER_FEMALE",
             "FORMATION_DEFAULT_WATER"
           ]
         },
@@ -1342,6 +1403,7 @@
         "iRangeMax": "3",
         "iHPMax": "20",
         "iProduction": "80",
+        "iUpgradeCost": "80",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
@@ -1404,6 +1466,7 @@
         "iRangeMax": "3",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
@@ -1463,6 +1526,7 @@
         "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bRangeFlat": "1",
         "bOutsideOpinion": "1",
@@ -1504,13 +1568,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "50"
           }
         },
@@ -1528,8 +1592,8 @@
         "zPortraitName": "UNIT_CHARIOT",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "CHARIOT",
-        "zAudioMovementType": "CHARIOT",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "CHARIOT_BUGGY",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -1620,6 +1684,7 @@
         "iStrength": "60",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -1683,8 +1748,8 @@
         "zPortraitName": "UNIT_CATAPHRACT",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "CATAPHRACT",
-        "zAudioMovementType": "CATAPHRACT",
-        "zAudioAttackType": "ANIMAL_HORSE_LANCER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -1702,6 +1767,7 @@
         "iStrength": "100",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -1765,8 +1831,8 @@
         "zPortraitName": "UNIT_HORSE_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "HORSEARCHER",
-        "zAudioMovementType": "HORSE",
-        "zAudioAttackType": "ANIMAL_HORSE_ARCHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
@@ -1785,6 +1851,7 @@
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
@@ -1832,8 +1899,8 @@
         "zPortraitName": "UNIT_CAMEL_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "CAMEL_ARCHER",
-        "zAudioMovementType": "CAMEL_ARCHER",
-        "zAudioAttackType": "ANIMAL_CAMEL_ARCHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
@@ -1930,8 +1997,8 @@
         "fAttackDuration": "2.5",
         "fAnimNormalMoveDuration": "2.5",
         "fAnimNormalMoveSpeed": "2",
-        "fAnimIntermediateMoveDuration": "2",
-        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimIntermediateMoveDuration": "1.5",
+        "fAnimIntermediateMoveSpeed": "3",
         "fAnimFastMoveDuration": ".75",
         "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
@@ -2049,13 +2116,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "2"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "50"
           }
         },
@@ -2077,7 +2144,7 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "POLYBOLOS",
         "zAudioMovementType": "SIEGE_METAL",
-        "zAudioAttackType": "SIEGE_POLYBOLOS",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
@@ -2095,6 +2162,7 @@
         "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "120",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bRangeFlat": "1",
         "bOutsideOpinion": "1",
@@ -2136,11 +2204,11 @@
         "aiAttackValue": {
           "Pair": [
             {
-              "zIndex": "ATTACK_FORWARD",
+              "zIndex": "ATTACK_PIERCE",
               "iValue": "1"
             },
             {
-              "zIndex": "ATTACK_ARC",
+              "zIndex": "ATTACK_CLEAVE",
               "iValue": "1"
             }
           ]
@@ -2148,11 +2216,11 @@
         "aiAttackPercent": {
           "Pair": [
             {
-              "zIndex": "ATTACK_FORWARD",
+              "zIndex": "ATTACK_PIERCE",
               "iValue": "50"
             },
             {
-              "zIndex": "ATTACK_ARC",
+              "zIndex": "ATTACK_CLEAVE",
               "iValue": "50"
             }
           ]
@@ -2172,7 +2240,7 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "ONAGER",
         "zAudioMovementType": "SIEGE_WOOD_MEDIUM",
-        "zAudioAttackType": "SIEGE_ONAGER",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
@@ -2260,7 +2328,7 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "MANGONEL",
         "zAudioMovementType": "SIEGE_WOOD_METAL_LARGE",
-        "zAudioAttackType": "SIEGE_MANGONEL",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
@@ -2279,6 +2347,7 @@
         "iRangeMax": "5",
         "iHPMax": "20",
         "iProduction": "120",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".7",
         "fAnimNormalMoveSpeed": "1",
@@ -2342,8 +2411,8 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
-        "zAudioAttackType": "GENERIC",
-        "zAudioDamagedByProjectileType": "combo_flesh_wood",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
             "FORMATION_BIREME",
@@ -2409,8 +2478,8 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
-        "zAudioAttackType": "GENERIC",
-        "zAudioDamagedByProjectileType": "combo_flesh_wood",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
             "FORMATION_TRIREME",
@@ -2429,6 +2498,7 @@
         "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bWater": "1",
         "bMelee": "1",
@@ -2482,8 +2552,8 @@
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "NAVAL",
         "zAudioMovementType": "NAVAL",
-        "zAudioAttackType": "GENERIC",
-        "zAudioDamagedByProjectileType": "combo_flesh_wood",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_metal_wood",
         "aeFormations": {
           "zValue": [
             "FORMATION_DROMON",
@@ -2502,6 +2572,7 @@
         "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "120",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bWater": "1",
         "bMelee": "1",
@@ -2647,6 +2718,7 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".7",
         "fAnimNormalMoveSpeed": "1",
@@ -2707,9 +2779,9 @@
         "zPortraitName": "UNIT_AKKADIAN_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "BOW",
-        "zAudioMovementType": "BOW",
-        "zAudioAttackType": "RANGED_BOW",
-        "zAudioDamagedByProjectileType": "flesh",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
             "FORMATION_AKKADIAN_ARCHER",
@@ -2777,8 +2849,8 @@
         "zPortraitName": "UNIT_CIMMERIAN_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "BOW",
-        "zAudioMovementType": "BOW",
-        "zAudioAttackType": "RANGED_BOW",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -2799,6 +2871,7 @@
         "iRangeMax": "3",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
@@ -2875,8 +2948,8 @@
         "fAttackDuration": "2.5",
         "fAnimNormalMoveDuration": "2.5",
         "fAnimNormalMoveSpeed": "2",
-        "fAnimIntermediateMoveDuration": "2",
-        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimIntermediateMoveDuration": "1.5",
+        "fAnimIntermediateMoveSpeed": "3",
         "fAnimFastMoveDuration": ".75",
         "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
@@ -2967,11 +3040,12 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2.5",
         "fAnimNormalMoveDuration": "2.5",
         "fAnimNormalMoveSpeed": "2",
-        "fAnimIntermediateMoveDuration": "2",
-        "fAnimIntermediateMoveSpeed": "2.7",
+        "fAnimIntermediateMoveDuration": "1.5",
+        "fAnimIntermediateMoveSpeed": "3",
         "fAnimFastMoveDuration": ".75",
         "fAnimFastMoveSpeed": "4",
         "bMelee": "1",
@@ -3036,9 +3110,9 @@
         "zIconName": "UNIT_LIGHT_CHARIOT",
         "zPortraitName": "UNIT_LIGHT_CHARIOT",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "CHARIOT",
+        "zAudioMovementType": "LIGHT_CHARIOT_BUGGY",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -3102,9 +3176,9 @@
         "zIconName": "UNIT_KUSHITE_CAVALRY",
         "zPortraitName": "UNIT_KUSHITE_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "NOMAD_MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
@@ -3126,6 +3200,7 @@
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
@@ -3228,13 +3303,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "25"
           }
         },
@@ -3258,10 +3333,10 @@
         "zIconName": "UNIT_PHALANGITE",
         "zPortraitName": "UNIT_PHALANGITE",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
-        "zAudioDamagedByProjectileType": "flesh",
+        "zAudioSelectionType": "PHALANGITE",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
             "FORMATION_PHALANGITE",
@@ -3280,6 +3355,7 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -3321,13 +3397,13 @@
         },
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "2"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "25"
           }
         },
@@ -3348,9 +3424,9 @@
         "zIconName": "UNIT_PALTON_CAVALRY",
         "zPortraitName": "UNIT_PALTON_CAVALRY",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "NOMAD_MARAUDER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "flesh",
         "aeFormations": {
           "zValue": [
@@ -3408,7 +3484,7 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_MANEUVERS"
+          "zValue": "EFFECTUNIT_ROUT"
         }
       },
       {
@@ -3417,9 +3493,9 @@
         "zIconName": "UNIT_CATAPHRACT_ARCHER",
         "zPortraitName": "UNIT_CATAPHRACT_ARCHER",
         "zBackgroundName": "GenericUnitAttackBackground",
-        "zAudioSelectionType": "GENERIC",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioSelectionType": "CATAPHRACT_ARCHER",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "aeFormations": {
           "zValue": [
@@ -3441,6 +3517,7 @@
         "iRangeMax": "2",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
@@ -3480,7 +3557,7 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_MANEUVERS"
+          "zValue": "EFFECTUNIT_ROUT"
         }
       },
       {
@@ -3490,8 +3567,8 @@
         "zPortraitName": "UNIT_HASTATUS",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "HASTATUS",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
         "zAudioDamagedByProjectileType": "combo_flesh_wood",
         "aeFormations": {
           "zValue": [
@@ -3578,6 +3655,7 @@
         "iStrength": "80",
         "iHPMax": "20",
         "iProduction": "160",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -3673,8 +3751,30 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_MARAUDER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_BARBARIANS",
+              "zValue": "UNIT_MARAUDER_2"
+            },
+            {
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "UNIT_MARAUDER_2"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "UNIT_MARAUDER_2"
+            },
+            {
+              "zIndex": "TRIBE_DANES",
+              "zValue": "UNIT_MARAUDER_2"
+            },
+            {
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "UNIT_MARAUDER_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3736,8 +3836,30 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_SKIRMISHER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_BARBARIANS",
+              "zValue": "UNIT_SKIRMISHER_2"
+            },
+            {
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "UNIT_SKIRMISHER_2"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "UNIT_SKIRMISHER_2"
+            },
+            {
+              "zIndex": "TRIBE_DANES",
+              "zValue": "UNIT_SKIRMISHER_2"
+            },
+            {
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "UNIT_SKIRMISHER_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3793,8 +3915,18 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_NOMAD_MARAUDER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "UNIT_NOMAD_MARAUDER_2"
+            },
+            {
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "UNIT_NOMAD_MARAUDER_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3851,8 +3983,18 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_NOMAD_SKIRMISHER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "UNIT_NOMAD_SKIRMISHER_2"
+            },
+            {
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "UNIT_NOMAD_SKIRMISHER_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -3908,6 +4050,7 @@
         "iFatigue": "1",
         "iStrength": "40",
         "iHPMax": "20",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -3915,6 +4058,27 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "UNIT_GAESATA_1"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "UNIT_WARLORD_1"
+            },
+            {
+              "zIndex": "TRIBE_DANES",
+              "zValue": "UNIT_HUSCARL_1"
+            },
+            {
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "UNIT_WARLORD_1"
+            }
+          ]
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -3969,12 +4133,34 @@
         "iStrength": "40",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "UNIT_JAVELINEER_1"
+            },
+            {
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "UNIT_CLUBTHROWER_1"
+            },
+            {
+              "zIndex": "TRIBE_DANES",
+              "zValue": "UNIT_JAVELINEER_1"
+            },
+            {
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "UNIT_PELTAST_1"
+            }
+          ]
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4016,6 +4202,7 @@
         "iFatigue": "1",
         "iStrength": "40",
         "iHPMax": "20",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -4029,8 +4216,18 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_NOMAD_WARLORD_1"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "UNIT_NOMAD_WARLORD_1"
+            },
+            {
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "UNIT_NOMAD_WARLORD_1"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4075,6 +4272,7 @@
         "iStrength": "40",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "120",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -4087,6 +4285,19 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "UNIT_AMAZON_CAVALRY_1"
+            },
+            {
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "UNIT_LIBYAN_CAVALRY_1"
+            }
+          ]
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4129,6 +4340,7 @@
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4136,8 +4348,18 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_WARLORD_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_VANDALS",
+              "zValue": "UNIT_WARLORD_2"
+            },
+            {
+              "zIndex": "TRIBE_THRACIANS",
+              "zValue": "UNIT_WARLORD_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4181,14 +4403,25 @@
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_JAVELINEER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_GAULS",
+              "zValue": "UNIT_JAVELINEER_2"
+            },
+            {
+              "zIndex": "TRIBE_DANES",
+              "zValue": "UNIT_JAVELINEER_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4204,9 +4437,9 @@
         "zPortraitName": "UNIT_NOMAD_WARLORD",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "NOMAD_WARLORD",
-        "zAudioMovementType": "GENERIC",
-        "zAudioAttackType": "GENERIC",
-        "zAudioDamagedByProjectileType": "flesh",
+        "zAudioMovementType": "ANIMATED",
+        "zAudioAttackType": "ANIMATED",
+        "zAudioDamagedByProjectileType": "combo_flesh_metal",
         "azBarbarianPortraitName": {
           "Pair": [
             {
@@ -4231,6 +4464,7 @@
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4238,8 +4472,18 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_NOMAD_WARLORD_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": [
+            {
+              "zIndex": "TRIBE_SCYTHIANS",
+              "zValue": "UNIT_NOMAD_WARLORD_2"
+            },
+            {
+              "zIndex": "TRIBE_NUMIDIANS",
+              "zValue": "UNIT_NOMAD_WARLORD_2"
+            }
+          ]
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4277,6 +4521,7 @@
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4284,20 +4529,24 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "50"
           }
         },
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_GAESATA_2"
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_GAULS",
+            "zValue": "UNIT_GAESATA_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4337,6 +4586,7 @@
         "iFatigue": "1",
         "iStrength": "50",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4344,20 +4594,24 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "50"
           }
         },
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_HUSCARL_2"
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_DANES",
+            "zValue": "UNIT_HUSCARL_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4398,14 +4652,19 @@
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_CLUBTHROWER_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_VANDALS",
+            "zValue": "UNIT_CLUBTHROWER_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4446,14 +4705,19 @@
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_PELTAST_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_THRACIANS",
+            "zValue": "UNIT_PELTAST_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4494,6 +4758,7 @@
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -4506,8 +4771,12 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_AMAZON_CAVALRY_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_SCYTHIANS",
+            "zValue": "UNIT_AMAZON_CAVALRY_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4549,6 +4818,7 @@
         "iStrength": "50",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "160",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -4561,8 +4831,12 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
-        "aeUpgradeUnit": {
-          "zValue": "UNIT_LIBYAN_CAVALRY_2"
+        "bBarbRaid": "1",
+        "aeTribeUpgradeUnit": {
+          "Pair": {
+            "zIndex": "TRIBE_NUMIDIANS",
+            "zValue": "UNIT_LIBYAN_CAVALRY_2"
+          }
         },
         "aeUnitTrait": {
           "zValue": [
@@ -4609,6 +4883,7 @@
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4616,6 +4891,7 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4658,12 +4934,14 @@
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4705,6 +4983,7 @@
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4712,6 +4991,7 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4748,6 +5028,7 @@
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4755,15 +5036,16 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_FORWARD",
+            "zIndex": "ATTACK_PIERCE",
             "iValue": "50"
           }
         },
@@ -4805,6 +5087,7 @@
         "iFatigue": "1",
         "iStrength": "60",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -4812,15 +5095,16 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "50"
           }
         },
@@ -4863,12 +5147,14 @@
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4908,12 +5194,14 @@
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4953,6 +5241,7 @@
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "fAnimNormalMoveDuration": ".5",
         "fAnimNormalMoveSpeed": "1.5",
@@ -4965,6 +5254,7 @@
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -5005,12 +5295,14 @@
         "iStrength": "60",
         "iRangeMax": "2",
         "iHPMax": "20",
+        "iUpgradeCost": "200",
         "fAttackDuration": "2",
         "bOutsideOpinion": "1",
         "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
         "bGeneral": "1",
+        "bBarbRaid": "1",
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",

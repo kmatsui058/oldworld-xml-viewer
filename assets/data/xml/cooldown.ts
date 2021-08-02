@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -15,147 +15,157 @@
       },
       {
         "zType": "COOLDOWN_AUTOMATED",
-        "zName": "Automated",
+        "Name": "TEXT_COOLDOWN_AUTOMATED",
         "zIconName": "STATUS_AUTOMATED"
       },
       {
         "zType": "COOLDOWN_PASS",
-        "zName": "Pass",
+        "Name": "TEXT_COOLDOWN_PASS",
         "zIconName": "STATUS_PASS"
       },
       {
         "zType": "COOLDOWN_SLEEP",
-        "zName": "Sleep",
+        "Name": "TEXT_COOLDOWN_SLEEP",
         "zIconName": "STATUS_SLEEP"
       },
       {
         "zType": "COOLDOWN_SENTRY",
-        "zName": "Sentry",
+        "Name": "TEXT_COOLDOWN_SENTRY",
         "zIconName": "STATUS_SENTRY"
       },
       {
         "zType": "COOLDOWN_UNLIMBERED",
-        "zName": "Unlimbered",
+        "Name": "TEXT_COOLDOWN_UNLIMBERED",
         "zIconName": "COOLDOWN_UNPACK"
       },
       {
         "zType": "COOLDOWN_ANCHORED",
-        "zName": "Anchored",
+        "Name": "TEXT_COOLDOWN_ANCHORED",
         "zIconName": "COOLDOWN_ANCHOR"
       },
       {
         "zType": "COOLDOWN_ROUT",
-        "zName": "Rout",
+        "Name": "TEXT_COOLDOWN_ROUT",
         "zIconName": "COOLDOWN_ROUT"
       },
       {
         "zType": "COOLDOWN_ATTACK",
-        "zName": "Attack",
+        "Name": "TEXT_COOLDOWN_ATTACK",
         "zIconName": "COOLDOWN_ATTACK"
       },
       {
         "zType": "COOLDOWN_ATTACKED",
-        "zName": "Attacked",
+        "Name": "TEXT_COOLDOWN_ATTACKED",
         "zIconName": "COOLDOWN_ATTACKED"
+      },
+      {
+        "zType": "COOLDOWN_STUNNED_PRE",
+        "Name": "TEXT_COOLDOWN_STUNNED",
+        "zIconName": "COOLDOWN_STUNNED"
       },
       {
         "zType": "COOLDOWN_STUNNED",
-        "zName": "Stunned",
-        "zIconName": "COOLDOWN_ATTACKED"
+        "Name": "TEXT_COOLDOWN_STUNNED",
+        "zIconName": "COOLDOWN_STUNNED"
       },
       {
         "zType": "COOLDOWN_BUILDING",
-        "zName": "Building",
+        "Name": "TEXT_COOLDOWN_BUILDING",
         "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_ADDED_ROAD",
-        "zName": "Added Road",
+        "Name": "TEXT_COOLDOWN_ADDED_ROAD",
         "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_ADDED_URBAN",
-        "zName": "Added Urban",
+        "Name": "TEXT_COOLDOWN_ADDED_URBAN",
         "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_UPGRADED_IMPROVEMENT",
-        "zName": "Upgraded Improvement",
+        "Name": "TEXT_COOLDOWN_UPGRADED_IMPROVEMENT",
         "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_BUY_TILE",
-        "zName": "Buy Tile",
+        "Name": "TEXT_COOLDOWN_BUY_TILE",
         "zIconName": "COOLDOWN_BUY_TILE"
       },
       {
         "zType": "COOLDOWN_FORTIFY",
-        "zName": "Fortify",
-        "zIconName": "SPRITE_FORTIFY"
+        "Name": "TEXT_COOLDOWN_FORTIFY",
+        "zIconName": "COOLDOWN_FORTIFY"
       },
       {
         "zType": "COOLDOWN_RECRUITED",
-        "zName": "Recruited",
+        "Name": "TEXT_COOLDOWN_RECRUITED",
         "zIconName": "COOLDOWN_RECRUITED"
       },
       {
         "zType": "COOLDOWN_HIRED",
-        "zName": "Hired",
+        "Name": "TEXT_COOLDOWN_HIRED",
         "zIconName": "COOLDOWN_HIRED"
       },
       {
         "zType": "COOLDOWN_GIFTED",
-        "zName": "Gifted",
+        "Name": "TEXT_COOLDOWN_GIFTED",
         "zIconName": "COOLDOWN_GIFT"
       },
       {
+        "zType": "COOLDOWN_PURGED",
+        "Name": "TEXT_COOLDOWN_PURGED",
+        "zIconName": "COOLDOWN_PURGE"
+      },
+      {
         "zType": "COOLDOWN_HEALED",
-        "zName": "Healed",
+        "Name": "TEXT_COOLDOWN_HEALED",
         "zIconName": "COOLDOWN_HEAL"
       },
       {
         "zType": "COOLDOWN_PILLAGED",
-        "zName": "Pillaged",
+        "Name": "TEXT_COOLDOWN_PILLAGED",
         "zIconName": "COOLDOWN_PILLAGE"
       },
       {
         "zType": "COOLDOWN_PROMOTED",
-        "zName": "Promoted",
+        "Name": "TEXT_COOLDOWN_PROMOTED",
         "zIconName": "COOLDOWN_PROMOTE"
       },
       {
         "zType": "COOLDOWN_TESTUDO",
-        "zName": "Testudo",
-        "zIconName": "SPRITE_TESTUDO"
+        "Name": "TEXT_COOLDOWN_TESTUDO",
+        "zIconName": "COOLDOWN_TESTUDO"
       },
       {
         "zType": "COOLDOWN_REPAIRED",
-        "zName": "Repaired",
+        "Name": "TEXT_COOLDOWN_REPAIRED",
         "zIconName": "COOLDOWN_BUILD"
       },
       {
         "zType": "COOLDOWN_UPGRADED",
-        "zName": "Upgraded",
+        "Name": "TEXT_COOLDOWN_UPGRADED",
         "zIconName": "COOLDOWN_UPGRADE"
       },
       {
         "zType": "COOLDOWN_GENERAL",
-        "zName": "General",
+        "Name": "TEXT_COOLDOWN_GENERAL",
         "zIconName": "COOLDOWN_GENERAL"
       },
       {
         "zType": "COOLDOWN_LOCKED",
-        "zName": "Locked",
+        "Name": "TEXT_COOLDOWN_LOCKED",
         "zIconName": "COOLDOWN_LOCKED"
       },
       {
         "zType": "COOLDOWN_DISEMBARKED",
-        "zName": "Disembarked",
+        "Name": "TEXT_COOLDOWN_DISEMBARKED",
         "zIconName": "STATUS_PASS"
       },
       {
         "zType": "COOLDOWN_TRADE",
-        "zName": "Trade",
+        "Name": "TEXT_COOLDOWN_TRADE",
         "zIconName": "STATUS_PASS"
       }
     ]

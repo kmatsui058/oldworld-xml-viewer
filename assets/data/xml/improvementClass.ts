@@ -9,13 +9,16 @@
         "Name": {
           
         },
+        "CustomName": {
+          
+        },
         "iMaxCultureCount": {
           
         },
-        "iAdjacentDiscount": {
+        "bNoAdjacent": {
           
         },
-        "bNoAdjacent": {
+        "bHelpAll": {
           
         },
         "TechPrereq": {
@@ -33,9 +36,6 @@
         "aiAdjacentResourceYieldOutput": {
           
         },
-        "aiTradeNetworkYieldOutput": {
-          
-        },
         "abResourceValid": {
           
         },
@@ -43,6 +43,9 @@
           
         },
         "aeResourceCityEffect": {
+          
+        },
+        "aaiTheologyYieldOutput": {
           
         },
         "aaiResourceYieldOutput": {
@@ -757,6 +760,7 @@
         "zType": "IMPROVEMENTCLASS_MILL",
         "Name": "TEXT_IMPROVEMENTCLASS_MILL",
         "iMaxCultureCount": "1",
+        "bHelpAll": "1",
         "TechPrereq": "TECH_HYDRAULICS",
         "aiAdjacentImprovementClassModifier": {
           "Pair": [
@@ -835,12 +839,6 @@
             "zIndex": "IMPROVEMENTCLASS_HARBOR",
             "iValue": "20"
           }
-        },
-        "aiTradeNetworkYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "100"
-          }
         }
       },
       {
@@ -866,19 +864,21 @@
       {
         "zType": "IMPROVEMENTCLASS_GARRISON",
         "Name": "TEXT_IMPROVEMENTCLASS_GARRISON",
+        "bHelpAll": "1",
         "TechPrereq": "TECH_SOVEREIGNTY"
       },
       {
         "zType": "IMPROVEMENTCLASS_SHRINE",
         "Name": "TEXT_IMPROVEMENTCLASS_SHRINE",
-        "iMaxCultureCount": "1",
         "bNoAdjacent": "1",
+        "bHelpAll": "1",
         "TechPrereq": "TECH_DIVINATION",
         "SpecialistClass": "SPECIALISTCLASS_ACOLYTE"
       },
       {
         "zType": "IMPROVEMENTCLASS_MONASTERY",
         "Name": "TEXT_IMPROVEMENTCLASS_MONASTERY",
+        "CustomName": "TEXT_IMPROVEMENTCLASS_MONASTERY_CUSTOM",
         "TechPrereq": "TECH_MONASTICISM",
         "SpecialistClass": "SPECIALISTCLASS_MONK",
         "aiAdjacentImprovementClassModifier": {
@@ -887,19 +887,28 @@
             "iValue": "60"
           }
         },
-        "aeTheologyCityEffect": {
+        "aaiTheologyYieldOutput": {
           "Pair": [
             {
               "zIndex": "THEOLOGY_MYTHOLOGY",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_MYTHOLOGY"
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "40"
+              }
             },
             {
               "zIndex": "THEOLOGY_VENERATION",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_VENERATION"
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "200"
+              }
             },
             {
               "zIndex": "THEOLOGY_LEGALISM",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_LEGALISM"
+              "SubPair": {
+                "zSubIndex": "YIELD_CIVICS",
+                "iValue": "20"
+              }
             }
           ]
         }
@@ -907,6 +916,7 @@
       {
         "zType": "IMPROVEMENTCLASS_TEMPLE",
         "Name": "TEXT_IMPROVEMENTCLASS_TEMPLE",
+        "CustomName": "TEXT_IMPROVEMENTCLASS_TEMPLE_CUSTOM",
         "TechPrereq": "TECH_DOCTRINE",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE",
         "SpecialistClass": "SPECIALISTCLASS_PRIEST",
@@ -917,18 +927,26 @@
           }
         },
         "aeTheologyCityEffect": {
+          "Pair": {
+            "zIndex": "THEOLOGY_GNOSTICISM",
+            "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM"
+          }
+        },
+        "aaiTheologyYieldOutput": {
           "Pair": [
             {
               "zIndex": "THEOLOGY_REVELATION",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION"
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "5"
+              }
             },
             {
               "zIndex": "THEOLOGY_DUALISM",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM"
-            },
-            {
-              "zIndex": "THEOLOGY_GNOSTICISM",
-              "zValue": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_GNOSTICISM"
+              "SubPair": {
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
+              }
             }
           ]
         }
@@ -936,6 +954,7 @@
       {
         "zType": "IMPROVEMENTCLASS_CATHEDRAL",
         "Name": "TEXT_IMPROVEMENTCLASS_CATHEDRAL",
+        "CustomName": "TEXT_IMPROVEMENTCLASS_CATHEDRAL_CUSTOM",
         "TechPrereq": "TECH_VAULTING",
         "EffectCity": "EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL",
         "SpecialistClass": "SPECIALISTCLASS_BISHOP",

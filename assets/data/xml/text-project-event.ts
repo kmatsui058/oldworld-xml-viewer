@@ -79,6 +79,10 @@
         "English": "Merchant Town"
       },
       {
+        "zType": "TEXT_PROJECT_DEN_OF_VICE",
+        "English": "Den of Vice"
+      },
+      {
         "zType": "TEXT_PROJECT_OUTBREAK",
         "English": "Outbreak"
       },
@@ -265,6 +269,26 @@
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_HUNTING",
         "English": "Pagan Cult of Hunting"
+      },
+      {
+        "zType": "TEXT_PROJECT_FERTILE_SOIL",
+        "English": "Mineral-Rich Soil"
+      },
+      {
+        "zType": "TEXT_PROJECT_IMPROVED_LUDUS",
+        "English": "Improved Education"
+      },
+      {
+        "zType": "TEXT_PROJECT_ATHLETICS_ARCHERY",
+        "English": "Athletic Tradition: Archery"
+      },
+      {
+        "zType": "TEXT_PROJECT_ATHLETICS_WRESTLING",
+        "English": "Athletic Tradition: Wrestling"
+      },
+      {
+        "zType": "TEXT_PROJECT_ATHLETICS_EQUESTRIAN",
+        "English": "Athletic Tradition: Equestrian"
       }
     ]
   }

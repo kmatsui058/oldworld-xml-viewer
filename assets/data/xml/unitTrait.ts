@@ -18,6 +18,9 @@
         "iMaxAITargetPercent": {
           
         },
+        "bMeleeCounter": {
+          
+        },
         "EffectUnit": {
           
         }
@@ -27,6 +30,7 @@
         "Name": "TEXT_UNITTRAIT_MELEE",
         "zIconName": "UNITTRAIT_MELEE",
         "iMinAITargetPercent": "25",
+        "bMeleeCounter": "1",
         "EffectUnit": "EFFECTUNIT_MELEE"
       },
       {

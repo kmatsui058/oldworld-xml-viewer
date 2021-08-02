@@ -41,24 +41,6 @@
         }
       },
       {
-        "zType": "FORMATION_GENERAL_MALE",
-        "UnitAsset": "ASSET_UNIT_GENERAL_MALE",
-        "eGender": "GENDER_MALE",
-        "bLand": "1",
-        "lf3FrontRow": {
-          "f3Value": "0, -2.04, 0"
-        }
-      },
-      {
-        "zType": "FORMATION_GENERAL_FEMALE",
-        "UnitAsset": "ASSET_UNIT_GENERAL_FEMALE",
-        "eGender": "GENDER_FEMALE",
-        "bLand": "1",
-        "lf3FrontRow": {
-          "f3Value": "0, -2.04, 0"
-        }
-      },
-      {
         "zType": "FORMATION_SETTLER",
         "UnitAsset": "ASSET_UNIT_SETTLER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_SETTLER",
@@ -71,6 +53,18 @@
         "zType": "FORMATION_WORKER",
         "UnitAsset": "ASSET_UNIT_WORKER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_WORKER",
+        "eGender": "GENDER_MALE",
+        "bLand": "1",
+        "bHeadControl": "1",
+        "lf3FrontRow": {
+          "f3Value": "0, 0, 0"
+        }
+      },
+      {
+        "zType": "FORMATION_WORKER_FEMALE",
+        "UnitAsset": "ASSET_UNIT_WORKER_FEMALE",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_WORKER_FEMALE",
+        "eGender": "GENDER_FEMALE",
         "bLand": "1",
         "bHeadControl": "1",
         "lf3FrontRow": {
@@ -90,6 +84,18 @@
         "zType": "FORMATION_SCOUT",
         "UnitAsset": "ASSET_UNIT_SCOUT",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_SCOUT",
+        "eGender": "GENDER_MALE",
+        "bLand": "1",
+        "bHeadControl": "1",
+        "lf3FrontRow": {
+          "f3Value": "0, 0, 0"
+        }
+      },
+      {
+        "zType": "FORMATION_SCOUT_FEMALE",
+        "UnitAsset": "ASSET_UNIT_SCOUT_FEMALE",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_SCOUT_FEMALE",
+        "eGender": "GENDER_FEMALE",
         "bLand": "1",
         "bHeadControl": "1",
         "lf3FrontRow": {
@@ -323,6 +329,29 @@
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ARCHER",
         "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
+        "eGender": "GENDER_MALE",
+        "bLand": "1",
+        "bHeadControl": "1",
+        "lf3FrontRow": {
+          "f3Value": [
+            "2.4, -1.84, 0",
+            "-2.27, -1.84, 0"
+          ]
+        },
+        "lf3BackRow": {
+          "f3Value": [
+            "-2.27, 2.03, 0",
+            "1.79, 2.03, 0"
+          ]
+        }
+      },
+      {
+        "zType": "FORMATION_ARCHER_FEMALE",
+        "UnitAsset": "ASSET_UNIT_ARCHER_FEMALE",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ARCHER_FEMALE",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
+        "eGender": "GENDER_FEMALE",
         "bLand": "1",
         "bHeadControl": "1",
         "lf3FrontRow": {
@@ -404,6 +433,7 @@
         "zType": "FORMATION_HORSE_ARCHER",
         "UnitAsset": "ASSET_UNIT_HORSE_ARCHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_HORSE_ARCHER",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -418,6 +448,7 @@
         "zType": "FORMATION_CAMEL_ARCHER",
         "UnitAsset": "ASSET_UNIT_CAMEL_ARCHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_CAMEL_ARCHER",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -454,6 +485,8 @@
         "zType": "FORMATION_BALLISTA",
         "UnitAsset": "ASSET_UNIT_BALLISTA",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_BALLISTA",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -463,6 +496,8 @@
         "zType": "FORMATION_POLYBOLOS",
         "UnitAsset": "ASSET_UNIT_POLYBOLOS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_POLYBOLOS",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -472,6 +507,8 @@
         "zType": "FORMATION_ONAGER",
         "UnitAsset": "ASSET_UNIT_ONAGER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ONAGER",
+        "UnitProjectileAsset": "ASSET_UNIT_SLINGER_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SIEGE_ROCK_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -481,6 +518,8 @@
         "zType": "FORMATION_MANGONEL",
         "UnitAsset": "ASSET_UNIT_MANGONEL",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_MANGONEL",
+        "UnitProjectileAsset": "ASSET_UNIT_SLINGER_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SIEGE_ROCK_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -507,6 +546,7 @@
       {
         "zType": "FORMATION_TRIREME",
         "UnitAsset": "ASSET_UNIT_TRIREME",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_TRIREME",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -524,6 +564,7 @@
       {
         "zType": "FORMATION_DROMON",
         "UnitAsset": "ASSET_UNIT_DROMON",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_DROMON",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": "0, 0, 0"
@@ -559,6 +600,8 @@
       {
         "zType": "FORMATION_AKKADIAN_ARCHER",
         "UnitAsset": "ASSET_UNIT_AKKADIAN_ARCHER",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_AKKADIAN_ARCHER",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -577,6 +620,8 @@
       {
         "zType": "FORMATION_CIMMERIAN_ARCHER",
         "UnitAsset": "ASSET_UNIT_CIMMERIAN_ARCHER",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_CIMMERIAN_ARCHER",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -614,6 +659,7 @@
         "zType": "FORMATION_LIGHT_CHARIOT",
         "UnitAsset": "ASSET_UNIT_LIGHT_CHARIOT",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_LIGHT_CHARIOT",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -623,10 +669,16 @@
       {
         "zType": "FORMATION_KUSHITE_CAVALRY",
         "UnitAsset": "ASSET_UNIT_KUSHITE_CAVALRY",
-        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_KUSHITE_CAVALRY",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
-          "f3Value": "0, 0, 0"
+          "f3Value": [
+            "-2.8, 0.9, 0",
+            "0.11, -1.44, 0",
+            "2.97, 0.9, 0"
+          ]
         }
       },
       {
@@ -652,22 +704,38 @@
         "UnitAsset": "ASSET_UNIT_PHALANGITE",
         "bLand": "1",
         "lf3FrontRow": {
-          "f3Value": "0, 0, 0"
+          "f3Value": [
+            "2.4, -1.84, 0",
+            "-2.27, -1.84, 0"
+          ]
+        },
+        "lf3BackRow": {
+          "f3Value": [
+            "-2.27, 2.03, 0",
+            "1.79, 2.03, 0"
+          ]
         }
       },
       {
         "zType": "FORMATION_PALTON_CAVALRY",
         "UnitAsset": "ASSET_UNIT_PALTON_CAVALRY",
-        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_PALTON_CAVALRY",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
+        "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
-          "f3Value": "0, 0, 0"
+          "f3Value": [
+            "-2.8, 0.9, 0",
+            "0.11, -1.44, 0",
+            "2.97, 0.9, 0"
+          ]
         }
       },
       {
         "zType": "FORMATION_CATAPHRACT_ARCHER",
         "UnitAsset": "ASSET_UNIT_CATAPHRACT_ARCHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_CATAPHRACT_ARCHER",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -737,6 +805,7 @@
         "zType": "FORMATION_SKIRMISHER",
         "UnitAsset": "ASSET_UNIT_SKIRMISHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_SKIRMISHER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -769,6 +838,7 @@
         "zType": "FORMATION_NOMAD_SKIRMISHER",
         "UnitAsset": "ASSET_UNIT_NOMAD_SKIRMISHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_NOMAD_SKIRMISHER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -801,6 +871,8 @@
       {
         "zType": "FORMATION_ELITE_SKIRMISHER",
         "UnitAsset": "ASSET_UNIT_ELITE_SKIRMISHER",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_SKIRMISHER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "bHeadControl": "1",
@@ -834,6 +906,7 @@
         "zType": "FORMATION_ELITE_NOMAD_SKIRMISHER",
         "UnitAsset": "ASSET_UNIT_ELITE_NOMAD_SKIRMISHER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_SKIRMISHER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -867,6 +940,7 @@
         "zType": "FORMATION_JAVELINEER",
         "UnitAsset": "ASSET_UNIT_JAVELINEER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_JAVELINEER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "bHeadControl": "1",
@@ -886,6 +960,7 @@
       {
         "zType": "FORMATION_NOMAD_WARLORD",
         "UnitAsset": "ASSET_UNIT_NOMAD_WARLORD",
+        "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_NOMAD_WARLORD",
         "bLand": "1",
         "lf3FrontRow": {
           "f3Value": [
@@ -956,6 +1031,7 @@
         "zType": "FORMATION_PELTAST_THRACIANS",
         "UnitAsset": "ASSET_UNIT_PELTAST_THRACIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_PELTAST_THRACIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -975,6 +1051,7 @@
         "zType": "FORMATION_AMAZON_CAVALRY_SCYTHIANS",
         "UnitAsset": "ASSET_UNIT_AMAZON_CAVALRY_SCYTHIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_AMAZON_CAVALRY_SCYTHIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -989,6 +1066,7 @@
         "zType": "FORMATION_LIBYAN_CAVALRY_NUMIDIANS",
         "UnitAsset": "ASSET_UNIT_LIBYAN_CAVALRY_NUMIDIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_LIBYAN_CAVALRY_NUMIDIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -1021,6 +1099,7 @@
         "zType": "FORMATION_ELITE_JAVELINEER",
         "UnitAsset": "ASSET_UNIT_ELITE_JAVELINEER",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_JAVELINEER",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "bHeadControl": "1",
@@ -1110,6 +1189,7 @@
         "zType": "FORMATION_ELITE_PELTAST_THRACIANS",
         "UnitAsset": "ASSET_UNIT_ELITE_PELTAST_THRACIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_PELTAST_THRACIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_SPEAR_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -1129,6 +1209,7 @@
         "zType": "FORMATION_ELITE_AMAZON_CAVALRY_SCYTHIANS",
         "UnitAsset": "ASSET_UNIT_ELITE_AMAZON_CAVALRY_SCYTHIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_AMAZON_CAVALRY_SCYTHIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_ARCHER_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {
@@ -1143,6 +1224,7 @@
         "zType": "FORMATION_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
         "UnitAsset": "ASSET_UNIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
+        "UnitProjectileAsset": "ASSET_UNIT_SPEAR_PROJECTILE",
         "UnitProjectileImpactAudioEarly": "AUDIO_UNIT_PROJECTILE_IMPACT_ARROW_EARLY",
         "bLand": "1",
         "lf3FrontRow": {

@@ -40,15 +40,15 @@
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE",
-        "English": "Player link(DIPLOMACY_PEACE)"
+        "English": "National link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_TARGET",
-        "English": "Player link(DIPLOMACY_PEACE) with"
+        "English": "National link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_CHARACTER",
-        "English": "Player link(DIPLOMACY_PEACE) via"
+        "English": "National link(DIPLOMACY_PEACE) via"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE",
@@ -76,19 +76,19 @@
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_HUMAN",
-        "English": "Player link(DIPLOMACY_PEACE)"
+        "English": "National link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE",
-        "English": "Player link(DIPLOMACY_TRUCE)"
+        "English": "National link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_TARGET",
-        "English": "Player link(DIPLOMACY_TRUCE) with"
+        "English": "National link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_CHARACTER",
-        "English": "Player link(DIPLOMACY_TRUCE) via"
+        "English": "National link(DIPLOMACY_TRUCE) via"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE",
@@ -116,14 +116,10 @@
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_HUMAN",
-        "English": "Player link(DIPLOMACY_TRUCE)"
+        "English": "National link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_DECLARE_WAR",
-        "English": "Declare link(DIPLOMACY_WAR)"
-      },
-      {
-        "zType": "TEXT_MISSION_PLAYER_DECLARE_WAR_HUMAN",
         "English": "Declare link(DIPLOMACY_WAR)"
       },
       {
@@ -215,6 +211,10 @@
         "English": "Family Marriage"
       },
       {
+        "zType": "TEXT_MISSION_FAMILY_MARRIAGE_TARGET",
+        "English": "Family Marriage"
+      },
+      {
         "zType": "TEXT_MISSION_MARRY_COURTIER",
         "English": "Marry Courtier"
       },
@@ -247,12 +247,28 @@
         "English": "Influence via"
       },
       {
-        "zType": "TEXT_MISSION_CONVERT_RELIGION",
+        "zType": "TEXT_MISSION_CONVERT_SELF",
         "English": "Convert Religion"
+      },
+      {
+        "zType": "TEXT_MISSION_CONVERT_SELF_TARGET",
+        "English": "Convert to"
+      },
+      {
+        "zType": "TEXT_MISSION_CONVERT_RELIGION",
+        "English": "Convert to link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION",
         "English": "Intercession"
+      },
+      {
+        "zType": "TEXT_MISSION_INTERCESSION_RELIGION",
+        "English": "Intercession (Religion)"
+      },
+      {
+        "zType": "TEXT_MISSION_INTERCESSION_FAMILY",
+        "English": "Intercession (Family)"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION_CHARACTER",
@@ -344,7 +360,7 @@
       },
       {
         "zType": "TEXT_MISSION_TRADE_MISSION",
-        "English": "Trade Mission"
+        "English": "Trade Mission~a Trade Mission"
       },
       {
         "zType": "TEXT_MISSION_TRADE_MISSION_TARGET",
@@ -416,15 +432,23 @@
       },
       {
         "zType": "TEXT_MISSION_TUTOR",
-        "English": "Tutor Child"
+        "English": "link(CONCEPT_TUTOR) Child"
+      },
+      {
+        "zType": "TEXT_MISSION_TUTOR_LEADER",
+        "English": "link(CONCEPT_TUTOR) Child (Leader)"
+      },
+      {
+        "zType": "TEXT_MISSION_TUTOR_COURTIER",
+        "English": "link(CONCEPT_TUTOR) Child (Courtier)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_TARGET",
-        "English": "Tutor"
+        "English": "link(CONCEPT_TUTOR)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_CHARACTER",
-        "English": "Tutor via"
+        "English": "link(CONCEPT_TUTOR) via"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PLAYER_WAR",

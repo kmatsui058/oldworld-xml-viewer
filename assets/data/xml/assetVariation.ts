@@ -665,6 +665,16 @@
         "SingleAsset": "ASSET_PROJECT_WALLS"
       },
       {
+        "zType": "ASSET_VARIATION_PROJECT_MOAT",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_PROJECT_MOAT"
+      },
+      {
+        "zType": "ASSET_VARIATION_PROJECT_TOWERS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_PROJECT_TOWERS"
+      },
+      {
         "zType": "ASSET_VARIATION_IMPROVEMENT_FARM",
         "aiValidRotations": "0,180,300,330",
         "SingleAsset": "ASSET_IMPROVEMENT_FARM"
@@ -841,17 +851,20 @@
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_1",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_1"
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_1",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_2",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_2"
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_2",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_BATHS_3",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_3"
+        "SingleAsset": "ASSET_IMPROVEMENT_BATHS_3",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_MARKET_1",
@@ -917,6 +930,12 @@
         "zType": "ASSET_VARIATION_IMPROVEMENT_GARRISON_2",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_IMPROVEMENT_GARRISON_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_GARRISON_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_GARRISON_3",
         "bShowBuildings": "true"
       },
       {
@@ -1022,6 +1041,18 @@
         "bShowBuildings": "true"
       },
       {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_TEMPLE2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_TEMPLE_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_TEMPLE3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_TEMPLE_3",
+        "bShowBuildings": "true"
+      },
+      {
         "zType": "ASSET_VARIATION_IMPROVEMENT_CATHEDRAL_1",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_IMPROVEMENT_CATHEDRAL_1",
@@ -1055,6 +1086,18 @@
         "zType": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_1",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_IMPROVEMENT_HOLY_SITE_1",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_2",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HOLY_SITE_2",
+        "bShowBuildings": "true"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_HOLY_SITE_3",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_HOLY_SITE_3",
         "bShowBuildings": "true"
       },
       {

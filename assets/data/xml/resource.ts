@@ -6,13 +6,16 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "AssetVariation": {
           
         },
         "zIconName": {
+          
+        },
+        "zAudioSwitchName": {
           
         },
         "iProbThousand": {
@@ -48,6 +51,9 @@
         "bUseAnimLOD": {
           
         },
+        "bFadeWithUnits": {
+          
+        },
         "aiYieldReveal": {
           
         },
@@ -66,7 +72,7 @@
       },
       {
         "zType": "RESOURCE_MARBLE",
-        "zName": "Marble",
+        "Name": "TEXT_RESOURCE_MARBLE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_STONE",
         "zIconName": "RESOURCE_STONE",
         "iProbThousand": "10",
@@ -113,7 +119,7 @@
       },
       {
         "zType": "RESOURCE_ORE",
-        "zName": "Ore",
+        "Name": "TEXT_RESOURCE_ORE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_ORE",
         "zIconName": "RESOURCE_IRON",
         "iProbThousand": "20",
@@ -160,7 +166,7 @@
       },
       {
         "zType": "RESOURCE_SALT",
-        "zName": "Salt",
+        "Name": "TEXT_RESOURCE_SALT",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SALT",
         "zIconName": "RESOURCE_SALT",
         "iProbThousand": "12",
@@ -201,7 +207,7 @@
       },
       {
         "zType": "RESOURCE_GEM",
-        "zName": "Gems",
+        "Name": "TEXT_RESOURCE_GEM",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_GEM",
         "zIconName": "RESOURCE_GEM",
         "iProbThousand": "20",
@@ -243,7 +249,7 @@
       },
       {
         "zType": "RESOURCE_GOLD",
-        "zName": "Gold",
+        "Name": "TEXT_RESOURCE_GOLD",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_GOLD",
         "zIconName": "RESOURCE_GOLD",
         "iProbThousand": "20",
@@ -285,7 +291,7 @@
       },
       {
         "zType": "RESOURCE_SILVER",
-        "zName": "Silver",
+        "Name": "TEXT_RESOURCE_SILVER",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SILVER",
         "zIconName": "RESOURCE_SILVER",
         "iProbThousand": "20",
@@ -327,9 +333,10 @@
       },
       {
         "zType": "RESOURCE_HORSE",
-        "zName": "Horses",
+        "Name": "TEXT_RESOURCE_HORSE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_HORSE",
         "zIconName": "RESOURCE_HORSE",
+        "zAudioSwitchName": "Horse",
         "iProbThousand": "30",
         "iMinDist": "5",
         "iMinPerPlayer": "2",
@@ -338,6 +345,7 @@
         "iHarvestRoll": "10",
         "bClearVegetation": "1",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -371,9 +379,10 @@
       },
       {
         "zType": "RESOURCE_CATTLE",
-        "zName": "Cattle",
+        "Name": "TEXT_RESOURCE_CATTLE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_CATTLE",
         "zIconName": "RESOURCE_CATTLE",
+        "zAudioSwitchName": "Cattle",
         "iProbThousand": "8",
         "iMinDist": "2",
         "iMinLatitude": "20",
@@ -382,6 +391,7 @@
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -409,9 +419,10 @@
       },
       {
         "zType": "RESOURCE_SHEEP",
-        "zName": "Sheep",
+        "Name": "TEXT_RESOURCE_SHEEP",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SHEEP",
         "zIconName": "RESOURCE_SHEEP",
+        "zAudioSwitchName": "Sheep",
         "iProbThousand": "20",
         "iMinDist": "2",
         "iMinLatitude": "30",
@@ -420,6 +431,7 @@
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -453,9 +465,10 @@
       },
       {
         "zType": "RESOURCE_PIG",
-        "zName": "Pigs",
+        "Name": "TEXT_RESOURCE_PIG",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_PIG",
         "zIconName": "RESOURCE_PIG",
+        "zAudioSwitchName": "Pig",
         "iProbThousand": "15",
         "iMinDist": "3",
         "iMaxLatitude": "50",
@@ -463,6 +476,7 @@
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -502,9 +516,10 @@
       },
       {
         "zType": "RESOURCE_GOAT",
-        "zName": "Goats",
+        "Name": "TEXT_RESOURCE_GOAT",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_GOAT",
         "zIconName": "RESOURCE_GOAT",
+        "zAudioSwitchName": "Goat",
         "iProbThousand": "25",
         "iMinDist": "2",
         "iBorderValue": "1200",
@@ -512,6 +527,7 @@
         "iHarvestRoll": "8",
         "bNoVegetation": "1",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -551,7 +567,7 @@
       },
       {
         "zType": "RESOURCE_WHEAT",
-        "zName": "Wheat",
+        "Name": "TEXT_RESOURCE_WHEAT",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_WHEAT",
         "zIconName": "RESOURCE_WHEAT",
         "iProbThousand": "20",
@@ -587,7 +603,7 @@
       },
       {
         "zType": "RESOURCE_BARLEY",
-        "zName": "Barley",
+        "Name": "TEXT_RESOURCE_BARLEY",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_BARLEY",
         "zIconName": "RESOURCE_BARLEY",
         "iProbThousand": "20",
@@ -623,7 +639,7 @@
       },
       {
         "zType": "RESOURCE_SORGHUM",
-        "zName": "Sorghum",
+        "Name": "TEXT_RESOURCE_SORGHUM",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_SORGHUM",
         "zIconName": "RESOURCE_SORGHUM",
         "iProbThousand": "25",
@@ -665,7 +681,7 @@
       },
       {
         "zType": "RESOURCE_CAMEL",
-        "zName": "Camels",
+        "Name": "TEXT_RESOURCE_CAMEL",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_CAMEL",
         "zIconName": "RESOURCE_CAMEL",
         "iProbThousand": "20",
@@ -676,6 +692,7 @@
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -709,7 +726,7 @@
       },
       {
         "zType": "RESOURCE_ELEPHANT",
-        "zName": "Elephants",
+        "Name": "TEXT_RESOURCE_ELEPHANT",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_ELEPHANT",
         "zIconName": "RESOURCE_ELEPHANT",
         "iProbThousand": "15",
@@ -719,6 +736,7 @@
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bNoVegetation": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -752,7 +770,7 @@
       },
       {
         "zType": "RESOURCE_GAME",
-        "zName": "Game",
+        "Name": "TEXT_RESOURCE_GAME",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_GAME",
         "zIconName": "RESOURCE_GAME",
         "iProbThousand": "20",
@@ -760,6 +778,7 @@
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -803,7 +822,7 @@
       },
       {
         "zType": "RESOURCE_FUR",
-        "zName": "Fur",
+        "Name": "TEXT_RESOURCE_FUR",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_FUR",
         "zIconName": "RESOURCE_FUR",
         "iProbThousand": "25",
@@ -812,6 +831,7 @@
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
         "bUseAnimLOD": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -857,7 +877,7 @@
       },
       {
         "zType": "RESOURCE_CITRUS",
-        "zName": "Citrus",
+        "Name": "TEXT_RESOURCE_CITRUS",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_CITRUS",
         "zIconName": "RESOURCE_CITRUS",
         "iProbThousand": "15",
@@ -905,7 +925,7 @@
       },
       {
         "zType": "RESOURCE_HONEY",
-        "zName": "Honey",
+        "Name": "TEXT_RESOURCE_HONEY",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_HONEY",
         "zIconName": "RESOURCE_HONEY",
         "iProbThousand": "15",
@@ -946,7 +966,7 @@
       },
       {
         "zType": "RESOURCE_INCENSE",
-        "zName": "Incense",
+        "Name": "TEXT_RESOURCE_INCENSE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_INCENSE",
         "zIconName": "RESOURCE_INCENSE",
         "iProbThousand": "10",
@@ -987,7 +1007,7 @@
       },
       {
         "zType": "RESOURCE_LAVENDER",
-        "zName": "Lavender",
+        "Name": "TEXT_RESOURCE_LAVENDER",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_LAVENDER",
         "zIconName": "RESOURCE_LAVENDER",
         "iProbThousand": "10",
@@ -1022,7 +1042,7 @@
       },
       {
         "zType": "RESOURCE_OLIVE",
-        "zName": "Olives",
+        "Name": "TEXT_RESOURCE_OLIVE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_OLIVE",
         "zIconName": "RESOURCE_OLIVE",
         "iProbThousand": "15",
@@ -1065,7 +1085,7 @@
       },
       {
         "zType": "RESOURCE_WINE",
-        "zName": "Wine",
+        "Name": "TEXT_RESOURCE_WINE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_WINE",
         "zIconName": "RESOURCE_WINE",
         "iProbThousand": "15",
@@ -1102,7 +1122,7 @@
       },
       {
         "zType": "RESOURCE_DYE",
-        "zName": "Dyes",
+        "Name": "TEXT_RESOURCE_DYE",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_DYE",
         "zIconName": "RESOURCE_DYE",
         "iProbThousand": "20",
@@ -1138,7 +1158,7 @@
       },
       {
         "zType": "RESOURCE_PEARL",
-        "zName": "Pearls",
+        "Name": "TEXT_RESOURCE_PEARL",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_PEARL",
         "zIconName": "RESOURCE_PEARL",
         "iProbThousand": "20",
@@ -1174,7 +1194,7 @@
       },
       {
         "zType": "RESOURCE_FISH",
-        "zName": "Fish",
+        "Name": "TEXT_RESOURCE_FISH",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_FISH",
         "zIconName": "RESOURCE_FISH",
         "iProbThousand": "20",
@@ -1209,7 +1229,7 @@
       },
       {
         "zType": "RESOURCE_CRAB",
-        "zName": "Crabs",
+        "Name": "TEXT_RESOURCE_CRAB",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_CRAB",
         "zIconName": "RESOURCE_CRAB",
         "iProbThousand": "15",

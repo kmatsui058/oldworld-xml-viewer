@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iBase": {
@@ -27,42 +27,42 @@
       },
       {
         "zType": "TURNTIMER_NONE",
-        "zName": "None",
+        "Name": "TEXT_TURNTIMER_NONE",
         "bOff": "1"
       },
       {
         "zType": "TURNTIMER_24_HOUR",
-        "zName": "24 Hour",
+        "Name": "TEXT_TURNTIMER_24_HOUR",
         "iBase": "86400"
       },
       {
         "zType": "TURNTIMER_12_HOUR",
-        "zName": "12 Hour",
+        "Name": "TEXT_TURNTIMER_12_HOUR",
         "iBase": "43200"
       },
       {
         "zType": "TURNTIMER_8_HOUR",
-        "zName": "8 Hour",
+        "Name": "TEXT_TURNTIMER_8_HOUR",
         "iBase": "28800"
       },
       {
         "zType": "TURNTIMER_4_HOUR",
-        "zName": "4 Hour",
+        "Name": "TEXT_TURNTIMER_4_HOUR",
         "iBase": "14400"
       },
       {
         "zType": "TURNTIMER_2_HOUR",
-        "zName": "2 Hour",
+        "Name": "TEXT_TURNTIMER_2_HOUR",
         "iBase": "7200"
       },
       {
         "zType": "TURNTIMER_1_HOUR",
-        "zName": "1 Hour",
+        "Name": "TEXT_TURNTIMER_1_HOUR",
         "iBase": "3600"
       },
       {
         "zType": "TURNTIMER_SLOW",
-        "zName": "Slow",
+        "Name": "TEXT_TURNTIMER_SLOW",
         "iBase": "60",
         "iPerCity": "12",
         "iPerUnit": "4",
@@ -70,16 +70,16 @@
       },
       {
         "zType": "TURNTIMER_MEDIUM",
-        "zName": "Medium",
-        "iBase": "45",
+        "Name": "TEXT_TURNTIMER_MEDIUM",
+        "iBase": "40",
         "iPerCity": "9",
         "iPerUnit": "3",
         "bDynamic": "1"
       },
       {
         "zType": "TURNTIMER_FAST",
-        "zName": "Fast",
-        "iBase": "30",
+        "Name": "TEXT_TURNTIMER_FAST",
+        "iBase": "20",
         "iPerCity": "6",
         "iPerUnit": "2",
         "bDynamic": "1"

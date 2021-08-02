@@ -9,11 +9,13 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Help?: ZType | string;
   TeamColor: ZType | string;
   iLatitude?: ZType | string;
   bDiplomacy?: ZType | string;
   bMercenary?: ZType | string;
   bPersistent?: ZType | string;
+  bWaterMove?: ZType | string;
   Crest: ZType | string;
   Diplomacy: ZType | string;
   aeFirstNamesMale?: AeFirstNamesMale;

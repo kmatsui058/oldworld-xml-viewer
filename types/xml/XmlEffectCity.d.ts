@@ -59,7 +59,7 @@ export interface Entry {
   bHurryTraining?: ZType | string;
   bHurryMoney?: ZType;
   bHurryPopulation?: ZType | string;
-  bHurryOrders?: ZType | string;
+  bHurryOrders?: ZType;
   bEnablesGovernor?: ZType | string;
   bAlwaysConnected?: ZType | string;
   bBuyTile?: ZType | string;
@@ -73,6 +73,7 @@ export interface Entry {
   aiYieldRateSpecialist?: AiYieldRateCulture;
   aiYieldRateDefending?: AiYieldRateCulture;
   aiYieldRateReligion?: AiYieldRateCulture;
+  aiYieldRateReligionNonState?: AiYieldRateCulture;
   aiYieldRateHolyCityWorld?: AiYieldRateCulture;
   aiYieldModifier?: AiYieldRate;
   aiImprovementModifier?: AiImprovementModifier;
@@ -91,22 +92,15 @@ export interface Entry {
   aeHurryTraining?: ZType;
   aeHurryMoney?: AeHurryMoney;
   aeHurryPopulation?: ZType;
-  aeHurryOrders?: ZType;
+  aeHurryOrders?: AeHurryMoney;
   aeFreePromotion?: AeHurryMoney;
   aeFreeUnitEffectCity?: AeSourceImprovements;
   aeTraitPromotion?: AeTraitPromotion;
   aaiImprovementClassYield?: AaiImprovementClassYield;
-  aaiEffectCityYieldRate?: AaiEffectCityYieldRate;
-}
-export interface AaiEffectCityYieldRate {
-  Pair?: Pair5;
-}
-export interface Pair5 {
-  zIndex: string;
-  SubPair: SubPair | SubPair[];
+  aaiEffectCityYieldRate?: AaiImprovementClassYield;
 }
 export interface AaiImprovementClassYield {
-  Pair?: Pair4;
+  Pair?: Pair4[] | Pair4;
 }
 export interface Pair4 {
   zIndex: string;

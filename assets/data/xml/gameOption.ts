@@ -26,103 +26,88 @@
         },
         "bDebug": {
           
-        },
-        "abFirstUnitInvalid": {
-          
         }
       },
       {
         "zType": "GAMEOPTION_AI_ONLY",
-        "zName": "AI Only",
-        "zHelp": "Human players follow the same rules as the AI.",
+        "zName": "TEXT_GAMEOPTION_AI_ONLY",
+        "zHelp": "TEXT_GAMEOPTION_AI_ONLY_HELP",
         "bDebug": "1"
       },
       {
         "zType": "GAMEOPTION_NO_CHARACTERS",
-        "zName": "No Characters",
-        "zHelp": "Characters and Families are removed from the game.",
+        "zName": "TEXT_GAMEOPTION_NO_CHARACTERS",
+        "zHelp": "TEXT_GAMEOPTION_NO_CHARACTERS_HELP",
         "bDefaultMultiPlayer": "1"
       },
       {
-        "zType": "GAMEOPTION_NO_TRIBES",
-        "zName": "No Tribes",
-        "zHelp": "Tribes are replaced by link(TRIBE_BARBARIANS)."
+        "zType": "GAMEOPTION_BARBARIANS_ONLY",
+        "zName": "TEXT_GAMEOPTION_BARBARIANS_ONLY",
+        "zHelp": "TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP"
       },
       {
         "zType": "GAMEOPTION_NO_FOG_OF_WAR",
-        "zName": "No Fog of War",
-        "zHelp": "Map starts fully revealed and stays visible.",
-        "abFirstUnitInvalid": {
-          "Pair": {
-            "zIndex": "UNIT_SCOUT",
-            "bValue": "1"
-          }
-        }
+        "zName": "TEXT_GAMEOPTION_NO_FOG_OF_WAR",
+        "zHelp": "TEXT_GAMEOPTION_NO_FOG_OF_WAR_HELP"
       },
       {
         "zType": "GAMEOPTION_NO_TEAM_MOVEMENT",
-        "zName": "No Team Movement",
-        "zHelp": "Players cannot move their Teammates' Units.",
+        "zName": "TEXT_GAMEOPTION_NO_TEAM_MOVEMENT",
+        "zHelp": "TEXT_GAMEOPTION_NO_TEAM_MOVEMENT_HELP",
         "bSinglePlayer": "0"
       },
       {
         "zType": "GAMEOPTION_LOCKED_SAVE",
-        "zName": "Lock Save",
-        "zHelp": "The save file is checked against a hash to prevent modification using an outside editor."
+        "zName": "TEXT_GAMEOPTION_LOCKED_SAVE",
+        "zHelp": "TEXT_GAMEOPTION_LOCKED_SAVE_HELP"
       },
       {
         "zType": "GAMEOPTION_NO_UNDO",
-        "zName": "No Undo",
-        "zHelp": "Player is not allowed to undo a move after it has been made.",
+        "zName": "TEXT_GAMEOPTION_NO_UNDO",
+        "zHelp": "TEXT_GAMEOPTION_NO_UNDO_HELP",
         "bMultiPlayer": "0"
       },
       {
         "zType": "GAMEOPTION_LOCK_PLAYER_OPTIONS",
-        "zName": "Lock Player Options",
-        "zHelp": "Cannot change gameplay player options after the game has started",
+        "zName": "TEXT_GAMEOPTION_LOCK_PLAYER_OPTIONS",
+        "zHelp": "TEXT_GAMEOPTION_LOCK_PLAYER_OPTIONS_HELP",
         "bMultiPlayer": "0"
       },
       {
         "zType": "GAMEOPTION_RANDOMIZE_LEADERS",
-        "zName": "Randomize Leaders",
-        "zHelp": "Randomize starting Leader of each Nation."
+        "zName": "TEXT_GAMEOPTION_RANDOMIZE_LEADERS",
+        "zHelp": "TEXT_GAMEOPTION_RANDOMIZE_LEADERS_HELP"
       },
       {
         "zType": "GAMEOPTION_RANDOMIZE_FAMILIES",
-        "zName": "Randomize Families",
-        "zHelp": "Randomize the class of each Family (Sage, Artisan, Champion, etc)."
+        "zName": "TEXT_GAMEOPTION_RANDOMIZE_FAMILIES",
+        "zHelp": "TEXT_GAMEOPTION_RANDOMIZE_FAMILIES_HELP"
       },
       {
         "zType": "GAMEOPTION_ROLE_PLAYING",
-        "zName": "Role Playing",
-        "zHelp": "No popup help when making narrative choices for events"
+        "zName": "TEXT_GAMEOPTION_ROLE_PLAYING",
+        "zHelp": "TEXT_GAMEOPTION_ROLE_PLAYING_HELP"
       },
       {
         "zType": "GAMEOPTION_PLAY_TO_WIN",
-        "zName": "Play to Win",
-        "zHelp": "AI nations will try to keep each other (including you) from winning"
+        "zName": "TEXT_GAMEOPTION_PLAY_TO_WIN",
+        "zHelp": "TEXT_GAMEOPTION_PLAY_TO_WIN_HELP"
       },
       {
         "zType": "GAMEOPTION_ONE_CITY_CHALLENGE",
-        "zName": "One City Challenge",
-        "zHelp": "Players are not allowed to control more than one city.",
-        "abFirstUnitInvalid": {
-          "Pair": {
-            "zIndex": "UNIT_SETTLER",
-            "bValue": "1"
-          }
-        }
+        "zName": "TEXT_GAMEOPTION_ONE_CITY_CHALLENGE",
+        "zHelp": "TEXT_GAMEOPTION_ONE_CITY_CHALLENGE_HELP"
       },
       {
         "zType": "GAMEOPTION_MP_JOIN_AS_ANY_PLAYER",
-        "zName": "Join as Any Player",
-        "zHelp": "Allow players to join a multiplayer game even if a slot has already been claimed.",
+        "zName": "TEXT_GAMEOPTION_MP_JOIN_AS_ANY_PLAYER",
+        "zHelp": "TEXT_GAMEOPTION_MP_JOIN_AS_ANY_PLAYER_HELP",
         "bSinglePlayer": "0"
       },
       {
         "zType": "GAMEOPTION_ALLOW_OBSERVE",
-        "zName": "Allow observe mode",
-        "zHelp": "Players can join the game as observers",
+        "zName": "TEXT_GAMEOPTION_ALLOW_OBSERVE",
+        "zHelp": "TEXT_GAMEOPTION_ALLOW_OBSERVE_HELP",
         "bSinglePlayer": "0"
       }
     ]

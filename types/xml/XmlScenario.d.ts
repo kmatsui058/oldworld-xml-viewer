@@ -8,19 +8,25 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zSubTitle?: ZType;
-  zIcon?: ZType;
+  Name: ZType | string;
+  SubTitle: ZType | string;
+  zIcon: ZType | string;
+  bPublic?: ZType | string;
   zMapFile?: ZType | string;
   bAllowMap?: ZType | string;
   zMapScript?: ZType;
   zModName: ZType | string;
-  zAchievement?: ZType | string;
+  azAchievements?: AzAchievements;
   bContinue?: ZType | string;
   Prereq?: ZType | string;
   Nation?: ZType | string;
+  Difficulty: ZType | string;
+  TurnScale?: ZType | string;
   abOpponents?: ZType;
+  OpponentLevel?: ZType;
+  DevelopmentLevel?: ZType;
   abTribes?: ZType;
+  TribeLevel: ZType | string;
   abOptionEnabled?: ZType;
   abOptionValid?: AbOptionValid;
   azParametersInvalid?: AzParametersInvalid;
@@ -34,6 +40,9 @@ export interface AbOptionValid {
 export interface Pair {
   zIndex: string;
   bValue: string;
+}
+export interface AzAchievements {
+  zValue?: string[] | string;
 }
 export interface ZType {
 }

@@ -6,57 +6,57 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         }
       },
       {
         "zType": "SUBJECTCLASS_PLAYER",
-        "zName": "Player"
+        "Name": "TEXT_SUBJECTCLASS_PLAYER"
       },
       {
         "zType": "SUBJECTCLASS_TRIBE",
-        "zName": "Barbarian"
+        "Name": "TEXT_SUBJECTCLASS_TRIBE"
       },
       {
         "zType": "SUBJECTCLASS_RELIGION",
-        "zName": "Religion"
+        "Name": "TEXT_SUBJECTCLASS_RELIGION"
       },
       {
         "zType": "SUBJECTCLASS_FAMILY",
-        "zName": "Family"
+        "Name": "TEXT_SUBJECTCLASS_FAMILY"
       },
       {
         "zType": "SUBJECTCLASS_TECH",
-        "zName": "Tech"
+        "Name": "TEXT_SUBJECTCLASS_TECH"
       },
       {
         "zType": "SUBJECTCLASS_LAW",
-        "zName": "Law"
+        "Name": "TEXT_SUBJECTCLASS_LAW"
       },
       {
         "zType": "SUBJECTCLASS_THEOLOGY",
-        "zName": "Theology"
+        "Name": "TEXT_SUBJECTCLASS_THEOLOGY"
       },
       {
         "zType": "SUBJECTCLASS_RESOURCE",
-        "zName": "Resource"
+        "Name": "TEXT_SUBJECTCLASS_RESOURCE"
       },
       {
         "zType": "SUBJECTCLASS_CHARACTER",
-        "zName": "Character"
+        "Name": "TEXT_SUBJECTCLASS_CHARACTER"
       },
       {
         "zType": "SUBJECTCLASS_CITY",
-        "zName": "City"
+        "Name": "TEXT_SUBJECTCLASS_CITY"
       },
       {
         "zType": "SUBJECTCLASS_UNIT",
-        "zName": "Unit"
+        "Name": "TEXT_SUBJECTCLASS_UNIT"
       },
       {
         "zType": "SUBJECTCLASS_TILE",
-        "zName": "Tile"
+        "Name": "TEXT_SUBJECTCLASS_TILE"
       }
     ]
   }

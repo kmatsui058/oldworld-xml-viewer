@@ -63,6 +63,10 @@
         "iValue": "0"
       },
       {
+        "zType": "UNIT_PURGE_COST",
+        "iValue": "1"
+      },
+      {
         "zType": "UNIT_HEAL_COST",
         "iValue": "1"
       },
@@ -223,10 +227,6 @@
         "iValue": "25"
       },
       {
-        "zType": "CARAVAN_EXTRA_MONEY_MIN_TURNS",
-        "iValue": "80"
-      },
-      {
         "zType": "VP_PER_PLAYER",
         "iValue": "25"
       },
@@ -269,10 +269,6 @@
       {
         "zType": "CITY_STRENGTH_PER",
         "iValue": "5"
-      },
-      {
-        "zType": "CITY_INIT_DISCONTENT_LEVEL",
-        "iValue": "1"
       },
       {
         "zType": "HURRY_DISCONTENT_COST_BASE",
@@ -355,16 +351,16 @@
         "iValue": "9"
       },
       {
-        "zType": "HOSTILE_TILE_COST_EXTRA",
-        "iValue": "0"
-      },
-      {
         "zType": "LEADER_MOVEMENT",
         "iValue": "1"
       },
       {
         "zType": "FRESH_WATER_THRESHOLD",
         "iValue": "18"
+      },
+      {
+        "zType": "ROADS_CONNECT_SALT_WATER_NETWORK",
+        "iValue": "1"
       },
       {
         "zType": "CITY_HP",
@@ -399,8 +395,12 @@
         "iValue": "10"
       },
       {
-        "zType": "CREATE_AGENT_NETWORK_COST",
-        "iValue": "400"
+        "zType": "AGENT_NETWORK_COST_BASE",
+        "iValue": "200"
+      },
+      {
+        "zType": "AGENT_NETWORK_COST_PER",
+        "iValue": "100"
       },
       {
         "zType": "XP_THRESHOLD",
@@ -480,7 +480,7 @@
       },
       {
         "zType": "INJURY_PROB",
-        "iValue": "4"
+        "iValue": "1"
       },
       {
         "zType": "SENTRY_RANGE",
@@ -540,7 +540,7 @@
       },
       {
         "zType": "TUTORS_AGE",
-        "iValue": "9"
+        "iValue": "10"
       },
       {
         "zType": "ELDER_COGNOMEN_AGE_DIFFERENCE",
@@ -588,7 +588,7 @@
       },
       {
         "zType": "CHARACTER_ROYAL_RATING_CHANGE_PROB",
-        "iValue": "5"
+        "iValue": "10"
       },
       {
         "zType": "CHARACTER_NICKNAME_PROB",
@@ -783,6 +783,10 @@
         "iValue": "-160"
       },
       {
+        "zType": "PLAY_TO_WIN_OPINION_PLAYER_10",
+        "iValue": "-200"
+      },
+      {
         "zType": "NO_COUNCIL_OPINION",
         "iValue": "-20"
       },
@@ -799,12 +803,20 @@
         "iValue": "20"
       },
       {
+        "zType": "WONDER_OPINION",
+        "iValue": "20"
+      },
+      {
         "zType": "HOLY_CITY_OPINION",
         "iValue": "20"
       },
       {
-        "zType": "STATE_RELIGION_OPINION_RELIGION",
-        "iValue": "20"
+        "zType": "MOST_CITIES_OPINION",
+        "iValue": "40"
+      },
+      {
+        "zType": "FEWEST_CITIES_OPINION",
+        "iValue": "-40"
       },
       {
         "zType": "MIN_OPINION_FROM_RELIGION",
@@ -815,8 +827,28 @@
         "iValue": "200"
       },
       {
+        "zType": "MIN_OPINION_FROM_CHARACTER",
+        "iValue": "-200"
+      },
+      {
+        "zType": "MAX_OPINION_FROM_CHARACTER",
+        "iValue": "200"
+      },
+      {
+        "zType": "LEADER_RELIGION_OPINION_CHARACTER",
+        "iValue": "10"
+      },
+      {
+        "zType": "STATE_RELIGION_OPINION_CHARACTER",
+        "iValue": "20"
+      },
+      {
         "zType": "STRENGTH_OPINION_PLAYER",
         "iValue": "-100"
+      },
+      {
+        "zType": "TRIBUTE_OPINION_PLAYER",
+        "iValue": "20"
       },
       {
         "zType": "TRADING_US_OPINION_PLAYER",
@@ -827,15 +859,23 @@
         "iValue": "-40"
       },
       {
+        "zType": "MIN_RAID_TURNS",
+        "iValue": "4"
+      },
+      {
+        "zType": "MAX_CITY_RAID_DIST",
+        "iValue": "10"
+      },
+      {
         "zType": "TRIBE_CITY_DEFENDERS",
         "iValue": "2"
       },
       {
-        "zType": "BARB_CONVERT_RELIGION_BASE",
+        "zType": "TRIBE_SPREAD_RELIGION_BASE",
         "iValue": "500"
       },
       {
-        "zType": "BARB_CONVERT_RELIGION_PER",
+        "zType": "TRIBE_SPREAD_RELIGION_PER",
         "iValue": "500"
       },
       {
@@ -892,7 +932,7 @@
       },
       {
         "zType": "MIN_AI_PLAYERS",
-        "iValue": "1"
+        "iValue": "0"
       },
       {
         "zType": "MAX_AI_PLAYERS",
@@ -909,6 +949,34 @@
       {
         "zType": "UNIT_ANIMATION_NUM_TILES_TO_WARP",
         "iValue": "6"
+      },
+      {
+        "zType": "ALLOW_NEW_GAME_SP",
+        "iValue": "1"
+      },
+      {
+        "zType": "ALLOW_NEW_GAME_MP",
+        "iValue": "1"
+      },
+      {
+        "zType": "AI_AUTOPLAY_TURNS",
+        "iValue": "10"
+      },
+      {
+        "zType": "CLOUD_SAVE_REPLAY_TURNS",
+        "iValue": "2"
+      },
+      {
+        "zType": "MAX_NUM_QUICKSAVES",
+        "iValue": "2"
+      },
+      {
+        "zType": "GOD_RAY_DELAY_SECONDS",
+        "iValue": "2"
+      },
+      {
+        "zType": "STRENGTH_MULTIPLIER",
+        "iValue": "10"
       }
     ]
   }

@@ -103,12 +103,24 @@
         "English": "Monastery~a Monastery~Monasteries"
       },
       {
+        "zType": "TEXT_IMPROVEMENTCLASS_MONASTERY_CUSTOM",
+        "English": "{0_customName} Monastery~a {0_customName} Monastery~{0_customName} Monasteries"
+      },
+      {
         "zType": "TEXT_IMPROVEMENTCLASS_TEMPLE",
         "English": "Temple~a Temple~Temples"
       },
       {
+        "zType": "TEXT_IMPROVEMENTCLASS_TEMPLE_CUSTOM",
+        "English": "{0_customName} Temple~a {0_customName} Temple~{0_customName} Temples"
+      },
+      {
         "zType": "TEXT_IMPROVEMENTCLASS_CATHEDRAL",
         "English": "Cathedral~a Cathedral~Cathedrals"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENTCLASS_CATHEDRAL_CUSTOM",
+        "English": "{0_customName} Cathedral~a {0_customName} Cathedral~{0_customName} Cathedrals"
       },
       {
         "zType": "TEXT_IMPROVEMENTCLASS_HOLY_SITE",

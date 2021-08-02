@@ -88,10 +88,11 @@
         "zType": "CHARACTER_ASHURBANIPAL",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_ASHURBANIPAL",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_16",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_ASHURBANIPAL",
         "PlayerNation": "NATION_ASSYRIA",
+        "Father": "CHARACTER_ESARHADDON",
         "CharacterSelectPortrait": "CHARACTER_SELECT_ASHURBANIPAL",
-        "iAge": "30",
+        "iAge": "22",
         "aeTraits": {
           "zValue": [
             "TRAIT_ZEALOT_ARCHETYPE",
@@ -100,13 +101,51 @@
         }
       },
       {
+        "zType": "CHARACTER_ESARHADDON",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_ESARHADDON",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_11",
+        "PlayerNation": "NATION_ASSYRIA",
+        "iBirth": "-6",
+        "iAge": "44",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_JUDGE_ARCHETYPE",
+            "TRAIT_TOUGH"
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_SHAMASH_SHUM",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_SHAMASH_SHUM",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_ASSYRIA_LEADER_MALE_02",
+        "PlayerNation": "NATION_ASSYRIA",
+        "Father": "CHARACTER_ESARHADDON",
+        "iAge": "27",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_HERO_ARCHETYPE",
+            "TRAIT_PIOUS"
+          ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_ASHURBANIPAL",
+            "zValue": "RELATIONSHIP_VENGEFUL_AGAINST"
+          }
+        }
+      },
+      {
         "zType": "CHARACTER_NEBUCHADNEZZAR",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_NEBUCHADNEZZAR",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_17",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_NEBUCHANEZZAR",
         "PlayerNation": "NATION_BABYLONIA",
+        "Father": "CHARACTER_NABOPOLASSAR",
+        "Spouse": "CHARACTER_AMYTIS",
         "CharacterSelectPortrait": "CHARACTER_SELECT_NEBUCHADNEZZAR",
-        "iAge": "30",
+        "iAge": "27",
         "aeTraits": {
           "zValue": [
             "TRAIT_SCHOLAR_ARCHETYPE",
@@ -115,39 +154,148 @@
         }
       },
       {
+        "zType": "CHARACTER_NABOPOLASSAR",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_NABOPOLASSAR",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_13",
+        "PlayerNation": "NATION_BABYLONIA",
+        "iBirth": "-18",
+        "iAge": "53",
+        "aeTraits": {
+          "zValue": "TRAIT_HERO_ARCHETYPE"
+        }
+      },
+      {
+        "zType": "CHARACTER_AMYTIS",
+        "Gender": "GENDER_FEMALE",
+        "FirstName": "NAME_AMYTIS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_01",
+        "PlayerNation": "NATION_BABYLONIA",
+        "Spouse": "CHARACTER_NEBUCHADNEZZAR",
+        "iAge": "24",
+        "aeTraits": {
+          "zValue": "TRAIT_DIPLOMAT_ARCHETYPE"
+        }
+      },
+      {
+        "zType": "CHARACTER_KASHSHAYA",
+        "Gender": "GENDER_FEMALE",
+        "FirstName": "NAME_KASHSHAYA",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_FEMALE_11",
+        "PlayerNation": "NATION_BABYLONIA",
+        "Father": "CHARACTER_NEBUCHADNEZZAR",
+        "Mother": "CHARACTER_AMYTIS",
+        "iAge": "9",
+        "aeTraits": {
+          "zValue": "TRAIT_SCHEMER_ARCHETYPE"
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_MARDUK_NADIN_AHI",
+            "zValue": "RELATIONSHIP_VENGEFUL_AGAINST"
+          }
+        }
+      },
+      {
+        "zType": "CHARACTER_MARDUK_NADIN_AHI",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_MARDUK_NADIN_AHI",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_BABYLONIA_LEADER_MALE_04",
+        "PlayerNation": "NATION_BABYLONIA",
+        "Father": "CHARACTER_NEBUCHADNEZZAR",
+        "Mother": "CHARACTER_AMYTIS",
+        "iAge": "1",
+        "aeTraits": {
+          "zValue": "TRAIT_ILL"
+        }
+      },
+      {
         "zType": "CHARACTER_DIDO",
         "Gender": "GENDER_FEMALE",
         "FirstName": "NAME_DIDO",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_16",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_DIDO",
         "PlayerNation": "NATION_CARTHAGE",
+        "Father": "CHARACTER_MATTAN",
+        "Spouse": "CHARACTER_ACERBAS",
         "CharacterSelectPortrait": "CHARACTER_SELECT_DIDO",
-        "iAge": "20",
+        "iAge": "27",
         "aeTraits": {
           "zValue": [
             "TRAIT_DIPLOMAT_ARCHETYPE",
             "TRAIT_CUNNING"
           ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_PYGMALION",
+            "zValue": "RELATIONSHIP_VENGEFUL_AGAINST"
+          }
         }
       },
       {
-        "zType": "CHARACTER_THUTMOSE_II",
+        "zType": "CHARACTER_MATTAN",
         "Gender": "GENDER_MALE",
-        "FirstName": "NAME_THUTMOSE",
-        "PlayerNation": "NATION_EGYPT",
-        "iBirth": "-8",
-        "iAge": "31",
+        "FirstName": "NAME_MATTAN",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_03",
+        "PlayerNation": "NATION_CARTHAGE",
+        "iBirth": "-18",
+        "iAge": "32",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_DIPLOMAT_ARCHETYPE",
+            "TRAIT_KING_OF_TYRE"
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PYGMALION",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_PYGMALION",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_01",
+        "PlayerNation": "NATION_CARTHAGE",
+        "Mother": "CHARACTER_MATTAN",
+        "iAge": "26",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_SCHEMER_ARCHETYPE",
+            "TRAIT_KING_OF_TYRE"
+          ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_DIDO",
+            "zValue": "RELATIONSHIP_SUSPICIOUS_OF"
+          }
+        }
+      },
+      {
+        "zType": "CHARACTER_ACERBAS",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_ACERBAS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_02",
+        "PlayerNation": "NATION_CARTHAGE",
+        "Spouse": "CHARACTER_DIDO",
+        "iBirth": "-11",
+        "iAge": "39",
         "aeTraits": {
           "zValue": [
             "TRAIT_BUILDER_ARCHETYPE",
-            "TRAIT_SLOTHFUL"
+            "TRAIT_GREEDY",
+            "TRAIT_CHEIF_PRIEST_OF_MELQUART"
           ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_PYGMALION",
+            "zValue": "RELATIONSHIP_ASSASSINATED_BY"
+          }
         }
       },
       {
         "zType": "CHARACTER_HATSHEPSUT",
         "Gender": "GENDER_FEMALE",
         "FirstName": "NAME_HATSHEPSUT",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_02",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_HATSHEPSUT",
         "PlayerNation": "NATION_EGYPT",
         "Spouse": "CHARACTER_THUTMOSE_II",
         "CharacterSelectPortrait": "CHARACTER_SELECT_HATSHEPSUT",
@@ -161,9 +309,25 @@
         }
       },
       {
+        "zType": "CHARACTER_THUTMOSE_II",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_THUTMOSE",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_01",
+        "PlayerNation": "NATION_EGYPT",
+        "iBirth": "-8",
+        "iAge": "31",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_BUILDER_ARCHETYPE",
+            "TRAIT_SLOTHFUL"
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_ISIS",
         "Gender": "GENDER_FEMALE",
         "FirstName": "NAME_ISIS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_05",
         "PlayerNation": "NATION_EGYPT",
         "Spouse": "CHARACTER_THUTMOSE_II",
         "iAge": "32",
@@ -188,12 +352,19 @@
         "PlayerNation": "NATION_EGYPT",
         "Father": "CHARACTER_THUTMOSE_II",
         "Mother": "CHARACTER_HATSHEPSUT",
-        "iAge": "12"
+        "iAge": "12",
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_HATSHEPSUT",
+            "zValue": "RELATIONSHIP_ENDEARED_TO"
+          }
+        }
       },
       {
         "zType": "CHARACTER_THUTMOSE_III",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_THUTMOSE",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_05",
         "PlayerNation": "NATION_EGYPT",
         "Father": "CHARACTER_THUTMOSE_II",
         "Mother": "CHARACTER_ISIS",
@@ -201,7 +372,7 @@
         "aeRelationships": {
           "Pair": {
             "zIndex": "CHARACTER_HATSHEPSUT",
-            "zValue": "RELATIONSHIP_ESTRANGED_FROM"
+            "zValue": "RELATIONSHIP_SUSPICIOUS_OF"
           }
         }
       },
@@ -209,7 +380,7 @@
         "zType": "CHARACTER_PHILIP",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_PHILIP",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_16",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_PHILIP",
         "PlayerNation": "NATION_GREECE",
         "Spouse": "CHARACTER_OLYMPIAS",
         "CharacterSelectPortrait": "CHARACTER_SELECT_PHILIP",
@@ -233,6 +404,12 @@
             "TRAIT_DEBAUCHED",
             "TRAIT_SCHEMER_ARCHETYPE"
           ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_PHILIP",
+            "zValue": "RELATIONSHIP_JEALOUS_ABOUT"
+          }
         }
       },
       {
@@ -249,20 +426,80 @@
             "TRAIT_HERO_ARCHETYPE",
             "TRAIT_BOLD"
           ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_PHILIP",
+            "zValue": "RELATIONSHIP_SUSPICIOUS_OF"
+          }
         }
       },
       {
         "zType": "CHARACTER_CYRUS",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_CYRUS",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_16",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_CYRUS",
         "PlayerNation": "NATION_PERSIA",
+        "Mother": "CHARACTER_MANDANA",
         "CharacterSelectPortrait": "CHARACTER_SELECT_CYRUS",
-        "iAge": "30",
+        "iAge": "26",
         "aeTraits": {
           "zValue": [
             "TRAIT_HERO_ARCHETYPE",
             "TRAIT_TOUGH"
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_ASTYAGES",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_ASTYAGES",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_20",
+        "PlayerNation": "NATION_PERSIA",
+        "iAge": "65",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_SCHEMER_ARCHETYPE",
+            "TRAIT_BITTER",
+            "TRAIT_ABDICATED"
+          ]
+        },
+        "aeRelationships": {
+          "Pair": {
+            "zIndex": "CHARACTER_CYRUS",
+            "zValue": "RELATIONSHIP_SUSPICIOUS_OF"
+          }
+        }
+      },
+      {
+        "zType": "CHARACTER_MANDANA",
+        "Gender": "GENDER_FEMALE",
+        "FirstName": "NAME_MANDANA",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_PERSIA_LEADER_FEMALE_13",
+        "PlayerNation": "NATION_PERSIA",
+        "Father": "CHARACTER_ASTYAGES",
+        "iBirth": "-5",
+        "iAge": "25",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_BUILDER_ARCHETYPE",
+            "TRAIT_EDUCATED"
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_ROMULUS",
+        "Gender": "GENDER_MALE",
+        "FirstName": "NAME_ROMULUS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_ROMULUS",
+        "PlayerNation": "NATION_ROME",
+        "Mother": "CHARACTER_ILIA",
+        "CharacterSelectPortrait": "CHARACTER_SELECT_ROMULUS",
+        "iAge": "22",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_TACTICIAN_ARCHETYPE",
+            "TRAIT_RUTHLESS"
           ]
         }
       },
@@ -277,22 +514,6 @@
           "zValue": [
             "TRAIT_ORATOR_ARCHETYPE",
             "TRAIT_ROMANTIC"
-          ]
-        }
-      },
-      {
-        "zType": "CHARACTER_ROMULUS",
-        "Gender": "GENDER_MALE",
-        "FirstName": "NAME_ROMULUS",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_17",
-        "PlayerNation": "NATION_ROME",
-        "Mother": "CHARACTER_ILIA",
-        "CharacterSelectPortrait": "CHARACTER_SELECT_ROMULUS",
-        "iAge": "22",
-        "aeTraits": {
-          "zValue": [
-            "TRAIT_TACTICIAN_ARCHETYPE",
-            "TRAIT_RUTHLESS"
           ]
         }
       },
@@ -905,7 +1126,7 @@
           "zValue": [
             "TRAIT_EXOTIC",
             "TRAIT_VIGILANT",
-            "TRAIT_COWARDLY"
+            "TRAIT_TIMID"
           ]
         }
       },
@@ -1013,7 +1234,7 @@
         "bNoNickname": "1",
         "aeTraits": {
           "zValue": [
-            "TRAIT_ZEALOT_ARCHETYPE",
+            "TRAIT_SCHEMER_ARCHETYPE",
             "TRAIT_CUNNING",
             "TRAIT_DIVINE",
             "TRAIT_INTELLIGENT"
@@ -1024,17 +1245,21 @@
         "zType": "CHARACTER_INCITATUS",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_INCITATUS",
-        "Nation": "NATION_ROME",
-        "CharacterSelectPortrait": "CHARACTER_SELECT_INCITATUS",
-        "iAge": "4",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_INCITATUS",
+        "iAge": "18",
+        "bNoNickname": "1",
         "aeTraits": {
-          "zValue": "TRAIT_HORSE"
+          "zValue": [
+            "TRAIT_HORSE",
+            "TRAIT_ZEALOT_ARCHETYPE"
+          ]
         }
       },
       {
         "zType": "CHARACTER_DIEGYLIS",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_DIEGYLIS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_THRACIAN_MALE_01",
         "Tribe": "TRIBE_THRACIANS",
         "iAge": "35",
         "iRating": "2",

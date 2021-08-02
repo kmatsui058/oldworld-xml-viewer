@@ -9,9 +9,11 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Range: ZType | string;
   Color: ZType | string;
   iThreshold?: ZType | string;
-  iAlliancePercent?: ZType | string;
+  iStartAlliancePercent?: ZType | string;
+  iEndAlliancePercent?: ZType | string;
   iPeacePercent?: ZType | string;
   iTrucePercent: ZType | string;
   iWarPercent?: ZType | string;

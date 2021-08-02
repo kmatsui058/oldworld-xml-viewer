@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           "comment": "Bonus title string. This is ONLY necessary if this bonus changes Legitimacy"
         },
         "zIcon": {
@@ -189,6 +189,9 @@
         "iTributeTurns": {
           "comment": "Turns of Yields given in Tribute (if 0 defaults to TRIBUTE_TURNS)"
         },
+        "iContactSubject": {
+          "comment": "Make contact with the previous player or tribe subject at this index"
+        },
         "iAllianceSubject": {
           "comment": "Player allies with the previous Subject at this index"
         },
@@ -315,6 +318,9 @@
         "bRandomTech": {
           "comment": "The Player will receive a random free Tech"
         },
+        "bDistantRaid": {
+          "comment": "The City will be the target of a Raid from a Distant Land"
+        },
         "bConvertStateReligion": {
           "comment": "Set this Character's Religion to the Player's State Religion"
         },
@@ -345,6 +351,9 @@
         "bKillCharacter": {
           "comment": "If set to 1 (true), the character Subject dies immediately"
         },
+        "bKillCharacterSafe": {
+          "comment": "If set to 1 (true), the character Subject dies immediately, even if the character is marked safe. For use in scenarios"
+        },
         "bHaveBastard": {
           "comment": "Character will have a bastard child"
         },
@@ -353,6 +362,12 @@
         },
         "bRemoveVegetation": {
           "comment": "Removes Vegetation from the Tile"
+        },
+        "bClearImprovement": {
+          "comment": "Removes Improvement from the Tile"
+        },
+        "bPillageImprovement": {
+          "comment": "Pillages the Improvement on the Tile"
         },
         "bTribeRaid": {
           "comment": "Starts a raid from the Barbarian settlement on the Tile"
@@ -497,7 +512,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIcon": {
@@ -806,6 +821,9 @@
         "bRandomTech": {
           
         },
+        "bDistantRaid": {
+          
+        },
         "bConvertStateReligion": {
           
         },
@@ -843,6 +861,12 @@
           
         },
         "bRemoveVegetation": {
+          
+        },
+        "bClearImprovement": {
+          
+        },
+        "bPillageImprovement": {
           
         },
         "bTribeRaid": {
@@ -990,7 +1014,7 @@
       },
       {
         "zType": "BONUS_FAMILY_SEAT",
-        "zName": "Founded link(CONCEPT_FAMILY_SEAT)",
+        "Name": "TEXT_BONUS_FAMILY_SEAT",
         "iLegitimacy": "5"
       },
       {
@@ -999,73 +1023,93 @@
       },
       {
         "zType": "BONUS_DISCOVERED_LANDMARK",
-        "zName": "Landmark Discovered",
+        "Name": "TEXT_BONUS_DISCOVERED_LANDMARK",
         "iLegitimacy": "1"
       },
       {
         "zType": "BONUS_NAMED_LANDMARK",
-        "zName": "Landmark Named",
+        "Name": "TEXT_BONUS_NAMED_LANDMARK",
         "iLegitimacy": "2"
       },
       {
+        "zType": "BONUS_EVENTPLAYER_LEGITIMACY",
+        "Name": "TEXT_BONUS_EVENTPLAYER_LEGITIMACY",
+        "iLegitimacy": "1"
+      },
+      {
         "zType": "BONUS_FINISHED_AMBITION",
-        "zName": "Finished Ambition(s)",
+        "Name": "TEXT_BONUS_FINISHED_AMBITION",
         "iLegitimacy": "10"
       },
       {
         "zType": "BONUS_FINISHED_LEGACY",
-        "zName": "Finished Legac(ies)",
+        "Name": "TEXT_BONUS_FINISHED_LEGACY",
         "iLegitimacy": "5"
       },
       {
         "zType": "BONUS_ABANDONED_AMBITION",
-        "zName": "Abandoned Ambition(s)",
+        "Name": "TEXT_BONUS_ABANDONED_AMBITION",
         "iLegitimacy": "-5"
       },
       {
         "zType": "BONUS_FAILED_LEGACY",
-        "zName": "Failed Legac(ies)",
+        "Name": "TEXT_BONUS_FAILED_LEGACY",
         "iLegitimacy": "-5"
       },
       {
         "zType": "BONUS_FINISHED_QUEST",
-        "zName": "Finished Quest(s)",
+        "Name": "TEXT_BONUS_FINISHED_QUEST",
         "iLegitimacy": "10"
       },
       {
         "zType": "BONUS_FINISHED_HOLY_SITE",
-        "zName": "Built a Holy Site",
+        "Name": "TEXT_BONUS_FINISHED_HOLY_SITE",
         "iLegitimacy": "2"
       },
       {
-        "zType": "BONUS_FINISHED_WONDER",
-        "zName": "Built a Wonder",
+        "zType": "BONUS_FINISHED_WONDER_WEAK",
+        "Name": "TEXT_BONUS_FINISHED_WONDER_WEAK",
         "iLegitimacy": "2"
+      },
+      {
+        "zType": "BONUS_FINISHED_WONDER_DEVELOPING",
+        "Name": "TEXT_BONUS_FINISHED_WONDER_DEVELOPING",
+        "iLegitimacy": "4"
+      },
+      {
+        "zType": "BONUS_FINISHED_WONDER_STRONG",
+        "Name": "TEXT_BONUS_FINISHED_WONDER_STRONG",
+        "iLegitimacy": "6"
+      },
+      {
+        "zType": "BONUS_FINISHED_WONDER_LEGENDARY",
+        "Name": "TEXT_BONUS_FINISHED_WONDER_LEGENDARY",
+        "iLegitimacy": "8"
       },
       {
         "zType": "BONUS_INSPIRED_BY_WONDER",
-        "zName": "Inspired by a Wonder",
+        "Name": "TEXT_BONUS_INSPIRED_BY_WONDER",
         "iLegitimacy": "2"
       },
       {
         "zType": "BONUS_HIGH_SYNOD",
-        "zName": "High Synod",
+        "Name": "TEXT_BONUS_HIGH_SYNOD",
         "iLegitimacy": "-2"
       },
       {
         "zType": "BONUS_CONVERT_LEGITIMACY",
-        "zName": "Used for {YIELD_ORDERS}",
+        "Name": "TEXT_BONUS_CONVERT_LEGITIMACY",
         "iLegitimacy": "-1",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
-            "iValue": "4"
+            "iValue": "5"
           }
         }
       },
       {
         "zType": "BONUS_LEADER_ADOPTS",
-        "zName": "Ruler Adopted a Child",
+        "Name": "TEXT_BONUS_LEADER_ADOPTS",
         "iLegitimacy": "-2"
       },
       {
@@ -1073,8 +1117,15 @@
         "MemoryReligion": "MEMORYRELIGION_ESTABLISH_THEOLOGY"
       },
       {
+        "zType": "BONUS_SPREAD_RELIGION",
+        "MemoryReligion": "MEMORYRELIGION_SPREAD_RELIGION"
+      },
+      {
         "zType": "BONUS_PURGE_RELIGION",
-        "MemoryReligion": "MEMORYRELIGION_PURGE_RELIGION"
+        "MemoryReligion": "MEMORYRELIGION_PURGE_RELIGION",
+        "aeBonuses": {
+          "zValue": "BONUS_DISCONTENT_GAIN_TINY"
+        }
       },
       {
         "zType": "BONUS_START_LAW",
@@ -1090,19 +1141,19 @@
       },
       {
         "zType": "BONUS_BREAK_PEACE",
-        "zName": "Broke Peace Treaty",
+        "Name": "TEXT_BONUS_BREAK_PEACE",
         "MemoryAllPlayers": "MEMORYPLAYER_BROKE_PEACE",
         "MemoryAllTribes": "MEMORYTRIBE_BROKE_PEACE",
         "iLegitimacy": "-2"
       },
       {
         "zType": "BONUS_END_ALLIANCE",
-        "zName": "Ended Alliance",
+        "Name": "TEXT_BONUS_END_ALLIANCE",
         "iLegitimacy": "-2"
       },
       {
         "zType": "BONUS_TRIBE_MARRIAGE",
-        "zName": "Marriage with a Tribe",
+        "Name": "TEXT_BONUS_TRIBE_MARRIAGE",
         "iLegitimacy": "-1"
       },
       {
@@ -1121,15 +1172,6 @@
         }
       },
       {
-        "zType": "BONUS_TRIBE_WAR_LEGITIMACY",
-        "zName": "Unafraid of Tribes",
-        "DiplomacyTribe": "DIPLOMACY_WAR",
-        "iLegitimacy": "5",
-        "aeBonuses": {
-          "zValue": "BONUS_TRIBE_OFFER"
-        }
-      },
-      {
         "zType": "BONUS_TRIBE_TRUCE",
         "DiplomacyTribe": "DIPLOMACY_TRUCE",
         "aeBonuses": {
@@ -1138,7 +1180,7 @@
       },
       {
         "zType": "BONUS_TRIBE_TRUCE_LEGITIMACY",
-        "zName": "Made a Truce with a Tribe",
+        "Name": "TEXT_BONUS_TRIBE_TRUCE_LEGITIMACY",
         "DiplomacyTribe": "DIPLOMACY_TRUCE",
         "iLegitimacy": "-1",
         "aeBonuses": {
@@ -1154,7 +1196,7 @@
       },
       {
         "zType": "BONUS_TRIBE_PEACE_LEGITIMACY",
-        "zName": "Made Peace with a Tribe",
+        "Name": "TEXT_BONUS_TRIBE_PEACE_LEGITIMACY",
         "DiplomacyTribe": "DIPLOMACY_PEACE",
         "iLegitimacy": "-1",
         "aeBonuses": {
@@ -1163,7 +1205,7 @@
       },
       {
         "zType": "BONUS_TRIBE_ALLIANCE",
-        "zName": "Made an Alliance with a Tribe",
+        "Name": "TEXT_BONUS_TRIBE_ALLIANCE",
         "iLegitimacy": "-2",
         "bTribeAlliance": "1",
         "aeBonuses": {
@@ -1185,21 +1227,12 @@
         }
       },
       {
-        "zType": "BONUS_TRIBAL_INVASION_LEGITIMACY",
-        "zName": "Unafraid of Invasion",
-        "iLegitimacy": "10",
-        "bTribeInvade": "1",
-        "aeBonuses": {
-          "zValue": "BONUS_TRIBE_OFFER"
-        }
-      },
-      {
         "zType": "BONUS_TRIBE_OFFER",
         "MemoryTribe": "MEMORYTRIBE_OFFER"
       },
       {
         "zType": "BONUS_TRIBE_ELIMINATED_LEGITIMACY",
-        "zName": "Eliminated a Tribe",
+        "Name": "TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY",
         "iLegitimacy": "5"
       },
       {
@@ -1224,7 +1257,7 @@
       },
       {
         "zType": "BONUS_PLAYER_WAR_LEGITIMACY",
-        "zName": "Unafraid of War",
+        "Name": "TEXT_BONUS_PLAYER_WAR_LEGITIMACY",
         "DiplomacyPlayerTo": "DIPLOMACY_WAR",
         "iLegitimacy": "5",
         "aeBonuses": {
@@ -1248,13 +1281,6 @@
       {
         "zType": "BONUS_PLAYER_ALLIANCE",
         "bTeamAlliance": "1",
-        "aeBonuses": {
-          "zValue": "BONUS_PLAYER_OFFER"
-        }
-      },
-      {
-        "zType": "BONUS_PLAYER_ALLIANCE_END",
-        "bTeamAllianceEnd": "1",
         "aeBonuses": {
           "zValue": "BONUS_PLAYER_OFFER"
         }
@@ -1299,7 +1325,9 @@
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MINISTER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -1316,7 +1344,9 @@
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MERCHANT",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -1562,33 +1592,33 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_LEAVE_RELIGION",
-        "zName": "Leave link(CONCEPT_STATE_RELIGION)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION",
         "bStateReligionEnd": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_RALLY_TROOPS",
-        "zName": "Rally Troops",
+        "Name": "TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS",
         "aeBonuses": {
           "zValue": "BONUS_TRAINING_GAIN_AVERAGE"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_HOLD_COURT",
-        "zName": "Hold Court",
+        "Name": "TEXT_BONUS_MISSIONRESULT_HOLD_COURT",
         "aeBonuses": {
           "zValue": "BONUS_CIVICS_GAIN_AVERAGE"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_INFLUENCE",
-        "zName": "Influence (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INFLUENCE",
         "aeBonuses": {
           "zValue": "BONUS_LEADER_INFLUENCED_BY"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_INFLUENCE_WEAKEN",
-        "zName": "Influence (Success, Weaken)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INFLUENCE_WEAKEN",
         "iLegitimacy": "-1",
         "aeBonuses": {
           "zValue": "BONUS_LEADER_INFLUENCED_BY"
@@ -1601,34 +1631,39 @@
         }
       },
       {
+        "zType": "BONUS_MISSIONRESULT_CONVERT_SELF",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_SELF",
+        "iConvertReligionSubject": "0"
+      },
+      {
         "zType": "BONUS_MISSIONRESULT_CONVERT_RELIGION",
-        "zName": "Convert to link(CONCEPT_STATE_RELIGION)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
         "bConvertStateReligion": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_INTERCESSION",
-        "zName": "Intercession (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INTERCESSION",
         "aeBonuses": {
-          "zValue": "BONUS_LEADER_INTERCESSED_FOR"
+          "zValue": "BONUS_LEADER_INTERCEDED_FOR"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_INTERCESSION_WEAKEN",
-        "zName": "Influence (Success, Weaken)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN",
         "iLegitimacy": "-1",
         "aeBonuses": {
-          "zValue": "BONUS_LEADER_INTERCESSED_FOR"
+          "zValue": "BONUS_LEADER_INTERCEDED_FOR"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_ADOPT",
-        "zName": "Adoption",
+        "Name": "TEXT_BONUS_MISSIONRESULT_ADOPT",
         "iLegitimacy": "-1",
         "iAdoptedBySubject": "0"
       },
       {
         "zType": "BONUS_MISSIONRESULT_LEGITIMIZE",
-        "zName": "Legitimized Bastard",
+        "Name": "TEXT_BONUS_MISSIONRESULT_LEGITIMIZE",
         "iLegitimacy": "-2",
         "aeAddTraits": {
           "zValue": "TRAIT_LEGITIMIZED"
@@ -1639,35 +1674,35 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_CHOSEN_HEIR",
-        "zName": "Chosen Heir",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CHOSEN_HEIR",
         "iLegitimacy": "-4",
         "bChosenHeir": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_INFILTRATE_REVEAL",
-        "zName": "Infiltrate (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL",
         "bRevealTerritory": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED",
-        "zName": "Infiltrate (Success, Exposed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED",
         "iLegitimacy": "-1",
         "bRevealTerritory": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_SLANDER_SUCCESS",
-        "zName": "Slander (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS",
         "MemoryAllPlayers": "MEMORYPLAYER_SLANDER"
       },
       {
         "zType": "BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED",
-        "zName": "Slander (Success, Exposed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED",
         "MemoryAllPlayers": "MEMORYPLAYER_SLANDER",
         "iLegitimacy": "-1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS",
-        "zName": "Steal Research (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS",
         "aiOtherYieldsBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
@@ -1683,7 +1718,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED",
-        "zName": "Steal Research (Success, Exposed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED",
         "MemoryPlayer": "MEMORYPLAYER_STEAL_RESEARCH",
         "aiOtherYieldsBase": {
           "Pair": {
@@ -1700,12 +1735,14 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_ASSASSINATE_KILL",
-        "zName": "Assassinate (Kill)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL",
+        "AddLeaderRelationship": "RELATIONSHIP_ASSASSINATED_BY",
         "bKillCharacter": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED",
-        "zName": "Assassinate (Kill, Exposed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED",
+        "AddLeaderRelationship": "RELATIONSHIP_ASSASSINATED_BY",
         "iLegitimacy": "-2",
         "bKillCharacter": "1",
         "aeBonuses": {
@@ -1714,7 +1751,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED",
-        "zName": "Assassinate (Fail, Exposed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED",
         "iLegitimacy": "-2",
         "aeBonuses": {
           "zValue": "BONUS_ASSASSINATION_EXPOSED"
@@ -1722,59 +1759,64 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_TREACHERY_SUCCESS",
-        "zName": "Treachery (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_TREACHERY_SUCCESS",
         "iHPCity": "-10"
       },
       {
         "zType": "BONUS_MISSIONRESULT_TREACHERY_FAILURE",
-        "zName": "Treachery (Failure)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE",
         "iLegitimacy": "-1"
       },
       {
-        "zType": "BONUS_MISSIONRESULT_INSURRECTION_SUCCESS",
-        "zName": "Insurrection (Success)",
+        "zType": "BONUS_MISSIONRESULT_INSURRECTION_REVOLT",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INSURRECTION_REVOLT",
+        "iRebelUnits": "1"
+      },
+      {
+        "zType": "BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT",
         "iDiscontentLevels": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_INSURRECTION_FAILURE",
-        "zName": "Insurrection (Failure)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_INSURRECTION_FAILURE",
         "iLegitimacy": "-1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS",
-        "zName": "High Synod (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS",
         "MemoryReligion": "MEMORYFAMILY_HIGH_SYNOD_SUCCESS"
       },
       {
         "zType": "BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE",
-        "zName": "High Synod (Failure)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE",
         "MemoryReligion": "MEMORYFAMILY_HIGH_SYNOD_FAILURE"
       },
       {
         "zType": "BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS",
-        "zName": "Family Gift (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS",
         "MemoryFamily": "MEMORYFAMILY_FAMILY_GIFTS"
       },
       {
         "zType": "BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN",
-        "zName": "Family Gift (Success, Weaken)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_FAMILY_GIFT_SUCCESS_WEAKEN",
         "MemoryFamily": "MEMORYFAMILY_FAMILY_GIFTS",
         "iLegitimacy": "-1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS",
-        "zName": "Pacify City (Success)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS",
         "iDiscontentLevels": "-1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN",
-        "zName": "Pacify City (Success, Weaken)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_PACIFY_CITY_SUCCESS_WEAKEN",
         "iDiscontentLevels": "-1",
         "iLegitimacy": "-1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_IMPRISON_JUST",
-        "zName": "Imprison (Just)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST",
         "MemoryFamily": "MEMORYFAMILY_MEMBER_IMPRISONED",
         "aiGlobalYields": {
           "Pair": {
@@ -1788,7 +1830,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_IMPRISON_UNJUST",
-        "zName": "Imprison (Unjust)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST",
         "MemoryFamily": "MEMORYFAMILY_MEMBER_IMPRISONED",
         "iLegitimacy": "-2",
         "aiGlobalYields": {
@@ -1803,7 +1845,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_IMPRISON_ESCAPE",
-        "zName": "Imprison (Escape)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_ESCAPE",
         "iLegitimacy": "-2",
         "aiGlobalYields": {
           "Pair": {
@@ -1820,14 +1862,14 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_RELEASE_GRATEFUL",
-        "zName": "Release (Grateful)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL",
         "aeRemoveTraits": {
           "zValue": "TRAIT_IMPRISONED"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_RELEASE_BITTER",
-        "zName": "Release (Bitter)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER",
         "aeAddTraits": {
           "zValue": "TRAIT_SLIGHTED"
         },
@@ -1837,7 +1879,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_RELEASE_UNJUST",
-        "zName": "Release (Unjust)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_RELEASE_UNJUST",
         "iLegitimacy": "-2",
         "aeRemoveTraits": {
           "zValue": "TRAIT_IMPRISONED"
@@ -1845,7 +1887,7 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_CAPTURE_SURRENDER",
-        "zName": "Capture (Surrender)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER",
         "aeAddTraits": {
           "zValue": "TRAIT_IMPRISONED"
         },
@@ -1855,12 +1897,12 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_CAPTURE_KILLED",
-        "zName": "Capture (Killed)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED",
         "bKillCharacter": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_CAPTURE_FLEE",
-        "zName": "Capture (Flee)",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE",
         "aeAddTraits": {
           "zValue": "TRAIT_UNDER_ASYLUM"
         },
@@ -1870,19 +1912,19 @@
       },
       {
         "zType": "BONUS_MISSIONRESULT_PAY_RANSOM",
-        "zName": "Capture Ransom",
+        "Name": "TEXT_BONUS_MISSIONRESULT_PAY_RANSOM",
         "aeRemoveTraits": {
           "zValue": "TRAIT_CAPTURED"
         }
       },
       {
         "zType": "BONUS_MISSIONRESULT_MARRY_COURTIER",
-        "zName": "Marry",
+        "Name": "TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER",
         "iMarrySubject": "0"
       },
       {
         "zType": "BONUS_MISSIONRESULT_DIVORCE",
-        "zName": "Divorce",
+        "Name": "TEXT_BONUS_MISSIONRESULT_DIVORCE",
         "iDivorcedBySubject": "0"
       },
       {
@@ -2306,7 +2348,7 @@
       },
       {
         "zType": "BONUS_TECH_STONECUTTING_BONUS_STONE",
-        "zName": "Stone Boost",
+        "Name": "TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -2316,7 +2358,7 @@
       },
       {
         "zType": "BONUS_TECH_HUSBANDRY_BONUS_FOOD",
-        "zName": "Food Boost",
+        "Name": "TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -2326,7 +2368,7 @@
       },
       {
         "zType": "BONUS_TECH_POLIS_BONUS_SETTLER",
-        "zName": "Free link(UNIT_SETTLER)",
+        "Name": "TEXT_BONUS_TECH_POLIS_BONUS_SETTLER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_SETTLER",
@@ -2336,7 +2378,7 @@
       },
       {
         "zType": "BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
-        "zName": "Border Boost",
+        "Name": "TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
         "aeAllCityBonuses": {
           "zValue": "BONUS_TECH_ARISTOCRACY_BONUS_BORDERS_ALL"
         }
@@ -2347,7 +2389,7 @@
       },
       {
         "zType": "BONUS_TECH_NAVIGATION_BONUS_BIREME",
-        "zName": "Free link(UNIT_BIREME)",
+        "Name": "TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_BIREME",
@@ -2357,7 +2399,7 @@
       },
       {
         "zType": "BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
-        "zName": "Free link(UNIT_CHARIOT)",
+        "Name": "TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CHARIOT",
@@ -2367,17 +2409,19 @@
       },
       {
         "zType": "BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
-        "zName": "New link(COURTIER_MINISTER)",
+        "Name": "TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MINISTER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_PORTCULLIS_BONUS_MACEMAN",
-        "zName": "Free link(UNIT_MACEMAN)",
+        "Name": "TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_MACEMAN",
@@ -2387,7 +2431,7 @@
       },
       {
         "zType": "BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
-        "zName": "Free link(UNIT_CAMEL_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CAMEL_ARCHER",
@@ -2397,7 +2441,7 @@
       },
       {
         "zType": "BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
-        "zName": "Free link(UNIT_WAR_ELEPHANT)",
+        "Name": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_WAR_ELEPHANT",
@@ -2407,7 +2451,7 @@
       },
       {
         "zType": "BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER",
-        "zName": "Free link(UNIT_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_ARCHER",
@@ -2417,7 +2461,7 @@
       },
       {
         "zType": "BONUS_TECH_DOCTRINE_BONUS_ORDERS",
-        "zName": "Orders Boost",
+        "Name": "TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
@@ -2427,7 +2471,7 @@
       },
       {
         "zType": "BONUS_TECH_COINAGE_BONUS_MONEY",
-        "zName": "Money Boost",
+        "Name": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -2437,17 +2481,19 @@
       },
       {
         "zType": "BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-        "zName": "New link(COURTIER_SCIENTIST)",
+        "Name": "TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_SCIENTIST",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_TORSION_BONUS_BALLISTA",
-        "zName": "Free link(UNIT_BALLISTA)",
+        "Name": "TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_BALLISTA",
@@ -2457,7 +2503,7 @@
       },
       {
         "zType": "BONUS_TECH_STIRRUPS_BONUS_HORSEMAN",
-        "zName": "Free link(UNIT_HORSEMAN)",
+        "Name": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_HORSEMAN",
@@ -2467,7 +2513,7 @@
       },
       {
         "zType": "BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
-        "zName": "Free link(UNIT_HORSE_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_HORSE_ARCHER",
@@ -2477,7 +2523,7 @@
       },
       {
         "zType": "BONUS_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "zName": "Civics Boost",
+        "Name": "TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
@@ -2487,7 +2533,7 @@
       },
       {
         "zType": "BONUS_TECH_MANOR_BONUS_GOODS",
-        "zName": "Goods Boost",
+        "Name": "TEXT_BONUS_TECH_MANOR_BONUS_GOODS",
         "aiGlobalYields": {
           "Pair": [
             {
@@ -2507,7 +2553,7 @@
       },
       {
         "zType": "BONUS_TECH_MACHINERY_BONUS_ONAGER",
-        "zName": "Free link(UNIT_ONAGER)",
+        "Name": "TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_ONAGER",
@@ -2517,7 +2563,7 @@
       },
       {
         "zType": "BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME",
-        "zName": "Free link(UNIT_TRIREME)",
+        "Name": "TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_TRIREME",
@@ -2527,17 +2573,30 @@
       },
       {
         "zType": "BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "zName": "New link(COURTIER_MERCHANT)",
+        "Name": "TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MERCHANT",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
+        "zType": "BONUS_TECH_VAULTING_BONUS_DISCONTENT",
+        "Name": "TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT",
+        "aeAllCityBonuses": {
+          "zValue": "BONUS_TECH_VAULTING_BONUS_DISCONTENT_ALL"
+        }
+      },
+      {
+        "zType": "BONUS_TECH_VAULTING_BONUS_DISCONTENT_ALL",
+        "iDiscontentLevels": "-1"
+      },
+      {
         "zType": "BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "zName": "Training Boost",
+        "Name": "TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -2547,17 +2606,19 @@
       },
       {
         "zType": "BONUS_TECH_COHORTS_BONUS_SOLDIER",
-        "zName": "New link(COURTIER_SOLDIER)",
+        "Name": "TEXT_BONUS_TECH_COHORTS_BONUS_SOLDIER",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_SOLDIER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
-        "zName": "Free link(UNIT_CROSSBOWMAN)",
+        "Name": "TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CROSSBOWMAN",
@@ -2567,7 +2628,7 @@
       },
       {
         "zType": "BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "zName": "Free link(UNIT_DROMON)",
+        "Name": "TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_DROMON",
@@ -2577,40 +2638,46 @@
       },
       {
         "zType": "BONUS_TECH_ECONOMIC_REFORM",
-        "zName": "New link(COURTIER_MERCHANT)",
+        "Name": "TEXT_BONUS_TECH_ECONOMIC_REFORM",
         "zIcon": "COURTIER_MERCHANT",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MERCHANT",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_MILITARY_PRESTIGE",
-        "zName": "New link(COURTIER_SOLDIER)",
+        "Name": "TEXT_BONUS_TECH_MILITARY_PRESTIGE",
         "zIcon": "COURTIER_SOLDIER",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_SOLDIER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_INDUSTRIAL_PROGRESS",
-        "zName": "New link(COURTIER_MINISTER)",
+        "Name": "TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS",
         "zIcon": "COURTIER_MINISTER",
         "AddCourtierForce": {
           "Pair": {
             "zIndex": "COURTIER_MINISTER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_TECH_BATTERING_RAM_UNIT",
-        "zName": "Free link(UNIT_BATTERING_RAM)",
+        "Name": "TEXT_BONUS_TECH_BATTERING_RAM_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_BATTERING_RAM",
@@ -2620,7 +2687,7 @@
       },
       {
         "zType": "BONUS_TECH_SIEGE_TOWER_UNIT",
-        "zName": "Free link(UNIT_SIEGE_TOWER)",
+        "Name": "TEXT_BONUS_TECH_SIEGE_TOWER_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_SIEGE_TOWER",
@@ -2630,7 +2697,7 @@
       },
       {
         "zType": "BONUS_TECH_AKKADIAN_ARCHER_UNIT",
-        "zName": "Free link(UNIT_AKKADIAN_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_AKKADIAN_ARCHER",
@@ -2640,7 +2707,7 @@
       },
       {
         "zType": "BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
-        "zName": "Free link(UNIT_CIMMERIAN_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CIMMERIAN_ARCHER",
@@ -2650,7 +2717,7 @@
       },
       {
         "zType": "BONUS_TECH_AFRICAN_ELEPHANT_UNIT",
-        "zName": "Free link(UNIT_AFRICAN_ELEPHANT)",
+        "Name": "TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_AFRICAN_ELEPHANT",
@@ -2660,7 +2727,7 @@
       },
       {
         "zType": "BONUS_TECH_TURRETED_ELEPHANT_UNIT",
-        "zName": "Free link(UNIT_TURRETED_ELEPHANT)",
+        "Name": "TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_TURRETED_ELEPHANT",
@@ -2670,7 +2737,7 @@
       },
       {
         "zType": "BONUS_TECH_LIGHT_CHARIOT_UNIT",
-        "zName": "Free link(UNIT_LIGHT_CHARIOT)",
+        "Name": "TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_LIGHT_CHARIOT",
@@ -2680,7 +2747,7 @@
       },
       {
         "zType": "BONUS_TECH_KUSHITE_CAVALRY_UNIT",
-        "zName": "Free link(UNIT_KUSHITE_CAVALRY)",
+        "Name": "TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_KUSHITE_CAVALRY",
@@ -2690,7 +2757,7 @@
       },
       {
         "zType": "BONUS_TECH_HOPLITE_UNIT",
-        "zName": "Free link(UNIT_HOPLITE)",
+        "Name": "TEXT_BONUS_TECH_HOPLITE_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_HOPLITE",
@@ -2700,7 +2767,7 @@
       },
       {
         "zType": "BONUS_TECH_PHALANGITE_UNIT",
-        "zName": "Free link(UNIT_PHALANGITE)",
+        "Name": "TEXT_BONUS_TECH_PHALANGITE_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_PHALANGITE",
@@ -2710,7 +2777,7 @@
       },
       {
         "zType": "BONUS_TECH_PALTON_CAVALRY_UNIT",
-        "zName": "Free link(UNIT_PALTON_CAVALRY)",
+        "Name": "TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_PALTON_CAVALRY",
@@ -2720,7 +2787,7 @@
       },
       {
         "zType": "BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
-        "zName": "Free link(UNIT_CATAPHRACT_ARCHER)",
+        "Name": "TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CATAPHRACT_ARCHER",
@@ -2730,7 +2797,7 @@
       },
       {
         "zType": "BONUS_TECH_HASTATUS_UNIT",
-        "zName": "Free link(UNIT_HASTATUS)",
+        "Name": "TEXT_BONUS_TECH_HASTATUS_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_HASTATUS",
@@ -2740,7 +2807,7 @@
       },
       {
         "zType": "BONUS_TECH_LEGIONARY_UNIT",
-        "zName": "Free link(UNIT_LEGIONARY)",
+        "Name": "TEXT_BONUS_TECH_LEGIONARY_UNIT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_LEGIONARY",
@@ -2758,8 +2825,35 @@
         }
       },
       {
+        "zType": "BONUS_YIELD_CIVICS",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "100"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_YIELD_TRAINING",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "200"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_YIELD_MONEY",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "300"
+          }
+        }
+      },
+      {
         "zType": "BONUS_YIELD_ORDERS",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
             "iValue": "5"
@@ -2768,7 +2862,7 @@
       },
       {
         "zType": "BONUS_YIELD_FOOD",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "50"
@@ -2777,7 +2871,7 @@
       },
       {
         "zType": "BONUS_YIELD_WOOD",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "50"
@@ -2786,7 +2880,7 @@
       },
       {
         "zType": "BONUS_YIELD_STONE",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "50"
@@ -2795,19 +2889,10 @@
       },
       {
         "zType": "BONUS_YIELD_IRON",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_IRON",
             "iValue": "50"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_YIELD_MONEY",
-        "aiGlobalYieldsBase": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "100"
           }
         }
       },
@@ -2817,7 +2902,7 @@
       },
       {
         "zType": "BONUS_EVENTCITY_CIVICS_BOOM",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
             "iValue": "200"
@@ -2826,7 +2911,7 @@
       },
       {
         "zType": "BONUS_EVENTCITY_TRAINING_BOOM",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
             "iValue": "200"
@@ -2835,7 +2920,7 @@
       },
       {
         "zType": "BONUS_EVENTCITY_SCIENCE_BOOM",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
             "iValue": "200"
@@ -2844,7 +2929,7 @@
       },
       {
         "zType": "BONUS_EVENTCITY_MONEY_BOOM",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
             "iValue": "400"
@@ -2853,7 +2938,7 @@
       },
       {
         "zType": "BONUS_EVENTCITY_ORDERS_BOOM",
-        "aiGlobalYieldsBase": {
+        "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
             "iValue": "6"
@@ -2865,7 +2950,9 @@
         "AddCourtier": {
           "Pair": {
             "zIndex": "COURTIER_SOLDIER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -2874,7 +2961,9 @@
         "AddCourtier": {
           "Pair": {
             "zIndex": "COURTIER_MINISTER",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -2883,7 +2972,9 @@
         "AddCourtier": {
           "Pair": {
             "zIndex": "COURTIER_MERCHANT",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -2892,17 +2983,15 @@
         "AddCourtier": {
           "Pair": {
             "zIndex": "COURTIER_SCIENTIST",
-            "zValue": "NONE"
+            "zValue": {
+              
+            }
           }
         }
       },
       {
         "zType": "BONUS_DIVORCE_SUBJECT",
         "iDivorcedBySubject": "0"
-      },
-      {
-        "zType": "BONUS_ADOPT_RELIGION",
-        "bAdoptReligion": "1"
       },
       {
         "zType": "BONUS_STATE_RELIGION",
@@ -2924,7 +3013,8 @@
         "bKillCharacter": "1"
       },
       {
-        "zType": "BONUS_KILL_CHARACTER_EXPOSED",
+        "zType": "BONUS_KILL_CHARACTER_MURDERED",
+        "AddLeaderRelationship": "RELATIONSHIP_ASSASSINATED_BY",
         "bKillCharacter": "1",
         "aeBonuses": {
           "zValue": "BONUS_ASSASSINATION_EXPOSED"
@@ -2937,7 +3027,7 @@
       },
       {
         "zType": "BONUS_ABDICATE",
-        "zName": "Abdication",
+        "Name": "TEXT_BONUS_ABDICATE",
         "iLegitimacy": "-10",
         "bAbdicate": "1"
       },
@@ -3124,7 +3214,7 @@
       },
       {
         "zType": "BONUS_ZOROASTRIANISM_DISCIPLE",
-        "zName": "Free link(UNIT_ZOROASTRIANISM_DISCIPLE)",
+        "Name": "TEXT_BONUS_ZOROASTRIANISM_DISCIPLE",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_ZOROASTRIANISM_DISCIPLE",
@@ -3134,7 +3224,7 @@
       },
       {
         "zType": "BONUS_JUDAISM_DISCIPLE",
-        "zName": "Free link(UNIT_JUDAISM_DISCIPLE)",
+        "Name": "TEXT_BONUS_JUDAISM_DISCIPLE",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_JUDAISM_DISCIPLE",
@@ -3144,7 +3234,7 @@
       },
       {
         "zType": "BONUS_CHRISTIANITY_DISCIPLE",
-        "zName": "Free link(UNIT_CHRISTIANITY_DISCIPLE)",
+        "Name": "TEXT_BONUS_CHRISTIANITY_DISCIPLE",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CHRISTIANITY_DISCIPLE",
@@ -3154,7 +3244,7 @@
       },
       {
         "zType": "BONUS_MANICHAEISM_DISCIPLE",
-        "zName": "Free link(UNIT_MANICHAEISM_DISCIPLE)",
+        "Name": "TEXT_BONUS_MANICHAEISM_DISCIPLE",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_MANICHAEISM_DISCIPLE",
@@ -6226,13 +6316,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-10"
+            "iValue": "-25"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-2"
+            "iValue": "-5"
           }
         }
       },
@@ -6241,13 +6331,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-25"
+            "iValue": "-50"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-5"
+            "iValue": "-10"
           }
         }
       },
@@ -6256,13 +6346,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-50"
+            "iValue": "-75"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-10"
+            "iValue": "-15"
           }
         }
       },
@@ -6271,13 +6361,28 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-75"
+            "iValue": "-100"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "-15"
+            "iValue": "-20"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_GIVE_SCIENCE_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "-150"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "-30"
           }
         }
       },
@@ -6286,13 +6391,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-25"
+            "iValue": "-50"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-5"
+            "iValue": "-10"
           }
         }
       },
@@ -6301,13 +6406,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-50"
+            "iValue": "-75"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-10"
+            "iValue": "-15"
           }
         }
       },
@@ -6316,13 +6421,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-75"
+            "iValue": "-100"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-15"
+            "iValue": "-20"
           }
         }
       },
@@ -6331,33 +6436,33 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-100"
+            "iValue": "-150"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "-20"
+            "iValue": "-30"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_GIVE_CIVICS_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "-200"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "-40"
           }
         }
       },
       {
         "zType": "BONUS_TRIBUTE_GIVE_TRAINING_SMALL",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "-50"
-          }
-        },
-        "aiYieldsTributePerUs": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "-10"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_GIVE_TRAINING_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -6372,7 +6477,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_TRAINING_LARGE",
+        "zType": "BONUS_TRIBUTE_GIVE_TRAINING_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -6383,6 +6488,21 @@
           "Pair": {
             "zIndex": "YIELD_TRAINING",
             "iValue": "-20"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_GIVE_TRAINING_LARGE",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-150"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-30"
           }
         }
       },
@@ -6391,13 +6511,28 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
-            "iValue": "-150"
+            "iValue": "-200"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
-            "iValue": "-30"
+            "iValue": "-40"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_GIVE_TRAINING_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-300"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-60"
           }
         }
       },
@@ -6406,21 +6541,6 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "-100"
-          }
-        },
-        "aiYieldsTributePerUs": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "-20"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_GIVE_MONEY_AVERAGE",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
             "iValue": "-150"
           }
         },
@@ -6432,7 +6552,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_MONEY_LARGE",
+        "zType": "BONUS_TRIBUTE_GIVE_MONEY_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6447,7 +6567,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_MONEY_HUGE",
+        "zType": "BONUS_TRIBUTE_GIVE_MONEY_LARGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6462,7 +6582,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_MONEY_GIGANTIC",
+        "zType": "BONUS_TRIBUTE_GIVE_MONEY_HUGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6473,6 +6593,21 @@
           "Pair": {
             "zIndex": "YIELD_MONEY",
             "iValue": "-80"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_GIVE_MONEY_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "-500"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "-100"
           }
         }
       },
@@ -6537,17 +6672,32 @@
         }
       },
       {
+        "zType": "BONUS_TRIBUTE_GIVE_ORDERS_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-75"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-15"
+          }
+        }
+      },
+      {
         "zType": "BONUS_TRIBUTE_GIVE_FOOD_SMALL",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-20"
+            "iValue": "-50"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-4"
+            "iValue": "-10"
           }
         }
       },
@@ -6556,13 +6706,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-50"
+            "iValue": "-100"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         }
       },
@@ -6571,13 +6721,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-100"
+            "iValue": "-150"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-20"
+            "iValue": "-30"
           }
         }
       },
@@ -6586,13 +6736,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-150"
+            "iValue": "-200"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "-30"
+            "iValue": "-40"
           }
         }
       },
@@ -6601,13 +6751,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-20"
+            "iValue": "-50"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-4"
+            "iValue": "-10"
           }
         }
       },
@@ -6616,13 +6766,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-50"
+            "iValue": "-100"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         }
       },
@@ -6631,13 +6781,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-100"
+            "iValue": "-150"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-20"
+            "iValue": "-30"
           }
         }
       },
@@ -6646,13 +6796,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-150"
+            "iValue": "-200"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "-30"
+            "iValue": "-40"
           }
         }
       },
@@ -6661,13 +6811,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "-20"
+            "iValue": "-50"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "-4"
+            "iValue": "-10"
           }
         }
       },
@@ -6676,13 +6826,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "-50"
+            "iValue": "-100"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         }
       },
@@ -6691,21 +6841,6 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "-100"
-          }
-        },
-        "aiYieldsTributePerUs": {
-          "Pair": {
-            "zIndex": "YIELD_WOOD",
-            "iValue": "-20"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_GIVE_WOOD_HUGE",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_WOOD",
             "iValue": "-150"
           }
         },
@@ -6717,22 +6852,22 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_STONE_SMALL",
+        "zType": "BONUS_TRIBUTE_GIVE_WOOD_HUGE",
         "aiYieldsTributeBase": {
           "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-20"
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-200"
           }
         },
         "aiYieldsTributePerUs": {
           "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-4"
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-40"
           }
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_STONE_AVERAGE",
+        "zType": "BONUS_TRIBUTE_GIVE_STONE_SMALL",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -6747,7 +6882,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_STONE_LARGE",
+        "zType": "BONUS_TRIBUTE_GIVE_STONE_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -6762,7 +6897,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_GIVE_STONE_HUGE",
+        "zType": "BONUS_TRIBUTE_GIVE_STONE_LARGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -6777,17 +6912,32 @@
         }
       },
       {
+        "zType": "BONUS_TRIBUTE_GIVE_STONE_HUGE",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-200"
+          }
+        },
+        "aiYieldsTributePerUs": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-40"
+          }
+        }
+      },
+      {
         "zType": "BONUS_TRIBUTE_RECEIVE_SCIENCE_SMALL",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "10"
+            "iValue": "25"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "2"
+            "iValue": "5"
           }
         }
       },
@@ -6796,13 +6946,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "25"
+            "iValue": "50"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "5"
+            "iValue": "10"
           }
         }
       },
@@ -6811,13 +6961,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "50"
+            "iValue": "75"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "10"
+            "iValue": "15"
           }
         }
       },
@@ -6826,13 +6976,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "25"
+            "iValue": "50"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "5"
+            "iValue": "10"
           }
         }
       },
@@ -6841,13 +6991,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "50"
+            "iValue": "75"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
+            "iValue": "15"
           }
         }
       },
@@ -6856,13 +7006,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "75"
+            "iValue": "100"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "15"
+            "iValue": "20"
           }
         }
       },
@@ -6871,21 +7021,6 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
-            "iValue": "50"
-          }
-        },
-        "aiYieldsTributePerThem": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "10"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
             "iValue": "75"
           }
         },
@@ -6897,7 +7032,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_RECEIVE_TRAINING_LARGE",
+        "zType": "BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -6908,26 +7043,26 @@
           "Pair": {
             "zIndex": "YIELD_TRAINING",
             "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_RECEIVE_TRAINING_LARGE",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "150"
+          }
+        },
+        "aiYieldsTributePerThem": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "30"
           }
         }
       },
       {
         "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_SMALL",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "100"
-          }
-        },
-        "aiYieldsTributePerThem": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6942,7 +7077,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_LARGE",
+        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6957,7 +7092,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_HUGE",
+        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_LARGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6972,7 +7107,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_GIGANTIC",
+        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_HUGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -6983,6 +7118,21 @@
           "Pair": {
             "zIndex": "YIELD_MONEY",
             "iValue": "80"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_RECEIVE_MONEY_GIGANTIC",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "500"
+          }
+        },
+        "aiYieldsTributePerThem": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
           }
         }
       },
@@ -7036,13 +7186,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "20"
+            "iValue": "50"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "4"
+            "iValue": "10"
           }
         }
       },
@@ -7051,13 +7201,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "50"
+            "iValue": "100"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -7066,13 +7216,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "100"
+            "iValue": "150"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
-            "iValue": "20"
+            "iValue": "30"
           }
         }
       },
@@ -7081,13 +7231,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "20"
+            "iValue": "50"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "4"
+            "iValue": "10"
           }
         }
       },
@@ -7096,13 +7246,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "50"
+            "iValue": "100"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -7111,13 +7261,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "100"
+            "iValue": "150"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_IRON",
-            "iValue": "20"
+            "iValue": "50"
           }
         }
       },
@@ -7126,13 +7276,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "20"
+            "iValue": "50"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "4"
+            "iValue": "10"
           }
         }
       },
@@ -7141,13 +7291,13 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "50"
+            "iValue": "100"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -7156,33 +7306,18 @@
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "100"
+            "iValue": "150"
           }
         },
         "aiYieldsTributePerThem": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
-            "iValue": "20"
+            "iValue": "50"
           }
         }
       },
       {
         "zType": "BONUS_TRIBUTE_RECEIVE_STONE_SMALL",
-        "aiYieldsTributeBase": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "20"
-          }
-        },
-        "aiYieldsTributePerThem": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "4"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -7197,7 +7332,7 @@
         }
       },
       {
-        "zType": "BONUS_TRIBUTE_RECEIVE_STONE_LARGE",
+        "zType": "BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE",
         "aiYieldsTributeBase": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -7208,6 +7343,21 @@
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TRIBUTE_RECEIVE_STONE_LARGE",
+        "aiYieldsTributeBase": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "150"
+          }
+        },
+        "aiYieldsTributePerThem": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "50"
           }
         }
       },
@@ -7252,8 +7402,8 @@
         "AddLeaderRelationship": "RELATIONSHIP_IN_LOVE_WITH"
       },
       {
-        "zType": "BONUS_LEADER_ALLIED_WITH",
-        "AddLeaderRelationship": "RELATIONSHIP_ALLIED_WITH"
+        "zType": "BONUS_LEADER_CONSPIRING_WITH",
+        "AddLeaderRelationship": "RELATIONSHIP_CONSPIRING_WITH"
       },
       {
         "zType": "BONUS_LEADER_LOVER_OF",
@@ -7268,12 +7418,12 @@
         "AddLeaderRelationship": "RELATIONSHIP_TERRIFIED_OF"
       },
       {
-        "zType": "BONUS_LEADER_INFLUENCED_BY",
-        "AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
+        "zType": "BONUS_LEADER_INTERCEDED_FOR",
+        "AddLeaderRelationship": "RELATIONSHIP_INTERCEDED_FOR"
       },
       {
-        "zType": "BONUS_LEADER_INTERCESSED_FOR",
-        "AddLeaderRelationship": "RELATIONSHIP_INTERCESSED_FOR"
+        "zType": "BONUS_LEADER_INFLUENCED_BY",
+        "AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
       },
       {
         "zType": "BONUS_LEADER_HOLDS_FAVOR_FROM",
@@ -7320,8 +7470,8 @@
         "RemoveLeaderRelationship": "RELATIONSHIP_IN_LOVE_WITH"
       },
       {
-        "zType": "BONUS_LEADER_ALLIED_WITH_REMOVE",
-        "RemoveLeaderRelationship": "RELATIONSHIP_ALLIED_WITH"
+        "zType": "BONUS_LEADER_CONSPIRING_WITH_REMOVE",
+        "RemoveLeaderRelationship": "RELATIONSHIP_CONSPIRING_WITH"
       },
       {
         "zType": "BONUS_LEADER_LOVER_OF_REMOVE",
@@ -7340,8 +7490,8 @@
         "RemoveLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
       },
       {
-        "zType": "BONUS_LEADER_INTERCESSED_FOR_REMOVE",
-        "RemoveLeaderRelationship": "RELATIONSHIP_INTERCESSED_FOR"
+        "zType": "BONUS_LEADER_INTERCEDED_FOR_REMOVE",
+        "RemoveLeaderRelationship": "RELATIONSHIP_INTERCEDED_FOR"
       },
       {
         "zType": "BONUS_LEADER_HOLDS_FAVOR_FROM_REMOVE",
@@ -7384,14 +7534,14 @@
         "RemoveLeaderRelationship": "RELATIONSHIP_DIVORCED_BY"
       },
       {
-        "zType": "BONUS_GIVE_TRAIT_INTOLERANT",
+        "zType": "BONUS_GIVE_TRAIT_AFFABLE",
         "aeAddTraits": {
-          "zValue": "TRAIT_INTOLERANT"
+          "zValue": "TRAIT_AFFABLE"
         }
       },
       {
-        "zType": "BONUS_GIVE_TRAIT_AFFABLE",
-        "aeAddTraits": {
+        "zType": "BONUS_REMOVE_TRAIT_AFFABLE",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_AFFABLE"
         }
       },
@@ -7402,8 +7552,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_ELOQUENT",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_ELOQUENT"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_WARLIKE",
         "aeAddTraits": {
+          "zValue": "TRAIT_WARLIKE"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_WARLIKE",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_WARLIKE"
         }
       },
@@ -7414,8 +7576,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_INSPIRING",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_INSPIRING"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_INTELLIGENT",
         "aeAddTraits": {
+          "zValue": "TRAIT_INTELLIGENT"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_INTELLIGENT",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_INTELLIGENT"
         }
       },
@@ -7426,8 +7600,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_PROSPEROUS",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_PROSPEROUS"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_FRUGAL",
         "aeAddTraits": {
+          "zValue": "TRAIT_FRUGAL"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_FRUGAL",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_FRUGAL"
         }
       },
@@ -7444,6 +7630,12 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_CRUEL",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_CRUEL"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_CRUEL",
         "aeAddTraits": {
           "zValue": "TRAIT_CRUEL"
@@ -7456,8 +7648,32 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_SLOTHFUL",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_SLOTHFUL"
+        }
+      },
+      {
+        "zType": "BONUS_GIVE_TRAIT_INTOLERANT",
+        "aeAddTraits": {
+          "zValue": "TRAIT_INTOLERANT"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_INTOLERANT",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_INTOLERANT"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_UNCOUTH",
         "aeAddTraits": {
+          "zValue": "TRAIT_UNCOUTH"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_UNCOUTH",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_UNCOUTH"
         }
       },
@@ -7468,8 +7684,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_FOOLISH",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_FOOLISH"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_EXTRAVAGANT",
         "aeAddTraits": {
+          "zValue": "TRAIT_EXTRAVAGANT"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_EXTRAVAGANT",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_EXTRAVAGANT"
         }
       },
@@ -7480,8 +7708,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_CORRUPT",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_CORRUPT"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_DEBAUCHED",
         "aeAddTraits": {
+          "zValue": "TRAIT_DEBAUCHED"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_DEBAUCHED",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_DEBAUCHED"
         }
       },
@@ -7492,14 +7732,32 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_ROBUST",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_ROBUST"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_VIGILANT",
         "aeAddTraits": {
           "zValue": "TRAIT_VIGILANT"
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_VIGILANT",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_VIGILANT"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_STRICT",
         "aeAddTraits": {
+          "zValue": "TRAIT_STRICT"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_STRICT",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_STRICT"
         }
       },
@@ -7576,6 +7834,12 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_BLOODTHIRSTY",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_BLOODTHIRSTY"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_HECKLER",
         "aeAddTraits": {
           "zValue": "TRAIT_HECKLER"
@@ -7642,14 +7906,32 @@
         }
       },
       {
-        "zType": "BONUS_GIVE_TRAIT_COWARDLY",
+        "zType": "BONUS_REMOVE_TRAIT_BOLD",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_BOLD"
+        }
+      },
+      {
+        "zType": "BONUS_GIVE_TRAIT_TIMID",
         "aeAddTraits": {
-          "zValue": "TRAIT_COWARDLY"
+          "zValue": "TRAIT_TIMID"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_TIMID",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_TIMID"
         }
       },
       {
         "zType": "BONUS_GIVE_TRAIT_GRACIOUS",
         "aeAddTraits": {
+          "zValue": "TRAIT_GRACIOUS"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_GRACIOUS",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_GRACIOUS"
         }
       },
@@ -7660,8 +7942,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_GREEDY",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_GREEDY"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_ROMANTIC",
         "aeAddTraits": {
+          "zValue": "TRAIT_ROMANTIC"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_ROMANTIC",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_ROMANTIC"
         }
       },
@@ -7672,8 +7966,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_BITTER",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_BITTER"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_EDUCATED",
         "aeAddTraits": {
+          "zValue": "TRAIT_EDUCATED"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_EDUCATED",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_EDUCATED"
         }
       },
@@ -7684,8 +7990,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_SUPERSTITIOUS",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_SUPERSTITIOUS"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_COMPASSIONATE",
         "aeAddTraits": {
+          "zValue": "TRAIT_COMPASSIONATE"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_COMPASSIONATE",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_COMPASSIONATE"
         }
       },
@@ -7696,8 +8014,20 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_RUTHLESS",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_RUTHLESS"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_PIOUS",
         "aeAddTraits": {
+          "zValue": "TRAIT_PIOUS"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_PIOUS",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_PIOUS"
         }
       },
@@ -7708,20 +8038,44 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_WANTON",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_WANTON"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_LOYAL",
         "aeAddTraits": {
           "zValue": "TRAIT_LOYAL"
         }
       },
       {
-        "zType": "BONUS_GIVE_TRAIT_CUNNING",
+        "zType": "BONUS_REMOVE_TRAIT_LOYAL",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_LOYAL"
+        }
+      },
+      {
+        "zType": "BONUS_GIVE_TRAIT_DECEITFUL",
         "aeAddTraits": {
-          "zValue": "TRAIT_CUNNING"
+          "zValue": "TRAIT_DECEITFUL"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_DECEITFUL",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_DECEITFUL"
         }
       },
       {
         "zType": "BONUS_GIVE_TRAIT_HUMBLE",
         "aeAddTraits": {
+          "zValue": "TRAIT_HUMBLE"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_HUMBLE",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_HUMBLE"
         }
       },
@@ -7732,8 +8086,32 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_PROUD",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_PROUD"
+        }
+      },
+      {
+        "zType": "BONUS_GIVE_TRAIT_CUNNING",
+        "aeAddTraits": {
+          "zValue": "TRAIT_CUNNING"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_CUNNING",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_CUNNING"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_WITTY",
         "aeAddTraits": {
+          "zValue": "TRAIT_WITTY"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_WITTY",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_WITTY"
         }
       },
@@ -7744,14 +8122,32 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_SPOILED",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_SPOILED"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_DRUNK",
         "aeAddTraits": {
           "zValue": "TRAIT_DRUNK"
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_DRUNK",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_DRUNK"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_INSANE",
         "aeAddTraits": {
+          "zValue": "TRAIT_INSANE"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_INSANE",
+        "aeRemoveTraits": {
           "zValue": "TRAIT_INSANE"
         }
       },
@@ -8098,14 +8494,26 @@
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_PET_MONKEY",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_PET_MONKEY"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_ARTIST",
         "aeAddTraits": {
           "zValue": "TRAIT_ARTIST"
         }
       },
       {
+        "zType": "BONUS_REMOVE_TRAIT_MONKEY_PAW",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_MONKEY_PAW"
+        }
+      },
+      {
         "zType": "BONUS_PROJECT_PROTECTION_EDICTS",
-        "zName": "Issued protection edicts",
+        "Name": "TEXT_BONUS_PROJECT_PROTECTION_EDICTS",
         "iLegitimacy": "2",
         "aeAddProjects": {
           "zValue": "PROJECT_PROTECTION_EDICTS"
@@ -8113,10 +8521,30 @@
       },
       {
         "zType": "BONUS_PROJECT_ROYAL_INSCRIPTIONS",
-        "zName": "Erected royal inscriptions",
+        "Name": "TEXT_BONUS_PROJECT_ROYAL_INSCRIPTIONS",
         "iLegitimacy": "2",
         "aeAddProjects": {
           "zValue": "PROJECT_ROYAL_INSCRIPTIONS"
+        }
+      },
+      {
+        "zType": "BONUS_PROJECT_CORRUPTION_REFORM",
+        "Name": "TEXT_BONUS_PROJECT_CORRUPTION_REFORM",
+        "iLegitimacy": "2",
+        "aeAddProjects": {
+          "zValue": "PROJECT_CORRUPTION_REFORM"
+        }
+      },
+      {
+        "zType": "BONUS_PROJECT_DEN_OF_VICE",
+        "aeAddProjects": {
+          "zValue": "PROJECT_DEN_OF_VICE"
+        }
+      },
+      {
+        "zType": "BONUS_PROJECT_MERCHANT_TOWN",
+        "aeAddProjects": {
+          "zValue": "PROJECT_MERCHANT_TOWN"
         }
       },
       {
@@ -8281,13 +8709,11 @@
       },
       {
         "zType": "BONUS_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
-        "Achievement": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
-        "bKillCharacter": "1"
+        "Achievement": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER"
       },
       {
         "zType": "BONUS_ACHIEVEMENT_ASSASSINATED_HEIR",
-        "Achievement": "ACHIEVEMENT_ASSASSINATED_HEIR",
-        "bKillCharacter": "1"
+        "Achievement": "ACHIEVEMENT_ASSASSINATED_HEIR"
       },
       {
         "zType": "BONUS_ACHIEVEMENT_BLADE_OF_THE_MONKEY",
@@ -8423,12 +8849,50 @@
         "Achievement": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST"
       },
       {
+        "zType": "BONUS_ACHIEVEMENT_FERTILE_CRESCENT",
+        "Achievement": "ACHIEVEMENT_FERTILE_CRESCENT"
+      },
+      {
         "zType": "BONUS_ACHIEVEMENT_CLEOPATRAS_LOVE",
         "Achievement": "ACHIEVEMENT_CLEOPATRAS_LOVE"
       },
       {
         "zType": "BONUS_ACHIEVEMENT_ALEXANDER_THE_WHO",
         "Achievement": "ACHIEVEMENT_ALEXANDER_THE_WHO"
+      },
+      {
+        "zType": "BONUS_ACHIEVEMENT_ET_TU_BRUTUS",
+        "Achievement": "ACHIEVEMENT_ET_TU_BRUTUS",
+        "bKillCharacter": "1"
+      },
+      {
+        "zType": "BONUS_TRIBAL_INVASION_LEGITIMACY",
+        "Name": "TEXT_BONUS_TRIBAL_INVASION_LEGITIMACY",
+        "iLegitimacy": "10",
+        "bTribeInvade": "1",
+        "aeBonuses": {
+          "zValue": "BONUS_TRIBE_OFFER"
+        }
+      },
+      {
+        "zType": "BONUS_TRIBE_WAR_LEGITIMACY",
+        "Name": "TEXT_BONUS_TRIBE_WAR_LEGITIMACY",
+        "DiplomacyTribe": "DIPLOMACY_WAR",
+        "iLegitimacy": "5",
+        "aeBonuses": {
+          "zValue": "BONUS_TRIBE_OFFER"
+        }
+      },
+      {
+        "zType": "BONUS_ADOPT_RELIGION",
+        "bAdoptReligion": "1"
+      },
+      {
+        "zType": "BONUS_PLAYER_ALLIANCE_END",
+        "bTeamAllianceEnd": "1",
+        "aeBonuses": {
+          "zValue": "BONUS_PLAYER_OFFER"
+        }
       }
     ]
   }

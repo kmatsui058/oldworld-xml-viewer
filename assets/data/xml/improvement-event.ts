@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "Hint": {
+          
+        },
         "Class": {
           
         },
@@ -16,6 +19,9 @@
           
         },
         "AssetConstruction": {
+          
+        },
+        "WorkerAnimation": {
           
         },
         "zIconName": {
@@ -75,9 +81,6 @@
         "iUnitTurns": {
           
         },
-        "iUnitReligionDie": {
-          
-        },
         "iUnitHeal": {
           
         },
@@ -102,9 +105,6 @@
         "bRequiresUrban": {
           
         },
-        "bTradeNetwork": {
-          
-        },
         "bSpreadsBorders": {
           
         },
@@ -124,6 +124,9 @@
           
         },
         "bRotateTowardsLand": {
+          
+        },
+        "bRotateToRiverEdge": {
           
         },
         "bCoastLandValid": {
@@ -246,15 +249,6 @@
         "aiYieldRiverModifier": {
           
         },
-        "aiTerrainModifier": {
-          
-        },
-        "aiHeightModifier": {
-          
-        },
-        "aiAdjacentHeightModifier": {
-          
-        },
         "aiAdjacentImprovementModifier": {
           
         },
@@ -279,6 +273,9 @@
         "abHeightValid": {
           
         },
+        "abHeightInvalid": {
+          
+        },
         "abHeightAdjacentValid": {
           
         },
@@ -291,10 +288,10 @@
         "aeResourceAssetVariation": {
           
         },
-        "aeUnitDefend": {
+        "aeTribeUnitDefend": {
           
         },
-        "aaiImprovementClassYieldOutput": {
+        "aaiAdjacentImprovementClassYield": {
           
         },
         "aaiTerrainYieldModifier": {
@@ -304,9 +301,6 @@
           
         },
         "aaiAdjacentHeightYieldModifier": {
-          
-        },
-        "aaiAdjacentImprovementYieldModifier": {
           
         },
         "aaiTribeUnitDie": {
@@ -435,8 +429,8 @@
       {
         "zType": "IMPROVEMENT_FOREST_FIRE_TOMB",
         "Name": "TEXT_IMPROVEMENT_FOREST_FIRE_TOMB",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_RUINS",
-        "zIconName": "IMPROVEMENT_RUINS",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_UNDERWORLD",
+        "zIconName": "IMPROVEMENT_SHRINE_UNDERWORLD",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
@@ -473,8 +467,8 @@
       {
         "zType": "IMPROVEMENT_FOREST_FIRE_MONUMENT",
         "Name": "TEXT_IMPROVEMENT_FOREST_FIRE_MONUMENT",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_RUINS",
-        "zIconName": "IMPROVEMENT_RUINS",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_WAR",
+        "zIconName": "IMPROVEMENT_SHRINE_WAR",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
@@ -517,8 +511,8 @@
       {
         "zType": "IMPROVEMENT_GODS_CONSORT_SHRINE",
         "Name": "TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE",
-        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_UNDERWORLD",
-        "zIconName": "IMPROVEMENT_SHRINE_UNDERWORLD",
+        "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_SHRINE_LOVE",
+        "zIconName": "IMPROVEMENT_SHRINE_LOVE",
         "iPillageTurns": "10",
         "bTerritoryOnly": "1",
         "bUrban": "1",

@@ -10,6 +10,8 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   Nickname?: ZType | string;
+  GainTexts?: GainTexts;
+  LoseTexts?: GainTexts;
   zIconName?: ZType | string;
   iMinAge?: ZType | string;
   iAdjectiveDie?: ZType | string;
@@ -33,6 +35,8 @@ export interface Entry {
   iOpinionCognomen?: ZType | string;
   iOpinionTrades?: ZType | string;
   iBirthModifier?: ZType | string;
+  iTribeAllianceModifier?: ZType | string;
+  iAllianceModifier?: ZType | string;
   iPeaceModifier?: ZType | string;
   iTruceModifier?: ZType | string;
   iWarModifier?: ZType | string;
@@ -44,6 +48,7 @@ export interface Entry {
   bNoEvents?: ZType | string;
   bNoMissions?: ZType | string;
   bNoMarry?: ZType | string;
+  bNoSpouse?: ZType | string;
   bNoBirth?: ZType | string;
   bNoHeir?: ZType | string;
   bNoJob?: ZType | string;
@@ -57,11 +62,11 @@ export interface Entry {
   bRemoveDeath?: ZType | string;
   bDoomed?: ZType | string;
   bGiveBirth?: ZType;
-  bTeamAlliance?: ZType | string;
   LeaderEffectPlayer?: ZType | string;
   GovernorEffectCity?: ZType | string;
   GeneralEffectUnit?: ZType | string;
   LeaderEffectUnit?: ZType | string;
+  AdjacentEffectUnit?: ZType;
   MemoryCharacter?: ZType | string;
   aiRating?: AiRating;
   aiTraitOpinion?: AiTraitOpinion;
@@ -70,15 +75,12 @@ export interface Entry {
   aiMortalityDieProb?: AiMortalityDieProb;
   aiDecadeProb?: AiDecadeProb;
   abSkipDecade?: AbSkipDecade;
-  aeTraitInvalid?: AeTraitInvalid;
+  aeTraitInvalid?: GainTexts;
   aePositiveRating?: AePositiveRating;
   aeNegativeRating?: AePositiveRating;
 }
 export interface AePositiveRating {
   zValue?: string;
-}
-export interface AeTraitInvalid {
-  zValue?: string[] | string;
 }
 export interface AbSkipDecade {
   Pair?: Pair2;
@@ -102,6 +104,9 @@ export interface AiRating {
 export interface Pair {
   zIndex: string;
   iValue: string;
+}
+export interface GainTexts {
+  zValue?: string[] | string;
 }
 export interface ZType {
 }

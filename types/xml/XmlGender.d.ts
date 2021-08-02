@@ -8,13 +8,12 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   bMasculine: ZType | string;
   iMaxFertile: ZType | string;
   iMaxSpouseAgeDifference: ZType | string;
   iMarriageDelayTurns: ZType | string;
-  GeneralFormation: ZType | string;
-  zLeaderTitle: ZType | string;
+  LeaderTitle: ZType | string;
 }
 export interface ZType {
 }

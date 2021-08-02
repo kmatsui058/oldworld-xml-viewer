@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iLegitimacy": {
@@ -24,16 +24,16 @@
       },
       {
         "zType": "COGNOMEN_NEW",
-        "zName": "the New"
+        "Name": "TEXT_COGNOMEN_NEW"
       },
       {
         "zType": "COGNOMEN_FOUNDER",
-        "zName": "the Founder",
+        "Name": "TEXT_COGNOMEN_FOUNDER",
         "iLegitimacy": "10"
       },
       {
         "zType": "COGNOMEN_WARRIOR",
-        "zName": "the Warrior",
+        "Name": "TEXT_COGNOMEN_WARRIOR",
         "iLegitimacy": "10",
         "iMinValue": "1000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WARRIOR",
@@ -56,7 +56,7 @@
       },
       {
         "zType": "COGNOMEN_BRAVE",
-        "zName": "the Drillmaster",
+        "Name": "TEXT_COGNOMEN_BRAVE",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BRAVE",
@@ -79,7 +79,7 @@
       },
       {
         "zType": "COGNOMEN_VALIANT",
-        "zName": "the Valiant",
+        "Name": "TEXT_COGNOMEN_VALIANT",
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_VALIANT",
@@ -102,7 +102,7 @@
       },
       {
         "zType": "COGNOMEN_MIGHTY",
-        "zName": "the Mighty",
+        "Name": "TEXT_COGNOMEN_MIGHTY",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MIGHTY",
@@ -125,7 +125,7 @@
       },
       {
         "zType": "COGNOMEN_VICTORIOUS",
-        "zName": "the Victorious",
+        "Name": "TEXT_COGNOMEN_VICTORIOUS",
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
@@ -148,7 +148,7 @@
       },
       {
         "zType": "COGNOMEN_LION",
-        "zName": "the Lion",
+        "Name": "TEXT_COGNOMEN_LION",
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LION",
@@ -171,7 +171,7 @@
       },
       {
         "zType": "COGNOMEN_INVINCIBLE",
-        "zName": "the Invincible",
+        "Name": "TEXT_COGNOMEN_INVINCIBLE",
         "iLegitimacy": "70",
         "iMinValue": "7000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
@@ -194,7 +194,7 @@
       },
       {
         "zType": "COGNOMEN_CAPABLE",
-        "zName": "the Capable",
+        "Name": "TEXT_COGNOMEN_CAPABLE",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_CAPABLE",
@@ -213,7 +213,7 @@
       },
       {
         "zType": "COGNOMEN_READY",
-        "zName": "the Ready",
+        "Name": "TEXT_COGNOMEN_READY",
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_READY",
@@ -232,7 +232,7 @@
       },
       {
         "zType": "COGNOMEN_DESTROYER",
-        "zName": "the Destroyer",
+        "Name": "TEXT_COGNOMEN_DESTROYER",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_DESTROYER",
@@ -245,7 +245,7 @@
       },
       {
         "zType": "COGNOMEN_AVENGER",
-        "zName": "the Avenger",
+        "Name": "TEXT_COGNOMEN_AVENGER",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_AVENGER",
@@ -258,7 +258,7 @@
       },
       {
         "zType": "COGNOMEN_WHITE_DEATH",
-        "zName": "the White Death",
+        "Name": "TEXT_COGNOMEN_WHITE_DEATH",
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
@@ -271,7 +271,7 @@
       },
       {
         "zType": "COGNOMEN_INTERCESSOR",
-        "zName": "the Intercessor",
+        "Name": "TEXT_COGNOMEN_INTERCESSOR",
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
@@ -286,6 +286,10 @@
               "iValue": "2000"
             },
             {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
+            },
+            {
               "zIndex": "STAT_TEAM_ALLIANCE",
               "iValue": "2000"
             }
@@ -294,7 +298,7 @@
       },
       {
         "zType": "COGNOMEN_PEACEMAKER",
-        "zName": "the Peacemaker",
+        "Name": "TEXT_COGNOMEN_PEACEMAKER",
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
@@ -309,6 +313,10 @@
               "iValue": "2000"
             },
             {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
+            },
+            {
               "zIndex": "STAT_TEAM_ALLIANCE",
               "iValue": "2000"
             }
@@ -317,7 +325,7 @@
       },
       {
         "zType": "COGNOMEN_CONQUEROR",
-        "zName": "the Conqueror",
+        "Name": "TEXT_COGNOMEN_CONQUEROR",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
@@ -336,7 +344,7 @@
       },
       {
         "zType": "COGNOMEN_SUBJUGATOR",
-        "zName": "the Subjugator",
+        "Name": "TEXT_COGNOMEN_SUBJUGATOR",
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
@@ -355,7 +363,7 @@
       },
       {
         "zType": "COGNOMEN_RESTORER",
-        "zName": "the Restorer",
+        "Name": "TEXT_COGNOMEN_RESTORER",
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_RESTORER",
@@ -368,7 +376,7 @@
       },
       {
         "zType": "COGNOMEN_LIBERATOR",
-        "zName": "the Liberator",
+        "Name": "TEXT_COGNOMEN_LIBERATOR",
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
@@ -381,7 +389,7 @@
       },
       {
         "zType": "COGNOMEN_SETTLER",
-        "zName": "the Settler",
+        "Name": "TEXT_COGNOMEN_SETTLER",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_SETTLER",
@@ -394,7 +402,7 @@
       },
       {
         "zType": "COGNOMEN_PIONEER",
-        "zName": "the Pioneer",
+        "Name": "TEXT_COGNOMEN_PIONEER",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_PIONEER",
@@ -407,7 +415,7 @@
       },
       {
         "zType": "COGNOMEN_AMBITIOUS",
-        "zName": "the Ambitious",
+        "Name": "TEXT_COGNOMEN_AMBITIOUS",
         "iLegitimacy": "20",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
@@ -426,7 +434,7 @@
       },
       {
         "zType": "COGNOMEN_BRILLIANT",
-        "zName": "the Brilliant",
+        "Name": "TEXT_COGNOMEN_BRILLIANT",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
@@ -445,7 +453,7 @@
       },
       {
         "zType": "COGNOMEN_BELOVED",
-        "zName": "the Beloved",
+        "Name": "TEXT_COGNOMEN_BELOVED",
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BELOVED",
@@ -464,7 +472,7 @@
       },
       {
         "zType": "COGNOMEN_REBUILDER",
-        "zName": "the Rebuilder",
+        "Name": "TEXT_COGNOMEN_REBUILDER",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_REBUILDER",
@@ -476,29 +484,10 @@
         }
       },
       {
-        "zType": "COGNOMEN_BUILDER",
-        "zName": "the Builder",
+        "zType": "COGNOMEN_MASON",
+        "Name": "TEXT_COGNOMEN_MASON",
         "iLegitimacy": "10",
         "iMinValue": "1000",
-        "Achievement": "ACHIEVEMENT_COGNOMEN_BUILDER",
-        "aiStatValue": {
-          "Pair": [
-            {
-              "zIndex": "STAT_IMPROVEMENT_FINISHED",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "STAT_WONDER_FINISHED",
-              "iValue": "2000"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "COGNOMEN_MASON",
-        "zName": "the Mason",
-        "iLegitimacy": "20",
-        "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MASON",
         "aiStatValue": {
           "Pair": [
@@ -515,9 +504,9 @@
       },
       {
         "zType": "COGNOMEN_ARCHITECT",
-        "zName": "the Architect",
-        "iLegitimacy": "40",
-        "iMinValue": "4000",
+        "Name": "TEXT_COGNOMEN_ARCHITECT",
+        "iLegitimacy": "20",
+        "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
         "aiStatValue": {
           "Pair": [
@@ -534,9 +523,9 @@
       },
       {
         "zType": "COGNOMEN_KEYSTONE",
-        "zName": "the Keystone",
-        "iLegitimacy": "60",
-        "iMinValue": "6000",
+        "Name": "TEXT_COGNOMEN_KEYSTONE",
+        "iLegitimacy": "40",
+        "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
         "aiStatValue": {
           "Pair": [
@@ -552,17 +541,32 @@
         }
       },
       {
+        "zType": "COGNOMEN_FOUNTAINHEAD",
+        "Name": "TEXT_COGNOMEN_FOUNTAINHEAD",
+        "iLegitimacy": "60",
+        "iMinValue": "6000",
+        "Achievement": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+        "aiStatValue": {
+          "Pair": [
+            {
+              "zIndex": "STAT_IMPROVEMENT_FINISHED",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_WONDER_FINISHED",
+              "iValue": "2000"
+            }
+          ]
+        }
+      },
+      {
         "zType": "COGNOMEN_DEVOUT",
-        "zName": "the Devout",
+        "Name": "TEXT_COGNOMEN_DEVOUT",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_DEVOUT",
         "aiStatValue": {
           "Pair": [
-            {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
             {
               "zIndex": "STAT_WORLD_RELIGION_FOUNDED",
               "iValue": "1500"
@@ -580,16 +584,12 @@
       },
       {
         "zType": "COGNOMEN_HOLY",
-        "zName": "the Holy",
+        "Name": "TEXT_COGNOMEN_HOLY",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_HOLY",
         "aiStatValue": {
           "Pair": [
-            {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
             {
               "zIndex": "STAT_WORLD_RELIGION_FOUNDED",
               "iValue": "1500"
@@ -607,7 +607,7 @@
       },
       {
         "zType": "COGNOMEN_EXPLORER",
-        "zName": "the Explorer",
+        "Name": "TEXT_COGNOMEN_EXPLORER",
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_EXPLORER",
@@ -646,7 +646,7 @@
       },
       {
         "zType": "COGNOMEN_INTREPID",
-        "zName": "the Intrepid",
+        "Name": "TEXT_COGNOMEN_INTREPID",
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INTREPID",
@@ -685,7 +685,7 @@
       },
       {
         "zType": "COGNOMEN_LEARNED",
-        "zName": "the Learned",
+        "Name": "TEXT_COGNOMEN_LEARNED",
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LEARNED",
@@ -698,7 +698,7 @@
       },
       {
         "zType": "COGNOMEN_ENLIGHTENED",
-        "zName": "the Enlightened",
+        "Name": "TEXT_COGNOMEN_ENLIGHTENED",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
@@ -711,7 +711,7 @@
       },
       {
         "zType": "COGNOMEN_WISE",
-        "zName": "the Wise",
+        "Name": "TEXT_COGNOMEN_WISE",
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WISE",
@@ -724,7 +724,7 @@
       },
       {
         "zType": "COGNOMEN_OLD",
-        "zName": "the Old",
+        "Name": "TEXT_COGNOMEN_OLD",
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_OLD",
@@ -737,7 +737,7 @@
       },
       {
         "zType": "COGNOMEN_ANCIENT",
-        "zName": "the Ancient",
+        "Name": "TEXT_COGNOMEN_ANCIENT",
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ANCIENT",
@@ -750,7 +750,7 @@
       },
       {
         "zType": "COGNOMEN_ABLE",
-        "zName": "the Able",
+        "Name": "TEXT_COGNOMEN_ABLE",
         "iLegitimacy": "30",
         "iMinValue": "15000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ABLE",
@@ -781,12 +781,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -897,7 +897,7 @@
       },
       {
         "zType": "COGNOMEN_JUST",
-        "zName": "the Just",
+        "Name": "TEXT_COGNOMEN_JUST",
         "iLegitimacy": "40",
         "iMinValue": "20000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_JUST",
@@ -928,12 +928,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1044,7 +1044,7 @@
       },
       {
         "zType": "COGNOMEN_GOOD",
-        "zName": "the Good",
+        "Name": "TEXT_COGNOMEN_GOOD",
         "iLegitimacy": "50",
         "iMinValue": "25000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GOOD",
@@ -1075,12 +1075,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1191,7 +1191,7 @@
       },
       {
         "zType": "COGNOMEN_STRONG",
-        "zName": "the Strong",
+        "Name": "TEXT_COGNOMEN_STRONG",
         "iLegitimacy": "60",
         "iMinValue": "30000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_STRONG",
@@ -1222,12 +1222,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1338,7 +1338,7 @@
       },
       {
         "zType": "COGNOMEN_NOBLE",
-        "zName": "the Noble",
+        "Name": "TEXT_COGNOMEN_NOBLE",
         "iLegitimacy": "70",
         "iMinValue": "35000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_NOBLE",
@@ -1369,12 +1369,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1485,7 +1485,7 @@
       },
       {
         "zType": "COGNOMEN_GLORIOUS",
-        "zName": "the Glorious",
+        "Name": "TEXT_COGNOMEN_GLORIOUS",
         "iLegitimacy": "80",
         "iMinValue": "40000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
@@ -1516,12 +1516,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1632,7 +1632,7 @@
       },
       {
         "zType": "COGNOMEN_MAGNIFICENT",
-        "zName": "the Magnificent",
+        "Name": "TEXT_COGNOMEN_MAGNIFICENT",
         "iLegitimacy": "90",
         "iMinValue": "45000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
@@ -1663,12 +1663,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1779,7 +1779,7 @@
       },
       {
         "zType": "COGNOMEN_GREAT",
-        "zName": "the Great",
+        "Name": "TEXT_COGNOMEN_GREAT",
         "iLegitimacy": "100",
         "iMinValue": "50000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GREAT",
@@ -1810,12 +1810,12 @@
               "iValue": "2000"
             },
             {
-              "zIndex": "STAT_TRIBE_CONVERSION",
-              "iValue": "500"
-            },
-            {
               "zIndex": "STAT_TEAM_CONTACTED",
               "iValue": "100"
+            },
+            {
+              "zIndex": "STAT_TEAM_PEACE",
+              "iValue": "1000"
             },
             {
               "zIndex": "STAT_TEAM_ALLIANCE",
@@ -1926,7 +1926,7 @@
       },
       {
         "zType": "COGNOMEN_UNFORTUNATE",
-        "zName": "the Unfortunate",
+        "Name": "TEXT_COGNOMEN_UNFORTUNATE",
         "iLegitimacy": "-20",
         "iMinValue": "1000",
         "aiStatValue": {
@@ -1960,7 +1960,7 @@
       },
       {
         "zType": "COGNOMEN_UNREADY",
-        "zName": "the Unready",
+        "Name": "TEXT_COGNOMEN_UNREADY",
         "iLegitimacy": "-40",
         "iMinValue": "2000",
         "aiStatValue": {
@@ -1994,7 +1994,7 @@
       },
       {
         "zType": "COGNOMEN_WEAK",
-        "zName": "the Weak",
+        "Name": "TEXT_COGNOMEN_WEAK",
         "iLegitimacy": "-60",
         "iMinValue": "3000",
         "aiStatValue": {
@@ -2028,7 +2028,7 @@
       },
       {
         "zType": "COGNOMEN_BAD",
-        "zName": "the Bad",
+        "Name": "TEXT_COGNOMEN_BAD",
         "iLegitimacy": "-80",
         "iMinValue": "4000",
         "aiStatValue": {
@@ -2062,7 +2062,7 @@
       },
       {
         "zType": "COGNOMEN_BLOODY",
-        "zName": "the Bloody",
+        "Name": "TEXT_COGNOMEN_BLOODY",
         "iLegitimacy": "-100",
         "iMinValue": "5000",
         "aiStatValue": {

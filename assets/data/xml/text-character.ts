@@ -63,7 +63,7 @@
         "English": "Oligarch {0_name}"
       },
       {
-        "comment": "TEXT_CHARACTER_RELATION_XXX texts have the leader (i.e. 'You') as variable index 1 for gender",
+        "comment": "TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender",
         "zType": "TEXT_CHARACTER_RELATION_YOU",
         "English": "you"
       },
@@ -192,10 +192,6 @@
         "English": "({0_data})"
       },
       {
-        "zType": "TEXT_CHARACTER_NAME_WITH_CREST",
-        "English": "{0_name} {1_crest}"
-      },
-      {
         "zType": "TEXT_CHARACTER_FIRST_AND_LAST_NAME",
         "English": "{0_firstname} {1_lastname}"
       },
@@ -214,10 +210,6 @@
       {
         "zType": "TEXT_CHARACTER_THE_ELDER",
         "English": "the Elder"
-      },
-      {
-        "zType": "TEXT_COUNCIL_HAS_DIED",
-        "English": "Your {0_council}, {1_character}, has died!"
       },
       {
         "zType": "TEXT_CHARACTER_HAS_DIED",

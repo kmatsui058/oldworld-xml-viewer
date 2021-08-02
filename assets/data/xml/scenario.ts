@@ -6,13 +6,16 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zSubTitle": {
+        "SubTitle": {
           
         },
         "zIcon": {
+          
+        },
+        "bPublic": {
           
         },
         "zMapFile": {
@@ -27,7 +30,7 @@
         "zModName": {
           
         },
-        "zAchievement": {
+        "azAchievements": {
           
         },
         "bContinue": {
@@ -39,10 +42,25 @@
         "Nation": {
           
         },
+        "Difficulty": {
+          
+        },
+        "TurnScale": {
+          
+        },
         "abOpponents": {
           
         },
+        "OpponentLevel": {
+          
+        },
+        "DevelopmentLevel": {
+          
+        },
         "abTribes": {
+          
+        },
+        "TribeLevel": {
           
         },
         "abOptionEnabled": {
@@ -56,10 +74,27 @@
         }
       },
       {
+        "zType": "SCENARIO_LEARNTOPLAY_1",
+        "Name": "TEXT_SCENARIO_LEARNTOPLAY_1",
+        "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_1_SUB",
+        "zIcon": "CarthageThumbnail",
+        "zMapFile": "Learn To Play One",
+        "zModName": "LearnToPlay1",
+        "Nation": "NATION_GREECE",
+        "Difficulty": "DIFFICULTY_ABLE",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL"
+      },
+      {
         "zType": "SCENARIO_BARBARIAN",
-        "zName": "The Barbarian Horde",
+        "Name": "TEXT_SCENARIO_BARBARIAN",
+        "SubTitle": "TEXT_SCENARIO_BARBARIAN_SUB",
+        "zIcon": "BarbarianThumbnail",
+        "bPublic": "1",
         "bAllowMap": "0",
         "zModName": "Barbarian",
+        "Difficulty": "DIFFICULTY_GOOD",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
         "abOptionValid": {
           "Pair": [
             {
@@ -91,11 +126,19 @@
       },
       {
         "zType": "SCENARIO_CARTHAGE_1",
-        "zName": "Carthage Campaign - Game One - Ox Hide",
+        "Name": "TEXT_SCENARIO_CARTHAGE_1",
+        "SubTitle": "TEXT_SCENARIO_CARTHAGE_1_SUB",
+        "zIcon": "CarthageThumbnail",
+        "bPublic": "1",
         "zMapFile": "Carthage Campaign Game One",
         "zModName": "Carthage1",
-        "zAchievement": "ACHIEVEMENT_WON_CARTHAGE_1",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_CARTHAGE_1"
+        },
         "Nation": "NATION_CARTHAGE",
+        "Difficulty": "DIFFICULTY_STRONG",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
         "abOptionValid": {
           "Pair": [
             {
@@ -118,13 +161,21 @@
       },
       {
         "zType": "SCENARIO_CARTHAGE_2",
-        "zName": "Carthage Campaign - Game Two - The Rise of Carthage",
+        "Name": "TEXT_SCENARIO_CARTHAGE_2",
+        "SubTitle": "TEXT_SCENARIO_CARTHAGE_2_SUB",
+        "zIcon": "CarthageThumbnail",
+        "bPublic": "1",
         "zMapFile": "Carthage Campaign Game Two",
         "zModName": "Carthage2",
-        "zAchievement": "ACHIEVEMENT_WON_CARTHAGE_2",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_CARTHAGE_2"
+        },
         "bContinue": "1",
         "Prereq": "SCENARIO_CARTHAGE_1",
         "Nation": "NATION_CARTHAGE",
+        "Difficulty": "DIFFICULTY_STRONG",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
         "abOptionValid": {
           "Pair": [
             {
@@ -147,13 +198,49 @@
       },
       {
         "zType": "SCENARIO_CARTHAGE_3",
-        "zName": "Carthage Campaign - Game Three - The Rise of Rome",
+        "Name": "TEXT_SCENARIO_CARTHAGE_3",
+        "SubTitle": "TEXT_SCENARIO_CARTHAGE_3_SUB",
+        "zIcon": "CarthageThumbnail",
+        "bPublic": "1",
         "zMapFile": "Carthage Campaign Game Three",
         "zModName": "Carthage3",
-        "zAchievement": "ACHIEVEMENT_WON_CARTHAGE_3",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_CARTHAGE_3"
+        },
         "bContinue": "1",
         "Prereq": "SCENARIO_CARTHAGE_2",
         "Nation": "NATION_CARTHAGE",
+        "Difficulty": "DIFFICULTY_STRONG",
+        "TurnScale": "TURNSCALE_SEMESTER",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "azParametersInvalid": {
+          "zValue": [
+            "TurnScale",
+            "SuccessionGender",
+            "SuccessionOrder"
+          ]
+        }
+      },
+      {
+        "zType": "SCENARIO_CARTHAGE_4",
+        "Name": "TEXT_SCENARIO_CARTHAGE_4",
+        "SubTitle": "TEXT_SCENARIO_CARTHAGE_4_SUB",
+        "zIcon": "CarthageThumbnail",
+        "bPublic": "1",
+        "zMapFile": "Carthage Campaign Game Four",
+        "zModName": "Carthage4",
+        "azAchievements": {
+          "zValue": [
+            "ACHIEVEMENT_CARTHAGE_4",
+            "ACHIEVEMENT_CARTHAGE_CAMPAIGN"
+          ]
+        },
+        "bContinue": "1",
+        "Prereq": "SCENARIO_CARTHAGE_3",
+        "Nation": "NATION_CARTHAGE",
+        "Difficulty": "DIFFICULTY_STRONG",
+        "TurnScale": "TURNSCALE_SEASON",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
         "azParametersInvalid": {
           "zValue": [
             "TurnScale",

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "bPopupValid": {
@@ -18,55 +18,55 @@
       },
       {
         "zType": "HOTKEYCLASS_GAMEPLAY",
-        "zName": "Gameplay"
+        "Name": "TEXT_HOTKEYCLASS_GAMEPLAY"
       },
       {
         "zType": "HOTKEYCLASS_CAMERA",
-        "zName": "Camera"
+        "Name": "TEXT_HOTKEYCLASS_CAMERA"
       },
       {
         "zType": "HOTKEYCLASS_NAVIGATION",
-        "zName": "Navigation"
+        "Name": "TEXT_HOTKEYCLASS_NAVIGATION"
       },
       {
         "zType": "HOTKEYCLASS_OVERLAYS",
-        "zName": "Overlays"
+        "Name": "TEXT_HOTKEYCLASS_OVERLAYS"
       },
       {
         "zType": "HOTKEYCLASS_SCREENS",
-        "zName": "Screens"
+        "Name": "TEXT_HOTKEYCLASS_SCREENS"
       },
       {
         "zType": "HOTKEYCLASS_POPUPS",
-        "zName": "Popups",
+        "Name": "TEXT_HOTKEYCLASS_POPUPS",
         "bPopupValid": "1"
       },
       {
         "zType": "HOTKEYCLASS_TOOLTIPS",
-        "zName": "Tooltips",
+        "Name": "TEXT_HOTKEYCLASS_TOOLTIPS",
         "bPopupValid": "1"
       },
       {
         "zType": "HOTKEYCLASS_SAVES",
-        "zName": "Saves"
+        "Name": "TEXT_HOTKEYCLASS_SAVES"
       },
       {
         "zType": "HOTKEYCLASS_COMMUNICATION",
-        "zName": "Communication"
+        "Name": "TEXT_HOTKEYCLASS_COMMUNICATION"
       },
       {
         "zType": "HOTKEYCLASS_MAP_EDITOR",
-        "zName": "Map Editor",
+        "Name": "TEXT_HOTKEYCLASS_MAP_EDITOR",
         "bMapEditor": "1"
       },
       {
         "zType": "HOTKEYCLASS_EVENT_BROWSER",
-        "zName": "Event Browser",
+        "Name": "TEXT_HOTKEYCLASS_EVENT_BROWSER",
         "bMapEditor": "1"
       },
       {
         "zType": "HOTKEYCLASS_DEBUG",
-        "zName": "Debug"
+        "Name": "TEXT_HOTKEYCLASS_DEBUG"
       }
     ]
   }

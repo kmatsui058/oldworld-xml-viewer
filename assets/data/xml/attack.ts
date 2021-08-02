@@ -6,7 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "Help": {
           
         },
         "ePattern": {
@@ -14,23 +17,27 @@
         }
       },
       {
-        "zType": "ATTACK_FORWARD",
-        "zName": "Forward",
-        "ePattern": "FORWARD"
+        "zType": "ATTACK_PIERCE",
+        "Name": "TEXT_ATTACK_PIERCE",
+        "Help": "TEXT_ATTACK_PIERCE_HELP",
+        "ePattern": "PIERCE"
       },
       {
-        "zType": "ATTACK_ARC",
-        "zName": "Arc",
-        "ePattern": "ARC"
+        "zType": "ATTACK_CLEAVE",
+        "Name": "TEXT_ATTACK_CLEAVE",
+        "Help": "TEXT_ATTACK_CLEAVE_HELP",
+        "ePattern": "CLEAVE"
       },
       {
         "zType": "ATTACK_CIRCLE",
-        "zName": "Circle",
+        "Name": "TEXT_ATTACK_CIRCLE",
+        "Help": "TEXT_ATTACK_CIRCLE_HELP",
         "ePattern": "CIRCLE"
       },
       {
         "zType": "ATTACK_SPLASH",
-        "zName": "Splash",
+        "Name": "TEXT_ATTACK_SPLASH",
+        "Help": "TEXT_ATTACK_SPLASH_HELP",
         "ePattern": "SPLASH"
       }
     ]

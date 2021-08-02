@@ -9,7 +9,6 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   English: ZType | string;
-  comment?: string;
 }
 export interface ZType {
 }

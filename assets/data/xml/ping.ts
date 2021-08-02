@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "PingAsset": {
@@ -15,7 +15,7 @@
         "zIconName": {
           
         },
-        "zLogText": {
+        "LogText": {
           
         },
         "iMPTurnDuration": {
@@ -36,57 +36,56 @@
       },
       {
         "zType": "PING_GENERIC",
-        "zName": "Attention",
+        "Name": "TEXT_PING_GENERIC",
         "PingAsset": "ASSET_CAUTION_PING",
         "zIconName": "PING_CAUTION",
-        "zLogText": "Look Here.",
+        "LogText": "TEXT_PING_GENERIC_LOG",
         "iMPTurnDuration": "2",
         "iMaxNumber": "5"
       },
       {
         "zType": "PING_ATTACK",
-        "zName": "Attack",
+        "Name": "TEXT_PING_ATTACK",
         "PingAsset": "ASSET_ATTACK_PING",
         "zIconName": "PING_ATTACK",
-        "zLogText": "Attack Here.",
+        "LogText": "TEXT_PING_ATTACK_LOG",
         "iMPTurnDuration": "2",
         "iMaxNumber": "5"
       },
       {
         "zType": "PING_RETREAT",
-        "zName": "Retreat",
+        "Name": "TEXT_PING_RETREAT",
         "PingAsset": "ASSET_RETREAT_PING",
         "zIconName": "PING_RETREAT",
-        "zLogText": "Retreat from here.",
+        "LogText": "TEXT_PING_RETREAT_LOG",
         "iMPTurnDuration": "2",
         "iMaxNumber": "5"
       },
       {
         "zType": "PING_USE",
-        "zName": "Use",
+        "Name": "TEXT_PING_USE",
         "PingAsset": "ASSET_USE_PING",
         "zIconName": "PING_USE",
-        "zLogText": "Use this.",
+        "LogText": "TEXT_PING_USE_LOG",
         "iMPTurnDuration": "1",
         "iMaxNumber": "2"
       },
       {
         "zType": "PING_FOUND",
-        "zName": "Found",
+        "Name": "TEXT_PING_FOUND",
         "PingAsset": "ASSET_FOUND_PING",
         "zIconName": "PING_FOUND",
-        "zLogText": "I want to found here.",
+        "LogText": "TEXT_PING_FOUND_LOG",
         "iMPTurnDuration": "0",
         "iMaxNumber": "1",
         "bFound": "1"
       },
       {
         "zType": "PING_NOTE",
-        "zName": "Note",
+        "Name": "TEXT_PING_NOTE",
         "PingAsset": "ASSET_NOTE_PING",
         "zIconName": "PING_NOTE",
-        "zLogText": "I dropped a note.",
-        "iMPTurnDuration": "2",
+        "LogText": "TEXT_PING_NOTE_LOG",
         "bTextInput": "1"
       }
     ]

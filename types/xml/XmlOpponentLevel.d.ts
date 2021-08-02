@@ -8,9 +8,9 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   iWarModifier?: ZType | string;
-  iWarMinTurn?: ZType | string;
+  iWarMinTurn: ZType | string;
 }
 export interface ZType {
 }

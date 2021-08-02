@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -39,7 +39,7 @@
       },
       {
         "zType": "CULTURE_WEAK",
-        "zName": "Weak",
+        "Name": "TEXT_CULTURE_WEAK",
         "zIconName": "CULTURE_WEAK",
         "iThreshold": "100",
         "iVP": "1",
@@ -49,7 +49,7 @@
       },
       {
         "zType": "CULTURE_DEVELOPING",
-        "zName": "Developing",
+        "Name": "TEXT_CULTURE_DEVELOPING",
         "zIconName": "CULTURE_DEVELOPING",
         "iThreshold": "500",
         "iVP": "2",
@@ -62,7 +62,7 @@
       },
       {
         "zType": "CULTURE_STRONG",
-        "zName": "Strong",
+        "Name": "TEXT_CULTURE_STRONG",
         "zIconName": "CULTURE_STRONG",
         "iThreshold": "2000",
         "iVP": "3",
@@ -75,7 +75,7 @@
       },
       {
         "zType": "CULTURE_LEGENDARY",
-        "zName": "Legendary",
+        "Name": "TEXT_CULTURE_LEGENDARY",
         "zIconName": "CULTURE_LEGENDARY",
         "iThreshold": "5000",
         "iVP": "4",

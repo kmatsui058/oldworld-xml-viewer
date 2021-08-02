@@ -8,13 +8,15 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zHelp: ZType | string;
+  Name: ZType | string;
+  Help: ZType | string;
   iAvgCities?: ZType | string;
   iMaxCities?: ZType | string;
   iCapitalPopulation?: ZType | string;
   iTechs?: ZType | string;
   iLoneOpponentChange?: ZType | string;
+  iWidth?: ZType | string;
+  iHeight?: ZType | string;
 }
 export interface ZType {
 }

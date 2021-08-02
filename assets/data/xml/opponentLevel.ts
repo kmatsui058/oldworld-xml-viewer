@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iWarModifier": {
@@ -18,31 +18,32 @@
       },
       {
         "zType": "OPPONENTLEVEL_PASSIVE",
-        "zName": "Passive",
+        "Name": "TEXT_OPPONENTLEVEL_PASSIVE",
         "iWarModifier": "-100",
-        "iWarMinTurn": "40"
+        "iWarMinTurn": "50"
       },
       {
         "zType": "OPPONENTLEVEL_PEACEFUL",
-        "zName": "Peaceful",
+        "Name": "TEXT_OPPONENTLEVEL_PEACEFUL",
         "iWarModifier": "-50",
-        "iWarMinTurn": "30"
+        "iWarMinTurn": "40"
       },
       {
         "zType": "OPPONENTLEVEL_NORMAL",
-        "zName": "Normal",
-        "iWarMinTurn": "20"
+        "Name": "TEXT_OPPONENTLEVEL_NORMAL",
+        "iWarMinTurn": "30"
       },
       {
         "zType": "OPPONENTLEVEL_AGGRESSIVE",
-        "zName": "Aggressive",
+        "Name": "TEXT_OPPONENTLEVEL_AGGRESSIVE",
         "iWarModifier": "25",
-        "iWarMinTurn": "10"
+        "iWarMinTurn": "20"
       },
       {
         "zType": "OPPONENTLEVEL_COMPETITIVE",
-        "zName": "Competitive",
-        "iWarModifier": "50"
+        "Name": "TEXT_OPPONENTLEVEL_COMPETITIVE",
+        "iWarModifier": "50",
+        "iWarMinTurn": "10"
       }
     ]
   }

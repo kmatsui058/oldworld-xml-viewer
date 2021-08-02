@@ -6,10 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
-        "zHelp": {
+        "Help": {
           
         },
         "iAvgCities": {
@@ -26,17 +26,23 @@
         },
         "iLoneOpponentChange": {
           
+        },
+        "iWidth": {
+          
+        },
+        "iHeight": {
+          
         }
       },
       {
         "zType": "DEVELOPMENT_NONE",
-        "zName": "None",
-        "zHelp": "Existing nations don't start with any extra territory"
+        "Name": "TEXT_DEVELOPMENT_NONE",
+        "Help": "TEXT_DEVELOPMENT_NONE_HELP"
       },
       {
         "zType": "DEVELOPMENT_FLEDGLING",
-        "zName": "Fledgling",
-        "zHelp": "Existing nations start with an average of two cities",
+        "Name": "TEXT_DEVELOPMENT_FLEDGLING",
+        "Help": "TEXT_DEVELOPMENT_FLEDGLING_HELP",
         "iAvgCities": "2",
         "iMaxCities": "3",
         "iCapitalPopulation": "2",
@@ -44,33 +50,39 @@
       },
       {
         "zType": "DEVELOPMENT_ESTABLISHED",
-        "zName": "Established",
-        "zHelp": "Existing nations start with an average of three cities",
+        "Name": "TEXT_DEVELOPMENT_ESTABLISHED",
+        "Help": "TEXT_DEVELOPMENT_ESTABLISHED_HELP",
         "iAvgCities": "3",
         "iMaxCities": "5",
         "iCapitalPopulation": "3",
         "iTechs": "3",
-        "iLoneOpponentChange": "1"
+        "iLoneOpponentChange": "1",
+        "iWidth": "2",
+        "iHeight": "2"
       },
       {
         "zType": "DEVELOPMENT_ADVANCED",
-        "zName": "Advanced",
-        "zHelp": "Existing nations start with an average of four cities",
+        "Name": "TEXT_DEVELOPMENT_ADVANCED",
+        "Help": "TEXT_DEVELOPMENT_ADVANCED_HELP",
         "iAvgCities": "4",
         "iMaxCities": "6",
         "iCapitalPopulation": "4",
         "iTechs": "4",
-        "iLoneOpponentChange": "2"
+        "iLoneOpponentChange": "2",
+        "iWidth": "4",
+        "iHeight": "4"
       },
       {
         "zType": "DEVELOPMENT_MASSIVE",
-        "zName": "Massive",
-        "zHelp": "Existing nations start with an average of five cities",
+        "Name": "TEXT_DEVELOPMENT_MASSIVE",
+        "Help": "TEXT_DEVELOPMENT_MASSIVE_HELP",
         "iAvgCities": "5",
         "iMaxCities": "8",
         "iCapitalPopulation": "5",
         "iTechs": "5",
-        "iLoneOpponentChange": "3"
+        "iLoneOpponentChange": "3",
+        "iWidth": "6",
+        "iHeight": "6"
       }
     ]
   }

@@ -43,6 +43,46 @@
         }
       },
       {
+        "zType": "EVENTLINK_ANT_GOLD",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_MONSTERS_DEEP",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_MIDNIGHT_SUN",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_DRUID_FOREST",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
         "beginGroup": "Contact",
         "zType": "EVENTLINK_NEIGHBORS_HUMBLE",
         "aeSubjectClasses": {
@@ -396,24 +436,6 @@
       },
       {
         "beginGroup": "Diplomacy",
-        "zType": "EVENTLINK_AN_UNLIKELY_MATCH_DELAY",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_AN_UNLIKELY_MATCH_SUBMISSION",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_HOSTILE_GARRISON",
         "aeSubjectClasses": {
           "zValue": [
@@ -561,6 +583,17 @@
         }
       },
       {
+        "zType": "EVENTLINK_RELATIONSHIP_AT_DEATHS_DOOR",
+        "iTurnLimit": "2",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
         "beginGroup": "Combat",
         "zType": "EVENTLINK_STRANGER_ENCOUNTER_CURSED_TREASURE",
         "aeSubjectClasses": {
@@ -612,6 +645,15 @@
           "zValue": [
             "SUBJECTCLASS_TILE",
             "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_PRISONER_CONSCRIPTS",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
             "SUBJECTCLASS_CHARACTER"
           ]
         }
@@ -790,47 +832,7 @@
         }
       },
       {
-        "zType": "EVENTLINK_FAMILY_QUARREL_PURSUE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_FAMILY_QUARREL_HORSE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_FAMILY_QUARREL_SIEGE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_FAMILY_QUARREL_CONTINUE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_FAMILY_QUARREL_ATTACK",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
@@ -983,35 +985,6 @@
         }
       },
       {
-        "zType": "EVENTLINK_CULTURE_A_FIERY_RIDE_01",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CITY",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_CULTURE_A_FIERY_RIDE_02",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CITY",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_RELATIONSHIP_AT_DEATHS_DOOR",
-        "iTurnLimit": "2",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_A_TOAST",
         "aeSubjectClasses": {
           "zValue": [
@@ -1034,79 +1007,7 @@
         }
       },
       {
-        "zType": "EVENTLINK_THE_RETURN_HOME_WINE",
-        "iTurnLimit": "1",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_PLAYER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_THE_RETURN_HOME_DATES",
-        "iTurnLimit": "1",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_PLAYER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_THE_RETURN_HOME_INCENSE",
-        "iTurnLimit": "1",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_PLAYER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_ULTIMATUM",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_AN_EMPTY_THRONE_ORDER",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_AN_EMPTY_THRONE_SNEAK",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_RECOGNIZED_THRASHING",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_RECOGNIZED_SAFE",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
@@ -1119,45 +1020,6 @@
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL_SCHEMER",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL_HERO",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_TRAIT_DO_IT_YOURSELF",
-        "aeSubjectClasses": {
-          "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
           ]
@@ -1319,15 +1181,6 @@
         }
       },
       {
-        "zType": "EVENTLINK_STRANGE_SCROLL_ONE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_TILE",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_PAW_CURE",
         "aeSubjectClasses": {
           "zValue": "SUBJECTCLASS_CHARACTER"
@@ -1385,6 +1238,7 @@
       },
       {
         "zType": "EVENTLINK_BORROWING_CLOTHES",
+        "iTurnLimit": "1",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
@@ -1408,6 +1262,41 @@
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_FALLEN_SPYMASTER_STREET",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_FALLEN_SPYMASTER_PALACE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_IRON_TRAIN"
+      },
+      {
+        "zType": "EVENTLINK_IRON_BUY"
+      },
+      {
+        "zType": "EVENTLINK_WILD_REVELS_CLOTHES",
+        "aeSubjectClasses": {
+          "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
           ]
@@ -1462,6 +1351,34 @@
         }
       },
       {
+        "zType": "EVENTLINK_CULTURE_A_FIERY_RIDE_01",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_CULTURE_A_FIERY_RIDE_02",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_CITY_ZENOBIA_AUTONOMY",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
         "beginGroup": "Miscellaneous",
         "zType": "EVENTLINK_ANCIENT_STATUE_DISPLAY",
         "aeSubjectClasses": {
@@ -1479,6 +1396,12 @@
             "SUBJECTCLASS_TRIBE",
             "SUBJECTCLASS_TILE"
           ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SUCCESSION_TUTORIAL",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_CHARACTER"
         }
       },
       {
@@ -1803,17 +1726,17 @@
         }
       },
       {
-        "zType": "EVENTLINK_TRAIT_RIDING_CONTEST",
+        "zType": "EVENTLINK_TRAIT_MIDNIGHT_MEETING",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_TRIBE"
+            "SUBJECTCLASS_PLAYER"
           ]
         }
       },
       {
-        "zType": "EVENTLINK_TRAIT_MIDNIGHT_MEETING",
+        "zType": "EVENTLINK_TRAIT_MIDNIGHT_MEETING_SECURITY",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
@@ -1954,17 +1877,6 @@
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_FAMILY"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_TRIBAL_UNREST",
-        "iTurnLimit": "3",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER"
           ]
         }
       },
@@ -2180,17 +2092,6 @@
         }
       },
       {
-        "zType": "EVENTLINK_TRIBE_SLAYER",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_THE_YOUNG_MASTER",
         "aeSubjectClasses": {
           "zValue": [
@@ -2330,30 +2231,11 @@
         }
       },
       {
-        "zType": "EVENTLINK_THE_UPRISING",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
         "zType": "EVENTLINK_THE_UPRISING_BATTLE",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_THE_DANCING_ASS",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
           ]
         }
@@ -2404,17 +2286,6 @@
             "SUBJECTCLASS_FAMILY",
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CITY",
-            "SUBJECTCLASS_CHARACTER"
-          ]
-        }
-      },
-      {
-        "zType": "EVENTLINK_WIDE_AWAKE",
-        "aeSubjectClasses": {
-          "zValue": [
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_TRIBE",
-            "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
           ]
         }
@@ -2538,6 +2409,300 @@
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_RELIGION",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Community",
+        "zType": "EVENTLINK_COMPANIONS_GENERAL",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_UNIT",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_COMPANIONS_FESTIVAL",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_UNIT",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_HOUSEHOLD_TROUBLES",
+        "iTurnLimit": "4",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "EVENTLINK_TRIBAL_UNREST",
+        "iTurnLimit": "3",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AN_UNLIKELY_MATCH_SUBMISSION",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AN_UNLIKELY_MATCH_DELAY",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_TRIBE_SLAYER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_TRAIT_RIDING_CONTEST",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_TRIBE"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_WIDE_AWAKE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_THE_UPRISING",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_TRIBE",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_RAID_WARNING",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Courtier",
+        "zType": "EVENTLINK_TRAIT_DO_IT_YOURSELF",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Family",
+        "zType": "EVENTLINK_FAMILY_QUARREL_ATTACK",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_FAMILY_QUARREL_SIEGE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_FAMILY_QUARREL_HORSE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_FAMILY_QUARREL_PURSUE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "EVENTLINK_THE_RETURN_HOME_INCENSE",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_THE_RETURN_HOME_WINE",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_THE_RETURN_HOME_DATES",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_THE_DANCING_ASS",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL_SCHEMER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_TRAIT_PAYMENT_IN_FULL_HERO",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Leader",
+        "zType": "EVENTLINK_RECOGNIZED_THRASHING",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_RECOGNIZED_SAFE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AN_EMPTY_THRONE_ORDER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AN_EMPTY_THRONE_SNEAK",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_STRANGE_SCROLL_ONE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_TILE",
             "SUBJECTCLASS_CHARACTER"
           ]
         }

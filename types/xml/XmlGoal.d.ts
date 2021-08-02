@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  HelpText?: ZType;
   iAmbitionClass?: ZType | string;
   iMaxTurns?: ZType | string;
   iMinTier?: ZType | string;
@@ -50,7 +51,6 @@ export interface Entry {
   bBlockComplete?: IMaxLevelUnits;
   bVictoryEligible?: ZType | string;
   bStateReligion?: ZType | string;
-  bHighestVP?: ZType | string;
   bPlayerDead?: ZType;
   bTribeDead?: ZType;
   bScenario?: ZType;
@@ -68,7 +68,7 @@ export interface Entry {
   aiFamilyLuxuryCount?: IMaxLevelUnits;
   aiImprovementCount?: AiImprovementCount;
   aiCityImprovementCount?: ZType;
-  aiImprovementClassCount?: AiTribesKilledData;
+  aiImprovementClassCount?: AiImprovementCount;
   aiCityImprovementClassCount?: ZType;
   aiCultureCount?: AiDiplomacyCount;
   aiCultureWonders?: AiDiplomacyCount;

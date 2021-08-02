@@ -9,16 +9,22 @@
         "zColor": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "Help": {
+          
+        },
+        "GainTexts": {
+          
+        },
+        "LoseTexts": {
           
         },
         "zIconName": {
           
         },
-        "zHelp": {
-          
-        },
-        "iStrengthModifier": {
+        "iAttackModifier": {
           
         },
         "iDefenseModifier": {
@@ -43,9 +49,21 @@
       {
         "zType": "RATING_WISDOM",
         "zColor": "COLOR_RATING_WISDOM",
-        "zName": "Wisdom",
+        "Name": "TEXT_RATING_WISDOM",
+        "Help": "TEXT_RATING_WISDOM_HELP",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_RATING_WISDOM_GAIN_1",
+            "TEXT_RATING_WISDOM_GAIN_2"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_RATING_WISDOM_LOSS_1",
+            "TEXT_RATING_WISDOM_LOSS_2"
+          ]
+        },
         "zIconName": "RATING_WISDOM",
-        "zHelp": "For Leaders and Governors, Wisdom increases {YIELD_SCIENCE}.\nFor Generals, Wisdom increases the Unit's Critical Hit Chance.",
         "iCriticalChance": "1",
         "aiYieldCourtRate": {
           "Pair": {
@@ -62,17 +80,29 @@
         "aiYieldAgentPercent": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "10"
+            "iValue": "5"
           }
         }
       },
       {
         "zType": "RATING_CHARISMA",
         "zColor": "COLOR_RATING_CHARISMA",
-        "zName": "Charisma",
+        "Name": "TEXT_RATING_CHARISMA",
+        "Help": "TEXT_RATING_CHARISMA_HELP",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_RATING_CHARISMA_GAIN_1",
+            "TEXT_RATING_CHARISMA_GAIN_2"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_RATING_CHARISMA_LOSS_1",
+            "TEXT_RATING_CHARISMA_LOSS_2"
+          ]
+        },
         "zIconName": "RATING_CHARISMA",
-        "zHelp": "For Leaders and Governors, Charisma increases {YIELD_CIVICS}.\nFor Generals, Charisma increases the Unit's Defense Strength.",
-        "iDefenseModifier": "2",
+        "iDefenseModifier": "1",
         "aiYieldCourtRate": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
@@ -88,17 +118,29 @@
         "aiYieldAgentPercent": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
+            "iValue": "5"
           }
         }
       },
       {
         "zType": "RATING_COURAGE",
         "zColor": "COLOR_RATING_COURAGE",
-        "zName": "Courage",
+        "Name": "TEXT_RATING_COURAGE",
+        "Help": "TEXT_RATING_COURAGE_HELP",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_RATING_COURAGE_GAIN_1",
+            "TEXT_RATING_COURAGE_GAIN_2"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_RATING_COURAGE_LOSS_1",
+            "TEXT_RATING_COURAGE_LOSS_2"
+          ]
+        },
         "zIconName": "RATING_COURAGE",
-        "zHelp": "For Leaders and Governors, Courage increases {YIELD_TRAINING}.\nFor Generals, Courage increases the Unit's Strength.",
-        "iStrengthModifier": "1",
+        "iAttackModifier": "1",
         "aiYieldCourtRate": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -114,16 +156,28 @@
         "aiYieldAgentPercent": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
-            "iValue": "10"
+            "iValue": "5"
           }
         }
       },
       {
         "zType": "RATING_DISCIPLINE",
         "zColor": "COLOR_RATING_DISCIPLINE",
-        "zName": "Discipline",
+        "Name": "TEXT_RATING_DISCIPLINE",
+        "Help": "TEXT_RATING_DISCIPLINE_HELP",
+        "GainTexts": {
+          "zValue": [
+            "TEXT_RATING_DISCIPLINE_GAIN_1",
+            "TEXT_RATING_DISCIPLINE_GAIN_2"
+          ]
+        },
+        "LoseTexts": {
+          "zValue": [
+            "TEXT_RATING_DISCIPLINE_LOSS_1",
+            "TEXT_RATING_DISCIPLINE_LOSS_2"
+          ]
+        },
         "zIconName": "RATING_DISCIPLINE",
-        "zHelp": "For Leaders and Governors, Discipline increases {YIELD_MONEY}.\nFor Generals, Discipline increases the Unit's XP each Year.",
         "iUnitXP": "1",
         "aiYieldCourtRate": {
           "Pair": {
@@ -140,7 +194,7 @@
         "aiYieldAgentPercent": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "10"
+            "iValue": "5"
           }
         }
       }

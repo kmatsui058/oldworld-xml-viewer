@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "AssetVariation": {
@@ -24,7 +24,7 @@
       },
       {
         "zType": "TERRAIN_STAMP_VOLCANO_7",
-        "zName": "Volcano 7",
+        "Name": "TEXT_TERRAIN_STAMP_VOLCANO_7",
         "AssetVariation": "ASSET_VARIATION_TILE_VOLCANO_7",
         "Height": "HEIGHT_VOLCANO",
         "aeFootprint": {

@@ -9,7 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  zDescription: ZType | string;
+  Description: ZType | string;
   bDefault?: ZType | string;
   bSinglePlayerValid?: ZType | string;
   bMultiPlayerValid?: ZType | string;

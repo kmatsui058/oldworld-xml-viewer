@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -45,51 +45,63 @@
         "Color": {
           
         },
-        "aiDefendEffectUnit": {
+        "aiRoadCost": {
+          
+        },
+        "aiUrbanCost": {
+          
+        },
+        "aiDefendMeleeEffectUnit": {
           
         }
       },
       {
         "zType": "HEIGHT_OCEAN",
-        "zName": "Ocean",
+        "Name": "TEXT_HEIGHT_OCEAN",
         "zIconName": "OceanEditorIcon",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_COAST",
-        "zName": "Coast",
+        "Name": "TEXT_HEIGHT_COAST",
         "zIconName": "CoastEditorIcon",
         "iLandValueAdjacent": "10",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_LAKE",
-        "zName": "Lake",
+        "Name": "TEXT_HEIGHT_LAKE",
         "zIconName": "LakeEditorIcon",
         "iLandValueAdjacent": "20",
         "bNoVegetation": "1"
       },
       {
         "zType": "HEIGHT_FLAT",
-        "zName": "Flat",
+        "Name": "TEXT_HEIGHT_FLAT",
         "zIconName": "FlatEditorIcon",
         "iRevealChange": "1",
-        "aiDefendEffectUnit": {
-          "Pair": [
-            {
-              "zIndex": "EFFECTUNIT_MOUNTED",
-              "iValue": "-25"
-            },
-            {
-              "zIndex": "EFFECTUNIT_MANEUVERS",
-              "iValue": "-25"
-            }
-          ]
+        "aiRoadCost": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "10"
+          }
+        },
+        "aiUrbanCost": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "10"
+          }
+        },
+        "aiDefendMeleeEffectUnit": {
+          "Pair": {
+            "zIndex": "EFFECTUNIT_MOUNTED",
+            "iValue": "-25"
+          }
         }
       },
       {
         "zType": "HEIGHT_HILL",
-        "zName": "Hill",
+        "Name": "TEXT_HEIGHT_HILL",
         "zIconName": "HillsEditorIcon",
         "iMovementCost": "9",
         "iRangeChange": "1",
@@ -97,11 +109,23 @@
         "iBuildChange": "1",
         "iBorderValue": "200",
         "bCitySite": "1",
-        "Color": "COLOR_HEIGHT_HILL"
+        "Color": "COLOR_HEIGHT_HILL",
+        "aiRoadCost": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "20"
+          }
+        },
+        "aiUrbanCost": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "20"
+          }
+        }
       },
       {
         "zType": "HEIGHT_MOUNTAIN",
-        "zName": "Mountain",
+        "Name": "TEXT_HEIGHT_MOUNTAIN",
         "zIconName": "MountainEditorIcon",
         "iRangeChange": "2",
         "iRevealChange": "3",
@@ -113,7 +137,7 @@
       },
       {
         "zType": "HEIGHT_VOLCANO",
-        "zName": "Volcano",
+        "Name": "TEXT_HEIGHT_VOLCANO",
         "zIconName": "VolcanoEditorIcon",
         "iRangeChange": "2",
         "iRevealChange": "3",

@@ -25,6 +25,7 @@ export interface Entry {
   bTargetNoEvents?: ZType | string;
   bCharacterUs?: ZType | string;
   bDisabled?: ZType;
+  bEncyclopedia?: ZType | string;
   MissionRoot?: ZType | string;
   TechPrereq?: ZType | string;
   SubjectPlayerEnabled?: ZType | string;
@@ -33,8 +34,10 @@ export interface Entry {
   SubjectTarget?: ZType | string;
   SubjectTargetStart?: ZType | string;
   SubjectTargetEnabled?: ZType | string;
+  SubjectTargetDisabled?: ZType | string;
   SubjectRelationStart?: ZType | string;
   SubjectRelationEnabled?: ZType | string;
+  SubjectRelationDisabled?: ZType;
   aiResultDie: AiResultDie;
   aiYieldCost?: AiResultDie;
   aiYieldCostOpinion?: AiYieldCostOpinion;

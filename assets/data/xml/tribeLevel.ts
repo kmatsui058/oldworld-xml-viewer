@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iEmptySites": {
@@ -72,12 +72,12 @@
       },
       {
         "zType": "TRIBELEVEL_NONE",
-        "zName": "None",
+        "Name": "TEXT_TRIBELEVEL_NONE",
         "bNoTribe": "1"
       },
       {
         "zType": "TRIBELEVEL_PASSIVE",
-        "zName": "Passive",
+        "Name": "TEXT_TRIBELEVEL_PASSIVE",
         "iEmptySites": "4",
         "iBarbSites": "0",
         "iImprovementDevelopModifier": "-80",
@@ -90,7 +90,7 @@
       },
       {
         "zType": "TRIBELEVEL_WEAK",
-        "zName": "Weak",
+        "Name": "TEXT_TRIBELEVEL_WEAK",
         "iEmptySites": "3",
         "iBarbSites": "1",
         "iImprovementDevelopModifier": "-40",
@@ -111,7 +111,7 @@
       },
       {
         "zType": "TRIBELEVEL_NORMAL",
-        "zName": "Normal",
+        "Name": "TEXT_TRIBELEVEL_NORMAL",
         "iEmptySites": "2",
         "iBarbSites": "2",
         "iImprovementDevelopModifier": "-20",
@@ -131,7 +131,7 @@
       },
       {
         "zType": "TRIBELEVEL_STRONG",
-        "zName": "Strong",
+        "Name": "TEXT_TRIBELEVEL_STRONG",
         "iEmptySites": "1",
         "iBarbSites": "3",
         "iImprovementDevelopModifier": "-10",
@@ -154,7 +154,7 @@
       },
       {
         "zType": "TRIBELEVEL_RAGING",
-        "zName": "Raging",
+        "Name": "TEXT_TRIBELEVEL_RAGING",
         "iEmptySites": "1",
         "iBarbSites": "2",
         "iDefendUnits": "4",

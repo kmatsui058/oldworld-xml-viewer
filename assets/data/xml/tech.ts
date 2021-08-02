@@ -276,6 +276,7 @@
         "zType": "TECH_NAVIGATION",
         "Name": "TEXT_TECH_NAVIGATION",
         "zIconName": "TECH_NAVIGATION",
+        "EffectPlayer": "EFFECTPLAYER_TECH_NAVIGATION",
         "iCost": "200",
         "iColumn": "2",
         "iRow": "0",
@@ -1012,6 +1013,23 @@
         }
       },
       {
+        "zType": "TECH_VAULTING_BONUS_DISCONTENT",
+        "Name": "TEXT_TECH_VAULTING_BONUS_DISCONTENT",
+        "zIconName": "BOOST_DISCONTENT",
+        "BonusDiscover": "BONUS_TECH_VAULTING_BONUS_DISCONTENT",
+        "iCost": "600",
+        "bHide": "1",
+        "bTrash": "1",
+        "bNoFree": "1",
+        "bValidAll": "1",
+        "abTechPrereq": {
+          "Pair": {
+            "zIndex": "TECH_VAULTING",
+            "bValue": "1"
+          }
+        }
+      },
+      {
         "zType": "TECH_BODKIN_ARROW",
         "Name": "TEXT_TECH_BODKIN_ARROW",
         "zIconName": "TECH_BODKIN_ARROW",
@@ -1445,7 +1463,7 @@
       {
         "zType": "TECH_LIGHT_CHARIOT_BONUS",
         "Name": "TEXT_TECH_LIGHT_CHARIOT_BONUS",
-        "zIconName": "UNIT_LIGHT_CHARIOT",
+        "zIconName": "BONUS_LIGHT_CHARIOT",
         "BonusDiscover": "BONUS_TECH_LIGHT_CHARIOT_UNIT",
         "iCost": "200",
         "bHide": "1",
@@ -1467,7 +1485,7 @@
       {
         "zType": "TECH_KUSHITE_CAVALRY_BONUS",
         "Name": "TEXT_TECH_KUSHITE_CAVALRY_BONUS",
-        "zIconName": "UNIT_KUSHITE_CAVALRY",
+        "zIconName": "BONUS_KUSHITE_CAVALRY",
         "BonusDiscover": "BONUS_TECH_KUSHITE_CAVALRY_UNIT",
         "iCost": "800",
         "bHide": "1",
@@ -1511,7 +1529,7 @@
       {
         "zType": "TECH_PHALANGITE_BONUS",
         "Name": "TEXT_TECH_PHALANGITE_BONUS",
-        "zIconName": "UNIT_PHALANGITE",
+        "zIconName": "BONUS_PHALANGITE",
         "BonusDiscover": "BONUS_TECH_PHALANGITE_UNIT",
         "iCost": "800",
         "bHide": "1",
@@ -1533,7 +1551,7 @@
       {
         "zType": "TECH_PALTON_CAVALRY_BONUS",
         "Name": "TEXT_TECH_PALTON_CAVALRY_BONUS",
-        "zIconName": "UNIT_PALTON_CAVALRY",
+        "zIconName": "BONUS_PALTON_CAVALRY",
         "BonusDiscover": "BONUS_TECH_PALTON_CAVALRY_UNIT",
         "iCost": "200",
         "bHide": "1",

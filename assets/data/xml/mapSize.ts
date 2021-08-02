@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iWidth": {
@@ -30,7 +30,7 @@
       },
       {
         "zType": "MAPSIZE_DUEL",
-        "zName": "Duel",
+        "Name": "TEXT_MAPSIZE_DUEL",
         "iWidth": "60",
         "iHeight": "60",
         "iWidthMPTwoTeams": "40",
@@ -40,7 +40,7 @@
       },
       {
         "zType": "MAPSIZE_SMALL",
-        "zName": "Small",
+        "Name": "TEXT_MAPSIZE_SMALL",
         "iWidth": "68",
         "iHeight": "68",
         "iWidthMPTwoTeams": "42",
@@ -50,7 +50,7 @@
       },
       {
         "zType": "MAPSIZE_MEDIUM",
-        "zName": "Medium",
+        "Name": "TEXT_MAPSIZE_MEDIUM",
         "iWidth": "76",
         "iHeight": "76",
         "iWidthMPTwoTeams": "44",
@@ -60,7 +60,7 @@
       },
       {
         "zType": "MAPSIZE_LARGE",
-        "zName": "Large",
+        "Name": "TEXT_MAPSIZE_LARGE",
         "iWidth": "82",
         "iHeight": "82",
         "iWidthMPTwoTeams": "46",
@@ -70,9 +70,9 @@
       },
       {
         "zType": "MAPSIZE_HUGE",
-        "zName": "Huge",
-        "iWidth": "90",
-        "iHeight": "90",
+        "Name": "TEXT_MAPSIZE_HUGE",
+        "iWidth": "88",
+        "iHeight": "88",
         "iWidthMPTwoTeams": "48",
         "iHeightMPTwoTeams": "74",
         "iMaxOpponents": "6",

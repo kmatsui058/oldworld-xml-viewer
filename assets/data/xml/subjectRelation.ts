@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "Relative": {
@@ -42,16 +42,22 @@
         "MaxProximityTribe": {
           
         },
-        "MinStrengthPlayer": {
+        "MinPowerPlayer": {
           
         },
-        "MaxStrengthPlayer": {
+        "MaxPowerPlayer": {
           
         },
-        "MinStrengthTribe": {
+        "MinPowerTribe": {
           
         },
-        "MaxStrengthTribe": {
+        "MaxPowerTribe": {
+          
+        },
+        "MinKnowledgePlayer": {
+          
+        },
+        "MaxKnowledgePlayer": {
           
         },
         "MinWarStatePlayer": {
@@ -94,6 +100,15 @@
           
         },
         "MaxOpinionCharacter": {
+          
+        },
+        "iMinDistance": {
+          
+        },
+        "iMaxDistance": {
+          
+        },
+        "bAnyDescendant": {
           
         },
         "bNotDescendant": {
@@ -153,7 +168,10 @@
         "bTeamAlliance": {
           
         },
-        "bNoTeamAllianceAny": {
+        "bNotTeamAlliance": {
+          
+        },
+        "bCanTeamAlliance": {
           
         },
         "bCanEndWar": {
@@ -174,7 +192,10 @@
         "bTribeAlliance": {
           
         },
-        "bNoTribeAllianceAny": {
+        "bNotTribeAlliance": {
+          
+        },
+        "bCanTribeAlliance": {
           
         },
         "bFamilySame": {
@@ -232,6 +253,9 @@
           
         },
         "bLawMinNeutral": {
+          
+        },
+        "bLawMaxNeutral": {
           
         },
         "bLawNegative": {
@@ -368,8 +392,8 @@
         "RelationshipInvalid": "RELATIONSHIP_LOVER_OF"
       },
       {
-        "zType": "SUBJECTRELATION_ALLIED_WITH",
-        "RelationshipPrereq": "RELATIONSHIP_ALLIED_WITH"
+        "zType": "SUBJECTRELATION_CONSPIRING_WITH",
+        "RelationshipPrereq": "RELATIONSHIP_CONSPIRING_WITH"
       },
       {
         "zType": "SUBJECTRELATION_ENDEARED_TO",
@@ -388,12 +412,16 @@
         "RelationshipPrereq": "RELATIONSHIP_INFLUENCED_BY"
       },
       {
-        "zType": "SUBJECTRELATION_INTERCESSED_FOR",
-        "RelationshipPrereq": "RELATIONSHIP_INTERCESSED_FOR"
+        "zType": "SUBJECTRELATION_INTERCEDED_FOR",
+        "RelationshipPrereq": "RELATIONSHIP_INTERCEDED_FOR"
       },
       {
         "zType": "SUBJECTRELATION_HOLDS_FAVOR_FROM",
         "RelationshipPrereq": "RELATIONSHIP_HOLDS_FAVOR_FROM"
+      },
+      {
+        "zType": "SUBJECTRELATION_ASSASSINATED_BY",
+        "RelationshipPrereq": "RELATIONSHIP_ASSASSINATED_BY"
       },
       {
         "zType": "SUBJECTRELATION_OWES_FAVOR_TO",
@@ -462,13 +490,17 @@
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_NO_ALLIANCE",
-        "bNoTeamAllianceAny": "1"
+        "bNotTeamAlliance": "1"
       },
       {
-        "zType": "SUBJECTRELATION_PLAYER_NO_ALLIANCE_PEACE",
+        "zType": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE",
+        "bCanTeamAlliance": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE_PEACE",
         "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
         "MaxDiplomacyPlayer": "DIPLOMACY_PEACE",
-        "bNoTeamAllianceAny": "1"
+        "bCanTeamAlliance": "1"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_PEACE_FRIENDLY",
@@ -503,7 +535,11 @@
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_NO_ALLIANCE",
-        "bNoTribeAllianceAny": "1"
+        "bNotTribeAlliance": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_CAN_ALLIANCE",
+        "bCanTribeAlliance": "1"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_PEACE_FRIENDLY",
@@ -557,54 +593,58 @@
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_SIMILAR",
-        "MinStrengthPlayer": "STRENGTH_SIMILAR",
-        "MaxStrengthPlayer": "STRENGTH_SIMILAR"
+        "MinPowerPlayer": "POWER_SIMILAR",
+        "MaxPowerPlayer": "POWER_SIMILAR"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_STRONGER",
-        "MinStrengthPlayer": "STRENGTH_STRONGER",
-        "MaxStrengthPlayer": "STRENGTH_STRONGER"
+        "MinPowerPlayer": "POWER_STRONGER",
+        "MaxPowerPlayer": "POWER_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MUCH_STRONGER",
-        "MinStrengthPlayer": "STRENGTH_MUCH_STRONGER",
-        "MaxStrengthPlayer": "STRENGTH_MUCH_STRONGER"
+        "MinPowerPlayer": "POWER_MUCH_STRONGER",
+        "MaxPowerPlayer": "POWER_MUCH_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MAX_WEAKER",
-        "MaxStrengthPlayer": "STRENGTH_WEAKER"
+        "MaxPowerPlayer": "POWER_WEAKER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MAX_SIMILAR",
-        "MaxStrengthPlayer": "STRENGTH_SIMILAR"
+        "MaxPowerPlayer": "POWER_SIMILAR"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MAX_STRONGER",
-        "MaxStrengthPlayer": "STRENGTH_STRONGER"
+        "MaxPowerPlayer": "POWER_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MIN_SIMILAR",
-        "MinStrengthPlayer": "STRENGTH_SIMILAR"
+        "MinPowerPlayer": "POWER_SIMILAR"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_MIN_STRONGER",
-        "MinStrengthPlayer": "STRENGTH_STRONGER"
+        "MinPowerPlayer": "POWER_STRONGER"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_MAX_WEAKER",
-        "MaxStrengthTribe": "STRENGTH_WEAKER"
+        "MaxPowerTribe": "POWER_WEAKER"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_MIN_WEAKER",
-        "MinStrengthTribe": "STRENGTH_WEAKER"
+        "MinPowerTribe": "POWER_WEAKER"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_MIN_SIMILAR",
-        "MinStrengthTribe": "STRENGTH_SIMILAR"
+        "MinPowerTribe": "POWER_SIMILAR"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_MIN_STRONGER",
-        "MinStrengthTribe": "STRENGTH_STRONGER"
+        "MinPowerTribe": "POWER_STRONGER"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_MIN_COMPETENT",
+        "MinKnowledgePlayer": "KNOWLEDGE_COMPETENT"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_ROUTED",
@@ -848,6 +888,19 @@
         "MinOpinionTribe": "OPINIONTRIBE_FRIENDLY"
       },
       {
+        "zType": "SUBJECTRELATION_RELIGION_MAX_UPSET",
+        "MaxOpinionReligion": "OPINIONRELIGION_UPSET"
+      },
+      {
+        "zType": "SUBJECTRELATION_RELIGION_MAX_ANGRY",
+        "MaxOpinionReligion": "OPINIONRELIGION_ANGRY"
+      },
+      {
+        "zType": "SUBJECTRELATION_FAMILY_ANGRY",
+        "MinOpinionFamily": "OPINIONFAMILY_ANGRY",
+        "MaxOpinionFamily": "OPINIONFAMILY_ANGRY"
+      },
+      {
         "zType": "SUBJECTRELATION_FAMILY_MAX_PLEASED",
         "MaxOpinionFamily": "OPINIONFAMILY_PLEASED"
       },
@@ -936,6 +989,14 @@
         "MaxOpinionCharacter": "OPINIONCHARACTER_FURIOUS"
       },
       {
+        "zType": "SUBJECTRELATION_MAX_DISTANCE_10",
+        "iMaxDistance": "10"
+      },
+      {
+        "zType": "SUBJECTRELATION_ANY_DESCENDANT",
+        "bAnyDescendant": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_NOT_DESCENDANT",
         "bNotDescendant": "1"
       },
@@ -1018,7 +1079,7 @@
       },
       {
         "zType": "SUBJECTRELATION_MIN_CONFLICT_TURNS",
-        "zName": "Shorter than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)",
+        "Name": "TEXT_SUBJECTRELATION_MIN_CONFLICT_TURNS",
         "bMinTreatyTurns": "1"
       },
       {
@@ -1064,19 +1125,12 @@
       },
       {
         "zType": "SUBJECTRELATION_RELIGION_PLAYER",
+        "Name": "TEXT_SUBJECTRELATION_RELIGION_PLAYER",
         "bReligionPlayer": "1"
       },
       {
         "zType": "SUBJECTRELATION_RELIGION_PLAYER_NO",
         "bReligionPlayerNo": "1"
-      },
-      {
-        "zType": "SUBJECTRELATION_RELIGION_MAX_UPSET",
-        "MaxOpinionReligion": "OPINIONRELIGION_UPSET"
-      },
-      {
-        "zType": "SUBJECTRELATION_RELIGION_MAX_ANGRY",
-        "MaxOpinionReligion": "OPINIONRELIGION_ANGRY"
       },
       {
         "zType": "SUBJECTRELATION_RELIGION_CITY",
@@ -1121,6 +1175,10 @@
       {
         "zType": "SUBJECTRELATION_LAW_MIN_NEUTRAL",
         "bLawMinNeutral": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_LAW_MAX_NEUTRAL",
+        "bLawMaxNeutral": "1"
       },
       {
         "zType": "SUBJECTRELATION_LAW_NEGATIVE",

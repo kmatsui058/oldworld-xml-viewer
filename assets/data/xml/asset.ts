@@ -67,6 +67,10 @@
         "zAsset": "Sprites/HUD_Atlas_2"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_POPUP_DETAIL1",
+        "zAsset": "Sprites/POPUP_DETAIL1"
+      },
+      {
         "zType": "ASSET_SPRITE_SHEET_HUD_TechTree",
         "zAsset": "Sprites/HUD_TechTree"
       },
@@ -107,6 +111,10 @@
         "zAsset": "Sprites/Trait-Icons"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_TRAITS_SMALL",
+        "zAsset": "Sprites/Trait-IconsSmall"
+      },
+      {
         "zType": "ASSET_SPRITE_SHEET_RESOURCES",
         "zAsset": "Sprites/Resource_Icons"
       },
@@ -135,6 +143,10 @@
         "zAsset": "Sprites/Religion-Icons"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_RELIGIONS_SMALL",
+        "zAsset": "Sprites/Religion-Icons-Small"
+      },
+      {
         "zType": "ASSET_SPRITE_SHEET_RATINGS",
         "zAsset": "Sprites/Rating-Icons"
       },
@@ -149,6 +161,10 @@
       {
         "zType": "ASSET_SPRITE_SHEET_CRESTS",
         "zAsset": "Sprites/Crests"
+      },
+      {
+        "zType": "ASSET_SPRITE_SHEET_CRESTS_SMALL",
+        "zAsset": "Sprites/Crests_Small"
       },
       {
         "zType": "ASSET_SPRITE_SHEET_DIPLOMACIES",
@@ -459,14 +475,6 @@
         "zAsset": "Prefabs/Effects/Projectile"
       },
       {
-        "zType": "ASSET_UNIT_GENERAL_MALE",
-        "zAsset": "Prefabs/Units/King"
-      },
-      {
-        "zType": "ASSET_UNIT_GENERAL_FEMALE",
-        "zAsset": "Prefabs/Units/King"
-      },
-      {
         "zType": "ASSET_UNIT_SETTLER",
         "zAsset": "Prefabs/Units/Settler"
       },
@@ -477,6 +485,14 @@
       {
         "zType": "ASSET_UNIT_WORKER",
         "zAsset": "Prefabs/Units/Worker"
+      },
+      {
+        "zType": "ASSET_UNIT_WORKER_FEMALE",
+        "zAsset": "Prefabs/Units/Female_Worker"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_WORKER_FEMALE",
+        "zAsset": "Prefabs/Units/Female_Worker_portrait"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_WORKER",
@@ -493,6 +509,14 @@
       {
         "zType": "ASSET_UNIT_PORTRAIT_SCOUT",
         "zAsset": "Prefabs/Units/Scout_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_SCOUT_FEMALE",
+        "zAsset": "Prefabs/Units/Female_scout"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_SCOUT_FEMALE",
+        "zAsset": "Prefabs/Units/Female_scout_portrait"
       },
       {
         "zType": "ASSET_UNIT_CARAVAN",
@@ -583,8 +607,16 @@
         "zAsset": "Prefabs/Units/Archer"
       },
       {
+        "zType": "ASSET_UNIT_ARCHER_FEMALE",
+        "zAsset": "Prefabs/Units/Female_Archer"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ARCHER",
         "zAsset": "Prefabs/Units/Archer_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_ARCHER_FEMALE",
+        "zAsset": "Prefabs/Units/Female_Archer_portrait"
       },
       {
         "zType": "ASSET_UNIT_ARCHER_PROJECTILE",
@@ -699,8 +731,16 @@
         "zAsset": "Prefabs/Units/Trireme"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_TRIREME",
+        "zAsset": "Prefabs/Units/Trireme_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_DROMON",
         "zAsset": "Prefabs/Units/Dromon"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_DROMON",
+        "zAsset": "Prefabs/Units/Dromon_portrait"
       },
       {
         "zType": "ASSET_UNIT_BATTERING_RAM",
@@ -723,8 +763,16 @@
         "zAsset": "Prefabs/Units/Akkadian_Archer"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_AKKADIAN_ARCHER",
+        "zAsset": "Prefabs/Units/Akkadian_Archer_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_CIMMERIAN_ARCHER",
         "zAsset": "Prefabs/Units/Cimmerian_Archer"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_CIMMERIAN_ARCHER",
+        "zAsset": "Prefabs/Units/Cimmerian_Archer_portrait"
       },
       {
         "zType": "ASSET_UNIT_AFRICAN_ELEPHANT",
@@ -755,6 +803,10 @@
         "zAsset": "Prefabs/Units/KushiteCavalry"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_KUSHITE_CAVALRY",
+        "zAsset": "Prefabs/Units/KushiteCavalry_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_HOPLITE",
         "zAsset": "Prefabs/Units/Hoplite"
       },
@@ -769,6 +821,10 @@
       {
         "zType": "ASSET_UNIT_PALTON_CAVALRY",
         "zAsset": "Prefabs/Units/PaltonCavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_PALTON_CAVALRY",
+        "zAsset": "Prefabs/Units/PaltonCavalry_portrait"
       },
       {
         "zType": "ASSET_UNIT_CATAPHRACT_ARCHER",
@@ -871,6 +927,10 @@
         "zAsset": "Prefabs/Units/Barbarians/EliteSkirmisher"
       },
       {
+        "zType": "ASSET_UNIT_PORTRAIT_ELITE_SKIRMISHER",
+        "zAsset": "Prefabs/Units/Barbarians/EliteSkirmisher_portrait"
+      },
+      {
         "zType": "ASSET_UNIT_ELITE_NOMAD_MARAUDER",
         "zAsset": "Prefabs/Units/Barbarians/EliteNomadMarauder"
       },
@@ -905,6 +965,10 @@
       {
         "zType": "ASSET_UNIT_NOMAD_WARLORD",
         "zAsset": "Prefabs/Units/Nomad_Warlord"
+      },
+      {
+        "zType": "ASSET_UNIT_PORTRAIT_NOMAD_WARLORD",
+        "zAsset": "Prefabs/Units/Nomad_Warlord_portrait"
       },
       {
         "zType": "ASSET_UNIT_GAESATA_GAULS",
@@ -1584,7 +1648,7 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_GROVE_LAVENDER",
-        "zAsset": "Prefabs/Improvements/Grove_Incense"
+        "zAsset": "Prefabs/Improvements/Grove_Lavender"
       },
       {
         "zType": "ASSET_IMPROVEMENT_GROVE_OLIVE",
@@ -1645,6 +1709,10 @@
       {
         "zType": "ASSET_IMPROVEMENT_GARRISON_2",
         "zAsset": "Prefabs/Improvements/Stronghold"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_GARRISON_3",
+        "zAsset": "Prefabs/Improvements/Citadel"
       },
       {
         "zType": "ASSET_IMPROVEMENT_SHRINE_WAR",
@@ -1712,15 +1780,15 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_BATHS_1",
-        "zAsset": "Prefabs/Improvements/Baths"
+        "zAsset": "Prefabs/Improvements/Baths_Cold"
       },
       {
         "zType": "ASSET_IMPROVEMENT_BATHS_2",
-        "zAsset": "Prefabs/Improvements/Baths"
+        "zAsset": "Prefabs/Improvements/Baths_Warm"
       },
       {
         "zType": "ASSET_IMPROVEMENT_BATHS_3",
-        "zAsset": "Prefabs/Improvements/Baths"
+        "zAsset": "Prefabs/Improvements/Baths_Heated"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MARKET_1",
@@ -1740,11 +1808,11 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_LIBRARY_2",
-        "zAsset": "Prefabs/Improvements/Library"
+        "zAsset": "Prefabs/Improvements/Academy"
       },
       {
         "zType": "ASSET_IMPROVEMENT_LIBRARY_3",
-        "zAsset": "Prefabs/Improvements/Library"
+        "zAsset": "Prefabs/Improvements/University"
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_1",
@@ -1752,7 +1820,7 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_2",
-        "zAsset": "Prefabs/Improvements/Courthouse"
+        "zAsset": "Prefabs/Improvements/CourtHouse1"
       },
       {
         "zType": "ASSET_IMPROVEMENT_COURTHOUSE_3",
@@ -1783,6 +1851,14 @@
         "zAsset": "Prefabs/Improvements/Temple_Jewish"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_TEMPLE_2",
+        "zAsset": "Prefabs/Improvements/Temple_Christian"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_TEMPLE_3",
+        "zAsset": "Prefabs/Improvements/Temple_Zoroastrian"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_CATHEDRAL_1",
         "zAsset": "Prefabs/Improvements/Cathedral_Zoroastrian"
       },
@@ -1807,6 +1883,14 @@
         "zAsset": "Prefabs/Improvements/ManiceanHolysite"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_HOLY_SITE_2",
+        "zAsset": "Prefabs/Improvements/Christian_HolySite"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_HOLY_SITE_3",
+        "zAsset": "Prefabs/Improvements/Jewish_Holysite"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_PYRAMIDS",
         "zAsset": "Prefabs/Improvements/Pyramids"
       },
@@ -1817,6 +1901,10 @@
       {
         "zType": "ASSET_IMPROVEMENT_ORACLE",
         "zAsset": "Prefabs/Features/oracle"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_GREAT_ORACLE",
+        "zAsset": "Prefabs/Features/oracleConstruction"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HANGING_GARDENS",
@@ -1884,11 +1972,15 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_VIA_RECTA_SOUK",
-        "zAsset": "Prefabs/Features/Grand_Bazaar"
+        "zAsset": "Prefabs/Improvements/ViaRecta"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HAGIA_SOPHIA",
         "zAsset": "Prefabs/Features/Hagia_Sophia"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_HAGIA_SOPHIA",
+        "zAsset": "Prefabs/Features/Hagia_Sophia_construction"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MUSAEUM",
@@ -1899,8 +1991,16 @@
         "zAsset": "Prefabs/Features/Mausoleum"
       },
       {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_MAUSOLEUM",
+        "zAsset": "Prefabs/Features/Mausoleum_construction"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_PANTHEON",
         "zAsset": "Prefabs/Features/Pantheon"
+      },
+      {
+        "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_PANTHEON",
+        "zAsset": "Prefabs/Features/PantheonConstruction"
       },
       {
         "zType": "ASSET_RESOURCE_IRON",
@@ -2056,7 +2156,15 @@
       },
       {
         "zType": "ASSET_PROJECT_WALLS",
-        "zAsset": "Prefabs/Cities/City_Walls"
+        "zAsset": "Prefabs/Cities/Projects/City_Project_Walls"
+      },
+      {
+        "zType": "ASSET_PROJECT_MOAT",
+        "zAsset": "Prefabs/Cities/Projects/City_Project_Moat"
+      },
+      {
+        "zType": "ASSET_PROJECT_TOWERS",
+        "zAsset": "Prefabs/Cities/Projects/City_Project_Towers"
       },
       {
         "zType": "ASSET_HUD_XML",
@@ -2077,6 +2185,26 @@
       {
         "zType": "ASSET_UNIT_DUST",
         "zAsset": "Prefabs/Particles/UnitDust"
+      },
+      {
+        "zType": "ASSET_UNIT_BOAT_PROJECTILE",
+        "zAsset": "Prefabs/Particles/BoatProjectile"
+      },
+      {
+        "zType": "ASSET_UNIT_BOAT_IMPACT",
+        "zAsset": "Prefabs/Particles/BoatImpact"
+      },
+      {
+        "zType": "ASSET_BOAT_WAKE",
+        "zAsset": "Prefabs/Particles/Boat_Wake"
+      },
+      {
+        "zType": "ASSET_BOAT_SPLASH",
+        "zAsset": "Prefabs/Particles/Boat_Splash"
+      },
+      {
+        "zType": "ASSET_UNIT_SPREAD_RELIGION",
+        "zAsset": "Prefabs/Particles/SpreadReligionParticle"
       },
       {
         "zType": "ASSET_WORKER_DUST",
@@ -2151,12 +2279,44 @@
         "zAsset": "Videos/Undo-Movement-Orders"
       },
       {
+        "zType": "ASSET_TUTORIAL_MOVIE_ANCHOR",
+        "zAsset": "Videos/Anchoring-Tutorial"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_TOOLTIPS",
+        "zAsset": "Videos/Infinite-Tooltip-Tutorial"
+      },
+      {
+        "zType": "ASSET_TUTORIAL_MOVIE_TECH_DECK",
+        "zAsset": "Videos/Tech-Deck-Tutorial"
+      },
+      {
         "zType": "ASSET_CONSTRUCTION_IMPROVEMENT_GENERIC",
         "zAsset": "Prefabs/Improvements/ConstructionGeneric"
       },
       {
         "zType": "ASSET_IMPROVEMENT_PILLAGED_EFFECT",
         "zAsset": "Prefabs/Particles/RealisticExplosion02"
+      },
+      {
+        "zType": "ASSET_UNIT_SPEAR_PROJECTILE",
+        "zAsset": "Prefabs/Units/SpearProjectile"
+      },
+      {
+        "zType": "ASSET_UNIT_HARVEST_EFFECT",
+        "zAsset": "Prefabs/Particles/Harvest-Particle-Fast"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_CONSTRUCTION_EFFECT",
+        "zAsset": "Prefabs/Particles/Construction-particle"
+      },
+      {
+        "zType": "ASSET_TILE_CONVERT_EFFECT",
+        "zAsset": "Prefabs/Particles/Convert_particle"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_UPGRADED_EFFECT",
+        "zAsset": "Prefabs/Particles/ImprovementPromotion"
       }
     ]
   }

@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "PromotionPrereq": {
@@ -27,14 +27,14 @@
       },
       {
         "zType": "PROMOTION_COMBAT1",
-        "zName": "Combat I",
+        "Name": "TEXT_PROMOTION_COMBAT1",
         "EffectUnit": "EFFECTUNIT_COMBAT1",
         "bPriority": "1",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_COMBAT2",
-        "zName": "Combat II",
+        "Name": "TEXT_PROMOTION_COMBAT2",
         "PromotionPrereq": "PROMOTION_COMBAT1",
         "EffectUnit": "EFFECTUNIT_COMBAT2",
         "bPriority": "1",
@@ -42,22 +42,45 @@
       },
       {
         "zType": "PROMOTION_COMBAT3",
-        "zName": "Combat III",
+        "Name": "TEXT_PROMOTION_COMBAT3",
         "PromotionPrereq": "PROMOTION_COMBAT2",
         "EffectUnit": "EFFECTUNIT_COMBAT3",
         "bPriority": "1",
         "bUpgrade": "1"
       },
       {
+        "zType": "PROMOTION_STRIKE1",
+        "Name": "TEXT_PROMOTION_STRIKE1",
+        "EffectUnit": "EFFECTUNIT_STRIKE1",
+        "bPriority": "1",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_STRIKE2",
+        "Name": "TEXT_PROMOTION_STRIKE2",
+        "PromotionPrereq": "PROMOTION_STRIKE1",
+        "EffectUnit": "EFFECTUNIT_STRIKE2",
+        "bPriority": "1",
+        "bUpgrade": "1"
+      },
+      {
+        "zType": "PROMOTION_STRIKE3",
+        "Name": "TEXT_PROMOTION_STRIKE3",
+        "PromotionPrereq": "PROMOTION_STRIKE2",
+        "EffectUnit": "EFFECTUNIT_STRIKE3",
+        "bPriority": "1",
+        "bUpgrade": "1"
+      },
+      {
         "zType": "PROMOTION_GUARD1",
-        "zName": "Guard I",
+        "Name": "TEXT_PROMOTION_GUARD1",
         "EffectUnit": "EFFECTUNIT_GUARD1",
         "bPriority": "1",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_GUARD2",
-        "zName": "Guard II",
+        "Name": "TEXT_PROMOTION_GUARD2",
         "PromotionPrereq": "PROMOTION_GUARD1",
         "EffectUnit": "EFFECTUNIT_GUARD2",
         "bPriority": "1",
@@ -65,7 +88,7 @@
       },
       {
         "zType": "PROMOTION_GUARD3",
-        "zName": "Guard III",
+        "Name": "TEXT_PROMOTION_GUARD3",
         "PromotionPrereq": "PROMOTION_GUARD2",
         "EffectUnit": "EFFECTUNIT_GUARD3",
         "bPriority": "1",
@@ -73,14 +96,14 @@
       },
       {
         "zType": "PROMOTION_FOCUS1",
-        "zName": "Focus I",
+        "Name": "TEXT_PROMOTION_FOCUS1",
         "EffectUnit": "EFFECTUNIT_FOCUS1",
         "bPriority": "1",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_FOCUS2",
-        "zName": "Focus II",
+        "Name": "TEXT_PROMOTION_FOCUS2",
         "PromotionPrereq": "PROMOTION_FOCUS1",
         "EffectUnit": "EFFECTUNIT_FOCUS2",
         "bPriority": "1",
@@ -88,7 +111,7 @@
       },
       {
         "zType": "PROMOTION_FOCUS3",
-        "zName": "Focus III",
+        "Name": "TEXT_PROMOTION_FOCUS3",
         "PromotionPrereq": "PROMOTION_FOCUS2",
         "EffectUnit": "EFFECTUNIT_FOCUS3",
         "bPriority": "1",
@@ -96,176 +119,182 @@
       },
       {
         "zType": "PROMOTION_TRACKER",
-        "zName": "Tracker",
+        "Name": "TEXT_PROMOTION_TRACKER",
         "EffectUnit": "EFFECTUNIT_TRACKER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_SWIFT",
-        "zName": "Swift",
+        "Name": "TEXT_PROMOTION_SWIFT",
         "PromotionPrereq": "PROMOTION_TRACKER",
         "EffectUnit": "EFFECTUNIT_SWIFT",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_EAGLE_EYE",
-        "zName": "Eagle Eye",
+        "Name": "TEXT_PROMOTION_EAGLE_EYE",
         "EffectUnit": "EFFECTUNIT_EAGLE_EYE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_MARKSMAN",
-        "zName": "Marksman",
+        "Name": "TEXT_PROMOTION_MARKSMAN",
         "PromotionPrereq": "PROMOTION_EAGLE_EYE",
         "EffectUnit": "EFFECTUNIT_MARKSMAN",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_AMPHIBIOUS",
-        "zName": "Amphibious",
+        "Name": "TEXT_PROMOTION_AMPHIBIOUS",
         "EffectUnit": "EFFECTUNIT_AMPHIBIOUS",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BESIEGER",
-        "zName": "Besieger",
+        "Name": "TEXT_PROMOTION_BESIEGER",
         "EffectUnit": "EFFECTUNIT_BESIEGER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_GARRISON",
-        "zName": "Garrison",
+        "Name": "TEXT_PROMOTION_GARRISON",
         "EffectUnit": "EFFECTUNIT_GARRISON",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_TOUGH",
-        "zName": "Tough",
+        "Name": "TEXT_PROMOTION_TOUGH",
         "EffectUnit": "EFFECTUNIT_TOUGH",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BLOODTHIRSTY",
-        "zName": "Bloodthirsty",
+        "Name": "TEXT_PROMOTION_BLOODTHIRSTY",
         "EffectUnit": "EFFECTUNIT_BLOODTHIRSTY",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HECKLER",
-        "zName": "Heckler",
+        "Name": "TEXT_PROMOTION_HECKLER",
         "EffectUnit": "EFFECTUNIT_HECKLER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_STEADFAST",
-        "zName": "Steadfast",
+        "Name": "TEXT_PROMOTION_STEADFAST",
         "EffectUnit": "EFFECTUNIT_STEADFAST",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HERBALIST",
-        "zName": "Herbalist",
+        "Name": "TEXT_PROMOTION_HERBALIST",
         "EffectUnit": "EFFECTUNIT_HERBALIST",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HEALER",
-        "zName": "Healer",
+        "Name": "TEXT_PROMOTION_HEALER",
         "PromotionPrereq": "PROMOTION_HERBALIST",
         "EffectUnit": "EFFECTUNIT_HEALER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HIGHLANDER",
-        "zName": "Highlander",
+        "Name": "TEXT_PROMOTION_HIGHLANDER",
         "EffectUnit": "EFFECTUNIT_HIGHLANDER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_RANGER",
-        "zName": "Ranger",
+        "Name": "TEXT_PROMOTION_RANGER",
         "EffectUnit": "EFFECTUNIT_RANGER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_BRAVE",
-        "zName": "Brave",
+        "Name": "TEXT_PROMOTION_BRAVE",
         "EffectUnit": "EFFECTUNIT_BRAVE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_SHIELDBEARER",
-        "zName": "Shieldbearer",
+        "Name": "TEXT_PROMOTION_SHIELDBEARER",
         "EffectUnit": "EFFECTUNIT_SHIELDBEARER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_FIERCE",
-        "zName": "Fierce",
+        "Name": "TEXT_PROMOTION_FIERCE",
         "EffectUnit": "EFFECTUNIT_FIERCE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_HORSEBANE",
-        "zName": "Horsebane",
+        "Name": "TEXT_PROMOTION_HORSEBANE",
         "EffectUnit": "EFFECTUNIT_HORSEBANE",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_ENGINEER",
-        "zName": "Engineer",
+        "Name": "TEXT_PROMOTION_ENGINEER",
         "EffectUnit": "EFFECTUNIT_ENGINEER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_SHRAPNEL",
-        "zName": "Shrapnel",
+        "Name": "TEXT_PROMOTION_SHRAPNEL",
         "EffectUnit": "EFFECTUNIT_SHRAPNEL",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_COCKSWAIN",
-        "zName": "Cockswain",
+        "Name": "TEXT_PROMOTION_COCKSWAIN",
         "EffectUnit": "EFFECTUNIT_COCKSWAIN",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_GRAPPLER",
-        "zName": "Grappler",
+        "Name": "TEXT_PROMOTION_GRAPPLER",
         "EffectUnit": "EFFECTUNIT_GRAPPLER",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_SEABORN",
-        "zName": "Seaborn",
+        "Name": "TEXT_PROMOTION_SEABORN",
         "EffectUnit": "EFFECTUNIT_SEABORN",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_OVERWHELM",
-        "zName": "Overwhelm",
+        "Name": "TEXT_PROMOTION_OVERWHELM",
         "EffectUnit": "EFFECTUNIT_OVERWHELM",
         "bUpgrade": "1"
       },
       {
         "zType": "PROMOTION_FIRESHIP",
-        "zName": "Fireship",
+        "Name": "TEXT_PROMOTION_FIRESHIP",
         "EffectUnit": "EFFECTUNIT_FIRESHIP",
         "bUpgrade": "1"
       },
       {
+        "zType": "PROMOTION_LADING",
+        "Name": "TEXT_PROMOTION_LADING",
+        "EffectUnit": "EFFECTUNIT_LADING",
+        "bUpgrade": "1"
+      },
+      {
         "zType": "PROMOTION_INGENUITY",
-        "zName": "Ingenuity",
+        "Name": "TEXT_PROMOTION_INGENUITY",
         "EffectUnit": "EFFECTUNIT_INGENUITY"
       },
       {
         "zType": "PROMOTION_SADDLEBORN",
-        "zName": "Saddleborn",
+        "Name": "TEXT_PROMOTION_SADDLEBORN",
         "EffectUnit": "EFFECTUNIT_SADDLEBORN"
       },
       {
         "zType": "PROMOTION_SNIPING",
-        "zName": "Sniping",
+        "Name": "TEXT_PROMOTION_SNIPING",
         "EffectUnit": "EFFECTUNIT_SNIPING"
       }
     ]
