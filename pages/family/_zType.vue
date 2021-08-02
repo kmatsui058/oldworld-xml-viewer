@@ -20,6 +20,23 @@
         </nuxt-link>
       </p>
     </section>
+    <section
+      id="family-class"
+      class="section"
+    >
+      <h3 class="title">
+        Family Class
+      </h3>
+      <hr>
+      <p>
+        <nuxt-link
+          :key="family.familyClass.zType"
+          :to="`/family-class/${family.familyClass.zType}`"
+        >
+          {{ family.familyClass.name }}
+        </nuxt-link>
+      </p>
+    </section>
   </section>
 </template>
 
@@ -35,7 +52,6 @@ export default class Index extends Vue {
       return item.zType === this.$route.params.zType
     })
     if (!entry) {
-      this.$nuxt.error({ statusCode: 404 })
       throw new Error('not found')
     }
     return new Family(entry)

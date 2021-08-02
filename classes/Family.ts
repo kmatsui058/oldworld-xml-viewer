@@ -1,6 +1,8 @@
 import Nation from './Nation'
+import FamilyClass from './FamilyClass'
 import textFamily from '~/assets/data/xml/text-family'
 import nation from '~/assets/data/xml/nation'
+import familyClass from '~/assets/data/xml/familyClass'
 
 export default class Family {
   private readonly textFamily = textFamily.Root.Entry;
@@ -24,5 +26,11 @@ export default class Family {
     const test = nation.Root.Entry.find(entry => entry.zType === this.entry.Nation)
     if (!test) { throw new Error('not found') }
     return new Nation(test)
+  }
+
+  get familyClass (): FamilyClass {
+    const test = familyClass.Root.Entry.find(entry => entry.zType === this.entry.FamilyClass)
+    if (!test) { throw new Error('not found') }
+    return new FamilyClass(test)
   }
 }
