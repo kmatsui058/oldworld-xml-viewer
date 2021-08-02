@@ -1,11 +1,8 @@
-const solid = [
-  'faBug'
+const solid: string[] = ['faBug'
 ]
 
-// ここに追記するだけ
-const regular = ['faBug']
+const regular: string[] = []
 
-// ここに追記するだけ
 const brands = ['faTwitter', 'faGithub']
 
 export { solid, regular, brands }
