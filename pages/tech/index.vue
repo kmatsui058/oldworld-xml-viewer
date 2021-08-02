@@ -17,7 +17,7 @@
           >
             <td>
               <nuxt-link
-                :key="tech.entry"
+                :key="tech.zType"
                 :to="`/tech/${tech.zType}`"
               >
                 {{ tech.name }}
