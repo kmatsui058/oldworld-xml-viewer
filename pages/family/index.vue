@@ -3,7 +3,7 @@
     <h2 class="title is-2">
       FAMILIES
     </h2>
-    <table class="table">
+    <table class="table is-fullwidth">
       <thead>
         <tr>
           <th> Name </th>

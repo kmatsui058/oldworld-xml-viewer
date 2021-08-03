@@ -55,7 +55,7 @@
           <template v-for="(yeild, index) in family.familyClass.effectCity.yields">
             {{ yeild.zIndex }}: {{ yeild.iValue }}
             <template v-if="index + 1 < family.familyClass.effectCity.yields.length">
-              ,
+              /
             </template>
           </template>
         </p>

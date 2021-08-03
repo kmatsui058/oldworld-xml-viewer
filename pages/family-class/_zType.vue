@@ -28,7 +28,7 @@
             {{ family.nation.name }}
           </nuxt-link>)
           <template v-if="index+1 < familyClass.families.length">
-            ,
+            /
           </template>
         </template>
       </div>
@@ -49,7 +49,7 @@
           <template v-for="(yeild, index) in familyClass.effectCity.yields">
             {{ yeild.zIndex }}: {{ yeild.iValue }}
             <template v-if="index + 1 < familyClass.effectCity.yields.length">
-              ,
+              /
             </template>
           </template>
         </p>
