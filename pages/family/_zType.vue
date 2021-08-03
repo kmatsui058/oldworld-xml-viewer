@@ -40,6 +40,37 @@
       </p>
     </section>
     <section
+      id="effect-city"
+      class="section"
+    >
+      <h3 class="title">
+        Effect City
+      </h3>
+      <hr>
+      <div class="content">
+        <h4>
+          Yield
+        </h4>
+        <p v-if=" family.familyClass.effectCity.yields.length">
+          <template v-for="(yeild, index) in family.familyClass.effectCity.yields">
+            {{ yeild.zIndex }}: {{ yeild.iValue }}
+            <template v-if="index + 1 < family.familyClass.effectCity.yields.length">
+              ,
+            </template>
+          </template>
+        </p>
+        <p v-else>
+          -
+        </p>
+        <h4>
+          Free Promotion
+        </h4>
+        <p>
+          {{ family.familyClass.effectCity.entry.aeFreePromotion ? family.familyClass.effectCity.entry.aeFreePromotion.zValue : '-' }}
+        </p>
+      </div>
+    </section>
+    <section
       id="abmitions"
       class="section"
     >
