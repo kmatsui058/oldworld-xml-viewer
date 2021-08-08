@@ -2935,8 +2935,7 @@
 				},
 				"Trigger": "EVENTTRIGGER_RUINS_EXPLORED",
 				"iTriggerSubject": "0",
-				"iPriority": "2",
-				"iWeight": "1",
+				"iWeight": "8",
 				"iRepeatTurns": "80"
 			},
 			{
@@ -10329,7 +10328,7 @@
 				"zAuthor": "Soren Johnson",
 				"aeSubjects": {
 					"zValue": [
-						"SUBJECT_PLAYER_PEACE",
+						"SUBJECT_PLAYER_PEACE_HUMAN",
 						"SUBJECT_PLAYER_US"
 					]
 				},
@@ -10375,7 +10374,7 @@
 				"zAuthor": "Soren Johnson",
 				"aeSubjects": {
 					"zValue": [
-						"SUBJECT_PLAYER_ALLIANCE",
+						"SUBJECT_PLAYER_ALLIANCE_HUMAN",
 						"SUBJECT_PLAYER_US"
 					]
 				},
@@ -10386,7 +10385,7 @@
 					]
 				},
 				"Trigger": "EVENTTRIGGER_MISSION_FINISHED",
-				"TriggerData": "MISSION_PLAYER_END_ALLIANCE",
+				"TriggerData": "MISSION_PLAYER_END_ALLIANCE_HUMAN",
 				"iTriggerSubject": "0",
 				"iWeight": "1",
 				"iRepeatTurns": "0"
@@ -28395,6 +28394,12 @@
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -28422,7 +28427,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -28440,7 +28445,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_CARPENTERS_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "2",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_CARPENTERS"
@@ -28459,6 +28464,12 @@
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -28483,6 +28494,13 @@
 						}
 					]
 				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
+						"Third": "1"
+					}
+				},
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_FOOD_GAIN_AVERAGE",
@@ -28497,7 +28515,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_PATHFINDERS_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40"
 			},
 			{
@@ -28512,6 +28530,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -28540,7 +28564,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -28558,7 +28582,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_WARLIKE_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_WARLIKE"
@@ -28577,6 +28601,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -28624,7 +28654,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -28634,7 +28664,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_WANTON"
@@ -28653,6 +28683,12 @@
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -28680,7 +28716,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -28690,7 +28726,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_FOOLISH_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_FOOLISH"
@@ -28709,6 +28745,12 @@
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -28736,7 +28778,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -28746,7 +28788,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_STRICT_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_STRICT"
@@ -28764,6 +28806,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_CHARACTER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -28789,13 +28837,20 @@
 						}
 					]
 				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
+						"Third": "1"
+					}
+				},
 				"aeOptions": {
 					"zValue": [
 						"EVENTOPTION_LEADER_LOVED_BOTH_EDUCATED_ACCEPT_COPY_SPOUSE",
 						"EVENTOPTION_LEADER_LOVED_BOTH_EDUCATED_DECLINE_COPY_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_EDUCATED"
@@ -28813,6 +28868,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_SPOUSE_OF_LEADER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -28850,6 +28911,13 @@
 						}
 					]
 				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
+						"Third": "1"
+					}
+				},
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_MONEY_GAIN_LARGE",
@@ -28864,7 +28932,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_PROSPEROUS_DECLINE_SPOUSE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40"
 			},
 			{
@@ -29860,6 +29928,10 @@
 							"Second": "SUBJECT_ADULT"
 						},
 						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
+						},
+						{
 							"First": "2",
 							"Second": "SUBJECT_PLAYER_NO_HEIRS"
 						}
@@ -29898,6 +29970,10 @@
 						{
 							"First": "1",
 							"Second": "SUBJECT_BASTARD"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
 						},
 						{
 							"First": "2",
@@ -29940,6 +30016,10 @@
 							"Second": "SUBJECT_BASTARD"
 						},
 						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
+						},
+						{
 							"First": "2",
 							"Second": "SUBJECT_PLAYER_MAX_ONE_HEIR"
 						}
@@ -29978,6 +30058,10 @@
 						{
 							"First": "1",
 							"Second": "SUBJECT_BASTARD"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
 						},
 						{
 							"First": "2",
@@ -34943,6 +35027,10 @@
 						{
 							"First": "1",
 							"Second": "SUBJECT_ADULT_UNDER_40"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
 						},
 						{
 							"First": "2",
@@ -56199,12 +56287,24 @@
 							"Second": "SUBJECT_ADULT_UNDER_40"
 						},
 						{
+							"First": "1",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
+						},
+						{
 							"First": "2",
 							"Second": "SUBJECT_ADULT_UNDER_40"
 						},
 						{
+							"First": "2",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
+						},
+						{
 							"First": "3",
 							"Second": "SUBJECT_ADULT_UNDER_40"
+						},
+						{
+							"First": "3",
+							"Second": "SUBJECT_GENDER_HEIR_VALID"
 						},
 						{
 							"First": "4",
@@ -67306,6 +67406,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -67333,7 +67439,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67351,7 +67457,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_CARPENTERS_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40"
 			},
 			{
@@ -67366,6 +67472,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_CHARACTER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -67394,7 +67506,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67412,7 +67524,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_PATHFINDERS_DECLINE_COPY"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40"
 			},
 			{
@@ -67427,6 +67539,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_CHARACTER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -67455,7 +67573,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67473,7 +67591,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_WARLIKE_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_WARLIKE_SPOUSE"
@@ -67492,6 +67610,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -67531,7 +67655,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67541,7 +67665,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_WANTON_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_WANTON_SPOUSE"
@@ -67560,6 +67684,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -67587,7 +67717,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67597,7 +67727,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_FOOLISH_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_FOOLISH_SPOUSE"
@@ -67616,6 +67746,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -67643,7 +67779,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67653,7 +67789,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_STRICT_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_STRICT_SPOUSE"
@@ -67672,6 +67808,12 @@
 						"SUBJECT_CHARACTER_US"
 					]
 				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
+				},
 				"SubjectExtras": {
 					"Pair": [
 						{
@@ -67699,7 +67841,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67709,7 +67851,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_EDUCATED_DECLINE_COPY"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40",
 				"aeEventStoryRepeatTurns": {
 					"zValue": "EVENTSTORY_LEADER_LOVED_BOTH_EDUCATED_SPOUSE"
@@ -67727,6 +67869,12 @@
 						"SUBJECT_LEADER_US",
 						"SUBJECT_CHARACTER_US"
 					]
+				},
+				"SubjectRepeatTurns": {
+					"Pair": {
+						"First": "0",
+						"Second": "-1"
+					}
 				},
 				"SubjectExtras": {
 					"Pair": [
@@ -67767,7 +67915,7 @@
 				"SubjectRelations": {
 					"Triple": {
 						"First": "0",
-						"Second": "SUBJECTRELATION_ATTRACTED_TO",
+						"Second": "SUBJECTRELATION_MUTUAL_ATTRACTION",
 						"Third": "1"
 					}
 				},
@@ -67785,7 +67933,7 @@
 						"EVENTOPTION_LEADER_LOVED_BOTH_PROSPEROUS_DECLINE"
 					]
 				},
-				"iWeight": "1",
+				"iWeight": "10",
 				"iRepeatTurns": "40"
 			},
 			{
@@ -69786,6 +69934,12 @@
 						"SUBJECT_NON_LEADER_US",
 						"SUBJECT_PLAYER_US"
 					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_HAS_JOB"
+					}
 				},
 				"aeOptions": {
 					"zValue": [
@@ -78850,6 +79004,117 @@
 				"iRepeatTurns": "40"
 			},
 			{
+				"zType": "EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED",
+				"Name": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED_TITLE",
+				"Text": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED",
+				"zBackgroundName": "Dinner",
+				"zAudioTrigger": "AUDIO_UI_EVENT_INTRIGUE",
+				"zAuthor": "David Ballantyne",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_LEADER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "0",
+							"Second": "SUBJECT_ESTRANGED_FROM_LEADER"
+						},
+						{
+							"First": "0",
+							"Second": "SUBJECT_TEENAGER_OR_ADULT"
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_INFLUENCE_SUBJECT_ESTRANGED"
+				},
+				"Trigger": "EVENTTRIGGER_MISSION_FINISHED",
+				"TriggerData": "MISSION_INFLUENCE",
+				"iTriggerSubject": "0",
+				"iTriggerExtra": "1",
+				"iImageExtra": "1",
+				"iWeight": "5",
+				"iProb": "25",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED",
+				"Name": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED_TITLE",
+				"Text": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED",
+				"zBackgroundName": "Library",
+				"zAudioTrigger": "AUDIO_UI_EVENT_FESTIVITIES",
+				"zAuthor": "David Ballantyne",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_LEADER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "0",
+							"Second": "SUBJECT_DISAPPOINTED_WITH_LEADER"
+						},
+						{
+							"First": "0",
+							"Second": "SUBJECT_TEENAGER_OR_ADULT"
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_INFLUENCE_SUBJECT_DISAPPOINTED"
+				},
+				"Trigger": "EVENTTRIGGER_MISSION_FINISHED",
+				"TriggerData": "MISSION_INFLUENCE",
+				"iTriggerSubject": "0",
+				"iTriggerExtra": "1",
+				"iImageExtra": "1",
+				"iWeight": "5",
+				"iProb": "25",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL",
+				"Name": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL_TITLE",
+				"Text": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL",
+				"zBackgroundName": "Poison",
+				"zAudioTrigger": "AUDIO_UI_EVENT_SOLEMN_VICTORY",
+				"zAuthor": "David Ballantyne",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_LEADER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "0",
+							"Second": "SUBJECT_VENGEFUL_AGAINST_LEADER"
+						},
+						{
+							"First": "0",
+							"Second": "SUBJECT_TEENAGER_OR_ADULT"
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_INFLUENCE_SUBJECT_VENGEFUL"
+				},
+				"Trigger": "EVENTTRIGGER_MISSION_FINISHED",
+				"TriggerData": "MISSION_INFLUENCE",
+				"iTriggerSubject": "0",
+				"iTriggerExtra": "1",
+				"iImageExtra": "1",
+				"iWeight": "5",
+				"iProb": "25",
+				"iRepeatTurns": "0"
+			},
+			{
 				"beginGroup": "City",
 				"zType": "EVENTSTORY_HAPPINESS_IMMIGRANTS",
 				"Name": "TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE",
@@ -80345,7 +80610,8 @@
 						"SUBJECT_HEIR_US",
 						"SUBJECT_CITY_US",
 						"SUBJECT_FAMILY_US",
-						"SUBJECT_TECH_SOVEREIGNTY_DISCOVERED_US"
+						"SUBJECT_TECH_SOVEREIGNTY_DISCOVERED_US",
+						"SUBJECT_TILE_CLAIMED"
 					]
 				},
 				"SubjectExtras": {
@@ -80360,6 +80626,13 @@
 						}
 					]
 				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "4",
+						"Second": "SUBJECTRELATION_CITY_SAME",
+						"Third": "1"
+					}
+				},
 				"aeBonuses": {
 					"zValue": [
 						{
@@ -80368,7 +80641,13 @@
 						{
 							
 						},
-						"BONUS_EVENTSTORY_HEIR_EXPERTISE_MINIMAL_OPINION_BOOST"
+						"BONUS_EVENTSTORY_HEIR_EXPERTISE_MINIMAL_OPINION_BOOST",
+						{
+							
+						},
+						{
+							
+						}
 					]
 				},
 				"aeOptions": {
@@ -80380,6 +80659,7 @@
 				"Trigger": "EVENTTRIGGER_IMPROVEMENT_FINISHED",
 				"TriggerData": "IMPROVEMENT_NETS",
 				"iTriggerSubject": "1",
+				"iTriggerExtra": "4",
 				"iLookAtSubject": "1",
 				"iMinTurns": "20",
 				"iWeight": "1",
@@ -81803,6 +82083,624 @@
 				"iLookAtSubject": "1",
 				"iWeight": "2",
 				"iRepeatTurns": "-1"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_1_EUNUS",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_EUNUS_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_EUNUS",
+				"zBackgroundName": "Dagger_Assasin",
+				"zEventURL": "https://en.wikipedia.org/wiki/Eunus",
+				"zAudioTrigger": "AUDIO_UI_EVENT_SUDDEN_CONFRONTATION",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_REBEL_SLAVE",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_FAMILY_SAME",
+						"Third": "1"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_1_EUNUS",
+						"EVENTOPTION_SLAVE_REVOLT_1_FIGHT"
+					]
+				},
+				"iImageSubject": "2",
+				"iLookAtSubject": "0",
+				"LawPrereq": "LAW_SLAVERY",
+				"MinDifficulty": "DIFFICULTY_STRONG",
+				"iMinTurns": "30",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"aeEventStoryRepeatTurns": {
+					"zValue": [
+						"EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS",
+						"EVENTSTORY_SLAVE_REVOLT_1_SALVIUS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS",
+				"zBackgroundName": "Barbarian2",
+				"zEventURL": "https://en.wikipedia.org/wiki/Spartacus",
+				"zAudioTrigger": "AUDIO_UI_EVENT_SUDDEN_CONFRONTATION",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_REBEL_SLAVE",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_CITY_GLADIATORS"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_FAMILY_SAME",
+						"Third": "1"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_1_SPARTACUS",
+						"EVENTOPTION_SLAVE_REVOLT_1_FIGHT"
+					]
+				},
+				"iImageSubject": "2",
+				"iLookAtSubject": "0",
+				"LawPrereq": "LAW_SLAVERY",
+				"MinDifficulty": "DIFFICULTY_STRONG",
+				"iMinTurns": "30",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"aeEventStoryRepeatTurns": {
+					"zValue": [
+						"EVENTSTORY_SLAVE_REVOLT_1_EUNUS",
+						"EVENTSTORY_SLAVE_REVOLT_1_SALVIUS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_1_SALVIUS",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SALVIUS_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SALVIUS",
+				"zBackgroundName": "Escaped_Slave",
+				"zEventURL": "https://en.wikipedia.org/wiki/Salvius_Tryphon",
+				"zAudioTrigger": "AUDIO_UI_EVENT_SUDDEN_CONFRONTATION",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_REBEL_SLAVE",
+						"SUBJECT_PLAYER_US",
+						"SUBJECT_FAMILY_HEAD_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": [
+						{
+							"First": "0",
+							"Second": "SUBJECTRELATION_FAMILY_SAME",
+							"Third": "1"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECTRELATION_FAMILY_SAME",
+							"Third": "4"
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_1_SALVIUS",
+						"EVENTOPTION_SLAVE_REVOLT_1_FIGHT"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_CITY_DISCONTENT",
+				"iTriggerSubject": "0",
+				"iImageSubject": "2",
+				"iImageExtra": "4",
+				"iLookAtSubject": "0",
+				"LawPrereq": "LAW_SLAVERY",
+				"MinDifficulty": "DIFFICULTY_STRONG",
+				"iMinTurns": "30",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"aeEventStoryRepeatTurns": {
+					"zValue": [
+						"EVENTSTORY_SLAVE_REVOLT_1_EUNUS",
+						"EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_2_ATTACK",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_ATTACK_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_ATTACK",
+				"zBackgroundName": "Panic",
+				"zAudioTrigger": "AUDIO_UI_EVENT_WEARY_TRAVELER",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_DIFF",
+						"Third": "3"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_2_ATTACK",
+						"EVENTOPTION_SLAVE_REVOLT_2_FIGHT"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iLookAtSubject": "3",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_1",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL",
+				"zBackgroundName": "Horse_Rider",
+				"zAudioTrigger": "AUDIO_UI_EVENT_TO_WAR",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_DIFF",
+						"Third": "3"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_2_SLAVE_GENERAL",
+						"EVENTOPTION_SLAVE_REVOLT_2_FIGHT"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iLookAtSubject": "3",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_1",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+				"zBackgroundName": "Discontent",
+				"zAudioTrigger": "AUDIO_UI_EVENT_WEARY_TRAVELER",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_FAMILY_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_DIFF",
+						"Third": "3"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+						"EVENTOPTION_SLAVE_REVOLT_2_FIGHT"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iLookAtSubject": "3",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_1",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_3_SPY",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_SPY_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_SPY",
+				"zBackgroundName": "Assasins",
+				"zAudioTrigger": "AUDIO_UI_EVENT_DARK_REFLECTIONS",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_HEAD_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_SAME",
+						"Third": "5"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_3_YES",
+						"EVENTOPTION_SLAVE_REVOLT_3_NO"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iImageExtra": "5",
+				"iLookAtSubject": "4",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_2",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED",
+				"zBackgroundName": "Captured_Soldiers",
+				"zAudioTrigger": "AUDIO_UI_EVENT_DESPAIR",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_HEAD_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_SAME",
+						"Third": "5"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_3_YES",
+						"EVENTOPTION_SLAVE_REVOLT_3_NO"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iImageExtra": "5",
+				"iLookAtSubject": "4",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_2",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES",
+				"zBackgroundName": "Sea_Exploration",
+				"zAudioTrigger": "AUDIO_UI_EVENT_DESPAIR",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_HEAD_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "1",
+						"Second": "SUBJECTRELATION_FAMILY_SAME",
+						"Third": "5"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_3_YES",
+						"EVENTOPTION_SLAVE_REVOLT_3_NO"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iImageExtra": "5",
+				"iLookAtSubject": "4",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_2",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_4_SUCCESS",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_SUCCESS_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_SUCCESS",
+				"zBackgroundName": "Escaped_Slave",
+				"zAudioTrigger": "AUDIO_UI_EVENT_OMINOUS_ENCOUNTER",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "2",
+							"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+						},
+						{
+							"First": "2",
+							"Second": "SUBJECT_NON_SUCCESSOR"
+						}
+					]
+				},
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_REMOVE_TRAIT_REBEL_SLAVE"
+					]
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_4_EXECUTION",
+						"EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iImageExtra": "5",
+				"iLookAtSubject": "6",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_3",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_4_FAILURE",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_FAILURE_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_FAILURE",
+				"zBackgroundName": "Horse_Rider",
+				"zAudioTrigger": "AUDIO_UI_EVENT_TO_WAR",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "2",
+						"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+					}
+				},
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER",
+						{
+							
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_4_WAR",
+						"EVENTOPTION_SLAVE_REVOLT_4_FREEDOM"
+					]
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iImageSubject": "2",
+				"iImageExtra": "5",
+				"iLookAtSubject": "0",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_3",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "2",
+				"iRepeatTurns": "0"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_AFTERMATH_FREEDOM",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_RETRIBUTION_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_RETRIBUTION",
+				"zAudioTrigger": "AUDIO_UI_EVENT_OPEN_THE_TOMB",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_LEADER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "2",
+							"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+						},
+						{
+							"First": "2",
+							"Second": "SUBJECT_NON_SUCCESSOR"
+						}
+					]
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_SLAVE_REVOLT_AFTERMATH_RETRIBUTION"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_FREEDOM",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "1",
+				"iRepeatTurns": "-1"
+			},
+			{
+				"zType": "EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED",
+				"Name": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED_TITLE",
+				"Text": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED",
+				"zBackgroundName": "Escaped_Slave",
+				"zAudioTrigger": "AUDIO_UI_EVENT_SOLEMN_VICTORY",
+				"zAuthor": "Josh Unsworth",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_FAMILY_US",
+						"SUBJECT_CHARACTER_US",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectExtras": {
+					"Pair": [
+						{
+							"First": "2",
+							"Second": "SUBJECT_TRAIT_REBEL_SLAVE"
+						},
+						{
+							"First": "2",
+							"Second": "SUBJECT_NON_SUCCESSOR"
+						}
+					]
+				},
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_REMOVE_TRAIT_REBEL_SLAVE"
+					]
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_0",
+						"EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_1"
+					]
+				},
+				"EventLinkPrereq": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+				"LawPrereq": "LAW_SLAVERY",
+				"iWeight": "3",
+				"iRepeatTurns": "0"
 			},
 			{
 				"beginGroup": "Religion",
@@ -92658,6 +93556,39 @@
 				"bAllOptions": "1"
 			},
 			{
+				"zType": "EVENTSTORY_ADOPT_RELIGION_PAGAN",
+				"Name": "TEXT_EVENTSTORY_ADOPT_RELIGION_PAGAN_TITLE",
+				"Text": "TEXT_EVENTSTORY_ADOPT_RELIGION_PAGAN",
+				"zBackgroundName": "Sacrifice",
+				"zAudioTrigger": "AUDIO_UI_EVENT_RITUAL_SPLENDOR",
+				"zAuthor": "Soren Johnson",
+				"aeSubjects": {
+					"zValue": [
+						"SUBJECT_RELIGION_PAGAN",
+						"SUBJECT_PLAYER_US"
+					]
+				},
+				"SubjectRelations": {
+					"Triple": {
+						"First": "0",
+						"Second": "SUBJECTRELATION_RELIGION_PAGAN",
+						"Third": "1"
+					}
+				},
+				"aeOptions": {
+					"zValue": [
+						"EVENTOPTION_ADOPT_RELIGION_YES",
+						"EVENTOPTION_ADOPT_RELIGION_NO"
+					]
+				},
+				"Class": "EVENTCLASS_LAW",
+				"iMinTurns": "20",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bNoCharacters": "1",
+				"bAllOptions": "1"
+			},
+			{
 				"zType": "EVENTSTORY_HOLY_SITE_ZOROASTRIANISM",
 				"Name": "TEXT_EVENTSTORY_HOLY_SITE_ZOROASTRIANISM_TITLE",
 				"Text": "TEXT_EVENTSTORY_HOLY_SITE_ZOROASTRIANISM",
@@ -94078,7 +95009,8 @@
 						"SUBJECT_FAMILY_HEAD_US",
 						"SUBJECT_CITY_US",
 						"SUBJECT_CITY_US",
-						"SUBJECT_CITY_US"
+						"SUBJECT_CITY_US",
+						"SUBJECT_PLAYER_US"
 					]
 				},
 				"SubjectExtras": {
@@ -94103,6 +95035,11 @@
 				},
 				"SubjectRelations": {
 					"Triple": [
+						{
+							"First": "1",
+							"Second": "SUBJECTRELATION_FAMILY_SAME",
+							"Third": "0"
+						},
 						{
 							"First": "4",
 							"Second": "SUBJECTRELATION_FAMILY_SAME",
@@ -103887,6 +104824,11 @@
 							"First": "3",
 							"Second": "SUBJECTRELATION_PLAYER_PEACE_OR_TRUCE",
 							"Third": "1"
+						},
+						{
+							"First": "2",
+							"Second": "SUBJECTRELATION_OLDER",
+							"Third": "0"
 						}
 					]
 				},
@@ -114521,6 +115463,256 @@
 				"bTutorial": "1"
 			},
 			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_SCHOLAR"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_SCHOLAR_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_HERO",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_HERO_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_HERO",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_HERO"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_HERO_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_COMMANDER"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_COMMANDER_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_TACTICIAN"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_TACTICIAN_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_ZEALOT"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_ZEALOT_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_SCHEMER"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_SCHEMER_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_ORATOR"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_ORATOR_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_DIPLOMAT"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_DIPLOMAT_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_JUDGE"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_JUDGE_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
+				"zType": "EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER",
+				"Name": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER_TITLE",
+				"Text": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER",
+				"zAuthor": "Gabe Campbell",
+				"aeSubjects": {
+					"zValue": "SUBJECT_LEADER_US"
+				},
+				"SubjectExtras": {
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_LEADER_BUILDER"
+					}
+				},
+				"aeOptions": {
+					"zValue": "EVENTOPTION_TUTORIAL_ARCHETYPE_BUILDER_OK"
+				},
+				"Trigger": "EVENTTRIGGER_NEW_TURN",
+				"iMinLeader": "2",
+				"iPriority": "10",
+				"iWeight": "1",
+				"iRepeatTurns": "-1",
+				"bAlwaysTriggers": "1",
+				"bTutorial": "1"
+			},
+			{
 				"zType": "EVENTSTORY_TUTORIAL_PAGAN_SHRINE",
 				"Name": "TEXT_EVENTSTORY_TUTORIAL_PAGAN_SHRINE_TITLE",
 				"Text": "TEXT_EVENTSTORY_TUTORIAL_PAGAN_SHRINE",
@@ -114558,12 +115750,12 @@
 				"SubjectExtras": {
 					"Pair": [
 						{
-							"First": "1",
-							"Second": "SUBJECT_PLAYER_WAR"
-						},
-						{
 							"First": "0",
 							"Second": "SUBJECT_ADULT"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECT_PLAYER_WAR"
 						}
 					]
 				},
@@ -114591,16 +115783,10 @@
 					"zValue": "SUBJECT_LEADER_US"
 				},
 				"SubjectExtras": {
-					"Pair": [
-						{
-							"First": "0",
-							"Second": "SUBJECT_ADULT"
-						},
-						{
-							"First": "0",
-							"Second": "SUBJECT_JUDGE"
-						}
-					]
+					"Pair": {
+						"First": "0",
+						"Second": "SUBJECT_ADULT"
+					}
 				},
 				"aeOptions": {
 					"zValue": [
@@ -114625,19 +115811,7 @@
 				"aeSubjects": {
 					"zValue": [
 						"SUBJECT_LEADER_US",
-						"SUBJECT_CHARACTER_US_OR_THEM"
-					]
-				},
-				"SubjectExtras": {
-					"Pair": [
-						{
-							"First": "0",
-							"Second": "SUBJECT_TEENAGER_OR_ADULT"
-						},
-						{
-							"First": "1",
-							"Second": "SUBJECT_CHARACTER_NOT_ME"
-						}
+						"SUBJECT_SUCCESSION_US"
 					]
 				},
 				"aeOptions": {
@@ -114701,18 +115875,18 @@
 				"aeSubjects": {
 					"zValue": [
 						"SUBJECT_RELIGION_HEAD_US",
-						"SUBJECT_CHARACTER_US_OR_THEM"
+						"SUBJECT_CHARACTER_US"
 					]
 				},
 				"SubjectExtras": {
 					"Pair": [
 						{
-							"First": "1",
-							"Second": "SUBJECT_CHARACTER_NOT_ME"
-						},
-						{
 							"First": "0",
 							"Second": "SUBJECT_CHARACTER_MIN_PLEASED"
+						},
+						{
+							"First": "1",
+							"Second": "SUBJECT_COUNCIL"
 						}
 					]
 				},
@@ -115235,7 +116409,10 @@
 				"Text": "TEXT_EVENTSTORY_TUTORIAL_URBAN_YIELDS",
 				"zAuthor": "Gabe Campbell",
 				"aeSubjects": {
-					"zValue": "SUBJECT_CITY_US"
+					"zValue": [
+						"SUBJECT_CITY_US",
+						"SUBJECT_CITY_US"
+					]
 				},
 				"aeOptions": {
 					"zValue": "EVENTOPTION_TUTORIAL_URBAN_YIELDS_OPTION_0"

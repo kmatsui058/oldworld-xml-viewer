@@ -238,10 +238,11 @@
         "ExtraClass": "SUBJECTCLASS_UNIT"
       },
       {
-        "comment": "Subject = City, Data = ImprovementType",
+        "comment": "Subject = City, Extra = Tile, Data = ImprovementType",
         "zType": "EVENTTRIGGER_IMPROVEMENT_FINISHED",
         "Data": "IMPROVEMENT",
-        "SubjectClass": "SUBJECTCLASS_CITY"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_TILE"
       },
       {
         "comment": "Subject = Tribe, Extra = Tile",

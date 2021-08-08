@@ -1,5 +1,5 @@
 
-declare namespace XmlDifficultyMode {
+declare namespace XmlAdvantage {
   export interface RootObject {
   Root: Root;
 }
@@ -9,11 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  Difficulty?: ZType | string;
-  Development?: ZType | string;
-  OpponentLevel?: ZType | string;
-  TribeLevel?: ZType | string;
-  Advantage?: ZType | string;
+  EffectPlayer?: ZType | string;
 }
 export interface ZType {
 }

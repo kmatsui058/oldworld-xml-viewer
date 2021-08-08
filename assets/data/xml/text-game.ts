@@ -655,6 +655,10 @@
         "English": "Set {0_improvement} on {1_tile}"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_SET_SPECIALIST",
+        "English": "Set {0_specialist} on {1_tile}"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_REMOVE_VEGETATION",
         "English": "Remove {0_vegetation} from {1_tile}"
       },

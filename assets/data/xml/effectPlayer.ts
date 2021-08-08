@@ -207,6 +207,57 @@
         "Name": "TEXT_EFFECTPLAYER_BASE"
       },
       {
+        "zType": "EFFECTPLAYER_ADVANTAGE_LOW",
+        "Name": "TEXT_ADVANTAGE_LOW",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_LOW",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "100"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_MEDIUM",
+        "Name": "TEXT_ADVANTAGE_MEDIUM",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_MEDIUM",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "250"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "250"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_HIGH",
+        "Name": "TEXT_ADVANTAGE_HIGH",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_HIGH",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "500"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "500"
+            }
+          ]
+        }
+      },
+      {
         "zType": "EFFECTPLAYER_COUNCIL_SPYMASTER",
         "Name": "TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER",
         "SourceCouncil": "COUNCIL_SPYMASTER",

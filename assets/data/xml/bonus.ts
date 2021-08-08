@@ -144,6 +144,9 @@
         "AddImprovement": {
           "comment": "Adds Improvement to a random valid Tile for the City Subject"
         },
+        "SetSpecialist": {
+          "comment": "Sets the Tile's Specialist"
+        },
         "iSpreadUnits": {
           "comment": "List of Religion units that will appear near the City Subject"
         },
@@ -648,6 +651,9 @@
           
         },
         "AddImprovement": {
+          
+        },
+        "SetSpecialist": {
           
         },
         "iSpreadUnits": {

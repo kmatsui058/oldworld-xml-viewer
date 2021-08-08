@@ -742,7 +742,8 @@
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_FORT",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_FORT"
+        "SingleAsset": "ASSET_IMPROVEMENT_FORT",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_MINE",

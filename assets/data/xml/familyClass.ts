@@ -967,7 +967,7 @@
         "Crest": "CREST_FAMILYCLASS_RIDERS",
         "SeatCrest": "CREST_FAMILYCLASS_RIDERS_SEAT",
         "iGeneralOpinion": "10",
-        "iHostileUnitOpinion": "-20",
+        "iHostileUnitOpinion": "-10",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_RIDERS_SEAT",

@@ -341,6 +341,9 @@
 				"bNonSuccession": {
 					"comment": "This Subject cannot be anywhere in the line of succession."
 				},
+				"bGenderHeirValid": {
+					"comment": "This Subject can be the Leader based on gender rules for succession."
+				},
 				"bCouncil": {
 					"comment": "This Subject must be on the council."
 				},
@@ -355,6 +358,9 @@
 				},
 				"bNonGeneral": {
 					"comment": "This Character Subject must not be a general."
+				},
+				"bHasJob": {
+					"comment": "This Character Subject is a general, governor, agent, or on the council."
 				},
 				"bNoJob": {
 					"comment": "This Character Subject is not a general, governor, agent, or on the council."
@@ -823,6 +829,9 @@
 				"bNonSuccession": {
 					
 				},
+				"bGenderHeirValid": {
+					
+				},
 				"bCouncil": {
 					
 				},
@@ -836,6 +845,9 @@
 					
 				},
 				"bNonGeneral": {
+					
+				},
+				"bHasJob": {
 					
 				},
 				"bNoJob": {
@@ -1052,6 +1064,7 @@
 			},
 			{
 				"zType": "SUBJECT_PLAYER_TRUCE_HUMAN",
+				"Name": "TEXT_SUBJECT_PLAYER_TRUCE",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_TRUCE",
 				"bIsNotUs": "1",
@@ -1066,6 +1079,7 @@
 			},
 			{
 				"zType": "SUBJECT_PLAYER_PEACE_HUMAN",
+				"Name": "TEXT_SUBJECT_PLAYER_PEACE",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_PEACE",
 				"bIsNotUs": "1",
@@ -1080,6 +1094,7 @@
 			},
 			{
 				"zType": "SUBJECT_PLAYER_PEACE_OR_TRUCE_HUMAN",
+				"Name": "TEXT_SUBJECT_PLAYER_PEACE_OR_TRUCE",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_PEACE_OR_TRUCE",
 				"bIsNotUs": "1",
@@ -1091,6 +1106,14 @@
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_NO_ALLIANCE",
 				"bIsNotUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_NO_ALLIANCE_HUMAN",
+				"Name": "TEXT_SUBJECT_PLAYER_NO_ALLIANCE",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_NO_ALLIANCE",
+				"bIsNotUs": "1",
+				"bHuman": "1"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_CAN_ALLIANCE_PEACE_HUMAN",
@@ -3595,16 +3618,21 @@
 				"bHeir": "1"
 			},
 			{
-				"zType": "SUBJECT_NON_SUCCESSOR",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"bNonSuccession": "1"
-			},
-			{
 				"comment": "In line of succession to the human nation",
 				"zType": "SUBJECT_SUCCESSION_US",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bIsUs": "1",
 				"bSuccession": "1"
+			},
+			{
+				"zType": "SUBJECT_NON_SUCCESSOR",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bNonSuccession": "1"
+			},
+			{
+				"zType": "SUBJECT_GENDER_HEIR_VALID",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bGenderHeirValid": "1"
 			},
 			{
 				"comment": "In line of succession to the human nation",
@@ -3774,6 +3802,48 @@
 				"Name": "TEXT_SUBJECT_LEADER_SCHOLAR",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_SCHOLAR_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_HERO",
+				"Name": "TEXT_SUBJECT_LEADER_HERO",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_HERO_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_COMMANDER",
+				"Name": "TEXT_SUBJECT_LEADER_COMMANDER",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_COMMANDER_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_TACTICIAN",
+				"Name": "TEXT_SUBJECT_LEADER_TACTICIAN",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_TACTICIAN_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_ZEALOT",
+				"Name": "TEXT_SUBJECT_LEADER_ZEALOT",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_ZEALOT_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_ORATOR",
+				"Name": "TEXT_SUBJECT_LEADER_ORATOR",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_ORATOR_ARCHETYPE",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_BUILDER",
+				"Name": "TEXT_SUBJECT_LEADER_BUILDER",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_BUILDER_ARCHETYPE",
 				"bLeader": "1"
 			},
 			{
@@ -4154,6 +4224,11 @@
 				"zType": "SUBJECT_NON_GENERAL",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bNonGeneral": "1"
+			},
+			{
+				"zType": "SUBJECT_HAS_JOB",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bHasJob": "1"
 			},
 			{
 				"zType": "SUBJECT_NO_JOB",
@@ -7111,6 +7186,21 @@
 				"zType": "SUBJECT_CITY_AUTONOMOUS_RULE",
 				"Class": "SUBJECTCLASS_CITY",
 				"ProjectPrereq": "PROJECT_AUTONOMOUS_RULE"
+			},
+			{
+				"zType": "SUBJECT_REBEL_SLAVE",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_REBEL_SLAVE"
+			},
+			{
+				"zType": "SUBJECT_TRAIT_REBEL_SLAVE",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_REBEL_SLAVE"
+			},
+			{
+				"zType": "SUBJECT_CITY_GLADIATORS",
+				"Class": "SUBJECTCLASS_CITY",
+				"ProjectPrereq": "PROJECT_GLADIATORS"
 			}
 		]
 	}

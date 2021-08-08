@@ -27,6 +27,7 @@ export interface Entry {
   DevelopmentLevel?: ZType;
   abTribes?: ZType;
   TribeLevel: ZType | string;
+  DisableOptions?: ZType | string;
   abOptionEnabled?: ZType;
   abOptionValid?: AbOptionValid;
   azParametersInvalid?: AzParametersInvalid;

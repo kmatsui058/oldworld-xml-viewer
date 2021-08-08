@@ -63,6 +63,9 @@
         "TribeLevel": {
           
         },
+        "DisableOptions": {
+          
+        },
         "abOptionEnabled": {
           
         },
@@ -80,10 +83,14 @@
         "zIcon": "CarthageThumbnail",
         "zMapFile": "Learn To Play One",
         "zModName": "LearnToPlay1",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_LEARNTOPLAY_1"
+        },
         "Nation": "NATION_GREECE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
-        "TribeLevel": "TRIBELEVEL_NORMAL"
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "DisableOptions": "1"
       },
       {
         "zType": "SCENARIO_BARBARIAN",

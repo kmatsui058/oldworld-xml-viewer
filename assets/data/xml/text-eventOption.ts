@@ -4279,6 +4279,78 @@
         "English": "No, the city has earned its freedom."
       },
       {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_FIGHT",
+        "English": "We must stop this threat quickly."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_EUNUS",
+        "English": "Leave it to the {FAMILY-1,1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_SPARTACUS",
+        "English": "I trust the {FAMILY-1,1} to handle this."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_SALVIUS",
+        "English": "Use this chance to gain the support of the discontent {FAMILY-1,1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_FIGHT",
+        "English": "We must face these rebels on the field."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_ATTACK",
+        "English": "We will send all the aid we can."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_SLAVE_GENERAL",
+        "English": "{CITY-3} must be well protected!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+        "English": "Spread propaganda about our aim to defend the masses."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_NO",
+        "English": "It is not worth the risk. We will stand and fight."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_YES",
+        "English": "Allow {CHARACTER-5} to proceed with {G5:his:her} plan."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_YES_HELP",
+        "English": "Let's pray that this doesn't make things worse!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_WAR",
+        "English": "It is time to end these rebellions once and for all!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM",
+        "English": "{PLAYER-6} will never again enslave others."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_EXECUTION",
+        "English": "An example must be made. Execute them all."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS",
+        "English": "Refuse to punish those that stood against you."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_RETRIBUTION",
+        "English": "The memory of {CHARACTER-2} will haunt me to the end..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_0",
+        "English": "Execute {G2:him:her} in {CITY-0}, where it started."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_1",
+        "English": "Refuse to punish the one that stood against you."
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE",
         "English": "Invite them to resettle in our nation."
@@ -14856,7 +14928,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_WANTON",
-        "English": "I shall bind {CHARACTER-1} to me and never turn down a lay."
+        "English": "I shall bind {CHARACTER-1} to me and never turn {G1:her:him} down."
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_HUMBLE",
@@ -15465,6 +15537,18 @@
       {
         "zType": "TEXT_EVENTOPTION_LEADER_BLESSED_STONE",
         "English": "I’ll put it to good use!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_ESTRANGED",
+        "English": "It’s good to have you back."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_DISAPPOINTED",
+        "English": "I promise!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_VENGEFUL",
+        "English": "Revenge against me is a dish best not served at all!"
       },
       {
         "beginGroup": "City",
@@ -21926,6 +22010,46 @@
       {
         "zType": "TEXT_EVENTOPTION_TUTORIAL_TECH_DECK_OK",
         "English": "I will choose my Technologies carefully!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_SCHOLAR_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_HERO_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_TACTICIAN_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_ZEALOT_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_ORATOR_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_DIPLOMAT_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_SCHEMER_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_JUDGE_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_BUILDER_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_COMMANDER_OK",
+        "English": "I will make the best use of my Leader based on their link(CONCEPT_ARCHETYPE)!"
       },
       {
         "beginGroup": "Community",

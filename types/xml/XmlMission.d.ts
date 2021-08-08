@@ -31,6 +31,7 @@ export interface Entry {
   SubjectPlayerEnabled?: ZType | string;
   SubjectCharacter?: ZType | string;
   SubjectCharacterEnabled?: ZType | string;
+  SubjectCharacterDisabled?: ZType | string;
   SubjectTarget?: ZType | string;
   SubjectTargetStart?: ZType | string;
   SubjectTargetEnabled?: ZType | string;

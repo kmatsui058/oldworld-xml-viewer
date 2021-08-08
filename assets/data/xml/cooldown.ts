@@ -59,11 +59,6 @@
         "zIconName": "COOLDOWN_ATTACKED"
       },
       {
-        "zType": "COOLDOWN_STUNNED_PRE",
-        "Name": "TEXT_COOLDOWN_STUNNED",
-        "zIconName": "COOLDOWN_STUNNED"
-      },
-      {
         "zType": "COOLDOWN_STUNNED",
         "Name": "TEXT_COOLDOWN_STUNNED",
         "zIconName": "COOLDOWN_STUNNED"

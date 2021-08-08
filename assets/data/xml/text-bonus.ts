@@ -2650,6 +2650,14 @@
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AUTONOMOUS_EMPRESS_1",
         "English": "Allowed autonomous rule"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
+        "English": "Made a deal with the rebel slaves"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER",
+        "English": "Made a deal with the rebel slaves"
       }
     ]
   }

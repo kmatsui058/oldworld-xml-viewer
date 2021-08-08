@@ -178,7 +178,7 @@
       },
       {
         "zType": "TEXT_MISCOPTION_DEPTH_OF_FIELD_DESC",
-        "English": "Enable blur effect at the top of the scree"
+        "English": "Enable blur effect at the top of the screen"
       },
       {
         "zType": "TEXT_MISCOPTION_COLOR_CORRECTION_NAME",
@@ -198,11 +198,11 @@
       },
       {
         "zType": "TEXT_MISCOPTION_SINGLE_OBJECTS_NAME",
-        "English": "Show single objects"
+        "English": "Show Single Objects"
       },
       {
         "zType": "TEXT_MISCOPTION_SINGLE_OBJECTS_DESC",
-        "English": "Display single units and resource instead of groups"
+        "English": "Display single units and resources instead of groups"
       },
       {
         "zType": "TEXT_MISCOPTION_MUSIC_VOLUME_NAME",

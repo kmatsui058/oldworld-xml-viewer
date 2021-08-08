@@ -1571,6 +1571,62 @@
         "English": "The city of {CITY-0} has become renown as a free state of autonomous rule, a land unto itself. The court begrudges the situation, complaining that allowing such freedoms encourages others to expect the same. \n\nThe situation reaches a head when {CHARACTER-1} stands before the court and demands that something be done. {CITY-0} will not return to the fold without the use of force. Shall we fight to regain control?"
       },
       {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_EUNUS",
+        "English": "For years, a common entertainment at {FAMILY-1} parties has been to receive prophesies from the slave {CHARACTER-2}. As the guest takes {G2:his:her} hand, {CHARACTER-SHORT-2} spits fire from the mouth as the divine words flow through {G2:him:her}. When asked where such powers come from, {G2:he:she} claims to receive visions from a local pagan goddess, one who whispers {G2:he:she} will one day be {G2:king:queen}. \n\nThe {FAMILY-1,1} no longer find these statements so amusing. In a violent struggle, hundreds of slaves in {CITY-0} have risen up after years of unrest, killing their masters and taking to the surrounding countryside. Their leader is none other than {CHARACTER-SHORT-2}, now a self-crowned {G2:king:queen}.\n\nFurious and seeking revenge, the {FAMILY-1,1} claim that there is nothing to fear and that they will handle the situation themselves. How shall we respond?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS",
+        "English": "The gladiators of {CITY-0} have risen against you. Forced to fight for their lives day after day, the deadly warriors have been plotting and waiting for their chance. The reports read that a hundred or so escaped from the training school in {CITY-0}, using kitchen utensils to kill the guards and fully arm themselves before making a break for the surrounding countryside. Many of the guards of {CITY-0} were killed in the fighting and the once-slaves are now armed and increasingly dangerous. \n\nRumors of the escape spread around {PLAYER-3} within the week. The news brings fear to the nobels, and hope to the dispossessed. The name on most lips is that of the rebel’s leader - a {G2:man:woman} named {CHARACTER-2}.\n\nThe {FAMILY-1,1} claim that there is nothing to fear and that they will handle the situation themselves. How shall we respond?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SALVIUS",
+        "English": "The {FAMILY-1} Family have been struggling to recruit new soldiers for our armies, being repeatedly told that too many of the able-bodied men of {CITY-0} have been enslaved. Trying to work around this, {CHARACTER-1} decreed that no one from their lands should be enslaved. The outrage was immediate. Rage grew amongst those not given their freedom, and the other {FAMILY-1} nobles were infuriated by the loss of their slaves.\n\nAlarmed, {CHARACTER-SHORT-4} quickly recants the decree. This time the violence is worse. The slaves, promised freedom only to have it snatched away, have taken up arms, killing their masters and fleeing to the lands around {CITY-0}. They have appointed {CHARACTER-2} as their leader, once {CHARACTER-SHORT-4}’s personal musician."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_ATTACK",
+        "English": "All attempts to stop the slave rebellion have failed. Emboldened by their victories, the rebels make a strike on {CITY-3}, capturing resources and encouraging many of the slaves there to also rise against their masters. \n\nThe court worries about the growing force, but the {FAMILY-3} Family demands that the focus should be on aiding the city."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL",
+        "English": "All attempts to stop the slave rebellion have failed. Emboldened by the rebellion of the slaves under {CHARACTER-2}, the slaves of {CITY-3} have also thrown down their masters. Although the court hoped that the two factions would fight each other, the general leading the troops from {CITY-3} has sworn fealty to {CHARACTER-2}, bolstering the rebel forces even further. \n\nThe court worries about the growing force, but the {FAMILY-3,1} demand that the we focus on increasing our training and raising a new force to protect {CITY-3}."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+        "English": "All attempts to stop the slave rebellion have failed. Furthermore, there have been mutterings of praise and admiration for the actions of the rebels amongst many of the lower classes. Many feel the yoke of our rule and their resentment lends strength to their resolve. The fire started by the initial revolt has spread and some of the people of {CITY-3} have even risen up to join forces with the rebellion.\n\nThe court worries about the growing force, but encourage the use of this chance to appear sympathetic to the plight of the common people."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_SPY",
+        "English": "{CHARACTER-2}’s force now threatens the very heart of {PLAYER-3}. The court is in complete disarray at the idea of the vengeance that those they once enslaved may inflict. Chaos takes hold as the blame for the dire situation is thrown around the court. \n\n{CHARACTER-5} comes before you and offers a last gambit - to try and pay off a spy to let {G5:his:her} forces into the rebel camp. Success would put an end to the threat without violence, but failure would likely see the army's support grow to such a size that they would take the initiative to attack."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED",
+        "English": "{CHARACTER-2}’s force now threatens the very heart of {PLAYER-3}. The rebels have adopted a new strategy of letting any who surrender live if they lay down their arms and flee. The offer of clemency both weakens the resolve of our warriors and means that the rebels can collect the weapons and armor, becoming increasingly well equipped. \n\nWhile the rest of the court falls to chaos and despair, {CHARACTER-5} offers a last gambit - to use this tactic against the slaves, waiting until they are collecting weapons and then attacking with a hidden force. Success would put an end to the threat without violence, but failure would likely see the army's support grow to such a size that they would take the initiative to attack."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES",
+        "English": "{CHARACTER-2}’s force now threatens the very heart of {PLAYER-3}. The court is in complete disarray at the idea of the vengeance of those that they once enslaved. Chaos takes hold as the blame for the dire situation is thrown around the court. \n\nThe motives of the rebels are not yet known. Are they aiming to attack the capital? To escape your lands? To end slavery completely? {CHARACTER-5} offers a last gambit - to send a message offering ships to those in the rebel camp. If even a few were to take the offer, it would divide their forces enough for a raid. Success would put an end to the threat without violence, but failure would likely see the army's support grow to such a size that they would take the initiative to attack."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_SUCCESS",
+        "English": "{CHARACTER-5} returns to the city in triumph. People line the streets to watch the procession and to catch a glimpse of the famous rebel, {CHARACTER-2}, walking behind {CHARACTER-SHORT-5} in chains.\n\nThe threat of war is over, but it is still to be decided what should be done with the remaining rebels. {CHARACTER-SHORT-2} looks up and behind those eyes you see a lifetime of suffering, of pain and grief beyond that which any person should have to endure."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_FAILURE",
+        "English": "{CHARACTER-2} stands before the gates of our capital. “Your lies and tricks will not work on us. We will never surrender!” At {G2:his:her} cry, the thousands of rebels shout out in unison, their anger shaking the very buildings. \n\nAt last it has come to a fight. {CHARACTER-5}’s gambit failed and your scouts report seeing {G5:his:her} body being carried as a prize by rebels. There is only one thing left that could quell the tide - offering total emancipation, pardoning the rebels and freeing all of the slaves of {PLAYER-2}."
+      },
+      {
+        "zType": "TEXT_SLAVE_REVOLT_AFTERMATH_FREEDOM",
+        "English": "The decree is announced that slavery will once again be a law in {PLAYER-}. You return to the palace and retire to your chambers. Just as you start to relax, a strange commotion catches your ear. From the balcony you see fires across the palace and people running. Something is wrong. Seriously wrong.\n\nThere is a clash in the corridor outside your rooms and you hear the crash of metal followed by sharp screams. A host of people march into your room, a mix of guards, servants and courtiers. “We were slaves once. Never again.” The cry is repeated as you are blade after blade buries itself in your body."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_RETRIBUTION",
+        "English": "You return to the palace and retire to your chambers to relax, it has been a long day but the decree has been announced that slavery will once again be a law in {PLAYER-3}. Just as you start to rest, a strange commotion catches your ear. From the balcony you see fires across the palace and people running. Something is wrong. Seriously wrong.\n\nThere is a clash in the corridor outside your rooms and you hear the grating of metal followed by sharp screams. A host of people march into your room, a mix of guards, servants and courtiers. “We were slaves once. Never again.” The cry is repeated as blade after blade buries itself in your body."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED",
+        "English": "The news spreads like wildfire - {CHARACTER-2} has been captured in a skirmish. People line the streets to watch the procession and to catch a glimpse of the famous rebel, walking behind {G2:his:her} captors in chains.\n\nThe threat of war is over, but it is still to be decided what should be done with the remaining rebels. {CHARACTER-SHORT-2} looks up and behind those eyes you see a lifetime of suffering, of pain and grief beyond that which any person should have to endure."
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_EVENTSTORY_RUINS_SURVIVORS",
         "English": "This village has only recently been sacked, and we discovered a band of survivors huddled in its ruins. These destitute refugees seem eager to abandon the wreckage of their old lives and join our nation, but they are strangers to our culture.\n\nWhat will you do with them?"
@@ -5813,6 +5869,18 @@
         "English": "A happy merchant awaits you in court. It seems that she had been traveling through {CITY-0} with a load of Stone when she discovered an amazing deal on cheese via a local merchant. To free up wagon space she wishes to donate the stone to you, “for the glory of {PLAYER-0}!”"
       },
       {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED",
+        "English": "It has been too long since you have spoken to {CHARACTER-0}. You miss {G0:him:her} deeply. It is time to make amends. A series of careful messages have gotten you to the point where {G0:he:she} has agreed to meet you during a minor banquet. You approach with some trepidation.\n\n“{CHARACTER-SHORT-0}, please forgive me. I know I hurt you. I treated you poorly and that was wrong of me. I acted in a most {G1:unkingly:unqueenly} manner.”\n\n{G0:He:She} looks into your eyes for several moments, clearly thinking intently, before replying. “Very well, {CHARACTER-SHORT-1}, you seem genuinely sorry and I’m willing to give you another chance. Don’t make me regret it.”"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED",
+        "English": "Your efforts to influence {CHARACTER-0} have finally borne fruit. {G0:He:She} has been disappointed with you for some time, but your efforts to win back {G0:his:her} good will with small gestures of friendship over time has resulted in a brief, friendly meeting with {CHARACTER-SHORT-0}.\n\n“It was good to see you again, {CHARACTER-SHORT-1}. Just don’t let me down again,” {G0:he:she} says as {G0:he:she} leaves."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL",
+        "English": "{CHARACTER-0} has long been planning {G0:his:her} revenge against you, but your long campaign of {random_R0:placating:intimidating:apologizing to} them has finally convinced {G0:him:her} that it is no longer worth it. You are certainly not friends with {CHARACTER-SHORT-0}, but they are no longer pursuing revenge."
+      },
+      {
         "beginGroup": "City",
         "zType": "TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS",
         "English": "A rabble of barbarian refugees have settled outside the gates of {CITY-0}. They request our aid and sanctuary.\n\nWhat shall we tell them?"
@@ -6613,6 +6681,10 @@
       {
         "zType": "TEXT_EVENTSTORY_ADOPT_RELIGION",
         "English": "Worshippers from all over the nation arrive at court, seeking direction. Is it time to adopt {RELIGION-0} as our link(CONCEPT_STATE_RELIGION)? Doing so will reduce link(YIELD_DISCONTENT,1) in {RELIGION-0,1} Cities and improve relations with families who follow {RELIGION-0}."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ADOPT_RELIGION_PAGAN",
+        "English": "Followers of {RELIGION-0} arrives at court, asking you to become a divine ruler by adopting their link(CONCEPT_PAGAN_RELIGION). Should we take {RELIGION-0} as our link(CONCEPT_STATE_RELIGION)? Doing so will reduce link(YIELD_DISCONTENT,1) in {RELIGION-0,1} Cities and improve relations with families who follow {RELIGION-0}."
       },
       {
         "zType": "TEXT_EVENTSTORY_A_HOLY_STATE",
@@ -7946,7 +8018,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INFILTRATION_VETERAN_AGENT",
-        "English": "Agents sent to {PLAYER-2} by {CHARACTER-SHORT-0} have arrived back in the capital. They bear news of great success, along with maps and scrolls detailing the entirety of {PLAYER-2,1} land.\n\nWithout your knowledge, {CHARACTER-3} traveled with the seasoned agents, and {G2:he:she} picked up several useful skills along the way."
+        "English": "Agents sent to {PLAYER-2} by {CHARACTER-SHORT-0} have arrived back in the capital. They bear news of great success, along with maps and scrolls detailing the entirety of {PLAYER-2,1} land.\n\nWithout your knowledge, {CHARACTER-3} traveled with the seasoned agents, and {G3:he:she} picked up several useful skills along the way."
       },
       {
         "zType": "TEXT_EVENTSTORY_INFILTRATION_SILVER_LININGS",
@@ -8435,7 +8507,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_ORDERS",
-        "English": "link(YIELD_ORDERS,1) are an important feature of Old World. Units can move multiple times each turn, but each move consumes one link(YIELD_ORDERS). Other actions, such as attacking or building, also consume link(YIELD_ORDERS).\n\nYour remaining link(YIELD_ORDERS) can be seen in the lower left corner of your screen. We recommend that you first select your link(UNIT_WORKER), so that you may begin to improve your land before you spend all of your link(YIELD_ORDERS) for the turn."
+        "English": "link(YIELD_ORDERS,1) are an important feature of Old World. Units can move multiple times each turn, but each move consumes one link(YIELD_ORDERS,2). Other actions, such as attacking or building, also consume link(YIELD_ORDERS).\n\nYour remaining link(YIELD_ORDERS) can be seen in the lower left corner of your screen. We recommend that you first select your link(UNIT_WORKER), so that you may begin to improve your land before you spend all of your link(YIELD_ORDERS) for the turn."
       },
       {
         "zType": "TEXT_EVENTSTORY_SECOND_CITY",
@@ -8531,7 +8603,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_RELIGION",
-        "English": "{RELIGION-1} has spread to one of your Cities! Religions provide link(YIELD_CULTURE,1) and affect link(YIELD_DISCONTENT,1) in Cities with them. You can choose to adopt a link(CONCEPT_STATE_RELIGION) for your link(CONCEPT_NATION), allowing you to guide the impact that link(CONCEPT_RELIGION) has on your Cities via link(CONCEPT_THEOLOGY,2)."
+        "English": "{RELIGION-1} has spread to one of your Cities! Religions provide link(YIELD_CULTURE,1) and affect link(YIELD_DISCONTENT,1) in Cities with them. (For example, a City with a link(OPINIONRELIGION_FRIENDLY) link(CONCEPT_RELIGION) will have its link(YIELD_DISCONTENT) reduced by 2.)\n\nYou can choose to adopt a link(CONCEPT_STATE_RELIGION) for your link(CONCEPT_NATION), allowing you to guide the impact that link(CONCEPT_RELIGION) has on your Cities via link(CONCEPT_THEOLOGY,2)."
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_CHARIOT_SELECTED",
@@ -8603,7 +8675,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_USE_SPYMASTER",
-        "English": "You can use your link(COUNCIL_SPYMASTER) to conduct secret Missions! Just select the portrait of your link(COUNCIL_SPYMASTER) in the top right, and you will see their available actions in the panel on the left side of the screen.\n\nlink(COUNCIL_SPYMASTER,1) can can execute missions like link(MISSION_INFILTRATE), link(MISSION_STEAL_RESEARCH), link(MISSION_ASSASSINATE), and more!"
+        "English": "You can use your link(COUNCIL_SPYMASTER) to conduct secret Missions! Just select the portrait of your link(COUNCIL_SPYMASTER) in the top right, and you will see their available actions in the panel on the left side of the screen.\n\nlink(COUNCIL_SPYMASTER,1) can execute missions like link(MISSION_INFILTRATE), link(MISSION_STEAL_RESEARCH), link(MISSION_ASSASSINATE), and more!"
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_APPOINT_AMBASSADOR",
@@ -8668,6 +8740,46 @@
       {
         "zType": "TEXT_EVENTSTORY_START_PERSIA_TUTORIAL",
         "English": "{TEXT_EVENTSTORY_START_PERSIA}\n\nSelect your link(UNIT_SETTLER) and found your link(CONCEPT_CAPITAL) City. You'll choose your nation and decide which Family manages your first City, gaining their advantages immediately."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE) can conduct link(MISSION_TUTOR_SCHOLAR) Missions and Redraw Technology choices. They also unlock link(PROJECT_INQUIRY,2) in the link(CONCEPT_CAPITAL)."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_HERO",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_HERO_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_HERO_ARCHETYPE) gains an additional +50 link(YIELD_TRAINING,1) per Military Unit killed, grants a <color=#e3c08c><link=\"HELP_LINK,HELP_ATTACK_VALUE\">+int(STRENGTH_MULTIPLIER)%  icon(ATTACK)</link></color> bonus to each link(UNITTRAIT_MELEE) Unit, and as a link(CONCEPT_GENERAL) can link(CONCEPT_LAUNCH_OFFENSIVE).\n\nlink(TRAIT_HERO_ARCHETYPE) Characters also have higher link(RATING_COURAGE), which as a Leader causes their nation to produce more link(YIELD_TRAINING)."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_COMMANDER_ARCHETYPE) link(CONCEPT_ARCHETYPE). Idle Units receive an additional +10 XP/Year under a link(EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE), and link(UNITTRAIT_INFANTRY) Units an additional <color=#e3c08c><link=\"HELP_LINK,HELP_DEFENSE\">+int(STRENGTH_MULTIPLIER)%  icon(DEFENSE)</link></color>. A link(EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE) can also link(CONCEPT_HURRY) with link(YIELD_ORDERS,1). \n\nAs a link(CONCEPT_GENERAL), a link(EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE) grants <color=#e3c08c><link=\"HELP_LINK,HELP_UNIT_STRENGTH\">+20%  icon(ATTACKDEFENSE)</link></color> to Adjacent Units and <color=#e3c08c><link=\"HELP_LINK,HELP_ATTACK_VALUE\">+20%  icon(ATTACK)</link></color> when link(CONCEPT_FLANKING)."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_TACTICIAN_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE) increases the link(CONCEPT_VISION) Range of your Units by 2, and allows link(UNITTRAIT_RANGED) Units to be link(CONCEPT_HIDDEN) in neutral as well as friendly link(VEGETATION_TREES). As a link(CONCEPT_GENERAL), a link(EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE) link(CONCEPT_STUN,1) their targets."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_ZEALOT_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE) adds +1 to the link(CONCEPT_FATIGUE) limit of your Units, can link(CONCEPT_HURRY) with link(YIELD_TRAINING,1), and can always build link(CONCEPT_STATE_RELIGION) link(CONCEPT_IMPROVEMENT,2).\n\nAs a link(CONCEPT_GENERAL), a link(EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE) has a 10% chance to enlist an enemy Unit on defeating them."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_SCHEMER_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE) can conduct link(MISSION_ADOPT) Missions and buy link(YIELD_ORDERS,1) with  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY). They also get +2 link(YIELD_ORDERS,1) a Year per link(DIPLOMACY_WAR) and their link(UNIT_SCOUT,2) are link(CONCEPT_INVISIBLE)."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR",
+        "English": "Your Leader {CHARACTER-0} is an link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_ARCHETYPE). An link(EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE) receives a +40 link(CONCEPT_OPINION_RELIGION,3) from all Religions and can Recruit link(CONCEPT_MERCENARY,2)  icon(RECRUIT_MERCENARY) with  icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY). They also get +2 link(YIELD_ORDERS,1) a Year per link(OPINIONFAMILY_FRIENDLY) City."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_DIPLOMAT_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE) receives a +60 boost to link(CONCEPT_OPINION_CHARACTER,1) from all other Leaders."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE) receives a 50% discount to Switch Law costs, and can link(CONCEPT_UPGRADE_IMPROVEMENTS). They can also conduct link(MISSION_HOLD_COURT) Missions."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER",
+        "English": "Your Leader {CHARACTER-0} is a link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_ARCHETYPE). A link(EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE) can add link(CONCEPT_URBAN) Tiles, and have multiple link(UNIT_WORKER,2) work on a single link(CONCEPT_IMPROVEMENT). They also reduce the production time for link(UNIT_WORKER,2) in all Cities by 50%."
       },
       {
         "beginGroup": "Community",

@@ -151,14 +151,6 @@
         "English": "Hide the movement range for each step of the selected Unit"
       },
       {
-        "zType": "TEXT_PLAYEROPTION_SHOW_GHOST_UNITS",
-        "English": "Show Ghost Units"
-      },
-      {
-        "zType": "TEXT_PLAYEROPTION_SHOW_GHOST_UNITS_DESC",
-        "English": "Show units recently visible"
-      },
-      {
         "zType": "TEXT_PLAYEROPTION_MUTE_AUDIO",
         "English": "Mute"
       },

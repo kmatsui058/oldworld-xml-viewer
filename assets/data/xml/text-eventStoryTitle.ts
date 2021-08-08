@@ -1307,6 +1307,62 @@
         "English": "The End of Autonomy"
       },
       {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_EUNUS_TITLE",
+        "English": "The One Who Would be {G2:King:Queen}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SPARTICUS_TITLE",
+        "English": "Refusal to Die"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_1_SALVIUS_TITLE",
+        "English": "The Army of Slaves"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_ATTACK_TITLE",
+        "English": "The Raid on {CITY-3}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_SLAVE_GENERAL_TITLE",
+        "English": "The Slave General"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_2_POPULAR_SUPPORT_TITLE",
+        "English": "Popular Support"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_SPY_TITLE",
+        "English": "The Spy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_THOSE_THEY_SPARED_TITLE",
+        "English": "Those They Spared"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_3_CAPTIVES_TITLE",
+        "English": "The Path to Freedom"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_SUCCESS_TITLE",
+        "English": "{CHARACTER-SHORT-5} and {CHARACTER-SHORT-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_4_FAILURE_TITLE",
+        "English": "{CHARACTER-SHORT-2} at the Gates"
+      },
+      {
+        "zType": "TEXT_SLAVE_REVOLT_AFTERMATH_FREEDOM_TITLE",
+        "English": "Retribution"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_RETRIBUTION_TITLE",
+        "English": "Retribution"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SLAVE_REVOLT_AFTERMATH_CAPTURED_TITLE",
+        "English": "{CHARACTER-2}"
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE",
         "English": "Survivors"
@@ -4809,6 +4865,18 @@
         "English": "Surplus Stone"
       },
       {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_ESTRANGED_TITLE",
+        "English": "The Heart Grows Fonder"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_DISAPPOINTED_TITLE",
+        "English": "Small Gestures and Time"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL_TITLE",
+        "English": "Vengeance abated"
+      },
+      {
         "beginGroup": "City",
         "zType": "TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE",
         "English": "Immigrants"
@@ -5609,6 +5677,10 @@
       {
         "zType": "TEXT_EVENTSTORY_ADOPT_RELIGION_TITLE",
         "English": "Adopt link(CONCEPT_STATE_RELIGION)?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ADOPT_RELIGION_PAGAN_TITLE",
+        "English": "Adopt link(CONCEPT_PAGAN_RELIGION)?"
       },
       {
         "zType": "TEXT_EVENTSTORY_A_HOLY_STATE_TITLE",
@@ -7664,6 +7736,46 @@
       {
         "zType": "TEXT_EVENTSTORY_START_PERSIA_TUTORIAL_TITLE",
         "English": "{NATION-0} in the Old World"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHOLAR_TITLE",
+        "English": "Tutorial: link(TRAIT_SCHOLAR_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_HERO_TITLE",
+        "English": "Tutorial: link(TRAIT_HERO_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_COMMANDER_TITLE",
+        "English": "Tutorial: link(TRAIT_COMMANDER_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_TACTICIAN_TITLE",
+        "English": "Tutorial: link(TRAIT_TACTICIAN_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ZEALOT_TITLE",
+        "English": "Tutorial: link(TRAIT_ZEALOT_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_SCHEMER_TITLE",
+        "English": "Tutorial: link(TRAIT_SCHEMER_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_ORATOR_TITLE",
+        "English": "Tutorial: link(TRAIT_ORATOR_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_DIPLOMAT_TITLE",
+        "English": "Tutorial: link(TRAIT_DIPLOMAT_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_JUDGE_TITLE",
+        "English": "Tutorial: link(TRAIT_JUDGE_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTORIAL_ARCHETYPE_BUILDER_TITLE",
+        "English": "Tutorial: link(TRAIT_BUILDER_ARCHETYPE) link(CONCEPT_ARCHETYPE)"
       },
       {
         "beginGroup": "Community",

@@ -1855,6 +1855,21 @@
         "zType": "MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
         "Text": "TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_1",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_1",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_4",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       }
     ]
   }

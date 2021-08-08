@@ -143,6 +143,9 @@
 				"AddImprovement": {
 					
 				},
+				"SetSpecialist": {
+					
+				},
 				"iSpreadUnits": {
 					
 				},
@@ -12465,6 +12468,38 @@
 				"MemoryAllFamilies": "MEMORYFAMILY_OVERLOOKED_GATHERINGS"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_1_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_SLAVE_REVOLT_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_SLAVE_REVOLT_4"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_LAWS",
+				"Name": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
+				"EndLaw": "LAW_SLAVERY",
+				"FreeLaw": "LAW_FREEDOM",
+				"iLegitimacy": "-5"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
+				"AddLeaderRelationship": "RELATIONSHIP_SUSPICIOUS_OF",
+				"MakeCourtier": "COURTIER_SOLDIER"
+			},
+			{
+				"zType": "BONUS_REMOVE_TRAIT_REBEL_SLAVE",
+				"aeRemoveTraits": "TRAIT_REBEL_SLAVE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER",
+				"Name": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER",
+				"MemoryAllFamilies": "MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+				"EndLaw": "LAW_SLAVERY",
+				"FreeLaw": "LAW_FREEDOM",
+				"iLegitimacy": "-5"
+			},
+			{
 				"beginGroup": "Character",
 				"zType": "BONUS_EVENTOPTION_LOOKING_OUTWARD_MYSELF",
 				"aeAddTraits": {
@@ -16791,10 +16826,8 @@
 				"MemoryFamily": "MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_HEIR_EXPERTISE_PATHFINDER_OPTION_1_CITY",
-				"aeAddSpecialistClasses": {
-					"zValue": "SPECIALISTCLASS_FISHER"
-				}
+				"zType": "BONUS_EVENTOPTION_HEIR_EXPERTISE_PATHFINDER_OPTION_1_TILE",
+				"SetSpecialist": "SPECIALIST_FISHER"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_GLADIATOR_GAMES_YES",
@@ -23788,6 +23821,10 @@
 			{
 				"zType": "BONUS_EVENTOPTION_TUTORIAL_AMBITION_UNITS",
 				"Ambition": "GOAL_5_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE",
+				"iXPCharacter": "10"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TUTORIAL_SUCCESSION_OKAY",

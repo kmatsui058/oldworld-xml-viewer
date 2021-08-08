@@ -75,6 +75,9 @@
         "SubjectCharacterEnabled": {
           
         },
+        "SubjectCharacterDisabled": {
+          
+        },
         "SubjectTarget": {
           
         },
@@ -590,7 +593,7 @@
         "bNoPopup": "1",
         "SubjectCharacter": "SUBJECT_LEADER_US",
         "SubjectTarget": "SUBJECT_PLAYER_PEACE_HUMAN",
-        "SubjectTargetEnabled": "SUBJECT_PLAYER_NO_ALLIANCE",
+        "SubjectTargetEnabled": "SUBJECT_PLAYER_NO_ALLIANCE_HUMAN",
         "aiResultDie": {
           "Pair": {
             "zIndex": "MISSIONRESULT_PLAYER_BREAK_PEACE_HUMAN_EVENT",
@@ -1133,6 +1136,7 @@
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_LEADER_US",
         "SubjectCharacterEnabled": "SUBJECT_ADULT",
+        "SubjectCharacterDisabled": "SUBJECT_RELIGION_HEAD",
         "SubjectTarget": "SUBJECT_RELIGION_PLAYER",
         "SubjectRelationStart": "SUBJECTRELATION_RELIGION_DIFF",
         "aiResultDie": {

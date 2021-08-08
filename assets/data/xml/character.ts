@@ -1271,6 +1271,18 @@
             "TRAIT_SCARRED"
           ]
         }
+      },
+      {
+        "zType": "CHARACTER_REBEL_SLAVE",
+        "iAge": "28",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_HERO_ARCHETYPE",
+            "TRAIT_BOLD",
+            "TRAIT_TOUGH",
+            "TRAIT_REBEL_SLAVE"
+          ]
+        }
       }
     ]
   }

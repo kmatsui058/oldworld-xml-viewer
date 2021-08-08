@@ -751,6 +751,22 @@
         "English": "the Scientist"
       },
       {
+        "zType": "TEXT_ADVANTAGE_NONE",
+        "English": "None"
+      },
+      {
+        "zType": "TEXT_ADVANTAGE_LOW",
+        "English": "Low"
+      },
+      {
+        "zType": "TEXT_ADVANTAGE_MEDIUM",
+        "English": "Medium"
+      },
+      {
+        "zType": "TEXT_ADVANTAGE_HIGH",
+        "English": "High"
+      },
+      {
         "zType": "TEXT_DEVELOPMENT_NONE",
         "English": "None"
       },
@@ -2150,7 +2166,7 @@
       },
       {
         "zType": "TEXT_TURNSTYLE_TEAMS",
-        "English": "Teams"
+        "English": "Strict (Teams)"
       },
       {
         "zType": "TEXT_TURNSTYLE_TEAMS_HELP",
@@ -2158,7 +2174,7 @@
       },
       {
         "zType": "TEXT_TURNSTYLE_STRICT",
-        "English": "Strict"
+        "English": "Strict (Players)"
       },
       {
         "zType": "TEXT_TURNSTYLE_STRICT_HELP",

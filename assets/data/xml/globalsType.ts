@@ -283,6 +283,10 @@
         "zValue": "DEVELOPMENT_NONE"
       },
       {
+        "zType": "DEFAULT_ADVANTAGE",
+        "zValue": "ADVANTAGE_NONE"
+      },
+      {
         "zType": "DEFAULT_DIFFICULTY",
         "zValue": "DIFFICULTY_GOOD"
       },
@@ -611,10 +615,6 @@
         "zValue": "PLAYEROPTION_HIDE_UNIT_MOVEMENT_STEPS"
       },
       {
-        "zType": "SHOW_GHOST_UNITS",
-        "zValue": "PLAYEROPTION_SHOW_GHOST_UNITS"
-      },
-      {
         "zType": "MUTE_AUDIO",
         "zValue": "PLAYEROPTION_MUTE_AUDIO"
       },
@@ -669,10 +669,6 @@
       {
         "zType": "ATTACKED_COOLDOWN",
         "zValue": "COOLDOWN_ATTACKED"
-      },
-      {
-        "zType": "STUNNED_PRE_COOLDOWN",
-        "zValue": "COOLDOWN_STUNNED_PRE"
       },
       {
         "zType": "STUNNED_COOLDOWN",

@@ -60,7 +60,7 @@
       },
       {
         "zType": "TEXT_UI_THEIR_TURN",
-        "English": "{0}'s Turn{true_1:\n{1}{YIELD_ORDERS}}"
+        "English": "{0_player}'s Turn {true_1:{1_orders}{YIELD_ORDERS}}"
       },
       {
         "zType": "TEXT_UI_HOTSEAT_PLAYER",
@@ -1631,6 +1631,10 @@
         "English": "Game Password"
       },
       {
+        "zType": "TEXT_MP_SETUP_SHOW_PASSWORD",
+        "English": "Show Password"
+      },
+      {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD",
         "English": "Host Password"
       },
@@ -1653,6 +1657,10 @@
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_AGGRESSION",
         "English": "AI Aggression"
+      },
+      {
+        "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_ADVANTAGE",
+        "English": "AI Advantage"
       },
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_AI_DEVELOPMENT",
@@ -1879,6 +1887,10 @@
         "English": "Tribes"
       },
       {
+        "zType": "TEXT_SCENARIO_SETUP_ADVANTAGE",
+        "English": "AI Advantage"
+      },
+      {
         "zType": "TEXT_SCENARIO_SETUP_DIFFICULTY",
         "English": "Difficulty"
       },
@@ -2009,6 +2021,10 @@
       {
         "zType": "TEXT_SP_SETUP_ADVANCED_AI_AGGRESSION",
         "English": "AI Aggression"
+      },
+      {
+        "zType": "TEXT_SP_SETUP_ADVANCED_AI_ADVANTAGE",
+        "English": "AI Advantage"
       },
       {
         "zType": "TEXT_SP_SETUP_ADVANCED_AI_DEVELOPMENT",

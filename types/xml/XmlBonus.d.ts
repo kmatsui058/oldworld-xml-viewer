@@ -54,6 +54,7 @@ export interface Entry {
   AddResource?: ZType | Name2 | string;
   SetImprovement?: CharacterName;
   AddImprovement?: ZType | Name2 | string;
+  SetSpecialist?: CharacterName;
   iSpreadUnits?: CharacterName;
   iRevealRange?: ZType | Name2 | string;
   iCitizens?: ZType | Name2 | string;
