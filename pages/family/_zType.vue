@@ -75,10 +75,10 @@
       class="section"
     >
       <h3 class="title">
-        Ambitions
+        Ambitions Weight
       </h3>
       <hr>
-      <ambition-table :goals="family.familyClass.ambitions" />
+      <ambition-tier-table :goals="goals" :family-class-z-type="family.familyClass.zType" />
     </section>
   </section>
 </template>
@@ -87,9 +87,10 @@
 import { Vue, Component } from 'nuxt-property-decorator'
 import families from '~/assets/data/xml/family'
 import Family from '~/classes/Family'
-import AmbitionTable from '~/components/AmbitionTable.vue'
-
-@Component({ components: { AmbitionTable } })
+import AmbitionTierTable from '~/components/AmbitionTierTable.vue'
+import goals from '~/assets/data/xml/goal'
+import Goal from '~/classes/Goal'
+@Component({ components: { AmbitionTierTable } })
 export default class Index extends Vue {
   get family (): Family {
     const entry = families.Root.Entry.find((item) => {
@@ -99,6 +100,12 @@ export default class Index extends Vue {
       throw new Error('not found')
     }
     return new Family(entry)
+  }
+
+  get goals (): Goal[] {
+    return goals.Root.Entry.map((item) => {
+      return new Goal(item)
+    }).filter(test => test.name)
   }
 }
 </script>

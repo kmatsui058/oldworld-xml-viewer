@@ -29,4 +29,18 @@ export default class Goal {
     }
     return [new FamilyClassWeight(pair)]
   }
+
+  get minTier (): number {
+    const test = this.entry.iMinTier
+    if (!test) { return 0 }
+    if (typeof test === 'string') { return Number(test) }
+    return Number(test)
+  }
+
+  get maxTier (): number {
+    const test = this.entry.iMaxTier
+    if (!test) { return 0 }
+    if (typeof test === 'string') { return Number(test) }
+    return Number(test)
+  }
 }
