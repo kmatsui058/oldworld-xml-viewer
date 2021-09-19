@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zText": {
+        "Text": {
           "comment": "Player-facing string describing the memory."
         },
         "MemoryLevel": {
@@ -27,782 +27,848 @@
       },
       {
         "zType": "MEMORYPLAYER_HUMAN_DIPLOMACY",
-        "zText": "Human Diplomacy",
+        "Text": "TEXT_MEMORYPLAYER_HUMAN_DIPLOMACY",
         "iTurns": "1",
         "bVisible": "1"
       },
       {
         "zType": "MEMORYPLAYER_CONTACTED_FIRST_NATION",
-        "zText": "Met first rival Nation"
+        "Text": "TEXT_MEMORYPLAYER_CONTACTED_FIRST_NATION"
       },
       {
         "zType": "MEMORYPLAYER_ADOPTED_RELIGION",
-        "zText": "We adopted a link(CONCEPT_STATE_RELIGION)",
+        "Text": "TEXT_MEMORYPLAYER_ADOPTED_RELIGION",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYPLAYER_STARTED_LAW",
-        "zText": "Changed a Law",
+        "Text": "TEXT_MEMORYPLAYER_STARTED_LAW",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYPLAYER_CHOSE_AMBITION",
-        "zText": "Chose an Ambition",
-        "iTurns": "20"
-      },
-      {
-        "zType": "MEMORYPLAYER_TRUCE",
-        "zText": "Player Truce",
-        "iTurns": "5"
+        "Text": "TEXT_MEMORYPLAYER_CHOSE_AMBITION",
+        "iTurns": "15"
       },
       {
         "zType": "MEMORYPLAYER_PEACE",
-        "zText": "Player Peace",
+        "Text": "TEXT_MEMORYPLAYER_PEACE",
+        "iTurns": "10"
+      },
+      {
+        "zType": "MEMORYPLAYER_TRUCE",
+        "Text": "TEXT_MEMORYPLAYER_TRUCE",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYPLAYER_WAR",
-        "zText": "Player War",
-        "iTurns": "5"
+        "Text": "TEXT_MEMORYPLAYER_WAR",
+        "iTurns": "10"
       },
       {
         "zType": "MEMORYPLAYER_OFFER",
-        "zText": "Player Offer",
+        "Text": "TEXT_MEMORYPLAYER_OFFER",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYPLAYER_OFFER_ALL",
-        "zText": "Player Offer (All)",
+        "Text": "TEXT_MEMORYPLAYER_OFFER_ALL",
         "iTurns": "2"
       },
       {
         "zType": "MEMORYPLAYER_ATTACKED_UNIT",
-        "zText": "Attacked our Unit(s)",
+        "Text": "TEXT_MEMORYPLAYER_ATTACKED_UNIT",
         "iValue": "-10",
         "iTurns": "5"
       },
       {
         "zType": "MEMORYPLAYER_ATTACKED_CITY",
-        "zText": "Attacked our Cit(ies)",
+        "Text": "TEXT_MEMORYPLAYER_ATTACKED_CITY",
         "iValue": "-20",
         "iTurns": "10"
       },
       {
         "zType": "MEMORYPLAYER_CAPTURED_CITY",
-        "zText": "Captured our Cit(ies)",
+        "Text": "TEXT_MEMORYPLAYER_CAPTURED_CITY",
         "iValue": "-40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_POACHED_CITY",
-        "zText": "Captured a City we were attacking",
+        "Text": "TEXT_MEMORYPLAYER_POACHED_CITY",
         "iValue": "-80",
         "iTurns": "40"
       },
       {
+        "zType": "MEMORYPLAYER_STOLE_CITY_SITE",
+        "Text": "TEXT_MEMORYPLAYER_STOLE_CITY_SITE",
+        "iValue": "-80",
+        "iTurns": "20"
+      },
+      {
         "zType": "MEMORYPLAYER_ATTACKED_ENEMY",
-        "zText": "Attacked our Enemy",
+        "Text": "TEXT_MEMORYPLAYER_ATTACKED_ENEMY",
         "iValue": "2",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_CARAVAN_ARRIVED",
-        "zText": "Caravan Arrived",
+        "Text": "TEXT_MEMORYPLAYER_CARAVAN_ARRIVED",
         "iValue": "40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_GIFTED_CITY",
-        "zText": "Gifted City",
-        "iValue": "20",
+        "Text": "TEXT_MEMORYPLAYER_GIFTED_CITY",
+        "iValue": "40",
         "iTurns": "40",
         "bName": "1"
       },
       {
         "zType": "MEMORYPLAYER_GIFTED_UNIT",
-        "zText": "Gifted Unit",
+        "Text": "TEXT_MEMORYPLAYER_GIFTED_UNIT",
         "iValue": "5",
         "iTurns": "20",
         "bName": "1"
       },
       {
         "zType": "MEMORYPLAYER_GIFTED_YIELD",
-        "zText": "Gifted Goods",
-        "iValue": "1",
+        "Text": "TEXT_MEMORYPLAYER_GIFTED_YIELD",
+        "iValue": "2",
         "iTurns": "10",
         "bName": "1"
       },
       {
         "zType": "MEMORYPLAYER_HOLD_HOSTAGE",
-        "zText": "Held a noble hostage",
+        "Text": "TEXT_MEMORYPLAYER_HOLD_HOSTAGE",
         "iValue": "-40",
         "iTurns": "40"
       },
       {
         "zType": "MEMORYPLAYER_KILLED_NOBLE_HOSTAGE",
-        "zText": "Killed a noble hostage",
+        "Text": "TEXT_MEMORYPLAYER_KILLED_NOBLE_HOSTAGE",
         "iValue": "-80",
         "iTurns": "40"
       },
       {
         "zType": "MEMORYPLAYER_BROKE_PEACE",
-        "zText": "Broke a Peace Treaty",
+        "Text": "TEXT_MEMORYPLAYER_BROKE_PEACE",
         "iValue": "-20",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_DECLARED_WAR",
-        "zText": "Declared War on us",
+        "Text": "TEXT_MEMORYPLAYER_DECLARED_WAR",
         "iValue": "-80",
         "iTurns": "40"
       },
       {
         "zType": "MEMORYPLAYER_CANCELLED_TRADE",
-        "zText": "Cancelled Trade",
+        "Text": "TEXT_MEMORYPLAYER_CANCELLED_TRADE",
         "iValue": "-40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG",
-        "zText": "Refused Help Citizens",
+        "Text": "TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG",
         "iValue": "-40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS",
-        "zText": "Helped Citizens",
+        "Text": "TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS",
         "iValue": "40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_DIVORCE",
-        "zText": "Divorce",
+        "Text": "TEXT_MEMORYPLAYER_DIVORCE",
         "iValue": "-100",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_REMOVED_LUXURY",
-        "zText": "Removed Luxury",
-        "iValue": "-50",
-        "iTurns": "5"
+        "Text": "TEXT_MEMORYPLAYER_REMOVED_LUXURY",
+        "iValue": "-40",
+        "iTurns": "10"
       },
       {
         "zType": "MEMORYPLAYER_TRADE_DEAL",
-        "zText": "New Trade Deal",
+        "Text": "TEXT_MEMORYPLAYER_TRADE_DEAL",
         "iValue": "40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_DEMANDED_TRIBUTE",
-        "zText": "Demanded Tribute",
+        "Text": "TEXT_MEMORYPLAYER_DEMANDED_TRIBUTE",
         "iValue": "-40",
         "iTurns": "20"
       },
       {
         "zType": "MEMORYPLAYER_NOBLE_DEFECT",
-        "zText": "Convinced a noble to defect",
+        "Text": "TEXT_MEMORYPLAYER_NOBLE_DEFECT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_FEAST_EXILED_PEOPLE",
-        "zText": "Exiled People",
+        "Text": "TEXT_MEMORYPLAYER_FEAST_EXILED_PEOPLE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_FEAST_ACCEPTED_CITY",
-        "zText": "Accepted inter-cultural feast",
+        "Text": "TEXT_MEMORYPLAYER_FEAST_ACCEPTED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_FEAST_REJECTED_CITY",
-        "zText": "Rejected inter-cultural feast",
+        "Text": "TEXT_MEMORYPLAYER_FEAST_REJECTED_CITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_SLANDER",
-        "zText": "Publicly Slandered",
+        "Text": "TEXT_MEMORYPLAYER_SLANDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_STEAL_RESEARCH",
-        "zText": "Stole Research",
+        "Text": "TEXT_MEMORYPLAYER_STEAL_RESEARCH",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_ASSASSINATION_EXPOSED",
-        "zText": "Assassination exposed",
+        "Text": "TEXT_MEMORYPLAYER_ASSASSINATION_EXPOSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_TRIBE_PLAYER_WAR",
-        "zText": "Convinced a Tribe to declare on us",
+        "Text": "TEXT_MEMORYPLAYER_TRIBE_PLAYER_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_PLAYER_WAR",
-        "zText": "Convinced a Nation to declare on us",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_PLAYER_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
       },
       {
         "zType": "MEMORYPLAYER_PEACEMAKER_BAD",
-        "zText": "Advised against our settlements",
+        "Text": "TEXT_MEMORYPLAYER_PEACEMAKER_BAD",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PEACEMAKER_GOOD",
-        "zText": "Removed intrusive settlements",
+        "Text": "TEXT_MEMORYPLAYER_PEACEMAKER_GOOD",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_CONTACT_GIFT",
-        "zText": "Your initial gift",
+        "Text": "TEXT_MEMORYPLAYER_CONTACT_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_NEIGHBORS_ROME_PRIDE",
-        "zText": "You stood up to us!",
+        "Text": "TEXT_MEMORYPLAYER_NEIGHBORS_ROME_PRIDE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL",
         "bName": "1"
       },
       {
         "zType": "MEMORYPLAYER_NEIGHBORS_HUMBLE",
-        "zText": "Impressed us with your humility",
+        "Text": "TEXT_MEMORYPLAYER_NEIGHBORS_HUMBLE",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_NEIGHBORS_FRIENDLY",
-        "zText": "Your people seem friendly",
+        "Text": "TEXT_MEMORYPLAYER_NEIGHBORS_FRIENDLY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_NEIGHBORS_PRIDEFUL",
-        "zText": "You spoke boldly to us when we met",
+        "Text": "TEXT_MEMORYPLAYER_NEIGHBORS_PRIDEFUL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_LONG"
       },
       {
         "zType": "MEMORYPLAYER_MADE_CONTACT",
-        "zText": "Made contact with your people",
+        "Text": "TEXT_MEMORYPLAYER_MADE_CONTACT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL",
-        "zText": "Gave us a gift to improve relations",
+        "Text": "TEXT_MEMORYPLAYER_EVENTOPTION_TRADE_MISSION_YES_FAIL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DECLARE_WAR_DEMAND_YES",
-        "zText": "Agreed to Declare War on our enemy",
+        "Text": "TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DECLARE_WAR_DEMAND_NO",
-        "zText": "Refused to Declare War on our enemy",
+        "Text": "TEXT_MEMORYPLAYER_DECLARE_WAR_DEMAND_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE",
-        "zText": "You dispensed justice at our request",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_JUSTICE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY",
-        "zText": "Justice delayed is justice denied",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_WEAK",
-        "zText": "Our aggrieved citizens did not receive justice",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_WEAK",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_INJUSTICE",
-        "zText": "Your leader's claim to represent justice is a farce!",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_INJUSTICE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE",
-        "zText": "Allowed us to dispense justice in our way",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
+        "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE_NO",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_JUSTICE_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_SOLVED",
-        "zText": "You solved our grievances",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_SOLVED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_IGNORED",
-        "zText": "You ignored our grievances",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_PLEASED_IGNORED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_ACCUSED_OF_PLOTTING",
-        "zText": "Accused of plotting",
+        "Text": "TEXT_MEMORYPLAYER_ACCUSED_OF_PLOTTING",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_ENDED_FRIENDSHIP",
+        "Text": "TEXT_MEMORYPLAYER_ENDED_FRIENDSHIP",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "beginGroup": "Character",
         "zType": "MEMORYPLAYER_HONORED_RULER",
-        "zText": "Honored dead ruler",
+        "Text": "TEXT_MEMORYPLAYER_HONORED_RULER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_SUPPORTED_WAR",
-        "zText": "Supported our war",
+        "Text": "TEXT_MEMORYPLAYER_SUPPORTED_WAR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_TO_FIRE_COURTIER",
-        "zText": "Refused to fire insider on court",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_TO_FIRE_COURTIER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_IMPRESSED_BY_HEIR",
-        "zText": "Impressed by young student",
+        "Text": "TEXT_MEMORYPLAYER_IMPRESSED_BY_HEIR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_ESCORTED_RULER",
-        "zText": "Provided escort for ruler",
+        "Text": "TEXT_MEMORYPLAYER_ESCORTED_RULER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_RETURNED_HEIR",
-        "zText": "Returned heir after incident",
+        "Text": "TEXT_MEMORYPLAYER_RETURNED_HEIR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_THE_OLYMPIAD",
-        "zText": "Impressed by our Olympiad",
+        "Text": "TEXT_MEMORYPLAYER_THE_OLYMPIAD",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_MEDDLED_IN_AFFAIRS",
-        "zText": "Meddled in our affairs",
+        "Text": "TEXT_MEMORYPLAYER_MEDDLED_IN_AFFAIRS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_RECEIVED_BRIBE",
-        "zText": "Received gifts of bribery",
+        "Text": "TEXT_MEMORYPLAYER_RECEIVED_BRIBE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Diplomacy",
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT",
-        "zText": "You sent us a small gift",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE",
-        "zText": "We are interested in your suggestion of a research treaty",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
+        "zType": "MEMORYPLAYER_REFUSED_HOLY_WAR",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_HOLY_WAR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_REFUSED_SPOUSE_WAR",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_SPOUSE_WAR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
         "zType": "MEMORYPLAYER_PAID_TRIBUTE",
-        "zText": "You paid us Tribute",
+        "Text": "TEXT_MEMORYPLAYER_PAID_TRIBUTE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_KEPT_FRIENDSHIP",
+        "Text": "TEXT_MEMORYPLAYER_KEPT_FRIENDSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_TO_PAY_TRIBUTE",
-        "zText": "You refused to pay us Tribute",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_TO_PAY_TRIBUTE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_RESEARCH",
-        "zText": "Our research deal ensures your security for now",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_RESEARCH",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_WAR",
-        "zText": "Your feeble offer triggered our thirst for conflict",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_CONSTRUCTION",
-        "zText": "Your builder expertise helped us improve our food production",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_CONSTRUCTION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_TECHNOLOGY",
-        "zText": "Your technological expertise helped us improve our food production",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_PLEASED_TECHNOLOGY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS",
-        "zText": "We may be preparing to attack you",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_THREATEN",
-        "zText": "Your threats have been persuasive",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_THREATEN",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_PREPARE",
-        "zText": "You seem to be preparing for War",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_PREPARE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_WAR",
-        "zText": "We knew you could not be trusted",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_BUILDER_CAUTIOUS_LEADER4_WAR",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_SOLUTION",
-        "zText": "You solved one of the reasons that we were angry",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_SOLUTION",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_DELAY",
-        "zText": "You tied us up in diplomatic knots",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ANGRY_DELAY",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_PEACE",
-        "zText": "You redressed our primary grievance and signed a Peace treaty",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_PEACE",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_BUILDUP",
-        "zText": "Your military buildup is a provocation",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_UPSET_BUILDUP",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_MATERIALS",
-        "zText": "You gifted us materials that were in short supply",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_MATERIALS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_ARCHETYPE_GRAND_MISSION",
-        "zText": "Your religious mission to our lands has pleased our people",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_ARCHETYPE_GRAND_MISSION",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_MINOR_MISSION",
-        "zText": "Your religious mission to our capital was unimpressive",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_ZEALOT_MINOR_MISSION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_ANGRY",
-        "zText": "We suspect you of plotting mischief against us",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_ANGRY",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_PLEASED",
-        "zText": "We are grateful to have a trustworthy friend like your Nation",
+        "Text": "TEXT_MEMORYPLAYER_PLAYER_WAR_OFFER_TRAIT_SCHEMER_ARCHETYPE_PLEASED",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_EVENTOPTION_PLAYER_PEACE_END_OPINION",
-        "zText": "Begged us for a second chance at link(DIPLOMACY_PEACE)",
+        "Text": "TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_PEACE_END_OPINION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
+        "zType": "MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_YES",
+        "Text": "TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
         "zType": "MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_NO",
-        "zText": "Refused to marry into our royal succession",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+        "Text": "TEXT_MEMORYPLAYER_EVENTOPTION_PLAYER_DIPLO_MARRIAGE_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DENOUNCED_US",
-        "zText": "Denounce us publicly",
+        "Text": "TEXT_MEMORYPLAYER_DENOUNCED_US",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_GAVE_TECH",
-        "zText": "Gifted us with technology",
+        "Text": "TEXT_MEMORYPLAYER_GAVE_TECH",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_TECH",
-        "zText": "Refused to share technology",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_TECH",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_COMPLIMENTED_GENERAL",
-        "zText": "Complimented our General",
+        "Text": "TEXT_MEMORYPLAYER_COMPLIMENTED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_LONG"
       },
       {
         "zType": "MEMORYPLAYER_DENIED_OUR_GENERAL",
-        "zText": "Insulted our General",
+        "Text": "TEXT_MEMORYPLAYER_DENIED_OUR_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_EXCAVATION",
-        "zText": "Refused excavation",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_EXCAVATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_COVERED_UP_PRISONER",
-        "zText": "Covered up disappearance",
+        "Text": "TEXT_MEMORYPLAYER_COVERED_UP_PRISONER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_FREED_CAPTIVE",
-        "zText": "Freed our ambassador",
+        "Text": "TEXT_MEMORYPLAYER_FREED_CAPTIVE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_FIXED_MISUNDERSTANDING",
-        "zText": "Fixed misunderstanding over prisoner",
+        "Text": "TEXT_MEMORYPLAYER_FIXED_MISUNDERSTANDING",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_INTERVENED_IN_LOVE",
-        "zText": "Intervened in heir love affair",
+        "Text": "TEXT_MEMORYPLAYER_INTERVENED_IN_LOVE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Miscellaneous",
         "zType": "MEMORYPLAYER_DELIVERED_ASSASSINS",
-        "zText": "Delivered assassins to us",
+        "Text": "TEXT_MEMORYPLAYER_DELIVERED_ASSASSINS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_ACCEPTED_EXCUSE",
-        "zText": "Accepted diplomatic solution",
+        "Text": "TEXT_MEMORYPLAYER_ACCEPTED_EXCUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_SENT_UNIT",
-        "zText": "Sent unit to other nation",
+        "Text": "TEXT_MEMORYPLAYER_SENT_UNIT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_FOREIGN_INTRUSION",
-        "zText": "Endured foreign intrusion",
+        "Text": "TEXT_MEMORYPLAYER_FOREIGN_INTRUSION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_WARNED_AGAINST_MEDDLING",
-        "zText": "Warned us against meddling",
+        "Text": "TEXT_MEMORYPLAYER_WARNED_AGAINST_MEDDLING",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HELPED_FREE_SLAVES",
-        "zText": "Helped free our Jewish slaves",
+        "Text": "TEXT_MEMORYPLAYER_HELPED_FREE_SLAVES",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HELD_CELEBRATION",
-        "zText": "Would not convert",
+        "Text": "TEXT_MEMORYPLAYER_HELD_CELEBRATION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_FREED_PRISONER",
-        "zText": "Freed royal prisoner",
+        "Text": "TEXT_MEMORYPLAYER_FREED_PRISONER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_SHARED_FAITH",
-        "zText": "Banned our gatherings",
+        "Text": "TEXT_MEMORYPLAYER_SHARED_FAITH",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_RETURNED_TRAITOR",
-        "zText": "Returned traitorous heir",
+        "Text": "TEXT_MEMORYPLAYER_RETURNED_TRAITOR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_INSULTED_DIPLOMAT",
-        "zText": "Insulted visiting diplomat",
+        "Text": "TEXT_MEMORYPLAYER_INSULTED_DIPLOMAT",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_DISMISSED_RUMORS",
-        "zText": "Dismissed link to assassination",
+        "Text": "TEXT_MEMORYPLAYER_DISMISSED_RUMORS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DENIED_RANSOM",
-        "zText": "Denied ransom for captured spies",
+        "Text": "TEXT_MEMORYPLAYER_DENIED_RANSOM",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_WORKED_TOGETHER",
-        "zText": "Worked together to slander rival nation",
+        "Text": "TEXT_MEMORYPLAYER_WORKED_TOGETHER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Contact",
         "zType": "MEMORYPLAYER_HELPED_CARAVAN",
-        "zText": "Helped supply caravan",
+        "Text": "TEXT_MEMORYPLAYER_HELPED_CARAVAN",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_SACKED_CARAVAN",
-        "zText": "Sacked our caravan",
+        "Text": "TEXT_MEMORYPLAYER_SACKED_CARAVAN",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_DID_NOT_INTERFERE",
-        "zText": "Did not interfere with prisoner",
+        "Text": "TEXT_MEMORYPLAYER_DID_NOT_INTERFERE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_FOUGHT_FOR_PRISONER",
-        "zText": "Freed political prisoner",
+        "Text": "TEXT_MEMORYPLAYER_FOUGHT_FOR_PRISONER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_MADE_FOOL_LABORER",
-        "zText": "Made our fool a laborer",
+        "Text": "TEXT_MEMORYPLAYER_MADE_FOOL_LABORER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_ACCEPTED_FOOD",
-        "zText": "Accepted friendly gesture",
+        "Text": "TEXT_MEMORYPLAYER_ACCEPTED_FOOD",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_FOOD",
-        "zText": "Refused our gracious offer",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_FOOD",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_THREATENED",
-        "zText": "Accused us of poisoning",
+        "Text": "TEXT_MEMORYPLAYER_THREATENED",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HOSTED_COUNSEL",
-        "zText": "Hosted our court counsel",
+        "Text": "TEXT_MEMORYPLAYER_HOSTED_COUNSEL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_COUNSEL",
-        "zText": "Refused our court counsel",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_COUNSEL",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DISCOURTEOUS_RULER",
-        "zText": "Treated discourteously in court",
+        "Text": "TEXT_MEMORYPLAYER_DISCOURTEOUS_RULER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_EXECUTED_OUR_AGENT",
-        "zText": "Executed our diplomatic agent",
+        "Text": "TEXT_MEMORYPLAYER_EXECUTED_OUR_AGENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_STOPPED_IMPORTS",
+        "Text": "TEXT_MEMORYPLAYER_STOPPED_IMPORTS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_ACCEPTED_RELIGIOUS_DIGNITARIES",
+        "Text": "TEXT_MEMORYPLAYER_ACCEPTED_RELIGIOUS_DIGNITARIES",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Exploration",
         "zType": "MEMORYPLAYER_GIFT_OF_GEMS",
-        "zText": "Received harvested gems",
+        "Text": "TEXT_MEMORYPLAYER_GIFT_OF_GEMS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_GAVE_OLIVE_OIL",
-        "zText": "Received gift of olive oil",
+        "Text": "TEXT_MEMORYPLAYER_GAVE_OLIVE_OIL",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_RETURNED_LOOT",
+        "Text": "TEXT_MEMORYPLAYER_RETURNED_LOOT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Combat",
         "zType": "MEMORYPLAYER_EXECUTED_GOVERNORS",
-        "zText": "Executed our conquered city's leadership",
+        "Text": "TEXT_MEMORYPLAYER_EXECUTED_GOVERNORS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HONORED_GENERAL",
-        "zText": "Honored slain general",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+        "Text": "TEXT_MEMORYPLAYER_HONORED_GENERAL",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYPLAYER_SPARED_GENERAL",
-        "zText": "Spared our general",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+        "Text": "TEXT_MEMORYPLAYER_SPARED_GENERAL",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYPLAYER_KILLED_GENERAL",
-        "zText": "Killed our general",
+        "Text": "TEXT_MEMORYPLAYER_KILLED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "beginGroup": "Community",
         "zType": "MEMORYPLAYER_TROOPS_RANSACK",
-        "zText": "Ransacked our city",
+        "Text": "TEXT_MEMORYPLAYER_TROOPS_RANSACK",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_INFILTRATED_US",
-        "zText": "Infiltrated us",
+        "Text": "TEXT_MEMORYPLAYER_INFILTRATED_US",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_EXPOSED_INFILTRATORS",
-        "zText": "Helped expose foreign infiltrators",
+        "Text": "TEXT_MEMORYPLAYER_EXPOSED_INFILTRATORS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_APOLOGY",
-        "zText": "Refused to apologize for an international incident",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_APOLOGY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_LOST_IN_TRANSLATION_POS",
-        "zText": "Settled a contract dispute",
+        "Text": "TEXT_MEMORYPLAYER_LOST_IN_TRANSLATION_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_LOST_IN_TRANSLATION_NEG",
-        "zText": "Disagreed in a contract dispute",
+        "Text": "TEXT_MEMORYPLAYER_LOST_IN_TRANSLATION_NEG",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_SENT_DELICACIES",
-        "zText": "Sent us some delicacies",
+        "Text": "TEXT_MEMORYPLAYER_SENT_DELICACIES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_SENT_DELICACIES_EXOTIC",
-        "zText": "Sent us exotic delicacies",
+        "Text": "TEXT_MEMORYPLAYER_SENT_DELICACIES_EXOTIC",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_DECLINED_INVITATION",
-        "zText": "Declined our invitation to a festival",
+        "Text": "TEXT_MEMORYPLAYER_DECLINED_INVITATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HELD_LECTURE",
-        "zText": "Held a lecture in one of our cities",
+        "Text": "TEXT_MEMORYPLAYER_HELD_LECTURE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HELD_TRAINING",
-        "zText": "Trained our soldiers personally",
+        "Text": "TEXT_MEMORYPLAYER_HELD_TRAINING",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_INSULTED_BY_AMBASSADOR",
-        "zText": "Your ambassador insulted us",
+        "Text": "TEXT_MEMORYPLAYER_INSULTED_BY_AMBASSADOR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_TOOK_CARE_PILGRIMS",
-        "zText": "Took good care of our pilgrims",
+        "Text": "TEXT_MEMORYPLAYER_TOOK_CARE_PILGRIMS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_REFUSED_PILGRIMS",
-        "zText": "Refused entry to our peaceful pilgrims",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_PILGRIMS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_RELEASED_PRISONERS",
-        "zText": "Returned our people despite their crimes",
+        "Text": "TEXT_MEMORYPLAYER_RELEASED_PRISONERS",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_JUDGED_PRISONERS",
-        "zText": "Captured our people for their crimes",
+        "Text": "TEXT_MEMORYPLAYER_JUDGED_PRISONERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_HAD_MERCY",
-        "zText": "Gave us mercy",
+        "Text": "TEXT_MEMORYPLAYER_HAD_MERCY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYPLAYER_REJECTED_DESTINY_CHILD"
+      },
+      {
+        "zType": "MEMORYPLAYER_SCHISM_FOR",
+        "Text": "TEXT_MEMORYPLAYER_SCHISM_FOR",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_LONG"
+      },
+      {
+        "zType": "MEMORYPLAYER_SCHISM_AGAINST",
+        "Text": "TEXT_MEMORYPLAYER_SCHISM_AGAINST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYPLAYER_RAID_EARLY_WARNING",
+        "Text": "TEXT_MEMORYPLAYER_RAID_EARLY_WARNING",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       }
     ]
   }

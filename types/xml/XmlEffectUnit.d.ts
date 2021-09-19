@@ -12,13 +12,16 @@ export interface Entry {
   zIconName: ZType | string;
   SourceUnitTrait?: ZType | string;
   iStrengthModifier?: ZType | string;
+  iAttackModifier?: ZType | string;
   iDefenseModifier?: ZType | string;
   iCriticalChance?: ZType | string;
-  iConvertOnKillChance?: ZType | string;
+  iEnlistOnKillChance?: ZType | string;
   iVisionExtra?: ZType | string;
   iMovementExtra?: ZType | string;
   iFatigueExtra?: ZType | string;
   iRangeExtra?: ZType | string;
+  iWaterControlExtra?: ZType | string;
+  iPillageYieldModifier?: ZType | string;
   iRiverAttackModifier?: ZType | string;
   iWaterLandAttackModifier?: ZType | string;
   iHomeModifier?: ZType | string;
@@ -36,7 +39,9 @@ export interface Entry {
   iHealAlways?: ZType | string;
   bRout?: ZType | string;
   bPush?: ZType | string;
+  bPushWater?: ZType | string;
   bStun?: ZType | string;
+  bStunWater?: ZType | string;
   bLastStand?: ZType | string;
   bIgnoresDistance?: ZType | string;
   bCriticalImmune?: ZType | string;

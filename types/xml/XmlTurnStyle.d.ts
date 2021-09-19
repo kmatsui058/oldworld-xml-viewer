@@ -8,13 +8,12 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zHelp: ZType | string;
+  Name: ZType | string;
+  Help: ZType | string;
   iTimeModifier?: ZType | string;
   iCombatModifier: ZType | string;
   bSimultaneous?: ZType | string;
   bTeamSplit?: ZType | string;
-  bTribeSplit?: ZType | string;
   bNoCooldown?: ZType | string;
   bNoBuild?: ZType | string;
   bNoMilitary?: ZType | string;

@@ -248,6 +248,15 @@
         "EffectCity": "EFFECTCITY_PROJECT_MERCHANT_TOWN"
       },
       {
+        "zType": "PROJECT_DEN_OF_VICE",
+        "Name": "TEXT_PROJECT_DEN_OF_VICE",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_DEN_OF_VICE",
+        "EffectCity": "EFFECTCITY_PROJECT_DEN_OF_VICE"
+      },
+      {
         "zType": "PROJECT_OUTBREAK",
         "Name": "TEXT_PROJECT_OUTBREAK",
         "zIcon": "PROJECT_MONARCH",
@@ -674,6 +683,51 @@
         "bHidden": "1",
         "CityProject": "PROJECT_PAGAN_CULT_HUNTING",
         "EffectCity": "EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING"
+      },
+      {
+        "zType": "PROJECT_FERTILE_SOIL",
+        "Name": "TEXT_PROJECT_FERTILE_SOIL",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_FERTILE_SOIL",
+        "EffectCity": "EFFECTCITY_PROJECT_FERTILE_SOIL"
+      },
+      {
+        "zType": "PROJECT_IMPROVED_LUDUS",
+        "Name": "TEXT_PROJECT_IMPROVED_LUDUS",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_IMPROVED_LUDUS",
+        "EffectCity": "EFFECTCITY_PROJECT_IMPROVED_LUDUS"
+      },
+      {
+        "zType": "PROJECT_ATHLETICS_ARCHERY",
+        "Name": "TEXT_PROJECT_ATHLETICS_ARCHERY",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ATHLETICS_ARCHERY",
+        "EffectCity": "EFFECTCITY_PROJECT_ATHLETICS_ARCHERY"
+      },
+      {
+        "zType": "PROJECT_ATHLETICS_WRESTLING",
+        "Name": "TEXT_PROJECT_ATHLETICS_WRESTLING",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ATHLETICS_WRESTLING",
+        "EffectCity": "EFFECTCITY_PROJECT_ATHLETICS_WRESTLING"
+      },
+      {
+        "zType": "PROJECT_ATHLETICS_EQUESTRIAN",
+        "Name": "TEXT_PROJECT_ATHLETICS_EQUESTRIAN",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ATHLETICS_EQUESTRIAN",
+        "EffectCity": "EFFECTCITY_PROJECT_ATHLETICS_EQUESTRIAN"
       }
     ]
   }

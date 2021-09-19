@@ -15,6 +15,9 @@
         "Help": {
           
         },
+        "Encyclopedia": {
+          
+        },
         "zIconName": {
           
         },
@@ -132,12 +135,6 @@
         "AddToYield": {
           
         },
-        "aiRoadCost": {
-          
-        },
-        "aiUrbanCost": {
-          
-        },
         "aiOpinionCharacterRate": {
           
         }
@@ -171,10 +168,11 @@
         "Name": "TEXT_YIELD_CIVICS",
         "Color": "COLOR_YIELD_CIVICS",
         "Help": "TEXT_YIELD_CIVICS_HELP",
+        "Encyclopedia": "TEXT_YIELD_CIVICS_ENCYCLOPEDIA",
         "zIconName": "YIELD_CIVICS",
         "iMinimum": "10",
         "iGovernorCost": "100",
-        "iUIPosition": "6",
+        "iUIPosition": "7",
         "bGlobal": "1",
         "bStockpile": "1",
         "bShortfall": "1"
@@ -184,11 +182,12 @@
         "Name": "TEXT_YIELD_TRAINING",
         "Color": "COLOR_YIELD_TRAINING",
         "Help": "TEXT_YIELD_TRAINING_HELP",
+        "Encyclopedia": "TEXT_YIELD_TRAINING_ENCYCLOPEDIA",
         "zIconName": "YIELD_TRAINING",
         "iMinimum": "10",
         "iGeneralCost": "100",
         "iOffensiveCost": "500",
-        "iUIPosition": "7",
+        "iUIPosition": "8",
         "bGlobal": "1",
         "bStockpile": "1",
         "bShortfall": "1"
@@ -237,9 +236,8 @@
         "Help": "TEXT_YIELD_SCIENCE_HELP",
         "zIconName": "YIELD_SCIENCE",
         "iDiscontentModifier": "-5",
-        "iUIPosition": "5",
-        "bGlobal": "1",
-        "bFloor": "1"
+        "iUIPosition": "6",
+        "bGlobal": "1"
       },
       {
         "zType": "YIELD_MONEY",
@@ -286,7 +284,7 @@
         "iDemand": "1000",
         "iVolitility": "100",
         "iGovernorCost": "2",
-        "iUIPosition": "8",
+        "iUIPosition": "1",
         "bGlobal": "1",
         "bStockpile": "1",
         "bNoDamage": "1",
@@ -296,12 +294,13 @@
         "zType": "YIELD_FOOD",
         "Name": "TEXT_YIELD_FOOD",
         "Color": "COLOR_YIELD_FOOD",
+        "Help": "TEXT_YIELD_FOOD_HELP",
         "zIconName": "YIELD_FOOD",
         "iPrice": "4",
         "iMinPrice": "2",
         "iMaxPrice": "100",
         "iDemand": "800",
-        "iUIPosition": "1",
+        "iUIPosition": "2",
         "bGlobal": "1",
         "bStockpile": "1",
         "bCanSell": "1",
@@ -313,12 +312,13 @@
         "zType": "YIELD_IRON",
         "Name": "TEXT_YIELD_IRON",
         "Color": "COLOR_YIELD_IRON",
+        "Help": "TEXT_YIELD_IRON_HELP",
         "zIconName": "YIELD_IRON",
         "iPrice": "4",
         "iMinPrice": "2",
         "iMaxPrice": "100",
         "iDemand": "600",
-        "iUIPosition": "2",
+        "iUIPosition": "3",
         "bGlobal": "1",
         "bStockpile": "1",
         "bCanSell": "1",
@@ -330,53 +330,31 @@
         "zType": "YIELD_STONE",
         "Name": "TEXT_YIELD_STONE",
         "Color": "COLOR_YIELD_STONE",
+        "Help": "TEXT_YIELD_STONE_HELP",
         "zIconName": "YIELD_STONE",
         "iPrice": "4",
         "iMinPrice": "2",
         "iMaxPrice": "100",
         "iDemand": "400",
-        "iUIPosition": "3",
+        "iUIPosition": "4",
         "bGlobal": "1",
         "bStockpile": "1",
         "bCanSell": "1",
         "bCanBuy": "1",
         "bCanGift": "1",
-        "bSellDebt": "1",
-        "aiRoadCost": {
-          "Pair": [
-            {
-              "zIndex": "HEIGHT_FLAT",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "HEIGHT_HILL",
-              "iValue": "20"
-            }
-          ]
-        },
-        "aiUrbanCost": {
-          "Pair": [
-            {
-              "zIndex": "HEIGHT_FLAT",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "HEIGHT_HILL",
-              "iValue": "20"
-            }
-          ]
-        }
+        "bSellDebt": "1"
       },
       {
         "zType": "YIELD_WOOD",
         "Name": "TEXT_YIELD_WOOD",
         "Color": "COLOR_YIELD_WOOD",
+        "Help": "TEXT_YIELD_WOOD_HELP",
         "zIconName": "YIELD_WOOD",
         "iPrice": "4",
         "iMinPrice": "2",
         "iMaxPrice": "100",
         "iDemand": "200",
-        "iUIPosition": "4",
+        "iUIPosition": "5",
         "bGlobal": "1",
         "bStockpile": "1",
         "bCanSell": "1",

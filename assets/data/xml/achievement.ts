@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "Victory": {
@@ -39,13 +39,22 @@
         "bGOTW": {
           
         },
+        "bTrueFaith": {
+          
+        },
         "iNumOpponents": {
+          
+        },
+        "iNumCities": {
+          
+        },
+        "iNumFamilies": {
           
         }
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_NO_UNDO",
-        "zName": "Won with No Undo",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_NO_UNDO",
         "Victory": {
           
         },
@@ -76,7 +85,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
-        "zName": "Won with Randomized Leaders",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
         "Victory": {
           
         },
@@ -107,7 +116,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
-        "zName": "Won with Randomized Families",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
         "Victory": {
           
         },
@@ -138,7 +147,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_ROLE_PLAYING",
-        "zName": "Won with Role Playing Events",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_ROLE_PLAYING",
         "Victory": {
           
         },
@@ -169,7 +178,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
-        "zName": "Won One City Challenge",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
         "Victory": {
           
         },
@@ -200,7 +209,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_NO_CHARACTERS",
-        "zName": "Won with No Characters",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_NO_CHARACTERS",
         "Victory": {
           
         },
@@ -231,7 +240,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_ALL_NATIONS",
-        "zName": "Won a game against All Nations",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_ALL_NATIONS",
         "Victory": {
           
         },
@@ -263,7 +272,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_POINTS",
-        "zName": "Won Points Victory",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_POINTS",
         "Victory": "VICTORY_POINTS",
         "EventLevel": {
           
@@ -292,7 +301,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_DOUBLE",
-        "zName": "Won Double Victory",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_DOUBLE",
         "Victory": "VICTORY_DOUBLE",
         "EventLevel": {
           
@@ -321,7 +330,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_AMBITION",
-        "zName": "Won Ambition Victory",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_AMBITION",
         "Victory": "VICTORY_AMBITION",
         "EventLevel": {
           
@@ -350,7 +359,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_TIME",
-        "zName": "Won Time Victory",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_TIME",
         "Victory": "VICTORY_TIME",
         "EventLevel": {
           
@@ -379,7 +388,7 @@
       },
       {
         "zType": "ACHIEVEMENT_VICTORY_CONQUEST",
-        "zName": "Won Conquest Victory",
+        "Name": "TEXT_ACHIEVEMENT_VICTORY_CONQUEST",
         "Victory": "VICTORY_CONQUEST",
         "EventLevel": {
           
@@ -408,7 +417,7 @@
       },
       {
         "zType": "ACHIEVEMENT_EVENTLEVEL_HIGH",
-        "zName": "Won with Event Level High",
+        "Name": "TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH",
         "Victory": {
           
         },
@@ -437,7 +446,7 @@
       },
       {
         "zType": "ACHIEVEMENT_MORTALITY_REALISTIC",
-        "zName": "Won with Realistic Mortality",
+        "Name": "TEXT_ACHIEVEMENT_MORTALITY_REALISTIC",
         "Victory": {
           
         },
@@ -466,7 +475,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_ABLE",
-        "zName": "Won on Able Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_ABLE",
         "Victory": {
           
         },
@@ -495,7 +504,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_JUST",
-        "zName": "Won on Just Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_JUST",
         "Victory": {
           
         },
@@ -524,7 +533,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_GOOD",
-        "zName": "Won on Good Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_GOOD",
         "Victory": {
           
         },
@@ -553,7 +562,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_STRONG",
-        "zName": "Won on Strong Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_STRONG",
         "Victory": {
           
         },
@@ -582,7 +591,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_NOBLE",
-        "zName": "Won on Noble Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_NOBLE",
         "Victory": {
           
         },
@@ -611,7 +620,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_GLORIOUS",
-        "zName": "Won on Glorious Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_GLORIOUS",
         "Victory": {
           
         },
@@ -640,7 +649,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
-        "zName": "Won on Magnificent Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
         "Victory": {
           
         },
@@ -669,7 +678,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DIFFICULTY_GREAT",
-        "zName": "Won on Great Difficulty",
+        "Name": "TEXT_ACHIEVEMENT_DIFFICULTY_GREAT",
         "Victory": {
           
         },
@@ -698,7 +707,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_ASSYRIA",
-        "zName": "Won as Assyria",
+        "Name": "TEXT_ACHIEVEMENT_NATION_ASSYRIA",
         "Victory": {
           
         },
@@ -727,7 +736,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_BABYLONIA",
-        "zName": "Won as Babylonia",
+        "Name": "TEXT_ACHIEVEMENT_NATION_BABYLONIA",
         "Victory": {
           
         },
@@ -756,7 +765,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_CARTHAGE",
-        "zName": "Won as Carthage",
+        "Name": "TEXT_ACHIEVEMENT_NATION_CARTHAGE",
         "Victory": {
           
         },
@@ -785,7 +794,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_EGYPT",
-        "zName": "Won as Egypt",
+        "Name": "TEXT_ACHIEVEMENT_NATION_EGYPT",
         "Victory": {
           
         },
@@ -814,7 +823,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_GREECE",
-        "zName": "Won as Greece",
+        "Name": "TEXT_ACHIEVEMENT_NATION_GREECE",
         "Victory": {
           
         },
@@ -843,7 +852,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_PERSIA",
-        "zName": "Won as Persia",
+        "Name": "TEXT_ACHIEVEMENT_NATION_PERSIA",
         "Victory": {
           
         },
@@ -872,7 +881,7 @@
       },
       {
         "zType": "ACHIEVEMENT_NATION_ROME",
-        "zName": "Won as Rome",
+        "Name": "TEXT_ACHIEVEMENT_NATION_ROME",
         "Victory": {
           
         },
@@ -901,7 +910,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
-        "zName": "Won with Landowners",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
         "Victory": {
           
         },
@@ -930,7 +939,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
-        "zName": "Won with Champions",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
         "Victory": {
           
         },
@@ -959,7 +968,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_STATESMEN",
-        "zName": "Won with Statesmen",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_STATESMEN",
         "Victory": {
           
         },
@@ -988,7 +997,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_PATRONS",
-        "zName": "Won with Patrons",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_PATRONS",
         "Victory": {
           
         },
@@ -1017,7 +1026,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_CLERICS",
-        "zName": "Won with Clerics",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_CLERICS",
         "Victory": {
           
         },
@@ -1046,7 +1055,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_SAGES",
-        "zName": "Won with Sages",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_SAGES",
         "Victory": {
           
         },
@@ -1075,7 +1084,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_TRADERS",
-        "zName": "Won with Traders",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_TRADERS",
         "Victory": {
           
         },
@@ -1104,7 +1113,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_ARTISANS",
-        "zName": "Won with Artisans",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_ARTISANS",
         "Victory": {
           
         },
@@ -1133,7 +1142,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_RIDERS",
-        "zName": "Won with Riders",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_RIDERS",
         "Victory": {
           
         },
@@ -1162,7 +1171,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILYCLASS_HUNTERS",
-        "zName": "Won with Hunters",
+        "Name": "TEXT_ACHIEVEMENT_FAMILYCLASS_HUNTERS",
         "Victory": {
           
         },
@@ -1190,8 +1199,70 @@
         }
       },
       {
+        "zType": "ACHIEVEMENT_GOTW",
+        "Name": "TEXT_ACHIEVEMENT_GOTW",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        },
+        "bGOTW": "1"
+      },
+      {
+        "zType": "ACHIEVEMENT_HARDCORE",
+        "Name": "TEXT_ACHIEVEMENT_HARDCORE",
+        "Victory": {
+          
+        },
+        "EventLevel": "EVENTLEVEL_HIGH",
+        "Mortality": "MORTALITY_REALISTIC",
+        "Difficulty": "DIFFICULTY_GREAT",
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          "zValue": [
+            "GAMEOPTION_NO_UNDO",
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_PLAY_TO_WIN"
+          ]
+        },
+        "iNumOpponents": "6"
+      },
+      {
         "zType": "ACHIEVEMENT_COGNOMEN_WARRIOR",
-        "zName": "Became the Warrior",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_WARRIOR",
         "Victory": {
           
         },
@@ -1222,7 +1293,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_BRAVE",
-        "zName": "Became the Drillmaster",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_BRAVE",
         "Victory": {
           
         },
@@ -1253,7 +1324,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_VALIANT",
-        "zName": "Became the Valiant",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_VALIANT",
         "Victory": {
           
         },
@@ -1284,7 +1355,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_MIGHTY",
-        "zName": "Became the Mighty",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_MIGHTY",
         "Victory": {
           
         },
@@ -1315,7 +1386,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
-        "zName": "Became the Victorious",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_VICTORIOUS",
         "Victory": {
           
         },
@@ -1346,7 +1417,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_LION",
-        "zName": "Became the Lion",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_LION",
         "Victory": {
           
         },
@@ -1377,7 +1448,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
-        "zName": "Became the Invincible",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_INVINCIBLE",
         "Victory": {
           
         },
@@ -1408,7 +1479,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_CAPABLE",
-        "zName": "Became the Capable",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_CAPABLE",
         "Victory": {
           
         },
@@ -1439,7 +1510,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_READY",
-        "zName": "Became the Ready",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_READY",
         "Victory": {
           
         },
@@ -1470,7 +1541,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_DESTROYER",
-        "zName": "Became the Destroyer",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_DESTROYER",
         "Victory": {
           
         },
@@ -1501,7 +1572,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_AVENGER",
-        "zName": "Became the Avenger",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_AVENGER",
         "Victory": {
           
         },
@@ -1532,7 +1603,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
-        "zName": "Became the White Death",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
         "Victory": {
           
         },
@@ -1563,7 +1634,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
-        "zName": "Became the Intercessor",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_INTERCESSOR",
         "Victory": {
           
         },
@@ -1594,7 +1665,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
-        "zName": "Became the Peacemaker",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_PEACEMAKER",
         "Victory": {
           
         },
@@ -1625,7 +1696,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
-        "zName": "Became the Conqueror",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_CONQUEROR",
         "Victory": {
           
         },
@@ -1656,7 +1727,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
-        "zName": "Became the Subjugator",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
         "Victory": {
           
         },
@@ -1687,7 +1758,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_RESTORER",
-        "zName": "Became the Restorer",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_RESTORER",
         "Victory": {
           
         },
@@ -1718,7 +1789,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
-        "zName": "Became the Liberator",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_LIBERATOR",
         "Victory": {
           
         },
@@ -1749,7 +1820,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_SETTLER",
-        "zName": "Became the Settler",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_SETTLER",
         "Victory": {
           
         },
@@ -1780,7 +1851,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_PIONEER",
-        "zName": "Became the Pioneer",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_PIONEER",
         "Victory": {
           
         },
@@ -1811,7 +1882,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
-        "zName": "Became the Ambitious",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_AMBITIOUS",
         "Victory": {
           
         },
@@ -1842,7 +1913,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
-        "zName": "Became the Brilliant",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_BRILLIANT",
         "Victory": {
           
         },
@@ -1873,7 +1944,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_BELOVED",
-        "zName": "Became the Beloved",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_BELOVED",
         "Victory": {
           
         },
@@ -1904,38 +1975,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_REBUILDER",
-        "zName": "Became the Rebuilder",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_COGNOMEN_BUILDER",
-        "zName": "Became the Builder",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_REBUILDER",
         "Victory": {
           
         },
@@ -1966,7 +2006,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_MASON",
-        "zName": "Became the Mason",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_MASON",
         "Victory": {
           
         },
@@ -1997,7 +2037,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
-        "zName": "Became the Architect",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_ARCHITECT",
         "Victory": {
           
         },
@@ -2028,7 +2068,38 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
-        "zName": "Became the Keystone",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_KEYSTONE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
         "Victory": {
           
         },
@@ -2059,7 +2130,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_DEVOUT",
-        "zName": "Became the Devout",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_DEVOUT",
         "Victory": {
           
         },
@@ -2090,7 +2161,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_HOLY",
-        "zName": "Became the Holy",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_HOLY",
         "Victory": {
           
         },
@@ -2121,7 +2192,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_EXPLORER",
-        "zName": "Became the Explorer",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_EXPLORER",
         "Victory": {
           
         },
@@ -2152,7 +2223,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_INTREPID",
-        "zName": "Became the Intrepid",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_INTREPID",
         "Victory": {
           
         },
@@ -2183,7 +2254,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_LEARNED",
-        "zName": "Became the Learned",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_LEARNED",
         "Victory": {
           
         },
@@ -2214,7 +2285,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
-        "zName": "Became the Enlightened",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
         "Victory": {
           
         },
@@ -2245,7 +2316,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_WISE",
-        "zName": "Became the Wise",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_WISE",
         "Victory": {
           
         },
@@ -2276,7 +2347,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_OLD",
-        "zName": "Became the Old",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_OLD",
         "Victory": {
           
         },
@@ -2307,7 +2378,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_ANCIENT",
-        "zName": "Became the Ancient",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_ANCIENT",
         "Victory": {
           
         },
@@ -2338,7 +2409,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_ABLE",
-        "zName": "Became the Able",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_ABLE",
         "Victory": {
           
         },
@@ -2369,7 +2440,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_JUST",
-        "zName": "Became the Just",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_JUST",
         "Victory": {
           
         },
@@ -2400,7 +2471,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_GOOD",
-        "zName": "Became the Good",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_GOOD",
         "Victory": {
           
         },
@@ -2431,7 +2502,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_STRONG",
-        "zName": "Became the Strong",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_STRONG",
         "Victory": {
           
         },
@@ -2462,7 +2533,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_NOBLE",
-        "zName": "Became the Noble",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_NOBLE",
         "Victory": {
           
         },
@@ -2493,7 +2564,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
-        "zName": "Became the Glorious",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_GLORIOUS",
         "Victory": {
           
         },
@@ -2524,7 +2595,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
-        "zName": "Became the Magnificent",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
         "Victory": {
           
         },
@@ -2555,7 +2626,7 @@
       },
       {
         "zType": "ACHIEVEMENT_COGNOMEN_GREAT",
-        "zName": "Became the Great",
+        "Name": "TEXT_ACHIEVEMENT_COGNOMEN_GREAT",
         "Victory": {
           
         },
@@ -2586,7 +2657,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
-        "zName": "Founded Zoroastrianism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
         "Victory": {
           
         },
@@ -2617,7 +2688,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_JUDAISM",
-        "zName": "Founded Judaism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_JUDAISM",
         "Victory": {
           
         },
@@ -2648,7 +2719,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_CHRISTIANITY",
-        "zName": "Founded Christianity",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_CHRISTIANITY",
         "Victory": {
           
         },
@@ -2679,7 +2750,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_MANICHAEISM",
-        "zName": "Founded Manichaeism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_MANICHAEISM",
         "Victory": {
           
         },
@@ -2710,7 +2781,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
-        "zName": "Founded Assyrian Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
         "Victory": {
           
         },
@@ -2741,7 +2812,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
-        "zName": "Founded Babylonian Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
         "Victory": {
           
         },
@@ -2772,7 +2843,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
-        "zName": "Founded Carthaginian Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
         "Victory": {
           
         },
@@ -2803,7 +2874,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
-        "zName": "Founded Egyptian Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
         "Victory": {
           
         },
@@ -2834,38 +2905,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
-        "zName": "Founded Greek Paganism",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
-        "zName": "Founded Roman Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_GREECE",
         "Victory": {
           
         },
@@ -2896,7 +2936,38 @@
       },
       {
         "zType": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
-        "zName": "Founded Persian Paganism",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+        "Name": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_ROME",
         "Victory": {
           
         },
@@ -2927,7 +2998,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
-        "zName": "Establish Mythology",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
         "Victory": {
           
         },
@@ -2958,7 +3029,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_VENERATION",
-        "zName": "Establish Veneration",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_VENERATION",
         "Victory": {
           
         },
@@ -2989,7 +3060,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_LEGALISM",
-        "zName": "Establish Legalism",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_LEGALISM",
         "Victory": {
           
         },
@@ -3020,7 +3091,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_REVELATION",
-        "zName": "Establish Revelation",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_REVELATION",
         "Victory": {
           
         },
@@ -3051,7 +3122,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_DUALISM",
-        "zName": "Establish Dualism",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_DUALISM",
         "Victory": {
           
         },
@@ -3082,7 +3153,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_GNOSTICISM",
-        "zName": "Establish Gnosticism",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_GNOSTICISM",
         "Victory": {
           
         },
@@ -3113,7 +3184,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_REDEMPTION",
-        "zName": "Establish Redemption",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_REDEMPTION",
         "Victory": {
           
         },
@@ -3144,7 +3215,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
-        "zName": "Establish Enlightenment",
+        "Name": "TEXT_ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
         "Victory": {
           
         },
@@ -3174,8 +3245,41 @@
         }
       },
       {
+        "zType": "ACHIEVEMENT_ONE_TRUE_FAITH",
+        "Name": "TEXT_ACHIEVEMENT_ONE_TRUE_FAITH",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        },
+        "bTrueFaith": "1",
+        "iNumCities": "3"
+      },
+      {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
-        "zName": "Built the Adur Burzen-Mihr",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
         "Victory": {
           
         },
@@ -3206,7 +3310,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
-        "zName": "Built the Temple of Solomon",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
         "Victory": {
           
         },
@@ -3237,7 +3341,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
-        "zName": "Built the Church of the Holy Sepulchre",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
         "Victory": {
           
         },
@@ -3268,7 +3372,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
-        "zName": "Built the Cao'an",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
         "Victory": {
           
         },
@@ -3299,7 +3403,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
-        "zName": "Built the Pyramids",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
         "Victory": {
           
         },
@@ -3330,7 +3434,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
-        "zName": "Built the Great Ziggurat",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
         "Victory": {
           
         },
@@ -3361,7 +3465,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_ORACLE",
-        "zName": "Built the Oracle",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_ORACLE",
         "Victory": {
           
         },
@@ -3392,7 +3496,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
-        "zName": "Built the Hanging Gardens",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
         "Victory": {
           
         },
@@ -3423,7 +3527,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
-        "zName": "Built the Necropolis",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
         "Victory": {
           
         },
@@ -3454,7 +3558,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
-        "zName": "Built the Ishtar Gate",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
         "Victory": {
           
         },
@@ -3485,7 +3589,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
-        "zName": "Built the Lighthouse",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
         "Victory": {
           
         },
@@ -3516,7 +3620,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_APADANA",
-        "zName": "Built the Apadana",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_APADANA",
         "Victory": {
           
         },
@@ -3547,7 +3651,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
-        "zName": "Built the Mausoleum",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
         "Victory": {
           
         },
@@ -3578,7 +3682,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
-        "zName": "Built the Acropolis",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
         "Victory": {
           
         },
@@ -3609,7 +3713,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
-        "zName": "Built the Colossus",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
         "Victory": {
           
         },
@@ -3640,7 +3744,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
-        "zName": "Built the Musaeum",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
         "Victory": {
           
         },
@@ -3671,7 +3775,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
-        "zName": "Built the Circus Maximus",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
         "Victory": {
           
         },
@@ -3702,7 +3806,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_PANTHEON",
-        "zName": "Built the Pantheon",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_PANTHEON",
         "Victory": {
           
         },
@@ -3733,7 +3837,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
-        "zName": "Built the Hagia Sophia",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
         "Victory": {
           
         },
@@ -3764,7 +3868,7 @@
       },
       {
         "zType": "ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
-        "zName": "Built the Via Recta Souk",
+        "Name": "TEXT_ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
         "Victory": {
           
         },
@@ -3795,7 +3899,7 @@
       },
       {
         "zType": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
-        "zName": "Researched Industrial Progress",
+        "Name": "TEXT_ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
         "Victory": {
           
         },
@@ -3826,7 +3930,7 @@
       },
       {
         "zType": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
-        "zName": "Researched Military Prestige",
+        "Name": "TEXT_ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
         "Victory": {
           
         },
@@ -3857,7 +3961,7 @@
       },
       {
         "zType": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
-        "zName": "Researched Economic Reform",
+        "Name": "TEXT_ACHIEVEMENT_TECH_ECONOMIC_REFORM",
         "Victory": {
           
         },
@@ -3888,7 +3992,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_SIEGE_TOWER",
-        "zName": "Trained Siege Tower",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_SIEGE_TOWER",
         "Victory": {
           
         },
@@ -3919,7 +4023,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
-        "zName": "Trained Cimmerian Archer",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
         "Victory": {
           
         },
@@ -3950,7 +4054,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
-        "zName": "Trained Turreted Elephant",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
         "Victory": {
           
         },
@@ -3981,7 +4085,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
-        "zName": "Trained Kushite Cavalry",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
         "Victory": {
           
         },
@@ -4012,7 +4116,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_PHALANGITE",
-        "zName": "Trained Phalangite",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_PHALANGITE",
         "Victory": {
           
         },
@@ -4043,7 +4147,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
-        "zName": "Trained Cataphract Archer",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
         "Victory": {
           
         },
@@ -4074,7 +4178,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UNIT_LEGIONARY",
-        "zName": "Trained Legionary",
+        "Name": "TEXT_ACHIEVEMENT_UNIT_LEGIONARY",
         "Victory": {
           
         },
@@ -4105,7 +4209,7 @@
       },
       {
         "zType": "ACHIEVEMENT_CULTURE_DEVELOPING",
-        "zName": "Five Developing Cities (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_CULTURE_DEVELOPING",
         "Victory": {
           
         },
@@ -4139,7 +4243,7 @@
       },
       {
         "zType": "ACHIEVEMENT_CULTURE_STRONG",
-        "zName": "Four Strong Cities (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_CULTURE_STRONG",
         "Victory": {
           
         },
@@ -4173,7 +4277,7 @@
       },
       {
         "zType": "ACHIEVEMENT_CULTURE_LEGENDARY",
-        "zName": "Three Legendary Cities (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_CULTURE_LEGENDARY",
         "Victory": {
           
         },
@@ -4207,7 +4311,7 @@
       },
       {
         "zType": "ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
-        "zName": "Captured Ten Cities (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
         "Victory": {
           
         },
@@ -4241,7 +4345,7 @@
       },
       {
         "zType": "ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
-        "zName": "Named Ten Landmarks (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
         "Victory": {
           
         },
@@ -4275,7 +4379,7 @@
       },
       {
         "zType": "ACHIEVEMENT_STAT_TEN_LEADERS",
-        "zName": "Have Ten Leaders (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_STAT_TEN_LEADERS",
         "Victory": {
           
         },
@@ -4309,7 +4413,7 @@
       },
       {
         "zType": "ACHIEVEMENT_STAT_SEVEN_WONDERS",
-        "zName": "Built Seven Wonders (One Game)",
+        "Name": "TEXT_ACHIEVEMENT_STAT_SEVEN_WONDERS",
         "Victory": {
           
         },
@@ -4343,7 +4447,7 @@
       },
       {
         "zType": "ACHIEVEMENT_TRADE_CARAVAN",
-        "zName": "Completed a caravan trade mission",
+        "Name": "TEXT_ACHIEVEMENT_TRADE_CARAVAN",
         "Victory": {
           
         },
@@ -4376,225 +4480,8 @@
         }
       },
       {
-        "zType": "ACHIEVEMENT_BARBARIAN_INVASION",
-        "zName": "Survived the Barbarian Invasion",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_CARTHAGE_1",
-        "zName": "Completed Carthage Scenario 1",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_CARTHAGE_2",
-        "zName": "Completed Carthage Scenario 2",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_CARTHAGE_3",
-        "zName": "Completed Carthage Scenario 3",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_CARTHAGE_4",
-        "zName": "Completed Carthage Scenario 4",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
-        "zName": "Completed the Carthage Campaign",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_100_YEARS",
-        "zName": "Centenarian (Leader lived to 100 years)",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
         "zType": "ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
-        "zName": "Regicide (Assassinated another nation's Leader)",
+        "Name": "TEXT_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
         "Victory": {
           
         },
@@ -4625,7 +4512,38 @@
       },
       {
         "zType": "ACHIEVEMENT_ASSASSINATED_HEIR",
-        "zName": "Future Regicide (Assassinated your Heir)",
+        "Name": "TEXT_ACHIEVEMENT_ASSASSINATED_HEIR",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_ASSASSINATED_BY_HEIR",
+        "Name": "TEXT_ACHIEVEMENT_ASSASSINATED_BY_HEIR",
         "Victory": {
           
         },
@@ -4656,7 +4574,720 @@
       },
       {
         "zType": "ACHIEVEMENT_BLADE_OF_THE_MONKEY",
-        "zName": "Blade of the Monkey (Assassinated by a monkey)",
+        "Name": "TEXT_ACHIEVEMENT_BLADE_OF_THE_MONKEY",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_BARBARIAN_INVASION",
+        "Name": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_1",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_1",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_1_BRONZE",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_1_BRONZE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_1_SILVER",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_1_SILVER",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_1_GOLD",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_1_GOLD",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_1_EPIC",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_1_EPIC",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_2",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_2",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_2_BRONZE",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_2_BRONZE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_2_SILVER",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_2_SILVER",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_2_GOLD",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_2_GOLD",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_2_EPIC",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_2_EPIC",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_3",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_3",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_3_BRONZE",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_3_BRONZE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_3_SILVER",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_3_SILVER",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_3_GOLD",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_3_GOLD",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_3_EPIC",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_3_EPIC",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_4",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_4",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_4_BRONZE",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_4_BRONZE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_4_SILVER",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_4_SILVER",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_4_GOLD",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_4_GOLD",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_4_EPIC",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_4_EPIC",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+        "Name": "TEXT_ACHIEVEMENT_CARTHAGE_CAMPAIGN",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_100_YEARS",
+        "Name": "TEXT_ACHIEVEMENT_100_YEARS",
         "Victory": {
           
         },
@@ -4687,100 +5318,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ROMAN_PAPACY",
-        "zName": "Roman Papacy (Christianity Holy Site in Roma)",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
-        "zName": "Elephantine Elephant (Trained an elephant in Elephantine)",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
-        "zName": "Knowledge of the Ancients (Built a Library and The Musaeum in Thutmosid (Sages) Alexandria)",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        }
-      },
-      {
-        "zType": "ACHIEVEMENT_FAMILY_FURIOUS",
-        "zName": "Furious Family (Family furious with you)",
+        "Name": "TEXT_ACHIEVEMENT_ROMAN_PAPACY",
         "Victory": {
           
         },
@@ -4811,7 +5349,7 @@
       },
       {
         "zType": "ACHIEVEMENT_FAMILY_FRIENDLY",
-        "zName": "Friendly Family (Family friendly with you)",
+        "Name": "TEXT_ACHIEVEMENT_FAMILY_FRIENDLY",
         "Victory": {
           
         },
@@ -4841,8 +5379,8 @@
         }
       },
       {
-        "zType": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
-        "zName": "Council of Madness (All three Councillors insane)",
+        "zType": "ACHIEVEMENT_FAMILY_FURIOUS",
+        "Name": "TEXT_ACHIEVEMENT_FAMILY_FURIOUS",
         "Victory": {
           
         },
@@ -4873,7 +5411,7 @@
       },
       {
         "zType": "ACHIEVEMENT_MEMPHIS_PYRAMIDS",
-        "zName": "Built the Pyramids in Menefer",
+        "Name": "TEXT_ACHIEVEMENT_MEMPHIS_PYRAMIDS",
         "Victory": {
           
         },
@@ -4904,7 +5442,7 @@
       },
       {
         "zType": "ACHIEVEMENT_UR_GREAT_ZIGGURAT",
-        "zName": "Built the Great Ziggurat in Ur",
+        "Name": "TEXT_ACHIEVEMENT_UR_GREAT_ZIGGURAT",
         "Victory": {
           
         },
@@ -4935,7 +5473,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DELPHI_ORACLE",
-        "zName": "Built the Oracle in Delphi",
+        "Name": "TEXT_ACHIEVEMENT_DELPHI_ORACLE",
         "Victory": {
           
         },
@@ -4966,7 +5504,7 @@
       },
       {
         "zType": "ACHIEVEMENT_BABYLON_HANGING_GARDENS",
-        "zName": "Built the Hanging Gardens in Babylon",
+        "Name": "TEXT_ACHIEVEMENT_BABYLON_HANGING_GARDENS",
         "Victory": {
           
         },
@@ -4997,7 +5535,7 @@
       },
       {
         "zType": "ACHIEVEMENT_THEBES_NECROPOLIS",
-        "zName": "Built the Necropolis in Thebes",
+        "Name": "TEXT_ACHIEVEMENT_THEBES_NECROPOLIS",
         "Victory": {
           
         },
@@ -5028,7 +5566,7 @@
       },
       {
         "zType": "ACHIEVEMENT_BABYLON_ISHTAR_GATE",
-        "zName": "Built the Ishtar Gate in Babylon",
+        "Name": "TEXT_ACHIEVEMENT_BABYLON_ISHTAR_GATE",
         "Victory": {
           
         },
@@ -5059,7 +5597,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
-        "zName": "Built the Lighthouse in Alexandria",
+        "Name": "TEXT_ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
         "Victory": {
           
         },
@@ -5090,7 +5628,7 @@
       },
       {
         "zType": "ACHIEVEMENT_PERSEPOLIS_APADANA",
-        "zName": "Built the Apadana in Persepolis",
+        "Name": "TEXT_ACHIEVEMENT_PERSEPOLIS_APADANA",
         "Victory": {
           
         },
@@ -5121,7 +5659,7 @@
       },
       {
         "zType": "ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
-        "zName": "Built the Mausoleum in Halicarnassus",
+        "Name": "TEXT_ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
         "Victory": {
           
         },
@@ -5152,7 +5690,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ATHENS_ACROPOLIS",
-        "zName": "Built the Acropolis in Athens",
+        "Name": "TEXT_ACHIEVEMENT_ATHENS_ACROPOLIS",
         "Victory": {
           
         },
@@ -5183,7 +5721,7 @@
       },
       {
         "zType": "ACHIEVEMENT_RHODES_COLOSSUS",
-        "zName": "Built the Colossus in Rhodes",
+        "Name": "TEXT_ACHIEVEMENT_RHODES_COLOSSUS",
         "Victory": {
           
         },
@@ -5214,7 +5752,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
-        "zName": "Built the Musaeum in Alexandria",
+        "Name": "TEXT_ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
         "Victory": {
           
         },
@@ -5245,7 +5783,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
-        "zName": "Built the Circus Maximus in Roma",
+        "Name": "TEXT_ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
         "Victory": {
           
         },
@@ -5276,7 +5814,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ROMA_PANTHEON",
-        "zName": "Built the Pantheon in Roma",
+        "Name": "TEXT_ACHIEVEMENT_ROMA_PANTHEON",
         "Victory": {
           
         },
@@ -5307,7 +5845,7 @@
       },
       {
         "zType": "ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
-        "zName": "Built the Hagia Sophia in Byzantium",
+        "Name": "TEXT_ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
         "Victory": {
           
         },
@@ -5338,7 +5876,7 @@
       },
       {
         "zType": "ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
-        "zName": "Built the Via Recta Souk in Damascus",
+        "Name": "TEXT_ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
         "Victory": {
           
         },
@@ -5369,7 +5907,7 @@
       },
       {
         "zType": "ACHIEVEMENT_OLD_WORLD_ORDER",
-        "zName": "Old World Order (Have Epics, Slavery and Tyranny laws active at the same time)",
+        "Name": "TEXT_ACHIEVEMENT_OLD_WORLD_ORDER",
         "Victory": {
           
         },
@@ -5400,7 +5938,7 @@
       },
       {
         "zType": "ACHIEVEMENT_POWER_TO_THE_PEOPLE",
-        "zName": "Power to the People (Have Freedom, Constitution, Legal Code and Tolerance laws active at the same time)",
+        "Name": "TEXT_ACHIEVEMENT_POWER_TO_THE_PEOPLE",
         "Victory": {
           
         },
@@ -5431,7 +5969,7 @@
       },
       {
         "zType": "ACHIEVEMENT_PANTHEON_OF_GODS",
-        "zName": "Pantheon of Gods (Have Polytheism, Divine Rule and Holy War laws active at the same time)",
+        "Name": "TEXT_ACHIEVEMENT_PANTHEON_OF_GODS",
         "Victory": {
           
         },
@@ -5462,7 +6000,38 @@
       },
       {
         "zType": "ACHIEVEMENT_THE_WORD_OF_GOD",
-        "zName": "The Word of God (Have Monotheism, Orthodoxy, Iconography and Pilgrimage laws active at the same time)",
+        "Name": "TEXT_ACHIEVEMENT_THE_WORD_OF_GOD",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
+        "Name": "TEXT_ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
         "Victory": {
           
         },
@@ -5493,7 +6062,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ALEXANDER_THE_GREAT",
-        "zName": "Alexander The Great (Eliminated Persia as Alexander The Great of Greece)",
+        "Name": "TEXT_ACHIEVEMENT_ALEXANDER_THE_GREAT",
         "Victory": {
           
         },
@@ -5524,7 +6093,7 @@
       },
       {
         "zType": "ACHIEVEMENT_PUNIC_WARS",
-        "zName": "Punic Wars (Eliminated Carthage as Rome)",
+        "Name": "TEXT_ACHIEVEMENT_PUNIC_WARS",
         "Victory": {
           
         },
@@ -5555,7 +6124,7 @@
       },
       {
         "zType": "ACHIEVEMENT_MACEDONIAN_WARS",
-        "zName": "Macedonian Wars (Eliminated Greece as Rome)",
+        "Name": "TEXT_ACHIEVEMENT_MACEDONIAN_WARS",
         "Victory": {
           
         },
@@ -5586,7 +6155,7 @@
       },
       {
         "zType": "ACHIEVEMENT_BATTLE_OF_OPIS",
-        "zName": "Battle of Opis (Eliminated Babylonia as Persia)",
+        "Name": "TEXT_ACHIEVEMENT_BATTLE_OF_OPIS",
         "Victory": {
           
         },
@@ -5617,7 +6186,38 @@
       },
       {
         "zType": "ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
-        "zName": "Medo-Babylonian Conquest (Eliminated Assyria as Babylonia)",
+        "Name": "TEXT_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_FERTILE_CRESCENT",
+        "Name": "TEXT_ACHIEVEMENT_FERTILE_CRESCENT",
         "Victory": {
           
         },
@@ -5648,7 +6248,7 @@
       },
       {
         "zType": "ACHIEVEMENT_CLEOPATRAS_LOVE",
-        "zName": "Cleopatra's Love (As Egyptian Queen married a Roman)",
+        "Name": "TEXT_ACHIEVEMENT_CLEOPATRAS_LOVE",
         "Victory": {
           
         },
@@ -5679,7 +6279,7 @@
       },
       {
         "zType": "ACHIEVEMENT_ALEXANDER_THE_WHO",
-        "zName": "Alexander the Who (Assassinated Alexander before he reached adulthood)",
+        "Name": "TEXT_ACHIEVEMENT_ALEXANDER_THE_WHO",
         "Victory": {
           
         },
@@ -5709,69 +6309,8 @@
         }
       },
       {
-        "zType": "ACHIEVEMENT_GOTW",
-        "zName": "Won a Game of the Week",
-        "Victory": {
-          
-        },
-        "EventLevel": {
-          
-        },
-        "Mortality": {
-          
-        },
-        "Difficulty": {
-          
-        },
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          
-        },
-        "bGOTW": "1"
-      },
-      {
-        "zType": "ACHIEVEMENT_HARDCORE",
-        "zName": "Hardcore (Won a game on the Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save and No Undo)",
-        "Victory": {
-          
-        },
-        "EventLevel": "EVENTLEVEL_HIGH",
-        "Mortality": "MORTALITY_REALISTIC",
-        "Difficulty": "DIFFICULTY_GREAT",
-        "Nation": {
-          
-        },
-        "FamilyClass": {
-          
-        },
-        "aiCultureCount": {
-          
-        },
-        "aiStatCount": {
-          
-        },
-        "aeGameOptions": {
-          "zValue": [
-            "GAMEOPTION_NO_UNDO",
-            "GAMEOPTION_LOCKED_SAVE"
-          ]
-        },
-        "iNumOpponents": "6"
-      },
-      {
         "zType": "ACHIEVEMENT_MERCHANTS_LEVANT",
-        "zName": "Merchants of the Levant (Won a OCC game as Traders family)",
+        "Name": "TEXT_ACHIEVEMENT_MERCHANTS_LEVANT",
         "Victory": {
           
         },
@@ -5796,6 +6335,129 @@
         },
         "aeGameOptions": {
           "zValue": "GAMEOPTION_ONE_CITY_CHALLENGE"
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+        "Name": "TEXT_ACHIEVEMENT_BEFORE_MONGOL_HORDE",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": "FAMILYCLASS_RIDERS",
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        },
+        "iNumFamilies": "1"
+      },
+      {
+        "zType": "ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
+        "Name": "TEXT_ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_COUNCIL_OF_MADNESS",
+        "Name": "TEXT_ACHIEVEMENT_COUNCIL_OF_MADNESS",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_ET_TU_BRUTUS",
+        "Name": "TEXT_ACHIEVEMENT_ET_TU_BRUTUS",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
         }
       }
     ]

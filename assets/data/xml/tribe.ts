@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "Help": {
+          
+        },
         "TeamColor": {
           
         },
@@ -22,6 +25,9 @@
           
         },
         "bPersistent": {
+          
+        },
+        "bWaterMove": {
           
         },
         "Crest": {
@@ -52,6 +58,7 @@
       {
         "zType": "TRIBE_REBELS",
         "Name": "TEXT_TRIBE_REBELS",
+        "Help": "TEXT_TRIBE_REBELS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_REBELS",
         "bPersistent": "1",
         "Crest": "CREST_TRIBE_REBELS",
@@ -70,8 +77,10 @@
       {
         "zType": "TRIBE_RAIDERS",
         "Name": "TEXT_TRIBE_RAIDERS",
+        "Help": "TEXT_TRIBE_RAIDERS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_RAIDERS",
         "bPersistent": "1",
+        "bWaterMove": "1",
         "Crest": "CREST_TRIBE_RAIDERS",
         "Diplomacy": "DIPLOMACY_WAR",
         "zPortraitBackground": "GenericBarbarianAttackBackground"
@@ -79,6 +88,7 @@
       {
         "zType": "TRIBE_BARBARIANS",
         "Name": "TEXT_TRIBE_BARBARIANS",
+        "Help": "TEXT_TRIBE_BARBARIANS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_BARBARIANS",
         "bMercenary": "1",
         "bPersistent": "1",
@@ -144,7 +154,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Gaul"
+          "zValue": "TEXT_TRIBE_GAULS_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_GAULS",
@@ -221,7 +231,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Vandal"
+          "zValue": "TEXT_TRIBE_VANDALS_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_VANDALS",
@@ -299,7 +309,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Dane"
+          "zValue": "TEXT_TRIBE_DANES_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_DANES",
@@ -377,7 +387,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Thracian"
+          "zValue": "TEXT_TRIBE_THRACIANS_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_THRACIANS",
@@ -454,7 +464,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Scythian"
+          "zValue": "TEXT_TRIBE_SCYTHIANS_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_SCYTHIANS",
@@ -531,7 +541,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Numidian"
+          "zValue": "TEXT_TRIBE_NUMIDIANS_NICK"
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_NUMIDIANS",

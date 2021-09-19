@@ -13,7 +13,7 @@ export interface Entry {
   PreferredPortrait?: ZType | string;
   Cognomen?: ZType;
   PlayerNation?: ZType | string;
-  Nation?: ZType | string;
+  Nation?: ZType;
   Tribe?: ZType | string;
   Family?: ZType;
   Father?: ZType | string;

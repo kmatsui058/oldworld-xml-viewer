@@ -15,11 +15,7 @@
         "aeSpriteSheets": {
           "zValue": [
             "ASSET_SPRITE_SHEET_HUD_ICONS",
-            "ASSET_SPRITE_SHEET_TOOL_ICONS",
-            "ASSET_SPRITE_SHEET_NOTIFICATION_BUTTON",
-            "ASSET_SPRITE_SHEET_SHINE_ATLAS",
-            "ASSET_SPRITE_SHEET_HUD_ATLAS_2",
-            "ASSET_SPRITE_SHEET_HUD_TechTree"
+            "ASSET_SPRITE_SHEET_COOLDOWNS"
           ]
         }
       },
@@ -165,9 +161,27 @@
         }
       },
       {
+        "zType": "SPRITE_GROUP_RELIGION_ICONS_SMALL",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_RELIGIONS_SMALL"
+        }
+      },
+      {
+        "zType": "SPRITE_GROUP_THEOLOGY_ICONS_SMALL",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_RELIGIONS_SMALL"
+        }
+      },
+      {
         "zType": "SPRITE_GROUP_TRAIT_ICONS",
         "aeSpriteSheets": {
           "zValue": "ASSET_SPRITE_SHEET_TRAITS"
+        }
+      },
+      {
+        "zType": "SPRITE_GROUP_TRAIT_ICONS_SMALL",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_TRAITS_SMALL"
         }
       },
       {
@@ -191,6 +205,12 @@
         "zType": "SPRITE_GROUP_CRESTS",
         "aeSpriteSheets": {
           "zValue": "ASSET_SPRITE_SHEET_CRESTS"
+        }
+      },
+      {
+        "zType": "SPRITE_GROUP_CRESTS_SMALL",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_CRESTS_SMALL"
         }
       },
       {
@@ -218,6 +238,7 @@
             "ASSET_SPRITE_SHEET_MAINMENU",
             "ASSET_SPRITE_SHEET_WINDOW_BACKGROUNDS",
             "ASSET_SPRITE_SHEET_HUD_ATLAS",
+            "ASSET_SPRITE_SHEET_POPUP_DETAIL1",
             "ASSET_SPRITE_SHEET_HUD_ATLAS_2",
             "ASSET_SPRITE_SHEET_HUD_SPRITE_ATLAS",
             "ASSET_SPRITE_SHEET_MULTIPLAYER_TRIM",
@@ -229,10 +250,7 @@
       {
         "zType": "SPRITE_GROUP_COOLDOWN_ICONS",
         "aeSpriteSheets": {
-          "zValue": [
-            "ASSET_SPRITE_SHEET_COOLDOWNS",
-            "ASSET_SPRITE_SHEET_WIDGETS"
-          ]
+          "zValue": "ASSET_SPRITE_SHEET_COOLDOWNS"
         }
       },
       {
@@ -245,6 +263,11 @@
         "zType": "SPRITE_GROUP_UI_ELEMENTS",
         "aeSpriteSheets": {
           "zValue": [
+            "ASSET_SPRITE_SHEET_TOOL_ICONS",
+            "ASSET_SPRITE_SHEET_NOTIFICATION_BUTTON",
+            "ASSET_SPRITE_SHEET_SHINE_ATLAS",
+            "ASSET_SPRITE_SHEET_HUD_ATLAS_2",
+            "ASSET_SPRITE_SHEET_HUD_TechTree",
             "ASSET_SPRITE_SHEET_BUTTONS",
             "ASSET_SPRITE_SHEET_FAMILY_TREE",
             "ASSET_SPRITE_SHEET_WIDGETS"

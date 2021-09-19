@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -30,6 +30,9 @@
         "iOpinionReligion": {
           
         },
+        "iWarModifier": {
+          
+        },
         "iBlock": {
           
         },
@@ -42,7 +45,7 @@
       },
       {
         "zType": "DIPLOMACY_TEAM",
-        "zName": "Team",
+        "Name": "TEXT_DIPLOMACY_TEAM",
         "zIconName": "DIPLOMACY_TEAM",
         "zColor": "COLOR_DIPLOMACY_TEAM",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",
@@ -50,25 +53,26 @@
       },
       {
         "zType": "DIPLOMACY_PEACE",
-        "zName": "Peace",
+        "Name": "TEXT_DIPLOMACY_PEACE",
         "zIconName": "DIPLOMACY_PEACE",
         "zColor": "COLOR_DIPLOMACY_PEACE",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",
         "iOpinionEnemy": "-40",
         "iOpinionEthnicity": "20",
         "iOpinionReligion": "10",
+        "iWarModifier": "-20",
         "bPeace": "1"
       },
       {
         "zType": "DIPLOMACY_TRUCE",
-        "zName": "Truce",
+        "Name": "TEXT_DIPLOMACY_TRUCE",
         "zIconName": "DIPLOMACY_TRUCE",
         "zColor": "COLOR_DIPLOMACY_TRUCE",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE"
       },
       {
         "zType": "DIPLOMACY_WAR",
-        "zName": "War",
+        "Name": "TEXT_DIPLOMACY_WAR",
         "zIconName": "DIPLOMACY_WAR",
         "zColor": "COLOR_DIPLOMACY_WAR",
         "zInactiveColor": "COLOR_DIPLOMACY_INACTIVE",

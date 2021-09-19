@@ -8,12 +8,12 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zScriptType?: ZType;
-  zHelp: ZType | string;
+  Help: ZType | string;
   bRandom: ZType | string;
   bHidden?: ZType;
-  bGameOfTheWeek?: ZType;
+  bIncludeRandom?: ZType;
 }
 export interface ZType {
 }

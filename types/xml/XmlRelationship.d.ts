@@ -8,9 +8,9 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
-  zNameVerb: ZType | string;
-  iOpinion: ZType | string;
+  Name: ZType | string;
+  NameVerb: ZType | string;
+  iOpinion?: ZType | string;
   iMinAgeUs?: ZType | string;
   iMinAgeThem?: ZType | string;
   aeInvalidateRelationship?: AeInvalidateRelationship;

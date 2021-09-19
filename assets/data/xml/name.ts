@@ -6,2837 +6,2845 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         }
       },
       {
         "zType": "NAME_ADAD_NIRARI",
-        "zName": "Adad-nirari"
+        "Name": "TEXT_NAME_ADAD_NIRARI"
       },
       {
         "zType": "NAME_ADAMU",
-        "zName": "Adamu"
+        "Name": "TEXT_NAME_ADAMU"
       },
       {
         "zType": "NAME_AMINU",
-        "zName": "Aminu"
+        "Name": "TEXT_NAME_AMINU"
       },
       {
         "zType": "NAME_ASHUR_DAN",
-        "zName": "Ashur-dan"
+        "Name": "TEXT_NAME_ASHUR_DAN"
       },
       {
         "zType": "NAME_ASHUR_NIRARI",
-        "zName": "Ashur-nirari"
+        "Name": "TEXT_NAME_ASHUR_NIRARI"
       },
       {
         "zType": "NAME_ASHUR_UBALLIT",
-        "zName": "Ashur-uballit"
+        "Name": "TEXT_NAME_ASHUR_UBALLIT"
       },
       {
         "zType": "NAME_ASHURBANIPAL",
-        "zName": "Ashurbanipal"
-      },
-      {
-        "zType": "NAME_ASHURNASIRPAL",
-        "zName": "Ashurnasirpal"
+        "Name": "TEXT_NAME_ASHURBANIPAL"
       },
       {
         "zType": "NAME_BAZAYA",
-        "zName": "Bazaya"
+        "Name": "TEXT_NAME_BAZAYA"
       },
       {
         "zType": "NAME_ENLIL_NASIR",
-        "zName": "Enlil-nasir"
+        "Name": "TEXT_NAME_ENLIL_NASIR"
       },
       {
         "zType": "NAME_ERIBA_ADAD",
-        "zName": "Eriba-Adad"
+        "Name": "TEXT_NAME_ERIBA_ADAD"
       },
       {
         "zType": "NAME_ESARHADDON",
-        "zName": "Esarhaddon"
+        "Name": "TEXT_NAME_ESARHADDON"
       },
       {
         "zType": "NAME_GIRITU",
-        "zName": "Giritu"
+        "Name": "TEXT_NAME_GIRITU"
       },
       {
         "zType": "NAME_ISHME_DAGAN",
-        "zName": "Ishme-Dagan"
+        "Name": "TEXT_NAME_ISHME_DAGAN"
       },
       {
         "zType": "NAME_NIMEDU",
-        "zName": "Nimedu"
+        "Name": "TEXT_NAME_NIMEDU"
       },
       {
         "zType": "NAME_PUZUR_ASHUR",
-        "zName": "Puzur-Ashur"
+        "Name": "TEXT_NAME_PUZUR_ASHUR"
       },
       {
         "zType": "NAME_RIMUT_ADAD",
-        "zName": "Rimut-Adad"
+        "Name": "TEXT_NAME_RIMUT_ADAD"
       },
       {
         "zType": "NAME_SENNACHERIB",
-        "zName": "Sennacherib"
+        "Name": "TEXT_NAME_SENNACHERIB"
       },
       {
         "zType": "NAME_SHALMANESER",
-        "zName": "Shalmaneser"
+        "Name": "TEXT_NAME_SHALMANESER"
+      },
+      {
+        "zType": "NAME_SHAMASH_SHUM",
+        "Name": "TEXT_NAME_SHAMASH_SHUM"
       },
       {
         "zType": "NAME_SHAMSHI_ADAD",
-        "zName": "Shamshi-Adad"
+        "Name": "TEXT_NAME_SHAMSHI_ADAD"
       },
       {
         "zType": "NAME_SULILI",
-        "zName": "Sulili"
+        "Name": "TEXT_NAME_SULILI"
       },
       {
         "zType": "NAME_TIGLATH_PILESER",
-        "zName": "Tiglath-pileser"
+        "Name": "TEXT_NAME_TIGLATH_PILESER"
       },
       {
         "zType": "NAME_TUKULTI_WAR",
-        "zName": "Tukulti-Ninurta"
+        "Name": "TEXT_NAME_TUKULTI_WAR"
       },
       {
         "zType": "NAME_USHPIA",
-        "zName": "Ushpia"
+        "Name": "TEXT_NAME_USHPIA"
       },
       {
         "zType": "NAME_ZUBIR",
-        "zName": "Zubir"
+        "Name": "TEXT_NAME_ZUBIR"
       },
       {
         "zType": "NAME_ADDATI",
-        "zName": "Addati"
+        "Name": "TEXT_NAME_ADDATI"
       },
       {
         "zType": "NAME_AHAT_ABISHA",
-        "zName": "Ahat-abisha"
+        "Name": "TEXT_NAME_AHAT_ABISHA"
       },
       {
         "zType": "NAME_AHAT_ABU",
-        "zName": "Ahat-abu"
+        "Name": "TEXT_NAME_AHAT_ABU"
       },
       {
         "zType": "NAME_AHI_TALLI",
-        "zName": "Ahi-talli"
+        "Name": "TEXT_NAME_AHI_TALLI"
       },
       {
         "zType": "NAME_AKBARA",
-        "zName": "Akbara"
+        "Name": "TEXT_NAME_AKBARA"
       },
       {
         "zType": "NAME_ATALIYA",
-        "zName": "Ataliya"
+        "Name": "TEXT_NAME_ATALIYA"
       },
       {
         "zType": "NAME_ATTAR_PALTI",
-        "zName": "Attar-palti"
+        "Name": "TEXT_NAME_ATTAR_PALTI"
       },
       {
         "zType": "NAME_BALHITI",
-        "zName": "Balihiti"
+        "Name": "TEXT_NAME_BALHITI"
       },
       {
         "zType": "NAME_BANITU",
-        "zName": "Banitu"
+        "Name": "TEXT_NAME_BANITU"
       },
       {
         "zType": "NAME_ESHARRA_HAMMAT",
-        "zName": "Esharra-hammat"
+        "Name": "TEXT_NAME_ESHARRA_HAMMAT"
       },
       {
         "zType": "NAME_EZIPTU",
-        "zName": "Eziptu"
+        "Name": "TEXT_NAME_EZIPTU"
       },
       {
         "zType": "NAME_HAMA",
-        "zName": "Hama"
+        "Name": "TEXT_NAME_HAMA"
       },
       {
         "zType": "NAME_KABALAIA",
-        "zName": "Kabalaia"
+        "Name": "TEXT_NAME_KABALAIA"
       },
       {
         "zType": "NAME_KIDINITI",
-        "zName": "Kidiniti"
+        "Name": "TEXT_NAME_KIDINITI"
       },
       {
         "zType": "NAME_LIBBALI_SHARRAT",
-        "zName": "Libbali-sharrat"
+        "Name": "TEXT_NAME_LIBBALI_SHARRAT"
       },
       {
         "zType": "NAME_MARQIHITA",
-        "zName": "Marqihita"
+        "Name": "TEXT_NAME_MARQIHITA"
       },
       {
         "zType": "NAME_NAQIA",
-        "zName": "Naqi'a"
+        "Name": "TEXT_NAME_NAQIA"
       },
       {
         "zType": "NAME_NUR_EKALLI",
-        "zName": "Nur-ekalli"
+        "Name": "TEXT_NAME_NUR_EKALLI"
       },
       {
         "zType": "NAME_SAMMU_RAMAT",
-        "zName": "Sammu-ramat"
+        "Name": "TEXT_NAME_SAMMU_RAMAT"
       },
       {
         "zType": "NAME_SARAIA",
-        "zName": "Saraia"
+        "Name": "TEXT_NAME_SARAIA"
       },
       {
         "zType": "NAME_SHADDITU",
-        "zName": "Shadditu"
+        "Name": "TEXT_NAME_SHADDITU"
       },
       {
         "zType": "NAME_TASHMETU_SHARRAT",
-        "zName": "Tashmetu-sharrat"
+        "Name": "TEXT_NAME_TASHMETU_SHARRAT"
       },
       {
         "zType": "NAME_YABA",
-        "zName": "Yaba"
+        "Name": "TEXT_NAME_YABA"
       },
       {
         "zType": "NAME_ZARPANITU",
-        "zName": "Zarpanitu"
+        "Name": "TEXT_NAME_ZARPANITU"
       },
       {
         "zType": "NAME_ABI_RATTASH",
-        "zName": "Abi-Rattash"
+        "Name": "TEXT_NAME_ABI_RATTASH"
       },
       {
         "zType": "NAME_ABIL_SIN",
-        "zName": "Abil-Sin"
+        "Name": "TEXT_NAME_ABIL_SIN"
       },
       {
         "zType": "NAME_AGUM",
-        "zName": "Agum"
+        "Name": "TEXT_NAME_AGUM"
       },
       {
         "zType": "NAME_AMEL_MARDUK",
-        "zName": "Amel-Marduk"
+        "Name": "TEXT_NAME_AMEL_MARDUK"
       },
       {
         "zType": "NAME_BURNABURIASH",
-        "zName": "Burnaburiash"
+        "Name": "TEXT_NAME_BURNABURIASH"
       },
       {
         "zType": "NAME_ERIBA",
-        "zName": "Eriba"
+        "Name": "TEXT_NAME_ERIBA"
       },
       {
         "zType": "NAME_GANDASH",
-        "zName": "Gandash"
+        "Name": "TEXT_NAME_GANDASH"
       },
       {
         "zType": "NAME_HAMMURABI",
-        "zName": "Hammurabi"
+        "Name": "TEXT_NAME_HAMMURABI"
       },
       {
         "zType": "NAME_IMMERUM",
-        "zName": "Immerum"
+        "Name": "TEXT_NAME_IMMERUM"
       },
       {
         "zType": "NAME_KARA_HARDASH",
-        "zName": "Kara-hardash"
+        "Name": "TEXT_NAME_KARA_HARDASH"
       },
       {
         "zType": "NAME_KASHTILIASH",
-        "zName": "Kashtiliash"
+        "Name": "TEXT_NAME_KASHTILIASH"
       },
       {
         "zType": "NAME_KUDUR_ENLIL",
-        "zName": "Kudur-Enlil"
+        "Name": "TEXT_NAME_KUDUR_ENLIL"
       },
       {
         "zType": "NAME_KURIGALZU",
-        "zName": "Kurigalzu"
+        "Name": "TEXT_NAME_KURIGALZU"
       },
       {
         "zType": "NAME_LABASHI_MARDUK",
-        "zName": "Labashi-Marduk"
+        "Name": "TEXT_NAME_LABASHI_MARDUK"
       },
       {
         "zType": "NAME_LUTIPRI",
-        "zName": "Lutipri"
+        "Name": "TEXT_NAME_LUTIPRI"
       },
       {
         "zType": "NAME_MELI_SHIPAK",
-        "zName": "Meli-Shipak"
+        "Name": "TEXT_NAME_MELI_SHIPAK"
       },
       {
         "zType": "NAME_NABONIDUS",
-        "zName": "Nabonidus"
+        "Name": "TEXT_NAME_NABONIDUS"
       },
       {
         "zType": "NAME_NABOPOLASSAR",
-        "zName": "Nabopolassar"
+        "Name": "TEXT_NAME_NABOPOLASSAR"
       },
       {
         "zType": "NAME_NEBUCHADNEZZAR",
-        "zName": "Nebuchadnezzar"
+        "Name": "TEXT_NAME_NEBUCHADNEZZAR"
+      },
+      {
+        "zType": "NAME_MARDUK_NADIN_AHI",
+        "Name": "TEXT_NAME_MARDUK_NADIN_AHI"
       },
       {
         "zType": "NAME_NERIGLISSAR",
-        "zName": "Neriglissar"
+        "Name": "TEXT_NAME_NERIGLISSAR"
       },
       {
         "zType": "NAME_SABIUM",
-        "zName": "Sabium"
+        "Name": "TEXT_NAME_SABIUM"
       },
       {
         "zType": "NAME_SHUMA",
-        "zName": "Shuma"
+        "Name": "TEXT_NAME_SHUMA"
       },
       {
         "zType": "NAME_SIN_MUBALLIT",
-        "zName": "Sin-Muballit"
+        "Name": "TEXT_NAME_SIN_MUBALLIT"
       },
       {
         "zType": "NAME_SU_ABU",
-        "zName": "Su-abu"
+        "Name": "TEXT_NAME_SU_ABU"
       },
       {
         "zType": "NAME_ULAMBURIASH",
-        "zName": "Ulamburiash"
+        "Name": "TEXT_NAME_ULAMBURIASH"
       },
       {
         "zType": "NAME_AHATSUNU",
-        "zName": "Ahatsunu"
+        "Name": "TEXT_NAME_AHATSUNU"
       },
       {
         "zType": "NAME_ALITTUM",
-        "zName": "Alittum"
+        "Name": "TEXT_NAME_ALITTUM"
       },
       {
         "zType": "NAME_AMATA",
-        "zName": "Amata"
+        "Name": "TEXT_NAME_AMATA"
       },
       {
         "zType": "NAME_BELESSUNU",
-        "zName": "Belessunu"
+        "Name": "TEXT_NAME_BELESSUNU"
       },
       {
         "zType": "NAME_BELTUM_RIMENNI",
-        "zName": "Beltum-rimeni"
+        "Name": "TEXT_NAME_BELTUM_RIMENNI"
       },
       {
         "zType": "NAME_DAMIQTUM",
-        "zName": "Damiqtum"
+        "Name": "TEXT_NAME_DAMIQTUM"
       },
       {
         "zType": "NAME_ERISHTI_AYA",
-        "zName": "Erishti-Aya"
+        "Name": "TEXT_NAME_ERISHTI_AYA"
       },
       {
         "zType": "NAME_ETTU",
-        "zName": "Ettu"
+        "Name": "TEXT_NAME_ETTU"
       },
       {
         "zType": "NAME_GASHANSUNU",
-        "zName": "Gashansunu"
+        "Name": "TEXT_NAME_GASHANSUNU"
       },
       {
         "zType": "NAME_GEMETI",
-        "zName": "Gemeti"
+        "Name": "TEXT_NAME_GEMETI"
       },
       {
         "zType": "NAME_HUMUSI",
-        "zName": "Humusi"
+        "Name": "TEXT_NAME_HUMUSI"
       },
       {
         "zType": "NAME_ILTANI",
-        "zName": "Iltani"
+        "Name": "TEXT_NAME_ILTANI"
       },
       {
         "zType": "NAME_SUN_GAMELAT",
-        "zName": "Ishtar-gamelat"
+        "Name": "TEXT_NAME_SUN_GAMELAT"
       },
       {
         "zType": "NAME_LAMASSANI",
-        "zName": "Lamassani"
+        "Name": "TEXT_NAME_LAMASSANI"
       },
       {
         "zType": "NAME_MELULATUM",
-        "zName": "Melulatum"
+        "Name": "TEXT_NAME_MELULATUM"
       },
       {
         "zType": "NAME_NIDINTU",
-        "zName": "Nidintu"
+        "Name": "TEXT_NAME_NIDINTU"
       },
       {
         "zType": "NAME_NINSUNU",
-        "zName": "Ninsunu"
+        "Name": "TEXT_NAME_NINSUNU"
       },
       {
         "zType": "NAME_NISHI_INISHU",
-        "zName": "Nishi-Inishu"
+        "Name": "TEXT_NAME_NISHI_INISHU"
       },
       {
         "zType": "NAME_PALATUM",
-        "zName": "Palatum"
+        "Name": "TEXT_NAME_PALATUM"
       },
       {
         "zType": "NAME_RAMTU",
-        "zName": "Ramtu"
+        "Name": "TEXT_NAME_RAMTU"
       },
       {
         "zType": "NAME_SHERITUM",
-        "zName": "Sheritum"
+        "Name": "TEXT_NAME_SHERITUM"
       },
       {
         "zType": "NAME_TABNI_SUN",
-        "zName": "Tabni-Ishtar"
+        "Name": "TEXT_NAME_TABNI_SUN"
       },
       {
         "zType": "NAME_UBALNU",
-        "zName": "Ubalnu"
+        "Name": "TEXT_NAME_UBALNU"
       },
       {
         "zType": "NAME_UMMI_NINGAL",
-        "zName": "Ummi-Ningal"
+        "Name": "TEXT_NAME_UMMI_NINGAL"
       },
       {
         "zType": "NAME_ZAKITI",
-        "zName": "Zakiti"
+        "Name": "TEXT_NAME_ZAKITI"
       },
       {
         "zType": "NAME_ABDOSIR",
-        "zName": "Abdosir"
+        "Name": "TEXT_NAME_ABDOSIR"
       },
       {
-        "zType": "NAME_ACHERBAS",
-        "zName": "Acherbas"
+        "zType": "NAME_ACERBAS",
+        "Name": "TEXT_NAME_ACERBAS"
       },
       {
         "zType": "NAME_ADHERBAL",
-        "zName": "Adherbal"
+        "Name": "TEXT_NAME_ADHERBAL"
       },
       {
         "zType": "NAME_ADONIBAAL",
-        "zName": "Adonibaal"
+        "Name": "TEXT_NAME_ADONIBAAL"
       },
       {
         "zType": "NAME_ARMILIK",
-        "zName": "Armilik"
+        "Name": "TEXT_NAME_ARMILIK"
       },
       {
         "zType": "NAME_AZRUBAAL",
-        "zName": "Azrubaal"
+        "Name": "TEXT_NAME_AZRUBAAL"
       },
       {
         "zType": "NAME_BAALHANNO",
-        "zName": "Baalhanno"
+        "Name": "TEXT_NAME_BAALHANNO"
       },
       {
         "zType": "NAME_BAELBAD",
-        "zName": "Baelbad"
+        "Name": "TEXT_NAME_BAELBAD"
       },
       {
         "zType": "NAME_BODASHTART",
-        "zName": "Bodashtart"
+        "Name": "TEXT_NAME_BODASHTART"
       },
       {
         "zType": "NAME_BOMILCAR",
-        "zName": "Bomilcar"
+        "Name": "TEXT_NAME_BOMILCAR"
       },
       {
         "zType": "NAME_BOSTAR",
-        "zName": "Bostar"
+        "Name": "TEXT_NAME_BOSTAR"
       },
       {
         "zType": "NAME_CARTHALO",
-        "zName": "Carthalo"
+        "Name": "TEXT_NAME_CARTHALO"
       },
       {
         "zType": "NAME_ESHMUNAZAR",
-        "zName": "Eshmunazar"
+        "Name": "TEXT_NAME_ESHMUNAZAR"
       },
       {
         "zType": "NAME_FEROAN",
-        "zName": "Feroan"
+        "Name": "TEXT_NAME_FEROAN"
       },
       {
         "zType": "NAME_GISCO",
-        "zName": "Gisco"
+        "Name": "TEXT_NAME_GISCO"
       },
       {
         "zType": "NAME_HAMILCAR",
-        "zName": "Hamilcar"
+        "Name": "TEXT_NAME_HAMILCAR"
       },
       {
         "zType": "NAME_HANNIBAL",
-        "zName": "Hannibal"
+        "Name": "TEXT_NAME_HANNIBAL"
       },
       {
         "zType": "NAME_HANNO",
-        "zName": "Hanno"
+        "Name": "TEXT_NAME_HANNO"
       },
       {
         "zType": "NAME_HASDRUBAL",
-        "zName": "Hasdrubal"
+        "Name": "TEXT_NAME_HASDRUBAL"
       },
       {
         "zType": "NAME_HISHMAT",
-        "zName": "Hishmat"
+        "Name": "TEXT_NAME_HISHMAT"
       },
       {
         "zType": "NAME_HIMILCO",
-        "zName": "Himilco"
+        "Name": "TEXT_NAME_HIMILCO"
       },
       {
         "zType": "NAME_HIRAM",
-        "zName": "Hiram"
+        "Name": "TEXT_NAME_HIRAM"
       },
       {
         "zType": "NAME_IBOHAM",
-        "zName": "Iboham"
+        "Name": "TEXT_NAME_IBOHAM"
       },
       {
         "zType": "NAME_MAGO",
-        "zName": "Mago"
+        "Name": "TEXT_NAME_MAGO"
       },
       {
         "zType": "NAME_MAHARBAL",
-        "zName": "Maharbal"
+        "Name": "TEXT_NAME_MAHARBAL"
       },
       {
         "zType": "NAME_MALCHUS",
-        "zName": "Malchus"
+        "Name": "TEXT_NAME_MALCHUS"
       },
       {
-        "zType": "NAME_MATTANBAAL",
-        "zName": "Mattanbaal"
+        "zType": "NAME_MATTAN",
+        "Name": "TEXT_NAME_MATTAN"
       },
       {
         "zType": "NAME_MELAK",
-        "zName": "Melak"
+        "Name": "TEXT_NAME_MELAK"
       },
       {
         "zType": "NAME_NAVOEL",
-        "zName": "Navoel"
+        "Name": "TEXT_NAME_NAVOEL"
       },
       {
         "zType": "NAME_OZMELEK",
-        "zName": "Ozmelek"
+        "Name": "TEXT_NAME_OZMELEK"
       },
       {
         "zType": "NAME_PYGMALION",
-        "zName": "Pygmalion"
+        "Name": "TEXT_NAME_PYGMALION"
       },
       {
         "zType": "NAME_QAMR",
-        "zName": "Qamr"
+        "Name": "TEXT_NAME_QAMR"
       },
       {
         "zType": "NAME_QODMUSH",
-        "zName": "Qodmush"
+        "Name": "TEXT_NAME_QODMUSH"
       },
       {
         "zType": "NAME_RABIH",
-        "zName": "Rabih"
+        "Name": "TEXT_NAME_RABIH"
       },
       {
         "zType": "NAME_SHADA",
-        "zName": "Shada"
+        "Name": "TEXT_NAME_SHADA"
       },
       {
         "zType": "NAME_YUTPAN",
-        "zName": "Yutpan"
+        "Name": "TEXT_NAME_YUTPAN"
       },
       {
         "zType": "NAME_ZOUSHAN",
-        "zName": "Zoushan"
+        "Name": "TEXT_NAME_ZOUSHAN"
       },
       {
         "zType": "NAME_AMATBAAL",
-        "zName": "Amatbaal"
+        "Name": "TEXT_NAME_AMATBAAL"
       },
       {
         "zType": "NAME_AMATMELQART",
-        "zName": "Amatmelqart"
+        "Name": "TEXT_NAME_AMATMELQART"
       },
       {
         "zType": "NAME_AMATMILIK",
-        "zName": "Amatmilik"
+        "Name": "TEXT_NAME_AMATMILIK"
       },
       {
         "zType": "NAME_ANBAR",
-        "zName": "Anbar"
+        "Name": "TEXT_NAME_ANBAR"
       },
       {
         "zType": "NAME_ARISHAT",
-        "zName": "Arishat"
+        "Name": "TEXT_NAME_ARISHAT"
       },
       {
         "zType": "NAME_ARISHATBAAL",
-        "zName": "Arishatbaal"
+        "Name": "TEXT_NAME_ARISHATBAAL"
       },
       {
         "zType": "NAME_ASHDANAT",
-        "zName": "Ashdanat"
+        "Name": "TEXT_NAME_ASHDANAT"
       },
       {
         "zType": "NAME_ASHTARTE",
-        "zName": "Ashtarte"
+        "Name": "TEXT_NAME_ASHTARTE"
       },
       {
         "zType": "NAME_BAALZEBEL",
-        "zName": "Baalzebel"
+        "Name": "TEXT_NAME_BAALZEBEL"
       },
       {
         "zType": "NAME_BATBAAL",
-        "zName": "Batbaal"
+        "Name": "TEXT_NAME_BATBAAL"
       },
       {
         "zType": "NAME_BIRICH",
-        "zName": "Birich"
+        "Name": "TEXT_NAME_BIRICH"
       },
       {
         "zType": "NAME_BIRQOT",
-        "zName": "Birqot"
+        "Name": "TEXT_NAME_BIRQOT"
       },
       {
         "zType": "NAME_DIDO",
-        "zName": "Dido"
+        "Name": "TEXT_NAME_DIDO"
       },
       {
         "zType": "NAME_ELISSAR",
-        "zName": "Elissar"
+        "Name": "TEXT_NAME_ELISSAR"
       },
       {
         "zType": "NAME_FAIRUZ",
-        "zName": "Fairuz"
+        "Name": "TEXT_NAME_FAIRUZ"
       },
       {
         "zType": "NAME_HANBI",
-        "zName": "Hanbi"
+        "Name": "TEXT_NAME_HANBI"
       },
       {
         "zType": "NAME_HANNAH",
-        "zName": "Hannah"
+        "Name": "TEXT_NAME_HANNAH"
       },
       {
         "zType": "NAME_ILDASH",
-        "zName": "Ildash"
+        "Name": "TEXT_NAME_ILDASH"
       },
       {
         "zType": "NAME_IMILCE",
-        "zName": "Imilce"
+        "Name": "TEXT_NAME_IMILCE"
       },
       {
         "zType": "NAME_MUTUNBAAL",
-        "zName": "Mutunbaal"
+        "Name": "TEXT_NAME_MUTUNBAAL"
       },
       {
         "zType": "NAME_NASMA",
-        "zName": "Nasma"
+        "Name": "TEXT_NAME_NASMA"
       },
       {
         "zType": "NAME_OTR",
-        "zName": "Otr"
+        "Name": "TEXT_NAME_OTR"
       },
       {
         "zType": "NAME_SAPANBAAL",
-        "zName": "Sapanbaal"
+        "Name": "TEXT_NAME_SAPANBAAL"
       },
       {
         "zType": "NAME_SHAMSHYE",
-        "zName": "Shamshye"
+        "Name": "TEXT_NAME_SHAMSHYE"
       },
       {
         "zType": "NAME_SOPHONISBA",
-        "zName": "Sophonisba"
+        "Name": "TEXT_NAME_SOPHONISBA"
       },
       {
         "zType": "NAME_TABIBA",
-        "zName": "Tabiba"
+        "Name": "TEXT_NAME_TABIBA"
       },
       {
         "zType": "NAME_THUALATH",
-        "zName": "Thualath"
+        "Name": "TEXT_NAME_THUALATH"
       },
       {
         "zType": "NAME_THUBABATH",
-        "zName": "Thubabath"
+        "Name": "TEXT_NAME_THUBABATH"
       },
       {
         "zType": "NAME_UMASHTART",
-        "zName": "Umashtart"
+        "Name": "TEXT_NAME_UMASHTART"
       },
       {
         "zType": "NAME_YASMIN",
-        "zName": "Yasmin"
+        "Name": "TEXT_NAME_YASMIN"
       },
       {
         "zType": "NAME_YZBAAL",
-        "zName": "Yzbaal"
+        "Name": "TEXT_NAME_YZBAAL"
       },
       {
         "zType": "NAME_ZANBAK",
-        "zName": "Zanbak"
+        "Name": "TEXT_NAME_ZANBAK"
       },
       {
         "zType": "NAME_ZOHUR",
-        "zName": "Zohur"
+        "Name": "TEXT_NAME_ZOHUR"
       },
       {
         "zType": "NAME_ZMORROD",
-        "zName": "Zmorrod"
+        "Name": "TEXT_NAME_ZMORROD"
       },
       {
         "zType": "NAME_ZYARA",
-        "zName": "Zyara"
+        "Name": "TEXT_NAME_ZYARA"
       },
       {
         "zType": "NAME_ZYABQOT",
-        "zName": "Zyabqot"
+        "Name": "TEXT_NAME_ZYABQOT"
       },
       {
         "zType": "NAME_AHMOSE",
-        "zName": "Ahmose"
+        "Name": "TEXT_NAME_AHMOSE"
       },
       {
         "zType": "NAME_AKHENATEN",
-        "zName": "Akhenaten"
+        "Name": "TEXT_NAME_AKHENATEN"
       },
       {
         "zType": "NAME_AMENEMHAT",
-        "zName": "Amenemhat"
+        "Name": "TEXT_NAME_AMENEMHAT"
       },
       {
         "zType": "NAME_AMENHOTEP",
-        "zName": "Amenhotep"
+        "Name": "TEXT_NAME_AMENHOTEP"
       },
       {
         "zType": "NAME_API",
-        "zName": "Api"
+        "Name": "TEXT_NAME_API"
       },
       {
         "zType": "NAME_BESIS",
-        "zName": "Besis"
+        "Name": "TEXT_NAME_BESIS"
       },
       {
         "zType": "NAME_DJEDEFRE",
-        "zName": "Djedefre"
+        "Name": "TEXT_NAME_DJEDEFRE"
       },
       {
         "zType": "NAME_DJOSER",
-        "zName": "Djoser"
+        "Name": "TEXT_NAME_DJOSER"
       },
       {
         "zType": "NAME_HORAPIS",
-        "zName": "Horapis"
+        "Name": "TEXT_NAME_HORAPIS"
       },
       {
         "zType": "NAME_HOREMHEB",
-        "zName": "Horemheb"
+        "Name": "TEXT_NAME_HOREMHEB"
       },
       {
         "zType": "NAME_INET",
-        "zName": "Inet"
+        "Name": "TEXT_NAME_INET"
       },
       {
         "zType": "NAME_KAMOSE",
-        "zName": "Kamose"
+        "Name": "TEXT_NAME_KAMOSE"
       },
       {
         "zType": "NAME_KHAFRE",
-        "zName": "Khafre"
+        "Name": "TEXT_NAME_KHAFRE"
       },
       {
         "zType": "NAME_KHUFU",
-        "zName": "Khufu"
+        "Name": "TEXT_NAME_KHUFU"
       },
       {
         "zType": "NAME_MENKAURE",
-        "zName": "Menkaure"
+        "Name": "TEXT_NAME_MENKAURE"
       },
       {
         "zType": "NAME_MENTUHOTEP",
-        "zName": "Mentuhotep"
+        "Name": "TEXT_NAME_MENTUHOTEP"
       },
       {
         "zType": "NAME_MERENPTAH",
-        "zName": "Merenptah"
+        "Name": "TEXT_NAME_MERENPTAH"
       },
       {
         "zType": "NAME_NARMER",
-        "zName": "Narmer"
+        "Name": "TEXT_NAME_NARMER"
       },
       {
         "zType": "NAME_NEFERKARE",
-        "zName": "Neferkare"
+        "Name": "TEXT_NAME_NEFERKARE"
       },
       {
         "zType": "NAME_PEPI",
-        "zName": "Pepi"
+        "Name": "TEXT_NAME_PEPI"
       },
       {
         "zType": "NAME_PSAMTIK",
-        "zName": "Psamtik"
+        "Name": "TEXT_NAME_PSAMTIK"
       },
       {
         "zType": "NAME_SENUSRET",
-        "zName": "Senusret"
+        "Name": "TEXT_NAME_SENUSRET"
       },
       {
         "zType": "NAME_SETI",
-        "zName": "Seti"
+        "Name": "TEXT_NAME_SETI"
       },
       {
         "zType": "NAME_THUTMOSE",
-        "zName": "Thutmose"
+        "Name": "TEXT_NAME_THUTMOSE"
       },
       {
         "zType": "NAME_TUTANKHAMUN",
-        "zName": "Tutankhamun"
+        "Name": "TEXT_NAME_TUTANKHAMUN"
       },
       {
         "zType": "NAME_WERHETEP",
-        "zName": "Werhetep"
+        "Name": "TEXT_NAME_WERHETEP"
       },
       {
         "zType": "NAME_ANKHESENAMUN",
-        "zName": "Ankhesenamun"
+        "Name": "TEXT_NAME_ANKHESENAMUN"
       },
       {
         "zType": "NAME_BERENIB",
-        "zName": "Berenib"
+        "Name": "TEXT_NAME_BERENIB"
       },
       {
         "zType": "NAME_ESENCHEBIS",
-        "zName": "Esenchebis"
+        "Name": "TEXT_NAME_ESENCHEBIS"
       },
       {
         "zType": "NAME_HATSHEPSUT",
-        "zName": "Hatshepsut"
+        "Name": "TEXT_NAME_HATSHEPSUT"
       },
       {
         "zType": "NAME_HETEPHERES",
-        "zName": "Hetepheres"
+        "Name": "TEXT_NAME_HETEPHERES"
       },
       {
         "zType": "NAME_IPUT",
-        "zName": "Iput"
+        "Name": "TEXT_NAME_IPUT"
       },
       {
         "zType": "NAME_ISIS",
-        "zName": "Isis"
+        "Name": "TEXT_NAME_ISIS"
       },
       {
         "zType": "NAME_KHENUT",
-        "zName": "Khenut"
+        "Name": "TEXT_NAME_KHENUT"
       },
       {
         "zType": "NAME_MEHAA",
-        "zName": "Mehaa"
+        "Name": "TEXT_NAME_MEHAA"
       },
       {
         "zType": "NAME_MERESANKH",
-        "zName": "Meresankh"
+        "Name": "TEXT_NAME_MERESANKH"
       },
       {
         "zType": "NAME_MERNIT",
-        "zName": "Mernit"
+        "Name": "TEXT_NAME_MERNIT"
       },
       {
         "zType": "NAME_NEBET",
-        "zName": "Nebet"
+        "Name": "TEXT_NAME_NEBET"
       },
       {
         "zType": "NAME_NEBWENET",
-        "zName": "Nebwenet"
+        "Name": "TEXT_NAME_NEBWENET"
       },
       {
         "zType": "NAME_NEFERTARI",
-        "zName": "Nefertari"
+        "Name": "TEXT_NAME_NEFERTARI"
       },
       {
         "zType": "NAME_NEFERTITI",
-        "zName": "Nefertiti"
+        "Name": "TEXT_NAME_NEFERTITI"
       },
       {
         "zType": "NAME_NEFERURE",
-        "zName": "Neferure"
+        "Name": "TEXT_NAME_NEFERURE"
       },
       {
         "zType": "NAME_NITIQRET",
-        "zName": "Nitiqret"
+        "Name": "TEXT_NAME_NITIQRET"
       },
       {
         "zType": "NAME_REKHETRE",
-        "zName": "Rekhetre"
+        "Name": "TEXT_NAME_REKHETRE"
       },
       {
         "zType": "NAME_SEBAT",
-        "zName": "Sebat"
+        "Name": "TEXT_NAME_SEBAT"
       },
       {
         "zType": "NAME_SEMAT",
-        "zName": "Semat"
+        "Name": "TEXT_NAME_SEMAT"
       },
       {
         "zType": "NAME_SENMINIS",
-        "zName": "Senminis"
+        "Name": "TEXT_NAME_SENMINIS"
       },
       {
         "zType": "NAME_SERETHOR",
-        "zName": "Serethor"
+        "Name": "TEXT_NAME_SERETHOR"
       },
       {
         "zType": "NAME_SOBEKNEFERU",
-        "zName": "Sobekneferu"
+        "Name": "TEXT_NAME_SOBEKNEFERU"
       },
       {
         "zType": "NAME_TETOBASTIS",
-        "zName": "Tetobastis"
+        "Name": "TEXT_NAME_TETOBASTIS"
       },
       {
         "zType": "NAME_TIYE",
-        "zName": "Tiye"
+        "Name": "TEXT_NAME_TIYE"
       },
       {
         "zType": "NAME_TWOSRET",
-        "zName": "Twosret"
+        "Name": "TEXT_NAME_TWOSRET"
       },
       {
         "zType": "NAME_UDJEBTEN",
-        "zName": "Udjebten"
+        "Name": "TEXT_NAME_UDJEBTEN"
       },
       {
         "zType": "NAME_AEACIDES",
-        "zName": "Aeacides"
+        "Name": "TEXT_NAME_AEACIDES"
       },
       {
         "zType": "NAME_AGIS",
-        "zName": "Agis"
+        "Name": "TEXT_NAME_AGIS"
       },
       {
         "zType": "NAME_ALCETAS",
-        "zName": "Alcetas"
+        "Name": "TEXT_NAME_ALCETAS"
       },
       {
         "zType": "NAME_ALCIBIADES",
-        "zName": "Alcibiades"
+        "Name": "TEXT_NAME_ALCIBIADES"
       },
       {
         "zType": "NAME_ALEXANDER",
-        "zName": "Alexander"
+        "Name": "TEXT_NAME_ALEXANDER"
       },
       {
         "zType": "NAME_ANTIGONUS",
-        "zName": "Antigonus"
+        "Name": "TEXT_NAME_ANTIGONUS"
       },
       {
         "zType": "NAME_ANTIOCHUS",
-        "zName": "Antiochus"
+        "Name": "TEXT_NAME_ANTIOCHUS"
       },
       {
         "zType": "NAME_ANTIPATER",
-        "zName": "Antipater"
+        "Name": "TEXT_NAME_ANTIPATER"
       },
       {
         "zType": "NAME_ARISTANDER",
-        "zName": "Aristander"
+        "Name": "TEXT_NAME_ARISTANDER"
       },
       {
         "zType": "NAME_ARYBBAS",
-        "zName": "Arybbas"
+        "Name": "TEXT_NAME_ARYBBAS"
       },
       {
         "zType": "NAME_ARYMBAS",
-        "zName": "Arymbas"
+        "Name": "TEXT_NAME_ARYMBAS"
       },
       {
         "zType": "NAME_ATTALUS",
-        "zName": "Attalus"
+        "Name": "TEXT_NAME_ATTALUS"
       },
       {
         "zType": "NAME_BALACRUS",
-        "zName": "Balacrus"
+        "Name": "TEXT_NAME_BALACRUS"
       },
       {
         "zType": "NAME_BARDYLIS",
-        "zName": "Bardylis"
+        "Name": "TEXT_NAME_BARDYLIS"
       },
       {
         "zType": "NAME_CASSANDER",
-        "zName": "Cassander"
+        "Name": "TEXT_NAME_CASSANDER"
       },
       {
         "zType": "NAME_CHRYSEIS",
-        "zName": "Chryseis"
+        "Name": "TEXT_NAME_CHRYSEIS"
       },
       {
         "zType": "NAME_CIMON",
-        "zName": "Cimon"
+        "Name": "TEXT_NAME_CIMON"
       },
       {
         "zType": "NAME_CLEISTHENES",
-        "zName": "Cleisthenes"
+        "Name": "TEXT_NAME_CLEISTHENES"
       },
       {
         "zType": "NAME_CLEITARCHUS",
-        "zName": "Cleitarchus"
+        "Name": "TEXT_NAME_CLEITARCHUS"
       },
       {
         "zType": "NAME_CLEOMENES",
-        "zName": "Cleomenes"
+        "Name": "TEXT_NAME_CLEOMENES"
       },
       {
         "zType": "NAME_CRATERUS",
-        "zName": "Craterus"
+        "Name": "TEXT_NAME_CRATERUS"
       },
       {
         "zType": "NAME_DERDAS",
-        "zName": "Derdas"
+        "Name": "TEXT_NAME_DERDAS"
       },
       {
         "zType": "NAME_DEMETRIUS",
-        "zName": "Demetrius"
+        "Name": "TEXT_NAME_DEMETRIUS"
       },
       {
         "zType": "NAME_DIODORUS",
-        "zName": "Diodorus"
+        "Name": "TEXT_NAME_DIODORUS"
       },
       {
         "zType": "NAME_HEPHAESTION",
-        "zName": "Hephaestion"
+        "Name": "TEXT_NAME_HEPHAESTION"
       },
       {
         "zType": "NAME_HIPPIAS",
-        "zName": "Hippias"
+        "Name": "TEXT_NAME_HIPPIAS"
       },
       {
         "zType": "NAME_HIPPOSTRATUS",
-        "zName": "Hippostratus"
+        "Name": "TEXT_NAME_HIPPOSTRATUS"
       },
       {
         "zType": "NAME_LEONIDAS",
-        "zName": "Leonidas"
+        "Name": "TEXT_NAME_LEONIDAS"
       },
       {
         "zType": "NAME_LEONNATUS",
-        "zName": "Leonnatus"
+        "Name": "TEXT_NAME_LEONNATUS"
       },
       {
         "zType": "NAME_LYSANDER",
-        "zName": "Lysander"
+        "Name": "TEXT_NAME_LYSANDER"
       },
       {
         "zType": "NAME_LYSIMACHUS",
-        "zName": "Lysimachus"
+        "Name": "TEXT_NAME_LYSIMACHUS"
       },
       {
         "zType": "NAME_MACHATAS",
-        "zName": "Machatas"
+        "Name": "TEXT_NAME_MACHATAS"
       },
       {
         "zType": "NAME_MELEAGER",
-        "zName": "Meleager"
+        "Name": "TEXT_NAME_MELEAGER"
       },
       {
         "zType": "NAME_MILTIADES",
-        "zName": "Miltiades"
+        "Name": "TEXT_NAME_MILTIADES"
       },
       {
         "zType": "NAME_NEOPTLEMUS",
-        "zName": "Neoptlemus"
+        "Name": "TEXT_NAME_NEOPTLEMUS"
       },
       {
         "zType": "NAME_NICIAS",
-        "zName": "Nicias"
+        "Name": "TEXT_NAME_NICIAS"
       },
       {
         "zType": "NAME_ORESTES",
-        "zName": "Orestes"
+        "Name": "TEXT_NAME_ORESTES"
       },
       {
         "zType": "NAME_PARMENIO",
-        "zName": "Parmenio"
+        "Name": "TEXT_NAME_PARMENIO"
       },
       {
         "zType": "NAME_PAUSANIAS",
-        "zName": "Pausanias"
+        "Name": "TEXT_NAME_PAUSANIAS"
       },
       {
         "zType": "NAME_PEITHON",
-        "zName": "Peithon"
+        "Name": "TEXT_NAME_PEITHON"
       },
       {
         "zType": "NAME_PELOPIDAS",
-        "zName": "Pelopidas"
+        "Name": "TEXT_NAME_PELOPIDAS"
       },
       {
         "zType": "NAME_PERDICCAS",
-        "zName": "Perdiccas"
+        "Name": "TEXT_NAME_PERDICCAS"
       },
       {
         "zType": "NAME_PERIANDER",
-        "zName": "Periander"
+        "Name": "TEXT_NAME_PERIANDER"
       },
       {
         "zType": "NAME_PERICLES",
-        "zName": "Pericles"
+        "Name": "TEXT_NAME_PERICLES"
       },
       {
         "zType": "NAME_PERSEUS",
-        "zName": "Perseus"
+        "Name": "TEXT_NAME_PERSEUS"
       },
       {
         "zType": "NAME_PHILOTAS",
-        "zName": "Philotas"
+        "Name": "TEXT_NAME_PHILOTAS"
       },
       {
         "zType": "NAME_POLYPERCHON",
-        "zName": "Polyperchon"
+        "Name": "TEXT_NAME_POLYPERCHON"
       },
       {
         "zType": "NAME_PHILIP",
-        "zName": "Philip"
+        "Name": "TEXT_NAME_PHILIP"
       },
       {
         "zType": "NAME_PYRRHUS",
-        "zName": "Pyrrhus"
+        "Name": "TEXT_NAME_PYRRHUS"
       },
       {
         "zType": "NAME_SELEUCUS",
-        "zName": "Seleucus"
+        "Name": "TEXT_NAME_SELEUCUS"
       },
       {
         "zType": "NAME_SOPOLIS",
-        "zName": "Sopolis"
+        "Name": "TEXT_NAME_SOPOLIS"
       },
       {
         "zType": "NAME_THEMISTOCLES",
-        "zName": "Themistocles"
+        "Name": "TEXT_NAME_THEMISTOCLES"
       },
       {
         "zType": "NAME_ANYTE",
-        "zName": "Anyte"
+        "Name": "TEXT_NAME_ANYTE"
       },
       {
         "zType": "NAME_ARCHIDAMIA",
-        "zName": "Archidamia"
+        "Name": "TEXT_NAME_ARCHIDAMIA"
       },
       {
         "zType": "NAME_ARETE",
-        "zName": "Arete"
+        "Name": "TEXT_NAME_ARETE"
       },
       {
         "zType": "NAME_ARSINOE",
-        "zName": "Arsinoe"
+        "Name": "TEXT_NAME_ARSINOE"
       },
       {
         "zType": "NAME_ARTEMISIA",
-        "zName": "Artemisia"
+        "Name": "TEXT_NAME_ARTEMISIA"
       },
       {
         "zType": "NAME_ASPASIA",
-        "zName": "Aspasia"
+        "Name": "TEXT_NAME_ASPASIA"
       },
       {
         "zType": "NAME_AUDATA",
-        "zName": "Audata"
+        "Name": "TEXT_NAME_AUDATA"
       },
       {
         "zType": "NAME_BERENICE",
-        "zName": "Berenice"
+        "Name": "TEXT_NAME_BERENICE"
       },
       {
         "zType": "NAME_BILISTICHE",
-        "zName": "Bilistiche"
+        "Name": "TEXT_NAME_BILISTICHE"
       },
       {
         "zType": "NAME_CHILONIS",
-        "zName": "Chilonis"
+        "Name": "TEXT_NAME_CHILONIS"
       },
       {
         "zType": "NAME_CYNANE",
-        "zName": "Cynane"
+        "Name": "TEXT_NAME_CYNANE"
       },
       {
         "zType": "NAME_DEIDAMIA",
-        "zName": "Deidamia"
+        "Name": "TEXT_NAME_DEIDAMIA"
       },
       {
         "zType": "NAME_DIONASSA",
-        "zName": "Dionassa"
+        "Name": "TEXT_NAME_DIONASSA"
       },
       {
         "zType": "NAME_DIOTIMA",
-        "zName": "Diotima"
+        "Name": "TEXT_NAME_DIOTIMA"
       },
       {
         "zType": "NAME_ERYXO",
-        "zName": "Eryxo"
+        "Name": "TEXT_NAME_ERYXO"
       },
       {
         "zType": "NAME_EURYDICE",
-        "zName": "Eurydice"
+        "Name": "TEXT_NAME_EURYDICE"
       },
       {
         "zType": "NAME_GORGO",
-        "zName": "Gorgo"
+        "Name": "TEXT_NAME_GORGO"
       },
       {
         "zType": "NAME_HIPPARCHIA",
-        "zName": "Hipparchia"
+        "Name": "TEXT_NAME_HIPPARCHIA"
       },
       {
         "zType": "NAME_HYDNA",
-        "zName": "Hydna"
+        "Name": "TEXT_NAME_HYDNA"
       },
       {
         "zType": "NAME_LAODICE",
-        "zName": "Laodice"
+        "Name": "TEXT_NAME_LAODICE"
       },
       {
         "zType": "NAME_LANASSA",
-        "zName": "Lanassa"
+        "Name": "TEXT_NAME_LANASSA"
       },
       {
         "zType": "NAME_LANIKE",
-        "zName": "Lanike"
+        "Name": "TEXT_NAME_LANIKE"
       },
       {
         "zType": "NAME_METRODORA",
-        "zName": "Metrodora"
+        "Name": "TEXT_NAME_METRODORA"
       },
       {
         "zType": "NAME_MORALIA",
-        "zName": "Moralia"
+        "Name": "TEXT_NAME_MORALIA"
       },
       {
         "zType": "NAME_MYRTALE",
-        "zName": "Myrtale"
+        "Name": "TEXT_NAME_MYRTALE"
       },
       {
         "zType": "NAME_NICAEA",
-        "zName": "Nicaea"
+        "Name": "TEXT_NAME_NICAEA"
       },
       {
         "zType": "NAME_NICASIPOLIS",
-        "zName": "Nicasipolis"
+        "Name": "TEXT_NAME_NICASIPOLIS"
       },
       {
         "zType": "NAME_OLYMPIAS",
-        "zName": "Olympias"
+        "Name": "TEXT_NAME_OLYMPIAS"
       },
       {
         "zType": "NAME_PHERETIMA",
-        "zName": "Pheretima"
+        "Name": "TEXT_NAME_PHERETIMA"
       },
       {
         "zType": "NAME_PHILA",
-        "zName": "Phila"
+        "Name": "TEXT_NAME_PHILA"
       },
       {
         "zType": "NAME_PHILINNA",
-        "zName": "Philinna"
+        "Name": "TEXT_NAME_PHILINNA"
       },
       {
         "zType": "NAME_PHTHIA",
-        "zName": "Phthia"
+        "Name": "TEXT_NAME_PHTHIA"
       },
       {
         "zType": "NAME_POLYCRATIA",
-        "zName": "Polycratia"
+        "Name": "TEXT_NAME_POLYCRATIA"
       },
       {
         "zType": "NAME_POLYXENA",
-        "zName": "Polyxena"
+        "Name": "TEXT_NAME_POLYXENA"
       },
       {
         "zType": "NAME_STRATONICE",
-        "zName": "Stratonice"
+        "Name": "TEXT_NAME_STRATONICE"
       },
       {
         "zType": "NAME_TELESILLA",
-        "zName": "Telesilla"
+        "Name": "TEXT_NAME_TELESILLA"
       },
       {
         "zType": "NAME_THEANO",
-        "zName": "Theano"
+        "Name": "TEXT_NAME_THEANO"
       },
       {
         "zType": "NAME_TIMAEA",
-        "zName": "Timaea"
+        "Name": "TEXT_NAME_TIMAEA"
       },
       {
         "zType": "NAME_XANTHIPPE",
-        "zName": "Xanthippe"
+        "Name": "TEXT_NAME_XANTHIPPE"
       },
       {
         "zType": "NAME_ARDASHIR",
-        "zName": "Ardashir"
+        "Name": "TEXT_NAME_ARDASHIR"
       },
       {
         "zType": "NAME_ARIASPES",
-        "zName": "Ariaspes"
+        "Name": "TEXT_NAME_ARIASPES"
       },
       {
         "zType": "NAME_ARTABANUS",
-        "zName": "Artabanus"
+        "Name": "TEXT_NAME_ARTABANUS"
       },
       {
         "zType": "NAME_ARTAXERXES",
-        "zName": "Artaxerxes"
+        "Name": "TEXT_NAME_ARTAXERXES"
       },
       {
         "zType": "NAME_ASTYAGES",
-        "zName": "Astyages"
+        "Name": "TEXT_NAME_ASTYAGES"
       },
       {
         "zType": "NAME_ARUKU",
-        "zName": "Aruku"
+        "Name": "TEXT_NAME_ARUKU"
       },
       {
         "zType": "NAME_BAHRAM",
-        "zName": "Bahram"
+        "Name": "TEXT_NAME_BAHRAM"
       },
       {
         "zType": "NAME_BARDIYA",
-        "zName": "Bardiya"
+        "Name": "TEXT_NAME_BARDIYA"
       },
       {
         "zType": "NAME_CAMBYSES",
-        "zName": "Cambyses"
+        "Name": "TEXT_NAME_CAMBYSES"
       },
       {
         "zType": "NAME_CYRUS",
-        "zName": "Cyrus"
+        "Name": "TEXT_NAME_CYRUS"
       },
       {
         "zType": "NAME_DARIUS",
-        "zName": "Darius"
+        "Name": "TEXT_NAME_DARIUS"
       },
       {
         "zType": "NAME_HARPAGUS",
-        "zName": "Harpagus"
+        "Name": "TEXT_NAME_HARPAGUS"
       },
       {
         "zType": "NAME_HORMIZD",
-        "zName": "Hormizd"
+        "Name": "TEXT_NAME_HORMIZD"
       },
       {
         "zType": "NAME_HYSTASPES",
-        "zName": "Hystaspes"
+        "Name": "TEXT_NAME_HYSTASPES"
       },
       {
         "zType": "NAME_KHOSRAU",
-        "zName": "Khosrau"
+        "Name": "TEXT_NAME_KHOSRAU"
       },
       {
         "zType": "NAME_MAZYAR",
-        "zName": "Mazyar"
+        "Name": "TEXT_NAME_MAZYAR"
       },
       {
         "zType": "NAME_MEGABAZUS",
-        "zName": "Megabazus"
+        "Name": "TEXT_NAME_MEGABAZUS"
       },
       {
         "zType": "NAME_MITHRIDATES",
-        "zName": "Mithridates"
+        "Name": "TEXT_NAME_MITHRIDATES"
       },
       {
         "zType": "NAME_ORODES",
-        "zName": "Orodes"
+        "Name": "TEXT_NAME_ORODES"
       },
       {
         "zType": "NAME_OXATHRES",
-        "zName": "Oxathres"
+        "Name": "TEXT_NAME_OXATHRES"
       },
       {
         "zType": "NAME_PHARNASPES",
-        "zName": "Pharnaspes"
+        "Name": "TEXT_NAME_PHARNASPES"
       },
       {
         "zType": "NAME_PHRAATES",
-        "zName": "Phraates"
+        "Name": "TEXT_NAME_PHRAATES"
       },
       {
         "zType": "NAME_SHAPUR",
-        "zName": "Shapur"
+        "Name": "TEXT_NAME_SHAPUR"
       },
       {
         "zType": "NAME_SMERDIS",
-        "zName": "Smerdis"
+        "Name": "TEXT_NAME_SMERDIS"
       },
       {
         "zType": "NAME_SUKHRA",
-        "zName": "Sukhra"
+        "Name": "TEXT_NAME_SUKHRA"
       },
       {
         "zType": "NAME_TEISPES",
-        "zName": "Teispes"
+        "Name": "TEXT_NAME_TEISPES"
       },
       {
         "zType": "NAME_TIRIDATES",
-        "zName": "Tiridates"
+        "Name": "TEXT_NAME_TIRIDATES"
       },
       {
         "zType": "NAME_VOLOGASES",
-        "zName": "Vologases"
+        "Name": "TEXT_NAME_VOLOGASES"
       },
       {
         "zType": "NAME_XERXES",
-        "zName": "Xerxes"
+        "Name": "TEXT_NAME_XERXES"
       },
       {
         "zType": "NAME_YAZDEGERD",
-        "zName": "Yazdegerd"
+        "Name": "TEXT_NAME_YAZDEGERD"
       },
       {
         "zType": "NAME_AMESTRIS",
-        "zName": "Amestris"
+        "Name": "TEXT_NAME_AMESTRIS"
       },
       {
         "zType": "NAME_AMYTIS",
-        "zName": "Amytis"
+        "Name": "TEXT_NAME_AMYTIS"
+      },
+      {
+        "zType": "NAME_KASHSHAYA",
+        "Name": "TEXT_NAME_KASHSHAYA"
       },
       {
         "zType": "NAME_APAMA",
-        "zName": "Apama"
+        "Name": "TEXT_NAME_APAMA"
       },
       {
         "zType": "NAME_ARTAKAMA",
-        "zName": "Artakama"
+        "Name": "TEXT_NAME_ARTAKAMA"
       },
       {
         "zType": "NAME_ARTAZOSTRE",
-        "zName": "Artazostre"
+        "Name": "TEXT_NAME_ARTAZOSTRE"
       },
       {
         "zType": "NAME_ARTYSTONE",
-        "zName": "Artystone"
+        "Name": "TEXT_NAME_ARTYSTONE"
       },
       {
         "zType": "NAME_ASTAR",
-        "zName": "Astar"
+        "Name": "TEXT_NAME_ASTAR"
       },
       {
         "zType": "NAME_AZARMIDOKHT",
-        "zName": "Azarmidokht"
+        "Name": "TEXT_NAME_AZARMIDOKHT"
       },
       {
         "zType": "NAME_BARSINE",
-        "zName": "Barsine"
+        "Name": "TEXT_NAME_BARSINE"
       },
       {
         "zType": "NAME_BORAN",
-        "zName": "Boran"
+        "Name": "TEXT_NAME_BORAN"
       },
       {
         "zType": "NAME_CASSANDANE",
-        "zName": "Cassandane"
+        "Name": "TEXT_NAME_CASSANDANE"
       },
       {
         "zType": "NAME_GORDIYA",
-        "zName": "Gordiya"
+        "Name": "TEXT_NAME_GORDIYA"
       },
       {
         "zType": "NAME_GURDZAD",
-        "zName": "Gurdzad"
+        "Name": "TEXT_NAME_GURDZAD"
       },
       {
         "zType": "NAME_IFRA",
-        "zName": "Ifra"
+        "Name": "TEXT_NAME_IFRA"
       },
       {
         "zType": "NAME_IRDABAMA",
-        "zName": "Irdabama"
+        "Name": "TEXT_NAME_IRDABAMA"
       },
       {
         "zType": "NAME_KHURANZIM",
-        "zName": "Khuranzim"
+        "Name": "TEXT_NAME_KHURANZIM"
       },
       {
         "zType": "NAME_MANDANA",
-        "zName": "Mandana"
+        "Name": "TEXT_NAME_MANDANA"
       },
       {
         "zType": "NAME_MYROD",
-        "zName": "Myrod"
+        "Name": "TEXT_NAME_MYROD"
       },
       {
         "zType": "NAME_PARMIDA",
-        "zName": "Parmida"
+        "Name": "TEXT_NAME_PARMIDA"
       },
       {
         "zType": "NAME_PARMYS",
-        "zName": "Parmys"
+        "Name": "TEXT_NAME_PARMYS"
       },
       {
         "zType": "NAME_PARYSATIS",
-        "zName": "Parysatis"
+        "Name": "TEXT_NAME_PARYSATIS"
       },
       {
         "zType": "NAME_ROXANA",
-        "zName": "Roxana"
+        "Name": "TEXT_NAME_ROXANA"
       },
       {
         "zType": "NAME_SHIRIN",
-        "zName": "Shirin"
+        "Name": "TEXT_NAME_SHIRIN"
       },
       {
         "zType": "NAME_STATEIRA",
-        "zName": "Stateira"
+        "Name": "TEXT_NAME_STATEIRA"
       },
       {
         "zType": "NAME_SURA",
-        "zName": "Sura"
+        "Name": "TEXT_NAME_SURA"
       },
       {
         "zType": "NAME_ZAND",
-        "zName": "Zand"
+        "Name": "TEXT_NAME_ZAND"
       },
       {
         "zType": "NAME_ZURVANDOKHT",
-        "zName": "Zurvandokht"
+        "Name": "TEXT_NAME_ZURVANDOKHT"
       },
       {
         "zType": "NAME_APPIUS",
-        "zName": "Appius"
+        "Name": "TEXT_NAME_APPIUS"
       },
       {
         "zType": "NAME_AULUS",
-        "zName": "Aulus"
+        "Name": "TEXT_NAME_AULUS"
       },
       {
         "zType": "NAME_BRUTUS",
-        "zName": "Brutus"
+        "Name": "TEXT_NAME_BRUTUS"
       },
       {
         "zType": "NAME_VAULTING",
-        "zName": "Cassius"
+        "Name": "TEXT_NAME_VAULTING"
       },
       {
         "zType": "NAME_DECIMUS",
-        "zName": "Decimus"
+        "Name": "TEXT_NAME_DECIMUS"
       },
       {
         "zType": "NAME_FAUSTUS",
-        "zName": "Faustus"
+        "Name": "TEXT_NAME_FAUSTUS"
       },
       {
         "zType": "NAME_GAIUS",
-        "zName": "Gaius"
+        "Name": "TEXT_NAME_GAIUS"
       },
       {
         "zType": "NAME_GNAEUS",
-        "zName": "Gnaeus"
+        "Name": "TEXT_NAME_GNAEUS"
       },
       {
         "zType": "NAME_HOSTUS",
-        "zName": "Hostus"
+        "Name": "TEXT_NAME_HOSTUS"
       },
       {
         "zType": "NAME_KAESO",
-        "zName": "Kaeso"
+        "Name": "TEXT_NAME_KAESO"
       },
       {
         "zType": "NAME_LUCIUS",
-        "zName": "Lucius"
+        "Name": "TEXT_NAME_LUCIUS"
       },
       {
         "zType": "NAME_MAMERCUS",
-        "zName": "Mamercus"
+        "Name": "TEXT_NAME_MAMERCUS"
       },
       {
         "zType": "NAME_MANIUS",
-        "zName": "Manius"
+        "Name": "TEXT_NAME_MANIUS"
       },
       {
         "zType": "NAME_MARCUS",
-        "zName": "Marcus"
+        "Name": "TEXT_NAME_MARCUS"
       },
       {
         "zType": "NAME_NONUS",
-        "zName": "Nonus"
+        "Name": "TEXT_NAME_NONUS"
       },
       {
         "zType": "NAME_NUMERIUS",
-        "zName": "Numerius"
+        "Name": "TEXT_NAME_NUMERIUS"
       },
       {
         "zType": "NAME_OCTAVIUS",
-        "zName": "Octavius"
+        "Name": "TEXT_NAME_OCTAVIUS"
       },
       {
         "zType": "NAME_POSTUMUS",
-        "zName": "Postumus"
+        "Name": "TEXT_NAME_POSTUMUS"
       },
       {
         "zType": "NAME_PUBLIUS",
-        "zName": "Publius"
+        "Name": "TEXT_NAME_PUBLIUS"
       },
       {
         "zType": "NAME_QUINTUS",
-        "zName": "Quintus"
+        "Name": "TEXT_NAME_QUINTUS"
       },
       {
         "zType": "NAME_REMUS",
-        "zName": "Remus"
+        "Name": "TEXT_NAME_REMUS"
       },
       {
         "zType": "NAME_ROMULUS",
-        "zName": "Romulus"
+        "Name": "TEXT_NAME_ROMULUS"
       },
       {
         "zType": "NAME_SERVIUS",
-        "zName": "Servius"
+        "Name": "TEXT_NAME_SERVIUS"
       },
       {
         "zType": "NAME_SEXTUS",
-        "zName": "Sextus"
+        "Name": "TEXT_NAME_SEXTUS"
       },
       {
         "zType": "NAME_SPURIUS",
-        "zName": "Spurius"
+        "Name": "TEXT_NAME_SPURIUS"
       },
       {
         "zType": "NAME_STATIUS",
-        "zName": "Statius"
+        "Name": "TEXT_NAME_STATIUS"
       },
       {
         "zType": "NAME_TIBERIUS",
-        "zName": "Tiberius"
+        "Name": "TEXT_NAME_TIBERIUS"
       },
       {
         "zType": "NAME_TITUS",
-        "zName": "Titus"
+        "Name": "TEXT_NAME_TITUS"
       },
       {
         "zType": "NAME_VIBIUS",
-        "zName": "Vibius"
+        "Name": "TEXT_NAME_VIBIUS"
       },
       {
         "zType": "NAME_AEMILIA",
-        "zName": "Aemilia"
+        "Name": "TEXT_NAME_AEMILIA"
       },
       {
         "zType": "NAME_AGRIPPINA",
-        "zName": "Agrippina"
+        "Name": "TEXT_NAME_AGRIPPINA"
       },
       {
         "zType": "NAME_ANTONIA",
-        "zName": "Antonia"
+        "Name": "TEXT_NAME_ANTONIA"
       },
       {
         "zType": "NAME_ATIA",
-        "zName": "Atia"
+        "Name": "TEXT_NAME_ATIA"
       },
       {
         "zType": "NAME_AURELIA",
-        "zName": "Aurelia"
+        "Name": "TEXT_NAME_AURELIA"
       },
       {
         "zType": "NAME_CALPURNIA",
-        "zName": "Calpurnia"
+        "Name": "TEXT_NAME_CALPURNIA"
       },
       {
         "zType": "NAME_CAMILLA",
-        "zName": "Camilla"
+        "Name": "TEXT_NAME_CAMILLA"
       },
       {
         "zType": "NAME_CLODIA",
-        "zName": "Clodia"
+        "Name": "TEXT_NAME_CLODIA"
       },
       {
         "zType": "NAME_CORNELIA",
-        "zName": "Cornelia"
+        "Name": "TEXT_NAME_CORNELIA"
       },
       {
         "zType": "NAME_DOMITIA",
-        "zName": "Domitia"
+        "Name": "TEXT_NAME_DOMITIA"
       },
       {
         "zType": "NAME_DRUSILLA",
-        "zName": "Drusilla"
+        "Name": "TEXT_NAME_DRUSILLA"
       },
       {
         "zType": "NAME_DRYPETIS",
-        "zName": "Drypetis"
+        "Name": "TEXT_NAME_DRYPETIS"
       },
       {
         "zType": "NAME_FULVIA",
-        "zName": "Fulvia"
+        "Name": "TEXT_NAME_FULVIA"
       },
       {
         "zType": "NAME_HORTENSIA",
-        "zName": "Hortensia"
+        "Name": "TEXT_NAME_HORTENSIA"
       },
       {
         "zType": "NAME_ILIA",
-        "zName": "Ilia"
+        "Name": "TEXT_NAME_ILIA"
       },
       {
         "zType": "NAME_LIVIA",
-        "zName": "Livia"
+        "Name": "TEXT_NAME_LIVIA"
       },
       {
         "zType": "NAME_LUCILLA",
-        "zName": "Lucilla"
+        "Name": "TEXT_NAME_LUCILLA"
       },
       {
         "zType": "NAME_MARCIA",
-        "zName": "Marcia"
+        "Name": "TEXT_NAME_MARCIA"
       },
       {
         "zType": "NAME_PLAUTIA",
-        "zName": "Plautia"
+        "Name": "TEXT_NAME_PLAUTIA"
       },
       {
         "zType": "NAME_POMPEIA",
-        "zName": "Pompeia"
+        "Name": "TEXT_NAME_POMPEIA"
       },
       {
         "zType": "NAME_PORCIA",
-        "zName": "Porcia"
+        "Name": "TEXT_NAME_PORCIA"
       },
       {
         "zType": "NAME_RHEA",
-        "zName": "Rhea"
+        "Name": "TEXT_NAME_RHEA"
       },
       {
         "zType": "NAME_SCRIBONIA",
-        "zName": "Scribonia"
+        "Name": "TEXT_NAME_SCRIBONIA"
       },
       {
         "zType": "NAME_SEMPRONIA",
-        "zName": "Sempronia"
+        "Name": "TEXT_NAME_SEMPRONIA"
       },
       {
         "zType": "NAME_SERVILIA",
-        "zName": "Servilia"
+        "Name": "TEXT_NAME_SERVILIA"
       },
       {
         "zType": "NAME_SULPICIA",
-        "zName": "Sulpicia"
+        "Name": "TEXT_NAME_SULPICIA"
       },
       {
         "zType": "NAME_TULLIA",
-        "zName": "Tullia"
+        "Name": "TEXT_NAME_TULLIA"
       },
       {
         "zType": "NAME_VIPSANIA",
-        "zName": "Vipsania"
+        "Name": "TEXT_NAME_VIPSANIA"
       },
       {
         "zType": "NAME_ACCO",
-        "zName": "Acco"
+        "Name": "TEXT_NAME_ACCO"
       },
       {
         "zType": "NAME_AMBIORIX",
-        "zName": "Ambiorix"
+        "Name": "TEXT_NAME_AMBIORIX"
       },
       {
         "zType": "NAME_ATIS",
-        "zName": "Atis"
+        "Name": "TEXT_NAME_ATIS"
       },
       {
         "zType": "NAME_BITUITIS",
-        "zName": "Bituitis"
+        "Name": "TEXT_NAME_BITUITIS"
       },
       {
         "zType": "NAME_CAMULOGENOS",
-        "zName": "Camulogenos"
+        "Name": "TEXT_NAME_CAMULOGENOS"
       },
       {
         "zType": "NAME_CASTICOS",
-        "zName": "Casticos"
+        "Name": "TEXT_NAME_CASTICOS"
       },
       {
         "zType": "NAME_CAVARINOS",
-        "zName": "Cavarinos"
+        "Name": "TEXT_NAME_CAVARINOS"
       },
       {
         "zType": "NAME_COMMIOS",
-        "zName": "Commios"
+        "Name": "TEXT_NAME_COMMIOS"
       },
       {
         "zType": "NAME_DIVICO",
-        "zName": "Divico"
+        "Name": "TEXT_NAME_DIVICO"
       },
       {
         "zType": "NAME_DIVITIACOS",
-        "zName": "Divitiacos"
+        "Name": "TEXT_NAME_DIVITIACOS"
       },
       {
         "zType": "NAME_DUMNORIX",
-        "zName": "Dumnorix"
+        "Name": "TEXT_NAME_DUMNORIX"
       },
       {
         "zType": "NAME_DURATIOS",
-        "zName": "Duratios"
+        "Name": "TEXT_NAME_DURATIOS"
       },
       {
         "zType": "NAME_GAESORIX",
-        "zName": "Gaesorix"
+        "Name": "TEXT_NAME_GAESORIX"
       },
       {
         "zType": "NAME_GALATOS",
-        "zName": "Galatos"
+        "Name": "TEXT_NAME_GALATOS"
       },
       {
         "zType": "NAME_LICNOS",
-        "zName": "Licnos"
+        "Name": "TEXT_NAME_LICNOS"
       },
       {
         "zType": "NAME_RIGATIKOS",
-        "zName": "Rigaticos"
+        "Name": "TEXT_NAME_RIGATIKOS"
       },
       {
         "zType": "NAME_TOGODUMNOS",
-        "zName": "Togodumnos"
+        "Name": "TEXT_NAME_TOGODUMNOS"
       },
       {
         "zType": "NAME_VECTITOS",
-        "zName": "Vectitos"
+        "Name": "TEXT_NAME_VECTITOS"
       },
       {
         "zType": "NAME_VINDIACOS",
-        "zName": "Vindiacos"
+        "Name": "TEXT_NAME_VINDIACOS"
       },
       {
         "zType": "NAME_VIRIDOMAROS",
-        "zName": "Viridomaros"
+        "Name": "TEXT_NAME_VIRIDOMAROS"
       },
       {
         "zType": "NAME_ABESIA",
-        "zName": "Abesia"
+        "Name": "TEXT_NAME_ABESIA"
       },
       {
         "zType": "NAME_ADIEGA",
-        "zName": "Adiega"
+        "Name": "TEXT_NAME_ADIEGA"
       },
       {
         "zType": "NAME_AIA",
-        "zName": "Aia"
+        "Name": "TEXT_NAME_AIA"
       },
       {
         "zType": "NAME_ATEGNATA",
-        "zName": "Ategnata"
+        "Name": "TEXT_NAME_ATEGNATA"
       },
       {
         "zType": "NAME_BANONA",
-        "zName": "Banona"
+        "Name": "TEXT_NAME_BANONA"
       },
       {
         "zType": "NAME_BOUDILATIS",
-        "zName": "Boudilatis"
+        "Name": "TEXT_NAME_BOUDILATIS"
       },
       {
         "zType": "NAME_CELA",
-        "zName": "Cela"
+        "Name": "TEXT_NAME_CELA"
       },
       {
         "zType": "NAME_DUGIAVA",
-        "zName": "Dugiava"
+        "Name": "TEXT_NAME_DUGIAVA"
       },
       {
         "zType": "NAME_ESKENGA",
-        "zName": "Eskenga"
+        "Name": "TEXT_NAME_ESKENGA"
       },
       {
         "zType": "NAME_EPONINA",
-        "zName": "Eponina"
+        "Name": "TEXT_NAME_EPONINA"
       },
       {
         "zType": "NAME_LUPALA",
-        "zName": "Lupala"
+        "Name": "TEXT_NAME_LUPALA"
       },
       {
         "zType": "NAME_OBALDA",
-        "zName": "Obalda"
+        "Name": "TEXT_NAME_OBALDA"
       },
       {
         "zType": "NAME_PAULLA",
-        "zName": "Paulla"
+        "Name": "TEXT_NAME_PAULLA"
       },
       {
         "zType": "NAME_POTITA",
-        "zName": "Potita"
+        "Name": "TEXT_NAME_POTITA"
       },
       {
         "zType": "NAME_RUFENA",
-        "zName": "Rufena"
+        "Name": "TEXT_NAME_RUFENA"
       },
       {
         "zType": "NAME_STAIA",
-        "zName": "Staia"
+        "Name": "TEXT_NAME_STAIA"
       },
       {
         "zType": "NAME_TOCCA",
-        "zName": "Tocca"
+        "Name": "TEXT_NAME_TOCCA"
       },
       {
         "zType": "NAME_USTA",
-        "zName": "Usta"
+        "Name": "TEXT_NAME_USTA"
       },
       {
         "zType": "NAME_VENITOUTA",
-        "zName": "Venitouta"
+        "Name": "TEXT_NAME_VENITOUTA"
       },
       {
         "zType": "NAME_VLATUCA",
-        "zName": "Vlatuca"
+        "Name": "TEXT_NAME_VLATUCA"
       },
       {
         "zType": "NAME_ARIFRIDOS",
-        "zName": "Arifridos"
+        "Name": "TEXT_NAME_ARIFRIDOS"
       },
       {
         "zType": "NAME_FREDIBAL",
-        "zName": "Fredibal"
+        "Name": "TEXT_NAME_FREDIBAL"
       },
       {
         "zType": "NAME_FRIDAMAL",
-        "zName": "Fridamal"
+        "Name": "TEXT_NAME_FRIDAMAL"
       },
       {
         "zType": "NAME_GAISERIC",
-        "zName": "Gaiseric"
+        "Name": "TEXT_NAME_GAISERIC"
       },
       {
         "zType": "NAME_GELIMER",
-        "zName": "Gelimer"
+        "Name": "TEXT_NAME_GELIMER"
       },
       {
         "zType": "NAME_GENTO",
-        "zName": "Gento"
+        "Name": "TEXT_NAME_GENTO"
       },
       {
         "zType": "NAME_GIBAMUND",
-        "zName": "Gibamund"
+        "Name": "TEXT_NAME_GIBAMUND"
       },
       {
         "zType": "NAME_GAMUTH",
-        "zName": "Gamuth"
+        "Name": "TEXT_NAME_GAMUTH"
       },
       {
         "zType": "NAME_GODEGISEL",
-        "zName": "Godegisel"
+        "Name": "TEXT_NAME_GODEGISEL"
       },
       {
         "zType": "NAME_GUNDERIC",
-        "zName": "Gunderic"
+        "Name": "TEXT_NAME_GUNDERIC"
       },
       {
         "zType": "NAME_GUNTHAMUND",
-        "zName": "Gunthamund"
+        "Name": "TEXT_NAME_GUNTHAMUND"
       },
       {
         "zType": "NAME_HILDERIC",
-        "zName": "Hilderic"
+        "Name": "TEXT_NAME_HILDERIC"
       },
       {
         "zType": "NAME_HUNERIC",
-        "zName": "Huneric"
+        "Name": "TEXT_NAME_HUNERIC"
       },
       {
         "zType": "NAME_SCARILA",
-        "zName": "Scarila"
+        "Name": "TEXT_NAME_SCARILA"
       },
       {
         "zType": "NAME_SINDIVULT",
-        "zName": "Sindivult"
+        "Name": "TEXT_NAME_SINDIVULT"
       },
       {
         "zType": "NAME_STILICHO",
-        "zName": "Stilicho"
+        "Name": "TEXT_NAME_STILICHO"
       },
       {
         "zType": "NAME_THRASAMUND",
-        "zName": "Thrasamund"
+        "Name": "TEXT_NAME_THRASAMUND"
       },
       {
         "zType": "NAME_VILIMUT",
-        "zName": "Vilimut"
+        "Name": "TEXT_NAME_VILIMUT"
       },
       {
         "zType": "NAME_VITARIT",
-        "zName": "Vitarit"
+        "Name": "TEXT_NAME_VITARIT"
       },
       {
         "zType": "NAME_VISIMAR",
-        "zName": "Visimar"
+        "Name": "TEXT_NAME_VISIMAR"
       },
       {
         "zType": "NAME_AMALAFRIDA",
-        "zName": "Amalafrida"
+        "Name": "TEXT_NAME_AMALAFRIDA"
       },
       {
         "zType": "NAME_BEREMUDA",
-        "zName": "Beremuda"
+        "Name": "TEXT_NAME_BEREMUDA"
       },
       {
         "zType": "NAME_BRUNHILDA",
-        "zName": "Brunhilda"
+        "Name": "TEXT_NAME_BRUNHILDA"
       },
       {
         "zType": "NAME_EGILONA",
-        "zName": "Egilona"
+        "Name": "TEXT_NAME_EGILONA"
       },
       {
         "zType": "NAME_ERELEUVA",
-        "zName": "Ereleuva"
+        "Name": "TEXT_NAME_ERELEUVA"
       },
       {
         "zType": "NAME_ERMENGON",
-        "zName": "Ermengon"
+        "Name": "TEXT_NAME_ERMENGON"
       },
       {
         "zType": "NAME_GALSUINTHA",
-        "zName": "Galsuintha"
+        "Name": "TEXT_NAME_GALSUINTHA"
       },
       {
         "zType": "NAME_GAMBARA",
-        "zName": "Gambara"
+        "Name": "TEXT_NAME_GAMBARA"
       },
       {
         "zType": "NAME_GLISMODA",
-        "zName": "Glismoda"
+        "Name": "TEXT_NAME_GLISMODA"
       },
       {
         "zType": "NAME_GUDELIVA",
-        "zName": "Gudeliva"
+        "Name": "TEXT_NAME_GUDELIVA"
       },
       {
         "zType": "NAME_GUILIARUNA",
-        "zName": "Guiliaruna"
+        "Name": "TEXT_NAME_GUILIARUNA"
       },
       {
         "zType": "NAME_GUITIFRIDA",
-        "zName": "Guitifrida"
+        "Name": "TEXT_NAME_GUITIFRIDA"
       },
       {
         "zType": "NAME_GUNIFRIDA",
-        "zName": "Gunifrida"
+        "Name": "TEXT_NAME_GUNIFRIDA"
       },
       {
         "zType": "NAME_HELDICA",
-        "zName": "Heldica"
+        "Name": "TEXT_NAME_HELDICA"
       },
       {
         "zType": "NAME_MATASUNTHA",
-        "zName": "Matasuntha"
+        "Name": "TEXT_NAME_MATASUNTHA"
       },
       {
         "zType": "NAME_RAGNAGILD",
-        "zName": "Ragnagild"
+        "Name": "TEXT_NAME_RAGNAGILD"
       },
       {
         "zType": "NAME_SUNILDA",
-        "zName": "Sunilda"
+        "Name": "TEXT_NAME_SUNILDA"
       },
       {
         "zType": "NAME_TEUCHARIA",
-        "zName": "Teucharia"
+        "Name": "TEXT_NAME_TEUCHARIA"
       },
       {
         "zType": "NAME_VALILU",
-        "zName": "Valilu"
+        "Name": "TEXT_NAME_VALILU"
       },
       {
         "zType": "NAME_WELLA",
-        "zName": "Wella"
+        "Name": "TEXT_NAME_WELLA"
       },
       {
         "zType": "NAME_AMLETH",
-        "zName": "Amleth"
+        "Name": "TEXT_NAME_AMLETH"
       },
       {
         "zType": "NAME_BJARKE",
-        "zName": "Bjarke"
+        "Name": "TEXT_NAME_BJARKE"
       },
       {
         "zType": "NAME_CANUTE",
-        "zName": "Canute"
+        "Name": "TEXT_NAME_CANUTE"
       },
       {
         "zType": "NAME_FENG",
-        "zName": "Feng"
+        "Name": "TEXT_NAME_FENG"
       },
       {
         "zType": "NAME_FRODE",
-        "zName": "Frode"
+        "Name": "TEXT_NAME_FRODE"
       },
       {
         "zType": "NAME_GORM",
-        "zName": "Gorm"
+        "Name": "TEXT_NAME_GORM"
       },
       {
         "zType": "NAME_HADDING",
-        "zName": "Hadding"
+        "Name": "TEXT_NAME_HADDING"
       },
       {
         "zType": "NAME_HALFDAN",
-        "zName": "Halfdan"
+        "Name": "TEXT_NAME_HALFDAN"
       },
       {
         "zType": "NAME_HARALD",
-        "zName": "Harald"
+        "Name": "TEXT_NAME_HARALD"
       },
       {
         "zType": "NAME_HARTHACANUTE",
-        "zName": "Harthacanute"
+        "Name": "TEXT_NAME_HARTHACANUTE"
       },
       {
         "zType": "NAME_HAVELOK",
-        "zName": "Havelok"
+        "Name": "TEXT_NAME_HAVELOK"
       },
       {
         "zType": "NAME_HEMMING",
-        "zName": "Hemming"
+        "Name": "TEXT_NAME_HEMMING"
       },
       {
         "zType": "NAME_HJALTE",
-        "zName": "Hjalte"
+        "Name": "TEXT_NAME_HJALTE"
       },
       {
         "zType": "NAME_HROTHGAR",
-        "zName": "Hrothgar"
+        "Name": "TEXT_NAME_HROTHGAR"
       },
       {
         "zType": "NAME_IVAR",
-        "zName": "Ivar"
+        "Name": "TEXT_NAME_IVAR"
       },
       {
         "zType": "NAME_MAGNUS",
-        "zName": "Magnus"
+        "Name": "TEXT_NAME_MAGNUS"
       },
       {
         "zType": "NAME_ROLF",
-        "zName": "Rolf"
+        "Name": "TEXT_NAME_ROLF"
       },
       {
         "zType": "NAME_RORIK",
-        "zName": "Rorik"
+        "Name": "TEXT_NAME_RORIK"
       },
       {
         "zType": "NAME_SOREN",
-        "zName": "Soren"
+        "Name": "TEXT_NAME_SOREN"
       },
       {
         "zType": "NAME_SWEYN",
-        "zName": "Sweyn"
+        "Name": "TEXT_NAME_SWEYN"
       },
       {
         "zType": "NAME_VALDEMAR",
-        "zName": "Valdemar"
+        "Name": "TEXT_NAME_VALDEMAR"
       },
       {
         "zType": "NAME_ALFHILD",
-        "zName": "Alfhild"
+        "Name": "TEXT_NAME_ALFHILD"
       },
       {
         "zType": "NAME_ASA",
-        "zName": "Asa"
+        "Name": "TEXT_NAME_ASA"
       },
       {
         "zType": "NAME_FROGERTHA",
-        "zName": "Frogertha"
+        "Name": "TEXT_NAME_FROGERTHA"
       },
       {
         "zType": "NAME_GROA",
-        "zName": "Groa"
+        "Name": "TEXT_NAME_GROA"
       },
       {
         "zType": "NAME_GUNNHILD",
-        "zName": "Gunnhild"
+        "Name": "TEXT_NAME_GUNNHILD"
       },
       {
         "zType": "NAME_GURUTHA",
-        "zName": "Gurutha"
+        "Name": "TEXT_NAME_GURUTHA"
       },
       {
         "zType": "NAME_HELGA",
-        "zName": "Helga"
+        "Name": "TEXT_NAME_HELGA"
       },
       {
         "zType": "NAME_HERMUTRUDE",
-        "zName": "Hermutrude"
+        "Name": "TEXT_NAME_HERMUTRUDE"
       },
       {
         "zType": "NAME_HETHA",
-        "zName": "Hetha"
+        "Name": "TEXT_NAME_HETHA"
       },
       {
         "zType": "NAME_KRAKA",
-        "zName": "Kraka"
+        "Name": "TEXT_NAME_KRAKA"
       },
       {
         "zType": "NAME_RUSILA",
-        "zName": "Rusila"
+        "Name": "TEXT_NAME_RUSILA"
       },
       {
         "zType": "NAME_RUTE",
-        "zName": "Rute"
+        "Name": "TEXT_NAME_RUTE"
       },
       {
         "zType": "NAME_SELA",
-        "zName": "Sela"
+        "Name": "TEXT_NAME_SELA"
       },
       {
         "zType": "NAME_SIGNE",
-        "zName": "Signe"
+        "Name": "TEXT_NAME_SIGNE"
       },
       {
         "zType": "NAME_SIGRID",
-        "zName": "Sigrid"
+        "Name": "TEXT_NAME_SIGRID"
       },
       {
         "zType": "NAME_SKULDE",
-        "zName": "Skulde"
+        "Name": "TEXT_NAME_SKULDE"
       },
       {
         "zType": "NAME_THORA",
-        "zName": "Thora"
+        "Name": "TEXT_NAME_THORA"
       },
       {
         "zType": "NAME_URSE",
-        "zName": "Urse"
+        "Name": "TEXT_NAME_URSE"
       },
       {
         "zType": "NAME_WEBIORG",
-        "zName": "Webiorg"
+        "Name": "TEXT_NAME_WEBIORG"
       },
       {
         "zType": "NAME_WISNA",
-        "zName": "Wisna"
+        "Name": "TEXT_NAME_WISNA"
       },
       {
         "zType": "NAME_ABRUPOLIS",
-        "zName": "Abrupolis"
+        "Name": "TEXT_NAME_ABRUPOLIS"
       },
       {
         "zType": "NAME_AMADOCUS",
-        "zName": "Amadocus"
+        "Name": "TEXT_NAME_AMADOCUS"
       },
       {
         "zType": "NAME_BERISADES",
-        "zName": "Berisades"
+        "Name": "TEXT_NAME_BERISADES"
       },
       {
         "zType": "NAME_CERSOBLEPTES",
-        "zName": "Cersobleptes"
+        "Name": "TEXT_NAME_CERSOBLEPTES"
       },
       {
         "zType": "NAME_COSINGAS",
-        "zName": "Cosingas"
+        "Name": "TEXT_NAME_COSINGAS"
       },
       {
         "zType": "NAME_COTYS",
-        "zName": "Cotys"
+        "Name": "TEXT_NAME_COTYS"
       },
       {
         "zType": "NAME_GETAS",
-        "zName": "Getas"
+        "Name": "TEXT_NAME_GETAS"
       },
       {
         "zType": "NAME_LANGARUS",
-        "zName": "Langarus"
+        "Name": "TEXT_NAME_LANGARUS"
       },
       {
         "zType": "NAME_MESADES",
-        "zName": "Mesades"
+        "Name": "TEXT_NAME_MESADES"
       },
       {
         "zType": "NAME_MOSTIS",
-        "zName": "Mostis"
+        "Name": "TEXT_NAME_MOSTIS"
       },
       {
         "zType": "NAME_OLORUS",
-        "zName": "Olorus"
+        "Name": "TEXT_NAME_OLORUS"
       },
       {
         "zType": "NAME_RHAISCUS",
-        "zName": "Rhaiscus"
+        "Name": "TEXT_NAME_RHAISCUS"
       },
       {
         "zType": "NAME_RHESCUPORIS",
-        "zName": "Rhescuporis"
+        "Name": "TEXT_NAME_RHESCUPORIS"
       },
       {
         "zType": "NAME_SADALAS",
-        "zName": "Sadalas"
+        "Name": "TEXT_NAME_SADALAS"
       },
       {
         "zType": "NAME_SADOCUS",
-        "zName": "Sadocus"
+        "Name": "TEXT_NAME_SADOCUS"
       },
       {
         "zType": "NAME_SEUTHES",
-        "zName": "Seuthes"
+        "Name": "TEXT_NAME_SEUTHES"
       },
       {
         "zType": "NAME_SITALCES",
-        "zName": "Sitalces"
+        "Name": "TEXT_NAME_SITALCES"
       },
       {
         "zType": "NAME_SPARTOCUS",
-        "zName": "Spartocus"
+        "Name": "TEXT_NAME_SPARTOCUS"
       },
       {
         "zType": "NAME_TERES",
-        "zName": "Teres"
+        "Name": "TEXT_NAME_TERES"
       },
       {
         "zType": "NAME_ZOLTES",
-        "zName": "Zoltes"
+        "Name": "TEXT_NAME_ZOLTES"
       },
       {
         "zType": "NAME_ABROTONON",
-        "zName": "Abrotonon"
+        "Name": "TEXT_NAME_ABROTONON"
       },
       {
         "zType": "NAME_AETHAZIA",
-        "zName": "Aethazia"
+        "Name": "TEXT_NAME_AETHAZIA"
       },
       {
         "zType": "NAME_AMA",
-        "zName": "Ama"
+        "Name": "TEXT_NAME_AMA"
       },
       {
         "zType": "NAME_BASCHIA",
-        "zName": "Baschia"
+        "Name": "TEXT_NAME_BASCHIA"
       },
       {
         "zType": "NAME_BRIZENIS",
-        "zName": "Brizenis"
+        "Name": "TEXT_NAME_BRIZENIS"
       },
       {
         "zType": "NAME_CARTOUZA",
-        "zName": "Cartouza"
+        "Name": "TEXT_NAME_CARTOUZA"
       },
       {
         "zType": "NAME_DENSOLA",
-        "zName": "Densola"
+        "Name": "TEXT_NAME_DENSOLA"
       },
       {
         "zType": "NAME_DITA",
-        "zName": "Dita"
+        "Name": "TEXT_NAME_DITA"
       },
       {
         "zType": "NAME_EPYRIS",
-        "zName": "Epyris"
+        "Name": "TEXT_NAME_EPYRIS"
       },
       {
         "zType": "NAME_HARPALYCE",
-        "zName": "Harpalyce"
+        "Name": "TEXT_NAME_HARPALYCE"
       },
       {
         "zType": "NAME_HEGESIPYLE",
-        "zName": "Hegesipyle"
+        "Name": "TEXT_NAME_HEGESIPYLE"
       },
       {
         "zType": "NAME_KIASA",
-        "zName": "Kiasa"
+        "Name": "TEXT_NAME_KIASA"
       },
       {
         "zType": "NAME_MAESIRA",
-        "zName": "Maesira"
+        "Name": "TEXT_NAME_MAESIRA"
       },
       {
         "zType": "NAME_MEDA",
-        "zName": "Meda"
+        "Name": "TEXT_NAME_MEDA"
       },
       {
         "zType": "NAME_MOCASOCOS",
-        "zName": "Mocasocos"
+        "Name": "TEXT_NAME_MOCASOCOS"
       },
       {
         "zType": "NAME_OZEA",
-        "zName": "Ozea"
+        "Name": "TEXT_NAME_OZEA"
       },
       {
         "zType": "NAME_PYTHODORIS",
-        "zName": "Pythodoris"
+        "Name": "TEXT_NAME_PYTHODORIS"
       },
       {
         "zType": "NAME_RHODOPIS",
-        "zName": "Rhodopis"
+        "Name": "TEXT_NAME_RHODOPIS"
       },
       {
         "zType": "NAME_SIPA",
-        "zName": "Sipa"
+        "Name": "TEXT_NAME_SIPA"
       },
       {
         "zType": "NAME_TATAZA",
-        "zName": "Tataza"
+        "Name": "TEXT_NAME_TATAZA"
       },
       {
         "zType": "NAME_ABARIS",
-        "zName": "Abaris"
+        "Name": "TEXT_NAME_ABARIS"
       },
       {
         "zType": "NAME_AGAR",
-        "zName": "Agar"
+        "Name": "TEXT_NAME_AGAR"
       },
       {
         "zType": "NAME_ANTIR",
-        "zName": "Antir"
+        "Name": "TEXT_NAME_ANTIR"
       },
       {
         "zType": "NAME_ARIANT",
-        "zName": "Ariant"
+        "Name": "TEXT_NAME_ARIANT"
       },
       {
         "zType": "NAME_ARIMAZ",
-        "zName": "Arimaz"
+        "Name": "TEXT_NAME_ARIMAZ"
       },
       {
         "zType": "NAME_ATEAS",
-        "zName": "Ateas"
+        "Name": "TEXT_NAME_ATEAS"
       },
       {
         "zType": "NAME_BRADACOS",
-        "zName": "Bradacos"
+        "Name": "TEXT_NAME_BRADACOS"
       },
       {
         "zType": "NAME_IDANTHIRS",
-        "zName": "Idanthirs"
+        "Name": "TEXT_NAME_IDANTHIRS"
       },
       {
         "zType": "NAME_ISHPAKAI",
-        "zName": "Ishpakai"
+        "Name": "TEXT_NAME_ISHPAKAI"
       },
       {
         "zType": "NAME_KANITA",
-        "zName": "Kanita"
+        "Name": "TEXT_NAME_KANITA"
       },
       {
         "zType": "NAME_LIPOKSAI",
-        "zName": "Lipoksai"
+        "Name": "TEXT_NAME_LIPOKSAI"
       },
       {
         "zType": "NAME_HUNTINGAGET",
-        "zName": "Marsaget"
+        "Name": "TEXT_NAME_HUNTINGAGET"
       },
       {
         "zType": "NAME_MORDOS",
-        "zName": "Mordos"
+        "Name": "TEXT_NAME_MORDOS"
       },
       {
         "zType": "NAME_OLKAVAS",
-        "zName": "Olkavas"
+        "Name": "TEXT_NAME_OLKAVAS"
       },
       {
         "zType": "NAME_PALAK",
-        "zName": "Palak"
+        "Name": "TEXT_NAME_PALAK"
       },
       {
         "zType": "NAME_PARTATUA",
-        "zName": "Partatua"
+        "Name": "TEXT_NAME_PARTATUA"
       },
       {
         "zType": "NAME_SAVLIUS",
-        "zName": "Savlius"
+        "Name": "TEXT_NAME_SAVLIUS"
       },
       {
         "zType": "NAME_SAVMAKOS",
-        "zName": "Savmakos"
+        "Name": "TEXT_NAME_SAVMAKOS"
       },
       {
         "zType": "NAME_SKILUR",
-        "zName": "Sklur"
+        "Name": "TEXT_NAME_SKILUR"
       },
       {
         "zType": "NAME_TANUS",
-        "zName": "Tanus"
+        "Name": "TEXT_NAME_TANUS"
       },
       {
         "zType": "NAME_ANTIANIRA",
-        "zName": "Antianira"
+        "Name": "TEXT_NAME_ANTIANIRA"
       },
       {
         "zType": "NAME_ANTIOPE",
-        "zName": "Antiope"
+        "Name": "TEXT_NAME_ANTIOPE"
       },
       {
         "zType": "NAME_ARGA",
-        "zName": "Arga"
+        "Name": "TEXT_NAME_ARGA"
       },
       {
         "zType": "NAME_DEIANIRA",
-        "zName": "Deianira"
+        "Name": "TEXT_NAME_DEIANIRA"
       },
       {
         "zType": "NAME_HIPPOLYTA",
-        "zName": "Hippolyta"
+        "Name": "TEXT_NAME_HIPPOLYTA"
       },
       {
         "zType": "NAME_LAMPEDO",
-        "zName": "Lampedo"
+        "Name": "TEXT_NAME_LAMPEDO"
       },
       {
         "zType": "NAME_MADA",
-        "zName": "Mada"
+        "Name": "TEXT_NAME_MADA"
       },
       {
         "zType": "NAME_MARPESIA",
-        "zName": "Marpesia"
+        "Name": "TEXT_NAME_MARPESIA"
       },
       {
         "zType": "NAME_MOLPADIA",
-        "zName": "Molpadia"
+        "Name": "TEXT_NAME_MOLPADIA"
       },
       {
         "zType": "NAME_MYRINA",
-        "zName": "Myrina"
+        "Name": "TEXT_NAME_MYRINA"
       },
       {
         "zType": "NAME_OPIS",
-        "zName": "Opis"
+        "Name": "TEXT_NAME_OPIS"
       },
       {
         "zType": "NAME_OPIYA",
-        "zName": "Opiya"
+        "Name": "TEXT_NAME_OPIYA"
       },
       {
         "zType": "NAME_OTRERA",
-        "zName": "Otrera"
+        "Name": "TEXT_NAME_OTRERA"
       },
       {
         "zType": "NAME_PENTHESILEA",
-        "zName": "Penthesilea"
+        "Name": "TEXT_NAME_PENTHESILEA"
       },
       {
         "zType": "NAME_PITANE",
-        "zName": "Pitane"
+        "Name": "TEXT_NAME_PITANE"
       },
       {
         "zType": "NAME_SKILEIA",
-        "zName": "Skileia"
+        "Name": "TEXT_NAME_SKILEIA"
       },
       {
         "zType": "NAME_TAMURA",
-        "zName": "Tamura"
+        "Name": "TEXT_NAME_TAMURA"
       },
       {
         "zType": "NAME_TIRGATAO",
-        "zName": "Tirgatao"
+        "Name": "TEXT_NAME_TIRGATAO"
       },
       {
         "zType": "NAME_TOXARIS",
-        "zName": "Toxaris"
+        "Name": "TEXT_NAME_TOXARIS"
       },
       {
         "zType": "NAME_ZARINA",
-        "zName": "Zarina"
+        "Name": "TEXT_NAME_ZARINA"
       },
       {
         "zType": "NAME_ALYAMAS",
-        "zName": "Alyamas"
+        "Name": "TEXT_NAME_ALYAMAS"
       },
       {
         "zType": "NAME_BAGA",
-        "zName": "Baga"
+        "Name": "TEXT_NAME_BAGA"
       },
       {
         "zType": "NAME_BOCCHUS",
-        "zName": "Bocchus"
+        "Name": "TEXT_NAME_BOCCHUS"
       },
       {
         "zType": "NAME_CAPUSSA",
-        "zName": "Capussa"
+        "Name": "TEXT_NAME_CAPUSSA"
       },
       {
         "zType": "NAME_GALA",
-        "zName": "Gala"
+        "Name": "TEXT_NAME_GALA"
       },
       {
         "zType": "NAME_GALUSSA",
-        "zName": "Galussa"
+        "Name": "TEXT_NAME_GALUSSA"
       },
       {
         "zType": "NAME_GAUDA",
-        "zName": "Gauda"
+        "Name": "TEXT_NAME_GAUDA"
       },
       {
         "zType": "NAME_HIEMPSAL",
-        "zName": "Hiempsal"
+        "Name": "TEXT_NAME_HIEMPSAL"
       },
       {
         "zType": "NAME_ISALCAS",
-        "zName": "Isalcas"
+        "Name": "TEXT_NAME_ISALCAS"
       },
       {
         "zType": "NAME_JUBA",
-        "zName": "Juba"
+        "Name": "TEXT_NAME_JUBA"
       },
       {
         "zType": "NAME_JUGURTHA",
-        "zName": "Jugurtha"
+        "Name": "TEXT_NAME_JUGURTHA"
       },
       {
         "zType": "NAME_MASSINISSA",
-        "zName": "Massinissa"
+        "Name": "TEXT_NAME_MASSINISSA"
       },
       {
         "zType": "NAME_MASTEABAR",
-        "zName": "Masteabar"
+        "Name": "TEXT_NAME_MASTEABAR"
       },
       {
         "zType": "NAME_MICIPSA",
-        "zName": "Micipsa"
+        "Name": "TEXT_NAME_MICIPSA"
       },
       {
         "zType": "NAME_NIPTASAN",
-        "zName": "Niptasan"
+        "Name": "TEXT_NAME_NIPTASAN"
       },
       {
         "zType": "NAME_OXYNTA",
-        "zName": "Oxynta"
+        "Name": "TEXT_NAME_OXYNTA"
       },
       {
         "zType": "NAME_STEMBANOS",
-        "zName": "Stembanos"
+        "Name": "TEXT_NAME_STEMBANOS"
       },
       {
         "zType": "NAME_SYPHAX",
-        "zName": "Syphax"
+        "Name": "TEXT_NAME_SYPHAX"
       },
       {
         "zType": "NAME_TABAT",
-        "zName": "Tabat"
+        "Name": "TEXT_NAME_TABAT"
       },
       {
         "zType": "NAME_ZALELSAN",
-        "zName": "Zalelsan"
+        "Name": "TEXT_NAME_ZALELSAN"
       },
       {
         "zType": "NAME_DASSIN",
-        "zName": "Dassin"
+        "Name": "TEXT_NAME_DASSIN"
       },
       {
         "zType": "NAME_DIHYA",
-        "zName": "Dihya"
+        "Name": "TEXT_NAME_DIHYA"
       },
       {
         "zType": "NAME_FARIZA",
-        "zName": "Fariza"
+        "Name": "TEXT_NAME_FARIZA"
       },
       {
         "zType": "NAME_FEDDADA",
-        "zName": "Feddada"
+        "Name": "TEXT_NAME_FEDDADA"
       },
       {
         "zType": "NAME_GHIDA",
-        "zName": "Ghida"
+        "Name": "TEXT_NAME_GHIDA"
       },
       {
         "zType": "NAME_KELLA",
-        "zName": "Kella"
+        "Name": "TEXT_NAME_KELLA"
       },
       {
         "zType": "NAME_LALLA",
-        "zName": "Lalla"
+        "Name": "TEXT_NAME_LALLA"
       },
       {
         "zType": "NAME_LUNDJA",
-        "zName": "Lundja"
+        "Name": "TEXT_NAME_LUNDJA"
       },
       {
         "zType": "NAME_MADELE",
-        "zName": "Madele"
+        "Name": "TEXT_NAME_MADELE"
       },
       {
         "zType": "NAME_MENZA",
-        "zName": "Menza"
+        "Name": "TEXT_NAME_MENZA"
       },
       {
         "zType": "NAME_MERNISSA",
-        "zName": "Mernissa"
+        "Name": "TEXT_NAME_MERNISSA"
       },
       {
         "zType": "NAME_RULA",
-        "zName": "Rula"
+        "Name": "TEXT_NAME_RULA"
       },
       {
         "zType": "NAME_SEKKURA",
-        "zName": "Sekkura"
+        "Name": "TEXT_NAME_SEKKURA"
       },
       {
         "zType": "NAME_SILYA",
-        "zName": "Silya"
+        "Name": "TEXT_NAME_SILYA"
       },
       {
         "zType": "NAME_TAFAT",
-        "zName": "Tafat"
+        "Name": "TEXT_NAME_TAFAT"
       },
       {
         "zType": "NAME_TALALLIT",
-        "zName": "Talallit"
+        "Name": "TEXT_NAME_TALALLIT"
       },
       {
         "zType": "NAME_TANEST",
-        "zName": "Tanest"
+        "Name": "TEXT_NAME_TANEST"
       },
       {
         "zType": "NAME_TAYRI",
-        "zName": "Tayri"
+        "Name": "TEXT_NAME_TAYRI"
       },
       {
         "zType": "NAME_TINHINAN",
-        "zName": "Tinhinan"
+        "Name": "TEXT_NAME_TINHINAN"
       },
       {
         "zType": "NAME_ZAMRA",
-        "zName": "Zamra"
+        "Name": "TEXT_NAME_ZAMRA"
       },
       {
         "zType": "NAME_ATOSSA",
-        "zName": "Atossa"
+        "Name": "TEXT_NAME_ATOSSA"
       },
       {
         "zType": "NAME_CATO",
-        "zName": "Cato"
+        "Name": "TEXT_NAME_CATO"
       },
       {
         "zType": "NAME_HIARBAS",
-        "zName": "Hiarbas"
+        "Name": "TEXT_NAME_HIARBAS"
       },
       {
         "zType": "NAME_AUGUSTINE",
-        "zName": "Augustine"
+        "Name": "TEXT_NAME_AUGUSTINE"
       },
       {
         "zType": "NAME_TUTOR_LIVIUS_ANDRONICUS",
-        "zName": "Livius Andronicus"
+        "Name": "TEXT_NAME_TUTOR_LIVIUS_ANDRONICUS"
       },
       {
         "zType": "NAME_TUTOR_PLINY_THE_ELDER",
-        "zName": "Pliny the Elder"
+        "Name": "TEXT_NAME_TUTOR_PLINY_THE_ELDER"
       },
       {
         "zType": "NAME_TUTOR_CORNELIA",
-        "zName": "Cornelia"
+        "Name": "TEXT_NAME_TUTOR_CORNELIA"
       },
       {
         "zType": "NAME_TUTOR_AGNODICE",
-        "zName": "Agnodice"
+        "Name": "TEXT_NAME_TUTOR_AGNODICE"
       },
       {
         "zType": "NAME_TUTOR_ARISTOTLE",
-        "zName": "Aristotle"
+        "Name": "TEXT_NAME_TUTOR_ARISTOTLE"
       },
       {
         "zType": "NAME_TUTOR_PYTHAGORAS",
-        "zName": "Pythagoras"
+        "Name": "TEXT_NAME_TUTOR_PYTHAGORAS"
       },
       {
         "zType": "NAME_TUTOR_BARDAISAN",
-        "zName": "Bardaisan"
+        "Name": "TEXT_NAME_TUTOR_BARDAISAN"
       },
       {
         "zType": "NAME_TUTOR_ANACHARSIS",
-        "zName": "Anacharsis"
+        "Name": "TEXT_NAME_TUTOR_ANACHARSIS"
       },
       {
         "zType": "NAME_TUTOR_OSTANES",
-        "zName": "Ostanes"
+        "Name": "TEXT_NAME_TUTOR_OSTANES"
       },
       {
         "zType": "NAME_TUTOR_HANNO",
-        "zName": "Hanno"
+        "Name": "TEXT_NAME_TUTOR_HANNO"
       },
       {
         "zType": "NAME_TUTOR_CLITOMACHUS",
-        "zName": "Clitomachus"
+        "Name": "TEXT_NAME_TUTOR_CLITOMACHUS"
       },
       {
         "zType": "NAME_TUTOR_MAGO",
-        "zName": "Mago"
+        "Name": "TEXT_NAME_TUTOR_MAGO"
       },
       {
         "zType": "NAME_TUTOR_ESAGIL_KIN_APLI",
-        "zName": "Esagil-kin-apli"
+        "Name": "TEXT_NAME_TUTOR_ESAGIL_KIN_APLI"
       },
       {
         "zType": "NAME_TUTOR_SERUA_ETERAT",
-        "zName": "Serua-eterat"
+        "Name": "TEXT_NAME_TUTOR_SERUA_ETERAT"
       },
       {
         "zType": "NAME_TUTOR_SIN_LEQI_UNNINNI",
-        "zName": "Sin-leqi-unninni"
+        "Name": "TEXT_NAME_TUTOR_SIN_LEQI_UNNINNI"
       },
       {
         "zType": "NAME_TUTOR_PTAHHOTEP",
-        "zName": "Ptahhotep"
+        "Name": "TEXT_NAME_TUTOR_PTAHHOTEP"
       },
       {
         "zType": "NAME_TUTOR_SENENMUT",
-        "zName": "Senenmut"
+        "Name": "TEXT_NAME_TUTOR_SENENMUT"
       },
       {
         "zType": "NAME_TUTOR_CLEOPATRA_SELENE",
-        "zName": "Cleopatra Selene"
+        "Name": "TEXT_NAME_TUTOR_CLEOPATRA_SELENE"
       },
       {
         "zType": "NAME_TUTOR_HARPAGUS",
-        "zName": "Harpagus"
+        "Name": "TEXT_NAME_TUTOR_HARPAGUS"
       },
       {
         "zType": "NAME_TUTOR_AVICENNA",
-        "zName": "Avicenna"
+        "Name": "TEXT_NAME_TUTOR_AVICENNA"
       },
       {
         "zType": "NAME_TUTOR_KARTIR",
-        "zName": "Kartir"
+        "Name": "TEXT_NAME_TUTOR_KARTIR"
       },
       {
         "zType": "NAME_PIEFACE",
-        "zName": "Pieface"
+        "Name": "TEXT_NAME_PIEFACE"
       },
       {
         "zType": "NAME_CIMON_THE_FOREIGNER",
-        "zName": "Cimon"
+        "Name": "TEXT_NAME_CIMON_THE_FOREIGNER"
       },
       {
         "zType": "NAME_CONFUCIUS",
-        "zName": "Confucius"
+        "Name": "TEXT_NAME_CONFUCIUS"
       },
       {
         "zType": "NAME_BOUDICEA",
-        "zName": "Boudicea"
+        "Name": "TEXT_NAME_BOUDICEA"
       },
       {
         "zType": "NAME_EPICTETUS",
-        "zName": "Epictetus"
+        "Name": "TEXT_NAME_EPICTETUS"
       },
       {
         "zType": "NAME_ZENOBIA",
-        "zName": "Zenobia"
+        "Name": "TEXT_NAME_ZENOBIA"
       },
       {
         "zType": "NAME_THE_ORPHAN_EATER",
-        "zName": "The Orphan Eater"
+        "Name": "TEXT_NAME_THE_ORPHAN_EATER"
       },
       {
         "zType": "NAME_PROPHET",
-        "zName": "The Prophet"
+        "Name": "TEXT_NAME_PROPHET"
       },
       {
         "zType": "NAME_SEER",
-        "zName": "The Seer"
+        "Name": "TEXT_NAME_SEER"
       },
       {
         "zType": "NAME_INCITATUS",
-        "zName": "Incitatus"
+        "Name": "TEXT_NAME_INCITATUS"
       },
       {
         "zType": "NAME_DIEGYLIS",
-        "zName": "Diegylis"
+        "Name": "TEXT_NAME_DIEGYLIS"
       }
     ]
   }

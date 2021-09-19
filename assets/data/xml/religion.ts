@@ -164,6 +164,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_ASSYRIA"
       },
@@ -174,6 +175,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_BABYLONIA"
       },
@@ -184,6 +186,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_CARTHAGE"
       },
@@ -194,6 +197,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_EGYPT"
       },
@@ -204,6 +208,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_GREECE",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_GREECE"
       },
@@ -214,6 +219,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_ROME",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_ROME"
       },
@@ -224,6 +230,7 @@
         "iCostBase": "400",
         "iCostPerChange": "200",
         "Achievement": "ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
+        "EffectCity": "EFFECTCITY_RELIGION_PAGAN",
         "EffectPlayerState": "EFFECTPLAYER_RELIGION_PAGAN",
         "PaganNation": "NATION_PERSIA"
       }

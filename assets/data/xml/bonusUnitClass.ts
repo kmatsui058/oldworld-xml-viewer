@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "aiBonusUnit": {
@@ -15,7 +15,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_LEVY",
-        "zName": "Levy",
+        "Name": "TEXT_BONUSUNITCLASS_LEVY",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -31,7 +31,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_HEAVY_INFANTRY",
-        "zName": "Heavy Infantry",
+        "Name": "TEXT_BONUSUNITCLASS_HEAVY_INFANTRY",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -55,27 +55,23 @@
       },
       {
         "zType": "BONUSUNITCLASS_POLEARM_INFANTRY",
-        "zName": "Polearm Infantry",
+        "Name": "TEXT_BONUSUNITCLASS_POLEARM_INFANTRY",
         "aiBonusUnit": {
           "Pair": [
             {
-              "zIndex": "UNIT_WARRIOR",
+              "zIndex": "UNIT_SPEARMAN",
               "iValue": "1"
             },
             {
-              "zIndex": "UNIT_SPEARMAN",
-              "iValue": "2"
-            },
-            {
               "zIndex": "UNIT_PIKEMAN",
-              "iValue": "3"
+              "iValue": "2"
             }
           ]
         }
       },
       {
         "zType": "BONUSUNITCLASS_RANGED_INFANTRY",
-        "zName": "Ranged Infantry",
+        "Name": "TEXT_BONUSUNITCLASS_RANGED_INFANTRY",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -99,7 +95,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_MELEE_CAVALRY",
-        "zName": "Melee Cavalry",
+        "Name": "TEXT_BONUSUNITCLASS_MELEE_CAVALRY",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -119,7 +115,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_RANGED_CAVALRY",
-        "zName": "Ranged Cavalry",
+        "Name": "TEXT_BONUSUNITCLASS_RANGED_CAVALRY",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -135,7 +131,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_SIEGE",
-        "zName": "Siege",
+        "Name": "TEXT_BONUSUNITCLASS_SIEGE",
         "aiBonusUnit": {
           "Pair": [
             {
@@ -159,7 +155,7 @@
       },
       {
         "zType": "BONUSUNITCLASS_SHIP",
-        "zName": "Ship",
+        "Name": "TEXT_BONUSUNITCLASS_SHIP",
         "aiBonusUnit": {
           "Pair": [
             {

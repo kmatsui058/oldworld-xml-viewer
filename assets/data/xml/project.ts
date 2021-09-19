@@ -134,6 +134,7 @@
         "zType": "PROJECT_MOAT",
         "Name": "TEXT_PROJECT_MOAT",
         "zIcon": "PROJECT_MOAT",
+        "ProjectAsset": "ASSET_VARIATION_PROJECT_MOAT",
         "iCivics": "80",
         "iMaxCount": "1",
         "bCaptureDestroy": "1",
@@ -152,6 +153,7 @@
         "zType": "PROJECT_TOWERS",
         "Name": "TEXT_PROJECT_TOWERS",
         "zIcon": "PROJECT_TOWERS",
+        "ProjectAsset": "ASSET_VARIATION_PROJECT_TOWERS",
         "iCivics": "100",
         "iMaxCount": "1",
         "bCaptureDestroy": "1",
@@ -593,7 +595,8 @@
         "zIcon": "PROJECT_INQUIRY_1",
         "bHidden": "1",
         "EffectCity": "EFFECTCITY_PROJECT_INQUIRY",
-        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY"
+        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
+        "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
       },
       {
         "zType": "PROJECT_INQUIRY_1",

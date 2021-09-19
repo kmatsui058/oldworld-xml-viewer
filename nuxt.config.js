@@ -1,3 +1,5 @@
+import * as FontAwesome from './build/fontawesome'
+
 export default {
   /*
   ** Headers of the page
@@ -13,6 +15,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  target: 'static',
   /*
   ** Customize the progress-bar color
   */
@@ -27,6 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/v-tooltip'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -34,7 +38,8 @@ export default {
   buildModules: [
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/stylelint-module
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/fontawesome'
   ],
   /*
   ** Nuxt.js modules
@@ -64,6 +69,13 @@ export default {
     ** You can extend webpack config here
     */
     extend (_config, _ctx) {
+    }
+  },
+  fontawesome: {
+    icons: {
+      solid: FontAwesome.solid,
+      regular: FontAwesome.regular,
+      brands: FontAwesome.brands
     }
   }
 }

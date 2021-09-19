@@ -6,7 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "Range": {
           
         },
         "EffectCity": {
@@ -24,7 +27,8 @@
       },
       {
         "zType": "OPINIONFAMILY_FURIOUS",
-        "zName": "Furious",
+        "Name": "TEXT_OPINIONFAMILY_FURIOUS",
+        "Range": "TEXT_OPINIONRANGE_FURIOUS",
         "EffectCity": "EFFECTCITY_OPINIONFAMILY_FURIOUS",
         "EffectUnit": "EFFECTUNIT_OPINIONFAMILY_FURIOUS",
         "Color": "COLOR_OPINION_FURIOUS",
@@ -32,7 +36,8 @@
       },
       {
         "zType": "OPINIONFAMILY_ANGRY",
-        "zName": "Angry",
+        "Name": "TEXT_OPINIONFAMILY_ANGRY",
+        "Range": "TEXT_OPINIONRANGE_ANGRY",
         "EffectCity": "EFFECTCITY_OPINIONFAMILY_ANGRY",
         "EffectUnit": "EFFECTUNIT_OPINIONFAMILY_ANGRY",
         "Color": "COLOR_OPINION_ANGRY",
@@ -40,7 +45,8 @@
       },
       {
         "zType": "OPINIONFAMILY_UPSET",
-        "zName": "Upset",
+        "Name": "TEXT_OPINIONFAMILY_UPSET",
+        "Range": "TEXT_OPINIONRANGE_UPSET",
         "EffectCity": "EFFECTCITY_OPINIONFAMILY_UPSET",
         "EffectUnit": "EFFECTUNIT_OPINIONFAMILY_UPSET",
         "Color": "COLOR_OPINION_UPSET",
@@ -48,13 +54,15 @@
       },
       {
         "zType": "OPINIONFAMILY_CAUTIOUS",
-        "zName": "Cautious",
+        "Name": "TEXT_OPINIONFAMILY_CAUTIOUS",
+        "Range": "TEXT_OPINIONRANGE_CAUTIOUS",
         "Color": "COLOR_OPINION_CAUTIOUS",
         "iThreshold": "99"
       },
       {
         "zType": "OPINIONFAMILY_PLEASED",
-        "zName": "Pleased",
+        "Name": "TEXT_OPINIONFAMILY_PLEASED",
+        "Range": "TEXT_OPINIONRANGE_PLEASED",
         "EffectCity": "EFFECTCITY_OPINIONFAMILY_PLEASED",
         "EffectUnit": "EFFECTUNIT_OPINIONFAMILY_PLEASED",
         "Color": "COLOR_OPINION_PLEASED",
@@ -62,7 +70,8 @@
       },
       {
         "zType": "OPINIONFAMILY_FRIENDLY",
-        "zName": "Friendly",
+        "Name": "TEXT_OPINIONFAMILY_FRIENDLY",
+        "Range": "TEXT_OPINIONRANGE_FRIENDLY",
         "EffectCity": "EFFECTCITY_OPINIONFAMILY_FRIENDLY",
         "EffectUnit": "EFFECTUNIT_OPINIONFAMILY_FRIENDLY",
         "Color": "COLOR_OPINION_FRIENDLY"

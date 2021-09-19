@@ -73,6 +73,18 @@
       {
         "zType": "GLOBAL_IMPROVEMENT_SCALE",
         "fValue": "1"
+      },
+      {
+        "zType": "ACTION_LOOK_AT_DELAY",
+        "fValue": "1"
+      },
+      {
+        "zType": "SECONDARY_TEXT_SCALE",
+        "fValue": "75"
+      },
+      {
+        "zType": "ICON_SCALE_FACTOR",
+        "fValue": "1"
       }
     ]
   }

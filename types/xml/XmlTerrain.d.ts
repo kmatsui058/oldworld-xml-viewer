@@ -19,7 +19,7 @@ export interface Entry {
   bStart?: ZType | string;
   bRoadValid?: ZType | string;
   DefaultHeight: ZType | string;
-  aiDefendEffectUnit?: ZType;
+  aiDefendMeleeEffectUnit?: ZType;
   aeHeightAsset: AeHeightAsset;
   AssetVariation?: ZType | string;
 }

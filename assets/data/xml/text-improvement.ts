@@ -200,163 +200,163 @@
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_NINURTA",
-        "English": "Shrine of Ninurta"
+        "English": "Shrine of Ninurta~a Shrine of Ninurta"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_MARS",
-        "English": "Shrine of Mars"
+        "English": "Shrine of Mars~a Shrine of Mars"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_NUSKA",
-        "English": "Shrine of Nuska"
+        "English": "Shrine of Nuska~a Shrine of Nuska"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ATAR",
-        "English": "Shrine of Atar"
+        "English": "Shrine of Atar~a Shrine of Atar"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_VULCAN",
-        "English": "Shrine of Vulcan"
+        "English": "Shrine of Vulcan~a Shrine of Vulcan"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_NABU",
-        "English": "Shrine of Nabu"
+        "English": "Shrine of Nabu~a Shrine of Nabu"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ATHENA",
-        "English": "Shrine of Athena"
+        "English": "Shrine of Athena~a Shrine of Athena"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_SHAMASH",
-        "English": "Shrine of Shamash"
+        "English": "Shrine of Shamash~a Shrine of Shamash"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_RA",
-        "English": "Shrine of Ra"
+        "English": "Shrine of Ra~a Shrine of Ra"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_MITHRA",
-        "English": "Shrine of Mithra"
+        "English": "Shrine of Mithra~a Shrine of Mithra"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_MELQART",
-        "English": "Shrine of Melqart"
+        "English": "Shrine of Melqart~a Shrine of Melqart"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_POSEIDON",
-        "English": "Shrine of Poseidon"
+        "English": "Shrine of Poseidon~a Shrine of Poseidon"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ANAHITA",
-        "English": "Shrine of Anahita"
+        "English": "Shrine of Anahita~a Shrine of Anahita"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ISHTAR",
-        "English": "Shrine of Ishtar"
+        "English": "Shrine of Ishtar~a Shrine of Ishtar"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ASTARTE",
-        "English": "Shrine of Astarte"
+        "English": "Shrine of Astarte~a Shrine of Astarte"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_VENUS",
-        "English": "Shrine of Venus"
+        "English": "Shrine of Venus~a Shrine of Venus"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ERESHKIGAL",
-        "English": "Shrine of Ereshkigal"
+        "English": "Shrine of Ereshkigal~a Shrine of Ereshkigal"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_OSIRIS",
-        "English": "Shrine of Osiris"
+        "English": "Shrine of Osiris~a Shrine of Osiris"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_HADES",
-        "English": "Shrine of Hades"
+        "English": "Shrine of Hades~a Shrine of Hades"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ESHMUN",
-        "English": "Shrine of Eshmun"
+        "English": "Shrine of Eshmun~a Shrine of Eshmun"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ISIS",
-        "English": "Shrine of Isis"
+        "English": "Shrine of Isis~a Shrine of Isis"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ASHUR",
-        "English": "Shrine of Ashur"
+        "English": "Shrine of Ashur~a Shrine of Ashur"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_MARDUK",
-        "English": "Shrine of Marduk"
+        "English": "Shrine of Marduk~a Shrine of Marduk"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_ZEUS",
-        "English": "Shrine of Zeus"
+        "English": "Shrine of Zeus~a Shrine of Zeus"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_TANIT",
-        "English": "Shrine of Tanit"
+        "English": "Shrine of Tanit~a Shrine of Tanit"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_VESTA",
-        "English": "Shrine of Vesta"
+        "English": "Shrine of Vesta~a Shrine of Vesta"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_NEITH",
-        "English": "Shrine of Neith"
+        "English": "Shrine of Neith~a Shrine of Neith"
       },
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_HVAR_KHSHAITA",
-        "English": "Shrine of Hvar Khshaita"
+        "English": "Shrine of Hvar Khshaita~a Shrine of Hvar Khshaita"
       },
       {
         "zType": "TEXT_IMPROVEMENT_MONASTERY_ZOROASTRIANISM",
-        "English": "Zoroastrian Monastery~a Zoroastrian Monastery~Zoroastrian Monasteries"
+        "English": "{RELIGION_ZOROASTRIANISM}Zoroastrian Monastery~a {RELIGION_ZOROASTRIANISM}Zoroastrian Monastery~{RELIGION_ZOROASTRIANISM}Zoroastrian Monasteries"
       },
       {
         "zType": "TEXT_IMPROVEMENT_MONASTERY_JUDAISM",
-        "English": "Jewish Monastery~a Jewish Monastery~Jewish Monasteries"
+        "English": "{RELIGION_JUDAISM}Jewish Monastery~a {RELIGION_JUDAISM}Jewish Monastery~{RELIGION_JUDAISM}Jewish Monasteries"
       },
       {
         "zType": "TEXT_IMPROVEMENT_MONASTERY_CHRISTIANITY",
-        "English": "Christian Monastery~a Christian Monastery~Christian Monasteries"
+        "English": "{RELIGION_CHRISTIANITY}Christian Monastery~a {RELIGION_CHRISTIANITY}Christian Monastery~{RELIGION_CHRISTIANITY}Christian Monasteries"
       },
       {
         "zType": "TEXT_IMPROVEMENT_MONASTERY_MANICHAEISM",
-        "English": "Manichaean Monastery~a Manichaean Monastery~Manichaean Monasteries"
+        "English": "{RELIGION_MANICHAEISM}Manichaean Monastery~a {RELIGION_MANICHAEISM}Manichaean Monastery~{RELIGION_MANICHAEISM}Manichaean Monasteries"
       },
       {
         "zType": "TEXT_IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
-        "English": "Zoroastrian Temple~a Zoroastrian Temple~Zoroastrian Temples"
+        "English": "{RELIGION_ZOROASTRIANISM}Zoroastrian Temple~a {RELIGION_ZOROASTRIANISM}Zoroastrian Temple~{RELIGION_ZOROASTRIANISM}Zoroastrian Temples"
       },
       {
         "zType": "TEXT_IMPROVEMENT_TEMPLE_JUDAISM",
-        "English": "Jewish Temple~a Jewish Temple~Jewish Temples"
+        "English": "{RELIGION_JUDAISM}Jewish Temple~a {RELIGION_JUDAISM}Jewish Temple~{RELIGION_JUDAISM}Jewish Temples"
       },
       {
         "zType": "TEXT_IMPROVEMENT_TEMPLE_CHRISTIANITY",
-        "English": "Christian Temple~a Christian Temple~Christian Temples"
+        "English": "{RELIGION_CHRISTIANITY}Christian Temple~a {RELIGION_CHRISTIANITY}Christian Temple~{RELIGION_CHRISTIANITY}Christian Temples"
       },
       {
         "zType": "TEXT_IMPROVEMENT_TEMPLE_MANICHAEISM",
-        "English": "Manichaean Temple~a Manichaean Temple~Manichaean Temples"
+        "English": "{RELIGION_MANICHAEISM}Manichaean Temple~a {RELIGION_MANICHAEISM}Manichaean Temple~{RELIGION_MANICHAEISM}Manichaean Temples"
       },
       {
         "zType": "TEXT_IMPROVEMENT_CATHEDRAL_ZOROASTRIANISM",
-        "English": "Zoroastrian Cathedral~a Zoroastrian Cathedral~Zoroastrian Cathedrals"
+        "English": "{RELIGION_ZOROASTRIANISM}Zoroastrian Cathedral~a {RELIGION_ZOROASTRIANISM}Zoroastrian Cathedral~{RELIGION_ZOROASTRIANISM}Zoroastrian Cathedrals"
       },
       {
         "zType": "TEXT_IMPROVEMENT_CATHEDRAL_JUDAISM",
-        "English": "Jewish Cathedral~a Jewish Cathedral~Jewish Cathedrals"
+        "English": "{RELIGION_JUDAISM}Jewish Cathedral~a {RELIGION_JUDAISM}Jewish Cathedral~{RELIGION_JUDAISM}Jewish Cathedrals"
       },
       {
         "zType": "TEXT_IMPROVEMENT_CATHEDRAL_CHRISTIANITY",
-        "English": "Christian Cathedral~a Christian Cathedral~Christian Cathedrals"
+        "English": "{RELIGION_CHRISTIANITY}Christian Cathedral~a {RELIGION_CHRISTIANITY}Christian Cathedral~{RELIGION_CHRISTIANITY}Christian Cathedrals"
       },
       {
         "zType": "TEXT_IMPROVEMENT_CATHEDRAL_MANICHAEISM",
-        "English": "Manichaean Cathedral~a Manichaean Cathedral~Manichaean Cathedrals"
+        "English": "{RELIGION_MANICHAEISM}Manichaean Cathedral~a {RELIGION_MANICHAEISM}Manichaean Cathedral~{RELIGION_MANICHAEISM}Manichaean Cathedrals"
       },
       {
         "zType": "TEXT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
@@ -457,6 +457,38 @@
       {
         "zType": "TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM",
         "English": "Tribal Shrine~a Tribal Shrine~Tribal Shrines"
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_FARM_HINT",
+        "English": "Boosts link(YIELD_FOOD), which units consume every turn. If built over link(EFFECTCITY_RESOURCE_CROP) or next to a link(IMPROVEMENT_GRANARY), also increases link(YIELD_GROWTH), which makes cities produce link(UNIT_SETTLER,2) or link(UNIT_WORKER,2) faster.\nCan be further improved by developing a link(SPECIALISTCLASS_FARMER)."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_MINE_HINT",
+        "English": "Boosts link(YIELD_IRON) production, which is needed for many military units. Higher output on Hills. Provides link(YIELD_MONEY) instead if built on link(RESOURCE_SILVER), link(RESOURCE_GOLD), link(RESOURCE_SALT) or link(RESOURCE_GEM).\nCan be developed with a link(SPECIALISTCLASS_MINER), which increases link(YIELD_TRAINING)."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_QUARRY_HINT",
+        "English": "Boosts link(YIELD_STONE) production, which is needed to construct most buildings and some units.\n\t\tCan be further developed with link(SPECIALISTCLASS_STONECUTTER), which grants more stone and additional link(YIELD_CIVICS)."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_LUMBERMILL_HINT",
+        "English": "The only improvement that provides link(YIELD_WOOD). Extra effective when built on a river."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_PASTURE_HINT",
+        "English": "Provides link(YIELD_ORDERS) if built on link(RESOURCE_HORSE), or link(YIELD_FOOD) and link(YIELD_GROWTH) on other resources."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_CAMP_HINT",
+        "English": "Provides yields depending on the resource it's built on. If built on link(RESOURCE_ELEPHANT) or link(RESOURCE_CAMEL), will allow the city to build units that require those resources, once the necessary technology is acquired. Extra effective next to a link(IMPROVEMENT_LUMBERMILL)."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_GROVE_HINT",
+        "English": "Usually built on a link(CONCEPT_LUXURY) resource, provides different yields depending on the resource."
+      },
+      {
+        "zType": "TEXT_IMPROVEMENT_GRANARY_HINT",
+        "English": "Provides link(YIELD_GROWTH) and boosts adjacent link(IMPROVEMENT_FARM,2). Most effective when surrounded by link(IMPROVEMENT_FARM,2).\nGranaries do not have any associated link(CONCEPT_SPECIALIST)."
       }
     ]
   }

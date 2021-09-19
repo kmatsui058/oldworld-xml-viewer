@@ -51,6 +51,14 @@
         "English": "The Influence Mission of {CHARACTER-SUBJECT} has led to an event..."
       },
       {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_SELF_DESCRIPTION",
+        "English": "You have successfully converted to a new Religion."
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_SELF_EVENT_DESCRIPTION",
+        "English": "The Convert Self Mission has led to an event..."
+      },
+      {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION",
         "English": "You have successfully converted {CHARACTER-TARGET} to your link(CONCEPT_STATE_RELIGION)."
       },
@@ -135,8 +143,12 @@
         "English": "The Treachery Mission of {CHARACTER-SUBJECT} has led to an event..."
       },
       {
-        "zType": "TEXT_MISSIONRESULT_INSURRECTION_SUCCESS_DESCRIPTION",
+        "zType": "TEXT_MISSIONRESULT_INSURRECTION_REVOLT_DESCRIPTION",
         "English": "{CHARACTER-SUBJECT} has successfully started a local uprising."
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION",
+        "English": "{CHARACTER-SUBJECT} has successfully stirred up local resentment."
       },
       {
         "zType": "TEXT_MISSIONRESULT_INSURRECTION_FAILURE_DESCRIPTION",
@@ -256,7 +268,7 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_EVENT_DESCRIPTION",
-        "English": "The Tutor Mission of {CHARACTER-SUBJECT} has led to an event..."
+        "English": "The link(CONCEPT_TUTOR) Mission of {CHARACTER-SUBJECT} has led to an event..."
       },
       {
         "zType": "TEXT_MISSIONRESULT_AMBASSADOR",
@@ -324,10 +336,6 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_EVENT",
-        "English": "Declare link(DIPLOMACY_WAR)"
-      },
-      {
-        "zType": "TEXT_MISSIONRESULT_PLAYER_DECLARE_WAR_HUMAN_EVENT",
         "English": "Declare link(DIPLOMACY_WAR)"
       },
       {
@@ -419,12 +427,20 @@
         "English": "Influence Event"
       },
       {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_SELF",
+        "English": "Converted Your Religion"
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_SELF_EVENT",
+        "English": "Convert Your Religion Event"
+      },
+      {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION",
-        "English": "Converted to link(CONCEPT_STATE_RELIGION)"
+        "English": "Converted Character to link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT",
-        "English": "Convert Religion Event"
+        "English": "Convert Character Religion Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INTERCESSION_WEAKEN",
@@ -516,23 +532,27 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_TREACHERY_SUCCESS",
-        "English": "Treachery Succeeds"
+        "English": "link(BONUS_MISSIONRESULT_TREACHERY_SUCCESS)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TREACHERY_FAILURE",
-        "English": "Treachery Fails"
+        "English": "link(BONUS_MISSIONRESULT_TREACHERY_FAILURE)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TREACHERY_EVENT",
         "English": "Treachery Event"
       },
       {
-        "zType": "TEXT_MISSIONRESULT_INSURRECTION_SUCCESS",
-        "English": "Insurrection Succeeds"
+        "zType": "TEXT_MISSIONRESULT_INSURRECTION_REVOLT",
+        "English": "link(BONUS_MISSIONRESULT_INSURRECTION_REVOLT)"
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT",
+        "English": "link(BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INSURRECTION_FAILURE",
-        "English": "Insurrection Fails"
+        "English": "link(BONUS_MISSIONRESULT_INSURRECTION_FAILURE)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INSURRECTION_EVENT",
@@ -640,35 +660,35 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_WISDOM",
-        "English": "Improve Wisdom"
+        "English": "Improve link(RATING_WISDOM)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_CHARISMA",
-        "English": "Improve Charisma"
+        "English": "Improve link(RATING_CHARISMA)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_COURAGE",
-        "English": "Improve Courage"
+        "English": "Improve link(RATING_COURAGE)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_DISCIPLINE",
-        "English": "Improve Discipline"
+        "English": "Improve link(RATING_DISCIPLINE)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TUTOR_EVENT",
-        "English": "Tutor Event"
+        "English": "link(CONCEPT_TUTOR) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_TRIBE_PLAYER_WAR_EVENT",
-        "English": "Barbarian vs Player link(DIPLOMACY_WAR) Event"
+        "English": "Ask a Tribe to Declare link(DIPLOMACY_WAR) on a Nation"
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_TRIBE_WAR_EVENT",
-        "English": "Player vs Barbarian link(DIPLOMACY_WAR) Event"
+        "English": "Ask a Nation to Declare link(DIPLOMACY_WAR) on a Tribe"
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_PLAYER_WAR_EVENT",
-        "English": "Player vs Player link(DIPLOMACY_WAR) Event"
+        "English": "Ask a Nation to Declare link(DIPLOMACY_WAR) on another Nation"
       }
     ]
   }

@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "Source": {
+          
+        },
         "zIconName": {
           
         },
@@ -129,15 +132,6 @@
         "bUpgradeImprovement": {
           
         },
-        "bNoWonders": {
-          
-        },
-        "bNoReligions": {
-          
-        },
-        "bNoTheologies": {
-          
-        },
         "bMultipleWorkers": {
           
         },
@@ -177,6 +171,9 @@
         "bAutomateWorkers": {
           
         },
+        "bAutomateScouts": {
+          
+        },
         "aiMilitaryKillYield": {
           
         },
@@ -184,6 +181,9 @@
           
         },
         "aiYieldRate": {
+          
+        },
+        "aiYieldRateLaws": {
           
         },
         "aiYieldUpkeep": {
@@ -198,13 +198,64 @@
         "aeWaterUnit": {
           
         },
-        "aeHideUnit": {
+        "aeInvisibleUnit": {
           
         }
       },
       {
         "zType": "EFFECTPLAYER_BASE",
         "Name": "TEXT_EFFECTPLAYER_BASE"
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_LOW",
+        "Name": "TEXT_ADVANTAGE_LOW",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_LOW",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "100"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_MEDIUM",
+        "Name": "TEXT_ADVANTAGE_MEDIUM",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_MEDIUM",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "250"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "250"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_HIGH",
+        "Name": "TEXT_ADVANTAGE_HIGH",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_HIGH",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "500"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "500"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_COUNCIL_SPYMASTER",
@@ -217,14 +268,38 @@
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_ABLE",
         "SourceDifficulty": "DIFFICULTY_ABLE",
         "EffectCity": "EFFECTCITY_DIFFICULTY_ABLE",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_ABLE_CAPITAL"
+        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_ABLE_CAPITAL",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "200"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "200"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_JUST",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_JUST",
         "SourceDifficulty": "DIFFICULTY_JUST",
         "EffectCity": "EFFECTCITY_DIFFICULTY_JUST",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_JUST_CAPITAL"
+        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_JUST_CAPITAL",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "100"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_GOOD",
@@ -384,7 +459,7 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_EPICS",
-        "Name": "TEXT_EFFECTPLAYER_LAW_EPICS",
+        "Name": "TEXT_LAW_EPICS",
         "SourceLaw": "LAW_EPICS",
         "aiMilitaryKillYield": {
           "Pair": {
@@ -395,7 +470,7 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_EXPLORATION",
-        "Name": "TEXT_EFFECTPLAYER_LAW_EXPLORATION",
+        "Name": "TEXT_LAW_EXPLORATION",
         "SourceLaw": "LAW_EXPLORATION",
         "bNoUnitConsumption": "1",
         "aeWaterUnit": {
@@ -404,7 +479,7 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_SLAVERY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_SLAVERY",
+        "Name": "TEXT_LAW_SLAVERY",
         "SourceLaw": "LAW_SLAVERY",
         "EffectCity": "EFFECTCITY_LAW_SLAVERY",
         "aiYieldRate": {
@@ -416,13 +491,13 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_FREEDOM",
-        "Name": "TEXT_EFFECTPLAYER_LAW_FREEDOM",
+        "Name": "TEXT_LAW_FREEDOM",
         "SourceLaw": "LAW_FREEDOM",
         "EffectCity": "EFFECTCITY_LAW_FREEDOM"
       },
       {
         "zType": "EFFECTPLAYER_LAW_CENTRALIZATION",
-        "Name": "TEXT_EFFECTPLAYER_LAW_CENTRALIZATION",
+        "Name": "TEXT_LAW_CENTRALIZATION",
         "SourceLaw": "LAW_CENTRALIZATION",
         "CapitalEffectCity": "EFFECTCITY_LAW_CENTRALIZATION_CAPITAL",
         "aiYieldRate": {
@@ -434,13 +509,13 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_VASSALAGE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_VASSALAGE",
+        "Name": "TEXT_LAW_VASSALAGE",
         "SourceLaw": "LAW_VASSALAGE",
         "iConsumptionModifier": "-50"
       },
       {
         "zType": "EFFECTPLAYER_LAW_TYRANNY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_TYRANNY",
+        "Name": "TEXT_LAW_TYRANNY",
         "SourceLaw": "LAW_TYRANNY",
         "EffectCity": "EFFECTCITY_LAW_TYRANNY",
         "aiYieldRate": {
@@ -452,7 +527,7 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_CONSTITUTION",
-        "Name": "TEXT_EFFECTPLAYER_LAW_CONSTITUTION",
+        "Name": "TEXT_LAW_CONSTITUTION",
         "SourceLaw": "LAW_CONSTITUTION",
         "EffectPlayer": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE",
         "EffectCity": "EFFECTCITY_LAW_CONSTITUTION"
@@ -460,70 +535,76 @@
       {
         "zType": "EFFECTPLAYER_LAW_CONSTITUTION_DECREE",
         "Name": "TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE",
+        "Source": "TEXT_EFFECTPLAYER_CAPITAL_SOURCE",
         "SourceLaw": "LAW_CONSTITUTION"
       },
       {
-        "zType": "EFFECTPLAYER_LAW_COLONIZATION",
-        "Name": "TEXT_EFFECTPLAYER_LAW_COLONIZATION",
-        "SourceLaw": "LAW_COLONIZATION",
+        "zType": "EFFECTPLAYER_LAW_COLONIES",
+        "Name": "TEXT_LAW_COLONIES",
+        "SourceLaw": "LAW_COLONIES",
         "bBuyTile": "1",
         "bRiverMovement": "1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_SERFDOM",
-        "Name": "TEXT_EFFECTPLAYER_LAW_SERFDOM",
+        "Name": "TEXT_LAW_SERFDOM",
         "SourceLaw": "LAW_SERFDOM",
         "EffectCity": "EFFECTCITY_LAW_SERFDOM"
       },
       {
         "zType": "EFFECTPLAYER_LAW_MONOTHEISM",
-        "Name": "TEXT_EFFECTPLAYER_LAW_MONOTHEISM",
+        "Name": "TEXT_LAW_MONOTHEISM",
         "SourceLaw": "LAW_MONOTHEISM",
         "StateReligionEffectCity": "EFFECTCITY_LAW_MONOTHEISM_STATE"
       },
       {
         "zType": "EFFECTPLAYER_LAW_POLYTHEISM",
-        "Name": "TEXT_EFFECTPLAYER_LAW_POLYTHEISM",
+        "Name": "TEXT_LAW_POLYTHEISM",
         "SourceLaw": "LAW_POLYTHEISM",
         "EffectCity": "EFFECTCITY_LAW_POLYTHEISM"
       },
       {
         "zType": "EFFECTPLAYER_LAW_DIVINE_RULE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_DIVINE_RULE",
+        "Name": "TEXT_LAW_DIVINE_RULE",
         "SourceLaw": "LAW_DIVINE_RULE",
         "EffectCity": "EFFECTCITY_LAW_DIVINE_RULE",
         "bPaganStateReligion": "1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_LEGAL_CODE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_LEGAL_CODE",
+        "Name": "TEXT_LAW_LEGAL_CODE",
         "SourceLaw": "LAW_LEGAL_CODE",
-        "EffectCity": "EFFECTCITY_LAW_LEGAL_CODE"
+        "aiYieldRateLaws": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "100"
+          }
+        }
       },
       {
         "zType": "EFFECTPLAYER_LAW_TOLERANCE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_TOLERANCE",
+        "Name": "TEXT_LAW_TOLERANCE",
         "SourceLaw": "LAW_TOLERANCE",
         "EffectCity": "EFFECTCITY_LAW_TOLERANCE",
         "bBuildAllReligions": "1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_ORTHODOXY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_ORTHODOXY",
+        "Name": "TEXT_LAW_ORTHODOXY",
         "SourceLaw": "LAW_ORTHODOXY",
         "StateReligionEffectCity": "EFFECTCITY_LAW_ORTHODOXY_STATE",
         "bPurgeReligions": "1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_PROFESSIONAL_ARMY",
+        "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
         "SourceLaw": "LAW_PROFESSIONAL_ARMY",
         "EffectCity": "EFFECTCITY_LAW_PROFESSIONAL_ARMY",
         "EffectCityExtra": "EFFECTCITY_LAW_PROFESSIONAL_ARMY_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_VOLUNTEERS",
-        "Name": "TEXT_EFFECTPLAYER_LAW_VOLUNTEERS",
+        "Name": "TEXT_LAW_VOLUNTEERS",
         "SourceLaw": "LAW_VOLUNTEERS",
         "EffectCity": "EFFECTCITY_LAW_VOLUNTEERS",
         "aiWarYield": {
@@ -535,89 +616,89 @@
       },
       {
         "zType": "EFFECTPLAYER_LAW_PHILOSOPHY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_PHILOSOPHY",
+        "Name": "TEXT_LAW_PHILOSOPHY",
         "SourceLaw": "LAW_PHILOSOPHY",
         "EffectCity": "EFFECTCITY_LAW_PHILOSOPHY",
         "EffectCityExtra": "EFFECTCITY_LAW_PHILOSOPHY_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_ENGINEERING",
-        "Name": "TEXT_EFFECTPLAYER_LAW_ENGINEERING",
+        "Name": "TEXT_LAW_ENGINEERING",
         "SourceLaw": "LAW_ENGINEERING",
         "iWonderModifier": "-25",
         "iBuildTurnChange": "-1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_ICONOGRAPHY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_ICONOGRAPHY",
+        "Name": "TEXT_LAW_ICONOGRAPHY",
         "SourceLaw": "LAW_ICONOGRAPHY",
         "EffectCity": "EFFECTCITY_LAW_ICONOGRAPHY"
       },
       {
         "zType": "EFFECTPLAYER_LAW_CALLIGRAPHY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_CALLIGRAPHY",
+        "Name": "TEXT_LAW_CALLIGRAPHY",
         "SourceLaw": "LAW_CALLIGRAPHY",
         "EffectCity": "EFFECTCITY_LAW_CALLIGRAPHY",
         "EffectCityExtra": "EFFECTCITY_LAW_CALLIGRAPHY_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_PILGRIMAGE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_PILGRIMAGE",
+        "Name": "TEXT_LAW_PILGRIMAGE",
         "SourceLaw": "LAW_PILGRIMAGE",
         "EffectCity": "EFFECTCITY_LAW_PILGRIMAGE",
         "EffectCityExtra": "EFFECTCITY_LAW_PILGRIMAGE_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_HOLY_WAR",
-        "Name": "TEXT_EFFECTPLAYER_LAW_HOLY_WAR",
+        "Name": "TEXT_LAW_HOLY_WAR",
         "SourceLaw": "LAW_HOLY_WAR",
+        "EffectCity": "EFFECTCITY_LAW_HOLY_WAR",
         "StateReligionEffectCity": "EFFECTCITY_LAW_HOLY_WAR_STATE"
       },
       {
         "zType": "EFFECTPLAYER_LAW_GUILDS",
-        "Name": "TEXT_EFFECTPLAYER_LAW_GUILDS",
+        "Name": "TEXT_LAW_GUILDS",
         "SourceLaw": "LAW_GUILDS",
         "EffectCity": "EFFECTCITY_LAW_GUILDS",
         "EffectCityExtra": "EFFECTCITY_LAW_GUILDS_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_ELITES",
-        "Name": "TEXT_EFFECTPLAYER_LAW_ELITES",
+        "Name": "TEXT_LAW_ELITES",
         "SourceLaw": "LAW_ELITES",
         "EffectCity": "EFFECTCITY_LAW_ELITES",
         "iMaxActions": "100"
       },
       {
         "zType": "EFFECTPLAYER_LAW_AUTARKY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_AUTARKY",
+        "Name": "TEXT_LAW_AUTARKY",
         "SourceLaw": "LAW_AUTARKY",
         "EffectCity": "EFFECTCITY_LAW_AUTARKY",
         "EffectCityExtra": "EFFECTCITY_LAW_AUTARKY_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_TRADE_LEAGUE",
-        "Name": "TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE",
+        "Name": "TEXT_LAW_TRADE_LEAGUE",
         "SourceLaw": "LAW_TRADE_LEAGUE",
         "EffectPlayer": "EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY",
         "bNoSellPenalty": "1"
       },
       {
         "zType": "EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY",
-        "Name": "TEXT_EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY",
+        "Name": "TEXT_PROJECT_CONVOY",
         "SourceLaw": "LAW_TRADE_LEAGUE"
       },
       {
         "zType": "EFFECTPLAYER_LAW_COIN_DEBASEMENT",
-        "Name": "TEXT_EFFECTPLAYER_LAW_COIN_DEBASEMENT",
+        "Name": "TEXT_LAW_COIN_DEBASEMENT",
         "SourceLaw": "LAW_COIN_DEBASEMENT",
-        "EffectCity": "EFFECTCITY_LAW_COIN_DEBASEMENT",
         "aeTradeYield": {
           "zValue": "YIELD_ORDERS"
         }
       },
       {
         "zType": "EFFECTPLAYER_LAW_MONETARY_REFORM",
-        "Name": "TEXT_EFFECTPLAYER_LAW_MONETARY_REFORM",
+        "Name": "TEXT_LAW_MONETARY_REFORM",
         "SourceLaw": "LAW_MONETARY_REFORM",
         "EffectCity": "EFFECTCITY_LAW_MONETARY_REFORM"
       },
@@ -626,6 +707,7 @@
         "Name": "TEXT_NATION_ASSYRIA",
         "SourceNation": "NATION_ASSYRIA",
         "EffectCity": "EFFECTCITY_NATION_ASSYRIA",
+        "EffectUnit": "EFFECTUNIT_ASSYRIA",
         "aiMilitaryKillYield": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
@@ -664,7 +746,8 @@
       },
       {
         "zType": "EFFECTPLAYER_NATION_GREECE_OLYMPICS",
-        "Name": "TEXT_PROJECT_OLYMPICS"
+        "Name": "TEXT_PROJECT_OLYMPICS",
+        "SourceNation": "NATION_GREECE"
       },
       {
         "zType": "EFFECTPLAYER_NATION_PERSIA",
@@ -732,22 +815,29 @@
         "bAutomateWorkers": "1"
       },
       {
+        "zType": "EFFECTPLAYER_TECH_NAVIGATION",
+        "Name": "TEXT_EFFECTPLAYER_TECH_NAVIGATION",
+        "zIconName": "WORKER_AUTOMATE",
+        "SourceTech": "TECH_NAVIGATION",
+        "bAutomateScouts": "1"
+      },
+      {
         "zType": "EFFECTPLAYER_TECH_INDUSTRIAL_PROGRESS",
-        "Name": "TEXT_EFFECTPLAYER_VICTORY_POINT",
+        "Name": "TEXT_TECH_INDUSTRIAL_PROGRESS",
         "zIconName": "GOAL_STARTED",
         "SourceTech": "TECH_INDUSTRIAL_PROGRESS",
         "iVP": "1"
       },
       {
         "zType": "EFFECTPLAYER_TECH_MILITARY_PRESTIGE",
-        "Name": "TEXT_EFFECTPLAYER_VICTORY_POINT",
+        "Name": "TEXT_TECH_MILITARY_PRESTIGE",
         "zIconName": "GOAL_STARTED",
         "SourceTech": "TECH_MILITARY_PRESTIGE",
         "iVP": "1"
       },
       {
         "zType": "EFFECTPLAYER_TECH_ECONOMIC_REFORM",
-        "Name": "TEXT_EFFECTPLAYER_VICTORY_POINT",
+        "Name": "TEXT_TECH_ECONOMIC_REFORM",
         "zIconName": "GOAL_STARTED",
         "SourceTech": "TECH_ECONOMIC_REFORM",
         "iVP": "1"
@@ -806,7 +896,6 @@
         "zType": "EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",
         "Name": "TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",
         "SourceTrait": "TRAIT_JUDGE_ARCHETYPE",
-        "iMaxActions": "10",
         "iSwitchLawModifier": "-50",
         "bUpgradeImprovement": "1"
       },
@@ -828,6 +917,7 @@
       {
         "zType": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY",
         "Name": "TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY",
+        "Source": "TEXT_EFFECTPLAYER_CAPITAL_SOURCE",
         "SourceTrait": "TRAIT_SCHOLAR_ARCHETYPE"
       },
       {
@@ -849,7 +939,7 @@
             "iValue": "20"
           }
         },
-        "aeHideUnit": {
+        "aeInvisibleUnit": {
           "zValue": "UNIT_SCOUT"
         }
       },
@@ -857,7 +947,7 @@
         "zType": "EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
         "Name": "TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
         "SourceTrait": "TRAIT_DIPLOMAT_ARCHETYPE",
-        "iLeaderOpinionChange": "40"
+        "iLeaderOpinionChange": "60"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_AFFABLE",
@@ -1180,6 +1270,36 @@
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
             "iValue": "-20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS",
+        "Name": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS",
+        "aiYieldUpkeep": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-5"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_UPKEEP_HIGH_ORDERS",
+        "Name": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_ORDERS",
+        "aiYieldUpkeep": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS",
+        "Name": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS",
+        "aiYieldUpkeep": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "-15"
           }
         }
       },

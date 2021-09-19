@@ -6,7 +6,13 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "iRaidProbCity": {
+          
+        },
+        "iRaidNumCity": {
           
         },
         "bNoDeclareWar": {
@@ -30,7 +36,7 @@
       },
       {
         "zType": "DIFFICULTY_ABLE",
-        "zName": "The Able",
+        "Name": "TEXT_DIFFICULTY_ABLE",
         "bNoDeclareWar": "1",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_ABLE",
         "aiYieldStockpile": {
@@ -92,7 +98,7 @@
       },
       {
         "zType": "DIFFICULTY_JUST",
-        "zName": "The Just",
+        "Name": "TEXT_DIFFICULTY_JUST",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_JUST",
         "aiYieldStockpile": {
           "Pair": [
@@ -153,7 +159,7 @@
       },
       {
         "zType": "DIFFICULTY_GOOD",
-        "zName": "The Good",
+        "Name": "TEXT_DIFFICULTY_GOOD",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_GOOD",
         "aiYieldStockpile": {
           "Pair": [
@@ -214,7 +220,7 @@
       },
       {
         "zType": "DIFFICULTY_STRONG",
-        "zName": "The Strong",
+        "Name": "TEXT_DIFFICULTY_STRONG",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_STRONG",
         "aiYieldStockpile": {
           "Pair": [
@@ -275,7 +281,9 @@
       },
       {
         "zType": "DIFFICULTY_NOBLE",
-        "zName": "The Noble",
+        "Name": "TEXT_DIFFICULTY_NOBLE",
+        "iRaidProbCity": "1",
+        "iRaidNumCity": "2",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_NOBLE",
         "aiYieldStockpile": {
           "Pair": [
@@ -336,7 +344,9 @@
       },
       {
         "zType": "DIFFICULTY_GLORIOUS",
-        "zName": "The Glorious",
+        "Name": "TEXT_DIFFICULTY_GLORIOUS",
+        "iRaidProbCity": "2",
+        "iRaidNumCity": "3",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_GLORIOUS",
         "aiYieldStockpile": {
           "Pair": [
@@ -403,7 +413,9 @@
       },
       {
         "zType": "DIFFICULTY_MAGNIFICENT",
-        "zName": "The Magnificent",
+        "Name": "TEXT_DIFFICULTY_MAGNIFICENT",
+        "iRaidProbCity": "3",
+        "iRaidNumCity": "4",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_MAGNIFICENT",
         "aiYieldStockpile": {
           "Pair": [
@@ -476,7 +488,9 @@
       },
       {
         "zType": "DIFFICULTY_GREAT",
-        "zName": "The Great",
+        "Name": "TEXT_DIFFICULTY_GREAT",
+        "iRaidProbCity": "4",
+        "iRaidNumCity": "5",
         "EffectPlayer": "EFFECTPLAYER_DIFFICULTY_GREAT",
         "aiYieldStockpile": {
           "Pair": [

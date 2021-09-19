@@ -18,13 +18,16 @@
         "iStrengthModifier": {
           
         },
+        "iAttackModifier": {
+          
+        },
         "iDefenseModifier": {
           
         },
         "iCriticalChance": {
           
         },
-        "iConvertOnKillChance": {
+        "iEnlistOnKillChance": {
           
         },
         "iVisionExtra": {
@@ -37,6 +40,12 @@
           
         },
         "iRangeExtra": {
+          
+        },
+        "iWaterControlExtra": {
+          
+        },
+        "iPillageYieldModifier": {
           
         },
         "iRiverAttackModifier": {
@@ -90,7 +99,13 @@
         "bPush": {
           
         },
+        "bPushWater": {
+          
+        },
         "bStun": {
+          
+        },
+        "bStunWater": {
           
         },
         "bLastStand": {
@@ -168,6 +183,60 @@
         "Name": "TEXT_EFFECTUNIT_COMBAT3",
         "zIconName": "EFFECTUNIT_COMBAT3",
         "iStrengthModifier": "15"
+      },
+      {
+        "zType": "EFFECTUNIT_STRIKE1",
+        "Name": "TEXT_EFFECTUNIT_STRIKE1",
+        "zIconName": "EFFECTUNIT_STRIKE1",
+        "iAttackModifier": "10",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_STRIKE2",
+        "Name": "TEXT_EFFECTUNIT_STRIKE2",
+        "zIconName": "EFFECTUNIT_STRIKE2",
+        "iAttackModifier": "15",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_STRIKE3",
+        "Name": "TEXT_EFFECTUNIT_STRIKE3",
+        "zIconName": "EFFECTUNIT_STRIKE3",
+        "iAttackModifier": "20",
+        "abUnitTraitValid": {
+          "Pair": [
+            {
+              "zIndex": "UNITTRAIT_MELEE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
+              "bValue": "1"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTUNIT_GUARD1",
@@ -347,6 +416,10 @@
             },
             {
               "zIndex": "UNITTRAIT_SIEGE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "UNITTRAIT_SHIP",
               "bValue": "1"
             }
           ]
@@ -677,7 +750,7 @@
         "zType": "EFFECTUNIT_GRAPPLER",
         "Name": "TEXT_EFFECTUNIT_GRAPPLER",
         "zIconName": "EFFECTUNIT_GRAPPLER",
-        "bStun": "1",
+        "bStunWater": "1",
         "abUnitTraitValid": {
           "Pair": {
             "zIndex": "UNITTRAIT_SHIP",
@@ -708,13 +781,13 @@
         "zIconName": "EFFECTUNIT_OVERWHELM",
         "aiAttackValue": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "1"
           }
         },
         "aiAttackPercent": {
           "Pair": {
-            "zIndex": "ATTACK_ARC",
+            "zIndex": "ATTACK_CLEAVE",
             "iValue": "25"
           }
         },
@@ -729,14 +802,25 @@
         "zType": "EFFECTUNIT_FIRESHIP",
         "Name": "TEXT_EFFECTUNIT_FIRESHIP",
         "zIconName": "EFFECTUNIT_FIRESHIP",
-        "iDefenseModifier": "-50",
-        "bPush": "1",
+        "bPushWater": "1",
         "aiUnitTraitModifierAttack": {
           "Pair": {
             "zIndex": "UNITTRAIT_SHIP",
-            "iValue": "100"
+            "iValue": "10"
           }
         },
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_LADING",
+        "Name": "TEXT_EFFECTUNIT_LADING",
+        "zIconName": "EFFECTUNIT_LADING",
+        "iWaterControlExtra": "1",
         "abUnitTraitValid": {
           "Pair": {
             "zIndex": "UNITTRAIT_SHIP",
@@ -1089,11 +1173,6 @@
         "iAdjacentSameDefenseModifier": "20"
       },
       {
-        "zType": "EFFECTUNIT_MANEUVERS",
-        "Name": "TEXT_EFFECTUNIT_MANEUVERS",
-        "zIconName": "EFFECTUNIT_MANEUVERS"
-      },
-      {
         "zType": "EFFECTUNIT_CRIPPLED",
         "Name": "TEXT_EFFECTUNIT_CRIPPLED",
         "zIconName": "EFFECTUNIT_CRIPPLED",
@@ -1112,6 +1191,12 @@
         "bNoRoadCooldown": "1"
       },
       {
+        "zType": "EFFECTUNIT_ASSYRIA",
+        "Name": "TEXT_EFFECTUNIT_ASSYRIA",
+        "zIconName": "EFFECTUNIT_ASSYRIA",
+        "iPillageYieldModifier": "100"
+      },
+      {
         "zType": "EFFECTUNIT_HERO",
         "Name": "TEXT_EFFECTUNIT_HERO",
         "zIconName": "EFFECTUNIT_HERO",
@@ -1127,7 +1212,7 @@
         "zType": "EFFECTUNIT_HERO_MELEE",
         "Name": "TEXT_EFFECTUNIT_HERO_MELEE",
         "zIconName": "EFFECTUNIT_HERO_MELEE",
-        "iStrengthModifier": "10"
+        "iAttackModifier": "10"
       },
       {
         "zType": "EFFECTUNIT_COMMANDER",
@@ -1145,7 +1230,7 @@
         "zType": "EFFECTUNIT_COMMANDER_INFANTRY",
         "Name": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
         "zIconName": "EFFECTUNIT_COMMANDER_INFANTRY",
-        "iDefenseModifier": "20"
+        "iDefenseModifier": "10"
       },
       {
         "zType": "EFFECTUNIT_TACTICIAN_RANGED",
@@ -1180,7 +1265,7 @@
         "zType": "EFFECTUNIT_ZEALOT_LEADER",
         "Name": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
         "zIconName": "EFFECTUNIT_ZEALOT_LEADER",
-        "iConvertOnKillChance": "5"
+        "iEnlistOnKillChance": "10"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_FURIOUS",
@@ -1263,7 +1348,6 @@
         "Name": "TEXT_UNITTRAIT_MOUNTED",
         "zIconName": "UNITTRAIT_MOUNTED",
         "SourceUnitTrait": "UNITTRAIT_MOUNTED",
-        "iUrbanAttackModifier": "-25",
         "aiUnitTraitModifierMelee": {
           "Pair": {
             "zIndex": "UNITTRAIT_SIEGE",

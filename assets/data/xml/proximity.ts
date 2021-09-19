@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "iDistance": {
@@ -33,39 +33,39 @@
       },
       {
         "zType": "PROXIMITY_VERY_CLOSE",
-        "zName": "Very Close",
+        "Name": "TEXT_PROXIMITY_VERY_CLOSE",
         "iDistance": "12",
         "iPlayerOpinion": "-60",
         "bDeclareWar": "1"
       },
       {
         "zType": "PROXIMITY_CLOSE",
-        "zName": "Close",
-        "iDistance": "18",
-        "iWarModifier": "-20",
+        "Name": "TEXT_PROXIMITY_CLOSE",
+        "iDistance": "20",
+        "iWarModifier": "-10",
         "iPlayerOpinion": "-40",
         "bDeclareWar": "1"
       },
       {
         "zType": "PROXIMITY_NEAR",
-        "zName": "Near",
-        "iDistance": "24",
+        "Name": "TEXT_PROXIMITY_NEAR",
+        "iDistance": "28",
         "iTruceModifier": "10",
-        "iWarModifier": "-40",
+        "iWarModifier": "-20",
         "iPlayerOpinion": "-20",
         "bDeclareWar": "1"
       },
       {
         "zType": "PROXIMITY_DISTANT",
-        "zName": "Distant",
-        "iDistance": "30",
+        "Name": "TEXT_PROXIMITY_DISTANT",
+        "iDistance": "36",
         "iTruceModifier": "20",
-        "iWarModifier": "-60",
+        "iWarModifier": "-40",
         "bNoTribeWar": "1"
       },
       {
         "zType": "PROXIMITY_FAR",
-        "zName": "Far",
+        "Name": "TEXT_PROXIMITY_FAR",
         "iTruceModifier": "30",
         "iWarModifier": "-80",
         "bNoTribeWar": "1",

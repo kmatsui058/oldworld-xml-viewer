@@ -12,59 +12,59 @@
       },
       {
         "zType": "COLORCLASS_TEXT",
-        "zName": "Text"
+        "zName": "TEXT_COLORCLASS_TEXT"
       },
       {
         "zType": "COLORCLASS_NATIONS",
-        "zName": "Nations"
+        "zName": "TEXT_COLORCLASS_NATIONS"
       },
       {
         "zType": "COLORCLASS_PLAYERS",
-        "zName": "Players"
+        "zName": "TEXT_COLORCLASS_PLAYERS"
       },
       {
         "zType": "COLORCLASS_TRIBES",
-        "zName": "Tribes"
+        "zName": "TEXT_COLORCLASS_TRIBES"
       },
       {
         "zType": "COLORCLASS_MOVEMENT",
-        "zName": "Movement"
+        "zName": "TEXT_COLORCLASS_MOVEMENT"
       },
       {
         "zType": "COLORCLASS_OVERLAYS",
-        "zName": "Overlays"
+        "zName": "TEXT_COLORCLASS_OVERLAYS"
       },
       {
         "zType": "COLORCLASS_SELECTION",
-        "zName": "Selection"
+        "zName": "TEXT_COLORCLASS_SELECTION"
       },
       {
         "zType": "COLORCLASS_STATUS",
-        "zName": "Statuses"
+        "zName": "TEXT_COLORCLASS_STATUS"
       },
       {
         "zType": "COLORCLASS_RATINGS",
-        "zName": "Ratings"
+        "zName": "TEXT_COLORCLASS_RATINGS"
       },
       {
         "zType": "COLORCLASS_YIELDS",
-        "zName": "Yields"
+        "zName": "TEXT_COLORCLASS_YIELDS"
       },
       {
         "zType": "COLORCLASS_LAWS",
-        "zName": "Laws"
+        "zName": "TEXT_COLORCLASS_LAWS"
       },
       {
         "zType": "COLORCLASS_TECHS",
-        "zName": "Techs"
+        "zName": "TEXT_COLORCLASS_TECHS"
       },
       {
         "zType": "COLORCLASS_RELATIONSHIPS",
-        "zName": "Relationships"
+        "zName": "TEXT_COLORCLASS_RELATIONSHIPS"
       },
       {
         "zType": "COLORCLASS_HEALTH",
-        "zName": "Health"
+        "zName": "TEXT_COLORCLASS_HEALTH"
       }
     ]
   }

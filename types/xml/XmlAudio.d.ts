@@ -7,12 +7,14 @@ export interface Root {
   Entry: Entry[];
 }
 export interface Entry {
-  zType: ZType | ZType2 | string;
-  zAsset: ZType | ZType2 | string;
-  bOnlyAllowOnePerFrame?: ZType | string;
+  zType: ZType | string;
+  zAsset: ZType | string;
+  bOnlyAllowOnePerFrame?: BOnlyAllowOnePerFrame | string;
   Creators?: Creators;
-  zInstrumentation?: ZType | ZType2 | string;
-  zTags?: ZType | ZType2 | string;
+  zInstrumentation?: ZType | string;
+  zTags?: ZType | string;
+  Artist?: BOnlyAllowOnePerFrame | ZType | string;
+  Description?: ZType | string;
 }
 export interface Creators {
   comment?: string;
@@ -23,10 +25,10 @@ export interface Creator {
   zPercentage: string;
   zAffiliation: string;
 }
-export interface ZType2 {
-  comment: string;
+export interface BOnlyAllowOnePerFrame {
 }
 export interface ZType {
+  comment: string;
 }
 
 }

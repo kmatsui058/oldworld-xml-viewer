@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   iBase?: ZType | string;
   iPerCity?: ZType | string;
   iPerUnit?: ZType | string;

@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  AdviceFound: ZType | string;
   zUnitWidget: ZType | string;
   zCityWidget: ZType | string;
   zCharacterPortraitBackground: ZType | string;
@@ -22,6 +23,8 @@ export interface Entry {
   iLeaderUnmarriedOpinion?: ZType | string;
   iLeaderTribeSpouseOpinion?: ZType | string;
   iNoCouncilOpinion?: ZType | string;
+  iGeneralOpinion?: ZType | string;
+  iGovernorOpinion?: ZType | string;
   iLuxuryOpinion?: ZType | string;
   iWonderOpinion?: ZType | string;
   iHolyCityOpinion?: ZType;

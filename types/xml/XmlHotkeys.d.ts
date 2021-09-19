@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   HotkeyClass: ZType | string;
   Keys: ZType | string;
   bKeyboardMap?: ZType | string;

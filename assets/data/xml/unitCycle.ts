@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "eUnitCycle": {
@@ -15,52 +15,52 @@
       },
       {
         "zType": "UNITCYCLE_FOUND",
-        "zName": "Found",
+        "Name": "TEXT_UNITCYCLE_FOUND",
         "eUnitCycle": "FOUND"
       },
       {
         "zType": "UNITCYCLE_WORKER",
-        "zName": "Worker",
+        "Name": "TEXT_UNITCYCLE_WORKER",
         "eUnitCycle": "WORKER"
       },
       {
         "zType": "UNITCYCLE_DISCIPLE",
-        "zName": "Disciple",
+        "Name": "TEXT_UNITCYCLE_DISCIPLE",
         "eUnitCycle": "DISCIPLE"
       },
       {
         "zType": "UNITCYCLE_SCOUT",
-        "zName": "Scout",
+        "Name": "TEXT_UNITCYCLE_SCOUT",
         "eUnitCycle": "SCOUT"
       },
       {
         "zType": "UNITCYCLE_CARAVAN",
-        "zName": "Caravan",
+        "Name": "TEXT_UNITCYCLE_CARAVAN",
         "eUnitCycle": "CARAVAN"
       },
       {
         "zType": "UNITCYCLE_MILITARY_WATER",
-        "zName": "Water",
+        "Name": "TEXT_UNITCYCLE_MILITARY_WATER",
         "eUnitCycle": "MILITARY_WATER"
       },
       {
         "zType": "UNITCYCLE_MILITARY_SIEGE",
-        "zName": "Siege",
+        "Name": "TEXT_UNITCYCLE_MILITARY_SIEGE",
         "eUnitCycle": "MILITARY_SIEGE"
       },
       {
         "zType": "UNITCYCLE_MILITARY_RANGED",
-        "zName": "Ranged",
+        "Name": "TEXT_UNITCYCLE_MILITARY_RANGED",
         "eUnitCycle": "MILITARY_RANGED"
       },
       {
         "zType": "UNITCYCLE_MILITARY_MOUNTED",
-        "zName": "Mounted",
+        "Name": "TEXT_UNITCYCLE_MILITARY_MOUNTED",
         "eUnitCycle": "MILITARY_MOUNTED"
       },
       {
         "zType": "UNITCYCLE_MILITARY_INFANTRY",
-        "zName": "Infantry",
+        "Name": "TEXT_UNITCYCLE_MILITARY_INFANTRY",
         "eUnitCycle": "MILITARY_INFANTRY"
       }
     ]

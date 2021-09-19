@@ -17,7 +17,7 @@ export interface Entry {
   zAudioAttackType: ZType | string;
   zAudioDamagedByProjectileType: ZType | string;
   azGenderIconName?: ZType;
-  azGenderPortraitName?: ZType;
+  azGenderPortraitName?: AzGenderPortraitName;
   azBarbarianPortraitName?: AzBarbarianPortraitName;
   aeFormations: AeFormations;
   Achievement?: ZType | string;
@@ -44,6 +44,7 @@ export interface Entry {
   iProduction?: ZType | string;
   iProductionPer?: ZType | string;
   iPopulationCost?: ZType;
+  iUpgradeCost?: ZType | string;
   iStartFirst?: ZType | string;
   fAttackDuration?: ZType | string;
   fAnimNormalMoveDuration?: ZType | string;
@@ -76,6 +77,7 @@ export interface Entry {
   bPromote?: ZType | string;
   bGeneral?: ZType | string;
   bBarbCity?: ZType | string;
+  bBarbRaid?: ZType | string;
   bNoHurry?: ZType;
   aiStartDifficulty?: AiStartDifficulty;
   aiUnitTraitModifier?: AiUnitTraitModifier;
@@ -88,6 +90,7 @@ export interface Entry {
   aiAttackPercent?: AiStartDifficulty;
   aeObsoleteTech?: AeObsoleteTech;
   aeUpgradeUnit?: AeObsoleteTech;
+  aeTribeUpgradeUnit?: AzBarbarianPortraitName;
   aeUnitTrait: AeObsoleteTech;
   aeEffectUnit?: AeObsoleteTech;
   aeRemoveVegetation?: AeFormations;
@@ -122,6 +125,9 @@ export interface AeFormations {
 }
 export interface AzBarbarianPortraitName {
   Pair?: Pair[] | Pair;
+}
+export interface AzGenderPortraitName {
+  Pair?: Pair[];
 }
 export interface Pair {
   zIndex: string;

@@ -16,15 +16,15 @@
       },
       {
         "zType": "TEXT_FAMILY_ADASI",
-        "English": "Adasi~Adasi~Adasi"
+        "English": "Adasi~Adasis~Adasi"
       },
       {
         "zType": "TEXT_FAMILY_ERISHUM",
-        "English": "Erishum~Erishum~Erishum"
+        "English": "Erishum~Erishums~Erishum"
       },
       {
         "zType": "TEXT_FAMILY_TUDIYA",
-        "English": "Tudiya~Tudiya~Tudiya"
+        "English": "Tudiya~Tudiyas~Tudiya"
       },
       {
         "zType": "TEXT_FAMILY_CHALDEAN",
@@ -40,7 +40,7 @@
       },
       {
         "zType": "TEXT_FAMILY_ISIN",
-        "English": "Isin~Isin~Isin"
+        "English": "Isin~Isins~Isin"
       },
       {
         "zType": "TEXT_FAMILY_BARCID",
@@ -68,7 +68,7 @@
       },
       {
         "zType": "TEXT_FAMILY_AMARNA",
-        "English": "Amarna~Amarna~Amarna"
+        "English": "Amarna~Amarnas~Amarna"
       },
       {
         "zType": "TEXT_FAMILY_SAITE",

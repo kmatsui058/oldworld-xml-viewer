@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "zIconName": {
@@ -30,7 +30,7 @@
       },
       {
         "zType": "COURTIER_SOLDIER",
-        "zName": "Court Soldier",
+        "Name": "TEXT_COURTIER_SOLDIER",
         "zIconName": "COURTIER_SOLDIER",
         "aiRatingBase": {
           "Pair": {
@@ -125,12 +125,12 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Soldier"
+          "zValue": "TEXT_COURTIER_SOLDIER_NICKNAME"
         }
       },
       {
         "zType": "COURTIER_MINISTER",
-        "zName": "Court Minister",
+        "Name": "TEXT_COURTIER_MINISTER",
         "zIconName": "COURTIER_MINISTER",
         "aiRatingBase": {
           "Pair": {
@@ -217,12 +217,12 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Minister"
+          "zValue": "TEXT_COURTIER_MINISTER_NICKNAME"
         }
       },
       {
         "zType": "COURTIER_MERCHANT",
-        "zName": "Court Merchant",
+        "Name": "TEXT_COURTIER_MERCHANT",
         "zIconName": "COURTIER_MERCHANT",
         "aiRatingBase": {
           "Pair": {
@@ -305,12 +305,12 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Merchant"
+          "zValue": "TEXT_COURTIER_MERCHANT_NICKNAME"
         }
       },
       {
         "zType": "COURTIER_SCIENTIST",
-        "zName": "Court Scholar",
+        "Name": "TEXT_COURTIER_SCIENTIST",
         "zIconName": "COURTIER_SCIENTIST",
         "aiRatingBase": {
           "Pair": {
@@ -389,7 +389,7 @@
           ]
         },
         "azNicknames": {
-          "zValue": "the Scientist"
+          "zValue": "TEXT_COURTIER_SCIENTIST_NICKNAME"
         }
       }
     ]

@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zIconName: ZType | string;
   zColor: ZType | string;
   zInactiveColor: ZType | string;
@@ -16,6 +16,7 @@ export interface Entry {
   iOpinionEnemy?: ZType | string;
   iOpinionEthnicity?: ZType | string;
   iOpinionReligion?: ZType | string;
+  iWarModifier?: ZType | string;
   iBlock?: ZType | string;
   bHostile?: ZType | string;
   bPeace?: ZType | string;

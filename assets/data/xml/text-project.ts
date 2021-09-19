@@ -12,7 +12,7 @@
       },
       {
         "zType": "TEXT_PROJECT_REPAIR",
-        "English": "Repairs"
+        "English": "Repair Damage"
       },
       {
         "zType": "TEXT_PROJECT_MONARCH",
@@ -52,7 +52,7 @@
       },
       {
         "zType": "TEXT_PROJECT_FORUM_1",
-        "English": "Forum I~a Forum I~Forums I"
+        "English": "Forum I~a Forum I~Forums I~Forums"
       },
       {
         "zType": "TEXT_PROJECT_FORUM_2",

@@ -9,9 +9,11 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Hint?: ZType;
   Class?: ZType | string;
   AssetVariation: ZType | string;
   AssetConstruction?: ZType;
+  WorkerAnimation?: ZType;
   zIconName: ZType | string;
   iBuildTurns?: ZType;
   iBuildCost?: ZType;
@@ -31,7 +33,6 @@ export interface Entry {
   iCitySiteUnits?: ZType;
   iDefendUnits?: ZType;
   iUnitTurns?: ZType;
-  iUnitReligionDie?: ZType;
   iUnitHeal?: ZType;
   iLegitimacy?: ZType;
   iOpinionReligion?: ZType;
@@ -40,7 +41,6 @@ export interface Entry {
   bTerritoryOnly: ZType | string;
   bUrban?: ZType | string;
   bRequiresUrban?: ZType | string;
-  bTradeNetwork?: ZType;
   bSpreadsBorders?: ZType;
   bNoAdjacentReligion?: ZType;
   bNoVegetation: ZType | string;
@@ -48,6 +48,7 @@ export interface Entry {
   bFreshWaterValid?: ZType;
   bRiverValid?: ZType;
   bRotateTowardsLand?: ZType;
+  bRotateToRiverEdge?: ZType;
   bCoastLandValid?: ZType;
   bCoastWaterValid?: ZType;
   bCityValid?: ZType;
@@ -88,9 +89,6 @@ export interface Entry {
   aiYieldPillage: AiYieldPillage;
   aiYieldFreshWaterModifier?: ZType;
   aiYieldRiverModifier?: ZType;
-  aiTerrainModifier?: ZType;
-  aiHeightModifier?: ZType;
-  aiAdjacentHeightModifier?: ZType;
   aiAdjacentImprovementModifier?: AiYieldPillage;
   aiUnitTraitHeal?: ZType;
   aiUnitTraitXP?: ZType;
@@ -99,16 +97,16 @@ export interface Entry {
   abTerrainValid: AbTerrainValid;
   abTerrainInvalid?: ZType;
   abHeightValid?: AbHeightValid;
+  abHeightInvalid?: ZType;
   abHeightAdjacentValid?: ZType;
   abVegetationValid?: ZType;
   abNoBaseOutput?: AbTerrainValid;
   aeResourceAssetVariation?: AeResourceAssetVariation;
-  aeUnitDefend?: ZType;
-  aaiImprovementClassYieldOutput?: ZType;
+  aeTribeUnitDefend?: ZType;
+  aaiAdjacentImprovementClassYield?: ZType;
   aaiTerrainYieldModifier?: AaiTerrainYieldModifier;
   aaiHeightYieldModifier?: AaiTerrainYieldModifier;
   aaiAdjacentHeightYieldModifier?: ZType;
-  aaiAdjacentImprovementYieldModifier?: ZType;
   aaiTribeUnitDie?: ZType;
   zAudioLoopWhenBuilding?: ZType;
   zAudioSwitchName?: ZType;

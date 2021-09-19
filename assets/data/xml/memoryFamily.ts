@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zText": {
+        "Text": {
           "comment": "Player-facing string describing the memory."
         },
         "MemoryLevel": {
@@ -24,1042 +24,882 @@
       },
       {
         "zType": "MEMORYFAMILY_FOUNDED_CITY",
-        "zText": "Founded a City for us",
+        "Text": "TEXT_MEMORYFAMILY_FOUNDED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FOUNDED_FAMILY_SEAT",
-        "zText": "Founded our link(CONCEPT_FAMILY_SEAT)",
+        "Text": "TEXT_MEMORYFAMILY_FOUNDED_FAMILY_SEAT",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REGAINED_CITY",
-        "zText": "We regained a City",
+        "Text": "TEXT_MEMORYFAMILY_REGAINED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LOST_CITY",
-        "zText": "We lost a City",
+        "Text": "TEXT_MEMORYFAMILY_LOST_CITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GIVEN_CITY",
-        "zText": "Gave us a City",
+        "Text": "TEXT_MEMORYFAMILY_GIVEN_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GAVE_AWAY_CITY",
-        "zText": "Gave away our City",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_AWAY_CITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_US_CITY",
-        "zText": "Refused to give us a City",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_US_CITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_US_LUXURY",
-        "zText": "Refused to give us a Luxury",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_US_LUXURY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_PURSUED_AMBITION",
-        "zText": "Pursued our link(CONCEPT_AMBITION)",
+        "Text": "TEXT_MEMORYFAMILY_PURSUED_AMBITION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_OUR_AMBITION",
-        "zText": "Completed our link(CONCEPT_AMBITION)",
+        "Text": "TEXT_MEMORYFAMILY_OUR_AMBITION",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_OUR_LEGACY",
-        "zText": "Completed our Legacy",
+        "Text": "TEXT_MEMORYFAMILY_OUR_LEGACY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DIVORCE",
-        "zText": "Divorce",
+        "Text": "TEXT_MEMORYFAMILY_DIVORCE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BYPASSED_HEIR",
-        "zText": "Bypassed Heir",
+        "Text": "TEXT_MEMORYFAMILY_BYPASSED_HEIR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REMOVED_LUXURY",
-        "zText": "Removed Luxury",
+        "Text": "TEXT_MEMORYFAMILY_REMOVED_LUXURY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MARRIAGE_DECLINE",
-        "zText": "Declined Marriage",
+        "Text": "TEXT_MEMORYFAMILY_MARRIAGE_DECLINE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MARRIAGE_OTHER",
-        "zText": "Married other Family",
+        "Text": "TEXT_MEMORYFAMILY_MARRIAGE_OTHER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ASSASSINATION_EXPOSED",
-        "zText": "Assassination exposed",
+        "Text": "TEXT_MEMORYFAMILY_ASSASSINATION_EXPOSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_GIFTS",
-        "zText": "Sent us gifts",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_GIFTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_MEMBER_EXILED",
-        "zText": "Exiled our family member",
+        "Text": "TEXT_MEMORYFAMILY_MEMBER_EXILED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_MEMBER_IMPRISONED",
-        "zText": "Imprisoned our family member",
+        "Text": "TEXT_MEMORYFAMILY_MEMBER_IMPRISONED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_LAW",
-        "zText": "Refused to change Law",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_LAW",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_CHANGED_LAW",
-        "zText": "Agreed to change Law",
+        "Text": "TEXT_MEMORYFAMILY_CHANGED_LAW",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SUCCESSION_HONORED",
-        "zText": "Honored us during succession",
+        "Text": "TEXT_MEMORYFAMILY_SUCCESSION_HONORED",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HOSTED_CORONATION",
-        "zText": "Hosted a grand coronation",
+        "Text": "TEXT_MEMORYFAMILY_HOSTED_CORONATION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_PLANNED_CORONATION",
-        "zText": "Planned coronation festivities",
+        "Text": "TEXT_MEMORYFAMILY_PLANNED_CORONATION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SECURING_PEACE_SUICIDE",
-        "zText": "Forced suicide",
+        "Text": "TEXT_MEMORYFAMILY_SECURING_PEACE_SUICIDE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING",
-        "zText": "Kept a kidnapped infant",
+        "Text": "TEXT_MEMORYFAMILY_SECURING_PEACE_MISUNDERSTANDING",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_WIFE_ASSASSINATED",
-        "zText": "Assassinated our family member",
+        "Text": "TEXT_MEMORYFAMILY_WIFE_ASSASSINATED",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FOREIGN_DELEGATION_KILLED",
-        "zText": "Murdered a gift-bearing delegation",
+        "Text": "TEXT_MEMORYFAMILY_FOREIGN_DELEGATION_KILLED",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ADOPT_HEIR_YES",
-        "zText": "Adopted our child",
+        "Text": "TEXT_MEMORYFAMILY_ADOPT_HEIR_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ADOPT_HEIR_NO",
-        "zText": "Did not adopt from us",
+        "Text": "TEXT_MEMORYFAMILY_ADOPT_HEIR_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MURDEROUS_INTRIGUE",
-        "zText": "Plotted to kill own Heir",
+        "Text": "TEXT_MEMORYFAMILY_MURDEROUS_INTRIGUE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REPRESSED_ASCETICS",
-        "zText": "Repressed ascetic movement",
+        "Text": "TEXT_MEMORYFAMILY_REPRESSED_ASCETICS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
+        "zType": "MEMORYFAMILY_WAR_COUNCIL_POS",
+        "Text": "TEXT_MEMORYFAMILY_WAR_COUNCIL_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_WAR_COUNCIL_NEG",
+        "Text": "TEXT_MEMORYFAMILY_WAR_COUNCIL_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_PILLAGED_COMPENSATION_POS",
+        "Text": "TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_PILLAGED_COMPENSATION_NEG",
+        "Text": "TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_NEG",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
         "zType": "MEMORYFAMILY_MONKEY_THIEF_KEPT",
-        "zText": "Kept our stolen things",
+        "Text": "TEXT_MEMORYFAMILY_MONKEY_THIEF_KEPT",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MONKEY_THIEF_RETURNED",
-        "zText": "Returned our stolen things",
+        "Text": "TEXT_MEMORYFAMILY_MONKEY_THIEF_RETURNED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MONKEY_DIPLOMAT_KEPT",
-        "zText": "Kept our stolen regalia",
+        "Text": "TEXT_MEMORYFAMILY_MONKEY_DIPLOMAT_KEPT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MONKEY_DIPLOMAT_RETURNED",
-        "zText": "Returned our stolen regalia",
+        "Text": "TEXT_MEMORYFAMILY_MONKEY_DIPLOMAT_RETURNED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_QUARREL_RETURN",
-        "zText": "Returned fleeing wife",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_QUARREL_RETURN",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FORCED_MATCH",
-        "zText": "Forced us to marry a Barbarian",
+        "Text": "TEXT_MEMORYFAMILY_FORCED_MATCH",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HIDEOUS_MATCH",
-        "zText": "Chose us a hideous spouse",
+        "Text": "TEXT_MEMORYFAMILY_HIDEOUS_MATCH",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_DIFF_NEGATIVE",
-        "zText": "Called us fools",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_DIFF_NEGATIVE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_DIFFERENT",
-        "zText": "Adhered to our council",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_DIFFERENT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GENERAL_TRIUMPH",
-        "zText": "Triumph for our General",
+        "Text": "TEXT_MEMORYFAMILY_GENERAL_TRIUMPH",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_OVERCROWDED_CITY",
-        "zText": "Overcrowded our cities with children",
+        "Text": "TEXT_MEMORYFAMILY_OVERCROWDED_CITY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HIGH_PRIESTS",
-        "zText": "You obeyed the Gods",
+        "Text": "TEXT_MEMORYFAMILY_HIGH_PRIESTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RELIGIOUS_FREEDOM",
-        "zText": "Protected us from the high priests",
+        "Text": "TEXT_MEMORYFAMILY_RELIGIOUS_FREEDOM",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ANGRY_FAMILIES",
-        "zText": "We had to sacrifice more",
+        "Text": "TEXT_MEMORYFAMILY_ANGRY_FAMILIES",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_LONG"
       },
       {
-        "zType": "MEMORYFAMILY_STRICTER_RULES",
-        "zText": "Angered the Gods",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
         "zType": "MEMORYFAMILY_IGNORED_WARNING",
-        "zText": "Ignored our warnings",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_WARNING",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_INITIATED_REFORMS",
-        "zText": "Initiated reforms",
+        "Text": "TEXT_MEMORYFAMILY_INITIATED_REFORMS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_COUNCIL_GOVERNMENT",
-        "zText": "Formed a council government",
+        "Text": "TEXT_MEMORYFAMILY_COUNCIL_GOVERNMENT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IMPRISONED_FAMILY_ELDER",
-        "zText": "Imprisoned our elder",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_FAMILY_ELDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_FAMILY_ELDER",
-        "zText": "Killed our elder",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_FAMILY_ELDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HEALED_RIFT",
-        "zText": "Ruler extended a hand in peace",
+        "Text": "TEXT_MEMORYFAMILY_HEALED_RIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MURDERED_ALL_FAMILY",
-        "zText": "Murdered bloodline",
+        "Text": "TEXT_MEMORYFAMILY_MURDERED_ALL_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_CELEBRATED_GENERAL",
-        "zText": "A general celebrated by the people",
+        "Text": "TEXT_MEMORYFAMILY_CELEBRATED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_CELEBRATION",
-        "zText": "Refused to celebrate our family general",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_CELEBRATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NO_TRANSLATIONS",
-        "zText": "Refused to translate foreign texts",
+        "Text": "TEXT_MEMORYFAMILY_NO_TRANSLATIONS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_LONG"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLIGHTED_AT_COURT",
+        "Text": "TEXT_MEMORYFAMILY_SLIGHTED_AT_COURT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYFAMILY_FEMALE_EDUCATION_NO",
-        "zText": "Maintained educational traditions",
+        "Text": "TEXT_MEMORYFAMILY_FEMALE_EDUCATION_NO",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYFAMILY_DID_NOT_ATTACK",
-        "zText": "Did not attack barbarians",
+        "Text": "TEXT_MEMORYFAMILY_DID_NOT_ATTACK",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_WENT_TO_WAR",
-        "zText": "Took our advice and attacked barbarians",
+        "Text": "TEXT_MEMORYFAMILY_WENT_TO_WAR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
+        "zType": "MEMORYFAMILY_FAMILY_SCUFFLE_FAVORED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SCUFFLE_FAVORED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SCUFFLE_UNFAVORED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SCUFFLE_UNFAVORED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
         "zType": "MEMORYFAMILY_BORROWED_MONEY",
-        "zText": "Borrowed money from us",
+        "Text": "TEXT_MEMORYFAMILY_BORROWED_MONEY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FRUGAL_RULER",
-        "zText": "Remained a ruler of the people",
+        "Text": "TEXT_MEMORYFAMILY_FRUGAL_RULER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NOT_FRUGAL_RULER",
-        "zText": "Set a royal example",
+        "Text": "TEXT_MEMORYFAMILY_NOT_FRUGAL_RULER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FIRED_GENERAL",
-        "zText": "Released a beloved general",
+        "Text": "TEXT_MEMORYFAMILY_FIRED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ELEVATED_GENERAL",
-        "zText": "Elevated a general to the court",
+        "Text": "TEXT_MEMORYFAMILY_ELEVATED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_EXECUTED_OFFICER",
-        "zText": "Executed our officer",
+        "Text": "TEXT_MEMORYFAMILY_EXECUTED_OFFICER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_ACTED_PARANOID",
-        "zText": "Targeted by paranoid ruler",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+        "zType": "MEMORYFAMILY_DISTRIBUTED_PLUNDER",
+        "Text": "TEXT_MEMORYFAMILY_DISTRIBUTED_PLUNDER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_OVERLOOKED_GATHERINGS",
-        "zText": "Overlooked our gatherings",
+        "Text": "TEXT_MEMORYFAMILY_OVERLOOKED_GATHERINGS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_APPROVED_FORCED_DEPORTATION",
-        "zText": "Approved deportation of our people",
+        "Text": "TEXT_MEMORYFAMILY_APPROVED_FORCED_DEPORTATION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_PLUNDER_LOOTERS",
+        "Text": "TEXT_MEMORYFAMILY_PLUNDER_LOOTERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RECRUITED_FOREIGNERS",
-        "zText": "Recruited foreign fighters",
+        "Text": "TEXT_MEMORYFAMILY_RECRUITED_FOREIGNERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NO_FOREIGN_FIGHTERS",
-        "zText": "Refused foreign fighters",
+        "Text": "TEXT_MEMORYFAMILY_NO_FOREIGN_FIGHTERS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DENIED_MERCHANT_GUILD",
-        "zText": "Denied request for noble merchant guild",
+        "Text": "TEXT_MEMORYFAMILY_DENIED_MERCHANT_GUILD",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_APPROVED_MERCHANT_GUILD",
-        "zText": "Approved request for merchant guild",
+        "Text": "TEXT_MEMORYFAMILY_APPROVED_MERCHANT_GUILD",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_MERCHANT_CITY_YES",
-        "zText": "Approved merchant city status",
+        "Text": "TEXT_MEMORYFAMILY_GP_MERCHANT_CITY_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_EXECUTED_MERCHANT",
-        "zText": "Executed relative on court",
+        "Text": "TEXT_MEMORYFAMILY_GP_EXECUTED_MERCHANT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_KEPT_RELATIVE_ON_COURT",
-        "zText": "Kept relative as court merchant",
+        "Text": "TEXT_MEMORYFAMILY_GP_KEPT_RELATIVE_ON_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_LET_RELATIVE_ESCAPE",
-        "zText": "Allowed corrupt relative to escape",
+        "Text": "TEXT_MEMORYFAMILY_GP_LET_RELATIVE_ESCAPE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_IMPRISONED_RIVAL",
-        "zText": "Imprisoned court rival",
+        "Text": "TEXT_MEMORYFAMILY_GP_IMPRISONED_RIVAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_IMPRISONED_FAMILY",
-        "zText": "Imprisoned family member",
+        "Text": "TEXT_MEMORYFAMILY_GP_IMPRISONED_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_PUNISHED_FAMILY",
-        "zText": "Punished family member",
+        "Text": "TEXT_MEMORYFAMILY_GP_PUNISHED_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_PUNISHED_RIVAL",
-        "zText": "Punished family rival",
+        "Text": "TEXT_MEMORYFAMILY_GP_PUNISHED_RIVAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GP_RECUSED_LEADER",
-        "zText": "Ignored our plea for justice",
+        "Text": "TEXT_MEMORYFAMILY_GP_RECUSED_LEADER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GIFTED_PRICELESS_ARTIFACTS",
-        "zText": "Gifted priceless artifacts",
+        "Text": "TEXT_MEMORYFAMILY_GIFTED_PRICELESS_ARTIFACTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_APPEASED_BARBARIANS",
-        "zText": "Appeased the barbarians",
+        "Text": "TEXT_MEMORYFAMILY_APPEASED_BARBARIANS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HOMECOMING_FEAST",
-        "zText": "Attended a homecoming feast for the heir",
+        "Text": "TEXT_MEMORYFAMILY_HOMECOMING_FEAST",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DENIED_RIVAL_FAMILY",
-        "zText": "Ruler denied a rival family",
+        "Text": "TEXT_MEMORYFAMILY_DENIED_RIVAL_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RELEASED_FANATICAL_PRIESTS",
-        "zText": "Release fanatical priests",
+        "Text": "TEXT_MEMORYFAMILY_RELEASED_FANATICAL_PRIESTS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_FAMILY_MEMBER",
-        "zText": "Executed family member",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_FAMILY_MEMBER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_RELEASE",
-        "zText": "Request to release prisoner denied",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_RELEASE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
-        "zType": "MEMORYFAMILY_RELEASED_PRISONER",
-        "zText": "Released political prisoner",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
         "zType": "MEMORYFAMILY_ACCEPTED_MISTHOPHORIA",
-        "zText": "Permitted payment for public work",
+        "Text": "TEXT_MEMORYFAMILY_ACCEPTED_MISTHOPHORIA",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REJECTED_MISTHOPHORIA",
-        "zText": "Rejected payment for public work",
+        "Text": "TEXT_MEMORYFAMILY_REJECTED_MISTHOPHORIA",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Diplomacy",
-        "zType": "MEMORYFAMILY_GRAVE_OFFENSE",
-        "zText": "Ritual humiliation",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_SECURING_PEACE_NO",
-        "zText": "Refused our helpful offer",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
         "zType": "MEMORYFAMILY_HUNTING_PARTY_IMPRISONED",
-        "zText": "Hunting party imprisoned",
+        "Text": "TEXT_MEMORYFAMILY_HUNTING_PARTY_IMPRISONED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_HUNTING_PARTY_SCOLDED",
-        "zText": "Scolded us after rescuing our hunting party",
+        "Text": "TEXT_MEMORYFAMILY_HUNTING_PARTY_SCOLDED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_PROTECTED_OUR_HUNTING_PARTY",
-        "zText": "Protected our hunting party during foreign dispute",
+        "Text": "TEXT_MEMORYFAMILY_PROTECTED_OUR_HUNTING_PARTY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RELIGION_DENOUNCE_NO",
-        "zText": "Refused to stand up for our beliefs",
+        "Text": "TEXT_MEMORYFAMILY_RELIGION_DENOUNCE_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RELIGION_WAR_NO",
-        "zText": "Refused to fight for our beliefs",
+        "Text": "TEXT_MEMORYFAMILY_RELIGION_WAR_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_LAW_DENOUNCE_NO",
-        "zText": "Refused to stand up for our values",
+        "Text": "TEXT_MEMORYFAMILY_LAW_DENOUNCE_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_LAW_WAR_NO",
-        "zText": "Refused to fight for our values",
+        "Text": "TEXT_MEMORYFAMILY_LAW_WAR_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_HELPED_COVER_UP",
-        "zText": "Helped cover up disappearance",
+        "Text": "TEXT_MEMORYFAMILY_HELPED_COVER_UP",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RELEASED_CAPTIVE",
-        "zText": "Released our prisoner",
+        "Text": "TEXT_MEMORYFAMILY_RELEASED_CAPTIVE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_FIXED_MISUNDERSTANDING",
-        "zText": "Fixed misunderstanding over prisoner",
+        "Text": "TEXT_MEMORYFAMILY_FIXED_MISUNDERSTANDING",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Combat",
         "zType": "MEMORYFAMILY_HONOR_AND_GLORY",
-        "zText": "Honored our General",
+        "Text": "TEXT_MEMORYFAMILY_HONOR_AND_GLORY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SAVED_TREASURES",
-        "zText": "Tried to rescue fleeing nobles",
+        "Text": "TEXT_MEMORYFAMILY_SAVED_TREASURES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RAISED_ENEMY_LEADERSHIP",
-        "zText": "Added enemy leadership to court",
+        "Text": "TEXT_MEMORYFAMILY_RAISED_ENEMY_LEADERSHIP",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Character",
-        "zType": "MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
-        "zText": "Insulted at feast",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND",
-        "zText": "Received gifts for royal birth",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS",
-        "zText": "Invited to heir's wedding",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING",
-        "zText": "Faux pas at heir's wedding",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_PARTISANS_HELP",
-        "zText": "Helped some of our Furious citizens",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_SABOTAGE_OK",
-        "zText": "Punished us for sabotage",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED",
-        "zText": "Sided with us in land dispute",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED",
-        "zText": "Sided against us in land dispute",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED",
-        "zText": "Seized an estate that we claim",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US",
-        "zText": "Let us join honor guard",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM",
-        "zText": "Let our rival join honor guard",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO",
-        "zText": "Refused our candidate for honor guard",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE",
-        "zText": "Sided with us in squabble",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED",
-        "zText": "Sided against us in squabble",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE",
-        "zText": "Took our bribe and did nothing",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE",
-        "zText": "Refused to side with us in squabble",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US",
-        "zText": "Attended our ceremony",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM",
-        "zText": "Attended our rival's ceremony",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO",
-        "zText": "Refused to attend our ceremony",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_QUARREL_ALLOW",
-        "zText": "Allowed lovers to escape",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_QUARREL_HELP",
-        "zText": "Helped pursue fleeing wife",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAMILY_GAMES",
-        "zText": "Hosted games in our honor",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY",
-        "zText": "Got rid of our philosopher friend",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE",
-        "zText": "Refused to debate your policy",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND",
-        "zText": "Reprimanded us for impropriety",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_IMPROPER_VASSAL_LET_GO",
-        "zText": "Failed to reprimand other vassals",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_HEATED_RIVALRY_REFUSE",
-        "zText": "Refused to abandon support for heir",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_NO",
-        "zText": "Refused to cover our costs",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO",
-        "zText": "Refused to supply our feast",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN",
-        "zText": "Cemented our close ties",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER",
-        "zText": "Blatantly favored other vassals",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN",
-        "zText": "Refused to preside over our ceremony",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER",
-        "zText": "Favored other vassals",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO",
-        "zText": "Refused our most sacred honor",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_GP_MERCHANT_TOWN_NO",
-        "zText": "Refused merchant town status",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
         "zType": "MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY",
-        "zText": "Comforted grieving family",
+        "Text": "TEXT_MEMORYFAMILY_COMFORTED_GRIEVING_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MADE_OTHER_GOVERNOR",
-        "zText": "Gave away governorship of city seat",
+        "Text": "TEXT_MEMORYFAMILY_MADE_OTHER_GOVERNOR",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_GOVERNORSHIP",
-        "zText": "Refused governorship to outsider",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_GOVERNORSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY",
-        "zText": "Refused our suitor for your child",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
         "zType": "MEMORYFAMILY_REFUSED_CENTRALIZATION",
-        "zText": "Refused to adopt Centralization",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_CENTRALIZATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ACCUSED_OF_CORRUPTION",
-        "zText": "Accused of corruption",
+        "Text": "TEXT_MEMORYFAMILY_ACCUSED_OF_CORRUPTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT",
-        "zText": "Covered up incriminating document",
+        "Text": "TEXT_MEMORYFAMILY_BURIED_INCRIMINATING_DOCUMENT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_SUCCESSFUL_HOLD_COURT",
+        "Text": "TEXT_MEMORYFAMILY_SUCCESSFUL_HOLD_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORY_HOSTED_FEAST",
-        "zText": "Hosted feast for noble families",
+        "Text": "TEXT_MEMORY_HOSTED_FEAST",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_CHOSEN_HEIR_NO",
-        "zText": "Refused to make one of the us the Heir",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
-      },
-      {
         "zType": "MEMORYFAMILY_FOREIGN_FEAST",
-        "zText": "Hosted by a foreign ruler",
+        "Text": "TEXT_MEMORYFAMILY_FOREIGN_FEAST",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DELIVERED_RELATIVE_TO_FOREIGNER",
-        "zText": "Delivered relative to foreign power",
+        "Text": "TEXT_MEMORYFAMILY_DELIVERED_RELATIVE_TO_FOREIGNER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_A_TOAST_MOTHERS_TOUCH_IGNORE",
-        "zText": "Allowed our general to be murdered",
+        "Text": "TEXT_MEMORYFAMILY_A_TOAST_MOTHERS_TOUCH_IGNORE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_FUNERAL",
-        "zText": "Refused to fund funeral",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_FUNERAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FUNDED_FUNERAL",
-        "zText": "Funded family funeral",
+        "Text": "TEXT_MEMORYFAMILY_FUNDED_FUNERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RODE_IN_FUNERAL",
-        "zText": "Rode in family funeral",
+        "Text": "TEXT_MEMORYFAMILY_RODE_IN_FUNERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_INTERVENTION",
-        "zText": "Ignored the court's intervention",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_INTERVENTION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REPRIMANDED",
-        "zText": "Reprimanded by ruler",
+        "Text": "TEXT_MEMORYFAMILY_REPRIMANDED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_PLEASED",
-        "zText": "Pleased with ruler",
+        "Text": "TEXT_MEMORYFAMILY_PLEASED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_RITUAL",
-        "zText": "Refused religious ritual",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_RITUAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_LONG"
       },
       {
         "zType": "MEMORYFAMILY_PARTICIPATED_IN_RITUAL",
-        "zText": "Participated in ritual",
+        "Text": "TEXT_MEMORYFAMILY_PARTICIPATED_IN_RITUAL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_LONG"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_INVITATION",
-        "zText": "Refused barbarian invitation",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_INVITATION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_OVERLOOKED_LOST_TAXES",
-        "zText": "Overlooked our tax theft",
+        "Text": "TEXT_MEMORYFAMILY_OVERLOOKED_LOST_TAXES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DEMANDED_REPAYMENT",
-        "zText": "Demanded payment of stolen taxes",
+        "Text": "TEXT_MEMORYFAMILY_DEMANDED_REPAYMENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TOLD_OF_PLOT",
-        "zText": "Told of conspiracy plot",
-        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
+        "Text": "TEXT_MEMORYFAMILY_TOLD_OF_PLOT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_TURNED_AWAY_TRAVELER",
-        "zText": "Turned away traveling beggar",
+        "Text": "TEXT_MEMORYFAMILY_TURNED_AWAY_TRAVELER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_MADE_EXCUSES_TO_BARBARIANS",
-        "zText": "Made excuses to barbarians",
+        "Text": "TEXT_MEMORYFAMILY_MADE_EXCUSES_TO_BARBARIANS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BIRTH_GIFT",
-        "zText": "Gave new heir birth gift",
+        "Text": "TEXT_MEMORYFAMILY_BIRTH_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_MONKEY_PAW_JEALOUS",
-        "zText": "Jealous of great renown",
+        "Text": "TEXT_MEMORYFAMILY_MONKEY_PAW_JEALOUS",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DEFIED_BARBARIAN",
-        "zText": "Defied barbarian ruler",
+        "Text": "TEXT_MEMORYFAMILY_DEFIED_BARBARIAN",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ALLIED_WITH_BARBARIAN",
-        "zText": "Allied with barbarian leader",
+        "Text": "TEXT_MEMORYFAMILY_ALLIED_WITH_BARBARIAN",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ACCEPTED_BARBARIAN_GIFTS",
-        "zText": "Accepted barbarian gifts",
+        "Text": "TEXT_MEMORYFAMILY_ACCEPTED_BARBARIAN_GIFTS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REJECTED_BARBARIAN_GIFTS",
-        "zText": "Rejected barbarian gifts",
+        "Text": "TEXT_MEMORYFAMILY_REJECTED_BARBARIAN_GIFTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RECEIVED_BARBARIAN_GENERAL",
-        "zText": "Accepted barbarian general",
+        "Text": "TEXT_MEMORYFAMILY_RECEIVED_BARBARIAN_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_HOSTED_BARBARIAN_RULER",
-        "zText": "Ruler hosted barbarian ruler",
+        "Text": "TEXT_MEMORYFAMILY_HOSTED_BARBARIAN_RULER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SURRENDERED_REMAINS",
-        "zText": "Surrendered remains of a fallen relative",
+        "Text": "TEXT_MEMORYFAMILY_SURRENDERED_REMAINS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_REMAINS",
-        "zText": "Denied the remains of a fallen relative",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_REMAINS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_DISPLEASURE",
-        "zText": "Ignored displeasure at mistreatment of spouse",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_DISPLEASURE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LET_LEGEND_GROW",
-        "zText": "Allowed hero's legend to grow",
+        "Text": "TEXT_MEMORYFAMILY_LET_LEGEND_GROW",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ROYAL_VISITOR",
-        "zText": "Hosted member of the royal family",
+        "Text": "TEXT_MEMORYFAMILY_ROYAL_VISITOR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RESPECT_FOR_FOLLOWER",
-        "zText": "Gained respect for royal scholar",
+        "Text": "TEXT_MEMORYFAMILY_RESPECT_FOR_FOLLOWER",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_TROUBLES_MEDIATED",
-        "zText": "Had troubles with rival mediated",
+        "Text": "TEXT_MEMORYFAMILY_TROUBLES_MEDIATED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DENIED_TRIBAL_HELP",
-        "zText": "Denied help from tribal intermediary",
+        "Text": "TEXT_MEMORYFAMILY_DENIED_TRIBAL_HELP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_PUNISHED_HEIR",
-        "zText": "Punished the heir for street brawl",
+        "Text": "TEXT_MEMORYFAMILY_PUNISHED_HEIR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ALLOWED_AUTONOMY",
-        "zText": "Allowed some city autonomy",
+        "Text": "TEXT_MEMORYFAMILY_ALLOWED_AUTONOMY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SHARED_THEIR_GRIEF",
-        "zText": "Shared their grief",
+        "Text": "TEXT_MEMORYFAMILY_SHARED_THEIR_GRIEF",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DID_NOT_EXPEL_STUDENT",
-        "zText": "You did not expel an unruly student.",
+        "Text": "TEXT_MEMORYFAMILY_DID_NOT_EXPEL_STUDENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "beginGroup": "Contact",
         "zType": "MEMORYFAMILY_FORCED_TO_KISS_FEET",
-        "zText": "Forced to kiss foreign ruler's feet",
+        "Text": "TEXT_MEMORYFAMILY_FORCED_TO_KISS_FEET",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DID_NOT_PUNISH_FOREIGNER",
-        "zText": "Refused to punish foreign counsel",
+        "Text": "TEXT_MEMORYFAMILY_DID_NOT_PUNISH_FOREIGNER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_THE_FOOL",
-        "zText": "Refused the fool",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_THE_FOOL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "beginGroup": "Family",
         "zType": "MEMORYFAMILY_FAMILY_GIFT_YES",
-        "zText": "Sent us extra gifts",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_GIFT_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_RECEIVED_GIFT",
-        "zText": "Received gift from ruler",
+        "Text": "TEXT_MEMORYFAMILY_RECEIVED_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SECOND_CLASS_CITIZENS_NEG",
-        "zText": "Did not permit family to rule as superiors to locals",
+        "Text": "TEXT_MEMORYFAMILY_SECOND_CLASS_CITIZENS_NEG",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SECOND_CLASS_CITIZENS_POS",
-        "zText": "Did permit family to rule as superiors to locals",
+        "Text": "TEXT_MEMORYFAMILY_SECOND_CLASS_CITIZENS_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_GAVE_DONATION",
-        "zText": "Gave donation to a worthy cause",
+        "Text": "TEXT_MEMORYPLAYER_GAVE_DONATION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_STATUE_DISPLAYED",
-        "zText": "Ruler displayed our statue",
+        "Text": "TEXT_MEMORYFAMILY_STATUE_DISPLAYED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_BRIBE",
-        "zText": "Accuse the throne of bribes",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_BRIBE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DID_NOT_ABDUCT_HEIR",
-        "zText": "Ruler would not abduct foreign heir",
+        "Text": "TEXT_MEMORYFAMILY_DID_NOT_ABDUCT_HEIR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_HEIR",
-        "zText": "Ruler ordered assassination of foreign heir",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_HEIR",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SUCCESSFUL_ABDUCTION",
-        "zText": "Staged a successful abduction",
+        "Text": "TEXT_MEMORYFAMILY_SUCCESSFUL_ABDUCTION",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_EXPOSED_PLOT",
-        "zText": "Exposed our plot",
+        "Text": "TEXT_MEMORYFAMILY_EXPOSED_PLOT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_APOLOGIZED_FOR_SLANDER",
-        "zText": "Apologized for slander",
+        "Text": "TEXT_MEMORYFAMILY_APOLOGIZED_FOR_SLANDER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_STOOD_BY_ACCUSATIONS",
-        "zText": "Ruler stood by accusations",
+        "Text": "TEXT_MEMORYFAMILY_STOOD_BY_ACCUSATIONS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SUSPECT_KIDNAPPING",
-        "zText": "Learned to fear ruler's power",
+        "Text": "TEXT_MEMORYFAMILY_SUSPECT_KIDNAPPING",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FORCED_END_TO_HOSTING",
-        "zText": "Forced to stop hosting successors",
+        "Text": "TEXT_MEMORYFAMILY_FORCED_END_TO_HOSTING",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
@@ -1070,708 +910,966 @@
       },
       {
         "zType": "MEMORYFAMILY_ATTENDED_FEAST_ALONE",
-        "zText": "Attended tribal feast alone",
+        "Text": "TEXT_MEMORYFAMILY_ATTENDED_FEAST_ALONE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST",
-        "zText": "Ignored request for a festival",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
-        "beginGroup": "City",
-        "zType": "MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY",
-        "zText": "Sent doctors to plagued city",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+        "zType": "MEMORYFAMILY_CHOSEN_HEIR_NO",
+        "Text": "TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
-        "zType": "MEMORYFAMILY_BURNED_OUT_PLAGUE",
-        "zText": "Burned areas to kill plague",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_ENCOURAGED_THE_POOR",
-        "zText": "Encouraged poor with religion",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_FREED_SLAVES",
-        "zText": "Freed the nation's slaves",
+        "zType": "MEMORYFAMILY_SUCCESSION_NO",
+        "Text": "TEXT_MEMORYFAMILY_SUCCESSION_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_REDIRECTED_FUNDS",
-        "zText": "Treated lavishly with royal funds",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES",
-        "zText": "Gave us ancient treasures",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_IMPRISONED_FIREBRAND",
-        "zText": "Imprisoned firebrand",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION",
-        "zText": "Utilized professional expertise of our elder",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
-        "beginGroup": "Miscellaneous",
         "zType": "MEMORYFAMILY_CEREMONIAL_OFFERING_NO",
-        "zText": "Refused to perform ceremonies for us",
+        "Text": "TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION",
-        "zText": "Requisitioned supplies for ceremonies",
+        "Text": "TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
+        "zType": "MEMORYFAMILY_FAMILY_GAMES",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_GAMES",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_QUARREL_ALLOW",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_QUARREL_ALLOW",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_QUARREL_HELP",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_QUARREL_HELP",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_US",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_THEM",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_INVITATIONS_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_TOOK_BRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REJECTED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_WASTED_BRIBE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_RUMORS_REFUSED_BRIBE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_US",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_THEM",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_HONOR_GUARD_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SUPPORTED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_OPPOSED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_SQUABBLE_LAND_SEIZED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAMILY_PARTISANS_HELP",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_PARTISANS_HELP",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_MAIN",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_OK_FAMILY_OTHER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_MAIN",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_CEREMONY_COMPROMISE_FAMILY_OTHER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO",
+        "Text": "TEXT_MEMORFAMILYY_FAVORED_VASSAL_CEREMONY_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_FEAST_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_VASSAL_NO",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_VASSAL_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_HEATED_RIVALRY_REFUSE",
+        "Text": "TEXT_MEMORYFAMILY_HEATED_RIVALRY_REFUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND",
+        "Text": "TEXT_MEMORYFAMILY_IMPROPER_VASSAL_REPRIMAND",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_IMPROPER_VASSAL_LET_GO",
+        "Text": "TEXT_MEMORYFAMILY_IMPROPER_VASSAL_LET_GO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE",
+        "Text": "TEXT_MEMORYFAMILY_CONTEST_OF_RHETORIC_REFUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY",
+        "Text": "TEXT_MEMORYFAMILY_RADICAL_PHILOSOPHER_RID_FAMILY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_STRICTER_RULES",
+        "Text": "TEXT_MEMORYFAMILY_STRICTER_RULES",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_SABOTAGE_OK",
+        "Text": "TEXT_MEMORYFAMILY_SABOTAGE_OK",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "City",
+        "zType": "MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY",
+        "Text": "TEXT_MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_BURNED_OUT_PLAGUE",
+        "Text": "TEXT_MEMORYFAMILY_BURNED_OUT_PLAGUE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_ENCOURAGED_THE_POOR",
+        "Text": "TEXT_MEMORYFAMILY_ENCOURAGED_THE_POOR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FREED_SLAVES",
+        "Text": "TEXT_MEMORYFAMILY_FREED_SLAVES",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_REDIRECTED_FUNDS",
+        "Text": "TEXT_MEMORYFAMILY_REDIRECTED_FUNDS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES",
+        "Text": "TEXT_MEMORYFAMILY_RUINS_GIFT_OF_VALUABLES",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_IMPRISONED_FIREBRAND",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_FIREBRAND",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION",
+        "Text": "TEXT_MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "beginGroup": "Miscellaneous",
         "zType": "MEMORYFAMILY_PYRAMIDS_BLOODLINE",
-        "zText": "Immortalized our bloodline",
+        "Text": "TEXT_MEMORYFAMILY_PYRAMIDS_BLOODLINE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ACROPOLIS_TREASURY",
-        "zText": "Granted a treasury in the Acropolis",
+        "Text": "TEXT_MEMORYFAMILY_ACROPOLIS_TREASURY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NECROPOLIS_RITES",
-        "zText": "Conducted a pious royal funeral",
+        "Text": "TEXT_MEMORYFAMILY_NECROPOLIS_RITES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_QUESTIONABLE_CARVING_DISPLAY",
-        "zText": "Displayed questionable carving",
+        "Text": "TEXT_MEMORYFAMILY_QUESTIONABLE_CARVING_DISPLAY",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_COTTAGE_DECOR_BUSTS",
-        "zText": "Installed ancestral busts",
+        "Text": "TEXT_MEMORYFAMILY_COTTAGE_DECOR_BUSTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RUNAWAY_SLAVE_REPRIMAND",
-        "zText": "Reprimanded for cruelty",
+        "Text": "TEXT_MEMORYFAMILY_RUNAWAY_SLAVE_REPRIMAND",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_RUNAWAY_SLAVE_BEAT",
-        "zText": "Returned runaway slave",
+        "Text": "TEXT_MEMORYFAMILY_RUNAWAY_SLAVE_BEAT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_EXOTIC_PETS_MONKEY_CHARM",
-        "zText": "Charmed by your adorable monkey",
+        "Text": "TEXT_MEMORYFAMILY_EXOTIC_PETS_MONKEY_CHARM",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_SUCCESSION_NO",
-        "zText": "Refused our succession changes",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
-      },
-      {
         "zType": "MEMORYFAMILY_WAYWARD_SUBJECT_FORGIVE",
-        "zText": "Forgave our wayward family member",
+        "Text": "TEXT_MEMORYFAMILY_WAYWARD_SUBJECT_FORGIVE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_WAYWARD_SUBJECT_IMPRISON",
-        "zText": "Imprisoned our wayward family member",
+        "Text": "TEXT_MEMORYFAMILY_WAYWARD_SUBJECT_IMPRISON",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GEM_SEEKERS_YES",
-        "zText": "Let us purchase gems",
+        "Text": "TEXT_MEMORYFAMILY_GEM_SEEKERS_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GEM_SEEKERS_GIFT",
-        "zText": "Gave us gems for free",
+        "Text": "TEXT_MEMORYFAMILY_GEM_SEEKERS_GIFT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GEM_SEEKERS_NO",
-        "zText": "Refused to sell us gems",
+        "Text": "TEXT_MEMORYFAMILY_GEM_SEEKERS_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NEW_AMBASSADOR_YES",
-        "zText": "Made our family member the Ambassador",
+        "Text": "TEXT_MEMORYFAMILY_NEW_AMBASSADOR_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NEW_AMBASSADOR_NO",
-        "zText": "Refused us the Ambassadorship",
+        "Text": "TEXT_MEMORYFAMILY_NEW_AMBASSADOR_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TOOK_CONTROL",
-        "zText": "Leader took control of estates",
+        "Text": "TEXT_MEMORYFAMILY_TOOK_CONTROL",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_CONTROL",
-        "zText": "Leader left estates alone",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_CONTROL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_ADOPTED_TYRANNY",
-        "zText": "Adopted Tyranny",
+        "Text": "TEXT_MEMORYFAMILY_LAW_ADOPTED_TYRANNY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_IMPRISONED_PATRIARCH",
-        "zText": "Imprisoned our patriarch",
+        "Text": "TEXT_MEMORYFAMILY_LAW_IMPRISONED_PATRIARCH",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_PROMOTED_FAMILY",
-        "zText": "Promoted family member to court",
+        "Text": "TEXT_MEMORYFAMILY_LAW_PROMOTED_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_ADOPTED_VOLUNTEERS",
-        "zText": "Adopted plan for Volunteers",
+        "Text": "TEXT_MEMORYFAMILY_LAW_ADOPTED_VOLUNTEERS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_DENIED_DIVINITY",
-        "zText": "Denied Divine Rule",
+        "Text": "TEXT_MEMORYFAMILY_LAW_DENIED_DIVINITY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_ADOPTED_DIVINE_RULE",
-        "zText": "Established Divine Rule",
+        "Text": "TEXT_MEMORYFAMILY_LAW_ADOPTED_DIVINE_RULE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_REFUSED_ASCETISM",
-        "zText": "Refused to embrace Ascetism",
+        "Text": "TEXT_MEMORYFAMILY_LAW_REFUSED_ASCETISM",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_PAID_OUR_DEBT",
-        "zText": "Paid our foreign debt",
+        "Text": "TEXT_MEMORYFAMILY_LAW_PAID_OUR_DEBT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LAW_REFUSED_TO_PAY_DEBT",
-        "zText": "Refused to pay debt",
+        "Text": "TEXT_MEMORYFAMILY_LAW_REFUSED_TO_PAY_DEBT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_WONDER_INVITED_BATHS",
-        "zText": "Invited us to the new baths",
+        "Text": "TEXT_MEMORYFAMILY_WONDER_INVITED_BATHS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_MANICHAEISM",
-        "zText": "Ignored interest in Manichaeism",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_MANICHAEISM",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_COUNCIL",
-        "zText": "Refused our choice for the Council",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_COUNCIL",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BETRAYED_TO_FOREIGNERS",
-        "zText": "Betrayed us to foreign power",
+        "Text": "TEXT_MEMORYFAMILY_BETRAYED_TO_FOREIGNERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_PLOT_HIDDEN",
-        "zText": "International plot kept hidden",
+        "Text": "TEXT_MEMORYPLAYER_PLOT_HIDDEN",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_PLEASURE_YACHTS",
-        "zText": "Built us pleasure yachts",
+        "Text": "TEXT_MEMORYFAMILY_PLEASURE_YACHTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REVEALED_TREACHERY",
-        "zText": "Revealed our treachery",
+        "Text": "TEXT_MEMORYFAMILY_REVEALED_TREACHERY",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SACKED_SCIENTIST",
-        "zText": "Sacked irresponsible scientist",
+        "Text": "TEXT_MEMORYFAMILY_SACKED_SCIENTIST",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SEIZED_ARMOR",
-        "zText": "Seized family horse armor",
+        "Text": "TEXT_MEMORYFAMILY_SEIZED_ARMOR",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_EXECUTED_PLOTTERS",
-        "zText": "Executed bath-house plotters",
+        "Text": "TEXT_MEMORYFAMILY_EXECUTED_PLOTTERS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IMPRISONED_RIVAL",
-        "zText": "Imprisoned innocent courtier",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_RIVAL",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IMPRISONED_FAMILY_HEAD_UNJUST",
-        "zText": "Unjustly imprisoned family oligarch",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_FAMILY_HEAD_UNJUST",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ALLY_WITH_LEADER",
-        "zText": "Convinced to favor our ruler",
+        "Text": "TEXT_MEMORYFAMILY_ALLY_WITH_LEADER",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_THREATENED_FAMILY",
-        "zText": "Give the {FAMILY-2,1} an ultimatum: join us, or suffer",
+        "Text": "TEXT_MEMORYFAMILY_THREATENED_FAMILY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SACRIFICED_RELATIVE",
-        "zText": "Sacrificed a relative at sea",
+        "Text": "TEXT_MEMORYFAMILY_SACRIFICED_RELATIVE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_REQUEST_OF_TROOPS",
-        "zText": "Refused foreign request for troops",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_REQUEST_OF_TROOPS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ATTENDED_FOREIGN_FEAST",
-        "zText": "Attended foreign feast",
+        "Text": "TEXT_MEMORYFAMILY_ATTENDED_FOREIGN_FEAST",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BLAMED_FOR_LAWS",
-        "zText": "Blamed for harsh laws",
+        "Text": "TEXT_MEMORYFAMILY_BLAMED_FOR_LAWS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_FOREIGN_FRIENDSHIP",
-        "zText": "Refused to continue foreign friendship",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_FOREIGN_FRIENDSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SUPPORTED_EXPEDITION",
-        "zText": "Supported plans for southern expedition",
+        "Text": "TEXT_MEMORYFAMILY_SUPPORTED_EXPEDITION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_DOMESTIC_ISSUES",
-        "zText": "Invested in silly expedition",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_DOMESTIC_ISSUES",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IGNORED_EXPEDITION",
-        "zText": "Refused to support our southern expedition",
+        "Text": "TEXT_MEMORYFAMILY_IGNORED_EXPEDITION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SUPPORTED_DOMESTIC_ISSUES",
-        "zText": "Supported the domestic agenda",
+        "Text": "TEXT_MEMORYFAMILY_SUPPORTED_DOMESTIC_ISSUES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_COMPROMISED",
-        "zText": "Comprised with other family on key issue",
+        "Text": "TEXT_MEMORYFAMILY_COMPROMISED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORY_DEFIED_ACCUSATION",
-        "zText": "Defied our accusation",
+        "Text": "TEXT_MEMORY_DEFIED_ACCUSATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORY_BELIEVED_ACCUSATION",
-        "zText": "Ostracized family member",
+        "Text": "TEXT_MEMORY_BELIEVED_ACCUSATION",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_SAVED_ACCUSED",
-        "zText": "Proved family member's innocence",
+        "Text": "TEXT_MEMORYFAMILY_SAVED_ACCUSED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_BORING_LEADER",
-        "zText": "We have a boring ruler",
+        "Text": "TEXT_MEMORYFAMILY_BORING_LEADER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_RUMORS",
-        "zText": "Refused to heed rumors",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_RUMORS",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ACCUSED_OF_MURDER",
-        "zText": "Accused us of plotting murder",
+        "Text": "TEXT_MEMORYFAMILY_ACCUSED_OF_MURDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_THE_LUTE_PLAYER",
-        "zText": "Sent your condolences",
+        "Text": "TEXT_MEMORYFAMILY_THE_LUTE_PLAYER",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FOREIGN_DELICASIES",
-        "zText": "Brought us foreign delicasies",
+        "Text": "TEXT_MEMORYFAMILY_FOREIGN_DELICASIES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_IMPRISONED_SPYMASTER",
-        "zText": "Imprisoned ineffective spymaster",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_SPYMASTER",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DID_NOT_PUNISH_SPYMASTER",
-        "zText": "Refused to punish ineffective spymaster",
+        "Text": "TEXT_MEMORYFAMILY_DID_NOT_PUNISH_SPYMASTER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_CURRY_FAVOR",
-        "zText": "Curried favor to win approval",
+        "Text": "TEXT_MEMORYFAMILY_CURRY_FAVOR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HONORED_FOR_INDIVIDUALS_ACT",
-        "zText": "Honored for one member's service",
+        "Text": "TEXT_MEMORYFAMILY_HONORED_FOR_INDIVIDUALS_ACT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_STAGED_PLAY",
-        "zText": "Staged play critical of court",
+        "Text": "TEXT_MEMORYFAMILY_STAGED_PLAY",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_CONSULAR_TRIBUNES",
-        "zText": "Granted military power on court",
+        "Text": "TEXT_MEMORYFAMILY_CONSULAR_TRIBUNES",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_LIED",
-        "zText": "Lied about intentions",
+        "Text": "TEXT_MEMORYFAMILY_LIED",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Exploration",
         "zType": "MEMORYFAMILY_RAISED_MARBLE_PRICES",
-        "zText": "Raised marble prices",
+        "Text": "TEXT_MEMORYFAMILY_RAISED_MARBLE_PRICES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GAVE_OLIVE_OIL",
-        "zText": "Received gift of olive oil",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_OLIVE_OIL",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ENACTED_AMBITION_REVEAL_40",
-        "zText": "Agreed with us to focus on exploration",
+        "Text": "TEXT_MEMORYFAMILY_ENACTED_AMBITION_REVEAL_40",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DENIED_AMBITION_REVEAL_40",
-        "zText": "Denied our wish to focus on exploration",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+        "Text": "TEXT_MEMORYFAMILY_DENIED_AMBITION_REVEAL_40",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "beginGroup": "Law",
         "zType": "MEMORYFAMILY_IMPRISONED_MEMBER",
-        "zText": "Imprisoned family member",
+        "Text": "TEXT_MEMORYFAMILY_IMPRISONED_MEMBER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_IMPRESSED_IN_COURT",
-        "zText": "Impressed us in court",
+        "Text": "TEXT_MEMORYFAMILY_IMPRESSED_IN_COURT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_SEIZED_ESTATES_INFLATION",
+        "Text": "TEXT_MEMORYFAMILY_SEIZED_ESTATES_INFLATION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "beginGroup": "Community",
         "zType": "MEMORYFAMILY_WATCHED_BABY_LEADER_CRY",
-        "zText": "Remembered when you lost your nose and cried",
+        "Text": "TEXT_MEMORYFAMILY_WATCHED_BABY_LEADER_CRY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_TWO_MOTHERS_WISELY",
-        "zText": "You judged justly and wisely in a dispute between two mothers",
+        "Text": "TEXT_MEMORYFAMILY_TWO_MOTHERS_WISELY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TWO_MOTHERS_MURDER",
-        "zText": "You murdered a child in a dispute between two mothers",
+        "Text": "TEXT_MEMORYFAMILY_TWO_MOTHERS_MURDER",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TWO_MOTHERS_VICTORY",
-        "zText": "You ruled in our favor in a dispute between two mothers",
+        "Text": "TEXT_MEMORYFAMILY_TWO_MOTHERS_VICTORY",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TWO_MOTHERS_DEFEAT",
-        "zText": "You ruled against us in a dispute between two mothers",
+        "Text": "TEXT_MEMORYFAMILY_TWO_MOTHERS_DEFEAT",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "RENOUNCED_OUR_DISLIKED_RELIGION",
-        "zText": "Renounced religion we dislike",
+        "Text": "TEXT_RENOUNCED_OUR_DISLIKED_RELIGION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "ENLIGHTENED_US",
-        "zText": "Enlightened Us",
+        "Text": "TEXT_ENLIGHTENED_US",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_NOBLES",
-        "zText": "Killed Nobles",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_NOBLES",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "DENOUNCED_ANTICHRIST",
-        "zText": "Denounced the Antichrist",
+        "Text": "TEXT_DENOUNCED_ANTICHRIST",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_APPOINTED_JUDGES",
-        "zText": "Appointed us as judges",
+        "Text": "TEXT_MEMORYFAMILY_APPOINTED_JUDGES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LEGAL_DISPUTE_AGAINST",
-        "zText": "Sided against us in a legal dispute",
+        "Text": "TEXT_MEMORYFAMILY_LEGAL_DISPUTE_AGAINST",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_LEGAL_DISPUTE_SUPPORT",
-        "zText": "Sided with us in a legal dispute",
+        "Text": "TEXT_MEMORYFAMILY_LEGAL_DISPUTE_SUPPORT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GAVE_BOARD_GAME",
-        "zText": "Introduced a popular board game",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_BOARD_GAME",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_IN_COLD_WATER_POS",
-        "zText": "Sided with us after the bathhouse killing",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_IN_COLD_WATER_NEG",
-        "zText": "Accused us in the bathhouse murder",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_NEG",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_IN_COLD_WATER_LATER_POS",
-        "zText": "Supported us in the wake of the bath murders",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_LATER_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_KILLED_IN_COLD_WATER_BODYGUARDS",
-        "zText": "Guarded us during a killing spree",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_IN_COLD_WATER_BODYGUARDS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GAVE_JEWELS",
-        "zText": "Gave us beautiful jewelry",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_JEWELS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_ANTICHRIST",
-        "zText": "Refused to warn of the Antichrist",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_ANTICHRIST",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "REFORMED_RELIGION_ATENISM",
-        "zText": "Mandated Aten worship",
+        "Text": "TEXT_REFORMED_RELIGION_ATENISM",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "DESTROYED_TEMPLES_ATENISM",
-        "zText": "Destroyed temples in the name of Aten",
+        "Text": "TEXT_DESTROYED_TEMPLES_ATENISM",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HONORED_GENERAL",
-        "zText": "Honored our Geneal",
+        "Text": "TEXT_MEMORYFAMILY_HONORED_GENERAL",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GAVE_DELICIOUS_WINE",
-        "zText": "Gave us delicious drinks",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_DELICIOUS_WINE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_NONSENSE_SPEECH",
-        "zText": "Delivered an embarassingly nonsensical speech",
+        "Text": "TEXT_MEMORYFAMILY_NONSENSE_SPEECH",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_DEFENDED_PRIEST_PRICES",
-        "zText": "Defended priests raising ritual prices",
+        "Text": "TEXT_MEMORYFAMILY_DEFENDED_PRIEST_PRICES",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ARGUED_PRIEST_PRICES",
-        "zText": "Sided with family against the priests",
+        "Text": "TEXT_MEMORYFAMILY_ARGUED_PRIEST_PRICES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_BURIAL_RITES",
-        "zText": "Refused a family member burial rites",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_BURIAL_RITES",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ALLOWED_BURIAL_RITES",
-        "zText": "Allowed a family member burial rites",
+        "Text": "TEXT_MEMORYFAMILY_ALLOWED_BURIAL_RITES",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_HONORED_OUR_DEAD",
-        "zText": "Honoured our dead",
+        "Text": "TEXT_MEMORYFAMILY_HONORED_OUR_DEAD",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DISHONORED_OUR_DEAD",
-        "zText": "Dishonoured our dead",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+        "Text": "TEXT_MEMORYFAMILY_DISHONORED_OUR_DEAD",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ABANDONED_BURIAL_PRACTICES",
-        "zText": "Abandoned traditional burial practices",
+        "Text": "TEXT_MEMORYFAMILY_ABANDONED_BURIAL_PRACTICES",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_UPHELD_BURIAL_PRACTICES",
-        "zText": "Upheld traditional burial practices",
+        "Text": "TEXT_MEMORYFAMILY_UPHELD_BURIAL_PRACTICES",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_TOASTED",
-        "zText": "Toasted us at a celebration",
+        "Text": "TEXT_MEMORYFAMILY_TOASTED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ADOPTED_NEW_GOD_AS_OWN",
-        "zText": "Stopped us honouring a new god",
+        "Text": "TEXT_MEMORYFAMILY_ADOPTED_NEW_GOD_AS_OWN",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ENCOURAGED_WORSHIP",
-        "zText": "Encouraged us in honouring a new god",
+        "Text": "TEXT_MEMORYFAMILY_ENCOURAGED_WORSHIP",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DIVINE_LINEAGE",
-        "zText": "Has divine lineage",
+        "Text": "TEXT_MEMORYFAMILY_DIVINE_LINEAGE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_FAITH_SPONSORING",
-        "zText": "Stopped us from sponsoring worship",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_FAITH_SPONSORING",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REMOVED_CORRUPT_OPPONENT",
-        "zText": "Dealt with a corrupt member of another family",
+        "Text": "TEXT_MEMORYFAMILY_REMOVED_CORRUPT_OPPONENT",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_UNJUSTLY_KILLED_MEMBER",
-        "zText": "Unjustly killed a member of our family",
+        "Text": "TEXT_MEMORYFAMILY_UNJUSTLY_KILLED_MEMBER",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_DISPUTE_DIPLOMAT",
-        "zText": "Sorted out a family dispute in a diplomatic way",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_DISPUTE_DIPLOMAT",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
-        "zText": "Undermined religious standing",
+        "Text": "TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_IMPRESSED_BY_CHEF",
-        "zText": "Impressed by 'your' chef",
+        "Text": "TEXT_MEMORYFAMILY_IMPRESSED_BY_CHEF",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_PRAISED_CHEF",
-        "zText": "Praised our chef",
+        "Text": "TEXT_MEMORYFAMILY_PRAISED_CHEF",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_YES",
-        "zText": "Endorsed our favored successor",
+        "Text": "TEXT_MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_YES",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_NO",
-        "zText": "Endorsed a dispised successor",
+        "Text": "TEXT_MEMORYFAMILY_SUPPORTED_HEIR_CANDIDATE_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_ACCEPTED_TRUCE",
-        "zText": "Accepted a foreign truce",
+        "Text": "TEXT_MEMORYFAMILY_ACCEPTED_TRUCE",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_TRUCE",
-        "zText": "Refused a foreign truce",
+        "Text": "TEXT_MEMORYFAMILY_REFUSED_TRUCE",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_UNITED_AGAINST_LEADER",
-        "zText": "United against leader",
+        "Text": "TEXT_MEMORYFAMILY_UNITED_AGAINST_LEADER",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYFAMILY_DUEL_EXECUTION",
-        "zText": "Executed kin-slayer",
+        "Text": "TEXT_MEMORYFAMILY_DUEL_EXECUTION",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DUEL_EXILE",
-        "zText": "Exiled kin-slayer",
+        "Text": "TEXT_MEMORYFAMILY_DUEL_EXILE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DUEL_PARDON",
-        "zText": "Released kin-slayer",
+        "Text": "TEXT_MEMORYFAMILY_DUEL_PARDON",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_SUPPORTED",
-        "zText": "Supported us after general's death",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_SUPPORTED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_OPPOSED",
-        "zText": "Sided against us after general's death",
+        "Text": "TEXT_MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_OPPOSED",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_FLED_BATTLE",
-        "zText": "Fled the field of battle",
+        "Text": "TEXT_MEMORYFAMILY_FLED_BATTLE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DISAPPEARED_AMBASSADOR_WAR",
-        "zText": "Stood up to foreign subterfuge",
+        "Text": "TEXT_MEMORYFAMILY_DISAPPEARED_AMBASSADOR_WAR",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_DISAPPEARED_AMBASSADOR",
-        "zText": "Stood up to foreign subterfuge",
+        "Text": "TEXT_MEMORYFAMILY_DISAPPEARED_AMBASSADOR",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_ALLOWED_MARRIAGE",
+        "Text": "TEXT_MEMORYFAMILY_ALLOWED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_STOPPED_MARRIAGE",
+        "Text": "TEXT_MEMORYFAMILY_STOPPED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_CELEBRATED_SURVIVORS",
+        "Text": "TEXT_MEMORYFAMILY_CELEBRATED_SURVIVORS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_KILLED_SUCCESSOR",
+        "Text": "TEXT_MEMORYFAMILY_KILLED_SUCCESSOR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_DANGEROUS_IDEAS",
+        "Text": "TEXT_MEMORYFAMILY_DANGEROUS_IDEAS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_DANGEROUS_IDEAS_REJECT",
+        "Text": "TEXT_MEMORYFAMILY_DANGEROUS_IDEAS_REJECT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_DENOUNCED_FAITH",
+        "Text": "TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "MEMORYFAMILY_SECURING_PEACE_NO",
+        "Text": "TEXT_MEMORYFAMILY_SECURING_PEACE_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_GRAVE_OFFENSE",
+        "Text": "TEXT_MEMORYFAMILY_GRAVE_OFFENSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_RAID_DEFAULT_POS",
+        "Text": "TEXT_MEMORYFAMILY_RAID_DEFAULT_POS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING",
+        "Text": "TEXT_MEMORYFAMILY_HEIR_WEDDING_FAUX_PAS_NOTHING",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS",
+        "Text": "TEXT_MEMORYFAMILY_JOYOUS_WEDDING_ARISTOCRATS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND",
+        "Text": "TEXT_MEMORYFAMILY_CHILD_ROYAL_BIRTH_SEND",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY",
+        "Text": "TEXT_MEMORYFAMILY_A_LITTLE_PUSHBACK_FAMILY",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Leader",
+        "zType": "MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
+        "Text": "TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_1",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_1",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_4",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       }
     ]
   }

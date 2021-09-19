@@ -201,6 +201,9 @@
         "aiYieldRateReligion": {
           
         },
+        "aiYieldRateReligionNonState": {
+          
+        },
         "aiYieldRateHolyCityWorld": {
           
         },
@@ -319,6 +322,30 @@
         }
       },
       {
+        "zType": "EFFECTCITY_CAPITAL_NO_CHARACTERS",
+        "Name": "TEXT_EFFECTCITY_CAPITAL",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "YIELD_CULTURE",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "50"
+            }
+          ]
+        }
+      },
+      {
         "zType": "EFFECTCITY_FAMILY_SEAT",
         "Name": "TEXT_EFFECTCITY_FAMILY_SEAT"
       },
@@ -360,7 +387,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -372,6 +399,80 @@
             "zIndex": "YIELD_ORDERS",
             "iValue": "1"
           }
+        },
+        "aaiEffectCityYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "EFFECTCITY_IMPROVEMENT_GODS_CONSORT_SHRINE",
+              "SubPair": {
+                "zSubIndex": "YIELD_ORDERS",
+                "iValue": "5"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT",
+              "SubPair": {
+                "zSubIndex": "YIELD_GROWTH",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_POET_2",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_POET_3",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "20"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_PRIEST_2",
+              "SubPair": {
+                "zSubIndex": "YIELD_TRAINING",
+                "iValue": "5"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_PRIEST_3",
+              "SubPair": {
+                "zSubIndex": "YIELD_TRAINING",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_SCRIBE_2",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "10"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_SCRIBE_3",
+              "SubPair": {
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "20"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_PHILOSOPHER_2",
+              "SubPair": {
+                "zSubIndex": "YIELD_CIVICS",
+                "iValue": "5"
+              }
+            },
+            {
+              "zIndex": "EFFECTCITY_SPECIALIST_PHILOSOPHER_3",
+              "SubPair": {
+                "zSubIndex": "YIELD_CIVICS",
+                "iValue": "10"
+              }
+            }
+          ]
         }
       },
       {
@@ -386,6 +487,78 @@
             {
               "zIndex": "YIELD_FOOD",
               "iValue": "-20"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_LOW",
+        "Name": "TEXT_ADVANTAGE_LOW",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "10"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_MEDIUM",
+        "Name": "TEXT_ADVANTAGE_MEDIUM",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "25"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_HIGH",
+        "Name": "TEXT_ADVANTAGE_HIGH",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "50"
             }
           ]
         }
@@ -423,6 +596,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_LANDOWNERS_HONEY",
         "Name": "TEXT_EFFECTCITY_LUXURY_LANDOWNERS_HONEY",
+        "SourceFamilyClass": "FAMILYCLASS_LANDOWNERS",
         "SourceResource": "RESOURCE_HONEY",
         "aiYieldRate": {
           "Pair": [
@@ -440,6 +614,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_LANDOWNERS_OLIVE",
         "Name": "TEXT_EFFECTCITY_LUXURY_LANDOWNERS_OLIVE",
+        "SourceFamilyClass": "FAMILYCLASS_LANDOWNERS",
         "SourceResource": "RESOURCE_OLIVE",
         "aiYieldRate": {
           "Pair": [
@@ -457,6 +632,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_CHAMPIONS_WINE",
         "Name": "TEXT_EFFECTCITY_LUXURY_CHAMPIONS_WINE",
+        "SourceFamilyClass": "FAMILYCLASS_CHAMPIONS",
         "SourceResource": "RESOURCE_WINE",
         "aiYieldRate": {
           "Pair": [
@@ -474,6 +650,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_CHAMPIONS_DYE",
         "Name": "TEXT_EFFECTCITY_LUXURY_CHAMPIONS_DYE",
+        "SourceFamilyClass": "FAMILYCLASS_CHAMPIONS",
         "SourceResource": "RESOURCE_DYE",
         "aiYieldRate": {
           "Pair": [
@@ -491,6 +668,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_STATESMEN_PEARL",
         "Name": "TEXT_EFFECTCITY_LUXURY_STATESMEN_PEARL",
+        "SourceFamilyClass": "FAMILYCLASS_STATESMEN",
         "SourceResource": "RESOURCE_PEARL",
         "aiYieldRate": {
           "Pair": [
@@ -508,6 +686,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_STATESMEN_WINE",
         "Name": "TEXT_EFFECTCITY_LUXURY_STATESMEN_WINE",
+        "SourceFamilyClass": "FAMILYCLASS_STATESMEN",
         "SourceResource": "RESOURCE_WINE",
         "aiYieldRate": {
           "Pair": [
@@ -525,6 +704,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_PATRONS_INCENSE",
         "Name": "TEXT_EFFECTCITY_LUXURY_PATRONS_INCENSE",
+        "SourceFamilyClass": "FAMILYCLASS_PATRONS",
         "SourceResource": "RESOURCE_INCENSE",
         "aiYieldRate": {
           "Pair": [
@@ -542,6 +722,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_PATRONS_GEM",
         "Name": "TEXT_EFFECTCITY_LUXURY_PATRONS_GEM",
+        "SourceFamilyClass": "FAMILYCLASS_PATRONS",
         "SourceResource": "RESOURCE_GEM",
         "aiYieldRate": {
           "Pair": [
@@ -559,6 +740,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_CLERICS_INCENSE",
         "Name": "TEXT_EFFECTCITY_LUXURY_CLERICS_INCENSE",
+        "SourceFamilyClass": "FAMILYCLASS_CLERICS",
         "SourceResource": "RESOURCE_INCENSE",
         "aiYieldRate": {
           "Pair": [
@@ -576,6 +758,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_CLERICS_LAVENDER",
         "Name": "TEXT_EFFECTCITY_LUXURY_CLERICS_LAVENDER",
+        "SourceFamilyClass": "FAMILYCLASS_CLERICS",
         "SourceResource": "RESOURCE_LAVENDER",
         "aiYieldRate": {
           "Pair": [
@@ -593,6 +776,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_SAGES_LAVENDER",
         "Name": "TEXT_EFFECTCITY_LUXURY_SAGES_LAVENDER",
+        "SourceFamilyClass": "FAMILYCLASS_SAGES",
         "SourceResource": "RESOURCE_LAVENDER",
         "aiYieldRate": {
           "Pair": [
@@ -610,6 +794,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_SAGES_SALT",
         "Name": "TEXT_EFFECTCITY_LUXURY_SAGES_SALT",
+        "SourceFamilyClass": "FAMILYCLASS_SAGES",
         "SourceResource": "RESOURCE_SALT",
         "aiYieldRate": {
           "Pair": [
@@ -627,6 +812,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_TRADERS_OLIVE",
         "Name": "TEXT_EFFECTCITY_LUXURY_TRADERS_OLIVE",
+        "SourceFamilyClass": "FAMILYCLASS_TRADERS",
         "SourceResource": "RESOURCE_OLIVE",
         "aiYieldRate": {
           "Pair": [
@@ -644,6 +830,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_TRADERS_PEARL",
         "Name": "TEXT_EFFECTCITY_LUXURY_TRADERS_PEARL",
+        "SourceFamilyClass": "FAMILYCLASS_TRADERS",
         "SourceResource": "RESOURCE_PEARL",
         "aiYieldRate": {
           "Pair": [
@@ -661,6 +848,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_ARTISANS_DYE",
         "Name": "TEXT_EFFECTCITY_LUXURY_ARTISANS_DYE",
+        "SourceFamilyClass": "FAMILYCLASS_ARTISANS",
         "SourceResource": "RESOURCE_DYE",
         "aiYieldRate": {
           "Pair": [
@@ -678,7 +866,8 @@
       {
         "zType": "EFFECTCITY_LUXURY_ARTISANS_GEM",
         "Name": "TEXT_EFFECTCITY_LUXURY_ARTISANS_GEM",
-        "SourceResource": "RESOURCE_DYE",
+        "SourceFamilyClass": "FAMILYCLASS_ARTISANS",
+        "SourceResource": "RESOURCE_GEM",
         "aiYieldRate": {
           "Pair": [
             {
@@ -695,6 +884,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_RIDERS_SALT",
         "Name": "TEXT_EFFECTCITY_LUXURY_RIDERS_SALT",
+        "SourceFamilyClass": "FAMILYCLASS_RIDERS",
         "SourceResource": "RESOURCE_SALT",
         "aiYieldRate": {
           "Pair": [
@@ -712,6 +902,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_RIDERS_FUR",
         "Name": "TEXT_EFFECTCITY_LUXURY_RIDERS_FUR",
+        "SourceFamilyClass": "FAMILYCLASS_RIDERS",
         "SourceResource": "RESOURCE_FUR",
         "aiYieldRate": {
           "Pair": [
@@ -729,6 +920,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_HUNTERS_FUR",
         "Name": "TEXT_EFFECTCITY_LUXURY_HUNTERS_FUR",
+        "SourceFamilyClass": "FAMILYCLASS_HUNTERS",
         "SourceResource": "RESOURCE_FUR",
         "aiYieldRate": {
           "Pair": [
@@ -746,6 +938,7 @@
       {
         "zType": "EFFECTCITY_LUXURY_HUNTERS_HONEY",
         "Name": "TEXT_EFFECTCITY_LUXURY_HUNTERS_HONEY",
+        "SourceFamilyClass": "FAMILYCLASS_HUNTERS",
         "SourceResource": "RESOURCE_HONEY",
         "aiYieldRate": {
           "Pair": [
@@ -1132,7 +1325,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_ABLE",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_ABLE",
+        "Name": "TEXT_DIFFICULTY_ABLE",
         "SourceDifficulty": "DIFFICULTY_ABLE",
         "aiYieldRate": {
           "Pair": [
@@ -1149,7 +1342,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_ABLE_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_ABLE_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_ABLE",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_ABLE",
         "aiYieldRate": {
@@ -1171,7 +1364,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_JUST",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_JUST",
+        "Name": "TEXT_DIFFICULTY_JUST",
         "SourceDifficulty": "DIFFICULTY_JUST",
         "aiYieldRate": {
           "Pair": [
@@ -1188,7 +1381,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_JUST_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_JUST_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_JUST",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_JUST",
         "aiYieldRate": {
@@ -1210,7 +1403,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GOOD",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GOOD",
+        "Name": "TEXT_DIFFICULTY_GOOD",
         "SourceDifficulty": "DIFFICULTY_GOOD",
         "aiYieldRate": {
           "Pair": [
@@ -1227,7 +1420,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GOOD_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GOOD_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_GOOD",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_GOOD",
         "aiYieldRate": {
@@ -1249,7 +1442,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_STRONG",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_STRONG",
+        "Name": "TEXT_DIFFICULTY_STRONG",
         "SourceDifficulty": "DIFFICULTY_STRONG",
         "aiYieldRate": {
           "Pair": [
@@ -1266,7 +1459,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_STRONG_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_STRONG_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_STRONG",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_STRONG",
         "aiYieldRate": {
@@ -1288,7 +1481,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_NOBLE",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_NOBLE",
+        "Name": "TEXT_DIFFICULTY_NOBLE",
         "SourceDifficulty": "DIFFICULTY_NOBLE",
         "aiYieldRate": {
           "Pair": [
@@ -1305,7 +1498,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_NOBLE_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_NOBLE_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_NOBLE",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_NOBLE",
         "aiYieldRate": {
@@ -1327,7 +1520,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GLORIOUS",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GLORIOUS",
+        "Name": "TEXT_DIFFICULTY_GLORIOUS",
         "SourceDifficulty": "DIFFICULTY_GLORIOUS",
         "aiYieldRate": {
           "Pair": [
@@ -1344,7 +1537,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GLORIOUS_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GLORIOUS_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_GLORIOUS",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_GLORIOUS",
         "aiYieldRate": {
@@ -1366,7 +1559,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_MAGNIFICENT",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_MAGNIFICENT",
+        "Name": "TEXT_DIFFICULTY_MAGNIFICENT",
         "SourceDifficulty": "DIFFICULTY_MAGNIFICENT",
         "aiYieldRate": {
           "Pair": [
@@ -1383,7 +1576,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_MAGNIFICENT_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_MAGNIFICENT_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_MAGNIFICENT",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_MAGNIFICENT",
         "aiYieldRate": {
@@ -1405,7 +1598,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GREAT",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GREAT",
+        "Name": "TEXT_DIFFICULTY_GREAT",
         "SourceDifficulty": "DIFFICULTY_GREAT",
         "aiYieldRate": {
           "Pair": {
@@ -1416,7 +1609,7 @@
       },
       {
         "zType": "EFFECTCITY_DIFFICULTY_GREAT_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_DIFFICULTY_GREAT_CAPITAL",
+        "Name": "TEXT_DIFFICULTY_GREAT",
         "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
         "SourceDifficulty": "DIFFICULTY_GREAT",
         "aiYieldRate": {
@@ -1860,12 +2053,6 @@
         }
       },
       {
-        "zType": "EFFECTCITY_IMPROVEMENT_VIA_RECTA_SOUK",
-        "Name": "TEXT_IMPROVEMENT_VIA_RECTA_SOUK",
-        "SourceUnlock": "EFFECTCITY_UNIT_CARAVAN",
-        "SourceImprovement": "IMPROVEMENT_VIA_RECTA_SOUK"
-      },
-      {
         "zType": "EFFECTCITY_IMPROVEMENT_VIA_RECTA_SOUK_ALL",
         "Name": "TEXT_IMPROVEMENT_VIA_RECTA_SOUK",
         "SourceImprovement": "IMPROVEMENT_VIA_RECTA_SOUK",
@@ -1883,16 +2070,7 @@
         "zType": "EFFECTCITY_IMPROVEMENT_GODS_CONSORT_SHRINE",
         "Name": "TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE",
         "SourceImprovement": "IMPROVEMENT_GODS_CONSORT_SHRINE",
-        "iFamilyOpinion": "40",
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            }
-          }
-        }
+        "iFamilyOpinion": "40"
       },
       {
         "zType": "EFFECTCITY_IMPROVEMENTCLASS_ODEON",
@@ -1949,72 +2127,12 @@
         }
       },
       {
-        "zType": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_MYTHOLOGY",
-        "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_MYTHOLOGY",
-        "SourceImprovementClass": "IMPROVEMENTCLASS_MONASTERY",
-        "SourceTheology": "THEOLOGY_MYTHOLOGY",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "40"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_VENERATION",
-        "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_VENERATION",
-        "SourceImprovementClass": "IMPROVEMENTCLASS_MONASTERY",
-        "SourceTheology": "THEOLOGY_VENERATION",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "200"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_LEGALISM",
-        "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_MONASTERY_LEGALISM",
-        "SourceImprovementClass": "IMPROVEMENTCLASS_MONASTERY",
-        "SourceTheology": "THEOLOGY_LEGALISM",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "20"
-          }
-        }
-      },
-      {
         "zType": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE",
         "Name": "TEXT_IMPROVEMENTCLASS_TEMPLE",
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
             "iValue": "5"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION",
-        "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_REVELATION",
-        "SourceImprovementClass": "IMPROVEMENTCLASS_TEMPLE",
-        "SourceTheology": "THEOLOGY_REVELATION",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "5"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM",
-        "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_TEMPLE_DUALISM",
-        "SourceImprovementClass": "IMPROVEMENTCLASS_TEMPLE",
-        "SourceTheology": "THEOLOGY_DUALISM",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
           }
         }
       },
@@ -2065,20 +2183,11 @@
         "zType": "EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT",
         "Name": "TEXT_EFFECTCITY_IMPROVEMENTCLASS_CATHEDRAL_ENLIGHTENMENT",
         "SourceImprovementClass": "IMPROVEMENTCLASS_CATHEDRAL",
-        "SourceTheology": "THEOLOGY_ENLIGHTENMENT",
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_GROWTH",
-              "iValue": "10"
-            }
-          }
-        }
+        "SourceTheology": "THEOLOGY_ENLIGHTENMENT"
       },
       {
         "zType": "EFFECTCITY_LAW_SLAVERY",
-        "Name": "TEXT_EFFECTCITY_LAW_SLAVERY",
+        "Name": "TEXT_LAW_SLAVERY",
         "SourceLaw": "LAW_SLAVERY",
         "aiYieldRate": {
           "Pair": {
@@ -2089,7 +2198,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_FREEDOM",
-        "Name": "TEXT_EFFECTCITY_LAW_FREEDOM",
+        "Name": "TEXT_LAW_FREEDOM",
         "SourceLaw": "LAW_FREEDOM",
         "aiYieldRate": {
           "Pair": {
@@ -2100,18 +2209,18 @@
       },
       {
         "zType": "EFFECTCITY_LAW_CENTRALIZATION_CAPITAL",
-        "Name": "TEXT_EFFECTCITY_LAW_CENTRALIZATION",
+        "Name": "TEXT_LAW_CENTRALIZATION",
         "SourceLaw": "LAW_CENTRALIZATION",
         "aiYieldModifier": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "25"
+            "iValue": "20"
           }
         }
       },
       {
         "zType": "EFFECTCITY_LAW_TYRANNY",
-        "Name": "TEXT_EFFECTCITY_LAW_TYRANNY",
+        "Name": "TEXT_LAW_TYRANNY",
         "SourceLaw": "LAW_TYRANNY",
         "aiYieldRateMilitary": {
           "Pair": {
@@ -2122,7 +2231,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_CONSTITUTION",
-        "Name": "TEXT_EFFECTCITY_LAW_CONSTITUTION",
+        "Name": "TEXT_LAW_CONSTITUTION",
         "SourceLaw": "LAW_CONSTITUTION",
         "aiYieldRate": {
           "Pair": {
@@ -2133,7 +2242,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_SERFDOM",
-        "Name": "TEXT_EFFECTCITY_LAW_SERFDOM",
+        "Name": "TEXT_LAW_SERFDOM",
         "SourceLaw": "LAW_SERFDOM",
         "aiImprovementModifier": {
           "Pair": [
@@ -2150,7 +2259,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_MONOTHEISM_STATE",
-        "Name": "TEXT_EFFECTCITY_LAW_MONOTHEISM",
+        "Name": "TEXT_LAW_MONOTHEISM",
         "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
         "SourceLaw": "LAW_MONOTHEISM",
         "aiYieldRate": {
@@ -2162,7 +2271,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_POLYTHEISM",
-        "Name": "TEXT_EFFECTCITY_LAW_POLYTHEISM",
+        "Name": "TEXT_LAW_POLYTHEISM",
         "SourceLaw": "LAW_POLYTHEISM",
         "abNoImprovementClassMax": {
           "Pair": {
@@ -2173,56 +2282,44 @@
       },
       {
         "zType": "EFFECTCITY_LAW_DIVINE_RULE",
-        "Name": "TEXT_EFFECTCITY_LAW_DIVINE_RULE",
+        "Name": "TEXT_LAW_DIVINE_RULE",
         "SourceLaw": "LAW_DIVINE_RULE",
         "bNoReligionSpread": "1"
       },
       {
-        "zType": "EFFECTCITY_LAW_LEGAL_CODE",
-        "Name": "TEXT_EFFECTCITY_LAW_LEGAL_CODE",
-        "SourceLaw": "LAW_LEGAL_CODE",
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_IMPROVEMENTCLASS_COURTHOUSE",
-            "SubPair": {
-              "zSubIndex": "YIELD_DISCONTENT",
-              "iValue": "-10"
-            }
-          }
-        }
-      },
-      {
         "zType": "EFFECTCITY_LAW_TOLERANCE",
-        "Name": "TEXT_EFFECTCITY_LAW_TOLERANCE",
+        "Name": "TEXT_LAW_TOLERANCE",
         "SourceLaw": "LAW_TOLERANCE",
-        "aiYieldRate": {
+        "aiYieldRateReligionNonState": {
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         }
       },
       {
         "zType": "EFFECTCITY_LAW_ORTHODOXY_STATE",
-        "Name": "TEXT_EFFECTCITY_LAW_ORTHODOXY",
+        "Name": "TEXT_LAW_ORTHODOXY",
         "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
         "SourceLaw": "LAW_ORTHODOXY",
-        "bHurryOrders": "1"
+        "aeHurryOrders": {
+          "zValue": "BUILD_SPECIALIST"
+        }
       },
       {
         "zType": "EFFECTCITY_LAW_PROFESSIONAL_ARMY",
-        "Name": "TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY",
+        "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
         "SourceLaw": "LAW_PROFESSIONAL_ARMY",
         "aiUnitTraitTrainModifier": {
           "Pair": {
             "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "-25"
+            "iValue": "-20"
           }
         }
       },
       {
         "zType": "EFFECTCITY_LAW_PROFESSIONAL_ARMY_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_PROFESSIONAL_ARMY",
+        "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
         "SourceLaw": "LAW_PROFESSIONAL_ARMY",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2236,19 +2333,19 @@
       },
       {
         "zType": "EFFECTCITY_LAW_VOLUNTEERS",
-        "Name": "TEXT_EFFECTCITY_LAW_VOLUNTEERS",
+        "Name": "TEXT_LAW_VOLUNTEERS",
         "SourceLaw": "LAW_VOLUNTEERS",
         "bHurryPopulation": "1"
       },
       {
         "zType": "EFFECTCITY_LAW_PHILOSOPHY",
-        "Name": "TEXT_EFFECTCITY_LAW_PHILOSOPHY",
+        "Name": "TEXT_LAW_PHILOSOPHY",
         "SourceLaw": "LAW_PHILOSOPHY",
         "iSpecialistUrbanTrainTimeModifier": "-20"
       },
       {
         "zType": "EFFECTCITY_LAW_PHILOSOPHY_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_PHILOSOPHY",
+        "Name": "TEXT_LAW_PHILOSOPHY",
         "SourceLaw": "LAW_PHILOSOPHY",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2262,21 +2359,37 @@
       },
       {
         "zType": "EFFECTCITY_LAW_ICONOGRAPHY",
-        "Name": "TEXT_EFFECTCITY_LAW_ICONOGRAPHY",
+        "Name": "TEXT_LAW_ICONOGRAPHY",
         "SourceLaw": "LAW_ICONOGRAPHY",
         "aaiImprovementClassYield": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_TEMPLE",
-            "SubPair": {
-              "zSubIndex": "YIELD_GROWTH",
-              "iValue": "20"
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_MONASTERY",
+              "SubPair": {
+                "zSubIndex": "YIELD_CULTURE",
+                "iValue": "20"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_TEMPLE",
+              "SubPair": {
+                "zSubIndex": "YIELD_GROWTH",
+                "iValue": "20"
+              }
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
+              "SubPair": {
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
+              }
             }
-          }
+          ]
         }
       },
       {
         "zType": "EFFECTCITY_LAW_ICONOGRAPHY_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_ICONOGRAPHY",
+        "Name": "TEXT_LAW_ICONOGRAPHY",
         "SourceLaw": "LAW_ICONOGRAPHY",
         "aaiImprovementClassYield": {
           "Pair": {
@@ -2290,7 +2403,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_CALLIGRAPHY",
-        "Name": "TEXT_EFFECTCITY_LAW_CALLIGRAPHY",
+        "Name": "TEXT_LAW_CALLIGRAPHY",
         "SourceLaw": "LAW_CALLIGRAPHY",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2304,7 +2417,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_CALLIGRAPHY_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_CALLIGRAPHY",
+        "Name": "TEXT_LAW_CALLIGRAPHY",
         "SourceLaw": "LAW_CALLIGRAPHY",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2318,7 +2431,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_GUILDS",
-        "Name": "TEXT_EFFECTCITY_LAW_GUILDS",
+        "Name": "TEXT_LAW_GUILDS",
         "SourceLaw": "LAW_GUILDS",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2332,13 +2445,13 @@
       },
       {
         "zType": "EFFECTCITY_LAW_GUILDS_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_GUILDS",
+        "Name": "TEXT_LAW_GUILDS",
         "SourceLaw": "LAW_GUILDS",
         "iRebelProb": "-10"
       },
       {
         "zType": "EFFECTCITY_LAW_ELITES",
-        "Name": "TEXT_EFFECTCITY_LAW_ELITES",
+        "Name": "TEXT_LAW_ELITES",
         "SourceLaw": "LAW_ELITES",
         "aaiEffectCityYieldRate": {
           "Pair": {
@@ -2352,7 +2465,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_AUTARKY",
-        "Name": "TEXT_EFFECTCITY_LAW_AUTARKY",
+        "Name": "TEXT_LAW_AUTARKY",
         "SourceLaw": "LAW_AUTARKY",
         "aiImprovementModifier": {
           "Pair": [
@@ -2373,7 +2486,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_AUTARKY_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_AUTARKY",
+        "Name": "TEXT_LAW_AUTARKY",
         "SourceLaw": "LAW_AUTARKY",
         "aeFreeUnitEffectCity": {
           "zValue": [
@@ -2385,7 +2498,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_PILGRIMAGE",
-        "Name": "TEXT_EFFECTCITY_LAW_PILGRIMAGE",
+        "Name": "TEXT_LAW_PILGRIMAGE",
         "SourceLaw": "LAW_PILGRIMAGE",
         "aaiImprovementClassYield": {
           "Pair": {
@@ -2399,7 +2512,7 @@
       },
       {
         "zType": "EFFECTCITY_LAW_PILGRIMAGE_EXTRA",
-        "Name": "TEXT_EFFECTCITY_LAW_PILGRIMAGE",
+        "Name": "TEXT_LAW_PILGRIMAGE",
         "SourceLaw": "LAW_PILGRIMAGE",
         "aiYieldRateHolyCityWorld": {
           "Pair": {
@@ -2409,35 +2522,29 @@
         }
       },
       {
+        "zType": "EFFECTCITY_LAW_HOLY_WAR",
+        "Name": "TEXT_LAW_HOLY_WAR",
+        "SourceLaw": "LAW_HOLY_WAR",
+        "iRandomPromotions": "1"
+      },
+      {
         "zType": "EFFECTCITY_LAW_HOLY_WAR_STATE",
-        "Name": "TEXT_EFFECTCITY_LAW_HOLY_WAR",
+        "Name": "TEXT_LAW_HOLY_WAR",
         "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
         "SourceLaw": "LAW_HOLY_WAR",
-        "iRandomPromotions": "1",
         "aeHurryMoney": {
           "zValue": "BUILD_UNIT"
         }
       },
       {
-        "zType": "EFFECTCITY_LAW_COIN_DEBASEMENT",
-        "Name": "TEXT_EFFECTCITY_LAW_COIN_DEBASEMENT",
-        "SourceLaw": "LAW_COIN_DEBASEMENT",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "10"
-          }
-        }
-      },
-      {
         "zType": "EFFECTCITY_LAW_MONETARY_REFORM",
-        "Name": "TEXT_EFFECTCITY_LAW_MONETARY_REFORM",
+        "Name": "TEXT_LAW_MONETARY_REFORM",
         "SourceLaw": "LAW_MONETARY_REFORM",
         "iHurryDiscontentModifier": "-100",
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         }
       },
@@ -2631,7 +2738,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_ASSYRIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_ASSYRIA",
         "aiYieldRate": {
@@ -2643,7 +2750,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_BABYLONIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_BABYLONIA",
         "aiYieldRate": {
@@ -2655,7 +2762,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_CARTHAGE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_CARTHAGE",
         "aiYieldRate": {
@@ -2667,7 +2774,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_EGYPT",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_EGYPT",
         "aiYieldRate": {
@@ -2679,7 +2786,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_GREECE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_GREECE",
         "aiYieldRate": {
@@ -2691,7 +2798,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_ROME",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_ROME",
         "aiYieldRate": {
@@ -2703,7 +2810,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_PAGAN_PERSIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_PAGAN_PERSIA",
         "aiYieldRate": {
@@ -2715,7 +2822,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_ZOROASTRIANISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_ZOROASTRIANISM",
         "aiYieldRate": {
@@ -2727,7 +2834,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_JUDAISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_JUDAISM",
         "aiYieldRate": {
@@ -2739,7 +2846,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_CHRISTIANITY",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_CHRISTIANITY",
         "aiYieldRate": {
@@ -2751,7 +2858,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FURIOUS_MANICHAEISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FURIOUS",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
         "SourceOpinionReligion": "OPINIONRELIGION_FURIOUS",
         "SourceReligion": "RELIGION_MANICHAEISM",
         "aiYieldRate": {
@@ -2763,7 +2870,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_ASSYRIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_ASSYRIA",
         "aiYieldRate": {
@@ -2775,7 +2882,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_BABYLONIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_BABYLONIA",
         "aiYieldRate": {
@@ -2787,7 +2894,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_CARTHAGE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_CARTHAGE",
         "aiYieldRate": {
@@ -2799,7 +2906,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_EGYPT",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_EGYPT",
         "aiYieldRate": {
@@ -2811,7 +2918,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_GREECE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_GREECE",
         "aiYieldRate": {
@@ -2823,7 +2930,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_ROME",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_ROME",
         "aiYieldRate": {
@@ -2835,7 +2942,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_PAGAN_PERSIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_PAGAN_PERSIA",
         "aiYieldRate": {
@@ -2847,7 +2954,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_ZOROASTRIANISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_ZOROASTRIANISM",
         "aiYieldRate": {
@@ -2859,7 +2966,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_JUDAISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_JUDAISM",
         "aiYieldRate": {
@@ -2871,7 +2978,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_CHRISTIANITY",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_CHRISTIANITY",
         "aiYieldRate": {
@@ -2883,7 +2990,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_ANGRY_MANICHAEISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_ANGRY",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
         "SourceOpinionReligion": "OPINIONRELIGION_ANGRY",
         "SourceReligion": "RELIGION_MANICHAEISM",
         "aiYieldRate": {
@@ -2895,7 +3002,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_ASSYRIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_ASSYRIA",
         "aiYieldRate": {
@@ -2907,7 +3014,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_BABYLONIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_BABYLONIA",
         "aiYieldRate": {
@@ -2919,7 +3026,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_CARTHAGE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_CARTHAGE",
         "aiYieldRate": {
@@ -2931,7 +3038,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_EGYPT",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_EGYPT",
         "aiYieldRate": {
@@ -2943,7 +3050,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_GREECE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_GREECE",
         "aiYieldRate": {
@@ -2955,7 +3062,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_ROME",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_ROME",
         "aiYieldRate": {
@@ -2967,7 +3074,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_PAGAN_PERSIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_PAGAN_PERSIA",
         "aiYieldRate": {
@@ -2979,7 +3086,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_ZOROASTRIANISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_ZOROASTRIANISM",
         "aiYieldRate": {
@@ -2991,7 +3098,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_JUDAISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_JUDAISM",
         "aiYieldRate": {
@@ -3003,7 +3110,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_CHRISTIANITY",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_CHRISTIANITY",
         "aiYieldRate": {
@@ -3015,7 +3122,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_UPSET_MANICHAEISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_UPSET",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
         "SourceOpinionReligion": "OPINIONRELIGION_UPSET",
         "SourceReligion": "RELIGION_MANICHAEISM",
         "aiYieldRate": {
@@ -3027,7 +3134,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_ASSYRIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_ASSYRIA",
         "aiYieldRate": {
@@ -3039,7 +3146,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_BABYLONIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_BABYLONIA",
         "aiYieldRate": {
@@ -3051,7 +3158,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_CARTHAGE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_CARTHAGE",
         "aiYieldRate": {
@@ -3063,7 +3170,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_EGYPT",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_EGYPT",
         "aiYieldRate": {
@@ -3075,7 +3182,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_GREECE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_GREECE",
         "aiYieldRate": {
@@ -3087,7 +3194,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_ROME",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_ROME",
         "aiYieldRate": {
@@ -3099,7 +3206,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_PAGAN_PERSIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_PAGAN_PERSIA",
         "aiYieldRate": {
@@ -3111,7 +3218,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_ZOROASTRIANISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_ZOROASTRIANISM",
         "aiYieldRate": {
@@ -3123,7 +3230,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_JUDAISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_JUDAISM",
         "aiYieldRate": {
@@ -3135,7 +3242,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_CHRISTIANITY",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_CHRISTIANITY",
         "aiYieldRate": {
@@ -3147,7 +3254,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_PLEASED_MANICHAEISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_PLEASED",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
         "SourceOpinionReligion": "OPINIONRELIGION_PLEASED",
         "SourceReligion": "RELIGION_MANICHAEISM",
         "aiYieldRate": {
@@ -3159,7 +3266,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_ASSYRIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_ASSYRIA",
         "aiYieldRate": {
@@ -3171,7 +3278,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_BABYLONIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_BABYLONIA",
         "aiYieldRate": {
@@ -3183,7 +3290,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_CARTHAGE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_CARTHAGE",
         "aiYieldRate": {
@@ -3195,7 +3302,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_EGYPT",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_EGYPT",
         "aiYieldRate": {
@@ -3207,7 +3314,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_GREECE",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_GREECE",
         "aiYieldRate": {
@@ -3219,7 +3326,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_ROME",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_ROME",
         "aiYieldRate": {
@@ -3231,7 +3338,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_PAGAN_PERSIA",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_PAGAN_PERSIA",
         "aiYieldRate": {
@@ -3243,7 +3350,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_ZOROASTRIANISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_ZOROASTRIANISM",
         "aiYieldRate": {
@@ -3255,7 +3362,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_JUDAISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_JUDAISM",
         "aiYieldRate": {
@@ -3267,7 +3374,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_CHRISTIANITY",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_CHRISTIANITY",
         "aiYieldRate": {
@@ -3279,7 +3386,7 @@
       },
       {
         "zType": "EFFECTCITY_OPINIONRELIGION_FRIENDLY_MANICHAEISM",
-        "Name": "TEXT_EFFECTCITY_OPINIONRELIGION_FRIENDLY",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
         "SourceOpinionReligion": "OPINIONRELIGION_FRIENDLY",
         "SourceReligion": "RELIGION_MANICHAEISM",
         "aiYieldRate": {
@@ -3835,6 +3942,27 @@
             "zIndex": "YIELD_CIVICS",
             "iValue": "-10"
           }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_DEN_OF_VICE",
+        "Name": "TEXT_PROJECT_DEN_OF_VICE",
+        "SourceProject": "PROJECT_DEN_OF_VICE",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CULTURE",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "-100"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            }
+          ]
         }
       },
       {
@@ -4448,7 +4576,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_COLLEGES",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_COLLEGES",
+        "Name": "TEXT_PROJECT_PAGAN_COLLEGES",
         "SourceProject": "PROJECT_PAGAN_COLLEGES",
         "aiYieldModifier": {
           "Pair": [
@@ -4465,7 +4593,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_WAR",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WAR",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_WAR",
         "SourceProject": "PROJECT_PAGAN_CULT_WAR",
         "aiYieldModifier": {
           "Pair": [
@@ -4482,7 +4610,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_FIRE",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_FIRE",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_FIRE",
         "SourceProject": "PROJECT_PAGAN_CULT_FIRE",
         "aiYieldRate": {
           "Pair": {
@@ -4499,7 +4627,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_WISDOM",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WISDOM",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_WISDOM",
         "SourceProject": "PROJECT_PAGAN_CULT_WISDOM",
         "aiYieldModifier": {
           "Pair": [
@@ -4516,7 +4644,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_SUN",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_SUN",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_SUN",
         "SourceProject": "PROJECT_PAGAN_CULT_SUN",
         "aiYieldModifier": {
           "Pair": [
@@ -4533,7 +4661,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_WATER",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_WATER",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_WATER",
         "SourceProject": "PROJECT_PAGAN_CULT_WATER",
         "aiYieldRate": {
           "Pair": {
@@ -4550,7 +4678,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_LOVE",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_LOVE",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_LOVE",
         "SourceProject": "PROJECT_PAGAN_CULT_LOVE",
         "aiYieldRate": {
           "Pair": {
@@ -4567,7 +4695,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_UNDERWORLD",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_UNDERWORLD",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_UNDERWORLD",
         "SourceProject": "PROJECT_PAGAN_CULT_UNDERWORLD",
         "aiYieldRate": {
           "Pair": {
@@ -4590,7 +4718,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_HEALING",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEALING",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_HEALING",
         "SourceProject": "PROJECT_PAGAN_CULT_HEALING",
         "aiYieldModifier": {
           "Pair": {
@@ -4610,7 +4738,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_KINGSHIP",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_KINGSHIP",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_KINGSHIP",
         "SourceProject": "PROJECT_PAGAN_CULT_KINGSHIP",
         "aiYieldModifier": {
           "Pair": [
@@ -4627,7 +4755,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_HEARTH",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HEARTH",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_HEARTH",
         "SourceProject": "PROJECT_PAGAN_CULT_HEARTH",
         "aiYieldRate": {
           "Pair": {
@@ -4644,7 +4772,7 @@
       },
       {
         "zType": "EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING",
-        "Name": "TEXT_EFFECTCITY_PROJECT_PAGAN_CULT_HUNTING",
+        "Name": "TEXT_PROJECT_PAGAN_CULT_HUNTING",
         "SourceProject": "PROJECT_PAGAN_CULT_HUNTING",
         "aiYieldModifier": {
           "Pair": {
@@ -4655,6 +4783,66 @@
         "aiImprovementClassModifier": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_FERTILE_SOIL",
+        "Name": "TEXT_PROJECT_FERTILE_SOIL",
+        "aiImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_FARM",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_IMPROVED_LUDUS",
+        "Name": "TEXT_PROJECT_IMPROVED_LUDUS",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_ATHLETICS_ARCHERY",
+        "Name": "TEXT_PROJECT_ATHLETICS_ARCHERY",
+        "aiUnitTraitXP": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_RANGED",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_ATHLETICS_WRESTLING",
+        "Name": "TEXT_PROJECT_ATHLETICS_WRESTLING",
+        "aiUnitTraitXP": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_ATHLETICS_EQUESTRIAN",
+        "Name": "TEXT_PROJECT_ATHLETICS_EQUESTRIAN",
+        "aiUnitTraitXP": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MOUNTED",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_RELIGION_PAGAN",
+        "Name": "TEXT_RELIGION_PAGAN",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
             "iValue": "20"
           }
         }
@@ -4764,17 +4952,17 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_MARBLE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_MARBLE",
+        "Name": "TEXT_RESOURCE_MARBLE",
         "SourceResource": "RESOURCE_MARBLE"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_ORE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_ORE",
+        "Name": "TEXT_RESOURCE_ORE",
         "SourceResource": "RESOURCE_ORE"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_SALT",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_SALT",
+        "Name": "TEXT_RESOURCE_SALT",
         "SourceResource": "RESOURCE_SALT"
       },
       {
@@ -4785,7 +4973,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_GEM",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_GEM",
+        "Name": "TEXT_RESOURCE_GEM",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_BULLION",
         "SourceResource": "RESOURCE_GEM"
       },
@@ -4797,77 +4985,77 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_GOLD",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_GOLD",
+        "Name": "TEXT_RESOURCE_GOLD",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_BULLION",
         "SourceResource": "RESOURCE_GOLD"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_SILVER",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_SILVER",
+        "Name": "TEXT_RESOURCE_SILVER",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_BULLION",
         "SourceResource": "RESOURCE_SILVER"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_HORSE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_HORSE",
+        "Name": "TEXT_RESOURCE_HORSE",
         "SourceResource": "RESOURCE_HORSE"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_CATTLE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_CATTLE",
+        "Name": "TEXT_RESOURCE_CATTLE",
         "SourceResource": "RESOURCE_CATTLE"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_SHEEP",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_SHEEP",
+        "Name": "TEXT_RESOURCE_SHEEP",
         "SourceResource": "RESOURCE_SHEEP"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_PIG",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_PIG",
+        "Name": "TEXT_RESOURCE_PIG",
         "SourceResource": "RESOURCE_PIG"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_GOAT",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_GOAT",
+        "Name": "TEXT_RESOURCE_GOAT",
         "SourceResource": "RESOURCE_GOAT"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_WHEAT",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_WHEAT",
+        "Name": "TEXT_RESOURCE_WHEAT",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_CROP",
         "SourceResource": "RESOURCE_WHEAT"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_BARLEY",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_BARLEY",
+        "Name": "TEXT_RESOURCE_BARLEY",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_CROP",
         "SourceResource": "RESOURCE_BARLEY"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_SORGHUM",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_SORGHUM",
+        "Name": "TEXT_RESOURCE_SORGHUM",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_CROP",
         "SourceResource": "RESOURCE_SORGHUM"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_CAMEL",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_CAMEL",
+        "Name": "TEXT_RESOURCE_CAMEL",
         "SourceResource": "RESOURCE_CAMEL"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_ELEPHANT",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_ELEPHANT",
+        "Name": "TEXT_RESOURCE_ELEPHANT",
         "SourceResource": "RESOURCE_ELEPHANT"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_GAME",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_GAME",
+        "Name": "TEXT_RESOURCE_GAME",
         "SourceResource": "RESOURCE_GAME"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_FUR",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_FUR",
+        "Name": "TEXT_RESOURCE_FUR",
         "SourceResource": "RESOURCE_FUR"
       },
       {
@@ -4878,13 +5066,13 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_CITRUS",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_CITRUS",
+        "Name": "TEXT_RESOURCE_CITRUS",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_CROP",
         "SourceResource": "RESOURCE_CITRUS"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_HONEY",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_HONEY",
+        "Name": "TEXT_RESOURCE_HONEY",
         "SourceResource": "RESOURCE_HONEY"
       },
       {
@@ -4895,7 +5083,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_INCENSE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_INCENSE",
+        "Name": "TEXT_RESOURCE_INCENSE",
         "SourceResource": "RESOURCE_INCENSE"
       },
       {
@@ -4906,7 +5094,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_LAVENDER",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_LAVENDER",
+        "Name": "TEXT_RESOURCE_LAVENDER",
         "SourceResource": "RESOURCE_LAVENDER"
       },
       {
@@ -4917,7 +5105,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_OLIVE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_OLIVE",
+        "Name": "TEXT_RESOURCE_OLIVE",
         "SourceResource": "RESOURCE_OLIVE"
       },
       {
@@ -4928,7 +5116,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_WINE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_WINE",
+        "Name": "TEXT_RESOURCE_WINE",
         "SourceResource": "RESOURCE_WINE"
       },
       {
@@ -4939,7 +5127,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_DYE",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_DYE",
+        "Name": "TEXT_RESOURCE_DYE",
         "SourceResource": "RESOURCE_DYE"
       },
       {
@@ -4950,7 +5138,7 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_PEARL",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_PEARL",
+        "Name": "TEXT_RESOURCE_PEARL",
         "EffectCityUnlock": "EFFECTCITY_RESOURCE_BULLION",
         "SourceResource": "RESOURCE_PEARL"
       },
@@ -4962,12 +5150,12 @@
       },
       {
         "zType": "EFFECTCITY_RESOURCE_FISH",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_FISH",
+        "Name": "TEXT_RESOURCE_FISH",
         "SourceResource": "RESOURCE_FISH"
       },
       {
         "zType": "EFFECTCITY_RESOURCE_CRAB",
-        "Name": "TEXT_EFFECTCITY_RESOURCE_CRAB",
+        "Name": "TEXT_RESOURCE_CRAB",
         "SourceResource": "RESOURCE_CRAB"
       },
       {
@@ -5103,15 +5291,6 @@
             "zIndex": "YIELD_CULTURE",
             "iValue": "40"
           }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_CULTURE",
-              "iValue": "10"
-            }
-          }
         }
       },
       {
@@ -5122,15 +5301,6 @@
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "50"
-          }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            }
           }
         }
       },
@@ -5234,15 +5404,6 @@
             "zIndex": "YIELD_DISCONTENT",
             "iValue": "-15"
           }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_TRAINING",
-              "iValue": "5"
-            }
-          }
         }
       },
       {
@@ -5253,15 +5414,6 @@
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
             "iValue": "-20"
-          }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_TRAINING",
-              "iValue": "10"
-            }
           }
         }
       },
@@ -5285,15 +5437,6 @@
             "zIndex": "YIELD_CIVICS",
             "iValue": "30"
           }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          }
         }
       },
       {
@@ -5304,15 +5447,6 @@
           "Pair": {
             "zIndex": "YIELD_CIVICS",
             "iValue": "40"
-          }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_MONEY",
-              "iValue": "20"
-            }
           }
         }
       },
@@ -5381,15 +5515,6 @@
             "zIndex": "YIELD_SCIENCE",
             "iValue": "30"
           }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_CIVICS",
-              "iValue": "5"
-            }
-          }
         }
       },
       {
@@ -5400,15 +5525,6 @@
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
             "iValue": "40"
-          }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_CITIZEN",
-            "SubPair": {
-              "zSubIndex": "YIELD_CIVICS",
-              "iValue": "10"
-            }
           }
         }
       },
@@ -5637,7 +5753,9 @@
         "zType": "EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL",
         "Name": "TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL",
         "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
-        "bHurryOrders": "1"
+        "aeHurryOrders": {
+          "zValue": "BUILD_UNIT"
+        }
       },
       {
         "zType": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL",
@@ -5656,6 +5774,14 @@
         "zType": "EFFECTCITY_TRAIT_ORATOR",
         "Name": "TEXT_EFFECTCITY_TRAIT_ORATOR_ARCHETYPE",
         "SourceTrait": "TRAIT_ORATOR_ARCHETYPE",
+        "aeHurryOrders": {
+          "zValue": "BUILD_PROJECT"
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_DIPLOMAT",
+        "Name": "TEXT_EFFECTCITY_TRAIT_DIPLOMAT_ARCHETYPE",
+        "SourceTrait": "TRAIT_DIPLOMAT_ARCHETYPE",
         "iFamilyOpinion": "20"
       },
       {
@@ -5665,16 +5791,10 @@
         "aaiEffectCityYieldRate": {
           "Pair": {
             "zIndex": "EFFECTCITY_OPINIONFAMILY_FRIENDLY",
-            "SubPair": [
-              {
-                "zSubIndex": "YIELD_DISCONTENT",
-                "iValue": "-10"
-              },
-              {
-                "zSubIndex": "YIELD_ORDERS",
-                "iValue": "10"
-              }
-            ]
+            "SubPair": {
+              "zSubIndex": "YIELD_ORDERS",
+              "iValue": "20"
+            }
           }
         }
       },
@@ -6217,7 +6337,7 @@
             },
             {
               "zIndex": "IMPROVEMENT_PASTURE",
-              "iValue": "100"
+              "iValue": "50"
             }
           ]
         }
@@ -6234,7 +6354,7 @@
             },
             {
               "zIndex": "IMPROVEMENT_PASTURE",
-              "iValue": "50"
+              "iValue": "20"
             }
           ]
         }
@@ -6250,8 +6370,8 @@
               "iValue": "50"
             },
             {
-              "zIndex": "IMPROVEMENT_CAMP",
-              "iValue": "100"
+              "zIndex": "IMPROVEMENT_GROVE",
+              "iValue": "50"
             }
           ]
         }
@@ -6267,8 +6387,8 @@
               "iValue": "20"
             },
             {
-              "zIndex": "IMPROVEMENT_CAMP",
-              "iValue": "50"
+              "zIndex": "IMPROVEMENT_GROVE",
+              "iValue": "20"
             }
           ]
         }

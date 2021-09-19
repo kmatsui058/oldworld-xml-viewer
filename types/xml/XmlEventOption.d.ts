@@ -23,7 +23,7 @@ export interface Entry {
   bVictoryScreen?: EventLinkAdd2;
   bMainMenu?: ZType | EventLinkAdd2 | string;
   bHidePrereqs?: ZType | EventLinkAdd2 | string;
-  bHideInvalid?: ZType | EventLinkAdd2 | string;
+  bHideInvalid?: BHideInvalid;
   bFutureEvents?: ZType | EventLinkAdd2 | string;
   aiMinPrice?: AiMinPrice;
   aiMaxPrice?: AiMinPrice;
@@ -42,9 +42,12 @@ export interface Pair {
   zIndex: string;
   iValue: string;
 }
+export interface BHideInvalid {
+  comment?: string;
+}
 export interface LeaderSubjectAny {
   comment?: string;
-  zValue?: string[];
+  zValue?: string[] | string;
 }
 export interface AeTriggers {
   comment?: string;

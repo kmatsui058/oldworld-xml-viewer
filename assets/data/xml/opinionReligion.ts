@@ -6,7 +6,10 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
+          
+        },
+        "Range": {
           
         },
         "Color": {
@@ -21,7 +24,8 @@
       },
       {
         "zType": "OPINIONRELIGION_FURIOUS",
-        "zName": "Furious",
+        "Name": "TEXT_OPINIONRELIGION_FURIOUS",
+        "Range": "TEXT_OPINIONRANGE_FURIOUS",
         "Color": "COLOR_OPINION_FURIOUS",
         "iThreshold": "-200",
         "aeReligionEffectCity": {
@@ -75,7 +79,8 @@
       },
       {
         "zType": "OPINIONRELIGION_ANGRY",
-        "zName": "Angry",
+        "Name": "TEXT_OPINIONRELIGION_ANGRY",
+        "Range": "TEXT_OPINIONRANGE_ANGRY",
         "Color": "COLOR_OPINION_ANGRY",
         "iThreshold": "-100",
         "aeReligionEffectCity": {
@@ -129,7 +134,8 @@
       },
       {
         "zType": "OPINIONRELIGION_UPSET",
-        "zName": "Upset",
+        "Name": "TEXT_OPINIONRELIGION_UPSET",
+        "Range": "TEXT_OPINIONRANGE_UPSET",
         "Color": "COLOR_OPINION_UPSET",
         "iThreshold": "-1",
         "aeReligionEffectCity": {
@@ -183,13 +189,15 @@
       },
       {
         "zType": "OPINIONRELIGION_CAUTIOUS",
-        "zName": "Cautious",
+        "Name": "TEXT_OPINIONRELIGION_CAUTIOUS",
+        "Range": "TEXT_OPINIONRANGE_CAUTIOUS",
         "Color": "COLOR_OPINION_CAUTIOUS",
         "iThreshold": "99"
       },
       {
         "zType": "OPINIONRELIGION_PLEASED",
-        "zName": "Pleased",
+        "Name": "TEXT_OPINIONRELIGION_PLEASED",
+        "Range": "TEXT_OPINIONRANGE_PLEASED",
         "Color": "COLOR_OPINION_PLEASED",
         "iThreshold": "199",
         "aeReligionEffectCity": {
@@ -243,7 +251,8 @@
       },
       {
         "zType": "OPINIONRELIGION_FRIENDLY",
-        "zName": "Friendly",
+        "Name": "TEXT_OPINIONRELIGION_FRIENDLY",
+        "Range": "TEXT_OPINIONRANGE_FRIENDLY",
         "Color": "COLOR_OPINION_FRIENDLY",
         "aeReligionEffectCity": {
           "Pair": [

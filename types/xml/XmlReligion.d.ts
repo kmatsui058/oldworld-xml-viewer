@@ -17,7 +17,7 @@ export interface Entry {
   iRequiresCitizens?: ZType | string;
   bDisabled?: ZType;
   Achievement: ZType | string;
-  EffectCity?: ZType | string;
+  EffectCity: ZType | string;
   EffectPlayerState: ZType | string;
   EffectPlayerUpkeep?: ZType | string;
   PaganNation?: ZType | string;

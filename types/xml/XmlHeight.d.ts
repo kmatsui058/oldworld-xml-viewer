@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zIconName: ZType | string;
   iMovementCost?: ZType | string;
   iRangeChange?: ZType | string;
@@ -21,10 +21,12 @@ export interface Entry {
   bCitySite?: ZType | string;
   bRangedAttackBlock?: ZType | string;
   Color?: ZType | string;
-  aiDefendEffectUnit?: AiDefendEffectUnit;
+  aiRoadCost?: AiRoadCost;
+  aiUrbanCost?: AiRoadCost;
+  aiDefendMeleeEffectUnit?: AiRoadCost;
 }
-export interface AiDefendEffectUnit {
-  Pair?: Pair[];
+export interface AiRoadCost {
+  Pair?: Pair;
 }
 export interface Pair {
   zIndex: string;

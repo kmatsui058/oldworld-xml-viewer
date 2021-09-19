@@ -6,7 +6,7 @@
         "zType": {
           
         },
-        "zName": {
+        "Name": {
           
         },
         "bMasculine": {
@@ -21,32 +21,27 @@
         "iMarriageDelayTurns": {
           
         },
-        "GeneralFormation": {
-          
-        },
-        "zLeaderTitle": {
+        "LeaderTitle": {
           
         }
       },
       {
         "zType": "GENDER_FEMALE",
-        "zName": "Female",
+        "Name": "TEXT_GENDER_FEMALE",
         "bMasculine": "0",
         "iMaxFertile": "38",
         "iMaxSpouseAgeDifference": "5",
         "iMarriageDelayTurns": "2",
-        "GeneralFormation": "FORMATION_GENERAL_FEMALE",
-        "zLeaderTitle": "Queen"
+        "LeaderTitle": "TEXT_GENDER_FEMALE_TITLE"
       },
       {
         "zType": "GENDER_MALE",
-        "zName": "Male",
+        "Name": "TEXT_GENDER_MALE",
         "bMasculine": "1",
         "iMaxFertile": "70",
         "iMaxSpouseAgeDifference": "25",
         "iMarriageDelayTurns": "4",
-        "GeneralFormation": "FORMATION_GENERAL_MALE",
-        "zLeaderTitle": "King"
+        "LeaderTitle": "TEXT_GENDER_MALE_TITLE"
       }
     ]
   }

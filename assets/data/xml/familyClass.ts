@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "AdviceFound": {
+          
+        },
         "zUnitWidget": {
           
         },
@@ -46,6 +49,12 @@
           
         },
         "iNoCouncilOpinion": {
+          
+        },
+        "iGeneralOpinion": {
+          
+        },
+        "iGovernorOpinion": {
           
         },
         "iLuxuryOpinion": {
@@ -133,6 +142,7 @@
       {
         "zType": "FAMILYCLASS_LANDOWNERS",
         "Name": "TEXT_FAMILYCLASS_LANDOWNERS",
+        "AdviceFound": "TEXT_FAMILYCLASS_LANDOWNERS_ADVICE_FOUND",
         "zUnitWidget": "CIRCLE",
         "zCityWidget": "CITY_CIRCLE",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -233,6 +243,7 @@
       {
         "zType": "FAMILYCLASS_CHAMPIONS",
         "Name": "TEXT_FAMILYCLASS_CHAMPIONS",
+        "AdviceFound": "TEXT_FAMILYCLASS_CHAMPIONS_ADVICE_FOUND",
         "zUnitWidget": "SHIELD",
         "zCityWidget": "CITY_SHIELD",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -333,11 +344,13 @@
       {
         "zType": "FAMILYCLASS_STATESMEN",
         "Name": "TEXT_FAMILYCLASS_STATESMEN",
+        "AdviceFound": "TEXT_FAMILYCLASS_STATESMEN_ADVICE_FOUND",
         "zUnitWidget": "GUITAR_PICK",
         "zCityWidget": "CITY_GUITAR_PICK",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_STATESMEN",
         "SeatCrest": "CREST_FAMILYCLASS_STATESMEN_SEAT",
+        "iLeaderNotAdultOpinion": "-20",
         "iLeaderUnmarriedOpinion": "-20",
         "iNoCouncilOpinion": "-20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_STATESMEN",
@@ -434,12 +447,13 @@
       {
         "zType": "FAMILYCLASS_PATRONS",
         "Name": "TEXT_FAMILYCLASS_PATRONS",
+        "AdviceFound": "TEXT_FAMILYCLASS_PATRONS_ADVICE_FOUND",
         "zUnitWidget": "SQUARE",
         "zCityWidget": "CITY_SQUARE",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_PATRONS",
         "SeatCrest": "CREST_FAMILYCLASS_PATRONS_SEAT",
-        "iLeaderNotAdultOpinion": "-20",
+        "iGovernorOpinion": "10",
         "iWonderOpinion": "20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_PATRONS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_PATRONS_SEAT",
@@ -534,6 +548,7 @@
       {
         "zType": "FAMILYCLASS_CLERICS",
         "Name": "TEXT_FAMILYCLASS_CLERICS",
+        "AdviceFound": "TEXT_FAMILYCLASS_CLERICS_ADVICE_FOUND",
         "zUnitWidget": "HEXAGON",
         "zCityWidget": "CITY_HEXAGON",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -634,6 +649,7 @@
       {
         "zType": "FAMILYCLASS_SAGES",
         "Name": "TEXT_FAMILYCLASS_SAGES",
+        "AdviceFound": "TEXT_FAMILYCLASS_SAGES_ADVICE_FOUND",
         "zUnitWidget": "OCTAGON",
         "zCityWidget": "CITY_OCTAGON",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -734,6 +750,7 @@
       {
         "zType": "FAMILYCLASS_TRADERS",
         "Name": "TEXT_FAMILYCLASS_TRADERS",
+        "AdviceFound": "TEXT_FAMILYCLASS_TRADERS_ADVICE_FOUND",
         "zUnitWidget": "DIAMOND",
         "zCityWidget": "CITY_DIAMOND",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -842,6 +859,7 @@
       {
         "zType": "FAMILYCLASS_ARTISANS",
         "Name": "TEXT_FAMILYCLASS_ARTISANS",
+        "AdviceFound": "TEXT_FAMILYCLASS_ARTISANS_ADVICE_FOUND",
         "zUnitWidget": "TRIANGLE",
         "zCityWidget": "CITY_TRIANGLE",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
@@ -942,12 +960,14 @@
       {
         "zType": "FAMILYCLASS_RIDERS",
         "Name": "TEXT_FAMILYCLASS_RIDERS",
+        "AdviceFound": "TEXT_FAMILYCLASS_RIDERS_ADVICE_FOUND",
         "zUnitWidget": "PENTAGON",
         "zCityWidget": "CITY_PENTAGON",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_RIDERS",
         "SeatCrest": "CREST_FAMILYCLASS_RIDERS_SEAT",
-        "iHostileUnitOpinion": "-20",
+        "iGeneralOpinion": "10",
+        "iHostileUnitOpinion": "-10",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_RIDERS_SEAT",
@@ -1041,6 +1061,7 @@
       {
         "zType": "FAMILYCLASS_HUNTERS",
         "Name": "TEXT_FAMILYCLASS_HUNTERS",
+        "AdviceFound": "TEXT_FAMILYCLASS_HUNTERS_ADVICE_FOUND",
         "zUnitWidget": "ENEMY_ICON",
         "zCityWidget": "CITY_ENEMY_ICON",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",

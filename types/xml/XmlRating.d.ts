@@ -9,10 +9,12 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   zColor: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
+  Help: ZType | string;
+  GainTexts: GainTexts;
+  LoseTexts: GainTexts;
   zIconName: ZType | string;
-  zHelp: ZType | string;
-  iStrengthModifier?: ZType | string;
+  iAttackModifier?: ZType | string;
   iDefenseModifier?: ZType | string;
   iCriticalChance?: ZType | string;
   iUnitXP?: ZType | string;
@@ -26,6 +28,9 @@ export interface AiYieldCourtRate {
 export interface Pair {
   zIndex: string;
   iValue: string;
+}
+export interface GainTexts {
+  zValue?: string[];
 }
 export interface ZType {
 }

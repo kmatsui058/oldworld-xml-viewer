@@ -8,7 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   zIconName: ZType | string;
   TechPrereq: ZType | string;
   iXP: ZType | string;
@@ -21,14 +21,14 @@ export interface Entry {
   aiReligionOpinion?: AiPlayerOpinion;
   aiFamilyOpinion?: AiPlayerOpinion;
   abTraitPrereq: AbTraitPrereq;
-  aaiRatingYieldGlobal: AaiRatingYieldGlobal;
+  aaiRatingYieldGlobal?: AaiRatingYieldGlobal;
   aaiRatingYieldCity: AaiRatingYieldCity;
 }
 export interface AaiRatingYieldCity {
   Pair?: Pair3;
 }
 export interface AaiRatingYieldGlobal {
-  Pair?: Pair3[] | Pair3;
+  Pair?: Pair3[];
 }
 export interface Pair3 {
   zIndex: string;

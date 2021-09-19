@@ -8,9 +8,10 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  zName: ZType | string;
+  Name: ZType | string;
   AssetVariation: ZType | string;
   zIconName: ZType | string;
+  zAudioSwitchName?: ZType | string;
   iProbThousand: ZType | string;
   iMinDist?: ZType | string;
   iMinLatitude?: ZType | string;
@@ -22,6 +23,7 @@ export interface Entry {
   bNoVegetation?: ZType | string;
   bClearVegetation?: ZType | string;
   bUseAnimLOD?: ZType | string;
+  bFadeWithUnits?: ZType | string;
   aiYieldReveal: AiYieldReveal;
   aiYieldHarvest: AiYieldReveal;
   abTerrainValid: AbTerrainValid;

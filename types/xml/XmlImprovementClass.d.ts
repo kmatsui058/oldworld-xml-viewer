@@ -9,40 +9,45 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  CustomName?: ZType | string;
   iMaxCultureCount?: ZType | string;
-  iAdjacentDiscount?: ZType;
   bNoAdjacent?: ZType | string;
+  bHelpAll?: ZType | string;
   TechPrereq?: ZType | string;
   EffectCity?: ZType | string;
   SpecialistClass?: ZType | string;
   aiAdjacentImprovementClassModifier?: AiAdjacentImprovementClassModifier;
   aiAdjacentResourceYieldOutput?: AiAdjacentResourceYieldOutput;
-  aiTradeNetworkYieldOutput?: AiAdjacentResourceYieldOutput;
   abResourceValid?: AbResourceValid;
   aeTheologyCityEffect?: AeTheologyCityEffect;
-  aeResourceCityEffect?: AeResourceCityEffect;
+  aeResourceCityEffect?: AeTheologyCityEffect;
+  aaiTheologyYieldOutput?: AaiTheologyYieldOutput;
   aaiResourceYieldOutput?: AaiResourceYieldOutput;
 }
 export interface AaiResourceYieldOutput {
-  Pair?: Pair4[] | Pair22[] | Pair22;
+  Pair?: Pair5[] | Pair22[] | Pair22;
 }
 export interface Pair22 {
   zIndex: string;
   SubPair: SubPair[];
 }
-export interface Pair4 {
+export interface Pair5 {
   zIndex: string;
   SubPair: SubPair | SubPair[];
+}
+export interface AaiTheologyYieldOutput {
+  Pair?: Pair4[];
+}
+export interface Pair4 {
+  zIndex: string;
+  SubPair: SubPair;
 }
 export interface SubPair {
   zSubIndex: string;
   iValue: string;
 }
-export interface AeResourceCityEffect {
-  Pair?: Pair3[] | Pair3;
-}
 export interface AeTheologyCityEffect {
-  Pair?: Pair3[];
+  Pair?: Pair3[] | Pair3;
 }
 export interface Pair3 {
   zIndex: string;

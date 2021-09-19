@@ -80,21 +80,24 @@
         "zType": "EVENTTRIGGER_RELIGION_SPREAD",
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_RELIGION",
-        "iProb": "10"
+        "iProb": "10",
+        "bModal": "1"
       },
       {
         "comment": "Subject = City, Extra = Religion",
         "zType": "EVENTTRIGGER_RELIGION_REMOVE",
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_RELIGION",
-        "iProb": "10"
+        "iProb": "10",
+        "bModal": "1"
       },
       {
         "comment": "Subject = City, Extra = Theology",
         "zType": "EVENTTRIGGER_THEOLOGY_ESTABLISHED",
         "SubjectClass": "SUBJECTCLASS_RELIGION",
         "ExtraClass": "SUBJECTCLASS_THEOLOGY",
-        "iProb": "10"
+        "iProb": "10",
+        "bModal": "1"
       },
       {
         "comment": "Subject = Tribe, Extra = Tile",
@@ -160,6 +163,18 @@
         "SubjectClass": "SUBJECTCLASS_PLAYER"
       },
       {
+        "comment": "Subject = Player, Extra = City",
+        "zType": "EVENTTRIGGER_PLAYER_POACHED_CITY",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_CITY"
+      },
+      {
+        "comment": "Subject = Player, Extra = Tile",
+        "zType": "EVENTTRIGGER_PLAYER_STOLE_CITY_SITE",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_TILE"
+      },
+      {
         "comment": "Subject = City",
         "zType": "EVENTTRIGGER_CITY_FOUNDED",
         "SubjectClass": "SUBJECTCLASS_CITY",
@@ -198,6 +213,12 @@
         "SubjectClass": "SUBJECTCLASS_CITY"
       },
       {
+        "comment": "Subject = City",
+        "zType": "EVENTTRIGGER_CITY_DISTANT_RAID",
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "iProb": "25"
+      },
+      {
         "comment": "Subject = City, Data = ProjectType",
         "zType": "EVENTTRIGGER_PRODUCTION_PROJECT",
         "Data": "PROJECT",
@@ -217,22 +238,32 @@
         "ExtraClass": "SUBJECTCLASS_UNIT"
       },
       {
-        "comment": "Subject = City, Data = ImprovementType",
+        "comment": "Subject = City, Extra = Tile, Data = ImprovementType",
         "zType": "EVENTTRIGGER_IMPROVEMENT_FINISHED",
         "Data": "IMPROVEMENT",
-        "SubjectClass": "SUBJECTCLASS_CITY"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "ExtraClass": "SUBJECTCLASS_TILE"
       },
       {
         "comment": "Subject = Tribe, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_TRIBE",
         "SubjectClass": "SUBJECTCLASS_TRIBE",
-        "ExtraClass": "SUBJECTCLASS_TILE"
+        "ExtraClass": "SUBJECTCLASS_TILE",
+        "iProb": "10"
       },
       {
         "comment": "Subject = Player, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_ENEMY",
         "SubjectClass": "SUBJECTCLASS_PLAYER",
-        "ExtraClass": "SUBJECTCLASS_TILE"
+        "ExtraClass": "SUBJECTCLASS_TILE",
+        "iProb": "10"
+      },
+      {
+        "comment": "Subject = Player, Extra = Tile",
+        "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_US",
+        "SubjectClass": "SUBJECTCLASS_PLAYER",
+        "ExtraClass": "SUBJECTCLASS_TILE",
+        "iProb": "10"
       },
       {
         "zType": "EVENTTRIGGER_CHOOSE_AMBITION"
@@ -260,7 +291,8 @@
         "zType": "EVENTTRIGGER_MISSION_FINISHED",
         "Data": "MISSION",
         "ExtraClass": "SUBJECTCLASS_CHARACTER",
-        "iSortOrder": "4"
+        "iSortOrder": "4",
+        "bModal": "1"
       },
       {
         "comment": "Subject = Character",
@@ -351,6 +383,14 @@
         "bModal": "1"
       },
       {
+        "comment": "Subject = Unit, Extra = Unit",
+        "zType": "EVENTTRIGGER_UNIT_COMBAT_WATER",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "iProb": "1",
+        "bModal": "1"
+      },
+      {
         "comment": "Subject = City, Extra = Unit",
         "zType": "EVENTTRIGGER_ATTACKED_CITY",
         "SubjectClass": "SUBJECTCLASS_CITY",
@@ -374,6 +414,20 @@
         "bModal": "1"
       },
       {
+        "comment": "Subject = Unit, Extra = Player",
+        "zType": "EVENTTRIGGER_UNIT_KILL_WATER",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "1",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Unit",
+        "zType": "EVENTTRIGGER_UNIT_ROUT",
+        "SubjectClass": "SUBJECTCLASS_UNIT",
+        "bModal": "1"
+      },
+      {
         "comment": "Subject = Unit",
         "zType": "EVENTTRIGGER_UNIT_CAPTURED",
         "SubjectClass": "SUBJECTCLASS_UNIT",
@@ -389,7 +443,23 @@
       },
       {
         "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_KILL_WATER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "5",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_ATTACK",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "5",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_ATTACK_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "5",
@@ -400,12 +470,28 @@
         "zType": "EVENTTRIGGER_GENERAL_DUEL",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_CHARACTER",
-        "iProb": "50",
+        "iProb": "25",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_DUEL_WATER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_CHARACTER",
+        "iProb": "25",
         "bModal": "1"
       },
       {
         "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_CRITICAL",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_CRITICAL_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",
@@ -421,7 +507,23 @@
       },
       {
         "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_INJURY_WATER",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bLevel": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",

@@ -23,6 +23,246 @@
         "English": "Unit~a Unit~Units"
       },
       {
+        "zType": "TEXT_TUTORIAL_ORDERS",
+        "English": "Tutorial: Orders"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SCOUTS",
+        "English": "Tutorial: Scout"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_LUXURIES",
+        "English": "Tutorial: Luxuries"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TOOLTIPS",
+        "English": "Tutorial: Tooltips"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TECH_DECK",
+        "English": "Tutorial: Tech Deck"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHOP_WOOD",
+        "English": "Tutorial: Chop Wood"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ANCHORING",
+        "English": "Tutorial: Anchoring"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SECOND_CITY",
+        "English": "Tutorial: Second City"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_PAGAN_SHRINE",
+        "English": "Tutorial: Pagan Shrine"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RALLY_TROOPS",
+        "English": "Tutorial: Rally Troops"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_HOLD_COURT",
+        "English": "Tutorial: Hold Court"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INFLUENCE",
+        "English": "Tutorial: Influence"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_IMPRISON",
+        "English": "Tutorial: Imprison"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INTERCESSION",
+        "English": "Tutorial: Intercession"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_WORKER",
+        "English": "Tutorial: Worker"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RUSH_BUYING",
+        "English": "Tutorial: Rush Buying"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CARAVAN_SELECTED",
+        "English": "Tutorial: Caravans"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SLINGER",
+        "English": "Tutorial: Slinger"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_WARRIOR",
+        "English": "Tutorial: Warrior"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ROUT",
+        "English": "Tutorial: Rout"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_UPGRADES",
+        "English": "Tutorial: Unit Upgrades"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRIBE_CAMP_CLEARED",
+        "English": "Tutorial: Tribal Camps"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CITY_CAPTURED",
+        "English": "Tutorial: City Capture"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CULTURE",
+        "English": "Tutorial: Culture"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_HARVEST_RESOURCE",
+        "English": "Tutorial: Harvest Resource"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_ATTACK_COOLDOWN",
+        "English": "Tutorial: Attack Cooldown"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNIT_FATIGUED",
+        "English": "Tutorial: Unit Fatigued"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_UNDO",
+        "English": "Tutorial: Undo"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RELIGION",
+        "English": "Tutorial: Religion"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHARIOT_SELECTED",
+        "English": "Tutorial: Chariots"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_NATION_CONTACT",
+        "English": "Tutorial: Nations"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRIBES",
+        "English": "Tutorial: Tribes"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPECIALIST",
+        "English": "Tutorial: Specialist"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_GOVERNOR",
+        "English": "Tutorial: Governor"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRAINING_IMPROVEMENT",
+        "English": "Tutorial: Training Improvement"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_TRADE_NETWORK",
+        "English": "Tutorial: Trade Network"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_MERCENARIES",
+        "English": "Tutorial: Mercenaries"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AMBITION",
+        "English": "Tutorial: Ambitions"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SUCCESSION",
+        "English": "Tutorial: Succession"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_INHERITANCE_LAWS",
+        "English": "Tutorial: Inheritance Laws"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_LEGITIMACY",
+        "English": "Tutorial: Legitimacy"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_MARRIAGE",
+        "English": "Tutorial: Marriage"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_GENERAL",
+        "English": "Tutorial: General"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPEARMAN",
+        "English": "Tutorial: Spearman"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AXEMAN",
+        "English": "Tutorial: Axeman"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_ONAGER",
+        "English": "Tutorial: Onager"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_FAMILY",
+        "English": "Tutorial: Families"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AMBASSADOR",
+        "English": "Tutorial: Ambassador"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_CHANCELLOR",
+        "English": "Tutorial: Chancellor"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_SPYMASTER",
+        "English": "Tutorial: Spymaster"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_AGENTS",
+        "English": "Tutorial: Agents"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_RURAL_YIELDS",
+        "English": "Tutorial: Rural Yields"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_YIELDS",
+        "English": "Tutorial: Urban Yields"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_GROWTH",
+        "English": "Tutorial: Urban Yields (Growth)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_CIVICS",
+        "English": "Tutorial: Urban Yields (Civics)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_TRAINING",
+        "English": "Tutorial: Urban Yields (Training)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_CULTURE",
+        "English": "Tutorial: Urban Yields (Culture)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_DISCONTENT",
+        "English": "Tutorial: Urban Yields (Discontent)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_SCIENCE",
+        "English": "Tutorial: Urban Yields (Science)"
+      },
+      {
+        "zType": "TEXT_TUTORIAL_URBAN_MONEY",
+        "English": "Tutorial: Urban Yields (Money)"
+      },
+      {
         "zType": "TEXT_CONCEPT_AGENT",
         "English": "Agent~an Agent~Agents"
       },
@@ -40,11 +280,19 @@
       },
       {
         "zType": "TEXT_CONCEPT_ALLIANCE_PLAYER",
-        "English": "Player Alliance"
+        "English": "National Alliance"
+      },
+      {
+        "zType": "TEXT_CONCEPT_AMBITION",
+        "English": "Ambition~an Ambition~Ambitions"
       },
       {
         "zType": "TEXT_CONCEPT_ANCHORED",
-        "English": "Anchored"
+        "English": "Anchored~Anchor~Anchoring"
+      },
+      {
+        "zType": "TEXT_CONCEPT_ARCHETYPE",
+        "English": "Archetype~an Archetype~Archetypes"
       },
       {
         "zType": "TEXT_CONCEPT_BUY_TILE",
@@ -59,8 +307,20 @@
         "English": "Caravan Mission"
       },
       {
+        "zType": "TEXT_CONCEPT_CITIZEN",
+        "English": "Citizen~a Citizen~Citizens"
+      },
+      {
+        "zType": "TEXT_CONCEPT_CITY_SITE",
+        "English": "City Site~a City Site~City Sites"
+      },
+      {
         "zType": "TEXT_CONCEPT_CLEAR",
         "English": "Clear"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COUNCILOR",
+        "English": "Councilor~a Councilor~Councilors"
       },
       {
         "zType": "TEXT_CONCEPT_CRITICAL_HIT",
@@ -83,6 +343,10 @@
         "English": "Desired Ambition"
       },
       {
+        "zType": "TEXT_CONCEPT_DISCIPLE",
+        "English": "Disciple~a Disciple~Disciples"
+      },
+      {
         "zType": "TEXT_CONCEPT_DISTANCE_MODIFIER",
         "English": "Distance Modifier"
       },
@@ -103,6 +367,22 @@
         "English": "Family Class~a Family Class~Family Classes"
       },
       {
+        "zType": "TEXT_CONCEPT_FATIGUE",
+        "English": "Fatigue~Fatigued"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FRESH_WATER",
+        "English": "Fresh Water"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FLANKING",
+        "English": "Flanking"
+      },
+      {
+        "zType": "TEXT_CONCEPT_FORTIFY",
+        "English": "Fortify"
+      },
+      {
         "zType": "TEXT_CONCEPT_GENERAL",
         "English": "General~a General~Generals"
       },
@@ -111,48 +391,60 @@
         "English": "Governor~a Governor~Governors"
       },
       {
-        "zType": "TEXT_CONCEPT_COUNCILOR",
-        "English": "Councilor~a Councilor~Councilors"
-      },
-      {
-        "zType": "TEXT_CONCEPT_SHRINE",
-        "English": "Shrine~a Shrine~Shrines"
-      },
-      {
-        "zType": "TEXT_CONCEPT_SPECIALIST",
-        "English": "Specialist~a Specialist~Specialists"
-      },
-      {
         "zType": "TEXT_CONCEPT_HARVEST_RESOURCE",
-        "English": "Harvest Resource~Harvest Resources~Harvestable Resource"
+        "English": "Harvest Resource~Harvest Resources~Harvestable Resource~Harvestable Resources"
       },
       {
         "zType": "TEXT_CONCEPT_MARCH",
-        "English": "Forced March~Forced Marches~Forced Marching~Force Marched~Force March"
-      },
-      {
-        "zType": "TEXT_CONCEPT_FATIGUE",
-        "English": "Fatigue~Fatigued"
-      },
-      {
-        "zType": "TEXT_CONCEPT_FLANKING",
-        "English": "Flanking"
-      },
-      {
-        "zType": "TEXT_CONCEPT_AMBITION",
-        "English": "Ambition~an Ambition~Ambitions"
+        "English": "Forced March~a Forced March~Forced Marches~Force March"
       },
       {
         "zType": "TEXT_CONCEPT_STATE_RELIGION",
         "English": "State Religion~a State Religion~State Religions"
       },
       {
+        "zType": "TEXT_CONCEPT_STRENGTH",
+        "English": "Strength"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SUCCESSION",
+        "English": "Succession"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SUCCESSION_LAW",
+        "English": "Succession Law~Succession Laws"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COASTAL_CITIES",
+        "English": "Coastal City~a Coastal City~Coastal Cities"
+      },
+      {
         "zType": "TEXT_CONCEPT_COGNOMEN",
         "English": "Cognomen~a Cognomen~Cognomens"
       },
       {
+        "zType": "TEXT_CONCEPT_COURT",
+        "English": "Court"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COURTIER",
+        "English": "Courtier~a Courtier~Courtiers"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HEAL",
+        "English": "Heal~Healing"
+      },
+      {
         "zType": "TEXT_CONCEPT_HIDDEN",
         "English": "Hidden"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HOLY_CITY",
+        "English": "Holy City~a Holy City~Holy Cities"
+      },
+      {
+        "zType": "TEXT_CONCEPT_HOLY_SITE",
+        "English": "Holy Site~a Holy Site~Holy Sites"
       },
       {
         "zType": "TEXT_CONCEPT_IDLE",
@@ -161,6 +453,26 @@
       {
         "zType": "TEXT_CONCEPT_IGNORES_ZOC",
         "English": "Ignores ZOC"
+      },
+      {
+        "zType": "TEXT_CONCEPT_IMPROVEMENT",
+        "English": "Improvement~an Improvement~Improvements"
+      },
+      {
+        "zType": "TEXT_CONCEPT_INJURY",
+        "English": "Injury~an Injury~Injuries~Injured"
+      },
+      {
+        "zType": "TEXT_CONCEPT_INVISIBLE",
+        "English": "Invisible"
+      },
+      {
+        "zType": "TEXT_CONCEPT_KNOWLEDGE",
+        "English": "Knowledge"
+      },
+      {
+        "zType": "TEXT_CONCEPT_LAUNCH_OFFENSIVE",
+        "English": "Launch Offensive"
       },
       {
         "zType": "TEXT_CONCEPT_LEGACY",
@@ -172,35 +484,87 @@
       },
       {
         "zType": "TEXT_CONCEPT_LUXURY",
-        "English": "Luxuries"
+        "English": "Luxuries~Luxury"
       },
       {
         "zType": "TEXT_CONCEPT_MERCENARY",
         "English": "Mercenary~a Mercenary~Mercenaries"
       },
       {
-        "zType": "TEXT_CONCEPT_PROJECT_INFO",
-        "English": "Project"
+        "zType": "TEXT_CONCEPT_MINOR_CITY",
+        "English": "Minor City~a Minor City~Minor Cities"
+      },
+      {
+        "zType": "TEXT_CONCEPT_NATION",
+        "English": "Nation~a Nation~Nations"
+      },
+      {
+        "zType": "TEXT_CONCEPT_ONE_CITY_CHALLENGE",
+        "English": "One City Challenge~a One City Challenge~One City Challenges"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_FAMILY",
+        "English": "Opinion: Family~Family Opinion~Family Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_PLAYER",
+        "English": "Opinion: Nation~National Opinion~National Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_RELIGION",
+        "English": "Opinion: Religion~Religion Opinion~Religion Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_TRIBE",
+        "English": "Opinion: Tribe~Tribe Opinion~Tribe Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_OPINION_CHARACTER",
+        "English": "Opinion: Character~Character Opinion~Character Opinions~Opinion"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PAGAN_RELIGION",
+        "English": "Pagan Religion~a Pagan Religion~Pagan Religions"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PEACE_TRIBE",
+        "English": "Tribal Peace"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PEACE_PLAYER",
+        "English": "National Peace"
+      },
+      {
+        "zType": "TEXT_CONCEPT_POPULATION",
+        "English": "Population"
+      },
+      {
+        "zType": "TEXT_CONCEPT_POWER",
+        "English": "Power"
+      },
+      {
+        "zType": "TEXT_CONCEPT_PROJECT",
+        "English": "Project~a Project~Projects"
       },
       {
         "zType": "TEXT_CONCEPT_PROMOTION",
         "English": "Promotion~a Promotion~Promotions~Promoted~Promote"
       },
       {
-        "zType": "TEXT_CONCEPT_UPGRADE_IMPROVEMENTS",
-        "English": "Upgrade Improvements"
+        "zType": "TEXT_CONCEPT_PROXIMITY",
+        "English": "Proximity"
       },
       {
-        "zType": "TEXT_CONCEPT_IMPROVEMENT",
-        "English": "Improvement~an Improvement~Improvements"
+        "zType": "TEXT_CONCEPT_RELIGION",
+        "English": "Religion~a Religion~Religions"
       },
       {
-        "zType": "TEXT_CONCEPT_REBEL",
-        "English": "Rebel"
+        "zType": "TEXT_CONCEPT_RETREAT",
+        "English": "Retreat~Retreats"
       },
       {
-        "zType": "TEXT_CONCEPT_DISCIPLE",
-        "English": "Disciple~a Disciple~Disciples"
+        "zType": "TEXT_CONCEPT_RIVER",
+        "English": "River~a River~Rivers"
       },
       {
         "zType": "TEXT_CONCEPT_ROAD",
@@ -215,6 +579,30 @@
         "English": "Settlement~a Settlement~Settlements"
       },
       {
+        "zType": "TEXT_CONCEPT_SHRINE",
+        "English": "Shrine~a Shrine~Shrines"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPECIALIST",
+        "English": "Specialist~a Specialist~Specialists"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPREAD_RELIGION",
+        "English": "Spread Religion~Spread"
+      },
+      {
+        "zType": "TEXT_CONCEPT_SPOUSE",
+        "English": "Spouse"
+      },
+      {
+        "zType": "TEXT_CONCEPT_STUN",
+        "English": "Stun~Stuns~Stunned"
+      },
+      {
+        "zType": "TEXT_CONCEPT_TESTUDO",
+        "English": "Testudo"
+      },
+      {
         "zType": "TEXT_CONCEPT_THEOLOGY",
         "English": "Theology~a Theology~Theologies"
       },
@@ -227,6 +615,10 @@
         "English": "Tribal Invasion"
       },
       {
+        "zType": "TEXT_CONCEPT_TUTOR",
+        "English": "Tutor~a Tutor~Tutors~Tutored"
+      },
+      {
         "zType": "TEXT_CONCEPT_UNDO",
         "English": "Undo"
       },
@@ -236,15 +628,35 @@
       },
       {
         "zType": "TEXT_CONCEPT_UPGRADE",
-        "English": "Upgrade~an Upgrades~Upgrades~Upgraded"
+        "English": "Upgrade~an Upgrade~Upgrades~Upgraded"
+      },
+      {
+        "zType": "TEXT_CONCEPT_UPGRADE_IMPROVEMENTS",
+        "English": "Upgrade Improvements"
       },
       {
         "zType": "TEXT_CONCEPT_URBAN",
-        "English": "Urban~an Urban<comment this text is an adjective>"
+        "English": "Urban~an Urban"
+      },
+      {
+        "zType": "TEXT_CONCEPT_VISION",
+        "English": "Vision"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WEAKNESS",
+        "English": "Weakness"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WONDER",
+        "English": "Wonder~a Wonder~Wonders"
+      },
+      {
+        "zType": "TEXT_CONCEPT_WORLD_RELIGION",
+        "English": "World Religion~a World Religion~World Religions"
       },
       {
         "zType": "TEXT_CONCEPT_ZOC",
-        "English": "ZOC"
+        "English": "ZOC~Zone-of-Control"
       },
       {
         "zType": "TEXT_CONCEPT_XP",
@@ -255,40 +667,80 @@
         "English": "Landowners~Landowner"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_LANDOWNERS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_LANDOWNERS) are best at expanding your territory. Their {YIELD_GROWTH}link(YIELD_GROWTH) bonus makes them build link(UNIT_SETTLER,2) and link(UNIT_WORKER,2) faster, and link(FAMILYCLASS_LANDOWNERS,1) cities build link(EFFECTCITY_SPECIALIST_RURAL,2) in half the time. link(FAMILYCLASS_LANDOWNERS) are a good choice when near link(EFFECTCITY_RESOURCE_CROP,1)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_CHAMPIONS",
         "English": "Champions~Champion"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_CHAMPIONS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_CHAMPIONS) excel at military. Their cities have stronger defense and train military units faster, and any units trained will be link(EFFECTUNIT_STEADFAST). The first link(FAMILYCLASS_CHAMPIONS,1) city will get a link(IMPROVEMENT_GARRISON_1), letting you immediately assign a link(CONCEPT_GOVERNOR)."
       },
       {
         "zType": "TEXT_FAMILYCLASS_STATESMEN",
         "English": "Statesmen~Statesman"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_STATESMEN_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_STATESMEN,1) cities are good at boosting your {YIELD_ORDERS}link(YIELD_ORDERS) and {YIELD_CIVICS}link(YIELD_CIVICS). The family's cities will produce more {YIELD_CIVICS}link(YIELD_CIVICS) as the family's opinion of you improves. link(FAMILYCLASS_STATESMEN,1) cities are good at producing link(CONCEPT_SPECIALIST,2)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_PATRONS",
         "English": "Patrons~Patron"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_PATRONS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_PATRONS) are focused on {YIELD_CULTURE}link(YIELD_CULTURE) and link(CONCEPT_SPECIALIST,2). Their cities produce extra {YIELD_CIVICS}link(YIELD_CIVICS), which makes them build link(CONCEPT_SPECIALIST,2) faster, and each link(CONCEPT_SPECIALIST) increases the link(FAMILYCLASS_PATRONS,1) City's {YIELD_CULTURE}link(YIELD_CULTURE)."
       },
       {
         "zType": "TEXT_FAMILYCLASS_CLERICS",
         "English": "Clerics~Cleric"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_CLERICS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_CLERICS) are entirely focused on link(CONCEPT_RELIGION). Founding the first link(FAMILYCLASS_CLERICS,1) city will automatically found a link(CONCEPT_RELIGION). Their cities gain increased yields from religious buildings and have lower {YIELD_DISCONTENT}link(YIELD_DISCONTENT). link(FAMILYCLASS_CLERICS,1) cities are the only ones that can build on link(TERRAIN_SAND)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_SAGES",
         "English": "Sages~Sage"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_SAGES_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_SAGES,1) cities are focused on {YIELD_SCIENCE}link(YIELD_SCIENCE) and link(CONCEPT_SPECIALIST,2). Their cities produce extra {YIELD_CIVICS}link(YIELD_CIVICS), which helps them build link(CONCEPT_SPECIALIST,2) faster, and each link(CONCEPT_SPECIALIST) increases the link(FAMILYCLASS_SAGES,1) city's {YIELD_SCIENCE}link(YIELD_SCIENCE) yield."
       },
       {
         "zType": "TEXT_FAMILYCLASS_TRADERS",
         "English": "Traders~Trader"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_TRADERS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_TRADERS) are a family focused on {YIELD_MONEY}link(YIELD_MONEY). Found near a link(EFFECTCITY_RESOURCE_BULLION) to reap more benefits. link(FAMILYCLASS_TRADERS,1) link(UNIT_WORKER,2) can build several Roads per turn, which makes them especially good at extending your link(CONCEPT_TRADE_NETWORK)."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_ARTISANS",
         "English": "Artisans~Artisan"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_ARTISANS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_ARTISANS) generate extra {YIELD_CULTURE}link(YIELD_CULTURE) and receive a significant bonus to link(IMPROVEMENT_MINE,2) and link(IMPROVEMENT_LUMBERMILL,2). They are a good choice for hilly or heavily forested areas."
       },
       {
         "zType": "TEXT_FAMILYCLASS_RIDERS",
         "English": "Riders~Rider"
       },
       {
+        "zType": "TEXT_FAMILYCLASS_RIDERS_ADVICE_FOUND",
+        "English": "link(FAMILYCLASS_RIDERS) are a military family. Their first city will be able to build link(UNITTRAIT_MOUNTED) units like link(UNIT_WAR_ELEPHANT,2) or link(UNIT_HORSEMAN,2) even without having the associated resource. link(FAMILYCLASS_RIDERS,1) cities are always link(EFFECTCITY_CONNECTED), which makes link(FAMILYCLASS_RIDERS) a good choice for locations that would be harder to connect by Roads."
+      },
+      {
         "zType": "TEXT_FAMILYCLASS_HUNTERS",
         "English": "Hunters~Hunter"
+      },
+      {
+        "zType": "TEXT_FAMILYCLASS_HUNTERS_ADVICE_FOUND",
+        "English": "The link(FAMILYCLASS_HUNTERS) are a military and {YIELD_GROWTH}link(YIELD_GROWTH) family. Their link(UNITTRAIT_RANGED) units fight better in your territory, and all link(IMPROVEMENT_CAMP,2) and link(IMPROVEMENT_NETS,2) have double output in link(FAMILYCLASS_HUNTERS,2) cities. This makes link(FAMILYCLASS_HUNTERS,2) very effective near resources like link(RESOURCE_GAME), link(RESOURCE_FISH), and link(RESOURCE_CRAB)."
       },
       {
         "zType": "TEXT_GOAL_EPICS",
@@ -323,8 +775,8 @@
         "English": "Enact link(LAW_CONSTITUTION)"
       },
       {
-        "zType": "TEXT_GOAL_COLONIZATION",
-        "English": "Enact link(LAW_COLONIZATION)"
+        "zType": "TEXT_GOAL_COLONIES",
+        "English": "Enact link(LAW_COLONIES)"
       },
       {
         "zType": "TEXT_GOAL_SERFDOM",
@@ -504,67 +956,67 @@
       },
       {
         "zType": "TEXT_GOAL_FOOD_400",
-        "English": "Produce 400 icon(YIELD_FOOD)"
+        "English": "Produce 400 link(YIELD_FOOD,1)"
       },
       {
         "zType": "TEXT_GOAL_FOOD_800",
-        "English": "Produce 800 icon(YIELD_FOOD)"
+        "English": "Produce 800 link(YIELD_FOOD,1)"
       },
       {
         "zType": "TEXT_GOAL_WOOD_400",
-        "English": "Produce 400 icon(YIELD_WOOD)"
+        "English": "Produce 400 link(YIELD_WOOD,1)"
       },
       {
         "zType": "TEXT_GOAL_WOOD_800",
-        "English": "Produce 800 icon(YIELD_WOOD)"
+        "English": "Produce 800 link(YIELD_WOOD,1)"
       },
       {
         "zType": "TEXT_GOAL_STONE_400",
-        "English": "Produce 400 icon(YIELD_STONE)"
+        "English": "Produce 400 link(YIELD_STONE,1)"
       },
       {
         "zType": "TEXT_GOAL_STONE_800",
-        "English": "Produce 800 icon(YIELD_STONE)"
+        "English": "Produce 800 link(YIELD_STONE,1)"
       },
       {
         "zType": "TEXT_GOAL_IRON_400",
-        "English": "Produce 400 icon(YIELD_IRON)"
+        "English": "Produce 400 link(YIELD_IRON,1)"
       },
       {
         "zType": "TEXT_GOAL_IRON_800",
-        "English": "Produce 800 icon(YIELD_IRON)"
+        "English": "Produce 800 link(YIELD_IRON,1)"
       },
       {
         "zType": "TEXT_GOAL_20_GOODS_TURN",
-        "English": "+20 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), and icon(YIELD_STONE)/Year"
+        "English": "+20 link(YIELD_FOOD,1), link(YIELD_IRON,1), link(YIELD_WOOD,1), and link(YIELD_STONE,1)/Year"
       },
       {
         "zType": "TEXT_GOAL_50_GOODS_TURN",
-        "English": "+50 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), and icon(YIELD_STONE)/Year"
+        "English": "+50 link(YIELD_FOOD,1), link(YIELD_IRON,1), link(YIELD_WOOD,1), and link(YIELD_STONE,1)/Year"
       },
       {
         "zType": "TEXT_GOAL_100_GOODS_TURN",
-        "English": "+100 icon(YIELD_FOOD), icon(YIELD_IRON), icon(YIELD_WOOD), and icon(YIELD_STONE)/Year"
+        "English": "+100 link(YIELD_FOOD,1), link(YIELD_IRON,1), link(YIELD_WOOD,1), and link(YIELD_STONE,1)/Year"
       },
       {
         "zType": "TEXT_GOAL_CIVICS_2000",
-        "English": "Stockpile 2,000 icon(YIELD_CIVICS)"
+        "English": "Stockpile 2,000 link(YIELD_CIVICS,1)"
       },
       {
         "zType": "TEXT_GOAL_TRAINING_2000",
-        "English": "Stockpile 2,000 icon(YIELD_TRAINING)"
+        "English": "Stockpile 2,000 link(YIELD_TRAINING,1)"
       },
       {
         "zType": "TEXT_GOAL_MONEY_2000",
-        "English": "Stockpile 2,000 icon(YIELD_MONEY)"
+        "English": "Stockpile 2,000 link(YIELD_MONEY,1)"
       },
       {
         "zType": "TEXT_GOAL_MONEY_5000",
-        "English": "Stockpile 5,000 icon(YIELD_MONEY)"
+        "English": "Stockpile 5,000 link(YIELD_MONEY,1)"
       },
       {
         "zType": "TEXT_GOAL_MONEY_10000",
-        "English": "Stockpile 10,000 icon(YIELD_MONEY)"
+        "English": "Stockpile 10,000 link(YIELD_MONEY,1)"
       },
       {
         "zType": "TEXT_GOAL_FIVE_WORKERS",
@@ -696,19 +1148,19 @@
       },
       {
         "zType": "TEXT_GOAL_FIVE_DEVELOPING",
-        "English": "Control Five Developing Cities"
+        "English": "Control Five link(CULTURE_DEVELOPING) Cities"
       },
       {
         "zType": "TEXT_GOAL_FOUR_STRONG",
-        "English": "Control Four Strong Cities"
+        "English": "Control Four link(CULTURE_STRONG) Cities"
       },
       {
         "zType": "TEXT_GOAL_THREE_LEGENDARY",
-        "English": "Control Three Legendary Cities"
+        "English": "Control Three link(CULTURE_LEGENDARY) Cities"
       },
       {
         "zType": "TEXT_GOAL_SIX_LEGENDARY",
-        "English": "Control Six Legendary Cities"
+        "English": "Control Six link(CULTURE_LEGENDARY) Cities"
       },
       {
         "zType": "TEXT_GOAL_TWO_WONDERS",
@@ -776,55 +1228,55 @@
       },
       {
         "zType": "TEXT_GOAL_THREE_SPECIALISTS",
-        "English": "Control Three Specialists"
+        "English": "Control Three link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_10_SPECIALISTS",
-        "English": "Control 10 Specialists"
+        "English": "Control 10 link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_20_SPECIALISTS",
-        "English": "Control 20 Specialists"
+        "English": "Control 20 link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_5_ELDER_SPECIALISTS",
-        "English": "Control Five Elder Specialists"
+        "English": "Control Five Elder link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_10_ELDER_SPECIALISTS",
-        "English": "Control 10 Elder Specialists"
+        "English": "Control 10 Elder link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_WALLS",
-        "English": "Control Six Walls"
+        "English": "Control Six link(PROJECT_WALLS)"
       },
       {
         "zType": "TEXT_GOAL_SIX_MOATS",
-        "English": "Control Six Moats"
+        "English": "Control Six link(PROJECT_MOAT,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TOWERS",
-        "English": "Control Six Towers"
+        "English": "Control Six link(PROJECT_TOWERS)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TREASURIES",
-        "English": "Control Six Treasuries"
+        "English": "Control Six link(EFFECTCITY_PROJECT_TREASURY,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_FORUMS",
-        "English": "Control Six Forums"
+        "English": "Control Six link(EFFECTCITY_PROJECT_FORUM,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_ARCHIVES",
-        "English": "Control Six Archives"
+        "English": "Control Six link(EFFECTCITY_PROJECT_ARCHIVE,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_FESTIVALS",
-        "English": "Complete Six Festivals"
+        "English": "Complete Six link(PROJECT_FESTIVAL,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_CONVOYS",
-        "English": "Complete Six Convoys"
+        "English": "Complete Six link(PROJECT_CONVOY,2)"
       },
       {
         "zType": "TEXT_GOAL_LEGENDARY_PROJECTS",
@@ -844,23 +1296,19 @@
       },
       {
         "zType": "TEXT_GOAL_TRIBE_PEACE",
-        "English": "Make Peace with a Tribe"
+        "English": "Make link(CONCEPT_PEACE_TRIBE) with a Tribe"
       },
       {
         "zType": "TEXT_GOAL_TRIBE_ALLIANCE",
-        "English": "Form an Alliance with a Tribe"
-      },
-      {
-        "zType": "TEXT_GOAL_TRIBE_CONVERSION",
-        "English": "Convert Two Tribal Sites"
+        "English": "Form an link(CONCEPT_ALLIANCE_TRIBE) with a Tribe"
       },
       {
         "zType": "TEXT_GOAL_THREE_PEACE",
-        "English": "Make Peace with Three Tribes or Empires"
+        "English": "Make link(DIPLOMACY_PEACE) with Three Tribes or Nations"
       },
       {
         "zType": "TEXT_GOAL_ALL_PEACE",
-        "English": "Make Peace with All Tribes and Empires"
+        "English": "Make link(DIPLOMACY_PEACE) with All Tribes and Nations"
       },
       {
         "zType": "TEXT_GOAL_STATE_RELIGION",
@@ -868,7 +1316,7 @@
       },
       {
         "zType": "TEXT_GOAL_FOUND_WORLD_RELIGION",
-        "English": "Found a World Religion"
+        "English": "Found a link(CONCEPT_WORLD_RELIGION)"
       },
       {
         "zType": "TEXT_GOAL_ESTABLISH_THEOLOGY",
@@ -876,19 +1324,19 @@
       },
       {
         "zType": "TEXT_GOAL_FOUR_RELIGION_SPREAD",
-        "English": "Spread Religion (x4)"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x4)"
       },
       {
         "zType": "TEXT_GOAL_EIGHT_RELIGION_SPREAD",
-        "English": "Spread Religion (x8)"
+        "English": "link(CONCEPT_SPREAD_RELIGION,1) link(CONCEPT_RELIGION) (x8)"
       },
       {
         "zType": "TEXT_GOAL_SIX_TECHS",
-        "English": "Discover Six Techs"
+        "English": "Discover Six Technologies"
       },
       {
         "zType": "TEXT_GOAL_EIGHT_TECHS",
-        "English": "Discover Eight Techs"
+        "English": "Discover Eight Technologies"
       },
       {
         "zType": "TEXT_GOAL_SCHOLARSHIP_VAULTING",
@@ -1239,8 +1687,8 @@
         "English": "Control Three link(IMPROVEMENTCLASS_CATHEDRAL,2)"
       },
       {
-        "zType": "TEXT_GOAL_SIX_CATHEDRAL",
-        "English": "Control Six link(IMPROVEMENTCLASS_CATHEDRAL,2)"
+        "zType": "TEXT_GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL",
+        "English": "Control Six link(IMPROVEMENTCLASS_CATHEDRAL,2) and Two link(IMPROVEMENTCLASS_HOLY_SITE,2)"
       },
       {
         "zType": "TEXT_GOAL_SIX_URBAN_IMPROVEMENTS",
@@ -1265,10 +1713,6 @@
       {
         "zType": "TEXT_GOAL_100_URBAN_TILES",
         "English": "Control 100 link(TERRAIN_URBAN) Tiles"
-      },
-      {
-        "zType": "TEXT_GOAL_HIGHEST_VP",
-        "English": "Attain the Most VPs"
       },
       {
         "zType": "TEXT_GOAL_THREE_CITIES_FOREIGN",
@@ -1360,23 +1804,23 @@
       },
       {
         "zType": "TEXT_NATION_ASSYRIA_STORY",
-        "English": "I am Ashurbanipal, king of the universe, descendants of great kings. I was the fourth in line for the succession, but my father, Esarhaddon, picked me to rule Assyria because of my bravery and intelligence while sending an older brother to rule a distant kingdom. Unrest comes from his land, and I need to show him how to be the greatest king of them all.\n\n      While my father was alive, I worked as a spymaster and studied etiquette and military training. I constructed the first systematically organized library of the Old World, containing 30,000 clay tablets. I was known for fluency in languages, especially Akkadian and Sumerian, endearing me to many old families.\n\n      I commissioned reliefs of myself hunting lions, a public event which was reserved for Assyrian royalty."
+        "English": "I am Ashurbanipal, king of the universe, descendant of great kings. I was the fourth in line for the succession, but my father, Esarhaddon, picked me to rule Assyria because of my bravery and intelligence while sending an older brother to rule a distant kingdom. Unrest comes from his land, and I must prove that I can be the greatest king of all.\n\n      While my father was alive, I worked as a spymaster and studied etiquette and military training. I constructed the first systematically organized library of the Old World, containing 30,000 clay tablets. I am known for fluency in languages, especially Akkadian and Sumerian, endearing me to many old families.\n\n      I commissioned reliefs of myself hunting lions, a public event which was reserved for Assyrian royalty."
       },
       {
         "zType": "TEXT_NATION_BABYLONIA_STORY",
-        "English": "Son of a Mesopotamian king and husband to Amytis of Medea, and forever a worshiper of the god Marduk. In the name of my father, I elevated my city Babylon to be the jewel of the region. I am trained in military tactics, conquered kingdoms, and crushed rebellions.\n\n    I built link(IMPROVEMENT_HANGING_GARDENS) for my wife so she can feel closer to the hills of Persia, and link(IMPROVEMENT_ISHTAR_GATE) to honor Marduk. I connected them both with the Processing Way and all visitors were bewildered by the beauty of my empire.\n\n    Under my rule, women had equal rights as men did, we created intellectuals institutes and temples, and my focus was on art, culture, science, mathematics, and craftsmanship. In a decade, I turned Babylon into a city of light. I am Nebuchadnezzar."
+        "English": "I am Nebuchadnezzar, son of a Mesopotamian king, husband to Amytis of Medea, and forever a worshiper of the god Marduk. In the name of my father, I elevated my city Babylon to be the jewel of the region. I have trained in military tactics, conquered kingdoms, and crushed rebellions.\n\n    I built link(IMPROVEMENT_HANGING_GARDENS) for my wife so she could feel closer to the hills of Persia and link(IMPROVEMENT_ISHTAR_GATE) to honor Marduk. I connected them both with the Processional Way, and all visitors are bewildered by the beauty of my empire.\n\n    Under my rule, women have equal rights to men. We create intellectual institutes and temples, and my focus is on art, culture, science, mathematics, and craftsmanship. In a decade, I turned Babylon into a city of light."
       },
       {
         "zType": "TEXT_NATION_CARTHAGE_STORY",
-        "English": "I am a Phoenecian princess who fled her home in Tyre, carrying the name Elissa. Escaping my brother Pygmalion who murdered my beloved husband Acerbas, a priest of Hercules, I arrived in North Africa.\n\n     With my husband’s riches, I bargained with the Berber king Iarbus who wanted to marry me. He mockingly promised me all the land that I could cover with the skin of a dead ox. I cut the skin into the thinnest pieces and, along with my Tyrian settlers, laid out the borders of my beloved city.\n\n    I am ready to become Dido the Wanderer, Queen of Carthage, goddess to my people."
+        "English": "I am a Phoenecian princess, carrying the name Elissa, who fled her home in Tyre. Having escaped my brother Pygmalion, who murdered my beloved husband Acerbas, a priest of Hercules, I arrived in North Africa.\n\n    With my husband’s riches, I bargained with the Berber king Iarbus, who wanted to marry me. He mockingly promised me all the land that I could cover with the skin of a dead ox. I cut the hide into thin pieces and, along with my Tyrian settlers, laid out the borders of my beloved city.\n\n    I am ready to become Dido the Wanderer, Queen of Carthage, goddess to my people."
       },
       {
         "zType": "TEXT_NATION_EGYPT_STORY",
-        "English": "I am Hatshepsut, a woman Pharaoh, though declared myself officially a man throughout my reign.\n\n    I had to use my ruse to come to the throne, applying my vast knowledge of religion which endeared me to my people, being wife of the God Amun, declared myself his descendant as well. I am, also, of royal blood on both sides. Married to my brother Thutmose II, I bore a female heir, Neferure. After that, I could not bear more children.\n\n    Occasionally I wore a metal beard but it is a fair price to pay in order to drive my people to a better destiny. Under my reign, Egypt created many trade networks and re-established itself as a nation of builders. My love for science and education allowed me to befriend the most talented architects who helped the Egyptian Empire spread its buildings throughout the known world."
+        "English": "I am Hatshepsut, a woman Pharaoh, though I declared myself officially a man throughout my reign.\n\n    While my ruse was necessary to gain the throne, my vast knowledge of religion endeared me to my people. Being wife of the God Amun, I declared myself his descendant. I am of royal blood on both sides. Married to my brother Thutmose II, I bore a female heir, Neferure. After that, I could bear no more children.\n\n    Occasionally I wore a metal beard, but it is a fair price to pay in order to drive my people to a better destiny. Under my reign, Egypt created many trade networks and re-established itself as a nation of builders. My love for science and education allow me to befriend the most talented architects, who help the Egyptian Empire spread its buildings throughout the known world."
       },
       {
         "zType": "TEXT_NATION_GREECE_STORY",
-        "English": "I am King Philip II of Macedon, son of King Amyntas III, founder of the Unified Macedonian State.\n\n    I received a diplomatic and military education from Epaminondas and established a federation of Greek states known as the League of Corinth. I reformed the Ancient Macedonian Army and established the Macedon Phalanx.\n\n    As a teen, I may have had an older male lover, a general I lived with named Pammenes.\n\n    Over the course of my life, I married seven times. One of my wives, Olympias, gave me a son, and I named him Alexander. He was born the year my horse won in the Olympic Games. Alexander is now 13."
+        "English": "I am King Philip II of Macedon, son of King Amyntas III, founder of the Unified Macedonian State.\n\n    I received a diplomatic and military education from Epaminondas and established a federation of Greek states known as the League of Corinth. I reformed the Ancient Macedonian Army and established the Macedonian Phalanx.\n\n    As a teen, I may have had an older male lover, a general I lived with named Pammenes.\n\n    Over the course of my life, I married seven times. One of my wives, Olympias, gave me a son. I named him Alexander. He was born the year my horse won in the Olympic Games. Alexander is now 13."
       },
       {
         "zType": "TEXT_NATION_PERSIA_STORY",
@@ -1384,7 +1828,31 @@
       },
       {
         "zType": "TEXT_NATION_ROME_STORY",
-        "English": "Son of the god Mars, I was saved and raised by a she-wolf with my twin brother, Remus. Aware of his cunning ways, I kept my caution around him, and moved on to found my own tribe unwilling to share my power with him. \n\n    My humble beginnings as an unwanted outcast helped me find hardy men willing to fight alongside me. Unwilling to let us marry their daughters, we kidnapped and married them, anyway. Now, I am allied with powerful tribes.\n\n    The need to recast the narrative is a must, and I will become a righteous leader blessed with divine favor. \n\n    I am Romulus, and I have founded Roma, the city destined to rule the world."
+        "English": "I am Romulus, son of the god Mars. I was saved and raised by a she-wolf with my twin brother, Remus. Aware of his cunning ways and unwilling to share my power, I kept my caution around him and moved on to found my own tribe. \n\n    My humble beginnings as an unwanted outcast helped me find hardy men willing to fight alongside me. Unwilling to let us marry their daughters, we kidnapped and married them anyway. Now, I am allied with powerful tribes.\n\n    The need to recast the narrative is a must, and I will become a righteous leader blessed with divine favor. \n\n    I am Romulus, and I have founded Roma, the city destined to rule the world."
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_FURIOUS",
+        "English": "-200 and Lower"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_ANGRY",
+        "English": "-199 to -100"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_UPSET",
+        "English": "-99 to -1"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_CAUTIOUS",
+        "English": "0 to 99"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_PLEASED",
+        "English": "100 to 199"
+      },
+      {
+        "zType": "TEXT_OPINIONRANGE_FRIENDLY",
+        "English": "200 and Higher"
       },
       {
         "zType": "TEXT_OPINIONTRIBE_FURIOUS",
@@ -1456,6 +1924,54 @@
       },
       {
         "zType": "TEXT_OPINIONPLAYER_FRIENDLY",
+        "English": "Friendly"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_FURIOUS",
+        "English": "Furious"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_ANGRY",
+        "English": "Angry"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_UPSET",
+        "English": "Upset"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_CAUTIOUS",
+        "English": "Cautious"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_PLEASED",
+        "English": "Pleased"
+      },
+      {
+        "zType": "TEXT_OPINIONFAMILY_FRIENDLY",
+        "English": "Friendly"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_FURIOUS",
+        "English": "Furious"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_ANGRY",
+        "English": "Angry"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_UPSET",
+        "English": "Upset"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_CAUTIOUS",
+        "English": "Cautious"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_PLEASED",
+        "English": "Pleased"
+      },
+      {
+        "zType": "TEXT_OPINIONRELIGION_FRIENDLY",
         "English": "Friendly"
       },
       {
@@ -1855,6 +2371,10 @@
         "English": "Vaulting"
       },
       {
+        "zType": "TEXT_TECH_VAULTING_BONUS_DISCONTENT",
+        "English": "link(YIELD_DISCONTENT) Boost"
+      },
+      {
         "zType": "TEXT_TECH_BODKIN_ARROW",
         "English": "Bodkin Arrow"
       },
@@ -1975,6 +2495,370 @@
         "English": "Free Legionary"
       },
       {
+        "zType": "TEXT_GUIDE_TECH_IRONWORKING",
+        "English": "This essential tech unlocks warriors, early melee infantry that will form the backbone of your army until they can be upgraded after researching later techs."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STONECUTTING",
+        "English": "Researching Stonecutting allows you to build quarries in your cities, an essential building that provides a steady income of stone. It also allows the construction of forts to provide an early line of protection, increasing the defense, line of sight and healing of a unit on the same tile."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STONECUTTING_BONUS_STONE",
+        "English": "This card will give you a one-off bonus of +200 link(YIELD_STONE) when researched, a useful boost for building forts, wonders, or other larger projects. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_TRAPPING",
+        "English": "This early tech unlocks Slingers, a ranged unit able to attack from a distance, and Camps, a diverse building that provides essential orders when built on camels or elephants, or helps to improve your city with growth or culture when built on game or fur."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_DIVINATION",
+        "English": "The first step to effectively using Religions, Divination lets you build one of the various Shrines in each city. The first Shrine you build will also found your nation’s pagan Religion, which Characters, Families and Cities may then convert to. Building more Shrines will increase the Religion, and its converts’, opinion of you."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ADMINISTRATION",
+        "English": "Administration allows for the improvement of your Cities through the construction of Granaries, which increase Growth and boost the Food output of adjacent Farms, and the Treasury, an upgradeable project that provides the City with a steady stream of Money."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LABOR_FORCE",
+        "English": "Labor Force allows your Builders to add Roads to tiles, providing faster movement for units on the road and expanding your Trade Network. It also opens the choice between the Freedom and Slavery laws, and is the path towards researching both polearm and naval units."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HUSBANDRY",
+        "English": "The humble-seeming Husbandry unlocks the building of pastures on city tiles with grazing animals as a source for growth and food, or on horses for orders. It also leads to later research for mounted units."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HUSBANDRY_BONUS_FOOD",
+        "English": "This bonus card will give you +200 foodlink(YIELD_FOOD) when researched, a useful boost for supporting your armies and population. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_DRAMA",
+        "English": "Let there be music! As well as starting the game’s music, researching Drama unlocks the Odeon, a building that will continuously add to a city’s culture to help it develop."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_POLIS",
+        "English": "Polis is useful for both defending and expanding your cities. Building Walls increases the HP of the City and can reduce Discontent if you keep a unit from the same Family stationed in the walled City. Hamlets are urban tiles that can be built anywhere. They will gradually grow into Villages and then Towns, consuming Food but providing an increasing stream of Money - especially when built on a Trade Network like a river or road."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_POLIS_BONUS_SETTLER",
+        "English": "This bonus card will create a free link(UNIT_SETTLER) at your Capital when researched, a useful way to quickly expand your nation. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MILITARY_DRILL",
+        "English": "An essential step for upgrading your infantry troops, Military Drill unlocks the Rally Troops mission for a boost of Training. It also allows the construction of Barracks in your cities, which increases the training output of the city and can generate XP for a unit on the same tile - ensuring that your forces can be improving even during times of peace."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ARISTOCRACY",
+        "English": "Aristocracy is vital as it allows the appointment of an Ambassador, who can be sent on diplomatic missions to arrange a Peace or Truce, a Trade Mission, or even to Demand Tribute from another Nation. It also unlocks the Centralization and Vassalage laws, which can increase your rate of civics and research or reduce the burden of your army’s upkeep."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ARISTOCRACY_BONUS_BORDERS",
+        "English": "This bonus card will increase your borders, especially useful if there are resources just beyond the reach of your cities. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_RHETORIC",
+        "English": "Rhetoric supports the early improvement of your nation through war with Epics law, which grants culture for each kill, or through Exploration, which allows your Scouts to travel across water. It also allows the Forum in cities, a permanent project that provides a stream of Civics for enacting laws or performing missions."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_NAVIGATION",
+        "English": "The first step in naval research, Navigation encourages exploration of the seas by allowing the automation of your scouts and unlocking Biremes, a naval unit for exploring the seas. The Colonies Law can help expanding your cities through buying surrounding tiles, while Surfdom improves your existing lands through bonuses to the output of farms and pastures."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_NAVIGATION_BONUS_BIREME",
+        "English": "This bonus spawns a free Bireme naval unit on a coast close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PHALANX",
+        "English": "The Phalanx unlocks the Spearman, an infantry unit that is especially strong against mounted units, which are unable to move through a polearm unit’s ZOC. Piercing attacks deal extra damage to a unit directly behind the target, so the Spearman is great at pinning down cavalry or on the front line against a group of enemies."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SPOKED_WHEEL",
+        "English": "The Spoked Wheel tech is useful on all sides. It allows you to appoint a Chancellor, who can aid in managing your families and cities through various missions. It also unlocks the Chariot, the first mounted unit, in any city with Horses. These fast units are good flankers and have the rout ability, allowing them to attack again if they kill an enemy unit in combat."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
+        "English": "This bonus spawns a free Chariot mounted unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_FORESTRY",
+        "English": "The Forestry tech allows construction of Lumbermills, which provide a stead income of Wood to support your ranged units and free your Workers from needing to cut down trees."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STEEL",
+        "English": "Steel unlocks the Axeman, which can be built from your cities or upgraded from Warriors. These mid-tier melee combatants attack in an arc to hit multiple tiles in front of them and do extra damage to Spearmen, making them very effective front-line fighters to support your cavalry against other melee units."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SOVEREIGNTY",
+        "English": "Sovereignty is an important step towards siege weapons and a useful tech for shaping your nation. It allows the construction of Garrisons, which secure your hold over a city by enabling the election of a City Governor. They can also be upgraded to Strongholds and Citadels to unlock your powerful unique faction units. The laws of Tyranny and Constitution offer a choice between gaining resources or reducing discontent."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_METAPHYSICS",
+        "English": "Understanding Metaphysics can help to control the religions in your nation through various missions. Your leader will be able to convince other characters to Convert to the State Religion to keep your court united by faith, while the High Synod mission sends an Ambassador to try an improve relations with a Religion."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COINAGE",
+        "English": "Coinage is a strong economic support tech that allows the automation of workers and unlocks the Market, an improvement that boosts the income of the city. If your nation has a Chancellor, then they will be able to use the Pacify mission in a city to reduce discontent."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COINAGE_BONUS_MONEY",
+        "English": "This bonus gives +200 link(YIELD_MONEY) when researched, a useful boost for paying for missions or trading for other resources. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CITIZENSHIP",
+        "English": "The Citizenship tech can greatly enhance your civics through the construction of the Courthouse and through the Legal Code law. Alternatively, the Divine Rule law can help a pagan nation by allowing the adoption of your pagan religion as the State Religion and stopping the random spread of other religions."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CITIZENSHIP_BONUS_MINISTER",
+        "English": "This bonus card grants a new free Court Minister character to serve at your court and improve your nation’s administration. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PORTCULLIS",
+        "English": "Portcullis is a vital research that unlocks the appointment of a Spymaster, who can be sent on missions to undermine your enemies through infiltration or assassination. It also allows the construction of Moats to add extra defenses to your cities with existing Walls."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PORTCULLIS_BONUS_MACEMAN",
+        "English": "This bonus spawns a free Maceman melee unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION",
+        "English": "Land Consolidation is an exciting tech that makes use of the various resources within your cities. The powerful Camel Archers and War Elephants can be built in cities with the respective animals, adding a punch to your army. The Grove improvement can provide further culture to improve your city, and can be improved with a gardener specialist to gain a luxury to be used in diplomacy with families, cities or other nations."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
+        "English": "This bonus spawns a free Camel Archer mounted ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
+        "English": "This bonus spawns a free powerful War Elephant unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COMPOSITE_BOW",
+        "English": "The Composite Bow research unlocks Archers, a mid-tier ranged unit with both improved damage and range. Once unlocked, it is also possible to upgrade your existing Slingers."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COMPOSITE_BOW_BONUS_ARCHER",
+        "English": "This bonus spawns a free Archer ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MONASTICISM",
+        "English": "Monasticism encourages making good use of your nation's Religion, as the Monotheism law increases your orders for each city that converts to your state religion, while Polytheism allows unlimited pagan shrines. The Monastery can be built by a disciple of a world religion to provide an income of Science."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MACHINERY",
+        "English": "Machinery further develops the ranged capabilities of your armies. It unlocks the first of the siege units, the Onager, which can attack an area although needs to be unlimbered before it can fire - a strong but slow unit that will need protection. The Range allows a ranged unit on the same tile to gain XP when idle, allowing your forces to improve even during times of peace."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MACHINERY_BONUS_ONAGER",
+        "English": "This bonus spawns a free Onager siege  unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SCHOLARSHIP",
+        "English": "A gateway to further economic and civic developments, Scholarship allows the construction of Libraries, Academies and Universities to improve your rate of research."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
+        "English": "This bonus card grants a new free Court Scholar character to serve at your court and improve your nation’s research. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_TORSION",
+        "English": "The next step in siege warfare, Torsion unlocks the Ballista, an anti-infantry siege weapon. Although slow and short-ranged, the missiles are Piercing attacks that can damage two further enemies in a line behind the target. This makes them very effective against closely grouped infantry."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_TORSION_BONUS_BALLISTA",
+        "English": "This bonus spawns a free Ballista siege unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STIRRUPS",
+        "English": "Stirrups greatly enhance your mounted unit capabilities through the recruitment of Horsemen, fast units useful for flanking and finishing off units with their Rout ability, and Horse Archers, mounted ranged units who are able to quickly reposition or escape from a fight."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STIRRUPS_BONUS_HORSEMAN",
+        "English": "This bonus spawns a free Horseman mounted unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
+        "English": "This bonus spawns a free Horse Archer mounted ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ARCHITECTURE",
+        "English": "The study of Architecture allows the construction of Baths for reducing the discontent in your cities. It also opens laws that help construction, Philosophy for specialists and Engineering for wonders and improvements."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ARCHITECTURE_BONUS_CIVICS",
+        "English": "This bonus gives a one-off boost of +1,000 Civics, useful for enacting laws, starting missions or building wonders. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MANOR",
+        "English": "Manor is a useful tech for improving your military. Conscripts are an upgrade to the base Militia, being polearm units with a bonus against mounted units. This makes them an effective and cheap option for stopping flanking cavalry or defending your cities. The choice will also open up between the Professional Army or Volunteer laws, which provide alternative ways to increase your nation’s training."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MANOR_BONUS_GOODS",
+        "English": "This bonus gives a one-off boost to Iron, Stone and Wood, useful for constructing buildings or units. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BATTLELINE",
+        "English": "Researching Battleline will unlock the Maceman unit. An upgrade from the Axeman, Macemen lose the arcing Cleave attack, but their damage bonus is against all infantry rather than just polearms."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_DOCTRINE",
+        "English": "Further developing your nation’s Religions, Doctrine opens the decision between Tolerance, which gives bonuses for each different religion in your cities, and Orthodoxy, which lets you purge unwanted religions to control or remove the threat of religious division. It also unlocks Temples, which provide culture for developing your cities."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_DOCTRINE_BONUS_ORDERS",
+        "English": "This bonus gives a one-off boost of +20 Orders on the turn it is completed, opening opportunities for moving large numbers of troops or workers. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CARTOGRAPHY",
+        "English": "Researching Cartography will increase your dominance of the sea through the construction of the mid-tier Trireme naval unit and the building of Harbors, which can train idle naval units on the same tile and provide a steady income on Money. A nation with a Spymaster will also be able to attempt to steal research from other nations, a risky but effective way to pull ahead in the tech race."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CARTOGRAPHY_BONUS_TRIREME",
+        "English": "This bonus spawns a free Trireme naval unit on a coast close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HYDRAULICS",
+        "English": "Hydraulics continues to support your cities by allowing the construction of Watermills and Windmills, which provide a steady stream of science and greatly improve the output of adjacent Mines, Quarries and Lumbermills."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HYDRAULICS_BONUS_MERCHANT",
+        "English": "Grants a new free Court Merchant character to serve at your court and improve your nation’s economy. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_JURISPRUDENCE",
+        "English": "Jurisprudence allows you to use discontent against your enemy by using an Insurrection mission in their city, or reducing the discontent in your own through the Guilds Law. Alternatively, the Elites law is useful for managing orders, both providing more and allowing you to carry unused orders between turns."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MARTIAL_CODE",
+        "English": "The Martial Code research unlocks the building of Towers, further increasing the defenses of a city with an existing Moat. It also opens the option of militarizing your religion through Holy War to improve new recruits, or gaining the more peaceful economic and scientific benefits of Pilgrimage."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_VAULTING",
+        "English": "Vaulting can yield great benefits from world religions in your nation through the construction of Cathedrals for a bonus to culture and legitimacy, the Iconography law for bonuses from religious buildings, and the Calligraphy law for bonuses from libraries and specialists."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_VAULTING_BONUS_DISCONTENT",
+        "English": "This bonus gives a one-off boost to reduce Discontent in your cities, lowering their maintenance cost and increasing their family’s opinion. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BODKIN_ARROW",
+        "English": "Researching Bodkin Arrows unlocks the Longbowman unit, a high damage and long range ranged attacker."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BODKIN_ARROW_BONUS_TRAINING",
+        "English": "This bonus gives a one-off boost of Training, useful for force-marching or upgrading your military units. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COHORTS",
+        "English": "The Cohorts tech unlocks the Swordsman unit, the pinnacle of melee infantry units. Combining an arcing cleave attack with a bonus against infantry units makes these costly units devastating as a front line force against other infantry."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_COHORTS_BONUS_SOLDIER",
+        "English": "Grants a new free Court Soldier character to serve at your court and improve your nation’s military. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_WINDLASS",
+        "English": "The Windlass puts the technology to use for your infantry ranged units by unlocking the Crossbowman. A high-tier ranged unit, the Crossbowman sacrifices range for a bonus against melee units and piercing damage, allowing them to deal damage to an enemy directly behind the target and making them a strong second row against your enemy’s front lines."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_WINDLASS_BONUS_CROSSBOWMAN",
+        "English": "Spawns a free Crossbowman unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LATEEN_SAIL",
+        "English": "The Lateen Sail marks the pinnacle of ship-building by unlocking the Dromon, a powerful naval unit. It also opens two strong economic laws. The Autarky law aids your self-sufficiency by improving your building’s output and allows the hiring of units that normally need horses, camels or elephants anywhere. Alternatively, the Trade League law promotes the growth of your cities and increases the income from selling resources to the same price as buying them."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LATEEN_SAIL_BONUS_DROMON",
+        "English": "Spawns a free Dromon naval unit in a sea close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_FISCAL_POLICY",
+        "English": "This late tech opens two economic laws. Coin Debasement allows you to buy or sell orders, giving great flexibility in your nation’s actions and finances. Monetary reform helps to reduce discontent in your cities, especially from hurrying production."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BARDING",
+        "English": "Barding is the top of mounted unit research, allowing recruitment of the mighty Cataphract, a fast and powerful unit that deals damage to every tile around it when it strikes."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_INFANTRY_SQUARE",
+        "English": "The completion of Infantry Square unlocks Pikemen, the height of polearm infantry. Pikemen are devastating against mounted units and attack with strong Piercing attacks, damaging the enemy behind the one they are attacking."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CHAIN_DRIVE",
+        "English": "Researching Chain Drive unlocks the Polybolos, one of the stongest siege units and an upgrade to the Ballista. The Polybolos has a bonus against ranged units, and deals both pierce and cleaving damage, making it useful for cutting through formations to hit the ranged units behind."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BALLISTICS",
+        "English": "Ballistics unlocks the Mangonel, an upgrade to the Onager which increases the splash damage and the range, making them more powerful and easier to protect."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_ECONOMIC_REFORM",
+        "English": "The height of economic research, the Economic Reform tech will grant a new Court Merchant character to serve at your court and improve your nation’s economy. It also grants a Victory Point, bringing you one step closer to winning the game."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_MILITARY_PRESTIGE",
+        "English": "The height of martial research, the Military Prestige tech will grant a new Court Soldier character to serve at your court and improve your nation’s military. It also grants a Victory Point, bringing you one step closer to winning the game."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_INDUSTRIAL_PROGRESS",
+        "English": "The height of industrial research, the Industrial Progress tech will grant you a new Court Minister character to serve at your court and improve your nation’s administration. It also grants a Victory Point, bringing you one step closer to winning the game."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BATTERING_RAM_BONUS",
+        "English": "This bonus spawns a free Battering Ram unit in your capital. A melee siege unit that is unique to Assyria, the Battering Ram gets a bonus when attacking urban tiles. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SIEGE_TOWER_BONUS",
+        "English": "This bonus spawns a free Siege Tower unit in your capital. A melee siege unit that is unique to Assyria, the Siege Tower gets a bonus when attacking urban tiles. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_AKKADIAN_ARCHER_BONUS",
+        "English": "This bonus spawns a free Akkadian Archer unit in your capital. A ranged infantry unit that is unique to Babylonia, the Akkadian Archer does Splash damage to the six tile surrounding the target. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CIMMERIAN_ARCHER_BONUS",
+        "English": "This bonus spawns a free Cimmerian Archer unit in your capital. A ranged infantry unit that is unique to Babylonia, the Cimmerian Archer does Splash damage to the six tiles surrounding the target. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_AFRICAN_ELEPHANT_BONUS",
+        "English": "This bonus spawns a free African Elephant unit in your capital. A mounted elephant unit that is unique to Carthage, the African Elephant does damage to all six tiles surrounding the unit when it attacks. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_TURRETED_ELEPHANT_BONUS",
+        "English": "This bonus spawns a free Turreted Elephant unit in your capital. A mounted elephant unit that is unique to Carthage, the Turreted Elephant does damage to all six tiles surrounding the unit when it attacks. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LIGHT_CHARIOT_BONUS",
+        "English": "This bonus spawns a free Light Chariot unit in your capital. A mounted and ranged unit that is unique to Egypt, the Light Chariot moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_KUSHITE_CAVALRY_BONUS",
+        "English": "This bonus spawns a free Kushite Cavalry unit in your capital. A mounted and ranged unit that is unique to Egypt, the Kushite Cavalry moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HOPLITE_BONUS",
+        "English": "This bonus spawns a free Hoplite unit in your capital. A polearm unit that is unique to Greece, the Hoplite gains a defense bonus when adjacent to other Hoplites. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PHALANGITE_BONUS",
+        "English": "This bonus spawns a free Phalangite unit in your capital. A polearm unit that is unique to Greece, the Phalangite gains a defense bonus when adjacent to other Phalangites. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PALTON_CAVALRY_BONUS",
+        "English": "This bonus spawns a free Palton Cavalry unit in your capital. A mounted and ranged unit that is unique to Persia, the Palton Cavalry has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CATAPHRACT_ARCHER_BONUS",
+        "English": "This bonus spawns a free Cataphract Archer unit in your capital. A mounted and ranged unit that is unique to Persia, the Cataphract Archer has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_HASTATUS_BONUS",
+        "English": "This bonus spawns a free Hastatus unit in your capital. A melee infantry unit that is unique to Rome, the Hastatus ignores ZOC and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_LEGIONARY_BONUS",
+        "English": "This bonus spawns a free Legionary unit in your capital. A melee infantry unit that is unique to Rome, the Legionary ignores ZOC and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+      },
+      {
         "zType": "TEXT_TERRAIN_WATER",
         "English": "Water"
       },
@@ -2068,75 +2952,75 @@
       },
       {
         "zType": "TEXT_VICTORY_POINTS",
-        "English": "Points~a Points"
+        "English": "Points Victory~a Points Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_POINTS_HELP",
+        "English": "Victory from acquiring the target number of Victory Points."
       },
       {
         "zType": "TEXT_VICTORY_DOUBLE",
-        "English": "Double~a Double"
+        "English": "Double Victory~a Double Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_DOUBLE_HELP",
+        "English": "Victory from acquiring twice as many Victory Points as any other Nation.\n(Must also have at least half the target Victory Points. Only possible for Humans.)"
       },
       {
         "zType": "TEXT_VICTORY_AMBITION",
-        "English": "Ambition~an Ambition"
+        "English": "Ambition Victory~an Ambition Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_AMBITION_HELP",
+        "English": "Victory from completing int(MAX_AMBITIONS) Ambitions."
       },
       {
         "zType": "TEXT_VICTORY_TIME",
-        "English": "Time~a Time"
+        "English": "Time Victory~a Time Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_TIME_HELP",
+        "English": "Victory from having the most Victory Points at the end of 200 Years."
       },
       {
         "zType": "TEXT_VICTORY_CONQUEST",
-        "English": "Conquest~a Conquest"
+        "English": "Conquest Victory~a Conquest Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_CONQUEST_HELP",
+        "English": "Victory from conquering all other Nations."
       },
       {
         "zType": "TEXT_VICTORY_EPIC",
         "English": "Epic Victory~an Epic Victory"
       },
       {
+        "zType": "TEXT_VICTORY_EPIC_HELP",
+        "English": "Complete all 12 Goals"
+      },
+      {
         "zType": "TEXT_VICTORY_GOLD",
         "English": "Gold Victory~a Gold Victory"
+      },
+      {
+        "zType": "TEXT_VICTORY_GOLD_HELP",
+        "English": "Complete 10 Goals"
       },
       {
         "zType": "TEXT_VICTORY_SILVER",
         "English": "Silver Victory~a Silver Victory"
       },
       {
+        "zType": "TEXT_VICTORY_SILVER_HELP",
+        "English": "Complete 8 Goals"
+      },
+      {
         "zType": "TEXT_VICTORY_BRONZE",
         "English": "Bronze Victory~a Bronze Victory"
       },
       {
-        "zType": "TEXT_YIELD_GROWTH_HELP",
-        "English": "When a City's link(YIELD_GROWTH){YIELD_GROWTH} fills up, the City gains a new Citizen. Basic ways to improve link(YIELD_GROWTH){YIELD_GROWTH} include training link(SPECIALIST_FARMER,2) and link(IMPROVEMENTCLASS_BATHS,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_CIVICS_HELP",
-        "English": "Used to develop Specialists and finish Projects. Unused link(YIELD_CIVICS){YIELD_CIVICS} go into the national stockpile, which can be used to enact Laws and establish Theologies. Increase link(YIELD_CIVICS){YIELD_CIVICS} by building link(IMPROVEMENTCLASS_COURTHOUSE,2) and link(PROJECT_FORUM_1,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_TRAINING_HELP",
-        "English": "Used to train Military Units. Unused link(YIELD_TRAINING){YIELD_TRAINING} goes into the national stockpile, which can be used to Promote and Upgrade Units. Increase link(YIELD_TRAINING){YIELD_TRAINING} by building link(IMPROVEMENT_BARRACKS,2) and link(IMPROVEMENT_RANGE,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_CULTURE_HELP",
-        "English": "When a City's link(YIELD_CULTURE){YIELD_CULTURE} fills up, a positive event occurs. The City's overall link(YIELD_CULTURE){YIELD_CULTURE} Level affects what Improvements and Wonders can be built. Improve link(YIELD_CULTURE){YIELD_CULTURE} by building link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_DISCONTENT_HELP",
-        "English": "Cities gain link(YIELD_DISCONTENT){YIELD_DISCONTENT} over time. When a City's link(YIELD_DISCONTENT){YIELD_DISCONTENT} meter is filled, its overall link(YIELD_DISCONTENT){YIELD_DISCONTENT} Level goes up, which increases link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} and reduces link(YIELD_GROWTH){YIELD_GROWTH}. You can reduce link(YIELD_DISCONTENT){YIELD_DISCONTENT} by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_SCIENCE_HELP",
-        "English": "Used to research technologies. Increase link(YIELD_SCIENCE){YIELD_SCIENCE} by building link(PROJECT_ARCHIVE_1,2) and link(IMPROVEMENTCLASS_LIBRARY,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_MONEY_HELP",
-        "English": "Used to purchase other resources. Increase link(YIELD_MONEY){YIELD_MONEY} by building link(IMPROVEMENT_HAMLET,2) and link(IMPROVEMENTCLASS_MARKET,2)."
-      },
-      {
-        "zType": "TEXT_YIELD_MAINTENANCE_HELP",
-        "English": "Decreases the amount of link(YIELD_MONEY){YIELD_MONEY} income a City generates. link(YIELD_MAINTENANCE){YIELD_MAINTENANCE} can be reduced by connecting the City to your Capital."
-      },
-      {
-        "zType": "TEXT_YIELD_ORDERS_HELP",
-        "English": "link(YIELD_ORDERS){YIELD_ORDERS} can be spent on various actions such as moving, attacking, and building Improvements. Unused link(YIELD_ORDERS){YIELD_ORDERS} are sold for link(YIELD_MONEY){YIELD_MONEY} at the end of the Year."
+        "zType": "TEXT_VICTORY_BRONZE_HELP",
+        "English": "Complete 6 Goals"
       },
       {
         "zType": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME",
@@ -2347,8 +3231,8 @@
         "English": "the Bold"
       },
       {
-        "zType": "TEXT_TRAIT_COWARDLY_NICKNAME",
-        "English": "the Cowardly"
+        "zType": "TEXT_TRAIT_TIMID_NICKNAME",
+        "English": "the Timid"
       },
       {
         "zType": "TEXT_TRAIT_GRACIOUS_NICKNAME",
@@ -2395,8 +3279,8 @@
         "English": "the Loyal"
       },
       {
-        "zType": "TEXT_TRAIT_CUNNING_NICKNAME",
-        "English": "the Cunning"
+        "zType": "TEXT_TRAIT_DECEITFUL_NICKNAME",
+        "English": "the Deceitful"
       },
       {
         "zType": "TEXT_TRAIT_HUMBLE_NICKNAME",
@@ -2405,6 +3289,10 @@
       {
         "zType": "TEXT_TRAIT_PROUD_NICKNAME",
         "English": "the Proud"
+      },
+      {
+        "zType": "TEXT_TRAIT_CUNNING_NICKNAME",
+        "English": "the Cunning"
       },
       {
         "zType": "TEXT_TRAIT_WITTY_NICKNAME",
