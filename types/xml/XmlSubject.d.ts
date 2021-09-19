@@ -120,11 +120,13 @@ export interface Entry {
   bNonHeir?: ZType | RelationUs2 | string;
   bSuccession?: ZType | RelationUs2 | string;
   bNonSuccession?: ZType | RelationUs2 | string;
+  bGenderHeirValid?: ZType | RelationUs2 | string;
   bCouncil?: ZType | RelationUs2 | string;
   bGovernor?: ZType | RelationUs2 | string;
   bAgent?: ZType | RelationUs2 | string;
   bGeneral?: ZType | RelationUs2 | string;
   bNonGeneral?: ZType | RelationUs2 | string;
+  bHasJob?: ZType | RelationUs2 | string;
   bNoJob?: ZType | RelationUs2 | string;
   bRoyal?: ZType | RelationUs2 | string;
   bNonRoyal?: ZType | RelationUs2 | string;

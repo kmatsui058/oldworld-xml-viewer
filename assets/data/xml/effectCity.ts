@@ -387,7 +387,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -487,6 +487,78 @@
             {
               "zIndex": "YIELD_FOOD",
               "iValue": "-20"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_LOW",
+        "Name": "TEXT_ADVANTAGE_LOW",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "10"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_MEDIUM",
+        "Name": "TEXT_ADVANTAGE_MEDIUM",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "25"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_HIGH",
+        "Name": "TEXT_ADVANTAGE_HIGH",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "50"
             }
           ]
         }

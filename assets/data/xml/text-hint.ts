@@ -72,7 +72,7 @@
       },
       {
         "zType": "TEXT_HINT_16",
-        "English": "link(IMPROVEMENT_LUMBERMILL,2) built adjacent to link(IMPROVEMENT_CAMP,2) gain increased iconlink(YIELD_WOOD,1) output; The hunters control predators, forge trails through the forest, etc"
+        "English": "link(IMPROVEMENT_LUMBERMILL,2) built adjacent to link(IMPROVEMENT_CAMP,2) gain increased link(YIELD_WOOD,1) output; The hunters control predators, forge trails through the forest, etc"
       },
       {
         "zType": "TEXT_HINT_17",
@@ -421,6 +421,10 @@
       {
         "zType": "TEXT_HINT_103",
         "English": "Cities need at least as many link(CONCEPT_URBAN) tiles as they have Population points, otherwise they start to become discontent."
+      },
+      {
+        "zType": "TEXT_HINT_104",
+        "English": "With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2)."
       }
     ]
   }

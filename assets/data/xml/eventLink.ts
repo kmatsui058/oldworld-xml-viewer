@@ -1379,6 +1379,64 @@
         }
       },
       {
+        "zType": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+        "iTurnLimit": "5",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SLAVE_REVOLT_1",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SLAVE_REVOLT_2",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SLAVE_REVOLT_FREEDOM",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SLAVE_REVOLT_3",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
         "beginGroup": "Miscellaneous",
         "zType": "EVENTLINK_ANCIENT_STATUE_DISPLAY",
         "aeSubjectClasses": {

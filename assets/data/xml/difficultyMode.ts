@@ -20,6 +20,9 @@
         },
         "TribeLevel": {
           
+        },
+        "Advantage": {
+          
         }
       },
       {
@@ -28,7 +31,8 @@
         "Difficulty": "DIFFICULTY_ABLE",
         "Development": "DEVELOPMENT_NONE",
         "OpponentLevel": "OPPONENTLEVEL_PEACEFUL",
-        "TribeLevel": "TRIBELEVEL_PASSIVE"
+        "TribeLevel": "TRIBELEVEL_PASSIVE",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_JUST",
@@ -36,7 +40,8 @@
         "Difficulty": "DIFFICULTY_JUST",
         "Development": "DEVELOPMENT_FLEDGLING",
         "OpponentLevel": "OPPONENTLEVEL_PEACEFUL",
-        "TribeLevel": "TRIBELEVEL_WEAK"
+        "TribeLevel": "TRIBELEVEL_WEAK",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_GOOD",
@@ -44,7 +49,8 @@
         "Difficulty": "DIFFICULTY_GOOD",
         "Development": "DEVELOPMENT_FLEDGLING",
         "OpponentLevel": "OPPONENTLEVEL_NORMAL",
-        "TribeLevel": "TRIBELEVEL_WEAK"
+        "TribeLevel": "TRIBELEVEL_WEAK",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_STRONG",
@@ -52,7 +58,8 @@
         "Difficulty": "DIFFICULTY_STRONG",
         "Development": "DEVELOPMENT_ESTABLISHED",
         "OpponentLevel": "OPPONENTLEVEL_NORMAL",
-        "TribeLevel": "TRIBELEVEL_NORMAL"
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_NOBLE",
@@ -60,7 +67,8 @@
         "Difficulty": "DIFFICULTY_NOBLE",
         "Development": "DEVELOPMENT_ESTABLISHED",
         "OpponentLevel": "OPPONENTLEVEL_AGGRESSIVE",
-        "TribeLevel": "TRIBELEVEL_NORMAL"
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_GLORIOUS",
@@ -68,7 +76,8 @@
         "Difficulty": "DIFFICULTY_GLORIOUS",
         "Development": "DEVELOPMENT_ADVANCED",
         "OpponentLevel": "OPPONENTLEVEL_AGGRESSIVE",
-        "TribeLevel": "TRIBELEVEL_STRONG"
+        "TribeLevel": "TRIBELEVEL_STRONG",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_MAGNIFICENT",
@@ -76,7 +85,8 @@
         "Difficulty": "DIFFICULTY_MAGNIFICENT",
         "Development": "DEVELOPMENT_ADVANCED",
         "OpponentLevel": "OPPONENTLEVEL_COMPETITIVE",
-        "TribeLevel": "TRIBELEVEL_STRONG"
+        "TribeLevel": "TRIBELEVEL_STRONG",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_GREAT",
@@ -84,7 +94,8 @@
         "Difficulty": "DIFFICULTY_GREAT",
         "Development": "DEVELOPMENT_MASSIVE",
         "OpponentLevel": "OPPONENTLEVEL_COMPETITIVE",
-        "TribeLevel": "TRIBELEVEL_RAGING"
+        "TribeLevel": "TRIBELEVEL_RAGING",
+        "Advantage": "ADVANTAGE_NONE"
       },
       {
         "zType": "DIFFICULTYMODE_CUSTOM",

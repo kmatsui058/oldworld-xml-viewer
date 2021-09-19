@@ -1033,6 +1033,10 @@
       {
         "zType": "TEXT_TRAIT_SEVERELY_WOUNDED_LOSS_1",
         "English": "{0_character} has made a miraculous recovery after being {1_trait}, the grievous injury has healed entirely!"
+      },
+      {
+        "zType": "TEXT_TRAIT_REBEL_SLAVE",
+        "English": "Rebel Slave"
       }
     ]
   }

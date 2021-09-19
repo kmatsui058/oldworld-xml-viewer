@@ -141,6 +141,9 @@
         "bNoCourtier": {
           
         },
+        "bNoReligion": {
+          
+        },
         "bGeneralPrereq": {
           
         },
@@ -2792,7 +2795,8 @@
         "bNoMissions": "1",
         "bNoHeir": "1",
         "bNoJob": "1",
-        "bNoCourtier": "1"
+        "bNoCourtier": "1",
+        "bNoReligion": "1"
       },
       {
         "zType": "TRAIT_CHEIF_PRIEST_OF_MELQUART",
@@ -2933,6 +2937,18 @@
             }
           ]
         }
+      },
+      {
+        "zType": "TRAIT_REBEL_SLAVE",
+        "Name": "TEXT_TRAIT_REBEL_SLAVE",
+        "bNoEvents": "1",
+        "bNoMissions": "1",
+        "bNoMarry": "1",
+        "bNoSpouse": "1",
+        "bNoBirth": "1",
+        "bNoHeir": "1",
+        "bNoJob": "1",
+        "bNoCourtier": "1"
       }
     ]
   }

@@ -47220,6 +47220,42 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_INFLUENCE_SUBJECT_ESTRANGED",
+				"Text": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_ESTRANGED",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_ESTRANGED_FROM_REMOVE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INFLUENCE_SUBJECT_DISAPPOINTED",
+				"Text": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_DISAPPOINTED",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DISAPPOINTED_WITH_REMOVE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INFLUENCE_SUBJECT_VENGEFUL",
+				"Text": "TEXT_EVENTOPTION_INFLUENCE_SUBJECT_VENGEFUL",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_VENGEFUL_AGAINST_REMOVE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
 				"beginGroup": "City",
 				"zType": "EVENTOPTION_HAPPINESS_IMMIGRANTS_YES",
 				"EventLinkAdd": "EVENTLINK_HAPPINESS_IMMIGRANTS_YES",
@@ -48451,6 +48487,12 @@
 						},
 						{
 							
+						},
+						{
+							
+						},
+						{
+							
 						}
 					]
 				}
@@ -48463,10 +48505,16 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_HEIR_EXPERTISE_PATHFINDER_OPTION_1_CITY",
 						{
 							
-						}
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_EXPERTISE_PATHFINDER_OPTION_1_TILE"
 					]
 				}
 			},
@@ -49913,6 +49961,291 @@
 						{
 							
 						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_1_FIGHT",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_FIGHT",
+				"aeBonuses": {
+					"zValue": "BONUS_REBEL_UNITS_3"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_1_EUNUS",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_1",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_EUNUS",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_1_FAMILY"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_1_SPARTACUS",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_1",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_SPARTACUS",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_1_FAMILY"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_1_SALVIUS",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_1",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_1_SALVIUS",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_1_FAMILY"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_2_FIGHT",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_FIGHT",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_REBEL_UNITS_2",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_REBEL_UNITS_2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_2_ATTACK",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_2",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_ATTACK",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_DISCONTENT_DOWN"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_2_SLAVE_GENERAL",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_2",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_SLAVE_GENERAL",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_RECRUITMENT_DRIVE_MILITIA_CITY",
+						"BONUS_TRAINING_GAIN_AVERAGE"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_2",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_2_POPULAR_SUPPORT",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_LOSS_AVERAGE",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_DISCONTENT_LOSS_AVERAGE"
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_3_YES",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_3",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_YES",
+				"HelpText": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_YES_HELP",
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_3_NO",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_3_NO",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_REBEL_UNITS_2",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_REBEL_UNITS_2",
+						"BONUS_REBEL_UNITS_2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_4_WAR",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_FIGHT",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_WAR",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_REBEL_UNITS_3",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_REBEL_UNITS_3",
+						"BONUS_REBEL_UNITS_3"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_4_FREEDOM",
+				"EventLinkAdd": "EVENTLINK_SLAVE_REVOLT_FREEDOM",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_FAMILY",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_LAWS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_4_EXECUTION",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_EXECUTION",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_LOSS_LARGE",
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER",
+						"BONUS_DISCONTENT_LOSS_LARGE",
+						"BONUS_DISCONTENT_LOSS_LARGE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_AFTERMATH_RETRIBUTION",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_RETRIBUTION",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_0",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_LOSS_LARGE",
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_1",
+				"Text": "TEXT_EVENTOPTION_SLAVE_REVOLT_AFTERMATH_CAPTURED_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
+						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER"
 					]
 				}
 			},
@@ -60775,12 +61108,15 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_GIVE_TRAIT_CRUEL",
-						"BONUS_LEADER_INFLUENCED_BY",
-						"BONUS_LEADER_INFLUENCED_BY",
-						"BONUS_LEADER_INFLUENCED_BY",
+						"BONUS_LEADER_CONSPIRING_WITH",
+						"BONUS_LEADER_CONSPIRING_WITH",
+						"BONUS_LEADER_CONSPIRING_WITH",
 						"BONUS_DISCONTENT_UP",
 						"BONUS_DISCONTENT_UP",
-						"BONUS_DISCONTENT_UP"
+						"BONUS_DISCONTENT_UP",
+						{
+							
+						}
 					]
 				}
 			},
@@ -60795,7 +61131,10 @@
 						"BONUS_KILL_CHARACTER_MURDERED",
 						"BONUS_UNITCLASS_MELEE_CAVALRY",
 						"BONUS_EVENTOPTION_AGE_OF_OLIGARCHS_OPTION_1_CITY_1",
-						"BONUS_EVENTOPTION_AGE_OF_OLIGARCHS_OPTION_1_CITY_2"
+						"BONUS_EVENTOPTION_AGE_OF_OLIGARCHS_OPTION_1_CITY_2",
+						{
+							
+						}
 					]
 				}
 			},
@@ -60805,11 +61144,18 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_GIVE_TRAIT_DEALMAKER",
-						"BONUS_LEADER_CONSPIRING_WITH",
-						"BONUS_LEADER_PLOTTING_AGAINST",
-						"BONUS_LEADER_LOVER_OF",
-						"BONUS_DISCONTENT_DOWN",
-						"BONUS_DISCONTENT_DOWN",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_DISCONTENT_LOSS_AVERAGE",
+						"BONUS_DISCONTENT_LOSS_AVERAGE",
+						"BONUS_DISCONTENT_LOSS_AVERAGE",
 						"BONUS_MONEY_LOSS_GIGANTIC"
 					]
 				}
@@ -74494,6 +74840,76 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_SCHOLAR_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_SCHOLAR_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_HERO_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_HERO_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_COMMANDER_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_COMMANDER_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_TACTICIAN_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_TACTICIAN_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_BUILDER_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_BUILDER_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_JUDGE_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_JUDGE_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_ZEALOT_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_ZEALOT_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_ORATOR_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_ORATOR_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_DIPLOMAT_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_DIPLOMAT_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TUTORIAL_ARCHETYPE_SCHEMER_OK",
+				"Text": "TEXT_EVENTOPTION_TUTORIAL_ARCHETYPE_SCHEMER_OK",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_TUTORIAL_ARCHETYPE"
+				}
+			},
+			{
 				"beginGroup": "Community",
 				"zType": "EVENTOPTION_GOT_YOUR_NOSE_0",
 				"Text": "TEXT_EVENTOPTION_GOT_YOUR_NOSE_0",
@@ -77414,9 +77830,13 @@
 				"Text": "TEXT_EVENTOPTION_ANTICHRIST_AGREE",
 				"aeBonuses": {
 					"zValue": [
-						"NONE",
+						{
+							
+						},
 						"BONUS_EVENTOPTION_ANTICHRIST_AGREE_FAMILY",
-						"NONE",
+						{
+							
+						},
 						"BONUS_EVENTOPTION_ANTICHRIST_AGREE_PLAYER"
 					]
 				}

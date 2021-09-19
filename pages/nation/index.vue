@@ -3,7 +3,7 @@
     <h2 class="title is-2">
       NATIONS
     </h2>
-    <table class="table">
+    <table class="table is-fullwidth">
       <thead>
         <tr>
           <th> Name </th>
@@ -26,23 +26,34 @@
               </nuxt-link>
             </td>
             <td>
-              <template v-for="tech in nation.teches">
+              <template v-for="(tech, index) in nation.teches">
                 <nuxt-link
                   :key="tech.zType"
                   :to="`/tech/${tech.zType}`"
                 >
                   {{ tech.name }}
-                </nuxt-link>
+                </nuxt-link><template v-if="index + 1 < nation.teches.length">
+                  /
+                </template>
               </template>
             </td>
             <td>
-              <template v-for="family in nation.families">
+              <template v-for="(family, index) in nation.families">
                 <nuxt-link
                   :key="family.zType"
                   :to="`/family/${family.zType}`"
                 >
                   {{ family.name }}
                 </nuxt-link>
+                (<nuxt-link
+                  :key="family.familyClass.zType"
+                  :to="`/family-class/${family.familyClass.zType}`"
+                >
+                  {{ family.familyClass.name }}
+                </nuxt-link>)
+                <template v-if="index + 1 < nation.families.length">
+                  /
+                </template>
               </template>
             </td>
           </tr>

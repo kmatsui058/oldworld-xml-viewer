@@ -5,12 +5,14 @@ import nation from '~/assets/data/xml/nation'
 import familyClass from '~/assets/data/xml/familyClass'
 
 export default class Family {
-  private readonly textFamily = textFamily.Root.Entry;
-
   readonly entry: Readonly<XmlFamily.Entry>
 
   constructor (entry: XmlFamily.Entry) {
     this.entry = entry
+  }
+
+  get textFamily () {
+    return textFamily.Root.Entry
   }
 
   get name (): string {

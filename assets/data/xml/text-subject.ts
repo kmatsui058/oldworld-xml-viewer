@@ -203,6 +203,30 @@
         "English": "link(TRAIT_SCHOLAR_ARCHETYPE) Leader"
       },
       {
+        "zType": "TEXT_SUBJECT_LEADER_HERO",
+        "English": "link(TRAIT_HERO_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_COMMANDER",
+        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_TACTICIAN",
+        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_ZEALOT",
+        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_ORATOR",
+        "English": "link(TRAIT_ORATOR_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_BUILDER",
+        "English": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS",
         "English": "Max link(OPINIONCHARACTER_CAUTIOUS)"
       },

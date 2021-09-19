@@ -252,6 +252,11 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_KNOWLEDGE"
       },
       {
+        "zType": "CONCEPT_LAUNCH_OFFENSIVE",
+        "Name": "TEXT_CONCEPT_LAUNCH_OFFENSIVE",
+        "zHelpText": "TEXT_HELPTEXT_ARCHETYPE_HELP"
+      },
+      {
         "zType": "CONCEPT_LEGACY",
         "Name": "TEXT_CONCEPT_LEGACY",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_LEGACY"
@@ -285,6 +290,11 @@
         "zType": "CONCEPT_NATION",
         "Name": "TEXT_CONCEPT_NATION",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_NATION"
+      },
+      {
+        "zType": "CONCEPT_ONE_CITY_CHALLENGE",
+        "Name": "TEXT_CONCEPT_ONE_CITY_CHALLENGE",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_ONE_CITY_CHALLENGE"
       },
       {
         "zType": "CONCEPT_OPINION_PLAYER",
@@ -352,6 +362,11 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_RELIGION"
       },
       {
+        "zType": "CONCEPT_RETREAT",
+        "Name": "TEXT_CONCEPT_RETREAT",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_RETREAT"
+      },
+      {
         "zType": "CONCEPT_RIVER",
         "Name": "TEXT_CONCEPT_RIVER",
         "zLink": "HELP_RIVER"
@@ -410,6 +425,11 @@
         "zType": "CONCEPT_SUCCESSION_LAW",
         "Name": "TEXT_CONCEPT_SUCCESSION_LAW",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_SUCCESSION_LAW"
+      },
+      {
+        "zType": "CONCEPT_STUN",
+        "Name": "TEXT_CONCEPT_STUN",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_STUN"
       },
       {
         "zType": "CONCEPT_TESTUDO",

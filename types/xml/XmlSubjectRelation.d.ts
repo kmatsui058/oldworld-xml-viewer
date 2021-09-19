@@ -76,6 +76,7 @@ export interface Entry {
   bFamilyDiff?: ZType | string;
   bReligionSame?: ZType | string;
   bReligionDiff?: ZType | string;
+  bReligionPagan?: ZType | string;
   bReligionState?: ZType | string;
   bReligionStateNo?: ZType | string;
   bReligionPlayer?: ZType | string;

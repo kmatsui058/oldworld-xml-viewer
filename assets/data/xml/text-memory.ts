@@ -3840,6 +3840,18 @@
         "beginGroup": "Leader",
         "zType": "TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
         "English": "Insulted at feast"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_1",
+        "English": "Allowed us to try to deal with slave revolt"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4",
+        "English": "Freed the slaves who killed our family head"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
+        "English": "Gave into the demands of the slave revolt"
       }
     ]
   }

@@ -210,6 +210,9 @@
         "bReligionDiff": {
           
         },
+        "bReligionPagan": {
+          
+        },
         "bReligionState": {
           
         },
@@ -1114,6 +1117,10 @@
       {
         "zType": "SUBJECTRELATION_RELIGION_DIFF",
         "bReligionDiff": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_RELIGION_PAGAN",
+        "bReligionPagan": "1"
       },
       {
         "zType": "SUBJECTRELATION_RELIGION_STATE",

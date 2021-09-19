@@ -3,10 +3,12 @@
     <h2 class="title is-2">
       FAMILIES
     </h2>
-    <table class="table">
+    <table class="table is-fullwidth">
       <thead>
         <tr>
           <th> Name </th>
+          <th> Nation </th>
+          <th> Family Class </th>
         </tr>
       </thead>
       <tbody>
@@ -20,6 +22,20 @@
                 :to="`/family/${family.zType}`"
               >
                 {{ family.name }}
+              </nuxt-link>
+            </td>
+            <td>
+              <nuxt-link
+                :to="`/nation/${family.nation.zType}`"
+              >
+                {{ family.nation.name }}
+              </nuxt-link>
+            </td>
+            <td>
+              <nuxt-link
+                :to="`/family-class/${family.familyClass.zType}`"
+              >
+                {{ family.familyClass.name }}
               </nuxt-link>
             </td>
           </tr>

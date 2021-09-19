@@ -53,6 +53,7 @@ export interface Entry {
   bNoHeir?: ZType | string;
   bNoJob?: ZType | string;
   bNoCourtier?: ZType | string;
+  bNoReligion?: ZType | string;
   bGeneralPrereq?: ZType | string;
   bGeneralAll?: ZType;
   bGovernorPrereq?: ZType | string;
