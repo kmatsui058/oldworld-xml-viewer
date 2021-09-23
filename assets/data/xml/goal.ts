@@ -42,6 +42,9 @@
         "DiplomacyAll": {
           
         },
+        "MinOpinionFamily": {
+          
+        },
         "FinishBonus": {
           
         },
@@ -145,9 +148,6 @@
           
         },
         "aiFamilyClassWeight": {
-          
-        },
-        "aiDesiredWeight": {
           
         },
         "aiDiplomacyCount": {
@@ -281,6 +281,9 @@
         "DiplomacyAll": {
           
         },
+        "MinOpinionFamily": {
+          
+        },
         "FinishBonus": {
           
         },
@@ -386,9 +389,6 @@
         "aiFamilyClassWeight": {
           
         },
-        "aiDesiredWeight": {
-          
-        },
         "aiDiplomacyCount": {
           
         },
@@ -490,12 +490,6 @@
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -510,12 +504,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -532,12 +520,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -552,12 +534,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -574,12 +550,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -594,12 +564,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -616,12 +580,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -636,12 +594,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -658,12 +610,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -678,12 +624,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -700,12 +640,6 @@
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -720,12 +654,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -742,12 +670,6 @@
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -762,12 +684,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -784,12 +700,6 @@
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -804,12 +714,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -826,12 +730,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -846,12 +744,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -868,12 +760,6 @@
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -888,12 +774,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -910,12 +790,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -930,12 +804,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -952,12 +820,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -972,12 +834,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -994,12 +850,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1014,12 +864,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -1036,12 +880,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1056,12 +894,6 @@
           "Pair": {
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "900"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
           }
         }
       },
@@ -1078,12 +910,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1099,12 +925,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "900"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1119,18 +939,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -1145,26 +953,15 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
-        "zType": "GOAL_ALL_LAWS",
-        "Name": "TEXT_GOAL_ALL_LAWS",
+        "zType": "GOAL_ALL_LAWS_FRIENDLY",
+        "Name": "TEXT_GOAL_ALL_LAWS_FRIENDLY",
         "iAmbitionClass": "1",
         "iMinTier": "10",
         "iMaxTier": "10",
+        "MinOpinionFamily": "OPINIONFAMILY_FRIENDLY",
         "iLaws": "15",
         "bVictoryEligible": "1",
         "aiFamilyClassWeight": {
@@ -1198,12 +995,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1224,12 +1015,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1250,12 +1035,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1276,12 +1055,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1302,12 +1075,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1328,12 +1095,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1354,12 +1115,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1380,12 +1135,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -1502,22 +1251,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiTribesKilledData": {
           "Pair": {
             "zIndex": "TRIBE_GAULS",
@@ -1536,22 +1269,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiTribesKilledData": {
           "Pair": {
@@ -1572,22 +1289,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiTribesKilledData": {
           "Pair": {
             "zIndex": "TRIBE_DANES",
@@ -1606,22 +1307,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiTribesKilledData": {
           "Pair": {
@@ -1642,22 +1327,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiTribesKilledData": {
           "Pair": {
             "zIndex": "TRIBE_SCYTHIANS",
@@ -1676,22 +1345,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiTribesKilledData": {
           "Pair": {
@@ -1712,18 +1365,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldProducedData": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -1742,18 +1383,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiYieldProducedData": {
           "Pair": {
@@ -1775,22 +1404,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldProducedData": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
@@ -1810,22 +1423,6 @@
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiYieldProducedData": {
           "Pair": {
@@ -1847,22 +1444,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldProducedData": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -1883,22 +1464,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldProducedData": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -1918,18 +1483,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldProducedData": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -1948,18 +1501,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiYieldProducedData": {
           "Pair": {
@@ -2107,34 +1648,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldCount": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
@@ -2164,22 +1677,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldCount": {
           "Pair": {
             "zIndex": "YIELD_TRAINING",
@@ -2198,18 +1695,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiYieldCount": {
           "Pair": {
@@ -2230,18 +1715,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiYieldCount": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
@@ -2260,18 +1733,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiYieldCount": {
           "Pair": {
@@ -2311,22 +1772,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_FARM",
@@ -2345,22 +1790,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2382,22 +1811,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_QUARRY",
@@ -2417,26 +1830,6 @@
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2464,22 +1857,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_PASTURE",
@@ -2499,22 +1876,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2542,22 +1903,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_GROVE",
@@ -2576,22 +1921,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2613,22 +1942,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_HARBOR",
@@ -2648,22 +1961,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2687,22 +1984,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -2733,22 +2014,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_TOWN",
@@ -2768,26 +2033,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aeThresholdImprovementClasses": {
           "zValue": [
@@ -2810,12 +2055,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_IMPROVEMENT_REPAIRED",
@@ -2832,12 +2071,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_LANDOWNERS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -2860,26 +2093,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_PYRAMIDS",
@@ -2898,30 +2111,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -2944,34 +2133,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_SAGES",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -3001,22 +2162,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_HANGING_GARDENS",
@@ -3038,30 +2183,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_PATRONS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -3091,18 +2212,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_ISHTAR_GATE",
@@ -3121,22 +2230,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -3159,26 +2252,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_STATESMEN",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -3208,26 +2281,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_MAUSOLEUM",
@@ -3249,22 +2302,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_STATESMEN",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -3294,22 +2331,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_COLOSSUS",
@@ -3335,22 +2356,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_MUSAEUM",
@@ -3369,26 +2374,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -3411,26 +2396,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_CLERICS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -3460,26 +2425,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_HAGIA_SOPHIA",
@@ -3505,26 +2450,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_VIA_RECTA_SOUK",
@@ -3543,38 +2468,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiCultureCount": {
           "Pair": {
@@ -3595,38 +2488,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiCultureCount": {
           "Pair": {
             "zIndex": "CULTURE_STRONG",
@@ -3645,38 +2506,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiCultureCount": {
           "Pair": {
@@ -3718,12 +2547,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiCultureWonders": {
           "Pair": {
             "zIndex": "CULTURE_STRONG",
@@ -3741,12 +2564,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_PATRONS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -3809,12 +2626,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_MINER",
@@ -3832,12 +2643,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_PATRONS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -3861,12 +2666,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_WOODCUTTER",
@@ -3884,12 +2683,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -3912,22 +2705,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiSpecialistCount": {
           "Pair": {
@@ -3959,26 +2736,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_OFFICER_3",
@@ -3998,18 +2755,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiSpecialistCount": {
           "Pair": {
@@ -4033,18 +2778,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_CLERICS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4075,12 +2808,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_DOCTOR_3",
@@ -4107,12 +2834,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_PRIEST_3",
@@ -4133,18 +2854,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiSpecialistCount": {
           "Pair": {
             "zIndex": "SPECIALIST_SHOPKEEPER_3",
@@ -4162,12 +2871,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_SAGES",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -4196,34 +2899,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -4241,34 +2916,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_LANDOWNERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4292,34 +2939,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -4336,34 +2955,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_LANDOWNERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4393,34 +2984,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiEffectCityCount": {
           "Pair": {
             "zIndex": "EFFECTCITY_SPECIALIST_ELDER",
@@ -4442,18 +3005,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_CHAMPIONS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4484,18 +3035,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiProjectCount": {
           "Pair": {
             "zIndex": "PROJECT_MOAT",
@@ -4518,18 +3057,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_CHAMPIONS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4559,22 +3086,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiEffectCityCount": {
           "Pair": {
             "zIndex": "EFFECTCITY_PROJECT_TREASURY",
@@ -4593,26 +3104,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiEffectCityCount": {
           "Pair": {
@@ -4639,18 +3130,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiEffectCityCount": {
           "Pair": {
             "zIndex": "EFFECTCITY_PROJECT_ARCHIVE",
@@ -4669,18 +3148,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiProjectCount": {
           "Pair": {
@@ -4701,18 +3168,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiProjectCount": {
           "Pair": {
@@ -4739,30 +3194,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_STATESMEN",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4806,22 +3237,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_TRIBE_CLEARED",
@@ -4847,22 +3262,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -4896,22 +3295,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_TRIBE_CLEARED",
@@ -4928,12 +3311,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_STATESMEN",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -4956,12 +3333,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_TRIBE_ALLIANCE",
@@ -4978,12 +3349,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_STATESMEN",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -5021,12 +3386,6 @@
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -5047,12 +3406,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_WORLD_RELIGION_FOUNDED",
@@ -5069,12 +3422,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -5097,12 +3444,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_RELIGION_SPREAD",
@@ -5119,12 +3460,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -5147,12 +3482,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_TECH_DISCOVERED",
@@ -5169,12 +3498,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_SAGES",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -5199,18 +3522,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_ARTISANS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -5240,18 +3551,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aeTechsAcquired": {
           "zValue": [
             "TECH_ARCHITECTURE",
@@ -5271,12 +3570,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aeTechsAcquired": {
           "zValue": [
             "TECH_COINAGE",
@@ -5293,12 +3586,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_LANDOWNERS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
             "iValue": "1000"
           }
         },
@@ -5327,22 +3614,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aeTechsAcquired": {
           "zValue": [
             "TECH_COHORTS",
@@ -5361,22 +3632,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aeTechsAcquired": {
           "zValue": [
@@ -5403,12 +3658,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aeTechsAcquired": {
           "zValue": [
             "TECH_WINDLASS",
@@ -5427,22 +3676,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aeTechsAcquired": {
           "zValue": [
@@ -5469,18 +3702,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -5514,18 +3735,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_UNIT_MILITARY_KILLED",
@@ -5551,18 +3760,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -5596,18 +3793,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_UNIT_MILITARY_KILLED",
@@ -5636,12 +3821,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_HERO_ARCHETYPE",
-            "iValue": "1000"
-          }
         },
         "aiStatCountData": {
           "Pair": {
@@ -5672,12 +3851,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_HERO_ARCHETYPE",
-            "iValue": "1000"
-          }
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
@@ -5703,22 +3876,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -5752,22 +3909,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_UNIT_PROMOTED",
@@ -5793,22 +3934,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -5848,22 +3973,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -5877,18 +3986,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitTraitCount": {
           "Pair": {
@@ -5909,18 +4006,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitTraitCount": {
           "Pair": {
             "zIndex": "UNITTRAIT_MOUNTED",
@@ -5939,18 +4024,6 @@
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitTraitCount": {
           "Pair": {
@@ -5981,22 +4054,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitTraitCount": {
           "Pair": [
             {
@@ -6023,18 +4080,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aeThresholdUnits": {
           "zValue": [
@@ -6067,22 +4112,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aeThresholdUnits": {
           "zValue": [
             "UNIT_POLYBOLOS",
@@ -6103,18 +4132,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aeThresholdUnits": {
           "zValue": [
@@ -6146,22 +4163,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_CATAPHRACT",
@@ -6182,22 +4183,6 @@
             "zIndex": "FAMILYCLASS_ARTISANS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6220,22 +4205,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_SIEGE_TOWER",
@@ -6256,22 +4225,6 @@
             "zIndex": "FAMILYCLASS_HUNTERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6294,22 +4247,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_CIMMERIAN_ARCHER",
@@ -6330,22 +4267,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6368,22 +4289,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_TURRETED_ELEPHANT",
@@ -6404,22 +4309,6 @@
             "zIndex": "FAMILYCLASS_LANDOWNERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6442,22 +4331,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_KUSHITE_CAVALRY",
@@ -6478,22 +4351,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6516,22 +4373,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_PHALANGITE",
@@ -6552,22 +4393,6 @@
             "zIndex": "FAMILYCLASS_RIDERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6590,22 +4415,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_CATAPHRACT_ARCHER",
@@ -6626,22 +4435,6 @@
             "zIndex": "FAMILYCLASS_CHAMPIONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiUnitCount": {
           "Pair": {
@@ -6664,22 +4457,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiUnitCount": {
           "Pair": {
             "zIndex": "UNIT_LEGIONARY",
@@ -6699,22 +4476,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_COURTIER_ADDED",
@@ -6733,22 +4494,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiStatCountData": {
           "Pair": {
@@ -6779,22 +4524,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -6812,18 +4541,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_PATRONS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -6851,22 +4568,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -6884,18 +4585,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_PATRONS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -6919,34 +4608,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -6964,34 +4625,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -7015,34 +4648,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         }
       },
       {
@@ -7056,18 +4661,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiStatCountData": {
           "Pair": {
@@ -7087,18 +4680,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiStatCountData": {
           "Pair": {
@@ -7120,12 +4701,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -7139,12 +4714,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_TRADERS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
             "iValue": "1000"
           }
         }
@@ -7162,12 +4731,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -7181,12 +4744,6 @@
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_TRADERS",
-            "iValue": "1000"
-          }
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
             "iValue": "1000"
           }
         }
@@ -7209,22 +4766,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -7258,22 +4799,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_CITY_RECAPTURED",
@@ -7299,22 +4824,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -7348,22 +4857,6 @@
             }
           ]
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_CAPITAL_CAPTURED",
@@ -7389,22 +4882,6 @@
             },
             {
               "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_TACTICIAN_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_COMMANDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_HERO_ARCHETYPE",
               "iValue": "1000"
             }
           ]
@@ -7471,30 +4948,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_BATHS_1",
@@ -7514,30 +4967,6 @@
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7559,30 +4988,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_BATHS_3",
@@ -7602,26 +5007,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7643,26 +5028,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_THEATER_2",
@@ -7682,26 +5047,6 @@
             "zIndex": "FAMILYCLASS_PATRONS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7723,22 +5068,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_MARKET_1",
@@ -7758,22 +5087,6 @@
             "zIndex": "FAMILYCLASS_TRADERS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7795,22 +5108,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_MARKET_3",
@@ -7830,18 +5127,6 @@
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7863,18 +5148,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_LIBRARY_2",
@@ -7894,18 +5167,6 @@
             "zIndex": "FAMILYCLASS_SAGES",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7927,18 +5188,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_COURTHOUSE_1",
@@ -7958,18 +5207,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -7991,18 +5228,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_COURTHOUSE_3",
@@ -8022,30 +5247,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -8067,30 +5268,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_GARRISON_2",
@@ -8110,30 +5287,6 @@
             "zIndex": "FAMILYCLASS_STATESMEN",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_JUDGE_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ORATOR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_SCHEMER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_DIPLOMAT_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementCount": {
           "Pair": {
@@ -8233,22 +5386,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementClassCount": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_SHRINE",
@@ -8268,22 +5405,6 @@
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_SCHOLAR_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementClassCount": {
           "Pair": {
@@ -8305,18 +5426,6 @@
             "iValue": "1000"
           }
         },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
-        },
         "aiImprovementClassCount": {
           "Pair": {
             "zIndex": "IMPROVEMENTCLASS_TEMPLE",
@@ -8336,18 +5445,6 @@
             "zIndex": "FAMILYCLASS_CLERICS",
             "iValue": "1000"
           }
-        },
-        "aiDesiredWeight": {
-          "Pair": [
-            {
-              "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "TRAIT_ZEALOT_ARCHETYPE",
-              "iValue": "1000"
-            }
-          ]
         },
         "aiImprovementClassCount": {
           "Pair": {
@@ -8412,12 +5509,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -8442,12 +5533,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -8480,12 +5565,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -8510,12 +5589,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -8540,12 +5613,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {
@@ -8570,12 +5637,6 @@
               "iValue": "1000"
             }
           ]
-        },
-        "aiDesiredWeight": {
-          "Pair": {
-            "zIndex": "TRAIT_BUILDER_ARCHETYPE",
-            "iValue": "1000"
-          }
         }
       },
       {

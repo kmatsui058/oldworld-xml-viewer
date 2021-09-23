@@ -12,6 +12,9 @@
         "SubTitle": {
           
         },
+        "ScenarioClass": {
+          
+        },
         "zIcon": {
           
         },
@@ -66,6 +69,9 @@
         "DisableOptions": {
           
         },
+        "abVictoryEnabled": {
+          
+        },
         "abOptionEnabled": {
           
         },
@@ -80,12 +86,69 @@
         "zType": "SCENARIO_LEARNTOPLAY_1",
         "Name": "TEXT_SCENARIO_LEARNTOPLAY_1",
         "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_1_SUB",
-        "zIcon": "CarthageThumbnail",
+        "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
+        "zIcon": "HowToPlay_Thumbnail",
+        "bPublic": "1",
         "zMapFile": "Learn To Play One",
         "zModName": "LearnToPlay1",
         "azAchievements": {
           "zValue": "ACHIEVEMENT_LEARNTOPLAY_1"
         },
+        "Nation": "NATION_GREECE",
+        "Difficulty": "DIFFICULTY_ABLE",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "DisableOptions": "1"
+      },
+      {
+        "zType": "SCENARIO_LEARNTOPLAY_2",
+        "Name": "TEXT_SCENARIO_LEARNTOPLAY_2",
+        "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_2_SUB",
+        "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
+        "zIcon": "HowToPlay_Thumbnail",
+        "bPublic": "1",
+        "zMapFile": "Learn To Play Two",
+        "zModName": "LearnToPlay2",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_LEARNTOPLAY_2"
+        },
+        "Prereq": "SCENARIO_LEARNTOPLAY_1",
+        "Nation": "NATION_GREECE",
+        "Difficulty": "DIFFICULTY_ABLE",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "DisableOptions": "1"
+      },
+      {
+        "zType": "SCENARIO_LEARNTOPLAY_3",
+        "Name": "TEXT_SCENARIO_LEARNTOPLAY_3",
+        "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_3_SUB",
+        "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
+        "zIcon": "HowToPlay_Thumbnail",
+        "zMapFile": "Learn To Play Three",
+        "zModName": "LearnToPlay3",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_LEARNTOPLAY_3"
+        },
+        "Prereq": "SCENARIO_LEARNTOPLAY_2",
+        "Nation": "NATION_GREECE",
+        "Difficulty": "DIFFICULTY_ABLE",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "DisableOptions": "1"
+      },
+      {
+        "zType": "SCENARIO_LEARNTOPLAY_4",
+        "Name": "TEXT_SCENARIO_LEARNTOPLAY_4",
+        "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_4_SUB",
+        "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
+        "zIcon": "HowToPlay_Thumbnail",
+        "zMapFile": "Learn To Play Four",
+        "zModName": "LearnToPlay4",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_LEARNTOPLAY_4"
+        },
+        "Prereq": "SCENARIO_LEARNTOPLAY_3",
         "Nation": "NATION_GREECE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
@@ -135,6 +198,7 @@
         "zType": "SCENARIO_CARTHAGE_1",
         "Name": "TEXT_SCENARIO_CARTHAGE_1",
         "SubTitle": "TEXT_SCENARIO_CARTHAGE_1_SUB",
+        "ScenarioClass": "SCENARIOCLASS_CARTHAGE",
         "zIcon": "CarthageThumbnail",
         "bPublic": "1",
         "zMapFile": "Carthage Campaign Game One",
@@ -170,6 +234,7 @@
         "zType": "SCENARIO_CARTHAGE_2",
         "Name": "TEXT_SCENARIO_CARTHAGE_2",
         "SubTitle": "TEXT_SCENARIO_CARTHAGE_2_SUB",
+        "ScenarioClass": "SCENARIOCLASS_CARTHAGE",
         "zIcon": "CarthageThumbnail",
         "bPublic": "1",
         "zMapFile": "Carthage Campaign Game Two",
@@ -207,6 +272,7 @@
         "zType": "SCENARIO_CARTHAGE_3",
         "Name": "TEXT_SCENARIO_CARTHAGE_3",
         "SubTitle": "TEXT_SCENARIO_CARTHAGE_3_SUB",
+        "ScenarioClass": "SCENARIOCLASS_CARTHAGE",
         "zIcon": "CarthageThumbnail",
         "bPublic": "1",
         "zMapFile": "Carthage Campaign Game Three",
@@ -232,6 +298,7 @@
         "zType": "SCENARIO_CARTHAGE_4",
         "Name": "TEXT_SCENARIO_CARTHAGE_4",
         "SubTitle": "TEXT_SCENARIO_CARTHAGE_4_SUB",
+        "ScenarioClass": "SCENARIOCLASS_CARTHAGE",
         "zIcon": "CarthageThumbnail",
         "bPublic": "1",
         "zMapFile": "Carthage Campaign Game Four",

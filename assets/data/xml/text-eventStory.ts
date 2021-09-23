@@ -528,7 +528,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_EL_YAHWEH_BAAL",
-        "English": "The {TRIBE-1} of {CITY-4} have adopted the ways of {RELIGION-0}, but worrying reports are now reaching you. Their inscriptions give praise to God by his common names of El and Yahweh, but also call him Baal - the name of a pagan god.\n\nThe teachings of {RELIGION-0} are explicit that no other gods should be worshiped. How will you deal with this association with paganism?"
+        "English": "Many of the {TRIBE-1} have adopted the ways of {RELIGION-0}, but worrying reports are now reaching you. Their inscriptions give praise to God by his common names of El and Yahweh, but also call him Baal - the name of a pagan god.\n\nThe teachings of {RELIGION-0} are explicit that no other gods should be worshiped. How will you deal with this association with paganism?"
       },
       {
         "zType": "TEXT_EVENTSTORY_JUSTICE_AND_KINDNESS",
@@ -772,7 +772,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_DEMAND_TRIBUTE_COUNTER_OFFER",
-        "English": "The leaders of {PLAYER-0} have given an interesting counter-offer to your demand for tribute. Their agents have a way of freeing {CHARACTER-2} from captivity if we are willing to let the tribute slide. \n\nWhat will you demand?"
+        "English": "The leaders of {PLAYER-0} have given an interesting counter-offer to your demand for tribute. Their agents have a way of freeing {CHARACTER-1} from captivity if we are willing to let the tribute slide. \n\nWhat will you demand?"
       },
       {
         "zType": "TEXT_EVENTSTORY_DEMAND_TRIBUTE_OFFERING",
@@ -820,7 +820,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_DEMAND_TRIBUTE_CHILD",
-        "English": "{CHARACTER-0} does not send gold as tribute, but a child. {G0:He:She} claims that {G0:his:her} nation is resource poor, and so {G0:he:she} hopes that the offering of one of {G0:his:her} own children as a political prisoner shows {G0:his:her} good faith. \n\nYour ambassador {CHARACTER-SHORT-2} accepted the proposal. Will you confirm the child as an acceptable substitute, or still demand your payment in gold?"
+        "English": "{CHARACTER-1} does not send gold as tribute, but a child. {G1:He:She} claims that {G1:his:her} nation is resource poor, and so {G1:he:she} hopes that the offering of one of {G1:his:her} own children as a political prisoner shows {G1:his:her} good faith. \n\nYour ambassador {CHARACTER-SHORT-2} accepted the proposal. Will you confirm the child as an acceptable substitute, or still demand your payment in gold?"
       },
       {
         "zType": "TEXT_EVENTSTORY_DEMAND_TRIBUTE_FAVOR",
@@ -856,7 +856,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_RIVALS",
-        "English": "During {G0:his:her} studies, {CHARACTER-SHORT-0} has been building a rivalry with {CHARACTER-1}. Writing to you, {G0:he:she} complains that {CHARACTER-SHORT-1} always seems to be one step ahead in {G1:his:her} <p.is_sub.S0=SUBJECT_STUDY_TACTICS>mastery of battle tactics and weapon drills<p=SUBJECT_STUDY_RHETORIC>ability to persuasively argue either side of the debate<p=SUBJECT_STUDY_COMMERCE>management of finances and mastery of complex equations<p=SUBJECT_STUDY_PHILOSOPHY>practice of philosophical thought and reasoning<else>learning<end>.\n\n{CHARACTER-SHORT-0} is at a loss at how to catch up. What will you do?"
+        "English": "During {G0:his:her} studies, {CHARACTER-SHORT-0} has been building a rivalry with {CHARACTER-1}. Writing to you, {G0:he:she} complains that {CHARACTER-SHORT-1} always seems to be one step ahead in {G1:his:her} <p.is_sub.S0=SUBJECT_STUDY_TACTICS>mastery of battle tactics and weapon drills<p=SUBJECT_STUDY_POLITICS>ability to persuasively argue either side of the debate<p=SUBJECT_STUDY_COMMERCE>management of finances and mastery of complex equations<p=SUBJECT_STUDY_PHILOSOPHY>practice of philosophical thought and reasoning<else>learning<end>.\n\n{CHARACTER-SHORT-0} is at a loss at how to catch up. What will you do?"
       },
       {
         "zType": "TEXT_EVENTSTORY_LATE_NIGHTS",
@@ -996,7 +996,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGEND_OF_THE_SWORD",
-        "English": "{CHARACTER-1} led {G1:his:her} forces to a glorious victory, completely routing the {PLAYER-3,1} forces. Tales quickly spread about {G0:his:her} mysterious blade, saying that it seemed to move as if guided by the divine.\n\n{CHARACTER-SHORT-1} has done well, but is the strength from the sword or the wielder?"
+        "English": "{CHARACTER-1} led {G1:his:her} forces to a glorious victory, completely routing the {PLAYER-3,1} forces. Tales quickly spread about {G1:his:her} mysterious blade, saying that it seemed to move as if guided by the divine.\n\n{CHARACTER-SHORT-1} has done well, but is the strength from the sword or the wielder?"
       },
       {
         "zType": "TEXT_EVENTSTORY_FLANKING_MANEUVER",
@@ -1068,7 +1068,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_HEART_IN_TWO",
-        "English": "A proposal has arrived from the {FAMILY-3} family, offering their {G1:son:daughter} {CHARACTER-1} as a suitor. A marriage with one of the houses would help governance and give support. \n\nUpon hearing of the proposal, {CHARACTER-0} rushes to you, begging for you not to accept. \n\nBefore you lie three paths. Duty, love or the unknown. Which will you tread?"
+        "English": "A proposal has arrived from the {FAMILY-1} family, offering their {G2:son:daughter} {CHARACTER-2} as a suitor. A marriage with one of the houses would help governance and give support. \n\nUpon hearing of the proposal, {CHARACTER-0} rushes to you, begging for you not to accept. \n\nBefore you lie three paths. Duty, love or the unknown. Which will you tread?"
       },
       {
         "zType": "TEXT_EVENTSTORY_NEW_BEGINNINGS",
@@ -1100,11 +1100,11 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TRAITOR_IN_THE_TEMPLE",
-        "English": "After so long on the run, {CHARACTER-1} is almost out of your reach, but not quite. An intercepted message tells you that {G1:he:she} is planning on fleeing to the {PLAYER-0,1} court. Once there, {G1:he:she} will be beyond your grasp. \n\nThere is one last chance for capturing {G1:him:her} though. Despite managing to avoid your agents at every turn, {CHARACTER-SHORT-1} has made a mistake. {G1:He:She} is planning to meet a {PLAYER-0,1} guide at a {RELIGION-2,1} temple near the {PLAYER-0,1} border. Breaking into the temple to seize {G1:him:her} may be your one chance to capture {CHARACTER-SHORT-1} before she is gone for good. Will you risk divine wrath to do so?"
+        "English": "After so long on the run, {CHARACTER-1} is almost out of your reach, but not quite. An intercepted message tells you that {G1:he:she} is planning on fleeing to the {PLAYER-0,1} court. Once there, {G1:he:she} will be beyond your grasp. \n\nThere is one last chance for capturing {G1:him:her} though. Despite managing to avoid your agents at every turn, {CHARACTER-SHORT-1} has made a mistake. {G1:He:She} is planning to meet a {PLAYER-0,1} guide at a {RELIGION-2,1} temple near the {PLAYER-0,1} border. Breaking into the temple to seize {G1:him:her} may be your one chance to capture {CHARACTER-SHORT-1} before {G1:he:she} is gone for good. Will you risk divine wrath to do so?"
       },
       {
         "zType": "TEXT_EVENTSTORY_ZOROASTRIANISM_FOUNDED_US_STATE",
-        "English": "{RELIGION-0} holds sway in {PLAYER-3}, but it is no longer uncontested. With the increased role and organization of link(SPECIALISTCLASS_ACOLYTE)s within your nation, their pagan ways have evolved into a new religion altogether in {CITY-2}. The worshippers of {RELIGION-1} claim that they support the god Ahura Mazda as he fights to bring the world to perfection. \n\nYour advisors come to you with a warning. A second religion has the potential to create divisions within the court. However, building up {RELIGION-1} could bring further culture and wisdom to {PLAYER-3}. \n\nWill you encourage this new religion?"
+        "English": "{RELIGION-0} holds sway in {PLAYER-3}, but it is no longer uncontested. With the increased role and organization of acolytes within your nation, their pagan ways have evolved into a new religion altogether in {CITY-2}. The worshippers of {RELIGION-1} claim that they support the god Ahura Mazda as he fights to bring the world to perfection. \n\nYour advisors come to you with a warning. A second religion has the potential to create divisions within the court. However, building up {RELIGION-1} could bring further culture and wisdom to {PLAYER-3}. \n\nWill you encourage this new religion?"
       },
       {
         "zType": "TEXT_EVENTSTORY_JUDAISM_FOUNDED_US_STATE",
@@ -1240,7 +1240,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_TIME_OF_WAR",
-        "English": "As the war with {PLAYER-2} stretches on, everything and everyone is affected by the fighting. {CHARACTER-1} approaches you in a fervor after a long day of <p.is_sub.S1=SUBJECT_STUDY_PHILOSOPHY>philosophical debate<p=SUBJECT_STUDY_RHETORIC>practicing speeches<p=SUBJECT_STUDY_COMMERCE>difficult arithmetic<else>intense studies<end>. {G1:He:She} argues that {G1:his:her} current studies are a waste of time, and begs to be allowed to pursue tactics instead, so as to learn how to fight against the {PLAYER-2,1} threat. \n\nWill you enable {G1:his:her} aspirations of military command?"
+        "English": "As the war with {PLAYER-2} stretches on, everything and everyone is affected by the fighting. {CHARACTER-1} approaches you in a fervor after a long day of <p.is_sub.S1=SUBJECT_STUDY_PHILOSOPHY>philosophical debate<p=SUBJECT_STUDY_POLITICS>practicing speeches<p=SUBJECT_STUDY_COMMERCE>difficult arithmetic<else>intense studies<end>. {G1:He:She} argues that {G1:his:her} current studies are a waste of time, and begs to be allowed to pursue tactics instead, so as to learn how to fight against the {PLAYER-2,1} threat. \n\nWill you enable {G1:his:her} aspirations of military command?"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_DISPUTING_TEACHERS",
@@ -1288,7 +1288,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_WATCHING_THE_MASTERS",
-        "English": "The art of rhetoric is not just learned through a teacher, but by careful observation of the masters at work. It is common for {CHARACTER-SHORT-1} and the other noble children of {PLAYER-0} to spend the day watching the best orators speak on matters of law and morality. \n\n{CHARACTER-SHORT-1} has been especially impressed by {CHARACTER-2}, claiming that {G2:his:her} speeches on the true path of a {PLAYER-0,1} could move even the most doubtful listener."
+        "English": "The art of politics is not just learned through a teacher, but by careful observation of the masters at work. It is common for {CHARACTER-SHORT-1} and the other noble children of {PLAYER-0} to spend the day watching the best orators speak on matters of law and morality. \n\n{CHARACTER-SHORT-1} has been especially impressed by {CHARACTER-2}, claiming that {G2:his:her} speeches on the true path of a {PLAYER-0,1} could move even the most doubtful listener."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_CLIENTA",
@@ -1364,7 +1364,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_DOUBLE_ARGUMENTS",
-        "English": "The art of rhetoric has seen a resurgence after the rediscovery of a treatise known as Dissoi Logoi, double arguments. The work speaks of moral relativism and has encouraged the thought that there is no limit to what those who study rhetoric will use it to defend. {CHARACTER-2} has gone so far as to claim that the study of rhetoric is degrading the natural values that hold society together. \n\n{CHARACTER-SHORT-1} asks you about the treatise. {G1:He:She} found it interesting, but is worried about whether {CHARACTER-SHORT-2} could be right."
+        "English": "The art of politics has seen a resurgence after the rediscovery of a treatise known as Dissoi Logoi, double arguments. The work speaks of moral relativism and has encouraged the thought that there is no limit to what those who study politics will use it to defend. {CHARACTER-2} has gone so far as to claim that the study of politics is degrading the natural values that hold society together. \n\n{CHARACTER-SHORT-1} asks you about the treatise. {G1:He:She} found it interesting, but is worried about whether {CHARACTER-SHORT-2} could be right."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_MOUSIKE",
@@ -1372,7 +1372,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_WISDOM_TEXTS",
-        "English": "As part of {G1:his:her} studies in rhetoric, {CHARACTER-SHORT-1} has been reading wisdom literature, the teachings on virtue and thought left by sages and wise men of ages past. Completely immersed by the texts, {G1:he:she} has been consuming them at an unprecedented speed and spending days debating the meaning and teachings to be found in each.\n\nDeciding what to read next, {CHARACTER-SHORT-1} seeks your guidance."
+        "English": "As part of {G1:his:her} studies in politics, {CHARACTER-SHORT-1} has been reading wisdom literature, the teachings on virtue and thought left by sages and wise men of ages past. Completely immersed by the texts, {G1:he:she} has been consuming them at an unprecedented speed and spending days debating the meaning and teachings to be found in each.\n\nDeciding what to read next, {CHARACTER-SHORT-1} seeks your guidance."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_THE_IMMORALITY",
@@ -1444,7 +1444,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_BIAS_OF_FAITH",
-        "English": "{PLAYER-0} has outright accused {CHARACTER-2} of favoring {PLAYER-1}, diverting religious resources to {G2:his:her} home nation. Outraged by the suggestion, be it true or false, {CHARACTER-2} demands that you go to war with {PLAYER-0} to show the importance of faith to the {RELIGION-3,1} cause.\n\n{G2:He:She} promises to use everything in {G2:his:her} power to reinforce your legitimacy to your subjects if you agree."
+        "English": "{PLAYER-3} has outright accused {CHARACTER-1} of favoring {PLAYER-2}, diverting religious resources to {G1:his:her} home nation. Outraged by the suggestion, be it true or false, {CHARACTER-1} demands that you go to war with {PLAYER-3} to show your dedication to the {RELIGION-0,1} cause.\n\n{G1:He:She} promises to do everything in {G1:his:her} power to reinforce your legitimacy to your subjects if you agree."
       },
       {
         "zType": "TEXT_EVENTSTORY_HOUSEHOLD_TROUBLES",
@@ -1544,7 +1544,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_RAID_EARLY_WARNING",
-        "English": "The {PLAYER-1,1} messenger speaks before the assembled court, warning that their agents have heard of a great host of raiders gathering beyond the edges of the known world in preparation of an attack on {CITY-0}. \n\n{PLAYER-1} provide this warning as a sign of their friendship - {CITY-0} will be attacked next year. How should use this information?"
+        "English": "The {PLAYER-1,1} messenger speaks before the assembled court, warning that their agents have heard of a great host of raiders gathering beyond the edges of the known world in preparation of an attack on {CITY-0}. \n\n{PLAYER-1} provides this warning as a sign of their friendship - {CITY-0} will be attacked next year. How should we use this information?"
       },
       {
         "zType": "TEXT_EVENTSTORY_RAID_FOREWARNED_HOUR",
@@ -1560,7 +1560,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_RAID_DEFAULT_FAMILY",
-        "English": "{CITY-0} is under attack. People flee in terror as the raiders sweep through the land, burning and pillaging as they go. {CHARACTER-1} comes before you to beg for assistance for the {FAMILY-2} city, describing the atrocities committed by these distant warriors and the sorry state that their previous conquests have been left in. \n\nThe nobility are attempting to aid the people, shall the crown lend further help in the face of these attacks?"
+        "English": "{CITY-0} is under attack. People flee in terror as the raiders sweep through the land, burning and pillaging as they go. {CHARACTER-1} comes before you to beg for assistance for the {FAMILY-2} city, describing the atrocities committed by these distant warriors and the sorry state that their previous conquests have been left in. \n\nThe nobility are attempting to aid the people. Shall the crown lend further help in the face of these attacks?"
       },
       {
         "zType": "TEXT_EVENTSTORY_CITY_AUTONOMY_EMPRESS",
@@ -2002,6 +2002,10 @@
       {
         "zType": "TEXT_EVENTSTORY_PLAYER_CHOOSE_WAR_GENERIC",
         "English": "The ongoing war between {PLAYER-0} and {PLAYER-1} leaves no room for neutrality. Freshly arrived {PLAYER-0,1} envoys have made it clear that all nations are either with them or against them.\n\nThis aggressive diplomacy is quite unconventional. However, there may be opportunities for us in a war with an enemy occupied on two fronts. How shall we answer this ultimatum?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HARVEST_MYTHICAL_BEASTS",
+        "English": "People cower in fear as the recently harvested link(RESOURCE_ELEPHANT) are led through the streets of {CITY-2}. The rumors are that these creatures can live for 300 years, bite off the heads of men, and that even their smell strikes fear into horses.\n\nTo find such mythic beasts reflects well on your dynasty. The scouts excitedly discuss how they might find a manticore next."
       },
       {
         "beginGroup": "Contact",
@@ -3386,6 +3390,138 @@
         "English": "After settling our new link(IMPROVEMENT_CITY_SITE) we have received a simple note from {CHARACTER-0}, it reads:\n\n“I will remember this.”"
       },
       {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_ABDICATED_WAR",
+        "English": "News reaches you from abroad; The cowardly {CHARACTER-1} has stepped down as the leader of {PLAYER-0}. {G1:He:She} was evidently unable to withstand the strain of link(DIPLOMACY_WAR) with us!\n\n{G1:His:Her} equally contemptible heir {CHARACTER-SHORT-0} has ascended to rule {PLAYER-0} in {G1:his:her} place. <p.is_sub.S0=SUBJECT_PLAYER_ASSYRIA>{CHARACTER-SHORT-0} has been named {G0:King:Queen} in accordance with the succession contract made by {CHARACTER-SHORT-1} and {G1:his:her} vassals. Inscriptions of {CHARACTER-SHORT-0}’s alleged might and power are soon commissioned across {PLAYER-0}. \n<p=SUBJECT_PLAYER_BABYLONIA>{G0:He:She} has been appointed {G0:King:Queen} above all others, consecrated for rule by the priests of {CITY-0}. Dubious inscriptions of {CHARACTER-SHORT-0}’s protection and piety are raised across {PLAYER-0}. \n<p=SUBJECT_PLAYER_CARTHAGE>{G0:He:She} has been elected by the noble houses to serve as {G0:King:Queen} in {CHARACTER-SHORT-1}’s footsteps, leading the people and senate of {PLAYER-0} in their futile contest against {PLAYER-2}.\n<p=SUBJECT_PLAYER_EGYPT>{CHARACTER-SHORT-0} immediately held the traditional feast appearing as Pharaoh for the first time, starting the year-long chain of rites and events that confirm {G0:his:her} role as the new Pharaoh of {PLAYER-0}. May {G0:his:her} reign be cut short by our glorious armies!\n<p=SUBJECT_PLAYER_GREECE>{G0:He:She} was immediately proclaimed {G0:King:Queen} by the nobles and generals upon {CHARACTER-SHORT-1}’s death. With the throne secure, {CHARACTER-SHORT-0} is ready to lead the people of {PLAYER-0} in arms against {PLAYER-2}.\n<p=SUBJECT_PLAYER_PERSIA>{CHARACTER-SHORT-0} entered the temple of {CITY-0} and changed into the robes previously worn by {CHARACTER-SHORT-1}. After a ritual meal of figs and sour milk, {CHARACTER-SHORT-0} has assumed {G0:his:her} new title of {G0:King:Queen} of {PLAYER-0}. A worthy foe, or the lesser {G0:son:daughter} of greater sires?\n<p=SUBJECT_PLAYER_ROME>{CHARACTER-SHORT-0} has been empowered to lead {PLAYER-0} and is invested with the traditional retinue of twelve lictor bodyguards. They clear the way as {G0:he:she} takes {G0:his:her} seat as the new leader. Undoubtedly, this maniac will be as bloodthirsty as the last one.\n<else>{G0:He:She} has been empowered to lead the mighty {PLAYER-0} into the new age.\n<end>"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_AGENT_WAR",
+        "English": "With the welcome {p.is_sub.S2=SUBJECT_CHARACTER_DEAD_THEM:death:abdication} of the cretinous {CHARACTER-2}, rule of {PLAYER-0} has passed to {CHARACTER-0}. May {G0:He:She} lead {G0:his:her} people to defeat in our ongoing link(DIPLOMACY_WAR)!\n\nThe nefarious {CHARACTER-SHORT-0} wastes no time in expanding the schemes of {PLAYER-0} against us. The week after {G0:he:she} is named leader, your guards catch a {PLAYER-0,1} agent who had joined the palace servants claiming to have been invited. There is a limited amount of time before the dastardly {CHARACTER-SHORT-0} realizes that {G0:his:her} incompetent agent has gone missing."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_BOAST_WAR",
+        "English": "With the welcome {p.is_sub.S3=SUBJECT_CHARACTER_DEAD_THEM:death:abdication} of {CHARACTER-3}, rule of {PLAYER-0} has passed to the even more vile {CHARACTER-SHORT-0}.\n\nAt the feast following {G0:his:her} succession, {CHARACTER-0} is heard loudly boasting of how {PLAYER-0} stands above all others, especially {PLAYER-2}. {G0:He:She} goes on to describe our noble land in the most acerbic terms, using language that cannot possibly be repeated here.\n\n{CHARACTER-SHORT-0} furthermore claims that {G0:his:her} loathsome henchmen will soon lay waste to all of {PLAYER-2} with a renewed war effort.\n\nAre these the empty words of a braggart, or something more?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INTERCESSION_MISSION_PROMPT_FAMILY",
+        "English": "{CHARACTER-0} is distressed at the falling out between yourself and {G0:his:her} fellow {FAMILY-2} link(CONCEPT_FAMILY) member {CHARACTER-1}. It does not reflect well on {G0:his:her} leadership as Oligarch for other {FAMILY-2,1} to be at odds with the crown, and {G0:he:she} would like to intercede on your behalf. This would hopefully improve your relationship with {CHARACTER-1}.\n\nShall {CHARACTER-SHORT-0} set out on this link(MISSION_INTERCESSION_FAMILY) Mission?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_SITUATION",
+        "English": "Your former heir {CHARACTER-1}, now bypassed in favor of {CHARACTER-0}, has been seething with resentment since {G1:his:her} disinheritance. The rumor is that {G1:he:she} may take drastic action soon to restore {G1:his:her} place in the line of link(CONCEPT_SUCCESSION)!\n\nIt may be wise to dispose of {CHARACTER-SHORT-1} before {G1:he:she} does anything rash, but your spouse {CHARACTER-4} will not forgive you for attempting to harm {G1:him:her}. Perhaps there is still some chance to reconcile with {CHARACTER-SHORT-1} and hope that this all blows over?\n\n{CHARACTER-2} and {CHARACTER-5} stand ready to assist you though if need be..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER",
+        "English": "In an act of shocking yet predictable treachery, your former heir {CHARACTER-1} has murdered your current heir {CHARACTER-0}, who had bypassed {G1:him:her} in the line of link(CONCEPT_SUCCESSION) on your order. Entirely lacking in subtlety, {CHARACTER-SHORT-1} struck down {CHARACTER-SHORT-0} in cold blood in front of the court. Standing over the body, {G1:he:she} declares, \"How's this for loyalty, {CHARACTER-SHORT-2}? No one dishonors me with impunity. I shall be the next {G1:king:queen}!\"\n\t\t\nIt is too late for this to be swept under the rug. Such a bold and frankly insane act by {CHARACTER-SHORT-1} simply gives you no choice in the matter. {G1:He:She} must be gotten rid of by one means or another."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER",
+        "English": "{CHARACTER-2}, recently bypassed in favor of {CHARACTER-1} on your orders, approaches you, your {G4:husband:wife} {CHARACTER-4} and your heir {CHARACTER-SHORT-1} on the steps of the palace. You stop to address {G2:him:her}, but before you can say a word {CHARACTER-SHORT-2} draws a long, curved blade and cuts you down in cold blood. In your last agonizing moments, as a bloody veil draws over your face, you see {CHARACTER-SHORT-2} make short work of {CHARACTER-SHORT-1} and your beloved {CHARACTER-SHORT-4}.\n\nStanding over your mangled bodies, face caked in fresh blood, {CHARACTER-SHORT-2} cackles \"No one dishonors me with impunity. Now I shall be {G2:king:queen}!\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE",
+        "English": "{CHARACTER-2}, recently bypassed in favor of {CHARACTER-1} on your orders, approaches you and {CHARACTER-SHORT-1} on the palace steps. You stop to address {G2:him:her}, but before you can say a word {CHARACTER-SHORT-2} draws a long, curved blade and cuts you down in cold blood. In your last agonizing moments, as a bloody veil draws over your face, you see {CHARACTER-SHORT-2} make short work of your favored heir {CHARACTER-SHORT-1}.\n\nStanding over your mangled bodies, face caked in fresh blood, {CHARACTER-SHORT-2} cackles \"No one dishonors me with impunity. Now I shall be {G2:king:queen}!\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_MURDER",
+        "English": "{CHARACTER-1}, whom you bypassed in the line of link(CONCEPT_SUCCESSION), approaches you on the palace steps. You stop to address {G1:him:her}, but before you can say a word {G1:he:she} draws a long, curved blade and cuts you down in cold blood. In your last agonizing moments, as the red veil draws over your face, you see a look of sheer insanity in {CHARACTER-SHORT-POSS-1} eyes.\n\nYou expire.\n\nStanding over your mangled body, face caked in fresh blood, {CHARACTER-SHORT-1} cackles \"No one dishonors me with impunity. Now I shall be {G1:king:queen}!\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_IMPRISON",
+        "English": "As you are about to go to sleep, {CHARACTER-1}, whom you bypassed in the line of link(CONCEPT_SUCCESSION), storms into your chambers, a troop of armed men in tow. \n\n\"Your worthless rump has sat upon the throne too long {CHARACTER-SHORT-0}. Everyone knows I should have been named {G1:king:queen}!\"\n\nThe men drag you away into a squalid dungeon. Days pass by before you speak to anyone, or are even fed, but eventually news reaches you that {CHARACTER-SHORT-1} has fabricated charges of heresy and witchcraft of the foulest kind against you and staged a coup to install themselves as {G1:king:queen}!\n\nYou waste your days away in darkness..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_EXILE",
+        "English": "While on an evening stroll through the city, your bodyguard just behind you, a rotten cabbage strikes you in the face. Stunned, you look about to find the culprit, when a swarm of angry peasants suddenly materializes and begins pelting you with animal dung and rotting vegetables, decrying you for alleged heresies. \n\nYour own guard comes, seemingly to your aid, only to shackle your feet and gag you. They drag you back to the court where you see {CHARACTER-1}, whom you bypassed in the line of link(CONCEPT_SUCCESSION), seated upon your throne! The guards throw you to your knees. \n\n\"The good people of {PLAYER-0} have tolerated your foul heresies for too long! I will relieve them of your treacherous rule. As for you, such shame should be kept out of sight.\"\n\nThe guards throw a sackcloth over your head and load you into a prison carriage. They drive you for some time to the further flung borders of {PLAYER-0}. There, you are unceremoniously dumped on the road and informed of your banishment."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_ARMING_YOUR_BROTHERS",
+        "English": "The news of {PLAYER-POSS-1} military advancements have traveled across the world, whispered about on the road and discussed by foreign generals. Impressed by the tales of such technological achievements, the friendly nation of {PLAYER-0} has sent a delegation of officials to ask if we would be willing to share our knowledge with them.\n\nShall we help to arm our friends, or is the risk of these weapons turning against us too great?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_SCROLL_AND_SPEAR",
+        "English": "The message from {PLAYER-0} is terse, though the few lines leave a shadow over the court of {PLAYER-1}.\n\n\"We can not abide secrets. You will share your technology with us, or we will come and take it by force.\"\n\nWhat is our reply?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_TRIBUTE",
+        "English": "The {PLAYER-0,3} swiftly reply to your demand for tribute, although the answer is not as clear-cut as hoped. Blaming a lack of funds and claiming that they have little to share, the nation has offered a gift of technology instead. \n\nThey insist that they need to hold onto what few resources they have. Is this offering enough to placate you?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_DEBT_OF_SCIENCE",
+        "English": "A message arrives from {CHARACTER-0}, carried by a collection of regally-dressed learned men and women. {CHARACTER-SHORT-0} offers a gift of technology to clear the debt that is owed, offering the accompanying scholars to teach us of the {PLAYER-1,1} discoveries.\n\nWill you accept this proposal?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_DEMAND_PLEA_FOR_KNOWLEDGE",
+        "English": "Gasps of shock and surprise spread around the court as the {PLAYER-0,1} diplomat prostrates himself on the ground in supplication.\n\n\"Our nation has much to learn. We humbly ask that you share your knowledge with us, so that we may move forwards as friends.\"\n\nWill you give {PLAYER-0} a gift of technology?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_WISDOM_OF_PEACE",
+        "English": "You watch as a trail of soldiers wearily troop back into the city, returning for a temporary reprieve from guarding the distant roads that lead to {PLAYER-0}. A servant softly coughs, breaking your reverie and calling your attention back to the message in your hands. \n\nThe {PLAYER-0,1} leader, {CHARACTER-SHORT-1}, has sent a request for link(DIPLOMACY_PEACE). In return, {G0:he:she} offers a gift of knowledge - technology that could advance {PLAYER-POSS-2} understanding of the world. Should we be closer aligned with this nation, or should the current link(DIPLOMACY_TRUCE) be continued?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_GIFTS_OF_THE_SEA",
+        "English": "A group of local merchants seek a meeting. They explain that their contemporaries in {PLAYER-0} have offered to share their knowledge of navigating the seas, eager to open further routes of trade with us. \n\nThe merchants suggest that we could use the gift to learn to navigate far off waters, or you could learn to read the local coastal waters to make the most of our resources. What will you do with the information?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_LURE_OF_KNOWLEDGE",
+        "English": "Stories of the war between {PLAYER-0} and {PLAYER-1} filter through to your court, leading to heated debates and nervous discussions as courtiers and advisers speculate on how the outcome of the war will affect {PLAYER-3}. \n\nSuch tales sound distant, but will {PLAYER-POSS-3} neutrality last? A message arrives from {PLAYER-0}: {CHARACTER-0} asks you to join the fighting, offering a gift of technology if you agree to declare war on {PLAYER-1}. \n\nHow will we reply?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_FOOD_FOR_THOUGHT",
+        "English": "Some progress comes from great minds exploring their theoretical worlds, some comes from honest people doing their best to get by. The farmers of {PLAYER-1} are proud of our nation's skills at link(TECH_HUSBANDRY) and fine pastures. \n\nThe advancements in agriculture have naturally started to spread, with {PLAYER-0} coming close to our skills at raising animals. However, word comes that they have been hit by a plague that has wiped out much of their livestock and ask that you send aid."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_UNDER_THE_TABLE",
+        "English": "The spy has held on for days. He is one of a pair, caught sneaking around and gathering information in the capital. Although one managed to elude your guards, the other was struck in the shoulder with an arrow and has since been a guest in your dungeons. \n\nWhen word arrives that the spy has finally talked, the message chills you. Sent to steal research, he is an agent of {PLAYER-0}. Your allies. What foolishness brought about such rash actions? Either way, you must formulate a response."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_WRONG_HANDS",
+        "English": "Our bitter enemies, the {PLAYER-0,3}, have struck another blow. One of their agents managed to slip into the capital unnoticed, stealing our research before fleeing back to {CHARACTER-0}. \n\nAlthough the spy was killed by our guards while trying to escape across the border, the stolen research was recovered by {PLAYER-0,1} troops."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_STOLEN_SCROLLS",
+        "English": "Your nation's teachers have reported a great theft of scrolls and tablets containing all manner of national secrets. The investigation initially seems fruitless until a farmer is found who saw a group of men fleeing in the night in a cart laden with documents. \n\nFrom their clothing and the path they took, it seems that {PLAYER-0} are to blame."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_HOPLITE), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_COPY",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_AKKADIAN_ARCHER), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ASSYRIA",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_BATTERING_RAM), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_CARTHAGE",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_AFRICAN_ELEPHANT), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_EGYPT",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_LIGHT_CHARIOT), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_PERSIA",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_PALTON_CAVALRY), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ROME",
+        "English": "A messenger has arrived from {PLAYER-0} with an intriguing offer. {CHARACTER-0} finds {G0:himself:herself} with a strong military, but a shortage of funds. And, {G0:his:her} message suggests, “perhaps we can both benefit from this situation”.\n\nFor a modest fee you can acquire the services of a powerful link(UNIT_HASTATUS), a rare sight outside the forces of {PLAYER-0}. “Of course”, the message concludes, “if you refuse I will need to find some other use for my excess forces. They may end up in {CITY-1} regardless”.\n\nShall we accept?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_FOREIGN_TEMP_ALT",
+        "English": "A delegation from our noble allies in {PLAYER-1} arrives with two suitors for {RELATIVE-0} {CHARACTER-POSS-0} hand in marriage.\n\nShall it be a match?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_CORRECT_PROTOCOL",
+        "English": "A difficult decision lies before you. Breaking all protocol, both {PLAYER-1} and {PLAYER-2} have sent an offer of marriage for {RELATIVE-0} {CHARACTER-0}. \n\nWould {CHARACTER-3} be more suitable? Or perhaps {CHARACTER-4} would be preferred? Either way, the rejected nation is unlikely to be pleased."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_NATION_FAMILY",
+        "English": "The {PLAYER-1,1} party arrives in a show of splendor, bedecked in purple and gold. They have arrived to offer {CHARACTER-3} as a potential {G3:husband:bride} for {RELATIVE-0} {CHARACTER-0}.\n\nBefore the {PLAYER-1,3} have had a chance to dismount, a group from the already angry {FAMILY-2,1} charge in, shouting that {CHARACTER-4} would be far more suitable.\n\nNeither side looks ready to stand down. Are either of these suitors suitable for {CHARACTER-SHORT-0}?"
+      },
+      {
         "beginGroup": "Combat",
         "zType": "TEXT_EVENTSTORY_LEADER_SMITING_FOES",
         "English": "Your mighty hand has struck down many a foe, and the legend of your feats in battle continues to grow.\n\nHow shall the court commemorate your victories?"
@@ -3752,11 +3888,66 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_MUTINY_IN_THE_RANKS",
-        "English": "Mutiny is afoot. A message arrives at night from a young officer in {CHARACTER-SHORT-0}’s army, warning that the troops are on the verge of rising up against {G0:him:her} after their continued losses. {CHARACTER-SHORT-0} has refused to listen to the danger and drives the soldiers harder and harder. \n\nTime is short. Will you warn {CHARACTER-SHORT-0} of the danger that {G0:he:she} is in, despite upsetting the troops?"
+        "English": "Mutiny is afoot. A message arrives at night from a young officer in {CHARACTER-SHORT-0}’s army, warning that the troops are on the verge of rising up against {G0:him:her}. In the midst of a recent skirmish, {CHARACTER-SHORT-0} was recklessly throwing soldiers at the enemy with little strategy, shouting that they are expendable when an unfortunate officer questioned {G0:his:her} leadership. {CHARACTER-SHORT-0} has refused to listen to the danger from {G0:his:her} own army and drives the soldiers harder and harder. \n\nTime is short. Will you warn {CHARACTER-SHORT-0} of the danger that {G0:he:she} is in, despite upsetting the troops?"
       },
       {
         "zType": "TEXT_EVENTSTORY_TRAPPED_GENERAL",
         "English": "A soldier rushes into your presence, carrying news from {CHARACTER-SHORT-0}. The general has fallen back after the recent loss, retreating with {G0:his:her} remaining soldiers to a nearby ruin. However, after the {PLAYER-1,1} army advanced they are now trapped and unable to move, surrounded by enemy forces. It is only a matter of time before they are found and killed. \n\nA small team of local guides and select soldiers may be able to get {G0:him:her} back to safety, but doing so would be no easy feat. Shall we send help for {CHARACTER-SHORT-0}?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_MEDJAY",
+        "English": "The {UNIT-0,2} have shown themselves to be strong and capable warriors, an example that the other troops of your armies look up to. {CHARACTER-SHORT-1} suggests that {G1:he:she} could train them into an elite force of defenders for protecting our cities. \n\nShould they be given this honor of being named the Medjay?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_SACRED_BAND",
+        "English": "The {UNIT-0,2} serving under {CHARACTER-1} come from all walks of life and social classes. There are only two prerequisites for serving in {G1:his:her} unit. The first is the ability to fight, and fight well. The second is more unusual, the unit consists only of pairs of lovers. {CHARACTER-SHORT-1} says that the practice keeps the unit strong as a warrior would rather protect their lover than flee the field. \n\nOthers in the army have taken to calling this unusual unit the Sacred Band. Shall we make the title official?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_IMMORTALS",
+        "English": "The {UNIT-0,2} led by {CHARACTER-1} have proved themselves loyal and fierce fighters, elite warriors who bring fear to their enemies. Every time a member of the unit falls ill or is wounded, another is brought to fill the space. \n\n{CHARACTER-SHORT-1} asks that you recognize the unit and grant them the honor of being named the Immortals, to serve your dynasty for all time."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_COMPANIONS",
+        "English": "The {UNIT-0,2} you lead are honored to ride by your side and take pride in being known as the elite cavalry of {PLAYER-2}. It is not cheap to keep animals for riding, and many of the unit are nobles that you know from court. Used to protecting you and being in being in the thickest of the fighting has created a strong bond of loyalty and they have started referring to themselves as the Companions in honor of their place by your side. \n\nShall we bestow this name officially as a sign of your favor?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_NUMERUS_BATAVORUM",
+        "English": "Originally bought for money, the mercenary {UNIT-0,2} have proved themselves loyal and staunch fighters. A thought occurs to you that it could be useful to have a unit of bodyguards that are not loyal to the noble families and have no interest in the politics of court. \n\nShall we name this unit and rise them in honor?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_SILVER_SHIELDS",
+        "English": "The {UNIT-0,2} under {CHARACTER-1} have been gaining a reputation within the army of being determined defenders, difficult to command but too stubborn to retreat. They have been nicknamed the Silver Shields as the many blows they take have worn the paint off their shields to show the silver metal below.\n\nShall this name be made official to honor the unit?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_HARII",
+        "English": "{CHARACTER-1} has been leading the {UNIT-0,2} with a steady hand. Many of the unit are now Germanic tribesmen drawn to {G1:his:her} banner. {CHARACTER-SHORT-1} has been leading the troops in unusual tactics, painting themselves in black tar and attacking at night to strike fear into the enemy. \n\nThe army talks about these warriors in a uncertain mixture of awe and fear. {CHARACTER-SHORT-1} asks that we grant {G1:his:her} unit the name Harii so that the enemy know who to fear."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_PAINTED_WARRIORS",
+        "English": "Your reputation as a terrifying ruler has been enthusiastically embraced by some of your troops. One unit of {UNIT-0,2} in particular have taken to adorning their armor and faces with crude paintings of horrific demons and beasts to strike fear into the enemy. \n\nThe infamous unit have asked for your blessing to be known as the Painted Demons to bring terror in your name."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_WARRIORS_OF_GOD",
+        "English": "One of your units of {UNIT-0,2} have been zealously embracing the {RELIGION-1,1} faith, only accepting believers and charging in without fear under the gaze of the <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end> that accompany the soldiers.\n\nThey have asked to be granted the title of the Warriors of God to show their dedication and to stand as a beacon of faith to the rest of the army. Shall we reward their belief?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_1",
+        "English": "The {UNIT-0,2} of {PLAYER-2} are whispered about in fear by your army. These fierce warriors have become renown as The Terrors, a fierce and bloodthirsty unit who make a point to leave none alive."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_2"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_FURIES",
+        "English": "Upon hearing of the fall of {CHARACTER-POSS-1} forces, one of your {UNIT-0} units comes forward, swearing to avenge the loss. They ask to be renamed to \"The Furies\" after the Greek goddesses of vengeance, promising to not rest until the {PLAYER-2,1} forces are defeated."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS",
+        "English": "One of your generals, {CHARACTER-SHORT-1}, has put forward a suggestion. Following the recent combat between our {UNIT-0} and the {PLAYER-4,1} forces, {G1:he:she} wants to rename the ship as 'Praise of the Two Lands' - a symbol that both nations will soon be under your rule."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_WILD_HUNTERS",
+        "English": "Your {UNIT-1,2} are already skilled, but {CHARACTER-0} has an offer to push their abilities even further. A talented pathfinder, {CHARACTER-SHORT-0} has offered to show a select unit the hidden routes and tracks that cover {PLAYER-0}, training them in the art of the hunt so they may chase down any that dare enter our territory."
       },
       {
         "beginGroup": "Family",
@@ -3837,11 +4028,11 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INCRIMINATING_MESSAGES",
-        "English": "Your accusations of plotting cause a sensation! However, the claims appear to be true. After a short investigation, royal agents have uncovered a series of incriminating messages between {CHARACTER-1} and the {FAMILY-2} family. Their political alliance was more than it appeared.\n\nOnly you and your closest advisors possess this sensitive information. Now, what will you do with it?"
+        "English": "Your accusations of plotting cause a sensation! However, the claims appear to be true. After a short investigation, royal agents have uncovered a series of incriminating messages between {CHARACTER-0} and the {FAMILY-1} family. Their political alliance was more than it appeared.\n\nOnly you and your closest advisors possess this sensitive information. Now, what will you do with it?"
       },
       {
         "zType": "TEXT_EVENTSTORY_BASELESS_ACCUSATIONS",
-        "English": "Months have passed since your accusation of plotting between {CHARACTER-1} and the {FAMILY-2} family, and... it appears to be baseless.\n\nThis public mistake has not gone unnoticed.\n\nYou must make amends by withdrawing the controversial charge. Or you can refuse and risk the wrath of the court."
+        "English": "Months have passed since your accusation of plotting between {CHARACTER-0} and the {FAMILY-1} family, and... it appears to be baseless.\n\nThis public mistake has not gone unnoticed.\n\nYou must make amends by withdrawing the controversial charge. Or you can refuse and risk the wrath of the court."
       },
       {
         "zType": "TEXT_EVENTSTORY_DESIGNS_ON_THE_THRONE",
@@ -4109,7 +4300,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_CONTEST_OF_RHETORIC",
-        "English": "The {FAMILY-0} family stages a contest of rhetoric, discussing the merits of our highly centralized state. They request that the court send a royal scholar to defend the status quo. Despite appearances, the {FAMILY-0,1} assure us that their interest in the matter is purely theoretical.\n\nWhat will you do?"
+        "English": "The {FAMILY-0} family stages a contest of politics, discussing the merits of our highly centralized state. They request that the court send a royal scholar to defend the status quo. Despite appearances, the {FAMILY-0,1} assure us that their interest in the matter is purely theoretical.\n\nWhat will you do?"
       },
       {
         "zType": "TEXT_EVENTSTORY_RADICAL_PHILOSOPHER",
@@ -4150,6 +4341,18 @@
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_FAMILY_RETREAT",
         "English": "This is the second year that the {FAMILY-1,0} and {FAMILY-2,0} link(CONCEPT_FAMILY,2) have spent the summer months together at a lavish estate in the hills. Their cooperation in court continues to strengthen, diminishing your authority.\n\nWhat happens at these private gatherings? What are the {FAMILY-1,1} and {FAMILY-2,1} plotting?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_TRADE_OFF",
+        "English": "The {PLAYER-0,1} ambassador waits patiently for your reply, watching in quiet bemusement as the leaders of the {FAMILY-1,1} and {FAMILY-2,1} shout over each other to be heard. \n\nThe proposed offer is that {PLAYER-0} would like to exchange technologies as a sign of friendship. However, they have asked to learn about our military advancements in return for their own economic knowledge.\n\nThe {FAMILY-2} family argue that the economic benefits would greatly help our nation, while the {FAMILY-1,1} warn of the dangers of arming {PLAYER-0} with a more advanced military."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_FAMILY_TEMP_ALT",
+        "English": "Emphasizing the importance of strengthening {PLAYER-0}, the {FAMILY-1,1} have proposed a marriage with {RELATIVE-0} {CHARACTER-0}. \n\nShall our two families be bound together?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_OLIGARCHS_BETROTHED",
+        "English": "{CHARACTER-1} is to be wed and has invited you to preside over the marriage. Upon meeting the intended, {CHARACTER-2}, you are taken by {G2:his:her} incredible charm. In your brief time together, it appears that {CHARACTER-SHORT-2} reciprocates the attraction. Being shockingly frank, {G2:he:she} asks if you would marry {G2:him:her} instead.\n\nAs the leader of {PLAYER-0}, you could take {CHARACTER-2} as your own {G2:husband:wife}, but it would certainly make an enemy of {CHARACTER-1}."
       },
       {
         "beginGroup": "Character",
@@ -4202,7 +4405,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_DAUGHTERS_DREAM",
-        "English": "A local judge appeals to the court for a decision in a controversial dispute between a father and daughter.\n\nThe daughter, who was with child, dreamt that she gave birth to a flood that swept away the city. The father, believing the dream prophetic, waited until the child was born and then killed it.\n\nHow shall we rule?"
+        "English": "A local judge appeals to the court for a decision in a controversial dispute between a father and daughter.\n\n{CHARACTER-2}, who was with child, dreamt that she gave birth to a flood that swept away the city. Her father, {CHARACTER-1}, believing the dream prophetic, waited until the child was born and then killed it.\n\nHow shall we rule?"
       },
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_TOO_MUCH_OF_A_GOOD_THING",
@@ -4302,7 +4505,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_MASTER_ORATION",
-        "English": "On a recent visit to the academy of rhetoric, you attend a debate in which {RELATIVE-0} {CHARACTER-0} participates. {G0:His:Her} skill is tremendous, and you have heard nothing but praise.\n\nPerhaps the time has come for {CHARACTER-0} to choose a calling."
+        "English": "On a recent visit to the academy of politics, you attend a debate in which {RELATIVE-0} {CHARACTER-0} participates. {G0:His:Her} skill is tremendous, and you have heard nothing but praise.\n\nPerhaps the time has come for {CHARACTER-0} to choose a calling."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_DISCIPLINARY_ACTION",
@@ -4310,7 +4513,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_GOLDEN_VOICE",
-        "English": "News of {RELATIVE-0}'s reputation at the academy of Rhetoric has reached the palace. Apparently, {G0:his:her} songs and poems have mesmerized the teachers and other students.\n\nSuch skills should help to determine {CHARACTER-0}'s future."
+        "English": "News of {RELATIVE-0}'s reputation at the academy has reached the palace. Apparently, {G0:his:her} songs and poems have mesmerized the teachers and other students.\n\nSuch skills should help to determine {CHARACTER-0}'s future."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_SPENDTHRIFT",
@@ -4330,7 +4533,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_GRADUATE_A_RAISED_VOICE",
-        "English": "{CHARACTER-SHORT-0}'s return from the academy fills the streets of {CITY-2} with revels. However, as the wine loosens {G0:his:her} tongue, she publicly chastises you for your tyrannical ways.\n\n{G0:He:She} offers a rhetorical rebuke of your political system, claiming that no one living under it can experience free thought. The crowds falls silent, waiting..."
+        "English": "{CHARACTER-SHORT-0}'s return from the academy fills the streets of {CITY-2} with revels. However, as the wine loosens {G0:his:her} tongue, she publicly chastises you for your tyrannical ways.\n\n{G0:He:She} offers a rebuke of your political system, claiming that no one living under it can experience free thought. The crowds falls silent, waiting..."
       },
       {
         "zType": "TEXT_EVENTSTORY_TACTICS_TO_PHILOSOPHY",
@@ -4362,7 +4565,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_GRADUATE_THE_RETURN_OF_CHARACTER",
-        "English": "One day in court, a confident young {G0:man:woman} approaches, dropping to one knee before you. \"It is I, {CHARACTER-0}. I have returned from my studies of rhetoric.\"\n\nThe small {G0:boy:girl} has changed from a child into an educated {G0:nobleman:noblewoman}."
+        "English": "One day in court, a confident young {G0:man:woman} approaches, dropping to one knee before you. \"It is I, {CHARACTER-0}. I have returned from my political studies.\"\n\nThe small {G0:boy:girl} has changed from a child into an educated {G0:nobleman:noblewoman}."
       },
       {
         "zType": "TEXT_EVENTSTORY_GRADUATION_A_CITY_CELEBRATES",
@@ -4378,19 +4581,19 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_01",
-        "English": "After numerous bitter encounters, {CHARACTER-2} comes to us, demanding a unique position on the court, one with true power and responsibility.\n\n{CHARACTER-SHORT-2} has proven to be a thorn in our side, but if ignored, {G2:he:she} also has the power to make our lives more difficult."
+        "English": "After numerous bitter encounters, {CHARACTER-0} comes to us, demanding a unique position on the court, one with true power and responsibility.\n\n{CHARACTER-SHORT-0} has proven to be a thorn in our side, but if ignored, {G0:he:she} also has the power to make our lives more difficult."
       },
       {
         "zType": "TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_02",
-        "English": "{CHARACTER-2} strides into court with an air of confidence. Flanked by two guards from {G2:his:her} personal retinue, {G2:he:she} points at you and shouts. \"Seize the false ruler {CHARACTER-1}, for {G1:he:she} is an impostor!\"\n\n{CHARACTER-2} has finally made {G2:his:her} bid to seize the throne.\n\nWhat will you do?"
+        "English": "{CHARACTER-0} strides into court with an air of confidence. Flanked by two guards from {G0:his:her} personal retinue, {G0:he:she} points at you and shouts. \"Seize the false ruler {CHARACTER-2}, for {G2:he:she} is an impostor!\"\n\n{CHARACTER-0} has finally made {G0:his:her} bid to seize the throne.\n\nWhat will you do?"
       },
       {
         "zType": "TEXT_EVENTSTORY_CHARACTER_SPECIAL_RECOGNITION_03",
-        "English": "After dispatching {G2:his:her} bodyguards with ease, you slay {CHARACTER-2} in front of the court. Raising your sullied blade in one hand and {CHARACTER-SHORT-2}'s head in the other, you roar \"Behold! The terrible price of treason.\"\n\nIn response to the failed coup, the government renews its pledge of loyalty.\n\nHow do you wish this moment to be remembered?"
+        "English": "After dispatching {G0:his:her} bodyguards with ease, you slay {CHARACTER-0} in front of the court. Raising your sullied blade in one hand and {CHARACTER-SHORT-0}'s head in the other, you roar \"Behold! The terrible price of treason.\"\n\nIn response to the failed coup, the government renews its pledge of loyalty.\n\nHow do you wish this moment to be remembered?"
       },
       {
         "zType": "TEXT_EVENTSTORY_CHARACTER_NEW_FRIENDS_01",
-        "English": "Our frayed relationship with {CHARACTER-1} has finally come unwound. In a bid to circumvent our authority, {G1:he:she} has allied with the powerful {FAMILY-2} family.\n\nDoes this unexpected alliance have regal ambitions, or are they simply playing power games?"
+        "English": "Our frayed relationship with {CHARACTER-0} has finally come unwound. In a bid to circumvent our authority, {G0:he:she} has allied with the powerful {FAMILY-1} family.\n\nDoes this unexpected alliance have regal ambitions, or are they simply playing power games?"
       },
       {
         "zType": "TEXT_EVENTSTORY_CHARACTER_A_RULER_FALLS",
@@ -4405,8 +4608,8 @@
         "English": "Now that {CHARACTER-0} has completed {G0:his:her} study of tactics, how shall {G0:he:she} contribute to the court?\n\nWhat role best suits {CHARACTER-SHORT-0}?"
       },
       {
-        "zType": "TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES",
-        "English": "Now that {CHARACTER-0} has completed {G0:his:her} study of rhetoric, how shall {G0:he:she} contribute to the court?\n\nWhat role best suits {CHARACTER-SHORT-0}?"
+        "zType": "TEXT_EVENTSTORY_STUDY_POLITICS_ARCHETYPES",
+        "English": "Now that {CHARACTER-0} has completed {G0:his:her} study of politics, how shall {G0:he:she} contribute to the court?\n\nWhat role best suits {CHARACTER-SHORT-0}?"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES",
@@ -4518,11 +4721,11 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_LOVESICK",
-        "English": "You accompany a courtly expedition to the academy where {CHARACTER-0} is studying rhetoric. While strolling the grounds, you notice many young {G0:women:men} glancing at {CHARACTER-SHORT-0}, their faces flushed.\n\nIt seems {G0:he:she} has gained a reputation as a poet of passion and emotion, and {G0:he:she} has wooed many of {G0:his:her} classmates."
+        "English": "You accompany a courtly expedition to the academy where {CHARACTER-0} is studying politics. While strolling the grounds, you notice many young {G0:women:men} glancing at {CHARACTER-SHORT-0}, their faces flushed.\n\nIt seems {G0:he:she} has gained a reputation as a speaker of passion and emotion, and {G0:he:she} has wooed many of {G0:his:her} classmates."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_YOUTHFUL_ZEAL",
-        "English": "During a surprise visit to the academy of rhetoric, you and young {CHARACTER-SHORT-0} end up in a surprisingly heated debate over the court's policies. Luckily, the argument takes place in {G0:his:her} private chambers. Otherwise you might have thrown {G0:him:her} in the dungeon in order to keep up appearances.\n\nThe young have no respect for their elders anymore."
+        "English": "During a surprise visit to the academy of politics, you and young {CHARACTER-SHORT-0} end up in a surprisingly heated debate over the court's policies. Luckily, the argument takes place in {G0:his:her} private chambers. Otherwise you might have thrown {G0:him:her} in the dungeon in order to keep up appearances.\n\nThe young have no respect for their elders anymore."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_EAGER_FOR_COMBAT",
@@ -4702,7 +4905,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_THE_YOUNG_MASTER",
-        "English": "Withdrawing from much of the school's daily lectures, {CHARACTER-0} focuses intensely on {G0:his:her} study of rhetoric, ethics, and debate. {G0:He:She} has even developed a small following of loyal devotees who record {G0:his:her} teachings.\n\nAfter several months of focused study, {CHARACTER-SHORT-0} compiles the first true manual of rhetoric."
+        "English": "Withdrawing from much of the school's daily lectures, {CHARACTER-0} focuses intensely on {G0:his:her} study of politics, ethics, and debate. {G0:He:She} has even developed a small following of loyal devotees who record {G0:his:her} teachings.\n\nAfter several months of focused study, {CHARACTER-SHORT-0} compiles the first true policy manifest."
       },
       {
         "zType": "TEXT_EVENTSTORY_STREET_DEBATE",
@@ -4714,7 +4917,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_MEDIATOR",
-        "English": "Sometimes, the young see with clearer eyes than those with a wealth of experience.\n\nWhile studying rhetoric, {CHARACTER-0} has become a popular mediator, moderating disputes between fellow students, teachers, and even visitors to the school. One of {G0:his:her} recent successes was a resolution of tensions between the {FAMILY-1} and {FAMILY-2} families, longtime rivals. They are eternally grateful."
+        "English": "Sometimes, the young see with clearer eyes than those with a wealth of experience.\n\nWhile studying politics, {CHARACTER-0} has become a popular mediator, moderating disputes between fellow students, teachers, and even visitors to the school. One of {G0:his:her} recent successes was a resolution of tensions between the {FAMILY-1} and {FAMILY-2} families, longtime rivals. They are eternally grateful."
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_STUDENT_EMPORIUM",
@@ -5038,7 +5241,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_BAWDY_POEM",
-        "English": "A grinning {CHARACTER-SHORT-1} approaches you, “{CHARACTER-SHORT-0}! Listen to this...”, {G1:he:she} proceeds to recite a raunchy and extremely detailed poem depicting how the two of you could make love. It contains several rude puns, an inspired simile, and very creative use of olive oil."
+        "English": "A grinning {CHARACTER-SHORT-1} approaches you, “{CHARACTER-SHORT-0}! Listen to this...” {G1:he:she} proceeds to recite a raunchy and extremely detailed poem depicting how the two of you could make love. It contains several rude puns, an inspired simile, and very creative use of olive oil."
       },
       {
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_LOVE_LETTER",
@@ -5130,7 +5333,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY",
-        "English": "The body of {CHARACTER-1} is found in the bottom of a rocky ravine. Suspicions surround {G1:his:her} untimely death, which may stem from envy over {G1:his:her} recent legitimization. {G1:He:She} was last seen in the gardens with {CHARACTER-2}, the evening before {G1:his:her} body was discovered.\n\nShall we investigate?"
+        "English": "The body of {CHARACTER-1} is found at the bottom of a rocky ravine. Suspicions surround {G1:his:her} untimely death, which may stem from envy over {G1:his:her} recent legitimization. {G1:He:She} was last seen in the gardens with {CHARACTER-2}, the evening before {G1:his:her} body was discovered.\n\nShall we investigate?"
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGITIMIZE_BASTARDS_BODY_LOVER",
@@ -5162,7 +5365,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_AGAINST_THE_SOPHISTS",
-        "English": "A copy of a speech given by a famed teacher of rhetoric has been the subject of much discussion at the academy. {CHARACTER-0} comes to you late one night, bleary-eyed and pondering.\n\n\"I've been up all night thinking about it. The speech says you cannot teach virtue, but then it says the study of discourse is the best tool we have to learn of virtue. I just don't understand.\""
+        "English": "A copy of a speech given by a famed teacher of politics has been the subject of much discussion at the academy. {CHARACTER-0} comes to you late one night, bleary-eyed and pondering.\n\n\"I've been up all night thinking about it. The speech says you cannot teach virtue, but then it says the study of discourse is the best tool we have to learn of virtue. I just don't understand.\""
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_OPPOSING_VIEWS",
@@ -5198,11 +5401,11 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_LOVE_SPREADING_FIVE",
-        "English": "{CHARACTER-SHORT-0} has asked to speak with you in private. {G0:He:She} leads you into a cosy nook and says, “{CHARACTER-SHORT-1}, I have to tell you how I feel. You see, I could never resist a {G1:man:woman} with such <p.is_sub.S1=SUBJECT_ZEALOT>strong faith<p=SUBJECT_SCHOLAR>great knowledge<p=SUBJECT_ORATOR>a way with words<p=SUBJECT_DIPLOMAT>ability to understand and compromise<p=SUBJECT_SCHEMER>great cunning<p=SUBJECT_HERO>fame<p=SUBJECT_TACTICIAN>battlefield prowess<p=SUBJECT_COMMANDER>strategic genius<p=SUBJECT_BUILDER>creative ability<p=SUBJECT_JUDGE>sound judgement<else>good looks<end>. I know this must be a surprise to you, so I’ll give you some time to think about what I’ve said.”\n\n{G0:He:She} gives you a fond smile and walks away."
+        "English": "{CHARACTER-SHORT-1} has asked to speak with you in private. {G1:He:She} leads you into a cosy nook and says, “{CHARACTER-SHORT-0}, I have to tell you how I feel. You see, I could never resist a {G0:man:woman} with such <p.is_sub.S0=SUBJECT_ZEALOT>strong faith<p=SUBJECT_SCHOLAR>great knowledge<p=SUBJECT_ORATOR>a way with words<p=SUBJECT_DIPLOMAT>ability to understand and compromise<p=SUBJECT_SCHEMER>great cunning<p=SUBJECT_HERO>fame<p=SUBJECT_TACTICIAN>battlefield prowess<p=SUBJECT_COMMANDER>strategic genius<p=SUBJECT_BUILDER>creative ability<p=SUBJECT_JUDGE>sound judgement<else>good looks<end>. I know this must be a surprise to you, so I’ll give you some time to think about what I’ve said.”\n\n{G1:He:She} gives you a fond smile and walks away."
       },
       {
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_LOVE_SPREADING_SIX",
-        "English": "Seeming almost angry at you, {CHARACTER-SHORT-0} demands to speak with you in private. Once {G0:he:she} is alone with you {G0:he:she} seems even more annoyed. Gathering {G0:himself:herself}, {G0:he:she} speaks stiffly to you, “I never thought I would fall for a <p.is_sub.S1=SUBJECT_ZEALOT>pious fool<p=SUBJECT_SCHOLAR>bookish intellectual<p=SUBJECT_ORATOR>rambling windbag<p=SUBJECT_DIPLOMAT>worm-tongued manipulator<p=SUBJECT_SCHEMER>scheming sneak<p=SUBJECT_HERO>puffed up braggart<p=SUBJECT_TACTICIAN>conceited bore<p=SUBJECT_COMMANDER>military-obsessed fanatic<p=SUBJECT_BUILDER>tinkering obsessive<p=SUBJECT_JUDGE>judgemental type<else>bore with no personality<end> like you, but for some reason I have! Now you know, you <p.is_sub.S1=SUBJECT_ZEALOT>preachy<p=SUBJECT_SCHOLAR>bookish<p=SUBJECT_ORATOR>rambling<p=SUBJECT_DIPLOMAT>wordy<p=SUBJECT_SCHEMER>sneaky<p=SUBJECT_HERO>boastful<p=SUBJECT_TACTICIAN>strategic<p=SUBJECT_COMMANDER>strategic<p=SUBJECT_BUILDER>fiddly<p=SUBJECT_JUDGE>judgemental<else>boring<end> fool.”\n\nHaving said {G0:his:her} piece, {CHARACTER-SHORT-0} storms off."
+        "English": "Seeming almost angry at you, {CHARACTER-SHORT-1} demands to speak with you in private. Once {G1:he:she} is alone with you {G1:he:she} seems even more annoyed. Gathering {G1:himself:herself}, {G1:he:she} speaks stiffly to you, “I never thought I would fall for a <p.is_sub.S0=SUBJECT_ZEALOT>pious fool<p=SUBJECT_SCHOLAR>bookish intellectual<p=SUBJECT_ORATOR>rambling windbag<p=SUBJECT_DIPLOMAT>worm-tongued manipulator<p=SUBJECT_SCHEMER>scheming sneak<p=SUBJECT_HERO>puffed up braggart<p=SUBJECT_TACTICIAN>conceited bore<p=SUBJECT_COMMANDER>military-obsessed fanatic<p=SUBJECT_BUILDER>tinkering obsessive<p=SUBJECT_JUDGE>judgemental type<else>bore with no personality<end> like you, but for some reason I have! Now you know, you <p.is_sub.S1=SUBJECT_ZEALOT>preachy<p=SUBJECT_SCHOLAR>bookish<p=SUBJECT_ORATOR>rambling<p=SUBJECT_DIPLOMAT>wordy<p=SUBJECT_SCHEMER>sneaky<p=SUBJECT_HERO>boastful<p=SUBJECT_TACTICIAN>strategic<p=SUBJECT_COMMANDER>strategic<p=SUBJECT_BUILDER>fiddly<p=SUBJECT_JUDGE>judgemental<else>boring<end> fool.”\n\nHaving said {G1:his:her} piece, {CHARACTER-SHORT-1} storms off."
       },
       {
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_BOTH_WANTON",
@@ -5354,7 +5557,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INSPIRED_BY_COURT",
-        "English": "As a young {G0:king:queen}, you realize you have much to learn about the ways of the court. <p.is_sub.S0=SUBJECT_CHARACTER_ARCHETYPE_REGAL>The subtle ways of power has always drawn your regard. As a little child you would watch the courtiers gossip and debate in hushed tone punctuated with vehement gestures and noble disdain. \n\nNow you find yourself wishing to learn the finer arts of the court.<p=SUBJECT_CHARACTER_ARCHETYPE_MARTIAL>The military has always drawn your eye. Even as a little child you would stare in awe at the marching soldiers and prancing horses, imagining their great victories on the battlefield. \n\nIt is time to strengthen yourself in military matters.<p=SUBJECT_CHARACTER_ARCHETYPE_COVERT>The back-alleys ways of palace intrigue has always attracted your notice; the subtle whiff of poisons; the laughter of an assassin with a concealed blade; the negotiations in shadowy establishments with unseen powers. \n\nOne must always be able to learn another skill set in this business.<else>It's all so very dull.<end>"
+        "English": "As a young {G0:king:queen}, you realize you have much to learn about the ways of the court. <p.is_sub.S0=SUBJECT_CHARACTER_ARCHETYPE_REGAL>The subtle ways of power have always drawn your regard. As a little child you would watch the courtiers gossip and debate in hushed tones punctuated with vehement gestures and noble disdain. \n\nNow you find yourself wishing to learn the finer arts of the court.<p=SUBJECT_CHARACTER_ARCHETYPE_MARTIAL>The military has always drawn your eye. Even as a little child you would stare in awe at the marching soldiers and prancing horses, imagining their great victories on the battlefield. \n\nIt is time to strengthen yourself in military matters.<p=SUBJECT_CHARACTER_ARCHETYPE_COVERT>The back-alley ways of palace intrigue have always attracted your notice; the subtle whiff of poisons; the laughter of an assassin with a concealed blade; the negotiations in shadowy establishments with unseen powers. \n\nOne must always be able to learn another skill set in this business.<else>It's all so very dull.<end>"
       },
       {
         "zType": "TEXT_EVENTSTORY_BENEFICIAL_FLAWS_DEBAUCHED_PARTY",
@@ -5750,7 +5953,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_COURTESAN_IN_CONSORTS_CLOTHES_VENGEFUL",
-        "English": "At that evening's festival, you and {CHARACTER-1} are gossiping with a few notables when {CHARACTER-2} motions for you both to come meet the {G2:comely woman:dashing man} at {G2:his:her} side who wears the {G2:magnificent dress:splendid tunic} you loaned to {CHARACTER-SHORT-2}. One thing however is very clear, this {G2:woman:man} is a stunningly endowed courtesan. \n\n{CHARACTER-1} stiffens with concealed rage, and stares daggers at you. {G1:He:She} leans in close and whispers, \"You parade that whore around in my clothing? I will make you bleed for this.\""
+        "English": "At that evening's festival, you and {CHARACTER-1} are gossiping with a few notables when {CHARACTER-2} motions for you both to come meet the {G2:comely woman:dashing man} at {G2:his:her} side who wears the {G2:magnificent dress:splendid tunic} you loaned to {CHARACTER-SHORT-2}. One thing however is very clear, this {G2:woman:man} is a stunningly endowed courtesan. \n\n{CHARACTER-1} stiffens with concealed rage, and stares daggers at you. {G1:He:She} leans in close and whispers, \"You parade that parasite around in my clothing? I will make you bleed for this.\""
       },
       {
         "zType": "TEXT_EVENTSTORY_COURTESAN_IN_CONSORTS_CLOTHES_CARNAL",
@@ -5834,7 +6037,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_ASSASSINATED_INVESTIGATION",
-        "English": "{CHARACTER-2} comes to you late one evening with concern written all over {G2:his:her} face. \"My {G0:lord:lady}, I have heard whispers among my little birds that {CHARACTER-1} questions the circumstances of {CHARACTER-3}'s death. {G1:He:She} has begun an investigation. I believe this is a most concerning matter, but I have a rather... sharp solution in mind.\n\nDo I have your approval?\""
+        "English": "{CHARACTER-2} comes to you late one evening with concern written all over {G2:his:her} face. \"My {G3:king:queen}, I have heard whispers among my little birds that {CHARACTER-1} questions the circumstances of {CHARACTER-0}'s death. {G1:He:She} has begun an investigation. I believe this is a most concerning matter, but I have a rather... sharp solution in mind.\n\nDo I have your approval?\""
       },
       {
         "zType": "TEXT_EVENTSTORY_HOLD_COURT_NEW_COURTIER",
@@ -5878,7 +6081,55 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL",
-        "English": "{CHARACTER-0} has long been planning {G0:his:her} revenge against you, but your long campaign of {random_R0:placating:intimidating:apologizing to} them has finally convinced {G0:him:her} that it is no longer worth it. You are certainly not friends with {CHARACTER-SHORT-0}, but they are no longer pursuing revenge."
+        "English": "{CHARACTER-0} has long been planning {G0:his:her} revenge against you, but your long campaign of {random_R0:placating:intimidating:apologizing to} {G0:him:her} has finally convinced {G0:him:her} that it is no longer worth it. You are certainly not friends with {CHARACTER-SHORT-0}, but {G0:he:she} is no longer pursuing revenge."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_INFLUENCE_OF_IDEAS",
+        "English": "Reports indicate that someone in your court has been sharing information with the {PLAYER-0,3}, and {CHARACTER-0} has been heard boasting of how {G0:he:she} is eager to put the {PLAYER-1,1} technology to use. \n\nFollowing the trail, your agents discover that the breakthrough came from a message from {CHARACTER-3} to a distant relative in the foreign nation. Your guards intercept a subsequent message in which {CHARACTER-SHORT-3} is asking the relative to hide any involvement, confirming the suspicions.\n\nBrought before you in tears, {CHARACTER-SHORT-3} professes innocence, claiming that the first message was a thoughtless mistake."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_VENGEFUL_TO_PLOTTING",
+        "English": "{random_R0:It has long been known to you that {CHARACTER-0} feels ill-done by you and harbors vengeful thoughts. Until now it has only been words. However, due to the loose lips of one member of {G0:his:her} cabal, word has reached you that {G0:he:she} is now actively plotting against you.:{CHARACTER-0} has long been consumed with the desire to take revenge against you. Until now {G0:he:she} had not taken any real actions against you. This has changed. Word has reached you that {CHARACTER-SHORT-0} has begun recruiting conspirators into {G0:his:her} plot against you!:{CHARACTER-0} has never been shy about {G0:his:her} quest for revenge on you. Recently {G0:he:she} has gone quiet. There’s only one likely explanation. {G0:He:She} has moved from words onto deeds and is no doubt now actively plotting your downfall!}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_1",
+        "English": "The morning after a great royal feast, you wake up next to one of your minor courtiers. The affair was short... but entertaining.\n\nMuch of the night was spent in deep conversation with your paramour, talking about everything from the construction of palaces to your favorite desserts."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_2",
+        "English": "The morning after a great royal feast, you wake up next to one of your minor courtiers. The affair was short... but entertaining.\n\nThe short time that you had together was exactly what you needed. Returning to your duties you feel ready to conquer anything."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_3",
+        "English": "The morning after a great royal feast, you wake up next to one of your minor courtiers. The affair was short... but entertaining.\n\nThe problems start the next day, when news of your exploits starts to travel around the court. The night was fun, but you can't shake off a feeling that you are being laughed at behind your back."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS",
+        "English": "Returning from a tour of the nation, {RELATIVE-0} {CHARACTER-0} bounds into the hall, unable to hide {G0:his:her} unbound glee. Without prompting, {G0:he:she} quickly introduces you to {CHARACTER-2}, an old childhood friend whom {G0:he:she} happened to meet again on {G0:his:her} travels. The two traveled together for the rest of the journey and are now clearly in love.\n\n{CHARACTER-SHORT-0} asks for permission to marry {CHARACTER-SHORT-2}, but an advisor informs you that the {FAMILY-1} family had high hopes for a match with {CHARACTER-SHORT-0}. Shall the marriage be allowed, or is the risk of angering the nobles too high?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_RECOGNIZED",
+        "English": "You have agreed to go hunting with {CHARACTER-SHORT-1} in an attempt to influence the {PLAYER-1,1}. Preparing for the hunt, a face in {G1:his:her} entourage of followers takes you by surprise. Your agent {CHARACTER-0} clearly mirrors your own shock, and {CHARACTER-SHORT-1} notices the exchange before the two of you manage to regain composure. \n\n\"I didn't tell my party who I was riding with today to confirm my suspicions, which appear to be correct. Why should I trust someone who would send agents into {PLAYER-3,1} cities?\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_EXPOSED_KILLED",
+        "English": "The body of {CHARACTER-0} has been subtly returned to {PLAYER-3}. Your network of agents in {CITY-1} report that despite a ruse to lose them in a crowd, the {PLAYER-2,1} guards managed to track down and kill both {CHARACTER-SHORT-0} and the informant before they could escape. \n\nFortunately our role in this is still unknown, but the loss of {CHARACTER-0} is a serious blow to {PLAYER-3}."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_EXPOSED_SECRETS",
+        "English": "{CHARACTER-0} managed to retrieve the scrolls! In a stroke of cunning, {G0:he:she} changed the meeting location to the site of a large religious gathering taking place in {CITY-1}. The informant handed over the secrets, and {CHARACTER-SHORT-0} blended back into the crowd, ready to deliver the scrolls and adopt a new identity.\n\n{G0:His:Her} position in {CITY-1} is safe."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_EXPOSED",
+        "English": "Your agent {CHARACTER-0} has been living as one of the {PLAYER-2,3} of {CITY-1}, eating, sleeping, and working with them. While at the market, {G0:he:she} hears rumors of a new technology that is spreading across {PLAYER-2}, and {G0:he:she} is making moves to try and acquire it for ourselves. \n\nSuch direct questions have aroused suspicion, and {CHARACTER-SHORT-0} is sure that {G0:he:she} is being tailed by guards. However, there is an informant who may be able to deliver the needed scrolls. \n\nShould {CHARACTER-SHORT-0} be risked to get our hands on this new technology?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_WOUNDED",
+        "English": "Urgent word has arrived from the network of agents in {CITY-1}: {CHARACTER-0} has been wounded while trying to retrieve secrets from a {PLAYER-2,1} informant. The meeting was a trap, guards surrounding the building and forcing {CHARACTER-SHORT-0} to cut a path through. \n\nLuckily, the informant was killed and {CHARACTER-SHORT-0} kept {G0:his:her} face covered, so {G0:his:her} role there is not compromised. However, the wound could get worse if it is not seen to soon."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_RIGHT_PRICE",
+        "English": "Your agent {CHARACTER-SHORT-0} has failed to make contact for over a month. Worried of the implications this could have, the agent network in {CITY-1} is tasked with finding {G0:him:her}.\n\nThey soon return with news that the {PLAYER-2,3} managed to discover {CHARACTER-SHORT-0} and have made contact with {G0:him:her}, using <p.is_sub.S0=SUBJECT_CORRUPT>a hefty bribe<p=SUBJECT_GREEDY>the promise of wealth<p=SUBJECT_BLOODTHIRSTY>the promise of violence<p=SUBJECT_RUTHLESS>an additional sum for betrayal<p=SUBJECT_DECEITFUL>the pleasure of betrayal<else>a hefty bribe<end> to appeal to {G0:his:her} <p.is_sub.S0=SUBJECT_CORRUPT>corrupt<p=SUBJECT_GREEDY>greedy<p=SUBJECT_BLOODTHIRSTY>bloodthirsty<p=SUBJECT_RUTHLESS>ruthless<p=SUBJECT_DECEITFUL>deceitful<else>villainous<end> nature. \n\nThe deal is not yet complete. Shall we intervene to prevent this possible treachery?"
       },
       {
         "beginGroup": "City",
@@ -6184,6 +6435,22 @@
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_HUNGER_IN_CITY",
         "English": "Malnourishment in {CITY-1} has taken a tragic toll on the city's children, and leaders cry out for their {G0:king's:queen's} mercy. Doctors are needed to treat the weak and ill, and food must be provided to feed starving families.\n\nWe must take emergency action before this situation intensifies."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AUTONOMOUS_VASSAL",
+        "English": "Your vassals are happy under your rule, the {FAMILY-0} Family especially adapting to their role. Feeling favored above all others, they are loyal and eager to serve. \n\nHowever, this is tested when {CHARACTER-1} comes to you and asks for autonomous rule of {CITY-2}, citing an unexpected loophole in the laws that leaves the city under their command rather than the crown's. \n\nShould such independence be allowed?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEMAND_FOR_AUTONOMY",
+        "English": "Followers of the {FAMILY-0} Family have taken to the streets of {CITY-1} in the hundreds, protesting against collapsing roads and poor supplies in the city. Your advisers suspect that this is the result of a concentrated propaganda effort by the {FAMILY-0,1} to weaken your hold in the city.\n\nIt would be a bold move, but they suggest that giving the family completely autonomous rule of the city could go a long way to repairing relations with them. \n\nShall the {FAMILY-0,1} rule {CITY-1} alone?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INDEPENDENT_CITY",
+        "English": "Amidst growing discontent, the people of {CITY-0} have been becoming increasingly organized in their resistance to your rule. Headed by an elected council of elders, they have trained an independent militia and live by their own laws. \n\nA message has arrived from this council, asking that you recognize the city's independence. They promise to continue to swear fealty and to pay taxes, but beyond that the city will be out of your hands."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RECLAIMING_CONTROL",
+        "English": "The city of {CITY-0} has been living under its own guidance, away from the rule of {PLAYER-1}.\n\nA council from the city visits soon after hearing of your coronation. They are favorable to your rule and offer to bring the city back under the sway of the crown. \n\nWill you accept this offer, or allow {CITY-0} to keep their link(PROJECT_AUTONOMOUS_RULE)?"
       },
       {
         "beginGroup": "Religion",
@@ -6689,6 +6956,10 @@
       {
         "zType": "TEXT_EVENTSTORY_A_HOLY_STATE",
         "English": "The rise of {RELIGION-1} has inspired many in the court to question {PLAYER-3}'s lack of a link(CONCEPT_STATE_RELIGION). {CHARACTER-0} has become the most outspoken proponent of the idea.\n\n\"No {G3:man:woman} should be expected to rule alone, without the wisdom of heaven,\" explains {CHARACTER-SHORT-0}. \"Do this now, and we can do it together.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_RELIGIOUS_COMPANION",
+        "English": "A group of {RELIGION-0,1} <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end> have found two potential suitors for your hand, claiming that it is vital that you wed someone of the faith. \n\nWould {CHARACTER-2} or {CHARACTER-3} make a worthy {G2:husband:bride}, or should the <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Magi<p=SUBJECT_CHRISTIANITY>Bishops<p=SUBJECT_JUDAISM>Kohanim<p=SUBJECT_MANICHAEISM>Elect<else>Priests<end> and their candidates be turned away?"
       },
       {
         "beginGroup": "Law",
@@ -7465,6 +7736,30 @@
         "English": "We have received a very strange request. Our {RELIGION-1,1} priests believe that with the proper sacrifice, their higher power will instruct them in the  knowledge of... time travel.\n\nShall we make a sacrifice?"
       },
       {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CURSED",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward with a wail of dismay. “You have doomed us with this folly,” {G0:he:she} cries! “Your life shall be cursed from this day until your death!”\n\nYour guards quickly escort this lunatic away, but you cannot shake the ominous feeling that {G0:his:her} words caused."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_BLESSED",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward with a cry of joy. “Oh happy days,” {G0:he:she} exclaims! “Your life shall be blessed from this day until your death!”\n\nThe {G0:man:woman} smiles warmly at you before striding off, and the positive feeling that {G0:his:her} words caused remain with you throughout the day."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_WISDOM",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have some advice for you,” {G0:he:she} says, stroking {G0:his:her} {G0:beard:chin}. “Balance self-interest with the collective good, and seek understanding for its own sake”\n\nThe {G0:man:woman} smiles knowingly at you before walking away, and you realise that you feel wiser for {G0:his:her} words."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CHARISMA",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have some advice for you,” {G0:he:she} says, striking a dramatic pose. “Stand tall, and always try to use people’s names, {CHARACTER-SHORT-0}! Make a little effort to know people and they will love you for it”\n\nThe {G0:man:woman} winks roguishly at you before striding off, leaving you to ponder {G0:his:her} words."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_DISCIPLINE",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “I have waited a long time to tell you this,” {G0:he:she} says, sternly, “but being able to wait patiently for the perfect moment is the key to victory.”\n\nThe {G0:man:woman} nods regally before marching off, leaving you to ponder {G0:his:her} words."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_RICHES",
+        "English": "As you complete the sacrifice, a strange old {G0:man:woman} whom you had not noticed before suddenly steps forward. “A few coins, wisely invested,” {G0:he:she} says, handing you a heavy sack, “can result in you being able to hand a sack of jewels to your inheritor.”\n\nThoroughly distracted by the wealth in your hands, you do not notice the old {G0:man:woman} leaving."
+      },
+      {
         "zType": "TEXT_EVENTSTORY_RELIGIOUS_FREEDOM",
         "English": "Priests of our link(CONCEPT_STATE_RELIGION) of {RELIGION-1} have asked us to adopt an orthodox religious culture. However, the followers of {RELIGION-2} prefer a path of tolerance.\n\nWhat will we choose?"
       },
@@ -7502,7 +7797,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TECH_LATEEN_MAIDEN_VOYAGE",
-        "English": "With the development of the link(TECH_JURISPRUDENCE), the court is eager to expand its reach over the mysterious seas. Yet there is disagreement over what types of vessels should be built for our maiden voyages. What we choose will show the world how we plan to utilize this powerful new technology."
+        "English": "With the development of link(TECH_JURISPRUDENCE), the court is eager to expand its reach over the mysterious seas. Yet there is disagreement over what types of vessels should be built for our maiden voyages. What we choose will show the world how we plan to utilize this powerful new technology."
       },
       {
         "zType": "TEXT_EVENTSTORY_TECH_LATEEN_ADRIFT",
@@ -7598,7 +7893,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_GRADUATION_STUDIES_COMPLETE_RHETORIC",
-        "English": "{CHARACTER-0} has returned from {G0:his:her} rhetoric studies, but {G0:he:she} would like to retain a tutor for additional training.\n\nWhat shall be the focus of {G0:his:her} continuing education?"
+        "English": "{CHARACTER-0} has returned from {G0:his:her} political studies, but {G0:he:she} would like to retain a tutor for additional training.\n\nWhat shall be the focus of {G0:his:her} continuing education?"
       },
       {
         "zType": "TEXT_EVENTSTORY_GRADUATION_STUDIES_COMPLETE_COMMERCE",
@@ -7738,7 +8033,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_RELATIONSHIP_SHARED_INTERESTS",
-        "English": "A visiting {PLAYER-0,1} scholar falls before the throne, flattering you with tales of {PLAYER-0}'s envy. According to him, {CHARACTER-SHORT-0} aspires to emulate your leadership, knowledge, and tolerance. \"You are both searchers for the truth. It is right that you be companions on this journey.\"\n\nThe {PLAYER-0,1} advisor bestows upon you a gift of ancient texts, a sign of {CHARACTER-SHORT-0}'s  friendship."
+        "English": "A visiting {PLAYER-0,1} scholar falls before the throne, flattering you with tales of {PLAYER-0}'s envy. According to him, {CHARACTER-SHORT-0} aspires to emulate your leadership, knowledge, and tolerance. \"You are both searchers for the truth. It is right that you be companions on this journey.\"\n\nThe {PLAYER-0,1} advisor bestows upon you a gift of ancient texts, a sign of {CHARACTER-SHORT-0}'s friendship."
       },
       {
         "zType": "TEXT_EVENTSTORY_RELATIONSHIP_AN_ADMIRER",
@@ -8434,7 +8729,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_TRADE_NETWORK",
-        "English": "You've built your first link(IMPROVEMENT_HAMLET)! A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), will produce extra link(YIELD_MONEY,1) if brought into your link(CONCEPT_TRADE_NETWORK)! Bringing a city into your link(CONCEPT_TRADE_NETWORK) will reduce link(YIELD_DISCONTENT,1) there.\n\nThe link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City. Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another via link(CONCEPT_ROAD,2), link(CONCEPT_RIVER,2), link(TERRAIN_URBAN) Tiles, and even open water. You can connect a City to its link(IMPROVEMENT_HARBOR) with a link(CONCEPT_ROAD). You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button below the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key, and verify that a City is link(EFFECTCITY_CONNECTED) to the link(CONCEPT_TRADE_NETWORK) by checking that the  icon(CONNECTED) icon is displayed under its City Banner."
+        "English": "You've built your first link(IMPROVEMENT_HAMLET)! A link(IMPROVEMENT_HAMLET) and its upgrades, link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), will produce extra link(YIELD_MONEY,1) if brought into your link(CONCEPT_TRADE_NETWORK)! Bringing a city into your link(CONCEPT_TRADE_NETWORK) will reduce link(YIELD_DISCONTENT,1) there.\n\nThe link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City. Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another via link(CONCEPT_ROAD,2), link(CONCEPT_RIVER,2), link(TERRAIN_URBAN) Tiles, and even open water. You can connect a City to its link(IMPROVEMENT_HARBOR) with a link(CONCEPT_ROAD). You can check the link(CONCEPT_TRADE_NETWORK) overlay with the icon(MAP_OVERLAY_NETWORK) button on the left edge of the mini-map, or the hotkey(HOTKEY_SHOW_TRADE_NETWORK) key, and verify that a City is link(EFFECTCITY_CONNECTED) to the link(CONCEPT_TRADE_NETWORK) by checking that the  icon(CONNECTED) icon is displayed under its City Banner."
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_MERCENARIES",
@@ -8446,7 +8741,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_RUSH_BUYING",
-        "English": "Now that {CITY-0} has reached the link(CULTURE_DEVELOPING) link(CONCEPT_CULTURE_LEVEL), various options for link(CONCEPT_HURRY,1) in the City have become available. \n\nWith the link(CULTURE_DEVELOPING) (or higher) link(CONCEPT_CULTURE_LEVEL) alone, a City can link(CONCEPT_HURRY) at the cost of some link(YIELD_CIVICS,1) and link(YIELD_DISCONTENT,1). Other methods of link(CONCEPT_HURRY,1) are further enabled by certain link(CONCEPT_GOVERNOR) traits or Laws like link(LAW_ORTHODOXY) and link(LAW_VOLUNTEERS). These distinct means of link(CONCEPT_HURRY,1) cost resources other than link(YIELD_CIVICS) (although they all produce link(YIELD_DISCONTENT)).\n\nYou can see the different options for link(CONCEPT_HURRY,1) in the City Panel underneath the current production in progress. link(CONCEPT_HURRY,1) can be expensive but can also save you in a tight spot!"
+        "English": "Now that {CITY-0} has reached the link(CULTURE_DEVELOPING) link(CONCEPT_CULTURE_LEVEL), various options for link(CONCEPT_HURRY,1) in the City have become available. \n\nWith the link(CULTURE_DEVELOPING) (or higher) link(CONCEPT_CULTURE_LEVEL) alone, a City can link(CONCEPT_HURRY) at the cost of some link(YIELD_CIVICS,1) and link(YIELD_DISCONTENT,1). Other methods of link(CONCEPT_HURRY,1) are further enabled by certain link(CONCEPT_GOVERNOR) traits or Laws like link(LAW_ORTHODOXY) and link(LAW_VOLUNTEERS). These distinct means of link(CONCEPT_HURRY,1) cost resources other than link(YIELD_CIVICS) (although they all produce link(YIELD_DISCONTENT)). For example, with the link(LAW_HOLY_WAR) Law and a link(CONCEPT_STATE_RELIGION) you can link(CONCEPT_HURRY) with link(YIELD_MONEY,1), and the link(FAMILYCLASS_PATRONS) link(CONCEPT_FAMILY_CLASS) can always link(CONCEPT_HURRY) with link(YIELD_MONEY,1).\n\nYou can see the different options for link(CONCEPT_HURRY,1) in the City Panel underneath the current production in progress. link(CONCEPT_HURRY,1) can be expensive but can also save you in a tight spot!"
       },
       {
         "zType": "TEXT_EVENTSTORY_ORIGINAL_OWNER_POOR_TREATMENT",
@@ -8488,6 +8783,10 @@
       {
         "zType": "TEXT_EVENTSTORY_VICTORY_CONQUEST",
         "English": "You look out over the banners of your assembled army. Thousands of proud {PLAYER-0,1} faces look up at you. No one remains who opposes you. No one is left to fight. It is time for you and your army to return home... as Heroes of the Old World.\n\nCongratulations, you have won a link(VICTORY_CONQUEST) by destroying all of your opponents."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GAME_WIN_ALLIANCE",
+        "English": "Your ally {PLAYER-1} has achieved supremacy at last, and you feel proud that you contributed to the winning side. Your triumphant link(CONCEPT_ALLIANCE_PLAYER) will be remembered for centuries to come."
       },
       {
         "zType": "TEXT_EVENTSTORY_GAME_LOSS",
@@ -8707,7 +9006,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_INTERCESSION_MISSION",
-        "English": "link(MISSION_INTERCESSION_RELIGION) and link(MISSION_INTERCESSION_FAMILY) Missions give you the chance to have a link(CONCEPT_RELIGION) or link(CONCEPT_FAMILY) Head speak to another Character on behalf of your Leader, potentially increasing that Character's link(CONCEPT_OPINION_CHARACTER) of your leader at the cost of a few link(YIELD_ORDERS,1)  and some link(YIELD_MONEY,1). Such Missions may also lead to follow up Events.\n\nYou can conduct an link(MISSION_INTERCESSION_RELIGION) or link(MISSION_INTERCESSION_FAMILY) Mission by clicking the  icon(MISSION_INTERCESSION) Intercession button in the Action Panel on the left while a Character other than your Leader is selected. The link(CONCEPT_RELIGION) Head may intercede with members of any link(CONCEPT_NATION) or link(CONCEPT_TRIBE) if they follow the same link(CONCEPT_RELIGION). The link(CONCEPT_FAMILY) Head may intercede with any members of their link(CONCEPT_FAMILY)."
+        "English": "link(MISSION_INTERCESSION_RELIGION) and link(MISSION_INTERCESSION_FAMILY) Missions give you the chance to have a link(CONCEPT_RELIGION) or link(CONCEPT_FAMILY) Head speak to another Character on behalf of your Leader, potentially increasing that Character's link(CONCEPT_OPINION_CHARACTER) of your leader at the cost of a few link(YIELD_ORDERS,1)  and some link(YIELD_MONEY,1). Such Missions may also lead to follow up Events.\n\nYou can conduct an link(MISSION_INTERCESSION_RELIGION) or link(MISSION_INTERCESSION_FAMILY) Mission by clicking the  icon(MISSION_INTERCESSION) Intercession button in the Action Panel on the left while a Character other than your Leader is selected. The link(CONCEPT_RELIGION) Head (who must belong to your link(CONCEPT_NATION)) may intercede with members of any link(CONCEPT_NATION) or link(CONCEPT_TRIBE) if they follow the same link(CONCEPT_RELIGION). The link(CONCEPT_FAMILY) Head may intercede with any members of their link(CONCEPT_FAMILY)."
       },
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_TECH_DECK",
@@ -9045,15 +9344,15 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_PROPHET_AND_THE_PARCHED_LAND",
-        "English": "There has been no rain this spring, and the streams of the land have dried up. Your horses and cattle starve for lack of grass. As the court rides throughout {PLAYER-0}, looking for grass for your herds, {CHARACTER-SHORT-2} appears before you in the wilderness.\n\n\"Thus saith Jehovah! You have forsaken the commandments of {RELIGION-3} and followed other gods. Now gather all the acolytes of the land, and rain shall return to the land.\""
+        "English": "There has been no rain this spring, and the streams of the land have dried up. Your horses and cattle starve for lack of grass. As the court rides throughout {PLAYER-3}, looking for grass for your herds, {CHARACTER-SHORT-1} appears before you in the wilderness.\n\n\"Thus saith Jehovah! You have forsaken the commandments of {RELIGION-0} and followed other gods. Now gather all the acolytes of the land, and rain shall return to the land.\""
       },
       {
         "zType": "TEXT_EVENTSTORY_A_NEW_HOPE",
-        "English": "In the early hours of the morning, tens of thousands watch the showdown between four hundred and fifty priests of the old gods and {CHARACTER-SHORT-2}.\n\n{CHARACTER-SHORT-2} storms up the mountain, righteous anger burning in his eyes, and confronts the sacred priests to the delight of the crowd.\n\n\"My people, choose! If Jehovah is supreme, then follow him. If these gods are supreme, then follow them! Bring us two bulls. Slaughter them here on two alters, but do not light them on fire.\"\n\n{CHARACTER-SHORT-2} pauses for a moment, wild-eyed. \"Call on your gods, and I shall call on Jehovah. Let the true god answer by fire!\""
+        "English": "In the early hours of the morning, tens of thousands watch the showdown between four hundred and fifty priests of the old gods and {CHARACTER-SHORT-1}.\n\n{CHARACTER-SHORT-1} storms up the mountain, righteous anger burning in his eyes, and confronts the sacred priests to the delight of the crowd.\n\n\"My people, choose! If Jehovah is supreme, then follow him. If these gods are supreme, then follow them! Bring us two bulls. Slaughter them here on two alters, but do not light them on fire.\"\n\n{CHARACTER-SHORT-1} pauses for a moment, wild-eyed. \"Call on your gods, and I shall call on Jehovah. Let the true god answer by fire!\""
       },
       {
         "zType": "TEXT_EVENTSTORY_THE_PROPHET_STRIKES_BACK",
-        "English": "That day, four hundred and fifty acolytes call upon the old gods to light their sacrifice on fire and break the drought. The priests flog themselves with spears and whips, blood covers the ground around the altar, as they scream and dance for their gods.\n\n\"Oy fellas! Maybe your gods are meditating or maybe they're asleep, yeah?\" {CHARACTER-SHORT-2} taunts the priests incessantly. \"I mean they do love a good orgy... Oh! What if they're on a journey?\"\n\nWhen the evening arrives, {CHARACTER-SHORT-2} takes twelve stones, builds a humble altar, digs a trench around the altar. He slaughters his bull upon the altar and orders twelve barrels of precious water poured over the altar, soaking the very stones.\n\n\"Hear me, O Jehovah, that this people may know that you are God,\" begs {CHARACTER-SHORT-2} in solemn prayer as Fire from heaven strikes the altar and consumes the bull, wood, stones, and water in the trench. \"Seize these false priests!\" {CHARACTER-SHORT-2} bellows to the crowd, driving them into a frenzy. That night {CHARACTER-SHORT-2} kills each of the acolytes and, a few days later, rain returns."
+        "English": "That day, four hundred and fifty acolytes call upon the old gods to light their sacrifice on fire and break the drought. The priests flog themselves with spears and whips, blood covers the ground around the altar, as they scream and dance for their gods.\n\n\"Oy fellas! Maybe your gods are meditating or maybe they're asleep, yeah?\" {CHARACTER-SHORT-1} taunts the priests incessantly. \"I mean they do love a good orgy... Oh! What if they're on a journey?\"\n\nWhen the evening arrives, {CHARACTER-SHORT-1} takes twelve stones, builds a humble altar, digs a trench around the altar. He slaughters his bull upon the altar and orders twelve barrels of precious water poured over the altar, soaking the very stones.\n\n\"Hear me, O Jehovah, that this people may know that you are God,\" begs {CHARACTER-SHORT-1} in solemn prayer as Fire from heaven strikes the altar and consumes the bull, wood, stones, and water in the trench. \"Seize these false priests!\" {CHARACTER-SHORT-1} bellows to the crowd, driving them into a frenzy. That night {CHARACTER-SHORT-1} kills each of the acolytes and, a few days later, rain returns."
       },
       {
         "zType": "TEXT_EVENTSTORY_RETURN_OF_THE_PROPHET",
@@ -9113,7 +9412,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_EXPERIENCED_INSTRUCTOR",
-        "English": "{CHARACTER-0} has been training soldiers personally for years and has acquired quite a reputation. Now {G0:he:she} returns to you, saying that {G0:he:she} is ready to serve as a general in our army. There is no doubt that {CHARACTER-0} possesses exceptional tactical skills and is well-respected."
+        "English": "{CHARACTER-0} has been training soldiers personally and has acquired quite a reputation. Now {G0:he:she} returns to you, saying that {G0:he:she} is ready to serve as a general in our army. There is no doubt that {CHARACTER-0} possesses exceptional tactical skills and is well-respected."
       },
       {
         "zType": "TEXT_EVENTSTORY_INFILTRATION_UNWELCOME_MEETING",
@@ -9393,15 +9692,15 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_COMPANIONS_AND_CAPTIVES",
-        "English": "You note with pride during the attack on {CITY-2} how one of your close companions, {CHARACTER-5}, excels in the heat of battle. However, within the city your troops discover a large party of {PLAYER-0,1} citizens, captured during border raids into our lands. A majority are from the {FAMILY-4} family.\n\nTime is of the essence, so we can only handle one of these matters."
+        "English": "You note with pride during the attack on {CITY-0} how one of your close companions, {CHARACTER-3}, excels in the heat of battle. However, within the city your troops discover a large party of {PLAYER-4,1} citizens, captured during border raids into our lands. A majority are from the {FAMILY-2} family.\n\nTime is of the essence, so we can only handle one of these matters."
       },
       {
         "zType": "TEXT_EVENTSTORY_FESTIVAL_FOR_THE_FREED",
-        "English": "A festival is held in celebration of the freed people of {CITY-1} as they embark on a new life free from {PLAYER-2}. One of those freed, {CHARACTER-6}, catches your eye, for {G6:he:she} is a rare beauty and intelligent too according to the officials tasked with administering the newly freed city.\n\nA sudden urge strikes you."
+        "English": "A festival is held in celebration of the freed people of {CITY-0} as they embark on a new life under {PLAYER-4}. One of those freed, {CHARACTER-5}, catches your eye, for {G5:he:she} is a rare beauty and intelligent too - according to the officials tasked with administering the newly freed city.\n\nA sudden urge strikes you."
       },
       {
         "zType": "TEXT_EVENTSTORY_TROUBLED_COMPANION",
-        "English": "Your favored companion, {CHARACTER-5}, recently elevated to general, seems troubled of late. Drunken escapades do little to lift {G5:his:her} mood until one evening {G5:he:she} professes to be in love with {CHARACTER-6}. {G5:He:She} wishes to marry {G6:him:her} and asks for your blessing, despite the obvious issue that {CHARACTER-SHORT-6} does not love {G6:him:her}, but rather you. Or so you hope.\n\nWhom do you love more, {CHARACTER-5} or {CHARACTER-6}, and how will you respond to {CHARACTER-SHORT-5}'s request?"
+        "English": "Your favored companion, {CHARACTER-3}, recently elevated to general, seems troubled of late. Drunken escapades do little to lift {G3:his:her} mood until one evening {G3:he:she} professes to be in love with {CHARACTER-5}. {G3:He:She} wishes to marry {G5:him:her} and asks for your blessing, despite the obvious issue that {CHARACTER-SHORT-5} does not love {G3:him:her}, but rather you. Or so you hope. \n\nWhom do you love more, {CHARACTER-3} or {CHARACTER-5}, and how will you respond to {CHARACTER-SHORT-3}'s request?"
       },
       {
         "zType": "TEXT_ACHIEVEMENT",
@@ -9513,6 +9812,10 @@
         "English": "{CITY-1} grows strong, and {PLAYER-0} with it, following your recent move to centralize our nation’s government. How shall we further hone our focus?"
       },
       {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_VASSALAGE",
+        "English": "With link(LAW_VASSALAGE) established, you feel confident that {PLAYER-0} will flourish. Some express concern over what they see as a dilution of power in the capital, but most of your subjects applaud the new law. Your vassals and courtiers alike wish to know the path forward."
+      },
+      {
         "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_FREEDOM",
         "English": "The free people of {PLAYER-0} join with you to celebrate your declaration of link(LAW_FREEDOM). Although some of those close to you oppose the idea and warn you of its consequences, many are supportive and encourage you to venture forth down the path you have started.\n\nWhat do you seek for {PLAYER-0} and for yourself?"
       },
@@ -9523,6 +9826,194 @@
       {
         "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_SLAVERY",
         "English": "More than just a rule of law, your recent establishment of link(LAW_SLAVERY) stands as a statement to all within and without {PLAYER-0}’s borders. We know our place in the world and the place of others.\n\nWhat is your path forward?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER",
+        "English": "The armies of {PLAYER-0} march in a procession through {CITY-1} under your watchful gaze. Your military might is something to be feared, and people have taken to calling you The Drillmaster in recognition of your ability to wield the armies of our nation with ruthless effectiveness. \n\nAmbition and pride swells up. Perhaps this is the prime opportunity to pursue a new ambition to ensure your legacy?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR",
+        "English": "Your ability to mediate with other leaders has led to a time of flourishing peace and trade. The people of {PLAYER-0} fondly praise your skills in diplomacy, and your reputation has grown to the point that you are referred to as The Intercessor. \n\nHaving peace and allies amongst the other peoples of the world gives you a chance to take time and reflect. Will you undertake a new ambition to secure your legacy?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_SETTLER",
+        "English": "Under your rule, {PLAYER-0} has pushed ever outwards into new lands, cities rising at a speed never seen before. This rapid expansion has your name traveling across the world, with people calling you The Settler. \n\nYou travel to your newest city, watching as the scaffold is raised for a new administrative center. As with each, inscriptions are written to praise your rule. Watching the artisans work leads you to reflect on your legacy. What successes will be written about you in the future?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_EXPLORER",
+        "English": "The scouts of {PLAYER-0} are fearless, exploring ever further under your expert direction. With the latest reports of far off lands, you have had the many discoveries compiled into a map of the known world. News of this spreads and you are soon known as The Explorer.\n\nPoring over the map and imagining the places still undiscovered, you wonder how you will stand apart from the other nations of the world. Is it time to pursue a new ambition to secure the name of {PLAYER-0}?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_INTREPID",
+        "English": "Your name has reached even the far-flung corners of the world, your scouts returning with tales of wondrous lands and incredible creatures. Legend holds that there is no place of which {PLAYER-0} does not know, and you are praised throughout the nation as The Intrepid.\n\nAs your world has expanded, you have become aware of the ways of other people and cultures. Reflecting on your place in the world raises a question: There is still so much of the world to discover, but where do your ambitions lie?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED",
+        "English": "The curiosity of the people of {PLAYER-0} has led to an age of discoveries under your encouraging rule, with the advancement of technology changing daily life for all, from farmers to nobles. Your name is synonymous with these changes, and the people have credited you as The Enlightened. \n\nAs the scholars of the court list their latest findings, you wonder if there is a way to ensure such a legacy of knowledge and wisdom continues. Will you pursue this ambition?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_WEAK",
+        "English": "It has been a difficult time. The armies and cities of {PLAYER-0} have taken a battering under your rule, with some giving into despair and labeling you as The Weak. But all is not lost. You are not defeated yet, and the fire of ambition still burns within! \n\nWill you pursue an ambition to prove wrong those who doubt your rule?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_STRONG",
+        "English": "The Strong. That is what they call you, from the travelers on the road to the royal courts of far off lands. It is well known that {PLAYER-0} has risen to meet every challenge under your rule, whether on the field of battle or in the back and forth of diplomacy. \n\nThe question that all are wondering is what next? Pride often comes before the fall, and it is time for you to prove your legitimacy as a leader of action. What ambition would take your name to even greater heights?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_MIGHTY",
+        "English": "No force can halt the tide of the {PLAYER-0,1} armies under your command. People are learning to fear our nation’s military prowess, and our warriors are regarded with awe across the world. The reputation of your name travels too: {CHARACTER-SHORT-0} the Mighty is a name on many lips. \n\nSuch victories on the field of battle have increased your reputation, but with such fame comes the question of legacy. To what glorious purpose shall you turn your armies and your mighty gaze?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_READY",
+        "English": "The armies of {PLAYER-0} have grown at an incredible rate, rumors spreading that your forces are numerous beyond compare, dwarfing those of other nations. Your reputation for training and promoting troops has the world trembling at your name, {CHARACTER-SHORT-0} the Ready. \n\nThe question for most is to what purpose are these armies intended? It is something that you yourself ponder while looking out over the sea of warriors. Where do your ambitions lie?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_AVENGER",
+        "English": "The tribes of the world whisper your name in fear. The sites left torched by your armies have consigned many potential nations to the footnotes of history, but the people of {PLAYER-0} celebrate your victories, proclaiming you as The Avenger. \n\nYou have gained your reputation in war against the tribes. Do you continue this path, or do your ambitions lie elsewhere?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_CONQUERER",
+        "English": "Another city has fallen before your might! As news of your victory spreads, so does the legend of your power in war: It is said that no city can stand before you, {CHARACTER-SHORT-0} the Conquerer. \n\nSurveying the damage caused by the siege, you wonder what comes next. How shall you leave your mark on the world?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_BRILLIANT",
+        "English": "Under your rule, the court of {PLAYER-0} has flourished with skilled courtiers and specialists. Surrounding yourself with those of such potential and expertise has led to your reputation as {CHARACTER-SHORT-0} The Brilliant, a ruler of wisdom and grace. \n\nSo much talent around you has another effect: You feel driven to do more, to be better and to leave a lasting legacy on the world. Will you follow this inspiration to pursue a new ambition?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_ARCHITECT",
+        "English": "Dust scatters as the large stone block is moved into place, a team of five lifting as another guides them. All are aware of your watchful gaze and work hard to impress their {G0:king:queen}. The flurry of construction under your reign has made a lasting impression, and a nickname first given by the workers has spread - {CHARACTER-SHORT-0} the Architect. \n\nAs you watch such diligence, you reflect on your own work. Will you pursue a new ambition and drive yourself to new heights?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_KEYSTONE",
+        "English": "The buildings of your cities are visible for miles around, wondrous constructions that tourists travel the world to see. The legend of the buildings of {PLAYER-0} has also led to a new name for you, {CHARACTER-SHORT-0} the Keystone. \n\nA meeting with your leading architects raises a question of what statues you want displayed on the latest monuments. There is always more to achieve. Will you announce a new ambition to those assembled?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_DEVOUT",
+        "English": "Your dedication to the heavens has not gone unnoticed by those on earth. Your court is often called upon by people of faith, with visitors commenting that your halls almost feel like a temple. Word of your aura has led to renown as {CHARACTER-SHORT-0} the Devout. \n\nThe voices of those in ritual worship rise up to the palace; your rule has seen a wave of religious fervor. As you reflect on the voices, you wonder if there is a way to express your devotion through action."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG",
+        "English": "You are the latest of a chain of rulers, a link in the dynasty that will rule for all time. Each day, you are surrounded by the successes of your predecessors, statues, inscriptions, monuments, festivals all praising their varied successes. True or not. \n\nAlthough their legitimacy upholds your own, it is vital that you make your own mark on {PLAYER-1}. There is an upcoming new year festival, will you proclaim a new ambition to your people?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_RULER",
+        "English": "{PLAYER-0} is held together by the legitimacy of your dynasty, those with the ambition and the heritage to rule. All eyes are on you and how you will steer then nation. \n\nWhat will you aim for? What legacy do you wish to leave behind?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_OLD",
+        "English": "How do you want to be remembered? The many years of your life make themselves felt in your every movement, but you are not yet too old for action! Knowing that the end is likely close brings a certain clarity and purpose. \n\nWill you use your lasting vigor to aim for a new ambition?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GROWING_COMPETITION",
+        "English": "{PLAYER-2} is closely mirrored by our neighbor, {PLAYER-0}. The proximity of their nation, in both position and power, has led to a wary tension between the two. Your subjects pass around rumors of the strange practices of their people and ministers fret over the threat of war if they turn their gaze toward our resources. \n\nYour advisers suggest taking action to prepare in case of a rise in {PLAYER-0,1} power."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS_AT_WAR",
+        "English": "The mounting rivalry with {PLAYER-0} has only deepened by the war between your two nations. The scars on the minds of those whose homes have been destroyed and their family killed will never fade. Every battle deepens the divide. \n\nHow will you strive to surpass {PLAYER-0}?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS_AT_PEACE",
+        "English": "The tension with {PLAYER-0} has been appeased with a peace, but undercurrents of rivalry still make themselves known as your nations vie for the glory and renown to stand above the other. \n\nWill you continue this legacy of competition?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_OLD_WAYS",
+        "English": "The pagan ways of {PLAYER-5} are surrounded by new religions like {RELIGION-1} and {RELIGION-2}. But the old ways are a part of life and culture, interwoven into the very fabric of your way of being. What does it mean to the future of {PLAYER-5} and your rule if these ways die out?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_REVENGE_FOR_LEADER"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_LEGACY_OF_RULER",
+        "English": "The legacy of {CHARACTER-0} still resonates through the {PLAYER-1,1} world. {G0:His:Her} name is used as an example of ideal rule, and {G0:he:she} remains the subject of many tales, songs and plays. \n\nHow does a {G1:king:queen} live up to such a great legacy? The question returns as you find yourself facing yet another application to erect a statue of the historic ruler."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EPIC_LEGACY",
+        "English": "The link(LAW_EPICS) of your people are told by word of mouth, inscribed in stone and depicted in painting. Most popular among these stories is the tale of {CHARACTER-0}, the legendary founder of {PLAYER-0}. \n\nThe legacy of such a name inspires awe, yet also brings a certain responsibility. Will you try to live up to the name of {G0:he:she} who came before you?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEFINED_BY_WAR",
+        "English": "The war with {PLAYER-0} is threatening to define your rule in the eyes of the people of {PLAYER-1}. Your name inspires as a leader in combat, yet is that all that will be remembered of your achievements? \n\nAs reports return of another sortie against the enemy forces, the question remains: Will you commit to this path of war? Or do you aim to follow a different road?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NEXT_GENERATION",
+        "English": "You bring your children {CHARACTER-0} and {CHARACTER-1} to the throne room one evening, to sit in your place and to feel the responsibility of leading {PLAYER-2}. \n\nAs they take turns, one of your advisers asks them what change they would implement first as ruler. Interested, you listen on, curious if either will impress you."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RICHES_OF_NATION",
+        "English": "The treasuries of {CITY-0} and {CITY-1} are overflowing, great wealth hoarded in the stone vaults. \n\nAs your ministers share their reports on the state of the nation, the question forms in your mind of whether the wealth from these cities is best left alone, or if it should be invested back into the improvement of {PLAYER-2}..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_POWER_OF_THE_PEOPLE",
+        "English": "The people of {CITY-0} are up in arms, complaining about the state of affairs in {PLAYER-1}. A mob has gathered in front of the palace, demanding that you face them. Although your guards can easily hold them back, you wonder if a promise to improve would help to calm the simmering resentment. \n\nWill you address the crowd?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LOVE_OF_THE_LAND",
+        "English": "{CHARACTER-SHORT-0} is not only your {p.is_sub.S0=SUBJECT_SPOUSE_OF_LEADER_US:spouse:lover}, but your love. The rule of {PLAYER-1} would be a cold and lonely path without your muse. \n\nWatching as {G0:he:she} {p.is_sub.S0=SUBJECT_EQUESTRIAN:rides:p.is_sub.S0=SUBJECT_WARLIKE:trains:p.is_sub.S0=SUBJECT_DILIGENT:works:relaxes} one day, you wonder if there is some gift you could pursue for your love."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRUSTED_COUNCIL",
+        "English": "The members of your council have gathered together to discuss the state of affairs in {PLAYER-3}. Your Spymaster {CHARACTER-SHORT-0} is seated, an aura of {p.is_sub.S0=SUBJECT_CHARACTER_MIN_PLEASED:inplacable and reassuring calm:cold malice} surrounding {G0:him:her}. Chancellor {CHARACTER-SHORT-1} {p.is_sub.S1=SUBJECT_CHARACTER_MIN_PLEASED:bows respectfully:looks away} as you enter. Ambassador {CHARACTER-SHORT-2} gives you {p.is_sub.S2=SUBJECT_CHARACTER_MIN_PLEASED:a warm smile:an indifferent glance}, \"Shall we begin?\"\n\nPersonal opinions aside, each has their own suggestion for the best steps to guide {PLAYER-3}. Will you take their council?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WISDOM_OF_THE_OLIGARCHS"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGE_OF_WAR",
+        "English": "The people of {PLAYER-0} are tired. The multiple wars have families, supplies and patience stretched thin. Discontent is on the rise, with the people of {CITY-1} marching through the street in mobs. \n\nMembers of your court have gathered to suggest that a plan is needed to encourage the people and restore their spirits, before you are faced with rebels at home as well as abroad."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GLORY_FOR_GOD",
+        "English": "Your devotion to {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God} is a part of your daily life, subtly shaping your actions and guiding your hand. But a meeting with the religious elders questions if there is more that could be done.\n\nOthers of the faithful look to you for guidance, will you take action to shape {PLAYER-0} into a realm worthy of {RELIGION-1}?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BEHIND_THE_THRONE",
+        "English": "{CHARACTER-0} has not been idle. Your {p.is_sub.S0=SUBJECT_CHARACTER_DILIGENT:diligent:determined} spouse approaches you in your chambers, bringing a scribe laiden with various plans for the future of {PLAYER-1}. \n\nLaying them in front of you, {G0:he:she} begs you to take a look at {G0:his:her} ideas. A few stand out..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WONDROUS_AMBITION",
+        "English": "The pyramids tower above the fields of {CITY-0}, visible from miles around. Such monolithic structures have become a thing of awe and wonder, some wondering if such a feat of construction would even be possible in current times. \n\nAlthough this wonder of your dynasty raises your name, the looming tombs are a reminder to make your own mark on the world, or be forgotten. Will they inspire you to action?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_WAR",
+        "English": "The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:\n\n\"Hear your fate, O people of {PLAYER-0}. Weep for your children, those to fall to the blades of {PLAYER-1}. Even your statues shiver with dread. Look to your one salvation, the wooden walls that will stand for generations to come.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_PEACE",
+        "English": "The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:\n\n\"Remember the tides of fate O dwellers of {PLAYER-0}, the rolling waves of foam and time that not even the gods can control. Rise, climb above with quivering fingers and a yearning heart, or be dashed upon the rocks laid out before you.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_PERSONAL",
+        "English": "The Pythia of link(IMPROVEMENT_ORACLE) of {CITY-0} has spoken:\n\n\"Listen, {CHARACTER-2}, first of the {PLAYER-2,3}. Bring not a broken chain to pull your people forwards. {G1:He:She} by your side will be entertained, by your rise or by your fall.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FORMING_NATION",
+        "English": "As the laws of the court are read out to the people, the court themselves are engaged in celebration and merriment. \n\nOne of the court scholars rises to give a speech: “A civilization is not a static being, but a dynamic entity built on the decisions of the people within. The laws of {PLAYER-0} have taken their first shape, painting a picture of our future. Praise to {CHARACTER-0}!”\n\nAs you reflect on your path, ambition swells from within. What shape do you wish for this fledgling nation?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_OTHER_PATH",
+        "English": "The laws of the land can greatly shape a developing nation. Although {PLAYER-2} and {PLAYER-3} have started down different paths, there is still so much potential in what your nations will become. \n\nEven as their people are telling link(LAW_EPICS) of their heroes, yours are practicing link(LAW_EXPLORATION) and venturing into the wilds. Every route you find opens new possibilities and you find yourself reflecting on the road your nation is on. \n\nWhere will it lead you next?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TALES_OF_NATION",
+        "English": "There are whispers in the markets of {PLAYER-1} of the far off land of {PLAYER-0}, said to be filled with cities bedecked in jewels and an army so large that the very earth shakes under their marching feet. \n\n{PLAYER-0} may be distant, but the arrival of their merchants leads to questions in your court on how {PLAYER-1} is to economically compete with such a wealthy and powerful nation."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FRIENDS_AND_ALLIES",
+        "English": "A diplomatic meeting provides a rare chance to speak to your ally {CHARACTER-1} in person rather than through a series of messengers. \n\nAlthough most of the day is taken up by rote formalities, in a brief interlude at dinner, {CHARACTER-SHORT-1} speaks to you in a conspiratorial whisper:\n\n\"Come now, {CHARACTER-SHORT-2}, we are allies! I am sworn to you like you are a {G2:brother:sister}, yet there is so much I still don't know about you. Will you tell me of your plans for {PLAYER-2}?\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_COMPLAINTS"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRUE_SUCCESSOR",
+        "English": "As you sit on the throne of {PLAYER-1}, a slither of doubt sits uncomfortably in your chest. You may rule for now, but you know that {CHARACTER-0} is still out there, waiting to return to the throne. \n\nTime is short. It is vital to make the most of your current power, to either secure it for yourself or to path the way for {CHARACTER-SHORT-0}. How will you make your mark and secure your legacy?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_MEMORY_ENDURES",
+        "English": "The loss of {CHARACTER-0} strikes you at the most mundane of moments. Grief will suddenly appear, wrapping it self around you until it feels impossible to move. \n\nThe pain of {G0:his:her} passing will never entirely leave you, but maybe there is a way to honor the memory of your lost child?"
       },
       {
         "beginGroup": "Tribe",
@@ -9635,7 +10126,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_DESPERATE_MESSENGER",
-        "English": "A messenger from the {TRIBE-1} arrives at court, wounded and breathless. He curses the {TRIBE-0} and says he escaped one of their raiding parties that was about to invade our lands. Eager to avenge old wrongs, his people will happily join us if we can supply their army.\n\nWhat shall we do?"
+        "English": "A messenger from the {TRIBE-1} arrives at court, wounded and breathless. They curse the {TRIBE-0} and say they escaped one of their raiding parties that was about to invade our lands. Eager to avenge old wrongs, the {TRIBE-1} will happily join us if we can supply their army.\n\nWhat shall we do?"
       },
       {
         "zType": "TEXT_EVENTSTORY_SCALES_OF_TRIBUTE",
@@ -9958,6 +10449,14 @@
         "English": "A message has arrived from the {TRIBE-0}, it seems they have a new war leader. One who is more than a little upset with us.\n\n\"Years ago {PLAYER-1} left me to die. But I didn't die, I found a new home with the {TRIBE-0} where I grew strong, and now I shall have my revenge upon you. If my armies take {CITY-1} they will raze it to the ground!\""
       },
       {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_TRIBE_TEMP_ALT",
+        "English": "The {TRIBE-1,1} delegation rides into the city, carrying a marriage proposal from their leaders. \n\nThey suggest that {CHARACTER-2} or {CHARACTER-3} would make a good {G2:husband:wife} for {RELATIVE-0} {CHARACTER-0}. \n\nWhat will the reply be?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_TRIBE_FAMILY",
+        "English": "A delegation has arrived from the {TRIBE-1}, offering the hand of {CHARACTER-3} to strengthen the bonds between your people. However, upon hearing of the offer, the {FAMILY-2,1} exclaim that it would be a disgrace for the leader of {PLAYER-0} to marry a {TRIBE-1,1} over one of their own. \n\nThey offer {CHARACTER-4} as an alternative suitor and ask that you marry into their family instead. \n\nWho will you choose?"
+      },
+      {
         "beginGroup": "Royalty",
         "zType": "TEXT_EVENTSTORY_LEADER_LOVED_BOTH_PROSPEROUS_SPOUSE",
         "English": "{TEXT_EVENTSTORY_LEADER_LOVED_BOTH_PROSPEROUS}"
@@ -10100,7 +10599,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INFLUENCE_SPOUSE_INTERESTS",
-        "English": "Hoping to improve your relationship with {CHARACTER-SHORT-1}, you have arranged a day together <p.is_sub.S1=SUBJECT_ZEALOT>discussing theology<p=SUBJECT_SCHOLAR>studying ancient scrolls<p=SUBJECT_ORATOR>praising {G1:his:her} latest speech<p=SUBJECT_DIPLOMAT>examining your most important treaties<p=SUBJECT_SCHEMER>plotting revenge on a common enemy<p=SUBJECT_HERO>talking about {G1:his:her} greatest triumphs<p=SUBJECT_TACTICIAN>re-fighting ancient battles with model soldiers<p=SUBJECT_COMMANDER>studying the great campaigns of famous generals<p=SUBJECT_BUILDER>designing a wondrous building<p=SUBJECT_JUDGE>analyzing historic case law<else>spending quality time with {G1:him:her}<end>.\n\n{CHARACTER-SHORT-1} declares that this is one of their favorite activities and they can think of nothing they’d rather do!"
+        "English": "Hoping to improve your relationship with {CHARACTER-SHORT-1}, you have arranged a day together <p.is_sub.S1=SUBJECT_ZEALOT>discussing theology<p=SUBJECT_SCHOLAR>studying ancient scrolls<p=SUBJECT_ORATOR>praising {G1:his:her} latest speech<p=SUBJECT_DIPLOMAT>examining your most important treaties<p=SUBJECT_SCHEMER>plotting revenge on a common enemy<p=SUBJECT_HERO>talking about {G1:his:her} greatest triumphs<p=SUBJECT_TACTICIAN>re-fighting ancient battles with model soldiers<p=SUBJECT_COMMANDER>studying the great campaigns of famous generals<p=SUBJECT_BUILDER>designing a wondrous building<p=SUBJECT_JUDGE>analyzing historic case law<else>spending quality time with {G1:him:her}<end>.\n\n{CHARACTER-SHORT-1} declares that this is one of {G1:his:her} favorite activities and {G1:he:she} can think of nothing {G1:he:she} would rather do!"
       },
       {
         "zType": "TEXT_EVENTSTORY_INFLUENCE_SPOUSE_START",
@@ -10908,7 +11407,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_DEAR_PARENT_RHETORIC",
-        "English": "We have received an update from your {G0:son:daughter} in training. {G0:He:She} has excelled in {G0:his:her} studies of rhetoric but would appreciate additional instruction.\n\nWould we be willing to hire a local tutor to supplement {G0:his:her} education?"
+        "English": "We have received an update from your {G0:son:daughter} in training. {G0:He:She} has excelled in {G0:his:her} studies of politics but would appreciate additional instruction.\n\nWould we be willing to hire a local tutor to supplement {G0:his:her} education?"
       },
       {
         "zType": "TEXT_EVENTSTORY_DEAR_PARENT_TACTICS",
@@ -11105,6 +11604,26 @@
       {
         "zType": "TEXT_EVENTSTORY_ADOPTED_SUCCESSOR",
         "English": "{CHARACTER-1}, {RELATIVE-1}, confronts you about the line of succession, arguing that {CHARACTER-0} should be excluded due to {G0:him:her} being adopted. \n\nAdoption is not an uncommon practice in {PLAYER-2}, although clarity in ancestry is vital when it comes to succession. Is {CHARACTER-SHORT-1} pressing this for {G1:his:her} own gain or genuinely concerned for the {PLAYER-2,1} line?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_UNBOUND",
+        "English": "{CHARACTER-0} has made no secret of {G0:his:her} affections for you, leading to whispers around the palace as to where your heart truly lies. \n\nWorried about the rumors getting out of hand, you go to confront {CHARACTER-SHORT-0} in {G0:his:her} livings. Desperately, {G0:he:she} pleads with you, \"How long must we wait to be together my love? I can't take it any more, {G1:he:she} doesn't love you like I do! Please, denounce {CHARACTER-1} and we can finally be wed.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_KISS_MARRY_KILL",
+        "English": "Returning to your chambers, you are shocked to find {CHARACTER-0} sitting in calm conversation with your {G1:husband:wife}, {CHARACTER-1}. You stand frozen in the doorway, uncertain of how to proceed.\n\n\"Ah, {CHARACTER-SHORT-2}! We were waiting for you.\" {CHARACTER-SHORT-1} beckons you over. \"We have been discussing and think it best that {CHARACTER-SHORT-0} should also be taken as a {G0:husband:wife}. However, we have a condition.\" {CHARACTER-SHORT-0} continues the thought, \"We want {CHARACTER-2} dead. You can have us both, but we will not tolerate any other rivals.\""
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LOVER_CONFRONTED",
+        "English": "You hear the screaming long before you reach the fight. In the midst of the chaos, your lover {CHARACTER-0} and spouse {CHARACTER-1} are facing off, insults and vases hurtling between the two {G0:men:women}.\n\nA servent explains that {CHARACTER-SHORT-0} has been making jibes and innuendos to {CHARACTER-SHORT-1}, who, having tried to rise above reacting to your relationship on the side, finally snapped. The pair grow silent when they see you, a flush of shame, anger, and frustration creeping up their cheeks. \n\nThere is no continuing as before after this public display. What will you decide?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DECLARATION_OF_LOVE",
+        "English": "Your lover, {CHARACTER-0}, waits for you by the balcony. You can tell that something is troubling {G0:him:her}, recognizing the way {G0:he:she} plays with the sleeve of {G0:his:her} robes and the tightness around {G0:his:her} lips. \n\nQuietly and intimately, {CHARACTER-SHORT-0} confesses to loving you. {G0:He:She} doesn't expect anything to change, but hopes, dreams, that you may feel the same and take {G0:him:her} as your {G0:husband:wife}."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_IN_THE_EYES",
+        "English": "The cries of anger from the gathered mob can be heard even from your private chambers. {CHARACTER-0} wasted no time upon hearing of your intentions for a divorce, swiftly securing the support of {CHARACTER-2}, the Head of {RELIGION-1}. {G0:He:She} is determined to remain {G0:king:queen}, and so together they roused the faithful of the city to protest against the divorce.\n\nNow the duo sit in your chambers, awaiting your answer. {CHARACTER-SHORT-2} reminds you of {G2:his:her} power to denounce your name to the faithful. Will you continue with the divorce or is the risk of upsetting the {RELIGION-1,3} too great?"
       },
       {
         "beginGroup": "Courtier",
@@ -11436,6 +11955,18 @@
         "English": "One afternoon, {CHARACTER-1} awaits you at the steps of the throne, shifting uncomfortably. {G1:He:She} confesses to a growing unease with your heartless and ruthless methods, revealing that {G1:he:she} is leaving the court to take up with outspoken rebels.\n\n\"The time is coming when you will reap what you have sown.\""
       },
       {
+        "zType": "TEXT_EVENTSTORY_TECH_OFFER_AMBASSADOR",
+        "English": "{CHARACTER-0} rushes up to you, almost tripping over {G0:his:her} own feet in {G0:his:her} excitement. During a recent visit to {PLAYER-1}, {CHARACTER-SHORT-0} managed to secure a deal with {CHARACTER-1}. \n\nThe nation, in dire need of financing, is willing to part with some of their scientific findings in return for payment. Will you take up this offer?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_KNOWLEDGE_OF_POWER",
+        "English": "{CHARACTER-0} approaches, brow furrowed in thought. {G0:He:She} gruffly shares that {G0:he:she} has been approached by the {PLAYER-1,1} military, who have asked {CHARACTER-SHORT-0} to visit and to help with training a new army. \n\nAlthough not initially tempted, {CHARACTER-SHORT-0} wonders if it could be a chance to learn more of their technologies and training techniques."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_THE_LAST_PIECE",
+        "English": "{PLAYER-0} is on the brink of a breakthrough. However, they claim that they need {CHARACTER-POSS-1} specialist knowledge of {random_R0:the iridescence of fish scales:the properties of sulfur:the growing of wine grapes:the categorization of insects} to complete their work. They claim that if we permit {CHARACTER-SHORT-1} to join them to complete the work, then they will share the knowledge with us once completed. \n\nWill you accept this unusual offer?"
+      },
+      {
         "beginGroup": "Leader",
         "zType": "TEXT_EVENTSTORY_COVERT_MARRIAGE_LEADER",
         "English": "The time that you have with {CHARACTER-1} is all too short, fleeting moments captured between your duties, covert glances and smiles when you pass. \n\nThis is one such perfect moment. {CHARACTER-SHORT-1} traces patterns on your back as you recline in your chambers, speaking of how you wish every day could be like this. “Why can’t it be? You are the leader of {PLAYER-0}. We could be together always if you just say the word.” \n\nIt would damage your reputation forgoing a political marriage, but {G1:he:she} is right. There is nothing stopping the union if you will it. Will you marry for love?"
@@ -11523,6 +12054,18 @@
       {
         "zType": "TEXT_EVENTSTORY_LEADER_CURSED_IRON",
         "English": "A series of training mishaps have revealed that the weapons of many of our soldiers are made from poor quality iron and are prone to breaking if they hit an opponent's armor.\n\nHow will you resolve this?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_ONE",
+        "English": "{CHARACTER-1} is disappointed with your recent actions, but there’s a simple solution to that. Tell them you are sorry and will change your ways. If they discover your falsehoods? Tell more lies! Here {G1:he:she} comes now.\n\n“{CHARACTER-SHORT-1}, please forgive me. I know I hurt you, I treated you poorly and that was wrong of me. I acted in a most {G0:unkingly:unqueenly} manner.”\n\n{G1:He:She} looks into your eyes for several moments, clearly thinking intently, before replying. “Very well, {CHARACTER-SHORT-0}, you seem genuinely sorry and I’m willing to give you another chance. Don’t make me regret it”"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_FAMILY_LIES",
+        "English": "{CHARACTER-1}, head of the powerful {FAMILY-1} family, would like to know what you think of {G1:his:her} {random_R0:latest speech about {random_R2:trade policies:animal husbandry:astrological findings:law reform:taxation rates:the inherent inequality of monarchial rule:your many failings as a ruler}:new outfit:new {G1:facial hair:haircut}:large new hat which makes {G1:his:her} head look absurdly small}.\n\nThe truth is, you hate it. It is {random_R0:poorly written and filled with logical fallacies:garishly colored and poorly made:as if {G1:he fell face-first into a barber's refuse pile:a drunken bird built a nest atop her head}:just a ridiculous object}. However, taking such a blunt approach to one of the more influential people in your realm may not be the most diplomatic action."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_TWO",
+        "English": "{CHARACTER-0} has discovered your lies and is absolutely furious! All your attempts to wriggle out of this situation have failed, and they are now plotting vengeance against you."
       },
       {
         "zType": "TEXT_EVENTSTORY_EPIC_POETRY",
@@ -11742,7 +12285,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_YOUNG_RULER_PLOTS",
-        "English": "Your agents bring word of an insidious plot growing right here in the heart of {PLAYER-0}! {CHARACTER-2} has been covertly gathering support for {CHARACTER-1}, hoping to establish a court faction strong enough to forcibly depose you. This must be dealt with, immediately.  \n\nThe death of {CHARACTER-1} would be a permanent solution showing that your youth does not bely weakness, although the noble link(CONCEPT_FAMILY,2) would not be pleased with such a show of violence. A lighter touch could also work, or you can take the time to deal with the traitors in your own way."
+        "English": "Your agents bring word of an insidious plot growing right here in the heart of {PLAYER-0}! {CHARACTER-2} has been covertly gathering support for {CHARACTER-1}, hoping to establish a court faction strong enough to forcibly depose you. This must be dealt with, immediately.  \n\nThe death of {CHARACTER-1} would be a permanent solution showing that your youth does not belay weakness, although the noble families would not be pleased with such a show of violence. A lighter touch could also work, or you can take the time to deal with the traitors in your own way."
       },
       {
         "zType": "TEXT_EVENTSTORY_YOUNG_RULER_ART",
@@ -11779,6 +12322,14 @@
       {
         "zType": "TEXT_EVENTSTORY_STRANGE_SCROLL_ONE",
         "English": "Your studies of the strange scroll have borne fruit. While at first the language it is written in made no sense, you have rapidly come to understand it. It almost feels as if the scroll wants to be read and is somehow helping you, but of course, that’s not possible.\n\nThe scroll tells of {random_R0:strange creatures and how to communicate with them:unknown lands and how to travel there:mysterious plants and their uses}. The things described are unlike anything you have ever heard of.\n\nAlthough you are learning a lot, studying the scroll is giving you a terrible headache."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_BEST_DOG",
+        "English": "It is not easy being {G0:king:queen}, but it helps knowing that your faithful dog is always there for you. Escaping the bickering and intrigue of court for a day, you take a walk, your cheerful dog excitedly exploring every new smell and sound before turning to check that you are still close."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER",
+        "English": "News arrives that {RELATIVE-0} {CHARACTER-0} has asked to be wed to {CHARACTER-1}, a self-made {G1:man:woman} who has made {G1:his:her} fortune through the building and supplying of trading vessels.\n\nSuch a relation will bring a large dowry, but the snub would undoubtedly anger the noble families. Shall the marriage be permitted?"
       }
     ]
   }

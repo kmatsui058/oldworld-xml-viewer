@@ -15,7 +15,7 @@ export interface Entry {
   iXP: ZType | string;
   iExtraCaptureTurns?: ZType | string;
   iExtraAssimilateTurns?: ZType | string;
-  EffectCity?: ZType | string;
+  EffectCity: ZType | string;
   DefaultProject: ZType | string;
   ShortfallProject: ZType | string;
 }

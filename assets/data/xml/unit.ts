@@ -491,7 +491,7 @@
       {
         "zType": "UNIT_ZOROASTRIANISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
-        "zIconName": "RELIGION_ZOROASTRIANISM",
+        "zIconName": "UNIT_ZOROASTRIANISM_DISCIPLE",
         "zPortraitName": "UNIT_ZOROASTRIANISM_DISCIPLE",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
@@ -550,7 +550,7 @@
       {
         "zType": "UNIT_JUDAISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
-        "zIconName": "RELIGION_JUDAISM",
+        "zIconName": "UNIT_JUDAISM_DISCIPLE",
         "zPortraitName": "UNIT_JUDAISM_DISCIPLE",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
@@ -609,7 +609,7 @@
       {
         "zType": "UNIT_CHRISTIANITY_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
-        "zIconName": "RELIGION_CHRISTIANITY",
+        "zIconName": "UNIT_CHRISTIANITY_DISCIPLE",
         "zPortraitName": "UNIT_CHRISTIANITY_DISCIPLE",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
@@ -668,7 +668,7 @@
       {
         "zType": "UNIT_MANICHAEISM_DISCIPLE",
         "Name": "TEXT_UNIT_RELIGION_DISCIPLE",
-        "zIconName": "RELIGION_MANICHAEISM",
+        "zIconName": "UNIT_MANICHAEISM_DISCIPLE",
         "zPortraitName": "UNIT_MANICHAEISM_DISCIPLE",
         "zBackgroundName": "GenericUnitAttackBackground",
         "zAudioSelectionType": "DISCIPLE",
@@ -3779,7 +3779,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -3864,7 +3865,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -3932,7 +3934,8 @@
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4000,7 +4003,8 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4082,7 +4086,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4164,7 +4169,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4233,7 +4239,8 @@
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4302,7 +4309,8 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4364,7 +4372,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4426,7 +4435,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4489,7 +4499,8 @@
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4551,7 +4562,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -4616,7 +4628,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -4669,7 +4682,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -4722,7 +4736,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -4782,11 +4797,12 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_NOMAD"
+          "zValue": "EFFECTUNIT_SHIELDBEARER"
         }
       },
       {
@@ -4842,11 +4858,12 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_SHIELDBEARER"
+          "zValue": "EFFECTUNIT_NOMAD"
         }
       },
       {
@@ -4895,7 +4912,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4945,7 +4963,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -4996,7 +5015,8 @@
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         }
       },
@@ -5052,7 +5072,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -5111,7 +5132,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -5158,7 +5180,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -5205,7 +5228,8 @@
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
-            "UNITTRAIT_INFANTRY"
+            "UNITTRAIT_INFANTRY",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
@@ -5259,11 +5283,12 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_NOMAD"
+          "zValue": "EFFECTUNIT_SHIELDBEARER"
         }
       },
       {
@@ -5307,11 +5332,12 @@
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_MOUNTED",
-            "UNITTRAIT_HORSE"
+            "UNITTRAIT_HORSE",
+            "UNITTRAIT_TRIBAL"
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_SHIELDBEARER"
+          "zValue": "EFFECTUNIT_NOMAD"
         }
       }
     ]

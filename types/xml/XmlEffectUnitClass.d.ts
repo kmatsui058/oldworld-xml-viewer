@@ -1,5 +1,5 @@
 
-declare namespace XmlTextBonus {
+declare namespace XmlEffectUnitClass {
   export interface RootObject {
   Root: Root;
 }
@@ -8,8 +8,7 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  English?: ZType | string;
-  beginGroup?: string;
+  Name: ZType | string;
 }
 export interface ZType {
 }

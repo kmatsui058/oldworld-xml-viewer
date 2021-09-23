@@ -22,7 +22,6 @@ export interface Entry {
   EffectPlayer?: ZType | string;
   EffectCity?: ZType | string;
   EffectCityExtra?: ZType | string;
-  CoastEffectCity?: ZType | string;
   StateReligionEffectCity?: ZType | string;
   CapitalEffectCity?: ZType | string;
   EffectUnit?: ZType | string;

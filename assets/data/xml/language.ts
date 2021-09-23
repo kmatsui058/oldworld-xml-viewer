@@ -67,7 +67,6 @@
         "zType": "LANGUAGE_DEBUG",
         "Name": "TEXT_LANGUAGE_DEBUG",
         "zISOCode": "en",
-        "iExportColumn": "3",
         "bPublicBuild": "0",
         "bDebug": "1",
         "zSingularExpression": "x==1",

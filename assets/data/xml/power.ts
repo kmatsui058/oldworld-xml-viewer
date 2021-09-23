@@ -47,7 +47,7 @@
       {
         "zType": "POWER_SIMILAR",
         "Name": "TEXT_POWER_SIMILAR",
-        "iPercent": "150",
+        "iPercent": "133",
         "bDeclareWar": "1"
       },
       {

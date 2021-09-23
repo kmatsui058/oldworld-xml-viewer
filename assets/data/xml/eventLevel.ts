@@ -20,6 +20,13 @@
         }
       },
       {
+        "zType": "EVENTLEVEL_MINIMAL",
+        "Name": "TEXT_EVENTLEVEL_MINIMAL",
+        "Help": "TEXT_EVENTLEVEL_MINIMAL_HELP",
+        "iPercent": "0",
+        "iTurns": "-1"
+      },
+      {
         "zType": "EVENTLEVEL_LOW",
         "Name": "TEXT_EVENTLEVEL_LOW",
         "Help": "TEXT_EVENTLEVEL_LOW_HELP",

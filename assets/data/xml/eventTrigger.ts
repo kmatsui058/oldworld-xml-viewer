@@ -44,6 +44,11 @@
         "bModal": "1"
       },
       {
+        "zType": "EVENTTRIGGER_WIN_GAME_ALLIANCE",
+        "iSortOrder": "10",
+        "bModal": "1"
+      },
+      {
         "zType": "EVENTTRIGGER_LOSE_GAME",
         "iSortOrder": "10",
         "bModal": "1"
@@ -59,7 +64,8 @@
       {
         "comment": "Data = TechType",
         "zType": "EVENTTRIGGER_TECHNOLOGY",
-        "Data": "TECH"
+        "Data": "TECH",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = City, Extra = Religion",
@@ -81,6 +87,7 @@
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_RELIGION",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -89,6 +96,7 @@
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_RELIGION",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -97,6 +105,7 @@
         "SubjectClass": "SUBJECTCLASS_RELIGION",
         "ExtraClass": "SUBJECTCLASS_THEOLOGY",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -222,51 +231,59 @@
         "comment": "Subject = City, Data = ProjectType",
         "zType": "EVENTTRIGGER_PRODUCTION_PROJECT",
         "Data": "PROJECT",
-        "SubjectClass": "SUBJECTCLASS_CITY"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = City, Data = SpecialistType",
         "zType": "EVENTTRIGGER_PRODUCTION_SPECIALIST",
         "Data": "SPECIALIST",
-        "SubjectClass": "SUBJECTCLASS_CITY"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = City, Extra = Unit, Data = UnitType",
         "zType": "EVENTTRIGGER_PRODUCTION_UNIT",
         "Data": "UNIT",
         "SubjectClass": "SUBJECTCLASS_CITY",
-        "ExtraClass": "SUBJECTCLASS_UNIT"
+        "ExtraClass": "SUBJECTCLASS_UNIT",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = City, Extra = Tile, Data = ImprovementType",
         "zType": "EVENTTRIGGER_IMPROVEMENT_FINISHED",
         "Data": "IMPROVEMENT",
         "SubjectClass": "SUBJECTCLASS_CITY",
-        "ExtraClass": "SUBJECTCLASS_TILE"
+        "ExtraClass": "SUBJECTCLASS_TILE",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = Tribe, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_TRIBE",
         "SubjectClass": "SUBJECTCLASS_TRIBE",
         "ExtraClass": "SUBJECTCLASS_TILE",
-        "iProb": "10"
+        "iProb": "10",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = Player, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_ENEMY",
         "SubjectClass": "SUBJECTCLASS_PLAYER",
         "ExtraClass": "SUBJECTCLASS_TILE",
-        "iProb": "10"
+        "iProb": "10",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = Player, Extra = Tile",
         "zType": "EVENTTRIGGER_IMPROVEMENT_PILLAGED_US",
         "SubjectClass": "SUBJECTCLASS_PLAYER",
         "ExtraClass": "SUBJECTCLASS_TILE",
-        "iProb": "10"
+        "iProb": "10",
+        "bLevel": "1"
       },
       {
-        "zType": "EVENTTRIGGER_CHOOSE_AMBITION"
+        "zType": "EVENTTRIGGER_CHOOSE_AMBITION",
+        "iProb": "10"
       },
       {
         "comment": "Data = GoalType",
@@ -380,6 +397,7 @@
         "SubjectClass": "SUBJECTCLASS_UNIT",
         "ExtraClass": "SUBJECTCLASS_UNIT",
         "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -388,6 +406,7 @@
         "SubjectClass": "SUBJECTCLASS_UNIT",
         "ExtraClass": "SUBJECTCLASS_UNIT",
         "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -396,6 +415,7 @@
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_UNIT",
         "iProb": "5",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -403,7 +423,8 @@
         "zType": "EVENTTRIGGER_CITY_ATTACKED",
         "SubjectClass": "SUBJECTCLASS_CITY",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
-        "iProb": "5"
+        "iProb": "5",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = Unit, Extra = Player",
@@ -411,6 +432,7 @@
         "SubjectClass": "SUBJECTCLASS_UNIT",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -419,18 +441,23 @@
         "SubjectClass": "SUBJECTCLASS_UNIT",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
         "comment": "Subject = Unit",
         "zType": "EVENTTRIGGER_UNIT_ROUT",
         "SubjectClass": "SUBJECTCLASS_UNIT",
+        "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
         "comment": "Subject = Unit",
         "zType": "EVENTTRIGGER_UNIT_CAPTURED",
         "SubjectClass": "SUBJECTCLASS_UNIT",
+        "iProb": "1",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -439,6 +466,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "5",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -447,6 +475,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "5",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -455,6 +484,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "5",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -463,6 +493,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "5",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -471,6 +502,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_CHARACTER",
         "iProb": "25",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -479,6 +511,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_CHARACTER",
         "iProb": "25",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -487,6 +520,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -495,6 +529,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -510,7 +545,7 @@
         "zType": "EVENTTRIGGER_GENERAL_INJURY_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
-        "iProb": "10",
+        "iProb": "1",
         "bModal": "1"
       },
       {
@@ -534,6 +569,7 @@
         "zType": "EVENTTRIGGER_UNIT_PROMOTION",
         "Data": "PROMOTION",
         "SubjectClass": "SUBJECTCLASS_UNIT",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -541,6 +577,7 @@
         "zType": "EVENTTRIGGER_SET_TILE",
         "SubjectClass": "SUBJECTCLASS_UNIT",
         "ExtraClass": "SUBJECTCLASS_TILE",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -549,6 +586,7 @@
         "SubjectClass": "SUBJECTCLASS_TILE",
         "ExtraClass": "SUBJECTCLASS_UNIT",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -564,6 +602,7 @@
         "zType": "EVENTTRIGGER_LANDMARK_DISCOVERED",
         "SubjectClass": "SUBJECTCLASS_TILE",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {

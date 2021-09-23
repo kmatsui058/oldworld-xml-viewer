@@ -117,9 +117,6 @@
         "FailGoal": {
           "comment": "Failes this Quest or Ambition"
         },
-        "DesiredAmbition": {
-          "comment": "Adds this Desired Ambition to the Character. (Cannot be the Leader)"
-        },
         "Mission": {
           "comment": "Starts a Mission"
         },
@@ -128,6 +125,9 @@
         },
         "SetArchetype": {
           "comment": "Gives the Character this Archetype Trait (and will remove the old one)"
+        },
+        "SetName": {
+          "comment": "Changes the Character's name to this name type (will remove custom name if present)"
         },
         "SetVegetation": {
           "comment": "Sets the Tile's Vegetation"
@@ -166,7 +166,7 @@
           "comment": "Number of Discontent levels gained by the City Subject"
         },
         "iRebelUnits": {
-          "comment": "Number of rebel Units spawned by the City Subject"
+          "comment": "Number of rebel Units spawned by the City Subject. Unit types are randomly picked among units buildable by the city"
         },
         "iDestroyImprovements": {
           "comment": "Number of random Improvements destroyed at the City Subject"
@@ -213,6 +213,9 @@
         "iAdoptedBySubject": {
           "comment": "Character will be adopted by the previous Subject at this index"
         },
+        "iConvertedBySubject": {
+          "comment": "Character will convert to the Religion of the previous Subject at this index"
+        },
         "iGovernorOfSubject": {
           "comment": "Character will be Governor of the previous Subject City at this index"
         },
@@ -221,6 +224,9 @@
         },
         "iJoinSubject": {
           "comment": "Character will join the Player at the previous Subject at this index"
+        },
+        "iJoinReverse": {
+          "comment": "Character at the previous Subject at this index will join the Player"
         },
         "iSeizeThroneSubject": {
           "comment": "Become the new leader of the previous Subject at this index"
@@ -438,6 +444,9 @@
         "aiBonusUnits": {
           "comment": "List of bonus Units (from bonusUnitClass.xml) that will appear near the Subject City. bonusUnitClass awards you the highest-indexed Unit you have researched in the indicated category"
         },
+        "aiRebelUnits": {
+          "comment": "List of bonus units from bonusUnitClass.xml to spawn as rebels near the Subject City. The highest-indexed unit that the city's owner has researched appears"
+        },
         "aiLawOpinion": {
           "comment": "List of permanent opinion changes to laws added to the Family Subject. For example, if you could put Centralization and -5 here, the Family would gain a -5 opinion of the Centralization law"
         },
@@ -626,9 +635,6 @@
         "FailGoal": {
           
         },
-        "DesiredAmbition": {
-          
-        },
         "Mission": {
           
         },
@@ -636,6 +642,9 @@
           
         },
         "SetArchetype": {
+          
+        },
+        "SetName": {
           
         },
         "SetVegetation": {
@@ -719,6 +728,9 @@
         "iAdoptedBySubject": {
           
         },
+        "iConvertedBySubject": {
+          
+        },
         "iGovernorOfSubject": {
           
         },
@@ -726,6 +738,9 @@
           
         },
         "iJoinSubject": {
+          
+        },
+        "iJoinReverse": {
           
         },
         "iSeizeThroneSubject": {
@@ -941,6 +956,9 @@
         "aiBonusUnits": {
           
         },
+        "aiRebelUnits": {
+          
+        },
         "aiLawOpinion": {
           
         },
@@ -1116,7 +1134,7 @@
       {
         "zType": "BONUS_LEADER_ADOPTS",
         "Name": "TEXT_BONUS_LEADER_ADOPTS",
-        "iLegitimacy": "-2"
+        "iLegitimacy": "-4"
       },
       {
         "zType": "BONUS_ESTABLISH_THEOLOGY",
@@ -1602,6 +1620,11 @@
         "bStateReligionEnd": "1"
       },
       {
+        "zType": "BONUS_MISSIONRESULT_SEND_COURTIER",
+        "Name": "TEXT_BONUS_MISSIONRESULT_SEND_COURTIER",
+        "iJoinReverse": "0"
+      },
+      {
         "zType": "BONUS_MISSIONRESULT_RALLY_TROOPS",
         "Name": "TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS",
         "aeBonuses": {
@@ -1631,15 +1654,14 @@
         }
       },
       {
-        "zType": "BONUS_MISSIONRESULT_ABDICATE",
-        "aeBonuses": {
-          "zValue": "BONUS_ABDICATE"
-        }
-      },
-      {
         "zType": "BONUS_MISSIONRESULT_CONVERT_SELF",
         "Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_SELF",
         "iConvertReligionSubject": "0"
+      },
+      {
+        "zType": "BONUS_MISSIONRESULT_CONVERT_STATE",
+        "Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_STATE",
+        "bConvertStateReligion": "1"
       },
       {
         "zType": "BONUS_MISSIONRESULT_CONVERT_RELIGION",
@@ -1664,7 +1686,6 @@
       {
         "zType": "BONUS_MISSIONRESULT_ADOPT",
         "Name": "TEXT_BONUS_MISSIONRESULT_ADOPT",
-        "iLegitimacy": "-1",
         "iAdoptedBySubject": "0"
       },
       {
@@ -1758,6 +1779,7 @@
       {
         "zType": "BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED",
         "Name": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_FAIL_EXPOSED",
+        "MemoryCharacter": "MEMORYCHARACTER_ASSASSINATE_FAIL",
         "iLegitimacy": "-2",
         "aeBonuses": {
           "zValue": "BONUS_ASSASSINATION_EXPOSED"
@@ -1827,7 +1849,7 @@
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "500"
+            "iValue": "1000"
           }
         },
         "aeAddTraits": {
@@ -1838,11 +1860,11 @@
         "zType": "BONUS_MISSIONRESULT_IMPRISON_UNJUST",
         "Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST",
         "MemoryFamily": "MEMORYFAMILY_MEMBER_IMPRISONED",
-        "iLegitimacy": "-2",
+        "iLegitimacy": "-1",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "500"
+            "iValue": "1000"
           }
         },
         "aeAddTraits": {
@@ -1852,11 +1874,11 @@
       {
         "zType": "BONUS_MISSIONRESULT_IMPRISON_ESCAPE",
         "Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_ESCAPE",
-        "iLegitimacy": "-2",
+        "iLegitimacy": "-1",
         "aiGlobalYields": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "500"
+            "iValue": "1000"
           }
         },
         "aeAddTraits": {
@@ -2373,11 +2395,21 @@
         }
       },
       {
-        "zType": "BONUS_TECH_POLIS_BONUS_SETTLER",
-        "Name": "TEXT_BONUS_TECH_POLIS_BONUS_SETTLER",
+        "zType": "BONUS_TECH_DRAMA_BONUS_SETTLER",
+        "Name": "TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_SETTLER",
+            "iValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_POLIS_BONUS_WORKER",
+        "Name": "TEXT_BONUS_TECH_POLIS_BONUS_WORKER",
+        "aiUnits": {
+          "Pair": {
+            "zIndex": "UNIT_WORKER",
             "iValue": "1"
           }
         }
@@ -2404,12 +2436,54 @@
         }
       },
       {
+        "zType": "BONUS_TECH_PHALANX_BONUS_ORDERS",
+        "Name": "TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "20"
+          }
+        }
+      },
+      {
         "zType": "BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
         "Name": "TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
         "aiUnits": {
           "Pair": {
             "zIndex": "UNIT_CHARIOT",
             "iValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
+        "Name": "TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
+        "AddCourtierForce": {
+          "Pair": {
+            "zIndex": "COURTIER_SCIENTIST",
+            "zValue": {
+              
+            }
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
+        "Name": "TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "800"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_COINAGE_BONUS_MONEY",
+        "Name": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
+        "aiGlobalYields": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2000"
           }
         }
       },
@@ -2466,26 +2540,6 @@
         }
       },
       {
-        "zType": "BONUS_TECH_DOCTRINE_BONUS_ORDERS",
-        "Name": "TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS",
-        "aiGlobalYields": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "BONUS_TECH_COINAGE_BONUS_MONEY",
-        "Name": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
-        "aiGlobalYields": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "2000"
-          }
-        }
-      },
-      {
         "zType": "BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
         "Name": "TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
         "AddCourtierForce": {
@@ -2528,16 +2582,6 @@
         }
       },
       {
-        "zType": "BONUS_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "Name": "TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "aiGlobalYields": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "1000"
-          }
-        }
-      },
-      {
         "zType": "BONUS_TECH_MANOR_BONUS_GOODS",
         "Name": "TEXT_BONUS_TECH_MANOR_BONUS_GOODS",
         "aiGlobalYields": {
@@ -2555,6 +2599,18 @@
               "iValue": "200"
             }
           ]
+        }
+      },
+      {
+        "zType": "BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
+        "Name": "TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
+        "AddCourtierForce": {
+          "Pair": {
+            "zIndex": "COURTIER_SOLDIER",
+            "zValue": {
+              
+            }
+          }
         }
       },
       {
@@ -2611,18 +2667,6 @@
         }
       },
       {
-        "zType": "BONUS_TECH_COHORTS_BONUS_SOLDIER",
-        "Name": "TEXT_BONUS_TECH_COHORTS_BONUS_SOLDIER",
-        "AddCourtierForce": {
-          "Pair": {
-            "zIndex": "COURTIER_SOLDIER",
-            "zValue": {
-              
-            }
-          }
-        }
-      },
-      {
         "zType": "BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
         "Name": "TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
         "aiUnits": {
@@ -2639,6 +2683,42 @@
           "Pair": {
             "zIndex": "UNIT_DROMON",
             "iValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
+        "Name": "TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
+        "AddCourtierForce": {
+          "Pair": {
+            "zIndex": "COURTIER_MERCHANT",
+            "zValue": {
+              
+            }
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
+        "Name": "TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
+        "AddCourtierForce": {
+          "Pair": {
+            "zIndex": "COURTIER_SOLDIER",
+            "zValue": {
+              
+            }
+          }
+        }
+      },
+      {
+        "zType": "BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "Name": "TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "AddCourtierForce": {
+          "Pair": {
+            "zIndex": "COURTIER_MINISTER",
+            "zValue": {
+              
+            }
           }
         }
       },
@@ -3132,9 +3212,9 @@
         }
       },
       {
-        "zType": "BONUS_REMOVE_STUDY_RHETORIC",
+        "zType": "BONUS_REMOVE_STUDY_POLITICS",
         "aeRemoveTraits": {
-          "zValue": "TRAIT_STUDY_RHETORIC"
+          "zValue": "TRAIT_STUDY_POLITICS"
         }
       },
       {
@@ -3208,6 +3288,15 @@
       {
         "zType": "BONUS_REBEL_UNITS_4",
         "iRebelUnits": "4"
+      },
+      {
+        "zType": "BONUS_UNIT_SETTLER",
+        "aiUnits": {
+          "Pair": {
+            "zIndex": "UNIT_SETTLER",
+            "iValue": "1"
+          }
+        }
       },
       {
         "zType": "BONUS_UNIT_WORKER",
@@ -7517,6 +7606,7 @@
       },
       {
         "zType": "BONUS_LEADER_DISAPPOINTED_WITH_REMOVE",
+        "MemoryCharacter": "MEMORYCHARACTER_LIED_TO",
         "RemoveLeaderRelationship": "RELATIONSHIP_DISAPPOINTED_WITH"
       },
       {
@@ -8038,6 +8128,19 @@
         }
       },
       {
+        "zType": "BONUS_GIVE_TRAIT_DECEITFUL",
+        "Name": "TEXT_BONUS_GIVE_TRAIT_DECEITFUL",
+        "aeAddTraits": {
+          "zValue": "TRAIT_DECEITFUL"
+        }
+      },
+      {
+        "zType": "BONUS_REMOVE_TRAIT_DECEITFUL",
+        "aeRemoveTraits": {
+          "zValue": "TRAIT_DECEITFUL"
+        }
+      },
+      {
         "zType": "BONUS_GIVE_TRAIT_WANTON",
         "aeAddTraits": {
           "zValue": "TRAIT_WANTON"
@@ -8059,18 +8162,6 @@
         "zType": "BONUS_REMOVE_TRAIT_LOYAL",
         "aeRemoveTraits": {
           "zValue": "TRAIT_LOYAL"
-        }
-      },
-      {
-        "zType": "BONUS_GIVE_TRAIT_DECEITFUL",
-        "aeAddTraits": {
-          "zValue": "TRAIT_DECEITFUL"
-        }
-      },
-      {
-        "zType": "BONUS_REMOVE_TRAIT_DECEITFUL",
-        "aeRemoveTraits": {
-          "zValue": "TRAIT_DECEITFUL"
         }
       },
       {
@@ -8164,9 +8255,9 @@
         }
       },
       {
-        "zType": "BONUS_GIVE_TRAIT_STUDY_RHETORIC",
+        "zType": "BONUS_GIVE_TRAIT_STUDY_POLITICS",
         "aeAddTraits": {
-          "zValue": "TRAIT_STUDY_RHETORIC"
+          "zValue": "TRAIT_STUDY_POLITICS"
         }
       },
       {
@@ -8771,8 +8862,8 @@
         "Achievement": "ACHIEVEMENT_BABYLON_HANGING_GARDENS"
       },
       {
-        "zType": "BONUS_ACHIEVEMENT_THEBES_NECROPOLIS",
-        "Achievement": "ACHIEVEMENT_THEBES_NECROPOLIS"
+        "zType": "BONUS_ACHIEVEMENT_WASET_NECROPOLIS",
+        "Achievement": "ACHIEVEMENT_WASET_NECROPOLIS"
       },
       {
         "zType": "BONUS_ACHIEVEMENT_BABYLON_ISHTAR_GATE",
@@ -8899,6 +8990,1022 @@
         "aeBonuses": {
           "zValue": "BONUS_PLAYER_OFFER"
         }
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_EPICS",
+        "Ambition": "GOAL_EPICS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_EXPLORATION",
+        "Ambition": "GOAL_EXPLORATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_SLAVERY",
+        "Ambition": "GOAL_SLAVERY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_FREEDOM",
+        "Ambition": "GOAL_FREEDOM"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_CENTRALIZATION",
+        "Ambition": "GOAL_CENTRALIZATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_VASSALAGE",
+        "Ambition": "GOAL_VASSALAGE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_TYRANNY",
+        "Ambition": "GOAL_TYRANNY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_CONSTITUTION",
+        "Ambition": "GOAL_CONSTITUTION"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_COLONIES",
+        "Ambition": "GOAL_COLONIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_SERFDOM",
+        "Ambition": "GOAL_SERFDOM"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_MONOTHEISM",
+        "Ambition": "GOAL_MONOTHEISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_POLYTHEISM",
+        "Ambition": "GOAL_POLYTHEISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_DIVINE_RULE",
+        "Ambition": "GOAL_DIVINE_RULE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_LEGAL_CODE",
+        "Ambition": "GOAL_LEGAL_CODE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_TOLERANCE",
+        "Ambition": "GOAL_TOLERANCE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_ORTHODOXY",
+        "Ambition": "GOAL_ORTHODOXY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_PROFESSIONAL_ARMY",
+        "Ambition": "GOAL_PROFESSIONAL_ARMY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_VOLUNTEERS",
+        "Ambition": "GOAL_VOLUNTEERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_PHILOSOPHY",
+        "Ambition": "GOAL_PHILOSOPHY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_ENGINEERING",
+        "Ambition": "GOAL_ENGINEERING"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_ICONOGRAPHY",
+        "Ambition": "GOAL_ICONOGRAPHY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_CALLIGRAPHY",
+        "Ambition": "GOAL_CALLIGRAPHY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_PILGRIMAGE",
+        "Ambition": "GOAL_PILGRIMAGE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_HOLY_WAR",
+        "Ambition": "GOAL_HOLY_WAR"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_GUILDS",
+        "Ambition": "GOAL_GUILDS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_ELITES",
+        "Ambition": "GOAL_ELITES"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_AUTARKY",
+        "Ambition": "GOAL_AUTARKY"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_TRADE_LEAGUE",
+        "Ambition": "GOAL_TRADE_LEAGUE"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_COIN_DEBASEMENT",
+        "Ambition": "GOAL_COIN_DEBASEMENT"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAW_MONETARY_REFORM",
+        "Ambition": "GOAL_MONETARY_REFORM"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAWS_FOUR",
+        "Ambition": "GOAL_FOUR_LAWS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAWS_EIGHT",
+        "Ambition": "GOAL_EIGHT_LAWS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LAWS_ALL_FRIENDLY",
+        "Ambition": "GOAL_ALL_LAWS_FRIENDLY"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_VENERATION",
+        "Ambition": "GOAL_VENERATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_MYTHOLOGY",
+        "Ambition": "GOAL_MYTHOLOGY"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_LEGALISM",
+        "Ambition": "GOAL_LEGALISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_REVELATION",
+        "Ambition": "GOAL_REVELATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_DUALISM",
+        "Ambition": "GOAL_DUALISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_GNOSTICISM",
+        "Ambition": "GOAL_GNOSTICISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_ENLIGHTENMENT",
+        "Ambition": "GOAL_ENLIGHTENMENT"
+      },
+      {
+        "zType": "BONUS_AMBITION_THEOLOGY_REDEMPTION",
+        "Ambition": "GOAL_REDEMPTION"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_FOUR",
+        "Ambition": "GOAL_FOUR_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_SEVEN",
+        "Ambition": "GOAL_SEVEN_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_TEN",
+        "Ambition": "GOAL_TEN_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_THREE_CONNECTED",
+        "Ambition": "GOAL_THREE_CONNECTED_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_SIX_CONNECTED",
+        "Ambition": "GOAL_SIX_CONNECTED_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES_NINE_CONNECTED",
+        "Ambition": "GOAL_NINE_CONNECTED_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_GAULS",
+        "Ambition": "GOAL_GAULS_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_VANDALS",
+        "Ambition": "GOAL_VANDALS_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_DANES",
+        "Ambition": "GOAL_DANES_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_THRACIANS",
+        "Ambition": "GOAL_THRACIANS_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_SCYTHIANS",
+        "Ambition": "GOAL_SCYTHIANS_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_KILLED_5_NUMIDIANS",
+        "Ambition": "GOAL_NUMIDIANS_5"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_FOOD_400",
+        "Ambition": "GOAL_FOOD_400"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_FOOD_800",
+        "Ambition": "GOAL_FOOD_800"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_WOOD_400",
+        "Ambition": "GOAL_WOOD_400"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_WOOD_800",
+        "Ambition": "GOAL_WOOD_800"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_STONE_400",
+        "Ambition": "GOAL_STONE_400"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_STONE_800",
+        "Ambition": "GOAL_STONE_800"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_IRON_400",
+        "Ambition": "GOAL_IRON_400"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_IRON_800",
+        "Ambition": "GOAL_IRON_800"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_20_GOODS_TURN",
+        "Ambition": "GOAL_20_GOODS_TURN"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_50_GOODS_TURN",
+        "Ambition": "GOAL_50_GOODS_TURN"
+      },
+      {
+        "zType": "BONUS_AMBITION_PRODUCE_100_GOODS_TURN",
+        "Ambition": "GOAL_100_GOODS_TURN"
+      },
+      {
+        "zType": "BONUS_AMBITION_STOCKPILE_CIVICS_2000",
+        "Ambition": "GOAL_CIVICS_2000"
+      },
+      {
+        "zType": "BONUS_AMBITION_STOCKPILE_TRAINING_2000",
+        "Ambition": "GOAL_TRAINING_2000"
+      },
+      {
+        "zType": "BONUS_AMBITION_STOCKPILE_MONEY_2000",
+        "Ambition": "GOAL_MONEY_2000"
+      },
+      {
+        "zType": "BONUS_AMBITION_STOCKPILE_MONEY_5000",
+        "Ambition": "GOAL_MONEY_5000"
+      },
+      {
+        "zType": "BONUS_AMBITION_STOCKPILE_MONEY_10000",
+        "Ambition": "GOAL_MONEY_10000"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_WORKERS",
+        "Ambition": "GOAL_FIVE_WORKERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_FARMS",
+        "Ambition": "GOAL_SIX_FARMS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_MINES",
+        "Ambition": "GOAL_SIX_MINES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_QUARRIES",
+        "Ambition": "GOAL_SIX_QUARRIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_LUMBERMILLS",
+        "Ambition": "GOAL_SIX_LUMBERMILLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_PASTURES",
+        "Ambition": "GOAL_SIX_PASTURES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_CAMPS",
+        "Ambition": "GOAL_SIX_CAMPS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_GROVES",
+        "Ambition": "GOAL_SIX_GROVES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_NETS",
+        "Ambition": "GOAL_SIX_NETS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_HARBORS",
+        "Ambition": "GOAL_FOUR_HARBORS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_GRANARY",
+        "Ambition": "GOAL_FOUR_GRANARY"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_BARRACKS_RANGES",
+        "Ambition": "GOAL_SIX_BARRACKS_RANGES"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_TOWNS",
+        "Ambition": "GOAL_EIGHT_TOWNS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_RESOURCE_IMPROVEMENTS",
+        "Ambition": "GOAL_SIX_RESOURCE_IMPROVEMENTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_REPAIRED",
+        "Ambition": "GOAL_SIX_REPAIRED"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_REPAIRED",
+        "Ambition": "GOAL_EIGHT_REPAIRED"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_PYRAMIDS",
+        "Ambition": "GOAL_PYRAMIDS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_ZIGGURAT",
+        "Ambition": "GOAL_GREAT_ZIGGURAT"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_ORACLE",
+        "Ambition": "GOAL_ORACLE"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_HANGING_GARDENS",
+        "Ambition": "GOAL_HANGING_GARDENS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_NECROPOLIS",
+        "Ambition": "GOAL_NECROPOLIS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_ISHTAR_GATE",
+        "Ambition": "GOAL_ISHTAR_GATE"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_LIGHTHOUSE",
+        "Ambition": "GOAL_LIGHTHOUSE"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_APADANA",
+        "Ambition": "GOAL_APADANA"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_MAUSOLEUM",
+        "Ambition": "GOAL_MAUSOLEUM"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_ACROPOLIS",
+        "Ambition": "GOAL_ACROPOLIS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_COLOSSUS",
+        "Ambition": "GOAL_COLOSSUS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_MUSAEUM",
+        "Ambition": "GOAL_MUSAEUM"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_CIRCUS_MAXIMUS",
+        "Ambition": "GOAL_CIRCUS_MAXIMUS"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_PANTHEON",
+        "Ambition": "GOAL_PANTHEON"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_HAGIA_SOPHIA",
+        "Ambition": "GOAL_HAGIA_SOPHIA"
+      },
+      {
+        "zType": "BONUS_AMBITION_WONDER_VIA_RECTA_SOUK",
+        "Ambition": "GOAL_VIA_RECTA_SOUK"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_DEVELOPING_CITIES",
+        "Ambition": "GOAL_FIVE_DEVELOPING"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_STRONG_CITIES",
+        "Ambition": "GOAL_FOUR_STRONG"
+      },
+      {
+        "zType": "BONUS_AMBITION_CITIES",
+        "Ambition": "GOAL_THREE_LEGENDARY"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_LEGENDARY_CITIES",
+        "Ambition": "GOAL_SIX_LEGENDARY"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_WONDERS",
+        "Ambition": "GOAL_TWO_WONDERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_WONDERS",
+        "Ambition": "GOAL_FOUR_WONDERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SEVEN_WONDERS",
+        "Ambition": "GOAL_SEVEN_WONDERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_FARMERS",
+        "Ambition": "GOAL_FOUR_FARMERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_MINERS",
+        "Ambition": "GOAL_FOUR_MINERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_STONECUTTERS",
+        "Ambition": "GOAL_FOUR_STONECUTTERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_WOODCUTTERS",
+        "Ambition": "GOAL_FOUR_WOODCUTTERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_ACOLYTES",
+        "Ambition": "GOAL_TWO_ACOYLTES"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_POETS",
+        "Ambition": "GOAL_TWO_POETS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_OFFICERS",
+        "Ambition": "GOAL_TWO_OFFICERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_SCRIBES",
+        "Ambition": "GOAL_TWO_SCRIBES"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_MONKS",
+        "Ambition": "GOAL_TWO_MONKS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_DOCTORS",
+        "Ambition": "GOAL_TWO_DOCTORS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_PRIESTS",
+        "Ambition": "GOAL_TWO_PRIESTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_SHOPKEEPERS",
+        "Ambition": "GOAL_TWO_SHOPKEEPERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_PHILOSOPHERS",
+        "Ambition": "GOAL_TWO_PHILOSOPHERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_SPECIALISTS",
+        "Ambition": "GOAL_THREE_SPECIALISTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_10_SPECIALISTS",
+        "Ambition": "GOAL_10_SPECIALISTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_20_SPECIALISTS",
+        "Ambition": "GOAL_20_SPECIALISTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_5_ELDER_SPECIALISTS",
+        "Ambition": "GOAL_5_ELDER_SPECIALISTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_10_ELDER_SPECIALISTS",
+        "Ambition": "GOAL_10_ELDER_SPECIALISTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_WALLS",
+        "Ambition": "GOAL_SIX_WALLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_MOATS",
+        "Ambition": "GOAL_SIX_MOATS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_TOWERS",
+        "Ambition": "GOAL_SIX_TOWERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_TREASURIES",
+        "Ambition": "GOAL_SIX_TREASURIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_FORUMS",
+        "Ambition": "GOAL_SIX_FORUMS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_ARCHIVES",
+        "Ambition": "GOAL_SIX_ARCHIVES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_FESTIVALS",
+        "Ambition": "GOAL_SIX_FESTIVALS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_CONVOYS",
+        "Ambition": "GOAL_SIX_CONVOYS"
+      },
+      {
+        "zType": "BONUS_AMBITION_LEGENDARY_PROJECTS",
+        "Ambition": "GOAL_LEGENDARY_PROJECTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_TRIBES_CLEARED",
+        "Ambition": "GOAL_THREE_TRIBE_CLEARED"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_TRIBES_CLEARED",
+        "Ambition": "GOAL_FIVE_TRIBE_CLEARED"
+      },
+      {
+        "zType": "BONUS_AMBITION_SEVEN_TRIBES_CLEARED",
+        "Ambition": "GOAL_SEVEN_TRIBE_CLEARED"
+      },
+      {
+        "zType": "BONUS_AMBITION_TRIBE_PEACE",
+        "Ambition": "GOAL_TRIBE_PEACE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TRIBE_ALLIANCE",
+        "Ambition": "GOAL_TRIBE_ALLIANCE"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_PEACE",
+        "Ambition": "GOAL_THREE_PEACE"
+      },
+      {
+        "zType": "BONUS_AMBITION_ALL_PEACE",
+        "Ambition": "GOAL_ALL_PEACE"
+      },
+      {
+        "zType": "BONUS_AMBITION_STATE_RELIGION",
+        "Ambition": "GOAL_STATE_RELIGION"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUND_WORLD_RELIGION",
+        "Ambition": "GOAL_FOUND_WORLD_RELIGION"
+      },
+      {
+        "zType": "BONUS_AMBITION_ESTABLISH_THEOLOGY",
+        "Ambition": "GOAL_ESTABLISH_THEOLOGY"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_RELIGION_SPREAD",
+        "Ambition": "GOAL_FOUR_RELIGION_SPREAD"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_RELIGION_SPREAD",
+        "Ambition": "GOAL_EIGHT_RELIGION_SPREAD"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_TECHS",
+        "Ambition": "GOAL_SIX_TECHS"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_TECHS",
+        "Ambition": "GOAL_EIGHT_TECHS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_SCHOLARSHIP_VAULTING",
+        "Ambition": "GOAL_SCHOLARSHIP_VAULTING"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_ARCHITECTURE_JURISPRUDENCE",
+        "Ambition": "GOAL_ARCHITECTURE_JURISPRUDENCE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_COINAGE_FISCAL_POLICY",
+        "Ambition": "GOAL_COINAGE_FISCAL_POLICY"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_HYDRAULICS_CHAIN_DRIVE",
+        "Ambition": "GOAL_HYDRAULICS_CHAIN_DRIVE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_COHORTS_MARTIAL_CODE",
+        "Ambition": "GOAL_COHORTS_MARTIAL_CODE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_BODKIN_ARROW_BALLISTICS",
+        "Ambition": "GOAL_BODKIN_ARROW_BALLISTICS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_WINDLASS_LATEEN_SAIL",
+        "Ambition": "GOAL_WINDLASS_LATEEN_SAIL"
+      },
+      {
+        "zType": "BONUS_AMBITION_TECH_BARDING_INFANTRY_SQUARE",
+        "Ambition": "GOAL_BARDING_INFANTRY_SQUARE"
+      },
+      {
+        "zType": "BONUS_AMBITION_5_KILLS",
+        "Ambition": "GOAL_5_KILLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_10_KILLS",
+        "Ambition": "GOAL_10_KILLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_15_KILLS",
+        "Ambition": "GOAL_15_KILLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_20_KILLS",
+        "Ambition": "GOAL_20_KILLS"
+      },
+      {
+        "zType": "BONUS_AMBITION_5_KILLS_GENERAL",
+        "Ambition": "GOAL_5_KILLS_GENERAL"
+      },
+      {
+        "zType": "BONUS_AMBITION_10_KILLS_GENERAL",
+        "Ambition": "GOAL_10_KILLS_GENERAL"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_PROMOTIONS",
+        "Ambition": "GOAL_FIVE_PROMOTIONS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TEN_PROMOTIONS",
+        "Ambition": "GOAL_TEN_PROMOTIONS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_MAX_LEVEL_UNITS",
+        "Ambition": "GOAL_TWO_MAX_LEVEL_UNIT"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_MILITARY",
+        "Ambition": "GOAL_FIVE_MILITARY"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_RANGED",
+        "Ambition": "GOAL_FIVE_RANGED"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_MOUNTED",
+        "Ambition": "GOAL_FIVE_MOUNTED"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_SIEGE",
+        "Ambition": "GOAL_FIVE_SIEGE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_RANGED_MOUNTED",
+        "Ambition": "GOAL_TWO_RANGED_MOUNTED"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_LONGBOWMAN_CROSSBOWMAN",
+        "Ambition": "GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN"
+      },
+      {
+        "zType": "BONUS_AMBITION_POLYBOS_CATAPHRACT",
+        "Ambition": "GOAL_FIVE_POLYBOLOS_CATAPHRACT"
+      },
+      {
+        "zType": "BONUS_AMBITION_FIVE_SWORDSMAN_PIKEMAN",
+        "Ambition": "GOAL_FIVE_SWORDSMAN_PIKEMAN"
+      },
+      {
+        "zType": "BONUS_AMBITION_20_UNITS",
+        "Ambition": "GOAL_20_UNITS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_BATTERING_RAM",
+        "Ambition": "GOAL_TWO_BATTERING_RAM"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_SIEGE_TOWER",
+        "Ambition": "GOAL_TWO_SIEGE_TOWER"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_AKKADIAN_ARCHER",
+        "Ambition": "GOAL_TWO_AKKADIAN_ARCHER"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_CIMMERIAN_ARCHER",
+        "Ambition": "GOAL_TWO_CIMMERIAN_ARCHER"
+      },
+      {
+        "zType": "BONUS_AMBITION_AFRICAN_ELEPHANT",
+        "Ambition": "GOAL_TWO_AFRICAN_ELEPHANT"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_TURRETED_ELEPHANT",
+        "Ambition": "GOAL_TWO_TURRETED_ELEPHANT"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_LIGHT_CHARIOT",
+        "Ambition": "GOAL_TWO_LIGHT_CHARIOT"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_KUSHITE_CAVALRY",
+        "Ambition": "GOAL_TWO_KUSHITE_CAVALRY"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_HOPLITE",
+        "Ambition": "GOAL_TWO_HOPLITE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_PHALANGITE",
+        "Ambition": "GOAL_TWO_PHALANGITE"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_PALTON_CAVALRY",
+        "Ambition": "GOAL_TWO_PALTON_CAVALRY"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_CATAPHRACT_ARCHER",
+        "Ambition": "GOAL_TWO_CATAPHRACT_ARCHER"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_HASTATUS",
+        "Ambition": "GOAL_TWO_HASTATUS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_LEGIONARY",
+        "Ambition": "GOAL_TWO_LEGIONARY"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_COURTIERS",
+        "Ambition": "GOAL_TWO_COURTIERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_COURTIERS",
+        "Ambition": "GOAL_FOUR_COURTIERS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_GENERALS",
+        "Ambition": "GOAL_FOUR_GENERALS"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_GENERALS",
+        "Ambition": "GOAL_THREE_GOVERNORS"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_GENERALS",
+        "Ambition": "GOAL_EIGHT_GENERALS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_GOVERNORS",
+        "Ambition": "GOAL_SIX_GOVERNORS"
+      },
+      {
+        "zType": "BONUS_AMBITION_REVEAL_40",
+        "Ambition": "GOAL_REVEAL_40"
+      },
+      {
+        "zType": "BONUS_AMBITION_REVEAL_60",
+        "Ambition": "GOAL_REVEAL_60"
+      },
+      {
+        "zType": "BONUS_AMBITION_REVEAL_80",
+        "Ambition": "GOAL_REVEAL_80"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_CARAVANS",
+        "Ambition": "GOAL_TWO_CARAVANS"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_CARAVANS",
+        "Ambition": "GOAL_FOUR_CARAVANS"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_TRIBAL_LUXURIES",
+        "Ambition": "GOAL_TWO_TRIBAL_LUXURIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_PLAYER_LUXURIES",
+        "Ambition": "GOAL_FOUR_PLAYER_LUXURIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_FAMILY_LUXURIES",
+        "Ambition": "GOAL_SIX_FAMILY_LUXURIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_LUXURIES",
+        "Ambition": "GOAL_EIGHT_LUXURIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_RECAPTURE_ONE_CITY",
+        "Ambition": "GOAL_ONE_RECAPTURE_CITY"
+      },
+      {
+        "zType": "BONUS_AMBITION_RECAPTURE_TWO_CITIES",
+        "Ambition": "GOAL_TWO_RECAPTURE_CITY"
+      },
+      {
+        "zType": "BONUS_AMBITION_CAPTURE_TWO_CITIES",
+        "Ambition": "GOAL_TWO_CAPTURE_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_CAPTURE_ONE_CAPITAL",
+        "Ambition": "GOAL_ONE_CAPITAL"
+      },
+      {
+        "zType": "BONUS_AMBITION_CAPTURE_FIVE_CITIES",
+        "Ambition": "GOAL_FIVE_CAPTURE_CITIES"
+      },
+      {
+        "zType": "BONUS_AMBITION_TEN_POPULATION",
+        "Ambition": "GOAL_TEN_POPULATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_30_POPULATION",
+        "Ambition": "GOAL_30_POPULATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_100_POPULATION",
+        "Ambition": "GOAL_100_POPULATION"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_BATHS_1",
+        "Ambition": "GOAL_FOUR_BATHS_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_BATHS_2",
+        "Ambition": "GOAL_FOUR_BATHS_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_BATHS_3",
+        "Ambition": "GOAL_FOUR_BATHS_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_THEATER_1",
+        "Ambition": "GOAL_FOUR_THEATER_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_THEATER_2",
+        "Ambition": "GOAL_FOUR_THEATER_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_THEATER_3",
+        "Ambition": "GOAL_FOUR_THEATER_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_MARKET_1",
+        "Ambition": "GOAL_FOUR_MARKET_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_MARKET_2",
+        "Ambition": "GOAL_FOUR_MARKET_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_MARKET_3",
+        "Ambition": "GOAL_FOUR_MARKET_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_LIBRARY_1",
+        "Ambition": "GOAL_FOUR_LIBRARY_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_LIBRARY_2",
+        "Ambition": "GOAL_FOUR_LIBRARY_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_LIBRARY_3",
+        "Ambition": "GOAL_FOUR_LIBRARY_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_COURTHOUSE_1",
+        "Ambition": "GOAL_FOUR_COURTHOUSE_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_COURTHOUSE_2",
+        "Ambition": "GOAL_FOUR_COURTHOUSE_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_COURTHOUSE_3",
+        "Ambition": "GOAL_FOUR_COURTHOUSE_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_GARRISON_1",
+        "Ambition": "GOAL_FOUR_GARRISON_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_GARRISON_2",
+        "Ambition": "GOAL_FOUR_GARRISON_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_GARRISON_3",
+        "Ambition": "GOAL_FOUR_GARRISON_3"
+      },
+      {
+        "zType": "BONUS_AMBITION_LEGENDARY_IMPROVEMENTS_1",
+        "Ambition": "GOAL_LEGENDARY_IMPROVEMENTS_1"
+      },
+      {
+        "zType": "BONUS_AMBITION_LEGENDARY_IMPROVEMENTS_2",
+        "Ambition": "GOAL_LEGENDARY_IMPROVEMENTS_2"
+      },
+      {
+        "zType": "BONUS_AMBITION_EIGHT_SHRINES",
+        "Ambition": "GOAL_EIGHT_SHRINES"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_MONASTERY",
+        "Ambition": "GOAL_FOUR_MONASTERY"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_TEMPLE",
+        "Ambition": "GOAL_FOUR_TEMPLE"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_CATHEDRAL",
+        "Ambition": "GOAL_THREE_CATHEDRAL"
+      },
+      {
+        "zType": "BONUS_AMBITION_TWO_HOLY_SITE_SIX_CATHEDRAL",
+        "Ambition": "GOAL_TWO_HOLY_SITE_SIX_CATHEDRAL"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_URBAN_IMPROVEMENTS",
+        "Ambition": "GOAL_SIX_URBAN_IMPROVEMENTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_20_URBAN_TILES",
+        "Ambition": "GOAL_20_URBAN_TILES"
+      },
+      {
+        "zType": "BONUS_AMBITION_20_URBAN_IMPROVEMENTS",
+        "Ambition": "GOAL_20_URBAN_IMPROVEMENTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_50_URBAN_TILES",
+        "Ambition": "GOAL_50_URBAN_TILES"
+      },
+      {
+        "zType": "BONUS_AMBITION_50_URBAN_IMPROVEMENTS",
+        "Ambition": "GOAL_50_URBAN_IMPROVEMENTS"
+      },
+      {
+        "zType": "BONUS_AMBITION_100_URBAN_TILES",
+        "Ambition": "GOAL_100_URBAN_TILES"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_CITIES_FOREIGN",
+        "Ambition": "GOAL_THREE_CITIES_FOREIGN"
+      },
+      {
+        "zType": "BONUS_AMBITION_FOUR_CITIES_FOREIGN",
+        "Ambition": "GOAL_FOUR_CITIES_FOREIGN"
+      },
+      {
+        "zType": "BONUS_AMBITION_CLEAR_THREE_BARBS",
+        "Ambition": "GOAL_CLEAR_THREE_BARBS"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_TEMPLES_ZOROASTRIANISM",
+        "Ambition": "GOAL_SIX_TEMPLES_ZOROASTRIANISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_SIX_TEMPLES_JUDAISM",
+        "Ambition": "GOAL_SIX_TEMPLES_JUDAISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_CATHEDRALS_CHRISTIANITY_",
+        "Ambition": "GOAL_THREE_CATHEDRALS_CHRISTIANITY"
+      },
+      {
+        "zType": "BONUS_AMBITION_THREE_CATHEDRALS_MANICHAEISM",
+        "Ambition": "GOAL_THREE_CATHEDRALS_MANICHAEISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_HOLY_SITE_ZOROASTRIANISM",
+        "Ambition": "GOAL_HOLY_SITE_ZOROASTRIANISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_HOLY_SITE_JUDAISM",
+        "Ambition": "GOAL_HOLY_SITE_JUDAISM"
+      },
+      {
+        "zType": "BONUS_AMBITION_HOLY_SITE_CHRISTIANITY",
+        "Ambition": "GOAL_HOLY_SITE_CHRISTIANITY"
+      },
+      {
+        "zType": "BONUS_AMBITION_HOLY_SITE_MANICHAEISM",
+        "Ambition": "GOAL_HOLY_SITE_MANICHAEISM"
       }
     ]
   }

@@ -82,14 +82,14 @@
         "zLink": "HELP_CLEAR"
       },
       {
-        "zType": "CONCEPT_COASTAL_CITIES",
-        "Name": "TEXT_CONCEPT_COASTAL_CITIES",
-        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_COASTAL_CITIES"
-      },
-      {
         "zType": "CONCEPT_COGNOMEN",
         "Name": "TEXT_CONCEPT_COGNOMEN",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_COGNOMEN"
+      },
+      {
+        "zType": "CONCEPT_COMMUNITY_SHORTHAND",
+        "Name": "TEXT_CONCEPT_COMMUNITY_SHORTHAND",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_COMMUNITY_SHORTHAND"
       },
       {
         "zType": "CONCEPT_COURT",
@@ -125,11 +125,6 @@
         "zType": "CONCEPT_CULTURE_LEVEL",
         "Name": "TEXT_CONCEPT_CULTURE_LEVEL",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_CULTURE_LEVEL_CONCEPT"
-      },
-      {
-        "zType": "CONCEPT_DESIRED_AMBITION",
-        "Name": "TEXT_CONCEPT_DESIRED_AMBITION",
-        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_CONCEPT_DESIRED_AMBITION"
       },
       {
         "zType": "CONCEPT_DISCIPLE",
@@ -254,7 +249,7 @@
       {
         "zType": "CONCEPT_LAUNCH_OFFENSIVE",
         "Name": "TEXT_CONCEPT_LAUNCH_OFFENSIVE",
-        "zHelpText": "TEXT_HELPTEXT_ARCHETYPE_HELP"
+        "zHelpText": "TEXT_HELPTEXT_WIDGET_LAUNCH_OFFENSIVE_CONCEPT"
       },
       {
         "zType": "CONCEPT_LEGACY",
@@ -380,6 +375,11 @@
         "zType": "CONCEPT_ROUT",
         "Name": "TEXT_CONCEPT_ROUT",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_ROUT"
+      },
+      {
+        "zType": "CONCEPT_ROYAL",
+        "Name": "TEXT_CONCEPT_ROYAL",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_ROYAL"
       },
       {
         "zType": "CONCEPT_SETTLEMENT",

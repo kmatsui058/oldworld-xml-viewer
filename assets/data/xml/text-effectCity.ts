@@ -15,10 +15,6 @@
         "English": "in link(CONCEPT_FAMILY_SEAT)"
       },
       {
-        "zType": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "English": "in link(CONCEPT_CAPITAL)"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
         "English": "with link(CONCEPT_STATE_RELIGION)"
       },
@@ -157,6 +153,10 @@
       {
         "zType": "TEXT_EFFECTCITY_LEGACY_CAPITAL",
         "English": "Legacies Completed"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_CULTURE_WEAK",
+        "English": "Weak City"
       },
       {
         "zType": "TEXT_EFFECTCITY_CULTURE_DEVELOPING",
@@ -327,60 +327,60 @@
         "English": "link(TRAIT_AFFABLE) Leader"
       },
       {
-        "zType": "TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL",
-        "English": "link(TRAIT_ELOQUENT) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL",
-        "English": "link(TRAIT_WARLIKE) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL",
-        "English": "link(TRAIT_INSPIRING) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL",
-        "English": "link(TRAIT_INTELLIGENT) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL",
-        "English": "link(TRAIT_PROSPEROUS) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL",
-        "English": "link(TRAIT_FRUGAL) Leader"
-      },
-      {
-        "zType": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
-        "English": "link(TRAIT_RIGHTEOUS) Leader"
-      },
-      {
         "zType": "TEXT_EFFECTCITY_TRAIT_CRUEL_ALL",
         "English": "link(TRAIT_CRUEL) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL",
+        "English": "link(TRAIT_ELOQUENT) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_INTOLERANT_ALL",
         "English": "link(TRAIT_INTOLERANT) Leader"
       },
       {
+        "zType": "TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL",
+        "English": "link(TRAIT_WARLIKE) Leader"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_TRAIT_SLOTHFUL_ALL",
         "English": "link(TRAIT_SLOTHFUL) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL",
+        "English": "link(TRAIT_INSPIRING) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_UNCOUTH_ALL",
         "English": "link(TRAIT_UNCOUTH) Leader"
       },
       {
+        "zType": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL",
+        "English": "link(TRAIT_INTELLIGENT) Leader"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_TRAIT_FOOLISH_ALL",
         "English": "link(TRAIT_FOOLISH) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL",
+        "English": "link(TRAIT_PROSPEROUS) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_EXTRAVAGANT_ALL",
         "English": "link(TRAIT_EXTRAVAGANT) Leader"
       },
       {
+        "zType": "TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL",
+        "English": "link(TRAIT_FRUGAL) Leader"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_TRAIT_CORRUPT_ALL",
         "English": "link(TRAIT_CORRUPT) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
+        "English": "link(TRAIT_RIGHTEOUS) Leader"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_DEBAUCHED_ALL",

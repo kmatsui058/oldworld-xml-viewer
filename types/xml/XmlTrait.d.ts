@@ -9,6 +9,8 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  NameFem?: ZType;
+  Description?: ZType | string;
   Nickname?: ZType | string;
   GainTexts?: GainTexts;
   LoseTexts?: GainTexts;
@@ -44,6 +46,7 @@ export interface Entry {
   bStrength?: ZType | string;
   bWeakness?: ZType | string;
   bNickname?: ZType | string;
+  bDisplay?: ZType | string;
   bUpgrade?: ZType | string;
   bNoEvents?: ZType | string;
   bNoMissions?: ZType | string;
@@ -53,7 +56,9 @@ export interface Entry {
   bNoHeir?: ZType | string;
   bNoJob?: ZType | string;
   bNoCourtier?: ZType | string;
-  bNoReligion?: ZType | string;
+  bNoFamilyHead?: ZType | string;
+  bNoReligionHead?: ZType | string;
+  bNoReligion?: ZType;
   bGeneralPrereq?: ZType | string;
   bGeneralAll?: ZType;
   bGovernorPrereq?: ZType | string;
@@ -75,20 +80,12 @@ export interface Entry {
   aiLawOpinion?: AiRating;
   aiMortalityDieProb?: AiMortalityDieProb;
   aiDecadeProb?: AiDecadeProb;
-  abSkipDecade?: AbSkipDecade;
   aeTraitInvalid?: GainTexts;
   aePositiveRating?: AePositiveRating;
   aeNegativeRating?: AePositiveRating;
 }
 export interface AePositiveRating {
   zValue?: string;
-}
-export interface AbSkipDecade {
-  Pair?: Pair2;
-}
-export interface Pair2 {
-  zIndex: string;
-  bValue: string;
 }
 export interface AiDecadeProb {
   iValue?: string[];

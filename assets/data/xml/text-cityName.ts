@@ -43,6 +43,10 @@
         "English": "Antiocheia"
       },
       {
+        "zType": "TEXT_CITYNAME_AMBRACIA",
+        "English": "Ambracia"
+      },
+      {
         "zType": "TEXT_CITYNAME_ANTIUM",
         "English": "Antium"
       },
@@ -159,12 +163,16 @@
         "English": "Buhen"
       },
       {
+        "zType": "TEXT_CITYNAME_AMUNIA",
+        "English": "Amunia"
+      },
+      {
         "zType": "TEXT_CITYNAME_BUSIRIS",
         "English": "Djedu"
       },
       {
         "zType": "TEXT_CITYNAME_BYZANTIUM",
-        "English": "Byzantium"
+        "English": "Byzantion"
       },
       {
         "zType": "TEXT_CITYNAME_CADIZ",
@@ -277,6 +285,10 @@
       {
         "zType": "TEXT_CITYNAME_DILBAT",
         "English": "Dilbat"
+      },
+      {
+        "zType": "TEXT_CITYNAME_AN_AT",
+        "English": "An-at"
       },
       {
         "zType": "TEXT_CITYNAME_DION",
@@ -639,6 +651,14 @@
         "English": "Meliddu"
       },
       {
+        "zType": "TEXT_CITYNAME_TUSHPA",
+        "English": "Tushpa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_GAZA",
+        "English": "Gaza"
+      },
+      {
         "zType": "TEXT_CITYNAME_MELITE",
         "English": "Maleth"
       },
@@ -656,7 +676,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_MILETUS",
-        "English": "Miletus"
+        "English": "Miletos"
       },
       {
         "zType": "TEXT_CITYNAME_MODICIA",
@@ -900,7 +920,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_RHAGES",
-        "English": "Rhages"
+        "English": "Raga"
       },
       {
         "zType": "TEXT_CITYNAME_RHEGION",
@@ -1007,6 +1027,10 @@
         "English": "Sirmium"
       },
       {
+        "zType": "TEXT_CITYNAME_OESCUS",
+        "English": "Oescus"
+      },
+      {
         "zType": "TEXT_CITYNAME_SISCIA",
         "English": "Siscia"
       },
@@ -1052,7 +1076,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_TARSUS",
-        "English": "Tarsos"
+        "English": "Tarsa"
       },
       {
         "zType": "TEXT_CITYNAME_TAYU_DJAYET",
@@ -1069,6 +1093,14 @@
       {
         "zType": "TEXT_CITYNAME_TEREDON",
         "English": "Teredon"
+      },
+      {
+        "zType": "TEXT_CITYNAME_CATURA",
+        "English": "Catura"
+      },
+      {
+        "zType": "TEXT_CITYNAME_KOMIS",
+        "English": "Komis"
       },
       {
         "zType": "TEXT_CITYNAME_THAENAE",
@@ -1281,6 +1313,18 @@
       {
         "zType": "TEXT_CITYNAME_TARENTUM",
         "English": "Tarentum"
+      },
+      {
+        "zType": "TEXT_CITYNAME_JERUSALEM",
+        "English": "Jerusalem"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MEROE",
+        "English": "Meroe"
+      },
+      {
+        "zType": "TEXT_CITYNAME_NPY",
+        "English": "Npy"
       }
     ]
   }

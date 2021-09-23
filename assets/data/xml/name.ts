@@ -559,6 +559,10 @@
         "Name": "TEXT_NAME_ZOUSHAN"
       },
       {
+        "zType": "NAME_KARALY",
+        "Name": "TEXT_NAME_KARALY"
+      },
+      {
         "zType": "NAME_AMATBAAL",
         "Name": "TEXT_NAME_AMATBAAL"
       },
@@ -1397,6 +1401,14 @@
       {
         "zType": "NAME_YAZDEGERD",
         "Name": "TEXT_NAME_YAZDEGERD"
+      },
+      {
+        "zType": "NAME_DARBAND",
+        "Name": "TEXT_NAME_DARBAND"
+      },
+      {
+        "zType": "NAME_ASPADANA",
+        "Name": "TEXT_NAME_ASPADANA"
       },
       {
         "zType": "NAME_AMESTRIS",

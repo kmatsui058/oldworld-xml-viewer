@@ -559,6 +559,10 @@
         "English": "Zoushan"
       },
       {
+        "zType": "TEXT_NAME_KARALY",
+        "English": "Karaly"
+      },
+      {
         "zType": "TEXT_NAME_AMATBAAL",
         "English": "Amatbaal"
       },
@@ -1401,6 +1405,14 @@
       {
         "zType": "TEXT_NAME_YAZDEGERD",
         "English": "Yazdegerd"
+      },
+      {
+        "zType": "TEXT_NAME_DARBAND",
+        "English": "Darband"
+      },
+      {
+        "zType": "TEXT_NAME_ASPADANA",
+        "English": "Aspadana"
       },
       {
         "zType": "TEXT_NAME_AMESTRIS",

@@ -416,6 +416,37 @@
         }
       },
       {
+        "zType": "ACHIEVEMENT_ALLIANCE_VICTORY",
+        "Name": "TEXT_ACHIEVEMENT_ALLIANCE_VICTORY",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
         "zType": "ACHIEVEMENT_EVENTLEVEL_HIGH",
         "Name": "TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH",
         "Victory": {
@@ -4604,6 +4635,130 @@
         }
       },
       {
+        "zType": "ACHIEVEMENT_LEARNTOPLAY_1",
+        "Name": "TEXT_ACHIEVEMENT_LEARNTOPLAY_1",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_LEARNTOPLAY_2",
+        "Name": "TEXT_ACHIEVEMENT_LEARNTOPLAY_2",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_LEARNTOPLAY_3",
+        "Name": "TEXT_ACHIEVEMENT_LEARNTOPLAY_3",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_LEARNTOPLAY_4",
+        "Name": "TEXT_ACHIEVEMENT_LEARNTOPLAY_4",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
         "zType": "ACHIEVEMENT_BARBARIAN_INVASION",
         "Name": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION",
         "Victory": {
@@ -5534,8 +5689,8 @@
         }
       },
       {
-        "zType": "ACHIEVEMENT_THEBES_NECROPOLIS",
-        "Name": "TEXT_ACHIEVEMENT_THEBES_NECROPOLIS",
+        "zType": "ACHIEVEMENT_WASET_NECROPOLIS",
+        "Name": "TEXT_ACHIEVEMENT_WASET_NECROPOLIS",
         "Victory": {
           
         },
@@ -6432,6 +6587,68 @@
       {
         "zType": "ACHIEVEMENT_ET_TU_BRUTUS",
         "Name": "TEXT_ACHIEVEMENT_ET_TU_BRUTUS",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_FIVE_ROUTS",
+        "Name": "TEXT_ACHIEVEMENT_FIVE_ROUTS",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_ETHNIC_DIVERSITY",
+        "Name": "TEXT_ACHIEVEMENT_ETHNIC_DIVERSITY",
         "Victory": {
           
         },

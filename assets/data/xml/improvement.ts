@@ -72,6 +72,9 @@
         "iMaxPlayerCount": {
           
         },
+        "iPrereqLaws": {
+          
+        },
         "iCitySiteUnits": {
           
         },
@@ -250,6 +253,9 @@
           
         },
         "aiAdjacentImprovementModifier": {
+          
+        },
+        "aiAdjacentImprovementClassModifier": {
           
         },
         "aiUnitTraitHeal": {
@@ -464,7 +470,6 @@
         "iCitySiteUnits": "1",
         "iDefendUnits": "1",
         "iUnitTurns": "8",
-        "bHeal": "1",
         "bBonus": "1",
         "bTribe": "1",
         "bRemoveBorder": "1",
@@ -608,7 +613,6 @@
         "iCitySiteUnits": "2",
         "iDefendUnits": "2",
         "iUnitTurns": "8",
-        "bHeal": "1",
         "bBonus": "1",
         "bTribe": "1",
         "bRemoveBorder": "1",
@@ -756,7 +760,6 @@
         "iCitySiteUnits": "2",
         "iDefendUnits": "3",
         "iUnitTurns": "8",
-        "bHeal": "1",
         "bBonus": "1",
         "bTribe": "1",
         "bRemoveBorder": "1",
@@ -914,7 +917,6 @@
         "iCitySiteUnits": "3",
         "iDefendUnits": "4",
         "iUnitTurns": "8",
-        "bHeal": "1",
         "bBonus": "1",
         "bTribe": "1",
         "bRemoveBorder": "1",
@@ -1077,9 +1079,9 @@
         "iRevealChange": "1",
         "iVisionChange": "2",
         "iDefenseModifier": "50",
-        "iUnitHeal": "1",
         "bBuild": "1",
         "bNoVegetation": "1",
+        "bHeal": "1",
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -1874,7 +1876,6 @@
         "bTerritoryOnly": "1",
         "bUrban": "1",
         "bNoVegetation": "1",
-        "bPermanent": "1",
         "DevelopImprovement": "IMPROVEMENT_VILLAGE",
         "aiYieldCost": {
           "Pair": {
@@ -1938,7 +1939,6 @@
         "bTerritoryOnly": "1",
         "bUrban": "1",
         "bNoVegetation": "1",
-        "bPermanent": "1",
         "DevelopImprovement": "IMPROVEMENT_TOWN",
         "aiYieldOutput": {
           "Pair": [
@@ -1996,7 +1996,6 @@
         "bTerritoryOnly": "1",
         "bUrban": "1",
         "bNoVegetation": "1",
-        "bPermanent": "1",
         "EffectCity": "EFFECTCITY_IMPROVEMENT_TOWN",
         "aiYieldOutput": {
           "Pair": [
@@ -2103,6 +2102,12 @@
             "iValue": "20"
           }
         },
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_GARRISON",
+            "iValue": "20"
+          }
+        },
         "aiUnitTraitXP": {
           "Pair": {
             "zIndex": "UNITTRAIT_MELEE",
@@ -2161,6 +2166,12 @@
         "aiYieldPillage": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
+            "iValue": "20"
+          }
+        },
+        "aiAdjacentImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_GARRISON",
             "iValue": "20"
           }
         },
@@ -3052,6 +3063,7 @@
         "iPillageTurns": "10",
         "iDefenseModifier": "20",
         "iMaxCityCount": "1",
+        "iPrereqLaws": "2",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -3116,6 +3128,7 @@
         "iPillageTurns": "10",
         "iDefenseModifier": "30",
         "iMaxCityCount": "1",
+        "iPrereqLaws": "4",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -3181,6 +3194,7 @@
         "iPillageTurns": "10",
         "iDefenseModifier": "40",
         "iMaxCityCount": "1",
+        "iPrereqLaws": "6",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -5994,7 +6008,7 @@
         "bPause": "1",
         "Achievement": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
         "ReligionPrereq": "RELIGION_CHRISTIANITY",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "aiYieldCost": {
           "Pair": [
             {
@@ -6063,7 +6077,7 @@
         "bPause": "1",
         "Achievement": "ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
         "ReligionPrereq": "RELIGION_MANICHAEISM",
-        "CulturePrereq": "CULTURE_STRONG",
+        "CulturePrereq": "CULTURE_DEVELOPING",
         "aiYieldCost": {
           "Pair": [
             {

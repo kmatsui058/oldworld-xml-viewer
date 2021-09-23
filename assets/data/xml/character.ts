@@ -218,7 +218,7 @@
         "Father": "CHARACTER_MATTAN",
         "Spouse": "CHARACTER_ACERBAS",
         "CharacterSelectPortrait": "CHARACTER_SELECT_DIDO",
-        "iAge": "27",
+        "iAge": "23",
         "aeTraits": {
           "zValue": [
             "TRAIT_DIPLOMAT_ARCHETYPE",
@@ -253,8 +253,8 @@
         "FirstName": "NAME_PYGMALION",
         "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_01",
         "PlayerNation": "NATION_CARTHAGE",
-        "Mother": "CHARACTER_MATTAN",
-        "iAge": "26",
+        "Father": "CHARACTER_MATTAN",
+        "iAge": "27",
         "aeTraits": {
           "zValue": [
             "TRAIT_SCHEMER_ARCHETYPE",

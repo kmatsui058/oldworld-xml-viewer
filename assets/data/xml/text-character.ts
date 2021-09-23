@@ -12,31 +12,31 @@
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_KING",
-        "English": "<masculine_0>King<feminine>Queen<end> {0_name}"
+        "English": "{masculine_0:King:Queen} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_KING_CONSORT",
-        "English": "<masculine_0>King Consort<feminine>Queen Consort<end> {0_name}"
+        "English": "{masculine_0:King Consort:Queen Consort} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_KING_DOWAGER",
-        "English": "<masculine_0>King Dowager<feminine>Queen Dowager<end> {0_name}"
+        "English": "{masculine_0:King Dowager:Queen Dowager} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_PRINCE",
-        "English": "<masculine_0>Prince<feminine>Princess<end> {0_name}"
+        "English": "{masculine_0:Prince:Princess} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_PRINCE_CONSORT",
-        "English": "<masculine_0>Prince Consort<feminine>Princess Consort<end> {0_name}"
+        "English": "{masculine_0:Prince Consort:Princess Consort} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_DUKE",
-        "English": "<masculine_0>Duke<feminine>Duchess<end> {0_name}"
+        "English": "{masculine_0:Duke:Duchess} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_DUKE_CONSORT",
-        "English": "<masculine_0>Duke Consort<feminine>Duchess Consort<end> {0_name}"
+        "English": "{masculine_0:Duke Consort:Duchess Consort} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_COUNCIL",
@@ -56,7 +56,7 @@
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_PATRIARCH",
-        "English": "<masculine_0>Patriarch<feminine>Matriarch<end> {0_name}"
+        "English": "{masculine_0:Patriarch:Matriarch} {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_OLIGRARCH",
@@ -69,15 +69,15 @@
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SPOUSE",
-        "English": "your <masculine_0>Husband<feminine>Wife<end>"
+        "English": "your {masculine_0:Husband:Wife}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD",
-        "English": "your <masculine_0>Son<feminine>Daughter<end>"
+        "English": "your {masculine_0:Son:Daughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDCHILD",
-        "English": "your <masculine_0>Grandson<feminine>Granddaughter<end>"
+        "English": "your {masculine_0:Grandson:Granddaughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_DESCENDANT",
@@ -85,11 +85,11 @@
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT",
-        "English": "your <masculine_0>Father<feminine>Mother<end>"
+        "English": "your {masculine_0:Father:Mother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDPARENT",
-        "English": "your <masculine_0>Grandfather<feminine>Grandmother<end>"
+        "English": "your {masculine_0:Grandfather:Grandmother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_ANCESTOR",
@@ -97,15 +97,15 @@
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING",
-        "English": "your <masculine_0>Brother<feminine>Sister<end>"
+        "English": "your {masculine_0:Brother:Sister}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING_IN_LAW",
-        "English": "your <masculine_0>Brother-in-Law<feminine>Sister-in-Law<end>"
+        "English": "your {masculine_0:Brother-in-Law:Sister-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_HALF_SIBLING",
-        "English": "your <masculine_0>Half-Brother<feminine>Half-Sister<end>"
+        "English": "your {masculine_0:Half-Brother:Half-Sister}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_COUSIN",
@@ -113,27 +113,27 @@
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_AUNT_UNCLE",
-        "English": "your <masculine_0>Uncle<feminine>Aunt<end>"
+        "English": "your {masculine_0:Uncle:Aunt}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_NIECE_NEPHEW",
-        "English": "your <masculine_0>Nephew<feminine>Niece<end>"
+        "English": "your {masculine_0:Nephew:Niece}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD_IN_LAW",
-        "English": "your <masculine_0>Son-in-Law<feminine>Daughter-in-Law<end>"
+        "English": "your {masculine_0:Son-in-Law:Daughter-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT_IN_LAW",
-        "English": "your <masculine_0>Father-in-Law<feminine>Mother-in-Law<end>"
+        "English": "your {masculine_0:Father-in-Law:Mother-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPCHILD",
-        "English": "your <masculine_0>Stepson<feminine>Stepdaughter<end>"
+        "English": "your {masculine_0:Stepson:Stepdaughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPPARENT",
-        "English": "your <masculine_0>Stepfather<feminine>Stepmother<end>"
+        "English": "your {masculine_0:Stepfather:Stepmother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_RELATIVE",
@@ -165,7 +165,7 @@
       },
       {
         "zType": "TEXT_CHARACTER_DEAD",
-        "English": "<icon>DeathSkull</icon> {0_name}"
+        "English": "icon(DeathSkull) {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_HAS_COGNOMEN",

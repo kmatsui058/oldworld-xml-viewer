@@ -795,25 +795,13 @@
         "zType": "IMPROVEMENTCLASS_BARRACKS",
         "Name": "TEXT_IMPROVEMENTCLASS_BARRACKS",
         "TechPrereq": "TECH_MILITARY_DRILL",
-        "SpecialistClass": "SPECIALISTCLASS_OFFICER",
-        "aiAdjacentImprovementClassModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_GARRISON",
-            "iValue": "20"
-          }
-        }
+        "SpecialistClass": "SPECIALISTCLASS_OFFICER"
       },
       {
         "zType": "IMPROVEMENTCLASS_RANGE",
         "Name": "TEXT_IMPROVEMENTCLASS_RANGE",
         "TechPrereq": "TECH_MACHINERY",
-        "SpecialistClass": "SPECIALISTCLASS_OFFICER",
-        "aiAdjacentImprovementClassModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_GARRISON",
-            "iValue": "20"
-          }
-        }
+        "SpecialistClass": "SPECIALISTCLASS_OFFICER"
       },
       {
         "zType": "IMPROVEMENTCLASS_ODEON",
@@ -864,8 +852,7 @@
       {
         "zType": "IMPROVEMENTCLASS_GARRISON",
         "Name": "TEXT_IMPROVEMENTCLASS_GARRISON",
-        "bHelpAll": "1",
-        "TechPrereq": "TECH_SOVEREIGNTY"
+        "bHelpAll": "1"
       },
       {
         "zType": "IMPROVEMENTCLASS_SHRINE",

@@ -27,7 +27,7 @@ export interface Entry {
   MemoryFamily?: ZType | Name2 | string;
   ForgetFamily?: CharacterName;
   MemoryAllFamilies?: ZType | Name2 | string;
-  MemoryCharacter?: CharacterName;
+  MemoryCharacter?: ZType | Name2 | string;
   ForgetCharacter?: CharacterName;
   AddLeaderRelationship?: ZType | Name2 | string;
   RemoveLeaderRelationship?: ZType | Name2 | string;
@@ -42,13 +42,13 @@ export interface Entry {
   FreeTheology?: CharacterName;
   Quest?: CharacterName;
   QuestForce?: CharacterName;
-  Ambition?: CharacterName;
+  Ambition?: ZType | Name2 | string;
   FinishGoal?: CharacterName;
   FailGoal?: CharacterName;
-  DesiredAmbition?: CharacterName;
   Mission?: CharacterName;
   Council?: ZType | Name2 | string;
   SetArchetype?: ZType | Name2 | string;
+  SetName?: CharacterName;
   SetVegetation?: CharacterName;
   SetResource?: CharacterName;
   AddResource?: ZType | Name2 | string;
@@ -77,9 +77,11 @@ export interface Entry {
   iDivorcedBySubject?: ZType | Name2 | string;
   iBirthWithSubject?: CharacterName;
   iAdoptedBySubject?: ZType | Name2 | string;
+  iConvertedBySubject?: CharacterName;
   iGovernorOfSubject?: CharacterName;
   iGeneralOfSubject?: CharacterName;
   iJoinSubject?: CharacterName;
+  iJoinReverse?: ZType | Name2 | string;
   iSeizeThroneSubject?: CharacterName;
   iSpreadToSubject?: CharacterName;
   iRemoveFromSubject?: CharacterName;
@@ -152,6 +154,7 @@ export interface Entry {
   aiUnits?: AiGlobalYieldsBase;
   aiTribeUnits?: CharacterName;
   aiBonusUnits?: AiGlobalYieldsBase;
+  aiRebelUnits?: CharacterName;
   aiLawOpinion?: CharacterName;
   aiRatings?: AiGlobalYieldsBase;
   aeAddProjects?: AeAddProjects;

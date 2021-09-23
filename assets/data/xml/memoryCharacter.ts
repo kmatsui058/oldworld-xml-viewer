@@ -46,6 +46,11 @@
         "iTurns": "10"
       },
       {
+        "zType": "MEMORYCHARACTER_ASSASSINATE_FAIL",
+        "Text": "TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+      },
+      {
         "zType": "MEMORYCHARACTER_MATCH_PREVENT",
         "Text": "TEXT_MEMORYCHARACTER_MATCH_PREVENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
@@ -781,6 +786,11 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
+        "zType": "MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+        "Text": "TEXT_MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_LONG"
+      },
+      {
         "zType": "MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
         "Text": "TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
@@ -859,6 +869,10 @@
         "Text": "TEXT_MEMORYCHARACTER_LIKES_HEADS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL",
         "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_LIED_TO",
+        "Text": "TEXT_MEMORYCHARACTER_LIED_TO"
       },
       {
         "beginGroup": "Character",

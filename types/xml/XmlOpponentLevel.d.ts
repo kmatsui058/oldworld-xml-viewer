@@ -10,7 +10,8 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   iWarModifier?: ZType | string;
-  iWarMinTurn: ZType | string;
+  iStartWarMinTurn: ZType | string;
+  iEndWarMinTurns: ZType | string;
 }
 export interface ZType {
 }

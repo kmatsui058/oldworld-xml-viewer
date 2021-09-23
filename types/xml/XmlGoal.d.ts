@@ -20,6 +20,7 @@ export interface Entry {
   StartLaw?: ZType | TechPrereq2 | string;
   EstablishTheology?: ZType | string;
   DiplomacyAll?: ZType | string;
+  MinOpinionFamily?: ZType | string;
   FinishBonus?: ZType;
   iLegitimacy?: ZType;
   iCities?: ZType | string;
@@ -55,7 +56,6 @@ export interface Entry {
   bTribeDead?: ZType;
   bScenario?: ZType;
   aiFamilyClassWeight?: AiFamilyClassWeight;
-  aiDesiredWeight?: AiFamilyClassWeight;
   aiDiplomacyCount?: AiDiplomacyCount;
   aiTribesKilledData?: AiTribesKilledData;
   aiYieldProducedData?: AiDiplomacyCount;

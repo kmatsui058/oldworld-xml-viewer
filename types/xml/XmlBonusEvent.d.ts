@@ -12,7 +12,7 @@ export interface Entry {
   zIcon?: ZType | string;
   CharacterName?: ZType;
   CityName?: ZType;
-  UnitName?: ZType;
+  UnitName?: ZType | string;
   Victory?: ZType;
   Achievement?: ZType | string;
   MemoryPlayer?: ZType | string;
@@ -45,10 +45,10 @@ export interface Entry {
   Ambition?: ZType | string;
   FinishGoal?: ZType;
   FailGoal?: ZType;
-  DesiredAmbition?: ZType | string;
   Mission?: ZType | string;
   Council?: ZType | string;
   SetArchetype?: ZType | string;
+  SetName?: ZType;
   SetVegetation?: ZType | string;
   SetResource?: ZType | string;
   AddResource?: ZType | string;
@@ -77,9 +77,11 @@ export interface Entry {
   iDivorcedBySubject?: ZType | string;
   iBirthWithSubject?: ZType | string;
   iAdoptedBySubject?: ZType | string;
+  iConvertedBySubject?: ZType;
   iGovernorOfSubject?: ZType | string;
   iGeneralOfSubject?: ZType | string;
   iJoinSubject?: ZType | string;
+  iJoinReverse?: ZType;
   iSeizeThroneSubject?: ZType | string;
   iSpreadToSubject?: ZType | string;
   iRemoveFromSubject?: ZType | string;
@@ -119,7 +121,7 @@ export interface Entry {
   bLeaveCouncil?: ZType | string;
   bReleaseGeneral?: ZType | string;
   bReleaseGovernor?: ZType | string;
-  bReleaseAgent?: ZType;
+  bReleaseAgent?: ZType | string;
   bChangeSuccession?: ZType | string;
   bAbdicate?: ZType | string;
   bChosenHeir?: ZType | string;
@@ -152,6 +154,7 @@ export interface Entry {
   aiUnits?: AiGlobalYieldsBase;
   aiTribeUnits?: AiTribeUnits;
   aiBonusUnits?: AiGlobalYieldsBase;
+  aiRebelUnits?: ZType;
   aiLawOpinion?: AiCityYields;
   aiRatings?: AiGlobalYieldsBase;
   aeAddProjects?: AeAddProjects;

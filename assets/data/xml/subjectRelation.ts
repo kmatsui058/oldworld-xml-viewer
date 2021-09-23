@@ -243,6 +243,9 @@
         "bTechNotAcquired": {
           
         },
+        "bTechAnyDeck": {
+          
+        },
         "bTechSameCost": {
           
         },
@@ -467,6 +470,14 @@
         "RelationshipPrereq": "RELATIONSHIP_DIVORCED_BY"
       },
       {
+        "zType": "SUBJECTRELATION_PLAYER_TEAM",
+        "MaxDiplomacyPlayer": "DIPLOMACY_TEAM"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_NOT_TEAM",
+        "MinDiplomacyPlayer": "DIPLOMACY_PEACE"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_PEACE",
         "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
         "MaxDiplomacyPlayer": "DIPLOMACY_PEACE"
@@ -648,6 +659,10 @@
       {
         "zType": "SUBJECTRELATION_PLAYER_MIN_COMPETENT",
         "MinKnowledgePlayer": "KNOWLEDGE_COMPETENT"
+      },
+      {
+        "zType": "SUBJECTRELATION_PLAYER_MAX_NAIVE",
+        "MaxKnowledgePlayer": "KNOWLEDGE_NAIVE"
       },
       {
         "zType": "SUBJECTRELATION_PLAYER_ROUTED",
@@ -996,6 +1011,14 @@
         "iMaxDistance": "10"
       },
       {
+        "zType": "SUBJECTRELATION_MAX_DISTANCE_15",
+        "iMaxDistance": "15"
+      },
+      {
+        "zType": "SUBJECTRELATION_MAX_DISTANCE_20",
+        "iMaxDistance": "20"
+      },
+      {
         "zType": "SUBJECTRELATION_ANY_DESCENDANT",
         "bAnyDescendant": "1"
       },
@@ -1162,6 +1185,10 @@
       {
         "zType": "SUBJECTRELATION_TECH_NOT_ACQUIRED",
         "bTechNotAcquired": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TECH_ANY_DECK",
+        "bTechAnyDeck": "1"
       },
       {
         "zType": "SUBJECTRELATION_TECH_SAME_COST",

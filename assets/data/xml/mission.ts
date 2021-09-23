@@ -196,6 +196,7 @@
         "zIcon": "MISSION_LEAVE_COUNCIL",
         "bVisibleCharacter": "1",
         "bNoPopup": "1",
+        "bCharacterUs": "1",
         "SubjectCharacter": "SUBJECT_COUNCIL",
         "aiResultDie": {
           "Pair": {
@@ -839,10 +840,44 @@
         }
       },
       {
+        "zType": "MISSION_SEND_COURTIER",
+        "Name": "TEXT_MISSION_SEND_COURTIER",
+        "NameTarget": "TEXT_MISSION_SEND_COURTIER_TARGET",
+        "NameCharacter": "TEXT_MISSION_SEND_COURTIER",
+        "zIcon": "MISSION_SEND_COURTIER",
+        "bVisibleCharacter": "1",
+        "bVisibleTarget": "1",
+        "bVisibleAlways": "1",
+        "bNoPopup": "1",
+        "bCharacterNoEvents": "1",
+        "bCharacterUs": "1",
+        "bEncyclopedia": "1",
+        "SubjectCharacter": "SUBJECT_COURTIER",
+        "SubjectTarget": "SUBJECT_PLAYER_TEAM_HUMAN_OR_AI",
+        "aiResultDie": {
+          "Pair": {
+            "zIndex": "MISSIONRESULT_SEND_COURTIER",
+            "iValue": "1"
+          }
+        },
+        "aiYieldCost": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "2"
+            }
+          ]
+        }
+      },
+      {
         "zType": "MISSION_PLAYER_MARRIAGE",
         "Name": "TEXT_MISSION_PLAYER_MARRIAGE",
-        "NameTarget": "TEXT_MISSION_PLAYER_MARRIAGE_TARGET",
-        "NameCharacter": "TEXT_MISSION_PLAYER_MARRIAGE_TARGET",
+        "NameTarget": "TEXT_MISSION_PLAYER_MARRIAGE",
+        "NameCharacter": "TEXT_MISSION_PLAYER_MARRIAGE",
         "zIcon": "PLAYER_MARRIAGE",
         "iMissionTurns": "1",
         "bVisibleCharacter": "1",
@@ -851,7 +886,8 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_OR_DESCENDANT_MARRY",
+        "SubjectCharacter": "SUBJECT_CAN_MARRY",
+        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_PLAYER_PEACE_OR_TRUCE",
         "aiResultDie": {
           "Pair": {
@@ -875,8 +911,8 @@
       {
         "zType": "MISSION_TRIBE_MARRIAGE",
         "Name": "TEXT_MISSION_TRIBE_MARRIAGE",
-        "NameTarget": "TEXT_MISSION_TRIBE_MARRIAGE_TARGET",
-        "NameCharacter": "TEXT_MISSION_TRIBE_MARRIAGE_TARGET",
+        "NameTarget": "TEXT_MISSION_TRIBE_MARRIAGE",
+        "NameCharacter": "TEXT_MISSION_TRIBE_MARRIAGE",
         "zIcon": "TRIBE_MARRIAGE",
         "iMissionTurns": "1",
         "bVisibleCharacter": "1",
@@ -885,7 +921,8 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_OR_DESCENDANT_MARRY",
+        "SubjectCharacter": "SUBJECT_CAN_MARRY",
+        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_TRIBE_PEACE_OR_TRUCE",
         "aiResultDie": {
           "Pair": {
@@ -909,7 +946,8 @@
       {
         "zType": "MISSION_FAMILY_MARRIAGE",
         "Name": "TEXT_MISSION_FAMILY_MARRIAGE",
-        "NameCharacter": "TEXT_MISSION_FAMILY_MARRIAGE_TARGET",
+        "NameTarget": "TEXT_MISSION_FAMILY_MARRIAGE",
+        "NameCharacter": "TEXT_MISSION_FAMILY_MARRIAGE",
         "zIcon": "FAMILY_MARRIAGE",
         "iMissionTurns": "1",
         "bVisibleCharacter": "1",
@@ -918,7 +956,8 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_OR_DESCENDANT_MARRY",
+        "SubjectCharacter": "SUBJECT_CAN_MARRY",
+        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_FAMILY_US",
         "aiResultDie": {
           "Pair": {
@@ -952,7 +991,8 @@
         "bTargetNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_OR_DESCENDANT_MARRY",
+        "SubjectCharacter": "SUBJECT_CAN_MARRY",
+        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_COURTIER_US",
         "aiResultDie": {
           "Pair": {
@@ -1165,8 +1205,8 @@
         }
       },
       {
-        "zType": "MISSION_CONVERT_RELIGION",
-        "Name": "TEXT_MISSION_CONVERT_RELIGION",
+        "zType": "MISSION_CONVERT_STATE",
+        "Name": "TEXT_MISSION_CONVERT_STATE",
         "zIcon": "SPREAD_RELIGION_TRIBE",
         "iXP": "20",
         "iMissionTurns": "2",
@@ -1181,6 +1221,51 @@
         "SubjectTargetStart": "SUBJECT_CHARACTER_RELIGION_DIFF",
         "SubjectTargetEnabled": "SUBJECT_ADULT",
         "SubjectTargetDisabled": "SUBJECT_RELIGION_HEAD",
+        "aiResultDie": {
+          "Pair": [
+            {
+              "zIndex": "MISSIONRESULT_CONVERT_STATE",
+              "iValue": "3"
+            },
+            {
+              "zIndex": "MISSIONRESULT_CONVERT_STATE_EVENT",
+              "iValue": "1"
+            }
+          ]
+        },
+        "aiYieldCost": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "2"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "MISSION_CONVERT_RELIGION",
+        "Name": "TEXT_MISSION_CONVERT_RELIGION",
+        "NameCharacter": "TEXT_MISSION_CONVERT_RELIGION_CHARACTER",
+        "zIcon": "SPREAD_RELIGION_TRIBE",
+        "iXP": "20",
+        "iMissionTurns": "1",
+        "iMissionTurnsScaled": "1",
+        "bVisibleTarget": "1",
+        "bCharacterNoEvents": "1",
+        "bTargetNoEvents": "1",
+        "bCharacterUs": "1",
+        "bEncyclopedia": "1",
+        "SubjectCharacter": "SUBJECT_RELIGION_HEAD_US",
+        "SubjectCharacterEnabled": "SUBJECT_CHARACTER_MIN_PLEASED",
+        "SubjectTarget": "SUBJECT_CHARACTER_US",
+        "SubjectTargetStart": "SUBJECT_CHARACTER_NOT_ME",
+        "SubjectTargetEnabled": "SUBJECT_ADULT",
+        "SubjectTargetDisabled": "SUBJECT_RELIGION_HEAD",
+        "SubjectRelationStart": "SUBJECTRELATION_RELIGION_DIFF",
         "aiResultDie": {
           "Pair": [
             {
@@ -1216,6 +1301,7 @@
         "iMissionTurnsScaled": "1",
         "bVisibleTarget": "1",
         "bCharacterNoEvents": "1",
+        "bTargetNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_RELIGION_HEAD_US",
@@ -1264,11 +1350,12 @@
         "iMissionTurnsScaled": "1",
         "bVisibleTarget": "1",
         "bCharacterNoEvents": "1",
+        "bTargetNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_FAMILY_HEAD_US",
         "SubjectCharacterEnabled": "SUBJECT_CHARACTER_MIN_PLEASED",
-        "SubjectTarget": "SUBJECT_CHARACTER_US_OR_THEM",
+        "SubjectTarget": "SUBJECT_CHARACTER_FAMILY_US",
         "SubjectTargetStart": "SUBJECT_CHARACTER_NOT_ME",
         "SubjectTargetEnabled": "SUBJECT_TEENAGER_OR_ADULT",
         "SubjectTargetDisabled": "SUBJECT_INTERCEDED_FOR_LEADER",
@@ -1418,7 +1505,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_SPYMASTER",
-        "SubjectTarget": "SUBJECT_PLAYER_THEM_HUMAN_OR_AI",
+        "SubjectTarget": "SUBJECT_PLAYER_NOT_TEAM_HUMAN_OR_AI",
         "aiResultDie": {
           "Pair": [
             {
@@ -1463,7 +1550,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_SPYMASTER",
-        "SubjectTarget": "SUBJECT_PLAYER_THEM",
+        "SubjectTarget": "SUBJECT_PLAYER_NOT_TEAM",
         "aiResultDie": {
           "Pair": [
             {
@@ -1509,7 +1596,7 @@
         "bEncyclopedia": "1",
         "TechPrereq": "TECH_CARTOGRAPHY",
         "SubjectCharacter": "SUBJECT_SPYMASTER",
-        "SubjectTarget": "SUBJECT_PLAYER_THEM_HUMAN_OR_AI",
+        "SubjectTarget": "SUBJECT_PLAYER_NOT_TEAM_HUMAN_OR_AI",
         "SubjectTargetEnabled": "SUBJECT_PLAYER_MIN_COMPETENT",
         "aiResultDie": {
           "Pair": [
@@ -2089,7 +2176,7 @@
         "SubjectCharacter": "SUBJECT_TUTOR_US",
         "SubjectCharacterEnabled": "SUBJECT_NO_JOB",
         "SubjectTarget": "SUBJECT_CHARACTER_US",
-        "SubjectTargetStart": "SUBJECT_TUTOR_STUDENT_US",
+        "SubjectTargetStart": "SUBJECT_TUTOR_STUDENT",
         "aiResultDie": {
           "Pair": [
             {
@@ -2144,7 +2231,7 @@
         "SubjectCharacter": "SUBJECT_LEADER_SCHOLAR",
         "SubjectCharacterEnabled": "SUBJECT_NO_JOB",
         "SubjectTarget": "SUBJECT_CHARACTER_US",
-        "SubjectTargetStart": "SUBJECT_TUTOR_STUDENT_US",
+        "SubjectTargetStart": "SUBJECT_TUTOR_STUDENT",
         "aiResultDie": {
           "Pair": [
             {

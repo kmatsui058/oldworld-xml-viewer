@@ -10,7 +10,9 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
+  Class?: ZType | string;
   SourceUnitTrait?: ZType | string;
+  iClassNum?: ZType | string;
   iStrengthModifier?: ZType | string;
   iAttackModifier?: ZType | string;
   iDefenseModifier?: ZType | string;
@@ -31,12 +33,14 @@ export interface Entry {
   iDamagedUsModifier?: ZType | string;
   iDamagedThemModifier?: ZType | string;
   iGeneralModifier?: ZType | string;
-  iTribeModifier?: ZType | string;
   iFlankingAttackModifier?: ZType | string;
   iAdjacentSameModifier?: ZType | string;
   iAdjacentSameDefenseModifier?: ZType | string;
   iHealExtra?: ZType | string;
   iHealAlways?: ZType | string;
+  bSkipIcon?: ZType | string;
+  bMultiTeams?: ZType | string;
+  bMeleeCounter?: ZType | string;
   bRout?: ZType | string;
   bPush?: ZType | string;
   bPushWater?: ZType | string;
@@ -57,6 +61,7 @@ export interface Entry {
   aiUnitTraitModifierAttack?: AiAttackValue;
   aiUnitTraitModifierDefense?: AiAttackValue;
   aiUnitTraitModifierMelee?: AiAttackValue;
+  aiMilitaryKillYield?: AiAttackValue;
   abHideVegetation?: AbHideVegetation;
   abUnitTraitValid?: AbUnitTraitValid;
   abUnitTraitInvalid?: AbHideVegetation;

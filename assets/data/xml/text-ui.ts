@@ -60,7 +60,7 @@
       },
       {
         "zType": "TEXT_UI_THEIR_TURN",
-        "English": "{0_player}'s Turn {true_1:{1_orders}{YIELD_ORDERS}}"
+        "English": "{0_player}'s Turn{true_1: ({1_orders}{YIELD_ORDERS})}"
       },
       {
         "zType": "TEXT_UI_HOTSEAT_PLAYER",
@@ -77,14 +77,6 @@
       {
         "zType": "TEXT_UI_END_YEAR",
         "English": "End {0_turnScale}"
-      },
-      {
-        "zType": "TEXT_UI_YEAR_NUMBER",
-        "English": "Year {0}"
-      },
-      {
-        "zType": "TEXT_UI_YEAR_NUMBER_AND_MAX",
-        "English": "Year: {0}/{1}"
       },
       {
         "zType": "TEXT_UI_IDLE_LABEL_NEXT_UNIT",
@@ -499,6 +491,10 @@
         "English": "Citizens  {0}"
       },
       {
+        "zType": "TEXT_UI_CITY_SELECTION_HURRY_PRODUCTION",
+        "English": "Hurry Production"
+      },
+      {
         "zType": "TEXT_UI_CHARACTER_SELECTION_FAMILY",
         "English": "Family: {0}"
       },
@@ -803,6 +799,10 @@
         "English": "[Won Game]"
       },
       {
+        "zType": "TEXT_UI_EVENT_STORY_WON_GAME_ALLIANCE",
+        "English": "[Ally Won Game]"
+      },
+      {
         "zType": "TEXT_UI_EVENT_STORY_LOST_GAME",
         "English": "[Lost Game]"
       },
@@ -1095,8 +1095,16 @@
         "English": "Are you sure you want to restart? \nAny unsaved progress will be lost."
       },
       {
+        "zType": "TEXT_UI_KICK_DIALOG",
+        "English": "Are you sure you want to remove this player from the game?"
+      },
+      {
         "zType": "TEXT_UI_SURRENDER_CONFIRM",
         "English": "Yes"
+      },
+      {
+        "zType": "TEXT_UI_KICK_CONFIRM",
+        "English": "Kick"
       },
       {
         "zType": "TEXT_MENU_SCREEN_RESUME_BUTTON",
@@ -1115,8 +1123,8 @@
         "English": "Mods"
       },
       {
-        "zType": "TEXT_MENU_SCREEN_TOOLS_BUTTON",
-        "English": "Tools"
+        "zType": "TEXT_MENU_SCREEN_EXTRAS_BUTTON",
+        "English": "Extras"
       },
       {
         "zType": "TEXT_MENU_SCREEN_OPTIONS_BUTTON",
@@ -1383,6 +1391,10 @@
         "English": "Delete"
       },
       {
+        "zType": "TEXT_CLOUD_SCREEN_HOST_CONTROLS",
+        "English": "Host Controls"
+      },
+      {
         "zType": "TEXT_CLOUD_SCREEN_USER_TITLE",
         "English": "Cloud Games"
       },
@@ -1553,6 +1565,10 @@
       {
         "zType": "TOOLS_SCREEN_ENCYCLOPEDIA_BUTTON",
         "English": "Encyclopedia"
+      },
+      {
+        "zType": "TOOLS_SCREEN_MANUAL_BUTTON",
+        "English": "Manual"
       },
       {
         "zType": "TOOLS_SCREEN_CREDITS_BUTTON",
@@ -1768,7 +1784,7 @@
       },
       {
         "zType": "TEXT_MP_SETUP_INVALID_START_NATIONS",
-        "English": "\"No Duplicate Nations\" game option is enabled or \"No Characters\" is disabled, but there are more players than unique nations or duplicate nations have been selected"
+        "English": "There are more players than unique nations, or duplicate nations have been selected."
       },
       {
         "zType": "TEXT_MP_SETUP_INVALID_START_MAP",
@@ -1845,6 +1861,18 @@
       {
         "zType": "TEXT_OPTIONS_MENU_TITLEBAR_CONTROLS",
         "English": "Controls"
+      },
+      {
+        "zType": "TEXT_OPTIONS_MENU_CONTROLS_CLEAR_HOTKEY",
+        "English": "Clear"
+      },
+      {
+        "zType": "TEXT_OPTIONS_MENU_CONTROLS_HOTKEY_INVALID",
+        "English": "Hotkey combination invalid (must contain a key other than Alt, Ctrl, or Shift). Change will not be applied."
+      },
+      {
+        "zType": "TEXT_OPTIONS_MENU_CONTROLS_HOTKEY_CONFLICT",
+        "English": "Hotkey combination already assigned to {0_hotkey}. Change will not be applied."
       },
       {
         "zType": "TEXT_OPTIONS_MENU_CONTROLS_SAVE",

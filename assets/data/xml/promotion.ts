@@ -156,9 +156,9 @@
         "bUpgrade": "1"
       },
       {
-        "zType": "PROMOTION_GARRISON",
-        "Name": "TEXT_PROMOTION_GARRISON",
-        "EffectUnit": "EFFECTUNIT_GARRISON",
+        "zType": "PROMOTION_WARDEN",
+        "Name": "TEXT_PROMOTION_WARDEN",
+        "EffectUnit": "EFFECTUNIT_WARDEN",
         "bUpgrade": "1"
       },
       {
@@ -293,9 +293,9 @@
         "EffectUnit": "EFFECTUNIT_SADDLEBORN"
       },
       {
-        "zType": "PROMOTION_SNIPING",
-        "Name": "TEXT_PROMOTION_SNIPING",
-        "EffectUnit": "EFFECTUNIT_SNIPING"
+        "zType": "PROMOTION_SENTINEL",
+        "Name": "TEXT_PROMOTION_SENTINEL",
+        "EffectUnit": "EFFECTUNIT_SENTINEL"
       }
     ]
   }

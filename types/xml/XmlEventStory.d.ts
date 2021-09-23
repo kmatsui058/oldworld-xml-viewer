@@ -35,6 +35,8 @@ export interface Entry {
   iImageSubject?: ZType | Name2 | string;
   iImageExtra?: ZType | Name2 | string;
   iImageOther?: ZType | Name2 | string;
+  zHighlightAttribute?: Name2;
+  iTagIndex?: Name2;
   iLookAtSubject?: ZType | Name2 | string;
   iMarryTempSubject?: ZType | Name2 | string;
   iSortOrder?: ZType | Name2 | string;
@@ -77,7 +79,7 @@ export interface Pair2 {
 }
 export interface AeBonuses {
   comment?: string;
-  zValue?: string[] | (ZType | string)[] | string;
+  zValue?: string[] | ZType[] | (ZType | string)[] | string;
 }
 export interface SubjectRelations {
   comment?: string;

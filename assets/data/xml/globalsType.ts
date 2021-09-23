@@ -347,10 +347,6 @@
         "zValue": "MISSION_TUTOR"
       },
       {
-        "zType": "TUTOR_SCHOLAR_MISSION",
-        "zValue": "MISSION_TUTOR_SCHOLAR"
-      },
-      {
         "zType": "WEAK_CULTURE",
         "zValue": "CULTURE_WEAK"
       },
@@ -631,6 +627,10 @@
         "zValue": "PLAYEROPTION_AZERTY_KEYBOARD"
       },
       {
+        "zType": "SLOW_PLAYEROPTION",
+        "zValue": "PLAYEROPTION_SLOW"
+      },
+      {
         "zType": "DEBUG_HELP",
         "zValue": "PLAYEROPTION_DEBUG_HELP"
       },
@@ -905,6 +905,10 @@
       {
         "zType": "WIN_GAME_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_WIN_GAME"
+      },
+      {
+        "zType": "WIN_GAME_ALLIANCE_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_WIN_GAME_ALLIANCE"
       },
       {
         "zType": "LOSE_GAME_EVENTTRIGGER",

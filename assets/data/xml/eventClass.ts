@@ -66,6 +66,11 @@
         "iMinRepeat": "1"
       },
       {
+        "zType": "EVENTCLASS_MISSION",
+        "iPlayerProb": "50",
+        "iMinRepeat": "5"
+      },
+      {
         "zType": "EVENTCLASS_LAW_OPINION",
         "iMinTurns": "40",
         "iMinRepeat": "20"
@@ -78,7 +83,7 @@
       },
       {
         "zType": "EVENTCLASS_REIGN",
-        "iPlayerProb": "25",
+        "iLevelProb": "20",
         "iMinTurns": "20",
         "iMinRepeat": "20"
       },

@@ -59,6 +59,10 @@
         "English": "Won Conquest Victory"
       },
       {
+        "zType": "TEXT_ACHIEVEMENT_ALLIANCE_VICTORY",
+        "English": "Helped an ally win a game"
+      },
+      {
         "zType": "TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH",
         "English": "Won with Event Level High"
       },
@@ -603,6 +607,22 @@
         "English": "Blade of the Monkey (Assassinated by a monkey)"
       },
       {
+        "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_1",
+        "English": "Completed Learn to Play Scenario 1"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_2",
+        "English": "Completed Learn to Play Scenario 2"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_3",
+        "English": "Completed Learn to Play Scenario 3"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_4",
+        "English": "Completed Learn to Play Scenario 4"
+      },
+      {
         "zType": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION",
         "English": "Survived the Barbarian Invasion"
       },
@@ -723,8 +743,8 @@
         "English": "Built the Hanging Gardens in Babylon"
       },
       {
-        "zType": "TEXT_ACHIEVEMENT_THEBES_NECROPOLIS",
-        "English": "Built the Necropolis in Thebes"
+        "zType": "TEXT_ACHIEVEMENT_WASET_NECROPOLIS",
+        "English": "Built the Necropolis in Waset"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BABYLON_ISHTAR_GATE",
@@ -841,6 +861,14 @@
       {
         "zType": "TEXT_ACHIEVEMENT_ET_TU_BRUTUS",
         "English": "Et tu Brutus? (As Rome had Leader assassinated by another Roman family)"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_FIVE_ROUTS",
+        "English": "Five Routs (One unit performs five routs in a row in the same turn)"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_ETHNIC_DIVERSITY",
+        "English": "Ethnic Diversity (Have a Leader with all 7 ethnicities)"
       }
     ]
   }

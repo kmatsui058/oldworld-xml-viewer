@@ -320,7 +320,7 @@
       },
       {
         "zType": "TEXT_HINT_78",
-        "English": "A link(IMPROVEMENT_HAMLET), and its upgrades link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), if brought into your link(CONCEPT_TRADE_NETWORK), will produce extra link(YIELD_MONEY,1)."
+        "English": "A link(IMPROVEMENT_HAMLET) and its upgrades, link(IMPROVEMENT_VILLAGE) and link(IMPROVEMENT_TOWN), produce extra link(YIELD_MONEY,1) if brought into your link(CONCEPT_TRADE_NETWORK)."
       },
       {
         "zType": "TEXT_HINT_79",
@@ -328,7 +328,7 @@
       },
       {
         "zType": "TEXT_HINT_80",
-        "English": "Cities and link(IMPROVEMENT_HAMLET,2) can be connected with one another over link(CONCEPT_ROAD,2), rivers, and even open water if they are on the coast, or are connected to a link(IMPROVEMENT_HARBOR)."
+        "English": "Cities and their link(CONCEPT_URBAN) tiles can be connected with one another over link(CONCEPT_ROAD,2), rivers, or open water."
       },
       {
         "zType": "TEXT_HINT_81",

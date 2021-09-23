@@ -2562,6 +2562,34 @@
         }
       },
       {
+        "zType": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_31",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_01"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_21_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "CARTHAGE_LEADER_MALE_31_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "CARTHAGE_LEADER_MALE_31_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "CARTHAGE_LEADER_MALE_31_SENIOR"
+            }
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_01",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
@@ -5110,6 +5138,146 @@
         }
       },
       {
+        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_17",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_05"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_22_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_17_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GREECE_LEADER_MALE_17_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GREECE_LEADER_MALE_17_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_18",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_03"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_27_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_18_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GREECE_LEADER_MALE_18_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GREECE_LEADER_MALE_18_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_19",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_23"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_17_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_19_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GREECE_LEADER_MALE_19_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GREECE_LEADER_MALE_19_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_20",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_24"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_09_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_20_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GREECE_LEADER_MALE_20_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GREECE_LEADER_MALE_20_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_21",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_05"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_25_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GREECE_LEADER_MALE_21_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GREECE_LEADER_MALE_21_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GREECE_LEADER_MALE_21_SENIOR"
+            }
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_PORTRAIT_PERSIA_LEADER_MALE_01",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
@@ -7238,6 +7406,90 @@
         }
       },
       {
+        "zType": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_18",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_31"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_BABY_17"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "ROME_LEADER_MALE_18_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "ROME_LEADER_MALE_18_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "ROME_LEADER_MALE_18_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_19",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_12"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_BABY_23"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "ROME_LEADER_MALE_19_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "ROME_LEADER_MALE_19_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "ROME_LEADER_MALE_19_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_20",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_16"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_25_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "ROME_LEADER_MALE_20_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "ROME_LEADER_MALE_20_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "ROME_LEADER_MALE_20_SENIOR"
+            }
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_PORTRAIT_ROMULUS",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
@@ -8890,6 +9142,34 @@
         }
       },
       {
+        "zType": "CHARACTER_PORTRAIT_DANE_MALE_06",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_16"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_26_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "DANE_MALE_06_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "DANE_MALE_06_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "DANE_MALE_06_SENIOR"
+            }
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_PORTRAIT_GAUL_MALE_01",
         "Gender": "GENDER_MALE",
         "azAgeGroupSpriteNames": {
@@ -9165,6 +9445,62 @@
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
               "zValue": "GAUL_FEMALE_05_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GAUL_MALE_06",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_01"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_01_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GAUL_MALE_06_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GAUL_MALE_06_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GAUL_MALE_06_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_GAUL_MALE_07",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_03"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_27_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "GAUL_MALE_07_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "GAUL_MALE_07_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "GAUL_MALE_07_SENIOR"
             }
           ]
         }
@@ -10005,6 +10341,34 @@
             {
               "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
               "zValue": "THRACIAN_MALE_05_SENIOR"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_PORTRAIT_THRACIAN_MALE_06",
+        "Gender": "GENDER_MALE",
+        "azAgeGroupSpriteNames": {
+          "Pair": [
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_BABY",
+              "zValue": "GENERIC_BABY_11"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
+              "zValue": "GENERIC_MALE_16_YOUTH"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_TEEN",
+              "zValue": "THRACIAN_MALE_06_TEEN"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_ADULT",
+              "zValue": "THRACIAN_MALE_06_ADULT"
+            },
+            {
+              "zIndex": "CHARACTER_AGE_GROUP_SENIOR",
+              "zValue": "THRACIAN_MALE_06_SENIOR"
             }
           ]
         }

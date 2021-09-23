@@ -46,6 +46,7 @@ export interface Entry {
   iSpecialistRuralTrainTimeModifier?: ZType | string;
   iSpecialistUrbanCostModifier?: ZType | string;
   iSpecialistUrbanTrainTimeModifier?: ZType | string;
+  iProjectCostModifier?: ZType | string;
   iDiscipleTrainTimeModifier?: ZType | string;
   iHurryDiscontentModifier?: ZType | string;
   iBuildTurnChange?: ZType | string;
@@ -76,7 +77,7 @@ export interface Entry {
   aiYieldRateReligionNonState?: AiYieldRateCulture;
   aiYieldRateHolyCityWorld?: AiYieldRateCulture;
   aiYieldModifier?: AiYieldRate;
-  aiImprovementModifier?: AiImprovementModifier;
+  aiImprovementModifier?: AiYieldRate;
   aiImprovementRiverModifier?: AiYieldRateCulture;
   aiImprovementClassModifier?: AiYieldRate;
   aiUnitCostModifier?: AiYieldRateCulture;
@@ -84,7 +85,7 @@ export interface Entry {
   aiUnitTraitXP?: AiYieldRate;
   aiUnitTraitLevel?: AiYieldRateCulture;
   aiUnitTraitCostModifier?: AiYieldRateCulture;
-  aiUnitTraitTrainModifier?: AiYieldRateCulture;
+  aiUnitTraitTrainModifier?: ZType;
   aiImprovementClassUpgradeTurnChange?: AiYieldRateCulture;
   abNoImprovementClassMax?: AbNoImprovementClassMax;
   abUrbanTerrainValid?: AbNoImprovementClassMax;
@@ -126,9 +127,6 @@ export interface AbNoImprovementClassMax {
 export interface Pair2 {
   zIndex: string;
   bValue: string;
-}
-export interface AiImprovementModifier {
-  Pair?: Pair[];
 }
 export interface AiYieldRateCulture {
   Pair?: Pair;

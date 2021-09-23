@@ -276,7 +276,7 @@
       },
       {
         "zType": "TEXT_CONCEPT_TRIBE",
-        "English": "Tribe~a Tribe~Tribes"
+        "English": "Tribe~a Tribe~Tribes~Tribal"
       },
       {
         "zType": "TEXT_CONCEPT_ALLIANCE_PLAYER",
@@ -336,11 +336,7 @@
       },
       {
         "zType": "TEXT_CONCEPT_HURRY",
-        "English": "Hurry Production~Hurrying Production"
-      },
-      {
-        "zType": "TEXT_CONCEPT_DESIRED_AMBITION",
-        "English": "Desired Ambition"
+        "English": "Hurry Production~Hurrying Production~Hurry"
       },
       {
         "zType": "TEXT_CONCEPT_DISCIPLE",
@@ -415,12 +411,12 @@
         "English": "Succession Law~Succession Laws"
       },
       {
-        "zType": "TEXT_CONCEPT_COASTAL_CITIES",
-        "English": "Coastal City~a Coastal City~Coastal Cities"
-      },
-      {
         "zType": "TEXT_CONCEPT_COGNOMEN",
         "English": "Cognomen~a Cognomen~Cognomens"
+      },
+      {
+        "zType": "TEXT_CONCEPT_COMMUNITY_SHORTHAND",
+        "English": "Community Shorthand"
       },
       {
         "zType": "TEXT_CONCEPT_COURT",
@@ -573,6 +569,10 @@
       {
         "zType": "TEXT_CONCEPT_ROUT",
         "English": "Rout"
+      },
+      {
+        "zType": "TEXT_CONCEPT_ROYAL",
+        "English": "Royal~a Royal~Royals"
       },
       {
         "zType": "TEXT_CONCEPT_SETTLEMENT",
@@ -871,8 +871,8 @@
         "English": "Enact Eight Laws"
       },
       {
-        "zType": "TEXT_GOAL_ALL_LAWS",
-        "English": "Enact All Laws"
+        "zType": "TEXT_GOAL_ALL_LAWS_FRIENDLY",
+        "English": "Enact All Laws, All link(CONCEPT_FAMILY,2) link(OPINIONFAMILY_FRIENDLY)"
       },
       {
         "zType": "TEXT_GOAL_VENERATION",
@@ -996,7 +996,7 @@
       },
       {
         "zType": "TEXT_GOAL_100_GOODS_TURN",
-        "English": "+100 link(YIELD_FOOD,1), link(YIELD_IRON,1), link(YIELD_WOOD,1), and link(YIELD_STONE,1)/Year"
+        "English": "+100 link(YIELD_FOOD,1), link(YIELD_IRON,1), link(YIELD_STONE,1), and link(YIELD_WOOD,1)/Year"
       },
       {
         "zType": "TEXT_GOAL_CIVICS_2000",
@@ -2167,12 +2167,16 @@
         "English": "Drama"
       },
       {
+        "zType": "TEXT_TECH_DRAMA_BONUS_SETTLER",
+        "English": "Free link(UNIT_SETTLER)"
+      },
+      {
         "zType": "TEXT_TECH_POLIS",
         "English": "Polis"
       },
       {
-        "zType": "TEXT_TECH_POLIS_BONUS_SETTLER",
-        "English": "Free link(UNIT_SETTLER)"
+        "zType": "TEXT_TECH_POLIS_BONUS_WORKER",
+        "English": "Free link(UNIT_WORKER)"
       },
       {
         "zType": "TEXT_TECH_MILITARY_DRILL",
@@ -2203,6 +2207,10 @@
         "English": "Phalanx"
       },
       {
+        "zType": "TEXT_TECH_PHALANX_BONUS_ORDERS",
+        "English": "link(YIELD_ORDERS) Boost"
+      },
+      {
         "zType": "TEXT_TECH_SPOKED_WHEEL",
         "English": "Spoked Wheel"
       },
@@ -2219,12 +2227,20 @@
         "English": "Forestry"
       },
       {
+        "zType": "TEXT_TECH_FORESTRY_BONUS_SCIENTIST",
+        "English": "Free link(COURTIER_SCIENTIST)"
+      },
+      {
         "zType": "TEXT_TECH_STEEL",
         "English": "Steel"
       },
       {
         "zType": "TEXT_TECH_SOVEREIGNTY",
         "English": "Sovereignty"
+      },
+      {
+        "zType": "TEXT_TECH_SOVEREIGNITY_BONUS_CIVICS",
+        "English": "link(YIELD_CIVICS) Boost"
       },
       {
         "zType": "TEXT_TECH_METAPHYSICS",
@@ -2244,7 +2260,7 @@
       },
       {
         "zType": "TEXT_TECH_CITIZENSHIP_BONUS_MINISTER",
-        "English": "Free Court Minister"
+        "English": "Free link(COURTIER_MINISTER)"
       },
       {
         "zType": "TEXT_TECH_PORTCULLIS",
@@ -2292,7 +2308,7 @@
       },
       {
         "zType": "TEXT_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-        "English": "Free Court Scholar"
+        "English": "Free link(COURTIER_SCIENTIST)"
       },
       {
         "zType": "TEXT_TECH_TORSION",
@@ -2319,10 +2335,6 @@
         "English": "Architecture"
       },
       {
-        "zType": "TEXT_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "English": "link(YIELD_CIVICS) Boost"
-      },
-      {
         "zType": "TEXT_TECH_MANOR",
         "English": "Manor"
       },
@@ -2335,12 +2347,12 @@
         "English": "Battleline"
       },
       {
-        "zType": "TEXT_TECH_DOCTRINE",
-        "English": "Doctrine"
+        "zType": "TEXT_TECH_BATTLELINE_BONUS_SOLDIER",
+        "English": "Free link(COURTIER_SOLDIER)"
       },
       {
-        "zType": "TEXT_TECH_DOCTRINE_BONUS_ORDERS",
-        "English": "link(YIELD_ORDERS) Boost"
+        "zType": "TEXT_TECH_DOCTRINE",
+        "English": "Doctrine"
       },
       {
         "zType": "TEXT_TECH_CARTOGRAPHY",
@@ -2356,7 +2368,7 @@
       },
       {
         "zType": "TEXT_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "English": "Free Court Merchant"
+        "English": "Free link(COURTIER_MERCHANT)"
       },
       {
         "zType": "TEXT_TECH_JURISPRUDENCE",
@@ -2387,10 +2399,6 @@
         "English": "Cohorts"
       },
       {
-        "zType": "TEXT_TECH_COHORTS_BONUS_SOLDIER",
-        "English": "Free Court Soldier"
-      },
-      {
         "zType": "TEXT_TECH_WINDLASS",
         "English": "Windlass"
       },
@@ -2411,6 +2419,10 @@
         "English": "Fiscal Policy"
       },
       {
+        "zType": "TEXT_TECH_FISCAL_POLICY_BONUS_MERCHANT",
+        "English": "Free link(COURTIER_MERCHANT)"
+      },
+      {
         "zType": "TEXT_TECH_BARDING",
         "English": "Barding"
       },
@@ -2419,8 +2431,16 @@
         "English": "Infantry Square"
       },
       {
+        "zType": "TEXT_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
+        "English": "Free link(COURTIER_SOLDIER)"
+      },
+      {
         "zType": "TEXT_TECH_CHAIN_DRIVE",
         "English": "Chain Drive"
+      },
+      {
+        "zType": "TEXT_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "English": "Free link(COURTIER_MINISTER)"
       },
       {
         "zType": "TEXT_TECH_BALLISTICS",
@@ -2500,363 +2520,383 @@
       },
       {
         "zType": "TEXT_GUIDE_TECH_STONECUTTING",
-        "English": "Researching Stonecutting allows you to build quarries in your cities, an essential building that provides a steady income of stone. It also allows the construction of forts to provide an early line of protection, increasing the defense, line of sight and healing of a unit on the same tile."
+        "English": "Researching Stonecutting allows you to build link(IMPROVEMENT_QUARRY,2) in your Cities, an essential building that provides a steady income of link(YIELD_STONE). It also allows the construction of link(IMPROVEMENT_FORT,2) to provide an early line of protection, increasing the defense, line of sight and healing of a unit on the same tile."
       },
       {
         "zType": "TEXT_GUIDE_TECH_STONECUTTING_BONUS_STONE",
-        "English": "This card will give you a one-off bonus of +200 link(YIELD_STONE) when researched, a useful boost for building forts, wonders, or other larger projects. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This card will give you a one-off bonus of +200 link(YIELD_STONE) when researched, a useful boost for building link(IMPROVEMENT_FORT,2), link(CONCEPT_WONDER,2), or other large projects. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_TRAPPING",
-        "English": "This early tech unlocks Slingers, a ranged unit able to attack from a distance, and Camps, a diverse building that provides essential orders when built on camels or elephants, or helps to improve your city with growth or culture when built on game or fur."
+        "English": "This early tech unlocks link(UNIT_SLINGER,2), a ranged unit able to attack from a distance, and link(IMPROVEMENT_CAMP,2), a diverse building that provides essential link(YIELD_ORDERS) when built on Camels or Elephants, or helps to improve your City with link(YIELD_GROWTH) or link(YIELD_CULTURE) when built on Game or Fur."
       },
       {
         "zType": "TEXT_GUIDE_TECH_DIVINATION",
-        "English": "The first step to effectively using Religions, Divination lets you build one of the various Shrines in each city. The first Shrine you build will also found your nation’s pagan Religion, which Characters, Families and Cities may then convert to. Building more Shrines will increase the Religion, and its converts’, opinion of you."
+        "English": "The first step to effectively using Religions, Divination lets you build various link(CONCEPT_SHRINE,2) - one to each of your four pagan gods. The first link(CONCEPT_SHRINE) you build will also found your nation’s link(CONCEPT_PAGAN_RELIGION), which Characters, Families and Cities may then convert to. Building more link(CONCEPT_SHRINE,2) will increase the Religion, and its converts’, opinion of you."
       },
       {
         "zType": "TEXT_GUIDE_TECH_ADMINISTRATION",
-        "English": "Administration allows for the improvement of your Cities through the construction of Granaries, which increase Growth and boost the Food output of adjacent Farms, and the Treasury, an upgradeable project that provides the City with a steady stream of Money."
+        "English": "Administration allows for the improvement of your Cities through the construction of link(IMPROVEMENT_GRANARY,2), which increase link(YIELD_GROWTH) and boost the link(YIELD_FOOD) output of adjacent link(IMPROVEMENT_FARM,2), and the link(PROJECT_TREASURY_1), an upgradeable project that provides the City with a steady stream of link(YIELD_MONEY)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LABOR_FORCE",
-        "English": "Labor Force allows your Builders to add Roads to tiles, providing faster movement for units on the road and expanding your Trade Network. It also opens the choice between the Freedom and Slavery laws, and is the path towards researching both polearm and naval units."
+        "English": "Labor Force allows your link(UNIT_WORKER,2) to add link(CONCEPT_ROAD,2) to tiles. Although long link(CONCEPT_ROAD,2) can be slow and expensive to build, well placed ones give a great advantage in quickly moving your Units to the front-line and and expanding your link(CONCEPT_TRADE_NETWORK). It also opens the choice between the link(LAW_FREEDOM) and link(LAW_SLAVERY) Laws, and is the path towards researching both polearm and naval units."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HUSBANDRY",
-        "English": "The humble-seeming Husbandry unlocks the building of pastures on city tiles with grazing animals as a source for growth and food, or on horses for orders. It also leads to later research for mounted units."
+        "English": "The humble-seeming Husbandry unlocks the building of link(IMPROVEMENT_PASTURE,2) on City tiles with grazing animals as a source for link(YIELD_GROWTH) and link(YIELD_FOOD), or on Horses for link(YIELD_ORDERS). It also leads to later research to unlock mounted units."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HUSBANDRY_BONUS_FOOD",
-        "English": "This bonus card will give you +200 foodlink(YIELD_FOOD) when researched, a useful boost for supporting your armies and population. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus card will give you +200 link(YIELD_FOOD) when researched, a useful boost for supporting your armies and population. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_DRAMA",
-        "English": "Let there be music! As well as starting the game’s music, researching Drama unlocks the Odeon, a building that will continuously add to a city’s culture to help it develop."
+        "English": "Let there be music! As well as starting the game’s music, researching Drama unlocks the link(IMPROVEMENT_THEATER_1), a building that will continuously add to a City’s link(YIELD_CULTURE) to help it develop."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_DRAMA_BONUS_SETTLER",
+        "English": "This bonus card will create a free link(UNIT_SETTLER) at your Capital when researched, a useful way to quickly expand your nation. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_POLIS",
-        "English": "Polis is useful for both defending and expanding your cities. Building Walls increases the HP of the City and can reduce Discontent if you keep a unit from the same Family stationed in the walled City. Hamlets are urban tiles that can be built anywhere. They will gradually grow into Villages and then Towns, consuming Food but providing an increasing stream of Money - especially when built on a Trade Network like a river or road."
+        "English": "Polis is useful for both defending and expanding your Cities. Building link(PROJECT_WALLS) increases the HP of the City and can reduce link(YIELD_DISCONTENT) if you keep a unit from the same Family stationed in the walled City. link(IMPROVEMENT_HAMLET,2) are urban tiles that can be built anywhere within your Cities. They will gradually grow into link(IMPROVEMENT_VILLAGE,2) and then link(IMPROVEMENT_TOWN,2), consuming link(YIELD_FOOD) but providing an increasing stream of link(YIELD_MONEY) - especially when built on a link(CONCEPT_TRADE_NETWORK) like a river or road."
       },
       {
-        "zType": "TEXT_GUIDE_TECH_POLIS_BONUS_SETTLER",
-        "English": "This bonus card will create a free link(UNIT_SETTLER) at your Capital when researched, a useful way to quickly expand your nation. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "zType": "TEXT_GUIDE_TECH_POLIS_BONUS_WORKER",
+        "English": "This bonus card will create a free link(UNIT_WORKER) at your Capital when researched, a useful way to quickly expand your nation. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MILITARY_DRILL",
-        "English": "An essential step for upgrading your infantry troops, Military Drill unlocks the Rally Troops mission for a boost of Training. It also allows the construction of Barracks in your cities, which increases the training output of the city and can generate XP for a unit on the same tile - ensuring that your forces can be improving even during times of peace."
+        "English": "An essential step for upgrading your infantry troops, Military Drill unlocks the link(MISSION_RALLY_TROOPS) mission for a boost of link(YIELD_TRAINING). It also allows the construction of Barracks in your Cities, which increases the link(YIELD_TRAINING) output of the City and can generate XP for a Unit on the same tile - ensuring that your forces can be improving even during times of peace."
       },
       {
         "zType": "TEXT_GUIDE_TECH_ARISTOCRACY",
-        "English": "Aristocracy is vital as it allows the appointment of an Ambassador, who can be sent on diplomatic missions to arrange a Peace or Truce, a Trade Mission, or even to Demand Tribute from another Nation. It also unlocks the Centralization and Vassalage laws, which can increase your rate of civics and research or reduce the burden of your army’s upkeep."
+        "English": "Aristocracy is vital as it allows the appointment of an link(COUNCIL_AMBASSADOR), who can be sent on diplomatic missions to arrange a link(DIPLOMACY_PEACE) or link(DIPLOMACY_TRUCE), a link(MISSION_TRADE_MISSION), or even to link(MISSION_DEMAND_TRIBUTE) from another Nation. It also unlocks the link(LAW_CENTRALIZATION) and link(LAW_VASSALAGE) Laws, which can either increase your rate of link(YIELD_CIVICS) and link(YIELD_SCIENCE) for research, or reduce the burden of your army’s upkeep if you are aiming to field a large force."
       },
       {
         "zType": "TEXT_GUIDE_TECH_ARISTOCRACY_BONUS_BORDERS",
-        "English": "This bonus card will increase your borders, especially useful if there are resources just beyond the reach of your cities. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus card will increase your borders, especially useful if there are resources just beyond the reach of your Cities. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_RHETORIC",
-        "English": "Rhetoric supports the early improvement of your nation through war with Epics law, which grants culture for each kill, or through Exploration, which allows your Scouts to travel across water. It also allows the Forum in cities, a permanent project that provides a stream of Civics for enacting laws or performing missions."
+        "English": "Rhetoric supports the early improvement of your nation through war with link(LAW_EPICS) Law, which grants link(YIELD_CULTURE) for each kill, or through link(LAW_EXPLORATION), which allows your link(UNIT_SCOUT,2) to travel across water. Rhetoric also allows the link(PROJECT_FORUM_1) in Cities, a permanent and upgradable project that provides a stream of link(YIELD_CIVICS) for enacting Laws or performing Missions."
       },
       {
         "zType": "TEXT_GUIDE_TECH_NAVIGATION",
-        "English": "The first step in naval research, Navigation encourages exploration of the seas by allowing the automation of your scouts and unlocking Biremes, a naval unit for exploring the seas. The Colonies Law can help expanding your cities through buying surrounding tiles, while Surfdom improves your existing lands through bonuses to the output of farms and pastures."
+        "English": "The first step in naval research, Navigation encourages exploration of the seas by allowing the automation of your link(UNIT_SCOUT,2) and unlocking link(UNIT_BIREME,2), a naval unit for exploring the seas. The link(LAW_COLONIES) Law can help expanding your Cities through buying surrounding tiles, while link(LAW_SERFDOM) improves your existing lands through bonuses to the output of link(IMPROVEMENT_FARM,2) and link(IMPROVEMENT_PASTURE,2)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_NAVIGATION_BONUS_BIREME",
-        "English": "This bonus spawns a free Bireme naval unit on a coast close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_BIREME) naval Unit on a coastal tile close to your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_PHALANX",
-        "English": "The Phalanx unlocks the Spearman, an infantry unit that is especially strong against mounted units, which are unable to move through a polearm unit’s ZOC. Piercing attacks deal extra damage to a unit directly behind the target, so the Spearman is great at pinning down cavalry or on the front line against a group of enemies."
+        "English": "The Phalanx unlocks the link(UNIT_SPEARMAN), a polearm Unit that is especially strong against mounted Units, which are unable to move through a polearm Unit’s link(CONCEPT_ZOC). Piercing attacks deal extra damage to a Unit directly behind the target of your attack, so the link(UNIT_SPEARMAN) is great at both pinning down mounted Units and holding the front line against a group of enemies."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_PHALANX_BONUS_ORDERS",
+        "English": "This bonus gives a one-off boost of +20 link(YIELD_ORDERS) on the turn it is completed, opening opportunities for a productive turn of actions from both military and worker Units. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SPOKED_WHEEL",
-        "English": "The Spoked Wheel tech is useful on all sides. It allows you to appoint a Chancellor, who can aid in managing your families and cities through various missions. It also unlocks the Chariot, the first mounted unit, in any city with Horses. These fast units are good flankers and have the rout ability, allowing them to attack again if they kill an enemy unit in combat."
+        "English": "The Spoked Wheel tech is useful on all fronts. It allows you to appoint a link(COUNCIL_CHANCELLOR), who can aid in managing your Families and Cities through various Missions. It also unlocks the link(UNIT_CHARIOT), the first mounted unit, in any City with Horses. These fast Units are good flankers and have the Rout ability, allowing them to attack again if they kill an enemy Unit in combat."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
-        "English": "This bonus spawns a free Chariot mounted unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_CHARIOT) mounted unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_FORESTRY",
-        "English": "The Forestry tech allows construction of Lumbermills, which provide a stead income of Wood to support your ranged units and free your Workers from needing to cut down trees."
+        "English": "The Forestry tech allows construction of link(IMPROVEMENT_LUMBERMILL,2), which provide a steady income of link(YIELD_WOOD) to support your ranged Units and free your link(UNIT_WORKER,2) from needing to cut down trees."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_FORESTRY_BONUS_SCIENTIST",
+        "English": "This bonus card grants a new free link(COURTIER_SCIENTIST) Character to serve at your court and improve your Nation’s research. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_STEEL",
-        "English": "Steel unlocks the Axeman, which can be built from your cities or upgraded from Warriors. These mid-tier melee combatants attack in an arc to hit multiple tiles in front of them and do extra damage to Spearmen, making them very effective front-line fighters to support your cavalry against other melee units."
+        "English": "Steel unlocks the link(UNIT_AXEMAN), which can be built from your Cities or upgraded from link(UNIT_WARRIOR,2). These mid-tier melee combatants attack in an arc to hit multiple tiles in front of them and do extra damage to link(UNIT_SPEARMAN,2) and other polearm Units, making them very effective front-line fighters to support your mounted troops against other melee Units."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SOVEREIGNTY",
-        "English": "Sovereignty is an important step towards siege weapons and a useful tech for shaping your nation. It allows the construction of Garrisons, which secure your hold over a city by enabling the election of a City Governor. They can also be upgraded to Strongholds and Citadels to unlock your powerful unique faction units. The laws of Tyranny and Constitution offer a choice between gaining resources or reducing discontent."
+        "English": "Sovereignty is an important step towards siege weapons and a useful tech for shaping your nation. The laws of link(LAW_TYRANNY) and link(LAW_CONSTITUTION) offer a choice between gaining resources by keeping military units in your own territory or reducing link(YIELD_DISCONTENT) throughout your nation."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_SOVEREIGNITY_BONUS_CIVICS",
+        "English": "This bonus gives a one-off boost of +1,000 link(YIELD_CIVICS), useful for enacting Laws, starting Missions or building link(CONCEPT_WONDER,2). If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_METAPHYSICS",
-        "English": "Understanding Metaphysics can help to control the religions in your nation through various missions. Your leader will be able to convince other characters to Convert to the State Religion to keep your court united by faith, while the High Synod mission sends an Ambassador to try an improve relations with a Religion."
+        "English": "Understanding Metaphysics can help to control the Religions in your Nation through various Missions. Your Leader will be able to convince other Characters to Convert to the State Religion to keep your court united by faith, while the High Synod mission sends an link(COUNCIL_AMBASSADOR) to try an improve relations with a Religion."
       },
       {
         "zType": "TEXT_GUIDE_TECH_COINAGE",
-        "English": "Coinage is a strong economic support tech that allows the automation of workers and unlocks the Market, an improvement that boosts the income of the city. If your nation has a Chancellor, then they will be able to use the Pacify mission in a city to reduce discontent."
+        "English": "Coinage is a strong economic support tech that allows the automation of link(UNIT_WORKER,2) and unlocks the link(IMPROVEMENT_MARKET_1), an improvement that boosts the income of the City. If your Nation has a link(COUNCIL_CHANCELLOR), then they will be able to use the link(MISSION_PACIFY_CITY) Mission to reduce link(YIELD_DISCONTENT)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_COINAGE_BONUS_MONEY",
-        "English": "This bonus gives +200 link(YIELD_MONEY) when researched, a useful boost for paying for missions or trading for other resources. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus gives +200 link(YIELD_MONEY) when researched, a useful boost for paying for Missions or trading for other resources. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CITIZENSHIP",
-        "English": "The Citizenship tech can greatly enhance your civics through the construction of the Courthouse and through the Legal Code law. Alternatively, the Divine Rule law can help a pagan nation by allowing the adoption of your pagan religion as the State Religion and stopping the random spread of other religions."
+        "English": "The Citizenship tech can greatly enhance your link(YIELD_CIVICS) through the construction of the link(IMPROVEMENT_COURTHOUSE_1) and through the link(LAW_LEGAL_CODE) Law. Alternatively, the link(LAW_DIVINE_RULE) Law can help a religious Nation by allowing the adoption of your link(CONCEPT_PAGAN_RELIGION) as the link(CONCEPT_STATE_RELIGION) and stopping the random spread of other Religions."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CITIZENSHIP_BONUS_MINISTER",
-        "English": "This bonus card grants a new free Court Minister character to serve at your court and improve your nation’s administration. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus card grants a free link(COURTIER_MINISTER) Character to serve at your court and improve your Nation’s administration. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_PORTCULLIS",
-        "English": "Portcullis is a vital research that unlocks the appointment of a Spymaster, who can be sent on missions to undermine your enemies through infiltration or assassination. It also allows the construction of Moats to add extra defenses to your cities with existing Walls."
+        "English": "Portcullis is a vital research that unlocks the appointment of a link(COUNCIL_SPYMASTER), who can be sent on Missions to undermine your enemies through Infiltration or Assassination. It also allows the construction of link(PROJECT_MOAT,2) to further defend your Cities with existing link(PROJECT_WALLS)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_PORTCULLIS_BONUS_MACEMAN",
-        "English": "This bonus spawns a free Maceman melee unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_MACEMAN) melee Unit in your Capital, useful against other infantry. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION",
-        "English": "Land Consolidation is an exciting tech that makes use of the various resources within your cities. The powerful Camel Archers and War Elephants can be built in cities with the respective animals, adding a punch to your army. The Grove improvement can provide further culture to improve your city, and can be improved with a gardener specialist to gain a luxury to be used in diplomacy with families, cities or other nations."
+        "English": "Land Consolidation makes use of the various resources within your Cities. The powerful link(UNIT_CAMEL_ARCHER,2) and link(UNIT_WAR_ELEPHANT,2) can be built in Cities with the respective animals. They are expensive but versatile Units. The link(IMPROVEMENT_GROVE) improvement can provide further link(YIELD_CULTURE) to develop your City, and can be improved with a link(SPECIALIST_GARDENER) link(CONCEPT_SPECIALIST) to gain one of the link(CONCEPT_LUXURY) to be used in diplomacy with Families, Cities or other Nations."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
-        "English": "This bonus spawns a free Camel Archer mounted ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_CAMEL_ARCHER) mounted ranged Unit in your Capital, a fast unit useful for harassing the enemy. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
-        "English": "This bonus spawns a free powerful War Elephant unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free powerful link(UNIT_WAR_ELEPHANT) Unit in your Capital, able to break up enemy formations with its attack. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_COMPOSITE_BOW",
-        "English": "The Composite Bow research unlocks Archers, a mid-tier ranged unit with both improved damage and range. Once unlocked, it is also possible to upgrade your existing Slingers."
+        "English": "The Composite Bow research unlocks link(UNIT_ARCHER,2), a mid-tier ranged Unit with both improved damage and range over the link(UNIT_SLINGER). Once unlocked, it is also possible to upgrade your existing link(UNIT_SLINGER,2)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_COMPOSITE_BOW_BONUS_ARCHER",
-        "English": "This bonus spawns a free Archer ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_ARCHER) ranged Unit in your Capital, excellent as ranged support or for garrisoning cities. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MONASTICISM",
-        "English": "Monasticism encourages making good use of your nation's Religion, as the Monotheism law increases your orders for each city that converts to your state religion, while Polytheism allows unlimited pagan shrines. The Monastery can be built by a disciple of a world religion to provide an income of Science."
+        "English": "Monasticism encourages making good use of your Nation's Religion, as the link(LAW_MONOTHEISM) Law increases your link(YIELD_ORDERS) for each City that converts to your link(CONCEPT_STATE_RELIGION), while link(LAW_POLYTHEISM) allows the building of unlimited Pagan link(CONCEPT_SHRINE,2). The link(IMPROVEMENTCLASS_MONASTERY) can be built by a link(CONCEPT_DISCIPLE) of a link(CONCEPT_WORLD_RELIGION) to provide an income of link(YIELD_SCIENCE)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MACHINERY",
-        "English": "Machinery further develops the ranged capabilities of your armies. It unlocks the first of the siege units, the Onager, which can attack an area although needs to be unlimbered before it can fire - a strong but slow unit that will need protection. The Range allows a ranged unit on the same tile to gain XP when idle, allowing your forces to improve even during times of peace."
+        "English": "Machinery further develops the ranged capabilities of your armies. It unlocks the first of the siege units, the link(UNIT_ONAGER), which deals splash damage to tiles adjacent to the target, although it needs to be unlimbered before it can fire - a strong but slow unit that will need protection. The link(IMPROVEMENT_RANGE) allows a ranged Unit on the same tile to gain XP when idle, allowing your forces to improve even during times of peace."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MACHINERY_BONUS_ONAGER",
-        "English": "This bonus spawns a free Onager siege  unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_ONAGER) siege Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SCHOLARSHIP",
-        "English": "A gateway to further economic and civic developments, Scholarship allows the construction of Libraries, Academies and Universities to improve your rate of research."
+        "English": "A gateway to further economic and civic developments, Scholarship allows the construction of link(IMPROVEMENT_LIBRARY_1,2), link(IMPROVEMENT_LIBRARY_2,2) and link(IMPROVEMENT_LIBRARY_3,2) to improve your rate of research through link(YIELD_SCIENCE)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-        "English": "This bonus card grants a new free Court Scholar character to serve at your court and improve your nation’s research. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus card grants a new free link(COURTIER_SCIENTIST) Character to serve at your court and improve your Nation’s research. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_TORSION",
-        "English": "The next step in siege warfare, Torsion unlocks the Ballista, an anti-infantry siege weapon. Although slow and short-ranged, the missiles are Piercing attacks that can damage two further enemies in a line behind the target. This makes them very effective against closely grouped infantry."
+        "English": "The next step in siege warfare, Torsion unlocks the link(UNIT_BALLISTA), an anti-infantry siege weapon. Although slow and short-ranged, the missiles are Piercing attacks that can damage two further enemies in a line behind the target. This makes them very effective against closely grouped infantry."
       },
       {
         "zType": "TEXT_GUIDE_TECH_TORSION_BONUS_BALLISTA",
-        "English": "This bonus spawns a free Ballista siege unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_BALLISTA) siege Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_STIRRUPS",
-        "English": "Stirrups greatly enhance your mounted unit capabilities through the recruitment of Horsemen, fast units useful for flanking and finishing off units with their Rout ability, and Horse Archers, mounted ranged units who are able to quickly reposition or escape from a fight."
+        "English": "Stirrups greatly enhance your mounted Unit capabilities through the recruitment of link(UNIT_HORSEMAN,2), fast Units useful for flanking and finishing off units with their Rout ability, and link(UNIT_HORSE_ARCHER,2), mounted ranged units who are able to quickly reposition or escape from a fight."
       },
       {
         "zType": "TEXT_GUIDE_TECH_STIRRUPS_BONUS_HORSEMAN",
-        "English": "This bonus spawns a free Horseman mounted unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_HORSEMAN) mounted Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
-        "English": "This bonus spawns a free Horse Archer mounted ranged unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_HORSE_ARCHER) mounted ranged Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_ARCHITECTURE",
-        "English": "The study of Architecture allows the construction of Baths for reducing the discontent in your cities. It also opens laws that help construction, Philosophy for specialists and Engineering for wonders and improvements."
-      },
-      {
-        "zType": "TEXT_GUIDE_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "English": "This bonus gives a one-off boost of +1,000 Civics, useful for enacting laws, starting missions or building wonders. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "The study of Architecture allows the construction of link(IMPROVEMENT_BATHS_1), link(IMPROVEMENT_BATHS_2) and link(IMPROVEMENT_BATHS_3) for reducing the link(YIELD_DISCONTENT) in your Cities. It also opens Laws that help construction; link(LAW_PHILOSOPHY) speeds up the recruitment of link(CONCEPT_SPECIALIST,2), while link(LAW_ENGINEERING) aids in building link(CONCEPT_WONDER,2) and link(CONCEPT_IMPROVEMENT,2)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MANOR",
-        "English": "Manor is a useful tech for improving your military. Conscripts are an upgrade to the base Militia, being polearm units with a bonus against mounted units. This makes them an effective and cheap option for stopping flanking cavalry or defending your cities. The choice will also open up between the Professional Army or Volunteer laws, which provide alternative ways to increase your nation’s training."
+        "English": "Manor is a useful tech for improving your military. link(UNIT_CONSCRIPT,2) are an upgrade to the base link(UNIT_MILITIA), and are polearm Units with a bonus against mounted Units. This makes them an effective and cheap option for stopping flanking cavalry or defending your Cities. The choice will also open up between the link(LAW_PROFESSIONAL_ARMY) or link(LAW_VOLUNTEERS) Laws, which provide alternative ways to increase your nation’s link(YIELD_TRAINING)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MANOR_BONUS_GOODS",
-        "English": "This bonus gives a one-off boost to Iron, Stone and Wood, useful for constructing buildings or units. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus gives a one-off boost to link(YIELD_IRON), link(YIELD_STONE) and link(YIELD_WOOD), useful for constructing advanced buildings or units. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BATTLELINE",
-        "English": "Researching Battleline will unlock the Maceman unit. An upgrade from the Axeman, Macemen lose the arcing Cleave attack, but their damage bonus is against all infantry rather than just polearms."
+        "English": "Researching Battleline will unlock the link(UNIT_MACEMAN) Unit. An upgrade from the link(UNIT_AXEMAN), link(UNIT_MACEMAN,2) lose the arcing Cleave attack, but their damage bonus is against all infantry rather than just polearm Units."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_BATTLELINE_BONUS_SOLDIER",
+        "English": "Grants a new free link(COURTIER_SOLDIER) Character to serve at your court and improve your Nation’s military. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_DOCTRINE",
-        "English": "Further developing your nation’s Religions, Doctrine opens the decision between Tolerance, which gives bonuses for each different religion in your cities, and Orthodoxy, which lets you purge unwanted religions to control or remove the threat of religious division. It also unlocks Temples, which provide culture for developing your cities."
-      },
-      {
-        "zType": "TEXT_GUIDE_TECH_DOCTRINE_BONUS_ORDERS",
-        "English": "This bonus gives a one-off boost of +20 Orders on the turn it is completed, opening opportunities for moving large numbers of troops or workers. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "Further developing your nation’s Religions, Doctrine opens the decision between link(LAW_TOLERANCE), which gives bonuses for each different Religion in your Cities, and link(LAW_ORTHODOXY), which lets you purge unwanted Religions to reduce the threat of religious division. It also unlocks link(IMPROVEMENTCLASS_TEMPLE,2), which provide link(YIELD_CULTURE) for developing your Cities."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CARTOGRAPHY",
-        "English": "Researching Cartography will increase your dominance of the sea through the construction of the mid-tier Trireme naval unit and the building of Harbors, which can train idle naval units on the same tile and provide a steady income on Money. A nation with a Spymaster will also be able to attempt to steal research from other nations, a risky but effective way to pull ahead in the tech race."
+        "English": "Researching Cartography will aid your dominance of the sea through the construction of the mid-tier link(UNIT_TRIREME) naval Unit and the building of link(IMPROVEMENT_HARBOR,2), which can train idle naval Units on the same tile to provide XP and provide a steady income of link(YIELD_MONEY). A Nation with a link(COUNCIL_SPYMASTER) will also be able to attempt to link(MISSION_STEAL_RESEARCH) from other Nations, a risky but effective way to pull ahead in the tech race."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CARTOGRAPHY_BONUS_TRIREME",
-        "English": "This bonus spawns a free Trireme naval unit on a coast close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_TRIREME) ship Unit on a coastal tile close to your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HYDRAULICS",
-        "English": "Hydraulics continues to support your cities by allowing the construction of Watermills and Windmills, which provide a steady stream of science and greatly improve the output of adjacent Mines, Quarries and Lumbermills."
+        "English": "Hydraulics continues to support your Cities by allowing the construction of link(IMPROVEMENT_WATERMILL,2) and link(IMPROVEMENT_WINDMILL,2), which provide a steady stream of link(YIELD_SCIENCE) and greatly improve the output of adjacent link(IMPROVEMENT_MINE,2), link(IMPROVEMENT_QUARRY,2) and link(IMPROVEMENT_LUMBERMILL,2)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "English": "Grants a new free Court Merchant character to serve at your court and improve your nation’s economy. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "Grants a new free link(COURTIER_MERCHANT) Character to serve at your court and improve your Nation’s economy. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_JURISPRUDENCE",
-        "English": "Jurisprudence allows you to use discontent against your enemy by using an Insurrection mission in their city, or reducing the discontent in your own through the Guilds Law. Alternatively, the Elites law is useful for managing orders, both providing more and allowing you to carry unused orders between turns."
+        "English": "Jurisprudence allows you to use link(YIELD_DISCONTENT) against your enemy by using an link(MISSION_INSURRECTION) Mission in their City, or reducing the link(YIELD_DISCONTENT) in your own Cities through the link(LAW_GUILDS) Law. Alternatively, the link(LAW_ELITES) Law is useful for managing link(YIELD_ORDERS), both providing more each turn and allowing you to carry over any unused link(YIELD_ORDERS) between turns."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MARTIAL_CODE",
-        "English": "The Martial Code research unlocks the building of Towers, further increasing the defenses of a city with an existing Moat. It also opens the option of militarizing your religion through Holy War to improve new recruits, or gaining the more peaceful economic and scientific benefits of Pilgrimage."
+        "English": "The Martial Code research unlocks the building of link(PROJECT_TOWERS), further increasing the defenses of a City with an existing link(PROJECT_MOAT). It also opens the option of militarizing your Religion through the link(LAW_HOLY_WAR) Law to improve new recruits, or gaining the more peaceful economic and scientific benefits of the link(LAW_PILGRIMAGE) Law."
       },
       {
         "zType": "TEXT_GUIDE_TECH_VAULTING",
-        "English": "Vaulting can yield great benefits from world religions in your nation through the construction of Cathedrals for a bonus to culture and legitimacy, the Iconography law for bonuses from religious buildings, and the Calligraphy law for bonuses from libraries and specialists."
+        "English": "Vaulting can yield great benefits from link(CONCEPT_WORLD_RELIGION,2) in your Nation through the construction of link(IMPROVEMENTCLASS_CATHEDRAL,2) for a bonus to link(YIELD_CULTURE) and link(CONCEPT_LEGITIMACY), the link(LAW_ICONOGRAPHY) Law for bonuses from religious buildings, and the link(LAW_CALLIGRAPHY) Law for bonuses from link(IMPROVEMENT_LIBRARY_1,2) and link(CONCEPT_SPECIALIST,2)."
       },
       {
         "zType": "TEXT_GUIDE_TECH_VAULTING_BONUS_DISCONTENT",
-        "English": "This bonus gives a one-off boost to reduce Discontent in your cities, lowering their maintenance cost and increasing their family’s opinion. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus gives a one-off boost to reduce link(YIELD_DISCONTENT) in all of your Cities, lowering their link(YIELD_MAINTENANCE) penalty and increasing their owning Family's opinion. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BODKIN_ARROW",
-        "English": "Researching Bodkin Arrows unlocks the Longbowman unit, a high damage and long range ranged attacker."
+        "English": "Researching Bodkin Arrows unlocks the link(UNIT_LONGBOWMAN) Unit, a very effective high damage and long range ranged attacker."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "English": "This bonus gives a one-off boost of Training, useful for force-marching or upgrading your military units. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus gives a one-off boost of link(YIELD_TRAINING), useful for Forced Marching or Promoting your military Units. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_COHORTS",
-        "English": "The Cohorts tech unlocks the Swordsman unit, the pinnacle of melee infantry units. Combining an arcing cleave attack with a bonus against infantry units makes these costly units devastating as a front line force against other infantry."
-      },
-      {
-        "zType": "TEXT_GUIDE_TECH_COHORTS_BONUS_SOLDIER",
-        "English": "Grants a new free Court Soldier character to serve at your court and improve your nation’s military. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "The Cohorts tech unlocks the link(UNIT_SWORDSMAN) unit, the pinnacle of melee infantry Units. Combining an arcing cleave attack with a bonus against infantry Units makes these costly soldiers devastating as a front line force against other infantry."
       },
       {
         "zType": "TEXT_GUIDE_TECH_WINDLASS",
-        "English": "The Windlass puts the technology to use for your infantry ranged units by unlocking the Crossbowman. A high-tier ranged unit, the Crossbowman sacrifices range for a bonus against melee units and piercing damage, allowing them to deal damage to an enemy directly behind the target and making them a strong second row against your enemy’s front lines."
+        "English": "The Windlass puts siege developments to use for your infantry Units by unlocking the link(UNIT_CROSSBOWMAN). A high-tier ranged Unit, the link(UNIT_CROSSBOWMAN) sacrifices range for a bonus against melee Units and Piercing damage, allowing them to deal damage to an enemy directly behind the target and making them a strong second row in an infantry formation."
       },
       {
         "zType": "TEXT_GUIDE_TECH_WINDLASS_BONUS_CROSSBOWMAN",
-        "English": "Spawns a free Crossbowman unit in your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "Spawns a free link(UNIT_CROSSBOWMAN) Unit in your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LATEEN_SAIL",
-        "English": "The Lateen Sail marks the pinnacle of ship-building by unlocking the Dromon, a powerful naval unit. It also opens two strong economic laws. The Autarky law aids your self-sufficiency by improving your building’s output and allows the hiring of units that normally need horses, camels or elephants anywhere. Alternatively, the Trade League law promotes the growth of your cities and increases the income from selling resources to the same price as buying them."
+        "English": "The Lateen Sail marks the pinnacle of ship-building by unlocking the link(UNIT_DROMON), a powerful naval Unit. It also opens two strong economic Laws. The link(LAW_AUTARKY) Law aids your self-sufficiency by improving your building’s output and allows the hiring of Units that normally need Horses, Camels or Elephants anywhere. Alternatively, the link(LAW_TRADE_LEAGUE) Law promotes the growth of your Cities and increases the income from selling resources."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "English": "Spawns a free Dromon naval unit in a sea close to your capital. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "Spawns a free link(UNIT_DROMON) naval Unit on a coastal tile close to your Capital. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_FISCAL_POLICY",
-        "English": "This late tech opens two economic laws. Coin Debasement allows you to buy or sell orders, giving great flexibility in your nation’s actions and finances. Monetary reform helps to reduce discontent in your cities, especially from hurrying production."
+        "English": "This late tech opens two economic Laws. link(LAW_COIN_DEBASEMENT) allows you to buy or sell link(YIELD_ORDERS), giving great flexibility in your Nation’s actions and finances. link(LAW_MONETARY_REFORM) helps to reduce link(YIELD_DISCONTENT) in your Cities, especially from hurrying production."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_FISCAL_POLICY_BONUS_MERCHANT",
+        "English": "Grants a new free link(COURTIER_MERCHANT) Character to serve at your court and improve your Nation’s economy. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BARDING",
-        "English": "Barding is the top of mounted unit research, allowing recruitment of the mighty Cataphract, a fast and powerful unit that deals damage to every tile around it when it strikes."
+        "English": "Barding is the height of mounted Unit research, allowing recruitment of the mighty link(UNIT_CATAPHRACT), a fast and powerful unit that deals damage to every tile around it when it strikes. This shock cavalry excels in the thickest of the fighting."
       },
       {
         "zType": "TEXT_GUIDE_TECH_INFANTRY_SQUARE",
-        "English": "The completion of Infantry Square unlocks Pikemen, the height of polearm infantry. Pikemen are devastating against mounted units and attack with strong Piercing attacks, damaging the enemy behind the one they are attacking."
+        "English": "The completion of Infantry Square unlocks link(UNIT_PIKEMAN,2), the height of polearm infantry. link(UNIT_PIKEMAN,2) are devastating against mounted Units and attack with strong Piercing attacks, damaging the enemy behind the one they are attacking."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
+        "English": "Grants a new free link(COURTIER_SOLDIER) Character to serve at your court and improve your Nation’s military. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CHAIN_DRIVE",
-        "English": "Researching Chain Drive unlocks the Polybolos, one of the stongest siege units and an upgrade to the Ballista. The Polybolos has a bonus against ranged units, and deals both pierce and cleaving damage, making it useful for cutting through formations to hit the ranged units behind."
+        "English": "Researching Chain Drive unlocks the link(UNIT_POLYBOLOS), one of the stongest siege units and an upgrade to the link(UNIT_BALLISTA). The link(UNIT_POLYBOLOS) has a bonus against ranged Units, and deals both pierce and cleaving damage, making it useful for cutting through formations to hit the ranged Units behind."
+      },
+      {
+        "zType": "TEXT_GUIDE_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "English": "This bonus card grants a free link(COURTIER_MINISTER) Character to serve at your court and improve your Nation’s administration. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BALLISTICS",
-        "English": "Ballistics unlocks the Mangonel, an upgrade to the Onager which increases the splash damage and the range, making them more powerful and easier to protect."
+        "English": "Ballistics unlocks the link(UNIT_MANGONEL) siege Unit, an upgrade to the link(UNIT_ONAGER) with increased splash damage and range, making them both more powerful and easier to protect."
       },
       {
         "zType": "TEXT_GUIDE_TECH_ECONOMIC_REFORM",
-        "English": "The height of economic research, the Economic Reform tech will grant a new Court Merchant character to serve at your court and improve your nation’s economy. It also grants a Victory Point, bringing you one step closer to winning the game."
+        "English": "The height of economic research, the Economic Reform tech will grant a new link(COURTIER_MERCHANT) Character to serve at your court and improve your Nation’s economy. It also grants a Victory Point, bringing you one step closer to winning the game."
       },
       {
         "zType": "TEXT_GUIDE_TECH_MILITARY_PRESTIGE",
-        "English": "The height of martial research, the Military Prestige tech will grant a new Court Soldier character to serve at your court and improve your nation’s military. It also grants a Victory Point, bringing you one step closer to winning the game."
+        "English": "The height of martial research, the Military Prestige tech will grant a new link(COURTIER_SOLDIER) Character to serve at your court and improve your Nation’s military. It also grants a Victory Point, bringing you one step closer to winning the game."
       },
       {
         "zType": "TEXT_GUIDE_TECH_INDUSTRIAL_PROGRESS",
-        "English": "The height of industrial research, the Industrial Progress tech will grant you a new Court Minister character to serve at your court and improve your nation’s administration. It also grants a Victory Point, bringing you one step closer to winning the game."
+        "English": "The height of industrial research, the Industrial Progress tech will grant you a new link(COURTIER_MINISTER) Character to serve at your court and improve your Nation’s administration. It also grants a Victory Point, bringing you one step closer to winning the game."
       },
       {
         "zType": "TEXT_GUIDE_TECH_BATTERING_RAM_BONUS",
-        "English": "This bonus spawns a free Battering Ram unit in your capital. A melee siege unit that is unique to Assyria, the Battering Ram gets a bonus when attacking urban tiles. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_BATTERING_RAM) Unit in your Capital. A melee siege Unit that is unique to link(NATION_ASSYRIA), the link(UNIT_BATTERING_RAM) gets a bonus when attacking Urban tiles. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_SIEGE_TOWER_BONUS",
-        "English": "This bonus spawns a free Siege Tower unit in your capital. A melee siege unit that is unique to Assyria, the Siege Tower gets a bonus when attacking urban tiles. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_SIEGE_TOWER) Unit in your Capital. A melee siege Unit that is unique to link(NATION_ASSYRIA), the link(UNIT_SIEGE_TOWER) gets a bonus when attacking Urban tiles. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_AKKADIAN_ARCHER_BONUS",
-        "English": "This bonus spawns a free Akkadian Archer unit in your capital. A ranged infantry unit that is unique to Babylonia, the Akkadian Archer does Splash damage to the six tile surrounding the target. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_AKKADIAN_ARCHER) Unit in your Capital. A ranged infantry Unit that is unique to link(NATION_BABYLONIA), the link(UNIT_AKKADIAN_ARCHER) does Splash damage to the six tiles surrounding the target. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CIMMERIAN_ARCHER_BONUS",
-        "English": "This bonus spawns a free Cimmerian Archer unit in your capital. A ranged infantry unit that is unique to Babylonia, the Cimmerian Archer does Splash damage to the six tiles surrounding the target. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_CIMMERIAN_ARCHER) Unit in your Capital. A ranged infantry Unit that is unique to link(NATION_BABYLONIA), the link(UNIT_CIMMERIAN_ARCHER) does Splash damage to the six tiles surrounding the target. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_AFRICAN_ELEPHANT_BONUS",
-        "English": "This bonus spawns a free African Elephant unit in your capital. A mounted elephant unit that is unique to Carthage, the African Elephant does damage to all six tiles surrounding the unit when it attacks. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_AFRICAN_ELEPHANT) Unit in your Capital. A mounted elephant Unit that is unique to link(NATION_CARTHAGE), the link(UNIT_AFRICAN_ELEPHANT) does damage to all six tiles surrounding it when it attacks. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_TURRETED_ELEPHANT_BONUS",
-        "English": "This bonus spawns a free Turreted Elephant unit in your capital. A mounted elephant unit that is unique to Carthage, the Turreted Elephant does damage to all six tiles surrounding the unit when it attacks. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_TURRETED_ELEPHANT) Unit in your Capital. A mounted elephant Unit that is unique to link(NATION_CARTHAGE), the link(UNIT_TURRETED_ELEPHANT) does damage to all six tiles surrounding it when it attacks. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LIGHT_CHARIOT_BONUS",
-        "English": "This bonus spawns a free Light Chariot unit in your capital. A mounted and ranged unit that is unique to Egypt, the Light Chariot moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_LIGHT_CHARIOT) Unit in your Capital. A mounted and ranged Unit that is unique to link(NATION_EGYPT), the link(UNIT_LIGHT_CHARIOT) moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_KUSHITE_CAVALRY_BONUS",
-        "English": "This bonus spawns a free Kushite Cavalry unit in your capital. A mounted and ranged unit that is unique to Egypt, the Kushite Cavalry moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_KUSHITE_CAVALRY) Unit in your Capital. A mounted and ranged Unit that is unique to link(NATION_EGYPT), the link(UNIT_KUSHITE_CAVALRY) moves especially quickly for harassing your enemies. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HOPLITE_BONUS",
-        "English": "This bonus spawns a free Hoplite unit in your capital. A polearm unit that is unique to Greece, the Hoplite gains a defense bonus when adjacent to other Hoplites. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_HOPLITE) Unit in your Capital. A polearm Unit that is unique to link(NATION_GREECE), the link(UNIT_HOPLITE) gains a defense bonus when adjacent to other link(UNIT_HOPLITE,2). If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_PHALANGITE_BONUS",
-        "English": "This bonus spawns a free Phalangite unit in your capital. A polearm unit that is unique to Greece, the Phalangite gains a defense bonus when adjacent to other Phalangites. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_PHALANGITE) Unit in your Capital. A polearm Unit that is unique to link(NATION_GREECE), the link(UNIT_PHALANGITE) gains a defense bonus when adjacent to other link(UNIT_PHALANGITE,2). If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_PALTON_CAVALRY_BONUS",
-        "English": "This bonus spawns a free Palton Cavalry unit in your capital. A mounted and ranged unit that is unique to Persia, the Palton Cavalry has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_PALTON_CAVALRY) Unit in your Capital. A mounted and ranged Unit that is unique to link(NATION_PERSIA), the link(UNIT_PALTON_CAVALRY) has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_CATAPHRACT_ARCHER_BONUS",
-        "English": "This bonus spawns a free Cataphract Archer unit in your capital. A mounted and ranged unit that is unique to Persia, the Cataphract Archer has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_CATAPHRACT_ARCHER) Unit in your Capital. A mounted and ranged Unit that is unique to link(NATION_PERSIA), the link(UNIT_CATAPHRACT_ARCHER) has the Route effect despite being a ranged unit. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_HASTATUS_BONUS",
-        "English": "This bonus spawns a free Hastatus unit in your capital. A melee infantry unit that is unique to Rome, the Hastatus ignores ZOC and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_HASTATUS) Unit in your Capital. A melee infantry Unit that is unique to link(NATION_ROME), the link(UNIT_HASTATUS) link(CONCEPT_IGNORES_ZOC) and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_GUIDE_TECH_LEGIONARY_BONUS",
-        "English": "This bonus spawns a free Legionary unit in your capital. A melee infantry unit that is unique to Rome, the Legionary ignores ZOC and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is discarded and will not appear again."
+        "English": "This bonus spawns a free link(UNIT_LEGIONARY) Unit in your Capital. A melee infantry Unit that is unique to link(NATION_ROME), the link(UNIT_LEGIONARY) link(CONCEPT_IGNORES_ZOC) and has the Testudo ability to protect it from ranged damage while still allowing it to attack. If a bonus card isn’t researched when it appears, then it is trashed once discarded and will not appear again."
       },
       {
         "zType": "TEXT_TERRAIN_WATER",
@@ -2980,7 +3020,7 @@
       },
       {
         "zType": "TEXT_VICTORY_TIME_HELP",
-        "English": "Victory from having the most Victory Points at the end of 200 Years."
+        "English": "Victory from having the most Victory Points at the end of 200 turns. Disabling this victory removes the turn limit."
       },
       {
         "zType": "TEXT_VICTORY_CONQUEST",

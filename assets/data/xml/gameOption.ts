@@ -38,7 +38,8 @@
         "zType": "GAMEOPTION_NO_CHARACTERS",
         "zName": "TEXT_GAMEOPTION_NO_CHARACTERS",
         "zHelp": "TEXT_GAMEOPTION_NO_CHARACTERS_HELP",
-        "bDefaultMultiPlayer": "1"
+        "bDefaultMultiPlayer": "1",
+        "bSinglePlayer": "0"
       },
       {
         "zType": "GAMEOPTION_BARBARIANS_ONLY",

@@ -33,9 +33,6 @@
         "iWarModifier": {
           
         },
-        "iBlock": {
-          
-        },
         "bHostile": {
           
         },
@@ -80,7 +77,6 @@
         "iOpinionEnemy": "20",
         "iOpinionEthnicity": "-80",
         "iOpinionReligion": "-40",
-        "iBlock": "5",
         "bHostile": "1"
       }
     ]

@@ -29,20 +29,6 @@
         "bSinglePlayerValid": "0"
       },
       {
-        "zType": "MAP_OPTIONS_SINGLE_SEASIDE_CENTER_BIAS",
-        "Name": "TEXT_MAP_OPTION_CENTER_BIAS",
-        "Description": "TEXT_MAP_OPTIONS_SINGLE_SEASIDE_CENTER_BIAS_HELP",
-        "bDefault": "1",
-        "bMultiPlayerValid": "0"
-      },
-      {
-        "zType": "MAP_OPTIONS_SINGLE_CENTER_BIAS",
-        "Name": "TEXT_MAP_OPTION_CENTER_BIAS",
-        "Description": "TEXT_MAP_OPTIONS_SINGLE_CENTER_BIAS_HELP",
-        "bDefault": "1",
-        "bMultiPlayerValid": "0"
-      },
-      {
         "zType": "MAP_OPTIONS_SINGLE_KING_OF_THE_HILL",
         "Name": "TEXT_MAP_OPTION_KING_OF_THE_HILL",
         "Description": "TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP"

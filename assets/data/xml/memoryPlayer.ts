@@ -134,7 +134,7 @@
       {
         "zType": "MEMORYPLAYER_GIFTED_YIELD",
         "Text": "TEXT_MEMORYPLAYER_GIFTED_YIELD",
-        "iValue": "2",
+        "iValue": "5",
         "iTurns": "10",
         "bName": "1"
       },
@@ -354,6 +354,13 @@
         "zType": "MEMORYPLAYER_ENDED_FRIENDSHIP",
         "Text": "TEXT_MEMORYPLAYER_ENDED_FRIENDSHIP",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_REFUSED_TROOPS",
+        "Text": "TEXT_MEMORYPLAYER_REFUSED_TROOPS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT",
+        "bName": "1",
+        "bVisible": "1"
       },
       {
         "beginGroup": "Character",
@@ -586,6 +593,11 @@
         "zType": "MEMORYPLAYER_INTERVENED_IN_LOVE",
         "Text": "TEXT_MEMORYPLAYER_INTERVENED_IN_LOVE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_GIFTED_TECH",
+        "Text": "TEXT_MEMORYPLAYER_GIFTED_TECH",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "beginGroup": "Miscellaneous",
@@ -869,6 +881,21 @@
         "zType": "MEMORYPLAYER_RAID_EARLY_WARNING",
         "Text": "TEXT_MEMORYPLAYER_RAID_EARLY_WARNING",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_DECEIVED_US",
+        "Text": "TEXT_MEMORYPLAYER_DECEIVED_US",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_REFUSED_MARRIAGE",
+        "Text": "TEXT_MEMORY_REFUSED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_ACCEPTED_MARRIAGE",
+        "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       }
     ]
   }

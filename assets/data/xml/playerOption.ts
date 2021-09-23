@@ -127,6 +127,11 @@
         "Desc": "TEXT_PLAYEROPTION_AZERTY_KEYBOARD_DESC"
       },
       {
+        "zType": "PLAYEROPTION_SLOW",
+        "Name": "TEXT_PLAYEROPTION_SLOW",
+        "Desc": "TEXT_PLAYEROPTION_SLOW_DESC"
+      },
+      {
         "zType": "PLAYEROPTION_DEBUG_HELP",
         "Name": "TEXT_PLAYEROPTION_DEBUG_HELP",
         "Desc": "TEXT_PLAYEROPTION_DEBUG_HELP_DESC",

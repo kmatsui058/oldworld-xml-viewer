@@ -63,90 +63,6 @@
         "English": "{0_character} is always an agreeable companion and is now known to be {1_trait}."
       },
       {
-        "zType": "TEXT_TRAIT_ELOQUENT",
-        "English": "Eloquent"
-      },
-      {
-        "zType": "TEXT_TRAIT_ELOQUENT_GAIN_1",
-        "English": "Never at a loss for words, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_ELOQUENT_GAIN_2",
-        "English": "{0_character} is quick-witted and silver-tongued, a most {1_trait} person!"
-      },
-      {
-        "zType": "TEXT_TRAIT_WARLIKE",
-        "English": "Warlike"
-      },
-      {
-        "zType": "TEXT_TRAIT_WARLIKE_GAIN_1",
-        "English": "Always ready to fight, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_WARLIKE_GAIN_2",
-        "English": "{0_character} is skilled with the sword, spear, and shield. A most {1_trait} person!"
-      },
-      {
-        "zType": "TEXT_TRAIT_INSPIRING",
-        "English": "Inspiring"
-      },
-      {
-        "zType": "TEXT_TRAIT_INSPIRING_GAIN_1",
-        "English": "Able to give a rousing speech on demand, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_INSPIRING_GAIN_2",
-        "English": "{0_character} is able to uplift anyone with {masculine_0:his:her} words. {masculine_0:He:She} is {1_trait}!"
-      },
-      {
-        "zType": "TEXT_TRAIT_INTELLIGENT",
-        "English": "Intelligent"
-      },
-      {
-        "zType": "TEXT_TRAIT_INTELLIGENT_GAIN_1",
-        "English": "Easily able to learn and understand new things, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_INTELLIGENT_GAIN_2",
-        "English": "{0_character} is swift to understand new situations. {masculine_0:He:She} is {1_trait}!"
-      },
-      {
-        "zType": "TEXT_TRAIT_PROSPEROUS",
-        "English": "Prosperous"
-      },
-      {
-        "zType": "TEXT_TRAIT_PROSPEROUS_GAIN_1",
-        "English": "A master of making money, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_PROSPEROUS_GAIN_2",
-        "English": "{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!"
-      },
-      {
-        "zType": "TEXT_TRAIT_FRUGAL",
-        "English": "Frugal"
-      },
-      {
-        "zType": "TEXT_TRAIT_FRUGAL_GAIN_1",
-        "English": "Never keen on spending money, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_FRUGAL_GAIN_2",
-        "English": "{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!"
-      },
-      {
-        "zType": "TEXT_TRAIT_RIGHTEOUS",
-        "English": "Righteous"
-      },
-      {
-        "zType": "TEXT_TRAIT_RIGHTEOUS_GAIN_1",
-        "English": "Always taking the moral position, {0_character} is {1_trait}."
-      },
-      {
-        "zType": "TEXT_TRAIT_RIGHTEOUS_GAIN_2",
-        "English": "{0_character} always tries to do what is best. {masculine_0:He:She} is {1_trait}!"
-      },
-      {
         "zType": "TEXT_TRAIT_CRUEL",
         "English": "Cruel"
       },
@@ -157,6 +73,18 @@
       {
         "zType": "TEXT_TRAIT_CRUEL_GAIN_2",
         "English": "{0_character} finds enjoyment in hurting others. {masculine_0:He:She} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_ELOQUENT",
+        "English": "Eloquent"
+      },
+      {
+        "zType": "TEXT_TRAIT_ELOQUENT_GAIN_1",
+        "English": "Never at a loss for words, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_ELOQUENT_GAIN_2",
+        "English": "{0_character} is quick-witted and silver-tongued, a most {1_trait} person!"
       },
       {
         "zType": "TEXT_TRAIT_INTOLERANT",
@@ -171,6 +99,18 @@
         "English": "{0_character} has no patience for different ways of life. {masculine_0:He:She} is {1_trait}."
       },
       {
+        "zType": "TEXT_TRAIT_WARLIKE",
+        "English": "Warlike"
+      },
+      {
+        "zType": "TEXT_TRAIT_WARLIKE_GAIN_1",
+        "English": "Always ready to fight, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_WARLIKE_GAIN_2",
+        "English": "{0_character} is skilled with the sword, spear, and shield. A most {1_trait} person!"
+      },
+      {
         "zType": "TEXT_TRAIT_SLOTHFUL",
         "English": "Slothful"
       },
@@ -183,16 +123,16 @@
         "English": "{0_character} never gets around to doing anything. {masculine_0:He:She} is {1_trait}."
       },
       {
-        "zType": "TEXT_TRAIT_CORRUPT",
-        "English": "Corrupt"
+        "zType": "TEXT_TRAIT_INSPIRING",
+        "English": "Inspiring"
       },
       {
-        "zType": "TEXT_TRAIT_CORRUPT_GAIN_1",
-        "English": "Dishonest and greedy, {0_character} is {1_trait}."
+        "zType": "TEXT_TRAIT_INSPIRING_GAIN_1",
+        "English": "Able to give a rousing speech on demand, {0_character} is {1_trait}."
       },
       {
-        "zType": "TEXT_TRAIT_CORRUPT_GAIN_2",
-        "English": "{0_character} will do anything for personal gain. {masculine_0:He:She} is {1_trait}!"
+        "zType": "TEXT_TRAIT_INSPIRING_GAIN_2",
+        "English": "{0_character} is able to uplift anyone with {masculine_0:his:her} words. {masculine_0:He:She} is {1_trait}!"
       },
       {
         "zType": "TEXT_TRAIT_UNCOUTH",
@@ -207,6 +147,18 @@
         "English": "{0_character} is strange and foul. {masculine_0:He:She} is {1_trait}!"
       },
       {
+        "zType": "TEXT_TRAIT_INTELLIGENT",
+        "English": "Intelligent"
+      },
+      {
+        "zType": "TEXT_TRAIT_INTELLIGENT_GAIN_1",
+        "English": "Easily able to learn and understand new things, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_INTELLIGENT_GAIN_2",
+        "English": "{0_character} is swift to understand new situations. {masculine_0:He:She} is {1_trait}!"
+      },
+      {
         "zType": "TEXT_TRAIT_FOOLISH",
         "English": "Foolish"
       },
@@ -219,6 +171,18 @@
         "English": "{0_character} has poor judgement and rarely makes sense. {masculine_0:He:She} is {1_trait}!"
       },
       {
+        "zType": "TEXT_TRAIT_PROSPEROUS",
+        "English": "Prosperous"
+      },
+      {
+        "zType": "TEXT_TRAIT_PROSPEROUS_GAIN_1",
+        "English": "A master of making money, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_PROSPEROUS_GAIN_2",
+        "English": "{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!"
+      },
+      {
         "zType": "TEXT_TRAIT_EXTRAVAGANT",
         "English": "Extravagant"
       },
@@ -229,6 +193,42 @@
       {
         "zType": "TEXT_TRAIT_EXTRAVAGANT_GAIN_2",
         "English": "{0_character} buys anything which strikes {masculine_0:his:her} fancy. {masculine_0:He:She} is {1_trait}!"
+      },
+      {
+        "zType": "TEXT_TRAIT_FRUGAL",
+        "English": "Frugal"
+      },
+      {
+        "zType": "TEXT_TRAIT_FRUGAL_GAIN_1",
+        "English": "Never keen on spending money, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_FRUGAL_GAIN_2",
+        "English": "{0_character} can spin straw into gold. {masculine_0:He:She} is {1_trait}!"
+      },
+      {
+        "zType": "TEXT_TRAIT_CORRUPT",
+        "English": "Corrupt"
+      },
+      {
+        "zType": "TEXT_TRAIT_CORRUPT_GAIN_1",
+        "English": "Dishonest and greedy, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_CORRUPT_GAIN_2",
+        "English": "{0_character} will do anything for personal gain. {masculine_0:He:She} is {1_trait}!"
+      },
+      {
+        "zType": "TEXT_TRAIT_RIGHTEOUS",
+        "English": "Righteous"
+      },
+      {
+        "zType": "TEXT_TRAIT_RIGHTEOUS_GAIN_1",
+        "English": "Always taking the moral position, {0_character} is {1_trait}."
+      },
+      {
+        "zType": "TEXT_TRAIT_RIGHTEOUS_GAIN_2",
+        "English": "{0_character} always tries to do what is best. {masculine_0:He:She} is {1_trait}!"
       },
       {
         "zType": "TEXT_TRAIT_DEBAUCHED",
@@ -576,7 +576,7 @@
       },
       {
         "zType": "TEXT_TRAIT_DECEITFUL_GAIN_1",
-        "English": "{0_character} never seems to keep {masculine_0:his:her} word and is now known as {1_trait}."
+        "English": "{0_character} never seems to keep {masculine_0:his:her} word and is now known to be {1_trait}."
       },
       {
         "zType": "TEXT_TRAIT_HUMBLE",
@@ -616,15 +616,15 @@
       },
       {
         "zType": "TEXT_TRAIT_SPOILED_GAIN_1",
-        "English": "{0_character} likely to fly into a rage if {masculine_0:he:she} does not get {masculine_0:his:her} own way, a most {1_trait} person!"
+        "English": "{0_character} is likely to fly into a rage if {masculine_0:he:she} does not get {masculine_0:his:her} own way, a most {1_trait} person!"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_PHILOSOPHY",
         "English": "Philosophy Student"
       },
       {
-        "zType": "TEXT_TRAIT_STUDY_RHETORIC",
-        "English": "Rhetoric Student"
+        "zType": "TEXT_TRAIT_STUDY_POLITICS",
+        "English": "Politics Student"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_TACTICS",
@@ -647,8 +647,16 @@
         "English": "Blessed"
       },
       {
+        "zType": "TEXT_TRAIT_BLESSED_DESCRIPTION",
+        "English": "Some people are blessed with better fortune than others. Who knows what good things it might lead to?"
+      },
+      {
         "zType": "TEXT_TRAIT_CURSED",
         "English": "Cursed"
+      },
+      {
+        "zType": "TEXT_TRAIT_CURSED_DESCRIPTION",
+        "English": "Nobody knows whether curses are real, but the misfortune some people attract definitely is. Whatever comes next will likely not be pleasant."
       },
       {
         "zType": "TEXT_TRAIT_ILL",

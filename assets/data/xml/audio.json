@@ -5060,14 +5060,14 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO1",
 				"zAsset": "Play_3_Pieces_in_Old_Style___No1",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO1"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO3",
 				"zAsset": "Play_3_Pieces_in_Old_Style___No3",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO3"
 			},
@@ -5176,7 +5176,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_OPENING_FEICO_DEUTEKOM",
 				"zAsset": "Play_Opening_Feico_Deutekom",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_PHILIP_GLASS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_OPENING_GLASSWORKS"
 			},
@@ -5220,91 +5220,91 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_1_MSTR",
 				"zAsset": "Play_Miserere_Movement_1_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_1_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_3_MSTR",
 				"zAsset": "Play_Miserere_Movement_3_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_3_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_4_MSTR",
 				"zAsset": "Play_Miserere_Movement_4_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_4_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_5_MSTR",
 				"zAsset": "Play_Miserere_Movement_5_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_5_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_6_MSTR",
 				"zAsset": "Play_Miserere_Movement_6_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_6_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_7_MSTR",
 				"zAsset": "Play_Miserere_Movement_7_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_7_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_9_MSTR",
 				"zAsset": "Play_Miserere_Movement_9_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_9_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Miserere_Movement_11_MSTR",
 				"zAsset": "Play_Miserere_Movement_11_MSTR",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_HENRYK_GORECKI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISERERE_MOVEMENT_11_MSTR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___BENEDICTUS",
 				"zAsset": "Play_Missa_a_cappella___Benedictus",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___BENEDICTUS"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___CREDO",
 				"zAsset": "Play_Missa_a_cappella___Credo",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___CREDO"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___GLORIA",
 				"zAsset": "Play_Missa_a_cappella___Gloria",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___GLORIA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___SANCTUS",
 				"zAsset": "Play_Missa_a_cappella___Sanctus",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MISSA_A_CAPPELLA___SANCTUS"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_OROVELA",
 				"zAsset": "Play_Orovela",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": {
 					
 				},
@@ -5331,7 +5331,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_RASD",
 				"zAsset": "Play_Rasd",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": {
 					
 				},
@@ -5363,7 +5363,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_SPARMASETTA",
 				"zAsset": "Play_Sparmasetta",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALAN_SHAVARSH_BARDEZBANIAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SPARMASETTA"
 			},
@@ -5379,7 +5379,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_TAQSIM_ON_NEY",
 				"zAsset": "Play_Taqsim_on_Ney",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": {
 					
 				},
@@ -5450,14 +5450,14 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_VOCH_ME_DZALEEG__THERE_IS_NO_FLOWER_",
 				"zAsset": "Play_Voch_Me_Dzaleeg__There_is_No_Flower_",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALAN_SHAVARSH_BARDEZBANIAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_VOCH_ME_DZALEEG__THERE_IS_NO_FLOWER_"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_YA_KHALIL__YA_KHALIL__NAME_OF_THE_BELOVED_",
 				"zAsset": "Play_Ya_Khalil__Ya_khalil__Name_of_the_Beloved_",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Artist": {
 					
 				},
@@ -5524,21 +5524,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Beauty_Mark___Chad_Lawson",
 				"zAsset": "Play_Beauty_Mark___Chad_Lawson",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHAD_LAWSON",
 				"Description": "TEXT_AUDIO_MUSIC_BG_BEAUTY_MARK___CHAD_LAWSON"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Belly_of_the_Whale___Songs_Of_Water",
 				"zAsset": "Play_Belly_of_the_Whale___Songs_Of_Water",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_SONGS_OF_WATER",
 				"Description": "TEXT_AUDIO_MUSIC_BG_BELLY_OF_THE_WHALE___SONGS_OF_WATER"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Clouds__Not_Clocks___Slow_Meadow",
 				"zAsset": "Play_Clouds__Not_Clocks___Slow_Meadow",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_SLOW_MEADOW",
 				"Description": "TEXT_AUDIO_MUSIC_BG_CLOUDS__NOT_CLOCKS___SLOW_MEADOW"
 			},
@@ -5566,7 +5566,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Daydream_in_D_for_Cello___Eric_Kinny",
 				"zAsset": "Play_Daydream_in_D_for_Cello___Eric_Kinny",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ERIC_KINNY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DAYDREAM_IN_D_FOR_CELLO___ERIC_KINNY"
 			},
@@ -5601,14 +5601,14 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Elegy___Dexter_Britain",
 				"zAsset": "Play_Elegy___Dexter_Britain",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_DEXTER_BRITAIN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ELEGY___DEXTER_BRITAIN"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Falling_Ocean___Chad_Lawson",
 				"zAsset": "Play_Falling_Ocean___Chad_Lawson",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHAD_LAWSON",
 				"Description": "TEXT_AUDIO_MUSIC_BG_FALLING_OCEAN___CHAD_LAWSON"
 			},
@@ -5622,21 +5622,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_For_Katherine__with_Peter_Cavallo____Kyle_Mcevoy",
 				"zAsset": "Play_For_Katherine__with_Peter_Cavallo____Kyle_Mcevoy",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_KYLE_MCEVOY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_FOR_KATHERINE__WITH_PETER_CAVALLO____KYLE_MCEVOY"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Golestan___Max_LL",
 				"zAsset": "Play_Golestan___Max_LL",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_MAX_LL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_GOLESTAN___MAX_LL"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_In_the_End___Future_Of_Forestry",
 				"zAsset": "Play_In_the_End___Future_Of_Forestry",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_FUTURE_OF_FORESTRY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_IN_THE_END___FUTURE_OF_FORESTRY"
 			},
@@ -5657,21 +5657,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Little___Kingpinguin",
 				"zAsset": "Play_Little___Kingpinguin",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_KINGPINGUIN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LITTLE___KINGPINGUIN"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_My_Harp___Future_Of_Forestry",
 				"zAsset": "Play_My_Harp___Future_Of_Forestry",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_FUTURE_OF_FORESTRY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MY_HARP___FUTURE_OF_FORESTRY"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_New_Beginnings___Alistair_Sung",
 				"zAsset": "Play_New_Beginnings___Alistair_Sung",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALISTAIR_SUNG",
 				"Description": "TEXT_AUDIO_MUSIC_BG_NEW_BEGINNINGS___ALISTAIR_SUNG"
 			},
@@ -5685,21 +5685,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Pool___Steven_Gutheinz",
 				"zAsset": "Play_Pool___Steven_Gutheinz",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_STEVEN_GUTHEINZ",
 				"Description": "TEXT_AUDIO_MUSIC_BG_POOL___STEVEN_GUTHEINZ"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Sandstone___Blake_Ewing",
 				"zAsset": "Play_Sandstone___Blake_Ewing",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_BLAKE_EWING",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SANDSTONE___BLAKE_EWING"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Searching_The_Unknown___Alistair_Sung",
 				"zAsset": "Play_Searching_The_Unknown___Alistair_Sung",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALISTAIR_SUNG",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SEARCHING_THE_UNKNOWN___ALISTAIR_SUNG"
 			},
@@ -5720,21 +5720,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Summer___Cathedral",
 				"zAsset": "Play_Summer___Cathedral",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CATHEDRAL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SUMMER___CATHEDRAL"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_The_Fragile_Part___Aj_Hochhalter",
 				"zAsset": "Play_The_Fragile_Part___Aj_Hochhalter",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_AJ_HOCHHALTER",
 				"Description": "TEXT_AUDIO_MUSIC_BG_THE_FRAGILE_PART___AJ_HOCHHALTER"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Torrid__Piano___Pads_Only____Bradford_Nyght",
 				"zAsset": "Play_Torrid__Piano___Pads_Only____Bradford_Nyght",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_BRADFORD_NYGHT",
 				"Description": "TEXT_AUDIO_MUSIC_BG_TORRID__PIANO___PADS_ONLY____BRADFORD_NYGHT"
 			},
@@ -5755,14 +5755,14 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Union___Tolo",
 				"zAsset": "Play_Union___Tolo",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_TOLO",
 				"Description": "TEXT_AUDIO_MUSIC_BG_UNION___TOLO"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Vows_on_the_Hillside___Timbre",
 				"zAsset": "Play_Vows_on_the_Hillside___Timbre",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_TIMBRE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_VOWS_ON_THE_HILLSIDE___TIMBRE"
 			},
@@ -5789,19 +5789,19 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Dragana_I_Slavei",
 				"zAsset": "Play_Dragana_I_Slavei",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DRAGANA_I_SLAVEI"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Ei_Mori_Roujke",
 				"zAsset": "Play_Ei_Mori_Roujke",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_EI_MORI_ROUJKE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Erghen_Diado",
 				"zAsset": "Play_Erghen_Diado",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ERGHEN_DIADO"
 			},
 			{
@@ -5813,7 +5813,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Messetschinko_Lio_Greilivko",
 				"zAsset": "Play_Messetschinko_Lio_Greilivko",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MESSETSCHINKO_LIO_GREILIVKO"
 			},
 			{
@@ -5825,25 +5825,25 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Pilentze_Pee",
 				"zAsset": "Play_Pilentze_Pee",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_PILENTZE_PEE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Polegnala_E_Todora",
 				"zAsset": "Play_Polegnala_E_Todora",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_POLEGNALA_E_TODORA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Pritouritze_Planinata",
 				"zAsset": "Play_Pritouritze_Planinata",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_PRITOURITZE_PLANINATA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Shope__Shope",
 				"zAsset": "Play_Shope__Shope",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SHOPE__SHOPE"
 			},
 			{
@@ -5862,62 +5862,62 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_SLUNTSE___THE_MYSTERY_OF_THE_BULGARIAN_VOICES",
 				"zAsset": "Play_Sluntse___The_Mystery_of_the_Bulgarian_Voices",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_LE_MYSTERE_DES_VOIX_BULGARES",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SLUNTSE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_STANKA___THE_MYSTERY_OF_THE_BULGARIAN_VOICES",
 				"zAsset": "Play_Stanka___The_Mystery_of_the_Bulgarian_Voices",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_LE_MYSTERE_DES_VOIX_BULGARES",
 				"Description": "TEXT_AUDIO_MUSIC_BG_STANKA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ZABLEYALO_AGNE___THE_MYSTERY_OF_THE_BULGARIAN_VOICES",
 				"zAsset": "Play_Zableyalo_Agne___The_Mystery_of_the_Bulgarian_Voices",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_LE_MYSTERE_DES_VOIX_BULGARES",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ZABLEYALO_AGNE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Evening_Hymn",
 				"zAsset": "Play_Evening_Hymn",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_EVENING_HYMN"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Lamentatio_Sanct___Matris_Ecclesi___Constantinopolitan",
 				"zAsset": "Play_Lamentatio_Sanct___Matris_Ecclesi___Constantinopolitan",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LAMENTATIO_SANCT___MATRIS_ECCLESI___CONSTANTINOPOLITAN"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Cum_autem_venissent",
 				"zAsset": "Play_Cum_autem_venissent",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__AARON_CAIN__MARK_POWELL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_CUM_AUTEM_VENISSENT"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Hierarchical_Entrance_Rite_for_a_Byzantine_Divine_Liturgy_Kontakion_of_the_Mother_of_God__Mode_Plagal_4_",
 				"zAsset": "Play_Hierarchical_Entrance_Rite_for_a_Byzantine_Divine_Liturgy_Kontakion_of_the_Mother_of_God__Mode_Plagal_4_",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_HIERARCHICAL_ENTRANCE_RITE_FOR_A_BYZANTINE_DIVINE_LITURGY_KONTAKION_OF_THE_MOTHER_OF_GOD__MODE_PLAGAL_4_"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Alleluiarion_for_Christmas_Day",
 				"zAsset": "Play_Alleluiarion_for_Christmas_Day",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ALLELUIARION_FOR_CHRISTMAS_DAY"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Antiphon_7_Verses",
 				"zAsset": "Play_Antiphon_7_Verses",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ANTIPHON_7_VERSES"
 			},
@@ -5930,21 +5930,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Vasilissa_ergo_gaude",
 				"zAsset": "Play_Vasilissa_ergo_gaude",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_VASILISSA_ERGO_GAUDE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Vespers_Antiphon",
 				"zAsset": "Play_Vespers_Antiphon",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_VESPERS_ANTIPHON"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Your_bridal_chamber",
 				"zAsset": "Play_Your_bridal_chamber",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_YOUR_BRIDAL_CHAMBER"
 			},
 			{
@@ -5977,7 +5977,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Sequence",
 				"zAsset": "Play_Sequence",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SEQUENCE"
 			},
@@ -5998,20 +5998,20 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_O_Great_Pascha",
 				"zAsset": "Play_O_Great_Pascha",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_O_GREAT_PASCHA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Of_your_mystical_supper",
 				"zAsset": "Play_Of_your_mystical_supper",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Description": "TEXT_AUDIO_MUSIC_BG_OF_YOUR_MYSTICAL_SUPPER"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Rulers_of_the_Peoples___They_Laid_a_Lawless_Charge___Let_Us_Bring_Our_Senses",
 				"zAsset": "Play_Rulers_of_the_Peoples___They_Laid_a_Lawless_Charge___Let_Us_Bring_Our_Senses",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_RULERS_OF_THE_PEOPLES___THEY_LAID_A_LAWLESS_CHARGE___LET_US_BRING_OUR_SENSES"
 			},
@@ -6024,7 +6024,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Kontakion_of_the_Cross",
 				"zAsset": "Play_Kontakion_of_the_Cross",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_KONTAKION_OF_THE_CROSS"
 			},

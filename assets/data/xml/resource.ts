@@ -81,6 +81,7 @@
         "iBorderValue": "2400",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
+        "bNoVegetation": "1",
         "bClearVegetation": "1",
         "aiYieldReveal": {
           "Pair": {
@@ -173,6 +174,7 @@
         "iBorderValue": "1600",
         "iHarvestCost": "1",
         "iHarvestRoll": "8",
+        "bNoVegetation": "1",
         "bClearVegetation": "1",
         "aiYieldReveal": {
           "Pair": {
@@ -343,6 +345,7 @@
         "iBorderValue": "2400",
         "iHarvestCost": "1",
         "iHarvestRoll": "10",
+        "bNoVegetation": "1",
         "bClearVegetation": "1",
         "bUseAnimLOD": "1",
         "bFadeWithUnits": "1",

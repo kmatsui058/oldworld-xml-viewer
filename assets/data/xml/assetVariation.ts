@@ -782,7 +782,7 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_HARBOR",
-        "aiValidRotations": "0",
+        "aiValidRotations": "300",
         "SingleAsset": "ASSET_IMPROVEMENT_HARBOR"
       },
       {
@@ -792,7 +792,7 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_WATERMILL",
-        "aiValidRotations": "0",
+        "aiValidRotations": "300",
         "SingleAsset": "ASSET_IMPROVEMENT_WATERMILL"
       },
       {
@@ -823,7 +823,8 @@
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_BARRACKS",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_BARRACKS"
+        "SingleAsset": "ASSET_IMPROVEMENT_BARRACKS",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_RANGE",

@@ -647,6 +647,21 @@
         "zType": "MEMORYRELIGION_OTHER_DISCIPLE",
         "Text": "TEXT_MEMORYRELIGION_OTHER_DISCIPLE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYRELIGION_REFUSED_MARRIAGE",
+        "Text": "TEXT_MEMORY_REFUSED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYRELIGION_ACCEPTED_MARRIAGE",
+        "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYRELIGION_DIVORCED_SPOUSE",
+        "Text": "TEXT_MEMORYRELIGION_DIVORCED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       }
     ]
   }

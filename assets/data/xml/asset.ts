@@ -535,8 +535,16 @@
         "zAsset": "Prefabs/Units/Warrior_portrait"
       },
       {
+        "zType": "ASSET_UNIT_WARRIOR_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Warrior/Warrior_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_AXEMAN",
         "zAsset": "Prefabs/Units/Axeman"
+      },
+      {
+        "zType": "ASSET_UNIT_AXEMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Axeman/Axeman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_AXEMAN",
@@ -593,6 +601,10 @@
       {
         "zType": "ASSET_UNIT_SLINGER",
         "zAsset": "Prefabs/Units/Slinger"
+      },
+      {
+        "zType": "ASSET_UNIT_SLINGER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Slinger/Slinger_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_SLINGER",

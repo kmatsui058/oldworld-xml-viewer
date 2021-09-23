@@ -83,8 +83,8 @@
         "English": "Besieger"
       },
       {
-        "zType": "TEXT_PROMOTION_GARRISON",
-        "English": "Garrison"
+        "zType": "TEXT_PROMOTION_WARDEN",
+        "English": "Warden"
       },
       {
         "zType": "TEXT_PROMOTION_TOUGH",
@@ -175,8 +175,8 @@
         "English": "Saddleborn"
       },
       {
-        "zType": "TEXT_PROMOTION_SNIPING",
-        "English": "Sniping"
+        "zType": "TEXT_PROMOTION_SENTINEL",
+        "English": "Sentinel"
       }
     ]
   }

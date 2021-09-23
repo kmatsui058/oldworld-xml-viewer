@@ -12,7 +12,13 @@
         "zIconName": {
           
         },
+        "Class": {
+          
+        },
         "SourceUnitTrait": {
+          
+        },
+        "iClassNum": {
           
         },
         "iStrengthModifier": {
@@ -75,9 +81,6 @@
         "iGeneralModifier": {
           
         },
-        "iTribeModifier": {
-          
-        },
         "iFlankingAttackModifier": {
           
         },
@@ -91,6 +94,15 @@
           
         },
         "iHealAlways": {
+          
+        },
+        "bSkipIcon": {
+          
+        },
+        "bMultiTeams": {
+          
+        },
+        "bMeleeCounter": {
           
         },
         "bRout": {
@@ -153,6 +165,9 @@
         "aiUnitTraitModifierMelee": {
           
         },
+        "aiMilitaryKillYield": {
+          
+        },
         "abHideVegetation": {
           
         },
@@ -170,24 +185,32 @@
         "zType": "EFFECTUNIT_COMBAT1",
         "Name": "TEXT_EFFECTUNIT_COMBAT1",
         "zIconName": "EFFECTUNIT_COMBAT1",
+        "Class": "EFFECTUNITCLASS_COMBAT",
+        "iClassNum": "1",
         "iStrengthModifier": "5"
       },
       {
         "zType": "EFFECTUNIT_COMBAT2",
         "Name": "TEXT_EFFECTUNIT_COMBAT2",
         "zIconName": "EFFECTUNIT_COMBAT2",
+        "Class": "EFFECTUNITCLASS_COMBAT",
+        "iClassNum": "2",
         "iStrengthModifier": "10"
       },
       {
         "zType": "EFFECTUNIT_COMBAT3",
         "Name": "TEXT_EFFECTUNIT_COMBAT3",
         "zIconName": "EFFECTUNIT_COMBAT3",
+        "Class": "EFFECTUNITCLASS_COMBAT",
+        "iClassNum": "3",
         "iStrengthModifier": "15"
       },
       {
         "zType": "EFFECTUNIT_STRIKE1",
         "Name": "TEXT_EFFECTUNIT_STRIKE1",
         "zIconName": "EFFECTUNIT_STRIKE1",
+        "Class": "EFFECTUNITCLASS_STRIKE",
+        "iClassNum": "1",
         "iAttackModifier": "10",
         "abUnitTraitValid": {
           "Pair": [
@@ -206,6 +229,8 @@
         "zType": "EFFECTUNIT_STRIKE2",
         "Name": "TEXT_EFFECTUNIT_STRIKE2",
         "zIconName": "EFFECTUNIT_STRIKE2",
+        "Class": "EFFECTUNITCLASS_STRIKE",
+        "iClassNum": "2",
         "iAttackModifier": "15",
         "abUnitTraitValid": {
           "Pair": [
@@ -224,6 +249,8 @@
         "zType": "EFFECTUNIT_STRIKE3",
         "Name": "TEXT_EFFECTUNIT_STRIKE3",
         "zIconName": "EFFECTUNIT_STRIKE3",
+        "Class": "EFFECTUNITCLASS_STRIKE",
+        "iClassNum": "3",
         "iAttackModifier": "20",
         "abUnitTraitValid": {
           "Pair": [
@@ -242,6 +269,8 @@
         "zType": "EFFECTUNIT_GUARD1",
         "Name": "TEXT_EFFECTUNIT_GUARD1",
         "zIconName": "EFFECTUNIT_GUARD1",
+        "Class": "EFFECTUNITCLASS_GUARD",
+        "iClassNum": "1",
         "iDefenseModifier": "10",
         "abUnitTraitValid": {
           "Pair": [
@@ -260,6 +289,8 @@
         "zType": "EFFECTUNIT_GUARD2",
         "Name": "TEXT_EFFECTUNIT_GUARD2",
         "zIconName": "EFFECTUNIT_GUARD2",
+        "Class": "EFFECTUNITCLASS_GUARD",
+        "iClassNum": "2",
         "iDefenseModifier": "15",
         "abUnitTraitValid": {
           "Pair": [
@@ -278,6 +309,8 @@
         "zType": "EFFECTUNIT_GUARD3",
         "Name": "TEXT_EFFECTUNIT_GUARD3",
         "zIconName": "EFFECTUNIT_GUARD3",
+        "Class": "EFFECTUNITCLASS_GUARD",
+        "iClassNum": "3",
         "iDefenseModifier": "20",
         "abUnitTraitValid": {
           "Pair": [
@@ -296,18 +329,24 @@
         "zType": "EFFECTUNIT_FOCUS1",
         "Name": "TEXT_EFFECTUNIT_FOCUS1",
         "zIconName": "EFFECTUNIT_FOCUS1",
+        "Class": "EFFECTUNITCLASS_FOCUS",
+        "iClassNum": "1",
         "iCriticalChance": "10"
       },
       {
         "zType": "EFFECTUNIT_FOCUS2",
         "Name": "TEXT_EFFECTUNIT_FOCUS2",
         "zIconName": "EFFECTUNIT_FOCUS2",
+        "Class": "EFFECTUNITCLASS_FOCUS",
+        "iClassNum": "2",
         "iCriticalChance": "15"
       },
       {
         "zType": "EFFECTUNIT_FOCUS3",
         "Name": "TEXT_EFFECTUNIT_FOCUS3",
         "zIconName": "EFFECTUNIT_FOCUS3",
+        "Class": "EFFECTUNITCLASS_FOCUS",
+        "iClassNum": "3",
         "iCriticalChance": "20"
       },
       {
@@ -426,9 +465,9 @@
         }
       },
       {
-        "zType": "EFFECTUNIT_GARRISON",
-        "Name": "TEXT_EFFECTUNIT_GARRISON",
-        "zIconName": "EFFECTUNIT_GARRISON",
+        "zType": "EFFECTUNIT_WARDEN",
+        "Name": "TEXT_EFFECTUNIT_WARDEN",
+        "zIconName": "EFFECTUNIT_WARDEN",
         "aiTerrainFromModifier": {
           "Pair": {
             "zIndex": "TERRAIN_URBAN",
@@ -470,7 +509,13 @@
         "zType": "EFFECTUNIT_STEADFAST",
         "Name": "TEXT_EFFECTUNIT_STEADFAST",
         "zIconName": "EFFECTUNIT_STEADFAST",
-        "iTribeModifier": "25",
+        "bMultiTeams": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_TRIBAL",
+            "iValue": "25"
+          }
+        },
         "abUnitTraitValid": {
           "Pair": [
             {
@@ -750,6 +795,7 @@
         "zType": "EFFECTUNIT_GRAPPLER",
         "Name": "TEXT_EFFECTUNIT_GRAPPLER",
         "zIconName": "EFFECTUNIT_GRAPPLER",
+        "iStrengthModifier": "-20",
         "bStunWater": "1",
         "abUnitTraitValid": {
           "Pair": {
@@ -846,9 +892,9 @@
         }
       },
       {
-        "zType": "EFFECTUNIT_SNIPING",
-        "Name": "TEXT_EFFECTUNIT_SNIPING",
-        "zIconName": "EFFECTUNIT_SNIPING",
+        "zType": "EFFECTUNIT_SENTINEL",
+        "Name": "TEXT_EFFECTUNIT_SENTINEL",
+        "zIconName": "EFFECTUNIT_SENTINEL",
         "iHomeModifier": "20"
       },
       {
@@ -935,7 +981,13 @@
         "zType": "EFFECTUNIT_STEADFAST_ALL",
         "Name": "TEXT_EFFECTUNIT_STEADFAST_ALL",
         "zIconName": "EFFECTUNIT_STEADFAST_ALL",
-        "iTribeModifier": "10",
+        "bMultiTeams": "1",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_TRIBAL",
+            "iValue": "25"
+          }
+        },
         "abUnitTraitValid": {
           "Pair": [
             {
@@ -1182,7 +1234,23 @@
         "zType": "EFFECTUNIT_SOLDIER",
         "Name": "TEXT_EFFECTUNIT_SOLDIER",
         "zIconName": "EFFECTUNIT_SOLDIER",
-        "iStrengthModifier": "20"
+        "aiMilitaryKillYield": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_PROPHET",
+        "Name": "TEXT_EFFECTUNIT_PROPHET",
+        "zIconName": "EFFECTUNIT_PROPHET",
+        "aiMilitaryKillYield": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-10"
+          }
+        }
       },
       {
         "zType": "EFFECTUNIT_SURVEYOR",
@@ -1200,42 +1268,49 @@
         "zType": "EFFECTUNIT_HERO",
         "Name": "TEXT_EFFECTUNIT_HERO",
         "zIconName": "EFFECTUNIT_HERO",
+        "bSkipIcon": "1",
         "bHealNeutral": "1"
       },
       {
         "zType": "EFFECTUNIT_HERO_LEADER",
         "Name": "TEXT_EFFECTUNIT_HERO_LEADER",
         "zIconName": "EFFECTUNIT_HERO_LEADER",
+        "bSkipIcon": "1",
         "bLaunchOffensive": "1"
       },
       {
         "zType": "EFFECTUNIT_HERO_MELEE",
         "Name": "TEXT_EFFECTUNIT_HERO_MELEE",
         "zIconName": "EFFECTUNIT_HERO_MELEE",
-        "iAttackModifier": "10"
+        "iAttackModifier": "10",
+        "bSkipIcon": "1"
       },
       {
         "zType": "EFFECTUNIT_COMMANDER",
         "Name": "TEXT_EFFECTUNIT_COMMANDER",
         "zIconName": "EFFECTUNIT_COMMANDER",
-        "iAdjacentSameModifier": "20"
+        "iAdjacentSameModifier": "20",
+        "bSkipIcon": "1"
       },
       {
         "zType": "EFFECTUNIT_COMMANDER_LEADER",
         "Name": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
         "zIconName": "EFFECTUNIT_COMMANDER_LEADER",
-        "iFlankingAttackModifier": "20"
+        "iFlankingAttackModifier": "20",
+        "bSkipIcon": "1"
       },
       {
         "zType": "EFFECTUNIT_COMMANDER_INFANTRY",
         "Name": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
         "zIconName": "EFFECTUNIT_COMMANDER_INFANTRY",
-        "iDefenseModifier": "10"
+        "iDefenseModifier": "10",
+        "bSkipIcon": "1"
       },
       {
         "zType": "EFFECTUNIT_TACTICIAN_RANGED",
         "Name": "TEXT_EFFECTUNIT_TACTICIAN_RANGED",
         "zIconName": "EFFECTUNIT_TACTICIAN_RANGED",
+        "bSkipIcon": "1",
         "abHideVegetation": {
           "Pair": {
             "zIndex": "VEGETATION_TREES",
@@ -1247,25 +1322,30 @@
         "zType": "EFFECTUNIT_TACTICIAN",
         "Name": "TEXT_EFFECTUNIT_TACTICIAN",
         "zIconName": "EFFECTUNIT_TACTICIAN",
+        "bSkipIcon": "1",
         "bCriticalImmune": "1"
       },
       {
         "zType": "EFFECTUNIT_TACTICIAN_LEADER",
         "Name": "TEXT_EFFECTUNIT_TACTICIAN_LEADER",
         "zIconName": "EFFECTUNIT_TACTICIAN_LEADER",
+        "iStrengthModifier": "-20",
+        "bSkipIcon": "1",
         "bStun": "1"
       },
       {
         "zType": "EFFECTUNIT_ZEALOT",
         "Name": "TEXT_EFFECTUNIT_ZEALOT",
         "zIconName": "EFFECTUNIT_ZEALOT",
+        "bSkipIcon": "1",
         "bLastStand": "1"
       },
       {
         "zType": "EFFECTUNIT_ZEALOT_LEADER",
         "Name": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
         "zIconName": "EFFECTUNIT_ZEALOT_LEADER",
-        "iEnlistOnKillChance": "10"
+        "iEnlistOnKillChance": "10",
+        "bSkipIcon": "1"
       },
       {
         "zType": "EFFECTUNIT_OPINIONFAMILY_FURIOUS",
@@ -1306,12 +1386,6 @@
             "zIndex": "UNITTRAIT_INFANTRY",
             "iValue": "50"
           }
-        },
-        "abUnitTraitValid": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MELEE",
-            "bValue": "1"
-          }
         }
       },
       {
@@ -1319,7 +1393,8 @@
         "Name": "TEXT_UNITTRAIT_MELEE",
         "zIconName": "UNITTRAIT_MELEE",
         "SourceUnitTrait": "UNITTRAIT_MELEE",
-        "iRiverAttackModifier": "-50"
+        "iRiverAttackModifier": "-50",
+        "bMeleeCounter": "1"
       },
       {
         "zType": "EFFECTUNIT_RANGED",
@@ -1386,6 +1461,12 @@
         "Name": "TEXT_UNITTRAIT_SHIP",
         "zIconName": "UNITTRAIT_SHIP",
         "SourceUnitTrait": "UNITTRAIT_SHIP"
+      },
+      {
+        "zType": "EFFECTUNIT_TRIBAL",
+        "Name": "TEXT_UNITTRAIT_TRIBAL",
+        "zIconName": "UNITTRAIT_TRIBAL",
+        "SourceUnitTrait": "UNITTRAIT_TRIBAL"
       }
     ]
   }
