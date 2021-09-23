@@ -148,7 +148,7 @@
       },
       {
         "zType": "GIFT_YIELD_QUANTITY",
-        "iValue": "50"
+        "iValue": "100"
       },
       {
         "zType": "MIN_LUXURY_TRADE_LENGTH",
@@ -205,6 +205,10 @@
       {
         "zType": "MAX_TRAINING",
         "iValue": "2000"
+      },
+      {
+        "zType": "MONEY_INFLATION_TURNS",
+        "iValue": "60"
       },
       {
         "zType": "CIVICS_PER_SCIENCE",
@@ -419,6 +423,10 @@
         "iValue": "1"
       },
       {
+        "zType": "CITY_SITE_GUARD_COST",
+        "iValue": "0"
+      },
+      {
         "zType": "CITY_BASE_CAPTURE_TURNS",
         "iValue": "2"
       },
@@ -473,10 +481,6 @@
       {
         "zType": "GENERAL_SAME_FAMILY_MODIFIER",
         "iValue": "-25"
-      },
-      {
-        "zType": "MISS_PROB",
-        "iValue": "0"
       },
       {
         "zType": "INJURY_PROB",
@@ -860,7 +864,11 @@
       },
       {
         "zType": "MIN_RAID_TURNS",
-        "iValue": "4"
+        "iValue": "6"
+      },
+      {
+        "zType": "MIN_RAID_TURNS_ANY",
+        "iValue": "3"
       },
       {
         "zType": "MAX_CITY_RAID_DIST",
@@ -977,6 +985,10 @@
       {
         "zType": "STRENGTH_MULTIPLIER",
         "iValue": "10"
+      },
+      {
+        "zType": "UI_DISPLAYED_TRAITS",
+        "iValue": "3"
       }
     ]
   }

@@ -214,7 +214,6 @@
         "NameVerb": "TEXT_RELATIONSHIP_PLOTTING_AGAINST_VERB",
         "iOpinion": "-200",
         "iMinAgeUs": "15",
-        "iMinAgeThem": "12",
         "aeInvalidateRelationship": {
           "zValue": [
             "RELATIONSHIP_IN_LOVE_WITH",

@@ -31,6 +31,11 @@
         "zType": "ADVANTAGE_HIGH",
         "Name": "TEXT_ADVANTAGE_HIGH",
         "EffectPlayer": "EFFECTPLAYER_ADVANTAGE_HIGH"
+      },
+      {
+        "zType": "ADVANTAGE_VERY_HIGH",
+        "Name": "TEXT_ADVANTAGE_VERY_HIGH",
+        "EffectPlayer": "EFFECTPLAYER_ADVANTAGE_VERY_HIGH"
       }
     ]
   }

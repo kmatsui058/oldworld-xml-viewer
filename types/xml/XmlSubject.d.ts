@@ -12,7 +12,7 @@ export interface Entry {
   Class: ZType | string;
   RelationUs?: ZType | RelationUs2 | string;
   RelationLeader?: ZType | RelationUs2 | string;
-  NoRelationLeader?: RelationUs2 | string;
+  NoRelationLeader?: RelationUs2;
   Religion?: ZType | RelationUs2 | string;
   Tech?: ZType | RelationUs2 | string;
   Law?: ZType | RelationUs2 | string;
@@ -101,7 +101,7 @@ export interface Entry {
   bPaganReligion?: ZType | RelationUs2 | string;
   bWorldReligion?: ZType | RelationUs2 | string;
   bUnlockedReligion?: ZType | RelationUs2 | string;
-  bTribeReligion?: ActiveQuest;
+  bTribeReligion?: ZType | RelationUs2 | string;
   bNoTribeReligion?: ZType | RelationUs2 | string;
   bFamilyReligion?: ZType | RelationUs2 | string;
   bNoFamilyReligion?: ZType | RelationUs2 | string;

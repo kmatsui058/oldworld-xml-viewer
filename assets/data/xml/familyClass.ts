@@ -45,6 +45,9 @@
         "iLeaderUnmarriedOpinion": {
           
         },
+        "iLeaderForeignSpouseOpinion": {
+          
+        },
         "iLeaderTribeSpouseOpinion": {
           
         },
@@ -66,7 +69,7 @@
         "iHolyCityOpinion": {
           
         },
-        "iPopulationOpinion": {
+        "iSpecialistsOpinion": {
           
         },
         "iLargestMilitaryOpinion": {
@@ -94,9 +97,6 @@
           
         },
         "iPillagedOpinion": {
-          
-        },
-        "iUnitInsideOpinion": {
           
         },
         "iHostileUnitOpinion": {
@@ -148,6 +148,7 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_LANDOWNERS",
         "SeatCrest": "CREST_FAMILYCLASS_LANDOWNERS_SEAT",
+        "iLeaderNotAdultOpinion": "-20",
         "iMostCitiesOpinion": "40",
         "iFewestCitiesOpinion": "-40",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_LANDOWNERS",
@@ -350,7 +351,6 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_STATESMEN",
         "SeatCrest": "CREST_FAMILYCLASS_STATESMEN_SEAT",
-        "iLeaderNotAdultOpinion": "-20",
         "iLeaderUnmarriedOpinion": "-20",
         "iNoCouncilOpinion": "-20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_STATESMEN",
@@ -453,6 +453,7 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_PATRONS",
         "SeatCrest": "CREST_FAMILYCLASS_PATRONS_SEAT",
+        "iLeaderHeirOpinion": "20",
         "iGovernorOpinion": "10",
         "iWonderOpinion": "20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_PATRONS",
@@ -554,7 +555,7 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_CLERICS",
         "SeatCrest": "CREST_FAMILYCLASS_CLERICS_SEAT",
-        "iPopulationOpinion": "40",
+        "iHolyCityOpinion": "20",
         "iNoReligionOpinion": "-20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_CLERICS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_CLERICS_SEAT",
@@ -656,7 +657,7 @@
         "Crest": "CREST_FAMILYCLASS_SAGES",
         "SeatCrest": "CREST_FAMILYCLASS_SAGES_SEAT",
         "iLeaderTribeSpouseOpinion": "-40",
-        "iCityDefendedOpinion": "20",
+        "iSpecialistsOpinion": "40",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_SAGES",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_SAGES_SEAT",
@@ -757,7 +758,7 @@
         "Crest": "CREST_FAMILYCLASS_TRADERS",
         "SeatCrest": "CREST_FAMILYCLASS_TRADERS_SEAT",
         "iConnectedOpinion": "10",
-        "iCityDamagedOpinion": "-40",
+        "iCityDamagedOpinion": "-20",
         "bPrefersDistant": "1",
         "EffectUnit": "EFFECTUNIT_SURVEYOR",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_TRADERS",
@@ -966,8 +967,8 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_RIDERS",
         "SeatCrest": "CREST_FAMILYCLASS_RIDERS_SEAT",
+        "iLeaderForeignSpouseOpinion": "-40",
         "iGeneralOpinion": "10",
-        "iHostileUnitOpinion": "-10",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_RIDERS_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_RIDERS_SEAT",
@@ -1067,7 +1068,8 @@
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_FAMILYCLASS",
         "Crest": "CREST_FAMILYCLASS_HUNTERS",
         "SeatCrest": "CREST_FAMILYCLASS_HUNTERS_SEAT",
-        "iUnitInsideOpinion": "5",
+        "iCityDefendedOpinion": "20",
+        "iHostileUnitOpinion": "-10",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_HUNTERS_SEAT",

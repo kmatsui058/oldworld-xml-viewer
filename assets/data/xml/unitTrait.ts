@@ -18,9 +18,6 @@
         "iMaxAITargetPercent": {
           
         },
-        "bMeleeCounter": {
-          
-        },
         "EffectUnit": {
           
         }
@@ -30,7 +27,6 @@
         "Name": "TEXT_UNITTRAIT_MELEE",
         "zIconName": "UNITTRAIT_MELEE",
         "iMinAITargetPercent": "25",
-        "bMeleeCounter": "1",
         "EffectUnit": "EFFECTUNIT_MELEE"
       },
       {
@@ -92,8 +88,14 @@
         "zType": "UNITTRAIT_SHIP",
         "Name": "TEXT_UNITTRAIT_SHIP",
         "zIconName": "UNITTRAIT_SHIP",
-        "iMaxAITargetPercent": "10",
         "EffectUnit": "EFFECTUNIT_SHIP"
+      },
+      {
+        "zType": "UNITTRAIT_TRIBAL",
+        "Name": "TEXT_UNITTRAIT_TRIBAL",
+        "zIconName": "UNITTRAIT_TRIBAL",
+        "iMinAITargetPercent": "25",
+        "EffectUnit": "EFFECTUNIT_TRIBAL"
       }
     ]
   }

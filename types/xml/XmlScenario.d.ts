@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   SubTitle: ZType | string;
+  ScenarioClass?: ZType | string;
   zIcon: ZType | string;
   bPublic?: ZType | string;
   zMapFile?: ZType | string;
@@ -28,6 +29,7 @@ export interface Entry {
   abTribes?: ZType;
   TribeLevel: ZType | string;
   DisableOptions?: ZType | string;
+  abVictoryEnabled?: ZType;
   abOptionEnabled?: ZType;
   abOptionValid?: AbOptionValid;
   azParametersInvalid?: AzParametersInvalid;

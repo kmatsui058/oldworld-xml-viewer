@@ -10,7 +10,7 @@ const jsonConfig = {
   size: 2
 }
 
-const excludeFileName = ['eventStory', 'eventOption', 'bonus-event', 'audio', 'subject']
+const excludeFileName = ['eventStory', 'eventOption', 'bonus-event', 'audio', 'subject', 'bonus']
 
 const isExclude = (fileName: string): boolean => {
   return !!excludeFileName.find(test => fileName === test)

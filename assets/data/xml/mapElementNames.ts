@@ -72,6 +72,7 @@
             "TEXT_BALKAN_MOUNTAINS",
             "TEXT_CARPATHIAN_MOUNTAINS",
             "TEXT_DINARIC_ALPS",
+            "TEXT_SCARDUS_MOUNTAINS",
             "TEXT_SOUDETA_MOUNTAINS",
             "TEXT_CAUCASUS_MOUNTAINS",
             "TEXT_PAROPAMISADAE",
@@ -116,11 +117,13 @@
             "TEXT_MARISUS_RIVER",
             "TEXT_TISIA_RIVER",
             "TEXT_DRAUS_RIVER",
+            "TEXT_NARENTA_RIVER",
             "TEXT_SANGARIUS_RIVER",
             "TEXT_MACESTUS_RIVER",
             "TEXT_CALBIS_RIVER",
             "TEXT_HALYS_RIVER",
             "TEXT_CAECUS_RIVER",
+            "TEXT_SAROS_RIVER",
             "TEXT_RHODANUS_RIVER",
             "TEXT_DRUENTIA_RIVER",
             "TEXT_LIGER_RIVER",
@@ -218,7 +221,8 @@
             "TEXT_SAHARA_DESERT",
             "TEXT_KYZYLKUM_DESERT",
             "TEXT_THAR_DESERT",
-            "TEXT_KARAKUM_DESERT"
+            "TEXT_KARAKUM_DESERT",
+            "TEXT_GREAT_SALT_DESERT"
           ]
         },
         "azPlateauNames": {
@@ -334,7 +338,7 @@
         "azPeakNames": {
           "zValue": [
             "TEXT_MOUNT_NEMRUD",
-            "TEXT_NIPUR_MOUNTAIN",
+            "TEXT_MOUNT_NIPUR",
             "TEXT_MOUNT_SINJAR",
             "TEXT_MOUNT_ALFAF"
           ]
@@ -822,7 +826,8 @@
             "TEXT_SALAMIS_ISLAND",
             "TEXT_ITHAKI_ISLAND",
             "TEXT_ZAKYNTHOS_ISLAND",
-            "TEXT_THASOS_ISLAND"
+            "TEXT_THASOS_ISLAND",
+            "TEXT_KARPATHOS_ISLAND"
           ]
         }
       },

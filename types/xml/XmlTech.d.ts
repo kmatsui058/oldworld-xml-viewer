@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  Advice: ZType | string;
   zIconName: ZType | string;
   Achievement?: ZType | string;
   BonusDiscover?: ZType | string;

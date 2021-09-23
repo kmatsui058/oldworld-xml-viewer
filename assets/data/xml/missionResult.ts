@@ -187,6 +187,11 @@
         "TargetBonus": "BONUS_MISSIONRESULT_LEAVE_RELIGION"
       },
       {
+        "zType": "MISSIONRESULT_SEND_COURTIER",
+        "Name": "TEXT_MISSIONRESULT_SEND_COURTIER",
+        "TargetBonus": "BONUS_MISSIONRESULT_SEND_COURTIER"
+      },
+      {
         "zType": "MISSIONRESULT_PLAYER_MARRIAGE_EVENT",
         "Name": "TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT",
         "EventTrigger": "EVENTTRIGGER_MISSION_FINISHED"
@@ -228,7 +233,7 @@
       {
         "zType": "MISSIONRESULT_ABDICATE",
         "Name": "TEXT_MISSIONRESULT_ABDICATE",
-        "TargetBonus": "BONUS_MISSIONRESULT_ABDICATE"
+        "TargetBonus": "BONUS_ABDICATE"
       },
       {
         "zType": "MISSIONRESULT_INFLUENCE",
@@ -258,6 +263,18 @@
         "zType": "MISSIONRESULT_CONVERT_SELF_EVENT",
         "Name": "TEXT_MISSIONRESULT_CONVERT_SELF_EVENT",
         "Description": "TEXT_MISSIONRESULT_CONVERT_SELF_EVENT_DESCRIPTION",
+        "EventTrigger": "EVENTTRIGGER_MISSION_FINISHED"
+      },
+      {
+        "zType": "MISSIONRESULT_CONVERT_STATE",
+        "Name": "TEXT_MISSIONRESULT_CONVERT_STATE",
+        "Description": "TEXT_MISSIONRESULT_CONVERT_STATE_DESCRIPTION",
+        "TargetBonus": "BONUS_MISSIONRESULT_CONVERT_STATE"
+      },
+      {
+        "zType": "MISSIONRESULT_CONVERT_STATE_EVENT",
+        "Name": "TEXT_MISSIONRESULT_CONVERT_STATE_EVENT",
+        "Description": "TEXT_MISSIONRESULT_CONVERT_STATE_EVENT_DESCRIPTION",
         "EventTrigger": "EVENTTRIGGER_MISSION_FINISHED"
       },
       {

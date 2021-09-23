@@ -17,7 +17,6 @@ export interface Entry {
   iOpinionEthnicity?: ZType | string;
   iOpinionReligion?: ZType | string;
   iWarModifier?: ZType | string;
-  iBlock?: ZType | string;
   bHostile?: ZType | string;
   bPeace?: ZType | string;
 }

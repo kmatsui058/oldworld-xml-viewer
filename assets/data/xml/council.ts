@@ -63,19 +63,19 @@
         "aiPlayerOpinion": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
-            "iValue": "10"
+            "iValue": "3"
           }
         },
         "aiTribeOpinion": {
           "Pair": {
             "zIndex": "RATING_COURAGE",
-            "iValue": "10"
+            "iValue": "3"
           }
         },
-        "aiFamilyOpinion": {
+        "aiReligionOpinion": {
           "Pair": {
             "zIndex": "RATING_DISCIPLINE",
-            "iValue": "10"
+            "iValue": "3"
           }
         },
         "abTraitPrereq": {
@@ -99,7 +99,7 @@
             "zIndex": "RATING_WISDOM",
             "SubPair": {
               "zSubIndex": "YIELD_CULTURE",
-              "iValue": "10"
+              "iValue": "5"
             }
           }
         }
@@ -134,21 +134,21 @@
               "zIndex": "RATING_CHARISMA",
               "SubPair": {
                 "zSubIndex": "YIELD_CIVICS",
-                "iValue": "20"
+                "iValue": "10"
               }
             },
             {
               "zIndex": "RATING_COURAGE",
               "SubPair": {
                 "zSubIndex": "YIELD_TRAINING",
-                "iValue": "30"
+                "iValue": "15"
               }
             },
             {
               "zIndex": "RATING_DISCIPLINE",
               "SubPair": {
                 "zSubIndex": "YIELD_MONEY",
-                "iValue": "60"
+                "iValue": "30"
               }
             }
           ]
@@ -158,7 +158,7 @@
             "zIndex": "RATING_WISDOM",
             "SubPair": {
               "zSubIndex": "YIELD_GROWTH",
-              "iValue": "10"
+              "iValue": "5"
             }
           }
         }
@@ -172,10 +172,10 @@
         "iOpinion": "40",
         "EffectPlayer": "EFFECTPLAYER_COUNCIL_SPYMASTER",
         "AssignMission": "MISSION_SPYMASTER",
-        "aiReligionOpinion": {
+        "aiFamilyOpinion": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
-            "iValue": "10"
+            "iValue": "3"
           }
         },
         "abTraitPrereq": {
@@ -200,14 +200,14 @@
               "zIndex": "RATING_WISDOM",
               "SubPair": {
                 "zSubIndex": "YIELD_SCIENCE",
-                "iValue": "10"
+                "iValue": "5"
               }
             },
             {
               "zIndex": "RATING_DISCIPLINE",
               "SubPair": {
                 "zSubIndex": "YIELD_ORDERS",
-                "iValue": "5"
+                "iValue": "2"
               }
             }
           ]
@@ -217,7 +217,7 @@
             "zIndex": "RATING_COURAGE",
             "SubPair": {
               "zSubIndex": "YIELD_DISCONTENT",
-              "iValue": "-5"
+              "iValue": "-2"
             }
           }
         }

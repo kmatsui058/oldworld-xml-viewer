@@ -43,6 +43,10 @@
         "Name": "TEXT_CITYNAME_ANTIOCHEIA"
       },
       {
+        "zType": "CITYNAME_AMBRACIA",
+        "Name": "TEXT_CITYNAME_AMBRACIA"
+      },
+      {
         "zType": "CITYNAME_ANTIUM",
         "Name": "TEXT_CITYNAME_ANTIUM"
       },
@@ -157,6 +161,10 @@
       {
         "zType": "CITYNAME_BUHEN",
         "Name": "TEXT_CITYNAME_BUHEN"
+      },
+      {
+        "zType": "CITYNAME_AMUNIA",
+        "Name": "TEXT_CITYNAME_AMUNIA"
       },
       {
         "zType": "CITYNAME_BUSIRIS",
@@ -277,6 +285,10 @@
       {
         "zType": "CITYNAME_DILBAT",
         "Name": "TEXT_CITYNAME_DILBAT"
+      },
+      {
+        "zType": "CITYNAME_AN_AT",
+        "Name": "TEXT_CITYNAME_AN_AT"
       },
       {
         "zType": "CITYNAME_DION",
@@ -637,6 +649,14 @@
       {
         "zType": "CITYNAME_MELIDDU",
         "Name": "TEXT_CITYNAME_MELIDDU"
+      },
+      {
+        "zType": "CITYNAME_TUSHPA",
+        "Name": "TEXT_CITYNAME_TUSHPA"
+      },
+      {
+        "zType": "CITYNAME_GAZA",
+        "Name": "TEXT_CITYNAME_GAZA"
       },
       {
         "zType": "CITYNAME_MELITE",
@@ -1007,6 +1027,10 @@
         "Name": "TEXT_CITYNAME_SIRMIUM"
       },
       {
+        "zType": "CITYNAME_OESCUS",
+        "Name": "TEXT_CITYNAME_OESCUS"
+      },
+      {
         "zType": "CITYNAME_SISCIA",
         "Name": "TEXT_CITYNAME_SISCIA"
       },
@@ -1069,6 +1093,14 @@
       {
         "zType": "CITYNAME_TEREDON",
         "Name": "TEXT_CITYNAME_TEREDON"
+      },
+      {
+        "zType": "CITYNAME_CATURA",
+        "Name": "TEXT_CITYNAME_CATURA"
+      },
+      {
+        "zType": "CITYNAME_KOMIS",
+        "Name": "TEXT_CITYNAME_KOMIS"
       },
       {
         "zType": "CITYNAME_THAENAE",
@@ -1281,6 +1313,14 @@
       {
         "zType": "CITYNAME_TARENTUM",
         "Name": "TEXT_CITYNAME_TARENTUM"
+      },
+      {
+        "zType": "CITYNAME_MEROE",
+        "Name": "TEXT_CITYNAME_MEROE"
+      },
+      {
+        "zType": "CITYNAME_NPY",
+        "Name": "TEXT_CITYNAME_NPY"
       }
     ]
   }

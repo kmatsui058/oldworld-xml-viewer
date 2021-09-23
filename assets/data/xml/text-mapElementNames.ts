@@ -11,6 +11,18 @@
         }
       },
       {
+        "zType": "TEXT_THE_CHANNEL",
+        "English": "The Channel"
+      },
+      {
+        "zType": "TEXT_GREAT_EUROPEAN_PRIMEVAL_FOREST",
+        "English": "Great European Primeval Forest"
+      },
+      {
+        "zType": "TEXT_NORTHERN_OCEAN",
+        "English": "Northern Ocean"
+      },
+      {
         "zType": "TEXT_AATAL_VALLEY",
         "English": "Aatal Valley"
       },
@@ -64,7 +76,7 @@
       },
       {
         "zType": "TEXT_ALBORZ",
-        "English": "Alborz"
+        "English": "Harborz Mountains"
       },
       {
         "zType": "TEXT_ALCARRIA_HEATH",
@@ -212,7 +224,7 @@
       },
       {
         "zType": "TEXT_AXIOS_RIVER",
-        "English": "Axios River"
+        "English": "Vardarios River"
       },
       {
         "zType": "TEXT_BA'AL_KORNINE",
@@ -236,7 +248,7 @@
       },
       {
         "zType": "TEXT_BALERIC_SEA",
-        "English": "Baleric Sea"
+        "English": "Balearic Sea"
       },
       {
         "zType": "TEXT_BALKAN_MOUNTAINS",
@@ -313,6 +325,10 @@
       {
         "zType": "TEXT_CAECUS_RIVER",
         "English": "Caecus River"
+      },
+      {
+        "zType": "TEXT_SAROS_RIVER",
+        "English": "Saros River"
       },
       {
         "zType": "TEXT_CAESTERT_PLATEAU",
@@ -487,6 +503,10 @@
         "English": "Dead Sea"
       },
       {
+        "zType": "TEXT_SEA_OF_KINNERET",
+        "English": "Sea of Kinneret"
+      },
+      {
         "zType": "TEXT_DELIBLATO_SANDS",
         "English": "Deliblato Sands"
       },
@@ -501,6 +521,10 @@
       {
         "zType": "TEXT_DINARIC_ALPS",
         "English": "Dinaric Alps"
+      },
+      {
+        "zType": "TEXT_SCARDUS_MOUNTAINS",
+        "English": "Scardus Mountains"
       },
       {
         "zType": "TEXT_DISCHMA_VALLEY",
@@ -521,6 +545,10 @@
       {
         "zType": "TEXT_DRAUS_RIVER",
         "English": "Draus River"
+      },
+      {
+        "zType": "TEXT_NARENTA_RIVER",
+        "English": "Narenta River"
       },
       {
         "zType": "TEXT_DRILO_RIVER",
@@ -869,6 +897,10 @@
       {
         "zType": "TEXT_KARAKUM_DESERT",
         "English": "Karakum Desert"
+      },
+      {
+        "zType": "TEXT_GREAT_SALT_DESERT",
+        "English": "Great Salt Desert"
       },
       {
         "zType": "TEXT_KARPATHIAN_SEA",
@@ -1288,223 +1320,223 @@
       },
       {
         "zType": "TEXT_MOUNT_AETNA",
-        "English": "Mount Aetna"
+        "English": "Aetna"
       },
       {
         "zType": "TEXT_MOUNT_ALFAF",
-        "English": "Mount Alfaf"
+        "English": "Alfaf"
       },
       {
         "zType": "TEXT_MOUNT_AMARO",
-        "English": "Mount Amaro"
+        "English": "Amaro"
       },
       {
         "zType": "TEXT_MOUNT_ARAGATS",
-        "English": "Mount Aragats"
+        "English": "Aragats"
       },
       {
         "zType": "TEXT_MOUNT_ARARAT",
-        "English": "Mount Ararat"
+        "English": "Ararat"
       },
       {
         "zType": "TEXT_MOUNT_ARGAEUS",
-        "English": "Mount Argaeus"
+        "English": "Argaeus"
       },
       {
         "zType": "TEXT_MOUNT_AROANIA",
-        "English": "Mount Aroania"
+        "English": "Aroania"
       },
       {
         "zType": "TEXT_MOUNT_ATHOS",
-        "English": "Mount Athos"
+        "English": "Athos"
       },
       {
         "zType": "TEXT_MOUNT_BAZARDUZU",
-        "English": "Mount Bazarduzu"
+        "English": "Bazarduzu"
       },
       {
         "zType": "TEXT_MOUNT_CARMEL",
-        "English": "Mount Carmel"
+        "English": "Carmel"
       },
       {
         "zType": "TEXT_MOUNT_CENIS",
-        "English": "Mount Cenis"
+        "English": "Cenis"
       },
       {
         "zType": "TEXT_MOUNT_CIMONE",
-        "English": "Mount Cimone"
+        "English": "Cimone"
       },
       {
         "zType": "TEXT_MOUNT_CORNO",
-        "English": "Mount Corno"
+        "English": "Corno"
       },
       {
         "zType": "TEXT_MOUNT_CORYDALLOS",
-        "English": "Mount Corydallos"
+        "English": "Corydallos"
       },
       {
         "zType": "TEXT_MOUNT_CYLLENE",
-        "English": "Mount Cyllene"
+        "English": "Cyllene"
       },
       {
         "zType": "TEXT_MOUNT_DAMAVAND",
-        "English": "Mount Damavand"
+        "English": "Damavand"
       },
       {
         "zType": "TEXT_MOUNT_DENA",
-        "English": "Mount Dena"
+        "English": "Dena"
       },
       {
         "zType": "TEXT_MOUNT_DINDYMON",
-        "English": "Mount Dindymon"
+        "English": "Dindymon"
       },
       {
         "zType": "TEXT_MOUNT_DIRPHYS",
-        "English": "Mount Dirphys"
+        "English": "Dirphys"
       },
       {
         "zType": "TEXT_MOUNT_ELBRUS",
-        "English": "Mount Elbrus"
+        "English": "Elbrus"
       },
       {
         "zType": "TEXT_MOUNT_ERYMANTHOS",
-        "English": "Mount Erymanthos"
+        "English": "Erymanthos"
       },
       {
         "zType": "TEXT_MOUNT_ERYX",
-        "English": "Mount Eryx"
+        "English": "Eryx"
       },
       {
         "zType": "TEXT_MOUNT_GARGANUS",
-        "English": "Mount Garganus"
+        "English": "Garganus"
       },
       {
         "zType": "TEXT_MOUNT_HELICON",
-        "English": "Mount Helicon"
+        "English": "Helicon"
       },
       {
         "zType": "TEXT_MOUNT_HELLANION",
-        "English": "Mount Hellanion"
+        "English": "Hellanion"
       },
       {
         "zType": "TEXT_MOUNT_HERMINIUS",
-        "English": "Mount Herminius"
+        "English": "Herminius"
       },
       {
         "zType": "TEXT_MOUNT_HERMON",
-        "English": "Mount Hermon"
+        "English": "Hermon"
       },
       {
         "zType": "TEXT_MOUNT_IDA",
-        "English": "Mount Ida"
+        "English": "Ida"
       },
       {
         "zType": "TEXT_MOUNT_KAZBEK",
-        "English": "Mount Kazbek"
+        "English": "Kazbek"
       },
       {
         "zType": "TEXT_MOUNT_KORAB",
-        "English": "Mount Korab"
+        "English": "Korab"
       },
       {
         "zType": "TEXT_MOUNT_LYKAION",
-        "English": "Mount Lykaion"
+        "English": "Lykaion"
       },
       {
         "zType": "TEXT_MOUNT_MINTHE",
-        "English": "Mount Minthe"
+        "English": "Minthe"
       },
       {
         "zType": "TEXT_MOUNT_NEMRUD",
-        "English": "Mount Nemrud"
+        "English": "Nemrud"
       },
       {
         "zType": "TEXT_MOUNT_NIPUR",
-        "English": "Mount Nipur"
+        "English": "Nipur"
       },
       {
         "zType": "TEXT_MOUNT_OLYMPOS",
-        "English": "Mount Olympos"
+        "English": "Olympos"
       },
       {
         "zType": "TEXT_MOUNT_OSSA",
-        "English": "Mount Ossa"
+        "English": "Ossa"
       },
       {
         "zType": "TEXT_MOUNT_OTHRYS",
-        "English": "Mount Othrys"
+        "English": "Othrys"
       },
       {
         "zType": "TEXT_MOUNT_PARNON",
-        "English": "Mount Parnon"
+        "English": "Parnon"
       },
       {
         "zType": "TEXT_MOUNT_PELION",
-        "English": "Mount Pelion"
+        "English": "Pelion"
       },
       {
         "zType": "TEXT_MOUNT_PENTELIKON",
-        "English": "Mount Pentelikon"
+        "English": "Pentelikon"
       },
       {
         "zType": "TEXT_MOUNT_POLLINO",
-        "English": "Mount Pollino"
+        "English": "Pollino"
       },
       {
         "zType": "TEXT_MOUNT_ROSA",
-        "English": "Mount Rosa"
+        "English": "Rosa"
       },
       {
         "zType": "TEXT_MOUNT_SABALAN",
-        "English": "Mount Sabalan"
+        "English": "Sabalan"
       },
       {
         "zType": "TEXT_MOUNT_SANNINE",
-        "English": "Mount Sannine"
+        "English": "Sannine"
       },
       {
         "zType": "TEXT_MOUNT_SINAI",
-        "English": "Mount Sinai"
+        "English": "Sinai"
       },
       {
         "zType": "TEXT_MOUNT_SINJAR",
-        "English": "Mount Sinjar"
+        "English": "Sinjar"
       },
       {
         "zType": "TEXT_MOUNT_SUPHAN",
-        "English": "Mount Suphan"
+        "English": "Suphan"
       },
       {
         "zType": "TEXT_MOUNT_TAHAT",
-        "English": "Mount Tahat"
+        "English": "Tahat"
       },
       {
         "zType": "TEXT_MOUNT_TIDIGHIN",
-        "English": "Mount Tidighin"
+        "English": "Tidighin"
       },
       {
         "zType": "TEXT_MOUNT_TMOLOS",
-        "English": "Mount Tmolos"
+        "English": "Tmolos"
       },
       {
         "zType": "TEXT_MOUNT_TONDRAK",
-        "English": "Mount Tondrak"
+        "English": "Tondrak"
       },
       {
         "zType": "TEXT_MOUNT_VARNOUS",
-        "English": "Mount Varnous"
+        "English": "Varnous"
       },
       {
         "zType": "TEXT_MOUNT_VESUVIUS",
-        "English": "Mount Vesuvius"
+        "English": "Vesuvius"
       },
       {
         "zType": "TEXT_MOUNT_VETTORE",
-        "English": "Mount Vettore"
+        "English": "Vettore"
       },
       {
         "zType": "TEXT_MOUNT_VISO",
-        "English": "Mount Viso"
+        "English": "Viso"
       },
       {
         "zType": "TEXT_MULHACEN",
@@ -1561,10 +1593,6 @@
       {
         "zType": "TEXT_NILE_VALLEY",
         "English": "Nile Valley"
-      },
-      {
-        "zType": "TEXT_NIPUR_MOUNTAIN",
-        "English": "Nipur Mountain"
       },
       {
         "zType": "TEXT_NISAEAN_PLAIN",
@@ -1776,7 +1804,7 @@
       },
       {
         "zType": "TEXT_RHODOPE_MOUNTAINS",
-        "English": "Rhodope Mountains"
+        "English": "Rhodope"
       },
       {
         "zType": "TEXT_ROWNIA_POD_SNIEZKA",
@@ -2035,8 +2063,12 @@
         "English": "Thasos Island"
       },
       {
+        "zType": "TEXT_KARPATHOS_ISLAND",
+        "English": "Karpathos Island"
+      },
+      {
         "zType": "TEXT_THE_ALPS",
-        "English": "The Alps"
+        "English": "Alpes"
       },
       {
         "zType": "TEXT_THE_JOGLLAND",
@@ -2044,7 +2076,7 @@
       },
       {
         "zType": "TEXT_THE_NILE",
-        "English": "The Nile"
+        "English": "Nile"
       },
       {
         "zType": "TEXT_THERA",
@@ -2217,6 +2249,538 @@
       {
         "zType": "TEXT_ZERRAH_DEPRESSION",
         "English": "Zerrah Depression"
+      },
+      {
+        "zType": "TEXT_WESTERN_DESERT",
+        "English": "Western Desert"
+      },
+      {
+        "zType": "TEXT_EASTERN_DESERT",
+        "English": "Eastern Desert"
+      },
+      {
+        "zType": "TEXT_ERYTHREAN_SEA",
+        "English": "Erythrean Sea"
+      },
+      {
+        "zType": "TEXT_ISHTARUT",
+        "English": "Ishtarut"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ELATH",
+        "English": "Elath"
+      },
+      {
+        "zType": "TEXT_QATTARA_DEPRESSION",
+        "English": "Qattara Depression"
+      },
+      {
+        "zType": "TEXT_SINAI_DESERT",
+        "English": "Sinai Desert"
+      },
+      {
+        "zType": "TEXT_ANTI_LEBANON_MOUNTAINS",
+        "English": "Anti-Lebanon Mountains"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TYRE",
+        "English": "Tyre"
+      },
+      {
+        "zType": "TEXT_GREAT_ZAB_RIVER",
+        "English": "Great Zab River"
+      },
+      {
+        "zType": "TEXT_LITTLE_ZAB_RIVER",
+        "English": "Little Zab River"
+      },
+      {
+        "zType": "TEXT_CITYNAME_GANZAK",
+        "English": "Ganzak"
+      },
+      {
+        "zType": "TEXT_CITYNAME_LAMBAESA",
+        "English": "Lambaesa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_AUZIA",
+        "English": "Auzia"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ANCYRA",
+        "English": "Ancyra"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MAZAKA",
+        "English": "Mazaka"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SIGA",
+        "English": "Siga"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ARDABIL",
+        "English": "Ardabil"
+      },
+      {
+        "zType": "TEXT_CITYNAME_AINOS",
+        "English": "Ainos"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SINOPE",
+        "English": "Sinope"
+      },
+      {
+        "zType": "TEXT_CITYNAME_PHASIS",
+        "English": "Phasis"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ODESSOS",
+        "English": "Odessos"
+      },
+      {
+        "zType": "TEXT_CITYNAME_BURDIGALA",
+        "English": "Burdigala"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TROESMIS",
+        "English": "Troesmis"
+      },
+      {
+        "zType": "TEXT_CITYNAME_PAPHOS",
+        "English": "Paphos"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SARMIZEGETUSA",
+        "English": "Sarmizegetusa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TERMESSOS",
+        "English": "Termessos"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ICOSIUM",
+        "English": "Icosium"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SALAMIS",
+        "English": "Salamis"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TARTESSOS",
+        "English": "Tartessos"
+      },
+      {
+        "zType": "TEXT_CITYNAME_EPIDAUROS",
+        "English": "Epidauros"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SOBA",
+        "English": "Soba"
+      },
+      {
+        "zType": "TEXT_CITYNAME_PUNT",
+        "English": "Punt"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MARIB",
+        "English": "Ma'rib"
+      },
+      {
+        "zType": "TEXT_CITYNAME_UPI",
+        "English": "UPI"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TOMIS",
+        "English": "Tomis"
+      },
+      {
+        "zType": "TEXT_DELOS",
+        "English": "Delos"
+      },
+      {
+        "zType": "TEXT_HELLESPONT",
+        "English": "Hellespont"
+      },
+      {
+        "zType": "TEXT_MOUNT_MASIA",
+        "English": "Masia"
+      },
+      {
+        "zType": "TEXT_GIBRALTAR",
+        "English": "Mons Calpe"
+      },
+      {
+        "zType": "TEXT_BOSPORUS",
+        "English": "Bosporus"
+      },
+      {
+        "zType": "TEXT_METSEP",
+        "English": "Metsep"
+      },
+      {
+        "zType": "TEXT_LAKE_MAEOTIS",
+        "English": "Lake Maeotis"
+      },
+      {
+        "zType": "TEXT_CANTABRICUS_BAY",
+        "English": "Cantabricus Bay"
+      },
+      {
+        "zType": "TEXT_RED_SEA_HILLS",
+        "English": "Red Sea Hills"
+      },
+      {
+        "zType": "TEXT_NILE_DELTA",
+        "English": "Nile Delta"
+      },
+      {
+        "zType": "TEXT_PELOPONNESOS",
+        "English": "Peloponnesos"
+      },
+      {
+        "zType": "TEXT_ATTICA",
+        "English": "Attica"
+      },
+      {
+        "zType": "TEXT_TROY",
+        "English": "Troy"
+      },
+      {
+        "zType": "TEXT_GAUL",
+        "English": "Gaul"
+      },
+      {
+        "zType": "TEXT_MALVA_RIVER",
+        "English": "Malva River"
+      },
+      {
+        "zType": "TEXT_CEPHALLENIA",
+        "English": "Cephallenia"
+      },
+      {
+        "zType": "TEXT_CHIOS",
+        "English": "Chios"
+      },
+      {
+        "zType": "TEXT_KORKYRA",
+        "English": "Korkyra"
+      },
+      {
+        "zType": "TEXT_LESBOS",
+        "English": "Lesbos"
+      },
+      {
+        "zType": "TEXT_IMBROS",
+        "English": "Imbros"
+      },
+      {
+        "zType": "TEXT_SIERRA_NEVADA",
+        "English": "Sierra Nevada"
+      },
+      {
+        "zType": "TEXT_DRINUS_RIVER",
+        "English": "Drinus River"
+      },
+      {
+        "zType": "TEXT_ILLYRIAN_FORESTS",
+        "English": "Illyrian Forests"
+      },
+      {
+        "zType": "TEXT_MARRAH_MOUNTAINS",
+        "English": "Marrah Mountains"
+      },
+      {
+        "zType": "TEXT_ASIR_MOUNTAINS",
+        "English": "Asir Mountains"
+      },
+      {
+        "zType": "TEXT_DAM_OF_MARIB",
+        "English": "Dam of Ma'rib"
+      },
+      {
+        "zType": "TEXT_CITYNAME_KHORRORI",
+        "English": "Khor Rori"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SIRAF",
+        "English": "Siraf"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ZRANKA",
+        "English": "Zranka"
+      },
+      {
+        "zType": "TEXT_CITYNAME_PETRA",
+        "English": "Petra"
+      },
+      {
+        "zType": "TEXT_CITYNAME_STAGYDIA",
+        "English": "Stagydia"
+      },
+      {
+        "zType": "TEXT_CITYNAME_YATHRIB",
+        "English": "Yathrib"
+      },
+      {
+        "zType": "TEXT_CITYNAME_KASI",
+        "English": "Kasi"
+      },
+      {
+        "zType": "TEXT_CITYNAME_HEGRA",
+        "English": "Hegra"
+      },
+      {
+        "zType": "TEXT_CITYNAME_PANTICAPAION",
+        "English": "Panticapaion"
+      },
+      {
+        "zType": "TEXT_SARAWAT_MOUNTAINS",
+        "English": "Sarawat Mounains"
+      },
+      {
+        "zType": "TEXT_HAJAR_MOUNTAINS",
+        "English": "Al Hajar Mountains"
+      },
+      {
+        "zType": "TEXT_INDIAN_DESERT",
+        "English": "Great Indian Desert"
+      },
+      {
+        "zType": "TEXT_LEUKE_KOME",
+        "English": "Leuke Kome"
+      },
+      {
+        "zType": "TEXT_FERGHANA_VALLEY",
+        "English": "Ferghana Valley"
+      },
+      {
+        "zType": "TEXT_NARYN_RIVER",
+        "English": "Naryn River"
+      },
+      {
+        "zType": "TEXT_HINDU_KUSH",
+        "English": "Hindu Kush"
+      },
+      {
+        "zType": "TEXT_CHORASMIA",
+        "English": "Chorasmia"
+      },
+      {
+        "zType": "TEXT_MASSAGETAE",
+        "English": "Massagetae"
+      },
+      {
+        "zType": "TEXT_DAHAE",
+        "English": "Dahae"
+      },
+      {
+        "zType": "TEXT_CHERSONESUS",
+        "English": "Chersonesus"
+      },
+      {
+        "zType": "TEXT_LAKE_BALKAS",
+        "English": "Lake Balkas"
+      },
+      {
+        "zType": "TEXT_VOLGA_RIVER",
+        "English": "Volga River"
+      },
+      {
+        "zType": "TEXT_INDIA",
+        "English": "India"
+      },
+      {
+        "zType": "TEXT_MAGAN",
+        "English": "Magan"
+      },
+      {
+        "zType": "TEXT_KARMANA",
+        "English": "Karmana"
+      },
+      {
+        "zType": "TEXT_HARAIVA",
+        "English": "Haraiva"
+      },
+      {
+        "zType": "TEXT_ARIUS_RIVER",
+        "English": "Arius River"
+      },
+      {
+        "zType": "TEXT_KOPET_DAG",
+        "English": "Kopet Dag"
+      },
+      {
+        "zType": "TEXT_MARGIANA_RIVER",
+        "English": "Margiana River"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MERV",
+        "English": "Merv"
+      },
+      {
+        "zType": "TEXT_DAIKOS_RIVER",
+        "English": "Daikos River"
+      },
+      {
+        "zType": "TEXT_BACTRIA_VALLEY",
+        "English": "Bactria Valley"
+      },
+      {
+        "zType": "TEXT_CITYNAME_CYROPOLIS",
+        "English": "Cyropolis"
+      },
+      {
+        "zType": "TEXT_CITYNAME_KUBHA",
+        "English": "Kubha"
+      },
+      {
+        "zType": "TEXT_CITYNAME_DRAPSAKA",
+        "English": "Drapsaka"
+      },
+      {
+        "zType": "TEXT_CITYNAME_KUKKUTARMA",
+        "English": "Kukkutarma"
+      },
+      {
+        "zType": "TEXT_CITYNAME_HARAPPA",
+        "English": "Harappa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MAIKHERKOT",
+        "English": "Malkherkot"
+      },
+      {
+        "zType": "TEXT_CITYNAME_NISA",
+        "English": "Nisa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_GERMI",
+        "English": "Germi"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SLABADA",
+        "English": "Slabada"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SIGHNAQ",
+        "English": "Sighnaq"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SARAI_BATU",
+        "English": "Sarai Batu"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TYRAS",
+        "English": "Tyras"
+      },
+      {
+        "zType": "TEXT_CITYNAME_GORGIPPIA",
+        "English": "Gorgippia"
+      },
+      {
+        "zType": "TEXT_CITYNAME_THAMUGADI",
+        "English": "Thamugadi"
+      },
+      {
+        "zType": "TEXT_CITYNAME_CIRTA",
+        "English": "Cirta"
+      },
+      {
+        "zType": "TEXT_CITYNAME_QART_HADASHT",
+        "English": "Qart-Hadasht"
+      },
+      {
+        "zType": "TEXT_CITYNAME_AGADIR",
+        "English": "Agadir"
+      },
+      {
+        "zType": "TEXT_CITYNAME_MARRAKESH",
+        "English": "Marrakesh"
+      },
+      {
+        "zType": "TEXT_CITYNAME_IMLIL",
+        "English": "Imlil"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SAFI",
+        "English": "Safi"
+      },
+      {
+        "zType": "TEXT_CITYNAME_FES",
+        "English": "Fes"
+      },
+      {
+        "zType": "TEXT_CITYNAME_BAECULA",
+        "English": "Baecula"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TARAS",
+        "English": "Taras"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SALDUBA",
+        "English": "Salduba"
+      },
+      {
+        "zType": "TEXT_FLUMEN_ANAS",
+        "English": "Flumen Anas"
+      },
+      {
+        "zType": "TEXT_CIMERIAN_FOREST",
+        "English": "Cimerian Forest"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ELUSA",
+        "English": "Elusa"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SEGODUNUM",
+        "English": "Segodunum"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ALBA_POMPEIA",
+        "English": "Alba Pompeia"
+      },
+      {
+        "zType": "TEXT_CITYNAME_NEMAUTUS",
+        "English": "Nemautus"
+      },
+      {
+        "zType": "TEXT_CITYNAME_SINGIDUNUM",
+        "English": "Singidunum"
+      },
+      {
+        "zType": "TEXT_DORDOGNE_RIVER",
+        "English": "Dordogne River"
+      },
+      {
+        "zType": "TEXT_CITYNAME_VERONA",
+        "English": "Verona"
+      },
+      {
+        "zType": "TEXT_CITYNAME_VIRUNUM",
+        "English": "Virunum"
+      },
+      {
+        "zType": "TEXT_CITYNAME_AVARICUM",
+        "English": "Avaricum"
+      },
+      {
+        "zType": "TEXT_CITYNAME_TURONES",
+        "English": "Turones"
+      },
+      {
+        "zType": "TEXT_CITYNAME_NOREIA",
+        "English": "Noreia"
+      },
+      {
+        "zType": "TEXT_CITYNAME_CARNUNTUM",
+        "English": "Carnuntum"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ARGENTORATUM",
+        "English": "Argentoratum"
       }
     ]
   }

@@ -127,6 +127,10 @@
         "English": "Leave link(CONCEPT_STATE_RELIGION)"
       },
       {
+        "zType": "TEXT_BONUS_MISSIONRESULT_SEND_COURTIER",
+        "English": "Send link(CONCEPT_COURTIER)"
+      },
+      {
         "zType": "TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS",
         "English": "Rally Troops"
       },
@@ -147,8 +151,12 @@
         "English": "Convert Self"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
+        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_STATE",
         "English": "Convert to link(CONCEPT_STATE_RELIGION)"
+      },
+      {
+        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
+        "English": "Convert link(CONCEPT_RELIGION)"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_INTERCESSION",
@@ -156,7 +164,7 @@
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN",
-        "English": "Influence (Success, Weaken)"
+        "English": "Intercession (Success, Weaken)"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_ADOPT",
@@ -307,8 +315,12 @@
         "English": "link(YIELD_FOOD) Boost"
       },
       {
-        "zType": "TEXT_BONUS_TECH_POLIS_BONUS_SETTLER",
+        "zType": "TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER",
         "English": "Free link(UNIT_SETTLER)"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_POLIS_BONUS_WORKER",
+        "English": "Free link(UNIT_WORKER)"
       },
       {
         "zType": "TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
@@ -319,8 +331,20 @@
         "English": "Free link(UNIT_BIREME)"
       },
       {
+        "zType": "TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS",
+        "English": "link(YIELD_ORDERS) Boost"
+      },
+      {
         "zType": "TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
         "English": "Free link(UNIT_CHARIOT)"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
+        "English": "link(YIELD_CIVICS) Boost"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
+        "English": "New link(COURTIER_SCIENTIST)"
       },
       {
         "zType": "TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
@@ -343,10 +367,6 @@
         "English": "Free link(UNIT_ARCHER)"
       },
       {
-        "zType": "TEXT_BONUS_TECH_DOCTRINE_BONUS_ORDERS",
-        "English": "link(YIELD_ORDERS) Boost"
-      },
-      {
         "zType": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
         "English": "link(YIELD_MONEY) Boost"
       },
@@ -367,12 +387,12 @@
         "English": "Free link(UNIT_HORSE_ARCHER)"
       },
       {
-        "zType": "TEXT_BONUS_TECH_ARCHITECTURE_BONUS_CIVICS",
-        "English": "link(YIELD_CIVICS) Boost"
-      },
-      {
         "zType": "TEXT_BONUS_TECH_MANOR_BONUS_GOODS",
         "English": "Goods Boost"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
+        "English": "New link(COURTIER_SOLDIER)"
       },
       {
         "zType": "TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER",
@@ -395,16 +415,24 @@
         "English": "link(YIELD_TRAINING) Boost"
       },
       {
-        "zType": "TEXT_BONUS_TECH_COHORTS_BONUS_SOLDIER",
-        "English": "New link(COURTIER_SOLDIER)"
-      },
-      {
         "zType": "TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
         "English": "Free link(UNIT_CROSSBOWMAN)"
       },
       {
         "zType": "TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
         "English": "Free link(UNIT_DROMON)"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
+        "English": "New link(COURTIER_MERCHANT)"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
+        "English": "New link(COURTIER_SOLDIER)"
+      },
+      {
+        "zType": "TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "English": "New link(COURTIER_MINISTER)"
       },
       {
         "zType": "TEXT_BONUS_TECH_ECONOMIC_REFORM",
@@ -660,6 +688,10 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AMBITION_FINISHED_CENTRALIZATION_OPTION_NO",
+        "English": "Followed my own path"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO",
         "English": "Followed my own path"
       },
       {
@@ -1123,6 +1155,17 @@
         "English": "The most blessed"
       },
       {
+        "zType": "TEXT_BONUS_GIVE_TRAIT_DECEITFUL"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER",
+        "English": "\"Disregarded\" Barbarian knowledge"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER",
+        "English": "Divine right to rule"
+      },
+      {
         "beginGroup": "Combat",
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE",
         "English": "Smiting Foes"
@@ -1153,7 +1196,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_HOMELAND_BURNING_OPTION_2",
-        "English": "Watched a conquered city burn"
+        "English": "Not afraid of unrest"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_0_CHARACTER",
@@ -1329,7 +1372,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_AMITY_OR_TREASON_OPTION_0",
-        "English": "Agreed to abidcate"
+        "English": "Agreed to abdicate"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_TEDIUM_ON_THE_THRONE_OPTION_0",
@@ -1414,6 +1457,10 @@
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MASTER_OF_WHISPERS_FRIENDS",
         "English": "Just friends"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
+        "English": "They'll come around"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASSASSINATION_BETRAYAL_ADMIT",
@@ -1574,6 +1621,10 @@
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WORD_OF_A_COUP_THE_COUP_SUCCEEDS",
         "English": "Successful Coup"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+        "English": "Palace Coup"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LOVE_AFFAIR_END",
@@ -2658,6 +2709,62 @@
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER",
         "English": "Made a deal with the rebel slaves"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_MYTHICAL_BEASTS",
+        "English": "Adopted elephant as royal symbol"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY",
+        "English": "The Medjay"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SACRED_BAND",
+        "English": "The Sacred Band"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_IMMORTALS",
+        "English": "The Immortals"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_COMPANIONS",
+        "English": "The Companions"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM",
+        "English": "The Numerus Batavorum"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS",
+        "English": "The Silver Shields"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_HARII",
+        "English": "The Harii"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS",
+        "English": "The Painted Demons"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD",
+        "English": "The Warriors of God"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_TERRORS",
+        "English": "The Terrors"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_FURIES",
+        "English": "The Furies"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS",
+        "English": "Praise of the Two Lands"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS",
+        "English": "The Wild Hunters"
       }
     ]
   }

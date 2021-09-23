@@ -16,12 +16,12 @@
       {
         "zType": "KNOWLEDGE_PRIMITIVE",
         "Name": "TEXT_KNOWLEDGE_PRIMITIVE",
-        "iPercent": "70"
+        "iPercent": "67"
       },
       {
         "zType": "KNOWLEDGE_NAIVE",
         "Name": "TEXT_KNOWLEDGE_NAIVE",
-        "iPercent": "85"
+        "iPercent": "83"
       },
       {
         "zType": "KNOWLEDGE_COMPETENT",

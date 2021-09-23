@@ -120,6 +120,9 @@
         "iSpecialistUrbanTrainTimeModifier": {
           
         },
+        "iProjectCostModifier": {
+          
+        },
         "iDiscipleTrainTimeModifier": {
           
         },
@@ -311,12 +314,12 @@
               "iValue": "20"
             },
             {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "50"
+              "zIndex": "YIELD_MONEY",
+              "iValue": "80"
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "50"
+              "iValue": "40"
             }
           ]
         }
@@ -335,12 +338,8 @@
               "iValue": "20"
             },
             {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "50"
-            },
-            {
               "zIndex": "YIELD_FOOD",
-              "iValue": "50"
+              "iValue": "40"
             }
           ]
         }
@@ -479,38 +478,34 @@
         "zType": "EFFECTCITY_POPULATION",
         "Name": "TEXT_EFFECTCITY_POPULATION",
         "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_MAINTENANCE",
-              "iValue": "-40"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MAINTENANCE",
+            "iValue": "-40"
+          }
         }
       },
       {
         "zType": "EFFECTCITY_ADVANTAGE_LOW",
         "Name": "TEXT_ADVANTAGE_LOW",
+        "iUnitXP": "10",
+        "iImprovementCostModifier": "-5",
+        "iSpecialistCostModifier": "-5",
+        "iProjectCostModifier": "-5",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-10"
+          }
+        },
         "aiYieldModifier": {
           "Pair": [
-            {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "10"
-            },
             {
               "zIndex": "YIELD_SCIENCE",
               "iValue": "10"
             },
             {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "10"
+              "zIndex": "YIELD_MAINTENANCE",
+              "iValue": "-5"
             }
           ]
         }
@@ -518,23 +513,25 @@
       {
         "zType": "EFFECTCITY_ADVANTAGE_MEDIUM",
         "Name": "TEXT_ADVANTAGE_MEDIUM",
+        "iUnitXP": "20",
+        "iImprovementCostModifier": "-10",
+        "iSpecialistCostModifier": "-10",
+        "iProjectCostModifier": "-10",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-20"
+          }
+        },
         "aiYieldModifier": {
           "Pair": [
             {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "25"
-            },
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "25"
-            },
-            {
               "zIndex": "YIELD_SCIENCE",
-              "iValue": "25"
+              "iValue": "20"
             },
             {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "25"
+              "zIndex": "YIELD_MAINTENANCE",
+              "iValue": "-10"
             }
           ]
         }
@@ -542,23 +539,51 @@
       {
         "zType": "EFFECTCITY_ADVANTAGE_HIGH",
         "Name": "TEXT_ADVANTAGE_HIGH",
+        "iUnitXP": "50",
+        "iImprovementCostModifier": "-20",
+        "iSpecialistCostModifier": "-20",
+        "iProjectCostModifier": "-20",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-30"
+          }
+        },
         "aiYieldModifier": {
           "Pair": [
-            {
-              "zIndex": "YIELD_CIVICS",
-              "iValue": "50"
-            },
-            {
-              "zIndex": "YIELD_TRAINING",
-              "iValue": "50"
-            },
             {
               "zIndex": "YIELD_SCIENCE",
               "iValue": "50"
             },
             {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "50"
+              "zIndex": "YIELD_MAINTENANCE",
+              "iValue": "-25"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ADVANTAGE_VERY_HIGH",
+        "Name": "TEXT_ADVANTAGE_VERY_HIGH",
+        "iUnitXP": "100",
+        "iImprovementCostModifier": "-50",
+        "iSpecialistCostModifier": "-50",
+        "iProjectCostModifier": "-50",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-40"
+          }
+        },
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_MAINTENANCE",
+              "iValue": "-50"
             }
           ]
         }
@@ -1257,7 +1282,7 @@
         "aeTraitPromotion": {
           "Pair": {
             "zIndex": "UNITTRAIT_RANGED",
-            "zValue": "PROMOTION_SNIPING"
+            "zValue": "PROMOTION_SENTINEL"
           }
         }
       },
@@ -1275,14 +1300,31 @@
         "SourceFamilyClass": "FAMILYCLASS_HUNTERS"
       },
       {
+        "zType": "EFFECTCITY_CULTURE_WEAK",
+        "Name": "TEXT_EFFECTCITY_CULTURE_WEAK",
+        "SourceCulture": "CULTURE_WEAK",
+        "aiYieldRatePopulation": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "-10"
+          }
+        }
+      },
+      {
         "zType": "EFFECTCITY_CULTURE_DEVELOPING",
         "Name": "TEXT_EFFECTCITY_CULTURE_DEVELOPING",
         "SourceCulture": "CULTURE_DEVELOPING",
         "aiYieldRatePopulation": {
-          "Pair": {
-            "zIndex": "YIELD_IRON",
-            "iValue": "-5"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "-20"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "-10"
+            }
+          ]
         }
       },
       {
@@ -1292,12 +1334,16 @@
         "aiYieldRatePopulation": {
           "Pair": [
             {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "-30"
+            },
+            {
               "zIndex": "YIELD_IRON",
-              "iValue": "-5"
+              "iValue": "-10"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "-5"
+              "iValue": "-10"
             }
           ]
         }
@@ -1309,16 +1355,20 @@
         "aiYieldRatePopulation": {
           "Pair": [
             {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "-40"
+            },
+            {
               "zIndex": "YIELD_IRON",
-              "iValue": "-5"
+              "iValue": "-10"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "-5"
+              "iValue": "-10"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "-5"
+              "iValue": "-10"
             }
           ]
         }
@@ -1331,33 +1381,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "60"
+              "iValue": "70"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "80"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_ABLE_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_ABLE",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_ABLE",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "120"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "320"
+              "iValue": "160"
             }
           ]
         }
@@ -1370,33 +1398,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "70"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "60"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_JUST_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_JUST",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_JUST",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "110"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
               "iValue": "80"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "280"
+              "iValue": "140"
             }
           ]
         }
@@ -1409,33 +1415,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "80"
+              "iValue": "90"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "50"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_GOOD_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_GOOD",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_GOOD",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "60"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "240"
+              "iValue": "120"
             }
           ]
         }
@@ -1448,33 +1432,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "90"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "40"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_STRONG_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_STRONG",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_STRONG",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "90"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "40"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "200"
+              "iValue": "100"
             }
           ]
         }
@@ -1487,33 +1449,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "100"
+              "iValue": "110"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "30"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_NOBLE_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_NOBLE",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_NOBLE",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
               "iValue": "80"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "160"
             }
           ]
         }
@@ -1526,33 +1466,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "110"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "20"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_GLORIOUS_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_GLORIOUS",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_GLORIOUS",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "70"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
               "iValue": "120"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "60"
             }
           ]
         }
@@ -1565,33 +1483,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "120"
+              "iValue": "130"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "10"
-            }
-          ]
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_MAGNIFICENT_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_MAGNIFICENT",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_MAGNIFICENT",
-        "aiYieldRate": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "60"
-            },
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "80"
+              "iValue": "40"
             }
           ]
         }
@@ -1601,26 +1497,14 @@
         "Name": "TEXT_DIFFICULTY_GREAT",
         "SourceDifficulty": "DIFFICULTY_GREAT",
         "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "130"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_DIFFICULTY_GREAT_CAPITAL",
-        "Name": "TEXT_DIFFICULTY_GREAT",
-        "Source": "TEXT_EFFECTCITY_CAPITAL_SOURCE",
-        "SourceDifficulty": "DIFFICULTY_GREAT",
-        "aiYieldRate": {
           "Pair": [
             {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "50"
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "150"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "40"
+              "iValue": "20"
             }
           ]
         }
@@ -1908,13 +1792,13 @@
         }
       },
       {
-        "zType": "EFFECTCITY_IMPROVEMENT_LIGHTHOUSE_COAST",
+        "zType": "EFFECTCITY_IMPROVEMENT_LIGHTHOUSE_ALL",
         "Name": "TEXT_IMPROVEMENT_LIGHTHOUSE",
         "SourceImprovement": "IMPROVEMENT_LIGHTHOUSE",
-        "aiYieldModifier": {
+        "aiImprovementModifier": {
           "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "50"
+            "zIndex": "IMPROVEMENT_NETS",
+            "iValue": "100"
           }
         }
       },
@@ -2169,11 +2053,15 @@
         "aiImprovementClassModifier": {
           "Pair": [
             {
-              "zIndex": "IMPROVEMENTCLASS_HARBOR",
+              "zIndex": "IMPROVEMENTCLASS_MINE",
               "iValue": "20"
             },
             {
-              "zIndex": "IMPROVEMENTCLASS_HAMLET",
+              "zIndex": "IMPROVEMENTCLASS_QUARRY",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
               "iValue": "20"
             }
           ]
@@ -2284,7 +2172,15 @@
         "zType": "EFFECTCITY_LAW_DIVINE_RULE",
         "Name": "TEXT_LAW_DIVINE_RULE",
         "SourceLaw": "LAW_DIVINE_RULE",
-        "bNoReligionSpread": "1"
+        "aaiImprovementClassYield": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_SHRINE",
+            "SubPair": {
+              "zSubIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            }
+          }
+        }
       },
       {
         "zType": "EFFECTCITY_LAW_TOLERANCE",
@@ -2308,17 +2204,6 @@
       },
       {
         "zType": "EFFECTCITY_LAW_PROFESSIONAL_ARMY",
-        "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
-        "SourceLaw": "LAW_PROFESSIONAL_ARMY",
-        "aiUnitTraitTrainModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "-20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_LAW_PROFESSIONAL_ARMY_EXTRA",
         "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
         "SourceLaw": "LAW_PROFESSIONAL_ARMY",
         "aaiEffectCityYieldRate": {
@@ -2381,7 +2266,7 @@
               "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
               "SubPair": {
                 "zSubIndex": "YIELD_DISCONTENT",
-                "iValue": "-10"
+                "iValue": "-20"
               }
             }
           ]
@@ -2391,15 +2276,7 @@
         "zType": "EFFECTCITY_LAW_ICONOGRAPHY_EXTRA",
         "Name": "TEXT_LAW_ICONOGRAPHY",
         "SourceLaw": "LAW_ICONOGRAPHY",
-        "aaiImprovementClassYield": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
-            "SubPair": {
-              "zSubIndex": "YIELD_ORDERS",
-              "iValue": "20"
-            }
-          }
-        }
+        "bNoReligionSpread": "1"
       },
       {
         "zType": "EFFECTCITY_LAW_CALLIGRAPHY",
@@ -2583,13 +2460,16 @@
         }
       },
       {
-        "zType": "EFFECTCITY_NATION_CARTHAGE_COAST",
+        "zType": "EFFECTCITY_NATION_CARTHAGE",
         "Name": "TEXT_NATION_CARTHAGE",
         "SourceNation": "NATION_CARTHAGE",
-        "aiYieldRate": {
+        "aaiEffectCityYieldRate": {
           "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "100"
+            "zIndex": "EFFECTCITY_CONNECTED",
+            "SubPair": {
+              "zSubIndex": "YIELD_MONEY",
+              "iValue": "100"
+            }
           }
         }
       },
@@ -3678,7 +3558,7 @@
         "SourceProject": "PROJECT_HUNT",
         "aiYieldRate": {
           "Pair": {
-            "zIndex": "YIELD_CULTURE",
+            "zIndex": "YIELD_GROWTH",
             "iValue": "10"
           }
         }
@@ -5654,7 +5534,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "30"
+            "iValue": "40"
           }
         }
       },
@@ -5721,15 +5601,11 @@
         "aiImprovementClassModifier": {
           "Pair": [
             {
-              "zIndex": "IMPROVEMENTCLASS_MINE",
+              "zIndex": "IMPROVEMENTCLASS_HARBOR",
               "iValue": "20"
             },
             {
-              "zIndex": "IMPROVEMENTCLASS_QUARRY",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
+              "zIndex": "IMPROVEMENTCLASS_HAMLET",
               "iValue": "20"
             }
           ]
@@ -5860,150 +5736,6 @@
         }
       },
       {
-        "zType": "EFFECTCITY_TRAIT_ELOQUENT",
-        "Name": "TEXT_TRAIT_ELOQUENT",
-        "SourceTrait": "TRAIT_ELOQUENT",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_ELOQUENT_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_ELOQUENT",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_WARLIKE",
-        "Name": "TEXT_TRAIT_WARLIKE",
-        "SourceTrait": "TRAIT_WARLIKE",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_WARLIKE_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_WARLIKE",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "10"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_INSPIRING",
-        "Name": "TEXT_TRAIT_INSPIRING",
-        "SourceTrait": "TRAIT_INSPIRING",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_INSPIRING_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_INSPIRING",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "10"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_INTELLIGENT",
-        "Name": "TEXT_TRAIT_INTELLIGENT",
-        "SourceTrait": "TRAIT_INTELLIGENT",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_SCIENCE",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_INTELLIGENT_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_INTELLIGENT",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_SCIENCE",
-            "iValue": "10"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_PROSPEROUS",
-        "Name": "TEXT_TRAIT_PROSPEROUS",
-        "SourceTrait": "TRAIT_PROSPEROUS",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "50"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_PROSPEROUS_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_PROSPEROUS",
-        "aiYieldRateCulture": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_FRUGAL",
-        "Name": "TEXT_TRAIT_FRUGAL",
-        "SourceTrait": "TRAIT_FRUGAL",
-        "iImprovementCostModifier": "-50"
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_FRUGAL_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_FRUGAL",
-        "iImprovementCostModifier": "-20"
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_RIGHTEOUS",
-        "Name": "TEXT_TRAIT_RIGHTEOUS",
-        "SourceTrait": "TRAIT_RIGHTEOUS",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-20"
-          }
-        }
-      },
-      {
-        "zType": "EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_RIGHTEOUS",
-        "aiYieldRate": {
-          "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
-          }
-        }
-      },
-      {
         "zType": "EFFECTCITY_TRAIT_CRUEL",
         "Name": "TEXT_TRAIT_CRUEL",
         "SourceTrait": "TRAIT_CRUEL",
@@ -6022,6 +5754,28 @@
           "Pair": {
             "zIndex": "YIELD_GROWTH",
             "iValue": "-10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_ELOQUENT",
+        "Name": "TEXT_TRAIT_ELOQUENT",
+        "SourceTrait": "TRAIT_ELOQUENT",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_ELOQUENT_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_ELOQUENT_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_ELOQUENT",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "10"
           }
         }
       },
@@ -6048,6 +5802,28 @@
         }
       },
       {
+        "zType": "EFFECTCITY_TRAIT_WARLIKE",
+        "Name": "TEXT_TRAIT_WARLIKE",
+        "SourceTrait": "TRAIT_WARLIKE",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_WARLIKE_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_WARLIKE_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_WARLIKE",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "10"
+          }
+        }
+      },
+      {
         "zType": "EFFECTCITY_TRAIT_SLOTHFUL",
         "Name": "TEXT_TRAIT_SLOTHFUL",
         "SourceTrait": "TRAIT_SLOTHFUL",
@@ -6066,6 +5842,28 @@
           "Pair": {
             "zIndex": "YIELD_TRAINING",
             "iValue": "-10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_INSPIRING",
+        "Name": "TEXT_TRAIT_INSPIRING",
+        "SourceTrait": "TRAIT_INSPIRING",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_INSPIRING_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_INSPIRING_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_INSPIRING",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
           }
         }
       },
@@ -6092,6 +5890,28 @@
         }
       },
       {
+        "zType": "EFFECTCITY_TRAIT_INTELLIGENT",
+        "Name": "TEXT_TRAIT_INTELLIGENT",
+        "SourceTrait": "TRAIT_INTELLIGENT",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_INTELLIGENT_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_INTELLIGENT_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_INTELLIGENT",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "10"
+          }
+        }
+      },
+      {
         "zType": "EFFECTCITY_TRAIT_FOOLISH",
         "Name": "TEXT_TRAIT_FOOLISH",
         "SourceTrait": "TRAIT_FOOLISH",
@@ -6110,6 +5930,28 @@
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
             "iValue": "-10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_PROSPEROUS",
+        "Name": "TEXT_TRAIT_PROSPEROUS",
+        "SourceTrait": "TRAIT_PROSPEROUS",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_PROSPEROUS_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_PROSPEROUS_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_PROSPEROUS",
+        "aiYieldRateCulture": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "20"
           }
         }
       },
@@ -6136,6 +5978,18 @@
         }
       },
       {
+        "zType": "EFFECTCITY_TRAIT_FRUGAL",
+        "Name": "TEXT_TRAIT_FRUGAL",
+        "SourceTrait": "TRAIT_FRUGAL",
+        "iImprovementCostModifier": "-50"
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_FRUGAL_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_FRUGAL_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_FRUGAL",
+        "iImprovementCostModifier": "-20"
+      },
+      {
         "zType": "EFFECTCITY_TRAIT_CORRUPT",
         "Name": "TEXT_TRAIT_CORRUPT",
         "SourceTrait": "TRAIT_CORRUPT",
@@ -6154,6 +6008,28 @@
           "Pair": {
             "zIndex": "YIELD_MAINTENANCE",
             "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_RIGHTEOUS",
+        "Name": "TEXT_TRAIT_RIGHTEOUS",
+        "SourceTrait": "TRAIT_RIGHTEOUS",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
+        "Name": "TEXT_EFFECTCITY_TRAIT_RIGHTEOUS_ALL",
+        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_RIGHTEOUS",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-10"
           }
         }
       },

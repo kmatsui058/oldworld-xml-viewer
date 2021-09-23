@@ -44,6 +44,7 @@
         "iThreshold": "100",
         "iVP": "1",
         "iXP": "2",
+        "EffectCity": "EFFECTCITY_CULTURE_WEAK",
         "DefaultProject": "PROJECT_COUNCIL_1",
         "ShortfallProject": "PROJECT_COUNCIL_1"
       },

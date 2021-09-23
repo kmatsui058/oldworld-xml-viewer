@@ -1870,6 +1870,26 @@
         "zType": "MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
         "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_MILITARY_TECH",
+        "Text": "TEXT_MEMORYFAMILY_MILITARY_TECH",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_GAVE_AUTONOMY",
+        "Text": "TEXT_MEMORYFAMILY_GAVE_AUTONOMY",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_REFUSED_MARRIAGE",
+        "Text": "TEXT_MEMORY_REFUSED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_ACCEPTED_MARRIAGE",
+        "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       }
     ]
   }

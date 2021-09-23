@@ -1011,6 +1011,26 @@
 				"bHumanOrAI": "1"
 			},
 			{
+				"zType": "SUBJECT_PLAYER_TEAM_HUMAN_OR_AI",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_TEAM",
+				"bIsNotUs": "1",
+				"bHumanOrAI": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_NOT_TEAM",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_NOT_TEAM",
+				"bIsNotUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_NOT_TEAM_HUMAN_OR_AI",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_NOT_TEAM",
+				"bIsNotUs": "1",
+				"bHumanOrAI": "1"
+			},
+			{
 				"zType": "SUBJECT_PLAYER_US_OR_THEM",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"bIsUsOrThem": "1"
@@ -1378,8 +1398,13 @@
 				"zType": "SUBJECT_PLAYER_MIN_COMPETENT",
 				"Name": "TEXT_SUBJECT_PLAYER_MIN_COMPETENT",
 				"Class": "SUBJECTCLASS_PLAYER",
-				"RelationUs": "SUBJECTRELATION_PLAYER_MIN_COMPETENT",
-				"bIsNotUs": "1"
+				"RelationUs": "SUBJECTRELATION_PLAYER_MIN_COMPETENT"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_MAX_NAIVE",
+				"Name": "TEXT_SUBJECT_PLAYER_MAX_NAIVE",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_MAX_NAIVE"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_ROUTED",
@@ -1621,9 +1646,9 @@
 				"TraitNone": "TRAIT_STUDY_PHILOSOPHY"
 			},
 			{
-				"zType": "SUBJECT_PLAYER_NONE_STUDY_RHETORIC",
+				"zType": "SUBJECT_PLAYER_NONE_STUDY_POLITICS",
 				"Class": "SUBJECTCLASS_PLAYER",
-				"TraitNone": "TRAIT_STUDY_RHETORIC"
+				"TraitNone": "TRAIT_STUDY_POLITICS"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_NONE_STUDY_TACTICS",
@@ -2112,6 +2137,11 @@
 				"zType": "SUBJECT_TRIBE_NO_RELIGION",
 				"Class": "SUBJECTCLASS_TRIBE",
 				"bNoTribeReligion": "1"
+			},
+			{
+				"zType": "SUBJECT_TRIBE_RELIGION",
+				"Class": "SUBJECTCLASS_TRIBE",
+				"bTribeReligion": "1"
 			},
 			{
 				"zType": "SUBJECT_TRIBE_ANARCHY",
@@ -3847,10 +3877,10 @@
 				"bLeader": "1"
 			},
 			{
-				"zType": "SUBJECT_LEADER_OR_DESCENDANT_MARRY",
+				"zType": "SUBJECT_LEADER_OR_DESCENDANT",
+				"Name": "TEXT_SUBJECT_LEADER_OR_DESCENDANT",
 				"Class": "SUBJECTCLASS_CHARACTER",
-				"bLeaderOrDescendant": "1",
-				"bCanMarry": "1"
+				"bLeaderOrDescendant": "1"
 			},
 			{
 				"zType": "SUBJECT_CHARACTER_RELIGION_DIFF",
@@ -3965,30 +3995,15 @@
 				"RelationLeader": "SUBJECTRELATION_INTERCEDED_FOR"
 			},
 			{
-				"zType": "SUBJECT_NO_INTERCEDED_FOR_LEADER",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"NoRelationLeader": "SUBJECTRELATION_INTERCEDED_FOR"
-			},
-			{
 				"zType": "SUBJECT_INFLUENCED_BY_LEADER",
 				"Name": "TEXT_SUBJECT_INFLUENCED_BY_LEADER",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"RelationLeader": "SUBJECTRELATION_INFLUENCED_BY"
 			},
 			{
-				"zType": "SUBJECT_NO_INFLUENCE_BY_LEADER",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"NoRelationLeader": "SUBJECTRELATION_INFLUENCED_BY"
-			},
-			{
 				"zType": "SUBJECT_ASSASSINATED_BY_LEADER",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"RelationLeader": "SUBJECTRELATION_ASSASSINATED_BY"
-			},
-			{
-				"zType": "SUBJECT_NOT_ASSASSINATED_BY_LEADER",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"NoRelationLeader": "SUBJECTRELATION_ASSASSINATED_BY"
 			},
 			{
 				"zType": "SUBJECT_HOLDS_FAVOR_FROM_LEADER",
@@ -4310,9 +4325,8 @@
 				"bTutor": "1"
 			},
 			{
-				"zType": "SUBJECT_TUTOR_STUDENT_US",
+				"zType": "SUBJECT_TUTOR_STUDENT",
 				"Class": "SUBJECTCLASS_CHARACTER",
-				"bIsUs": "1",
 				"bTutorStudent": "1"
 			},
 			{
@@ -4886,6 +4900,11 @@
 				"TraitPrereq": "TRAIT_BRAVE"
 			},
 			{
+				"zType": "SUBJECT_DECEITFUL",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_DECEITFUL"
+			},
+			{
 				"zType": "SUBJECT_SHIELDBEARER",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_SHIELDBEARER"
@@ -4919,6 +4938,11 @@
 				"zType": "SUBJECT_NOT_BOLD",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitInvalid": "TRAIT_BOLD"
+			},
+			{
+				"zType": "SUBJECT_NOT_DECEITFUL",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitInvalid": "TRAIT_DECEITFUL"
 			},
 			{
 				"zType": "SUBJECT_TIMID",
@@ -5091,9 +5115,9 @@
 				"TraitPrereq": "TRAIT_STUDY_TACTICS"
 			},
 			{
-				"zType": "SUBJECT_STUDY_RHETORIC",
+				"zType": "SUBJECT_STUDY_POLITICS",
 				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_STUDY_RHETORIC"
+				"TraitPrereq": "TRAIT_STUDY_POLITICS"
 			},
 			{
 				"zType": "SUBJECT_STUDY_COMMERCE",
@@ -5112,7 +5136,7 @@
 				"aeTraitAny": {
 					"zValue": [
 						"TRAIT_STUDY_TACTICS",
-						"TRAIT_STUDY_RHETORIC",
+						"TRAIT_STUDY_POLITICS",
 						"TRAIT_STUDY_COMMERCE",
 						"TRAIT_STUDY_PHILOSOPHY"
 					]
@@ -5792,6 +5816,16 @@
 				"TraitInvalid": "TRAIT_SCARRED"
 			},
 			{
+				"zType": "SUBJECT_WOUNDED",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_WOUNDED"
+			},
+			{
+				"zType": "SUBJECT_SEVERELY_WOUNDED",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_SEVERELY_WOUNDED"
+			},
+			{
 				"zType": "SUBJECT_CRIPPLED",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_CRIPPLED"
@@ -6061,6 +6095,11 @@
 				"Name": "TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"MemoryCharacterInvalid": "MEMORYCHARACTER_IMPRISONED_RECENTLY"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_LIED_TO",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"MemoryCharacterPrereq": "MEMORYCHARACTER_LIED_TO"
 			},
 			{
 				"comment": "If a leader demanded money ransom",
@@ -7108,6 +7147,16 @@
 				"CognomenPrereq": "COGNOMEN_WISE"
 			},
 			{
+				"zType": "SUBJECT_COGNOMEN_FOUNDER",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"CognomenPrereq": "COGNOMEN_FOUNDER"
+			},
+			{
+				"zType": "SUBJECT_COGNOMEN_NEW",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"CognomenPrereq": "COGNOMEN_NEW"
+			},
+			{
 				"zType": "SUBJECT_CITY_ELEPHANTINE",
 				"Class": "SUBJECTCLASS_CITY",
 				"CityName": "CITYNAME_ELEPHANTINE"
@@ -7136,6 +7185,11 @@
 				"zType": "SUBJECT_CITY_THEBES",
 				"Class": "SUBJECTCLASS_CITY",
 				"CityName": "CITYNAME_THEBES"
+			},
+			{
+				"zType": "SUBJECT_CITY_WASET",
+				"Class": "SUBJECTCLASS_CITY",
+				"CityName": "CITYNAME_WASET"
 			},
 			{
 				"zType": "SUBJECT_CITY_ALEXANDRIA",

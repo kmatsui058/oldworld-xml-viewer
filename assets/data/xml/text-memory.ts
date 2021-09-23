@@ -679,6 +679,14 @@
         "English": "Refused to marry into our royal succession"
       },
       {
+        "zType": "TEXT_MEMORY_REFUSED_MARRIAGE",
+        "English": "Refused to marry our offered suitor"
+      },
+      {
+        "zType": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
+        "English": "Accepted our offered suitor"
+      },
+      {
         "zType": "TEXT_MEMORYPLAYER_DENOUNCED_US",
         "English": "Denounce us publicly"
       },
@@ -935,6 +943,10 @@
         "English": "Upgraded recently"
       },
       {
+        "zType": "TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL",
+        "English": "Tried to link(MISSION_ASSASSINATE) me"
+      },
+      {
         "zType": "TEXT_MEMORYCHARACTER_MATCH_PREVENT",
         "English": "Prevented my desired match"
       },
@@ -1021,6 +1033,10 @@
       {
         "zType": "TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL",
         "English": "My request for diplomacy was ignored"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_REFUSED_TROOPS",
+        "English": "Refused our troops"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_LOST_CONSORT",
@@ -1523,6 +1539,10 @@
         "English": "Ignored in court"
       },
       {
+        "zType": "TEXT_MEMORYCHARACTER_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+        "English": "Ignored in court"
+      },
+      {
         "zType": "TEXT_MEMORYCHARACTER_LAW_ADOPTED_PROFESSIONAL_ARMY",
         "English": "Created plan for a Professional Army"
       },
@@ -1581,6 +1601,10 @@
       {
         "zType": "TEXT_MEMORYCHARACTER_LIKES_HEADS",
         "English": "Liked my head collection"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_LIED_TO",
+        "English": "Was lied to by me"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE",
@@ -2501,6 +2525,10 @@
       {
         "zType": "TEXT_MEMORYFAMILY_REFUSED_BRIBE",
         "English": "Accuse the throne of bribes"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MILITARY_TECH",
+        "English": "Shared military technology with our rivals"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_DID_NOT_ABDUCT_HEIR",
@@ -3852,6 +3880,22 @@
       {
         "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
         "English": "Gave into the demands of the slave revolt"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_GIFTED_TECH",
+        "English": "Gave us new technology"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_DECEIVED_US",
+        "English": "We have been deceived!"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_GAVE_AUTONOMY",
+        "English": "Allowed autonomous rule of our city"
+      },
+      {
+        "zType": "TEXT_MEMORYRELIGION_DIVORCED_SPOUSE",
+        "English": "Divorced spouse of our religion"
       }
     ]
   }

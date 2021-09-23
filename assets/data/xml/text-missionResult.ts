@@ -59,12 +59,20 @@
         "English": "The Convert Self Mission has led to an event..."
       },
       {
-        "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION",
+        "zType": "TEXT_MISSIONRESULT_CONVERT_STATE_DESCRIPTION",
         "English": "You have successfully converted {CHARACTER-TARGET} to your link(CONCEPT_STATE_RELIGION)."
       },
       {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_STATE_EVENT_DESCRIPTION",
+        "English": "The Convert to link(CONCEPT_STATE_RELIGION) Mission of {CHARACTER-SUBJECT} has led to an event..."
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_DESCRIPTION",
+        "English": "{CHARACTER-SUBJECT} has successfully converted {CHARACTER-TARGET} to <masculine_CHARACTER-SUBJECT>his<feminine>her<end> link(CONCEPT_RELIGION)."
+      },
+      {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT_DESCRIPTION",
-        "English": "The Convert Religion Mission of {CHARACTER-SUBJECT} has led to an event..."
+        "English": "The Convert link(CONCEPT_RELIGION) Mission of {CHARACTER-TARGET} by {CHARACTER-SUBJECT} has led to an event..."
       },
       {
         "zType": "TEXT_MISSIONRESULT_INTERCESSION_DESCRIPTION",
@@ -383,6 +391,10 @@
         "English": "Leave link(CONCEPT_STATE_RELIGION)"
       },
       {
+        "zType": "TEXT_MISSIONRESULT_SEND_COURTIER",
+        "English": "Send link(CONCEPT_COURTIER)"
+      },
+      {
         "zType": "TEXT_MISSIONRESULT_PLAYER_MARRIAGE_EVENT",
         "English": "Foreign Marriage"
       },
@@ -420,7 +432,7 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_INFLUENCE_WEAKEN",
-        "English": "Influence Exposes our Weakeness"
+        "English": "Influence Exposes our Weakness"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INFLUENCE_EVENT",
@@ -428,19 +440,27 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_SELF",
-        "English": "Converted Your Religion"
+        "English": "Converted Your link(CONCEPT_RELIGION)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_SELF_EVENT",
-        "English": "Convert Your Religion Event"
+        "English": "Convert Your link(CONCEPT_RELIGION) Event"
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_STATE",
+        "English": "Converted to link(CONCEPT_STATE_RELIGION)"
+      },
+      {
+        "zType": "TEXT_MISSIONRESULT_CONVERT_STATE_EVENT",
+        "English": "Convert to link(CONCEPT_STATE_RELIGION) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION",
-        "English": "Converted Character to link(CONCEPT_STATE_RELIGION)"
+        "English": "Converted link(CONCEPT_RELIGION)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT",
-        "English": "Convert Character Religion Event"
+        "English": "Convert link(CONCEPT_RELIGION) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INTERCESSION_WEAKEN",

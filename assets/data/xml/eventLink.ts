@@ -14,6 +14,16 @@
         }
       },
       {
+        "zType": "EVENTLINK_UNLIKELY_SCENARIO_OUTCOME",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_RELIGION",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "EVENTLINK_RUINS_ELDERLY_COUPLE_ABDUCTED",
         "iTurnLimit": "4",
@@ -749,6 +759,13 @@
         }
       },
       {
+        "zType": "EVENTLINK_ENCHANTING_CONVERSATION_GAY",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_CHARACTER"
+        }
+      },
+      {
         "zType": "EVENTLINK_EMPTY_BED",
         "iTurnLimit": "1",
         "aeSubjectClasses": {
@@ -968,8 +985,8 @@
         "zType": "EVENTLINK_SPECIAL_RECOGNITION_01",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_CHARACTER"
           ]
         }
@@ -978,8 +995,8 @@
         "zType": "EVENTLINK_SPECIAL_RECOGNITION_02",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_CHARACTER"
           ]
         }
@@ -1299,6 +1316,17 @@
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AGENT_EXPOSED",
+        "iTurnLimit": "1",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER"
           ]
         }
       },
@@ -1933,8 +1961,8 @@
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_FAMILY"
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER"
           ]
         }
       },
@@ -2164,9 +2192,10 @@
         "zType": "EVENTLINK_PROPHET_AND_THE_PARCHED_LAND",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_RELIGION",
             "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
           ]
         }
       },
@@ -2174,9 +2203,10 @@
         "zType": "EVENTLINK_A_NEW_HOPE",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_RELIGION",
             "SUBJECTCLASS_CHARACTER",
-            "SUBJECTCLASS_CHARACTER"
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
           ]
         }
       },
@@ -2476,9 +2506,7 @@
         "zType": "EVENTLINK_COMPANIONS_GENERAL",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CITY",
-            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_UNIT",
             "SUBJECTCLASS_FAMILY",
             "SUBJECTCLASS_CHARACTER",
@@ -2490,9 +2518,7 @@
         "zType": "EVENTLINK_COMPANIONS_FESTIVAL",
         "aeSubjectClasses": {
           "zValue": [
-            "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CITY",
-            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_UNIT",
             "SUBJECTCLASS_FAMILY",
             "SUBJECTCLASS_CHARACTER",
@@ -2763,6 +2789,22 @@
             "SUBJECTCLASS_TILE",
             "SUBJECTCLASS_CHARACTER"
           ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_LEADER_DECEITFUL_ONE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "beginGroup": "Ambition",
+        "zType": "EVENTLINK_AMBITION_RIVALS",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_PLAYER"
         }
       }
     ]

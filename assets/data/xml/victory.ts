@@ -56,6 +56,7 @@
       {
         "zType": "VICTORY_TIME",
         "Name": "TEXT_VICTORY_TIME",
+        "bToggle": "1",
         "iOpponentMaxPointPercent": "100",
         "iMinTurns": "200",
         "Help": "TEXT_VICTORY_TIME_HELP"

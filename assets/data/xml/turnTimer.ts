@@ -64,24 +64,24 @@
         "zType": "TURNTIMER_SLOW",
         "Name": "TEXT_TURNTIMER_SLOW",
         "iBase": "60",
-        "iPerCity": "12",
-        "iPerUnit": "4",
+        "iPerCity": "3",
+        "iPerUnit": "3",
         "bDynamic": "1"
       },
       {
         "zType": "TURNTIMER_MEDIUM",
         "Name": "TEXT_TURNTIMER_MEDIUM",
-        "iBase": "40",
-        "iPerCity": "9",
-        "iPerUnit": "3",
+        "iBase": "45",
+        "iPerCity": "2",
+        "iPerUnit": "2",
         "bDynamic": "1"
       },
       {
         "zType": "TURNTIMER_FAST",
         "Name": "TEXT_TURNTIMER_FAST",
-        "iBase": "20",
-        "iPerCity": "6",
-        "iPerUnit": "2",
+        "iBase": "30",
+        "iPerCity": "1",
+        "iPerUnit": "1",
         "bDynamic": "1"
       }
     ]

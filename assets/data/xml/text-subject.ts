@@ -104,7 +104,11 @@
       },
       {
         "zType": "TEXT_SUBJECT_PLAYER_MIN_COMPETENT",
-        "English": "Min Competent (link(CONCEPT_KNOWLEDGE)"
+        "English": "Min Competent (link(CONCEPT_KNOWLEDGE))"
+      },
+      {
+        "zType": "TEXT_SUBJECT_PLAYER_MAX_NAIVE",
+        "English": "Max Naive (link(CONCEPT_KNOWLEDGE))"
       },
       {
         "zType": "TEXT_SUBJECT_PLAYER_NO_ADOPTED_RELIGION",
@@ -225,6 +229,10 @@
       {
         "zType": "TEXT_SUBJECT_LEADER_BUILDER",
         "English": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_SUBJECT_LEADER_OR_DESCENDANT",
+        "English": "Leader or Descendant"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_MAX_CAUTIOUS",

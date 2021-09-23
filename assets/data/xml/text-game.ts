@@ -88,27 +88,31 @@
       },
       {
         "zType": "TEXT_GAME_RELIGION_HEAD",
-        "English": "{0_character} is now the Head of {1_religion}. (Their Opinion of you is now {2_opinion}.)"
+        "English": "{0_character} is now the Head of {1_religion}.{true_2: (Their Opinion of you has gone from {2_opinion} to {3_opinion}.)}"
       },
       {
         "zType": "TEXT_GAME_RELIGION_FAMILY",
-        "English": "The {0_family} Family has converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)"
+        "English": "The {0_family} Family has converted to {1_religion}.{true_2: (Their Opinion of you has gone from {2_opinion} to {3_opinion}.)}"
       },
       {
         "zType": "TEXT_GAME_RELIGION_TRIBE",
-        "English": "The {0_tribe} have converted to {1_religion}. (Their Opinion of you is now {2_opinion}.)"
+        "English": "The {0_tribe} have converted to {1_religion}.{true_2: (Their Opinion of you has gone from {2_opinion} to {3_opinion}.)}"
+      },
+      {
+        "zType": "TEXT_GAME_RELIGION_PLAYER_US",
+        "English": "Your link(CONCEPT_NATION) has adopted {0_religion} as its link(CONCEPT_STATE_RELIGION)."
       },
       {
         "zType": "TEXT_GAME_RELIGION_PLAYER",
-        "English": "{0_player} has converted to {1_religion}.{true_2: (Their Opinion of you is now {2_opinion}.)}"
+        "English": "{0_player} has converted to {1_religion}.{true_2: (Their Opinion of you has gone from {2_opinion} to {3_opinion}.)}"
       },
       {
         "zType": "TEXT_GAME_NO_RELIGION_PLAYER",
-        "English": "{0_player} no longer has a State Religion. (Their Opinion of you is now {1_opinion}.)"
+        "English": "{0_player} no longer has a State Religion.{true_1: (Their Opinion of you has gone from {1_opinion} to {2_opinion}.)}"
       },
       {
         "zType": "TEXT_GAME_FAMILY_HEAD",
-        "English": "{0_character} is now Head of the {1_family} Family. (Their Opinion of you is now {2_opinion}.)"
+        "English": "{0_character} is now Head of the {1_family} Family.{true_2: (Their Opinion of you has gone from {2_opinion} to {3_opinion}.)}"
       },
       {
         "zType": "TEXT_GAME_IMPROVEMENT_PILLAGED",
@@ -117,6 +121,10 @@
       {
         "zType": "TEXT_GAME_IMPROVEMENT_STARTED",
         "English": "{0_player} has begun construction of {1_improvement}."
+      },
+      {
+        "zType": "TEXT_GAME_IMPROVEMENT_SCRAPPED",
+        "English": "Construction of {1_improvement} by {0_player} has been scrapped."
       },
       {
         "zType": "TEXT_GAME_IMPROVEMENT_COMPLETED",
@@ -157,10 +165,6 @@
       {
         "zType": "TEXT_GAME_START_AMBITION",
         "English": "{0_character} has started a new Ambition: {1_ambition}"
-      },
-      {
-        "zType": "TEXT_GAME_START_AMBITION_DESIRED",
-        "English": "{0_character} is now pursuing <masculine_0>his<feminine>her<end> Desired Ambition: {1_ambition}"
       },
       {
         "zType": "TEXT_GAME_START_QUEST",
@@ -221,10 +225,6 @@
       {
         "zType": "TEXT_GAME_CHARACTER_ADULT_POPUP",
         "English": "{0_character} is now an adult (age {1_age})"
-      },
-      {
-        "zType": "TEXT_GAME_CHARACTER_DESIRED_AMBITION",
-        "English": "{0_character} now has a new Desired Ambition: {1_goal}"
       },
       {
         "zType": "TEXT_GAME_CHARACTER_CHOOSES_RELIGION",
@@ -296,19 +296,19 @@
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_LEADER",
-        "English": "<true_0>You have<false>Your wife has<end> given birth to a <masculine_1>son<feminine>daughter<end>, {1_childName}!"
+        "English": "{true_0:You have:Your wife has} given birth to a {masculine_1:son:daughter}, {1_childName}!"
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_LEADER_ILLEGITIMATE",
-        "English": "<comment variable 0 is the leader i.e. \"you\" for gender purposes for foreign languages>You have a new illegitimate <masculine_1>son<feminine>daughter<end>, {1_childName}!"
+        "English": "You have a new illegitimate {masculine_1:son:daughter}, {1_childName}!"
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_NON_LEADER",
-        "English": "{0_father} and {1_mother} have given birth to a <masculine_2>son<feminine>daughter<end>, {2_childName}!"
+        "English": "{0_father} and {1_mother} have given birth to a {masculine_2:son:daughter}, {2_childName}!"
       },
       {
         "zType": "TEXT_GAME_GIVE_BIRTH_NON_LEADER_ILLEGITIMATE",
-        "English": "{0_father} has a new illegitimate <masculine_1>son<feminine>daughter<end>, {1_childName}!"
+        "English": "{0_father} has a new illegitimate {masculine_1:son:daughter}, {1_childName}!"
       },
       {
         "zType": "TEXT_GAME_EVENT_CITY_LOG_DATA",
@@ -448,7 +448,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_CONVERT_RELIGION",
-        "English": "{0_character} Converts to {1_religion}"
+        "English": "{0_character} Converts {true_1:to {1_religion}:link(CONCEPT_RELIGION)}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_HEAD_RELIGION",
@@ -484,27 +484,27 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_CITIZENS",
-        "English": "{0_value} <singular_0>{1_citizenLink}<plural>{1,2_citizenLink}<end>"
+        "English": "{0_value} {singular_0:{1_citizenLink}:{1,2_citizenLink}}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_BORDER_GROWTH",
-        "English": "{0_value} Border <singular_0>Tile<plural>Tiles<end>"
+        "English": "{0_value} Border {singular_0:Tile:Tiles}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_CULTURE_LEVELS",
-        "English": "{0_value} <singular_0>{1_culture}<plural>{1,2_culture}<end>"
+        "English": "{0_value} {singular_0:{1_culture}:{1,2_culture}}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_DISCONTENT_LEVELS",
-        "English": "{0_value} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end>"
+        "English": "{0_value} link(YIELD_DISCONTENT) {singular_0:Level:Levels}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REBEL_UNITS",
-        "English": "{0_value} {1_rebel} <singular_0>Unit<plural>Units<end>"
+        "English": "{0_value} {1_rebel} {singular_0:Unit:Units}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_IMPROVEMENTS_DESTROYED",
-        "English": "{0_value} <singular_0>Improvement<plural>Improvements<end> Destroyed"
+        "English": "{0_value} {singular_0:Improvement:Improvements} Destroyed"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_HP",
@@ -533,10 +533,6 @@
       {
         "zType": "TEXT_GAME_DO_BONUS_FORGET_CHARACTER",
         "English": "Forgets {0_memory} (Currently {1_value} Opinion)"
-      },
-      {
-        "zType": "TEXT_DO_BONUS_DESIRED_AMBITION",
-        "English": "Desires {0}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_RANDOM_TRAIT",
@@ -600,7 +596,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_DIVORCED_BY",
-        "English": "Divorced by {0_spouse}"
+        "English": "{0_relationship} {1_spouse}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_BIRTH_WITH",
@@ -631,6 +627,10 @@
         "English": "No longer {0_relationship} {1_character}"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_CHARACTER_NAME_CHANGE",
+        "English": "Now known as {0_character}"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_XP",
         "English": "{0_value} XP"
       },
@@ -640,7 +640,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REVEAL_RANGE",
-        "English": "Reveals All {0_dist} <singular_0>Tile<plural>Tiles<end> Away"
+        "English": "Reveals All {0_dist} {singular_0:Tile:Tiles} Away"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_SET_VEGETATION",
@@ -744,11 +744,11 @@
       },
       {
         "zType": "TEXT_GAME_CITY_CANCEL_BUILD_LOG_DATA",
-        "English": "{0_build} cancelled in {1_city}"
+        "English": "{0_build} canceled in {1_city}"
       },
       {
         "zType": "TEXT_GAME_CITY_DISCONTENT_CHANGE_LOG_DATA",
-        "English": "{0_level} link(YIELD_DISCONTENT) <singular_0>Level<plural>Levels<end> in {1_city}"
+        "English": "{0_level} link(YIELD_DISCONTENT) {singular_0:Level:Levels} in {1_city}"
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACKED_LOG_DATA",
@@ -863,8 +863,12 @@
         "English": "{0} Pillaged by {1_owner} {2_unit}."
       },
       {
-        "zType": "TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION",
-        "English": "link(CONCEPT_CARAVAN_MISSION) with {0_player} complete: {1_money}<br>{2_memory}"
+        "zType": "TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION_MONEY",
+        "English": "link(CONCEPT_CARAVAN_MISSION) with {0_player} complete: {1_money}"
+      },
+      {
+        "zType": "TEXT_GAME_UNIT_FINISHED_CARAVAN_MISSION_MEMORY",
+        "English": "{1_memory} in {0_player}: +{2_value} Opinion for {3_value}"
       },
       {
         "zType": "TEXT_GAME_UNIT_RECEIVED_CARAVAN_MISSION",

@@ -48,7 +48,7 @@
       },
       {
         "zType": "TEXT_YIELD_CULTURE_HELP",
-        "English": "When a City's {YIELD_CULTURE}Culture bar fills up, a positive Event occurs, and the City's overall {YIELD_CULTURE}Culture Level increases. (The four levels are link(CULTURE_WEAK), link(CULTURE_DEVELOPING), link(CULTURE_STRONG), and link(CULTURE_LEGENDARY)). The {YIELD_CULTURE}Culture Level affects which Improvements and Wonders can be built in the City's territory and whether the City can link(CONCEPT_HURRY) (which requires link(CULTURE_DEVELOPING) {YIELD_CULTURE}Culture). Improve {YIELD_CULTURE}Culture by building link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2)."
+        "English": "When a City's {YIELD_CULTURE}Culture bar fills up, a positive Event occurs, and the City's overall {YIELD_CULTURE}Culture Level increases. (The four levels are link(CULTURE_WEAK), link(CULTURE_DEVELOPING), link(CULTURE_STRONG), and link(CULTURE_LEGENDARY)). The {YIELD_CULTURE}Culture Level affects which link(CONCEPT_IMPROVEMENT,2) and link(CONCEPT_WONDER,2) can be built in the City's territory and whether the City can link(CONCEPT_HURRY) (which requires link(CULTURE_DEVELOPING) {YIELD_CULTURE}Culture). Improve {YIELD_CULTURE}Culture by building link(IMPROVEMENTCLASS_SHRINE,2) and link(IMPROVEMENTCLASS_ODEON,2)."
       },
       {
         "zType": "TEXT_YIELD_DISCONTENT",
@@ -80,7 +80,7 @@
       },
       {
         "zType": "TEXT_YIELD_MAINTENANCE_HELP",
-        "English": "{YIELD_MAINTENANCE}Maintenance decreases the amount of {YIELD_MONEY}link(YIELD_MONEY) the City generates. Each link(CONCEPT_CITIZEN) and link(CONCEPT_SPECIALIST) in a City increases {YIELD_MAINTENANCE}Maintenance as well as distance from your link(CONCEPT_CAPITAL). {YIELD_MAINTENANCE}Maintenance can be reduced by connecting the City to your link(CONCEPT_TRADE_NETWORK) and improving the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY)."
+        "English": "{YIELD_MAINTENANCE}Maintenance decreases the amount of {YIELD_MONEY}link(YIELD_MONEY) the City generates. A City's {YIELD_MAINTENANCE}Maintenance is increased by a higher link(CONCEPT_POPULATION), the City's distance from your link(CONCEPT_CAPITAL), and each link(CONCEPT_IMPROVEMENT) without a link(CONCEPT_SPECIALIST). {YIELD_MAINTENANCE}Maintenance can be reduced by connecting the City to your link(CONCEPT_TRADE_NETWORK) and improving the link(CONCEPT_OPINION_FAMILY,3) of the ruling link(CONCEPT_FAMILY)."
       },
       {
         "zType": "TEXT_YIELD_ORDERS",
@@ -88,7 +88,7 @@
       },
       {
         "zType": "TEXT_YIELD_ORDERS_HELP",
-        "English": "{YIELD_ORDERS}Orders are needed for various Unit actions such as moving, attacking, and building Improvements. They are also needed for other actions, including assigning link(CONCEPT_GOVERNOR,2) and sending link(CONCEPT_COUNCILOR,2) on Missions. Unused {YIELD_ORDERS}Orders are sold for {YIELD_MONEY}link(YIELD_MONEY) at the end of the Turn. Your {YIELD_ORDERS}Orders rate goes up from increasing link(CONCEPT_LEGITIMACY) and building link(IMPROVEMENTCLASS_GARRISON,2)."
+        "English": "{YIELD_ORDERS}Orders are needed for various Unit actions such as moving, attacking, and building link(CONCEPT_IMPROVEMENT,2). They are also needed for other actions, including assigning link(CONCEPT_GOVERNOR,2) and sending link(CONCEPT_COUNCILOR,2) on Missions. Unused {YIELD_ORDERS}Orders are sold for {YIELD_MONEY}link(YIELD_MONEY) at the end of the Turn. Your {YIELD_ORDERS}Orders rate goes up from increasing link(CONCEPT_LEGITIMACY) and building link(IMPROVEMENTCLASS_GARRISON,2)."
       },
       {
         "zType": "TEXT_YIELD_FOOD",
@@ -112,7 +112,7 @@
       },
       {
         "zType": "TEXT_YIELD_STONE_HELP",
-        "English": "The primary source of {YIELD_STONE}Stone is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and adjacent to link(HEIGHT_MOUNTAIN,2). {YIELD_STONE}Stone is needed primarily to build Improvements, such as link(IMPROVEMENTCLASS_SHRINE,2), and link(CONCEPT_PROJECT,2), such as link(PROJECT_WALLS)."
+        "English": "The primary source of {YIELD_STONE}Stone is link(IMPROVEMENT_QUARRY,2), which are most productive on link(RESOURCE_MARBLE), on link(TERRAIN_ARID) Terrain, and adjacent to link(HEIGHT_MOUNTAIN,2). {YIELD_STONE}Stone is needed primarily to build link(CONCEPT_IMPROVEMENT,2), such as link(IMPROVEMENTCLASS_SHRINE,2), and link(CONCEPT_PROJECT,2), such as link(PROJECT_WALLS)."
       },
       {
         "zType": "TEXT_YIELD_WOOD",
@@ -120,7 +120,7 @@
       },
       {
         "zType": "TEXT_YIELD_WOOD_HELP",
-        "English": "{YIELD_WOOD}Wood can be gathered either by chopping down link(VEGETATION_TREES) or by building link(IMPROVEMENT_LUMBERMILL,2) instead. {YIELD_WOOD}Wood is necessary for building City Improvements (like link(IMPROVEMENT_BARRACKS)), Military Units (link(UNIT_ARCHER,2)), and link(UNITTRAIT_SHIP) Units (link(UNIT_BIREME,2))."
+        "English": "{YIELD_WOOD}Wood can be gathered either by chopping down link(VEGETATION_TREES) or by building link(IMPROVEMENT_LUMBERMILL,2) instead. {YIELD_WOOD}Wood is necessary for building City link(CONCEPT_IMPROVEMENT,2) (like link(IMPROVEMENT_BARRACKS)), Military Units (link(UNIT_ARCHER,2)), and link(UNITTRAIT_SHIP) Units (link(UNIT_BIREME,2))."
       }
     ]
   }

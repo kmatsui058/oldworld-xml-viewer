@@ -49,6 +49,10 @@
       {
         "zType": "TEXT_UNITTRAIT_SHIP",
         "English": "Ship"
+      },
+      {
+        "zType": "TEXT_UNITTRAIT_TRIBAL",
+        "English": "Tribal"
       }
     ]
   }

@@ -187,6 +187,14 @@
         "English": "Map hotkeys to their locations in an AZERTY keyboard"
       },
       {
+        "zType": "TEXT_PLAYEROPTION_SLOW",
+        "English": "Slow AI"
+      },
+      {
+        "zType": "TEXT_PLAYEROPTION_SLOW_DESC",
+        "English": "AI computations do not utilize all CPU cores so that cycles are available for other tasks between turns"
+      },
+      {
         "zType": "TEXT_PLAYEROPTION_DEBUG_HELP",
         "English": "Debug help"
       },

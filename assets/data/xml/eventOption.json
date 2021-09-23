@@ -35,14 +35,11 @@
 				"LeaderSubjectAny": {
 					"comment": "Requires the Leader to be valid for one of these Subjects"
 				},
-				"bLawScreen": {
-					"comment": "If set to 1 (true), selecting this option will open the Laws screen."
+				"OpenTabOverlay": {
+					"comment": "Selecting this option will open the screen that matches the specified TabOverlayState"
 				},
-				"bTimelineScreen": {
-					"comment": "If set to 1 (true), selecting this option will open the Timeline screen."
-				},
-				"bVictoryScreen": {
-					"comment": "If set to 1 (true), selecting this option will open the Victory screen."
+				"bKeepOpen": {
+					"comment": "If set to 1 (true), selecting this option will not close the event popup"
 				},
 				"bMainMenu": {
 					"comment": "If set to 1 (true), selecting this option will exit the current game and return to the main menu."
@@ -97,10 +94,10 @@
 				"LeaderSubjectAny": {
 					
 				},
-				"bLawScreen": {
+				"OpenTabOverlay": {
 					
 				},
-				"bTimelineScreen": {
+				"bKeepOpen": {
 					
 				},
 				"bMainMenu": {
@@ -882,7 +879,7 @@
 			{
 				"zType": "EVENTOPTION_LAW_SCREEN",
 				"Text": "TEXT_EVENTOPTION_LAW_SCREEN",
-				"bLawScreen": "1"
+				"OpenTabOverlay": "LAWS"
 			},
 			{
 				"zType": "EVENTOPTION_STUDY_PHILOSOPHY",
@@ -894,13 +891,13 @@
 				"PlayerSubject": "SUBJECT_PLAYER_NONE_STUDY_PHILOSOPHY"
 			},
 			{
-				"zType": "EVENTOPTION_STUDY_RHETORIC",
-				"Text": "TEXT_EVENTOPTION_STUDY_RHETORIC",
-				"HelpText": "TEXT_EVENTOPTION_STUDY_RHETORIC_HELP",
+				"zType": "EVENTOPTION_STUDY_POLITICS",
+				"Text": "TEXT_EVENTOPTION_STUDY_POLITICS",
+				"HelpText": "TEXT_EVENTOPTION_STUDY_POLITICS_HELP",
 				"aeBonuses": {
-					"zValue": "BONUS_EVENTOPTION_STUDY_RHETORIC"
+					"zValue": "BONUS_EVENTOPTION_STUDY_POLITICS"
 				},
-				"PlayerSubject": "SUBJECT_PLAYER_NONE_STUDY_RHETORIC"
+				"PlayerSubject": "SUBJECT_PLAYER_NONE_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_STUDY_TACTICS",
@@ -1486,10 +1483,7 @@
 						{
 							
 						},
-						"BONUS_GIVE_TRAIT_VIGILANT",
-						{
-							
-						}
+						"BONUS_GIVE_TRAIT_VIGILANT"
 					]
 				}
 			},
@@ -2505,6 +2499,24 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_RUINS_WEARY_MARAUDERS_OPTION_2",
+				"Text": "TEXT_EVENTOPTION_RUINS_WEARY_MARAUDERS_OPTION_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_RUINS_WEARY_MARAUDERS_OPTION_2_PLAYER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0",
 				"Text": "TEXT_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0",
 				"aeBonuses": {
@@ -3178,6 +3190,18 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_RUINS_PROPHECY_OPTION_3",
+				"Text": "TEXT_EVENTOPTION_RUINS_PROPHECY_OPTION_3",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER"
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_RUINS_THE_DIVINER_OPTION_0",
 				"Text": "TEXT_EVENTOPTION_RUINS_THE_DIVINER_OPTION_0",
 				"aeBonuses": {
@@ -3548,9 +3572,7 @@
 						{
 							
 						},
-						{
-							
-						}
+						"BONUS_EVENTSTORY_HARVEST_CAMEL_BITE_UNIT"
 					]
 				}
 			},
@@ -3569,9 +3591,7 @@
 							
 						},
 						"BONUS_EVENTOPTION_HARVEST_CAMEL_BITE_OPTION_1_BARBARIAN",
-						{
-							
-						}
+						"BONUS_EVENTSTORY_HARVEST_CAMEL_BITE_UNIT"
 					]
 				}
 			},
@@ -4277,7 +4297,7 @@
 				"zType": "EVENTOPTION_RUINS_NECROPOLIS_SAVE",
 				"Text": "TEXT_EVENTOPTION_RUINS_NECROPOLIS_SAVE",
 				"aeBonuses": {
-					"zValue": "BONUS_TECH_POLIS_BONUS_SETTLER"
+					"zValue": "BONUS_UNIT_SETTLER"
 				}
 			},
 			{
@@ -5817,6 +5837,57 @@
 						},
 						"BONUS_PLAYER_WAR",
 						"BONUS_GIVE_TRAIT_GREEDY"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HARVEST_MYTHICAL_BEASTS_0",
+				"Text": "TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MYTHICAL_BEASTS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HARVEST_MYTHICAL_BEASTS_1",
+				"Text": "TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_SCIENCE_GAIN_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HARVEST_MYTHICAL_BEASTS_2",
+				"Text": "TEXT_EVENTOPTION_HARVEST_MYTHICAL_BEASTS_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_CULTURE_GAIN_AVERAGE"
 					]
 				}
 			},
@@ -12810,7 +12881,7 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_PLAYER_WAR_LEGITIMACY",
-						"BONUS_TECH_COHORTS_BONUS_SOLDIER",
+						"BONUS_ADD_GREAT_SOLDIER",
 						{
 							
 						}
@@ -13033,135 +13104,63 @@
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_CIVICS",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_CIVICS",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_CIVICS_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_CIVICS_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_TRAINING",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_TRAINING",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_TRAINING_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_SCIENCE",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_SCIENCE",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_SCIENCE_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_SCIENCE_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_MONEY",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_MONEY",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_MONEY_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_ORDERS",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_ORDERS",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_ORDERS_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_ORDERS_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_FOOD",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_FOOD",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_FOOD_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_FOOD_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_IRON",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_IRON",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_IRON_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_IRON_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_STONE",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_STONE",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_STONE_AVERAGE"
 				}
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_WOOD",
 				"Text": "TEXT_EVENTOPTION_DEMAND_TRIBUTE_WOOD",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_TRIBUTE_RECEIVE_WOOD_AVERAGE",
-						{
-							
-						},
-						{
-							
-						}
-					]
+					"zValue": "BONUS_TRIBUTE_RECEIVE_WOOD_AVERAGE"
 				}
 			},
 			{
@@ -18135,12 +18134,6 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_EVENTOPTION_DEMAND_TRIBUTE_COUNTER_OFFER"
 					]
 				}
@@ -18803,11 +18796,11 @@
 						{
 							
 						},
-						"BONUS_GAIN_DISCIPLINE_1",
-						"BONUS_LEADER_ESTRANGED_FROM",
 						{
 							
 						},
+						"BONUS_LEADER_ESTRANGED_FROM",
+						"BONUS_GAIN_DISCIPLINE_1",
 						{
 							
 						}
@@ -18828,10 +18821,10 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_DEMAND_TRIBUTE_CHILD",
 						{
 							
-						}
+						},
+						"BONUS_EVENTOPTION_DEMAND_TRIBUTE_CHILD"
 					]
 				}
 			},
@@ -18893,12 +18886,13 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_DEMAND_TRIBUTE_PLOT_DISCOVERED",
 						{
 							
-						}
+						},
+						"BONUS_RANDOM_TECH"
 					]
-				}
+				},
+				"LeaderSubject": "SUBJECT_HIGH_WISDOM"
 			},
 			{
 				"zType": "EVENTOPTION_DEMAND_TRIBUTE_PLOT_DISCOVERED_1",
@@ -19744,6 +19738,38 @@
 			{
 				"zType": "EVENTOPTION_SUCCESSION_THEM_AGENT_2",
 				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_VENGEFUL_AGAINST",
+						"BONUS_EVENTOPTION_SUCCESSION_THEM_AGENT_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_AGENT_WAR0",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SUCCESSION_THEM_AGENT_1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_AGENT_WAR1",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_SUSPICIOUS_OF",
+						"BONUS_GIVE_TRAIT_VIGILANT"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_AGENT_WAR2",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_AGENT_WAR2",
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_LEADER_VENGEFUL_AGAINST",
@@ -21323,6 +21349,845 @@
 				"LeaderSubject": "SUBJECT_LOYAL"
 			},
 			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_1",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_VENGEFUL_AGAINST",
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_1",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_2",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_BOAST_WAR_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_2",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_YES",
+				"Text": "TEXT_EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_YES",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_INTERCESSION_MISSION_FAMILY_YES",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_NO",
+				"Text": "TEXT_EVENTOPTION_INTERCESSION_MISSION_PROMPT_FAMILY_NO",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_XP_CHARACTER_AVERAGE",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_SITUATION_IMPRISION",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_IMPRISION",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_IMPRISION",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_SITUATION_ASSASSINATE",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_SITUATION_ASSASSINATE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_ASSASSINATE",
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_SPOUSE_NEGATIVE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_MURDER_EXILE",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_EXILE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_MURDER_EXILE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_MURDER_IMPRISON",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_IMPRISON",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_IMPRISION",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_MURDER_KILL",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_MURDER_KILL",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_LEADER_MURDER",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_MURDER",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_LEADER_IMPRISON",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_IMPRISON",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_HEIR_BYPASSED_LEADER_EXILE",
+				"Text": "TEXT_EVENTOPTION_HEIR_BYPASSED_LEADER_EXILE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_HEIR_BYPASSED_DOUBLE_MURDER",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_0",
+				"Text": "TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_GIFTED_TECH",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_1",
+				"Text": "TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_0",
+						"BONUS_IRON_LOSS_SMALL"
+					]
+				},
+				"LeaderSubject": "SUBJECT_DEALMAKER"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_2",
+				"Text": "TEXT_EVENTOPTION_TECH_ARMING_YOUR_BROTHERS_2",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_REFUSED_TECH"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_SCROLL_AND_SPEAR_0",
+				"Text": "TEXT_EVENTOPTION_TECH_SCROLL_AND_SPEAR_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_GIFTED_TECH",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_SCROLL_AND_SPEAR_1",
+				"Text": "TEXT_EVENTOPTION_TECH_SCROLL_AND_SPEAR_1",
+				"zIcon": "icon(DIPLOMACY_WAR)",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_WAR_LEGITIMACY",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_TRIBUTE",
+				"Text": "TEXT_EVENTOPTION_TECH_TRIBUTE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEBT_OF_SCIENCE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_OWES_FAVOR_TO_REMOVE",
+						"BONUS_PLAYER_GIFTED_TECH",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2",
+						"BONUS_ACQUIRE_TECH_S1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEBT_OF_SCIENCE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_OWES_FAVOR_TO_REMOVE",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEBT_OF_SCIENCE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_DEBT_OF_SCIENCE_2"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_GIFTED_TECH",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_MONEY_GAIN_AVERAGE",
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_2",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_REFUSED_TECH"
+				},
+				"LeaderSubject": "SUBJECT_NOT_COMPASSIONATE"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_WISDOM_OF_PEACE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_0",
+				"zIcon": "icon(DIPLOMACY_PEACE)",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_PEACE",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_WISDOM_OF_PEACE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_1",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_REFUSED_TECH"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_WISDOM_OF_PEACE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_WISDOM_OF_PEACE_2",
+				"zIcon": "icon(DIPLOMACY_WAR)",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_WAR",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_GIFTS_OF_THE_SEA_0",
+				"Text": "TEXT_EVENTOPTION_TECH_GIFTS_OF_THE_SEA_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_GIFTS_OF_THE_SEA_1",
+				"Text": "TEXT_EVENTOPTION_TECH_GIFTS_OF_THE_SEA_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_OUTDOOR_PASTIME_FISH"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_0",
+				"zIcon": "icon(DIPLOMACY_WAR)",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_PLAYER_WAR",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_1",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_REFUSED_TECH"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_TECH_LURE_OF_KNOWLEDGE_0",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				},
+				"LeaderSubject": "SUBJECT_DECEITFUL"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_OFFER_AMBASSADOR_0",
+				"Text": "TEXT_EVENTOPTION_TECH_OFFER_AMBASSADOR_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_OFFER_AMBASSADOR_1",
+				"Text": "TEXT_EVENTOPTION_TECH_OFFER_AMBASSADOR_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_XP_CHARACTER_LARGE",
+						"BONUS_PLAYER_REFUSED_TECH"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_FOOD_FOR_THOUGHT_0",
+				"Text": "TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_FOOD_LOSS_LARGE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_FOOD_FOR_THOUGHT_1",
+				"Text": "TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_GIFTED_TECH",
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_FOOD_FOR_THOUGHT_2",
+				"Text": "TEXT_EVENTOPTION_TECH_FOOD_FOR_THOUGHT_2",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_REFUSED_TECH"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_UNDER_THE_TABLE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_ALLIANCE_END",
+						"BONUS_GAIN_DISCIPLINE_2",
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_UNDER_THE_TABLE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_OWES_FAVOR_TO",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_UNDER_THE_TABLE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_UNDER_THE_TABLE_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_ENDEARED_TO",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0",
+						"BONUS_ACQUIRE_TECH_S0"
+					]
+				},
+				"LeaderSubject": "SUBJECT_COMPASSIONATE"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_STOLEN_SCROLLS_0",
+				"Text": "TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_0",
+				"zIcon": "icon(DIPLOMACY_WAR)",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_WAR_LEGITIMACY",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_STOLEN_SCROLLS_1",
+				"Text": "TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_SUSPICIOUS_OF",
+						"BONUS_GAIN_CHARISMA_1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_STOLEN_SCROLLS_2",
+				"Text": "TEXT_EVENTOPTION_TECH_STOLEN_SCROLLS_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_SCIENCE_GAIN_LARGE",
+						{
+							
+						}
+					]
+				},
+				"LeaderSubject": "SUBJECT_CHARACTER_TERRIFYING"
+			},
+			{
+				"zType": "EVENTOPTION_TECH_WRONG_HANDS_0",
+				"Text": "TEXT_EVENTOPTION_TECH_WRONG_HANDS_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_XP_CHARACTER_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GREEK_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_GREEK_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_HOPLITE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_UNIT_NO",
+				"Text": "TEXT_EVENTOPTION_UNIT_NO",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_UNIT_NO_PLAYER_0",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BABYLONIAN_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_BABYLONIAN_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_AKKADIAN"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_ASSYRIAN_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_ASSYRIAN_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_RAM"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_CARTHAGE_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_CARTHAGE_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_MAHOUT"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EGYPTIAN_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_EGYPTIAN_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_CHARIOT"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_PERSIAN_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_PERSIAN_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_PALTON"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_ROMAN_UNIT_YES",
+				"Text": "TEXT_EVENTOPTION_ROMAN_UNIT_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_SEND_HUGE",
+						"BONUS_GIVE_HASTATUS"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_ACCEPTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED",
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_ACCEPTED",
+						{
+							
+						},
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_2",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CORRECT_PROTOCOL_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NATION",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NATION",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_ACCEPTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED",
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_FAMILY",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_FAMILY",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_ACCEPTED",
+						{
+							
+						},
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NO",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_NATION_FAMILY_NO",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_NATION_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED"
+					]
+				}
+			},
+			{
 				"beginGroup": "Combat",
 				"zType": "EVENTOPTION_LEADER_SMITING_FOES_STATUE",
 				"Text": "TEXT_EVENTOPTION_LEADER_SMITING_FOES_STATUE",
@@ -22291,10 +23156,16 @@
 				"Text": "TEXT_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_0",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_0"
+						{
+							
+						},
+						{
+							
+						}
 					]
 				}
 			},
@@ -22303,10 +23174,16 @@
 				"Text": "TEXT_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_1",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_1"
+						{
+							
+						},
+						{
+							
+						}
 					]
 				}
 			},
@@ -22318,7 +23195,13 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_2"
+						{
+							
+						},
+						"BONUS_EVENTOPTION_TRIBE_HORSE_LORDS_OPTION_2",
+						{
+							
+						}
 					]
 				}
 			},
@@ -23349,10 +24232,10 @@
 				"HelpText": "TEXT_EVENTOPTION_TRIBE_ELIMINATED_FINAL_SURGE_OPTION_0_HELP",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_TRIBE_ELIMINATED_FINAL_SURGE",
 						{
 							
-						}
+						},
+						"BONUS_ORDERS_GAIN_AVERAGE"
 					]
 				}
 			},
@@ -23769,9 +24652,7 @@
 							
 						},
 						"BONUS_GAIN_COURAGE_1",
-						{
-							
-						},
+						"BONUS_LEADER_SUSPICIOUS_OF",
 						{
 							
 						}
@@ -24140,7 +25021,7 @@
 						}
 					]
 				},
-				"LeaderSubject": "SUBJECT_BLOODTHIRSTY"
+				"LeaderSubject": "SUBJECT_CHARACTER_TERRIFYING"
 			},
 			{
 				"zType": "EVENTOPTION_LOVER_LOST_0",
@@ -25516,6 +26397,114 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_NAMED_UNIT_NO",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_NO"
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_MEDJAY",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_MEDJAY",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_SACRED_BAND",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_SACRED_BAND",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_SACRED_BAND"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_COMPANIONS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_COMPANIONS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_COMPANIONS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_NUMERUS_BATAVORUM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_SILVER_SHIELDS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_HARII",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_HARII",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_HARII"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_PAINTED_WARRIORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_WARRIORS_OF_GOD"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_THE_TERRORS_1",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_THE_TERRORS_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_NAMED_UNIT_TERRORS_1",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_IMMORTALS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_IMMORTALS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_IMMORTALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_THE_FURIES",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_THE_FURIES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_NAMED_UNIT_FURIES",
+						"BONUS_EVENTOPTION_NAMED_UNIT_FURIES_GENERAL"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NAMED_UNIT_WILD_HUNTERS",
+				"Text": "TEXT_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_NAMED_UNIT_WILD_HUNTERS"
+					]
+				}
+			},
+			{
 				"beginGroup": "Family",
 				"zType": "EVENTOPTION_FAMILY_GIFT_YES",
 				"Text": "TEXT_EVENTOPTION_FAMILY_GIFT_YES",
@@ -25760,6 +26749,19 @@
 							
 						},
 						"BONUS_EVENTOPTION_WHAT_IS_ART_OPTION_2_CHARACTER_1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WHAT_IS_ART_OPTION_3",
+				"Text": "TEXT_EVENTOPTION_WHAT_IS_ART_OPTION_3",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_ENDEARED_TO",
+						{
+							
+						},
+						"BONUS_GIVE_TRAIT_DECEITFUL"
 					]
 				}
 			},
@@ -26284,9 +27286,9 @@
 				"Text": "TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_0",
 						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_1",
-						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_FAMILY"
+						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_FAMILY",
+						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_0"
 					]
 				}
 			},
@@ -26295,11 +27297,11 @@
 				"Text": "TEXT_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_LEADER_TERRIFIED_OF",
+						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_1_FAMILY",
 						{
 							
-						},
-						"BONUS_LEADER_TERRIFIED_OF",
-						"BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_1_FAMILY"
+						}
 					]
 				}
 			},
@@ -26308,11 +27310,11 @@
 				"Text": "TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_CHARACTER_0",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_FAMILY"
+						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_FAMILY",
+						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_CHARACTER_0"
 					]
 				}
 			},
@@ -26321,9 +27323,9 @@
 				"Text": "TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_GAIN_COURAGE_1",
 						"BONUS_LEADER_ESTRANGED_FROM",
-						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_1_FAMILY"
+						"BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_1_FAMILY",
+						"BONUS_GAIN_COURAGE_1"
 					]
 				}
 			},
@@ -26332,11 +27334,11 @@
 				"Text": "TEXT_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_GIVE_TRAIT_INTELLIGENT",
 						"BONUS_LEADER_VENGEFUL_AGAINST",
 						{
 							
-						}
+						},
+						"BONUS_GIVE_TRAIT_INTELLIGENT"
 					]
 				},
 				"LeaderSubject": "SUBJECT_CHARACTER_CHARMING"
@@ -30229,6 +31231,98 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_TECH_TRADE_OFF_0",
+				"Text": "TEXT_EVENTOPTION_TECH_TRADE_OFF_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_TECH_TRADE_OFF_1",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S0",
+						"BONUS_ACQUIRE_TECH_S3"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_TRADE_OFF_1",
+				"Text": "TEXT_EVENTOPTION_TECH_TRADE_OFF_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_REFUSED_TECH",
+						"BONUS_EVENTOPTION_TECH_TRADE_OFF_0",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_TRADE_OFF_2",
+				"Text": "TEXT_EVENTOPTION_TECH_TRADE_OFF_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_TECH_TRADE_OFF_0",
+						"BONUS_EVENTOPTION_TECH_TRADE_OFF_0",
+						"BONUS_MONEY_LOSS_LARGE",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S3"
+					]
+				},
+				"LeaderSubject": "SUBJECT_DEALMAKER"
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_VENGEFUL_AGAINST",
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_MARRY_S1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_2",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_CHARISMA_1",
+						"BONUS_LEADER_SUSPICIOUS_OF",
+						"BONUS_MARRY_S1"
+					]
+				},
+				"LeaderSubject": "SUBJECT_WANTON"
+			},
+			{
 				"beginGroup": "Character",
 				"zType": "EVENTOPTION_NEW_COURTIER",
 				"Text": "TEXT_EVENTOPTION_NEW_COURTIER"
@@ -30509,6 +31603,16 @@
 					"zValue": [
 						"BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_2",
 						"BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_2_BARBARIAN"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3",
+				"Text": "TEXT_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER",
+						"BONUS_SCIENCE_GAIN_AVERAGE"
 					]
 				}
 			},
@@ -30874,8 +31978,10 @@
 			},
 			{
 				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES",
+				"EventLinkAdd": "EVENTLINK_ENCHANTING_CONVERSATION_GAY",
 				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES",
-				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP"
+				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP",
+				"bFutureEvents": "1"
 			},
 			{
 				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_NO",
@@ -30885,18 +31991,45 @@
 			},
 			{
 				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_GAY_TWO_YES",
+				"EventLinkAdd": "EVENTLINK_ENCHANTING_CONVERSATION_GAY",
 				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_TWO_YES",
-				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP_COPY"
+				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_ONE_YES_HELP_COPY",
+				"bFutureEvents": "1"
 			},
 			{
 				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES",
+				"EventLinkAdd": "EVENTLINK_ENCHANTING_CONVERSATION_GAY",
 				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES",
-				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES_HELP"
+				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_THREE_YES_HELP",
+				"bFutureEvents": "1"
 			},
 			{
 				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_GAY_FOUR_YES",
+				"EventLinkAdd": "EVENTLINK_ENCHANTING_CONVERSATION_GAY",
 				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_FOUR_YES",
-				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_FOUR_YES_HELP"
+				"HelpText": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_GAY_FOUR_YES_HELP",
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_1",
+				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_1",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_CHARISMA_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_2",
+				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_2",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_COURAGE_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_3",
+				"Text": "TEXT_EVENTOPTION_ENCHANTING_CONVERSATION_FOLLOWUP_3",
+				"aeBonuses": {
+					"zValue": "BONUS_LOSE_CHARISMA_1"
+				}
 			},
 			{
 				"zType": "EVENTOPTION_LEGITIMIZE_HEIR_YES",
@@ -31843,6 +32976,18 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_VENGEFUL_TO_PLOTTING",
+				"Text": "TEXT_EVENTOPTION_VENGEFUL_TO_PLOTTING",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_PLOTTING_AGAINST",
+						{
+							
+						}
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_STRANGE_SCROLL_STOP",
 				"Text": "TEXT_EVENTOPTION_STRANGE_SCROLL_STOP",
 				"HelpText": "TEXT_EVENTOPTION_STRANGE_SCROLL_STOP_HELP",
@@ -32672,11 +33817,11 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_1",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0",
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_1"
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0"
 					]
 				},
 				"bFutureEvents": "1"
@@ -32686,11 +33831,11 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_LEADER_ESTRANGED_FROM",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_1_CHARACTER_0",
-						"BONUS_LEADER_ESTRANGED_FROM"
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_1_CHARACTER_0"
 					]
 				}
 			},
@@ -32699,11 +33844,11 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_LEADER_PLOTTING_AGAINST",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_2_CHARACTER_0",
-						"BONUS_LEADER_PLOTTING_AGAINST"
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_2_CHARACTER_0"
 					]
 				}
 			},
@@ -32712,27 +33857,25 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_LEADER_VENGEFUL_AGAINST",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0_CHARACTER_0",
-						"BONUS_LEADER_VENGEFUL_AGAINST"
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0_CHARACTER_0"
 					]
 				},
-				"LeaderSubject": "SUBJECT_HIGH_COURAGE"
+				"LeaderSubject": "SUBJECT_HIGH_DISCIPLINE"
 			},
 			{
 				"zType": "EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_1",
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_1_CHARACTER_1",
 						{
 							
 						},
-						{
-							
-						},
-						"BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_1_CHARACTER_1"
+						"BONUS_KILL_CHARACTER"
 					]
 				}
 			},
@@ -32740,16 +33883,8 @@
 				"zType": "EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_2",
 				"EventLinkStart": "EVENTLINK_SPECIAL_RECOGNITION_02",
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_2",
-				"aeBonuses": {
-					"zValue": [
-						{
-							
-						},
-						"BONUS_GIVE_TRAIT_BOLD",
-						"BONUS_KILL_CHARACTER"
-					]
-				},
-				"LeaderSubject": "SUBJECT_FIERCE"
+				"LeaderSubject": "SUBJECT_HIGH_COURAGE",
+				"bFutureEvents": "1"
 			},
 			{
 				"zType": "EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_03_OPTION_0",
@@ -32759,10 +33894,10 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_0",
 						{
 							
-						}
+						},
+						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_0"
 					]
 				}
 			},
@@ -32774,10 +33909,10 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_1",
 						{
 							
-						}
+						},
+						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_1"
 					]
 				}
 			},
@@ -32789,10 +33924,10 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_2",
 						{
 							
-						}
+						},
+						"BONUS_EVENTOPTION_SPECIAL_RECOGNITION_03_OPTION_2"
 					]
 				}
 			},
@@ -32801,8 +33936,10 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0_CHARACTER_0",
 						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0_CHARACTER_1",
+						{
+							
+						},
 						{
 							
 						}
@@ -32815,9 +33952,11 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0",
 						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_1",
-						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_FAMILY"
+						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_FAMILY",
+						{
+							
+						}
 					]
 				},
 				"bFutureEvents": "1"
@@ -32827,8 +33966,10 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0",
 						"BONUS_LEADER_CONSPIRING_WITH",
+						{
+							
+						},
 						{
 							
 						}
@@ -32948,7 +34089,7 @@
 				}
 			},
 			{
-				"zType": "EVENTOPTION_STUDY_RHETORIC_ARCHETYPES",
+				"zType": "EVENTOPTION_STUDY_POLITICS_ARCHETYPES",
 				"aiEventOptionProb": {
 					"Pair": [
 						{
@@ -36246,10 +37387,7 @@
 						{
 							
 						},
-						"BONUS_MONEY_LOSS_AVERAGE",
-						{
-							
-						}
+						"BONUS_MONEY_LOSS_AVERAGE"
 					]
 				}
 			},
@@ -36262,10 +37400,7 @@
 						{
 							
 						},
-						"BONUS_CIVICS_GAIN_LARGE",
-						{
-							
-						}
+						"BONUS_CIVICS_GAIN_LARGE"
 					]
 				}
 			},
@@ -36275,9 +37410,6 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_EVENTOPTION_BLEEDING_FOR_NATION_OPTION_2_CHARACTER_0",
-						{
-							
-						},
 						{
 							
 						},
@@ -40896,15 +42028,7 @@
 			},
 			{
 				"zType": "EVENTOPTION_LEADER_LOVED_SPREAD",
-				"Text": "TEXT_EVENTOPTION_LEADER_LOVED_SPREAD",
-				"aeBonuses": {
-					"zValue": [
-						"BONUS_LEADER_IN_LOVE_WITH",
-						{
-							
-						}
-					]
-				}
+				"Text": "TEXT_EVENTOPTION_LEADER_LOVED_SPREAD"
 			},
 			{
 				"zType": "EVENTOPTION_PAW_CURE_IMPROVED",
@@ -41896,10 +43020,10 @@
 							
 						},
 						"BONUS_GIVE_TRAIT_MOURNING",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_NO_TACTICS",
@@ -42078,10 +43202,10 @@
 							
 						},
 						"BONUS_SET_HERO_ARCHETYPE",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_RHETORIC_ORATOR",
@@ -42092,10 +43216,10 @@
 							
 						},
 						"BONUS_SET_ORATOR_ARCHETYPE",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_RHETORIC_JUDGE",
@@ -42106,10 +43230,10 @@
 							
 						},
 						"BONUS_SET_JUDGE_ARCHETYPE",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_RHETORIC_DIPLOMAT",
@@ -42120,10 +43244,10 @@
 							
 						},
 						"BONUS_SET_DIPLOMAT_ARCHETYPE",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_RHETORIC_SCHOLAR",
@@ -42134,10 +43258,10 @@
 							
 						},
 						"BONUS_SET_SCHOLAR_ARCHETYPE",
-						"BONUS_REMOVE_STUDY_RHETORIC"
+						"BONUS_REMOVE_STUDY_POLITICS"
 					]
 				},
-				"LeaderSubject": "SUBJECT_STUDY_RHETORIC"
+				"LeaderSubject": "SUBJECT_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_SUCCESSION_BURDEN_OF_LEADERS_COMMERCE_COMMANDER",
@@ -45084,11 +46208,11 @@
 						{
 							
 						},
+						"BONUS_EVENTOPTION_HEART_IN_TWO_0",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_COVERT_MARRIAGE",
-						"BONUS_EVENTOPTION_HEART_IN_TWO_0"
+						"BONUS_EVENTOPTION_COVERT_MARRIAGE"
 					]
 				}
 			},
@@ -45101,10 +46225,10 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_HEART_IN_TWO_MARRIAGE",
 						{
 							
-						}
+						},
+						"BONUS_EVENTOPTION_HEART_IN_TWO_MARRIAGE"
 					]
 				}
 			},
@@ -45114,13 +46238,13 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_LEADER_ESTRANGED_FROM",
+						"BONUS_EVENTOPTION_HEART_IN_TWO_1",
 						{
 							
 						},
 						{
 							
-						},
-						"BONUS_EVENTOPTION_HEART_IN_TWO_1"
+						}
 					]
 				}
 			},
@@ -46344,7 +47468,7 @@
 						"BONUS_EVENTOPTION_STUDY_DIRE_WARNINGS_2"
 					]
 				},
-				"PlayerSubject": "SUBJECT_PLAYER_NONE_STUDY_RHETORIC"
+				"PlayerSubject": "SUBJECT_PLAYER_NONE_STUDY_POLITICS"
 			},
 			{
 				"zType": "EVENTOPTION_STUDY_DIRE_WARNING_NO",
@@ -47256,6 +48380,241 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_0",
+				"Text": "TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_GIVE_TRAIT_IMPRISONED"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_1",
+				"Text": "TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_1",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_GAIN_DISCIPLINE_1",
+						{
+							
+						},
+						"BONUS_GIVE_TRAIT_FUGITIVE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_2",
+				"Text": "TEXT_EVENTOPTION_TECH_INFLUENCE_OF_IDEAS_2",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LOSE_DISCIPLINE_1",
+						{
+							
+						},
+						"BONUS_LEADER_INFLUENCED_BY"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_INFLUENCED_BY",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED",
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DISAPPOINTED_WITH",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_ACCEPTED"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RECOGNIZED_0",
+				"Text": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_0",
+				"HelpText": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_0_HELP",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_MISSIONRESULT_INFLUENCE",
+						{
+							
+						}
+					]
+				},
+				"LeaderSubject": "SUBJECT_HIGH_CHARISMA"
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RECOGNIZED_1",
+				"Text": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_1",
+				"HelpText": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_1_HELP",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_SUSPICIOUS_OF",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RECOGNIZED_2",
+				"Text": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_2",
+				"HelpText": "TEXT_EVENTOPTION_AGENT_RECOGNIZED_2_HELP",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_DISAPPOINTED_WITH",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_GAIN_DISCIPLINE_1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_EXPOSED_KILLED",
+				"Text": "TEXT_EVENTOPTION_AGENT_EXPOSED_KILLED",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_XP_CHARACTER_SMALL"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_EXPOSED_SECRETS",
+				"Text": "TEXT_EVENTOPTION_AGENT_EXPOSED_SECRETS",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_XP_CHARACTER_AVERAGE",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_RANDOM_TECH"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_EXPOSED_0",
+				"Text": "TEXT_EVENTOPTION_AGENT_EXPOSED_0",
+				"aeBonuses": {
+					"zValue": "BONUS_RELEASE_AGENT"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_EXPOSED_1",
+				"EventLinkAdd": "EVENTLINK_AGENT_EXPOSED",
+				"Text": "TEXT_EVENTOPTION_AGENT_EXPOSED_1",
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_WOUNDED_0",
+				"Text": "TEXT_EVENTOPTION_AGENT_WOUNDED_0",
+				"aeBonuses": {
+					"zValue": "BONUS_RELEASE_AGENT"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_WOUNDED_1",
+				"Text": "TEXT_EVENTOPTION_AGENT_WOUNDED_1",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AGENT_WOUNDED_0"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RIGHT_PRICE_0",
+				"Text": "TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_LOYAL",
+						{
+							
+						}
+					]
+				},
+				"LeaderSubject": "SUBJECT_CHARACTER_TERRIFYING"
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RIGHT_PRICE_1",
+				"Text": "TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_LOYAL",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_MONEY_LOSS_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGENT_RIGHT_PRICE_2",
+				"Text": "TEXT_EVENTOPTION_AGENT_RIGHT_PRICE_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_AGENT_RIGHT_PRICE_0",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
 				"beginGroup": "City",
 				"zType": "EVENTOPTION_HAPPINESS_IMMIGRANTS_YES",
 				"EventLinkAdd": "EVENTLINK_HAPPINESS_IMMIGRANTS_YES",
@@ -47879,7 +49238,7 @@
 						{
 							
 						},
-						"BONUS_MONEY_LOSS_MINIMAL"
+						"BONUS_MONEY_LOSS_SMALL"
 					]
 				},
 				"bFutureEvents": "1"
@@ -47907,7 +49266,9 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_FOREST_FIRE_EMBERS_OPTION_0_CITY",
+						{
+							
+						},
 						"BONUS_EVENTOPTION_FOREST_FIRE_EMBERS_OPTION_0_PLAYER"
 					]
 				}
@@ -50246,6 +51607,87 @@
 						},
 						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
 						"BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_PLAYER"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AUTONOMOUS_VASSAL_0",
+				"Text": "TEXT_EVENTOPTION_AUTONOMOUS_VASSAL_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_INFLUENCED_BY",
+						"BONUS_EVENTOPTION_CITY_AUTONOMY_YES_CITY"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AUTONOMOUS_VASSAL_1",
+				"Text": "TEXT_EVENTOPTION_AUTONOMOUS_VASSAL_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_GAIN_SMALL",
+						"BONUS_LEADER_DISAPPOINTED_WITH"
+					]
+				},
+				"LeaderSubject": "SUBJECT_NOT_STRICT"
+			},
+			{
+				"zType": "EVENTOPTION_DEMAND_FOR_AUTONOMY_0",
+				"Text": "TEXT_EVENTOPTION_DEMAND_FOR_AUTONOMY_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_DEMAND_FOR_AUTONOMY",
+						"BONUS_EVENTOPTION_CITY_AUTONOMY_YES_CITY",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEMAND_FOR_AUTONOMY_1",
+				"Text": "TEXT_EVENTOPTION_DEMAND_FOR_AUTONOMY_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_GAIN_AVERAGE",
+						{
+							
+						},
+						"BONUS_GAIN_DISCIPLINE_1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INDEPENDENT_CITY_0",
+				"Text": "TEXT_EVENTOPTION_INDEPENDENT_CITY_0",
+				"aeBonuses": {
+					"zValue": "BONUS_REBEL_UNITS_3"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_INDEPENDENT_CITY_1",
+				"Text": "TEXT_EVENTOPTION_INDEPENDENT_CITY_1",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_INDEPENDENT_CITY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RECLAIMING_CONTROL_0",
+				"Text": "TEXT_EVENTOPTION_RECLAIMING_CONTROL_0",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_RECLAIMING_CONTROL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RECLAIMING_CONTROL_1",
+				"Text": "TEXT_EVENTOPTION_RECLAIMING_CONTROL_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_DISCONTENT_DOWN",
+						"BONUS_CIVICS_GAIN_AVERAGE"
 					]
 				}
 			},
@@ -56471,13 +57913,7 @@
 						{
 							
 						},
-						{
-							
-						},
-						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_1",
-						{
-							
-						}
+						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_1"
 					]
 				}
 			},
@@ -56488,12 +57924,6 @@
 					"zValue": [
 						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_2",
 						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_3",
-						{
-							
-						},
-						{
-							
-						},
 						{
 							
 						}
@@ -56509,13 +57939,7 @@
 							
 						},
 						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_4",
-						{
-							
-						},
-						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_5",
-						{
-							
-						}
+						"BONUS_EVENTOPTION_EL_YAHWEH_BAAL_5"
 					]
 				}
 			},
@@ -60138,9 +61562,12 @@
 				"Text": "TEXT_EVENTOPTION_BIAS_OF_FAITH_0",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_EVENTOPTION_THE_SCHISM_FOR",
+						{
+							
+						},
+						"BONUS_KILL_CHARACTER",
 						"BONUS_EVENTOPTION_THE_SCHISM_AGAINST",
-						"BONUS_KILL_CHARACTER"
+						"BONUS_EVENTOPTION_THE_SCHISM_FOR"
 					]
 				}
 			},
@@ -60150,11 +61577,14 @@
 				"zIcon": "icon(DIPLOMACY_WAR)",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_PLAYER_WAR_LEGITIMACY",
 						{
 							
 						},
-						"BONUS_LEADER_INFLUENCED_BY"
+						"BONUS_LEADER_INFLUENCED_BY",
+						{
+							
+						},
+						"BONUS_PLAYER_WAR_LEGITIMACY"
 					]
 				}
 			},
@@ -60275,7 +61705,6 @@
 			{
 				"zType": "EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_0",
 				"Text": "TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_0",
-				"HelpText": "TEXT_EVENTOPTION_INFLUENCE_OF_RELIGION_HEAD_0_HELP",
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_LEADER_INFLUENCED_BY",
@@ -60317,6 +61746,42 @@
 							
 						}
 					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_RELIGION_ACCEPTED",
+						{
+							
+						},
+						"BONUS_MARRY_S1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_RELIGION_ACCEPTED",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_MARRY_S1"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_2",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_RELIGIOUS_COMPANION_2",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_MARRIAGE_OFFER_RELIGION_REJECTED"
 				}
 			},
 			{
@@ -64910,11 +66375,109 @@
 			},
 			{
 				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_YES",
+				"EventLinkStart": "EVENTLINK_UNLIKELY_SCENARIO_OUTCOME",
 				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_YES",
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_FOOD_LOSS_LARGE",
 						"BONUS_EVENTOPTION_AN_UNLIKELY_SCENARIO_YES_RELIGION",
+						{
+							
+						}
+					]
+				},
+				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_CURSED",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_BLESSED",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_BLESSED",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_BLESSED",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_WISDOM_2",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_CHARISMA",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CHARISMA",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_WISDOM_HELP_COPY",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_CHARISMA_2",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_DISCIPLINE",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_DISCIPLINE",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_DISCIPLINE_2",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AN_UNLIKELY_SCENARIO_RICHES",
+				"Text": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_RICHES",
+				"HelpText": "TEXT_EVENTOPTION_AN_UNLIKELY_SCENARIO_CURSED_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_DISCIPLINE_2",
+						{
+							
+						},
 						{
 							
 						}
@@ -65894,6 +67457,24 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_3",
+				"Text": "TEXT_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_3",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_XP_CHARACTER_SMALL",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_RELATIONSHIP_GOOD_CHEER_OPTION_0",
 				"Text": "TEXT_EVENTOPTION_RELATIONSHIP_GOOD_CHEER_OPTION_0",
 				"aeBonuses": {
@@ -66841,7 +68422,7 @@
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_EVENTOPTION_RELIGION_BOW_BEFORE_US_OPTION_0_RELIGION_0",
-						"BONUS_EVENTOPTION_RELIGION_BOW_BEFORE_US_OPTION_0_CHARACTER",
+						"BONUS_TRAINING_GAIN_LARGE",
 						{
 							
 						},
@@ -66862,7 +68443,7 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_RELIGION_BOW_BEFORE_US_OPTION_1_CHARACTER",
+						"BONUS_FOOD_LOSS_LARGE",
 						"BONUS_EVENTOPTION_RELIGION_BOW_BEFORE_US_OPTION_1_PLAYER",
 						{
 							
@@ -66899,7 +68480,7 @@
 						{
 							
 						},
-						"BONUS_EVENTOPTION_RELIGION_BOW_BEFORE_US_OPTION_3_CHARACTER",
+						"BONUS_XP_CHARACTER_SMALL",
 						{
 							
 						},
@@ -74404,7 +75985,8 @@
 				"zType": "EVENTOPTION_VICTORY_OK",
 				"Text": "TEXT_EVENTOPTION_VICTORY_OK",
 				"HelpText": "TEXT_EVENTOPTION_VICTORY_OK_HELP",
-				"bTimelineScreen": "1"
+				"OpenTabOverlay": "HISTORY",
+				"bKeepOpen": "1"
 			},
 			{
 				"zType": "EVENTOPTION_VICTORY_CONTINUE",
@@ -74421,7 +76003,8 @@
 				"zType": "EVENTOPTION_LOSS_OK",
 				"Text": "TEXT_EVENTOPTION_LOSS_OK",
 				"HelpText": "TEXT_EVENTOPTION_LOSS_OK_HELP",
-				"bTimelineScreen": "1"
+				"OpenTabOverlay": "HISTORY",
+				"bKeepOpen": "1"
 			},
 			{
 				"zType": "EVENTOPTION_LOSS_MAIN_MENU",
@@ -74910,6 +76493,21 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_SUCCESSION_THEM_OKAY_WAR",
+				"Text": "TEXT_EVENTOPTION_SUCCESSION_THEM_OKAY_WAR",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_XP_CHARACTER_SMALL"
+					]
+				}
+			},
+			{
 				"beginGroup": "Community",
 				"zType": "EVENTOPTION_GOT_YOUR_NOSE_0",
 				"Text": "TEXT_EVENTOPTION_GOT_YOUR_NOSE_0",
@@ -75093,6 +76691,7 @@
 				"zType": "EVENTOPTION_END_OF_A_SIEGE_OPTION_0",
 				"EventLinkStart": "EVENTLINK_END_OF_A_SIEGE",
 				"Text": "TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_0",
+				"HelpText": "TEXT_EVENTOPTION_END_OF_A_SIEGE_OPTION_0_HELP",
 				"aeBonuses": {
 					"zValue": [
 						{
@@ -77435,11 +79034,13 @@
 				"Text": "TEXT_EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_ORDERS_LOSS_SMALL",
 						{
 							
 						},
 						"BONUS_MAKE_GREAT_MINISTER",
+						{
+							
+						},
 						{
 							
 						}
@@ -77449,39 +79050,11 @@
 			},
 			{
 				"zType": "EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_1",
-				"Text": "TEXT_EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_1",
-				"aeBonuses": {
-					"zValue": [
-						{
-							
-						},
-						"BONUS_GIVE_TRAIT_TOUGH",
-						{
-							
-						},
-						{
-							
-						}
-					]
-				}
+				"Text": "TEXT_EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_1"
 			},
 			{
 				"zType": "EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_2",
 				"Text": "TEXT_EVENTOPTION_PROPHET_AND_THE_PARCHED_LAND_OPTION_2",
-				"aeBonuses": {
-					"zValue": [
-						{
-							
-						},
-						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
-						{
-							
-						},
-						{
-							
-						}
-					]
-				},
 				"LeaderSubject": "SUBJECT_CHARACTER_PRODUCTIVE"
 			},
 			{
@@ -77498,10 +79071,10 @@
 						{
 							
 						},
-						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
 						{
 							
 						},
+						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
 						{
 							
 						}
@@ -77516,8 +79089,8 @@
 						{
 							
 						},
-						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
 						"BONUS_GIVE_TRAIT_EXILED",
+						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
 						{
 							
 						}
@@ -77529,12 +79102,12 @@
 				"Text": "TEXT_EVENTOPTION_THE_PROPHET_STRIKES_BACK_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
-						"BONUS_TRAINING_LOSS_AVERAGE",
-						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
-						"BONUS_KILL_CHARACTER",
 						{
 							
-						}
+						},
+						"BONUS_KILL_CHARACTER",
+						"BONUS_REMOVE_TRAIT_DROUGHT_STRICKEN",
+						"BONUS_TRAINING_LOSS_AVERAGE"
 					]
 				},
 				"LeaderSubject": "SUBJECT_CHARACTER_ARCHETYPE_MARTIAL"
@@ -81050,12 +82623,6 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_0_CHARACTER_0",
 						{
 							
@@ -81070,12 +82637,6 @@
 				"Text": "TEXT_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
-						{
-							
-						},
-						{
-							
-						},
 						{
 							
 						},
@@ -81106,12 +82667,6 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_1_FAMILY",
 						"BONUS_EVENTOPTION_COMPANIONS_AND_CAPTIVES_OPTION_0_CHARACTER_0",
 						{
@@ -81127,9 +82682,6 @@
 				"Text": "TEXT_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
-						{
-							
-						},
 						{
 							
 						},
@@ -81169,10 +82721,7 @@
 						{
 							
 						},
-						{
-							
-						},
-						"BONUS_MISSIONRESULT_MARRY_COURTIER"
+						"BONUS_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_1_MARRY"
 					]
 				}
 			},
@@ -81181,22 +82730,19 @@
 				"Text": "TEXT_EVENTOPTION_FESTIVAL_FOR_THE_FREED_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
 						"BONUS_GIVE_TRAIT_MISERABLE",
-						{
-							
-						},
-						{
-							
-						},
-						{
-							
-						},
-						{
-							
-						},
-						{
-							
-						},
 						{
 							
 						}
@@ -81217,13 +82763,10 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_GIVE_TRAIT_MISERABLE",
+						{
+							
+						},
 						{
 							
 						}
@@ -81244,13 +82787,10 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_GIVE_TRAIT_ROMANTIC",
+						{
+							
+						},
 						"BONUS_EVENTOPTION_TROUBLED_COMPANION_OPTION_1_MARRY"
 					]
 				}
@@ -81269,13 +82809,10 @@
 						{
 							
 						},
-						{
-							
-						},
-						{
-							
-						},
 						"BONUS_KILL_CHARACTER_MURDERED",
+						{
+							
+						},
 						"BONUS_LEADER_LOVER_OF"
 					]
 				},
@@ -82333,6 +83870,173 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_0",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_1",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_2",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_3",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TYRANNY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_DIVINE_RULE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_THREE_GOVERNORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_SERFDOM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_STONE_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_GOODS_TURN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_CONSTITUTION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_LEGAL_CODE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_FOUR_COURTHOUSE_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_POLYTHEISM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_TOLERANCE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_GOAL_20_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO",
+				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_VASSALAGE_OPTION_NO"
+				}
+			},
+			{
 				"zType": "EVENTOPTION_AMBITION_FINISHED_FREEDOM_OPTION_0",
 				"aiEventOptionProb": {
 					"Pair": [
@@ -82533,6 +84237,2916 @@
 				"Text": "TEXT_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_FREEDOM",
 				"aeBonuses": {
 					"zValue": "BONUS_EVENTOPTION_AMBITION_FINISHED_SLAVERY_OPTION_FREEDOM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DRILLMASTER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DRILLMASTER_TREASURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DRILLMASTER_STOCKPILE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_NO",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_NO"
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_SHRINES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DRILLMASTER_TREASURIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_TREASURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_TREASURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DRILLMASTER_STOCKPILE",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_STOCKPILE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_TRAINING"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTERCESSOR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTERCESSOR_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTERCESSOR_LUXURIES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTERCESSOR_CONVOYS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTERCESSOR_TECH",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTERCESSOR_TECH"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTERCESSOR_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTERCESSOR_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTERCESSOR_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_SETTLER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_SETTLER_WALLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_SETTLER_RANGED",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_SETTLER_GOVERNORS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_SETTLER_CARAVANS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_SETTLER_WALLS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_SETTLER_WALLS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_SETTLER_WALLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_SETTLER_RANGED",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_SETTLER_RANGED",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_SETTLER_RANGED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_SETTLER_GOVERNORS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_SETTLER_GOVERNORS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_SETTLER_GOVERNORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_SETTLER_CARAVANS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_SETTLER_CARAVANS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_SETTLER_CARAVANS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_EXPLORER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_EXPLORER_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_EXPLORER_REVEAL",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_EXPLORER_MINERS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_EXPLORER_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_EXPLORER_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_EXPLORER_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_EXPLORER_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_EXPLORER_REVEAL",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_EXPLORER_REVEAL",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_EXPLORER_REVEAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_EXPLORER_MINERS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_EXPLORER_MINERS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_EXPLORER_MINERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTREPID",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTREPID_ALLIANCE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTREPID_URBAN",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTREPID_CONNECTED",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_INTREPID_RELIGION",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTREPID_ALLIANCE",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTREPID_ALLIANCE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTREPID_ALLIANCE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTREPID_URBAN",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTREPID_URBAN",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTREPID_URBAN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTREPID_CONNECTED",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTREPID_CONNECTED",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTREPID_CONNECTED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_INTREPID_RELIGION",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_INTREPID_RELIGION",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_INTREPID_RELIGION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ENLIGHTENED",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ENLIGHTENED_MUSAEUM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ENLIGHTENED_LIBRARY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ENLIGHTENED_PHILOSOPHERS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ENLIGHTENED_MUSAEUM",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_MUSAEUM",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_ENLIGHTENED_MUSAEUM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ENLIGHTENED_LIBRARY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_LIBRARY",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_ENLIGHTENED_LIBRARY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_ENLIGHTENED_COURTIERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ENLIGHTENED_PHILOSOPHERS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ENLIGHTENED_PHILOSOPHERS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_ENLIGHTENED_PHILOSOPHERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_REDEMPTION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_REPAIRS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_RECAPTURE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_PROMOTIONS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_WEAK_YIELDS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_REDEMPTION",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_REDEMPTION",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_REDEMPTION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_REPAIRS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_REPAIRS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_REPAIRS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_RECAPTURE",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_RECAPTURE",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_RECAPTURE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_KILLS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_PROMOTIONS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_PROMOTIONS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_PROMOTIONS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_WEAK_YIELDS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_WEAK_YIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_WEAK_YIELDS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_YIELDS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_STRONG_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_GENERALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_CAPTURE_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_STRONG_CAPITAL",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_YIELDS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_YIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_YIELDS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_STRONG_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_STRONG_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_GENERALS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_GENERALS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_GENERALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_CAPTURE_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_CAPTURE_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_CAPTURE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_STRONG_CAPITAL",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_STRONG_CAPITAL",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_COGNOMEN_STRONG_CAPITAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_LAWS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_YIELDS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_CIRCUS_MAXIMUS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_LEGENDARY_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_MIGHTY_POPULATION",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_LAWS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LAWS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAWS_EIGHT"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_TEN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_YIELDS",
+				"Text": "TEXT_EVENTOPTION_EVENTOPTION_COGNOMEN_MIGHTY_YIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_100_GOODS_TURN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_CIRCUS_MAXIMUS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_CIRCUS_MAXIMUS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_CIRCUS_MAXIMUS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_LEGENDARY_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_LEGENDARY_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NEW_AMBITION_THREE_LEGENDARY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_10_ELDER_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_MIGHTY_POPULATION",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_MIGHTY_POPULATION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_100_POPULATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_READY",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DESTROYER_GENERALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DESTROYER_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DESTROYER_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DESTROYER_REVEAL",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DESTROYER_SHRINES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DESTROYER_GENERALS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DESTROYER_GENERALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_GENERALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DESTROYER_KILLS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DESTROYER_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_10_KILLS_GENERAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DESTROYER_TECH",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DESTROYER_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_COINAGE_FISCAL_POLICY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DESTROYER_REVEAL",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DESTROYER_REVEAL",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_REVEAL_60"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DESTROYER_SHRINES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DESTROYER_SHRINES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_SHRINES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_AVENGER_DIVINE_RULE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_AVENGER_MYTHOLOGY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_AVENGER_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_AVENGER_POP",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_AVENGER_PEACE",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER_DIVINE_RULE",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_AVENGER_DIVINE_RULE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_DIVINE_RULE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER_MYTHOLOGY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_AVENGER_MYTHOLOGY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THEOLOGY_MYTHOLOGY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_AVENGER_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CAPTURE_ONE_CAPITAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER_POP",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_AVENGER_POP",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_30_POPULATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_AVENGER_PEACE",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_AVENGER_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_CONQUERER_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_CONQUERER_CIVICS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_CONQUERER_TOWERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_CONQUERER_TRIBES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_CONQUERER_HOLY_WAR",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_HOLY_WAR"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER_TYRANNY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TYRANNY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_TYRANNY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER_CIVICS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_CONQUERER_CIVICS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_STOCKPILE_CIVICS_2000"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER_TOWERS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TOWERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_TOWERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_CONQUERER_TRIBES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_CONQUERER_TRIBES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SEVEN_TRIBES_CLEARED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_PROJECTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_RELIGION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_BRILLIANT_PHILOSOPHY",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_WONDERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_WONDERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_LEGENDARY",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NEW_AMBITION_THREE_LEGENDARY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_PROJECTS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PROJECTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LEGENDARY_PROJECTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_RELIGION",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_RELIGION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_RELIGION_SPREAD"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CAPTURE_FIVE_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_BRILLIANT_PHILOSOPHY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_BRILLIANT_PHILOSOPHY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_PHILOSOPHY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ARCHITECT",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ARCHITECT_ENGINEERING",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ARCHITECT_IRON",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_ARCHITECT_MONEY",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ARCHITECT_ENGINEERING",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_ENGINEERING",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_ENGINEERING"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_SEVEN_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_SEVEN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ARCHITECT_IRON",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_IRON",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_IRON_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_ARCHITECT_MONEY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_ARCHITECT_MONEY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_STOCKPILE_MONEY_2000"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_YIELDS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS_2",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_KEYSTONE_GOVERNORS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_YIELDS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_YIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_50_GOODS_TURN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_CITIES",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NEW_AMBITION_THREE_LEGENDARY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_5_ELDER_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS_2",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_SPECIALISTS_2",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_20_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_TECH",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_HYDRAULICS_CHAIN_DRIVE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_KEYSTONE_GOVERNORS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_KEYSTONE_GOVERNORS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_GOVERNORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_COURTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_MONEY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_HAGIA",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_POP",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_COGNOMEN_DEVOUT_KILLS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_TECH",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_SCHOLARSHIP_VAULTING"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_COURTS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_COURTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_COURTHOUSE_2"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_MONEY",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_MONEY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_STOCKPILE_MONEY_10000"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_HAGIA",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_HAGIA",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_HAGIA_SOPHIA"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_POP",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_POP",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_30_POPULATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_COGNOMEN_DEVOUT_KILLS",
+				"Text": "TEXT_EVENTOPTION_COGNOMEN_DEVOUT_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_10_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_LEGACY_EPICS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_CENTRALIZATION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_DIVINE_RULE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_LEGAL_CODE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_FOUR_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_FOOD",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_MONEY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_MAUSOLEUM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_NECROPOLIS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_APADANA",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_THREE_LEGENDARY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_THREE_PEACE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_TEN_CITIES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_THE_YOUNG_NO",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_THE_YOUNG_NO"
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_EPICS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_EPICS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_EPICS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_CENTRALIZATION",
+				"Text": "TEXT_EVENTOPTION_LEGACY_CENTRALIZATION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_CENTRALIZATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_TYRANNY",
+				"Text": "TEXT_EVENTOPTION_LEGACY_TYRANNY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_TYRANNY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_DIVINE_RULE",
+				"Text": "TEXT_EVENTOPTION_LEGACY_DIVINE_RULE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_DIVINE_RULE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_LEGAL_CODE",
+				"Text": "TEXT_EVENTOPTION_LEGACY_LEGAL_CODE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_LEGAL_CODE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_FOUR_CITIES",
+				"Text": "TEXT_EVENTOPTION_LEGACY_FOUR_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_FOUR"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_TEN_CITIES",
+				"Text": "TEXT_EVENTOPTION_LEGACY_TEN_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_TEN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_FOOD",
+				"Text": "TEXT_EVENTOPTION_LEGACY_FOOD",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_FOOD_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_MONEY",
+				"Text": "TEXT_EVENTOPTION_LEGACY_MONEY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_STOCKPILE_MONEY_5000"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_MAUSOLEUM",
+				"Text": "TEXT_EVENTOPTION_LEGACY_MAUSOLEUM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_MAUSOLEUM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_NECROPOLIS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_NECROPOLIS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_NECROPOLIS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_APADANA",
+				"Text": "TEXT_EVENTOPTION_LEGACY_APADANA",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_APADANA"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_THREE_LEGENDARY",
+				"Text": "TEXT_EVENTOPTION_LEGACY_THREE_LEGENDARY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_THREE_PEACE",
+				"Text": "TEXT_EVENTOPTION_LEGACY_THREE_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_KILLS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_15_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_THE_RULER_NO",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_THE_RULER_NO"
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_THE_OLD_NO",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_THE_OLD_NO"
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_COMPETITION",
+				"EventLinkAdd": "EVENTLINK_AMBITION_RIVALS",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_CARAVANS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_PROMOTIONS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_TRIBE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GROWING_TENSION_OFFICERS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_COMPETITION_NO",
+				"Text": "TEXT_EVENTOPTION_GROWING_COMPETITION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_RIVALS_AT_WAR_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_AT_WAR_CITADEL",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_AT_WAR_UNITS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_AT_WAR_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_AT_WAR_KILLS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_NO",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_NO"
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_PEACE",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_RIVALS_IN_PEACE_RELIGION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_IN_PEACE_FORUMS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_IN_PEACE_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_IN_PEACE_LAWS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RIVALS_IN_PEACE_HARBOURS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_PEACE_NO",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_PEACE_NO"
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_THE_OLD_WAYS_ACOLYTES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_OLD_WAYS_SHRINES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_OLD_WAYS_POLYTHEISM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_OLD_WAYS_DIVINE_RULE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_OLD_WAYS_FOOD",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_NO",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_NO"
+			},
+			{
+				"zType": "EVENTOPTION_THE_LEGACY_OF_RULER",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_LEGACY_OF_RULER_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_OF_RULER_PEACE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_OF_RULER_SPECIALISTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_OF_RULER_WONDERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LEGACY_OF_RULER_CITIES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_LEGACY_OF_RULER_NO",
+				"Text": "TEXT_EVENTOPTION_THE_LEGACY_OF_RULER_NO"
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_EPIC_LEGACY_MYTHOLOGY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_EPIC_LEGACY_CALLIGRAPHY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_EPIC_LEGACY_ISHTAR_GATES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_EPIC_LEGACY_POETS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_EPIC_LEGACY_TRIBES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_NO",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_NO"
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_DEFINED_BY_WAR_PEACE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_DEFINED_BY_WAR_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_DEFINED_BY_WAR_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_DEFINED_BY_WAR_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_DEFINED_BY_WAR_HOLY_WAR",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_NO",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_NO"
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_0",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_0_MONEY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_0_KILLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_0_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_0_GENERALS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_1",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_1_MUSAEUM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_1_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_1_DOCTORS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_NEXT_GENERATION_1_LUXURIES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_NO",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_POP",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_PROJECTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_CATHEDRALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_WONDERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_RICHES_OF_NATION_UNITS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_NO",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_POWER_OF_THE_PEOPLE",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_POWER_TO_THE_PEOPLE_FESTIVALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_POWER_TO_THE_PEOPLE_GRANARIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_POWER_TO_THE_PEOPLE_TRIBES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_POWER_TO_THE_PEOPLE_LEGAL_CODE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_POWER_TO_THE_PEOPLE_CONSTITUTION",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_OF_THE_PEOPLE_NO",
+				"Text": "TEXT_EVENTOPTION_POWER_OF_THE_PEOPLE_NO"
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_THEATER",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_GARDENS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_NO",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_NO"
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_0",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_0_REVEAL",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_0_HARBORS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_0_MARKET",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_NO",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_NO"
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_AGE_OF_WAR_FOOD",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AGE_OF_WAR_RESOURCES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AGE_OF_WAR_CIRCUS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AGE_OF_WAR_SHOPKEEPERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_AGE_OF_WAR_BATHS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_NO",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_NO"
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_GLORY_FOR_GOD_MONOTHEISM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GLORY_FOR_GOD_HOLY_WAR",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GLORY_FOR_GOD_CATHEDRALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GLORY_FOR_GOD_PRIESTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_GLORY_FOR_GOD_VENERATION",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_NO",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_NO"
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_BEHIND_THE_THRONE_COURTIERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_BEHIND_THE_THRONE_MOUNTED",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_BEHIND_THE_THRONE_TRIBE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_BEHIND_THE_THRONE_SPECIALISTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_BEHIND_THE_THRONE_PANTHEON",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_NO",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_NO"
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_WONDROUS_AMBITION_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_WONDROUS_AMBITION_LIBRARIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_WONDROUS_AMBITION_WONDERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_WONDROUS_AMBITION_URBAN",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_WONDROUS_AMBITION_CATHEDRALS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_NO",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_NO",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_NO"
+			},
+			{
+				"zType": "EVENTOPTION_PYTHIA_WAR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_WALLS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_HARBOR",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_SIEGE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_WOOD",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_RANGED",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_PYTHIA_PEACE",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_ACROPOLIS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_THEOLOGY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_TRIBE_PEACE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_FESTIVALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_10_PROMOTIONS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_PYTHIA_PERSONAL",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_THEATER",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_GARDENS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_WORKERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_FARMS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_TECHS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_PROMOTIONS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_TRIBES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_NO",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_THE_OTHER_PATH",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_WORKERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_FARMS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_TECHS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_PROMOTIONS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FORMING_NATION_TRIBES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OTHER_PATH_NO",
+				"Text": "TEXT_EVENTOPTION_THE_OTHER_PATH_NO"
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_TALES_OF_NATION_MARKET",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TALES_OF_NATION_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TALES_OF_NATION_SHOPKEEPERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TALES_OF_NATION_RECTA",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TALES_OF_NATION_YIELDS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_NO",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_NO"
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_LAWS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_WONDERS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_TECH",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_SPECIALISTS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_FRIENDS_AND_ALLIES_KILLS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_NO",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_NO"
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_TRUE_SUCCESSOR_GENERALS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUE_SUCCESSOR_LUXURIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUE_SUCCESSOR_DIVINE_RULE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUE_SUCCESSOR_CAPTURE_CITIES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUE_SUCCESSOR_SHRINES",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_NO",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_NO"
+			},
+			{
+				"zType": "EVENTOPTION_THE_MEMORY_ENDURES",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_PHILOSOPHY",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_PILGRIMAGE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_REDEMPTION",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_NECROPOLIS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_MAUSOLEUM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_MEMORY_ENDURES_DOCTORS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_MEMORY_ENDURES_NO",
+				"Text": "TEXT_EVENTOPTION_THE_MEMORY_ENDURES_NO"
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_CITIES",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_CITIES_FOREIGN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_CARAVANS",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_CARAVANS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_CARAVANS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_PROMOTIONS",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_PROMOTIONS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TEN_PROMOTIONS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_TECH",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_TECHS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_TRIBE",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_TRIBE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TRIBE_ALLIANCE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GROWING_TENSION_OFFICERS",
+				"Text": "TEXT_EVENTOPTION_GROWING_TENSION_OFFICERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_OFFICERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_CITIES",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_CITIES_FOREIGN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_CITADEL",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_CITADEL",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_GARRISON_2"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_UNITS",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_UNITS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_MAX_LEVEL_UNITS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_TECH",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_COHORTS_MARTIAL_CODE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_AT_WAR_KILLS",
+				"Text": "TEXT_EVENTOPTION_RIVALS_AT_WAR_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_15_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_IN_PEACE_RELIGION",
+				"Text": "TEXT_EVENTOPTION_RIVALS_IN_PEACE_RELIGION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_RELIGION_SPREAD"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_IN_PEACE_FORUMS",
+				"Text": "TEXT_EVENTOPTION_RIVALS_IN_PEACE_FORUMS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FORUMS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_IN_PEACE_CITIES",
+				"Text": "TEXT_EVENTOPTION_RIVALS_IN_PEACE_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_SEVEN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_IN_PEACE_LAWS",
+				"Text": "TEXT_EVENTOPTION_RIVALS_IN_PEACE_LAWS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAWS_EIGHT"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RIVALS_IN_PEACE_HARBOURS",
+				"Text": "TEXT_EVENTOPTION_RIVALS_IN_PEACE_HARBOURS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_HARBORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_ACOLYTES",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_ACOLYTES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_ACOLYTES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_SHRINES",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_SHRINES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_SHRINES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_POLYTHEISM",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_POLYTHEISM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_POLYTHEISM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_DIVINE_RULE",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_DIVINE_RULE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_DIVINE_RULE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_OLD_WAYS_FOOD",
+				"Text": "TEXT_EVENTOPTION_THE_OLD_WAYS_FOOD",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_FOOD_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_RULER_KILLS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_RULER_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_10_KILLS_GENERAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_RULER_PEACE",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_RULER_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_RULER_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_RULER_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_5_ELDER_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_RULER_WONDERS",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_RULER_WONDERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_WONDERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEGACY_OF_RULER_CITIES",
+				"Text": "TEXT_EVENTOPTION_LEGACY_OF_RULER_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_NINE_CONNECTED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_MYTHOLOGY",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_MYTHOLOGY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THEOLOGY_MYTHOLOGY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_CALLIGRAPHY",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_CALLIGRAPHY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_CALLIGRAPHY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_ISHTAR_GATES",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_ISHTAR_GATES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_ISHTAR_GATE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_POETS",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_POETS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_POETS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_EPIC_LEGACY_TRIBES",
+				"Text": "TEXT_EVENTOPTION_EPIC_LEGACY_TRIBES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SEVEN_TRIBES_CLEARED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_PEACE",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_TECH",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_BARDING_INFANTRY_SQUARE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_KILLS",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_20_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FAMILY_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DEFINED_BY_WAR_HOLY_WAR",
+				"Text": "TEXT_EVENTOPTION_DEFINED_BY_WAR_HOLY_WAR",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_HOLY_WAR"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_0_MONEY",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_0_MONEY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_STOCKPILE_MONEY_5000"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_0_KILLS",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_0_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_10_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_0_TYRANNY",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_0_TYRANNY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_TYRANNY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_0_GENERALS",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_0_GENERALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_GENERALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_1_MUSAEUM",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_1_MUSAEUM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_MUSAEUM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_1_CITIES",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_1_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_STRONG_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_1_DOCTORS",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_1_DOCTORS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_DOCTORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_NEXT_GENERATION_1_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_NEXT_GENERATION_1_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_PLAYER_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_POP",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_POP",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_100_POPULATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_PROJECTS",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_PROJECTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LEGENDARY_PROJECTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_CATHEDRALS",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_CATHEDRALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_CATHEDRAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_WONDERS",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_WONDERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_WONDERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_RICHES_OF_NATION_UNITS",
+				"Text": "TEXT_EVENTOPTION_RICHES_OF_NATION_UNITS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_20_UNITS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_TO_THE_PEOPLE_FESTIVALS",
+				"Text": "TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_FESTIVALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FESTIVALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_TO_THE_PEOPLE_GRANARIES",
+				"Text": "TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_GRANARIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_GRANARY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_TO_THE_PEOPLE_TRIBES",
+				"Text": "TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_TRIBES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_TRIBES_CLEARED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_TO_THE_PEOPLE_LEGAL_CODE",
+				"Text": "TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_LEGAL_CODE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_LEGAL_CODE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_POWER_TO_THE_PEOPLE_CONSTITUTION",
+				"Text": "TEXT_EVENTOPTION_POWER_TO_THE_PEOPLE_CONSTITUTION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_CONSTITUTION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_THEATER",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_THEATER",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_THEATER_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TYRANNY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_TYRANNY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_GARDENS",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_GARDENS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_HANGING_GARDENS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_TREASURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_TREASURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS",
+				"Text": "TEXT_EVENTOPTION_LOVE_OF_THE_LAND_COURTIERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_COURTIERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_0_REVEAL",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_REVEAL",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_REVEAL_80"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_0_HARBORS",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_HARBORS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_HARBORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_0_MARKET",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_0_MARKET",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_MARKET_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_1",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_1_REFORM",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_1_ARCHIVES",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_1_COINAGE",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_1_REFORM",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_REFORM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_MONETARY_REFORM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_1_ARCHIVES",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_ARCHIVES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_ARCHIVES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_1_COINAGE",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_1_COINAGE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_COINAGE_FISCAL_POLICY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_2",
+				"aiEventOptionProb": {
+					"Pair": [
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_2_PEACE",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_2_CARAVANS",
+							"iValue": "1000"
+						},
+						{
+							"zIndex": "EVENTOPTION_TRUSTED_COUNCIL_2_TOWNS",
+							"iValue": "1000"
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_2_PEACE",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_2_CARAVANS",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_CARAVANS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_CARAVANS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUSTED_COUNCIL_2_TOWNS",
+				"Text": "TEXT_EVENTOPTION_TRUSTED_COUNCIL_2_TOWNS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_TOWNS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_FOOD",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_FOOD",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_FOOD_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_RESOURCES",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_RESOURCES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_RESOURCE_IMPROVEMENTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_CIRCUS",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_CIRCUS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_CIRCUS_MAXIMUS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_SHOPKEEPERS",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_SHOPKEEPERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_SHOPKEEPERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_AGE_OF_WAR_BATHS",
+				"Text": "TEXT_EVENTOPTION_AGE_OF_WAR_BATHS",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_NEW_AMBITION_FOUR_BATHS_3"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_MONOTHEISM",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_MONOTHEISM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_MONOTHEISM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_HOLY_WAR",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_HOLY_WAR",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_HOLY_WAR"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_CATHEDRALS",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_CATHEDRALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_CATHEDRAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_PRIESTS",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_PRIESTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_PRIESTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_GLORY_FOR_GOD_VENERATION",
+				"Text": "TEXT_EVENTOPTION_GLORY_FOR_GOD_VENERATION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THEOLOGY_VENERATION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_COURTIERS",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_COURTIERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_COURTIERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_MOUNTED",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_MOUNTED",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_MOUNTED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_TRIBE",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_TRIBE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TRIBE_ALLIANCE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_5_ELDER_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_BEHIND_THE_THRONE_PANTHEON",
+				"Text": "TEXT_EVENTOPTION_BEHIND_THE_THRONE_PANTHEON",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_PANTHEON"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_TECH",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_SCHOLARSHIP_VAULTING"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_LIBRARIES",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_LIBRARIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_LIBRARY_3"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_WONDERS",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_WONDERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_WONDERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_URBAN",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_URBAN",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_100_URBAN_TILES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_WONDROUS_AMBITION_CATHEDRALS",
+				"Text": "TEXT_EVENTOPTION_WONDROUS_AMBITION_CATHEDRALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_CATHEDRAL"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_WALLS",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WALLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_WALLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_HARBOR",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_HARBOR",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_HARBORS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_SIEGE",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_SIEGE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_SIEGE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_WOOD",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_WOOD",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_WOOD_800"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_0_RANGED",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_0_RANGED",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_RANGED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_ACROPOLIS",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_ACROPOLIS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_ACROPOLIS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_THEOLOGY",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_THEOLOGY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_ESTABLISH_THEOLOGY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_TRIBE_PEACE",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_TRIBE_PEACE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TRIBE_PEACE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_FESTIVALS",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_FESTIVALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FESTIVALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_PYTHIA_SPEAKS_1_10_PROMOTIONS",
+				"Text": "TEXT_EVENTOPTION_THE_PYTHIA_SPEAKS_1_10_PROMOTIONS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TEN_PROMOTIONS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_WORKERS",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_WORKERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_WORKERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_FARMS",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_FARMS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FARMS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_TECHS",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_TECHS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_TECHS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_PROMOTIONS",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_PROMOTIONS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_PROMOTIONS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_CITIES",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FIVE_DEVELOPING_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FORMING_NATION_TRIBES",
+				"Text": "TEXT_EVENTOPTION_FORMING_NATION_TRIBES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THREE_TRIBES_CLEARED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_MARKET",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_MARKET",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_FOUR_MARKET_2"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_SHOPKEEPERS",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_SHOPKEEPERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_SHOPKEEPERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_RECTA",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_RECTA",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_VIA_RECTA_SOUK"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TALES_OF_NATION_YIELDS",
+				"Text": "TEXT_EVENTOPTION_TALES_OF_NATION_YIELDS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_PRODUCE_50_GOODS_TURN"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_LAWS",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_LAWS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAWS_EIGHT"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_CITIES",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CITIES_NINE_CONNECTED"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_WONDERS",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_WONDERS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_WONDERS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_SPECIALISTS",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_SPECIALISTS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_5_ELDER_SPECIALISTS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_TECH",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_TECH",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TECH_BARDING_INFANTRY_SQUARE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_FRIENDS_AND_ALLIES_KILLS",
+				"Text": "TEXT_EVENTOPTION_FRIENDS_AND_ALLIES_KILLS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_20_KILLS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_GENERALS",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_GENERALS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_GENERALS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_LUXURIES",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_LUXURIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_SIX_FAMILY_LUXURIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_DIVINE_RULE",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_DIVINE_RULE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_DIVINE_RULE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_CAPTURE_CITIES",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_CAPTURE_CITIES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_CAPTURE_TWO_CITIES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TRUE_SUCCESSOR_SHRINES",
+				"Text": "TEXT_EVENTOPTION_TRUE_SUCCESSOR_SHRINES",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_EIGHT_SHRINES"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_PHILOSOPHY",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_PHILOSOPHY",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_PHILOSOPHY"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_PILGRIMAGE",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_PILGRIMAGE",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_LAW_PILGRIMAGE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_REDEMPTION",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_REDEMPTION",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_THEOLOGY_REDEMPTION"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_NECROPOLIS",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_NECROPOLIS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_NECROPOLIS"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_MAUSOLEUM",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_MAUSOLEUM",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_WONDER_MAUSOLEUM"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MEMORY_ENDURES_DOCTORS",
+				"Text": "TEXT_EVENTOPTION_MEMORY_ENDURES_DOCTORS",
+				"aeBonuses": {
+					"zValue": "BONUS_AMBITION_TWO_DOCTORS"
 				}
 			},
 			{
@@ -83991,6 +88605,22 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_TRIBE_YES_ALT",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_TRIBE_MARRIAGE",
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_YES"
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_MARRIAGE_OFFER_TRIBE_NO",
 				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_NO",
 				"aeBonuses": {
@@ -84002,6 +88632,48 @@
 						{
 							
 						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_FAMILY",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_FAMILY",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_TRIBE_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_ACCEPTED",
+						{
+							
+						},
+						"BONUS_MARRY_S0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_NO",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_NO",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_TRIBE_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_TRIBE",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_FAMILY_TRIBE",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_TRIBE_MARRIAGE",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_TRIBE_ACCEPTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_YES"
 					]
 				}
 			},
@@ -86845,10 +91517,7 @@
 				"zType": "EVENTOPTION_HEIR_SULKING_HEIR_OPTION_2",
 				"Text": "TEXT_EVENTOPTION_HEIR_SULKING_HEIR_OPTION_2",
 				"aeBonuses": {
-					"zValue": [
-						"BONUS_LEADER_SUSPICIOUS_OF",
-						"BONUS_ORDERS_LOSS_AVERAGE"
-					]
+					"zValue": "BONUS_LEADER_SUSPICIOUS_OF"
 				}
 			},
 			{
@@ -92109,6 +96778,166 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_MARRIAGE_UNBOUND_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_UNBOUND_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_DIVORCED_BY",
+						"BONUS_EVENTOPTION_MARRIAGE_UNBOUND_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_UNBOUND_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_UNBOUND_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_PLOTTING_AGAINST",
+						{
+							
+						},
+						"BONUS_GIVE_TRAIT_LOYAL"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_KISS_MARRY_KILL_0",
+				"Text": "TEXT_EVENTOPTION_KISS_MARRY_KILL_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_MISSIONRESULT_ASSASSINATE_KILL",
+						"BONUS_EVENTOPTION_KISS_MARRY_KILL_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_KISS_MARRY_KILL_1",
+				"Text": "TEXT_EVENTOPTION_KISS_MARRY_KILL_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DISAPPOINTED_WITH",
+						"BONUS_LEADER_SUSPICIOUS_OF",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_KISS_MARRY_KILL_2",
+				"Text": "TEXT_EVENTOPTION_KISS_MARRY_KILL_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_PLOTTING_AGAINST",
+						"BONUS_LEADER_DIVORCED_BY",
+						{
+							
+						},
+						"BONUS_GAIN_DISCIPLINE_2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVER_CONFRONTED_0",
+				"Text": "TEXT_EVENTOPTION_LOVER_CONFRONTED_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_LOVER_CONFRONTED_0",
+						"BONUS_EVENTOPTION_MARRIAGE_UNBOUND_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVER_CONFRONTED_1",
+				"Text": "TEXT_EVENTOPTION_LOVER_CONFRONTED_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_EVENTOPTION_LOVER_CONFRONTED_1",
+						"BONUS_LEADER_INFLUENCED_BY",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LOVER_CONFRONTED_2",
+				"Text": "TEXT_EVENTOPTION_LOVER_CONFRONTED_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_LOVER_OF_REMOVE",
+						"BONUS_LEADER_DIVORCED_BY",
+						{
+							
+						}
+					]
+				},
+				"LeaderSubject": "SUBJECT_STRICT"
+			},
+			{
+				"zType": "EVENTOPTION_DECLARATION_OF_LOVE_0",
+				"Text": "TEXT_EVENTOPTION_DECLARATION_OF_LOVE_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_MARRIAGE_UNBOUND_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DECLARATION_OF_LOVE_1",
+				"Text": "TEXT_EVENTOPTION_DECLARATION_OF_LOVE_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DISAPPOINTED_WITH",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_DECLARATION_OF_LOVE_2",
+				"Text": "TEXT_EVENTOPTION_DECLARATION_OF_LOVE_2",
+				"aeBonuses": {
+					"zValue": "BONUS_EVENTOPTION_DECLARATION_OF_LOVE_0"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_IN_THE_EYES_YES",
+				"Text": "TEXT_EVENTOPTION_IN_THE_EYES_YES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DIVORCED_BY",
+						"BONUS_EVENTOPTION_IN_THE_EYES_NEG"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_IN_THE_EYES_NO",
+				"Text": "TEXT_EVENTOPTION_IN_THE_EYES_NO",
+				"aeBonuses": {
+					"zValue": "BONUS_LEADER_INFLUENCED_BY"
+				}
+			},
+			{
 				"beginGroup": "Courtier",
 				"zType": "EVENTOPTION_CALENDAR_AND_SEASONS_OPTION_0",
 				"EventLinkAdd": "EVENTLINK_CALENDAR_AND_SEASONS",
@@ -94433,6 +99262,72 @@
 				}
 			},
 			{
+				"zType": "EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_0",
+				"Text": "TEXT_EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_0",
+						{
+							
+						},
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_1",
+				"Text": "TEXT_EVENTOPTION_TECH_KNOWLEDGE_OF_POWER_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_XP_CHARACTER_LARGE",
+						"BONUS_PLAYER_REFUSED_TECH"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_THE_LAST_PIECE_0",
+				"Text": "TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_EVENTOPTION_THE_PRETENDER",
+						{
+							
+						},
+						"BONUS_EVENTOPTION_TECH_THE_LAST_PIECE_0"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_THE_LAST_PIECE_1",
+				"Text": "TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_REFUSED_TECH",
+						"BONUS_LEADER_INFLUENCED_BY"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_TECH_THE_LAST_PIECE_2",
+				"Text": "TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_PLAYER_REFUSED_TECH",
+						{
+							
+						},
+						"BONUS_GIVE_TRAIT_DECEITFUL",
+						"BONUS_ACQUIRE_TECH_S2"
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_COURTIER_B2_SCIENTIST",
 				"Text": "TEXT_EVENTOPTION_COURTIER_B2_SCIENTIST",
 				"aeBonuses": {
@@ -94501,10 +99396,10 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_0",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_0_CHARACTER_1",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_0_CHARACTER_1",
 						{
 							
 						}
@@ -94516,11 +99411,11 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1_CHARACTER_1",
+						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1_CHARACTER_2",
 						{
 							
-						},
-						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1_CHARACTER_1",
-						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_1_CHARACTER_2"
+						}
 					]
 				}
 			},
@@ -94529,10 +99424,10 @@
 				"Text": "TEXT_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_2",
 				"aeBonuses": {
 					"zValue": [
+						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_2_CHARACTER_1",
 						{
 							
 						},
-						"BONUS_EVENTOPTION_CHARACTER_SYCOPHANT_OPTION_2_CHARACTER_1",
 						{
 							
 						}
@@ -95238,6 +100133,52 @@
 				"Text": "TEXT_EVENTOPTION_LEADER_CURSED_IRON_NO_HELP",
 				"aeBonuses": {
 					"zValue": "BONUS_LEGITIMACY_LOSS_FIVE"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEADER_DECEITFUL_ONE",
+				"EventLinkAdd": "EVENTLINK_LEADER_DECEITFUL_ONE",
+				"Text": "TEXT_EVENTOPTION_LEADER_DECEITFUL_ONE",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_LEADER_DISAPPOINTED_WITH_REMOVE"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_LIE",
+				"Text": "TEXT_EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_LIE",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_DECEITFUL",
+						"BONUS_LEADER_ENDEARED_TO"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_TRUTH",
+				"Text": "TEXT_EVENTOPTION_LEADER_DECEITFUL_FAMILY_LIES_TRUTH",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_XP_CHARACTER_SMALL",
+						"BONUS_LEADER_DISAPPOINTED_WITH"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_LEADER_DECEITFUL_TWO",
+				"EventLinkAdd": "EVENTLINK_LEADER_DECEITFUL_ONE",
+				"Text": "TEXT_EVENTOPTION_LEADER_DECEITFUL_TWO",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_VENGEFUL_AGAINST",
+						{
+							
+						}
+					]
 				}
 			},
 			{
@@ -96478,6 +101419,18 @@
 				"LeaderSubject": "SUBJECT_DIPLOMAT"
 			},
 			{
+				"zType": "EVENTOPTION_YOUNG_RULER_DISPUTE_3",
+				"Text": "TEXT_EVENTOPTION_YOUNG_RULER_DISPUTE_3",
+				"HelpText": "TEXT_EVENTOPTION_YOUNG_RULER_DISPUTE_3_HELP",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GIVE_TRAIT_DECEITFUL",
+						"BONUS_LEADER_OWES_FAVOR_TO",
+						"BONUS_LEADER_OWES_FAVOR_TO"
+					]
+				}
+			},
+			{
 				"zType": "EVENTOPTION_YOUNG_RULER_LEGACY_0",
 				"Text": "TEXT_EVENTOPTION_YOUNG_RULER_LEGACY_0",
 				"aeBonuses": {
@@ -96967,6 +101920,71 @@
 				"Text": "TEXT_EVENTOPTION_STRANGE_SCROLL_ONE_CONTINUE",
 				"HelpText": "TEXT_EVENTOPTION_STRANGE_SCROLL_ONE_CONTINUE_HELP",
 				"bFutureEvents": "1"
+			},
+			{
+				"zType": "EVENTOPTION_THE_BEST_DOG_PET",
+				"Text": "TEXT_EVENTOPTION_THE_BEST_DOG_PET",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_CHARISMA_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_BEST_DOG_PLAY",
+				"Text": "TEXT_EVENTOPTION_THE_BEST_DOG_PLAY",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_COURAGE_1"
+				}
+			},
+			{
+				"zType": "EVENTOPTION_THE_BEST_DOG_MISERABLE",
+				"Text": "TEXT_EVENTOPTION_THE_BEST_DOG_MISERABLE",
+				"aeBonuses": {
+					"zValue": "BONUS_REMOVE_TRAIT_MISERABLE"
+				},
+				"LeaderSubject": "SUBJECT_MISERABLE",
+				"bHideInvalid": "1"
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_0",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_0",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						"BONUS_MARRY_S0",
+						"BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED_ALL"
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_1",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_DISAPPOINTED_WITH",
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_2",
+				"Text": "TEXT_EVENTOPTION_MARRIAGE_OFFER_CHANCE_ENCOUNTER_2",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_LEADER_ENDEARED_TO",
+						"BONUS_MARRY_S0",
+						{
+							
+						}
+					]
+				},
+				"LeaderSubject": "SUBJECT_CHARACTER_ARCHETYPE_REGAL"
 			}
 		]
 	}

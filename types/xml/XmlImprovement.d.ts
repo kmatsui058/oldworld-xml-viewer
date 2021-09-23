@@ -30,6 +30,7 @@ export interface Entry {
   iMaxCityCount?: ZType | string;
   iMaxFamilyCount?: ZType | string;
   iMaxPlayerCount?: ZType | string;
+  iPrereqLaws?: ZType | string;
   iCitySiteUnits?: ZType | string;
   iDefendUnits?: ZType | string;
   iUnitTurns?: ZType | string;
@@ -90,6 +91,7 @@ export interface Entry {
   aiYieldFreshWaterModifier?: AiWonderYieldOutput;
   aiYieldRiverModifier?: AiWonderYieldOutput;
   aiAdjacentImprovementModifier?: AiWonderYieldOutput;
+  aiAdjacentImprovementClassModifier?: AiWonderYieldOutput;
   aiUnitTraitHeal?: ZType;
   aiUnitTraitXP?: AiWonderYieldOutput;
   aiUnitDie?: AiWonderYieldOutput;

@@ -177,6 +177,12 @@
         "zHexValue": "#ffd62dff"
       },
       {
+        "zType": "COLOR_TRAIT",
+        "zName": "Character Traits",
+        "ColorClass": "COLORCLASS_TEXT",
+        "zHexValue": "#B8A89A"
+      },
+      {
         "zType": "COLOR_SECONDARY_TEXT",
         "zName": "Secondary Text",
         "ColorClass": "COLORCLASS_TEXT",
@@ -343,6 +349,18 @@
         "zName": "Valid City Connection",
         "ColorClass": "COLORCLASS_OVERLAYS",
         "zHexValue": "#ffff00a8"
+      },
+      {
+        "zType": "COLOR_ROAD_CONNECTION",
+        "zName": "Road Connection",
+        "ColorClass": "COLORCLASS_OVERLAYS",
+        "zHexValue": "#ffff0033"
+      },
+      {
+        "zType": "COLOR_RIVER_CONNECTION",
+        "zName": "River Connection",
+        "ColorClass": "COLORCLASS_OVERLAYS",
+        "zHexValue": "#0000ff33"
       },
       {
         "zType": "COLOR_NEUTRAL_ZOC",

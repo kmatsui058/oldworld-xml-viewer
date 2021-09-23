@@ -72,6 +72,9 @@
         "iMaxPlayerCount": {
           
         },
+        "iPrereqLaws": {
+          
+        },
         "iCitySiteUnits": {
           
         },
@@ -250,6 +253,9 @@
           
         },
         "aiAdjacentImprovementModifier": {
+          
+        },
+        "aiAdjacentImprovementClassModifier": {
           
         },
         "aiUnitTraitHeal": {

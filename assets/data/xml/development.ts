@@ -46,7 +46,9 @@
         "iAvgCities": "2",
         "iMaxCities": "3",
         "iCapitalPopulation": "2",
-        "iTechs": "2"
+        "iTechs": "2",
+        "iWidth": "2",
+        "iHeight": "2"
       },
       {
         "zType": "DEVELOPMENT_ESTABLISHED",
@@ -57,8 +59,8 @@
         "iCapitalPopulation": "3",
         "iTechs": "3",
         "iLoneOpponentChange": "1",
-        "iWidth": "2",
-        "iHeight": "2"
+        "iWidth": "4",
+        "iHeight": "4"
       },
       {
         "zType": "DEVELOPMENT_ADVANCED",
@@ -69,8 +71,8 @@
         "iCapitalPopulation": "4",
         "iTechs": "4",
         "iLoneOpponentChange": "2",
-        "iWidth": "4",
-        "iHeight": "4"
+        "iWidth": "6",
+        "iHeight": "6"
       },
       {
         "zType": "DEVELOPMENT_MASSIVE",
@@ -81,8 +83,8 @@
         "iCapitalPopulation": "5",
         "iTechs": "5",
         "iLoneOpponentChange": "3",
-        "iWidth": "6",
-        "iHeight": "6"
+        "iWidth": "8",
+        "iHeight": "8"
       }
     ]
   }

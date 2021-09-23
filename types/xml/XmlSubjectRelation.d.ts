@@ -25,7 +25,7 @@ export interface Entry {
   MinPowerTribe?: ZType | string;
   MaxPowerTribe?: ZType | string;
   MinKnowledgePlayer?: ZType | string;
-  MaxKnowledgePlayer?: ZType;
+  MaxKnowledgePlayer?: ZType | string;
   MinWarStatePlayer?: ZType | string;
   MaxWarStatePlayer?: ZType | string;
   MinWarStateTribe?: ZType | string;
@@ -87,6 +87,7 @@ export interface Entry {
   bReligionHead?: ZType | string;
   bTechAcquired?: ZType | string;
   bTechNotAcquired?: ZType | string;
+  bTechAnyDeck?: ZType | string;
   bTechSameCost?: ZType | string;
   bLawActive?: ZType | string;
   bLawInactive?: ZType | string;

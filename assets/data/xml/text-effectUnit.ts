@@ -11,6 +11,10 @@
         }
       },
       {
+        "zType": "TEXT_EFFECTUNITCLASS_COMBAT",
+        "English": "Combat"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_COMBAT1",
         "English": "Combat I"
       },
@@ -21,6 +25,10 @@
       {
         "zType": "TEXT_EFFECTUNIT_COMBAT3",
         "English": "Combat III"
+      },
+      {
+        "zType": "TEXT_EFFECTUNITCLASS_STRIKE",
+        "English": "Strike"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STRIKE1",
@@ -35,6 +43,10 @@
         "English": "Strike III"
       },
       {
+        "zType": "TEXT_EFFECTUNITCLASS_GUARD",
+        "English": "Guard"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_GUARD1",
         "English": "Guard I"
       },
@@ -45,6 +57,10 @@
       {
         "zType": "TEXT_EFFECTUNIT_GUARD3",
         "English": "Guard III"
+      },
+      {
+        "zType": "TEXT_EFFECTUNITCLASS_FOCUS",
+        "English": "Focus"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FOCUS1",
@@ -95,8 +111,8 @@
         "English": "Besieger Leader"
       },
       {
-        "zType": "TEXT_EFFECTUNIT_GARRISON",
-        "English": "Garrison"
+        "zType": "TEXT_EFFECTUNIT_WARDEN",
+        "English": "Warden"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TOUGH",
@@ -243,8 +259,8 @@
         "English": "Saddleborn"
       },
       {
-        "zType": "TEXT_EFFECTUNIT_SNIPING",
-        "English": "Sniping"
+        "zType": "TEXT_EFFECTUNIT_SENTINEL",
+        "English": "Sentinel"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ROUT",
@@ -273,6 +289,10 @@
       {
         "zType": "TEXT_EFFECTUNIT_SOLDIER",
         "English": "Soldier"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_PROPHET",
+        "English": "Prophet"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SURVEYOR",

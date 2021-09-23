@@ -177,19 +177,19 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "300"
+              "iValue": "200"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "300"
+              "iValue": "200"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "300"
+              "iValue": "200"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "300"
+              "iValue": "200"
             }
           ]
         },
@@ -238,19 +238,19 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "200"
+              "iValue": "100"
             }
           ]
         },
@@ -301,19 +301,19 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "200"
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "200"
+              "iValue": "100"
             }
           ]
         },
@@ -364,19 +364,19 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "100"
+              "iValue": "50"
             }
           ]
         },
@@ -433,19 +433,19 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_STONE",
-              "iValue": "100"
+              "iValue": "50"
             }
           ]
         },
@@ -505,22 +505,6 @@
             {
               "zIndex": "YIELD_ORDERS",
               "iValue": "8"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "50"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "50"
-            },
-            {
-              "zIndex": "YIELD_IRON",
-              "iValue": "50"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "50"
             }
           ]
         },

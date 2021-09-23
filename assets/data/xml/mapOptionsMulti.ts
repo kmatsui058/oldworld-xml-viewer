@@ -186,31 +186,6 @@
         "bSinglePlayerValid": "0"
       },
       {
-        "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_WATER_SIZE",
-        "Name": "TEXT_MAP_OPTION_WATER_SIZE",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_WATER_SIZE_RANDOM",
-            "MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE",
-            "MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL"
-          ]
-        },
-        "Default": "MAP_OPTION_WATER_SIZE_RANDOM"
-      },
-      {
-        "zType": "MAP_OPTIONS_MULTI_INLAND_SEA_PLAYER_START_LOCATION",
-        "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_PLAYER_START_ANYWHERE",
-            "MAP_OPTION_INLAND_SEA_PLAYER_START_SEA",
-            "MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND"
-          ]
-        },
-        "Default": "MAP_OPTION_PLAYER_START_ANYWHERE",
-        "bMultiPlayerValid": "0"
-      },
-      {
         "zType": "MAP_OPTIONS_MULTI_HARDWOOD_FOREST_PLAYER_START_LOCATION",
         "Name": "TEXT_MAP_OPTION_PLAYER_START_LOCATION",
         "Choices": {
@@ -359,6 +334,30 @@
           ]
         },
         "Default": "MAP_OPTION_DISJUNCTION_CONTINENTS_TEAMS"
+      },
+      {
+        "zType": "MAP_OPTIONS_ARCHIPELAGO_LANDMASS",
+        "Name": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS",
+        "Choices": {
+          "zValue": [
+            "MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL",
+            "MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM",
+            "MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE"
+          ]
+        },
+        "Default": "MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL"
+      },
+      {
+        "zType": "MAP_OPTIONS_CONTINENTS_NUMBER",
+        "Name": "TEXT_MAP_OPTION_CONTINENTS_NUMBER",
+        "Choices": {
+          "zValue": [
+            "MAP_OPTION_CONTINENTS_NUMBER_RANDOM",
+            "MAP_OPTION_CONTINENTS_NUMBER_TWO",
+            "MAP_OPTION_CONTINENTS_NUMBER_THREE"
+          ]
+        },
+        "Default": "MAP_OPTION_CONTINENTS_NUMBER_RANDOM"
       }
     ]
   }

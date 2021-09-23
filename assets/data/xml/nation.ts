@@ -233,7 +233,9 @@
             "CITYNAME_MALIDIYA",
             "CITYNAME_HAMAT",
             "CITYNAME_QADESH",
-            "CITYNAME_MELIDDU"
+            "CITYNAME_MELIDDU",
+            "CITYNAME_TUSHPA",
+            "CITYNAME_GAZA"
           ]
         },
         "aeCharacterPortraits": {
@@ -431,7 +433,8 @@
             "CITYNAME_ERIDU",
             "CITYNAME_URUK",
             "CITYNAME_MARAD",
-            "CITYNAME_DILBAT"
+            "CITYNAME_DILBAT",
+            "CITYNAME_AN_AT"
           ]
         },
         "aeCharacterPortraits": {
@@ -586,7 +589,8 @@
             "NAME_RABIH",
             "NAME_SHADA",
             "NAME_YUTPAN",
-            "NAME_ZOUSHAN"
+            "NAME_ZOUSHAN",
+            "NAME_KARALY"
           ]
         },
         "aeFirstNamesFemale": {
@@ -692,6 +696,7 @@
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_28",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_29",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_30",
+            "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_31",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_CARTHAGE_LEADER_FEMALE_03",
@@ -899,7 +904,10 @@
             "CITYNAME_TEPIHU",
             "CITYNAME_CHENEM_WASET",
             "CITYNAME_IKEN",
-            "CITYNAME_BUHEN"
+            "CITYNAME_BUHEN",
+            "CITYNAME_AMUNIA",
+            "CITYNAME_MEROE",
+            "CITYNAME_NPY"
           ]
         },
         "aeCharacterPortraits": {
@@ -1161,7 +1169,8 @@
             "CITYNAME_NICODMEDIA",
             "CITYNAME_NICAEA",
             "CITYNAME_TRAPEZUS",
-            "CITYNAME_ANTIOCHEIA"
+            "CITYNAME_ANTIOCHEIA",
+            "CITYNAME_AMBRACIA"
           ]
         },
         "aeCharacterPortraits": {
@@ -1181,6 +1190,11 @@
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_20",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_21",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_03",
@@ -1211,7 +1225,9 @@
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_15",
-            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_20",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_03",
@@ -1309,7 +1325,9 @@
             "NAME_TIRIDATES",
             "NAME_VOLOGASES",
             "NAME_XERXES",
-            "NAME_YAZDEGERD"
+            "NAME_YAZDEGERD",
+            "NAME_DARBAND",
+            "NAME_ASPADANA"
           ]
         },
         "aeFirstNamesFemale": {
@@ -1374,7 +1392,9 @@
             "CITYNAME_YAZD",
             "CITYNAME_CARMANIA",
             "CITYNAME_HORMIRZAD",
-            "CITYNAME_TEREDON"
+            "CITYNAME_TEREDON",
+            "CITYNAME_CATURA",
+            "CITYNAME_KOMIS"
           ]
         },
         "aeCharacterPortraits": {
@@ -1616,7 +1636,8 @@
             "CITYNAME_AVENTICUM",
             "CITYNAME_FAVENTIA",
             "CITYNAME_MOGONTIACUM",
-            "CITYNAME_SIRMIUM"
+            "CITYNAME_SIRMIUM",
+            "CITYNAME_OESCUS"
           ]
         },
         "aeCharacterPortraits": {
@@ -1636,7 +1657,9 @@
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_15",
-            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_16",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_20",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_ROME_LEADER_FEMALE_03",
@@ -1667,6 +1690,11 @@
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_13",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_14",
             "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_15",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_17",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_18",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_19",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_20",
+            "CHARACTER_PORTRAIT_GREECE_LEADER_MALE_21",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_01",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_02",
             "CHARACTER_PORTRAIT_GREECE_LEADER_FEMALE_03",

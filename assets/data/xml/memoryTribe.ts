@@ -388,6 +388,16 @@
         "zType": "MEMORYTRIBE_RUMOR_HAS_IT_SAVED",
         "Text": "TEXT_MEMORYTRIBE_RUMOR_HAS_IT_SAVED",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
+      },
+      {
+        "zType": "MEMORYTRIBE_REFUSED_MARRIAGE",
+        "Text": "TEXT_MEMORY_REFUSED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_ACCEPTED_MARRIAGE",
+        "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       }
     ]
   }

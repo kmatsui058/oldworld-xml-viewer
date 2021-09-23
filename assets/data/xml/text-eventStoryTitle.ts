@@ -656,7 +656,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_RHETORICAL_QUESTIONS_TITLE",
-        "English": "Rhetorical Questions"
+        "English": "Political Questions"
       },
       {
         "zType": "TEXT_EVENTSTORY_TEEN_IDOL_TITLE",
@@ -1363,6 +1363,34 @@
         "English": "{CHARACTER-2}"
       },
       {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CURSED_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_BLESSED_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_WISDOM_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_CHARISMA_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_DISCIPLINE_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_UNLIKELY_SCENARIO_RICHES_TITLE",
+        "English": "Some Time Later"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_VASSALAGE_TITLE",
+        "English": "Distribution of Power"
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_EVENTSTORY_RUINS_SURVIVORS_TITLE",
         "English": "Survivors"
@@ -1726,6 +1754,10 @@
       {
         "zType": "TEXT_EVENTSTORY_PLAYER_CHOOSE_WAR_GENERIC_TITLE",
         "English": "No Neutral Option"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HARVEST_MYTHICAL_BEASTS_TITLE",
+        "English": "Mythical Beasts"
       },
       {
         "beginGroup": "Contact",
@@ -2750,6 +2782,130 @@
         "English": "The Note"
       },
       {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_ABDICATED_WAR_TITLE",
+        "English": "{CHARACTER-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_AGENT_WAR_TITLE",
+        "English": "{CHARACTER-SHORT-0}'s Agent"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SUCCESSION_THEM_BOAST_WAR_TITLE",
+        "English": "The Pride of {CHARACTER-SHORT-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INTERCESSION_MISSION_PROMPT_FAMILY_TITLE",
+        "English": "Family Intercession"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_SITUATION_TITLE",
+        "English": "Disinherited"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_ARMING_YOUR_BROTHERS_TITLE",
+        "English": "Arming Your Brothers"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_SCROLL_AND_SPEAR_TITLE",
+        "English": "The Scroll and the Spear"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_TRIBUTE_TITLE",
+        "English": "Technological Tribute"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_DEBT_OF_SCIENCE_TITLE",
+        "English": "The Debt of Science"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_DEMAND_PLEA_FOR_KNOWLEDGE_TITLE",
+        "English": "A Plea for Knowledge"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_WISDOM_OF_PEACE_TITLE",
+        "English": "The Wisdom of Peace"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_GIFTS_OF_THE_SEA_TITLE",
+        "English": "Gifts of the Sea"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_LURE_OF_KNOWLEDGE_TITLE",
+        "English": "The Lure of Knowledge"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_FOOD_FOR_THOUGHT_TITLE",
+        "English": "Food for Thought"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_UNDER_THE_TABLE_TITLE",
+        "English": "Under the Table"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_WRONG_HANDS_TITLE",
+        "English": "In the Wrong Hands"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_STOLEN_SCROLLS_TITLE",
+        "English": "The Stolen Scrolls"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE",
+        "English": "Mutual Benefit?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE_COPY",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ASSYRIA_TITLE",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_CARTHAGE_TITLE",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_EGYPT_TITLE",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_PERSIA_TITLE",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_ROME_TITLE",
+        "English": "{TEXT_EVENTSTORY_UNIQUE_UNIT_SALE_GREECE_TITLE}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_MURDER_TITLE",
+        "English": "Disinherit This!"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_TITLE",
+        "English": "Favored One"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_DOUBLE_MURDER_NO_SPOUSE_TITLE",
+        "English": "Favored One"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_MURDER_TITLE",
+        "English": "The Pretender"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_IMPRISON_TITLE",
+        "English": "The Pretender"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_BYPASSED_LEADER_EXILE_TITLE",
+        "English": "The Pretender"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_CORRECT_PROTOCOL_TITLE",
+        "English": "Protocol Marriage"
+      },
+      {
         "beginGroup": "Combat",
         "zType": "TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE",
         "English": "Smiting Foes"
@@ -3123,6 +3279,66 @@
         "English": "A Matter of Honor"
       },
       {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_MEDJAY_TITLE",
+        "English": "The Medjay"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_SACRED_BAND_TITLE",
+        "English": "The Sacred Band"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_IMMORTALS_TITLE",
+        "English": "The Immortals"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_COMPANIONS_TITLE",
+        "English": "The Companions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_NUMERUS_BATAVORUM_TITLE",
+        "English": "The Numerus Batavorum"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_SILVER_SHIELDS_TITLE",
+        "English": "The Silver Shields"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_HARII_TITLE",
+        "English": "The Harii"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_PAINTED_WARRIORS_TITLE",
+        "English": "The Painted Demons"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_WARRIORS_OF_GOD_TITLE",
+        "English": "The Warriors of God"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_1_TITLE",
+        "English": "The Terrors"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_TERRORS_2_TITLE",
+        "English": "The Terrors"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_NAMED_UNIT_SACRED_BAND",
+        "English": "Let their name bring fear to our enemies."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_THE_FURIES_TITLE",
+        "English": "The Furies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_PRAISE_OF_THE_TWO_LANDS_TITLE",
+        "English": "Praise of the Two Lands"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_UNIT_WILD_HUNTERS_TITLE",
+        "English": "The Wild Hunters"
+      },
+      {
         "beginGroup": "Family",
         "zType": "TEXT_EVENTSTORY_FAMILY_GIFT_TITLE",
         "English": "A Kind Gesture"
@@ -3461,7 +3677,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_CONTEST_OF_RHETORIC_TITLE",
-        "English": "Contest of Rhetoric"
+        "English": "Contest of Politics"
       },
       {
         "zType": "TEXT_EVENTSTORY_RADICAL_PHILOSOPHER_TITLE",
@@ -3506,6 +3722,14 @@
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_FAMILY_RETREAT_TITLE",
         "English": "Family Retreat"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_TRADE_OFF_TITLE",
+        "English": "Trade-Off"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_OLIGARCHS_BETROTHED_TITLE",
+        "English": "The Oligarch's Betrothed"
       },
       {
         "beginGroup": "Character",
@@ -3753,8 +3977,8 @@
         "English": "Tactics Studies"
       },
       {
-        "zType": "TEXT_EVENTSTORY_STUDY_RHETORIC_ARCHETYPES_TITLE",
-        "English": "Rhetoric Studies"
+        "zType": "TEXT_EVENTSTORY_STUDY_POLITICS_ARCHETYPES_TITLE",
+        "English": "Politics Studies"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_COMMERCE_ARCHETYPES_TITLE",
@@ -4598,19 +4822,19 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_INSPIRED_ZOROASTRIAN_HOLY_SITE_TITLE",
-        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM) of {CITY-2}."
+        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM) of {CITY-2}"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_INSPIRED_JUDAISM_HOLY_SITE_TITLE",
-        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_JUDAISM) of {CITY-2}."
+        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_JUDAISM) of {CITY-2}"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_INSPIRED_CHRISTIAN_HOLY_SITE_TITLE",
-        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) of {CITY-2}."
+        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_CHRISTIANITY) of {CITY-2}"
       },
       {
         "zType": "TEXT_EVENTSTORY_STUDY_INSPIRED_MANICHAEAN_HOLY_SITE_TITLE",
-        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_MANICHAEISM) of {CITY-2}."
+        "English": "Inspired by link(IMPROVEMENT_HOLY_SITE_MANICHAEISM) of {CITY-2}"
       },
       {
         "zType": "TEXT_EVENTSTORY_THE_PROPHETS_REBUKE_TITLE",
@@ -4875,6 +5099,38 @@
       {
         "zType": "TEXT_EVENTSTORY_INFLUENCE_SUBJECT_VENGEFUL_TITLE",
         "English": "Vengeance abated"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_INFLUENCE_OF_IDEAS_TITLE",
+        "English": "Influential Ideas"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_VENGEFUL_TO_PLOTTING_TITLE",
+        "English": "The Plot Thickens"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ENCHANTING_CONVERSATION_FOLLOWUP_TITLE",
+        "English": "The Next Morning"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_OLD_FRIEND_RETURNS_TITLE",
+        "English": "Young and In Love"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_RECOGNIZED_TITLE",
+        "English": "Agent Recognized"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_EXPOSED_TITLE",
+        "English": "Agent Exposed"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_WOUNDED_TITLE",
+        "English": "Agent Wounded"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGENT_RIGHT_PRICE_TITLE",
+        "English": "The Right Price"
       },
       {
         "beginGroup": "City",
@@ -5180,6 +5436,22 @@
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_HUNGER_IN_CITY_TITLE",
         "English": "Hunger in {CITY-1}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AUTONOMOUS_VASSAL_TITLE",
+        "English": "Autonomous Vassal"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEMAND_FOR_AUTONOMY_TITLE",
+        "English": "Demand for Autonomy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INDEPENDENT_CITY_TITLE",
+        "English": "Independent City"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RECLAIMING_CONTROL_TITLE",
+        "English": "Reclaiming Control"
       },
       {
         "beginGroup": "Religion",
@@ -7506,6 +7778,10 @@
         "English": "CONQUEST VICTORY!"
       },
       {
+        "zType": "TEXT_EVENTSTORY_GAME_WIN_ALLIANCE_TITLE",
+        "English": "ALLIANCE VICTORY!"
+      },
+      {
         "zType": "TEXT_EVENTSTORY_GAME_LOSS_TITLE",
         "English": "DEFEAT"
       },
@@ -8538,6 +8814,189 @@
       {
         "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_SLAVERY_TITLE",
         "English": "A New Resource"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_DRILLMASTER_TITLE",
+        "English": "The Drillmaster"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_INTERCESSOR_TITLE",
+        "English": "The Intercessor"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_SETTLER_TITLE",
+        "English": "The Settler"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_EXPLORER_TITLE",
+        "English": "The Explorer"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_INTREPID_TITLE",
+        "English": "The Intrepid"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_ENLIGHTENED_TITLE",
+        "English": "The Enlightened"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_WEAK_TITLE",
+        "English": "The Weak"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_STRONG_TITLE",
+        "English": "The Strong"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_MIGHTY_TITLE",
+        "English": "The Mighty"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_READY_TITLE",
+        "English": "The Ready"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_AVENGER_TITLE",
+        "English": "The Avenger"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_CONQUERER_TITLE",
+        "English": "The Conquerer"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_BRILLIANT_TITLE",
+        "English": "The Brilliant"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_ARCHITECT_TITLE",
+        "English": "The Architect"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_KEYSTONE_TITLE",
+        "English": "The Keystone"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COGNOMEN_DEVOUT_TITLE",
+        "English": "The Devout"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG_TITLE",
+        "English": "Legacy of the Young"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_RULER_TITLE",
+        "English": "Legacy of the {G0:King:Queen}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_OLD_TITLE",
+        "English": "Legacy of the Old"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GROWING_COMPETITION_TITLE",
+        "English": "Growing Rivalry"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS_AT_WAR_TITLE",
+        "English": "Rivals at War"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS_AT_PEACE_TITLE",
+        "English": "Rivals in Peace"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_OLD_WAYS_TITLE",
+        "English": "The Old Ways"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_REVENGE_FOR_LEADER_TITLE"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_LEGACY_OF_RULER_TITLE",
+        "English": "The Legacy of {CHARACTER-SHORT-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EPIC_LEGACY_TITLE",
+        "English": "An Epic Legacy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEFINED_BY_WAR_TITLE",
+        "English": "Defined By War"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NEXT_GENERATION_TITLE",
+        "English": "The Next Generation"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RICHES_OF_NATION_TITLE",
+        "English": "The Riches of {PLAYER-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_POWER_OF_THE_PEOPLE_TITLE",
+        "English": "Promise to the People"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LOVE_OF_THE_LAND_TITLE",
+        "English": "Love of the Land"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRUSTED_COUNCIL_TITLE",
+        "English": "Trusted Council"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WISDOM_OF_THE_OLIGARCHS_TITLE",
+        "English": "Wisdom of the Oligarchs"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AGE_OF_WAR_TITLE",
+        "English": "An Age of War"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GLORY_FOR_GOD_TITLE",
+        "English": "Glory for {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BEHIND_THE_THRONE_TITLE",
+        "English": "Behind the Throne"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WONDROUS_AMBITION_TITLE",
+        "English": "Wondrous Ambition"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_TITLE",
+        "English": "To the Pythia"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PYTHIA_SPEAKS_REPLY_TITLE",
+        "English": "The Pythia Speaks"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FORMING_NATION_TITLE",
+        "English": "Forming a Nation"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_OTHER_PATH_TITLE",
+        "English": "The Other Path"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TALES_OF_NATION_TITLE",
+        "English": "Tales of {PLAYER-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FRIENDS_AND_ALLIES_TITLE",
+        "English": "Friends and Allies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_COMPLAINTS_TITLE",
+        "English": "Family Complaints"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRUE_SUCCESSOR_TITLE",
+        "English": "True Successor"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_MEMORY_ENDURES_TITLE",
+        "English": "The Memory Endures"
       },
       {
         "beginGroup": "Tribe",
@@ -10090,6 +10549,26 @@
         "English": "Adopted Successor"
       },
       {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_UNBOUND_TITLE",
+        "English": "Marriage Unbound"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_KISS_MARRY_KILL_TITLE",
+        "English": "Kiss, Marry, Kill"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LOVER_CONFRONTED_TITLE",
+        "English": "Lover Confronted"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DECLARATION_OF_LOVE_TITLE",
+        "English": "Declaration of Love"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_IN_THE_EYES_TITLE",
+        "English": "In The Eyes of <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the Gods<else>God<end>"
+      },
+      {
         "beginGroup": "Courtier",
         "zType": "TEXT_EVENTSTORY_CALENDAR_AND_SEASONS_TITLE",
         "English": "Calendar and Seasons"
@@ -10403,6 +10882,18 @@
         "English": "A Time to Reap"
       },
       {
+        "zType": "TEXT_EVENTSTORY_TECH_OFFER_AMBASSADOR_TITLE",
+        "English": "{CHARACTER-SHORT-POSS-0} Barter"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_KNOWLEDGE_OF_POWER_TITLE",
+        "English": "Knowledge of Power"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TECH_THE_LAST_PIECE_TITLE",
+        "English": "The Last Piece"
+      },
+      {
         "beginGroup": "Leader",
         "zType": "TEXT_EVENTSTORY_COVERT_MARRIAGE_LEADER_TITLE",
         "English": "Marrying for Love"
@@ -10710,6 +11201,26 @@
       {
         "zType": "TEXT_EVENTSTORY_STRANGE_SCROLL_ONE_TITLE",
         "English": "Strange Scroll: Translation"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_ONE_TITLE",
+        "English": "Making “Amends”"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_TWO_TITLE",
+        "English": "Comeuppance"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_DECEITFUL_FAMILY_LIES_TITLE",
+        "English": "The Truth Hurts"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_BEST_DOG_TITLE",
+        "English": "The Best Companion"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_OFFER_CHANCE_ENCOUNTER_TITLE",
+        "English": "A Self Made {G1:Man:Woman}"
       }
     ]
   }

@@ -72,6 +72,11 @@
         "zType": "FONT_LIBERATION",
         "zFontAsset": "Prefabs/UI/Fonts/LiberationSans SDF",
         "zFontMaterialAsset": "Prefabs/UI/Fonts/LiberationSans SDF - Drop Shadow"
+      },
+      {
+        "zType": "FONT_LIBERATION_GLOW",
+        "zFontAsset": "Prefabs/UI/Fonts/LiberationSans SDF",
+        "zFontMaterialAsset": "Prefabs/UI/Fonts/LiberationSans SDF - TraitFX"
       }
     ]
   }

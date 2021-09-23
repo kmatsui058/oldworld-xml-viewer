@@ -191,11 +191,15 @@
         "English": "Leave link(CONCEPT_STATE_RELIGION)"
       },
       {
-        "zType": "TEXT_MISSION_PLAYER_MARRIAGE",
-        "English": "Foreign Marriage"
+        "zType": "TEXT_MISSION_SEND_COURTIER",
+        "English": "Send link(CONCEPT_COURTIER)"
       },
       {
-        "zType": "TEXT_MISSION_PLAYER_MARRIAGE_TARGET",
+        "zType": "TEXT_MISSION_SEND_COURTIER_TARGET",
+        "English": "Send link(CONCEPT_COURTIER) to"
+      },
+      {
+        "zType": "TEXT_MISSION_PLAYER_MARRIAGE",
         "English": "Foreign Marriage"
       },
       {
@@ -203,15 +207,7 @@
         "English": "Tribal Marriage"
       },
       {
-        "zType": "TEXT_MISSION_TRIBE_MARRIAGE_TARGET",
-        "English": "Tribal Marriage"
-      },
-      {
         "zType": "TEXT_MISSION_FAMILY_MARRIAGE",
-        "English": "Family Marriage"
-      },
-      {
-        "zType": "TEXT_MISSION_FAMILY_MARRIAGE_TARGET",
         "English": "Family Marriage"
       },
       {
@@ -255,8 +251,16 @@
         "English": "Convert to"
       },
       {
-        "zType": "TEXT_MISSION_CONVERT_RELIGION",
+        "zType": "TEXT_MISSION_CONVERT_STATE",
         "English": "Convert to link(CONCEPT_STATE_RELIGION)"
+      },
+      {
+        "zType": "TEXT_MISSION_CONVERT_RELIGION",
+        "English": "Convert link(CONCEPT_RELIGION)"
+      },
+      {
+        "zType": "TEXT_MISSION_CONVERT_RELIGION_CHARACTER",
+        "English": "Convert link(CONCEPT_RELIGION) via"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION",

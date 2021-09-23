@@ -48,9 +48,6 @@
         "EffectCityExtra": {
           
         },
-        "CoastEffectCity": {
-          
-        },
         "StateReligionEffectCity": {
           
         },
@@ -210,6 +207,7 @@
         "zType": "EFFECTPLAYER_ADVANTAGE_LOW",
         "Name": "TEXT_ADVANTAGE_LOW",
         "EffectCity": "EFFECTCITY_ADVANTAGE_LOW",
+        "iConsumptionModifier": "-5",
         "aiYieldRate": {
           "Pair": [
             {
@@ -219,6 +217,10 @@
             {
               "zIndex": "YIELD_TRAINING",
               "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "10"
             }
           ]
         }
@@ -227,6 +229,7 @@
         "zType": "EFFECTPLAYER_ADVANTAGE_MEDIUM",
         "Name": "TEXT_ADVANTAGE_MEDIUM",
         "EffectCity": "EFFECTCITY_ADVANTAGE_MEDIUM",
+        "iConsumptionModifier": "-10",
         "aiYieldRate": {
           "Pair": [
             {
@@ -236,6 +239,10 @@
             {
               "zIndex": "YIELD_TRAINING",
               "iValue": "250"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "25"
             }
           ]
         }
@@ -244,6 +251,7 @@
         "zType": "EFFECTPLAYER_ADVANTAGE_HIGH",
         "Name": "TEXT_ADVANTAGE_HIGH",
         "EffectCity": "EFFECTCITY_ADVANTAGE_HIGH",
+        "iConsumptionModifier": "-25",
         "aiYieldRate": {
           "Pair": [
             {
@@ -253,6 +261,32 @@
             {
               "zIndex": "YIELD_TRAINING",
               "iValue": "500"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "50"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTPLAYER_ADVANTAGE_VERY_HIGH",
+        "Name": "TEXT_ADVANTAGE_VERY_HIGH",
+        "EffectCity": "EFFECTCITY_ADVANTAGE_VERY_HIGH",
+        "iConsumptionModifier": "-50",
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "100"
             }
           ]
         }
@@ -268,7 +302,6 @@
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_ABLE",
         "SourceDifficulty": "DIFFICULTY_ABLE",
         "EffectCity": "EFFECTCITY_DIFFICULTY_ABLE",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_ABLE_CAPITAL",
         "aiYieldRate": {
           "Pair": [
             {
@@ -278,6 +311,14 @@
             {
               "zIndex": "YIELD_TRAINING",
               "iValue": "200"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "100"
             }
           ]
         }
@@ -287,7 +328,6 @@
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_JUST",
         "SourceDifficulty": "DIFFICULTY_JUST",
         "EffectCity": "EFFECTCITY_DIFFICULTY_JUST",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_JUST_CAPITAL",
         "aiYieldRate": {
           "Pair": [
             {
@@ -296,6 +336,14 @@
             },
             {
               "zIndex": "YIELD_TRAINING",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
               "iValue": "100"
             }
           ]
@@ -306,42 +354,108 @@
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_GOOD",
         "SourceDifficulty": "DIFFICULTY_GOOD",
         "EffectCity": "EFFECTCITY_DIFFICULTY_GOOD",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_GOOD_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "100"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_STRONG",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_STRONG",
         "SourceDifficulty": "DIFFICULTY_STRONG",
         "EffectCity": "EFFECTCITY_DIFFICULTY_STRONG",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_STRONG_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "90"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "90"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_NOBLE",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_NOBLE",
         "SourceDifficulty": "DIFFICULTY_NOBLE",
         "EffectCity": "EFFECTCITY_DIFFICULTY_NOBLE",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_NOBLE_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "80"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "80"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_GLORIOUS",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_GLORIOUS",
         "SourceDifficulty": "DIFFICULTY_GLORIOUS",
         "EffectCity": "EFFECTCITY_DIFFICULTY_GLORIOUS",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_GLORIOUS_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "70"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "70"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_MAGNIFICENT",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_MAGNIFICENT",
         "SourceDifficulty": "DIFFICULTY_MAGNIFICENT",
         "EffectCity": "EFFECTCITY_DIFFICULTY_MAGNIFICENT",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_MAGNIFICENT_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "60"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "60"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_DIFFICULTY_GREAT",
         "Name": "TEXT_EFFECTPLAYER_DIFFICULTY_GREAT",
         "SourceDifficulty": "DIFFICULTY_GREAT",
         "EffectCity": "EFFECTCITY_DIFFICULTY_GREAT",
-        "CapitalEffectCity": "EFFECTCITY_DIFFICULTY_GREAT_CAPITAL"
+        "aiYieldRate": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_SCIENCE",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "YIELD_ORDERS",
+              "iValue": "50"
+            }
+          ]
+        }
       },
       {
         "zType": "EFFECTPLAYER_IMPROVEMENT_PYRAMIDS",
@@ -383,7 +497,7 @@
         "zType": "EFFECTPLAYER_IMPROVEMENT_LIGHTHOUSE",
         "Name": "TEXT_IMPROVEMENT_LIGHTHOUSE",
         "SourceImprovement": "IMPROVEMENT_LIGHTHOUSE",
-        "CoastEffectCity": "EFFECTCITY_IMPROVEMENT_LIGHTHOUSE_COAST"
+        "EffectCity": "EFFECTCITY_IMPROVEMENT_LIGHTHOUSE_ALL"
       },
       {
         "zType": "EFFECTPLAYER_IMPROVEMENT_APADANA",
@@ -503,7 +617,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "100"
+            "iValue": "200"
           }
         }
       },
@@ -600,7 +714,7 @@
         "Name": "TEXT_LAW_PROFESSIONAL_ARMY",
         "SourceLaw": "LAW_PROFESSIONAL_ARMY",
         "EffectCity": "EFFECTCITY_LAW_PROFESSIONAL_ARMY",
-        "EffectCityExtra": "EFFECTCITY_LAW_PROFESSIONAL_ARMY_EXTRA"
+        "iXPModifier": "50"
       },
       {
         "zType": "EFFECTPLAYER_LAW_VOLUNTEERS",
@@ -632,7 +746,8 @@
         "zType": "EFFECTPLAYER_LAW_ICONOGRAPHY",
         "Name": "TEXT_LAW_ICONOGRAPHY",
         "SourceLaw": "LAW_ICONOGRAPHY",
-        "EffectCity": "EFFECTCITY_LAW_ICONOGRAPHY"
+        "EffectCity": "EFFECTCITY_LAW_ICONOGRAPHY",
+        "EffectCityExtra": "EFFECTCITY_LAW_ICONOGRAPHY_EXTRA"
       },
       {
         "zType": "EFFECTPLAYER_LAW_CALLIGRAPHY",
@@ -725,7 +840,7 @@
         "zType": "EFFECTPLAYER_NATION_CARTHAGE",
         "Name": "TEXT_NATION_CARTHAGE",
         "SourceNation": "NATION_CARTHAGE",
-        "CoastEffectCity": "EFFECTCITY_NATION_CARTHAGE_COAST",
+        "EffectCity": "EFFECTCITY_NATION_CARTHAGE",
         "FoundBonus": "BONUS_NATION_CARTHAGE",
         "bHireMercenaries": "1"
       },
@@ -761,7 +876,6 @@
         "Name": "TEXT_NATION_ROME",
         "SourceNation": "NATION_ROME",
         "EffectCity": "EFFECTCITY_NATION_ROME",
-        "iXPModifier": "50",
         "iFatigueLimitChange": "1"
       },
       {
@@ -956,52 +1070,16 @@
         "EffectCity": "EFFECTCITY_TRAIT_AFFABLE_ALL"
       },
       {
-        "zType": "EFFECTPLAYER_TRAIT_ELOQUENT",
-        "Name": "TEXT_TRAIT_ELOQUENT",
-        "SourceTrait": "TRAIT_ELOQUENT",
-        "EffectCity": "EFFECTCITY_TRAIT_ELOQUENT_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_WARLIKE",
-        "Name": "TEXT_TRAIT_WARLIKE",
-        "SourceTrait": "TRAIT_WARLIKE",
-        "EffectCity": "EFFECTCITY_TRAIT_WARLIKE_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_INSPIRING",
-        "Name": "TEXT_TRAIT_INSPIRING",
-        "SourceTrait": "TRAIT_INSPIRING",
-        "EffectCity": "EFFECTCITY_TRAIT_INSPIRING_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_INTELLIGENT",
-        "Name": "TEXT_TRAIT_INTELLIGENT",
-        "SourceTrait": "TRAIT_INTELLIGENT",
-        "EffectCity": "EFFECTCITY_TRAIT_INTELLIGENT_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_PROSPEROUS",
-        "Name": "TEXT_TRAIT_PROSPEROUS",
-        "SourceTrait": "TRAIT_PROSPEROUS",
-        "EffectCity": "EFFECTCITY_TRAIT_PROSPEROUS_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_FRUGAL",
-        "Name": "TEXT_TRAIT_FRUGAL",
-        "SourceTrait": "TRAIT_FRUGAL",
-        "EffectCity": "EFFECTCITY_TRAIT_FRUGAL_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_RIGHTEOUS",
-        "Name": "TEXT_TRAIT_RIGHTEOUS",
-        "SourceTrait": "TRAIT_RIGHTEOUS",
-        "EffectCity": "EFFECTCITY_TRAIT_RIGHTEOUS_ALL"
-      },
-      {
         "zType": "EFFECTPLAYER_TRAIT_CRUEL",
         "Name": "TEXT_TRAIT_CRUEL",
         "SourceTrait": "TRAIT_CRUEL",
         "EffectCity": "EFFECTCITY_TRAIT_CRUEL_ALL"
+      },
+      {
+        "zType": "EFFECTPLAYER_TRAIT_ELOQUENT",
+        "Name": "TEXT_TRAIT_ELOQUENT",
+        "SourceTrait": "TRAIT_ELOQUENT",
+        "EffectCity": "EFFECTCITY_TRAIT_ELOQUENT_ALL"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_INTOLERANT",
@@ -1010,10 +1088,22 @@
         "EffectCity": "EFFECTCITY_TRAIT_INTOLERANT_ALL"
       },
       {
+        "zType": "EFFECTPLAYER_TRAIT_WARLIKE",
+        "Name": "TEXT_TRAIT_WARLIKE",
+        "SourceTrait": "TRAIT_WARLIKE",
+        "EffectCity": "EFFECTCITY_TRAIT_WARLIKE_ALL"
+      },
+      {
         "zType": "EFFECTPLAYER_TRAIT_SLOTHFUL",
         "Name": "TEXT_TRAIT_SLOTHFUL",
         "SourceTrait": "TRAIT_SLOTHFUL",
         "EffectCity": "EFFECTCITY_TRAIT_SLOTHFUL_ALL"
+      },
+      {
+        "zType": "EFFECTPLAYER_TRAIT_INSPIRING",
+        "Name": "TEXT_TRAIT_INSPIRING",
+        "SourceTrait": "TRAIT_INSPIRING",
+        "EffectCity": "EFFECTCITY_TRAIT_INSPIRING_ALL"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_UNCOUTH",
@@ -1022,10 +1112,22 @@
         "EffectCity": "EFFECTCITY_TRAIT_UNCOUTH_ALL"
       },
       {
+        "zType": "EFFECTPLAYER_TRAIT_INTELLIGENT",
+        "Name": "TEXT_TRAIT_INTELLIGENT",
+        "SourceTrait": "TRAIT_INTELLIGENT",
+        "EffectCity": "EFFECTCITY_TRAIT_INTELLIGENT_ALL"
+      },
+      {
         "zType": "EFFECTPLAYER_TRAIT_FOOLISH",
         "Name": "TEXT_TRAIT_FOOLISH",
         "SourceTrait": "TRAIT_FOOLISH",
         "EffectCity": "EFFECTCITY_TRAIT_FOOLISH_ALL"
+      },
+      {
+        "zType": "EFFECTPLAYER_TRAIT_PROSPEROUS",
+        "Name": "TEXT_TRAIT_PROSPEROUS",
+        "SourceTrait": "TRAIT_PROSPEROUS",
+        "EffectCity": "EFFECTCITY_TRAIT_PROSPEROUS_ALL"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_EXTRAVAGANT",
@@ -1034,10 +1136,22 @@
         "EffectCity": "EFFECTCITY_TRAIT_EXTRAVAGANT_ALL"
       },
       {
+        "zType": "EFFECTPLAYER_TRAIT_FRUGAL",
+        "Name": "TEXT_TRAIT_FRUGAL",
+        "SourceTrait": "TRAIT_FRUGAL",
+        "EffectCity": "EFFECTCITY_TRAIT_FRUGAL_ALL"
+      },
+      {
         "zType": "EFFECTPLAYER_TRAIT_CORRUPT",
         "Name": "TEXT_TRAIT_CORRUPT",
         "SourceTrait": "TRAIT_CORRUPT",
         "EffectCity": "EFFECTCITY_TRAIT_CORRUPT_ALL"
+      },
+      {
+        "zType": "EFFECTPLAYER_TRAIT_RIGHTEOUS",
+        "Name": "TEXT_TRAIT_RIGHTEOUS",
+        "SourceTrait": "TRAIT_RIGHTEOUS",
+        "EffectCity": "EFFECTCITY_TRAIT_RIGHTEOUS_ALL"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_DEBAUCHED",
@@ -1214,32 +1328,10 @@
         "iFamilyOpinionChange": "-40"
       },
       {
-        "zType": "EFFECTPLAYER_TRAIT_SOLDIER",
-        "Name": "TEXT_TRAIT_SOLDIER",
-        "SourceTrait": "TRAIT_SOLDIER",
-        "aiMilitaryKillYield": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "10"
-          }
-        }
-      },
-      {
         "zType": "EFFECTPLAYER_TRAIT_MOURNING",
         "Name": "TEXT_TRAIT_MOURNING",
         "SourceTrait": "TRAIT_MOURNING",
         "EffectCity": "EFFECTCITY_TRAIT_MOURNING_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_PROPHET",
-        "Name": "TEXT_TRAIT_PROPHET",
-        "SourceTrait": "TRAIT_PROPHET",
-        "aiMilitaryKillYield": {
-          "Pair": {
-            "zIndex": "YIELD_CIVICS",
-            "iValue": "10"
-          }
-        }
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_CUNNING",
@@ -1279,7 +1371,7 @@
         "aiYieldUpkeep": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
-            "iValue": "-5"
+            "iValue": "-2"
           }
         }
       },
@@ -1289,7 +1381,7 @@
         "aiYieldUpkeep": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
-            "iValue": "-10"
+            "iValue": "-5"
           }
         }
       },
@@ -1299,7 +1391,7 @@
         "aiYieldUpkeep": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
-            "iValue": "-15"
+            "iValue": "-10"
           }
         }
       },

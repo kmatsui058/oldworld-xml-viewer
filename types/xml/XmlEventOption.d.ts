@@ -18,12 +18,11 @@ export interface Entry {
   PlayerSubject?: ZType | EventLinkAdd2 | string;
   LeaderSubject?: ZType | EventLinkAdd2 | string;
   LeaderSubjectAny?: LeaderSubjectAny;
-  bLawScreen?: ZType | EventLinkAdd2 | string;
-  bTimelineScreen?: ZType | EventLinkAdd2 | string;
-  bVictoryScreen?: EventLinkAdd2;
+  OpenTabOverlay?: ZType | EventLinkAdd2 | string;
+  bKeepOpen?: ZType | EventLinkAdd2 | string;
   bMainMenu?: ZType | EventLinkAdd2 | string;
   bHidePrereqs?: ZType | EventLinkAdd2 | string;
-  bHideInvalid?: BHideInvalid;
+  bHideInvalid?: ZType | EventLinkAdd2 | string;
   bFutureEvents?: ZType | EventLinkAdd2 | string;
   aiMinPrice?: AiMinPrice;
   aiMaxPrice?: AiMinPrice;
@@ -41,9 +40,6 @@ export interface AiMinPrice {
 export interface Pair {
   zIndex: string;
   iValue: string;
-}
-export interface BHideInvalid {
-  comment?: string;
 }
 export interface LeaderSubjectAny {
   comment?: string;

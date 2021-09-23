@@ -10,9 +10,9 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   Description: ZType | string;
-  bDefault?: ZType | string;
+  bDefault?: ZType;
   bSinglePlayerValid?: ZType | string;
-  bMultiPlayerValid?: ZType | string;
+  bMultiPlayerValid?: ZType;
 }
 export interface ZType {
 }

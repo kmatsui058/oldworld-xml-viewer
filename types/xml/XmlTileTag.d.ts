@@ -1,15 +1,13 @@
 
-declare namespace XmlTextBonus {
+declare namespace XmlTileTag {
   export interface RootObject {
   Root: Root;
 }
 export interface Root {
-  Entry: Entry[];
+  Entry: Entry;
 }
 export interface Entry {
-  zType: ZType | string;
-  English?: ZType | string;
-  beginGroup?: string;
+  zType: ZType;
 }
 export interface ZType {
 }

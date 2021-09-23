@@ -40,7 +40,14 @@
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "W,UpArrow",
         "bKeyboardMap": "1",
-        "bHold": "1"
+        "bHold": "1",
+        "IgnoreHotkeys": {
+          "zValue": [
+            "HOTKEY_MOVE_CAMERA_WEST",
+            "HOTKEY_MOVE_CAMERA_SOUTH",
+            "HOTKEY_MOVE_CAMERA_EAST"
+          ]
+        }
       },
       {
         "zType": "HOTKEY_MOVE_CAMERA_WEST",
@@ -48,7 +55,14 @@
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "A,LeftArrow",
         "bKeyboardMap": "1",
-        "bHold": "1"
+        "bHold": "1",
+        "IgnoreHotkeys": {
+          "zValue": [
+            "HOTKEY_MOVE_CAMERA_NORTH",
+            "HOTKEY_MOVE_CAMERA_SOUTH",
+            "HOTKEY_MOVE_CAMERA_EAST"
+          ]
+        }
       },
       {
         "zType": "HOTKEY_MOVE_CAMERA_SOUTH",
@@ -56,7 +70,14 @@
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "S,DownArrow",
         "bKeyboardMap": "1",
-        "bHold": "1"
+        "bHold": "1",
+        "IgnoreHotkeys": {
+          "zValue": [
+            "HOTKEY_MOVE_CAMERA_NORTH",
+            "HOTKEY_MOVE_CAMERA_WEST",
+            "HOTKEY_MOVE_CAMERA_EAST"
+          ]
+        }
       },
       {
         "zType": "HOTKEY_MOVE_CAMERA_EAST",
@@ -64,14 +85,22 @@
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "D,RightArrow",
         "bKeyboardMap": "1",
-        "bHold": "1"
+        "bHold": "1",
+        "IgnoreHotkeys": {
+          "zValue": [
+            "HOTKEY_MOVE_CAMERA_NORTH",
+            "HOTKEY_MOVE_CAMERA_WEST",
+            "HOTKEY_MOVE_CAMERA_SOUTH"
+          ]
+        }
       },
       {
         "zType": "HOTKEY_CAMERA_ZOOM_IN",
         "Name": "TEXT_HOTKEY_CAMERA_ZOOM_IN",
         "HotkeyClass": "HOTKEYCLASS_CAMERA",
         "Keys": "PageDown",
-        "bHold": "1"
+        "bHold": "1",
+        "bIgnoreMouse": "1"
       },
       {
         "zType": "HOTKEY_CAMERA_ZOOM_OUT",
@@ -112,10 +141,59 @@
         "zType": "HOTKEY_HIDE_ALL",
         "Name": "TEXT_HOTKEY_HIDE_ALL",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
-        "Keys": "LeftShift+LeftAlt+Z,RightShift+RightAlt+Z",
+        "Keys": "LeftShift+LeftAlt+Z,RightShift+LeftAlt+Z,LeftShift+RightAlt+Z,RightShift+RightAlt+Z",
         "bKeyboardMap": "1",
         "bHold": "1",
         "bIgnoreMouse": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_ZOC",
+        "Name": "TEXT_HOTKEY_LOCK_ZOC",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+X,RightShift+X",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_DANGER_TILES",
+        "Name": "TEXT_HOTKEY_LOCK_DANGER_TILES",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+C,RightShift+C",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_IDLE_UNITS",
+        "Name": "TEXT_HOTKEY_LOCK_IDLE_UNITS",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+V,RightShift+V",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_TRADE_NETWORK",
+        "Name": "TEXT_HOTKEY_LOCK_TRADE_NETWORK",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+B,RightShift+B",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_ROADS_RIVERS",
+        "Name": "TEXT_HOTKEY_LOCK_ROADS_RIVERS",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+N,RightShift+N",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_TILE_YIELDS",
+        "Name": "TEXT_HOTKEY_LOCK_TILE_YIELDS",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+M,RightShift+M",
+        "bKeyboardMap": "1"
+      },
+      {
+        "zType": "HOTKEY_LOCK_TILE_SPECIALISTS",
+        "Name": "TEXT_HOTKEY_LOCK_TILE_SPECIALISTS",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "LeftShift+Comma,RightShift+Comma",
+        "bKeyboardMap": "1"
       },
       {
         "zType": "HOTKEY_SHOW_ZOC",
@@ -136,24 +214,26 @@
         "bIgnoreMouse": "1"
       },
       {
-        "zType": "HOTKEY_SHOW_TRADE_NETWORK",
-        "Name": "TEXT_HOTKEY_SHOW_TRADE_NETWORK",
+        "zType": "HOTKEY_SHOW_IDLE_UNITS",
+        "Name": "TEXT_HOTKEY_SHOW_IDLE_UNITS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "V",
         "bKeyboardMap": "1",
-        "bHold": "1"
+        "bHold": "1",
+        "bIgnoreMouse": "1"
+      },
+      {
+        "zType": "HOTKEY_SHOW_TRADE_NETWORK",
+        "Name": "TEXT_HOTKEY_SHOW_TRADE_NETWORK",
+        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
+        "Keys": "B",
+        "bKeyboardMap": "1",
+        "bHold": "1",
+        "bIgnoreMouse": "1"
       },
       {
         "zType": "HOTKEY_SHOW_ROADS_RIVERS",
         "Name": "TEXT_HOTKEY_SHOW_ROADS_RIVERS",
-        "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
-        "Keys": "B",
-        "bKeyboardMap": "1",
-        "bHold": "1"
-      },
-      {
-        "zType": "HOTKEY_SHOW_IDLE_UNITS",
-        "Name": "TEXT_HOTKEY_SHOW_IDLE_UNITS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "N",
         "bKeyboardMap": "1",
@@ -189,7 +269,8 @@
         "Name": "TEXT_HOTKEY_HIDE_UI",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "LeftAlt+X,RightAlt+X",
-        "bHold": "1"
+        "bHold": "1",
+        "bIgnoreMouse": "1"
       },
       {
         "zType": "HOTKEY_ROAD_TO",
@@ -243,7 +324,7 @@
         "zType": "HOTKEY_MUTE",
         "Name": "TEXT_HOTKEY_MUTE",
         "HotkeyClass": "HOTKEYCLASS_GAMEPLAY",
-        "Keys": "LeftControl+M,RightControl+M"
+        "Keys": "LeftControl+Slash,RightControl+Slash"
       },
       {
         "zType": "HOTKEY_CLEAR_SELECTION",
@@ -333,7 +414,7 @@
         "zType": "HOTKEY_SLEEP",
         "Name": "TEXT_HOTKEY_SLEEP",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
-        "Keys": "LeftShift+Space, RightShift+Space"
+        "Keys": "LeftShift+Space,RightShift+Space"
       },
       {
         "zType": "HOTKEY_SENTRY",
@@ -345,13 +426,13 @@
         "zType": "HOTKEY_CYCLE_ALL",
         "Name": "TEXT_HOTKEY_CYCLE_ALL",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
-        "Keys": "Tab"
+        "Keys": "Tab,Mouse4"
       },
       {
         "zType": "HOTKEY_CYCLE_ALL_REVERSE",
         "Name": "TEXT_HOTKEY_CYCLE_ALL_REVERSE",
         "HotkeyClass": "HOTKEYCLASS_NAVIGATION",
-        "Keys": "LeftShift+Tab, RightShift+Tab"
+        "Keys": "LeftShift+Tab,Mouse3,RightShift+Tab"
       },
       {
         "zType": "HOTKEY_UNDO",
@@ -378,6 +459,12 @@
         "Name": "TEXT_HOTKEY_CHAT",
         "HotkeyClass": "HOTKEYCLASS_COMMUNICATION",
         "Keys": "Return,KeypadEnter"
+      },
+      {
+        "zType": "HOTKEY_CHAT_ALL",
+        "Name": "TEXT_HOTKEY_CHAT_ALL",
+        "HotkeyClass": "HOTKEYCLASS_COMMUNICATION",
+        "Keys": "LeftShift+Return,LeftShift+KeypadEnter,RightShift+Return,RightShift+KeypadEnter"
       },
       {
         "zType": "HOTKEY_VICTORY_SCREEN",
@@ -502,7 +589,7 @@
         "zType": "HOTKEY_SAVE",
         "Name": "TEXT_HOTKEY_SAVE",
         "HotkeyClass": "HOTKEYCLASS_SAVES",
-        "Keys": "F11"
+        "Keys": "F11,LeftControl+S,RightControl+S"
       },
       {
         "zType": "HOTKEY_QUICK_LOAD",
@@ -526,13 +613,13 @@
         "zType": "HOTKEY_REVEAL_MAP",
         "Name": "TEXT_HOTKEY_REVEAL_MAP",
         "HotkeyClass": "HOTKEYCLASS_DEBUG",
-        "Keys": "LeftShift+M,RightShift+M"
+        "Keys": "LeftControl+M,RightControl+M"
       },
       {
         "zType": "HOTKEY_FULLY_REVEAL_MAP",
         "Name": "TEXT_HOTKEY_FULLY_REVEAL_MAP",
         "HotkeyClass": "HOTKEYCLASS_DEBUG",
-        "Keys": "LeftControl+LeftShift+M,RightControl+RightShift+M"
+        "Keys": "LeftControl+LeftShift+M,RightControl+RightShift+M,RightControl+LeftShift+M,LeftControl+RightShift+M"
       },
       {
         "zType": "HOTKEY_UNLOCK_NEXT_TECH",

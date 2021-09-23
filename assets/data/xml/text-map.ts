@@ -331,38 +331,6 @@
         "English": "No Tribes, only Barbarian camps"
       },
       {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE",
-        "English": "Large Sea"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_LARGE_HELP",
-        "English": "Aims to provide one large, irregular sea"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL",
-        "English": "Small Jagged Seas"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_WATER_SIZE_SMALL_HELP",
-        "English": "Several small seas will be narrow and jagged. They may interconnect."
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA",
-        "English": "Coast"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_SEA_HELP",
-        "English": "Start on the Sea"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND",
-        "English": "Inland"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_INLAND_SEA_PLAYER_START_INLAND_HELP",
-        "English": "Start away from the Sea"
-      },
-      {
         "zType": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_SEA",
         "English": "Coastal"
       },
@@ -639,16 +607,56 @@
         "English": "East-West symmetric map: need even number of teams"
       },
       {
-        "zType": "TEXT_MAP_OPTIONS_SINGLE_SEASIDE_CENTER_BIAS_HELP",
-        "English": "Player starts near the center of the map, only in single player"
-      },
-      {
-        "zType": "TEXT_MAP_OPTIONS_SINGLE_CENTER_BIAS_HELP",
-        "English": "Avoid starting near west or east map edges, only in single player"
-      },
-      {
         "zType": "TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP",
         "English": "A resource-rich center instead of water at the channel intersection area"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL",
+        "English": "Small"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM",
+        "English": "Medium"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE",
+        "English": "Large"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL_HELP",
+        "English": "Small Islands"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_MEDIUM_HELP",
+        "English": "Water occupies approximately half of the map"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_LARGE_HELP",
+        "English": "Land occupies more area than water"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_RANDOM",
+        "English": "Random"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_TWO",
+        "English": "Two Continents"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE",
+        "English": "Three Continents"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_RANDOM_HELP",
+        "English": "Either two or three continents"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_TWO_HELP",
+        "English": "Two continents, one in the North and one in the South"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE_HELP",
+        "English": "Three continents, with either the North or South containing two continents"
       }
     ]
   }

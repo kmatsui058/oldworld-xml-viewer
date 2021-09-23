@@ -11,6 +11,14 @@
         }
       },
       {
+        "zType": "TEXT_MAINMENU_HIRING_NOTICE",
+        "English": "Mohawk Games is Hiring!"
+      },
+      {
+        "zType": "TEXT_MAINMENU_HIRING_NOTICE_GRAPHICS",
+        "English": "<i>Senior Graphics Engineer</i>"
+      },
+      {
         "zType": "TEXT_TRIBE_ADJECTIVE",
         "English": "{0,1_TribeAdjective}"
       },
@@ -123,12 +131,16 @@
         "English": "Extreme Terrain"
       },
       {
-        "zType": "TEXT_MAP_OPTION_CENTER_BIAS",
-        "English": "Center Bias"
-      },
-      {
         "zType": "TEXT_MAP_OPTION_CONTINENTS",
         "English": "Continents"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS",
+        "English": "Islands Size"
+      },
+      {
+        "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER",
+        "English": "Number of Continents"
       },
       {
         "zType": "TEXT_MAP_OPTION_KING_OF_THE_HILL",
@@ -217,6 +229,14 @@
       {
         "zType": "TEXT_CULTURE_LEGENDARY",
         "English": "Legendary"
+      },
+      {
+        "zType": "TEXT_EVENTLEVEL_MINIMAL",
+        "English": "Minimal"
+      },
+      {
+        "zType": "TEXT_EVENTLEVEL_MINIMAL_HELP",
+        "English": "As few Events as possible"
       },
       {
         "zType": "TEXT_EVENTLEVEL_LOW",
@@ -767,6 +787,10 @@
         "English": "High"
       },
       {
+        "zType": "TEXT_ADVANTAGE_VERY_HIGH",
+        "English": "Very High"
+      },
+      {
         "zType": "TEXT_DEVELOPMENT_NONE",
         "English": "None"
       },
@@ -996,7 +1020,7 @@
       },
       {
         "zType": "TEXT_GAMEOPTION_ONE_CITY_CHALLENGE",
-        "English": "One City Challenge"
+        "English": "link(CONCEPT_ONE_CITY_CHALLENGE)"
       },
       {
         "zType": "TEXT_GAMEOPTION_ONE_CITY_CHALLENGE_HELP",
@@ -1103,8 +1127,36 @@
         "English": "Hide All"
       },
       {
+        "zType": "TEXT_HOTKEY_LOCK_ZOC",
+        "English": "Lock link(CONCEPT_ZOC,1) Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_DANGER_TILES",
+        "English": "Lock Danger Tiles Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_TRADE_NETWORK",
+        "English": "Lock link(CONCEPT_TRADE_NETWORK) Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_ROADS_RIVERS",
+        "English": "Lock link(CONCEPT_ROAD,2) and link(CONCEPT_RIVER,2) Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_IDLE_UNITS",
+        "English": "Lock link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Units Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_TILE_YIELDS",
+        "English": "Lock Tile Yields Overlay"
+      },
+      {
+        "zType": "TEXT_HOTKEY_LOCK_TILE_SPECIALISTS",
+        "English": "Lock Tile link(CONCEPT_SPECIALIST,2) Overlay"
+      },
+      {
         "zType": "TEXT_HOTKEY_SHOW_ZOC",
-        "English": "Show Zone of Control"
+        "English": "Show link(CONCEPT_ZOC,1)"
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_DANGER_TILES",
@@ -1112,15 +1164,15 @@
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_TRADE_NETWORK",
-        "English": "Show Trade Network"
+        "English": "Show link(CONCEPT_TRADE_NETWORK)"
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_ROADS_RIVERS",
-        "English": "Show Road and Rivers"
+        "English": "Show link(CONCEPT_ROAD,2) and link(CONCEPT_RIVER,2)"
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_IDLE_UNITS",
-        "English": "Show Idle Units"
+        "English": "Show link(CONCEPT_PROMOTION,2) and link(CONCEPT_IDLE) Units"
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_TILE_YIELDS",
@@ -1128,7 +1180,7 @@
       },
       {
         "zType": "TEXT_HOTKEY_SHOW_TILE_SPECIALISTS",
-        "English": "Show Tile Specialists"
+        "English": "Show Tile link(CONCEPT_SPECIALIST,2)"
       },
       {
         "zType": "TEXT_HOTKEY_TOGGLE_HEX_GRID",
@@ -1261,6 +1313,10 @@
       {
         "zType": "TEXT_HOTKEY_CHAT",
         "English": "Chat"
+      },
+      {
+        "zType": "TEXT_HOTKEY_CHAT_ALL",
+        "English": "Chat to All"
       },
       {
         "zType": "TEXT_HOTKEY_VICTORY_SCREEN",
@@ -2003,12 +2059,48 @@
         "English": "Random map script"
       },
       {
+        "zType": "TEXT_SCENARIOCLASS_LEARNTOPLAY",
+        "English": "Learn To Play"
+      },
+      {
+        "zType": "TEXT_SCENARIOCLASS_CARTHAGE",
+        "English": "Rise of Carthage"
+      },
+      {
+        "zType": "TEXT_SCENARIOCLASS_OTHER",
+        "English": "Standalone Scenarios"
+      },
+      {
         "zType": "TEXT_SCENARIO_LEARNTOPLAY_1",
-        "English": "Learn To Play - Lesson 1"
+        "English": "Lesson 1"
       },
       {
         "zType": "TEXT_SCENARIO_LEARNTOPLAY_1_SUB",
         "English": "The Old World"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_2",
+        "English": "Lesson 2"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_2_SUB",
+        "English": "A Place to Live"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_3",
+        "English": "Lesson 3"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_3_SUB",
+        "English": "Everyone has an Opinion - NOT PLAYABLE YET"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_4",
+        "English": "Lesson 4"
+      },
+      {
+        "zType": "TEXT_SCENARIO_LEARNTOPLAY_4_SUB",
+        "English": "Heavy is the Crown - NOT PLAYABLE YET"
       },
       {
         "zType": "TEXT_SCENARIO_BARBARIAN",
@@ -2022,7 +2114,7 @@
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_1",
-        "English": "Rise of Carthage - Game One"
+        "English": "Game One"
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_1_SUB",
@@ -2030,7 +2122,7 @@
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_2",
-        "English": "Rise of Carthage - Game Two"
+        "English": "Game Two"
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_2_SUB",
@@ -2038,7 +2130,7 @@
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_3",
-        "English": "Rise of Carthage - Game Three"
+        "English": "Game Three"
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_3_SUB",
@@ -2046,7 +2138,7 @@
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_4",
-        "English": "Rise of Carthage - Game Four"
+        "English": "Game Four"
       },
       {
         "zType": "TEXT_SCENARIO_CARTHAGE_4_SUB",
@@ -2329,8 +2421,8 @@
         "English": "Ruins"
       },
       {
-        "zType": "TEXT_OF",
-        "English": "of"
+        "zType": "TEXT_OF_CITY",
+        "English": "of {0_city}"
       },
       {
         "zType": "TEXT_QUEUE_ROAD",
