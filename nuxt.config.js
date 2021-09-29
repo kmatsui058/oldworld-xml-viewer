@@ -77,5 +77,8 @@ export default {
       regular: FontAwesome.regular,
       brands: FontAwesome.brands
     }
+  },
+  render: {
+    csp: true
   }
 }
