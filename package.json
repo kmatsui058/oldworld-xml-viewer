@@ -28,7 +28,7 @@
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
-    "@openapitools/openapi-generator-cli": "^2.4.7",
+    "@openapitools/openapi-generator-cli": "^2.4.8",
     "@types/jest": "^27.0.2",
     "@vue/test-utils": "^1.2.2",
     "babel-core": "^6.26.3",
