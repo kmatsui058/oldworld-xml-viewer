@@ -46,17 +46,23 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
-import families from '~/assets/data/xml/family'
+import { computed, defineComponent, useAsync } from '@nuxtjs/composition-api'
+import familiesRaw from '~/assets/data/xml/family'
 import Family from '~/classes/Family'
 
-@Component({
-})
-export default class Index extends Vue {
-  get families (): Family[] {
-    return families.Root.Entry.map((item) => {
-      return new Family(item)
-    }).filter(nation => nation.name)
+export default defineComponent({
+  setup () {
+    const data = useAsync(async () => { return await 0 })
+    const families = computed(() => {
+      return familiesRaw.Root.Entry.map((item) => {
+        return new Family(item)
+      }).filter(nation => nation.name)
+    })
+    return {
+      families,
+      data
+    }
   }
-}
+})
+
 </script>
