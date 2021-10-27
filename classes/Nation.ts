@@ -5,8 +5,8 @@ import textNation from '~/assets/data/xml/text-nation'
 import tech from '~/assets/data/xml/tech'
 
 export default class Nation {
-  private readonly textNations = textNation.Root.Entry;
-  private readonly tech = tech.Root.Entry;
+  private readonly textNations = textNation.Root.Entry
+  private readonly tech = tech.Root.Entry
 
   readonly entry: Readonly<XmlNation.Entry>
 
