@@ -12,6 +12,7 @@
     "lint": "eslint --ext .ts,.vue --ignore-path .gitignore .",
     "xml": "ts-node ./task/parse-xml.ts",
     "test": "jest",
+    "prepare": "husky install",
     "parseAPI": "openapi-generator-cli generate --enable-post-process-file -i ./openapi.yaml -t ./template -o ./api --generator-name typescript-axios -c ./openapi-config.yaml"
   },
   "lint-staged": {
@@ -26,6 +27,7 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.15.8",
     "@nuxt/typescript-runtime": "^0.4.0",
+    "@nuxtjs/composition-api": "^0.29.3",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@openapitools/openapi-generator-cli": "^2.4.12",
