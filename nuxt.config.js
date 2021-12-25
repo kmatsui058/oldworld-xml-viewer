@@ -2,84 +2,79 @@ import * as FontAwesome from './build/fontawesome'
 
 export default {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      {
+        hid: 'description',
+        name: 'description',
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   target: 'static',
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#fff' },
   /*
-  ** Global CSS
-  */
-  css: [
-    { src: '~assets/scss/main.scss', lang: 'scss' }
-  ],
+   ** Global CSS
+   */
+  css: [{ src: '~assets/scss/main.scss', lang: 'scss' }],
   /*
-  ** Plugins to load before mounting the App
-  */
-  plugins: [
-    '~/plugins/v-tooltip'
-  ],
+   ** Plugins to load before mounting the App
+   */
+  plugins: ['~/plugins/v-tooltip'],
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Nuxt.js dev-modules
+   */
   buildModules: [
     '@nuxt/typescript-build',
     // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/composition-api/module'
+    '@nuxtjs/composition-api/module',
   ],
   /*
-  ** Nuxt.js modules
-  */
+   ** Nuxt.js modules
+   */
   modules: [
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
-    '@nuxtjs/dotenv'
+    '@nuxtjs/dotenv',
   ],
   /*
-  ** Build configuration
-  */
+   ** Build configuration
+   */
   build: {
     postcss: {
       preset: {
         features: {
-          customProperties: false
-        }
-      }
+          customProperties: false,
+        },
+      },
     },
     babel: {
-      plugins: [
-        ['@babel/plugin-proposal-private-methods', { loose: true }]
-      ]
+      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
     /*
-    ** You can extend webpack config here
-    */
-    extend (_config, _ctx) {
-    }
+     ** You can extend webpack config here
+     */
+    extend(_config, _ctx) {},
   },
   fontawesome: {
     icons: {
       solid: FontAwesome.solid,
       regular: FontAwesome.regular,
-      brands: FontAwesome.brands
-    }
+      brands: FontAwesome.brands,
+    },
   },
   render: {
-    csp: true
-  }
+    csp: false,
+  },
 }
