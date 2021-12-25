@@ -51,6 +51,7 @@ import familiesRaw from '~/assets/data/xml/family'
 import Family from '~/classes/Family'
 
 export default defineComponent({
+  name: 'FamiliIndex',
   setup () {
     const data = useAsync(async () => { return await 0 })
     const families = computed(() => {
