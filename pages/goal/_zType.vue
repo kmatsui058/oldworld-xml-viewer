@@ -1,28 +1,27 @@
 <template>
   <section class="section">
-    <h2 class="title is-2">
-      <nuxt-link to="/goal/">
-        Ambition
-      </nuxt-link>/ {{ goal.name }}
-    </h2>
+    <h2 class="title is-2"><nuxt-link to="/goal/"> Ambition </nuxt-link>/ {{ goal.name }}</h2>
   </section>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
+import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
 import families from '~/assets/data/xml/goal'
 import Goal from '~/classes/Goal'
 
-@Component({})
-export default class Index extends Vue {
-  get goal (): Goal {
-    const entry = families.Root.Entry.find((item) => {
-      return item.zType === this.$route.params.zType
+export default defineComponent({
+  setup() {
+    const route = useRoute()
+    const goal = computed((): Goal => {
+      const entry = families.Root.Entry.find((item) => {
+        return item.zType === route.value.params.zType
+      })
+      if (!entry) {
+        throw new Error('not found')
+      }
+      return new Goal(entry)
     })
-    if (!entry) {
-      throw new Error('not found')
-    }
-    return new Goal(entry)
-  }
-}
+    return { goal }
+  },
+})
 </script>

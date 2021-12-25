@@ -1,29 +1,29 @@
 <template>
   <section class="section">
-    <h2 class="title is-2">
-      Menu
-    </h2>
+    <h2 class="title is-2">Menu</h2>
     <aside class="menu">
-      <p class="menu-label">
-        General
-      </p>
+      <p class="menu-label">General</p>
       <GeneralNavigation />
     </aside>
   </section>
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
+import { computed, defineComponent } from '@nuxtjs/composition-api'
 import Nation from '~/classes/Nation'
 import nation from '~/assets/data/xml/nation'
 import GeneralNavigation from '~/components/navigation/GeneralNavigation.vue'
 
-@Component({ components: { GeneralNavigation } })
-export default class Index extends Vue {
-  get nations (): Nation[] {
-    return nation.Root.Entry.map((item) => {
-      return new Nation(item)
-    }).filter(nation => nation.name)
-  }
-}
+export default defineComponent({
+  name: 'IndexPage',
+  components: { GeneralNavigation },
+  setup() {
+    const nations = computed((): Nation[] => {
+      return nation.Root.Entry.map((item) => {
+        return new Nation(item)
+      }).filter((nation) => nation.name)
+    })
+    return { nations }
+  },
+})
 </script>
