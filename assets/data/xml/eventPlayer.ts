@@ -15,7 +15,7 @@
       },
       {
         "zType": "EVENTPLAYER_LEGITIMACY",
-        "iDie": "2",
+        "iDie": "4",
         "Bonus": "BONUS_EVENTPLAYER_LEGITIMACY"
       },
       {

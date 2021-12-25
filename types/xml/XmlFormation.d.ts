@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   UnitAsset?: ZType | string;
+  UnitMeshAnimatorAsset?: ZType | string;
   UnitPortraitAsset?: ZType | string;
   UnitProjectileAsset?: ZType | string;
   UnitProjectileImpactAudio?: ZType | string;

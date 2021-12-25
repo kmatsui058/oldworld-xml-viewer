@@ -6,53 +6,53 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_UNITTRAIT_MELEE",
-        "English": "Melee"
+        "en-US": "Melee"
       },
       {
         "zType": "TEXT_UNITTRAIT_RANGED",
-        "English": "Ranged"
+        "en-US": "Ranged"
       },
       {
         "zType": "TEXT_UNITTRAIT_INFANTRY",
-        "English": "Infantry"
+        "en-US": "Infantry"
       },
       {
         "zType": "TEXT_UNITTRAIT_POLEARM",
-        "English": "Polearm"
+        "en-US": "Polearm"
       },
       {
         "zType": "TEXT_UNITTRAIT_MOUNTED",
-        "English": "Mounted"
+        "en-US": "Mounted"
       },
       {
         "zType": "TEXT_UNITTRAIT_HORSE",
-        "English": "Horse"
+        "en-US": "Horse"
       },
       {
         "zType": "TEXT_UNITTRAIT_CAMEL",
-        "English": "Camel"
+        "en-US": "Camel"
       },
       {
         "zType": "TEXT_UNITTRAIT_ELEPHANT",
-        "English": "Elephant"
+        "en-US": "Elephant"
       },
       {
         "zType": "TEXT_UNITTRAIT_SIEGE",
-        "English": "Siege"
+        "en-US": "Siege"
       },
       {
         "zType": "TEXT_UNITTRAIT_SHIP",
-        "English": "Ship"
+        "en-US": "Ship"
       },
       {
         "zType": "TEXT_UNITTRAIT_TRIBAL",
-        "English": "Tribal"
+        "en-US": "Tribal"
       }
     ]
   }

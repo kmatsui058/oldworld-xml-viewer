@@ -9,7 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  NameFem?: ZType;
+  GenderedNames?: GenderedNames;
   Description?: ZType | string;
   Nickname?: ZType | string;
   GainTexts?: GainTexts;
@@ -36,6 +36,7 @@ export interface Entry {
   iOpinionLaws?: ZType | string;
   iOpinionCognomen?: ZType | string;
   iOpinionTrades?: ZType | string;
+  iAgentModifier?: ZType | string;
   iBirthModifier?: ZType | string;
   iTribeAllianceModifier?: ZType | string;
   iAllianceModifier?: ZType | string;
@@ -91,20 +92,27 @@ export interface AiDecadeProb {
   iValue?: string[];
 }
 export interface AiMortalityDieProb {
-  Pair?: Pair[];
+  Pair?: Pair2[];
 }
 export interface AiTraitOpinion {
-  Pair?: Pair;
+  Pair?: Pair2;
 }
 export interface AiRating {
-  Pair?: Pair[] | Pair;
+  Pair?: Pair2[] | Pair2;
 }
-export interface Pair {
+export interface Pair2 {
   zIndex: string;
   iValue: string;
 }
 export interface GainTexts {
   zValue?: string[] | string;
+}
+export interface GenderedNames {
+  Pair?: Pair;
+}
+export interface Pair {
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

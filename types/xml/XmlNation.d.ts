@@ -18,6 +18,9 @@ export interface Entry {
   UrbanAsset: ZType | string;
   Founder: ZType | string;
   FirstRuler: ZType | string;
+  LeaderTitle?: ZType;
+  HeirTitle?: ZType;
+  SuccessorTitle?: ZType;
   FirstBuild: ZType | string;
   EffectPlayer: ZType | string;
   MapElementNames: ZType | string;

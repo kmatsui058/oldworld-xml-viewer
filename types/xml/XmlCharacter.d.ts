@@ -12,9 +12,10 @@ export interface Entry {
   FirstName?: ZType | string;
   PreferredPortrait?: ZType | string;
   Cognomen?: ZType;
+  Title?: ZType | string;
   PlayerNation?: ZType | string;
   Nation?: ZType;
-  Tribe?: ZType | string;
+  Tribe?: ZType;
   Family?: ZType;
   Father?: ZType | string;
   Mother?: ZType | string;

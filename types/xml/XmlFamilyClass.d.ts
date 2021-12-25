@@ -49,6 +49,8 @@ export interface Entry {
   aiDowryYieldBase: AiDowryYieldBase;
   aiDowryYieldPer: AiDowryYieldBase;
   aiLuxuryMissingOpinion: AiLuxuryMissingOpinion;
+  aiImprovementOpinion?: AiDowryYieldBase;
+  aiImprovementClassOpinion?: AiDowryYieldBase;
   aiLawOpinion: AiLawOpinion;
   aiTraitDie: AiLuxuryMissingOpinion;
   aeLuxuryEffectCity: AeLuxuryEffectCity;

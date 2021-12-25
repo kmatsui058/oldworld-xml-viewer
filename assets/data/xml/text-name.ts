@@ -6,2861 +6,2861 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_NAME_ADAD_NIRARI",
-        "English": "Adad-Nirari"
+        "en-US": "Adad-Nirari"
       },
       {
         "zType": "TEXT_NAME_ADAMU",
-        "English": "Adamu"
+        "en-US": "Adamu"
       },
       {
         "zType": "TEXT_NAME_AMINU",
-        "English": "Aminu"
+        "en-US": "Aminu"
       },
       {
         "zType": "TEXT_NAME_ASHUR_DAN",
-        "English": "Ashur-Dan"
+        "en-US": "Ashur-Dan"
       },
       {
         "zType": "TEXT_NAME_ASHUR_NIRARI",
-        "English": "Ashur-Nirari"
+        "en-US": "Ashur-Nirari"
       },
       {
         "zType": "TEXT_NAME_ASHUR_UBALLIT",
-        "English": "Ashur-Uballit"
+        "en-US": "Ashur-Uballit"
       },
       {
         "zType": "TEXT_NAME_ASHURBANIPAL",
-        "English": "Ashurbanipal"
+        "en-US": "Ashurbanipal"
       },
       {
         "zType": "TEXT_NAME_BAZAYA",
-        "English": "Bazaya"
+        "en-US": "Bazaya"
       },
       {
         "zType": "TEXT_NAME_ENLIL_NASIR",
-        "English": "Enlil-nasir"
+        "en-US": "Enlil-nasir"
       },
       {
         "zType": "TEXT_NAME_ERIBA_ADAD",
-        "English": "Eriba-Adad"
+        "en-US": "Eriba-Adad"
       },
       {
         "zType": "TEXT_NAME_ESARHADDON",
-        "English": "Esarhaddon"
+        "en-US": "Esarhaddon"
       },
       {
         "zType": "TEXT_NAME_GIRITU",
-        "English": "Giritu"
+        "en-US": "Giritu"
       },
       {
         "zType": "TEXT_NAME_ISHME_DAGAN",
-        "English": "Ishme-Dagan"
+        "en-US": "Ishme-Dagan"
       },
       {
         "zType": "TEXT_NAME_NIMEDU",
-        "English": "Nimedu"
+        "en-US": "Nimedu"
       },
       {
         "zType": "TEXT_NAME_PUZUR_ASHUR",
-        "English": "Puzur-Ashur"
+        "en-US": "Puzur-Ashur"
       },
       {
         "zType": "TEXT_NAME_RIMUT_ADAD",
-        "English": "Rimut-Adad"
+        "en-US": "Rimut-Adad"
       },
       {
         "zType": "TEXT_NAME_SENNACHERIB",
-        "English": "Sennacherib"
+        "en-US": "Sennacherib"
       },
       {
         "zType": "TEXT_NAME_SHALMANESER",
-        "English": "Shalmaneser"
+        "en-US": "Shalmaneser"
       },
       {
         "zType": "TEXT_NAME_SHAMASH_SHUM",
-        "English": "Shamash-Shum"
+        "en-US": "Shamash-Shum"
       },
       {
         "zType": "TEXT_NAME_SHAMSHI_ADAD",
-        "English": "Shamshi-Adad"
+        "en-US": "Shamshi-Adad"
       },
       {
         "zType": "TEXT_NAME_SULILI",
-        "English": "Sulili"
+        "en-US": "Sulili"
       },
       {
         "zType": "TEXT_NAME_TIGLATH_PILESER",
-        "English": "Tiglath-Pileser"
+        "en-US": "Tiglath-Pileser"
       },
       {
         "zType": "TEXT_NAME_TUKULTI_WAR",
-        "English": "Tukulti-Ninurta"
+        "en-US": "Tukulti-Ninurta"
       },
       {
         "zType": "TEXT_NAME_USHPIA",
-        "English": "Ushpia"
+        "en-US": "Ushpia"
       },
       {
         "zType": "TEXT_NAME_ZUBIR",
-        "English": "Zubir"
+        "en-US": "Zubir"
       },
       {
         "zType": "TEXT_NAME_ADDATI",
-        "English": "Addati"
+        "en-US": "Addati"
       },
       {
         "zType": "TEXT_NAME_AHAT_ABISHA",
-        "English": "Ahat-Abisha"
+        "en-US": "Ahat-Abisha"
       },
       {
         "zType": "TEXT_NAME_AHAT_ABU",
-        "English": "Ahat-Abu"
+        "en-US": "Ahat-Abu"
       },
       {
         "zType": "TEXT_NAME_AHI_TALLI",
-        "English": "Ahi-Talli"
+        "en-US": "Ahi-Talli"
       },
       {
         "zType": "TEXT_NAME_AKBARA",
-        "English": "Akbara"
+        "en-US": "Akbara"
       },
       {
         "zType": "TEXT_NAME_ATALIYA",
-        "English": "Ataliya"
+        "en-US": "Ataliya"
       },
       {
         "zType": "TEXT_NAME_ATTAR_PALTI",
-        "English": "Attar-palti"
+        "en-US": "Attar-palti"
       },
       {
         "zType": "TEXT_NAME_BALHITI",
-        "English": "Balihiti"
+        "en-US": "Balihiti"
       },
       {
         "zType": "TEXT_NAME_BANITU",
-        "English": "Banitu"
+        "en-US": "Banitu"
       },
       {
         "zType": "TEXT_NAME_ESHARRA_HAMMAT",
-        "English": "Esharra-hammat"
+        "en-US": "Esharra-hammat"
       },
       {
         "zType": "TEXT_NAME_EZIPTU",
-        "English": "Eziptu"
+        "en-US": "Eziptu"
       },
       {
         "zType": "TEXT_NAME_HAMA",
-        "English": "Hama"
+        "en-US": "Hama"
       },
       {
         "zType": "TEXT_NAME_KABALAIA",
-        "English": "Kabalaia"
+        "en-US": "Kabalaia"
       },
       {
         "zType": "TEXT_NAME_KIDINITI",
-        "English": "Kidiniti"
+        "en-US": "Kidiniti"
       },
       {
         "zType": "TEXT_NAME_LIBBALI_SHARRAT",
-        "English": "Libbali-Sharrat"
+        "en-US": "Libbali-Sharrat"
       },
       {
         "zType": "TEXT_NAME_MARQIHITA",
-        "English": "Marqihita"
+        "en-US": "Marqihita"
       },
       {
         "zType": "TEXT_NAME_NAQIA",
-        "English": "Naqi'a"
+        "en-US": "Naqi'a"
       },
       {
         "zType": "TEXT_NAME_NUR_EKALLI",
-        "English": "Nur-ekalli"
+        "en-US": "Nur-ekalli"
       },
       {
         "zType": "TEXT_NAME_SAMMU_RAMAT",
-        "English": "Sammu-ramat"
+        "en-US": "Sammu-ramat"
       },
       {
         "zType": "TEXT_NAME_SARAIA",
-        "English": "Saraia"
+        "en-US": "Saraia"
       },
       {
         "zType": "TEXT_NAME_SHADDITU",
-        "English": "Shadditu"
+        "en-US": "Shadditu"
       },
       {
         "zType": "TEXT_NAME_TASHMETU_SHARRAT",
-        "English": "Tashmetu-sharrat"
+        "en-US": "Tashmetu-sharrat"
       },
       {
         "zType": "TEXT_NAME_YABA",
-        "English": "Yaba"
+        "en-US": "Yaba"
       },
       {
         "zType": "TEXT_NAME_ZARPANITU",
-        "English": "Zarpanitu"
+        "en-US": "Zarpanitu"
       },
       {
         "zType": "TEXT_NAME_ABI_RATTASH",
-        "English": "Abi-Rattash"
+        "en-US": "Abi-Rattash"
       },
       {
         "zType": "TEXT_NAME_ABIL_SIN",
-        "English": "Abil-Sin"
+        "en-US": "Abil-Sin"
       },
       {
         "zType": "TEXT_NAME_AGUM",
-        "English": "Agum"
+        "en-US": "Agum"
       },
       {
         "zType": "TEXT_NAME_AMEL_MARDUK",
-        "English": "Amel-Marduk"
+        "en-US": "Amel-Marduk"
       },
       {
         "zType": "TEXT_NAME_BURNABURIASH",
-        "English": "Burnaburiash"
+        "en-US": "Burnaburiash"
       },
       {
         "zType": "TEXT_NAME_ERIBA",
-        "English": "Eriba"
+        "en-US": "Eriba"
       },
       {
         "zType": "TEXT_NAME_GANDASH",
-        "English": "Gandash"
+        "en-US": "Gandash"
       },
       {
         "zType": "TEXT_NAME_HAMMURABI",
-        "English": "Hammurabi"
+        "en-US": "Hammurabi"
       },
       {
         "zType": "TEXT_NAME_IMMERUM",
-        "English": "Immerum"
+        "en-US": "Immerum"
       },
       {
         "zType": "TEXT_NAME_KARA_HARDASH",
-        "English": "Kara-hardash"
+        "en-US": "Kara-hardash"
       },
       {
         "zType": "TEXT_NAME_KASHTILIASH",
-        "English": "Kashtiliash"
+        "en-US": "Kashtiliash"
       },
       {
         "zType": "TEXT_NAME_KUDUR_ENLIL",
-        "English": "Kudur-Enlil"
+        "en-US": "Kudur-Enlil"
       },
       {
         "zType": "TEXT_NAME_KURIGALZU",
-        "English": "Kurigalzu"
+        "en-US": "Kurigalzu"
       },
       {
         "zType": "TEXT_NAME_LABASHI_MARDUK",
-        "English": "Labashi-Marduk"
+        "en-US": "Labashi-Marduk"
       },
       {
         "zType": "TEXT_NAME_LUTIPRI",
-        "English": "Lutipri"
+        "en-US": "Lutipri"
       },
       {
         "zType": "TEXT_NAME_MELI_SHIPAK",
-        "English": "Meli-Shipak"
+        "en-US": "Meli-Shipak"
       },
       {
         "zType": "TEXT_NAME_NABONIDUS",
-        "English": "Nabonidus"
+        "en-US": "Nabonidus"
       },
       {
         "zType": "TEXT_NAME_NABOPOLASSAR",
-        "English": "Nabopolassar"
+        "en-US": "Nabopolassar"
       },
       {
         "zType": "TEXT_NAME_NEBUCHADNEZZAR",
-        "English": "Nebuchadnezzar"
+        "en-US": "Nebuchadnezzar"
       },
       {
         "zType": "TEXT_NAME_MARDUK_NADIN_AHI",
-        "English": "Marduk-Nadin-Ahi"
+        "en-US": "Marduk-Nadin-Ahi"
       },
       {
         "zType": "TEXT_NAME_NERIGLISSAR",
-        "English": "Neriglissar"
+        "en-US": "Neriglissar"
       },
       {
         "zType": "TEXT_NAME_SABIUM",
-        "English": "Sabium"
+        "en-US": "Sabium"
       },
       {
         "zType": "TEXT_NAME_SHUMA",
-        "English": "Shuma"
+        "en-US": "Shuma"
       },
       {
         "zType": "TEXT_NAME_SIN_MUBALLIT",
-        "English": "Sin-Muballit"
+        "en-US": "Sin-Muballit"
       },
       {
         "zType": "TEXT_NAME_SU_ABU",
-        "English": "Su-abu"
+        "en-US": "Su-abu"
       },
       {
         "zType": "TEXT_NAME_ULAMBURIASH",
-        "English": "Ulamburiash"
+        "en-US": "Ulamburiash"
       },
       {
         "zType": "TEXT_NAME_AHATSUNU",
-        "English": "Ahatsunu"
+        "en-US": "Ahatsunu"
       },
       {
         "zType": "TEXT_NAME_ALITTUM",
-        "English": "Alittum"
+        "en-US": "Alittum"
       },
       {
         "zType": "TEXT_NAME_AMATA",
-        "English": "Amata"
+        "en-US": "Amata"
       },
       {
         "zType": "TEXT_NAME_BELESSUNU",
-        "English": "Belessunu"
+        "en-US": "Belessunu"
       },
       {
         "zType": "TEXT_NAME_BELTUM_RIMENNI",
-        "English": "Beltum-rimeni"
+        "en-US": "Beltum-rimeni"
       },
       {
         "zType": "TEXT_NAME_DAMIQTUM",
-        "English": "Damiqtum"
+        "en-US": "Damiqtum"
       },
       {
         "zType": "TEXT_NAME_ERISHTI_AYA",
-        "English": "Erishti-Aya"
+        "en-US": "Erishti-Aya"
       },
       {
         "zType": "TEXT_NAME_ETTU",
-        "English": "Ettu"
+        "en-US": "Ettu"
       },
       {
         "zType": "TEXT_NAME_GASHANSUNU",
-        "English": "Gashansunu"
+        "en-US": "Gashansunu"
       },
       {
         "zType": "TEXT_NAME_GEMETI",
-        "English": "Gemeti"
+        "en-US": "Gemeti"
       },
       {
         "zType": "TEXT_NAME_HUMUSI",
-        "English": "Humusi"
+        "en-US": "Humusi"
       },
       {
         "zType": "TEXT_NAME_ILTANI",
-        "English": "Iltani"
+        "en-US": "Iltani"
       },
       {
         "zType": "TEXT_NAME_SUN_GAMELAT",
-        "English": "Ishtar-gamelat"
+        "en-US": "Ishtar-gamelat"
       },
       {
         "zType": "TEXT_NAME_LAMASSANI",
-        "English": "Lamassani"
+        "en-US": "Lamassani"
       },
       {
         "zType": "TEXT_NAME_MELULATUM",
-        "English": "Melulatum"
+        "en-US": "Melulatum"
       },
       {
         "zType": "TEXT_NAME_NIDINTU",
-        "English": "Nidintu"
+        "en-US": "Nidintu"
       },
       {
         "zType": "TEXT_NAME_NINSUNU",
-        "English": "Ninsunu"
+        "en-US": "Ninsunu"
       },
       {
         "zType": "TEXT_NAME_NISHI_INISHU",
-        "English": "Nishi-Inishu"
+        "en-US": "Nishi-Inishu"
       },
       {
         "zType": "TEXT_NAME_PALATUM",
-        "English": "Palatum"
+        "en-US": "Palatum"
       },
       {
         "zType": "TEXT_NAME_RAMTU",
-        "English": "Ramtu"
+        "en-US": "Ramtu"
       },
       {
         "zType": "TEXT_NAME_SHERITUM",
-        "English": "Sheritum"
+        "en-US": "Sheritum"
       },
       {
         "zType": "TEXT_NAME_TABNI_SUN",
-        "English": "Tabni-Ishtar"
+        "en-US": "Tabni-Ishtar"
       },
       {
         "zType": "TEXT_NAME_UBALNU",
-        "English": "Ubalnu"
+        "en-US": "Ubalnu"
       },
       {
         "zType": "TEXT_NAME_UMMI_NINGAL",
-        "English": "Ummi-Ningal"
+        "en-US": "Ummi-Ningal"
       },
       {
         "zType": "TEXT_NAME_ZAKITI",
-        "English": "Zakiti"
+        "en-US": "Zakiti"
       },
       {
         "zType": "TEXT_NAME_ABDOSIR",
-        "English": "Abdosir"
+        "en-US": "Abdosir"
       },
       {
         "zType": "TEXT_NAME_ACERBAS",
-        "English": "Acerbas"
+        "en-US": "Acerbas"
       },
       {
         "zType": "TEXT_NAME_ADHERBAL",
-        "English": "Adherbal"
+        "en-US": "Adherbal"
       },
       {
         "zType": "TEXT_NAME_ADONIBAAL",
-        "English": "Adonibaal"
+        "en-US": "Adonibaal"
       },
       {
         "zType": "TEXT_NAME_ARMILIK",
-        "English": "Armilik"
+        "en-US": "Armilik"
       },
       {
         "zType": "TEXT_NAME_AZRUBAAL",
-        "English": "Azrubaal"
+        "en-US": "Azrubaal"
       },
       {
         "zType": "TEXT_NAME_BAALHANNO",
-        "English": "Baalhanno"
+        "en-US": "Baalhanno"
       },
       {
         "zType": "TEXT_NAME_BAELBAD",
-        "English": "Baelbad"
+        "en-US": "Baelbad"
       },
       {
         "zType": "TEXT_NAME_BODASHTART",
-        "English": "Bodashtart"
+        "en-US": "Bodashtart"
       },
       {
         "zType": "TEXT_NAME_BOMILCAR",
-        "English": "Bomilcar"
+        "en-US": "Bomilcar"
       },
       {
         "zType": "TEXT_NAME_BOSTAR",
-        "English": "Bostar"
+        "en-US": "Bostar"
       },
       {
         "zType": "TEXT_NAME_CARTHALO",
-        "English": "Carthalo"
+        "en-US": "Carthalo"
       },
       {
         "zType": "TEXT_NAME_ESHMUNAZAR",
-        "English": "Eshmunazar"
+        "en-US": "Eshmunazar"
       },
       {
         "zType": "TEXT_NAME_FEROAN",
-        "English": "Feroan"
+        "en-US": "Feroan"
       },
       {
         "zType": "TEXT_NAME_GISCO",
-        "English": "Gisco"
+        "en-US": "Gisco"
       },
       {
         "zType": "TEXT_NAME_HAMILCAR",
-        "English": "Hamilcar"
+        "en-US": "Hamilcar"
       },
       {
         "zType": "TEXT_NAME_HANNIBAL",
-        "English": "Hannibal"
+        "en-US": "Hannibal"
       },
       {
         "zType": "TEXT_NAME_HANNO",
-        "English": "Hanno"
+        "en-US": "Hanno"
       },
       {
         "zType": "TEXT_NAME_HASDRUBAL",
-        "English": "Hasdrubal"
+        "en-US": "Hasdrubal"
       },
       {
         "zType": "TEXT_NAME_HISHMAT",
-        "English": "Hishmat"
+        "en-US": "Hishmat"
       },
       {
         "zType": "TEXT_NAME_HIMILCO",
-        "English": "Himilco"
+        "en-US": "Himilco"
       },
       {
         "zType": "TEXT_NAME_HIRAM",
-        "English": "Hiram"
+        "en-US": "Hiram"
       },
       {
         "zType": "TEXT_NAME_IBOHAM",
-        "English": "Iboham"
+        "en-US": "Iboham"
       },
       {
         "zType": "TEXT_NAME_MAGO",
-        "English": "Mago"
+        "en-US": "Mago"
       },
       {
         "zType": "TEXT_NAME_MAHARBAL",
-        "English": "Maharbal"
+        "en-US": "Maharbal"
       },
       {
         "zType": "TEXT_NAME_MALCHUS",
-        "English": "Malchus"
+        "en-US": "Malchus"
       },
       {
         "zType": "TEXT_NAME_MATTAN",
-        "English": "Mattan"
+        "en-US": "Mattan"
       },
       {
         "zType": "TEXT_NAME_MELAK",
-        "English": "Melak"
+        "en-US": "Melak"
       },
       {
         "zType": "TEXT_NAME_NAVOEL",
-        "English": "Navoel"
+        "en-US": "Navoel"
       },
       {
         "zType": "TEXT_NAME_OZMELEK",
-        "English": "Ozmelek"
+        "en-US": "Ozmelek"
       },
       {
         "zType": "TEXT_NAME_PYGMALION",
-        "English": "Pygmalion"
+        "en-US": "Pygmalion"
       },
       {
         "zType": "TEXT_NAME_QAMR",
-        "English": "Qamr"
+        "en-US": "Qamr"
       },
       {
         "zType": "TEXT_NAME_QODMUSH",
-        "English": "Qodmush"
+        "en-US": "Qodmush"
       },
       {
         "zType": "TEXT_NAME_RABIH",
-        "English": "Rabih"
+        "en-US": "Rabih"
       },
       {
         "zType": "TEXT_NAME_SHADA",
-        "English": "Shada"
+        "en-US": "Shada"
       },
       {
         "zType": "TEXT_NAME_YUTPAN",
-        "English": "Yutpan"
+        "en-US": "Yutpan"
       },
       {
         "zType": "TEXT_NAME_ZOUSHAN",
-        "English": "Zoushan"
+        "en-US": "Zoushan"
       },
       {
         "zType": "TEXT_NAME_KARALY",
-        "English": "Karaly"
+        "en-US": "Karaly"
       },
       {
         "zType": "TEXT_NAME_AMATBAAL",
-        "English": "Amatbaal"
+        "en-US": "Amatbaal"
       },
       {
         "zType": "TEXT_NAME_AMATMELQART",
-        "English": "Amatmelqart"
+        "en-US": "Amatmelqart"
       },
       {
         "zType": "TEXT_NAME_AMATMILIK",
-        "English": "Amatmilik"
+        "en-US": "Amatmilik"
       },
       {
         "zType": "TEXT_NAME_ANBAR",
-        "English": "Anbar"
+        "en-US": "Anbar"
       },
       {
         "zType": "TEXT_NAME_ARISHAT",
-        "English": "Arishat"
+        "en-US": "Arishat"
       },
       {
         "zType": "TEXT_NAME_ARISHATBAAL",
-        "English": "Arishatbaal"
+        "en-US": "Arishatbaal"
       },
       {
         "zType": "TEXT_NAME_ASHDANAT",
-        "English": "Ashdanat"
+        "en-US": "Ashdanat"
       },
       {
         "zType": "TEXT_NAME_ASHTARTE",
-        "English": "Ashtarte"
+        "en-US": "Ashtarte"
       },
       {
         "zType": "TEXT_NAME_BAALZEBEL",
-        "English": "Baalzebel"
+        "en-US": "Baalzebel"
       },
       {
         "zType": "TEXT_NAME_BATBAAL",
-        "English": "Batbaal"
+        "en-US": "Batbaal"
       },
       {
         "zType": "TEXT_NAME_BIRICH",
-        "English": "Birich"
+        "en-US": "Birich"
       },
       {
         "zType": "TEXT_NAME_BIRQOT",
-        "English": "Birqot"
+        "en-US": "Birqot"
       },
       {
         "zType": "TEXT_NAME_DIDO",
-        "English": "Dido"
-      },
-      {
-        "zType": "TEXT_NAME_ACERBUS",
-        "English": "Acerbus"
+        "en-US": "Dido"
       },
       {
         "zType": "TEXT_NAME_ELISSAR",
-        "English": "Elissar"
+        "en-US": "Elissar"
       },
       {
         "zType": "TEXT_NAME_FAIRUZ",
-        "English": "Fairuz"
+        "en-US": "Fairuz"
       },
       {
         "zType": "TEXT_NAME_HANBI",
-        "English": "Hanbi"
+        "en-US": "Hanbi"
       },
       {
         "zType": "TEXT_NAME_HANNAH",
-        "English": "Hannah"
+        "en-US": "Hannah"
       },
       {
         "zType": "TEXT_NAME_ILDASH",
-        "English": "Ildash"
+        "en-US": "Ildash"
       },
       {
         "zType": "TEXT_NAME_IMILCE",
-        "English": "Imilce"
+        "en-US": "Imilce"
       },
       {
         "zType": "TEXT_NAME_MUTUNBAAL",
-        "English": "Mutunbaal"
+        "en-US": "Mutunbaal"
       },
       {
         "zType": "TEXT_NAME_NASMA",
-        "English": "Nasma"
+        "en-US": "Nasma"
       },
       {
         "zType": "TEXT_NAME_OTR",
-        "English": "Otr"
+        "en-US": "Otr"
       },
       {
         "zType": "TEXT_NAME_SAPANBAAL",
-        "English": "Sapanbaal"
+        "en-US": "Sapanbaal"
       },
       {
         "zType": "TEXT_NAME_SHAMSHYE",
-        "English": "Shamshye"
+        "en-US": "Shamshye"
       },
       {
         "zType": "TEXT_NAME_SOPHONISBA",
-        "English": "Sophonisba"
+        "en-US": "Sophonisba"
       },
       {
         "zType": "TEXT_NAME_TABIBA",
-        "English": "Tabiba"
+        "en-US": "Tabiba"
       },
       {
         "zType": "TEXT_NAME_THUALATH",
-        "English": "Thualath"
+        "en-US": "Thualath"
       },
       {
         "zType": "TEXT_NAME_THUBABATH",
-        "English": "Thubabath"
+        "en-US": "Thubabath"
       },
       {
         "zType": "TEXT_NAME_UMASHTART",
-        "English": "Umashtart"
+        "en-US": "Umashtart"
       },
       {
         "zType": "TEXT_NAME_YASMIN",
-        "English": "Yasmin"
+        "en-US": "Yasmin"
       },
       {
         "zType": "TEXT_NAME_YZBAAL",
-        "English": "Yzbaal"
+        "en-US": "Yzbaal"
       },
       {
         "zType": "TEXT_NAME_ZANBAK",
-        "English": "Zanbak"
+        "en-US": "Zanbak"
       },
       {
         "zType": "TEXT_NAME_ZOHUR",
-        "English": "Zohur"
+        "en-US": "Zohur"
       },
       {
         "zType": "TEXT_NAME_ZMORROD",
-        "English": "Zmorrod"
+        "en-US": "Zmorrod"
       },
       {
         "zType": "TEXT_NAME_ZYARA",
-        "English": "Zyara"
+        "en-US": "Zyara"
       },
       {
         "zType": "TEXT_NAME_ZYABQOT",
-        "English": "Zyabqot"
+        "en-US": "Zyabqot"
       },
       {
         "zType": "TEXT_NAME_AHMOSE",
-        "English": "Ahmose"
+        "en-US": "Ahmose"
       },
       {
         "zType": "TEXT_NAME_AKHENATEN",
-        "English": "Akhenaten"
+        "en-US": "Akhenaten"
       },
       {
         "zType": "TEXT_NAME_AMENEMHAT",
-        "English": "Amenemhat"
+        "en-US": "Amenemhat"
       },
       {
         "zType": "TEXT_NAME_AMENHOTEP",
-        "English": "Amenhotep"
+        "en-US": "Amenhotep"
       },
       {
         "zType": "TEXT_NAME_API",
-        "English": "Api"
+        "en-US": "Api"
       },
       {
         "zType": "TEXT_NAME_BESIS",
-        "English": "Besis"
+        "en-US": "Besis"
       },
       {
         "zType": "TEXT_NAME_DJEDEFRE",
-        "English": "Djedefre"
+        "en-US": "Djedefre"
       },
       {
         "zType": "TEXT_NAME_DJOSER",
-        "English": "Djoser"
+        "en-US": "Djoser"
       },
       {
         "zType": "TEXT_NAME_HORAPIS",
-        "English": "Horapis"
+        "en-US": "Horapis"
       },
       {
         "zType": "TEXT_NAME_HOREMHEB",
-        "English": "Horemheb"
+        "en-US": "Horemheb"
       },
       {
         "zType": "TEXT_NAME_INET",
-        "English": "Inet"
+        "en-US": "Inet"
       },
       {
         "zType": "TEXT_NAME_KAMOSE",
-        "English": "Kamose"
+        "en-US": "Kamose"
       },
       {
         "zType": "TEXT_NAME_KHAFRE",
-        "English": "Khafre"
+        "en-US": "Khafre"
       },
       {
         "zType": "TEXT_NAME_KHUFU",
-        "English": "Khufu"
+        "en-US": "Khufu"
       },
       {
         "zType": "TEXT_NAME_MENKAURE",
-        "English": "Menkaure"
+        "en-US": "Menkaure"
       },
       {
         "zType": "TEXT_NAME_MENTUHOTEP",
-        "English": "Mentuhotep"
+        "en-US": "Mentuhotep"
       },
       {
         "zType": "TEXT_NAME_MERENPTAH",
-        "English": "Merenptah"
+        "en-US": "Merenptah"
       },
       {
         "zType": "TEXT_NAME_NARMER",
-        "English": "Narmer"
+        "en-US": "Narmer"
       },
       {
         "zType": "TEXT_NAME_NEFERKARE",
-        "English": "Neferkare"
+        "en-US": "Neferkare"
       },
       {
         "zType": "TEXT_NAME_PEPI",
-        "English": "Pepi"
+        "en-US": "Pepi"
       },
       {
         "zType": "TEXT_NAME_PSAMTIK",
-        "English": "Psamtik"
+        "en-US": "Psamtik"
       },
       {
         "zType": "TEXT_NAME_SENUSRET",
-        "English": "Senusret"
+        "en-US": "Senusret"
       },
       {
         "zType": "TEXT_NAME_SETI",
-        "English": "Seti"
+        "en-US": "Seti"
       },
       {
         "zType": "TEXT_NAME_THUTMOSE",
-        "English": "Thutmose"
+        "en-US": "Thutmose"
       },
       {
         "zType": "TEXT_NAME_TUTANKHAMUN",
-        "English": "Tutankhamun"
+        "en-US": "Tutankhamun"
       },
       {
         "zType": "TEXT_NAME_WERHETEP",
-        "English": "Werhetep"
+        "en-US": "Werhetep"
       },
       {
         "zType": "TEXT_NAME_ANKHESENAMUN",
-        "English": "Ankhesenamun"
+        "en-US": "Ankhesenamun"
       },
       {
         "zType": "TEXT_NAME_BERENIB",
-        "English": "Berenib"
+        "en-US": "Berenib"
       },
       {
         "zType": "TEXT_NAME_ESENCHEBIS",
-        "English": "Esenchebis"
+        "en-US": "Esenchebis"
       },
       {
         "zType": "TEXT_NAME_HATSHEPSUT",
-        "English": "Hatshepsut"
+        "en-US": "Hatshepsut"
       },
       {
         "zType": "TEXT_NAME_HETEPHERES",
-        "English": "Hetepheres"
+        "en-US": "Hetepheres"
       },
       {
         "zType": "TEXT_NAME_IPUT",
-        "English": "Iput"
+        "en-US": "Iput"
       },
       {
         "zType": "TEXT_NAME_ISIS",
-        "English": "Isis"
+        "en-US": "Isis"
       },
       {
         "zType": "TEXT_NAME_KHENUT",
-        "English": "Khenut"
+        "en-US": "Khenut"
       },
       {
         "zType": "TEXT_NAME_MEHAA",
-        "English": "Mehaa"
+        "en-US": "Mehaa"
       },
       {
         "zType": "TEXT_NAME_MERESANKH",
-        "English": "Meresankh"
+        "en-US": "Meresankh"
       },
       {
         "zType": "TEXT_NAME_MERNIT",
-        "English": "Mernit"
+        "en-US": "Mernit"
       },
       {
         "zType": "TEXT_NAME_NEBET",
-        "English": "Nebet"
+        "en-US": "Nebet"
       },
       {
         "zType": "TEXT_NAME_NEBWENET",
-        "English": "Nebwenet"
+        "en-US": "Nebwenet"
       },
       {
         "zType": "TEXT_NAME_NEFERTARI",
-        "English": "Nefertari"
+        "en-US": "Nefertari"
       },
       {
         "zType": "TEXT_NAME_NEFERTITI",
-        "English": "Nefertiti"
+        "en-US": "Nefertiti"
       },
       {
         "zType": "TEXT_NAME_NEFERURE",
-        "English": "Neferure"
+        "en-US": "Neferure"
       },
       {
         "zType": "TEXT_NAME_NITIQRET",
-        "English": "Nitiqret"
+        "en-US": "Nitiqret"
       },
       {
         "zType": "TEXT_NAME_REKHETRE",
-        "English": "Rekhetre"
+        "en-US": "Rekhetre"
       },
       {
         "zType": "TEXT_NAME_SEBAT",
-        "English": "Sebat"
+        "en-US": "Sebat"
       },
       {
         "zType": "TEXT_NAME_SEMAT",
-        "English": "Semat"
+        "en-US": "Semat"
       },
       {
         "zType": "TEXT_NAME_SENMINIS",
-        "English": "Senminis"
+        "en-US": "Senminis"
       },
       {
         "zType": "TEXT_NAME_SERETHOR",
-        "English": "Serethor"
+        "en-US": "Serethor"
       },
       {
         "zType": "TEXT_NAME_SOBEKNEFERU",
-        "English": "Sobekneferu"
+        "en-US": "Sobekneferu"
       },
       {
         "zType": "TEXT_NAME_TETOBASTIS",
-        "English": "Tetobastis"
+        "en-US": "Tetobastis"
       },
       {
         "zType": "TEXT_NAME_TIYE",
-        "English": "Tiye"
+        "en-US": "Tiye"
       },
       {
         "zType": "TEXT_NAME_TWOSRET",
-        "English": "Twosret"
+        "en-US": "Twosret"
       },
       {
         "zType": "TEXT_NAME_UDJEBTEN",
-        "English": "Udjebten"
+        "en-US": "Udjebten"
       },
       {
         "zType": "TEXT_NAME_AEACIDES",
-        "English": "Aeacides"
+        "en-US": "Aeacides"
       },
       {
         "zType": "TEXT_NAME_AGIS",
-        "English": "Agis"
+        "en-US": "Agis"
       },
       {
         "zType": "TEXT_NAME_ALCETAS",
-        "English": "Alcetas"
+        "en-US": "Alcetas"
       },
       {
         "zType": "TEXT_NAME_ALCIBIADES",
-        "English": "Alcibiades"
+        "en-US": "Alcibiades"
       },
       {
         "zType": "TEXT_NAME_ALEXANDER",
-        "English": "Alexander"
+        "en-US": "Alexander"
       },
       {
         "zType": "TEXT_NAME_ANTIGONUS",
-        "English": "Antigonus"
+        "en-US": "Antigonus"
       },
       {
         "zType": "TEXT_NAME_ANTIOCHUS",
-        "English": "Antiochus"
+        "en-US": "Antiochus"
       },
       {
         "zType": "TEXT_NAME_ANTIPATER",
-        "English": "Antipater"
+        "en-US": "Antipater"
       },
       {
         "zType": "TEXT_NAME_ARISTANDER",
-        "English": "Aristander"
+        "en-US": "Aristander"
       },
       {
         "zType": "TEXT_NAME_ARYBBAS",
-        "English": "Arybbas"
+        "en-US": "Arybbas"
       },
       {
         "zType": "TEXT_NAME_ARYMBAS",
-        "English": "Arymbas"
+        "en-US": "Arymbas"
       },
       {
         "zType": "TEXT_NAME_ATTALUS",
-        "English": "Attalus"
+        "en-US": "Attalus"
       },
       {
         "zType": "TEXT_NAME_BALACRUS",
-        "English": "Balacrus"
+        "en-US": "Balacrus"
       },
       {
         "zType": "TEXT_NAME_BARDYLIS",
-        "English": "Bardylis"
+        "en-US": "Bardylis"
       },
       {
         "zType": "TEXT_NAME_CASSANDER",
-        "English": "Cassander"
+        "en-US": "Cassander"
       },
       {
         "zType": "TEXT_NAME_CHRYSEIS",
-        "English": "Chryseis"
+        "en-US": "Chryseis"
       },
       {
         "zType": "TEXT_NAME_CIMON",
-        "English": "Cimon"
+        "en-US": "Cimon"
       },
       {
         "zType": "TEXT_NAME_CLEISTHENES",
-        "English": "Cleisthenes"
+        "en-US": "Cleisthenes"
       },
       {
         "zType": "TEXT_NAME_CLEITARCHUS",
-        "English": "Cleitarchus"
+        "en-US": "Cleitarchus"
       },
       {
         "zType": "TEXT_NAME_CLEOMENES",
-        "English": "Cleomenes"
+        "en-US": "Cleomenes"
       },
       {
         "zType": "TEXT_NAME_CRATERUS",
-        "English": "Craterus"
+        "en-US": "Craterus"
       },
       {
         "zType": "TEXT_NAME_DERDAS",
-        "English": "Derdas"
+        "en-US": "Derdas"
       },
       {
         "zType": "TEXT_NAME_DEMETRIUS",
-        "English": "Demetrius"
+        "en-US": "Demetrius"
       },
       {
         "zType": "TEXT_NAME_DIODORUS",
-        "English": "Diodorus"
+        "en-US": "Diodorus"
       },
       {
         "zType": "TEXT_NAME_HEPHAESTION",
-        "English": "Hephaestion"
+        "en-US": "Hephaestion"
       },
       {
         "zType": "TEXT_NAME_HIPPIAS",
-        "English": "Hippias"
+        "en-US": "Hippias"
       },
       {
         "zType": "TEXT_NAME_HIPPOSTRATUS",
-        "English": "Hippostratus"
+        "en-US": "Hippostratus"
       },
       {
         "zType": "TEXT_NAME_LEONIDAS",
-        "English": "Leonidas"
+        "en-US": "Leonidas"
       },
       {
         "zType": "TEXT_NAME_LEONNATUS",
-        "English": "Leonnatus"
+        "en-US": "Leonnatus"
       },
       {
         "zType": "TEXT_NAME_LYSANDER",
-        "English": "Lysander"
+        "en-US": "Lysander"
       },
       {
         "zType": "TEXT_NAME_LYSIMACHUS",
-        "English": "Lysimachus"
+        "en-US": "Lysimachus"
       },
       {
         "zType": "TEXT_NAME_MACHATAS",
-        "English": "Machatas"
+        "en-US": "Machatas"
       },
       {
         "zType": "TEXT_NAME_MELEAGER",
-        "English": "Meleager"
+        "en-US": "Meleager"
       },
       {
         "zType": "TEXT_NAME_MILTIADES",
-        "English": "Miltiades"
+        "en-US": "Miltiades"
       },
       {
         "zType": "TEXT_NAME_NEOPTLEMUS",
-        "English": "Neoptlemus"
+        "en-US": "Neoptlemus"
       },
       {
         "zType": "TEXT_NAME_NICIAS",
-        "English": "Nicias"
+        "en-US": "Nicias"
       },
       {
         "zType": "TEXT_NAME_ORESTES",
-        "English": "Orestes"
+        "en-US": "Orestes"
       },
       {
         "zType": "TEXT_NAME_PARMENIO",
-        "English": "Parmenio"
+        "en-US": "Parmenio"
       },
       {
         "zType": "TEXT_NAME_PAUSANIAS",
-        "English": "Pausanias"
+        "en-US": "Pausanias"
       },
       {
         "zType": "TEXT_NAME_PEITHON",
-        "English": "Peithon"
+        "en-US": "Peithon"
       },
       {
         "zType": "TEXT_NAME_PELOPIDAS",
-        "English": "Pelopidas"
+        "en-US": "Pelopidas"
       },
       {
         "zType": "TEXT_NAME_PERDICCAS",
-        "English": "Perdiccas"
+        "en-US": "Perdiccas"
       },
       {
         "zType": "TEXT_NAME_PERIANDER",
-        "English": "Periander"
+        "en-US": "Periander"
       },
       {
         "zType": "TEXT_NAME_PERICLES",
-        "English": "Pericles"
+        "en-US": "Pericles"
       },
       {
         "zType": "TEXT_NAME_PERSEUS",
-        "English": "Perseus"
+        "en-US": "Perseus"
       },
       {
         "zType": "TEXT_NAME_PHILOTAS",
-        "English": "Philotas"
+        "en-US": "Philotas"
       },
       {
         "zType": "TEXT_NAME_POLYPERCHON",
-        "English": "Polyperchon"
+        "en-US": "Polyperchon"
       },
       {
         "zType": "TEXT_NAME_PHILIP",
-        "English": "Philip"
+        "en-US": "Philip"
       },
       {
         "zType": "TEXT_NAME_PYRRHUS",
-        "English": "Pyrrhus"
+        "en-US": "Pyrrhus"
       },
       {
         "zType": "TEXT_NAME_SELEUCUS",
-        "English": "Seleucus"
+        "en-US": "Seleucus"
       },
       {
         "zType": "TEXT_NAME_SOPOLIS",
-        "English": "Sopolis"
+        "en-US": "Sopolis"
       },
       {
         "zType": "TEXT_NAME_THEMISTOCLES",
-        "English": "Themistocles"
+        "en-US": "Themistocles"
       },
       {
         "zType": "TEXT_NAME_ANYTE",
-        "English": "Anyte"
+        "en-US": "Anyte"
       },
       {
         "zType": "TEXT_NAME_ARCHIDAMIA",
-        "English": "Archidamia"
+        "en-US": "Archidamia"
       },
       {
         "zType": "TEXT_NAME_ARETE",
-        "English": "Arete"
+        "en-US": "Arete"
       },
       {
         "zType": "TEXT_NAME_ARSINOE",
-        "English": "Arsinoe"
+        "en-US": "Arsinoe"
       },
       {
         "zType": "TEXT_NAME_ARTEMISIA",
-        "English": "Artemisia"
+        "en-US": "Artemisia"
       },
       {
         "zType": "TEXT_NAME_ASPASIA",
-        "English": "Aspasia"
+        "en-US": "Aspasia"
       },
       {
         "zType": "TEXT_NAME_AUDATA",
-        "English": "Audata"
+        "en-US": "Audata"
       },
       {
         "zType": "TEXT_NAME_BERENICE",
-        "English": "Berenice"
+        "en-US": "Berenice"
       },
       {
         "zType": "TEXT_NAME_BILISTICHE",
-        "English": "Bilistiche"
+        "en-US": "Bilistiche"
       },
       {
         "zType": "TEXT_NAME_CHILONIS",
-        "English": "Chilonis"
+        "en-US": "Chilonis"
       },
       {
         "zType": "TEXT_NAME_CYNANE",
-        "English": "Cynane"
+        "en-US": "Cynane"
       },
       {
         "zType": "TEXT_NAME_DEIDAMIA",
-        "English": "Deidamia"
+        "en-US": "Deidamia"
       },
       {
         "zType": "TEXT_NAME_DIONASSA",
-        "English": "Dionassa"
+        "en-US": "Dionassa"
       },
       {
         "zType": "TEXT_NAME_DIOTIMA",
-        "English": "Diotima"
+        "en-US": "Diotima"
       },
       {
         "zType": "TEXT_NAME_ERYXO",
-        "English": "Eryxo"
+        "en-US": "Eryxo"
       },
       {
         "zType": "TEXT_NAME_EURYDICE",
-        "English": "Eurydice"
+        "en-US": "Eurydice"
       },
       {
         "zType": "TEXT_NAME_GORGO",
-        "English": "Gorgo"
+        "en-US": "Gorgo"
       },
       {
         "zType": "TEXT_NAME_HIPPARCHIA",
-        "English": "Hipparchia"
+        "en-US": "Hipparchia"
       },
       {
         "zType": "TEXT_NAME_HYDNA",
-        "English": "Hydna"
+        "en-US": "Hydna"
       },
       {
         "zType": "TEXT_NAME_LAODICE",
-        "English": "Laodice"
+        "en-US": "Laodice"
       },
       {
         "zType": "TEXT_NAME_LANASSA",
-        "English": "Lanassa"
+        "en-US": "Lanassa"
       },
       {
         "zType": "TEXT_NAME_LANIKE",
-        "English": "Lanike"
+        "en-US": "Lanike"
       },
       {
         "zType": "TEXT_NAME_METRODORA",
-        "English": "Metrodora"
+        "en-US": "Metrodora"
       },
       {
         "zType": "TEXT_NAME_MORALIA",
-        "English": "Moralia"
+        "en-US": "Moralia"
       },
       {
         "zType": "TEXT_NAME_MYRTALE",
-        "English": "Myrtale"
+        "en-US": "Myrtale"
       },
       {
         "zType": "TEXT_NAME_NICAEA",
-        "English": "Nicaea"
+        "en-US": "Nicaea"
       },
       {
         "zType": "TEXT_NAME_NICASIPOLIS",
-        "English": "Nicasipolis"
+        "en-US": "Nicasipolis"
       },
       {
         "zType": "TEXT_NAME_OLYMPIAS",
-        "English": "Olympias"
+        "en-US": "Olympias"
       },
       {
         "zType": "TEXT_NAME_PHERETIMA",
-        "English": "Pheretima"
+        "en-US": "Pheretima"
       },
       {
         "zType": "TEXT_NAME_PHILA",
-        "English": "Phila"
+        "en-US": "Phila"
       },
       {
         "zType": "TEXT_NAME_PHILINNA",
-        "English": "Philinna"
+        "en-US": "Philinna"
       },
       {
         "zType": "TEXT_NAME_PHTHIA",
-        "English": "Phthia"
+        "en-US": "Phthia"
       },
       {
         "zType": "TEXT_NAME_POLYCRATIA",
-        "English": "Polycratia"
+        "en-US": "Polycratia"
       },
       {
         "zType": "TEXT_NAME_POLYXENA",
-        "English": "Polyxena"
+        "en-US": "Polyxena"
       },
       {
         "zType": "TEXT_NAME_STRATONICE",
-        "English": "Stratonice"
+        "en-US": "Stratonice"
       },
       {
         "zType": "TEXT_NAME_TELESILLA",
-        "English": "Telesilla"
+        "en-US": "Telesilla"
       },
       {
         "zType": "TEXT_NAME_THEANO",
-        "English": "Theano"
+        "en-US": "Theano"
       },
       {
         "zType": "TEXT_NAME_TIMAEA",
-        "English": "Timaea"
+        "en-US": "Timaea"
       },
       {
         "zType": "TEXT_NAME_XANTHIPPE",
-        "English": "Xanthippe"
+        "en-US": "Xanthippe"
       },
       {
         "zType": "TEXT_NAME_ARDASHIR",
-        "English": "Ardashir"
+        "en-US": "Ardashir"
       },
       {
         "zType": "TEXT_NAME_ARIASPES",
-        "English": "Ariaspes"
+        "en-US": "Ariaspes"
       },
       {
         "zType": "TEXT_NAME_ARTABANUS",
-        "English": "Artabanus"
+        "en-US": "Artabanus"
       },
       {
         "zType": "TEXT_NAME_ARTAXERXES",
-        "English": "Artaxerxes"
+        "en-US": "Artaxerxes"
       },
       {
         "zType": "TEXT_NAME_ASTYAGES",
-        "English": "Astyages"
+        "en-US": "Astyages"
       },
       {
         "zType": "TEXT_NAME_ARUKU",
-        "English": "Aruku"
+        "en-US": "Aruku"
       },
       {
         "zType": "TEXT_NAME_BAHRAM",
-        "English": "Bahram"
+        "en-US": "Bahram"
       },
       {
         "zType": "TEXT_NAME_BARDIYA",
-        "English": "Bardiya"
+        "en-US": "Bardiya"
       },
       {
         "zType": "TEXT_NAME_CAMBYSES",
-        "English": "Cambyses"
+        "en-US": "Cambyses"
       },
       {
         "zType": "TEXT_NAME_CYRUS",
-        "English": "Cyrus"
+        "en-US": "Cyrus"
       },
       {
         "zType": "TEXT_NAME_DARIUS",
-        "English": "Darius"
+        "en-US": "Darius"
       },
       {
         "zType": "TEXT_NAME_HARPAGUS",
-        "English": "Harpagus"
+        "en-US": "Harpagus"
       },
       {
         "zType": "TEXT_NAME_HORMIZD",
-        "English": "Hormizd"
+        "en-US": "Hormizd"
       },
       {
         "zType": "TEXT_NAME_HYSTASPES",
-        "English": "Hystaspes"
+        "en-US": "Hystaspes"
       },
       {
         "zType": "TEXT_NAME_KHOSRAU",
-        "English": "Khosrau"
+        "en-US": "Khosrau"
       },
       {
         "zType": "TEXT_NAME_MAZYAR",
-        "English": "Mazyar"
+        "en-US": "Mazyar"
       },
       {
         "zType": "TEXT_NAME_MEGABAZUS",
-        "English": "Megabazus"
+        "en-US": "Megabazus"
       },
       {
         "zType": "TEXT_NAME_MITHRIDATES",
-        "English": "Mithridates"
+        "en-US": "Mithridates"
       },
       {
         "zType": "TEXT_NAME_ORODES",
-        "English": "Orodes"
+        "en-US": "Orodes"
       },
       {
         "zType": "TEXT_NAME_OXATHRES",
-        "English": "Oxathres"
+        "en-US": "Oxathres"
       },
       {
         "zType": "TEXT_NAME_PHARNASPES",
-        "English": "Pharnaspes"
+        "en-US": "Pharnaspes"
       },
       {
         "zType": "TEXT_NAME_PHRAATES",
-        "English": "Phraates"
+        "en-US": "Phraates"
       },
       {
         "zType": "TEXT_NAME_SHAPUR",
-        "English": "Shapur"
+        "en-US": "Shapur"
       },
       {
         "zType": "TEXT_NAME_SMERDIS",
-        "English": "Smerdis"
+        "en-US": "Smerdis"
       },
       {
         "zType": "TEXT_NAME_SUKHRA",
-        "English": "Sukhra"
+        "en-US": "Sukhra"
       },
       {
         "zType": "TEXT_NAME_TEISPES",
-        "English": "Teispes"
+        "en-US": "Teispes"
       },
       {
         "zType": "TEXT_NAME_TIRIDATES",
-        "English": "Tiridates"
+        "en-US": "Tiridates"
       },
       {
         "zType": "TEXT_NAME_VOLOGASES",
-        "English": "Vologases"
+        "en-US": "Vologases"
       },
       {
         "zType": "TEXT_NAME_XERXES",
-        "English": "Xerxes"
+        "en-US": "Xerxes"
       },
       {
         "zType": "TEXT_NAME_YAZDEGERD",
-        "English": "Yazdegerd"
+        "en-US": "Yazdegerd"
       },
       {
         "zType": "TEXT_NAME_DARBAND",
-        "English": "Darband"
+        "en-US": "Darband"
       },
       {
         "zType": "TEXT_NAME_ASPADANA",
-        "English": "Aspadana"
+        "en-US": "Aspadana"
       },
       {
         "zType": "TEXT_NAME_AMESTRIS",
-        "English": "Amestris"
+        "en-US": "Amestris"
       },
       {
         "zType": "TEXT_NAME_AMYTIS",
-        "English": "Amytis"
+        "en-US": "Amytis"
       },
       {
         "zType": "TEXT_NAME_KASHSHAYA",
-        "English": "Kashshaya"
+        "en-US": "Kashshaya"
       },
       {
         "zType": "TEXT_NAME_APAMA",
-        "English": "Apama"
+        "en-US": "Apama"
       },
       {
         "zType": "TEXT_NAME_ARTAKAMA",
-        "English": "Artakama"
+        "en-US": "Artakama"
       },
       {
         "zType": "TEXT_NAME_ARTAZOSTRE",
-        "English": "Artazostre"
+        "en-US": "Artazostre"
       },
       {
         "zType": "TEXT_NAME_ARTYSTONE",
-        "English": "Artystone"
+        "en-US": "Artystone"
       },
       {
         "zType": "TEXT_NAME_ASTAR",
-        "English": "Astar"
+        "en-US": "Astar"
       },
       {
         "zType": "TEXT_NAME_AZARMIDOKHT",
-        "English": "Azarmidokht"
+        "en-US": "Azarmidokht"
       },
       {
         "zType": "TEXT_NAME_BARSINE",
-        "English": "Barsine"
+        "en-US": "Barsine"
       },
       {
         "zType": "TEXT_NAME_BORAN",
-        "English": "Boran"
+        "en-US": "Boran"
       },
       {
         "zType": "TEXT_NAME_CASSANDANE",
-        "English": "Cassandane"
+        "en-US": "Cassandane"
       },
       {
         "zType": "TEXT_NAME_GORDIYA",
-        "English": "Gordiya"
+        "en-US": "Gordiya"
       },
       {
         "zType": "TEXT_NAME_GURDZAD",
-        "English": "Gurdzad"
+        "en-US": "Gurdzad"
       },
       {
         "zType": "TEXT_NAME_IFRA",
-        "English": "Ifra"
+        "en-US": "Ifra"
       },
       {
         "zType": "TEXT_NAME_IRDABAMA",
-        "English": "Irdabama"
+        "en-US": "Irdabama"
       },
       {
         "zType": "TEXT_NAME_KHURANZIM",
-        "English": "Khuranzim"
+        "en-US": "Khuranzim"
       },
       {
         "zType": "TEXT_NAME_MANDANA",
-        "English": "Mandana"
+        "en-US": "Mandana"
       },
       {
         "zType": "TEXT_NAME_MYROD",
-        "English": "Myrod"
+        "en-US": "Myrod"
       },
       {
         "zType": "TEXT_NAME_PARMIDA",
-        "English": "Parmida"
+        "en-US": "Parmida"
       },
       {
         "zType": "TEXT_NAME_PARMYS",
-        "English": "Parmys"
+        "en-US": "Parmys"
       },
       {
         "zType": "TEXT_NAME_PARYSATIS",
-        "English": "Parysatis"
+        "en-US": "Parysatis"
       },
       {
         "zType": "TEXT_NAME_ROXANA",
-        "English": "Roxana"
+        "en-US": "Roxana"
       },
       {
         "zType": "TEXT_NAME_SHIRIN",
-        "English": "Shirin"
+        "en-US": "Shirin"
       },
       {
         "zType": "TEXT_NAME_STATEIRA",
-        "English": "Stateira"
+        "en-US": "Stateira"
       },
       {
         "zType": "TEXT_NAME_SURA",
-        "English": "Sura"
+        "en-US": "Sura"
       },
       {
         "zType": "TEXT_NAME_ZAND",
-        "English": "Zand"
+        "en-US": "Zand"
       },
       {
         "zType": "TEXT_NAME_ZURVANDOKHT",
-        "English": "Zurvandokht"
+        "en-US": "Zurvandokht"
       },
       {
         "zType": "TEXT_NAME_APPIUS",
-        "English": "Appius"
+        "en-US": "Appius"
       },
       {
         "zType": "TEXT_NAME_AULUS",
-        "English": "Aulus"
+        "en-US": "Aulus"
       },
       {
         "zType": "TEXT_NAME_BRUTUS",
-        "English": "Brutus"
+        "en-US": "Brutus"
       },
       {
         "zType": "TEXT_NAME_VAULTING",
-        "English": "Cassius"
+        "en-US": "Cassius"
       },
       {
         "zType": "TEXT_NAME_DECIMUS",
-        "English": "Decimus"
+        "en-US": "Decimus"
       },
       {
         "zType": "TEXT_NAME_FAUSTUS",
-        "English": "Faustus"
+        "en-US": "Faustus"
       },
       {
         "zType": "TEXT_NAME_GAIUS",
-        "English": "Gaius"
+        "en-US": "Gaius"
       },
       {
         "zType": "TEXT_NAME_GNAEUS",
-        "English": "Gnaeus"
+        "en-US": "Gnaeus"
       },
       {
         "zType": "TEXT_NAME_HOSTUS",
-        "English": "Hostus"
+        "en-US": "Hostus"
       },
       {
         "zType": "TEXT_NAME_KAESO",
-        "English": "Kaeso"
+        "en-US": "Kaeso"
       },
       {
         "zType": "TEXT_NAME_LUCIUS",
-        "English": "Lucius"
+        "en-US": "Lucius"
       },
       {
         "zType": "TEXT_NAME_MAMERCUS",
-        "English": "Mamercus"
+        "en-US": "Mamercus"
       },
       {
         "zType": "TEXT_NAME_MANIUS",
-        "English": "Manius"
+        "en-US": "Manius"
       },
       {
         "zType": "TEXT_NAME_MARCUS",
-        "English": "Marcus"
+        "en-US": "Marcus"
       },
       {
         "zType": "TEXT_NAME_NONUS",
-        "English": "Nonus"
+        "en-US": "Nonus"
       },
       {
         "zType": "TEXT_NAME_NUMERIUS",
-        "English": "Numerius"
+        "en-US": "Numerius"
       },
       {
         "zType": "TEXT_NAME_OCTAVIUS",
-        "English": "Octavius"
+        "en-US": "Octavius"
       },
       {
         "zType": "TEXT_NAME_POSTUMUS",
-        "English": "Postumus"
+        "en-US": "Postumus"
       },
       {
         "zType": "TEXT_NAME_PUBLIUS",
-        "English": "Publius"
+        "en-US": "Publius"
       },
       {
         "zType": "TEXT_NAME_QUINTUS",
-        "English": "Quintus"
+        "en-US": "Quintus"
       },
       {
         "zType": "TEXT_NAME_REMUS",
-        "English": "Remus"
+        "en-US": "Remus"
       },
       {
         "zType": "TEXT_NAME_ROMULUS",
-        "English": "Romulus"
+        "en-US": "Romulus"
       },
       {
         "zType": "TEXT_NAME_SERVIUS",
-        "English": "Servius"
+        "en-US": "Servius"
       },
       {
         "zType": "TEXT_NAME_SEXTUS",
-        "English": "Sextus"
+        "en-US": "Sextus"
       },
       {
         "zType": "TEXT_NAME_SPURIUS",
-        "English": "Spurius"
+        "en-US": "Spurius"
       },
       {
         "zType": "TEXT_NAME_STATIUS",
-        "English": "Statius"
+        "en-US": "Statius"
       },
       {
         "zType": "TEXT_NAME_TIBERIUS",
-        "English": "Tiberius"
+        "en-US": "Tiberius"
       },
       {
         "zType": "TEXT_NAME_TITUS",
-        "English": "Titus"
+        "en-US": "Titus"
       },
       {
         "zType": "TEXT_NAME_VIBIUS",
-        "English": "Vibius"
+        "en-US": "Vibius"
       },
       {
         "zType": "TEXT_NAME_AEMILIA",
-        "English": "Aemilia"
+        "en-US": "Aemilia"
       },
       {
         "zType": "TEXT_NAME_AGRIPPINA",
-        "English": "Agrippina"
+        "en-US": "Agrippina"
       },
       {
         "zType": "TEXT_NAME_ANTONIA",
-        "English": "Antonia"
+        "en-US": "Antonia"
       },
       {
         "zType": "TEXT_NAME_ATIA",
-        "English": "Atia"
+        "en-US": "Atia"
       },
       {
         "zType": "TEXT_NAME_AURELIA",
-        "English": "Aurelia"
+        "en-US": "Aurelia"
       },
       {
         "zType": "TEXT_NAME_CALPURNIA",
-        "English": "Calpurnia"
+        "en-US": "Calpurnia"
       },
       {
         "zType": "TEXT_NAME_CAMILLA",
-        "English": "Camilla"
+        "en-US": "Camilla"
       },
       {
         "zType": "TEXT_NAME_CLODIA",
-        "English": "Clodia"
+        "en-US": "Clodia"
       },
       {
         "zType": "TEXT_NAME_CORNELIA",
-        "English": "Cornelia"
+        "en-US": "Cornelia"
       },
       {
         "zType": "TEXT_NAME_DOMITIA",
-        "English": "Domitia"
+        "en-US": "Domitia"
       },
       {
         "zType": "TEXT_NAME_DRUSILLA",
-        "English": "Drusilla"
+        "en-US": "Drusilla"
       },
       {
         "zType": "TEXT_NAME_DRYPETIS",
-        "English": "Drypetis"
+        "en-US": "Drypetis"
       },
       {
         "zType": "TEXT_NAME_FULVIA",
-        "English": "Fulvia"
+        "en-US": "Fulvia"
       },
       {
         "zType": "TEXT_NAME_HORTENSIA",
-        "English": "Hortensia"
+        "en-US": "Hortensia"
       },
       {
         "zType": "TEXT_NAME_ILIA",
-        "English": "Ilia"
+        "en-US": "Ilia"
       },
       {
         "zType": "TEXT_NAME_LIVIA",
-        "English": "Livia"
+        "en-US": "Livia"
       },
       {
         "zType": "TEXT_NAME_LUCILLA",
-        "English": "Lucilla"
+        "en-US": "Lucilla"
       },
       {
         "zType": "TEXT_NAME_MARCIA",
-        "English": "Marcia"
+        "en-US": "Marcia"
       },
       {
         "zType": "TEXT_NAME_PLAUTIA",
-        "English": "Plautia"
+        "en-US": "Plautia"
       },
       {
         "zType": "TEXT_NAME_POMPEIA",
-        "English": "Pompeia"
+        "en-US": "Pompeia"
       },
       {
         "zType": "TEXT_NAME_PORCIA",
-        "English": "Porcia"
+        "en-US": "Porcia"
       },
       {
         "zType": "TEXT_NAME_RHEA",
-        "English": "Rhea"
+        "en-US": "Rhea"
       },
       {
         "zType": "TEXT_NAME_SCRIBONIA",
-        "English": "Scribonia"
+        "en-US": "Scribonia"
       },
       {
         "zType": "TEXT_NAME_SEMPRONIA",
-        "English": "Sempronia"
+        "en-US": "Sempronia"
       },
       {
         "zType": "TEXT_NAME_SERVILIA",
-        "English": "Servilia"
+        "en-US": "Servilia"
       },
       {
         "zType": "TEXT_NAME_SULPICIA",
-        "English": "Sulpicia"
+        "en-US": "Sulpicia"
       },
       {
         "zType": "TEXT_NAME_TULLIA",
-        "English": "Tullia"
+        "en-US": "Tullia"
       },
       {
         "zType": "TEXT_NAME_VIPSANIA",
-        "English": "Vipsania"
+        "en-US": "Vipsania"
       },
       {
         "zType": "TEXT_NAME_ACCO",
-        "English": "Acco"
+        "en-US": "Acco"
       },
       {
         "zType": "TEXT_NAME_AMBIORIX",
-        "English": "Ambiorix"
+        "en-US": "Ambiorix"
       },
       {
         "zType": "TEXT_NAME_ATIS",
-        "English": "Atis"
+        "en-US": "Atis"
       },
       {
         "zType": "TEXT_NAME_BITUITIS",
-        "English": "Bituitis"
+        "en-US": "Bituitis"
       },
       {
         "zType": "TEXT_NAME_CAMULOGENOS",
-        "English": "Camulogenos"
+        "en-US": "Camulogenos"
       },
       {
         "zType": "TEXT_NAME_CASTICOS",
-        "English": "Casticos"
+        "en-US": "Casticos"
       },
       {
         "zType": "TEXT_NAME_CAVARINOS",
-        "English": "Cavarinos"
+        "en-US": "Cavarinos"
       },
       {
         "zType": "TEXT_NAME_COMMIOS",
-        "English": "Commios"
+        "en-US": "Commios"
       },
       {
         "zType": "TEXT_NAME_DIVICO",
-        "English": "Divico"
+        "en-US": "Divico"
       },
       {
         "zType": "TEXT_NAME_DIVITIACOS",
-        "English": "Divitiacos"
+        "en-US": "Divitiacos"
       },
       {
         "zType": "TEXT_NAME_DUMNORIX",
-        "English": "Dumnorix"
+        "en-US": "Dumnorix"
       },
       {
         "zType": "TEXT_NAME_DURATIOS",
-        "English": "Duratios"
+        "en-US": "Duratios"
       },
       {
         "zType": "TEXT_NAME_GAESORIX",
-        "English": "Gaesorix"
+        "en-US": "Gaesorix"
       },
       {
         "zType": "TEXT_NAME_GALATOS",
-        "English": "Galatos"
+        "en-US": "Galatos"
       },
       {
         "zType": "TEXT_NAME_LICNOS",
-        "English": "Licnos"
+        "en-US": "Licnos"
       },
       {
         "zType": "TEXT_NAME_RIGATIKOS",
-        "English": "Rigaticos"
+        "en-US": "Rigaticos"
       },
       {
         "zType": "TEXT_NAME_TOGODUMNOS",
-        "English": "Togodumnos"
+        "en-US": "Togodumnos"
       },
       {
         "zType": "TEXT_NAME_VECTITOS",
-        "English": "Vectitos"
+        "en-US": "Vectitos"
       },
       {
         "zType": "TEXT_NAME_VINDIACOS",
-        "English": "Vindiacos"
+        "en-US": "Vindiacos"
       },
       {
         "zType": "TEXT_NAME_VIRIDOMAROS",
-        "English": "Viridomaros"
+        "en-US": "Viridomaros"
       },
       {
         "zType": "TEXT_NAME_ABESIA",
-        "English": "Abesia"
+        "en-US": "Abesia"
       },
       {
         "zType": "TEXT_NAME_ADIEGA",
-        "English": "Adiega"
+        "en-US": "Adiega"
       },
       {
         "zType": "TEXT_NAME_AIA",
-        "English": "Aia"
+        "en-US": "Aia"
       },
       {
         "zType": "TEXT_NAME_ATEGNATA",
-        "English": "Ategnata"
+        "en-US": "Ategnata"
       },
       {
         "zType": "TEXT_NAME_BANONA",
-        "English": "Banona"
+        "en-US": "Banona"
       },
       {
         "zType": "TEXT_NAME_BOUDILATIS",
-        "English": "Boudilatis"
+        "en-US": "Boudilatis"
       },
       {
         "zType": "TEXT_NAME_CELA",
-        "English": "Cela"
+        "en-US": "Cela"
       },
       {
         "zType": "TEXT_NAME_DUGIAVA",
-        "English": "Dugiava"
+        "en-US": "Dugiava"
       },
       {
         "zType": "TEXT_NAME_ESKENGA",
-        "English": "Eskenga"
+        "en-US": "Eskenga"
       },
       {
         "zType": "TEXT_NAME_EPONINA",
-        "English": "Eponina"
+        "en-US": "Eponina"
       },
       {
         "zType": "TEXT_NAME_LUPALA",
-        "English": "Lupala"
+        "en-US": "Lupala"
       },
       {
         "zType": "TEXT_NAME_OBALDA",
-        "English": "Obalda"
+        "en-US": "Obalda"
       },
       {
         "zType": "TEXT_NAME_PAULLA",
-        "English": "Paulla"
+        "en-US": "Paulla"
       },
       {
         "zType": "TEXT_NAME_POTITA",
-        "English": "Potita"
+        "en-US": "Potita"
       },
       {
         "zType": "TEXT_NAME_RUFENA",
-        "English": "Rufena"
+        "en-US": "Rufena"
       },
       {
         "zType": "TEXT_NAME_STAIA",
-        "English": "Staia"
+        "en-US": "Staia"
       },
       {
         "zType": "TEXT_NAME_TOCCA",
-        "English": "Tocca"
+        "en-US": "Tocca"
       },
       {
         "zType": "TEXT_NAME_USTA",
-        "English": "Usta"
+        "en-US": "Usta"
       },
       {
         "zType": "TEXT_NAME_VENITOUTA",
-        "English": "Venitouta"
+        "en-US": "Venitouta"
       },
       {
         "zType": "TEXT_NAME_VLATUCA",
-        "English": "Vlatuca"
+        "en-US": "Vlatuca"
       },
       {
         "zType": "TEXT_NAME_ARIFRIDOS",
-        "English": "Arifridos"
+        "en-US": "Arifridos"
       },
       {
         "zType": "TEXT_NAME_FREDIBAL",
-        "English": "Fredibal"
+        "en-US": "Fredibal"
       },
       {
         "zType": "TEXT_NAME_FRIDAMAL",
-        "English": "Fridamal"
+        "en-US": "Fridamal"
       },
       {
         "zType": "TEXT_NAME_GAISERIC",
-        "English": "Gaiseric"
+        "en-US": "Gaiseric"
       },
       {
         "zType": "TEXT_NAME_GELIMER",
-        "English": "Gelimer"
+        "en-US": "Gelimer"
       },
       {
         "zType": "TEXT_NAME_GENTO",
-        "English": "Gento"
+        "en-US": "Gento"
       },
       {
         "zType": "TEXT_NAME_GIBAMUND",
-        "English": "Gibamund"
+        "en-US": "Gibamund"
       },
       {
         "zType": "TEXT_NAME_GAMUTH",
-        "English": "Gamuth"
+        "en-US": "Gamuth"
       },
       {
         "zType": "TEXT_NAME_GODEGISEL",
-        "English": "Godegisel"
+        "en-US": "Godegisel"
       },
       {
         "zType": "TEXT_NAME_GUNDERIC",
-        "English": "Gunderic"
+        "en-US": "Gunderic"
       },
       {
         "zType": "TEXT_NAME_GUNTHAMUND",
-        "English": "Gunthamund"
+        "en-US": "Gunthamund"
       },
       {
         "zType": "TEXT_NAME_HILDERIC",
-        "English": "Hilderic"
+        "en-US": "Hilderic"
       },
       {
         "zType": "TEXT_NAME_HUNERIC",
-        "English": "Huneric"
+        "en-US": "Huneric"
       },
       {
         "zType": "TEXT_NAME_SCARILA",
-        "English": "Scarila"
+        "en-US": "Scarila"
       },
       {
         "zType": "TEXT_NAME_SINDIVULT",
-        "English": "Sindivult"
+        "en-US": "Sindivult"
       },
       {
         "zType": "TEXT_NAME_STILICHO",
-        "English": "Stilicho"
+        "en-US": "Stilicho"
       },
       {
         "zType": "TEXT_NAME_THRASAMUND",
-        "English": "Thrasamund"
+        "en-US": "Thrasamund"
       },
       {
         "zType": "TEXT_NAME_VILIMUT",
-        "English": "Vilimut"
+        "en-US": "Vilimut"
       },
       {
         "zType": "TEXT_NAME_VITARIT",
-        "English": "Vitarit"
+        "en-US": "Vitarit"
       },
       {
         "zType": "TEXT_NAME_VISIMAR",
-        "English": "Visimar"
+        "en-US": "Visimar"
       },
       {
         "zType": "TEXT_NAME_AMALAFRIDA",
-        "English": "Amalafrida"
+        "en-US": "Amalafrida"
       },
       {
         "zType": "TEXT_NAME_BEREMUDA",
-        "English": "Beremuda"
+        "en-US": "Beremuda"
       },
       {
         "zType": "TEXT_NAME_BRUNHILDA",
-        "English": "Brunhilda"
+        "en-US": "Brunhilda"
       },
       {
         "zType": "TEXT_NAME_EGILONA",
-        "English": "Egilona"
+        "en-US": "Egilona"
       },
       {
         "zType": "TEXT_NAME_ERELEUVA",
-        "English": "Ereleuva"
+        "en-US": "Ereleuva"
       },
       {
         "zType": "TEXT_NAME_ERMENGON",
-        "English": "Ermengon"
+        "en-US": "Ermengon"
       },
       {
         "zType": "TEXT_NAME_GALSUINTHA",
-        "English": "Galsuintha"
+        "en-US": "Galsuintha"
       },
       {
         "zType": "TEXT_NAME_GAMBARA",
-        "English": "Gambara"
+        "en-US": "Gambara"
       },
       {
         "zType": "TEXT_NAME_GLISMODA",
-        "English": "Glismoda"
+        "en-US": "Glismoda"
       },
       {
         "zType": "TEXT_NAME_GUDELIVA",
-        "English": "Gudeliva"
+        "en-US": "Gudeliva"
       },
       {
         "zType": "TEXT_NAME_GUILIARUNA",
-        "English": "Guiliaruna"
+        "en-US": "Guiliaruna"
       },
       {
         "zType": "TEXT_NAME_GUITIFRIDA",
-        "English": "Guitifrida"
+        "en-US": "Guitifrida"
       },
       {
         "zType": "TEXT_NAME_GUNIFRIDA",
-        "English": "Gunifrida"
+        "en-US": "Gunifrida"
       },
       {
         "zType": "TEXT_NAME_HELDICA",
-        "English": "Heldica"
+        "en-US": "Heldica"
       },
       {
         "zType": "TEXT_NAME_MATASUNTHA",
-        "English": "Matasuntha"
+        "en-US": "Matasuntha"
       },
       {
         "zType": "TEXT_NAME_RAGNAGILD",
-        "English": "Ragnagild"
+        "en-US": "Ragnagild"
       },
       {
         "zType": "TEXT_NAME_SUNILDA",
-        "English": "Sunilda"
+        "en-US": "Sunilda"
       },
       {
         "zType": "TEXT_NAME_TEUCHARIA",
-        "English": "Teucharia"
+        "en-US": "Teucharia"
       },
       {
         "zType": "TEXT_NAME_VALILU",
-        "English": "Valilu"
+        "en-US": "Valilu"
       },
       {
         "zType": "TEXT_NAME_WELLA",
-        "English": "Wella"
+        "en-US": "Wella"
       },
       {
         "zType": "TEXT_NAME_AMLETH",
-        "English": "Amleth"
+        "en-US": "Amleth"
       },
       {
         "zType": "TEXT_NAME_BJARKE",
-        "English": "Bjarke"
+        "en-US": "Bjarke"
       },
       {
         "zType": "TEXT_NAME_CANUTE",
-        "English": "Canute"
+        "en-US": "Canute"
       },
       {
         "zType": "TEXT_NAME_FENG",
-        "English": "Feng"
+        "en-US": "Feng"
       },
       {
         "zType": "TEXT_NAME_FRODE",
-        "English": "Frode"
+        "en-US": "Frode"
       },
       {
         "zType": "TEXT_NAME_GORM",
-        "English": "Gorm"
+        "en-US": "Gorm"
       },
       {
         "zType": "TEXT_NAME_HADDING",
-        "English": "Hadding"
+        "en-US": "Hadding"
       },
       {
         "zType": "TEXT_NAME_HALFDAN",
-        "English": "Halfdan"
+        "en-US": "Halfdan"
       },
       {
         "zType": "TEXT_NAME_HARALD",
-        "English": "Harald"
+        "en-US": "Harald"
       },
       {
         "zType": "TEXT_NAME_HARTHACANUTE",
-        "English": "Harthacanute"
+        "en-US": "Harthacanute"
       },
       {
         "zType": "TEXT_NAME_HAVELOK",
-        "English": "Havelok"
+        "en-US": "Havelok"
       },
       {
         "zType": "TEXT_NAME_HEMMING",
-        "English": "Hemming"
+        "en-US": "Hemming"
       },
       {
         "zType": "TEXT_NAME_HJALTE",
-        "English": "Hjalte"
+        "en-US": "Hjalte"
       },
       {
         "zType": "TEXT_NAME_HROTHGAR",
-        "English": "Hrothgar"
+        "en-US": "Hrothgar"
       },
       {
         "zType": "TEXT_NAME_IVAR",
-        "English": "Ivar"
+        "en-US": "Ivar"
       },
       {
         "zType": "TEXT_NAME_MAGNUS",
-        "English": "Magnus"
+        "en-US": "Magnus"
       },
       {
         "zType": "TEXT_NAME_ROLF",
-        "English": "Rolf"
+        "en-US": "Rolf"
       },
       {
         "zType": "TEXT_NAME_RORIK",
-        "English": "Rorik"
+        "en-US": "Rorik"
       },
       {
         "zType": "TEXT_NAME_SOREN",
-        "English": "Soren"
+        "en-US": "Soren"
       },
       {
         "zType": "TEXT_NAME_SWEYN",
-        "English": "Sweyn"
+        "en-US": "Sweyn"
       },
       {
         "zType": "TEXT_NAME_VALDEMAR",
-        "English": "Valdemar"
+        "en-US": "Valdemar"
       },
       {
         "zType": "TEXT_NAME_ALFHILD",
-        "English": "Alfhild"
+        "en-US": "Alfhild"
       },
       {
         "zType": "TEXT_NAME_ASA",
-        "English": "Asa"
+        "en-US": "Asa"
       },
       {
         "zType": "TEXT_NAME_FROGERTHA",
-        "English": "Frogertha"
+        "en-US": "Frogertha"
       },
       {
         "zType": "TEXT_NAME_GROA",
-        "English": "Groa"
+        "en-US": "Groa"
       },
       {
         "zType": "TEXT_NAME_GUNNHILD",
-        "English": "Gunnhild"
+        "en-US": "Gunnhild"
       },
       {
         "zType": "TEXT_NAME_GURUTHA",
-        "English": "Gurutha"
+        "en-US": "Gurutha"
       },
       {
         "zType": "TEXT_NAME_HELGA",
-        "English": "Helga"
+        "en-US": "Helga"
       },
       {
         "zType": "TEXT_NAME_HERMUTRUDE",
-        "English": "Hermutrude"
+        "en-US": "Hermutrude"
       },
       {
         "zType": "TEXT_NAME_HETHA",
-        "English": "Hetha"
+        "en-US": "Hetha"
       },
       {
         "zType": "TEXT_NAME_KRAKA",
-        "English": "Kraka"
+        "en-US": "Kraka"
       },
       {
         "zType": "TEXT_NAME_RUSILA",
-        "English": "Rusila"
+        "en-US": "Rusila"
       },
       {
         "zType": "TEXT_NAME_RUTE",
-        "English": "Rute"
+        "en-US": "Rute"
       },
       {
         "zType": "TEXT_NAME_SELA",
-        "English": "Sela"
+        "en-US": "Sela"
       },
       {
         "zType": "TEXT_NAME_SIGNE",
-        "English": "Signe"
+        "en-US": "Signe"
       },
       {
         "zType": "TEXT_NAME_SIGRID",
-        "English": "Sigrid"
+        "en-US": "Sigrid"
       },
       {
         "zType": "TEXT_NAME_SKULDE",
-        "English": "Skulde"
+        "en-US": "Skulde"
       },
       {
         "zType": "TEXT_NAME_THORA",
-        "English": "Thora"
+        "en-US": "Thora"
       },
       {
         "zType": "TEXT_NAME_URSE",
-        "English": "Urse"
+        "en-US": "Urse"
       },
       {
         "zType": "TEXT_NAME_WEBIORG",
-        "English": "Webiorg"
+        "en-US": "Webiorg"
       },
       {
         "zType": "TEXT_NAME_WISNA",
-        "English": "Wisna"
+        "en-US": "Wisna"
       },
       {
         "zType": "TEXT_NAME_ABRUPOLIS",
-        "English": "Abrupolis"
+        "en-US": "Abrupolis"
       },
       {
         "zType": "TEXT_NAME_AMADOCUS",
-        "English": "Amadocus"
+        "en-US": "Amadocus"
       },
       {
         "zType": "TEXT_NAME_BERISADES",
-        "English": "Berisades"
+        "en-US": "Berisades"
       },
       {
         "zType": "TEXT_NAME_CERSOBLEPTES",
-        "English": "Cersobleptes"
+        "en-US": "Cersobleptes"
       },
       {
         "zType": "TEXT_NAME_COSINGAS",
-        "English": "Cosingas"
+        "en-US": "Cosingas"
       },
       {
         "zType": "TEXT_NAME_COTYS",
-        "English": "Cotys"
+        "en-US": "Cotys"
       },
       {
         "zType": "TEXT_NAME_GETAS",
-        "English": "Getas"
+        "en-US": "Getas"
       },
       {
         "zType": "TEXT_NAME_LANGARUS",
-        "English": "Langarus"
+        "en-US": "Langarus"
       },
       {
         "zType": "TEXT_NAME_MESADES",
-        "English": "Mesades"
+        "en-US": "Mesades"
       },
       {
         "zType": "TEXT_NAME_MOSTIS",
-        "English": "Mostis"
+        "en-US": "Mostis"
       },
       {
         "zType": "TEXT_NAME_OLORUS",
-        "English": "Olorus"
+        "en-US": "Olorus"
       },
       {
         "zType": "TEXT_NAME_RHAISCUS",
-        "English": "Rhaiscus"
+        "en-US": "Rhaiscus"
       },
       {
         "zType": "TEXT_NAME_RHESCUPORIS",
-        "English": "Rhescuporis"
+        "en-US": "Rhescuporis"
       },
       {
         "zType": "TEXT_NAME_SADALAS",
-        "English": "Sadalas"
+        "en-US": "Sadalas"
       },
       {
         "zType": "TEXT_NAME_SADOCUS",
-        "English": "Sadocus"
+        "en-US": "Sadocus"
       },
       {
         "zType": "TEXT_NAME_SEUTHES",
-        "English": "Seuthes"
+        "en-US": "Seuthes"
       },
       {
         "zType": "TEXT_NAME_SITALCES",
-        "English": "Sitalces"
+        "en-US": "Sitalces"
       },
       {
         "zType": "TEXT_NAME_SPARTOCUS",
-        "English": "Spartocus"
+        "en-US": "Spartocus"
       },
       {
         "zType": "TEXT_NAME_TERES",
-        "English": "Teres"
+        "en-US": "Teres"
       },
       {
         "zType": "TEXT_NAME_ZOLTES",
-        "English": "Zoltes"
+        "en-US": "Zoltes"
       },
       {
         "zType": "TEXT_NAME_ABROTONON",
-        "English": "Abrotonon"
+        "en-US": "Abrotonon"
       },
       {
         "zType": "TEXT_NAME_AETHAZIA",
-        "English": "Aethazia"
+        "en-US": "Aethazia"
       },
       {
         "zType": "TEXT_NAME_AMA",
-        "English": "Ama"
+        "en-US": "Ama"
       },
       {
         "zType": "TEXT_NAME_BASCHIA",
-        "English": "Baschia"
+        "en-US": "Baschia"
       },
       {
         "zType": "TEXT_NAME_BRIZENIS",
-        "English": "Brizenis"
+        "en-US": "Brizenis"
       },
       {
         "zType": "TEXT_NAME_CARTOUZA",
-        "English": "Cartouza"
+        "en-US": "Cartouza"
       },
       {
         "zType": "TEXT_NAME_DENSOLA",
-        "English": "Densola"
+        "en-US": "Densola"
       },
       {
         "zType": "TEXT_NAME_DITA",
-        "English": "Dita"
+        "en-US": "Dita"
       },
       {
         "zType": "TEXT_NAME_EPYRIS",
-        "English": "Epyris"
+        "en-US": "Epyris"
       },
       {
         "zType": "TEXT_NAME_HARPALYCE",
-        "English": "Harpalyce"
+        "en-US": "Harpalyce"
       },
       {
         "zType": "TEXT_NAME_HEGESIPYLE",
-        "English": "Hegesipyle"
+        "en-US": "Hegesipyle"
       },
       {
         "zType": "TEXT_NAME_KIASA",
-        "English": "Kiasa"
+        "en-US": "Kiasa"
       },
       {
         "zType": "TEXT_NAME_MAESIRA",
-        "English": "Maesira"
+        "en-US": "Maesira"
       },
       {
         "zType": "TEXT_NAME_MEDA",
-        "English": "Meda"
+        "en-US": "Meda"
       },
       {
         "zType": "TEXT_NAME_MOCASOCOS",
-        "English": "Mocasocos"
+        "en-US": "Mocasocos"
       },
       {
         "zType": "TEXT_NAME_OZEA",
-        "English": "Ozea"
+        "en-US": "Ozea"
       },
       {
         "zType": "TEXT_NAME_PYTHODORIS",
-        "English": "Pythodoris"
+        "en-US": "Pythodoris"
       },
       {
         "zType": "TEXT_NAME_RHODOPIS",
-        "English": "Rhodopis"
+        "en-US": "Rhodopis"
       },
       {
         "zType": "TEXT_NAME_SIPA",
-        "English": "Sipa"
+        "en-US": "Sipa"
       },
       {
         "zType": "TEXT_NAME_TATAZA",
-        "English": "Tataza"
+        "en-US": "Tataza"
       },
       {
         "zType": "TEXT_NAME_ABARIS",
-        "English": "Abaris"
+        "en-US": "Abaris"
       },
       {
         "zType": "TEXT_NAME_AGAR",
-        "English": "Agar"
+        "en-US": "Agar"
       },
       {
         "zType": "TEXT_NAME_ANTIR",
-        "English": "Antir"
+        "en-US": "Antir"
       },
       {
         "zType": "TEXT_NAME_ARIANT",
-        "English": "Ariant"
+        "en-US": "Ariant"
       },
       {
         "zType": "TEXT_NAME_ARIMAZ",
-        "English": "Arimaz"
+        "en-US": "Arimaz"
       },
       {
         "zType": "TEXT_NAME_ATEAS",
-        "English": "Ateas"
+        "en-US": "Ateas"
       },
       {
         "zType": "TEXT_NAME_BRADACOS",
-        "English": "Bradacos"
+        "en-US": "Bradacos"
       },
       {
         "zType": "TEXT_NAME_IDANTHIRS",
-        "English": "Idanthirs"
+        "en-US": "Idanthirs"
       },
       {
         "zType": "TEXT_NAME_ISHPAKAI",
-        "English": "Ishpakai"
+        "en-US": "Ishpakai"
       },
       {
         "zType": "TEXT_NAME_KANITA",
-        "English": "Kanita"
+        "en-US": "Kanita"
       },
       {
         "zType": "TEXT_NAME_LIPOKSAI",
-        "English": "Lipoksai"
+        "en-US": "Lipoksai"
       },
       {
         "zType": "TEXT_NAME_HUNTINGAGET",
-        "English": "Marsaget"
+        "en-US": "Marsaget"
       },
       {
         "zType": "TEXT_NAME_MORDOS",
-        "English": "Mordos"
+        "en-US": "Mordos"
       },
       {
         "zType": "TEXT_NAME_OLKAVAS",
-        "English": "Olkavas"
+        "en-US": "Olkavas"
       },
       {
         "zType": "TEXT_NAME_PALAK",
-        "English": "Palak"
+        "en-US": "Palak"
       },
       {
         "zType": "TEXT_NAME_PARTATUA",
-        "English": "Partatua"
+        "en-US": "Partatua"
       },
       {
         "zType": "TEXT_NAME_SAVLIUS",
-        "English": "Savlius"
+        "en-US": "Savlius"
       },
       {
         "zType": "TEXT_NAME_SAVMAKOS",
-        "English": "Savmakos"
+        "en-US": "Savmakos"
       },
       {
         "zType": "TEXT_NAME_SKILUR",
-        "English": "Sklur"
+        "en-US": "Sklur"
       },
       {
         "zType": "TEXT_NAME_TANUS",
-        "English": "Tanus"
+        "en-US": "Tanus"
       },
       {
         "zType": "TEXT_NAME_ANTIANIRA",
-        "English": "Antianira"
+        "en-US": "Antianira"
       },
       {
         "zType": "TEXT_NAME_ANTIOPE",
-        "English": "Antiope"
+        "en-US": "Antiope"
       },
       {
         "zType": "TEXT_NAME_ARGA",
-        "English": "Arga"
+        "en-US": "Arga"
       },
       {
         "zType": "TEXT_NAME_DEIANIRA",
-        "English": "Deianira"
+        "en-US": "Deianira"
       },
       {
         "zType": "TEXT_NAME_HIPPOLYTA",
-        "English": "Hippolyta"
+        "en-US": "Hippolyta"
       },
       {
         "zType": "TEXT_NAME_LAMPEDO",
-        "English": "Lampedo"
+        "en-US": "Lampedo"
       },
       {
         "zType": "TEXT_NAME_MADA",
-        "English": "Mada"
+        "en-US": "Mada"
       },
       {
         "zType": "TEXT_NAME_MARPESIA",
-        "English": "Marpesia"
+        "en-US": "Marpesia"
       },
       {
         "zType": "TEXT_NAME_MOLPADIA",
-        "English": "Molpadia"
+        "en-US": "Molpadia"
       },
       {
         "zType": "TEXT_NAME_MYRINA",
-        "English": "Myrina"
+        "en-US": "Myrina"
       },
       {
         "zType": "TEXT_NAME_OPIS",
-        "English": "Opis"
+        "en-US": "Opis"
       },
       {
         "zType": "TEXT_NAME_OPIYA",
-        "English": "Opiya"
+        "en-US": "Opiya"
       },
       {
         "zType": "TEXT_NAME_OTRERA",
-        "English": "Otrera"
+        "en-US": "Otrera"
       },
       {
         "zType": "TEXT_NAME_PENTHESILEA",
-        "English": "Penthesilea"
+        "en-US": "Penthesilea"
       },
       {
         "zType": "TEXT_NAME_PITANE",
-        "English": "Pitane"
+        "en-US": "Pitane"
       },
       {
         "zType": "TEXT_NAME_SKILEIA",
-        "English": "Skileia"
+        "en-US": "Skileia"
       },
       {
         "zType": "TEXT_NAME_TAMURA",
-        "English": "Tamura"
+        "en-US": "Tamura"
       },
       {
         "zType": "TEXT_NAME_TIRGATAO",
-        "English": "Tirgatao"
+        "en-US": "Tirgatao"
       },
       {
         "zType": "TEXT_NAME_TOXARIS",
-        "English": "Toxaris"
+        "en-US": "Toxaris"
       },
       {
         "zType": "TEXT_NAME_ZARINA",
-        "English": "Zarina"
+        "en-US": "Zarina"
       },
       {
         "zType": "TEXT_NAME_ALYAMAS",
-        "English": "Alyamas"
+        "en-US": "Alyamas"
       },
       {
         "zType": "TEXT_NAME_BAGA",
-        "English": "Baga"
+        "en-US": "Baga"
       },
       {
         "zType": "TEXT_NAME_BOCCHUS",
-        "English": "Bocchus"
+        "en-US": "Bocchus"
       },
       {
         "zType": "TEXT_NAME_CAPUSSA",
-        "English": "Capussa"
+        "en-US": "Capussa"
       },
       {
         "zType": "TEXT_NAME_GALA",
-        "English": "Gala"
+        "en-US": "Gala"
       },
       {
         "zType": "TEXT_NAME_GALUSSA",
-        "English": "Galussa"
+        "en-US": "Galussa"
       },
       {
         "zType": "TEXT_NAME_GAUDA",
-        "English": "Gauda"
+        "en-US": "Gauda"
       },
       {
         "zType": "TEXT_NAME_HIEMPSAL",
-        "English": "Hiempsal"
+        "en-US": "Hiempsal"
       },
       {
         "zType": "TEXT_NAME_ISALCAS",
-        "English": "Isalcas"
+        "en-US": "Isalcas"
       },
       {
         "zType": "TEXT_NAME_JUBA",
-        "English": "Juba"
+        "en-US": "Juba"
       },
       {
         "zType": "TEXT_NAME_JUGURTHA",
-        "English": "Jugurtha"
+        "en-US": "Jugurtha"
       },
       {
         "zType": "TEXT_NAME_MASSINISSA",
-        "English": "Massinissa"
+        "en-US": "Massinissa"
       },
       {
         "zType": "TEXT_NAME_MASTEABAR",
-        "English": "Masteabar"
+        "en-US": "Masteabar"
       },
       {
         "zType": "TEXT_NAME_MICIPSA",
-        "English": "Micipsa"
+        "en-US": "Micipsa"
       },
       {
         "zType": "TEXT_NAME_NIPTASAN",
-        "English": "Niptasan"
+        "en-US": "Niptasan"
       },
       {
         "zType": "TEXT_NAME_OXYNTA",
-        "English": "Oxynta"
+        "en-US": "Oxynta"
       },
       {
         "zType": "TEXT_NAME_STEMBANOS",
-        "English": "Stembanos"
+        "en-US": "Stembanos"
       },
       {
         "zType": "TEXT_NAME_SYPHAX",
-        "English": "Syphax"
+        "en-US": "Syphax"
       },
       {
         "zType": "TEXT_NAME_TABAT",
-        "English": "Tabat"
+        "en-US": "Tabat"
       },
       {
         "zType": "TEXT_NAME_ZALELSAN",
-        "English": "Zalelsan"
+        "en-US": "Zalelsan"
       },
       {
         "zType": "TEXT_NAME_DASSIN",
-        "English": "Dassin"
+        "en-US": "Dassin"
       },
       {
         "zType": "TEXT_NAME_DIHYA",
-        "English": "Dihya"
+        "en-US": "Dihya"
       },
       {
         "zType": "TEXT_NAME_FARIZA",
-        "English": "Fariza"
+        "en-US": "Fariza"
       },
       {
         "zType": "TEXT_NAME_FEDDADA",
-        "English": "Feddada"
+        "en-US": "Feddada"
       },
       {
         "zType": "TEXT_NAME_GHIDA",
-        "English": "Ghida"
+        "en-US": "Ghida"
       },
       {
         "zType": "TEXT_NAME_KELLA",
-        "English": "Kella"
+        "en-US": "Kella"
       },
       {
         "zType": "TEXT_NAME_LALLA",
-        "English": "Lalla"
+        "en-US": "Lalla"
       },
       {
         "zType": "TEXT_NAME_LUNDJA",
-        "English": "Lundja"
+        "en-US": "Lundja"
       },
       {
         "zType": "TEXT_NAME_MADELE",
-        "English": "Madele"
+        "en-US": "Madele"
       },
       {
         "zType": "TEXT_NAME_MENZA",
-        "English": "Menza"
+        "en-US": "Menza"
       },
       {
         "zType": "TEXT_NAME_MERNISSA",
-        "English": "Mernissa"
+        "en-US": "Mernissa"
       },
       {
         "zType": "TEXT_NAME_RULA",
-        "English": "Rula"
+        "en-US": "Rula"
       },
       {
         "zType": "TEXT_NAME_SEKKURA",
-        "English": "Sekkura"
+        "en-US": "Sekkura"
       },
       {
         "zType": "TEXT_NAME_SILYA",
-        "English": "Silya"
+        "en-US": "Silya"
       },
       {
         "zType": "TEXT_NAME_TAFAT",
-        "English": "Tafat"
+        "en-US": "Tafat"
       },
       {
         "zType": "TEXT_NAME_TALALLIT",
-        "English": "Talallit"
+        "en-US": "Talallit"
       },
       {
         "zType": "TEXT_NAME_TANEST",
-        "English": "Tanest"
+        "en-US": "Tanest"
       },
       {
         "zType": "TEXT_NAME_TAYRI",
-        "English": "Tayri"
+        "en-US": "Tayri"
       },
       {
         "zType": "TEXT_NAME_TINHINAN",
-        "English": "Tinhinan"
+        "en-US": "Tinhinan"
       },
       {
         "zType": "TEXT_NAME_ZAMRA",
-        "English": "Zamra"
+        "en-US": "Zamra"
       },
       {
         "zType": "TEXT_NAME_ATOSSA",
-        "English": "Atossa"
+        "en-US": "Atossa"
       },
       {
         "zType": "TEXT_NAME_CATO",
-        "English": "Cato"
+        "en-US": "Cato"
       },
       {
         "zType": "TEXT_NAME_HIARBAS",
-        "English": "Hiarbas"
+        "en-US": "Hiarbas"
       },
       {
         "zType": "TEXT_NAME_AUGUSTINE",
-        "English": "Augustine"
+        "en-US": "Augustine"
       },
       {
         "zType": "TEXT_NAME_TUTOR_LIVIUS_ANDRONICUS",
-        "English": "Livius Andronicus"
+        "en-US": "Livius Andronicus"
       },
       {
         "zType": "TEXT_NAME_TUTOR_PLINY_THE_ELDER",
-        "English": "Pliny the Elder"
+        "en-US": "Pliny the Elder"
       },
       {
         "zType": "TEXT_NAME_TUTOR_CORNELIA",
-        "English": "Cornelia"
+        "en-US": "Cornelia"
       },
       {
         "zType": "TEXT_NAME_TUTOR_AGNODICE",
-        "English": "Agnodice"
+        "en-US": "Agnodice"
       },
       {
         "zType": "TEXT_NAME_TUTOR_ARISTOTLE",
-        "English": "Aristotle"
+        "en-US": "Aristotle"
       },
       {
         "zType": "TEXT_NAME_TUTOR_PYTHAGORAS",
-        "English": "Pythagoras"
+        "en-US": "Pythagoras"
       },
       {
         "zType": "TEXT_NAME_TUTOR_BARDAISAN",
-        "English": "Bardaisan"
+        "en-US": "Bardaisan"
       },
       {
         "zType": "TEXT_NAME_TUTOR_ANACHARSIS",
-        "English": "Anacharsis"
+        "en-US": "Anacharsis"
       },
       {
         "zType": "TEXT_NAME_TUTOR_OSTANES",
-        "English": "Ostanes"
+        "en-US": "Ostanes"
       },
       {
         "zType": "TEXT_NAME_TUTOR_HANNO",
-        "English": "Hanno"
+        "en-US": "Hanno"
       },
       {
         "zType": "TEXT_NAME_TUTOR_CLITOMACHUS",
-        "English": "Clitomachus"
+        "en-US": "Clitomachus"
       },
       {
         "zType": "TEXT_NAME_TUTOR_MAGO",
-        "English": "Mago"
+        "en-US": "Mago"
       },
       {
         "zType": "TEXT_NAME_TUTOR_ESAGIL_KIN_APLI",
-        "English": "Esagil-kin-apli"
+        "en-US": "Esagil-kin-apli"
       },
       {
         "zType": "TEXT_NAME_TUTOR_SERUA_ETERAT",
-        "English": "Serua-eterat"
+        "en-US": "Serua-eterat"
       },
       {
         "zType": "TEXT_NAME_TUTOR_SIN_LEQI_UNNINNI",
-        "English": "Sin-leqi-unninni"
+        "en-US": "Sin-leqi-unninni"
       },
       {
         "zType": "TEXT_NAME_TUTOR_PTAHHOTEP",
-        "English": "Ptahhotep"
+        "en-US": "Ptahhotep"
       },
       {
         "zType": "TEXT_NAME_TUTOR_SENENMUT",
-        "English": "Senenmut"
+        "en-US": "Senenmut"
       },
       {
         "zType": "TEXT_NAME_TUTOR_CLEOPATRA_SELENE",
-        "English": "Cleopatra Selene"
+        "en-US": "Cleopatra Selene"
       },
       {
         "zType": "TEXT_NAME_TUTOR_HARPAGUS",
-        "English": "Harpagus"
+        "en-US": "Harpagus"
       },
       {
         "zType": "TEXT_NAME_TUTOR_AVICENNA",
-        "English": "Avicenna"
+        "en-US": "Avicenna"
       },
       {
         "zType": "TEXT_NAME_TUTOR_KARTIR",
-        "English": "Kartir"
+        "en-US": "Kartir"
       },
       {
         "zType": "TEXT_NAME_PIEFACE",
-        "English": "Pieface"
+        "en-US": "Pieface"
       },
       {
         "zType": "TEXT_NAME_CIMON_THE_FOREIGNER",
-        "English": "Cimon"
+        "en-US": "Cimon"
       },
       {
         "zType": "TEXT_NAME_CONFUCIUS",
-        "English": "Confucius"
+        "en-US": "Confucius"
       },
       {
         "zType": "TEXT_NAME_BOUDICEA",
-        "English": "Boudicea"
+        "en-US": "Boudicea"
       },
       {
         "zType": "TEXT_NAME_EPICTETUS",
-        "English": "Epictetus"
+        "en-US": "Epictetus"
       },
       {
         "zType": "TEXT_NAME_ZENOBIA",
-        "English": "Zenobia"
+        "en-US": "Zenobia"
       },
       {
         "zType": "TEXT_NAME_THE_ORPHAN_EATER",
-        "English": "The Orphan Eater"
-      },
-      {
-        "zType": "TEXT_NAME_PROPHET",
-        "English": "The Prophet"
-      },
-      {
-        "zType": "TEXT_NAME_SEER",
-        "English": "The Seer"
+        "en-US": "The Orphan Eater"
       },
       {
         "zType": "TEXT_NAME_INCITATUS",
-        "English": "Incitatus"
+        "en-US": "Incitatus"
       },
       {
         "zType": "TEXT_NAME_DIEGYLIS",
-        "English": "Diegylis"
+        "en-US": "Diegylis"
+      },
+      {
+        "zType": "TEXT_NAME_PYGMALION_OF_TYRE",
+        "en-US": "Pygmalion of Tyre"
+      },
+      {
+        "zType": "TEXT_NAME_PROPHET",
+        "en-US": "Jonah"
+      },
+      {
+        "zType": "TEXT_NAME_SEER",
+        "en-US": "Deiphobe"
       }
     ]
   }

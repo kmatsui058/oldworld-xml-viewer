@@ -6,149 +6,149 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_LAW_PRIMOGENITURE",
-        "English": "Primogeniture"
+        "en-US": "Primogeniture"
       },
       {
         "zType": "TEXT_LAW_ULTIMOGENITURE",
-        "English": "Ultimogeniture"
+        "en-US": "Ultimogeniture"
       },
       {
         "zType": "TEXT_LAW_LATERAL",
-        "English": "Lateral"
+        "en-US": "Lateral"
       },
       {
         "zType": "TEXT_LAW_DYNASTIC",
-        "English": "Dynastic"
+        "en-US": "Dynastic"
       },
       {
         "zType": "TEXT_LAW_SENIORITY",
-        "English": "Seniority"
+        "en-US": "Seniority"
       },
       {
         "zType": "TEXT_LAW_EPICS",
-        "English": "Epics"
+        "en-US": "Epics"
       },
       {
         "zType": "TEXT_LAW_EXPLORATION",
-        "English": "Exploration"
+        "en-US": "Exploration"
       },
       {
         "zType": "TEXT_LAW_SLAVERY",
-        "English": "Slavery"
+        "en-US": "Slavery"
       },
       {
         "zType": "TEXT_LAW_FREEDOM",
-        "English": "Freedom"
+        "en-US": "Freedom"
       },
       {
         "zType": "TEXT_LAW_CENTRALIZATION",
-        "English": "Centralization"
+        "en-US": "Centralization"
       },
       {
         "zType": "TEXT_LAW_VASSALAGE",
-        "English": "Vassalage"
+        "en-US": "Vassalage"
       },
       {
         "zType": "TEXT_LAW_TYRANNY",
-        "English": "Tyranny"
+        "en-US": "Tyranny"
       },
       {
         "zType": "TEXT_LAW_CONSTITUTION",
-        "English": "Constitution"
+        "en-US": "Constitution"
       },
       {
         "zType": "TEXT_LAW_COLONIES",
-        "English": "Colonies"
+        "en-US": "Colonies"
       },
       {
         "zType": "TEXT_LAW_SERFDOM",
-        "English": "Serfdom"
+        "en-US": "Serfdom"
       },
       {
         "zType": "TEXT_LAW_MONOTHEISM",
-        "English": "Monotheism"
+        "en-US": "Monotheism"
       },
       {
         "zType": "TEXT_LAW_POLYTHEISM",
-        "English": "Polytheism"
+        "en-US": "Polytheism"
       },
       {
         "zType": "TEXT_LAW_DIVINE_RULE",
-        "English": "Divine Rule"
+        "en-US": "Divine Rule"
       },
       {
         "zType": "TEXT_LAW_LEGAL_CODE",
-        "English": "Legal Code"
+        "en-US": "Legal Code"
       },
       {
         "zType": "TEXT_LAW_TOLERANCE",
-        "English": "Tolerance"
+        "en-US": "Tolerance"
       },
       {
         "zType": "TEXT_LAW_ORTHODOXY",
-        "English": "Orthodoxy"
+        "en-US": "Orthodoxy"
       },
       {
         "zType": "TEXT_LAW_PROFESSIONAL_ARMY",
-        "English": "Professional Army"
+        "en-US": "Professional Army"
       },
       {
         "zType": "TEXT_LAW_VOLUNTEERS",
-        "English": "Volunteers"
+        "en-US": "Volunteers"
       },
       {
         "zType": "TEXT_LAW_PHILOSOPHY",
-        "English": "Philosophy"
+        "en-US": "Philosophy"
       },
       {
         "zType": "TEXT_LAW_ENGINEERING",
-        "English": "Engineering"
+        "en-US": "Engineering"
       },
       {
         "zType": "TEXT_LAW_ICONOGRAPHY",
-        "English": "Iconography"
+        "en-US": "Iconography"
       },
       {
         "zType": "TEXT_LAW_CALLIGRAPHY",
-        "English": "Calligraphy"
+        "en-US": "Calligraphy"
       },
       {
         "zType": "TEXT_LAW_PILGRIMAGE",
-        "English": "Pilgrimage"
+        "en-US": "Pilgrimage"
       },
       {
         "zType": "TEXT_LAW_HOLY_WAR",
-        "English": "Holy War"
+        "en-US": "Holy War"
       },
       {
         "zType": "TEXT_LAW_GUILDS",
-        "English": "Guilds"
+        "en-US": "Guilds"
       },
       {
         "zType": "TEXT_LAW_ELITES",
-        "English": "Elites"
+        "en-US": "Elites"
       },
       {
         "zType": "TEXT_LAW_AUTARKY",
-        "English": "Autarky"
+        "en-US": "Autarky"
       },
       {
         "zType": "TEXT_LAW_TRADE_LEAGUE",
-        "English": "Trade League"
+        "en-US": "Trade League"
       },
       {
         "zType": "TEXT_LAW_COIN_DEBASEMENT",
-        "English": "Coin Debasement"
+        "en-US": "Coin Debasement"
       },
       {
         "zType": "TEXT_LAW_MONETARY_REFORM",
-        "English": "Monetary Reform"
+        "en-US": "Monetary Reform"
       }
     ]
   }

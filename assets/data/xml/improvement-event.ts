@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GrammaticalGenders": {
+          
+        },
         "Hint": {
           
         },
@@ -177,6 +180,9 @@
         "bText": {
           
         },
+        "bIgnoreHillHeight": {
+          
+        },
         "Achievement": {
           
         },
@@ -232,6 +238,9 @@
           
         },
         "aiYieldOutput": {
+          
+        },
+        "aiYieldConsumption": {
           
         },
         "aiWonderYieldOutput": {

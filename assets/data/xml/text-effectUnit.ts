@@ -6,369 +6,413 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_EFFECTUNITCLASS_COMBAT",
-        "English": "Combat"
+        "en-US": "Combat"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMBAT1",
-        "English": "Combat I"
+        "en-US": "Combat I"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMBAT2",
-        "English": "Combat II"
+        "en-US": "Combat II"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMBAT3",
-        "English": "Combat III"
+        "en-US": "Combat III"
       },
       {
         "zType": "TEXT_EFFECTUNITCLASS_STRIKE",
-        "English": "Strike"
+        "en-US": "Strike"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STRIKE1",
-        "English": "Strike I"
+        "en-US": "Strike I"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STRIKE2",
-        "English": "Strike II"
+        "en-US": "Strike II"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STRIKE3",
-        "English": "Strike III"
+        "en-US": "Strike III"
       },
       {
         "zType": "TEXT_EFFECTUNITCLASS_GUARD",
-        "English": "Guard"
+        "en-US": "Guard"
       },
       {
         "zType": "TEXT_EFFECTUNIT_GUARD1",
-        "English": "Guard I"
+        "en-US": "Guard I"
       },
       {
         "zType": "TEXT_EFFECTUNIT_GUARD2",
-        "English": "Guard II"
+        "en-US": "Guard II"
       },
       {
         "zType": "TEXT_EFFECTUNIT_GUARD3",
-        "English": "Guard III"
+        "en-US": "Guard III"
       },
       {
         "zType": "TEXT_EFFECTUNITCLASS_FOCUS",
-        "English": "Focus"
+        "en-US": "Focus"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FOCUS1",
-        "English": "Focus I"
+        "en-US": "Focus I"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FOCUS2",
-        "English": "Focus II"
+        "en-US": "Focus II"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FOCUS3",
-        "English": "Focus III"
+        "en-US": "Focus III"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TRACKER",
-        "English": "Tracker"
+        "en-US": "Tracker"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TRACKER_ALL",
-        "English": "Tracker Leader"
+        "en-US": "Tracker Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SWIFT",
-        "English": "Swift"
+        "en-US": "Swift"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SWIFT_ALL",
-        "English": "Swift Leader"
+        "en-US": "Swift Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_EAGLE_EYE",
-        "English": "Eagle Eye"
+        "en-US": "Eagle Eye"
       },
       {
         "zType": "TEXT_EFFECTUNIT_MARKSMAN",
-        "English": "Marksman"
+        "en-US": "Marksman"
       },
       {
         "zType": "TEXT_EFFECTUNIT_AMPHIBIOUS",
-        "English": "Amphibious"
+        "en-US": "Amphibious"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BESIEGER",
-        "English": "Besieger"
+        "en-US": "Besieger"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BESIEGER_ALL",
-        "English": "Besieger Leader"
+        "en-US": "Besieger Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_WARDEN",
-        "English": "Warden"
+        "en-US": "Warden"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TOUGH",
-        "English": "Tough"
+        "en-US": "Tough"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TOUGH_ALL",
-        "English": "Tough Leader"
+        "en-US": "Tough Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY",
-        "English": "Bloodthirsty"
+        "en-US": "Bloodthirsty"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL",
-        "English": "Bloodthirsty Leader"
+        "en-US": "Bloodthirsty Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HECKLER",
-        "English": "Heckler"
+        "en-US": "Heckler"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HECKLER_ALL",
-        "English": "Heckler Leader"
+        "en-US": "Heckler Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STEADFAST",
-        "English": "Steadfast"
+        "en-US": "Steadfast"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STEADFAST_ALL",
-        "English": "Steadfast Leader"
+        "en-US": "Steadfast Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERBALIST",
-        "English": "Herbalist"
+        "en-US": "Herbalist"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERBALIST_ALL",
-        "English": "Herbalist Leader"
+        "en-US": "Herbalist Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HEALER",
-        "English": "Healer"
+        "en-US": "Healer"
       },
       {
         "zType": "TEXT_EFFECTUNIT_NOMAD",
-        "English": "Nomad"
+        "en-US": "Nomad"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COLD",
-        "English": "Cold"
+        "en-US": "Cold"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HIGHLANDER",
-        "English": "Highlander"
+        "en-US": "Highlander"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HIGHLANDER_ALL",
-        "English": "Highlander Leader"
+        "en-US": "Highlander Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_RANGER",
-        "English": "Ranger"
+        "en-US": "Ranger"
       },
       {
         "zType": "TEXT_EFFECTUNIT_RANGER_ALL",
-        "English": "Ranger Leader"
+        "en-US": "Ranger Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BRAVE",
-        "English": "Brave"
+        "en-US": "Brave"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BRAVE_ALL",
-        "English": "Brave Leader"
+        "en-US": "Brave Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SHIELDBEARER",
-        "English": "Shieldbearer"
+        "en-US": "Shieldbearer"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SHIELDBEARER_ALL",
-        "English": "Shieldbearer Leader"
+        "en-US": "Shieldbearer Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FIERCE",
-        "English": "Fierce"
+        "en-US": "Fierce"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FIERCE_ALL",
-        "English": "Fierce Leader"
+        "en-US": "Fierce Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HORSEBANE",
-        "English": "Horsebane"
+        "en-US": "Horsebane"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HORSEBANE_ALL",
-        "English": "Horsebane Leader"
+        "en-US": "Horsebane Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ENGINEER",
-        "English": "Engineer"
+        "en-US": "Engineer"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ENGINEER_ALL",
-        "English": "Engineer Leader"
+        "en-US": "Engineer Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SHRAPNEL",
-        "English": "Shrapnel"
+        "en-US": "Shrapnel"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COCKSWAIN",
-        "English": "Cockswain"
+        "en-US": "Cockswain"
       },
       {
         "zType": "TEXT_EFFECTUNIT_GRAPPLER",
-        "English": "Grappler"
+        "en-US": "Grappler"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SEABORN",
-        "English": "Seaborn"
+        "en-US": "Seaborn"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OVERWHELM",
-        "English": "Overwhelm"
+        "en-US": "Overwhelm"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FIRESHIP",
-        "English": "Fireship"
+        "en-US": "Fireship"
       },
       {
         "zType": "TEXT_EFFECTUNIT_LADING",
-        "English": "Lading"
+        "en-US": "Lading"
       },
       {
         "zType": "TEXT_EFFECTUNIT_INGENUITY",
-        "English": "Ingenuity"
+        "en-US": "Ingenuity"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SADDLEBORN",
-        "English": "Saddleborn"
+        "en-US": "Saddleborn"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SENTINEL",
-        "English": "Sentinel"
+        "en-US": "Sentinel"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ROUT",
-        "English": "Rout"
+        "en-US": "Rout"
       },
       {
         "zType": "TEXT_EFFECTUNIT_PANIC",
-        "English": "Panic"
+        "en-US": "Panic"
       },
       {
         "zType": "TEXT_EFFECTUNIT_STEALTH",
-        "English": "Stealth"
+        "en-US": "Stealth"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ASSAULT",
-        "English": "Assault"
+        "en-US": "Assault"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FORMATION",
-        "English": "Formation"
+        "en-US": "Formation"
       },
       {
         "zType": "TEXT_EFFECTUNIT_CRIPPLED",
-        "English": "Crippled"
+        "en-US": "Crippled"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SOLDIER",
-        "English": "Soldier"
+        "en-US": "Soldier"
       },
       {
         "zType": "TEXT_EFFECTUNIT_PROPHET",
-        "English": "Prophet"
+        "en-US": "Prophet"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SURVEYOR",
-        "English": "Surveyor"
+        "en-US": "Surveyor"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_EPICS",
+        "en-US": "link(LAW_EPICS)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ASSYRIA",
-        "English": "link(NATION_ASSYRIA)"
+        "en-US": "link(NATION_ASSYRIA)"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ROME",
+        "en-US": "link(NATION_ROME)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO",
-        "English": "link(TRAIT_HERO_ARCHETYPE)"
+        "en-US": "link(TRAIT_HERO_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO_LEADER",
-        "English": "link(TRAIT_HERO_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_HERO_ARCHETYPE) Leader"
       },
       {
-        "zType": "TEXT_EFFECTUNIT_HERO_MELEE",
-        "English": "link(TRAIT_HERO_ARCHETYPE) Leader (link(UNITTRAIT_MELEE))"
+        "zType": "TEXT_EFFECTUNIT_HERO_ALL",
+        "en-US": "link(TRAIT_HERO_ARCHETYPE) Leader (All Units)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE)"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader (link(UNITTRAIT_INFANTRY))"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) Leader (link(UNITTRAIT_INFANTRY))"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE)"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_LEADER",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_RANGED",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader (link(UNITTRAIT_RANGED))"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT",
-        "English": "link(TRAIT_ZEALOT_ARCHETYPE)"
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
-        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ZEALOT_ALL",
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) Leader (All Units)"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS",
-        "English": "link(OPINIONFAMILY_FURIOUS) Family"
+        "en-US": "link(OPINIONFAMILY_FURIOUS) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_ANGRY",
-        "English": "link(OPINIONFAMILY_ANGRY) Family"
+        "en-US": "link(OPINIONFAMILY_ANGRY) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_UPSET",
-        "English": "link(OPINIONFAMILY_UPSET) Family"
+        "en-US": "link(OPINIONFAMILY_UPSET) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_PLEASED",
-        "English": "link(OPINIONFAMILY_PLEASED) Family"
+        "en-US": "link(OPINIONFAMILY_PLEASED) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OPINIONFAMILY_FRIENDLY",
-        "English": "link(OPINIONFAMILY_FRIENDLY) Family"
+        "en-US": "link(OPINIONFAMILY_FRIENDLY) Family"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SWORD_OF_THE_GODS",
-        "English": "Sword of the Gods"
+        "en-US": "Sword of the Gods"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_PIERCE1",
+        "en-US": "Pierce I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_PIERCE2",
+        "en-US": "Pierce II"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_PIERCE3",
+        "en-US": "Pierce III"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_CLEAVE1",
+        "en-US": "Cleave I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_CLEAVE2",
+        "en-US": "Cleave II"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_CIRCLE",
+        "en-US": "Circle"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SPLASH1",
+        "en-US": "Splash I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SPLASH2",
+        "en-US": "Splash II"
       }
     ]
   }

@@ -10,7 +10,10 @@ export interface Entry {
   zType: ZType | string;
   Name?: ZType | string;
   zFieldName?: ZType | string;
+  zFieldNameSecondary?: ZType | string;
   zISOCode?: ZType | string;
+  aeGrammaticalGenders?: AeGrammaticalGenders;
+  DefaultGrammaticalGender?: ZType;
   iExportColumn?: ZType | string;
   bPublicBuild: ZType | string;
   bDebug?: ZType | string;
@@ -22,6 +25,9 @@ export interface Entry {
   zCurrencyPostfix?: ZType;
   zThousandPostfix: ZType | string;
   zMillionPostfix: ZType | string;
+}
+export interface AeGrammaticalGenders {
+  zValue?: string[];
 }
 export interface ZType {
 }

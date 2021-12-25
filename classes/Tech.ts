@@ -22,7 +22,7 @@ export default class Tech {
 
   get name(): string {
     const test = this.textInfo.find((el) => el.zType === this.entry.Name)
-    return test ? test.English.toString().split('~')[0] : ''
+    return test?.['en-US']?.toString().split('~')[0] || ''
   }
 
   get zType(): string {

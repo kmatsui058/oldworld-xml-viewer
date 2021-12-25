@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GrammaticalGenders?: ZType;
   zIconName: ZType | string;
   zPortraitName: ZType | string;
   zBackgroundName: ZType | string;
@@ -68,6 +69,7 @@ export interface Entry {
   bUnlimber?: ZType | string;
   bAnchor?: ZType | string;
   bFound?: ZType | string;
+  bRemoveVegetation?: ZType | string;
   bHarvest?: ZType | string;
   bBuild?: ZType | string;
   bAgent?: ZType | string;
@@ -86,14 +88,11 @@ export interface Entry {
   aiUnitTraitModifierMelee?: AiUnitTraitModifier;
   aiYieldCost?: AiStartDifficulty;
   aiYieldConsumption?: AiStartDifficulty;
-  aiAttackValue?: AiStartDifficulty;
-  aiAttackPercent?: AiStartDifficulty;
   aeObsoleteTech?: AeObsoleteTech;
   aeUpgradeUnit?: AeObsoleteTech;
   aeTribeUpgradeUnit?: AzBarbarianPortraitName;
   aeUnitTrait: AeObsoleteTech;
   aeEffectUnit?: AeObsoleteTech;
-  aeRemoveVegetation?: AeFormations;
   aaiImprovementYieldRate?: AaiImprovementYieldRate;
 }
 export interface AaiImprovementYieldRate {

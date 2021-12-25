@@ -8704,7 +8704,7 @@
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_YOUTH",
-              "zValue": "GENERIC_FEMALE_22_YOUTH"
+              "zValue": "GENERIC_FEMALE_03_YOUTH"
             },
             {
               "zIndex": "CHARACTER_AGE_GROUP_TEEN",

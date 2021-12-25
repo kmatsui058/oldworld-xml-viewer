@@ -479,10 +479,6 @@
         "iValue": "25"
       },
       {
-        "zType": "GENERAL_SAME_FAMILY_MODIFIER",
-        "iValue": "-25"
-      },
-      {
         "zType": "INJURY_PROB",
         "iValue": "1"
       },
@@ -607,8 +603,12 @@
         "iValue": "20"
       },
       {
+        "zType": "RELIGION_HEAD_PREFERRED_MIN_AGE",
+        "iValue": "30"
+      },
+      {
         "zType": "FAMILY_HEAD_PREFERRED_MIN_AGE",
-        "iValue": "25"
+        "iValue": "30"
       },
       {
         "zType": "LEADER_NO_HEIR_SAFE_MIN_AGE",

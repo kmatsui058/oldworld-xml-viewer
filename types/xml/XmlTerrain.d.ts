@@ -12,6 +12,7 @@ export interface Entry {
   zIconName: ZType | string;
   iMovementCost: ZType | string;
   iBorderValue?: ZType | string;
+  iUnitDamage?: ZType | string;
   bWater?: ZType | string;
   bUrban?: ZType | string;
   bNoVegetation?: ZType | string;
@@ -22,6 +23,7 @@ export interface Entry {
   aiDefendMeleeEffectUnit?: ZType;
   aeHeightAsset: AeHeightAsset;
   AssetVariation?: ZType | string;
+  zAudioAmbienceSwitch: ZType | string;
 }
 export interface AeHeightAsset {
   Pair?: Pair[];

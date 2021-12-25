@@ -2857,6 +2857,10 @@
       {
         "zType": "NAME_DIEGYLIS",
         "Name": "TEXT_NAME_DIEGYLIS"
+      },
+      {
+        "zType": "NAME_PYGMALION_OF_TYRE",
+        "Name": "TEXT_NAME_PYGMALION_OF_TYRE"
       }
     ]
   }

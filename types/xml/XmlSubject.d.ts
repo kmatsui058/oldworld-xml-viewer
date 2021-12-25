@@ -23,7 +23,7 @@ export interface Entry {
   ActiveQuest?: ActiveQuest;
   MemoryPlayerPrereq?: ZType | RelationUs2 | string;
   MemoryPlayerInvalid?: ZType | RelationUs2 | string;
-  MemoryTribePrereq?: ActiveQuest;
+  MemoryTribePrereq?: ZType | RelationUs2 | string;
   MemoryTribeInvalid?: ZType | RelationUs2 | string;
   MemoryReligionPrereq?: ActiveQuest;
   MemoryReligionInvalid?: ActiveQuest;

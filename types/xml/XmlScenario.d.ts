@@ -21,28 +21,33 @@ export interface Entry {
   bContinue?: ZType | string;
   Prereq?: ZType | string;
   Nation?: ZType | string;
+  TeamNation?: ZType | string;
   Difficulty: ZType | string;
   TurnScale?: ZType | string;
-  abOpponents?: ZType;
-  OpponentLevel?: ZType;
-  DevelopmentLevel?: ZType;
-  abTribes?: ZType;
+  TurnStyle?: ZType | string;
+  TurnTimer?: ZType | string;
+  OpponentLevel?: ZType | string;
+  DevelopmentLevel?: ZType | string;
+  AdvantageLevel?: ZType | string;
   TribeLevel: ZType | string;
+  SuccessionGender?: ZType | string;
+  SuccessionOrder?: ZType | string;
+  MortalityLevel?: ZType | string;
+  EventLevel?: ZType | string;
   DisableOptions?: ZType | string;
-  abVictoryEnabled?: ZType;
-  abOptionEnabled?: ZType;
-  abOptionValid?: AbOptionValid;
-  azParametersInvalid?: AzParametersInvalid;
+  azVictoryEnabled?: ZType;
+  azOptionEnabled?: ZType;
+  azOptionValid?: AzOptionValid;
+  azMapSizeDisabled?: AzOptionValid;
+  azDifficultyDisabled?: AzOptionValid;
+  azTribeLevelDisabled?: AzTribeLevelDisabled;
+  azParametersInvalid?: AzOptionValid;
 }
-export interface AzParametersInvalid {
+export interface AzTribeLevelDisabled {
+  zValue?: string;
+}
+export interface AzOptionValid {
   zValue?: string[];
-}
-export interface AbOptionValid {
-  Pair?: Pair[];
-}
-export interface Pair {
-  zIndex: string;
-  bValue: string;
 }
 export interface AzAchievements {
   zValue?: string[] | string;

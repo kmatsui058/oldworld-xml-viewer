@@ -45,13 +45,19 @@
         "Nation": {
           
         },
+        "TeamNation": {
+          
+        },
         "Difficulty": {
           
         },
         "TurnScale": {
           
         },
-        "abOpponents": {
+        "TurnStyle": {
+          
+        },
+        "TurnTimer": {
           
         },
         "OpponentLevel": {
@@ -60,22 +66,43 @@
         "DevelopmentLevel": {
           
         },
-        "abTribes": {
+        "AdvantageLevel": {
           
         },
         "TribeLevel": {
           
         },
+        "SuccessionGender": {
+          
+        },
+        "SuccessionOrder": {
+          
+        },
+        "MortalityLevel": {
+          
+        },
+        "EventLevel": {
+          
+        },
         "DisableOptions": {
           
         },
-        "abVictoryEnabled": {
+        "azVictoryEnabled": {
           
         },
-        "abOptionEnabled": {
+        "azOptionEnabled": {
           
         },
-        "abOptionValid": {
+        "azOptionValid": {
+          
+        },
+        "azMapSizeDisabled": {
+          
+        },
+        "azDifficultyDisabled": {
+          
+        },
+        "azTribeLevelDisabled": {
           
         },
         "azParametersInvalid": {
@@ -95,9 +122,19 @@
           "zValue": "ACHIEVEMENT_LEARNTOPLAY_1"
         },
         "Nation": "NATION_GREECE",
+        "TeamNation": "TEAMNATION_GAME_UNIQUE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
+        "TurnStyle": "TURNSTYLE_STRICT",
+        "TurnTimer": "TURNTIMER_NONE",
+        "OpponentLevel": "OPPONENTLEVEL_PASSIVE",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
+        "AdvantageLevel": "ADVANTAGE_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
+        "SuccessionGender": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC",
+        "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE",
+        "MortalityLevel": "MORTALITY_STANDARD",
+        "EventLevel": "EVENTLEVEL_LOW",
         "DisableOptions": "1"
       },
       {
@@ -114,9 +151,19 @@
         },
         "Prereq": "SCENARIO_LEARNTOPLAY_1",
         "Nation": "NATION_GREECE",
+        "TeamNation": "TEAMNATION_GAME_UNIQUE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
+        "TurnStyle": "TURNSTYLE_STRICT",
+        "TurnTimer": "TURNTIMER_NONE",
+        "OpponentLevel": "OPPONENTLEVEL_PASSIVE",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
+        "AdvantageLevel": "ADVANTAGE_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
+        "SuccessionGender": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC",
+        "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE",
+        "MortalityLevel": "MORTALITY_STANDARD",
+        "EventLevel": "EVENTLEVEL_LOW",
         "DisableOptions": "1"
       },
       {
@@ -125,6 +172,7 @@
         "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_3_SUB",
         "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
         "zIcon": "HowToPlay_Thumbnail",
+        "bPublic": "1",
         "zMapFile": "Learn To Play Three",
         "zModName": "LearnToPlay3",
         "azAchievements": {
@@ -132,9 +180,19 @@
         },
         "Prereq": "SCENARIO_LEARNTOPLAY_2",
         "Nation": "NATION_GREECE",
+        "TeamNation": "TEAMNATION_GAME_UNIQUE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
+        "TurnStyle": "TURNSTYLE_STRICT",
+        "TurnTimer": "TURNTIMER_NONE",
+        "OpponentLevel": "OPPONENTLEVEL_PASSIVE",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
+        "AdvantageLevel": "ADVANTAGE_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
+        "SuccessionGender": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC",
+        "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE",
+        "MortalityLevel": "MORTALITY_STANDARD",
+        "EventLevel": "EVENTLEVEL_LOW",
         "DisableOptions": "1"
       },
       {
@@ -143,6 +201,7 @@
         "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_4_SUB",
         "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
         "zIcon": "HowToPlay_Thumbnail",
+        "bPublic": "1",
         "zMapFile": "Learn To Play Four",
         "zModName": "LearnToPlay4",
         "azAchievements": {
@@ -150,9 +209,47 @@
         },
         "Prereq": "SCENARIO_LEARNTOPLAY_3",
         "Nation": "NATION_GREECE",
+        "TeamNation": "TEAMNATION_GAME_UNIQUE",
         "Difficulty": "DIFFICULTY_ABLE",
         "TurnScale": "TURNSCALE_YEAR",
+        "TurnStyle": "TURNSTYLE_STRICT",
+        "TurnTimer": "TURNTIMER_NONE",
+        "OpponentLevel": "OPPONENTLEVEL_PASSIVE",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
+        "AdvantageLevel": "ADVANTAGE_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
+        "SuccessionGender": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC",
+        "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE",
+        "MortalityLevel": "MORTALITY_STANDARD",
+        "EventLevel": "EVENTLEVEL_LOW",
+        "DisableOptions": "1"
+      },
+      {
+        "zType": "SCENARIO_LEARNTOPLAY_5",
+        "Name": "TEXT_SCENARIO_LEARNTOPLAY_5",
+        "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_5_SUB",
+        "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
+        "zIcon": "HowToPlay_Thumbnail",
+        "zMapFile": "Learn To Play Five",
+        "zModName": "LearnToPlay5",
+        "azAchievements": {
+          "zValue": "ACHIEVEMENT_LEARNTOPLAY_5"
+        },
+        "Prereq": "SCENARIO_LEARNTOPLAY_4",
+        "Nation": "NATION_GREECE",
+        "TeamNation": "TEAMNATION_GAME_UNIQUE",
+        "Difficulty": "DIFFICULTY_ABLE",
+        "TurnScale": "TURNSCALE_YEAR",
+        "TurnStyle": "TURNSTYLE_STRICT",
+        "TurnTimer": "TURNTIMER_NONE",
+        "OpponentLevel": "OPPONENTLEVEL_PASSIVE",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
+        "AdvantageLevel": "ADVANTAGE_NONE",
+        "TribeLevel": "TRIBELEVEL_NORMAL",
+        "SuccessionGender": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC",
+        "SuccessionOrder": "SUCCESSIONORDER_PRIMOGENITURE",
+        "MortalityLevel": "MORTALITY_STANDARD",
+        "EventLevel": "EVENTLEVEL_LOW",
         "DisableOptions": "1"
       },
       {
@@ -164,34 +261,26 @@
         "bAllowMap": "0",
         "zModName": "Barbarian",
         "Difficulty": "DIFFICULTY_GOOD",
+        "DevelopmentLevel": "DEVELOPMENT_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "abOptionValid": {
-          "Pair": [
-            {
-              "zIndex": "GAMEOPTION_NO_CHARACTERS",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_NO_FOG_OF_WAR",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_LOCKED_SAVE",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_NO_UNDO",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_RANDOMIZE_FAMILIES",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_ONE_CITY_CHALLENGE",
-              "bValue": "1"
-            }
+        "azOptionValid": {
+          "zValue": [
+            "GAMEOPTION_NO_CHARACTERS",
+            "GAMEOPTION_NO_FOG_OF_WAR",
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO",
+            "GAMEOPTION_RANDOMIZE_FAMILIES",
+            "GAMEOPTION_ONE_CITY_CHALLENGE"
           ]
+        },
+        "azMapSizeDisabled": {
+          "zValue": [
+            "MAPSIZE_DUEL",
+            "MAPSIZE_HUGE"
+          ]
+        },
+        "azTribeLevelDisabled": {
+          "zValue": "TRIBELEVEL_NONE"
         }
       },
       {
@@ -207,19 +296,26 @@
           "zValue": "ACHIEVEMENT_CARTHAGE_1"
         },
         "Nation": "NATION_CARTHAGE",
-        "Difficulty": "DIFFICULTY_STRONG",
+        "Difficulty": "DIFFICULTY_CARTHAGE_MEDIUM",
         "TurnScale": "TURNSCALE_YEAR",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "abOptionValid": {
-          "Pair": [
-            {
-              "zIndex": "GAMEOPTION_LOCKED_SAVE",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_NO_UNDO",
-              "bValue": "1"
-            }
+        "azOptionValid": {
+          "zValue": [
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO"
+          ]
+        },
+        "azDifficultyDisabled": {
+          "zValue": [
+            "DIFFICULTY_ABLE",
+            "DIFFICULTY_JUST",
+            "DIFFICULTY_GOOD",
+            "DIFFICULTY_GREAT",
+            "DIFFICULTY_STRONG",
+            "DIFFICULTY_NOBLE",
+            "DIFFICULTY_GLORIOUS",
+            "DIFFICULTY_MAGNIFICENT",
+            "DIFFICULTY_ABLE"
           ]
         },
         "azParametersInvalid": {
@@ -248,16 +344,10 @@
         "Difficulty": "DIFFICULTY_STRONG",
         "TurnScale": "TURNSCALE_YEAR",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "abOptionValid": {
-          "Pair": [
-            {
-              "zIndex": "GAMEOPTION_LOCKED_SAVE",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "GAMEOPTION_NO_UNDO",
-              "bValue": "1"
-            }
+        "azOptionValid": {
+          "zValue": [
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO"
           ]
         },
         "azParametersInvalid": {

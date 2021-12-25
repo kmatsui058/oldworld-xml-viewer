@@ -687,7 +687,8 @@
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_RUINS",
         "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_RUINS"
+        "SingleAsset": "ASSET_IMPROVEMENT_RUINS",
+        "bShowBuildings": "true"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_NETS",
@@ -696,7 +697,7 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_CITY_SITE",
-        "aiValidRotations": "0,180,300,330",
+        "aiValidRotations": "0,30,60,80,90,150,180,210,250,300,330",
         "SingleAsset": "ASSET_IMPROVEMENT_CITY_SITE"
       },
       {
@@ -767,8 +768,8 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_QUARRY_MARBLE",
-        "aiValidRotations": "0",
-        "SingleAsset": "ASSET_IMPROVEMENT_QUARRY"
+        "aiValidRotations": "0,180,300,330",
+        "SingleAsset": "ASSET_IMPROVEMENT_QUARRY_MARBLE"
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_PASTURE",
@@ -777,7 +778,7 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_CAMP",
-        "aiValidRotations": "0",
+        "aiValidRotations": "25,50,75,100,125,150,175,200,225,250,275,300,325,350",
         "SingleAsset": "ASSET_IMPROVEMENT_CAMP"
       },
       {
@@ -1162,7 +1163,7 @@
       },
       {
         "zType": "ASSET_VARIATION_IMPROVEMENT_COLOSSUS",
-        "aiValidRotations": "0",
+        "aiValidRotations": "300",
         "SingleAsset": "ASSET_IMPROVEMENT_COLOSSUS"
       },
       {
@@ -1279,6 +1280,16 @@
         "zType": "ASSET_VARIATION_IMPROVEMENT_NETS_CRABS",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_IMPROVEMENT_NETS_CRABS"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NETS_DYES",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_NETS_DYES"
+      },
+      {
+        "zType": "ASSET_VARIATION_IMPROVEMENT_NETS_PEARLS",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_IMPROVEMENT_NETS_PEARLS"
       }
     ]
   }

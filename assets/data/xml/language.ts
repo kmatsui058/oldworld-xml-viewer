@@ -12,7 +12,16 @@
         "zFieldName": {
           
         },
+        "zFieldNameSecondary": {
+          
+        },
         "zISOCode": {
+          
+        },
+        "aeGrammaticalGenders": {
+          
+        },
+        "DefaultGrammaticalGender": {
           
         },
         "iExportColumn": {
@@ -52,10 +61,32 @@
       {
         "zType": "LANGUAGE_ENGLISH",
         "Name": "TEXT_LANGUAGE_ENGLISH",
-        "zFieldName": "English",
-        "zISOCode": "en",
+        "zFieldName": "en-US",
+        "zFieldNameSecondary": "English",
+        "zISOCode": "en-US",
         "iExportColumn": "3",
         "bPublicBuild": "1",
+        "zSingularExpression": "x==1",
+        "zThousandsSeparator": ",",
+        "zDecimalSeparator": ".",
+        "zCurrencyPrefix": "$",
+        "zThousandPostfix": "K",
+        "zMillionPostfix": "M"
+      },
+      {
+        "zType": "LANGUAGE_SPANISH",
+        "Name": "TEXT_LANGUAGE_SPANISH",
+        "zFieldName": "es",
+        "zFieldNameSecondary": "Spanish",
+        "zISOCode": "es",
+        "aeGrammaticalGenders": {
+          "zValue": [
+            "GRAMMATICAL_GENDER_MASCULINE",
+            "GRAMMATICAL_GENDER_FEMININE"
+          ]
+        },
+        "iExportColumn": "4",
+        "bPublicBuild": "0",
         "zSingularExpression": "x==1",
         "zThousandsSeparator": ",",
         "zDecimalSeparator": ".",

@@ -36,7 +36,7 @@
         "iPerUrbanTile": {
           
         },
-        "iPerEmptyImprovement": {
+        "iPerImprovement": {
           
         },
         "iPerConnectedForeign": {
@@ -186,7 +186,7 @@
         "zIconName": "YIELD_TRAINING",
         "iMinimum": "10",
         "iGeneralCost": "100",
-        "iOffensiveCost": "500",
+        "iOffensiveCost": "600",
         "iUIPosition": "8",
         "bGlobal": "1",
         "bStockpile": "1",
@@ -261,7 +261,7 @@
         "Color": "COLOR_YIELD_MAINTENANCE",
         "Help": "TEXT_YIELD_MAINTENANCE_HELP",
         "zIconName": "YIELD_MAINTENANCE",
-        "iPerEmptyImprovement": "-20",
+        "iPerImprovement": "-20",
         "iPerCapitalDist": "-10",
         "iDiscontentModifier": "5",
         "bGlobal": "1",

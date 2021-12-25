@@ -46,6 +46,8 @@ export interface Entry {
   CouncilInvalid?: ZType | Name2 | string;
   MinOpponentLevel?: ZType | Name2 | string;
   MaxOpponentLevel?: ZFrameType;
+  MinTribeLevel?: ZFrameType;
+  MaxTribeLevel?: ZFrameType;
   MinDifficulty?: ZType | Name2 | string;
   MaxDifficulty?: ZFrameType;
   iMinLeader?: ZType | Name2 | string;
@@ -60,6 +62,7 @@ export interface Entry {
   bAllOptions?: ZType | Name2 | string;
   bIgnoreOptions?: ZType | Name2 | string;
   bAlwaysTriggers?: ZType | Name2 | string;
+  bForceChoice?: Name2;
   bTutorial?: ZType | Name2 | string;
   bHidden?: ZType | Name2 | string;
   bMultiples?: ZType | Name2 | string;
@@ -68,6 +71,7 @@ export interface Entry {
   aeLawInvalid?: AeSubjects;
   aeEventStoryRepeatTurns?: AeSubjects;
   beginGroup?: string;
+  comment?: string;
 }
 export interface AiRatingWeight {
   comment?: string;

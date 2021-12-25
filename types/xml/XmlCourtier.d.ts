@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
+  GenderedNames?: ZType;
   aiRatingBase: AiRatingBase;
   aiRatingRand: AiRatingBase;
   aiAdjectiveDie: AiAdjectiveDie;

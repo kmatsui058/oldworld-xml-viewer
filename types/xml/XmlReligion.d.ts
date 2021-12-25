@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
+  HeadTitle?: ZType;
   iCostBase: ZType | string;
   iCostPerCity?: ZType;
   iCostPerChange: ZType | string;

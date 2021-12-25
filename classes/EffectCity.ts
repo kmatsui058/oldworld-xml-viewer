@@ -17,7 +17,7 @@ export default class EffectCity {
 
   get name(): string {
     const test = this.textInfo.find((el) => el.zType === this.entry.Name)
-    return test ? test.English.toString() : ''
+    return test?.['en-US']?.toString() || ''
   }
 
   get yields(): XmlEffectCity.Pair[] {

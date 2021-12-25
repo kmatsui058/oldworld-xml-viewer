@@ -26,25 +26,51 @@
         },
         "bDebug": {
           
+        },
+        "DisableWhenActive": {
+          
         }
-      },
-      {
-        "zType": "GAMEOPTION_AI_ONLY",
-        "zName": "TEXT_GAMEOPTION_AI_ONLY",
-        "zHelp": "TEXT_GAMEOPTION_AI_ONLY_HELP",
-        "bDebug": "1"
       },
       {
         "zType": "GAMEOPTION_NO_CHARACTERS",
         "zName": "TEXT_GAMEOPTION_NO_CHARACTERS",
         "zHelp": "TEXT_GAMEOPTION_NO_CHARACTERS_HELP",
         "bDefaultMultiPlayer": "1",
-        "bSinglePlayer": "0"
+        "bSinglePlayer": "0",
+        "DisableWhenActive": {
+          "Pair": [
+            {
+              "zIndex": "GAMEOPTION_RANDOMIZE_LEADERS",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "GAMEOPTION_RANDOMIZE_FAMILIES",
+              "bValue": "1"
+            }
+          ]
+        }
       },
       {
         "zType": "GAMEOPTION_BARBARIANS_ONLY",
         "zName": "TEXT_GAMEOPTION_BARBARIANS_ONLY",
-        "zHelp": "TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP"
+        "zHelp": "TEXT_GAMEOPTION_BARBARIANS_ONLY_HELP",
+        "DisableWhenActive": {
+          "Pair": {
+            "zIndex": "GAMEOPTION_TRIBES_ONLY",
+            "bValue": "1"
+          }
+        }
+      },
+      {
+        "zType": "GAMEOPTION_TRIBES_ONLY",
+        "zName": "TEXT_GAMEOPTION_TRIBES_ONLY",
+        "zHelp": "TEXT_GAMEOPTION_TRIBES_ONLY_HELP",
+        "DisableWhenActive": {
+          "Pair": {
+            "zIndex": "GAMEOPTION_BARBARIANS_ONLY",
+            "bValue": "1"
+          }
+        }
       },
       {
         "zType": "GAMEOPTION_NO_FOG_OF_WAR",

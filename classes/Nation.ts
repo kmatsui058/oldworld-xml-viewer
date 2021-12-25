@@ -20,7 +20,7 @@ export default class Nation {
 
   get name(): string {
     const test = this.textNations.find((el) => el.zType === this.entry.Name)
-    return test ? test.English.toString().split('~')[0] : ''
+    return test ? test['en-US'].toString().split('~')[0] : ''
   }
 
   get teches(): Tech[] {

@@ -6,137 +6,137 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_FAMILY_SARGONID",
-        "English": "Sargonid~Sargonids~Sargonid"
+        "en-US": "Sargonid~Sargonids~Sargonid"
       },
       {
         "zType": "TEXT_FAMILY_ADASI",
-        "English": "Adasi~Adasis~Adasi"
+        "en-US": "Adasi~Adasis~Adasi"
       },
       {
         "zType": "TEXT_FAMILY_ERISHUM",
-        "English": "Erishum~Erishums~Erishum"
+        "en-US": "Erishum~Erishums~Erishum"
       },
       {
         "zType": "TEXT_FAMILY_TUDIYA",
-        "English": "Tudiya~Tudiyas~Tudiya"
+        "en-US": "Tudiya~Tudiyas~Tudiya"
       },
       {
         "zType": "TEXT_FAMILY_CHALDEAN",
-        "English": "Chaldean~Chaldeans~Chaldean"
+        "en-US": "Chaldean~Chaldeans~Chaldean"
       },
       {
         "zType": "TEXT_FAMILY_AMORITE",
-        "English": "Amorite~Amorites~Amorite"
+        "en-US": "Amorite~Amorites~Amorite"
       },
       {
         "zType": "TEXT_FAMILY_KASSITE",
-        "English": "Kassite~Kassites~Kassite"
+        "en-US": "Kassite~Kassites~Kassite"
       },
       {
         "zType": "TEXT_FAMILY_ISIN",
-        "English": "Isin~Isins~Isin"
+        "en-US": "Isin~Isins~Isin"
       },
       {
         "zType": "TEXT_FAMILY_BARCID",
-        "English": "Barcid~Barcids~Barcid"
+        "en-US": "Barcid~Barcids~Barcid"
       },
       {
         "zType": "TEXT_FAMILY_MAGONID",
-        "English": "Magonid~Magonids~Magonid"
+        "en-US": "Magonid~Magonids~Magonid"
       },
       {
         "zType": "TEXT_FAMILY_HANNONID",
-        "English": "Hannonid~Hannonids~Hannonid"
+        "en-US": "Hannonid~Hannonids~Hannonid"
       },
       {
         "zType": "TEXT_FAMILY_DIDONIAN",
-        "English": "Didonian~Didonians~Didonian"
+        "en-US": "Didonian~Didonians~Didonian"
       },
       {
         "zType": "TEXT_FAMILY_RAMESSIDE",
-        "English": "Ramesside~Ramessides~Ramesside"
+        "en-US": "Ramesside~Ramessides~Ramesside"
       },
       {
         "zType": "TEXT_FAMILY_THUTMOSID",
-        "English": "Thutmosid~Thutmosids~Thutmosid"
+        "en-US": "Thutmosid~Thutmosids~Thutmosid"
       },
       {
         "zType": "TEXT_FAMILY_AMARNA",
-        "English": "Amarna~Amarnas~Amarna"
+        "en-US": "Amarna~Amarnas~Amarna"
       },
       {
         "zType": "TEXT_FAMILY_SAITE",
-        "English": "Saite~Saites~Saite"
+        "en-US": "Saite~Saites~Saite"
       },
       {
         "zType": "TEXT_FAMILY_ARGEAD",
-        "English": "Argead~Argeads~Argead"
+        "en-US": "Argead~Argeads~Argead"
       },
       {
         "zType": "TEXT_FAMILY_ALCMAEONID",
-        "English": "Alcmaeonid~Alcmaeonids~Alcmaeonid"
+        "en-US": "Alcmaeonid~Alcmaeonids~Alcmaeonid"
       },
       {
         "zType": "TEXT_FAMILY_CYPSELID",
-        "English": "Cypselid~Cypselids~Cypselid"
+        "en-US": "Cypselid~Cypselids~Cypselid"
       },
       {
         "zType": "TEXT_FAMILY_SELEUCID",
-        "English": "Seleucid~Seleucids~Seleucid"
+        "en-US": "Seleucid~Seleucids~Seleucid"
       },
       {
         "zType": "TEXT_FAMILY_ACHAEMENID",
-        "English": "Achaemenid~Achaemenids~Achaemenid"
+        "en-US": "Achaemenid~Achaemenids~Achaemenid"
       },
       {
         "zType": "TEXT_FAMILY_ARSACID",
-        "English": "Arsacid~Arsacids~Arsacid"
+        "en-US": "Arsacid~Arsacids~Arsacid"
       },
       {
         "zType": "TEXT_FAMILY_SASANID",
-        "English": "Sasanid~Sasanids~Sasanid"
+        "en-US": "Sasanid~Sasanids~Sasanid"
       },
       {
         "zType": "TEXT_FAMILY_MIHRANID",
-        "English": "Mihranid~Mihranids~Mihranid"
+        "en-US": "Mihranid~Mihranids~Mihranid"
       },
       {
         "zType": "TEXT_FAMILY_JULIUS",
-        "English": "Julius~Julii~Julian"
+        "en-US": "Julius~Julii~Julian"
       },
       {
         "zType": "TEXT_FAMILY_JULIUS_FEMALE",
-        "English": "Julia~Juliae~Julian"
+        "en-US": "Julia~Juliae~Julian"
       },
       {
         "zType": "TEXT_FAMILY_FABIUS",
-        "English": "Fabius~Fabii~Fabian"
+        "en-US": "Fabius~Fabii~Fabian"
       },
       {
         "zType": "TEXT_FAMILY_FABIUS_FEMALE",
-        "English": "Fabia~Fabiae~Fabian"
+        "en-US": "Fabia~Fabiae~Fabian"
       },
       {
         "zType": "TEXT_FAMILY_VALERIUS",
-        "English": "Valerius~Valerii~Valerian"
+        "en-US": "Valerius~Valerii~Valerian"
       },
       {
         "zType": "TEXT_FAMILY_VALERIUS_FEMALE",
-        "English": "Valeria~Valeriae~Valerian"
+        "en-US": "Valeria~Valeriae~Valerian"
       },
       {
         "zType": "TEXT_FAMILY_CLAUDIUS",
-        "English": "Claudius~Claudii~Claudian"
+        "en-US": "Claudius~Claudii~Claudian"
       },
       {
         "zType": "TEXT_FAMILY_CLAUDIUS_FEMALE",
-        "English": "Claudia~Claudiae~Claudian"
+        "en-US": "Claudia~Claudiae~Claudian"
       }
     ]
   }

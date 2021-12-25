@@ -9,7 +9,7 @@
         "Name": {
           
         },
-        "NameFem": {
+        "GenderedNames": {
           
         },
         "Description": {
@@ -88,6 +88,9 @@
           
         },
         "iOpinionTrades": {
+          
+        },
+        "iAgentModifier": {
           
         },
         "iBirthModifier": {
@@ -235,6 +238,12 @@
       {
         "zType": "TRAIT_HERO_ARCHETYPE",
         "Name": "TEXT_TRAIT_HERO_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HERO_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_HERO",
         "iMinAge": "12",
@@ -272,6 +281,12 @@
       {
         "zType": "TRAIT_COMMANDER_ARCHETYPE",
         "Name": "TEXT_TRAIT_COMMANDER_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_COMMANDER_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_COMMANDER_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_COMMANDER",
         "iMinAge": "12",
@@ -314,6 +329,12 @@
       {
         "zType": "TRAIT_TACTICIAN_ARCHETYPE",
         "Name": "TEXT_TRAIT_TACTICIAN_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TACTICIAN_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_TACTICIAN_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_TACTICIAN",
         "iMinAge": "12",
@@ -356,6 +377,12 @@
       {
         "zType": "TRAIT_ZEALOT_ARCHETYPE",
         "Name": "TEXT_TRAIT_ZEALOT_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ZEALOT_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ZEALOT_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_ZEALOT",
         "iMinAge": "12",
@@ -398,6 +425,12 @@
       {
         "zType": "TRAIT_SCHEMER_ARCHETYPE",
         "Name": "TEXT_TRAIT_SCHEMER_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SCHEMER_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SCHEMER_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_SCHEMER",
         "iMinAge": "12",
@@ -405,6 +438,7 @@
         "iBarbDie": "1",
         "iOpinionSame": "40",
         "iOpinionCognomen": "-40",
+        "iAgentModifier": "20",
         "iTribeAllianceModifier": "50",
         "iAllianceModifier": "50",
         "iPeaceModifier": "50",
@@ -445,6 +479,12 @@
       {
         "zType": "TRAIT_ORATOR_ARCHETYPE",
         "Name": "TEXT_TRAIT_ORATOR_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ORATOR_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ORATOR_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_ORATOR",
         "iMinAge": "12",
@@ -484,6 +524,12 @@
       {
         "zType": "TRAIT_DIPLOMAT_ARCHETYPE",
         "Name": "TEXT_TRAIT_DIPLOMAT_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DIPLOMAT_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DIPLOMAT_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_DIPLOMAT",
         "iMinAge": "12",
@@ -517,6 +563,12 @@
       {
         "zType": "TRAIT_JUDGE_ARCHETYPE",
         "Name": "TEXT_TRAIT_JUDGE_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_JUDGE_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_JUDGE_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_JUDGE",
         "iMinAge": "12",
@@ -557,6 +609,12 @@
       {
         "zType": "TRAIT_BUILDER_ARCHETYPE",
         "Name": "TEXT_TRAIT_BUILDER_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BUILDER_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BUILDER_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_BUILDER",
         "iMinAge": "12",
@@ -591,6 +649,12 @@
       {
         "zType": "TRAIT_SCHOLAR_ARCHETYPE",
         "Name": "TEXT_TRAIT_SCHOLAR_ARCHETYPE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SCHOLAR_ARCHETYPE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME",
         "zIconName": "TRAIT_SCHOLAR",
         "iMinAge": "12",
@@ -625,6 +689,12 @@
       {
         "zType": "TRAIT_AFFABLE",
         "Name": "TEXT_TRAIT_AFFABLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_AFFABLE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_AFFABLE_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -658,6 +728,12 @@
       {
         "zType": "TRAIT_CRUEL",
         "Name": "TEXT_TRAIT_CRUEL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CRUEL_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CRUEL_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -688,6 +764,12 @@
       {
         "zType": "TRAIT_ELOQUENT",
         "Name": "TEXT_TRAIT_ELOQUENT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ELOQUENT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ELOQUENT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -718,6 +800,12 @@
       {
         "zType": "TRAIT_INTOLERANT",
         "Name": "TEXT_TRAIT_INTOLERANT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INTOLERANT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_INTOLERANT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -747,6 +835,12 @@
       {
         "zType": "TRAIT_WARLIKE",
         "Name": "TEXT_TRAIT_WARLIKE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WARLIKE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_WARLIKE_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -781,6 +875,12 @@
       {
         "zType": "TRAIT_SLOTHFUL",
         "Name": "TEXT_TRAIT_SLOTHFUL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SLOTHFUL_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SLOTHFUL_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -813,6 +913,12 @@
       {
         "zType": "TRAIT_INSPIRING",
         "Name": "TEXT_TRAIT_INSPIRING",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INSPIRING_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_INSPIRING_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -844,6 +950,12 @@
       {
         "zType": "TRAIT_UNCOUTH",
         "Name": "TEXT_TRAIT_UNCOUTH",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_UNCOUTH_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_UNCOUTH_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -873,6 +985,12 @@
       {
         "zType": "TRAIT_INTELLIGENT",
         "Name": "TEXT_TRAIT_INTELLIGENT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INTELLIGENT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_INTELLIGENT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -906,6 +1024,12 @@
       {
         "zType": "TRAIT_FOOLISH",
         "Name": "TEXT_TRAIT_FOOLISH",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FOOLISH_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_FOOLISH_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -938,6 +1062,12 @@
       {
         "zType": "TRAIT_PROSPEROUS",
         "Name": "TEXT_TRAIT_PROSPEROUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PROSPEROUS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_PROSPEROUS_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -969,6 +1099,12 @@
       {
         "zType": "TRAIT_EXTRAVAGANT",
         "Name": "TEXT_TRAIT_EXTRAVAGANT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXTRAVAGANT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_EXTRAVAGANT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -999,6 +1135,12 @@
       {
         "zType": "TRAIT_FRUGAL",
         "Name": "TEXT_TRAIT_FRUGAL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FRUGAL_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_FRUGAL_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1029,6 +1171,12 @@
       {
         "zType": "TRAIT_CORRUPT",
         "Name": "TEXT_TRAIT_CORRUPT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CORRUPT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CORRUPT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1058,6 +1206,12 @@
       {
         "zType": "TRAIT_RIGHTEOUS",
         "Name": "TEXT_TRAIT_RIGHTEOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RIGHTEOUS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_RIGHTEOUS_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1088,6 +1242,12 @@
       {
         "zType": "TRAIT_DEBAUCHED",
         "Name": "TEXT_TRAIT_DEBAUCHED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DEBAUCHED_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DEBAUCHED_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1120,6 +1280,12 @@
       {
         "zType": "TRAIT_ROBUST",
         "Name": "TEXT_TRAIT_ROBUST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ROBUST_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ROBUST_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1138,6 +1304,12 @@
       {
         "zType": "TRAIT_VIGILANT",
         "Name": "TEXT_TRAIT_VIGILANT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_VIGILANT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_VIGILANT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1159,6 +1331,12 @@
       {
         "zType": "TRAIT_STRICT",
         "Name": "TEXT_TRAIT_STRICT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STRICT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_STRICT_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1181,6 +1359,12 @@
       {
         "zType": "TRAIT_EQUESTRIAN",
         "Name": "TEXT_TRAIT_EQUESTRIAN",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EQUESTRIAN_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_EQUESTRIAN_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1200,6 +1384,12 @@
       {
         "zType": "TRAIT_CARPENTER",
         "Name": "TEXT_TRAIT_CARPENTER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CARPENTER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CARPENTER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CARPENTER_GAIN_1"
@@ -1215,6 +1405,12 @@
       {
         "zType": "TRAIT_PATHFINDER",
         "Name": "TEXT_TRAIT_PATHFINDER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PATHFINDER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_PATHFINDER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PATHFINDER_GAIN_1"
@@ -1230,6 +1426,12 @@
       {
         "zType": "TRAIT_CULTIVATOR",
         "Name": "TEXT_TRAIT_CULTIVATOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CULTIVATOR_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CULTIVATOR_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CULTIVATOR_GAIN_1"
@@ -1245,6 +1447,12 @@
       {
         "zType": "TRAIT_NATURALIST",
         "Name": "TEXT_TRAIT_NATURALIST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_NATURALIST_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_NATURALIST_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_NATURALIST_GAIN_1"
@@ -1260,6 +1468,12 @@
       {
         "zType": "TRAIT_DELVER",
         "Name": "TEXT_TRAIT_DELVER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DELVER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DELVER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_DELVER_GAIN_1"
@@ -1275,6 +1489,12 @@
       {
         "zType": "TRAIT_DEALMAKER",
         "Name": "TEXT_TRAIT_DEALMAKER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DEALMAKER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DEALMAKER_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1292,6 +1512,12 @@
       {
         "zType": "TRAIT_TRACKER",
         "Name": "TEXT_TRAIT_TRACKER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TRACKER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_TRACKER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TRACKER_GAIN_1"
@@ -1308,6 +1534,12 @@
       {
         "zType": "TRAIT_SWIFT",
         "Name": "TEXT_TRAIT_SWIFT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SWIFT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SWIFT_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SWIFT_GAIN_1"
@@ -1324,6 +1556,12 @@
       {
         "zType": "TRAIT_BESIEGER",
         "Name": "TEXT_TRAIT_BESIEGER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BESIEGER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BESIEGER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BESIEGER_GAIN_1"
@@ -1340,6 +1578,12 @@
       {
         "zType": "TRAIT_TOUGH",
         "Name": "TEXT_TRAIT_TOUGH",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TOUGH_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_TOUGH_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TOUGH_GAIN_1"
@@ -1356,6 +1600,12 @@
       {
         "zType": "TRAIT_BLOODTHIRSTY",
         "Name": "TEXT_TRAIT_BLOODTHIRSTY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLOODTHIRSTY_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BLOODTHIRSTY_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -1375,6 +1625,12 @@
       {
         "zType": "TRAIT_HECKLER",
         "Name": "TEXT_TRAIT_HECKLER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HECKLER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HECKLER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HECKLER_GAIN_1"
@@ -1391,6 +1647,12 @@
       {
         "zType": "TRAIT_STEADFAST",
         "Name": "TEXT_TRAIT_STEADFAST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STEADFAST_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_STEADFAST_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_STEADFAST_GAIN_1"
@@ -1407,6 +1669,12 @@
       {
         "zType": "TRAIT_HERBALIST",
         "Name": "TEXT_TRAIT_HERBALIST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HERBALIST_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HERBALIST_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HERBALIST_GAIN_1"
@@ -1423,6 +1691,12 @@
       {
         "zType": "TRAIT_HIGHLANDER",
         "Name": "TEXT_TRAIT_HIGHLANDER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HIGHLANDER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HIGHLANDER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HIGHLANDER_GAIN_1"
@@ -1439,6 +1713,12 @@
       {
         "zType": "TRAIT_RANGER",
         "Name": "TEXT_TRAIT_RANGER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RANGER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_RANGER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_RANGER_GAIN_1"
@@ -1455,6 +1735,12 @@
       {
         "zType": "TRAIT_BRAVE",
         "Name": "TEXT_TRAIT_BRAVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BRAVE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BRAVE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BRAVE_GAIN_1"
@@ -1474,6 +1760,12 @@
       {
         "zType": "TRAIT_SHIELDBEARER",
         "Name": "TEXT_TRAIT_SHIELDBEARER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SHIELDBEARER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SHIELDBEARER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SHIELDBEARER_GAIN_1"
@@ -1490,6 +1782,12 @@
       {
         "zType": "TRAIT_FIERCE",
         "Name": "TEXT_TRAIT_FIERCE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FIERCE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_FIERCE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_FIERCE_GAIN_1"
@@ -1509,6 +1807,12 @@
       {
         "zType": "TRAIT_HORSEBANE",
         "Name": "TEXT_TRAIT_HORSEBANE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HORSEBANE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HORSEBANE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HORSEBANE_GAIN_1"
@@ -1525,6 +1829,12 @@
       {
         "zType": "TRAIT_ENGINEER",
         "Name": "TEXT_TRAIT_ENGINEER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ENGINEER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ENGINEER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_ENGINEER_GAIN_1"
@@ -1541,6 +1851,12 @@
       {
         "zType": "TRAIT_BOLD",
         "Name": "TEXT_TRAIT_BOLD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BOLD_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BOLD_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BOLD_GAIN_1"
@@ -1574,6 +1890,12 @@
       {
         "zType": "TRAIT_TIMID",
         "Name": "TEXT_TRAIT_TIMID",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TIMID_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_TIMID_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TIMID_GAIN_1"
@@ -1607,6 +1929,12 @@
       {
         "zType": "TRAIT_GRACIOUS",
         "Name": "TEXT_TRAIT_GRACIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GRACIOUS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_GRACIOUS_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_GRACIOUS_GAIN_1"
@@ -1637,6 +1965,12 @@
       {
         "zType": "TRAIT_GREEDY",
         "Name": "TEXT_TRAIT_GREEDY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GREEDY_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_GREEDY_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_GREEDY_GAIN_1"
@@ -1667,6 +2001,12 @@
       {
         "zType": "TRAIT_ROMANTIC",
         "Name": "TEXT_TRAIT_ROMANTIC",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ROMANTIC_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_ROMANTIC_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_ROMANTIC_GAIN_1"
@@ -1695,6 +2035,12 @@
       {
         "zType": "TRAIT_BITTER",
         "Name": "TEXT_TRAIT_BITTER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BITTER_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BITTER_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BITTER_GAIN_1"
@@ -1722,6 +2068,12 @@
       {
         "zType": "TRAIT_EDUCATED",
         "Name": "TEXT_TRAIT_EDUCATED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EDUCATED_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_EDUCATED_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_EDUCATED_GAIN_1"
@@ -1755,6 +2107,12 @@
       {
         "zType": "TRAIT_SUPERSTITIOUS",
         "Name": "TEXT_TRAIT_SUPERSTITIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SUPERSTITIOUS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SUPERSTITIOUS_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SUPERSTITIOUS_GAIN_1"
@@ -1789,6 +2147,12 @@
       {
         "zType": "TRAIT_COMPASSIONATE",
         "Name": "TEXT_TRAIT_COMPASSIONATE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_COMPASSIONATE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_COMPASSIONATE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_COMPASSIONATE_GAIN_1"
@@ -1826,6 +2190,12 @@
       {
         "zType": "TRAIT_RUTHLESS",
         "Name": "TEXT_TRAIT_RUTHLESS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RUTHLESS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_RUTHLESS_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_RUTHLESS_GAIN_1"
@@ -1863,6 +2233,12 @@
       {
         "zType": "TRAIT_PIOUS",
         "Name": "TEXT_TRAIT_PIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PIOUS_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_PIOUS_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PIOUS_GAIN_1"
@@ -1899,6 +2275,12 @@
       {
         "zType": "TRAIT_WANTON",
         "Name": "TEXT_TRAIT_WANTON",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WANTON_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_WANTON_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_WANTON_GAIN_1"
@@ -1936,6 +2318,12 @@
       {
         "zType": "TRAIT_LOYAL",
         "Name": "TEXT_TRAIT_LOYAL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_LOYAL_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_LOYAL_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_LOYAL_GAIN_1"
@@ -1966,6 +2354,12 @@
       {
         "zType": "TRAIT_DECEITFUL",
         "Name": "TEXT_TRAIT_DECEITFUL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DECEITFUL_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DECEITFUL_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_DECEITFUL_GAIN_1"
@@ -1996,6 +2390,12 @@
       {
         "zType": "TRAIT_HUMBLE",
         "Name": "TEXT_TRAIT_HUMBLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HUMBLE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_HUMBLE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HUMBLE_GAIN_1"
@@ -2029,6 +2429,12 @@
       {
         "zType": "TRAIT_PROUD",
         "Name": "TEXT_TRAIT_PROUD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PROUD_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_PROUD_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PROUD_GAIN_1"
@@ -2063,6 +2469,12 @@
       {
         "zType": "TRAIT_CUNNING",
         "Name": "TEXT_TRAIT_CUNNING",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CUNNING_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CUNNING_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CUNNING_GAIN_1"
@@ -2076,6 +2488,12 @@
       {
         "zType": "TRAIT_WITTY",
         "Name": "TEXT_TRAIT_WITTY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WITTY_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_WITTY_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_WITTY_GAIN_1"
@@ -2100,6 +2518,12 @@
       {
         "zType": "TRAIT_SPOILED",
         "Name": "TEXT_TRAIT_SPOILED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SPOILED_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SPOILED_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SPOILED_GAIN_1"
@@ -2118,6 +2542,12 @@
       {
         "zType": "TRAIT_DRUNK",
         "Name": "TEXT_TRAIT_DRUNK",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DRUNK_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_DRUNK_NICKNAME",
         "GainTexts": {
           "zValue": [
@@ -2140,6 +2570,12 @@
       {
         "zType": "TRAIT_INSANE",
         "Name": "TEXT_TRAIT_INSANE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INSANE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_INSANE_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_INSANE_GAIN_1"
@@ -2168,20 +2604,41 @@
       {
         "zType": "TRAIT_BLESSED",
         "Name": "TEXT_TRAIT_BLESSED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLESSED_F"
+          }
+        },
         "Description": "TEXT_TRAIT_BLESSED_DESCRIPTION",
-        "Nickname": "TEXT_TRAIT_BLESSED_NICKNAME"
+        "Nickname": "TEXT_TRAIT_BLESSED_NICKNAME",
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_CURSED",
         "Name": "TEXT_TRAIT_CURSED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CURSED_F"
+          }
+        },
         "Description": "TEXT_TRAIT_CURSED_DESCRIPTION",
-        "Nickname": "TEXT_TRAIT_CURSED_NICKNAME"
+        "Nickname": "TEXT_TRAIT_CURSED_NICKNAME",
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_EXOTIC",
         "Name": "TEXT_TRAIT_EXOTIC",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXOTIC_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_EXOTIC_NICKNAME",
         "iBarbDie": "1",
+        "bDisplay": "1",
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
@@ -2192,6 +2649,13 @@
       {
         "zType": "TRAIT_DIVINE",
         "Name": "TEXT_TRAIT_DIVINE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DIVINE_F"
+          }
+        },
+        "bDisplay": "1",
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
@@ -2201,23 +2665,57 @@
       },
       {
         "zType": "TRAIT_STUDY_PHILOSOPHY",
-        "Name": "TEXT_TRAIT_STUDY_PHILOSOPHY"
+        "Name": "TEXT_TRAIT_STUDY_PHILOSOPHY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STUDY_PHILOSOPHY_F"
+          }
+        },
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_STUDY_POLITICS",
-        "Name": "TEXT_TRAIT_STUDY_POLITICS"
+        "Name": "TEXT_TRAIT_STUDY_POLITICS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STUDY_POLITICS_F"
+          }
+        },
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_STUDY_TACTICS",
-        "Name": "TEXT_TRAIT_STUDY_TACTICS"
+        "Name": "TEXT_TRAIT_STUDY_TACTICS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STUDY_TACTICS_F"
+          }
+        },
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_STUDY_COMMERCE",
-        "Name": "TEXT_TRAIT_STUDY_COMMERCE"
+        "Name": "TEXT_TRAIT_STUDY_COMMERCE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STUDY_COMMERCE_F"
+          }
+        },
+        "bDisplay": "1"
       },
       {
         "zType": "TRAIT_EXPLORING",
         "Name": "TEXT_TRAIT_EXPLORING",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXPLORING_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2236,6 +2734,12 @@
       {
         "zType": "TRAIT_IMPRISONED",
         "Name": "TEXT_TRAIT_IMPRISONED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_IMPRISONED_F"
+          }
+        },
         "iOpinion": "-100",
         "bDisplay": "1",
         "bNoEvents": "1",
@@ -2250,6 +2754,12 @@
       {
         "zType": "TRAIT_FUGITIVE",
         "Name": "TEXT_TRAIT_FUGITIVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FUGITIVE_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2263,6 +2773,12 @@
       {
         "zType": "TRAIT_MISSING",
         "Name": "TEXT_TRAIT_MISSING",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_MISSING_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2277,6 +2793,12 @@
       {
         "zType": "TRAIT_UNDER_ASYLUM",
         "Name": "TEXT_TRAIT_UNDER_ASYLUM",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_UNDER_ASYLUM_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2290,6 +2812,12 @@
       {
         "zType": "TRAIT_ELOPED",
         "Name": "TEXT_TRAIT_ELOPED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ELOPED_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2300,6 +2828,12 @@
       {
         "zType": "TRAIT_CAPTURED",
         "Name": "TEXT_TRAIT_CAPTURED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CAPTURED_F"
+          }
+        },
         "iOpinion": "-100",
         "bDisplay": "1",
         "bNoEvents": "1",
@@ -2313,6 +2847,12 @@
       {
         "zType": "TRAIT_EXILED",
         "Name": "TEXT_TRAIT_EXILED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXILED_F"
+          }
+        },
         "iOpinion": "-100",
         "bDisplay": "1",
         "bNoEvents": "1",
@@ -2327,6 +2867,12 @@
       {
         "zType": "TRAIT_DESERTER",
         "Name": "TEXT_TRAIT_DESERTER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DESERTER_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -2340,6 +2886,12 @@
       {
         "zType": "TRAIT_INCUBATED",
         "Name": "TEXT_TRAIT_INCUBATED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INCUBATED_F"
+          }
+        },
         "LoseTexts": {
           "zValue": "TEXT_TRAIT_INCUBATED_LOSS_1"
         },
@@ -2374,6 +2926,12 @@
       {
         "zType": "TRAIT_SLIGHTED",
         "Name": "TEXT_TRAIT_SLIGHTED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SLIGHTED_F"
+          }
+        },
         "iOpinion": "-100",
         "bDisplay": "1",
         "bNoJob": "1",
@@ -2382,6 +2940,12 @@
       {
         "zType": "TRAIT_ILL",
         "Name": "TEXT_TRAIT_ILL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ILL_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_ILL_GAIN_1",
@@ -2399,6 +2963,7 @@
           ]
         },
         "iRemoveProb": "60",
+        "bDisplay": "1",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2450,6 +3015,12 @@
       {
         "zType": "TRAIT_SEVERELY_ILL",
         "Name": "TEXT_TRAIT_SEVERELY_ILL",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SEVERELY_ILL_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_SEVERELY_ILL_GAIN_1",
@@ -2467,6 +3038,7 @@
           ]
         },
         "iRemoveProb": "40",
+        "bDisplay": "1",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2512,6 +3084,12 @@
       {
         "zType": "TRAIT_WOUNDED",
         "Name": "TEXT_TRAIT_WOUNDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WOUNDED_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_WOUNDED_GAIN_1"
         },
@@ -2520,6 +3098,7 @@
         },
         "iInjuryDie": "6",
         "iRemoveProb": "40",
+        "bDisplay": "1",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2554,6 +3133,12 @@
       {
         "zType": "TRAIT_SEVERELY_WOUNDED",
         "Name": "TEXT_TRAIT_SEVERELY_WOUNDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SEVERELY_WOUNDED_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SEVERELY_WOUNDED_GAIN_1"
         },
@@ -2562,6 +3147,7 @@
         },
         "iInjuryDie": "3",
         "iRemoveProb": "20",
+        "bDisplay": "1",
         "bRemoveLeader": "1",
         "bRemoveDeath": "1",
         "aiRating": {
@@ -2606,10 +3192,17 @@
       {
         "zType": "TRAIT_POISONED",
         "Name": "TEXT_TRAIT_POISONED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_POISONED_F"
+          }
+        },
         "LoseTexts": {
           "zValue": "TEXT_TRAIT_POISONED_LOSS_1"
         },
         "iRemoveProb": "25",
+        "bDisplay": "1",
         "bRemoveLeader": "1",
         "aiMortalityDieProb": {
           "Pair": [
@@ -2631,7 +3224,14 @@
       {
         "zType": "TRAIT_MISERABLE",
         "Name": "TEXT_TRAIT_MISERABLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_MISERABLE_F"
+          }
+        },
         "iOpinion": "-40",
+        "bDisplay": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_MISERABLE",
         "aiRating": {
           "Pair": {
@@ -2643,6 +3243,12 @@
       {
         "zType": "TRAIT_SCARRED",
         "Name": "TEXT_TRAIT_SCARRED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SCARRED_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_SCARRED_GAIN_1",
@@ -2661,6 +3267,12 @@
       {
         "zType": "TRAIT_CRIPPLED",
         "Name": "TEXT_TRAIT_CRIPPLED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CRIPPLED_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_CRIPPLED_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CRIPPLED_GAIN_1"
@@ -2671,40 +3283,76 @@
       {
         "zType": "TRAIT_BLINDED",
         "Name": "TEXT_TRAIT_BLINDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLINDED_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_BLINDED_NICKNAME",
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BLINDED_GAIN_1"
         },
         "iInjuryDie": "1",
-        "bDisplay": "1",
         "bNoJob": "1"
       },
       {
         "zType": "TRAIT_DOOMED",
         "Name": "TEXT_TRAIT_DOOMED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DOOMED_F"
+          }
+        },
+        "Description": "TEXT_TRAIT_DOOMED_DESCRIPTION",
         "bRemoveDeath": "1",
         "bDoomed": "1"
       },
       {
         "zType": "TRAIT_GAY",
         "Name": "TEXT_TRAIT_GAY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GAY_F"
+          }
+        },
         "iAdultProb": "5",
         "iBirthModifier": "-50"
       },
       {
         "zType": "TRAIT_BASTARD",
         "Name": "TEXT_TRAIT_BASTARD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BASTARD_F"
+          }
+        },
         "bNoMarry": "1",
         "bNoHeir": "1"
       },
       {
         "zType": "TRAIT_LEGITIMIZED",
         "Name": "TEXT_TRAIT_LEGITIMIZED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_LEGITIMIZED_F"
+          }
+        },
         "iOpinion": "40"
       },
       {
         "zType": "TRAIT_ADOPTED",
-        "Name": "TEXT_TRAIT_ADOPTED"
+        "Name": "TEXT_TRAIT_ADOPTED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ADOPTED_F"
+          }
+        }
       },
       {
         "zType": "TRAIT_PREGNANT",
@@ -2712,11 +3360,23 @@
       },
       {
         "zType": "TRAIT_CLAIMED",
-        "Name": "TEXT_TRAIT_CLAIMED"
+        "Name": "TEXT_TRAIT_CLAIMED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CLAIMED_F"
+          }
+        }
       },
       {
         "zType": "TRAIT_CLERGY",
         "Name": "TEXT_TRAIT_CLERGY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CLERGY_F"
+          }
+        },
         "bDisplay": "1",
         "bNoSpouse": "1",
         "bNoBirth": "1",
@@ -2732,6 +3392,12 @@
       {
         "zType": "TRAIT_ASCETIC",
         "Name": "TEXT_TRAIT_ASCETIC",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ASCETIC_F"
+          }
+        },
         "bDisplay": "1",
         "bNoSpouse": "1",
         "bNoBirth": "1",
@@ -2756,6 +3422,12 @@
       {
         "zType": "TRAIT_ARTIST",
         "Name": "TEXT_TRAIT_ARTIST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ARTIST_F"
+          }
+        },
         "aiRating": {
           "Pair": {
             "zIndex": "RATING_CHARISMA",
@@ -2766,6 +3438,13 @@
       {
         "zType": "TRAIT_FAMOUS",
         "Name": "TEXT_TRAIT_FAMOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FAMOUS_F"
+          }
+        },
+        "bDisplay": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_FAMOUS",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_FAMOUS",
         "aiTraitOpinion": {
@@ -2781,6 +3460,13 @@
       {
         "zType": "TRAIT_INFAMOUS",
         "Name": "TEXT_TRAIT_INFAMOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INFAMOUS_F"
+          }
+        },
+        "bDisplay": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_INFAMOUS",
         "aiTraitOpinion": {
           "Pair": {
@@ -2800,30 +3486,62 @@
       {
         "zType": "TRAIT_REGENT",
         "Name": "TEXT_TRAIT_REGENT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_REGENT_F"
+          }
+        },
         "iOpinionFamily": "40"
       },
       {
         "zType": "TRAIT_RIGHTFUL_HEIR",
-        "Name": "TEXT_TRAIT_RIGHTFUL_HEIR"
+        "Name": "TEXT_TRAIT_RIGHTFUL_HEIR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RIGHTFUL_HEIR_F"
+          }
+        }
       },
       {
         "zType": "TRAIT_EXCLUDED",
         "Name": "TEXT_TRAIT_EXCLUDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXCLUDED_F"
+          }
+        },
         "iOpinion": "-100",
         "bNoHeir": "1"
       },
       {
         "zType": "TRAIT_SOLDIER",
         "Name": "TEXT_TRAIT_SOLDIER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SOLDIER_F"
+          }
+        },
+        "bDisplay": "1",
         "GeneralEffectUnit": "EFFECTUNIT_SOLDIER"
       },
       {
         "zType": "TRAIT_MOURNING",
         "Name": "TEXT_TRAIT_MOURNING",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_MOURNING_F"
+          }
+        },
         "LoseTexts": {
           "zValue": "TEXT_TRAIT_MOURNING_LOSS_1"
         },
         "iRemoveProb": "25",
+        "bDisplay": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_MOURNING",
         "aiRating": {
           "Pair": {
@@ -2841,7 +3559,14 @@
       {
         "zType": "TRAIT_PROPHET",
         "Name": "TEXT_TRAIT_PROPHET",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PROPHET_F"
+          }
+        },
         "iOpinionSame": "-100",
+        "bDisplay": "1",
         "GeneralEffectUnit": "EFFECTUNIT_PROPHET",
         "aiRating": {
           "Pair": {
@@ -2853,22 +3578,24 @@
       {
         "zType": "TRAIT_ARCHON",
         "Name": "TEXT_TRAIT_ARCHON",
-        "Nickname": "TEXT_TRAIT_ARCHON_NICKNAME",
-        "bNickname": "1"
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ARCHON_F"
+          }
+        }
       },
       {
         "zType": "TRAIT_KING_OF_TYRE",
         "Name": "TEXT_TRAIT_KING_OF_TYRE",
+        "Nickname": "TEXT_TRAIT_KING_OF_TYRE_NICKNAME",
+        "bNickname": "1",
         "bDisplay": "1",
         "bNoMissions": "1",
         "bNoHeir": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoReligionHead": "1"
-      },
-      {
-        "zType": "TRAIT_CHEIF_PRIEST_OF_MELQUART",
-        "Name": "TEXT_TRAIT_CHEIF_PRIEST_OF_MELQUART"
       },
       {
         "zType": "TRAIT_MYSTERIOUS_SWORD",
@@ -2897,48 +3624,57 @@
       },
       {
         "zType": "TRAIT_DOG_OWNER",
-        "Name": "TEXT_TRAIT_DOG_OWNER"
-      },
-      {
-        "zType": "TRAIT_OVERSEER_OF_THE_FIELDS",
-        "Name": "TEXT_TRAIT_OVERSEER_OF_THE_FIELDS",
-        "Nickname": "TEXT_TRAIT_OVERSEER_OF_THE_FIELDS_NICKNAME",
-        "iOpinionFamily": "40",
-        "bNickname": "1"
-      },
-      {
-        "zType": "TRAIT_POSSESSOR_OF_VENERATION",
-        "Name": "TEXT_TRAIT_POSSESSOR_OF_VENERATION",
-        "Nickname": "TEXT_TRAIT_POSSESSOR_OF_VENERATION_NICKNAME",
-        "iOpinionFamily": "40",
-        "bNickname": "1"
-      },
-      {
-        "zType": "TRAIT_STEWARD_OF_THE_CHAMBER",
-        "Name": "TEXT_TRAIT_STEWARD_OF_THE_CHAMBER",
-        "Nickname": "TEXT_TRAIT_STEWARD_OF_THE_CHAMBER_NICKNAME",
-        "iOpinionFamily": "40",
-        "bNickname": "1"
+        "Name": "TEXT_TRAIT_DOG_OWNER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DOG_OWNER_F"
+          }
+        }
       },
       {
         "zType": "TRAIT_AMULET_OWNER_POSITIVE",
         "Name": "TEXT_TRAIT_AMULET_OWNER_POSITIVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_AMULET_OWNER_POSITIVE_F"
+          }
+        },
         "iBirthModifier": "35"
       },
       {
         "zType": "TRAIT_AMULET_OWNER_NEGATIVE",
         "Name": "TEXT_TRAIT_AMULET_OWNER_NEGATIVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_AMULET_OWNER_NEGATIVE_F"
+          }
+        },
         "iBirthModifier": "-35"
       },
       {
         "zType": "TRAIT_GODS_CONSORT",
         "Name": "TEXT_TRAIT_GODS_CONSORT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GODS_CONSORT_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_GODS_CONSORT_NICKNAME",
         "bNickname": "1"
       },
       {
         "zType": "TRAIT_DROUGHT_STRICKEN",
         "Name": "TEXT_TRAIT_DROUGHT_STRICKEN",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DROUGHT_STRICKEN_F"
+          }
+        },
         "LoseTexts": {
           "zValue": "TEXT_TRAIT_DROUGHT_STRICKEN_LOSS_1"
         },
@@ -2949,6 +3685,12 @@
       {
         "zType": "TRAIT_HORSE",
         "Name": "TEXT_TRAIT_HORSE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HORSE_F"
+          }
+        },
         "bNoEvents": "1",
         "bNoBirth": "1",
         "bNoHeir": "1",
@@ -2972,6 +3714,12 @@
       {
         "zType": "TRAIT_AMARNA_REFORMER",
         "Name": "TEXT_TRAIT_AMARNA_REFORMER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_AMARNA_REFORMER_F"
+          }
+        },
         "aeTraitInvalid": {
           "zValue": "TRAIT_RIGHTEOUS"
         }
@@ -2979,19 +3727,36 @@
       {
         "zType": "TRAIT_BARRACKS_INSTRUCTOR",
         "Name": "TEXT_TRAIT_BARRACKS_INSTRUCTOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BARRACKS_INSTRUCTOR_F"
+          }
+        },
         "bDisplay": "1",
         "bNoJob": "1"
       },
       {
         "zType": "TRAIT_SAVIOR_OF_THE_THRONE",
         "Name": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE_F"
+          }
+        },
         "Nickname": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE_NICKNAME",
         "bNickname": "1"
       },
       {
         "zType": "TRAIT_SAOSHYANT",
         "Name": "TEXT_TRAIT_SAOSHYANT",
-        "Nickname": "TEXT_TRAIT_SAOSHYANT_NICKNAME",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SAOSHYANT_F"
+          }
+        },
         "iMinAge": "12",
         "iOpinionGenerals": "-40",
         "aiRating": {
@@ -3010,6 +3775,12 @@
       {
         "zType": "TRAIT_REBEL_SLAVE",
         "Name": "TEXT_TRAIT_REBEL_SLAVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_REBEL_SLAVE_F"
+          }
+        },
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
@@ -3019,6 +3790,52 @@
         "bNoHeir": "1",
         "bNoJob": "1",
         "bNoCourtier": "1"
+      },
+      {
+        "zType": "TRAIT_COMMANDER_ROYAL_GUARD",
+        "Name": "TEXT_TRAIT_COMMANDER_ROYAL_GUARD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_COMMANDER_ROYAL_GUARD_F"
+          }
+        },
+        "bDisplay": "1",
+        "aiRating": {
+          "Pair": [
+            {
+              "zIndex": "RATING_CHARISMA",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RATING_DISCIPLINE",
+              "iValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "TRAIT_COMMANDER_BORDER_FORTS",
+        "Name": "TEXT_TRAIT_COMMANDER_BORDER_FORTS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_COMMANDER_BORDER_FORTS_F"
+          }
+        },
+        "bDisplay": "1",
+        "aiRating": {
+          "Pair": [
+            {
+              "zIndex": "RATING_COURAGE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RATING_DISCIPLINE",
+              "iValue": "1"
+            }
+          ]
+        }
       }
     ]
   }

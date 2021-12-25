@@ -182,15 +182,15 @@
         "bKeyboardMap": "1"
       },
       {
-        "zType": "HOTKEY_LOCK_TILE_YIELDS",
-        "Name": "TEXT_HOTKEY_LOCK_TILE_YIELDS",
+        "zType": "HOTKEY_LOCK_RESOURCES_IMPROVEMENTS",
+        "Name": "TEXT_HOTKEY_LOCK_RESOURCES_IMPROVEMENTS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "LeftShift+M,RightShift+M",
         "bKeyboardMap": "1"
       },
       {
-        "zType": "HOTKEY_LOCK_TILE_SPECIALISTS",
-        "Name": "TEXT_HOTKEY_LOCK_TILE_SPECIALISTS",
+        "zType": "HOTKEY_LOCK_CURRENT_YIELDS",
+        "Name": "TEXT_HOTKEY_LOCK_CURRENT_YIELDS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "LeftShift+Comma,RightShift+Comma",
         "bKeyboardMap": "1"
@@ -241,8 +241,8 @@
         "bIgnoreMouse": "1"
       },
       {
-        "zType": "HOTKEY_SHOW_TILE_YIELDS",
-        "Name": "TEXT_HOTKEY_SHOW_TILE_YIELDS",
+        "zType": "HOTKEY_SHOW_RESOURCES_IMPROVEMENTS",
+        "Name": "TEXT_HOTKEY_SHOW_RESOURCES_IMPROVEMENTS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "M",
         "bKeyboardMap": "1",
@@ -250,8 +250,8 @@
         "bIgnoreMouse": "1"
       },
       {
-        "zType": "HOTKEY_SHOW_TILE_SPECIALISTS",
-        "Name": "TEXT_HOTKEY_SHOW_TILE_SPECIALISTS",
+        "zType": "HOTKEY_SHOW_CURRENT_YIELDS",
+        "Name": "TEXT_HOTKEY_SHOW_CURRENT_YIELDS",
         "HotkeyClass": "HOTKEYCLASS_OVERLAYS",
         "Keys": "Comma",
         "bKeyboardMap": "1",
@@ -279,10 +279,22 @@
         "Keys": "LeftControl+R, RightControl+R"
       },
       {
+        "zType": "HOTKEY_HEAL",
+        "Name": "TEXT_HOTKEY_HEAL",
+        "HotkeyClass": "HOTKEYCLASS_GAMEPLAY",
+        "Keys": "H"
+      },
+      {
+        "zType": "HOTKEY_FORTIFY",
+        "Name": "TEXT_HOTKEY_FORTIFY",
+        "HotkeyClass": "HOTKEYCLASS_GAMEPLAY",
+        "Keys": "F"
+      },
+      {
         "zType": "HOTKEY_REMOVE_VEGETATION",
         "Name": "TEXT_HOTKEY_REMOVE_VEGETATION",
         "HotkeyClass": "HOTKEYCLASS_GAMEPLAY",
-        "Keys": "F"
+        "Keys": "R"
       },
       {
         "zType": "HOTKEY_SPEND_TRAINING_FOR_ORDERS",
@@ -512,7 +524,7 @@
         "zType": "HOTKEY_AI_LOG",
         "Name": "TEXT_HOTKEY_AI_LOG",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
-        "Keys": "F10"
+        "Keys": "LeftShift+F10,RightShift+F10"
       },
       {
         "zType": "HOTKEY_PREVIOUS_TAB",
@@ -589,19 +601,19 @@
         "zType": "HOTKEY_SAVE",
         "Name": "TEXT_HOTKEY_SAVE",
         "HotkeyClass": "HOTKEYCLASS_SAVES",
-        "Keys": "F11,LeftControl+S,RightControl+S"
+        "Keys": "F10,LeftControl+S,RightControl+S"
       },
       {
         "zType": "HOTKEY_QUICK_LOAD",
         "Name": "TEXT_HOTKEY_QUICK_LOAD",
         "HotkeyClass": "HOTKEYCLASS_SAVES",
-        "Keys": "F12"
+        "Keys": "F11"
       },
       {
         "zType": "HOTKEY_AUTO_LOAD",
         "Name": "TEXT_HOTKEY_AUTO_LOAD",
         "HotkeyClass": "HOTKEYCLASS_SAVES",
-        "Keys": "LeftShift+F12,RightShift+F12"
+        "Keys": "LeftShift+F11,RightShift+F11"
       },
       {
         "zType": "HOTKEY_DEBUG_MENU",

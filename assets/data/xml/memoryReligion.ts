@@ -23,6 +23,16 @@
         }
       },
       {
+        "zType": "MEMORYRELIGION_OUR_AMBITION",
+        "Text": "TEXT_MEMORYRELIGION_OUR_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYRELIGION_OUR_LEGACY",
+        "Text": "TEXT_MEMORYRELIGION_OUR_LEGACY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "zType": "MEMORYRELIGION_ADOPT_RELIGION_OTHER",
         "Text": "TEXT_MEMORYRELIGION_ADOPT_RELIGION_OTHER",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
@@ -317,7 +327,7 @@
       {
         "zType": "MEMORYRELIGION_PLACED_SECURITY",
         "Text": "TEXT_MEMORYRELIGION_PLACED_SECURITY",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYRELIGION_BUILT_SHRINE_TO_MARTYRS",

@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   Description?: ZType | string;
+  TargetDescription?: ZType | string;
   TargetBonus?: ZType | string;
   EventTrigger?: ZType | string;
   EventTriggerTarget?: ZType | string;

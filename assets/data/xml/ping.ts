@@ -56,7 +56,7 @@
         "zType": "PING_RETREAT",
         "Name": "TEXT_PING_RETREAT",
         "PingAsset": "ASSET_RETREAT_PING",
-        "zIconName": "PING_RETREAT",
+        "zIconName": "PING_REMOVE",
         "LogText": "TEXT_PING_RETREAT_LOG",
         "iMPTurnDuration": "2",
         "iMaxNumber": "5"
@@ -65,7 +65,7 @@
         "zType": "PING_USE",
         "Name": "TEXT_PING_USE",
         "PingAsset": "ASSET_USE_PING",
-        "zIconName": "PING_USE",
+        "zIconName": "PING_DEFEND",
         "LogText": "TEXT_PING_USE_LOG",
         "iMPTurnDuration": "1",
         "iMaxNumber": "2"

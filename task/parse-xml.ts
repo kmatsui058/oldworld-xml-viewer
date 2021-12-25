@@ -1,4 +1,4 @@
-const fs = require('fs')
+import { promises as fs } from 'fs'
 const glob = require('glob')
 const parser = require('xml2json')
 const JsonToTS = require('json-to-ts')
@@ -16,9 +16,18 @@ const isExclude = (fileName: string): boolean => {
   return !!excludeFileName.find((test) => fileName === test)
 }
 
-glob('XML/**/*.xml', {}, function (_er: any, files: string[]) {
-  files.forEach((file) => makeFile(file))
-})
+const assetsPath = './assets/data/xml/'
+
+async function exec() {
+  await fs.rm(assetsPath, { recursive: true, force: true })
+  await fs.mkdir(assetsPath)
+
+  glob('XML/**/*.xml', {}, function (_er: any, files: string[]) {
+    files.forEach((file) => makeFile(file))
+  })
+}
+
+exec()
 
 function generateTemplate(ts: string[]): string {
   let result: string = ''
@@ -31,20 +40,22 @@ function generateTemplate(ts: string[]): string {
   return result
 }
 
-function makeFile(file: string): void {
-  const filename = file.split('.')[0].split('/')[1]
-  const text: string = fs.readFileSync(file, 'utf-8')
+async function makeFile(file: string) {
+  const dirName = file.split('.')[0].split('/')[1]
+  if (dirName !== 'Infos') return
+  const filename = file.split('.')[0].split('/')[2]
+  const text: string = await fs.readFile(file, 'utf-8')
 
   const json: string = parser.toJson(text)
 
   if (isExclude(filename)) {
-    fs.writeFileSync(`./assets/data/xml/${filename}.json`, jsonFormat(JSON.parse(json)))
+    await fs.writeFile(`${assetsPath + filename}.json`, jsonFormat(JSON.parse(json)))
   } else {
     const jsonTemplate: string = `
     const data: Xml${Case.pascal(filename)}.RootObject = ${jsonFormat(JSON.parse(json), jsonConfig)}
     export default data
     `
-    fs.writeFileSync(`./assets/data/xml/${filename}.ts`, jsonTemplate)
+    await fs.writeFile(`${assetsPath + filename}.ts`, jsonTemplate)
   }
 
   const ts: string[] = JsonToTS(JSON.parse(json))
@@ -55,5 +66,5 @@ declare namespace Xml${Case.pascal(filename)} {
   ${exportTemplate}
 }
 `
-  fs.writeFileSync(`./types/xml/Xml${Case.pascal(filename)}.d.ts`, tsTemplate)
+  await fs.writeFile(`./types/xml/Xml${Case.pascal(filename)}.d.ts`, tsTemplate)
 }

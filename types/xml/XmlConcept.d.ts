@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GenderedNames?: ZType;
   zLink?: ZType | string;
   zHelpText?: ZType | string;
 }

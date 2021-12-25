@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GrammaticalGenders": {
+          
+        },
         "CustomName": {
           
         },
@@ -357,7 +360,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -370,7 +373,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -383,7 +386,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -396,7 +399,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             }
@@ -473,7 +476,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -565,7 +568,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -692,7 +695,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_MONEY",
-                  "iValue": "100"
+                  "iValue": "200"
                 }
               ]
             },
@@ -705,7 +708,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_MONEY",
-                  "iValue": "100"
+                  "iValue": "200"
                 }
               ]
             },
@@ -718,7 +721,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             },
@@ -731,7 +734,7 @@
                 },
                 {
                   "zSubIndex": "YIELD_FOOD",
-                  "iValue": "50"
+                  "iValue": "100"
                 }
               ]
             }
@@ -785,10 +788,16 @@
         "iMaxCultureCount": "1",
         "TechPrereq": "TECH_POLIS",
         "aiAdjacentImprovementClassModifier": {
-          "Pair": {
-            "zIndex": "IMPROVEMENTCLASS_ODEON",
-            "iValue": "20"
-          }
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_ODEON",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_BATHS",
+              "iValue": "20"
+            }
+          ]
         }
       },
       {

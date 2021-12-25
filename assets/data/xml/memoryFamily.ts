@@ -23,6 +23,16 @@
         }
       },
       {
+        "zType": "MEMORYFAMILY_OUR_AMBITION",
+        "Text": "TEXT_MEMORYFAMILY_OUR_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_OUR_LEGACY",
+        "Text": "TEXT_MEMORYFAMILY_OUR_LEGACY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "zType": "MEMORYFAMILY_FOUNDED_CITY",
         "Text": "TEXT_MEMORYFAMILY_FOUNDED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
@@ -36,11 +46,6 @@
         "zType": "MEMORYFAMILY_REGAINED_CITY",
         "Text": "TEXT_MEMORYFAMILY_REGAINED_CITY",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_LOST_CITY",
-        "Text": "TEXT_MEMORYFAMILY_LOST_CITY",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_GIVEN_CITY",
@@ -65,16 +70,6 @@
       {
         "zType": "MEMORYFAMILY_PURSUED_AMBITION",
         "Text": "TEXT_MEMORYFAMILY_PURSUED_AMBITION",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_OUR_AMBITION",
-        "Text": "TEXT_MEMORYFAMILY_OUR_AMBITION",
-        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
-      },
-      {
-        "zType": "MEMORYFAMILY_OUR_LEGACY",
-        "Text": "TEXT_MEMORYFAMILY_OUR_LEGACY",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
@@ -809,6 +804,16 @@
         "zType": "MEMORYFAMILY_DID_NOT_EXPEL_STUDENT",
         "Text": "TEXT_MEMORYFAMILY_DID_NOT_EXPEL_STUDENT",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_HONORIFIC_TITLE",
+        "Text": "TEXT_MEMORYFAMILY_HONORIFIC_TITLE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_PASSED_OVER_FOR_HONORIFIC_TITLE",
+        "Text": "TEXT_MEMORYFAMILY_PASSED_OVER_FOR_HONORIFIC_TITLE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "beginGroup": "Contact",
@@ -1890,6 +1895,11 @@
         "zType": "MEMORYFAMILY_ACCEPTED_MARRIAGE",
         "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "BONUS_PERMITTED_PURPLE",
+        "Text": "TEXT_MEMORYFAMILY_BONUS_PERMITTED_PURPLE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       }
     ]
   }

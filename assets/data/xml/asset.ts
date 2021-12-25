@@ -115,6 +115,10 @@
         "zAsset": "Sprites/Trait-IconsSmall"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_TRAITS_SMALL_SILVER",
+        "zAsset": "Sprites/Trait-IconsSmallSilver"
+      },
+      {
         "zType": "ASSET_SPRITE_SHEET_RESOURCES",
         "zAsset": "Sprites/Resource_Icons"
       },
@@ -535,16 +539,8 @@
         "zAsset": "Prefabs/Units/Warrior_portrait"
       },
       {
-        "zType": "ASSET_UNIT_WARRIOR_MESH_ANIMATOR",
-        "zAsset": "Prefabs/Units/MeshAnimator/Warrior/Warrior_AnimatedMesh"
-      },
-      {
         "zType": "ASSET_UNIT_AXEMAN",
         "zAsset": "Prefabs/Units/Axeman"
-      },
-      {
-        "zType": "ASSET_UNIT_AXEMAN_MESH_ANIMATOR",
-        "zAsset": "Prefabs/Units/MeshAnimator/Axeman/Axeman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_AXEMAN",
@@ -604,7 +600,7 @@
       },
       {
         "zType": "ASSET_UNIT_SLINGER_MESH_ANIMATOR",
-        "zAsset": "Prefabs/Units/MeshAnimator/Slinger/Slinger_AnimatedMesh"
+        "zAsset": "Prefabs/Units/MeshAnimator/Slinger_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_SLINGER",
@@ -1607,6 +1603,10 @@
         "zAsset": "Prefabs/Improvements/Quarry"
       },
       {
+        "zType": "ASSET_IMPROVEMENT_QUARRY_MARBLE",
+        "zAsset": "Prefabs/Improvements/Quarry_Marble"
+      },
+      {
         "zType": "ASSET_IMPROVEMENT_MINE",
         "zAsset": "Prefabs/Improvements/Mine"
       },
@@ -1681,6 +1681,14 @@
       {
         "zType": "ASSET_IMPROVEMENT_NETS_CRABS",
         "zAsset": "Prefabs/Improvements/NetsCrabs"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_NETS_DYES",
+        "zAsset": "Prefabs/Improvements/NetsDyes"
+      },
+      {
+        "zType": "ASSET_IMPROVEMENT_NETS_PEARLS",
+        "zAsset": "Prefabs/Improvements/NetsPearls"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HARBOR",

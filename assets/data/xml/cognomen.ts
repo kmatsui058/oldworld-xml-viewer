@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GenderedNames": {
+          
+        },
         "iLegitimacy": {
           
         },
@@ -24,16 +27,34 @@
       },
       {
         "zType": "COGNOMEN_NEW",
-        "Name": "TEXT_COGNOMEN_NEW"
+        "Name": "TEXT_COGNOMEN_NEW",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_NEW_F"
+          }
+        }
       },
       {
         "zType": "COGNOMEN_FOUNDER",
         "Name": "TEXT_COGNOMEN_FOUNDER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_FOUNDER_F"
+          }
+        },
         "iLegitimacy": "10"
       },
       {
         "zType": "COGNOMEN_WARRIOR",
         "Name": "TEXT_COGNOMEN_WARRIOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_WARRIOR_F"
+          }
+        },
         "iLegitimacy": "10",
         "iMinValue": "1000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WARRIOR",
@@ -57,6 +78,12 @@
       {
         "zType": "COGNOMEN_BRAVE",
         "Name": "TEXT_COGNOMEN_BRAVE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_BRAVE_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BRAVE",
@@ -80,6 +107,12 @@
       {
         "zType": "COGNOMEN_VALIANT",
         "Name": "TEXT_COGNOMEN_VALIANT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_VALIANT_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_VALIANT",
@@ -103,6 +136,12 @@
       {
         "zType": "COGNOMEN_MIGHTY",
         "Name": "TEXT_COGNOMEN_MIGHTY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_MIGHTY_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MIGHTY",
@@ -126,6 +165,12 @@
       {
         "zType": "COGNOMEN_VICTORIOUS",
         "Name": "TEXT_COGNOMEN_VICTORIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_VICTORIOUS_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_VICTORIOUS",
@@ -149,6 +194,12 @@
       {
         "zType": "COGNOMEN_LION",
         "Name": "TEXT_COGNOMEN_LION",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_LION_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LION",
@@ -172,6 +223,12 @@
       {
         "zType": "COGNOMEN_INVINCIBLE",
         "Name": "TEXT_COGNOMEN_INVINCIBLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_INVINCIBLE_F"
+          }
+        },
         "iLegitimacy": "70",
         "iMinValue": "7000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INVINCIBLE",
@@ -195,6 +252,12 @@
       {
         "zType": "COGNOMEN_CAPABLE",
         "Name": "TEXT_COGNOMEN_CAPABLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_CAPABLE_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_CAPABLE",
@@ -214,6 +277,12 @@
       {
         "zType": "COGNOMEN_READY",
         "Name": "TEXT_COGNOMEN_READY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_READY_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_READY",
@@ -233,6 +302,12 @@
       {
         "zType": "COGNOMEN_DESTROYER",
         "Name": "TEXT_COGNOMEN_DESTROYER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_DESTROYER_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_DESTROYER",
@@ -246,6 +321,12 @@
       {
         "zType": "COGNOMEN_AVENGER",
         "Name": "TEXT_COGNOMEN_AVENGER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_AVENGER_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_AVENGER",
@@ -259,6 +340,12 @@
       {
         "zType": "COGNOMEN_WHITE_DEATH",
         "Name": "TEXT_COGNOMEN_WHITE_DEATH",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_WHITE_DEATH_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
@@ -272,6 +359,12 @@
       {
         "zType": "COGNOMEN_INTERCESSOR",
         "Name": "TEXT_COGNOMEN_INTERCESSOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_INTERCESSOR_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INTERCESSOR",
@@ -299,6 +392,12 @@
       {
         "zType": "COGNOMEN_PEACEMAKER",
         "Name": "TEXT_COGNOMEN_PEACEMAKER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_PEACEMAKER_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_PEACEMAKER",
@@ -326,6 +425,12 @@
       {
         "zType": "COGNOMEN_CONQUEROR",
         "Name": "TEXT_COGNOMEN_CONQUEROR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_CONQUEROR_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_CONQUEROR",
@@ -345,6 +450,12 @@
       {
         "zType": "COGNOMEN_SUBJUGATOR",
         "Name": "TEXT_COGNOMEN_SUBJUGATOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_SUBJUGATOR_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
@@ -364,6 +475,12 @@
       {
         "zType": "COGNOMEN_RESTORER",
         "Name": "TEXT_COGNOMEN_RESTORER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_RESTORER_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_RESTORER",
@@ -377,6 +494,12 @@
       {
         "zType": "COGNOMEN_LIBERATOR",
         "Name": "TEXT_COGNOMEN_LIBERATOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_LIBERATOR_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
@@ -390,6 +513,12 @@
       {
         "zType": "COGNOMEN_SETTLER",
         "Name": "TEXT_COGNOMEN_SETTLER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_SETTLER_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_SETTLER",
@@ -403,6 +532,12 @@
       {
         "zType": "COGNOMEN_PIONEER",
         "Name": "TEXT_COGNOMEN_PIONEER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_PIONEER_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_PIONEER",
@@ -416,6 +551,12 @@
       {
         "zType": "COGNOMEN_AMBITIOUS",
         "Name": "TEXT_COGNOMEN_AMBITIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_AMBITIOUS_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_AMBITIOUS",
@@ -435,6 +576,12 @@
       {
         "zType": "COGNOMEN_BRILLIANT",
         "Name": "TEXT_COGNOMEN_BRILLIANT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_BRILLIANT_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BRILLIANT",
@@ -454,6 +601,12 @@
       {
         "zType": "COGNOMEN_BELOVED",
         "Name": "TEXT_COGNOMEN_BELOVED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_BELOVED_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_BELOVED",
@@ -473,6 +626,12 @@
       {
         "zType": "COGNOMEN_REBUILDER",
         "Name": "TEXT_COGNOMEN_REBUILDER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_REBUILDER_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_REBUILDER",
@@ -486,6 +645,12 @@
       {
         "zType": "COGNOMEN_MASON",
         "Name": "TEXT_COGNOMEN_MASON",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_MASON_F"
+          }
+        },
         "iLegitimacy": "10",
         "iMinValue": "1000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MASON",
@@ -505,6 +670,12 @@
       {
         "zType": "COGNOMEN_ARCHITECT",
         "Name": "TEXT_COGNOMEN_ARCHITECT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_ARCHITECT_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ARCHITECT",
@@ -524,6 +695,12 @@
       {
         "zType": "COGNOMEN_KEYSTONE",
         "Name": "TEXT_COGNOMEN_KEYSTONE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_KEYSTONE_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_KEYSTONE",
@@ -543,6 +720,12 @@
       {
         "zType": "COGNOMEN_FOUNTAINHEAD",
         "Name": "TEXT_COGNOMEN_FOUNTAINHEAD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_FOUNTAINHEAD_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
@@ -562,6 +745,12 @@
       {
         "zType": "COGNOMEN_DEVOUT",
         "Name": "TEXT_COGNOMEN_DEVOUT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_DEVOUT_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_DEVOUT",
@@ -585,6 +774,12 @@
       {
         "zType": "COGNOMEN_HOLY",
         "Name": "TEXT_COGNOMEN_HOLY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_HOLY_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_HOLY",
@@ -608,6 +803,12 @@
       {
         "zType": "COGNOMEN_EXPLORER",
         "Name": "TEXT_COGNOMEN_EXPLORER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_EXPLORER_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "3000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_EXPLORER",
@@ -647,6 +848,12 @@
       {
         "zType": "COGNOMEN_INTREPID",
         "Name": "TEXT_COGNOMEN_INTREPID",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_INTREPID_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_INTREPID",
@@ -686,6 +893,12 @@
       {
         "zType": "COGNOMEN_LEARNED",
         "Name": "TEXT_COGNOMEN_LEARNED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_LEARNED_F"
+          }
+        },
         "iLegitimacy": "20",
         "iMinValue": "2000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LEARNED",
@@ -699,6 +912,12 @@
       {
         "zType": "COGNOMEN_ENLIGHTENED",
         "Name": "TEXT_COGNOMEN_ENLIGHTENED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_ENLIGHTENED_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
@@ -712,6 +931,12 @@
       {
         "zType": "COGNOMEN_WISE",
         "Name": "TEXT_COGNOMEN_WISE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_WISE_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_WISE",
@@ -725,6 +950,12 @@
       {
         "zType": "COGNOMEN_OLD",
         "Name": "TEXT_COGNOMEN_OLD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_OLD_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_OLD",
@@ -738,6 +969,12 @@
       {
         "zType": "COGNOMEN_ANCIENT",
         "Name": "TEXT_COGNOMEN_ANCIENT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_ANCIENT_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "5000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ANCIENT",
@@ -751,6 +988,12 @@
       {
         "zType": "COGNOMEN_ABLE",
         "Name": "TEXT_COGNOMEN_ABLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_ABLE_F"
+          }
+        },
         "iLegitimacy": "30",
         "iMinValue": "15000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_ABLE",
@@ -898,6 +1141,12 @@
       {
         "zType": "COGNOMEN_JUST",
         "Name": "TEXT_COGNOMEN_JUST",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_JUST_F"
+          }
+        },
         "iLegitimacy": "40",
         "iMinValue": "20000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_JUST",
@@ -1045,6 +1294,12 @@
       {
         "zType": "COGNOMEN_GOOD",
         "Name": "TEXT_COGNOMEN_GOOD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_GOOD_F"
+          }
+        },
         "iLegitimacy": "50",
         "iMinValue": "25000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GOOD",
@@ -1192,6 +1447,12 @@
       {
         "zType": "COGNOMEN_STRONG",
         "Name": "TEXT_COGNOMEN_STRONG",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_STRONG_F"
+          }
+        },
         "iLegitimacy": "60",
         "iMinValue": "30000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_STRONG",
@@ -1339,6 +1600,12 @@
       {
         "zType": "COGNOMEN_NOBLE",
         "Name": "TEXT_COGNOMEN_NOBLE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_NOBLE_F"
+          }
+        },
         "iLegitimacy": "70",
         "iMinValue": "35000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_NOBLE",
@@ -1486,6 +1753,12 @@
       {
         "zType": "COGNOMEN_GLORIOUS",
         "Name": "TEXT_COGNOMEN_GLORIOUS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_GLORIOUS_F"
+          }
+        },
         "iLegitimacy": "80",
         "iMinValue": "40000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GLORIOUS",
@@ -1633,6 +1906,12 @@
       {
         "zType": "COGNOMEN_MAGNIFICENT",
         "Name": "TEXT_COGNOMEN_MAGNIFICENT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_MAGNIFICENT_F"
+          }
+        },
         "iLegitimacy": "90",
         "iMinValue": "45000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
@@ -1780,6 +2059,12 @@
       {
         "zType": "COGNOMEN_GREAT",
         "Name": "TEXT_COGNOMEN_GREAT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_GREAT_F"
+          }
+        },
         "iLegitimacy": "100",
         "iMinValue": "50000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_GREAT",
@@ -1927,6 +2212,12 @@
       {
         "zType": "COGNOMEN_UNFORTUNATE",
         "Name": "TEXT_COGNOMEN_UNFORTUNATE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_UNFORTUNATE_F"
+          }
+        },
         "iLegitimacy": "-20",
         "iMinValue": "1000",
         "aiStatValue": {
@@ -1961,6 +2252,12 @@
       {
         "zType": "COGNOMEN_UNREADY",
         "Name": "TEXT_COGNOMEN_UNREADY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_UNREADY_F"
+          }
+        },
         "iLegitimacy": "-40",
         "iMinValue": "2000",
         "aiStatValue": {
@@ -1995,6 +2292,12 @@
       {
         "zType": "COGNOMEN_WEAK",
         "Name": "TEXT_COGNOMEN_WEAK",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_WEAK_F"
+          }
+        },
         "iLegitimacy": "-60",
         "iMinValue": "3000",
         "aiStatValue": {
@@ -2029,6 +2332,12 @@
       {
         "zType": "COGNOMEN_BAD",
         "Name": "TEXT_COGNOMEN_BAD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_BAD_F"
+          }
+        },
         "iLegitimacy": "-80",
         "iMinValue": "4000",
         "aiStatValue": {
@@ -2063,6 +2372,12 @@
       {
         "zType": "COGNOMEN_BLOODY",
         "Name": "TEXT_COGNOMEN_BLOODY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COGNOMEN_BLOODY_F"
+          }
+        },
         "iLegitimacy": "-100",
         "iMinValue": "5000",
         "aiStatValue": {

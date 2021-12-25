@@ -12,7 +12,7 @@ export interface Entry {
   iPlayerProb?: ILevelProb | string;
   iCharacterProb?: ILevelProb | string;
   iMinTurns?: ILevelProb | string;
-  iMinRepeat: ILevelProb | string;
+  iMinRepeat?: ILevelProb | string;
 }
 export interface ILevelProb {
   comment: string;

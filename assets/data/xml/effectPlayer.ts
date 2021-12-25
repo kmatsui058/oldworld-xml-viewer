@@ -96,9 +96,6 @@
         "iBuildTurnChange": {
           
         },
-        "iFatigueLimitChange": {
-          
-        },
         "iVisionChange": {
           
         },
@@ -109,6 +106,12 @@
           
         },
         "iReligionOpinionChange": {
+          
+        },
+        "iStateReligionOpinionChange": {
+          
+        },
+        "iLeaderReligionOpinionChange": {
           
         },
         "iFamilyOpinionChange": {
@@ -169,9 +172,6 @@
           
         },
         "bAutomateScouts": {
-          
-        },
-        "aiMilitaryKillYield": {
           
         },
         "aiWarYield": {
@@ -563,7 +563,13 @@
         "zType": "EFFECTPLAYER_IMPROVEMENT_HAGIA_SOPHIA",
         "Name": "TEXT_IMPROVEMENT_HAGIA_SOPHIA",
         "SourceImprovement": "IMPROVEMENT_HAGIA_SOPHIA",
-        "EffectCity": "EFFECTCITY_IMPROVEMENT_HAGIA_SOPHIA_ALL"
+        "EffectCity": "EFFECTCITY_IMPROVEMENT_HAGIA_SOPHIA_ALL",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "400"
+          }
+        }
       },
       {
         "zType": "EFFECTPLAYER_IMPROVEMENT_VIA_RECTA_SOUK",
@@ -575,12 +581,7 @@
         "zType": "EFFECTPLAYER_LAW_EPICS",
         "Name": "TEXT_LAW_EPICS",
         "SourceLaw": "LAW_EPICS",
-        "aiMilitaryKillYield": {
-          "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "10"
-          }
-        }
+        "EffectUnit": "EFFECTUNIT_EPICS"
       },
       {
         "zType": "EFFECTPLAYER_LAW_EXPLORATION",
@@ -822,13 +823,7 @@
         "Name": "TEXT_NATION_ASSYRIA",
         "SourceNation": "NATION_ASSYRIA",
         "EffectCity": "EFFECTCITY_NATION_ASSYRIA",
-        "EffectUnit": "EFFECTUNIT_ASSYRIA",
-        "aiMilitaryKillYield": {
-          "Pair": {
-            "zIndex": "YIELD_ORDERS",
-            "iValue": "2"
-          }
-        }
+        "EffectUnit": "EFFECTUNIT_ASSYRIA"
       },
       {
         "zType": "EFFECTPLAYER_NATION_BABYLONIA",
@@ -876,7 +871,7 @@
         "Name": "TEXT_NATION_ROME",
         "SourceNation": "NATION_ROME",
         "EffectCity": "EFFECTCITY_NATION_ROME",
-        "iFatigueLimitChange": "1"
+        "EffectUnit": "EFFECTUNIT_ROME"
       },
       {
         "zType": "EFFECTPLAYER_RELIGION_PAGAN",
@@ -960,18 +955,7 @@
         "zType": "EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
         "Name": "TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
         "SourceTrait": "TRAIT_HERO_ARCHETYPE",
-        "aiMilitaryKillYield": {
-          "Pair": {
-            "zIndex": "YIELD_TRAINING",
-            "iValue": "50"
-          }
-        },
-        "aeEffectUnit": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MELEE",
-            "zValue": "EFFECTUNIT_HERO_MELEE"
-          }
-        }
+        "EffectUnit": "EFFECTUNIT_HERO_ALL"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
@@ -1002,9 +986,9 @@
         "zType": "EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
         "Name": "TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
         "SourceTrait": "TRAIT_ZEALOT_ARCHETYPE",
-        "EffectCity": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL",
         "StateReligionEffectCity": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
-        "iFatigueLimitChange": "1"
+        "EffectUnit": "EFFECTUNIT_ZEALOT_ALL",
+        "iLeaderReligionOpinionChange": "60"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",

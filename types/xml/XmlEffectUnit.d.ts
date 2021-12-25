@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
+  GrammaticalGenderNames?: ZType;
   Class?: ZType | string;
   SourceUnitTrait?: ZType | string;
   iClassNum?: ZType | string;
@@ -50,8 +51,10 @@ export interface Entry {
   bIgnoresDistance?: ZType | string;
   bCriticalImmune?: ZType | string;
   bHealNeutral?: ZType | string;
+  bHealPillage?: ZType | string;
   bLaunchOffensive?: ZType | string;
   bNoRoadCooldown?: ZType | string;
+  bRemoveVegetation?: ZType;
   aiAttackValue?: AiAttackValue;
   aiAttackPercent?: AiAttackValue;
   aiTerrainFromModifier?: AiAttackValue;
@@ -59,7 +62,7 @@ export interface Entry {
   aiVegetationFromModifier?: AiAttackValue;
   aiUnitTraitModifier?: AiUnitTraitModifier;
   aiUnitTraitModifierAttack?: AiAttackValue;
-  aiUnitTraitModifierDefense?: AiAttackValue;
+  aiUnitTraitModifierDefense?: ZType;
   aiUnitTraitModifierMelee?: AiAttackValue;
   aiMilitaryKillYield?: AiAttackValue;
   abHideVegetation?: AbHideVegetation;

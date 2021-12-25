@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
+  GrammaticalGenderNames?: ZType;
 }
 export interface ZType {
 }

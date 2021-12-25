@@ -10,7 +10,7 @@
     "generate": "nuxt generate",
     "start": "nuxt start",
     "lint": "eslint --ext .ts,.vue --ignore-path .gitignore .",
-    "xml": "ts-node ./task/parse-xml.ts",
+    "xml": "ts-node ./task/parse-xml.ts -P ./task/",
     "test": "jest",
     "prepare": "husky install",
     "parseAPI": "openapi-generator-cli generate --enable-post-process-file -i ./openapi.yaml -t ./template -o ./api --generator-name typescript-axios -c ./openapi-config.yaml"

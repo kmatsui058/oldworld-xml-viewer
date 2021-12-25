@@ -6,218 +6,318 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_KING",
-        "English": "{masculine_0:King:Queen} {0_name}"
+        "en-US": "King"
       },
       {
-        "zType": "TEXT_CHARACTER_TITLE_KING_CONSORT",
-        "English": "{masculine_0:King Consort:Queen Consort} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_KING_DOWAGER",
-        "English": "{masculine_0:King Dowager:Queen Dowager} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_PRINCE",
-        "English": "{masculine_0:Prince:Princess} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_PRINCE_CONSORT",
-        "English": "{masculine_0:Prince Consort:Princess Consort} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_DUKE",
-        "English": "{masculine_0:Duke:Duchess} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_DUKE_CONSORT",
-        "English": "{masculine_0:Duke Consort:Duchess Consort} {0_name}"
-      },
-      {
-        "zType": "TEXT_CHARACTER_TITLE_COUNCIL",
-        "English": "{0_title} {1_name}"
+        "zType": "TEXT_CHARACTER_TITLE_QUEEN",
+        "en-US": "Queen"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_GENERAL",
-        "English": "Gen. {0_name}"
+        "en-US": "Gen."
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_GENERAL_F",
+        "en-US": "Gen."
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_CONSORT",
+        "en-US": "{0_title} Consort"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_CONSORT_F",
+        "en-US": "{0_title} Consort"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_LEADER_DOWAGER",
+        "en-US": "{0_title} Dowager"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_LEADER_DOWAGER_F",
+        "en-US": "{0_title} Dowager"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_HEIR",
+        "en-US": "Prince"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_HEIR_F",
+        "en-US": "Princess"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_SUCCESSOR",
+        "en-US": "Duke"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_SUCCESSOR_F",
+        "en-US": "Duchess"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_COUNCIL",
+        "en-US": "{0_title}"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_GOVERNOR",
-        "English": "Gov. {0_name}"
+        "en-US": "Gov."
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_GOVERNOR_F",
+        "en-US": "Gov."
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_AGENT",
-        "English": "Agent {0_name}"
+        "en-US": "Agent"
       },
       {
-        "zType": "TEXT_CHARACTER_TITLE_PATRIARCH",
-        "English": "{masculine_0:Patriarch:Matriarch} {0_name}"
+        "zType": "TEXT_CHARACTER_TITLE_AGENT_F",
+        "en-US": "Agent"
       },
       {
-        "zType": "TEXT_CHARACTER_TITLE_OLIGRARCH",
-        "English": "Oligarch {0_name}"
+        "zType": "TEXT_CHARACTER_TITLE_RELIGION_HEAD",
+        "en-US": "Patriarch"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_RELIGION_HEAD_F",
+        "en-US": "Matriarch"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_OLIGARCH",
+        "en-US": "Oligarch"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_OLIGARCH_F",
+        "en-US": "Oligarch"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_NAME",
+        "en-US": "{0_title} {1_name}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_PROPHET",
+        "en-US": "The Prophet"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_PROPHET_F",
+        "en-US": "The Prophet"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_SEER",
+        "en-US": "The Seer"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_SEER_F",
+        "en-US": "The Seer"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_REBEL_LEADER",
+        "en-US": "The Rebel King"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_REBEL_LEADER_F",
+        "en-US": "The Rebel Queen"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_ARCHON",
+        "en-US": "Archon"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_ARCHON_F",
+        "en-US": "Archon"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_OVERSEER_OF_THE_FIELDS",
+        "en-US": "Overseer"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_OVERSEER_OF_THE_FIELDS_F",
+        "en-US": "Overseer"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_POSSESSOR_OF_VENERATION",
+        "en-US": "Venerated"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_POSSESSOR_OF_VENERATION_F",
+        "en-US": "Venerated"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_STEWARD_OF_THE_CHAMBER",
+        "en-US": "Steward"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_STEWARD_OF_THE_CHAMBER_F",
+        "en-US": "Steward"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART",
+        "en-US": "Chief Priest"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART_F",
+        "en-US": "Chief Priestess"
       },
       {
         "comment": "TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender",
         "zType": "TEXT_CHARACTER_RELATION_YOU",
-        "English": "you"
+        "en-US": "you"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SPOUSE",
-        "English": "your {masculine_0:Husband:Wife}"
+        "en-US": "your {masculine_0:Husband:Wife}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD",
-        "English": "your {masculine_0:Son:Daughter}"
+        "en-US": "your {masculine_0:Son:Daughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDCHILD",
-        "English": "your {masculine_0:Grandson:Granddaughter}"
+        "en-US": "your {masculine_0:Grandson:Granddaughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_DESCENDANT",
-        "English": "your Descendant"
+        "en-US": "your Descendant"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT",
-        "English": "your {masculine_0:Father:Mother}"
+        "en-US": "your {masculine_0:Father:Mother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_GRANDPARENT",
-        "English": "your {masculine_0:Grandfather:Grandmother}"
+        "en-US": "your {masculine_0:Grandfather:Grandmother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_ANCESTOR",
-        "English": "your Ancestor"
+        "en-US": "your Ancestor"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING",
-        "English": "your {masculine_0:Brother:Sister}"
+        "en-US": "your {masculine_0:Brother:Sister}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_SIBLING_IN_LAW",
-        "English": "your {masculine_0:Brother-in-Law:Sister-in-Law}"
+        "en-US": "your {masculine_0:Brother-in-Law:Sister-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_HALF_SIBLING",
-        "English": "your {masculine_0:Half-Brother:Half-Sister}"
+        "en-US": "your {masculine_0:Half-Brother:Half-Sister}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_COUSIN",
-        "English": "your Cousin"
+        "en-US": "your Cousin"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_AUNT_UNCLE",
-        "English": "your {masculine_0:Uncle:Aunt}"
+        "en-US": "your {masculine_0:Uncle:Aunt}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_NIECE_NEPHEW",
-        "English": "your {masculine_0:Nephew:Niece}"
+        "en-US": "your {masculine_0:Nephew:Niece}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_CHILD_IN_LAW",
-        "English": "your {masculine_0:Son-in-Law:Daughter-in-Law}"
+        "en-US": "your {masculine_0:Son-in-Law:Daughter-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_PARENT_IN_LAW",
-        "English": "your {masculine_0:Father-in-Law:Mother-in-Law}"
+        "en-US": "your {masculine_0:Father-in-Law:Mother-in-Law}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPCHILD",
-        "English": "your {masculine_0:Stepson:Stepdaughter}"
+        "en-US": "your {masculine_0:Stepson:Stepdaughter}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_STEPPARENT",
-        "English": "your {masculine_0:Stepfather:Stepmother}"
+        "en-US": "your {masculine_0:Stepfather:Stepmother}"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_RELATIVE",
-        "English": "your Relative"
+        "en-US": "your Relative"
       },
       {
         "zType": "TEXT_CHARACTER_RELATION_IN_LAW",
-        "English": "your In-Law"
+        "en-US": "your In-Law"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_1",
-        "English": "Heir"
+        "en-US": "Heir"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_2",
-        "English": "Second in Line"
+        "en-US": "Second in Line"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_3",
-        "English": "Third in Line"
+        "en-US": "Third in Line"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_4",
-        "English": "Fourth in Line"
+        "en-US": "Fourth in Line"
       },
       {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_X",
-        "English": "Distant Successor"
+        "en-US": "Distant Successor"
       },
       {
         "zType": "TEXT_CHARACTER_DEAD",
-        "English": "icon(DeathSkull) {0_name}"
+        "en-US": "icon(DeathSkull) {0_name}"
       },
       {
         "zType": "TEXT_CHARACTER_HAS_COGNOMEN",
-        "English": "{0_name} {1_cognomen}"
+        "en-US": "{0_name} {1_cognomen}"
       },
       {
         "zType": "TEXT_CHARACTER_GENERAL_OF",
-        "English": "link(CONCEPT_GENERAL) of {0_unit}"
+        "en-US": "link(CONCEPT_GENERAL) of {0_unit}"
       },
       {
         "zType": "TEXT_CHARACTER_GOVERNOR_OF",
-        "English": "link(CONCEPT_GOVERNOR) of {0_city}"
+        "en-US": "link(CONCEPT_GOVERNOR) of {0_city}"
       },
       {
         "zType": "TEXT_CHARACTER_AGENT_IN",
-        "English": "link(CONCEPT_AGENT) in {0_city}"
+        "en-US": "link(CONCEPT_AGENT) in {0_city}"
       },
       {
         "zType": "TEXT_CHARACTER_YOUR_HEIR",
-        "English": "Your Heir"
+        "en-US": "Your Heir"
       },
       {
         "zType": "TEXT_CHARACTER_FULL_NAME_EXTRA",
-        "English": "({0_data})"
+        "en-US": "({0_data})"
       },
       {
         "zType": "TEXT_CHARACTER_FIRST_AND_LAST_NAME",
-        "English": "{0_firstname} {1_lastname}"
+        "en-US": "{0_firstname} {1_lastname}"
       },
       {
         "zType": "TEXT_CHARACTER_NAME_WITH_SUFFIX",
-        "English": "{0_name} {1_suffix}"
+        "en-US": "{0_name} {1_suffix}"
       },
       {
         "zType": "TEXT_CHARACTER_OF_NATION",
-        "English": "{0_name} of {1_nation}"
+        "en-US": "{0_name} of {1_nation}"
       },
       {
         "zType": "TEXT_CHARACTER_THE_YOUNGER",
-        "English": "the Younger"
+        "en-US": "the Younger"
       },
       {
         "zType": "TEXT_CHARACTER_THE_ELDER",
-        "English": "the Elder"
+        "en-US": "the Elder"
       },
       {
         "zType": "TEXT_CHARACTER_HAS_DIED",
-        "English": "{0_character} has died!"
+        "en-US": "{0_character} has died!"
       },
       {
         "zType": "TEXT_CHARACTER_LEADER_NEW_COGNOMEN",
-        "English": "You are now known as {0_name} {1_cognomen}!"
+        "en-US": "You are now known as {0_name} {1_cognomen}!"
       }
     ]
   }
