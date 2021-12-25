@@ -1,9 +1,9 @@
 import { mount } from '@vue/test-utils'
-import commonHeader from '@/components/CommonHeader.vue'
+import Index from '@/pages/index.vue'
 describe('index page', () => {
   describe('index', () => {
     test('index page', () => {
-      mount(commonHeader)
+      mount(Index)
     })
   })
 })

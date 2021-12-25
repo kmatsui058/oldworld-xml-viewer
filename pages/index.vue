@@ -9,21 +9,11 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent } from '@nuxtjs/composition-api'
-import Nation from '~/classes/Nation'
-import nation from '~/assets/data/xml/nation'
+import { defineComponent } from '@nuxtjs/composition-api'
 import GeneralNavigation from '~/components/navigation/GeneralNavigation.vue'
 
 export default defineComponent({
   name: 'IndexPage',
   components: { GeneralNavigation },
-  setup() {
-    const nations = computed((): Nation[] => {
-      return nation.Root.Entry.map((item) => {
-        return new Nation(item)
-      }).filter((nation) => nation.name)
-    })
-    return { nations }
-  },
 })
 </script>
