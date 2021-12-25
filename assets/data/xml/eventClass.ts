@@ -94,7 +94,7 @@
       },
       {
         "zType": "EVENTCLASS_PETS_AND_ODDITIES",
-        "iPlayerProb": "40",
+        "iLevelProb": "40",
         "iMinRepeat": "2"
       },
       {
@@ -118,6 +118,11 @@
       {
         "zType": "EVENTCLASS_GENERAL_DUEL",
         "iMinRepeat": "5"
+      },
+      {
+        "zType": "EVENTCLASS_INTRIGUE",
+        "iPlayerProb": "5",
+        "iMinTurns": "10"
       }
     ]
   }

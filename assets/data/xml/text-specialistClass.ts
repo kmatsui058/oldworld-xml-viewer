@@ -6,81 +6,81 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_FARMER",
-        "English": "Farmer"
+        "en-US": "Farmer"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_WOODCUTTER",
-        "English": "Woodcutter"
+        "en-US": "Woodcutter"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_STONECUTTER",
-        "English": "Stonecutter"
+        "en-US": "Stonecutter"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_MINER",
-        "English": "Miner"
+        "en-US": "Miner"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_RANCHER",
-        "English": "Rancher"
+        "en-US": "Rancher"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_TRAPPER",
-        "English": "Trapper"
+        "en-US": "Trapper"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_GARDENER",
-        "English": "Gardener"
+        "en-US": "Gardener"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_FISHER",
-        "English": "Fisher"
+        "en-US": "Fisher"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_ACOLYTE",
-        "English": "Acolyte~Acolytes"
+        "en-US": "Acolyte~Acolytes"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_MONK",
-        "English": "Monk"
+        "en-US": "Monk"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_PRIEST",
-        "English": "Priest~Priests"
+        "en-US": "Priest~Priests"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_OFFICER",
-        "English": "Officer~Officers"
+        "en-US": "Officer~Officers"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_POET",
-        "English": "Poet"
+        "en-US": "Poet"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_SCRIBE",
-        "English": "Scribe~Scribes"
+        "en-US": "Scribe~Scribes"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_SHOPKEEPER",
-        "English": "Shopkeeper"
+        "en-US": "Shopkeeper"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_PHILOSOPHER",
-        "English": "Philosopher"
+        "en-US": "Philosopher"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_DOCTOR",
-        "English": "Doctor"
+        "en-US": "Doctor"
       },
       {
         "zType": "TEXT_SPECIALISTCLASS_BISHOP",
-        "English": "Bishop"
+        "en-US": "Bishop"
       }
     ]
   }

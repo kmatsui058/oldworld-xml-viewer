@@ -38,11 +38,12 @@ export interface Entry {
   iSwitchLawModifier?: ZType | string;
   iTrainingOrderModifier?: ZType;
   iBuildTurnChange?: ZType | string;
-  iFatigueLimitChange?: ZType | string;
   iVisionChange?: ZType | string;
   iTechsAvailableChange?: ZType | string;
   iLeaderOpinionChange?: ZType | string;
   iReligionOpinionChange?: ZType | string;
+  iStateReligionOpinionChange?: ZType;
+  iLeaderReligionOpinionChange?: ZType | string;
   iFamilyOpinionChange?: ZType | string;
   bStartMusic?: ZType | string;
   bRedrawTechs?: ZType | string;
@@ -63,11 +64,10 @@ export interface Entry {
   bHireMercenaries?: ZType | string;
   bAutomateWorkers?: ZType | string;
   bAutomateScouts?: ZType | string;
-  aiMilitaryKillYield?: AiMilitaryKillYield;
-  aiWarYield?: AiMilitaryKillYield;
+  aiWarYield?: AiWarYield;
   aiYieldRate?: AiYieldRate;
-  aiYieldRateLaws?: AiMilitaryKillYield;
-  aiYieldUpkeep?: AiMilitaryKillYield;
+  aiYieldRateLaws?: AiWarYield;
+  aiYieldUpkeep?: AiWarYield;
   aeEffectUnit?: AeEffectUnit;
   aeTradeYield?: AeTradeYield;
   aeWaterUnit?: AeTradeYield;
@@ -86,7 +86,7 @@ export interface Pair2 {
 export interface AiYieldRate {
   Pair?: Pair[] | Pair;
 }
-export interface AiMilitaryKillYield {
+export interface AiWarYield {
   Pair?: Pair;
 }
 export interface Pair {

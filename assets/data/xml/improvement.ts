@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GrammaticalGenders": {
+          
+        },
         "Hint": {
           
         },
@@ -177,6 +180,9 @@
         "bText": {
           
         },
+        "bIgnoreHillHeight": {
+          
+        },
         "Achievement": {
           
         },
@@ -232,6 +238,9 @@
           
         },
         "aiYieldOutput": {
+          
+        },
+        "aiYieldConsumption": {
           
         },
         "aiWonderYieldOutput": {
@@ -1657,6 +1666,14 @@
             {
               "zIndex": "RESOURCE_CRAB",
               "zValue": "ASSET_VARIATION_IMPROVEMENT_NETS_CRABS"
+            },
+            {
+              "zIndex": "RESOURCE_DYE",
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_NETS_DYES"
+            },
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "zValue": "ASSET_VARIATION_IMPROVEMENT_NETS_PEARLS"
             }
           ]
         },
@@ -1683,16 +1700,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -1734,16 +1751,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_GROWTH",
-              "iValue": "10"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_GROWTH",
+            "iValue": "10"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -1788,6 +1805,7 @@
         "bNoVegetation": "1",
         "bRiverValid": "1",
         "bRotateToRiverEdge": "1",
+        "bIgnoreHillHeight": "1",
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
@@ -1795,16 +1813,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-10"
-            },
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -1838,16 +1856,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-10"
-            },
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-10"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -1884,16 +1902,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "-10"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "100"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "-10"
+          }
         },
         "aiTradeNetworkYieldOutput": {
           "Pair": {
@@ -1941,16 +1959,16 @@
         "bNoVegetation": "1",
         "DevelopImprovement": "IMPROVEMENT_TOWN",
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "150"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "-20"
+          }
         },
         "aiTradeNetworkYieldOutput": {
           "Pair": {
@@ -2005,13 +2023,15 @@
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "100"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "-30"
+              "iValue": "200"
             }
           ]
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "-30"
+          }
         },
         "aiTradeNetworkYieldOutput": {
           "Pair": {
@@ -2059,13 +2079,25 @@
           "Pair": [
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "400"
+              "iValue": "250"
             },
             {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "-40"
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "20"
             }
           ]
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "-40"
+          }
+        },
+        "aiTradeNetworkYieldOutput": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "250"
+          }
         }
       },
       {
@@ -2090,7 +2122,7 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_IRON",
             "iValue": "-20"
@@ -2157,7 +2189,7 @@
             "iValue": "40"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "-20"
@@ -2226,16 +2258,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2290,16 +2322,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-30"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-30"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2361,12 +2393,14 @@
             {
               "zIndex": "YIELD_DISCONTENT",
               "iValue": "-10"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-40"
             }
           ]
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-40"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2420,16 +2454,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_DISCONTENT",
-              "iValue": "-10"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-10"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2465,16 +2499,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_DISCONTENT",
-              "iValue": "-20"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-30"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-30"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2510,16 +2544,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_DISCONTENT",
-              "iValue": "-30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-40"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_DISCONTENT",
+            "iValue": "-30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-40"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -2552,7 +2586,7 @@
             "iValue": "80"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "-20"
@@ -2611,7 +2645,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "-30"
@@ -2669,7 +2703,7 @@
             "iValue": "120"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_WOOD",
             "iValue": "-40"
@@ -2726,7 +2760,7 @@
             "iValue": "80"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-20"
@@ -2785,7 +2819,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-30"
@@ -2843,7 +2877,7 @@
             "iValue": "120"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -2900,7 +2934,7 @@
             "iValue": "80"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-20"
@@ -2960,7 +2994,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-30"
@@ -3019,7 +3053,7 @@
             "iValue": "120"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -3079,16 +3113,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3145,16 +3179,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-30"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-30"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -3210,16 +3244,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_ORDERS",
-              "iValue": "5"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-40"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "5"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-40"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -4351,7 +4385,7 @@
               "zIndex": "HEIGHT_MOUNTAIN",
               "SubPair": {
                 "zSubIndex": "YIELD_CULTURE",
-                "iValue": "100"
+                "iValue": "50"
               }
             },
             {
@@ -4444,7 +4478,7 @@
               "zIndex": "HEIGHT_MOUNTAIN",
               "SubPair": {
                 "zSubIndex": "YIELD_CULTURE",
-                "iValue": "100"
+                "iValue": "50"
               }
             },
             {
@@ -4537,7 +4571,7 @@
               "zIndex": "HEIGHT_MOUNTAIN",
               "SubPair": {
                 "zSubIndex": "YIELD_CULTURE",
-                "iValue": "100"
+                "iValue": "50"
               }
             },
             {
@@ -4561,7 +4595,7 @@
         "iPillageTurns": "10",
         "iMaxCityCount": "1",
         "iMaxPlayerCount": "1",
-        "iUnitHeal": "6",
+        "iUnitHeal": "5",
         "iOpinionReligion": "2",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -4622,7 +4656,7 @@
         "iPillageTurns": "10",
         "iMaxCityCount": "1",
         "iMaxPlayerCount": "1",
-        "iUnitHeal": "6",
+        "iUnitHeal": "5",
         "iOpinionReligion": "2",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -5127,16 +5161,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5189,16 +5223,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5251,16 +5285,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5313,16 +5347,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_SCIENCE",
-              "iValue": "20"
-            },
-            {
-              "zIndex": "YIELD_WOOD",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "20"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_WOOD",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5376,16 +5410,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5439,16 +5473,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5502,16 +5536,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5565,16 +5599,16 @@
           }
         },
         "aiYieldOutput": {
-          "Pair": [
-            {
-              "zIndex": "YIELD_CULTURE",
-              "iValue": "30"
-            },
-            {
-              "zIndex": "YIELD_STONE",
-              "iValue": "-20"
-            }
-          ]
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "30"
+          }
+        },
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "-20"
+          }
         },
         "aiYieldPillage": {
           "Pair": {
@@ -5614,7 +5648,7 @@
         "iPillageTurns": "20",
         "iMaxCityCount": "1",
         "iMaxFamilyCount": "2",
-        "iLegitimacy": "5",
+        "iLegitimacy": "6",
         "iOpinionReligion": "4",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -5631,7 +5665,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -5675,7 +5709,7 @@
         "iPillageTurns": "20",
         "iMaxCityCount": "1",
         "iMaxFamilyCount": "2",
-        "iLegitimacy": "5",
+        "iLegitimacy": "6",
         "iOpinionReligion": "4",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -5692,7 +5726,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -5736,7 +5770,7 @@
         "iPillageTurns": "20",
         "iMaxCityCount": "1",
         "iMaxFamilyCount": "2",
-        "iLegitimacy": "5",
+        "iLegitimacy": "6",
         "iOpinionReligion": "4",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -5753,7 +5787,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -5797,7 +5831,7 @@
         "iPillageTurns": "20",
         "iMaxCityCount": "1",
         "iMaxFamilyCount": "2",
-        "iLegitimacy": "5",
+        "iLegitimacy": "6",
         "iOpinionReligion": "4",
         "bBuild": "1",
         "bTerritoryOnly": "1",
@@ -5814,7 +5848,7 @@
             "iValue": "100"
           }
         },
-        "aiYieldOutput": {
+        "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "-40"
@@ -5883,12 +5917,6 @@
             }
           ]
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-20"
-          }
-        },
         "aiUnitDie": {
           "Pair": {
             "zIndex": "UNIT_ZOROASTRIANISM_DISCIPLE",
@@ -5951,12 +5979,6 @@
               "iValue": "200"
             }
           ]
-        },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-20"
-          }
         },
         "aiUnitDie": {
           "Pair": {
@@ -6021,12 +6043,6 @@
             }
           ]
         },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-20"
-          }
-        },
         "aiUnitDie": {
           "Pair": {
             "zIndex": "UNIT_CHRISTIANITY_DISCIPLE",
@@ -6089,12 +6105,6 @@
               "iValue": "200"
             }
           ]
-        },
-        "aiYieldOutput": {
-          "Pair": {
-            "zIndex": "YIELD_STONE",
-            "iValue": "-20"
-          }
         },
         "aiUnitDie": {
           "Pair": {

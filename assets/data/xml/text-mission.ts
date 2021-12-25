@@ -6,477 +6,477 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_MISSION_AMBASSADOR",
-        "English": "Make link(COUNCIL_AMBASSADOR)"
+        "en-US": "Make link(COUNCIL_AMBASSADOR)"
       },
       {
         "zType": "TEXT_MISSION_CHANCELLOR",
-        "English": "Make link(COUNCIL_CHANCELLOR)"
+        "en-US": "Make link(COUNCIL_CHANCELLOR)"
       },
       {
         "zType": "TEXT_MISSION_SPYMASTER",
-        "English": "Make link(COUNCIL_SPYMASTER)"
+        "en-US": "Make link(COUNCIL_SPYMASTER)"
       },
       {
         "zType": "TEXT_MISSION_LEAVE_COUNCIL",
-        "English": "Leave Council"
+        "en-US": "Leave Council"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_ALLIANCE",
-        "English": "link(CONCEPT_ALLIANCE_PLAYER)"
+        "en-US": "link(CONCEPT_ALLIANCE_PLAYER)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_ALLIANCE_TARGET",
-        "English": "link(CONCEPT_ALLIANCE_PLAYER) with"
+        "en-US": "link(CONCEPT_ALLIANCE_PLAYER) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_ALLIANCE_HUMAN",
-        "English": "link(CONCEPT_ALLIANCE_PLAYER)"
+        "en-US": "link(CONCEPT_ALLIANCE_PLAYER)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE",
-        "English": "National link(DIPLOMACY_PEACE)"
+        "en-US": "National link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_TARGET",
-        "English": "National link(DIPLOMACY_PEACE) with"
+        "en-US": "National link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_CHARACTER",
-        "English": "National link(DIPLOMACY_PEACE) via"
+        "en-US": "National link(DIPLOMACY_PEACE) via"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE",
-        "English": "Offer Tribute for link(DIPLOMACY_PEACE)"
+        "en-US": "Offer Tribute for link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_OFFER_TRIBUTE_TARGET",
-        "English": "Offer Tribute for link(DIPLOMACY_PEACE) with"
+        "en-US": "Offer Tribute for link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE",
-        "English": "Ask for link(DIPLOMACY_PEACE)"
+        "en-US": "Ask for link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_NO_TRIBUTE_TARGET",
-        "English": "Ask for link(DIPLOMACY_PEACE) with"
+        "en-US": "Ask for link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE",
-        "English": "Demand Tribute for link(DIPLOMACY_PEACE)"
+        "en-US": "Demand Tribute for link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_DEMAND_TRIBUTE_TARGET",
-        "English": "Demand Tribute for link(DIPLOMACY_PEACE) with"
+        "en-US": "Demand Tribute for link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PEACE_HUMAN",
-        "English": "National link(DIPLOMACY_PEACE)"
+        "en-US": "National link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE",
-        "English": "National link(DIPLOMACY_TRUCE)"
+        "en-US": "National link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_TARGET",
-        "English": "National link(DIPLOMACY_TRUCE) with"
+        "en-US": "National link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_CHARACTER",
-        "English": "National link(DIPLOMACY_TRUCE) via"
+        "en-US": "National link(DIPLOMACY_TRUCE) via"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE",
-        "English": "Offer Tribute for link(DIPLOMACY_TRUCE)"
+        "en-US": "Offer Tribute for link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_OFFER_TRIBUTE_TARGET",
-        "English": "Offer Tribute for link(DIPLOMACY_TRUCE) with"
+        "en-US": "Offer Tribute for link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE",
-        "English": "Ask for link(DIPLOMACY_TRUCE)"
+        "en-US": "Ask for link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_NO_TRIBUTE_TARGET",
-        "English": "Ask for link(DIPLOMACY_TRUCE) with"
+        "en-US": "Ask for link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE",
-        "English": "Demand Tribute for link(DIPLOMACY_TRUCE)"
+        "en-US": "Demand Tribute for link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_DEMAND_TRIBUTE_TARGET",
-        "English": "Demand Tribute for link(DIPLOMACY_TRUCE) with"
+        "en-US": "Demand Tribute for link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRUCE_HUMAN",
-        "English": "National link(DIPLOMACY_TRUCE)"
+        "en-US": "National link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_DECLARE_WAR",
-        "English": "Declare link(DIPLOMACY_WAR)"
+        "en-US": "Declare link(DIPLOMACY_WAR)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_BREAK_PEACE",
-        "English": "Break link(DIPLOMACY_PEACE)"
+        "en-US": "Break link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_END_ALLIANCE",
-        "English": "End Alliance"
+        "en-US": "End Alliance"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_CANCEL_TRADE",
-        "English": "Cancel All Trade"
+        "en-US": "Cancel All Trade"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_ALLIANCE",
-        "English": "Tribal Alliance"
+        "en-US": "Tribal Alliance"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_ALLIANCE_TARGET",
-        "English": "Tribal Alliance with"
+        "en-US": "Tribal Alliance with"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_ALLIANCE_CHARACTER",
-        "English": "Tribal Alliance via"
+        "en-US": "Tribal Alliance via"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PEACE",
-        "English": "Tribal link(DIPLOMACY_PEACE)"
+        "en-US": "Tribal link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PEACE_TARGET",
-        "English": "Tribal link(DIPLOMACY_PEACE) with"
+        "en-US": "Tribal link(DIPLOMACY_PEACE) with"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PEACE_CHARACTER",
-        "English": "Tribal link(DIPLOMACY_PEACE) via"
+        "en-US": "Tribal link(DIPLOMACY_PEACE) via"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_TRUCE",
-        "English": "Tribal link(DIPLOMACY_TRUCE)"
+        "en-US": "Tribal link(DIPLOMACY_TRUCE)"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_TRUCE_TARGET",
-        "English": "Tribal link(DIPLOMACY_TRUCE) with"
+        "en-US": "Tribal link(DIPLOMACY_TRUCE) with"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_TRUCE_CHARACTER",
-        "English": "Tribal link(DIPLOMACY_TRUCE) via"
+        "en-US": "Tribal link(DIPLOMACY_TRUCE) via"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_DECLARE_WAR",
-        "English": "Declare link(DIPLOMACY_WAR)"
+        "en-US": "Declare link(DIPLOMACY_WAR)"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_BREAK_PEACE",
-        "English": "Break link(DIPLOMACY_PEACE)"
+        "en-US": "Break link(DIPLOMACY_PEACE)"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_END_ALLIANCE",
-        "English": "End Alliance"
+        "en-US": "End Alliance"
       },
       {
         "zType": "TEXT_MISSION_ADOPT_RELIGION",
-        "English": "Adopt link(CONCEPT_STATE_RELIGION)"
+        "en-US": "Adopt link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSION_LEAVE_RELIGION",
-        "English": "Leave link(CONCEPT_STATE_RELIGION)"
+        "en-US": "Leave link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSION_SEND_COURTIER",
-        "English": "Send link(CONCEPT_COURTIER)"
+        "en-US": "Send link(CONCEPT_COURTIER)"
       },
       {
         "zType": "TEXT_MISSION_SEND_COURTIER_TARGET",
-        "English": "Send link(CONCEPT_COURTIER) to"
+        "en-US": "Send link(CONCEPT_COURTIER) to"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_MARRIAGE",
-        "English": "Foreign Marriage"
+        "en-US": "Foreign Marriage"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_MARRIAGE",
-        "English": "Tribal Marriage"
+        "en-US": "Tribal Marriage"
       },
       {
         "zType": "TEXT_MISSION_FAMILY_MARRIAGE",
-        "English": "Family Marriage"
+        "en-US": "Family Marriage"
       },
       {
         "zType": "TEXT_MISSION_MARRY_COURTIER",
-        "English": "Marry Courtier"
+        "en-US": "Marry Courtier"
       },
       {
         "zType": "TEXT_MISSION_MARRY_COURTIER_TARGET",
-        "English": "Marry"
+        "en-US": "Marry"
       },
       {
         "zType": "TEXT_MISSION_MARRY_COURTIER_CHARACTER",
-        "English": "Marry"
+        "en-US": "Marry"
       },
       {
         "zType": "TEXT_MISSION_RALLY_TROOPS",
-        "English": "Rally Troops"
+        "en-US": "Rally Troops"
       },
       {
         "zType": "TEXT_MISSION_HOLD_COURT",
-        "English": "Hold Court"
+        "en-US": "Hold Court"
       },
       {
         "zType": "TEXT_MISSION_ABDICATE",
-        "English": "Abdicate Throne"
+        "en-US": "Abdicate Throne"
       },
       {
         "zType": "TEXT_MISSION_INFLUENCE",
-        "English": "Influence"
+        "en-US": "Influence"
       },
       {
         "zType": "TEXT_MISSION_INFLUENCE_CHARACTER",
-        "English": "Influence via"
+        "en-US": "Influence via"
       },
       {
         "zType": "TEXT_MISSION_CONVERT_SELF",
-        "English": "Convert Religion"
+        "en-US": "Convert Religion"
       },
       {
         "zType": "TEXT_MISSION_CONVERT_SELF_TARGET",
-        "English": "Convert to"
+        "en-US": "Convert to"
       },
       {
         "zType": "TEXT_MISSION_CONVERT_STATE",
-        "English": "Convert to link(CONCEPT_STATE_RELIGION)"
+        "en-US": "Convert to link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSION_CONVERT_RELIGION",
-        "English": "Convert link(CONCEPT_RELIGION)"
+        "en-US": "Convert link(CONCEPT_RELIGION)"
       },
       {
         "zType": "TEXT_MISSION_CONVERT_RELIGION_CHARACTER",
-        "English": "Convert link(CONCEPT_RELIGION) via"
+        "en-US": "Convert link(CONCEPT_RELIGION) via"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION",
-        "English": "Intercession"
+        "en-US": "Intercession"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION_RELIGION",
-        "English": "Intercession (Religion)"
+        "en-US": "Intercession (Religion)"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION_FAMILY",
-        "English": "Intercession (Family)"
+        "en-US": "Intercession (Family)"
       },
       {
         "zType": "TEXT_MISSION_INTERCESSION_CHARACTER",
-        "English": "Intercession via"
+        "en-US": "Intercession via"
       },
       {
         "zType": "TEXT_MISSION_ADOPT",
-        "English": "Adopt Child"
+        "en-US": "Adopt Child"
       },
       {
         "zType": "TEXT_MISSION_LEGITIMIZE",
-        "English": "Legitimize"
+        "en-US": "Legitimize"
       },
       {
         "zType": "TEXT_MISSION_CHOSEN_HEIR",
-        "English": "Make Chosen Heir"
+        "en-US": "Make Chosen Heir"
       },
       {
         "zType": "TEXT_MISSION_INFILTRATE",
-        "English": "Infiltrate Nation"
+        "en-US": "Infiltrate Nation"
       },
       {
         "zType": "TEXT_MISSION_INFILTRATE_TARGET",
-        "English": "Infiltrate"
+        "en-US": "Infiltrate"
       },
       {
         "zType": "TEXT_MISSION_INFILTRATE_CHARACTER",
-        "English": "Infiltrate Nation via"
+        "en-US": "Infiltrate Nation via"
       },
       {
         "zType": "TEXT_MISSION_SLANDER",
-        "English": "Slander Nation"
+        "en-US": "Slander Nation"
       },
       {
         "zType": "TEXT_MISSION_SLANDER_TARGET",
-        "English": "Slander"
+        "en-US": "Slander"
       },
       {
         "zType": "TEXT_MISSION_SLANDER_CHARACTER",
-        "English": "Slander Nation via"
+        "en-US": "Slander Nation via"
       },
       {
         "zType": "TEXT_MISSION_STEAL_RESEARCH",
-        "English": "Steal Research"
+        "en-US": "Steal Research"
       },
       {
         "zType": "TEXT_MISSION_STEAL_RESEARCH_TARGET",
-        "English": "Steal Research from"
+        "en-US": "Steal Research from"
       },
       {
         "zType": "TEXT_MISSION_STEAL_RESEARCH_CHARACTER",
-        "English": "Steal Research via"
+        "en-US": "Steal Research via"
       },
       {
         "zType": "TEXT_MISSION_ASSASSINATE",
-        "English": "Assassinate"
+        "en-US": "Assassinate"
       },
       {
         "zType": "TEXT_MISSION_ASSASSINATE_CHARACTER",
-        "English": "Assassinate via"
+        "en-US": "Assassinate via"
       },
       {
         "zType": "TEXT_MISSION_TREACHERY",
-        "English": "Treachery"
+        "en-US": "Treachery"
       },
       {
         "zType": "TEXT_MISSION_TREACHERY_TARGET",
-        "English": "Treachery in"
+        "en-US": "Treachery in"
       },
       {
         "zType": "TEXT_MISSION_INSURRECTION",
-        "English": "Insurrection"
+        "en-US": "Insurrection"
       },
       {
         "zType": "TEXT_MISSION_INSURRECTION_TARGET",
-        "English": "Insurrection in"
+        "en-US": "Insurrection in"
       },
       {
         "zType": "TEXT_MISSION_DEMAND_TRIBUTE",
-        "English": "Demand Tribute"
+        "en-US": "Demand Tribute"
       },
       {
         "zType": "TEXT_MISSION_DEMAND_TRIBUTE_TARGET",
-        "English": "Demand Tribute from"
+        "en-US": "Demand Tribute from"
       },
       {
         "zType": "TEXT_MISSION_DEMAND_TRIBUTE_CHARACTER",
-        "English": "Demand Tribute via"
+        "en-US": "Demand Tribute via"
       },
       {
         "zType": "TEXT_MISSION_TRADE_MISSION",
-        "English": "Trade Mission~a Trade Mission"
+        "en-US": "Trade Mission~a Trade Mission"
       },
       {
         "zType": "TEXT_MISSION_TRADE_MISSION_TARGET",
-        "English": "Trade Mission with"
+        "en-US": "Trade Mission with"
       },
       {
         "zType": "TEXT_MISSION_TRADE_MISSION_CHARACTER",
-        "English": "Trade Mission via"
+        "en-US": "Trade Mission via"
       },
       {
         "zType": "TEXT_MISSION_HIGH_SYNOD",
-        "English": "High Synod"
+        "en-US": "High Synod"
       },
       {
         "zType": "TEXT_MISSION_HIGH_SYNOD_TARGET",
-        "English": "High Synod with"
+        "en-US": "High Synod with"
       },
       {
         "zType": "TEXT_MISSION_HIGH_SYNOD_CHARACTER",
-        "English": "High Synod via"
+        "en-US": "High Synod via"
       },
       {
         "zType": "TEXT_MISSION_FAMILY_GIFT",
-        "English": "Family Gifts"
+        "en-US": "Family Gifts"
       },
       {
         "zType": "TEXT_MISSION_FAMILY_GIFT_CHARACTER",
-        "English": "Family Gifts via"
+        "en-US": "Family Gifts via"
       },
       {
         "zType": "TEXT_MISSION_PACIFY_CITY",
-        "English": "Pacify City"
+        "en-US": "Pacify City"
       },
       {
         "zType": "TEXT_MISSION_PACIFY_CITY_TARGET",
-        "English": "Pacify"
+        "en-US": "Pacify"
       },
       {
         "zType": "TEXT_MISSION_PACIFY_CITY_CHARACTER",
-        "English": "Pacify City via"
+        "en-US": "Pacify City via"
       },
       {
         "zType": "TEXT_MISSION_IMPRISON",
-        "English": "Imprison"
+        "en-US": "Imprison"
       },
       {
         "zType": "TEXT_MISSION_IMPRISON_CHARACTER",
-        "English": "Imprison via"
+        "en-US": "Imprison via"
       },
       {
         "zType": "TEXT_MISSION_RELEASE",
-        "English": "Release from Prison"
+        "en-US": "Release from Prison"
       },
       {
         "zType": "TEXT_MISSION_CAPTURE",
-        "English": "Capture"
+        "en-US": "Capture"
       },
       {
         "zType": "TEXT_MISSION_PAY_RANSOM",
-        "English": "Pay Ransom"
+        "en-US": "Pay Ransom"
       },
       {
         "zType": "TEXT_MISSION_DIVORCE",
-        "English": "Divorce Spouse"
+        "en-US": "Divorce Spouse"
       },
       {
         "zType": "TEXT_MISSION_DIVORCE_TARGET",
-        "English": "Divorce"
+        "en-US": "Divorce"
       },
       {
         "zType": "TEXT_MISSION_TUTOR",
-        "English": "link(CONCEPT_TUTOR) Child"
+        "en-US": "link(CONCEPT_TUTOR) Child"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_LEADER",
-        "English": "link(CONCEPT_TUTOR) Child (Leader)"
+        "en-US": "link(CONCEPT_TUTOR) Child (Leader)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_COURTIER",
-        "English": "link(CONCEPT_TUTOR) Child (Courtier)"
+        "en-US": "link(CONCEPT_TUTOR) Child (Courtier)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_TARGET",
-        "English": "link(CONCEPT_TUTOR)"
+        "en-US": "link(CONCEPT_TUTOR)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_CHARACTER",
-        "English": "link(CONCEPT_TUTOR) via"
+        "en-US": "link(CONCEPT_TUTOR) via"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PLAYER_WAR",
-        "English": "Ask to Declare link(DIPLOMACY_WAR)"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR)"
       },
       {
         "zType": "TEXT_MISSION_TRIBE_PLAYER_WAR_TARGET",
-        "English": "Ask to Declare link(DIPLOMACY_WAR) on"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR) on"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRIBE_WAR",
-        "English": "Ask to Declare link(DIPLOMACY_WAR)"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_TRIBE_WAR_TARGET",
-        "English": "Ask to Declare link(DIPLOMACY_WAR) on"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR) on"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PLAYER_WAR",
-        "English": "Ask to Declare link(DIPLOMACY_WAR)"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR)"
       },
       {
         "zType": "TEXT_MISSION_PLAYER_PLAYER_WAR_TARGET",
-        "English": "Ask to Declare link(DIPLOMACY_WAR) on"
+        "en-US": "Ask to Declare link(DIPLOMACY_WAR) on"
       }
     ]
   }

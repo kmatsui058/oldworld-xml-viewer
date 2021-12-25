@@ -12,6 +12,9 @@
         "Description": {
           
         },
+        "TargetDescription": {
+          
+        },
         "TargetBonus": {
           
         },
@@ -443,6 +446,7 @@
         "zType": "MISSIONRESULT_TREACHERY_SUCCESS",
         "Name": "TEXT_MISSIONRESULT_TREACHERY_SUCCESS",
         "Description": "TEXT_MISSIONRESULT_TREACHERY_SUCCESS_DESCRIPTION",
+        "TargetDescription": "TEXT_MISSIONRESULT_TREACHERY_SUCCESS_TARGET_DESCRIPTION",
         "TargetBonus": "BONUS_MISSIONRESULT_TREACHERY_SUCCESS",
         "aiRatingModifier": {
           "Pair": {
@@ -450,6 +454,13 @@
             "iValue": "25"
           }
         }
+      },
+      {
+        "zType": "MISSIONRESULT_TREACHERY_EXPOSED",
+        "Name": "TEXT_MISSIONRESULT_TREACHERY_EXPOSED",
+        "Description": "TEXT_MISSIONRESULT_TREACHERY_EXPOSED_DESCRIPTION",
+        "TargetDescription": "TEXT_MISSIONRESULT_TREACHERY_EXPOSED_TARGET_DESCRIPTION",
+        "TargetBonus": "BONUS_MISSIONRESULT_TREACHERY_EXPOSED"
       },
       {
         "zType": "MISSIONRESULT_TREACHERY_FAILURE",
@@ -467,6 +478,7 @@
         "zType": "MISSIONRESULT_INSURRECTION_REVOLT",
         "Name": "TEXT_MISSIONRESULT_INSURRECTION_REVOLT",
         "Description": "TEXT_MISSIONRESULT_INSURRECTION_REVOLT_DESCRIPTION",
+        "TargetDescription": "TEXT_MISSIONRESULT_INSURRECTION_REVOLT_TARGET_DESCRIPTION",
         "TargetBonus": "BONUS_MISSIONRESULT_INSURRECTION_REVOLT",
         "aiRatingModifier": {
           "Pair": {
@@ -476,10 +488,11 @@
         }
       },
       {
-        "zType": "MISSIONRESULT_INSURRECTION_DISCONTENT",
-        "Name": "TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT",
-        "Description": "TEXT_MISSIONRESULT_INSURRECTION_DISCONTENT_DESCRIPTION",
-        "TargetBonus": "BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT"
+        "zType": "MISSIONRESULT_INSURRECTION_EXPOSED",
+        "Name": "TEXT_MISSIONRESULT_INSURRECTION_EXPOSED",
+        "Description": "TEXT_MISSIONRESULT_INSURRECTION_EXPOSED_DESCRIPTION",
+        "TargetDescription": "TEXT_MISSIONRESULT_INSURRECTION_EXPOSED_TARGET_DESCRIPTION",
+        "TargetBonus": "BONUS_MISSIONRESULT_INSURRECTION_EXPOSED"
       },
       {
         "zType": "MISSIONRESULT_INSURRECTION_FAILURE",

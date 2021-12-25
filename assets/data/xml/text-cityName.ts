@@ -6,1325 +6,1325 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_CITYNAME_ABYDOS",
-        "English": "Abdju"
+        "en-US": "Abdju"
       },
       {
         "zType": "TEXT_CITYNAME_AEMINIUM",
-        "English": "Aeminium"
+        "en-US": "Aeminium"
       },
       {
         "zType": "TEXT_CITYNAME_AKHETATEN",
-        "English": "Akhetaten"
+        "en-US": "Akhetaten"
       },
       {
         "zType": "TEXT_CITYNAME_AKKAD",
-        "English": "Akkad"
+        "en-US": "Akkad"
       },
       {
         "zType": "TEXT_CITYNAME_ALEXANDRIA",
-        "English": "Alexandria"
+        "en-US": "Alexandria"
       },
       {
         "zType": "TEXT_CITYNAME_AMPHIPOLIS",
-        "English": "Amphipolis"
+        "en-US": "Amphipolis"
       },
       {
         "zType": "TEXT_CITYNAME_ANSHAN",
-        "English": "Anshan"
+        "en-US": "Anshan"
       },
       {
         "zType": "TEXT_CITYNAME_ANTIOCHEIA",
-        "English": "Antiocheia"
+        "en-US": "Antiocheia"
       },
       {
         "zType": "TEXT_CITYNAME_AMBRACIA",
-        "English": "Ambracia"
+        "en-US": "Ambracia"
       },
       {
         "zType": "TEXT_CITYNAME_ANTIUM",
-        "English": "Antium"
+        "en-US": "Antium"
       },
       {
         "zType": "TEXT_CITYNAME_APOLLONIA",
-        "English": "Apollonia"
+        "en-US": "Apollonia"
       },
       {
         "zType": "TEXT_CITYNAME_AQUILEIA",
-        "English": "Aquileia"
+        "en-US": "Aquileia"
       },
       {
         "zType": "TEXT_CITYNAME_AQUINCUM",
-        "English": "Aquincum"
+        "en-US": "Aquincum"
       },
       {
         "zType": "TEXT_CITYNAME_ARAE_PHILAENORUM",
-        "English": "Arae Philaenorum"
+        "en-US": "Arae Philaenorum"
       },
       {
         "zType": "TEXT_CITYNAME_ARGOS",
-        "English": "Argos"
+        "en-US": "Argos"
       },
       {
         "zType": "TEXT_CITYNAME_ARIMINUM",
-        "English": "Ariminum"
+        "en-US": "Ariminum"
       },
       {
         "zType": "TEXT_CITYNAME_ARPAD",
-        "English": "Arpad"
+        "en-US": "Arpad"
       },
       {
         "zType": "TEXT_CITYNAME_ARRAPHA",
-        "English": "Arrapha"
+        "en-US": "Arrapha"
       },
       {
         "zType": "TEXT_CITYNAME_ARTACOANA",
-        "English": "Artacoana"
+        "en-US": "Artacoana"
       },
       {
         "zType": "TEXT_CITYNAME_ASCRIVIUM",
-        "English": "Ascrivium"
+        "en-US": "Ascrivium"
       },
       {
         "zType": "TEXT_CITYNAME_ASPALATHOS",
-        "English": "Aspalathos"
+        "en-US": "Aspalathos"
       },
       {
         "zType": "TEXT_CITYNAME_ASSUR",
-        "English": "Assur"
+        "en-US": "Assur"
       },
       {
         "zType": "TEXT_CITYNAME_ATHENS",
-        "English": "Athenai"
+        "en-US": "Athenai"
       },
       {
         "zType": "TEXT_CITYNAME_ATTALEIA",
-        "English": "Attaleia"
+        "en-US": "Attaleia"
       },
       {
         "zType": "TEXT_CITYNAME_AUGUSTA_TAURINORUM",
-        "English": "Augusta Taurinorum"
+        "en-US": "Augusta Taurinorum"
       },
       {
         "zType": "TEXT_CITYNAME_AUGUSTA_TREVERORUM",
-        "English": "Augusta Treverorum"
+        "en-US": "Augusta Treverorum"
       },
       {
         "zType": "TEXT_CITYNAME_AVARIS",
-        "English": "Hut-waret"
+        "en-US": "Hut-waret"
       },
       {
         "zType": "TEXT_CITYNAME_AVENTICUM",
-        "English": "Aventicum"
+        "en-US": "Aventicum"
       },
       {
         "zType": "TEXT_CITYNAME_BABYLON",
-        "English": "Babylon"
+        "en-US": "Babylon"
       },
       {
         "zType": "TEXT_CITYNAME_BACTRA",
-        "English": "Bactra"
+        "en-US": "Bactra"
       },
       {
         "zType": "TEXT_CITYNAME_BARIUM",
-        "English": "Barium"
+        "en-US": "Barium"
       },
       {
         "zType": "TEXT_CITYNAME_BEHDET",
-        "English": "Behdet"
+        "en-US": "Behdet"
       },
       {
         "zType": "TEXT_CITYNAME_BELUM",
-        "English": "Belum"
+        "en-US": "Belum"
       },
       {
         "zType": "TEXT_CITYNAME_BERYTUS",
-        "English": "Berytus"
+        "en-US": "Berytus"
       },
       {
         "zType": "TEXT_CITYNAME_BONONIA",
-        "English": "Bononia"
+        "en-US": "Bononia"
       },
       {
         "zType": "TEXT_CITYNAME_BORSIPPA",
-        "English": "Borsippa"
+        "en-US": "Borsippa"
       },
       {
         "zType": "TEXT_CITYNAME_BRIXIA",
-        "English": "Brixia"
+        "en-US": "Brixia"
       },
       {
         "zType": "TEXT_CITYNAME_BUHEN",
-        "English": "Buhen"
+        "en-US": "Buhen"
       },
       {
         "zType": "TEXT_CITYNAME_AMUNIA",
-        "English": "Amunia"
+        "en-US": "Amunia"
       },
       {
         "zType": "TEXT_CITYNAME_BUSIRIS",
-        "English": "Djedu"
+        "en-US": "Djedu"
       },
       {
         "zType": "TEXT_CITYNAME_BYZANTIUM",
-        "English": "Byzantion"
+        "en-US": "Byzantion"
       },
       {
         "zType": "TEXT_CITYNAME_CADIZ",
-        "English": "Gadir"
+        "en-US": "Gadir"
       },
       {
         "zType": "TEXT_CITYNAME_CALLEVA_ATREBATUM",
-        "English": "Calleva Atrebatum"
+        "en-US": "Calleva Atrebatum"
       },
       {
         "zType": "TEXT_CITYNAME_CAMULODUNUM",
-        "English": "Camulodunum"
+        "en-US": "Camulodunum"
       },
       {
         "zType": "TEXT_CITYNAME_CAPUA",
-        "English": "Capua"
+        "en-US": "Capua"
       },
       {
         "zType": "TEXT_CITYNAME_CARCHEMISH",
-        "English": "Carchemish"
+        "en-US": "Carchemish"
       },
       {
         "zType": "TEXT_CITYNAME_CARMANIA",
-        "English": "Carmania"
+        "en-US": "Carmania"
       },
       {
         "zType": "TEXT_CITYNAME_CARTENNA",
-        "English": "Cartenna"
+        "en-US": "Cartenna"
       },
       {
         "zType": "TEXT_CITYNAME_CARTHAGO_NOVA",
-        "English": "Carthago Nova"
+        "en-US": "Carthago Nova"
       },
       {
         "zType": "TEXT_CITYNAME_CARTHAGO",
-        "English": "Carthago"
+        "en-US": "Carthago"
       },
       {
         "zType": "TEXT_CITYNAME_CASTRA_LEGIONIS",
-        "English": "Castra Legionis"
+        "en-US": "Castra Legionis"
       },
       {
         "zType": "TEXT_CITYNAME_CELEIA",
-        "English": "Celeia"
+        "en-US": "Celeia"
       },
       {
         "zType": "TEXT_CITYNAME_CHALKIS",
-        "English": "Chalkis"
+        "en-US": "Chalkis"
       },
       {
         "zType": "TEXT_CITYNAME_CHENEM_WASET",
-        "English": "Chenem-Waset"
+        "en-US": "Chenem-Waset"
       },
       {
         "zType": "TEXT_CITYNAME_CIBALAE",
-        "English": "Cibalae"
+        "en-US": "Cibalae"
       },
       {
         "zType": "TEXT_CITYNAME_COMUM",
-        "English": "Comum"
+        "en-US": "Comum"
       },
       {
         "zType": "TEXT_CITYNAME_CORCYRA",
-        "English": "Corcyra"
+        "en-US": "Corcyra"
       },
       {
         "zType": "TEXT_CITYNAME_CORDUBA",
-        "English": "Corduba"
+        "en-US": "Corduba"
       },
       {
         "zType": "TEXT_CITYNAME_CORINTH",
-        "English": "Corinth"
+        "en-US": "Corinth"
       },
       {
         "zType": "TEXT_CITYNAME_CROTON",
-        "English": "Croton"
+        "en-US": "Croton"
       },
       {
         "zType": "TEXT_CITYNAME_CTESIPHON",
-        "English": "Ctesiphon"
+        "en-US": "Ctesiphon"
       },
       {
         "zType": "TEXT_CITYNAME_CUMAE",
-        "English": "Cumae"
+        "en-US": "Cumae"
       },
       {
         "zType": "TEXT_CITYNAME_CYRENE",
-        "English": "Cyrene"
+        "en-US": "Cyrene"
       },
       {
         "zType": "TEXT_CITYNAME_CYRESCHATE",
-        "English": "Cyreschate"
+        "en-US": "Cyreschate"
       },
       {
         "zType": "TEXT_CITYNAME_DAMASCUS",
-        "English": "Damascus"
+        "en-US": "Damascus"
       },
       {
         "zType": "TEXT_CITYNAME_DAMIETTA",
-        "English": "Tamiat"
+        "en-US": "Tamiat"
       },
       {
         "zType": "TEXT_CITYNAME_DELPHI",
-        "English": "Delphi"
+        "en-US": "Delphi"
       },
       {
         "zType": "TEXT_CITYNAME_DENDERA",
-        "English": "Iunet"
+        "en-US": "Iunet"
       },
       {
         "zType": "TEXT_CITYNAME_DILBAT",
-        "English": "Dilbat"
+        "en-US": "Dilbat"
       },
       {
         "zType": "TEXT_CITYNAME_AN_AT",
-        "English": "An-at"
+        "en-US": "An-at"
       },
       {
         "zType": "TEXT_CITYNAME_DION",
-        "English": "Dion"
+        "en-US": "Dion"
       },
       {
         "zType": "TEXT_CITYNAME_DJEDET",
-        "English": "Djedet"
+        "en-US": "Djedet"
       },
       {
         "zType": "TEXT_CITYNAME_DJERTY",
-        "English": "Djerty"
+        "en-US": "Djerty"
       },
       {
         "zType": "TEXT_CITYNAME_DUR_KURIGALZU",
-        "English": "Dur-Kurigalzu"
+        "en-US": "Dur-Kurigalzu"
       },
       {
         "zType": "TEXT_CITYNAME_DUR_SHARRUKIN",
-        "English": "Dur-Sharrukin"
+        "en-US": "Dur-Sharrukin"
       },
       {
         "zType": "TEXT_CITYNAME_DUROVIGUTUM",
-        "English": "Durovigutum"
+        "en-US": "Durovigutum"
       },
       {
         "zType": "TEXT_CITYNAME_ECBATANA",
-        "English": "Ecbatana"
+        "en-US": "Ecbatana"
       },
       {
         "zType": "TEXT_CITYNAME_EKALLATUM",
-        "English": "Ekallatum"
+        "en-US": "Ekallatum"
       },
       {
         "zType": "TEXT_CITYNAME_ELEPHANTINE",
-        "English": "Abu"
+        "en-US": "Abu"
       },
       {
         "zType": "TEXT_CITYNAME_ELLASAR",
-        "English": "Ellasar"
+        "en-US": "Ellasar"
       },
       {
         "zType": "TEXT_CITYNAME_EPHESUS",
-        "English": "Ephesus"
+        "en-US": "Ephesus"
       },
       {
         "zType": "TEXT_CITYNAME_EPIDAMNOS",
-        "English": "Epidamnos"
+        "en-US": "Epidamnos"
       },
       {
         "zType": "TEXT_CITYNAME_ERBIL",
-        "English": "Erbil"
+        "en-US": "Erbil"
       },
       {
         "zType": "TEXT_CITYNAME_ERETRIA",
-        "English": "Eretria"
+        "en-US": "Eretria"
       },
       {
         "zType": "TEXT_CITYNAME_ERIDU",
-        "English": "Eridu"
+        "en-US": "Eridu"
       },
       {
         "zType": "TEXT_CITYNAME_ESHNUNNA",
-        "English": "Eshnunna"
+        "en-US": "Eshnunna"
       },
       {
         "zType": "TEXT_CITYNAME_FAVENTIA",
-        "English": "Faventia"
+        "en-US": "Faventia"
       },
       {
         "zType": "TEXT_CITYNAME_FLORENTIA",
-        "English": "Florentia"
+        "en-US": "Florentia"
       },
       {
         "zType": "TEXT_CITYNAME_FORUM_LIVII",
-        "English": "Forum Livii"
+        "en-US": "Forum Livii"
       },
       {
         "zType": "TEXT_CITYNAME_GABAE",
-        "English": "Gabae"
+        "en-US": "Gabae"
       },
       {
         "zType": "TEXT_CITYNAME_GEBTU",
-        "English": "Gebtu"
+        "en-US": "Gebtu"
       },
       {
         "zType": "TEXT_CITYNAME_GERUNDA",
-        "English": "Gerunda"
+        "en-US": "Gerunda"
       },
       {
         "zType": "TEXT_CITYNAME_GESY",
-        "English": "Gesy"
+        "en-US": "Gesy"
       },
       {
         "zType": "TEXT_CITYNAME_GORDIUM",
-        "English": "Gordium"
+        "en-US": "Gordium"
       },
       {
         "zType": "TEXT_CITYNAME_GORTYN",
-        "English": "Gortyn"
+        "en-US": "Gortyn"
       },
       {
         "zType": "TEXT_CITYNAME_GOZAN",
-        "English": "Gozan"
+        "en-US": "Gozan"
       },
       {
         "zType": "TEXT_CITYNAME_HADRIANOPOLIS",
-        "English": "Hadrianopolis"
+        "en-US": "Hadrianopolis"
       },
       {
         "zType": "TEXT_CITYNAME_HADRUMETUM",
-        "English": "Hadrumetum"
+        "en-US": "Hadrumetum"
       },
       {
         "zType": "TEXT_CITYNAME_HALAB",
-        "English": "Halab"
+        "en-US": "Halab"
       },
       {
         "zType": "TEXT_CITYNAME_HALICARNASSUS",
-        "English": "Halicarnassus"
+        "en-US": "Halicarnassus"
       },
       {
         "zType": "TEXT_CITYNAME_HAMAT",
-        "English": "Hamata"
+        "en-US": "Hamata"
       },
       {
         "zType": "TEXT_CITYNAME_HARRAN",
-        "English": "Carrhae"
+        "en-US": "Carrhae"
       },
       {
         "zType": "TEXT_CITYNAME_HATRA",
-        "English": "Hatra"
+        "en-US": "Hatra"
       },
       {
         "zType": "TEXT_CITYNAME_HEBENU",
-        "English": "Hebenu"
+        "en-US": "Hebenu"
       },
       {
         "zType": "TEXT_CITYNAME_HELIOPOLIS",
-        "English": "Iunu"
+        "en-US": "Iunu"
       },
       {
         "zType": "TEXT_CITYNAME_HENEN_NESUT",
-        "English": "Henen-nesut"
+        "en-US": "Henen-nesut"
       },
       {
         "zType": "TEXT_CITYNAME_HERACLEA",
-        "English": "Heraclea"
+        "en-US": "Heraclea"
       },
       {
         "zType": "TEXT_CITYNAME_HERWER",
-        "English": "Herwer"
+        "en-US": "Herwer"
       },
       {
         "zType": "TEXT_CITYNAME_HIERACONPOLIS",
-        "English": "Nekhen"
+        "en-US": "Nekhen"
       },
       {
         "zType": "TEXT_CITYNAME_HIPPO_REGIUS",
-        "English": "Hippo Regius"
+        "en-US": "Hippo Regius"
       },
       {
         "zType": "TEXT_CITYNAME_HISPALIS",
-        "English": "Hispalis"
+        "en-US": "Hispalis"
       },
       {
         "zType": "TEXT_CITYNAME_HORMIRZAD",
-        "English": "Hormirzad"
+        "en-US": "Hormirzad"
       },
       {
         "zType": "TEXT_CITYNAME_HUT_HERY_IB",
-        "English": "Hut-hery-ib"
+        "en-US": "Hut-hery-ib"
       },
       {
         "zType": "TEXT_CITYNAME_HUT_REPYT",
-        "English": "Hut-Repyt"
+        "en-US": "Hut-Repyt"
       },
       {
         "zType": "TEXT_CITYNAME_HYRBA",
-        "English": "Hyrba"
+        "en-US": "Hyrba"
       },
       {
         "zType": "TEXT_CITYNAME_IALYSUS",
-        "English": "Ialysus"
+        "en-US": "Ialysus"
       },
       {
         "zType": "TEXT_CITYNAME_IKEN",
-        "English": "Iken"
+        "en-US": "Iken"
       },
       {
         "zType": "TEXT_CITYNAME_IPU",
-        "English": "Ipu"
+        "en-US": "Ipu"
       },
       {
         "zType": "TEXT_CITYNAME_ITALICA",
-        "English": "Italica"
+        "en-US": "Italica"
       },
       {
         "zType": "TEXT_CITYNAME_IUNY",
-        "English": "Iuny"
+        "en-US": "Iuny"
       },
       {
         "zType": "TEXT_CITYNAME_IUSHENSHEN",
-        "English": "Iushenshen"
+        "en-US": "Iushenshen"
       },
       {
         "zType": "TEXT_CITYNAME_IUVAVUM",
-        "English": "Iuvanum"
+        "en-US": "Iuvanum"
       },
       {
         "zType": "TEXT_CITYNAME_KAHAT",
-        "English": "Kahat"
+        "en-US": "Kahat"
       },
       {
         "zType": "TEXT_CITYNAME_KALHU",
-        "English": "Nimrud"
+        "en-US": "Nimrud"
       },
       {
         "zType": "TEXT_CITYNAME_KANESH",
-        "English": "Kanesh"
+        "en-US": "Kanesh"
       },
       {
         "zType": "TEXT_CITYNAME_KAR_SULMANU_ASAREDU",
-        "English": "Til Barsip"
+        "en-US": "Til Barsip"
       },
       {
         "zType": "TEXT_CITYNAME_KARALIS",
-        "English": "Karalis"
+        "en-US": "Karalis"
       },
       {
         "zType": "TEXT_CITYNAME_KARYSTOS",
-        "English": "Karystos"
+        "en-US": "Karystos"
       },
       {
         "zType": "TEXT_CITYNAME_KERKUANE",
-        "English": "Kerkuane"
+        "en-US": "Kerkuane"
       },
       {
         "zType": "TEXT_CITYNAME_KERMANSHAH",
-        "English": "Kermanshah"
+        "en-US": "Kermanshah"
       },
       {
         "zType": "TEXT_CITYNAME_KHASUT",
-        "English": "Khasut"
+        "en-US": "Khasut"
       },
       {
         "zType": "TEXT_CITYNAME_KHEM",
-        "English": "Khem"
+        "en-US": "Khem"
       },
       {
         "zType": "TEXT_CITYNAME_KHITO",
-        "English": "Khito"
+        "en-US": "Khito"
       },
       {
         "zType": "TEXT_CITYNAME_KHMUN",
-        "English": "Khmun"
+        "en-US": "Khmun"
       },
       {
         "zType": "TEXT_CITYNAME_KISH",
-        "English": "Kish"
+        "en-US": "Kish"
       },
       {
         "zType": "TEXT_CITYNAME_KISURRA",
-        "English": "Kisurra"
+        "en-US": "Kisurra"
       },
       {
         "zType": "TEXT_CITYNAME_LAGASH",
-        "English": "Lagash"
+        "en-US": "Lagash"
       },
       {
         "zType": "TEXT_CITYNAME_LARISSA",
-        "English": "Larissa"
+        "en-US": "Larissa"
       },
       {
         "zType": "TEXT_CITYNAME_LARSA",
-        "English": "Larsa"
+        "en-US": "Larsa"
       },
       {
         "zType": "TEXT_CITYNAME_LENTIA",
-        "English": "Lentia"
+        "en-US": "Lentia"
       },
       {
         "zType": "TEXT_CITYNAME_LEPTIS_MAGNA",
-        "English": "Leptis Magna"
+        "en-US": "Leptis Magna"
       },
       {
         "zType": "TEXT_CITYNAME_LILYBAEUM",
-        "English": "Lilybaeum"
+        "en-US": "Lilybaeum"
       },
       {
         "zType": "TEXT_CITYNAME_LINDOS",
-        "English": "Lindos"
+        "en-US": "Lindos"
       },
       {
         "zType": "TEXT_CITYNAME_LIXUS",
-        "English": "Lixus"
+        "en-US": "Lixus"
       },
       {
         "zType": "TEXT_CITYNAME_LONDINIUM",
-        "English": "Londinium"
+        "en-US": "Londinium"
       },
       {
         "zType": "TEXT_CITYNAME_LUGDUNUM",
-        "English": "Lugdunum"
+        "en-US": "Lugdunum"
       },
       {
         "zType": "TEXT_CITYNAME_LUTETIA",
-        "English": "Lutetia"
+        "en-US": "Lutetia"
       },
       {
         "zType": "TEXT_CITYNAME_LYCTOS",
-        "English": "Lyctos"
+        "en-US": "Lyctos"
       },
       {
         "zType": "TEXT_CITYNAME_MADU",
-        "English": "Madu"
+        "en-US": "Madu"
       },
       {
         "zType": "TEXT_CITYNAME_MALACA",
-        "English": "Malaca"
+        "en-US": "Malaca"
       },
       {
         "zType": "TEXT_CITYNAME_MALIDIYA",
-        "English": "Malidiya"
+        "en-US": "Malidiya"
       },
       {
         "zType": "TEXT_CITYNAME_MARAD",
-        "English": "Marad"
+        "en-US": "Marad"
       },
       {
         "zType": "TEXT_CITYNAME_MARDAMAN",
-        "English": "Mardaman"
+        "en-US": "Mardaman"
       },
       {
         "zType": "TEXT_CITYNAME_MARDIN",
-        "English": "Izala"
+        "en-US": "Izala"
       },
       {
         "zType": "TEXT_CITYNAME_MARI",
-        "English": "Mari"
+        "en-US": "Mari"
       },
       {
         "zType": "TEXT_CITYNAME_MASSA",
-        "English": "Massa"
+        "en-US": "Massa"
       },
       {
         "zType": "TEXT_CITYNAME_MASSALIA",
-        "English": "Massalia"
+        "en-US": "Massalia"
       },
       {
         "zType": "TEXT_CITYNAME_MEDIOLANUM",
-        "English": "Mediolanum"
+        "en-US": "Mediolanum"
       },
       {
         "zType": "TEXT_CITYNAME_MEGARA",
-        "English": "Megara"
+        "en-US": "Megara"
       },
       {
         "zType": "TEXT_CITYNAME_MELIDDU",
-        "English": "Meliddu"
+        "en-US": "Meliddu"
       },
       {
         "zType": "TEXT_CITYNAME_TUSHPA",
-        "English": "Tushpa"
+        "en-US": "Tushpa"
       },
       {
         "zType": "TEXT_CITYNAME_GAZA",
-        "English": "Gaza"
+        "en-US": "Gaza"
       },
       {
         "zType": "TEXT_CITYNAME_MELITE",
-        "English": "Maleth"
+        "en-US": "Maleth"
       },
       {
         "zType": "TEXT_CITYNAME_MEMPHIS",
-        "English": "Menefer"
+        "en-US": "Menefer"
       },
       {
         "zType": "TEXT_CITYNAME_MENOUTHIS",
-        "English": "Menouthis"
+        "en-US": "Menouthis"
       },
       {
         "zType": "TEXT_CITYNAME_MER_NEFER_ET",
-        "English": "Mer-nefer-et"
+        "en-US": "Mer-nefer-et"
       },
       {
         "zType": "TEXT_CITYNAME_MILETUS",
-        "English": "Miletos"
+        "en-US": "Miletos"
       },
       {
         "zType": "TEXT_CITYNAME_MODICIA",
-        "English": "Modicia"
+        "en-US": "Modicia"
       },
       {
         "zType": "TEXT_CITYNAME_MOGONTIACUM",
-        "English": "Mogontiacum"
+        "en-US": "Mogontiacum"
       },
       {
         "zType": "TEXT_CITYNAME_MYTILENE",
-        "English": "Mytilene"
+        "en-US": "Mytilene"
       },
       {
         "zType": "TEXT_CITYNAME_NAISSUS",
-        "English": "Naissus"
+        "en-US": "Naissus"
       },
       {
         "zType": "TEXT_CITYNAME_NEAPOLIS",
-        "English": "Neapolis"
+        "en-US": "Neapolis"
       },
       {
         "zType": "TEXT_CITYNAME_NEKHEB",
-        "English": "Nekheb"
+        "en-US": "Nekheb"
       },
       {
         "zType": "TEXT_CITYNAME_NICAEA",
-        "English": "Nicaea"
+        "en-US": "Nicaea"
       },
       {
         "zType": "TEXT_CITYNAME_NICODMEDIA",
-        "English": "Nicomedia"
+        "en-US": "Nicomedia"
       },
       {
         "zType": "TEXT_CITYNAME_NIDA",
-        "English": "Nida"
+        "en-US": "Nida"
       },
       {
         "zType": "TEXT_CITYNAME_NINEVEH",
-        "English": "Nineveh"
+        "en-US": "Nineveh"
       },
       {
         "zType": "TEXT_CITYNAME_NIPPUR",
-        "English": "Nippur"
+        "en-US": "Nippur"
       },
       {
         "zType": "TEXT_CITYNAME_NISHAPUR",
-        "English": "Nishapur"
+        "en-US": "Nishapur"
       },
       {
         "zType": "TEXT_CITYNAME_NISIBIS",
-        "English": "Nisibis"
+        "en-US": "Nisibis"
       },
       {
         "zType": "TEXT_CITYNAME_NORA",
-        "English": "Nora"
+        "en-US": "Nora"
       },
       {
         "zType": "TEXT_CITYNAME_NOVAESIUM",
-        "English": "Novaesium"
+        "en-US": "Novaesium"
       },
       {
         "zType": "TEXT_CITYNAME_NUBT",
-        "English": "Nubt"
+        "en-US": "Nubt"
       },
       {
         "zType": "TEXT_CITYNAME_OLBIA",
-        "English": "Olbia"
+        "en-US": "Olbia"
       },
       {
         "zType": "TEXT_CITYNAME_OLYNTHUS",
-        "English": "Olynthus"
+        "en-US": "Olynthus"
       },
       {
         "zType": "TEXT_CITYNAME_OPIS",
-        "English": "Opis"
+        "en-US": "Opis"
       },
       {
         "zType": "TEXT_CITYNAME_ORTOSPANA",
-        "English": "Ortospana"
+        "en-US": "Ortospana"
       },
       {
         "zType": "TEXT_CITYNAME_OSTIA",
-        "English": "Ostia"
+        "en-US": "Ostia"
       },
       {
         "zType": "TEXT_CITYNAME_OVILAVA",
-        "English": "Ovilava"
+        "en-US": "Ovilava"
       },
       {
         "zType": "TEXT_CITYNAME_PACHNAMUNIS",
-        "English": "Pachnamunis"
+        "en-US": "Pachnamunis"
       },
       {
         "zType": "TEXT_CITYNAME_PAHRAH",
-        "English": "Pahrah"
+        "en-US": "Pahrah"
       },
       {
         "zType": "TEXT_CITYNAME_PANORMUS",
-        "English": "Panormus"
+        "en-US": "Panormus"
       },
       {
         "zType": "TEXT_CITYNAME_PASARGADAE",
-        "English": "Pasargadae"
+        "en-US": "Pasargadae"
       },
       {
         "zType": "TEXT_CITYNAME_PATAVIUM",
-        "English": "Patavium"
+        "en-US": "Patavium"
       },
       {
         "zType": "TEXT_CITYNAME_PATRAS",
-        "English": "Patras"
+        "en-US": "Patras"
       },
       {
         "zType": "TEXT_CITYNAME_PELLA",
-        "English": "Pella"
+        "en-US": "Pella"
       },
       {
         "zType": "TEXT_CITYNAME_PELUSIUM",
-        "English": "Pelusium"
+        "en-US": "Pelusium"
       },
       {
         "zType": "TEXT_CITYNAME_PER_AMUN",
-        "English": "Per-Amun"
+        "en-US": "Per-Amun"
       },
       {
         "zType": "TEXT_CITYNAME_PER_ATUM",
-        "English": "Per-Atum"
+        "en-US": "Per-Atum"
       },
       {
         "zType": "TEXT_CITYNAME_PER_BAST",
-        "English": "Per-Bast"
+        "en-US": "Per-Bast"
       },
       {
         "zType": "TEXT_CITYNAME_PER_HATHOR",
-        "English": "Per-Hathor"
+        "en-US": "Per-Hathor"
       },
       {
         "zType": "TEXT_CITYNAME_PER_MEDJED",
-        "English": "Per-Medjed"
+        "en-US": "Per-Medjed"
       },
       {
         "zType": "TEXT_CITYNAME_PER_NEMTY",
-        "English": "Per-Nemty"
+        "en-US": "Per-Nemty"
       },
       {
         "zType": "TEXT_CITYNAME_PER_SOPDU",
-        "English": "Per-Sopdu"
+        "en-US": "Per-Sopdu"
       },
       {
         "zType": "TEXT_CITYNAME_PER_WADJET",
-        "English": "Per-Wadjet"
+        "en-US": "Per-Wadjet"
       },
       {
         "zType": "TEXT_CITYNAME_PERGAMON",
-        "English": "Pergamon"
+        "en-US": "Pergamon"
       },
       {
         "zType": "TEXT_CITYNAME_PERSEPOLIS",
-        "English": "Parsa"
+        "en-US": "Parsa"
       },
       {
         "zType": "TEXT_CITYNAME_PHILIPPI",
-        "English": "Philippi"
+        "en-US": "Philippi"
       },
       {
         "zType": "TEXT_CITYNAME_PHOCAEA",
-        "English": "Phocaea"
+        "en-US": "Phocaea"
       },
       {
         "zType": "TEXT_CITYNAME_PI_RAMESSES",
-        "English": "Pi-Ramesses"
+        "en-US": "Pi-Ramesses"
       },
       {
         "zType": "TEXT_CITYNAME_PIEMRO",
-        "English": "Piemro"
+        "en-US": "Piemro"
       },
       {
         "zType": "TEXT_CITYNAME_PIKUAT",
-        "English": "Pikuat"
+        "en-US": "Pikuat"
       },
       {
         "zType": "TEXT_CITYNAME_PISTORIA",
-        "English": "Pistoria"
+        "en-US": "Pistoria"
       },
       {
         "zType": "TEXT_CITYNAME_POMPALEO",
-        "English": "Pompaleo"
+        "en-US": "Pompaleo"
       },
       {
         "zType": "TEXT_CITYNAME_POMPEII",
-        "English": "Pompeii"
+        "en-US": "Pompeii"
       },
       {
         "zType": "TEXT_CITYNAME_PONUS_AELIUS",
-        "English": "Ponus Aelius"
+        "en-US": "Ponus Aelius"
       },
       {
         "zType": "TEXT_CITYNAME_POTIDAEA",
-        "English": "Potidaea"
+        "en-US": "Potidaea"
       },
       {
         "zType": "TEXT_CITYNAME_PROPHTHASIA",
-        "English": "Prophthasia"
+        "en-US": "Prophthasia"
       },
       {
         "zType": "TEXT_CITYNAME_PTERIA",
-        "English": "Pteria"
+        "en-US": "Pteria"
       },
       {
         "zType": "TEXT_CITYNAME_PTKHEKA",
-        "English": "Ptkheka"
+        "en-US": "Ptkheka"
       },
       {
         "zType": "TEXT_CITYNAME_PYLOS",
-        "English": "Pylos"
+        "en-US": "Pylos"
       },
       {
         "zType": "TEXT_CITYNAME_QADESH",
-        "English": "Qadesh"
+        "en-US": "Qadesh"
       },
       {
         "zType": "TEXT_CITYNAME_QATNA",
-        "English": "Qatna"
+        "en-US": "Qatna"
       },
       {
         "zType": "TEXT_CITYNAME_QIS",
-        "English": "Qis"
+        "en-US": "Qis"
       },
       {
         "zType": "TEXT_CITYNAME_RAVENNA",
-        "English": "Ravenna"
+        "en-US": "Ravenna"
       },
       {
         "zType": "TEXT_CITYNAME_REGIUM_LEPIDI",
-        "English": "Regium Lepidi"
+        "en-US": "Regium Lepidi"
       },
       {
         "zType": "TEXT_CITYNAME_RESEN",
-        "English": "Resen"
+        "en-US": "Resen"
       },
       {
         "zType": "TEXT_CITYNAME_RHAGES",
-        "English": "Raga"
+        "en-US": "Raga"
       },
       {
         "zType": "TEXT_CITYNAME_RHEGION",
-        "English": "Rhegion"
+        "en-US": "Rhegion"
       },
       {
         "zType": "TEXT_CITYNAME_RHODES",
-        "English": "Rhodes"
+        "en-US": "Rhodes"
       },
       {
         "zType": "TEXT_CITYNAME_ROMA",
-        "English": "Roma"
+        "en-US": "Roma"
       },
       {
         "zType": "TEXT_CITYNAME_SABRATA",
-        "English": "Sabrata"
+        "en-US": "Sabrata"
       },
       {
         "zType": "TEXT_CITYNAME_SADDARVAZEH",
-        "English": "Saddarvazeh"
+        "en-US": "Saddarvazeh"
       },
       {
         "zType": "TEXT_CITYNAME_SAIS",
-        "English": "Zau"
+        "en-US": "Zau"
       },
       {
         "zType": "TEXT_CITYNAME_SAKA",
-        "English": "Saka"
+        "en-US": "Saka"
       },
       {
         "zType": "TEXT_CITYNAME_SALDAE",
-        "English": "Saldae"
+        "en-US": "Saldae"
       },
       {
         "zType": "TEXT_CITYNAME_SALERNUM",
-        "English": "Salernum"
+        "en-US": "Salernum"
       },
       {
         "zType": "TEXT_CITYNAME_SALONA",
-        "English": "Salona"
+        "en-US": "Salona"
       },
       {
         "zType": "TEXT_CITYNAME_SAMARKAND",
-        "English": "Samarkand"
+        "en-US": "Samarkand"
       },
       {
         "zType": "TEXT_CITYNAME_SARDIS",
-        "English": "Sardis"
+        "en-US": "Sardis"
       },
       {
         "zType": "TEXT_CITYNAME_SAREISA",
-        "English": "Sareisa"
+        "en-US": "Sareisa"
       },
       {
         "zType": "TEXT_CITYNAME_SCALABIS",
-        "English": "Scalabis"
+        "en-US": "Scalabis"
       },
       {
         "zType": "TEXT_CITYNAME_SEMABEHDET",
-        "English": "Semabehdet"
+        "en-US": "Semabehdet"
       },
       {
         "zType": "TEXT_CITYNAME_SERDICA",
-        "English": "Serdica"
+        "en-US": "Serdica"
       },
       {
         "zType": "TEXT_CITYNAME_SESHESH",
-        "English": "Seshesh"
+        "en-US": "Seshesh"
       },
       {
         "zType": "TEXT_CITYNAME_SETENNU",
-        "English": "Setennu"
+        "en-US": "Setennu"
       },
       {
         "zType": "TEXT_CITYNAME_SHASHOTEP",
-        "English": "Shashotep"
+        "en-US": "Shashotep"
       },
       {
         "zType": "TEXT_CITYNAME_SHEDET",
-        "English": "Shedet"
+        "en-US": "Shedet"
       },
       {
         "zType": "TEXT_CITYNAME_SHIRAZ",
-        "English": "Shiraz"
+        "en-US": "Shiraz"
       },
       {
         "zType": "TEXT_CITYNAME_SHURUPPAK",
-        "English": "Shuruppak"
+        "en-US": "Shuruppak"
       },
       {
         "zType": "TEXT_CITYNAME_SHUSHTAR",
-        "English": "Shushtar"
+        "en-US": "Shushtar"
       },
       {
         "zType": "TEXT_CITYNAME_SICCA",
-        "English": "Sicca"
+        "en-US": "Sicca"
       },
       {
         "zType": "TEXT_CITYNAME_SIPPAR",
-        "English": "Sippar"
+        "en-US": "Sippar"
       },
       {
         "zType": "TEXT_CITYNAME_SIRMIUM",
-        "English": "Sirmium"
+        "en-US": "Sirmium"
       },
       {
         "zType": "TEXT_CITYNAME_OESCUS",
-        "English": "Oescus"
+        "en-US": "Oescus"
       },
       {
         "zType": "TEXT_CITYNAME_SISCIA",
-        "English": "Siscia"
+        "en-US": "Siscia"
       },
       {
         "zType": "TEXT_CITYNAME_SPARTA",
-        "English": "Sparta"
+        "en-US": "Sparta"
       },
       {
         "zType": "TEXT_CITYNAME_SULCI",
-        "English": "Sulci"
+        "en-US": "Sulci"
       },
       {
         "zType": "TEXT_CITYNAME_SUMELOCENNA",
-        "English": "Sumelocenna"
+        "en-US": "Sumelocenna"
       },
       {
         "zType": "TEXT_CITYNAME_SUMENU",
-        "English": "Sumenu"
+        "en-US": "Sumenu"
       },
       {
         "zType": "TEXT_CITYNAME_SUSA",
-        "English": "Susa"
+        "en-US": "Susa"
       },
       {
         "zType": "TEXT_CITYNAME_SWENETT",
-        "English": "Swenett"
+        "en-US": "Swenett"
       },
       {
         "zType": "TEXT_CITYNAME_SYRACUSE",
-        "English": "Syracuse"
+        "en-US": "Syracuse"
       },
       {
         "zType": "TEXT_CITYNAME_TANIS",
-        "English": "Djanet"
+        "en-US": "Djanet"
       },
       {
         "zType": "TEXT_CITYNAME_TAREMU",
-        "English": "Taremu"
+        "en-US": "Taremu"
       },
       {
         "zType": "TEXT_CITYNAME_TARRACO",
-        "English": "Tarraco"
+        "en-US": "Tarraco"
       },
       {
         "zType": "TEXT_CITYNAME_TARSUS",
-        "English": "Tarsa"
+        "en-US": "Tarsa"
       },
       {
         "zType": "TEXT_CITYNAME_TAYU_DJAYET",
-        "English": "Tayu-djayet"
+        "en-US": "Tayu-djayet"
       },
       {
         "zType": "TEXT_CITYNAME_TE_SENET",
-        "English": "Ta-senet"
+        "en-US": "Ta-senet"
       },
       {
         "zType": "TEXT_CITYNAME_TEPIHU",
-        "English": "Tepihu"
+        "en-US": "Tepihu"
       },
       {
         "zType": "TEXT_CITYNAME_TEREDON",
-        "English": "Teredon"
+        "en-US": "Teredon"
       },
       {
         "zType": "TEXT_CITYNAME_CATURA",
-        "English": "Catura"
+        "en-US": "Catura"
       },
       {
         "zType": "TEXT_CITYNAME_KOMIS",
-        "English": "Komis"
+        "en-US": "Komis"
       },
       {
         "zType": "TEXT_CITYNAME_THAENAE",
-        "English": "Thaenae"
+        "en-US": "Thaenae"
       },
       {
         "zType": "TEXT_CITYNAME_THAPSUS",
-        "English": "Thapsus"
+        "en-US": "Thapsus"
       },
       {
         "zType": "TEXT_CITYNAME_THEBES",
-        "English": "Thebes"
+        "en-US": "Thebes"
       },
       {
         "zType": "TEXT_CITYNAME_THERANDA",
-        "English": "Theranda"
+        "en-US": "Theranda"
       },
       {
         "zType": "TEXT_CITYNAME_THESSALONIKE",
-        "English": "Thessalonike"
+        "en-US": "Thessalonike"
       },
       {
         "zType": "TEXT_CITYNAME_THEVESTE",
-        "English": "Theveste"
+        "en-US": "Theveste"
       },
       {
         "zType": "TEXT_CITYNAME_THONIS",
-        "English": "Thonis"
+        "en-US": "Thonis"
       },
       {
         "zType": "TEXT_CITYNAME_TIMINHOR",
-        "English": "Timinhor"
+        "en-US": "Timinhor"
       },
       {
         "zType": "TEXT_CITYNAME_TINGIS",
-        "English": "Tingis"
+        "en-US": "Tingis"
       },
       {
         "zType": "TEXT_CITYNAME_TJARU",
-        "English": "Tjaru"
+        "en-US": "Tjaru"
       },
       {
         "zType": "TEXT_CITYNAME_TJEBNUTJER",
-        "English": "Tjebnutjer"
+        "en-US": "Tjebnutjer"
       },
       {
         "zType": "TEXT_CITYNAME_TJEBU",
-        "English": "Tjebu"
+        "en-US": "Tjebu"
       },
       {
         "zType": "TEXT_CITYNAME_TJENU",
-        "English": "Tjenu"
+        "en-US": "Tjenu"
       },
       {
         "zType": "TEXT_CITYNAME_TRAPEZUS",
-        "English": "Trapezus"
+        "en-US": "Trapezus"
       },
       {
         "zType": "TEXT_CITYNAME_TURICUM",
-        "English": "Turicum"
+        "en-US": "Turicum"
       },
       {
         "zType": "TEXT_CITYNAME_TUS",
-        "English": "Tus"
+        "en-US": "Tus"
       },
       {
         "zType": "TEXT_CITYNAME_TUSHHAN",
-        "English": "Tushhan"
+        "en-US": "Tushhan"
       },
       {
         "zType": "TEXT_CITYNAME_UR",
-        "English": "Ur"
+        "en-US": "Ur"
       },
       {
         "zType": "TEXT_CITYNAME_URUK",
-        "English": "Uruk"
+        "en-US": "Uruk"
       },
       {
         "zType": "TEXT_CITYNAME_UTICA",
-        "English": "Utica"
+        "en-US": "Utica"
       },
       {
         "zType": "TEXT_CITYNAME_VALENTIA",
-        "English": "Valentia"
+        "en-US": "Valentia"
       },
       {
         "zType": "TEXT_CITYNAME_VESONTIO",
-        "English": "Vesontio"
+        "en-US": "Vesontio"
       },
       {
         "zType": "TEXT_CITYNAME_VILLA_EURACINI",
-        "English": "Villa Euracini"
+        "en-US": "Villa Euracini"
       },
       {
         "zType": "TEXT_CITYNAME_VIMINACIUM",
-        "English": "Viminacium"
+        "en-US": "Viminacium"
       },
       {
         "zType": "TEXT_CITYNAME_VOLUBILIS",
-        "English": "Volubilis"
+        "en-US": "Volubilis"
       },
       {
         "zType": "TEXT_CITYNAME_WASET",
-        "English": "Waset"
+        "en-US": "Waset"
       },
       {
         "zType": "TEXT_CITYNAME_WEPREHWY",
-        "English": "Weprehwy"
+        "en-US": "Weprehwy"
       },
       {
         "zType": "TEXT_CITYNAME_YAMU",
-        "English": "Yamu"
+        "en-US": "Yamu"
       },
       {
         "zType": "TEXT_CITYNAME_YAZD",
-        "English": "Yazd"
+        "en-US": "Yazd"
       },
       {
         "zType": "TEXT_CITYNAME_ZADRACARTA",
-        "English": "Zadracarta"
+        "en-US": "Zadracarta"
       },
       {
         "zType": "TEXT_CITYNAME_ZAMA",
-        "English": "Zama"
+        "en-US": "Zama"
       },
       {
         "zType": "TEXT_CITYNAME_ZAWTY",
-        "English": "Zawty"
+        "en-US": "Zawty"
       },
       {
         "zType": "TEXT_CITYNAME_ALALIA",
-        "English": "Alalia"
+        "en-US": "Alalia"
       },
       {
         "zType": "TEXT_CITYNAME_ALERIA",
-        "English": "Aleria"
+        "en-US": "Aleria"
       },
       {
         "zType": "TEXT_CITYNAME_ARRETIUM",
-        "English": "Arretium"
+        "en-US": "Arretium"
       },
       {
         "zType": "TEXT_CITYNAME_BALEARIC_ISLANDS",
-        "English": "Balearic Islands"
+        "en-US": "Balearic Islands"
       },
       {
         "zType": "TEXT_CITYNAME_BENEVENTUM",
-        "English": "Beneventum"
+        "en-US": "Beneventum"
       },
       {
         "zType": "TEXT_CITYNAME_CARALIS",
-        "English": "Caralis"
+        "en-US": "Caralis"
       },
       {
         "zType": "TEXT_CITYNAME_CARTHAGE",
-        "English": "Carthage"
+        "en-US": "Carthage"
       },
       {
         "zType": "TEXT_CITYNAME_EMPORION",
-        "English": "Emporion"
+        "en-US": "Emporion"
       },
       {
         "zType": "TEXT_CITYNAME_BRUNDISIUM",
-        "English": "Brundisium"
+        "en-US": "Brundisium"
       },
       {
         "zType": "TEXT_CITYNAME_EPIDAMNUS",
-        "English": "Epidamnus"
+        "en-US": "Epidamnus"
       },
       {
         "zType": "TEXT_CITYNAME_EUSPERIDES",
-        "English": "Eusperides"
+        "en-US": "Eusperides"
       },
       {
         "zType": "TEXT_CITYNAME_GADES",
-        "English": "Gades"
+        "en-US": "Gades"
       },
       {
         "zType": "TEXT_CITYNAME_IGILGILI",
-        "English": "Igilgili"
+        "en-US": "Igilgili"
       },
       {
         "zType": "TEXT_CITYNAME_LOCROI",
-        "English": "Locroi"
+        "en-US": "Locroi"
       },
       {
         "zType": "TEXT_CITYNAME_MESSANA",
-        "English": "Messana"
+        "en-US": "Messana"
       },
       {
         "zType": "TEXT_CITYNAME_OEA",
-        "English": "Oea"
+        "en-US": "Oea"
       },
       {
         "zType": "TEXT_CITYNAME_RUSADIR",
-        "English": "Rusadir"
+        "en-US": "Rusadir"
       },
       {
         "zType": "TEXT_CITYNAME_SAGUNTUM",
-        "English": "Saguntum"
+        "en-US": "Saguntum"
       },
       {
         "zType": "TEXT_CITYNAME_SICCA_VENERIA",
-        "English": "Sicca Veneria"
+        "en-US": "Sicca Veneria"
       },
       {
         "zType": "TEXT_CITYNAME_TACAPE",
-        "English": "Tacape"
+        "en-US": "Tacape"
       },
       {
         "zType": "TEXT_CITYNAME_TARENTUM",
-        "English": "Tarentum"
+        "en-US": "Tarentum"
       },
       {
         "zType": "TEXT_CITYNAME_JERUSALEM",
-        "English": "Jerusalem"
+        "en-US": "Jerusalem"
       },
       {
         "zType": "TEXT_CITYNAME_MEROE",
-        "English": "Meroe"
+        "en-US": "Meroe"
       },
       {
         "zType": "TEXT_CITYNAME_NPY",
-        "English": "Npy"
+        "en-US": "Npy"
       }
     ]
   }

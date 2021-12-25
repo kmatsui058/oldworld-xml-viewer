@@ -52,34 +52,14 @@
         "Desc": "TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING_DESC"
       },
       {
-        "zType": "PLAYEROPTION_MOVE_TO_FATIGUE",
-        "Name": "TEXT_PLAYEROPTION_MOVE_TO_FATIGUE",
-        "Desc": "TEXT_PLAYEROPTION_MOVE_TO_FATIGUE_DESC"
-      },
-      {
         "zType": "PLAYEROPTION_SHOW_ORDERS_COST",
         "Name": "TEXT_PLAYEROPTION_SHOW_ORDERS_COST",
         "Desc": "TEXT_PLAYEROPTION_SHOW_ORDERS_COST_DESC"
       },
       {
-        "zType": "PLAYEROPTION_HIDE_MINIMAP",
-        "Name": "TEXT_PLAYEROPTION_HIDE_MINIMAP",
-        "Desc": "TEXT_PLAYEROPTION_HIDE_MINIMAP_DESC"
-      },
-      {
-        "zType": "PLAYEROPTION_HIDE_COUNCIL",
-        "Name": "TEXT_PLAYEROPTION_HIDE_COUNCIL",
-        "Desc": "TEXT_PLAYEROPTION_HIDE_COUNCIL_DESC"
-      },
-      {
         "zType": "PLAYEROPTION_MINI_TECH_CARDS",
         "Name": "TEXT_PLAYEROPTION_MINI_TECH_CARDS",
         "Desc": "TEXT_PLAYEROPTION_MINI_TECH_CARDS_DESC"
-      },
-      {
-        "zType": "PLAYEROPTION_COMPACT_TECH_TREE",
-        "Name": "TEXT_PLAYEROPTION_COMPACT_TECH_TREE",
-        "Desc": "TEXT_PLAYEROPTION_COMPACT_TECH_TREE_DESC"
       },
       {
         "zType": "PLAYEROPTION_SHOW_SYSTEM_TIME",

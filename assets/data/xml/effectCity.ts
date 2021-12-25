@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GrammaticalGenderNames": {
+          
+        },
         "Source": {
           
         },
@@ -79,6 +82,9 @@
           
         },
         "CultureBonus": {
+          
+        },
+        "LuxuryResource": {
           
         },
         "iCityHP": {
@@ -177,9 +183,6 @@
         "bNoReligionSpread": {
           
         },
-        "bStateReligionImprovements": {
-          
-        },
         "aiYieldRate": {
           
         },
@@ -271,6 +274,9 @@
           
         },
         "aeTraitPromotion": {
+          
+        },
+        "aaiImprovementYield": {
           
         },
         "aaiImprovementClassYield": {
@@ -616,6 +622,15 @@
               "iValue": "-20"
             }
           ]
+        },
+        "aaiImprovementYield": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_MARKET_3",
+            "SubPair": {
+              "zSubIndex": "YIELD_CULTURE",
+              "iValue": "40"
+            }
+          }
         }
       },
       {
@@ -1500,7 +1515,7 @@
           "Pair": [
             {
               "zIndex": "YIELD_DISCONTENT",
-              "iValue": "150"
+              "iValue": "140"
             },
             {
               "zIndex": "YIELD_MONEY",
@@ -1611,15 +1626,6 @@
           "Pair": {
             "zIndex": "YIELD_MONEY",
             "iValue": "50"
-          }
-        },
-        "aaiEffectCityYieldRate": {
-          "Pair": {
-            "zIndex": "EFFECTCITY_LUXURY",
-            "SubPair": {
-              "zSubIndex": "YIELD_CULTURE",
-              "iValue": "40"
-            }
           }
         }
       },
@@ -1751,7 +1757,7 @@
         "aiYieldRateSpecialist": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -1759,9 +1765,9 @@
         "zType": "EFFECTCITY_IMPROVEMENT_NECROPOLIS_ALL",
         "Name": "TEXT_IMPROVEMENT_NECROPOLIS",
         "SourceImprovement": "IMPROVEMENT_NECROPOLIS",
-        "aaiEffectCityYieldRate": {
+        "aaiImprovementClassYield": {
           "Pair": {
-            "zIndex": "EFFECTCITY_IMPROVEMENTCLASS_TEMPLE",
+            "zIndex": "IMPROVEMENTCLASS_TEMPLE",
             "SubPair": {
               "zSubIndex": "YIELD_DISCONTENT",
               "iValue": "-10"
@@ -2029,8 +2035,8 @@
           "Pair": {
             "zIndex": "EFFECTCITY_SPECIALIST_ELDER",
             "SubPair": {
-              "zSubIndex": "YIELD_CULTURE",
-              "iValue": "40"
+              "zSubIndex": "YIELD_SCIENCE",
+              "iValue": "10"
             }
           }
         }
@@ -2121,10 +2127,10 @@
         "zType": "EFFECTCITY_LAW_CONSTITUTION",
         "Name": "TEXT_LAW_CONSTITUTION",
         "SourceLaw": "LAW_CONSTITUTION",
-        "aiYieldRate": {
+        "aiYieldRateSpecialist": {
           "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
+            "zIndex": "YIELD_MONEY",
+            "iValue": "30"
           }
         }
       },
@@ -2282,9 +2288,9 @@
         "zType": "EFFECTCITY_LAW_CALLIGRAPHY",
         "Name": "TEXT_LAW_CALLIGRAPHY",
         "SourceLaw": "LAW_CALLIGRAPHY",
-        "aaiEffectCityYieldRate": {
+        "aaiImprovementClassYield": {
           "Pair": {
-            "zIndex": "EFFECTCITY_IMPROVEMENTCLASS_LIBRARY",
+            "zIndex": "IMPROVEMENTCLASS_LIBRARY",
             "SubPair": {
               "zSubIndex": "YIELD_CULTURE",
               "iValue": "40"
@@ -2310,9 +2316,9 @@
         "zType": "EFFECTCITY_LAW_GUILDS",
         "Name": "TEXT_LAW_GUILDS",
         "SourceLaw": "LAW_GUILDS",
-        "aaiEffectCityYieldRate": {
+        "aaiImprovementYield": {
           "Pair": {
-            "zIndex": "EFFECTCITY_IMPROVEMENT_TOWN",
+            "zIndex": "IMPROVEMENT_TOWN",
             "SubPair": {
               "zSubIndex": "YIELD_DISCONTENT",
               "iValue": "-10"
@@ -2382,7 +2388,7 @@
             "zIndex": "IMPROVEMENTCLASS_GROVE",
             "SubPair": {
               "zSubIndex": "YIELD_SCIENCE",
-              "iValue": "10"
+              "iValue": "20"
             }
           }
         }
@@ -3580,7 +3586,7 @@
         "SourceProject": "PROJECT_CONVOY",
         "aiYieldRate": {
           "Pair": {
-            "zIndex": "YIELD_GROWTH",
+            "zIndex": "YIELD_SCIENCE",
             "iValue": "10"
           }
         }
@@ -5337,7 +5343,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "100"
+            "iValue": "200"
           }
         }
       },
@@ -5348,7 +5354,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "200"
+            "iValue": "300"
           }
         },
         "aiYieldRateCulture": {
@@ -5365,7 +5371,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "300"
+            "iValue": "400"
           }
         },
         "aiYieldRateCulture": {
@@ -5514,7 +5520,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "10"
+            "iValue": "20"
           }
         }
       },
@@ -5524,7 +5530,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
-            "iValue": "20"
+            "iValue": "30"
           }
         }
       },
@@ -5634,12 +5640,6 @@
         }
       },
       {
-        "zType": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL",
-        "Name": "TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_ALL",
-        "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
-        "bStateReligionImprovements": "1"
-      },
-      {
         "zType": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
         "Name": "TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
         "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
@@ -5658,7 +5658,7 @@
         "zType": "EFFECTCITY_TRAIT_DIPLOMAT",
         "Name": "TEXT_EFFECTCITY_TRAIT_DIPLOMAT_ARCHETYPE",
         "SourceTrait": "TRAIT_DIPLOMAT_ARCHETYPE",
-        "iFamilyOpinion": "20"
+        "iFamilyOpinion": "40"
       },
       {
         "zType": "EFFECTCITY_TRAIT_ORATOR_ARCHETYPE_ALL",
@@ -5707,8 +5707,8 @@
           "Pair": {
             "zIndex": "EFFECTCITY_PROJECT_ARCHIVE",
             "SubPair": {
-              "zSubIndex": "YIELD_DISCONTENT",
-              "iValue": "-10"
+              "zSubIndex": "YIELD_SCIENCE",
+              "iValue": "20"
             }
           }
         }

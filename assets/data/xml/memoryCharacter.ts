@@ -323,7 +323,7 @@
       {
         "zType": "MEMORYCHARACTER_GP_PROMOTION",
         "Text": "TEXT_MEMORYCHARACTER_GP_PROMOTION",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_VISIT_BAD",
@@ -1237,6 +1237,23 @@
         "zType": "MEMORYCHARACTER_A_NEW_GENERAL_NO",
         "Text": "TEXT_MEMORYCHARACTER_A_NEW_GENERAL_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_SHORT"
+      },
+      {
+        "beginGroup": "Ambition",
+        "zType": "MEMORYCHARACTER_ACCEPTED_AMBITION",
+        "Text": "TEXT_MEMORYCHARACTER_ACCEPTED_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
+      },
+      {
+        "beginGroup": "Family",
+        "zType": "MEMORYCHARACTER_FAVORED_SPOUSE",
+        "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_FAVORED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_FOREVER"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISFAVORED_SPOUSE",
+        "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_DISFAVORED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       }
     ]
   }

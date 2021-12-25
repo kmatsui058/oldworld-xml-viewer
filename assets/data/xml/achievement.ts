@@ -4759,8 +4759,101 @@
         }
       },
       {
+        "zType": "ACHIEVEMENT_LEARNTOPLAY_5",
+        "Name": "TEXT_ACHIEVEMENT_LEARNTOPLAY_5",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
         "zType": "ACHIEVEMENT_BARBARIAN_INVASION",
         "Name": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+        "Name": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+        "Victory": {
+          
+        },
+        "EventLevel": {
+          
+        },
+        "Mortality": {
+          
+        },
+        "Difficulty": {
+          
+        },
+        "Nation": {
+          
+        },
+        "FamilyClass": {
+          
+        },
+        "aiCultureCount": {
+          
+        },
+        "aiStatCount": {
+          
+        },
+        "aeGameOptions": {
+          
+        }
+      },
+      {
+        "zType": "ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+        "Name": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
         "Victory": {
           
         },

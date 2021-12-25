@@ -1919,6 +1919,18 @@
 				"zAsset": "Hastatus_Attack_A_vcl_grunt_attack_Male_D"
 			},
 			{
+				"zType": "AUDIO_Hastatus_Attack_B_cmbt_impact",
+				"zAsset": "Hastatus_Attack_B_cmbt_impact"
+			},
+			{
+				"zType": "AUDIO_Hastatus_Attack_B_step_quick",
+				"zAsset": "Hastatus_Attack_B_step_quick"
+			},
+			{
+				"zType": "AUDIO_Hastatus_Attack_B_vcl_grunt_attack_Male_D",
+				"zAsset": "Hastatus_Attack_B_vcl_grunt_attack_Male_D"
+			},
+			{
 				"zType": "AUDIO_Hastatus_Death_A_bodyfall_body_hit_drag_dirt",
 				"zAsset": "Hastatus_Death_A_bodyfall_body_hit_drag_dirt"
 			},
@@ -3831,6 +3843,22 @@
 				"zAsset": "Swordsman_Attack_A_vcl_grunt_attack_Male_E"
 			},
 			{
+				"zType": "AUDIO_Swordsman_Attack_B_cmbt_impact_slice_sword",
+				"zAsset": "Swordsman_Attack_B_cmbt_impact_slice_sword"
+			},
+			{
+				"zType": "AUDIO_Swordsman_Attack_B_obj_armor_leather_move_short_500ms",
+				"zAsset": "Swordsman_Attack_B_obj_armor_leather_move_short_500ms"
+			},
+			{
+				"zType": "AUDIO_Swordsman_Attack_B_step_impactful",
+				"zAsset": "Swordsman_Attack_B_step_impactful"
+			},
+			{
+				"zType": "AUDIO_Swordsman_Attack_B_vcl_grunt_attack_Male_E",
+				"zAsset": "Swordsman_Attack_B_vcl_grunt_attack_Male_E"
+			},
+			{
 				"zType": "AUDIO_Swordsman_Death_A_bodyfall_2Hit_metalArmor_dirt",
 				"zAsset": "Swordsman_Death_A_bodyfall_2Hit_metalArmor_dirt"
 			},
@@ -4764,7 +4792,8 @@
 					}
 				},
 				"zInstrumentation": "Percussion,Guitar",
-				"zTags": "EventBrowser,Defeat"
+				"zTags": "EventBrowser,Defeat",
+				"Description": "AUDIO_UI_EVENT_TO_AND_FROM_THE_ASH_STINGER_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER",
@@ -4777,7 +4806,8 @@
 					}
 				},
 				"zInstrumentation": "Crowd,Percussion,Drums,Oud,Duduk",
-				"zTags": "EventBrowser,Victory,Celebration"
+				"zTags": "EventBrowser,Victory,Celebration",
+				"Description": "AUDIO_UI_EVENT_TO_THE_VICTOR_STINGER_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_TO_WAR",
@@ -4790,7 +4820,8 @@
 					}
 				},
 				"zInstrumentation": "Vocals,Drums,FX",
-				"zTags": "EventBrowser,Battle Cry,War Drums,Weapons"
+				"zTags": "EventBrowser,Battle Cry,War Drums,Weapons",
+				"Description": "AUDIO_UI_EVENT_TO_WAR_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_ANCIENT_ONLOOKERS",
@@ -4803,7 +4834,8 @@
 					}
 				},
 				"zInstrumentation": "Vocals,Percussives",
-				"zTags": "EventBrowser,Vocals,Droneish,Airy,Atmospheric,Mystical"
+				"zTags": "EventBrowser,Vocals,Droneish,Airy,Atmospheric,Mystical",
+				"Description": "AUDIO_UI_EVENT_ANCIENT_ONLOOKERS_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_ANCIENT_TRIBE",
@@ -4816,7 +4848,8 @@
 					}
 				},
 				"zInstrumentation": "Bell,Cymbal,Drum",
-				"zTags": "Deep,Mystical,Tribal,Atonal"
+				"zTags": "Deep,Mystical,Tribal,Atonal",
+				"Description": "AUDIO_UI_EVENT_ANCIENT_TRIBE_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_ENCOURAGING_SITES",
@@ -4829,7 +4862,8 @@
 					}
 				},
 				"zInstrumentation": "Santoor (Plucked String),Tambur (Bowed String),Dumbek (Drum)",
-				"zTags": "Deep,Musical,Grounding,Positive,Resolving,Rooted"
+				"zTags": "Deep,Musical,Grounding,Positive,Resolving,Rooted",
+				"Description": "AUDIO_UI_EVENT_ENCOURAGING_SITES_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_FESTIVITIES",
@@ -4842,7 +4876,8 @@
 					}
 				},
 				"zInstrumentation": "Guitar,Tambourine,Frame Drum,Shaker",
-				"zTags": "Festive,Uplifting,Celebration"
+				"zTags": "Festive,Uplifting,Celebration",
+				"Description": "AUDIO_UI_EVENT_FESTIVITIES_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_OMINOUS_ENCOUNTER",
@@ -4855,7 +4890,8 @@
 					}
 				},
 				"zInstrumentation": "Drum,Shaker,Bent Metal",
-				"zTags": "Tribal,Atonal,Percussive,SHaker,Ominous,Foreboding"
+				"zTags": "Tribal,Atonal,Percussive,Shakers,Ominous,Foreboding",
+				"Description": "AUDIO_UI_EVENT_OMINOUS_ENCOUNTER_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_RITUAL_SPLENDOR",
@@ -4868,7 +4904,8 @@
 					}
 				},
 				"zInstrumentation": "Drum,Vocals,Strings",
-				"zTags": "Vocals,Musical,Ethnic"
+				"zTags": "Vocals,Musical,Ethnic",
+				"Description": "AUDIO_UI_EVENT_RITUAL_SPLENDOR_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_SCATTERING_DUST",
@@ -4881,7 +4918,8 @@
 					}
 				},
 				"zInstrumentation": "Drum,Shakers,Chimes",
-				"zTags": "Percussive,Neutral,Shakers,Drum Taps"
+				"zTags": "Percussive,Neutral,Shakers,Drum Taps",
+				"Description": "AUDIO_UI_EVENT_SCATTERING_DUST_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_SHATTERING_PRESENCE",
@@ -4894,7 +4932,8 @@
 					}
 				},
 				"zInstrumentation": "Deep Drum,Bowed Cymbal,Wind Chimes",
-				"zTags": "Mystical,Atonal,Percussive"
+				"zTags": "Mystical,Atonal,Percussive",
+				"Description": "AUDIO_UI_EVENT_SHATTERING_PRESENCE_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_SOLEMN_VICTORY",
@@ -4907,7 +4946,8 @@
 					}
 				},
 				"zInstrumentation": "Bass Drum,A Duduk,Warm Pad",
-				"zTags": "Solemn,Complete,Respectful"
+				"zTags": "Solemn,Complete,Respectful",
+				"Description": "AUDIO_UI_EVENT_SOLEMN_VICTORY_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_SUDDEN_CONFRONTATION",
@@ -4920,7 +4960,8 @@
 					}
 				},
 				"zInstrumentation": "Drum,Gong,Vocalization",
-				"zTags": "Tribal,Drum,Percussive,Aggressive,Sharp,Vocalization,Atonal,Sudden"
+				"zTags": "Tribal,Drum,Percussive,Aggressive,Sharp,Vocalization,Atonal,Sudden",
+				"Description": "AUDIO_UI_EVENT_SUDDEN_CONFRONTATION_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_WEARY_TRAVELER",
@@ -4933,7 +4974,8 @@
 					}
 				},
 				"zInstrumentation": "Chimes,Bowed String,Drone",
-				"zTags": "Droneish,Mystical,Slow Attack,Weary"
+				"zTags": "Droneish,Mystical,Slow Attack,Weary",
+				"Description": "AUDIO_UI_EVENT_WEARY_TRAVELER_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_OPEN_THE_TOMB",
@@ -4946,7 +4988,8 @@
 					}
 				},
 				"zInstrumentation": "Horn,Tower Bells,Organ",
-				"zTags": "Mourning,Despair,Funeral,Tomb"
+				"zTags": "Mourning,Despair,Funeral,Tomb",
+				"Description": "AUDIO_UI_EVENT_OPEN_THE_TOMB_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_WEDDING_BELLS",
@@ -4959,7 +5002,8 @@
 					}
 				},
 				"zInstrumentation": "Tower Bells,Percussion,Crowd",
-				"zTags": "Crowd,Revelry,Celebration,Wedding,Cheering"
+				"zTags": "Crowd,Revelry,Celebration,Wedding,Cheering",
+				"Description": "AUDIO_UI_EVENT_WEDDING_BELLS_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_FAR_AWAY_STORY",
@@ -4972,7 +5016,8 @@
 					}
 				},
 				"zInstrumentation": "Voice,Duduk",
-				"zTags": "Lyrical,Ethnic,Story,Narative"
+				"zTags": "Lyrical,Ethnic,Story,Narative",
+				"Description": "AUDIO_UI_EVENT_FAR_AWAY_STORY_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_DESPAIR",
@@ -4985,7 +5030,8 @@
 					}
 				},
 				"zInstrumentation": "Duduk, Guitar, Piano",
-				"zTags": "Sadness, Despair"
+				"zTags": "Sadness,Despair",
+				"Description": "AUDIO_UI_EVENT_DESPAIR_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_DARK_REFLECTIONS",
@@ -4998,7 +5044,8 @@
 					}
 				},
 				"zInstrumentation": "Guitar,Flagelot,Strings",
-				"zTags": "Washy,Deep,Eerie,Sad"
+				"zTags": "Washy,Deep,Eerie,Sad",
+				"Description": "AUDIO_UI_EVENT_DARK_REFLECTIONS_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_INTRIGUE",
@@ -5011,11 +5058,13 @@
 					}
 				},
 				"zInstrumentation": "Guitar,Chimes,Bowed Strings,Esraj",
-				"zTags": "Intrigue,Temptation,Passion"
+				"zTags": "Intrigue,Temptation,Passion",
+				"Description": "AUDIO_UI_EVENT_INTRIGUE_TEXT"
 			},
 			{
 				"zType": "AUDIO_UI_EVENT_POP_RUIN_GENERIC",
-				"zAsset": "UI_EVENT_POP_RUIN_GENERIC"
+				"zAsset": "UI_EVENT_POP_RUIN_GENERIC",
+				"Description": "AUDIO_UI_EVENT_POP_RUIN_GENERIC_TEXT"
 			},
 			{
 				"zType": "AUDIO_AMBIENCE_RUINS_DISCOVERED",
@@ -5028,6 +5077,10 @@
 			{
 				"zType": "AUDIO_AMBIENCE_RIG_NODE",
 				"zAsset": "AMBIENCE_RIG_NODE"
+			},
+			{
+				"zType": "AUDIO_AMBIENCE_INDIVIDUAL_TILE",
+				"zAsset": "AMBIENCE_INDIVIDUAL_TILE"
 			},
 			{
 				"zType": "AUDIO_AMBIENCE_RIG_CENTER",
@@ -5058,6 +5111,90 @@
 				"zAsset": "AMBIENCE_DESELECTED_A_CITY"
 			},
 			{
+				"zType": "AUDIO_MUSIC_02_Christopher_Tin_The_Augur_Speaks__Rome__44_16_082321",
+				"zAsset": "Play_02_Christopher_Tin_The_Augur_Speaks__Rome__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_The_Augur_Speaks__Rome"
+			},
+			{
+				"zType": "AUDIO_MUSIC_01_Christopher_Tin_I_Lift_My_Eyes_feat_Abeer_Nehme",
+				"zAsset": "Play_01_Christopher_Tin_I_Lift_My_Eyes_feat_Abeer_Nehme",
+				"zTags": "BackgroundMusic,MenuMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_I_Lift_My_Eyes_feat_Abeer_Nehme"
+			},
+			{
+				"zType": "AUDIO_MUSIC_03_Christopher_Tin_War_Elephant__Carthage__44_16_082321",
+				"zAsset": "Play_03_Christopher_Tin_War_Elephant__Carthage__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_War_Elephant__Carthage"
+			},
+			{
+				"zType": "AUDIO_MUSIC_04_Christopher_Tin_Festival_of_Dionysus__Greece__44_16_082321",
+				"zAsset": "Play_04_Christopher_Tin_Festival_of_Dionysus__Greece__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Festival_of_Dionysus__Greece"
+			},
+			{
+				"zType": "AUDIO_MUSIC_05_Christopher_Tin_The_Gardens__Babylon__44_16_082321",
+				"zAsset": "Play_05_Christopher_Tin_The_Gardens__Babylon__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_The_Gardens__Babylon"
+			},
+			{
+				"zType": "AUDIO_MUSIC_06_Christopher_Tin_Zealot_King__Assyria__44_16_082321",
+				"zAsset": "Play_06_Christopher_Tin_Zealot_King__Assyria__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Zealot_King__Assyria"
+			},
+			{
+				"zType": "AUDIO_MUSIC_07_Christopher_Tin_Persepolis__Persia__44_16_082321",
+				"zAsset": "Play_07_Christopher_Tin_Persepolis__Persia__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Persepolis__Persia"
+			},
+			{
+				"zType": "AUDIO_MUSIC_08_Christopher_Tin_Trade_Routes__Egypt__44_16_082321",
+				"zAsset": "Play_08_Christopher_Tin_Trade_Routes__Egypt__44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Trade_Routes__Egypt"
+			},
+			{
+				"zType": "AUDIO_MUSIC_09_Christopher_Tin_Tahmilah_44_16_082321",
+				"zAsset": "Play_09_Christopher_Tin_Tahmilah_44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Tahmilah"
+			},
+			{
+				"zType": "AUDIO_MUSIC_10_Christopher_Tin_Mawwal_44_16_082321",
+				"zAsset": "Play_10_Christopher_Tin_Mawwal_44_16_082321",
+				"zTags": "BackgroundMusic,MenuMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Mawwal"
+			},
+			{
+				"zType": "AUDIO_MUSIC_11_Christopher_Tin_Tarab_Pt__1_44_16_082321",
+				"zAsset": "Play_11_Christopher_Tin_Tarab_Pt__1_44_16_082321",
+				"zTags": "BackgroundMusic,MenuMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Tarab_Pt__1"
+			},
+			{
+				"zType": "AUDIO_MUSIC_12_Christopher_Tin_Tarab_Pt__2_44_16_082321",
+				"zAsset": "Play_12_Christopher_Tin_Tarab_Pt__2_44_16_082321",
+				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHRISTOPHER_TIN",
+				"Description": "TEXT_AUDIO_MUSIC_BG_Tarab_Pt__2"
+			},
+			{
 				"zType": "AUDIO_MUSIC_BG_3_PIECES_IN_OLD_STYLE___NO1",
 				"zAsset": "Play_3_Pieces_in_Old_Style___No1",
 				"zTags": "BackgroundMusic,LicensedMusic",
@@ -5075,63 +5212,49 @@
 				"zType": "AUDIO_MUSIC_BG_AJAM_ON_BUZUK",
 				"zAsset": "Play_Ajam_on_Buzuk",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_MUHAMMAD_ABDUL_KARIM",
 				"Description": "TEXT_AUDIO_MUSIC_BG_AJAM_ON_BUZUK"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ANOUSH_GARUN__SWEET_SPRING_",
 				"zAsset": "Play_Anoush_garun__Sweet_spring_",
-				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"zTags": "BackgroundMusic,MenuMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_DANIEL_GAZARIAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ANOUSH_GARUN__SWEET_SPRING_"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_APARANI_PAR",
 				"zAsset": "Play_Aparani_par",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SHOGHAKEN_FOLK_ENSEMBLE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_APARANI_PAR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ARAVOT_LOUSABER__ASCENDING_LIGHT___ARR__KOMITAS____ARAVOT_LOUSABER__ASCENDING_LIGHT__",
 				"zAsset": "Play_Aravot_lousaber__Ascending_light___arr__Komitas____Aravot_lousaber__Ascending_light__",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_HAISSMAVOURK_CHOIR",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ARAVOT_LOUSABER__ASCENDING_LIGHT___ARR__KOMITAS____ARAVOT_LOUSABER__ASCENDING_LIGHT__"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ARMENIAN_DANCE__ARR__K__NERCESIAN____ARMENIAN_DANCE",
 				"zAsset": "Play_Armenian_Dance__arr__K__Nercesian____Armenian_Dance",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_KHACHATUR_NERCESIAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ARMENIAN_DANCE__ARR__K__NERCESIAN____ARMENIAN_DANCE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ARTSAKHI_PAR",
 				"zAsset": "Play_Artsakhi_par",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SHOGHAKEN_FOLK_ENSEMBLE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ARTSAKHI_PAR"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ASHKHARUMES_AKH_CHIM_KASHIL__I_WILL_NOT_BE_SAD_IN_THIS_WORLD__AS_LONG_AS_I_HAVE_YOU_",
 				"zAsset": "Play_Ashkharumes_akh_chim_kashil__I_will_not_be_sad_in_this_world__as_long_as_I_have_you_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SHOGHAKEN_FOLK_ENSEMBLE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ASHKHARUMES_AKH_CHIM_KASHIL__I_WILL_NOT_BE_SAD_IN_THIS_WORLD__AS_LONG_AS_I_HAVE_YOU_"
 			},
 			{
@@ -5152,18 +5275,14 @@
 				"zType": "AUDIO_MUSIC_BG_EL_HAWZI__EL_HAWZI__EGYPT_",
 				"zAsset": "Play_El_hawzi__El_hawzi__Egypt_",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_HOSSAM_RAMZY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_EL_HAWZI__EL_HAWZI__EGYPT_"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_ERVA_YES__I_AM_BURNED_BY_LOVE_",
 				"zAsset": "Play_Erva_yes__I_am_burned_by_love_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SHOGHAKEN_FOLK_ENSEMBLE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ERVA_YES__I_AM_BURNED_BY_LOVE_"
 			},
 			{
@@ -5184,9 +5303,7 @@
 				"zType": "AUDIO_MUSIC_BG_KATOT__LONGING_",
 				"zAsset": "Play_Katot__Longing_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_HARUTIAN_HARUTIUNIAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_KATOT__LONGING_"
 			},
 			{
@@ -5206,7 +5323,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_LUX_AURUMQUE__LIGHT_OF_GOLD_",
 				"zAsset": "Play_Lux_aurumque__Light_of_Gold_",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ERIC_WHITACRE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LUX_AURUMQUE__LIGHT_OF_GOLD_"
 			},
@@ -5305,9 +5422,7 @@
 				"zType": "AUDIO_MUSIC_BG_OROVELA",
 				"zAsset": "Play_Orovela",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_KAVKASIA_TRIO",
 				"Description": "TEXT_AUDIO_MUSIC_BG_OROVELA"
 			},
 			{
@@ -5323,9 +5438,7 @@
 				"zType": "AUDIO_MUSIC_BG_IRAQ_RAQSAT_ALBEDOI__RAQSAT_ALBEDOI__IRAQ_",
 				"zAsset": "Play_IRAQ_Raqsat_albedoi__Raqsat_albedoi__Iraq_",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_AMED_MUKHTAR",
 				"Description": "TEXT_AUDIO_MUSIC_BG_IRAQ_RAQSAT_ALBEDOI__RAQSAT_ALBEDOI__IRAQ_"
 			},
 			{
@@ -5355,9 +5468,7 @@
 				"zType": "AUDIO_MUSIC_BG_SIRT_IM_SASANI__MY_HEART_IS_TREMBLING___ARR__V__KOMITAS____SIRT_IM_SASANI__MY_HEART_IS_TREMBLING_",
 				"zAsset": "Play_Sirt_im_sasani__My_heart_is_trembling___arr__V__Komitas____Sirt_im_sasani__My_heart_is_trembling_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_AARAKEL_SIUNETSI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SIRT_IM_SASANI__MY_HEART_IS_TREMBLING___ARR__V__KOMITAS____SIRT_IM_SASANI__MY_HEART_IS_TREMBLING_"
 			},
 			{
@@ -5370,7 +5481,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_TABAT___YA_HABIBI__TABAT__A_SONG_OF_PRAISE____YA_HABIBI__MY_BELOVED_",
 				"zAsset": "Play_Tabat___Ya_Habibi__Tabat__A_Song_of_Praise____Ya_habibi__My_Beloved_",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": {
 					
 				},
@@ -5380,9 +5491,7 @@
 				"zType": "AUDIO_MUSIC_BG_TAQSIM_ON_NEY",
 				"zAsset": "Play_Taqsim_on_Ney",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_BEDRUDIN_HALIBIE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_TAQSIM_ON_NEY"
 			},
 			{
@@ -5405,18 +5514,14 @@
 				"zType": "AUDIO_MUSIC_BG_UD_IMPROVISATION_IN_MAKAM_HICAZ",
 				"zAsset": "Play_Ud_improvisation_in_Makam_Hicaz",
 				"zTags": "BackgroundMusic,LicensedMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SUFI_MUSIC_ENSEMBLE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_UD_IMPROVISATION_IN_MAKAM_HICAZ"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES___ARR__KOMITAS____UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES_",
 				"zAsset": "Play_Unabi___Marali___Shushiki__Melody_of_dances___arr__Komitas____Unabi___Marali___Shushiki__Melody_of_dances_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_KOMITAS_VARDAPET",
 				"Description": "TEXT_AUDIO_MUSIC_BG_UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES___ARR__KOMITAS____UNABI___MARALI___SHUSHIKI__MELODY_OF_DANCES_"
 			},
 			{
@@ -5458,18 +5563,14 @@
 				"zType": "AUDIO_MUSIC_BG_YA_KHALIL__YA_KHALIL__NAME_OF_THE_BELOVED_",
 				"zAsset": "Play_Ya_Khalil__Ya_khalil__Name_of_the_Beloved_",
 				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_SALMA_AL_ASSAL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_YA_KHALIL__YA_KHALIL__NAME_OF_THE_BELOVED_"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_YEKYALKS__WE_ARE_GATHERED_",
 				"zAsset": "Play_Yekyalks__We_are_gathered_",
 				"zTags": "BackgroundMusic",
-				"Artist": {
-					
-				},
+				"Artist": "TEXT_AUDIO_ARTIST_HOVHAN_MANDAKOUNI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_YEKYALKS__WE_ARE_GATHERED_"
 			},
 			{
@@ -5510,7 +5611,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_06_PSALM_53",
 				"zAsset": "Play_06_Psalm_53",
-				"zTags": "BackgroundMusic,LicensedMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_SERAPHIM_BIT_KHARIBI",
 				"Description": "TEXT_AUDIO_MUSIC_BG_06_PSALM_53"
 			},
@@ -5552,7 +5653,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_D_S___Alistair_Sung",
 				"zAsset": "Play_D_S___Alistair_Sung",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALISTAIR_SUNG",
 				"Description": "TEXT_AUDIO_MUSIC_BG_D_S___ALISTAIR_SUNG"
 			},
@@ -5573,14 +5674,14 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Deeper___Chris_Coleman",
 				"zAsset": "Play_Deeper___Chris_Coleman",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHRIS_COLEMAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DEEPER___CHRIS_COLEMAN"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Deeper__Extended_Version____Chris_Coleman",
 				"zAsset": "Play_Deeper__Extended_Version____Chris_Coleman",
-				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
+				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHRIS_COLEMAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DEEPER__EXTENDED_VERSION____CHRIS_COLEMAN"
 			},
@@ -5741,7 +5842,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Touch___Chad_Lawson",
 				"zAsset": "Play_Touch___Chad_Lawson",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHAD_LAWSON",
 				"Description": "TEXT_AUDIO_MUSIC_BG_TOUCH___CHAD_LAWSON"
 			},
@@ -5784,72 +5885,84 @@
 				"zType": "AUDIO_MUSIC_BG_Atmadja_Duma_Strachilu",
 				"zAsset": "Play_Atmadja_Duma_Strachilu",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ATMADJA_DUMA_STRACHILU"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Dragana_I_Slavei",
 				"zAsset": "Play_Dragana_I_Slavei",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DRAGANA_I_SLAVEI"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Ei_Mori_Roujke",
 				"zAsset": "Play_Ei_Mori_Roujke",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_EI_MORI_ROUJKE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Erghen_Diado",
 				"zAsset": "Play_Erghen_Diado",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ERGHEN_DIADO"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Kalimankou_Denkou",
 				"zAsset": "Play_Kalimankou_Denkou",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_KALIMANKOU_DENKOU"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Messetschinko_Lio_Greilivko",
 				"zAsset": "Play_Messetschinko_Lio_Greilivko",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MESSETSCHINKO_LIO_GREILIVKO"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Mir_Stanke_Le",
 				"zAsset": "Play_Mir_Stanke_Le",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_MIR_STANKE_LE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Pilentze_Pee",
 				"zAsset": "Play_Pilentze_Pee",
 				"zTags": "BackgroundMusic,LicensedMusic,MenuMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_PILENTZE_PEE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Polegnala_E_Todora",
 				"zAsset": "Play_Polegnala_E_Todora",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_POLEGNALA_E_TODORA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Pritouritze_Planinata",
 				"zAsset": "Play_Pritouritze_Planinata",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_PRITOURITZE_PLANINATA"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Shope__Shope",
 				"zAsset": "Play_Shope__Shope",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SHOPE__SHOPE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Strati_Na_Angelaki_Doumasche",
 				"zAsset": "Play_Strati_Na_Angelaki_Doumasche",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_BULGARIAN_STATE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_STRATI_NA_ANGELAKI_DOUMASCHE"
 			},
 			{
@@ -5912,6 +6025,7 @@
 				"zType": "AUDIO_MUSIC_BG_Alleluiarion_for_Christmas_Day",
 				"zAsset": "Play_Alleluiarion_for_Christmas_Day",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_ALLELUIARION_FOR_CHRISTMAS_DAY"
 			},
 			{
@@ -5925,6 +6039,7 @@
 				"zType": "AUDIO_MUSIC_BG_When_the_glorious_disciples",
 				"zAsset": "Play_When_the_glorious_disciples",
 				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_WHEN_THE_GLORIOUS_DISCIPLES"
 			},
 			{
@@ -5945,6 +6060,7 @@
 				"zType": "AUDIO_MUSIC_BG_Your_bridal_chamber",
 				"zAsset": "Play_Your_bridal_chamber",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_YOUR_BRIDAL_CHAMBER"
 			},
 			{
@@ -5958,12 +6074,13 @@
 				"zType": "AUDIO_MUSIC_BG_Let_all_mortal_flesh_keep_silence",
 				"zAsset": "Play_Let_all_mortal_flesh_keep_silence",
 				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LET_ALL_MORTAL_FLESH_KEEP_SILENCE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_O_dulcissime",
 				"zAsset": "Play_O_dulcissime",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__PHOTINI_DOWNIE_ROBINSON__KERRY_MCCARTHY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_O_DULCISSIME"
 			},
@@ -6006,6 +6123,7 @@
 				"zType": "AUDIO_MUSIC_BG_Of_your_mystical_supper",
 				"zAsset": "Play_Of_your_mystical_supper",
 				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_OF_YOUR_MYSTICAL_SUPPER"
 			},
 			{
@@ -6019,6 +6137,7 @@
 				"zType": "AUDIO_MUSIC_BG_The_Wise_Thief",
 				"zAsset": "Play_The_Wise_Thief",
 				"zTags": "BackgroundMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_THE_WISE_THIEF"
 			},
 			{
@@ -6031,7 +6150,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_El_Helwa_Di",
 				"zAsset": "Play_El_Helwa_Di",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_TOBIAS_JACKLE__LEYLA_JOHNSON",
 				"Description": "TEXT_AUDIO_MUSIC_BG_EL_HELWA_DI"
 			},
@@ -6059,7 +6178,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Hijaz_Taqsim_2",
 				"zAsset": "Play_Hijaz_Taqsim_2",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,MenuMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ELIE_APOYAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_HIJAZ_TAQSIM_2"
 			},

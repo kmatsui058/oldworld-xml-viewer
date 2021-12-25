@@ -27,6 +27,9 @@
         "bLevel": {
           "comment": "The probability of an Event is modifier by EventLevel"
         },
+        "bLevelZero": {
+          "comment": "The probability of an Event is modifier if EventLevel percent is 0"
+        },
         "bModal": {
           "comment": "The event will popup immediately"
         }
@@ -194,7 +197,8 @@
         "zType": "EVENTTRIGGER_CITY_LOST",
         "SubjectClass": "SUBJECTCLASS_PLAYER",
         "ExtraClass": "SUBJECTCLASS_CITY",
-        "iProb": "10"
+        "iProb": "10",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = Player, Extra = City",
@@ -202,6 +206,7 @@
         "SubjectClass": "SUBJECTCLASS_PLAYER",
         "ExtraClass": "SUBJECTCLASS_CITY",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -219,7 +224,8 @@
       {
         "comment": "Subject = City",
         "zType": "EVENTTRIGGER_CITY_DISCONTENT",
-        "SubjectClass": "SUBJECTCLASS_CITY"
+        "SubjectClass": "SUBJECTCLASS_CITY",
+        "bLevel": "1"
       },
       {
         "comment": "Subject = City",
@@ -283,7 +289,7 @@
       },
       {
         "zType": "EVENTTRIGGER_CHOOSE_AMBITION",
-        "iProb": "10"
+        "iProb": "40"
       },
       {
         "comment": "Data = GoalType",
@@ -293,13 +299,13 @@
       },
       {
         "comment": "Data = GoalType",
-        "zType": "EVENTTRIGGER_QUEST_FINISHED",
+        "zType": "EVENTTRIGGER_GOAL_FINISHED",
         "Data": "GOAL",
         "bModal": "1"
       },
       {
         "comment": "Data = GoalType",
-        "zType": "EVENTTRIGGER_QUEST_FAILED",
+        "zType": "EVENTTRIGGER_GOAL_FAILED",
         "Data": "GOAL",
         "bModal": "1"
       },
@@ -538,6 +544,7 @@
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -545,7 +552,8 @@
         "zType": "EVENTTRIGGER_GENERAL_INJURY_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
-        "iProb": "1",
+        "iProb": "10",
+        "bLevel": "1",
         "bModal": "1"
       },
       {
@@ -595,6 +603,7 @@
         "SubjectClass": "SUBJECTCLASS_TILE",
         "ExtraClass": "SUBJECTCLASS_UNIT",
         "iSortOrder": "1",
+        "bLevelZero": "1",
         "bModal": "1"
       },
       {
@@ -610,6 +619,7 @@
         "zType": "EVENTTRIGGER_TRIBE_CLEARED",
         "SubjectClass": "SUBJECTCLASS_TILE",
         "ExtraClass": "SUBJECTCLASS_UNIT",
+        "bLevelZero": "1",
         "bModal": "1"
       },
       {
@@ -617,6 +627,7 @@
         "zType": "EVENTTRIGGER_TRIBE_ELIMINATED",
         "SubjectClass": "SUBJECTCLASS_TILE",
         "ExtraClass": "SUBJECTCLASS_UNIT",
+        "bLevelZero": "1",
         "bModal": "1"
       },
       {

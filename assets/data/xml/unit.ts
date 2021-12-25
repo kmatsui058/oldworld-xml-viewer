@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GrammaticalGenders": {
+          
+        },
         "zIconName": {
           
         },
@@ -186,6 +189,9 @@
         "bFound": {
           
         },
+        "bRemoveVegetation": {
+          
+        },
         "bHarvest": {
           
         },
@@ -240,12 +246,6 @@
         "aiYieldConsumption": {
           
         },
-        "aiAttackValue": {
-          
-        },
-        "aiAttackPercent": {
-          
-        },
         "aeObsoleteTech": {
           
         },
@@ -259,9 +259,6 @@
           
         },
         "aeEffectUnit": {
-          
-        },
-        "aeRemoveVegetation": {
           
         },
         "aaiImprovementYieldRate": {
@@ -363,6 +360,7 @@
         "iUpgradeCost": "80",
         "bTerritoryWater": "1",
         "bOutsideOpinion": "1",
+        "bRemoveVegetation": "1",
         "bHarvest": "1",
         "bBuild": "1",
         "aiStartDifficulty": {
@@ -379,14 +377,6 @@
         },
         "aeUnitTrait": {
           "zValue": "UNITTRAIT_INFANTRY"
-        },
-        "aeRemoveVegetation": {
-          "zValue": [
-            "VEGETATION_TREES",
-            "VEGETATION_TREES_CUT",
-            "VEGETATION_SCRUB",
-            "VEGETATION_SCRUB_CUT"
-          ]
         }
       },
       {
@@ -533,8 +523,8 @@
             {
               "zIndex": "IMPROVEMENT_TEMPLE_ZOROASTRIANISM",
               "SubPair": {
-                "zSubIndex": "YIELD_MONEY",
-                "iValue": "50"
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
               }
             },
             {
@@ -592,8 +582,8 @@
             {
               "zIndex": "IMPROVEMENT_TEMPLE_JUDAISM",
               "SubPair": {
-                "zSubIndex": "YIELD_MONEY",
-                "iValue": "50"
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
               }
             },
             {
@@ -651,8 +641,8 @@
             {
               "zIndex": "IMPROVEMENT_TEMPLE_CHRISTIANITY",
               "SubPair": {
-                "zSubIndex": "YIELD_MONEY",
-                "iValue": "50"
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
               }
             },
             {
@@ -710,8 +700,8 @@
             {
               "zIndex": "IMPROVEMENT_TEMPLE_MANICHAEISM",
               "SubPair": {
-                "zSubIndex": "YIELD_MONEY",
-                "iValue": "50"
+                "zSubIndex": "YIELD_DISCONTENT",
+                "iValue": "-10"
               }
             },
             {
@@ -947,18 +937,6 @@
             "iValue": "2"
           }
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "25"
-          }
-        },
         "aeObsoleteTech": {
           "zValue": "TECH_COHORTS"
         },
@@ -973,6 +951,9 @@
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_CLEAVE1"
         }
       },
       {
@@ -1035,18 +1016,6 @@
             "iValue": "2"
           }
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "25"
-          }
-        },
         "aeObsoleteTech": {
           "zValue": "TECH_INFANTRY_SQUARE"
         },
@@ -1062,6 +1031,9 @@
             "UNITTRAIT_INFANTRY",
             "UNITTRAIT_POLEARM"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_PIERCE1"
         }
       },
       {
@@ -1200,23 +1172,14 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_CLEAVE2"
         }
       },
       {
@@ -1285,24 +1248,15 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY",
             "UNITTRAIT_POLEARM"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_PIERCE2"
         }
       },
       {
@@ -1566,23 +1520,14 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_PIERCE2"
         }
       },
       {
@@ -1801,18 +1746,6 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "25"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -1821,7 +1754,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_ROUT"
+          "zValue": [
+            "EFFECTUNIT_ROUT",
+            "EFFECTUNIT_CIRCLE"
+          ]
         }
       },
       {
@@ -1927,12 +1863,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_HORSE",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2040,10 +1970,7 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": [
-            "EFFECTUNIT_ROUT",
-            "EFFECTUNIT_PANIC"
-          ]
+          "zValue": "EFFECTUNIT_PANIC"
         }
       },
       {
@@ -2114,17 +2041,8 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "2"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "50"
-          }
+        "aeObsoleteTech": {
+          "zValue": "TECH_CHAIN_DRIVE"
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_POLYBOLOS"
@@ -2134,6 +2052,9 @@
             "UNITTRAIT_RANGED",
             "UNITTRAIT_SIEGE"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_PIERCE3"
         }
       },
       {
@@ -2167,7 +2088,6 @@
         "bRangeFlat": "1",
         "bOutsideOpinion": "1",
         "bBlocks": "1",
-        "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
@@ -2201,34 +2121,16 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": [
-            {
-              "zIndex": "ATTACK_PIERCE",
-              "iValue": "1"
-            },
-            {
-              "zIndex": "ATTACK_CLEAVE",
-              "iValue": "1"
-            }
-          ]
-        },
-        "aiAttackPercent": {
-          "Pair": [
-            {
-              "zIndex": "ATTACK_PIERCE",
-              "iValue": "50"
-            },
-            {
-              "zIndex": "ATTACK_CLEAVE",
-              "iValue": "50"
-            }
-          ]
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_SIEGE"
+          ]
+        },
+        "aeEffectUnit": {
+          "zValue": [
+            "EFFECTUNIT_CLEAVE2",
+            "EFFECTUNIT_PIERCE2"
           ]
         }
       },
@@ -2295,18 +2197,6 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "25"
-          }
-        },
         "aeObsoleteTech": {
           "zValue": "TECH_BALLISTICS"
         },
@@ -2318,6 +2208,9 @@
             "UNITTRAIT_RANGED",
             "UNITTRAIT_SIEGE"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_SPLASH1"
         }
       },
       {
@@ -2384,23 +2277,14 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_SIEGE"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_SPLASH2"
         }
       },
       {
@@ -2672,10 +2556,16 @@
           ]
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_WOOD",
-            "iValue": "2"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_WOOD",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_SIEGE_TOWER"
@@ -2754,11 +2644,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_TRAINING",
-              "iValue": "1"
+              "iValue": "2"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "3"
+              "iValue": "4"
             }
           ]
         },
@@ -2815,22 +2705,16 @@
           }
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_WOOD",
-            "iValue": "2"
-          }
-        },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "25"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_WOOD",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_CIMMERIAN_ARCHER"
@@ -2840,6 +2724,9 @@
             "UNITTRAIT_RANGED",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_SPLASH1"
         }
       },
       {
@@ -2889,31 +2776,22 @@
           "Pair": [
             {
               "zIndex": "YIELD_TRAINING",
-              "iValue": "1"
+              "iValue": "2"
             },
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "3"
+              "iValue": "4"
             }
           ]
-        },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_SPLASH",
-            "iValue": "50"
-          }
         },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_SPLASH1"
         }
       },
       {
@@ -2978,21 +2856,9 @@
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "3"
+              "iValue": "2"
             }
           ]
-        },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "25"
-          }
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_TURRETED_ELEPHANT"
@@ -3078,18 +2944,6 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CIRCLE",
-            "iValue": "25"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -3154,10 +3008,16 @@
           ]
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_FOOD",
-            "iValue": "2"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_FOOD",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_KUSHITE_CAVALRY"
@@ -3224,11 +3084,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_TRAINING",
-              "iValue": "1"
+              "iValue": "2"
             },
             {
               "zIndex": "YIELD_FOOD",
-              "iValue": "3"
+              "iValue": "4"
             }
           ]
         },
@@ -3296,22 +3156,16 @@
           ]
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_IRON",
-            "iValue": "2"
-          }
-        },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "25"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_PHALANGITE"
@@ -3324,7 +3178,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_FORMATION"
+          "zValue": [
+            "EFFECTUNIT_FORMATION",
+            "EFFECTUNIT_PIERCE1"
+          ]
         }
       },
       {
@@ -3368,7 +3225,7 @@
         "aiUnitTraitModifierMelee": {
           "Pair": {
             "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "100"
+            "iValue": "50"
           }
         },
         "aiYieldCost": {
@@ -3395,18 +3252,6 @@
             }
           ]
         },
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "2"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "25"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -3415,7 +3260,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_FORMATION"
+          "zValue": [
+            "EFFECTUNIT_FORMATION",
+            "EFFECTUNIT_PIERCE1"
+          ]
         }
       },
       {
@@ -3468,10 +3316,16 @@
           ]
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_IRON",
-            "iValue": "2"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_CATAPHRACT_ARCHER"
@@ -3612,10 +3466,16 @@
           }
         },
         "aiYieldConsumption": {
-          "Pair": {
-            "zIndex": "YIELD_IRON",
-            "iValue": "2"
-          }
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "YIELD_IRON",
+              "iValue": "2"
+            }
+          ]
         },
         "aeUpgradeUnit": {
           "zValue": "UNIT_LEGIONARY"
@@ -4541,18 +4401,6 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "50"
-          }
-        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_GAULS",
@@ -4567,7 +4415,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_RANGER"
+          "zValue": [
+            "EFFECTUNIT_RANGER",
+            "EFFECTUNIT_PIERCE1"
+          ]
         }
       },
       {
@@ -4607,18 +4458,6 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "50"
-          }
-        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_DANES",
@@ -4633,7 +4472,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_COLD"
+          "zValue": [
+            "EFFECTUNIT_COLD",
+            "EFFECTUNIT_CLEAVE1"
+          ]
         }
       },
       {
@@ -5057,18 +4899,6 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_PIERCE",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -5077,7 +4907,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_RANGER"
+          "zValue": [
+            "EFFECTUNIT_RANGER",
+            "EFFECTUNIT_PIERCE2"
+          ]
         }
       },
       {
@@ -5117,18 +4950,6 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
-        "aiAttackValue": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "1"
-          }
-        },
-        "aiAttackPercent": {
-          "Pair": {
-            "zIndex": "ATTACK_CLEAVE",
-            "iValue": "50"
-          }
-        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -5137,7 +4958,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_COLD"
+          "zValue": [
+            "EFFECTUNIT_COLD",
+            "EFFECTUNIT_CLEAVE2"
+          ]
         }
       },
       {

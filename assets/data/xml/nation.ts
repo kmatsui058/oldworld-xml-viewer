@@ -36,6 +36,15 @@
         "FirstRuler": {
           
         },
+        "LeaderTitle": {
+          
+        },
+        "HeirTitle": {
+          
+        },
+        "SuccessorTitle": {
+          
+        },
         "FirstBuild": {
           
         },

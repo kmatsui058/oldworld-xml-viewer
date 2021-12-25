@@ -12,6 +12,9 @@
         "zIconName": {
           
         },
+        "GenderedNames": {
+          
+        },
         "TechPrereq": {
           
         },
@@ -99,7 +102,7 @@
             "zIndex": "RATING_WISDOM",
             "SubPair": {
               "zSubIndex": "YIELD_CULTURE",
-              "iValue": "5"
+              "iValue": "2"
             }
           }
         }
@@ -158,7 +161,7 @@
             "zIndex": "RATING_WISDOM",
             "SubPair": {
               "zSubIndex": "YIELD_GROWTH",
-              "iValue": "5"
+              "iValue": "2"
             }
           }
         }
@@ -217,7 +220,7 @@
             "zIndex": "RATING_COURAGE",
             "SubPair": {
               "zSubIndex": "YIELD_DISCONTENT",
-              "iValue": "-2"
+              "iValue": "-1"
             }
           }
         }

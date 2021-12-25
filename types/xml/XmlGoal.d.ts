@@ -11,9 +11,9 @@ export interface Entry {
   Name: ZType | string;
   HelpText?: ZType;
   iAmbitionClass?: ZType | string;
-  iMaxTurns?: ZType | string;
-  iMinTier?: ZType | string;
-  iMaxTier?: ZType | string;
+  iMaxTurns?: ZType;
+  iMinTier: ZType | string;
+  iMaxTier: ZType | string;
   TechPrereq?: ZType | TechPrereq2 | string;
   TechObsolete?: ZType | TechPrereq2 | string;
   NationPrereq?: ZType | TechPrereq2 | string;
@@ -25,6 +25,7 @@ export interface Entry {
   iLegitimacy?: ZType;
   iCities?: ZType | string;
   iConnectedCities?: ZType | string;
+  iAgentNetworks?: ZType | string;
   iCitizens?: ZType;
   iSpecialists?: ZType | string;
   iPopulation?: ZType | string;
@@ -41,7 +42,7 @@ export interface Entry {
   iMaxLevelUnits?: IMaxLevelUnits;
   iGeneralCount?: ZType | string;
   iGovernorCount?: ZType | string;
-  iAgentCount?: ZType;
+  iAgentCount?: ZType | string;
   iImprovementClassThreshold?: ZType | TechPrereq2 | string;
   iUnitThreshold?: ZType | TechPrereq2 | string;
   iPlayerCapturedData?: ZType | TechPrereq2 | string;
@@ -54,6 +55,7 @@ export interface Entry {
   bStateReligion?: ZType | string;
   bPlayerDead?: ZType;
   bTribeDead?: ZType;
+  bHideStatThreshold?: ZType;
   bScenario?: ZType;
   aiFamilyClassWeight?: AiFamilyClassWeight;
   aiDiplomacyCount?: AiDiplomacyCount;

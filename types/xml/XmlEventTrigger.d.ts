@@ -15,6 +15,7 @@ export interface Entry {
   iProb?: Datum | string;
   iSortOrder?: Datum | string;
   bLevel?: Datum | string;
+  bLevelZero?: Datum | string;
   bModal?: Datum | string;
   comment?: string;
 }

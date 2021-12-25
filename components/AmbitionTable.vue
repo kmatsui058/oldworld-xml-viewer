@@ -2,24 +2,18 @@
   <table class="table is-fullwidth">
     <thead>
       <tr>
-        <th> Name </th>
-        <th> Family Class: weight </th>
-        <th> Min Tier </th>
-        <th> Max Tier </th>
-        <th> Ambition Class </th>
+        <th>Name</th>
+        <th>Family Class: weight</th>
+        <th>Min Tier</th>
+        <th>Max Tier</th>
+        <th>Ambition Class</th>
       </tr>
     </thead>
     <tbody>
       <template v-for="goal in goals">
-        <tr
-          :id="goal.zType"
-          :key="goal.zType"
-        >
+        <tr :id="goal.zType" :key="goal.zType">
           <td>
-            <nuxt-link
-              :key="goal.zType"
-              :to="`/goal/${goal.zType}`"
-            >
+            <nuxt-link :key="goal.zType" :to="`/goal/${goal.zType}`">
               {{ goal.name }}
             </nuxt-link>
           </td>
@@ -44,11 +38,12 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Prop } from 'nuxt-property-decorator'
+import { defineComponent, PropType } from '@nuxtjs/composition-api'
 import Goal from '~/classes/Goal'
 
-@Component
-export default class AmbitionTable extends Vue {
-  @Prop({ type: Array, required: true }) readonly goals!: Goal[]
-}
+export default defineComponent({
+  props: {
+    goals: { type: Array as PropType<Goal[]>, required: true },
+  },
+})
 </script>

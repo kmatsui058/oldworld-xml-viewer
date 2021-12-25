@@ -9,7 +9,6 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  Help: ZType | string;
   iAvgCities?: ZType | string;
   iMaxCities?: ZType | string;
   iCapitalPopulation?: ZType | string;

@@ -214,6 +214,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_DEVELOPING",
+        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_1",
         "aiYieldCost": {
           "Pair": {
@@ -245,6 +246,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_STRONG",
+        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_2",
         "aiYieldCost": {
           "Pair": {
@@ -270,6 +272,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_LEGENDARY",
+        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_3",
         "aiYieldCost": {
           "Pair": {
@@ -324,6 +327,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_DEVELOPING",
+        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_1",
         "aiYieldCost": {
           "Pair": {
@@ -355,6 +359,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_STRONG",
+        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_2",
         "aiYieldCost": {
           "Pair": {
@@ -380,6 +385,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_LEGENDARY",
+        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_3",
         "aiYieldCost": {
           "Pair": {
@@ -434,6 +440,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_DEVELOPING",
+        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_1",
         "aiYieldCost": {
           "Pair": {
@@ -465,6 +472,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_STRONG",
+        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_2",
         "aiYieldCost": {
           "Pair": {
@@ -490,6 +498,7 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_LEGENDARY",
+        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_3",
         "aiYieldCost": {
           "Pair": {
@@ -594,9 +603,7 @@
         "Name": "TEXT_PROJECT_INQUIRY",
         "zIcon": "PROJECT_INQUIRY_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_INQUIRY",
-        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_SAGES_SEAT_INQUIRY",
-        "CapitalEffectPlayerPrereq": "EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY"
+        "EffectCity": "EFFECTCITY_PROJECT_INQUIRY"
       },
       {
         "zType": "PROJECT_INQUIRY_1",
@@ -651,8 +658,7 @@
         "Name": "TEXT_PROJECT_HUNT",
         "zIcon": "PROJECT_HUNT_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_HUNT",
-        "EffectCityPrereq": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT_HUNT"
+        "EffectCity": "EFFECTCITY_PROJECT_HUNT"
       },
       {
         "zType": "PROJECT_HUNT_1",
@@ -703,8 +709,7 @@
         "Name": "TEXT_PROJECT_OLYMPICS",
         "zIcon": "PROJECT_OLYMPICS_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_OLYMPICS",
-        "EffectPlayerPrereq": "EFFECTPLAYER_NATION_GREECE_OLYMPICS"
+        "EffectCity": "EFFECTCITY_PROJECT_OLYMPICS"
       },
       {
         "zType": "PROJECT_OLYMPICS_1",
@@ -755,8 +760,7 @@
         "Name": "TEXT_PROJECT_CONVOY",
         "zIcon": "PROJECT_CONVOY_1",
         "bHidden": "1",
-        "EffectCity": "EFFECTCITY_PROJECT_CONVOY",
-        "EffectPlayerPrereq": "EFFECTPLAYER_LAW_TRADE_LEAGUE_CONVOY"
+        "EffectCity": "EFFECTCITY_PROJECT_CONVOY"
       },
       {
         "zType": "PROJECT_CONVOY_1",
@@ -817,11 +821,15 @@
           "Pair": [
             {
               "zIndex": "YIELD_CIVICS",
-              "iValue": "60"
+              "iValue": "40"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "40"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "60"
+              "iValue": "40"
             }
           ]
         }
@@ -837,11 +845,15 @@
           "Pair": [
             {
               "zIndex": "YIELD_CIVICS",
-              "iValue": "70"
+              "iValue": "60"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "60"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "70"
+              "iValue": "60"
             }
           ]
         }
@@ -857,6 +869,10 @@
           "Pair": [
             {
               "zIndex": "YIELD_CIVICS",
+              "iValue": "80"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
               "iValue": "80"
             },
             {
@@ -877,11 +893,15 @@
           "Pair": [
             {
               "zIndex": "YIELD_CIVICS",
-              "iValue": "90"
+              "iValue": "100"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "100"
             },
             {
               "zIndex": "YIELD_MONEY",
-              "iValue": "90"
+              "iValue": "100"
             }
           ]
         }

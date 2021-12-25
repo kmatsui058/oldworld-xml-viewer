@@ -101,14 +101,20 @@
 				"FreeTheology": {
 					"comment": "Theology added to your state Religion (if any)"
 				},
-				"Quest": {
+				"Goal": {
 					"comment": "A Quest given to the Player (similar to Ambitions)"
 				},
-				"QuestForce": {
+				"GoalForce": {
 					"comment": "A Quest given to the Player (similar to Ambitions), but does not check if the Quest is close to complete"
 				},
 				"Ambition": {
 					"comment": "Adds this Ambition to the Player"
+				},
+				"AmbitionFamily": {
+					"comment": "Adds this Ambition to the Player (for this Family)"
+				},
+				"AmbitionReligion": {
+					"comment": "Adds this Ambition to the Player (for this Religion)"
 				},
 				"FinishGoal": {
 					"comment": "Finishes this Quest or Ambition"
@@ -127,6 +133,9 @@
 				},
 				"SetName": {
 					"comment": "Changes the Character's name to this name type (will remove custom name if present)"
+				},
+				"SetTitle": {
+					"comment": "Changes the Character's title to this type (will override any other title)"
 				},
 				"SetVegetation": {
 					"comment": "Sets the Tile's Vegetation"
@@ -267,7 +276,7 @@
 					"comment": "The Mission character will be the previous Subject at this index"
 				},
 				"iAmbitionFamilySubject": {
-					"comment": "Subject index of the Family associated with the Ambition"
+					"comment": "Subject index of the Family for this Ambition"
 				},
 				"bMissionFree": {
 					"comment": "The Mission will not have Yield costs"
@@ -328,6 +337,9 @@
 				},
 				"bDistantRaid": {
 					"comment": "The City will be the target of a Raid from a Distant Land"
+				},
+				"bLoseAgentNetwork": {
+					"comment": "Player's Agent Network removed in the City"
 				},
 				"bConvertStateReligion": {
 					"comment": "Set this Character's Religion to the Player's State Religion"
@@ -396,10 +408,10 @@
 					"comment": "List of Yields (Money, Science, etc.) gained by the Player. Unlike the other Global Yield values, this is unmodified by inflation."
 				},
 				"aiGlobalYieldsBase": {
-					"comment": "List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City"
+					"comment": "List of Yields (Money, Science, etc.) gained by the Player. This is distinct from aicityYields in that it is added directly to the national stockpile, not to any particular City."
 				},
 				"aiGlobalYieldsPer": {
-					"comment": "List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money"
+					"comment": "List of Yields per City gained by the Player. For example, if this is 20 Money, and the Player has 3 cities, the Player will gain 60 Money."
 				},
 				"aiOtherYieldsBase": {
 					"comment": "List of Yields (Money, Science, etc.) gained by the Player"
@@ -407,14 +419,17 @@
 				"aiOtherYieldsPer": {
 					"comment": "List of Yields per City gained by the Other Player. For example, if this is 20 Money, and the Other Player has 3 cities, the Player will gain 60 Money"
 				},
+				"aiYieldsSend": {
+					"comment": "Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile). Unlike the other Global Yield values, this is unmodified by inflation."
+				},
 				"aiYieldsSendBase": {
-					"comment": "Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)"
+					"comment": "Send this Yield (lump sum) to the other Player (and deduct it from this Player's stockpile)."
 				},
 				"aiYieldsSendPerUs": {
-					"comment": "Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)"
+					"comment": "Send this Yield (per this Player's Cities) to the other Player (and deduct it from this Player's stockpile)."
 				},
 				"aiYieldsSendPerThem": {
-					"comment": "Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)"
+					"comment": "Send this Yield (per other Player's Cities) to the other Player (and deduct it from this Player's stockpile)."
 				},
 				"aiYieldsTradeBase": {
 					"comment": "List of Yields (lump sum) gained in trade. If this value is positive, this Player receives the Yields; if it’s negative, the other Player receives the Yields"
@@ -619,13 +634,19 @@
 				"FreeTheology": {
 					
 				},
-				"Quest": {
+				"Goal": {
 					
 				},
-				"QuestForce": {
+				"GoalForce": {
 					
 				},
 				"Ambition": {
+					
+				},
+				"AmbitionFamily": {
+					
+				},
+				"AmbitionReligion": {
 					
 				},
 				"FinishGoal": {
@@ -1038,7 +1059,7 @@
 			{
 				"zType": "BONUS_FAMILY_SEAT",
 				"Name": "TEXT_BONUS_FAMILY_SEAT",
-				"iLegitimacy": "5"
+				"iLegitimacy": "6"
 			},
 			{
 				"zType": "BONUS_FAMILY_FOUND",
@@ -1057,7 +1078,7 @@
 			{
 				"zType": "BONUS_EVENTPLAYER_LEGITIMACY",
 				"Name": "TEXT_BONUS_EVENTPLAYER_LEGITIMACY",
-				"iLegitimacy": "1"
+				"iLegitimacy": "2"
 			},
 			{
 				"zType": "BONUS_FINISHED_AMBITION",
@@ -1067,7 +1088,7 @@
 			{
 				"zType": "BONUS_FINISHED_LEGACY",
 				"Name": "TEXT_BONUS_FINISHED_LEGACY",
-				"iLegitimacy": "5"
+				"iLegitimacy": "6"
 			},
 			{
 				"zType": "BONUS_ABANDONED_AMBITION",
@@ -1081,7 +1102,7 @@
 			},
 			{
 				"zType": "BONUS_FINISHED_QUEST",
-				"Name": "TEXT_BONUS_FINISHED_QUEST",
+				"Name": "TEXT_BONUS_FINISHED_GOAL",
 				"iLegitimacy": "10"
 			},
 			{
@@ -1126,7 +1147,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_ORDERS",
-						"iValue": "5"
+						"iValue": "6"
 					}
 				}
 			},
@@ -1256,7 +1277,7 @@
 			{
 				"zType": "BONUS_TRIBE_ELIMINATED_LEGITIMACY",
 				"Name": "TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY",
-				"iLegitimacy": "5"
+				"iLegitimacy": "6"
 			},
 			{
 				"zType": "BONUS_CANCEL_TRADE",
@@ -1282,7 +1303,7 @@
 				"zType": "BONUS_PLAYER_WAR_LEGITIMACY",
 				"Name": "TEXT_BONUS_PLAYER_WAR_LEGITIMACY",
 				"DiplomacyPlayerTo": "DIPLOMACY_WAR",
-				"iLegitimacy": "5",
+				"iLegitimacy": "6",
 				"aeBonuses": {
 					"zValue": "BONUS_PLAYER_OFFER"
 				}
@@ -1665,7 +1686,7 @@
 			{
 				"zType": "BONUS_MISSIONRESULT_CONVERT_RELIGION",
 				"Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
-				"bConvertStateReligion": "1"
+				"iConvertedBySubject": "0"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_INTERCESSION",
@@ -1701,7 +1722,7 @@
 			{
 				"zType": "BONUS_MISSIONRESULT_CHOSEN_HEIR",
 				"Name": "TEXT_BONUS_MISSIONRESULT_CHOSEN_HEIR",
-				"iLegitimacy": "-4",
+				"iLegitimacy": "-10",
 				"bChosenHeir": "1"
 			},
 			{
@@ -1790,6 +1811,12 @@
 				"iHPCity": "-10"
 			},
 			{
+				"zType": "BONUS_MISSIONRESULT_TREACHERY_EXPOSED",
+				"Name": "TEXT_BONUS_MISSIONRESULT_TREACHERY_EXPOSED",
+				"iDiscontentLevels": "1",
+				"bLoseAgentNetwork": "1"
+			},
+			{
 				"zType": "BONUS_MISSIONRESULT_TREACHERY_FAILURE",
 				"Name": "TEXT_BONUS_MISSIONRESULT_TREACHERY_FAILURE",
 				"iLegitimacy": "-1"
@@ -1800,9 +1827,10 @@
 				"iRebelUnits": "1"
 			},
 			{
-				"zType": "BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT",
-				"Name": "TEXT_BONUS_MISSIONRESULT_INSURRECTION_DISCONTENT",
-				"iDiscontentLevels": "1"
+				"zType": "BONUS_MISSIONRESULT_INSURRECTION_EXPOSED",
+				"Name": "TEXT_BONUS_MISSIONRESULT_INSURRECTION_EXPOSED",
+				"iDiscontentLevels": "1",
+				"bLoseAgentNetwork": "1"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_INSURRECTION_FAILURE",
@@ -3095,6 +3123,12 @@
 			},
 			{
 				"zType": "BONUS_KILL_CHARACTER",
+				"bKillCharacter": "1"
+			},
+			{
+				"zType": "BONUS_KILL_CHARACTER_AGENT",
+				"Name": "TEXT_BONUS_KILL_CHARACTER_AGENT",
+				"iLegitimacy": "4",
 				"bKillCharacter": "1"
 			},
 			{
@@ -8974,7 +9008,7 @@
 				"zType": "BONUS_TRIBE_WAR_LEGITIMACY",
 				"Name": "TEXT_BONUS_TRIBE_WAR_LEGITIMACY",
 				"DiplomacyTribe": "DIPLOMACY_WAR",
-				"iLegitimacy": "5",
+				"iLegitimacy": "6",
 				"aeBonuses": {
 					"zValue": "BONUS_TRIBE_OFFER"
 				}
@@ -9760,15 +9794,15 @@
 			},
 			{
 				"zType": "BONUS_AMBITION_THREE_GENERALS",
-				"Ambition": "GOAL_THREE_GOVERNORS"
+				"Ambition": "GOAL_FOUR_GOVERNORS"
 			},
 			{
 				"zType": "BONUS_AMBITION_EIGHT_GENERALS",
 				"Ambition": "GOAL_EIGHT_GENERALS"
 			},
 			{
-				"zType": "BONUS_AMBITION_SIX_GOVERNORS",
-				"Ambition": "GOAL_SIX_GOVERNORS"
+				"zType": "BONUS_AMBITION_EIGHT_GOVERNORS",
+				"Ambition": "GOAL_EIGHT_GOVERNORS"
 			},
 			{
 				"zType": "BONUS_AMBITION_REVEAL_40",
@@ -10005,6 +10039,24 @@
 			{
 				"zType": "BONUS_AMBITION_HOLY_SITE_MANICHAEISM",
 				"Ambition": "GOAL_HOLY_SITE_MANICHAEISM"
+			},
+			{
+				"zType": "BONUS_AMBITION_FOUR_AGENT_NETWORKS",
+				"Ambition": "GOAL_FOUR_AGENT_NETWORKS"
+			},
+			{
+				"zType": "BONUS_AMBITION_SIX_AGENTS",
+				"Ambition": "GOAL_SIX_AGENTS"
+			},
+			{
+				"zType": "BONUS_AMBITION_FIVE_NAVAL",
+				"Ambition": "GOAL_FIVE_NAVAL"
+			},
+			{
+				"zType": "BONUS_REMOVE_TRAIT_REGENT",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_REGENT"
+				}
 			}
 		]
 	}

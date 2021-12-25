@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GrammaticalGenders?: ZType;
   Hint?: ZType;
   Class?: ZType | string;
   AssetVariation: ZType | string;
@@ -65,6 +66,7 @@ export interface Entry {
   bRemoveBonus?: ZType;
   bNoAnalytics?: ZType;
   bText: ZType | string;
+  bIgnoreHillHeight?: ZType;
   Achievement?: ZType;
   NationPrereq?: ZType;
   ReligionPrereq?: ZType;
@@ -84,6 +86,7 @@ export interface Entry {
   BonusCities?: ZType;
   aiYieldCost?: ZType;
   aiYieldOutput: AiYieldOutput;
+  aiYieldConsumption?: ZType;
   aiWonderYieldOutput?: ZType;
   aiAdjacentResourceYieldOutput?: ZType;
   aiTradeNetworkYieldOutput?: ZType;

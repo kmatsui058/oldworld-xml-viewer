@@ -18,6 +18,9 @@
         "iBorderValue": {
           
         },
+        "iUnitDamage": {
+          
+        },
         "bWater": {
           
         },
@@ -47,6 +50,9 @@
         },
         "AssetVariation": {
           
+        },
+        "zAudioAmbienceSwitch": {
+          
         }
       },
       {
@@ -73,7 +79,8 @@
               "zValue": "ASSET_VARIATION_TILE_LAKE"
             }
           ]
-        }
+        },
+        "zAudioAmbienceSwitch": "WATER"
       },
       {
         "zType": "TERRAIN_URBAN",
@@ -96,7 +103,8 @@
               "zValue": "ASSET_VARIATION_TILE_URBAN_FLAT"
             }
           ]
-        }
+        },
+        "zAudioAmbienceSwitch": "URBAN"
       },
       {
         "zType": "TERRAIN_LUSH",
@@ -128,7 +136,8 @@
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_LUSH"
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_LUSH",
+        "zAudioAmbienceSwitch": "LUSH"
       },
       {
         "zType": "TERRAIN_TEMPERATE",
@@ -160,7 +169,8 @@
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TEMPERATE"
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TEMPERATE",
+        "zAudioAmbienceSwitch": "TEMPERATE"
       },
       {
         "zType": "TERRAIN_ARID",
@@ -191,7 +201,8 @@
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_ARID"
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_ARID",
+        "zAudioAmbienceSwitch": "ARID"
       },
       {
         "zType": "TERRAIN_SAND",
@@ -220,7 +231,8 @@
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_DESERT"
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_DESERT",
+        "zAudioAmbienceSwitch": "SAND"
       },
       {
         "zType": "TERRAIN_TUNDRA",
@@ -250,7 +262,40 @@
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TUNDRA"
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TUNDRA",
+        "zAudioAmbienceSwitch": "TUNDRA"
+      },
+      {
+        "zType": "TERRAIN_MARSH",
+        "Name": "TEXT_TERRAIN_MARSH",
+        "zIconName": "TERRAIN_MARSH",
+        "iMovementCost": "18",
+        "iBorderValue": "100",
+        "iUnitDamage": "1",
+        "bNoVegetation": "1",
+        "DefaultHeight": "HEIGHT_FLAT",
+        "aeHeightAsset": {
+          "Pair": [
+            {
+              "zIndex": "HEIGHT_FLAT",
+              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+            },
+            {
+              "zIndex": "HEIGHT_HILL",
+              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+            },
+            {
+              "zIndex": "HEIGHT_MOUNTAIN",
+              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+            },
+            {
+              "zIndex": "HEIGHT_VOLCANO",
+              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+            }
+          ]
+        },
+        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TUNDRA",
+        "zAudioAmbienceSwitch": "TEMPERATE"
       }
     ]
   }

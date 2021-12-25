@@ -18,7 +18,7 @@ export interface Entry {
   iForeignPopulation?: ZType | string;
   iPerMissingFamily?: ZType | string;
   iPerUrbanTile?: ZType | string;
-  iPerEmptyImprovement?: ZType | string;
+  iPerImprovement?: ZType | string;
   iPerConnectedForeign?: ZType | string;
   iPerLivingRoyal?: ZType | string;
   iPerLivingCourtier?: ZType | string;

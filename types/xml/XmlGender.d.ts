@@ -9,11 +9,12 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  NameShort: ZType | string;
+  GrammaticalGenders?: ZType;
   bMasculine: ZType | string;
   iMaxFertile: ZType | string;
   iMaxSpouseAgeDifference: ZType | string;
   iMarriageDelayTurns: ZType | string;
-  LeaderTitle: ZType | string;
 }
 export interface ZType {
 }

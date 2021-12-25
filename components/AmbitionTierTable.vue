@@ -6,9 +6,7 @@
         <p class="control">
           <span class="select">
             <select v-model="filterTier">
-              <option :value="null">
-                -
-              </option>
+              <option :value="null">-</option>
               <option v-for="tier in tiers" :key="tier" :value="tier">
                 {{ tier }}
               </option>
@@ -21,9 +19,7 @@
         <p class="control">
           <span class="select">
             <select v-model="filterTier">
-              <option :value="null">
-                -
-              </option>
+              <option :value="null">-</option>
               <option v-for="tier in tiers" :key="tier" :value="tier">
                 {{ tier }}
               </option>
@@ -35,9 +31,9 @@
     <table class="table is-fullwidth">
       <thead>
         <tr>
-          <th> Tier </th>
-          <th> Ambitions </th>
-          <th> Family Class Weight </th>
+          <th>Tier</th>
+          <th>Ambitions</th>
+          <th>Family Class Weight</th>
         </tr>
       </thead>
       <tbody>
@@ -45,15 +41,13 @@
           <tr
             v-if="!(filterTier && item.tier !== filterTier)"
             :key="index"
-            :class="{'not-desired': !item.isDesired}"
+            :class="{ 'not-desired': !item.isDesired }"
           >
             <td v-if="item.isFirst" :rowspan="item.rowSpan">
               {{ item.tier }}
             </td>
             <td>
-              <nuxt-link
-                :to="`/goal/${item.goal.zType}`"
-              >
+              <nuxt-link :to="`/goal/${item.goal.zType}`">
                 {{ item.goal.name }}
               </nuxt-link>
             </td>
@@ -76,48 +70,77 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Prop } from 'nuxt-property-decorator'
+import { computed, defineComponent, PropType, ref, Ref } from '@nuxtjs/composition-api'
 import Goal from '~/classes/Goal'
 
-@Component
-export default class AmbitionTierTable extends Vue {
-  @Prop({ type: Array, required: true }) readonly goals!: Goal[]
-  @Prop({ type: String, required: false, default: null }) readonly familyClassZType!: string | null
+export default defineComponent({
+  props: {
+    goals: { type: Array as PropType<Goal[]>, required: true },
+    familyClassZType: {
+      type: String as PropType<string | null>,
+      required: false,
+      default: null,
+    },
+  },
+  setup(props) {
+    const filterTier: Ref<Tier | null> = ref(null)
 
-  filterTier: Tier | null = null
-
-  get tiers (): Tier[] {
-    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-  }
-
-  get amibitionByTier () {
-    return this.tiers.map((tier) => {
-      const result: Goal[] = []
-      this.goals.forEach((goal) => {
-        if (goal.minTier <= tier && tier <= goal.maxTier) {
-          result.push(goal)
-        }
-      })
-      return result
+    const tiers = computed((): Tier[] => {
+      return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     })
-  }
 
-  get flattenArray (): {tier: number, goal: Goal, isFirst: boolean, rowSpan: number, isDesired: boolean}[] {
-    const result: {tier: number, goal: Goal, isFirst: boolean, rowSpan: number, isDesired: boolean}[] = []
-    this.amibitionByTier.forEach((goals, i) => {
-      goals.forEach((goal, j) => {
-        result.push({
-          tier: i + 1,
-          goal,
-          isFirst: j === 0,
-          rowSpan: goals.length,
-          isDesired: !!goal.familyClassWeights.find(weight => weight.familyClass.zType === this.familyClassZType)
+    const amibitionByTier = computed(() => {
+      return tiers.value.map((tier) => {
+        const result: Goal[] = []
+        props.goals.forEach((goal) => {
+          if (goal.minTier <= tier && tier <= goal.maxTier) {
+            result.push(goal)
+          }
         })
+        return result
       })
     })
-    return result
-  }
-}
+
+    const flattenArray = computed(
+      (): {
+        tier: number
+        goal: Goal
+        isFirst: boolean
+        rowSpan: number
+        isDesired: boolean
+      }[] => {
+        const result: {
+          tier: number
+          goal: Goal
+          isFirst: boolean
+          rowSpan: number
+          isDesired: boolean
+        }[] = []
+        amibitionByTier.value.forEach((goals, i) => {
+          goals.forEach((goal, j) => {
+            result.push({
+              tier: i + 1,
+              goal,
+              isFirst: j === 0,
+              rowSpan: goals.length,
+              isDesired: !!goal.familyClassWeights.find(
+                (weight) => weight.familyClass.zType === props.familyClassZType
+              ),
+            })
+          })
+        })
+        return result
+      }
+    )
+
+    return {
+      filterTier,
+      tiers,
+      amibitionByTier,
+      flattenArray,
+    }
+  },
+})
 </script>
 <style lang="scss" scoped>
 .not-desired {

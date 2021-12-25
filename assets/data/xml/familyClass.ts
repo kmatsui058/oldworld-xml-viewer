@@ -129,6 +129,12 @@
         "aiLuxuryMissingOpinion": {
           
         },
+        "aiImprovementOpinion": {
+          
+        },
+        "aiImprovementClassOpinion": {
+          
+        },
         "aiLawOpinion": {
           
         },
@@ -177,6 +183,12 @@
               "iValue": "-10"
             }
           ]
+        },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_TOWN",
+            "iValue": "5"
+          }
         },
         "aiLawOpinion": {
           "Pair": {
@@ -278,6 +290,12 @@
               "iValue": "-10"
             }
           ]
+        },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_GARRISON_3",
+            "iValue": "10"
+          }
         },
         "aiLawOpinion": {
           "Pair": {
@@ -381,6 +399,12 @@
             }
           ]
         },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_COURTHOUSE_3",
+            "iValue": "20"
+          }
+        },
         "aiLawOpinion": {
           "Pair": {
             "zIndex": "LAW_CONSTITUTION",
@@ -483,6 +507,12 @@
             }
           ]
         },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_BATHS_3",
+            "iValue": "20"
+          }
+        },
         "aiLawOpinion": {
           "Pair": {
             "zIndex": "LAW_CALLIGRAPHY",
@@ -584,6 +614,12 @@
             }
           ]
         },
+        "aiImprovementClassOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_CATHEDRAL",
+            "iValue": "20"
+          }
+        },
         "aiLawOpinion": {
           "Pair": {
             "zIndex": "LAW_DIVINE_RULE",
@@ -684,6 +720,12 @@
               "iValue": "-10"
             }
           ]
+        },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_LIBRARY_3",
+            "iValue": "20"
+          }
         },
         "aiLawOpinion": {
           "Pair": {
@@ -787,6 +829,12 @@
               "iValue": "-10"
             }
           ]
+        },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_MARKET_3",
+            "iValue": "20"
+          }
         },
         "aiLawOpinion": {
           "Pair": [
@@ -895,6 +943,12 @@
             }
           ]
         },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_THEATER_3",
+            "iValue": "10"
+          }
+        },
         "aiLawOpinion": {
           "Pair": {
             "zIndex": "LAW_GUILDS",
@@ -996,6 +1050,12 @@
             }
           ]
         },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_BARRACKS",
+            "iValue": "5"
+          }
+        },
         "aiLawOpinion": {
           "Pair": {
             "zIndex": "LAW_VASSALAGE",
@@ -1096,6 +1156,12 @@
               "iValue": "-10"
             }
           ]
+        },
+        "aiImprovementOpinion": {
+          "Pair": {
+            "zIndex": "IMPROVEMENT_RANGE",
+            "iValue": "5"
+          }
         },
         "aiLawOpinion": {
           "Pair": {

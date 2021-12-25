@@ -5,15 +5,15 @@ import familyClasses from '~/assets/data/xml/familyClass'
 export default class FamilyClassWeight {
   readonly entry: Readonly<XmlGoal.Pair>
 
-  constructor (entry: XmlGoal.Pair) {
+  constructor(entry: XmlGoal.Pair) {
     this.entry = entry
   }
 
-  get textInfo () {
+  get textInfo() {
     return textInfo.Root.Entry
   }
 
-  get familyClass (): FamilyClass {
+  get familyClass(): FamilyClass {
     const entry = familyClasses.Root.Entry.find((item) => {
       return item.zType === this.entry.zIndex
     })
@@ -23,11 +23,11 @@ export default class FamilyClassWeight {
     return new FamilyClass(entry)
   }
 
-  get zIndex (): string {
+  get zIndex(): string {
     return typeof this.entry.zIndex === 'string' ? this.entry.zIndex : ''
   }
 
-  get name (): string {
+  get name(): string {
     return this.familyClass.name
   }
 }

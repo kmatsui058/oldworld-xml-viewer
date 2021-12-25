@@ -26,26 +26,43 @@
         }
       },
       {
-        "zType": "RELATIONSHIP_LOVER_OF",
-        "Name": "TEXT_RELATIONSHIP_LOVER_OF",
-        "NameVerb": "TEXT_RELATIONSHIP_LOVER_OF_VERB",
-        "iOpinion": "160",
-        "iMinAgeUs": "15",
-        "iMinAgeThem": "15"
-      },
-      {
         "zType": "RELATIONSHIP_CONSPIRING_WITH",
         "Name": "TEXT_RELATIONSHIP_CONSPIRING_WITH",
         "NameVerb": "TEXT_RELATIONSHIP_CONSPIRING_WITH_VERB",
-        "iOpinion": "120",
+        "iOpinion": "100",
         "iMinAgeUs": "15",
-        "iMinAgeThem": "15"
+        "iMinAgeThem": "15",
+        "aeInvalidateRelationship": {
+          "zValue": [
+            "RELATIONSHIP_ESTRANGED_FROM",
+            "RELATIONSHIP_VENGEFUL_AGAINST",
+            "RELATIONSHIP_PLOTTING_AGAINST"
+          ]
+        }
       },
       {
         "zType": "RELATIONSHIP_IN_LOVE_WITH",
         "Name": "TEXT_RELATIONSHIP_IN_LOVE_WITH",
         "NameVerb": "TEXT_RELATIONSHIP_IN_LOVE_WITH_VERB",
-        "iOpinion": "160",
+        "iOpinion": "120",
+        "iMinAgeUs": "15",
+        "iMinAgeThem": "15",
+        "aeInvalidateRelationship": {
+          "zValue": [
+            "RELATIONSHIP_TERRIFIED_OF",
+            "RELATIONSHIP_SUSPICIOUS_OF",
+            "RELATIONSHIP_DISAPPOINTED_WITH",
+            "RELATIONSHIP_ESTRANGED_FROM",
+            "RELATIONSHIP_VENGEFUL_AGAINST",
+            "RELATIONSHIP_PLOTTING_AGAINST"
+          ]
+        }
+      },
+      {
+        "zType": "RELATIONSHIP_LOVER_OF",
+        "Name": "TEXT_RELATIONSHIP_LOVER_OF",
+        "NameVerb": "TEXT_RELATIONSHIP_LOVER_OF_VERB",
+        "iOpinion": "120",
         "iMinAgeUs": "15",
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {
@@ -59,20 +76,6 @@
         }
       },
       {
-        "zType": "RELATIONSHIP_TERRIFIED_OF",
-        "Name": "TEXT_RELATIONSHIP_TERRIFIED_OF",
-        "NameVerb": "TEXT_RELATIONSHIP_TERRIFIED_OF_VERB",
-        "iOpinion": "120",
-        "iMinAgeUs": "12",
-        "iMinAgeThem": "15",
-        "aeInvalidateRelationship": {
-          "zValue": [
-            "RELATIONSHIP_IN_LOVE_WITH",
-            "RELATIONSHIP_ENDEARED_TO"
-          ]
-        }
-      },
-      {
         "zType": "RELATIONSHIP_ENDEARED_TO",
         "Name": "TEXT_RELATIONSHIP_ENDEARED_TO",
         "NameVerb": "TEXT_RELATIONSHIP_ENDEARED_TO_VERB",
@@ -81,6 +84,8 @@
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {
           "zValue": [
+            "RELATIONSHIP_JEALOUS_ABOUT",
+            "RELATIONSHIP_TERRIFIED_OF",
             "RELATIONSHIP_DISAPPOINTED_WITH",
             "RELATIONSHIP_ESTRANGED_FROM",
             "RELATIONSHIP_VENGEFUL_AGAINST",
@@ -89,20 +94,18 @@
         }
       },
       {
-        "zType": "RELATIONSHIP_INTERCEDED_FOR",
-        "Name": "TEXT_RELATIONSHIP_INTERCEDED_FOR",
-        "NameVerb": "TEXT_RELATIONSHIP_INTERCEDED_FOR_VERB",
-        "iOpinion": "60",
+        "zType": "RELATIONSHIP_TERRIFIED_OF",
+        "Name": "TEXT_RELATIONSHIP_TERRIFIED_OF",
+        "NameVerb": "TEXT_RELATIONSHIP_TERRIFIED_OF_VERB",
+        "iOpinion": "100",
         "iMinAgeUs": "12",
-        "iMinAgeThem": "15"
-      },
-      {
-        "zType": "RELATIONSHIP_INFLUENCED_BY",
-        "Name": "TEXT_RELATIONSHIP_INFLUENCED_BY",
-        "NameVerb": "TEXT_RELATIONSHIP_INFLUENCED_BY_VERB",
-        "iOpinion": "40",
-        "iMinAgeUs": "12",
-        "iMinAgeThem": "15"
+        "iMinAgeThem": "15",
+        "aeInvalidateRelationship": {
+          "zValue": [
+            "RELATIONSHIP_IN_LOVE_WITH",
+            "RELATIONSHIP_ENDEARED_TO"
+          ]
+        }
       },
       {
         "zType": "RELATIONSHIP_OWES_FAVOR_TO",
@@ -114,11 +117,6 @@
         "aeInvalidateRelationship": {
           "zValue": "RELATIONSHIP_HOLDS_FAVOR_FROM"
         }
-      },
-      {
-        "zType": "RELATIONSHIP_ASSASSINATED_BY",
-        "Name": "TEXT_RELATIONSHIP_ASSASSINATED_BY",
-        "NameVerb": "TEXT_RELATIONSHIP_ASSASSINATED_BY_VERB"
       },
       {
         "zType": "RELATIONSHIP_HOLDS_FAVOR_FROM",
@@ -139,10 +137,7 @@
         "iMinAgeUs": "15",
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {
-          "zValue": [
-            "RELATIONSHIP_INFLUENCED_BY",
-            "RELATIONSHIP_ENDEARED_TO"
-          ]
+          "zValue": "RELATIONSHIP_ENDEARED_TO"
         }
       },
       {
@@ -155,8 +150,7 @@
         "aeInvalidateRelationship": {
           "zValue": [
             "RELATIONSHIP_IN_LOVE_WITH",
-            "RELATIONSHIP_LOVER_OF",
-            "RELATIONSHIP_INFLUENCED_BY"
+            "RELATIONSHIP_LOVER_OF"
           ]
         }
       },
@@ -179,7 +173,7 @@
         "zType": "RELATIONSHIP_ESTRANGED_FROM",
         "Name": "TEXT_RELATIONSHIP_ESTRANGED_FROM",
         "NameVerb": "TEXT_RELATIONSHIP_ESTRANGED_FROM_VERB",
-        "iOpinion": "-120",
+        "iOpinion": "-100",
         "iMinAgeUs": "12",
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {
@@ -195,7 +189,7 @@
         "zType": "RELATIONSHIP_VENGEFUL_AGAINST",
         "Name": "TEXT_RELATIONSHIP_VENGEFUL_AGAINST",
         "NameVerb": "TEXT_RELATIONSHIP_VENGEFUL_AGAINST_VERB",
-        "iOpinion": "-160",
+        "iOpinion": "-100",
         "iMinAgeUs": "15",
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {
@@ -203,8 +197,7 @@
             "RELATIONSHIP_IN_LOVE_WITH",
             "RELATIONSHIP_LOVER_OF",
             "RELATIONSHIP_CONSPIRING_WITH",
-            "RELATIONSHIP_ENDEARED_TO",
-            "RELATIONSHIP_ESTRANGED_FROM"
+            "RELATIONSHIP_ENDEARED_TO"
           ]
         }
       },
@@ -212,30 +205,49 @@
         "zType": "RELATIONSHIP_PLOTTING_AGAINST",
         "Name": "TEXT_RELATIONSHIP_PLOTTING_AGAINST",
         "NameVerb": "TEXT_RELATIONSHIP_PLOTTING_AGAINST_VERB",
-        "iOpinion": "-200",
+        "iOpinion": "-100",
         "iMinAgeUs": "15",
         "aeInvalidateRelationship": {
           "zValue": [
             "RELATIONSHIP_IN_LOVE_WITH",
             "RELATIONSHIP_LOVER_OF",
             "RELATIONSHIP_CONSPIRING_WITH",
-            "RELATIONSHIP_ENDEARED_TO",
-            "RELATIONSHIP_ESTRANGED_FROM",
-            "RELATIONSHIP_VENGEFUL_AGAINST"
+            "RELATIONSHIP_ENDEARED_TO"
           ]
         }
+      },
+      {
+        "zType": "RELATIONSHIP_INTERCEDED_FOR",
+        "Name": "TEXT_RELATIONSHIP_INTERCEDED_FOR",
+        "NameVerb": "TEXT_RELATIONSHIP_INTERCEDED_FOR_VERB",
+        "iOpinion": "60",
+        "iMinAgeUs": "12",
+        "iMinAgeThem": "15"
+      },
+      {
+        "zType": "RELATIONSHIP_INFLUENCED_BY",
+        "Name": "TEXT_RELATIONSHIP_INFLUENCED_BY",
+        "NameVerb": "TEXT_RELATIONSHIP_INFLUENCED_BY_VERB",
+        "iOpinion": "40",
+        "iMinAgeUs": "12",
+        "iMinAgeThem": "15"
+      },
+      {
+        "zType": "RELATIONSHIP_ASSASSINATED_BY",
+        "Name": "TEXT_RELATIONSHIP_ASSASSINATED_BY",
+        "NameVerb": "TEXT_RELATIONSHIP_ASSASSINATED_BY_VERB"
       },
       {
         "zType": "RELATIONSHIP_MADE_HEIR_BY",
         "Name": "TEXT_RELATIONSHIP_MADE_HEIR_BY",
         "NameVerb": "TEXT_RELATIONSHIP_MADE_HEIR_BY_VERB",
-        "iOpinion": "80"
+        "iOpinion": "100"
       },
       {
         "zType": "RELATIONSHIP_BYPASSED_BY",
         "Name": "TEXT_RELATIONSHIP_BYPASSED_BY",
         "NameVerb": "TEXT_RELATIONSHIP_BYPASSED_BY_VERB",
-        "iOpinion": "-40"
+        "iOpinion": "-60"
       },
       {
         "zType": "RELATIONSHIP_DIVORCED_BY",

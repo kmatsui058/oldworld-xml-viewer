@@ -13,6 +13,7 @@ export interface Entry {
   ScaleShort: ZType | string;
   bEnabled?: ZType | string;
   iCognomenModifier?: ZType | string;
+  iDivisions?: ZType;
   azTurnNames?: AzTurnNames;
 }
 export interface AzTurnNames {

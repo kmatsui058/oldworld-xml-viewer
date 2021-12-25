@@ -8,8 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  bCommunityContribution?: ZType | string;
-  Source?: ZType | string;
+  bCommunityContribution: ZType | string;
+  Source: ZType | string;
 }
 export interface ZType {
 }

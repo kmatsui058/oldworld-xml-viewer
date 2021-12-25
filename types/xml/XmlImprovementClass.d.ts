@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GrammaticalGenders?: ZType;
   CustomName?: ZType | string;
   iMaxCultureCount?: ZType | string;
   bNoAdjacent?: ZType | string;

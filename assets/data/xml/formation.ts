@@ -9,6 +9,9 @@
         "UnitAsset": {
           
         },
+        "UnitMeshAnimatorAsset": {
+          
+        },
         "UnitPortraitAsset": {
           
         },
@@ -305,6 +308,7 @@
       {
         "zType": "FORMATION_SLINGER",
         "UnitAsset": "ASSET_UNIT_SLINGER",
+        "UnitMeshAnimatorAsset": "ASSET_UNIT_SLINGER_MESH_ANIMATOR",
         "UnitPortraitAsset": "ASSET_UNIT_PORTRAIT_SLINGER",
         "UnitProjectileAsset": "ASSET_UNIT_SLINGER_PROJECTILE",
         "UnitProjectileImpactAudio": "AUDIO_UNIT_PROJECTILE_IMPACT_SLINGER_ROCK",

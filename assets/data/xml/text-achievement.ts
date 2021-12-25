@@ -6,869 +6,881 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_NO_UNDO",
-        "English": "Won with No Undo"
+        "en-US": "Won with No Undo"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_LEADERS",
-        "English": "Won with Randomized Leaders"
+        "en-US": "Won with Randomized Leaders"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_RANDOMIZE_FAMILIES",
-        "English": "Won with Randomized Families"
+        "en-US": "Won with Randomized Families"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_ROLE_PLAYING",
-        "English": "Won with Role Playing Events"
+        "en-US": "Won with Role Playing Events"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_ONE_CITY_CHALLENGE",
-        "English": "Won One City Challenge"
+        "en-US": "Won One City Challenge"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_NO_CHARACTERS",
-        "English": "Won with No Characters"
+        "en-US": "Won with No Characters"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_ALL_NATIONS",
-        "English": "Won a game against All Nations"
+        "en-US": "Won a game against All Nations"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_POINTS",
-        "English": "Won Points Victory"
+        "en-US": "Won Points Victory"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_DOUBLE",
-        "English": "Won Double Victory"
+        "en-US": "Won Double Victory"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_AMBITION",
-        "English": "Won Ambition Victory"
+        "en-US": "Won Ambition Victory"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_TIME",
-        "English": "Won Time Victory"
+        "en-US": "Won Time Victory"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_VICTORY_CONQUEST",
-        "English": "Won Conquest Victory"
+        "en-US": "Won Conquest Victory"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ALLIANCE_VICTORY",
-        "English": "Helped an ally win a game"
+        "en-US": "Helped an ally win a game"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_EVENTLEVEL_HIGH",
-        "English": "Won with Event Level High"
+        "en-US": "Won with High Event Level"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_MORTALITY_REALISTIC",
-        "English": "Won with Realistic Mortality"
+        "en-US": "Won with Realistic Mortality"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_ABLE",
-        "English": "Won on Able Difficulty"
+        "en-US": "Won on Able Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_JUST",
-        "English": "Won on Just Difficulty"
+        "en-US": "Won on Just Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_GOOD",
-        "English": "Won on Good Difficulty"
+        "en-US": "Won on Good Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_STRONG",
-        "English": "Won on Strong Difficulty"
+        "en-US": "Won on Strong Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_NOBLE",
-        "English": "Won on Noble Difficulty"
+        "en-US": "Won on Noble Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_GLORIOUS",
-        "English": "Won on Glorious Difficulty"
+        "en-US": "Won on Glorious Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_MAGNIFICENT",
-        "English": "Won on Magnificent Difficulty"
+        "en-US": "Won on Magnificent Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DIFFICULTY_GREAT",
-        "English": "Won on Great Difficulty"
+        "en-US": "Won on Great Difficulty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_ASSYRIA",
-        "English": "Won as Assyria"
+        "en-US": "Won as Assyria"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_BABYLONIA",
-        "English": "Won as Babylonia"
+        "en-US": "Won as Babylonia"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_CARTHAGE",
-        "English": "Won as Carthage"
+        "en-US": "Won as Carthage"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_EGYPT",
-        "English": "Won as Egypt"
+        "en-US": "Won as Egypt"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_GREECE",
-        "English": "Won as Greece"
+        "en-US": "Won as Greece"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_PERSIA",
-        "English": "Won as Persia"
+        "en-US": "Won as Persia"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_NATION_ROME",
-        "English": "Won as Rome"
+        "en-US": "Won as Rome"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_LANDOWNERS",
-        "English": "Won with Landowners"
+        "en-US": "Won with Landowners"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_CHAMPIONS",
-        "English": "Won with Champions"
+        "en-US": "Won with Champions"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_STATESMEN",
-        "English": "Won with Statesmen"
+        "en-US": "Won with Statesmen"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_PATRONS",
-        "English": "Won with Patrons"
+        "en-US": "Won with Patrons"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_CLERICS",
-        "English": "Won with Clerics"
+        "en-US": "Won with Clerics"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_SAGES",
-        "English": "Won with Sages"
+        "en-US": "Won with Sages"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_TRADERS",
-        "English": "Won with Traders"
+        "en-US": "Won with Traders"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_ARTISANS",
-        "English": "Won with Artisans"
+        "en-US": "Won with Artisans"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_RIDERS",
-        "English": "Won with Riders"
+        "en-US": "Won with Riders"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILYCLASS_HUNTERS",
-        "English": "Won with Hunters"
+        "en-US": "Won with Hunters"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_GOTW",
-        "English": "Won a Game of the Week"
+        "en-US": "Won a Game of the Week"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_HARDCORE",
-        "English": "Hardcore (Won a game on the Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, AI Play to Win and No Undo)"
+        "en-US": "Hardcore (Won a game on The Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, Play to Win AI, and No Undo)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_WARRIOR",
-        "English": "Became the Warrior"
+        "en-US": "Became the Warrior"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_BRAVE",
-        "English": "Became the Drillmaster"
+        "en-US": "Became the Drillmaster"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_VALIANT",
-        "English": "Became the Valiant"
+        "en-US": "Became the Valiant"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_MIGHTY",
-        "English": "Became the Mighty"
+        "en-US": "Became the Mighty"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_VICTORIOUS",
-        "English": "Became the Victorious"
+        "en-US": "Became the Victorious"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_LION",
-        "English": "Became the Lion"
+        "en-US": "Became the Lion"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_INVINCIBLE",
-        "English": "Became the Invincible"
+        "en-US": "Became the Invincible"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_CAPABLE",
-        "English": "Became the Capable"
+        "en-US": "Became the Capable"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_READY",
-        "English": "Became the Ready"
+        "en-US": "Became the Ready"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_DESTROYER",
-        "English": "Became the Destroyer"
+        "en-US": "Became the Destroyer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_AVENGER",
-        "English": "Became the Avenger"
+        "en-US": "Became the Avenger"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_WHITE_DEATH",
-        "English": "Became the White Death"
+        "en-US": "Became the White Death"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_INTERCESSOR",
-        "English": "Became the Intercessor"
+        "en-US": "Became the Intercessor"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_PEACEMAKER",
-        "English": "Became the Peacemaker"
+        "en-US": "Became the Peacemaker"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_CONQUEROR",
-        "English": "Became the Conqueror"
+        "en-US": "Became the Conqueror"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_SUBJUGATOR",
-        "English": "Became the Subjugator"
+        "en-US": "Became the Subjugator"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_RESTORER",
-        "English": "Became the Restorer"
+        "en-US": "Became the Restorer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_LIBERATOR",
-        "English": "Became the Liberator"
+        "en-US": "Became the Liberator"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_SETTLER",
-        "English": "Became the Settler"
+        "en-US": "Became the Settler"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_PIONEER",
-        "English": "Became the Pioneer"
+        "en-US": "Became the Pioneer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_AMBITIOUS",
-        "English": "Became the Ambitious"
+        "en-US": "Became the Ambitious"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_BRILLIANT",
-        "English": "Became the Brilliant"
+        "en-US": "Became the Brilliant"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_BELOVED",
-        "English": "Became the Beloved"
+        "en-US": "Became the Beloved"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_REBUILDER",
-        "English": "Became the Rebuilder"
+        "en-US": "Became the Rebuilder"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_MASON",
-        "English": "Became the Mason"
+        "en-US": "Became the Mason"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_ARCHITECT",
-        "English": "Became the Architect"
+        "en-US": "Became the Architect"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_KEYSTONE",
-        "English": "Became the Keystone"
+        "en-US": "Became the Keystone"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_FOUNTAINHEAD",
-        "English": "Became the Fountainhead"
+        "en-US": "Became the Fountainhead"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_DEVOUT",
-        "English": "Became the Devout"
+        "en-US": "Became the Devout"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_HOLY",
-        "English": "Became the Holy"
+        "en-US": "Became the Holy"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_EXPLORER",
-        "English": "Became the Explorer"
+        "en-US": "Became the Explorer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_INTREPID",
-        "English": "Became the Intrepid"
+        "en-US": "Became the Intrepid"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_LEARNED",
-        "English": "Became the Learned"
+        "en-US": "Became the Learned"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_ENLIGHTENED",
-        "English": "Became the Enlightened"
+        "en-US": "Became the Enlightened"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_WISE",
-        "English": "Became the Wise"
+        "en-US": "Became the Wise"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_OLD",
-        "English": "Became the Old"
+        "en-US": "Became the Old"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_ANCIENT",
-        "English": "Became the Ancient"
+        "en-US": "Became the Ancient"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_ABLE",
-        "English": "Became the Able"
+        "en-US": "Became the Able"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_JUST",
-        "English": "Became the Just"
+        "en-US": "Became the Just"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_GOOD",
-        "English": "Became the Good"
+        "en-US": "Became the Good"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_STRONG",
-        "English": "Became the Strong"
+        "en-US": "Became the Strong"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_NOBLE",
-        "English": "Became the Noble"
+        "en-US": "Became the Noble"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_GLORIOUS",
-        "English": "Became the Glorious"
+        "en-US": "Became the Glorious"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_MAGNIFICENT",
-        "English": "Became the Magnificent"
+        "en-US": "Became the Magnificent"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_GREAT",
-        "English": "Became the Great"
+        "en-US": "Became the Great"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_ZOROASTRIANISM",
-        "English": "Founded Zoroastrianism"
+        "en-US": "Founded Zoroastrianism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_JUDAISM",
-        "English": "Founded Judaism"
+        "en-US": "Founded Judaism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_CHRISTIANITY",
-        "English": "Founded Christianity"
+        "en-US": "Founded Christianity"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_MANICHAEISM",
-        "English": "Founded Manichaeism"
+        "en-US": "Founded Manichaeism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_ASSYRIA",
-        "English": "Founded Assyrian Paganism"
+        "en-US": "Founded Assyrian Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_BABYLONIA",
-        "English": "Founded Babylonian Paganism"
+        "en-US": "Founded Babylonian Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_CARTHAGE",
-        "English": "Founded Carthaginian Paganism"
+        "en-US": "Founded Carthaginian Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_EGYPT",
-        "English": "Founded Egyptian Paganism"
+        "en-US": "Founded Egyptian Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_GREECE",
-        "English": "Founded Greek Paganism"
+        "en-US": "Founded Greek Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_PERSIA",
-        "English": "Founded Persian Paganism"
+        "en-US": "Founded Persian Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RELIGION_PAGAN_ROME",
-        "English": "Founded Roman Paganism"
+        "en-US": "Founded Roman Paganism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_MYTHOLOGY",
-        "English": "Establish Mythology"
+        "en-US": "Established Mythology"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_VENERATION",
-        "English": "Establish Veneration"
+        "en-US": "Established Veneration"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_LEGALISM",
-        "English": "Establish Legalism"
+        "en-US": "Established Legalism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_REVELATION",
-        "English": "Establish Revelation"
+        "en-US": "Established Revelation"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_DUALISM",
-        "English": "Establish Dualism"
+        "en-US": "Established Dualism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_GNOSTICISM",
-        "English": "Establish Gnosticism"
+        "en-US": "Established Gnosticism"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_REDEMPTION",
-        "English": "Establish Redemption"
+        "en-US": "Established Redemption"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THEOLOGY_ENLIGHTENMENT",
-        "English": "Establish Enlightenment"
+        "en-US": "Established Enlightenment"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ONE_TRUE_FAITH",
-        "English": "One True Faith (Have at least 3 cities and spread your State Religion to all of your cities)"
+        "en-US": "One True Faith (Had at least 3 cities and spread your State Religion to all of your cities)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_ZOROASTRIANISM",
-        "English": "Built the Adur Burzen-Mihr"
+        "en-US": "Built the Adur Burzen-Mihr"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_JUDAISM",
-        "English": "Built the Temple of Solomon"
+        "en-US": "Built the Temple of Solomon"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_CHRISTIANITY",
-        "English": "Built the Church of the Holy Sepulchre"
+        "en-US": "Built the Church of the Holy Sepulchre"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HOLY_SITE_MANICHAEISM",
-        "English": "Built the Cao'an"
+        "en-US": "Built the Cao'an"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_PYRAMIDS",
-        "English": "Built the Pyramids"
+        "en-US": "Built the Pyramids"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_GREAT_ZIGGURAT",
-        "English": "Built the Great Ziggurat"
+        "en-US": "Built the Great Ziggurat"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_ORACLE",
-        "English": "Built the Oracle"
+        "en-US": "Built the Oracle"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HANGING_GARDENS",
-        "English": "Built the Hanging Gardens"
+        "en-US": "Built the Hanging Gardens"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_NECROPOLIS",
-        "English": "Built the Necropolis"
+        "en-US": "Built the Necropolis"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_ISHTAR_GATE",
-        "English": "Built the Ishtar Gate"
+        "en-US": "Built the Ishtar Gate"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_LIGHTHOUSE",
-        "English": "Built the Lighthouse"
+        "en-US": "Built the Lighthouse"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_APADANA",
-        "English": "Built the Apadana"
+        "en-US": "Built the Apadana"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_MAUSOLEUM",
-        "English": "Built the Mausoleum"
+        "en-US": "Built the Mausoleum"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_ACROPOLIS",
-        "English": "Built the Acropolis"
+        "en-US": "Built the Acropolis"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_COLOSSUS",
-        "English": "Built the Colossus"
+        "en-US": "Built the Colossus"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_MUSAEUM",
-        "English": "Built the Musaeum"
+        "en-US": "Built the Musaeum"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_CIRCUS_MAXIMUS",
-        "English": "Built the Circus Maximus"
+        "en-US": "Built the Circus Maximus"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_PANTHEON",
-        "English": "Built the Pantheon"
+        "en-US": "Built the Pantheon"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_HAGIA_SOPHIA",
-        "English": "Built the Hagia Sophia"
+        "en-US": "Built the Hagia Sophia"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_IMPROVEMENT_VIA_RECTA_SOUK",
-        "English": "Built the Via Recta Souk"
+        "en-US": "Built the Via Recta Souk"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
-        "English": "Researched Industrial Progress"
+        "en-US": "Researched Industrial Progress"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
-        "English": "Researched Military Prestige"
+        "en-US": "Researched Military Prestige"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_TECH_ECONOMIC_REFORM",
-        "English": "Researched Economic Reform"
+        "en-US": "Researched Economic Reform"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_SIEGE_TOWER",
-        "English": "Trained Siege Tower"
+        "en-US": "Trained a Siege Tower"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_CIMMERIAN_ARCHER",
-        "English": "Trained Cimmerian Archer"
+        "en-US": "Trained a Cimmerian Archer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_TURRETED_ELEPHANT",
-        "English": "Trained Turreted Elephant"
+        "en-US": "Trained a Turreted Elephant"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_KUSHITE_CAVALRY",
-        "English": "Trained Kushite Cavalry"
+        "en-US": "Trained a Kushite Cavalry"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_PHALANGITE",
-        "English": "Trained Phalangite"
+        "en-US": "Trained a Phalangite"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_CATAPHRACT_ARCHER",
-        "English": "Trained Cataphract Archer"
+        "en-US": "Trained a Cataphract Archer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UNIT_LEGIONARY",
-        "English": "Trained Legionary"
+        "en-US": "Trained a Legionary"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CULTURE_DEVELOPING",
-        "English": "Five Developing Cities (One Game)"
+        "en-US": "Controlled Five Developing Cities (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CULTURE_STRONG",
-        "English": "Four Strong Cities (One Game)"
+        "en-US": "Controlled Four Strong Cities (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CULTURE_LEGENDARY",
-        "English": "Three Legendary Cities (One Game)"
+        "en-US": "Controlled Three Legendary Cities (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_STAT_TEN_CITIES_CAPTURED",
-        "English": "Captured Ten Cities (One Game)"
+        "en-US": "Captured Ten Cities (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_STAT_TEN_LANDMARKS_NAME",
-        "English": "Named Ten Landmarks (One Game)"
+        "en-US": "Named Ten Landmarks (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_STAT_TEN_LEADERS",
-        "English": "Have Ten Leaders (One Game)"
+        "en-US": "Had Ten Leaders (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_STAT_SEVEN_WONDERS",
-        "English": "Built Seven Wonders (One Game)"
+        "en-US": "Built Seven Wonders (One Game)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_TRADE_CARAVAN",
-        "English": "Completed a caravan trade mission"
+        "en-US": "Completed a Caravan Trade Mission"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ASSASSINATED_ANOTHER_LEADER",
-        "English": "Regicide (Assassinated another nation's Leader)"
+        "en-US": "Regicide (Assassinated another nation's Leader)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ASSASSINATED_HEIR",
-        "English": "Future Regicide (Assassinated your Heir)"
+        "en-US": "Future Regicide (Assassinated your Heir)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ASSASSINATED_BY_HEIR",
-        "English": "Bad Heir Day (Assassinated by your Heir)"
+        "en-US": "Bad Heir Day (Assassinated by your Heir)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BLADE_OF_THE_MONKEY",
-        "English": "Blade of the Monkey (Assassinated by a monkey)"
+        "en-US": "Blade of the Monkey (Assassinated by a monkey)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_1",
-        "English": "Completed Learn to Play Scenario 1"
+        "en-US": "Completed Learn to Play Scenario 1"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_2",
-        "English": "Completed Learn to Play Scenario 2"
+        "en-US": "Completed Learn to Play Scenario 2"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_3",
-        "English": "Completed Learn to Play Scenario 3"
+        "en-US": "Completed Learn to Play Scenario 3"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_4",
-        "English": "Completed Learn to Play Scenario 4"
+        "en-US": "Completed Learn to Play Scenario 4"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_LEARNTOPLAY_5",
+        "en-US": "Completed Learn to Play Scenario 5"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION",
-        "English": "Survived the Barbarian Invasion"
+        "en-US": "Survived the Barbarian Horde"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION_GREAT_RAGING",
+        "en-US": "Survived the Barbarian Horde on The Great difficulty against Raging tribes"
+      },
+      {
+        "zType": "TEXT_ACHIEVEMENT_BARBARIAN_INVASION_MULTIPLAYER",
+        "en-US": "Survived the Barbarian Horde with friends"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_1",
-        "English": "Completed Carthage Scenario 1"
+        "en-US": "Completed Carthage Scenario 1"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_1_BRONZE",
-        "English": "Bronze Victory (Carthage Scenario 1)"
+        "en-US": "Bronze Victory (Carthage Scenario 1)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_1_SILVER",
-        "English": "Silver Victory (Carthage Scenario 1)"
+        "en-US": "Silver Victory (Carthage Scenario 1)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_1_GOLD",
-        "English": "Gold Victory (Carthage Scenario 1)"
+        "en-US": "Gold Victory (Carthage Scenario 1)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_1_EPIC",
-        "English": "Epic Victory (Carthage Scenario 1)"
+        "en-US": "Epic Victory (Carthage Scenario 1)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_2",
-        "English": "Completed Carthage Scenario 2"
+        "en-US": "Completed Carthage Scenario 2"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_2_BRONZE",
-        "English": "Bronze Victory (Carthage Scenario 2)"
+        "en-US": "Bronze Victory (Carthage Scenario 2)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_2_SILVER",
-        "English": "Silver Victory (Carthage Scenario 2)"
+        "en-US": "Silver Victory (Carthage Scenario 2)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_2_GOLD",
-        "English": "Gold Victory (Carthage Scenario 2)"
+        "en-US": "Gold Victory (Carthage Scenario 2)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_2_EPIC",
-        "English": "Epic Victory (Carthage Scenario 2)"
+        "en-US": "Epic Victory (Carthage Scenario 2)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_3",
-        "English": "Completed Carthage Scenario 3"
+        "en-US": "Completed Carthage Scenario 3"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_3_BRONZE",
-        "English": "Bronze Victory (Carthage Scenario 3)"
+        "en-US": "Bronze Victory (Carthage Scenario 3)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_3_SILVER",
-        "English": "Silver Victory (Carthage Scenario 3)"
+        "en-US": "Silver Victory (Carthage Scenario 3)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_3_GOLD",
-        "English": "Gold Victory (Carthage Scenario 3)"
+        "en-US": "Gold Victory (Carthage Scenario 3)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_3_EPIC",
-        "English": "Epic Victory (Carthage Scenario 3)"
+        "en-US": "Epic Victory (Carthage Scenario 3)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_4",
-        "English": "Completed Carthage Scenario 4"
+        "en-US": "Completed Carthage Scenario 4"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_4_BRONZE",
-        "English": "Bronze Victory (Carthage Scenario 4)"
+        "en-US": "Bronze Victory (Carthage Scenario 4)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_4_SILVER",
-        "English": "Silver Victory (Carthage Scenario 4)"
+        "en-US": "Silver Victory (Carthage Scenario 4)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_4_GOLD",
-        "English": "Gold Victory (Carthage Scenario 4)"
+        "en-US": "Gold Victory (Carthage Scenario 4)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_4_EPIC",
-        "English": "Epic Victory (Carthage Scenario 4)"
+        "en-US": "Epic Victory (Carthage Scenario 4)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CARTHAGE_CAMPAIGN",
-        "English": "Completed the Carthage Campaign"
+        "en-US": "Completed the Carthage Campaign"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_100_YEARS",
-        "English": "Centenarian (Leader lived to 100 years)"
+        "en-US": "Centenarian (Leader lived to 100 years)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ROMAN_PAPACY",
-        "English": "Roman Papacy (Christianity Holy Site in Roma)"
+        "en-US": "Roman Papacy (Christianity Holy Site in Roma)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILY_FRIENDLY",
-        "English": "Friendly Family (Family friendly with you)"
+        "en-US": "Friendly Family (Family friendly with you)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FAMILY_FURIOUS",
-        "English": "Furious Family (Family furious with you)"
+        "en-US": "Furious Family (Family furious with you)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_MEMPHIS_PYRAMIDS",
-        "English": "Built the Pyramids in Menefer"
+        "en-US": "Built the Pyramids in Menefer"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_UR_GREAT_ZIGGURAT",
-        "English": "Built the Great Ziggurat in Ur"
+        "en-US": "Built the Great Ziggurat in Ur"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DELPHI_ORACLE",
-        "English": "Built the Oracle in Delphi"
+        "en-US": "Built the Oracle in Delphi"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BABYLON_HANGING_GARDENS",
-        "English": "Built the Hanging Gardens in Babylon"
+        "en-US": "Built the Hanging Gardens in Babylon"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_WASET_NECROPOLIS",
-        "English": "Built the Necropolis in Waset"
+        "en-US": "Built the Necropolis in Waset"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BABYLON_ISHTAR_GATE",
-        "English": "Built the Ishtar Gate in Babylon"
+        "en-US": "Built the Ishtar Gate in Babylon"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ALEXANDRIA_LIGHTHOUSE",
-        "English": "Built the Lighthouse in Alexandria"
+        "en-US": "Built the Lighthouse in Alexandria"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_PERSEPOLIS_APADANA",
-        "English": "Built the Apadana in Persepolis"
+        "en-US": "Built the Apadana in Persepolis"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_HALICARNASSUS_MAUSOLEUM",
-        "English": "Built the Mausoleum in Halicarnassus"
+        "en-US": "Built the Mausoleum in Halicarnassus"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ATHENS_ACROPOLIS",
-        "English": "Built the Acropolis in Athens"
+        "en-US": "Built the Acropolis in Athens"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RHODES_COLOSSUS",
-        "English": "Built the Colossus in Rhodes"
+        "en-US": "Built the Colossus in Rhodes"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ALEXANDRIA_MUSAEUM",
-        "English": "Built the Musaeum in Alexandria"
+        "en-US": "Built the Musaeum in Alexandria"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ROMA_CIRCUS_MAXIMUS",
-        "English": "Built the Circus Maximus in Roma"
+        "en-US": "Built the Circus Maximus in Roma"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ROMA_PANTHEON",
-        "English": "Built the Pantheon in Roma"
+        "en-US": "Built the Pantheon in Roma"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
-        "English": "Built the Hagia Sophia in Byzantium"
+        "en-US": "Built the Hagia Sophia in Byzantium"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",
-        "English": "Built the Via Recta Souk in Damascus"
+        "en-US": "Built the Via Recta Souk in Damascus"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_OLD_WORLD_ORDER",
-        "English": "Old World Order (Have Epics, Slavery and Tyranny laws active at the same time)"
+        "en-US": "Old World Order (Had Epics, Slavery, and Tyranny laws active at the same time)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_POWER_TO_THE_PEOPLE",
-        "English": "Power to the People (Have Freedom, Constitution, Legal Code and Tolerance laws active at the same time)"
+        "en-US": "Power to the People (Had Freedom, Constitution, Legal Code, and Tolerance laws active at the same time)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_PANTHEON_OF_GODS",
-        "English": "Pantheon of Gods (Have Polytheism, Divine Rule and Holy War laws active at the same time)"
+        "en-US": "Pantheon of Gods (Had Polytheism, Divine Rule, and Holy War laws active at the same time)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_THE_WORD_OF_GOD",
-        "English": "The Word of God (Have Monotheism, Orthodoxy, Iconography and Pilgrimage laws active at the same time)"
+        "en-US": "The Word of God (Had Monotheism, Orthodoxy, Iconography, and Pilgrimage laws active at the same time)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ELEPHANTINE_ELEPHANT",
-        "English": "Elephantine Elephant (Trained an elephant in Elephantine)"
+        "en-US": "Elephantine Elephant (Trained an elephant in Elephantine)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ALEXANDER_THE_GREAT",
-        "English": "Alexander The Great (Eliminated Persia as Alexander The Great of Greece)"
+        "en-US": "Alexander The Great (Eliminated Persia as Alexander The Great of Greece)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_PUNIC_WARS",
-        "English": "Punic Wars (Eliminated Carthage as Rome)"
+        "en-US": "Punic Wars (Eliminated Carthage as Rome)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_MACEDONIAN_WARS",
-        "English": "Macedonian Wars (Eliminated Greece as Rome)"
+        "en-US": "Macedonian Wars (Eliminated Greece as Rome)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BATTLE_OF_OPIS",
-        "English": "Battle of Opis (Eliminated Babylonia as Persia)"
+        "en-US": "Battle of Opis (Eliminated Babylonia as Persia)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_MEDOBABYLONIAN_CONQUEST",
-        "English": "Medo-Babylonian Conquest (Eliminated Assyria as Babylonia)"
+        "en-US": "Medo-Babylonian Conquest (Eliminated Assyria as Babylonia)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FERTILE_CRESCENT",
-        "English": "Battle of the Fertile Crescent (As either Assyria, Babylonia or Persia defeat the other two)"
+        "en-US": "Battle of the Fertile Crescent (As either Assyria, Babylonia, or Persia, defeated the other two)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_CLEOPATRAS_LOVE",
-        "English": "Cleopatra's Love (As Egyptian Queen married a Roman)"
+        "en-US": "Cleopatra's Love (As Egyptian Queen married a Roman)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ALEXANDER_THE_WHO",
-        "English": "Alexander the Who (Assassinated Alexander before he reached adulthood)"
+        "en-US": "Alexander the Who (Assassinated Alexander before he reached adulthood)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_MERCHANTS_LEVANT",
-        "English": "Merchants of the Levant (Won a OCC game as Traders family)"
+        "en-US": "Merchants of the Levant (Won a OCC game as Traders family)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BEFORE_MONGOL_HORDE",
-        "English": "Before the Mongol Horde was cool (Won only using Riders family)"
+        "en-US": "Before the Mongol Horde was cool (Won using only Riders family)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_KNOWLEDGE_ANCIENTS",
-        "English": "Knowledge of the Ancients (Built a Library and The Musaeum in Thutmosid (Sages) Alexandria)"
+        "en-US": "Knowledge of the Ancients (Built a Library and The Musaeum in Thutmosid (Sages) Alexandria)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COUNCIL_OF_MADNESS",
-        "English": "Council of Madness (Had all three Councillors insane)"
+        "en-US": "Council of Madness (Had all three Councillors insane)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ET_TU_BRUTUS",
-        "English": "Et tu Brutus? (As Rome had Leader assassinated by another Roman family)"
+        "en-US": "Et tu Brutus? (As Rome, had Leader assassinated by another Roman family)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_FIVE_ROUTS",
-        "English": "Five Routs (One unit performs five routs in a row in the same turn)"
+        "en-US": "Five Routs (One unit performed five routs in a row in the same turn)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ETHNIC_DIVERSITY",
-        "English": "Ethnic Diversity (Have a Leader with all 7 ethnicities)"
+        "en-US": "Ethnic Diversity (Had a Leader with all 7 ethnicities)"
       }
     ]
   }

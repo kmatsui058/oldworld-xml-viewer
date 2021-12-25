@@ -6,193 +6,185 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_EFFECTPLAYER_CAPITAL_SOURCE",
-        "English": "in link(CONCEPT_CAPITAL)"
+        "en-US": "in link(CONCEPT_CAPITAL)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_BASE",
-        "English": "Base"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_AMBITION",
-        "English": "Ambition"
-      },
-      {
-        "zType": "TEXT_EFFECTPLAYER_LEGACY",
-        "English": "Legacy"
+        "en-US": "Base"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER",
-        "English": "Spymaster"
+        "en-US": "Spymaster"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_ABLE",
-        "English": "The Able"
+        "en-US": "The Able"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_JUST",
-        "English": "The Just"
+        "en-US": "The Just"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_GOOD",
-        "English": "The Good"
+        "en-US": "The Good"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_STRONG",
-        "English": "The Strong"
+        "en-US": "The Strong"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_NOBLE",
-        "English": "The Noble"
+        "en-US": "The Noble"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_GLORIOUS",
-        "English": "The Glorious"
+        "en-US": "The Glorious"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_MAGNIFICENT",
-        "English": "The Magnificent"
+        "en-US": "The Magnificent"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_GREAT",
-        "English": "The Great"
+        "en-US": "The Great"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_LAW_CONSTITUTION_DECREE",
-        "English": "Decrees in link(CONCEPT_CAPITAL)"
+        "en-US": "Decrees in link(CONCEPT_CAPITAL)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TECH_LABOR_FORCE",
-        "English": "Roads"
+        "en-US": "Roads"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TECH_DRAMA",
-        "English": "Music"
+        "en-US": "Music"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TECH_COINAGE",
-        "English": "Automate link(UNIT_WORKER,2)"
+        "en-US": "Automate link(UNIT_WORKER,2)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TECH_NAVIGATION",
-        "English": "Automate link(UNIT_SCOUT,2)"
+        "en-US": "Automate link(UNIT_SCOUT,2)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_HERO_ARCHETYPE",
-        "English": "link(TRAIT_HERO_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_HERO_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_TACTICIAN_ARCHETYPE",
-        "English": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_COMMANDER_ARCHETYPE",
-        "English": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
-        "English": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_JUDGE_ARCHETYPE",
-        "English": "link(TRAIT_JUDGE_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_JUDGE_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_ORATOR_ARCHETYPE",
-        "English": "link(TRAIT_ORATOR_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_ORATOR_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE",
-        "English": "link(TRAIT_SCHOLAR_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_SCHOLAR_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHOLAR_ARCHETYPE_INQUIRY",
-        "English": "Inquiries in link(CONCEPT_CAPITAL)"
+        "en-US": "Inquiries in link(CONCEPT_CAPITAL)"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_BUILDER_ARCHETYPE",
-        "English": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_BUILDER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_SCHEMER_ARCHETYPE",
-        "English": "link(TRAIT_SCHEMER_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_SCHEMER_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_TRAIT_DIPLOMAT_ARCHETYPE",
-        "English": "link(TRAIT_DIPLOMAT_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_DIPLOMAT_ARCHETYPE) Leader"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_SCIENCE",
-        "English": "High Science"
+        "en-US": "High Science"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_SCIENCE",
-        "English": "Very High Science"
+        "en-US": "Very High Science"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_ORDERS",
-        "English": "Medium Orders"
+        "en-US": "Medium Orders"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_ORDERS",
-        "English": "High Orders"
+        "en-US": "High Orders"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_ORDERS",
-        "English": "Very High Orders"
+        "en-US": "Very High Orders"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_CIVICS",
-        "English": "Low Civics"
+        "en-US": "Low Civics"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_CIVICS",
-        "English": "Medium Civics"
+        "en-US": "Medium Civics"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_CIVICS",
-        "English": "High Civics"
+        "en-US": "High Civics"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_CIVICS",
-        "English": "Very High Civics"
+        "en-US": "Very High Civics"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_TRAINING",
-        "English": "Low Training"
+        "en-US": "Low Training"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_TRAINING",
-        "English": "Medium Training"
+        "en-US": "Medium Training"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_TRAINING",
-        "English": "High Training"
+        "en-US": "High Training"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_TRAINING",
-        "English": "Very High Training"
+        "en-US": "Very High Training"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_LOW_MONEY",
-        "English": "Low Money"
+        "en-US": "Low Money"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_MEDIUM_MONEY",
-        "English": "Medium Money"
+        "en-US": "Medium Money"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_HIGH_MONEY",
-        "English": "High Money"
+        "en-US": "High Money"
       },
       {
         "zType": "TEXT_EFFECTPLAYER_UPKEEP_VERY_HIGH_MONEY",
-        "English": "Very High Money"
+        "en-US": "Very High Money"
       }
     ]
   }

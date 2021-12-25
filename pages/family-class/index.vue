@@ -1,25 +1,17 @@
 <template>
   <section class="section">
-    <h2 class="title is-2">
-      Family Classes
-    </h2>
+    <h2 class="title is-2">Family Classes</h2>
     <table class="table is-fullwidth">
       <thead>
         <tr>
-          <th> Name </th>
+          <th>Name</th>
         </tr>
       </thead>
       <tbody>
         <template v-for="familyClass in familyClasses">
-          <tr
-            :id="familyClass.zType"
-            :key="familyClass.zType"
-          >
+          <tr :id="familyClass.zType" :key="familyClass.zType">
             <td>
-              <nuxt-link
-                :key="familyClass.zType"
-                :to="`/family-class/${familyClass.zType}`"
-              >
+              <nuxt-link :key="familyClass.zType" :to="`/family-class/${familyClass.zType}`">
                 {{ familyClass.name }}
               </nuxt-link>
             </td>
@@ -31,17 +23,19 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
-import familyClasses from '~/assets/data/xml/familyClass'
+import { defineComponent, computed } from '@nuxtjs/composition-api'
+import familyClassesRaw from '~/assets/data/xml/familyClass'
 import FamilyClass from '~/classes/FamilyClass'
 
-@Component({
+export default defineComponent({
+  name: 'FamilyClassIndex',
+  setup() {
+    const familyClasses = computed((): FamilyClass[] => {
+      return familyClassesRaw.Root.Entry.map((item) => {
+        return new FamilyClass(item)
+      }).filter((nation) => nation.name)
+    })
+    return { familyClasses }
+  },
 })
-export default class Index extends Vue {
-  get familyClasses (): FamilyClass[] {
-    return familyClasses.Root.Entry.map((item) => {
-      return new FamilyClass(item)
-    }).filter(nation => nation.name)
-  }
-}
 </script>

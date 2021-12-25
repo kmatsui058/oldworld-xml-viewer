@@ -306,6 +306,36 @@
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
+        "zType": "MEMORYTRIBE_BONUS_BIRDS_OF_A_FEATHER",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_BIRDS_OF_A_FEATHER",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_ABOLISH_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_ABOLISH_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_PLACATED_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_CHILD_LABOR_ABUSES_PLACATED_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_TAKE_THE_MONEY_AND_RUN_0",
+        "Text": "TEXT_MEMORYTRIBE_TAKE_THE_MONEY_AND_RUN_0",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_WAR_MACHINES_RECIPROCAL_GIFT",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_WAR_MACHINES_RECIPROCAL_GIFT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
         "beginGroup": "Character",
         "zType": "MEMORYTRIBE_REBUKED_US",
         "Text": "TEXT_MEMORYTRIBE_REBUKED_US",
@@ -350,6 +380,90 @@
         "zType": "MEMORYTRIBE_COURTIER_WED",
         "Text": "TEXT_MEMORYTRIBE_COURTIER_WED",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_REWARD_FOR_RESCUE",
+        "Text": "TEXT_MEMORYTRIBE_REWARD_FOR_RESCUE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_RITUAL_PARTICIPATION_REWARD",
+        "Text": "TEXT_MEMORYTRIBE_RITUAL_PARTICIPATION_REWARD",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_RITUAL_SUPPORT_REWARD",
+        "Text": "TEXT_MEMORYTRIBE_RITUAL_SUPPORT_REWARD",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_RITUAL_DENIED",
+        "Text": "TEXT_MEMORYTRIBE_RITUAL_DENIED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_FUNDED_RESEARCH",
+        "Text": "TEXT_MEMORYTRIBE_FUNDED_RESEARCH"
+      },
+      {
+        "zType": "MEMORYTRIBE_DISAPPOINTMENT",
+        "Text": "TEXT_MEMORYTRIBE_DISAPPOINTMENT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_RESEARCH_FUNDING_DISAPPOINTMENT",
+        "Text": "TEXT_MEMORYTRIBE_RESEARCH_FUNDING_DISAPPOINTMENT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_FAMINE_RELIEF_NO_HELP",
+        "Text": "TEXT_MEMORYTRIBE_FAMINE_RELIEF_NO_HELP",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_PLOTTING_AND_SCHEMING_DOUBLECROSS_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_PLOTTING_AND_SCHEMING_DOUBLECROSS_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_POWDER_KEG_TRIBAL_RAGE",
+        "Text": "TEXT_MEMORYTRIBE_POWDER_KEG_TRIBAL_RAGE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_POWDER_KEG_TRIBE_PLEASED",
+        "Text": "TEXT_MEMORYTRIBE_POWDER_KEG_TRIBE_PLEASED",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_TRIBAL_DISAPPOINTMENT_NO_COLLABORATION",
+        "Text": "TEXT_MEMORYTRIBE_TRIBAL_DISAPPOINTMENT_NO_COLLABORATION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_ATTEND_HARVEST_FESTIVAL_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_ATTEND_HARVEST_FESTIVAL_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_DO_NOT_ATTEND_HARVEST_FESTIVAL",
+        "Text": "TEXT_MEMORYTRIBE_DO_NOT_ATTEND_HARVEST_FESTIVAL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_REFUSE_TRIBAL_UNIT",
+        "Text": "TEXT_MEMORYTRIBE_REFUSE_TRIBAL_UNIT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_TRIBAL_PARTNERSHIP_REFUSE",
+        "Text": "TEXT_MEMORYTRIBE_TRIBAL_PARTNERSHIP_REFUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_FINDING_RELIGION_WELCOME",
+        "Text": "TEXT_MEMORYTRIBE_FINDING_RELIGION_WELCOME",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
       },
       {
         "beginGroup": "Exploration",
@@ -398,6 +512,21 @@
         "zType": "MEMORYTRIBE_ACCEPTED_MARRIAGE",
         "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_SKIRMISH_HELPED",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_HELPED",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_SKIRMISH_FOUGHT",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_FOUGHT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_SKIRMISH_IGNORED",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_IGNORED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       }
     ]
   }

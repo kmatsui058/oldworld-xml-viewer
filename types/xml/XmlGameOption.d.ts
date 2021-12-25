@@ -14,7 +14,15 @@ export interface Entry {
   bDefaultMultiPlayer?: ZType | string;
   bSinglePlayer?: ZType | string;
   bMultiPlayer?: ZType | string;
-  bDebug?: ZType | string;
+  bDebug?: ZType;
+  DisableWhenActive?: DisableWhenActive;
+}
+export interface DisableWhenActive {
+  Pair?: Pair | Pair[];
+}
+export interface Pair {
+  zIndex: string;
+  bValue: string;
 }
 export interface ZType {
 }

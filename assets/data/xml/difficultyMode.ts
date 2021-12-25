@@ -96,10 +96,6 @@
         "OpponentLevel": "OPPONENTLEVEL_COMPETITIVE",
         "TribeLevel": "TRIBELEVEL_RAGING",
         "Advantage": "ADVANTAGE_NONE"
-      },
-      {
-        "zType": "DIFFICULTYMODE_CUSTOM",
-        "Name": "TEXT_DIFFICULTYMODE_CUSTOM"
       }
     ]
   }

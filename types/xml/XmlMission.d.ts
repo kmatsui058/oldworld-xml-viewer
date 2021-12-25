@@ -28,8 +28,10 @@ export interface Entry {
   bEncyclopedia?: ZType | string;
   MissionRoot?: ZType | string;
   TechPrereq?: ZType | string;
+  Diplomacy?: ZType | string;
   SubjectPlayerEnabled?: ZType | string;
   SubjectCharacter?: ZType | string;
+  SubjectCharacterStart?: ZType | string;
   SubjectCharacterEnabled?: ZType | string;
   SubjectCharacterDisabled?: ZType | string;
   SubjectTarget?: ZType | string;

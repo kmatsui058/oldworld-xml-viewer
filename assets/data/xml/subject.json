@@ -1042,6 +1042,13 @@
 				"bIsSameTeam": "1"
 			},
 			{
+				"zType": "SUBJECT_PLAYER_SAME_TEAM_HUMAN",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"bIsNotUs": "1",
+				"bIsSameTeam": "1",
+				"bHuman": "1"
+			},
+			{
 				"zType": "SUBJECT_PLAYER_DIFF_TEAM",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"bIsNotUs": "1",
@@ -1117,6 +1124,19 @@
 				"Name": "TEXT_SUBJECT_PLAYER_PEACE_OR_TRUCE",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_PEACE_OR_TRUCE",
+				"bIsNotUs": "1",
+				"bHuman": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_ALLIANCE",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_ALLIANCE",
+				"bIsNotUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_ALLIANCE_HUMAN",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_ALLIANCE",
 				"bIsNotUs": "1",
 				"bHuman": "1"
 			},
@@ -1477,19 +1497,6 @@
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_MIN_WINNING",
 				"bIsNotUs": "1"
-			},
-			{
-				"zType": "SUBJECT_PLAYER_ALLIANCE",
-				"Class": "SUBJECTCLASS_PLAYER",
-				"RelationUs": "SUBJECTRELATION_PLAYER_ALLIANCE",
-				"bIsNotUs": "1"
-			},
-			{
-				"zType": "SUBJECT_PLAYER_ALLIANCE_HUMAN",
-				"Class": "SUBJECTCLASS_PLAYER",
-				"RelationUs": "SUBJECTRELATION_PLAYER_ALLIANCE",
-				"bIsNotUs": "1",
-				"bHuman": "1"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_NO_ADOPTED_RELIGION",
@@ -2245,6 +2252,12 @@
 				"RelationUs": "SUBJECTRELATION_TRIBE_PEACE_OR_TRUCE"
 			},
 			{
+				"zType": "SUBJECT_TRIBE_PEACE_OR_TRUCE_COPY",
+				"Name": "TEXT_SUBJECT_TRIBE_PEACE_OR_TRUCE",
+				"Class": "SUBJECTCLASS_TRIBE",
+				"RelationUs": "SUBJECTRELATION_TRIBE_PEACE_OR_TRUCE"
+			},
+			{
 				"zType": "SUBJECT_TRIBE_NO_ALLIANCE",
 				"Name": "TEXT_SUBJECT_TRIBE_NO_ALLIANCE",
 				"Class": "SUBJECTCLASS_TRIBE",
@@ -2429,6 +2442,11 @@
 				"iMinCamps": "8"
 			},
 			{
+				"zType": "SUBJECT_TRIBE_FUNDED_RESEARCH",
+				"Class": "SUBJECTCLASS_TRIBE",
+				"MemoryTribePrereq": "MEMORYTRIBE_FUNDED_RESEARCH"
+			},
+			{
 				"zType": "SUBJECT_RELIGION",
 				"Class": "SUBJECTCLASS_RELIGION"
 			},
@@ -2517,6 +2535,11 @@
 				"zType": "SUBJECT_CITY_MANICHAEAN_HOLY_SITE",
 				"Class": "SUBJECTCLASS_CITY",
 				"ImprovementCity": "IMPROVEMENT_HOLY_SITE_MANICHAEISM"
+			},
+			{
+				"zType": "SUBJECT_CITY_STRONGHOLD",
+				"Class": "SUBJECTCLASS_CITY",
+				"ImprovementCity": "IMPROVEMENT_GARRISON_2"
 			},
 			{
 				"zType": "SUBJECT_RELIGION_ASSYRIA",
@@ -3368,6 +3391,12 @@
 				"bIsUsOrThem": "1"
 			},
 			{
+				"zType": "SUBJECT_CHARACTER_US_OR_THEM_HUMAN_OR_AI",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bIsUsOrThem": "1",
+				"bHumanOrAI": "1"
+			},
+			{
 				"zType": "SUBJECT_CHARACTER_DEAD_US",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bIsUs": "1",
@@ -3379,6 +3408,13 @@
 				"bIsUs": "1",
 				"bDead": "1",
 				"bHasFamily": "1"
+			},
+			{
+				"zType": "SUBJECT_WAS_FAMILY_HEAD_DEAD_US",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bIsUs": "1",
+				"bDead": "1",
+				"bWasFamilyHead": "1"
 			},
 			{
 				"zType": "SUBJECT_CHARACTER_DEAD_THEM",
@@ -3493,6 +3529,13 @@
 				"zType": "SUBJECT_LEADER_US_MIN_REIGN_5",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"iMinReign": "5",
+				"bIsUs": "1",
+				"bLeader": "1"
+			},
+			{
+				"zType": "SUBJECT_LEADER_US_MAX_REIGN_5",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"iMaxReign": "5",
 				"bIsUs": "1",
 				"bLeader": "1"
 			},
@@ -3650,6 +3693,12 @@
 			{
 				"comment": "In line of succession to the human nation",
 				"zType": "SUBJECT_SUCCESSION_US",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bIsUs": "1",
+				"bSuccession": "1"
+			},
+			{
+				"zType": "SUBJECT_SUCCESSION_US_COPY",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bIsUs": "1",
 				"bSuccession": "1"
@@ -6031,21 +6080,6 @@
 				"TraitPrereq": "TRAIT_HORSE"
 			},
 			{
-				"zType": "SUBJECT_OVERSEER_OF_THE_FIELDS",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_OVERSEER_OF_THE_FIELDS"
-			},
-			{
-				"zType": "SUBJECT_POSSESSOR_OF_VENERATION",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_POSSESSOR_OF_VENERATION"
-			},
-			{
-				"zType": "SUBJECT_STEWARD_OF_THE_CHAMBER",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_STEWARD_OF_THE_CHAMBER"
-			},
-			{
 				"zType": "SUBJECT_GODS_CONSORT",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_GODS_CONSORT"
@@ -6102,6 +6136,16 @@
 				"MemoryCharacterPrereq": "MEMORYCHARACTER_LIED_TO"
 			},
 			{
+				"zType": "SUBJECT_CHARACTER_FAVORED_SPOUSE",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"MemoryCharacterPrereq": "MEMORYCHARACTER_FAVORED_SPOUSE"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_DISFAVORED_SPOUSE",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"MemoryCharacterPrereq": "MEMORYCHARACTER_DISFAVORED_SPOUSE"
+			},
+			{
 				"comment": "If a leader demanded money ransom",
 				"zType": "SUBJECT_CHARACTER_DEMANDED_MONEY",
 				"Class": "SUBJECTCLASS_CHARACTER",
@@ -6144,6 +6188,13 @@
 				"zType": "SUBJECT_CITY_THEM",
 				"Class": "SUBJECTCLASS_CITY",
 				"bIsNotUs": "1",
+				"bHasPlayer": "1"
+			},
+			{
+				"zType": "SUBJECT_CITY_THEM_HUMAN_OR_AI",
+				"Class": "SUBJECTCLASS_CITY",
+				"bIsNotUs": "1",
+				"bHumanOrAI": "1",
 				"bHasPlayer": "1"
 			},
 			{
@@ -6707,6 +6758,18 @@
 				"bCityTerritory": "1"
 			},
 			{
+				"zType": "SUBJECT_TILE_STRONGHOLD",
+				"Class": "SUBJECTCLASS_TILE",
+				"ImprovementTile": "IMPROVEMENT_GARRISON_2",
+				"bCityTerritory": "1"
+			},
+			{
+				"zType": "SUBJECT_TILE_FORT",
+				"Class": "SUBJECTCLASS_TILE",
+				"ImprovementTile": "IMPROVEMENT_FORT",
+				"bCityTerritory": "1"
+			},
+			{
 				"comment": "Water tile with Coastal terrain type",
 				"zType": "SUBJECT_TILE_COASTAL_WATER",
 				"Class": "SUBJECTCLASS_TILE",
@@ -6805,6 +6868,11 @@
 				"Character": "CHARACTER_SUITOR_TEMP"
 			},
 			{
+				"zType": "SUBJECT_SUITOR_TEMP_GOOD",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_SUITOR_TEMP_GOOD"
+			},
+			{
 				"zType": "SUBJECT_SUITOR_TEMP_BAD",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"Character": "CHARACTER_SUITOR_TEMP_BAD"
@@ -6883,21 +6951,6 @@
 				"zType": "SUBJECT_DEAR_COMPANION",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"Character": "CHARACTER_DEAR_COMPANION"
-			},
-			{
-				"zType": "SUBJECT_MATCH_FEMALE_BAD",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"Character": "CHARACTER_MATCH_FEMALE_BAD"
-			},
-			{
-				"zType": "SUBJECT_MATCH_FEMALE_NEUTRAL",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"Character": "CHARACTER_MATCH_FEMALE_NEUTRAL"
-			},
-			{
-				"zType": "SUBJECT_MATCH_FEMALE_GOOD",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"Character": "CHARACTER_MATCH_FEMALE_GOOD"
 			},
 			{
 				"zType": "SUBJECT_CATO",
@@ -7113,6 +7166,12 @@
 				"zType": "SUBJECT_PLAYER_REJECTED_DESTINY_CHILD",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"MemoryPlayerPrereq": "MEMORYPLAYER_REJECTED_DESTINY_CHILD",
+				"bIsUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_FUNDED_MILITARY_RESEARCH",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"MemoryPlayerPrereq": "MEMORYPLAYER_FUNDED_RESEARCH",
 				"bIsUs": "1"
 			},
 			{

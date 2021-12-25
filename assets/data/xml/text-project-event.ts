@@ -6,289 +6,289 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_PROJECT_SWORD_CULT",
-        "English": "Sword Cult"
+        "en-US": "Sword Cult"
       },
       {
         "zType": "TEXT_PROJECT_SWORD_CULT_TITHE",
-        "English": "Sword Cult Tithe"
+        "en-US": "Sword Cult Tithe"
       },
       {
         "zType": "TEXT_PROJECT_HOSTILE_GARRISON",
-        "English": "Hostile Garrison"
+        "en-US": "Hostile Garrison"
       },
       {
         "zType": "TEXT_PROJECT_PUBLIC_MURAL",
-        "English": "Public Mural"
+        "en-US": "Public Mural"
       },
       {
         "zType": "TEXT_PROJECT_TRIUMPH",
-        "English": "Triumph"
+        "en-US": "Triumph"
       },
       {
         "zType": "TEXT_PROJECT_CULTURAL_PAGEANT",
-        "English": "Cultural Pageant"
+        "en-US": "Cultural Pageant"
       },
       {
         "zType": "TEXT_PROJECT_CRUMBLING_ZIGGURAT",
-        "English": "The Ziggurat Crumbles"
+        "en-US": "The Ziggurat Crumbles"
       },
       {
         "zType": "TEXT_PROJECT_PURPLE_DYE",
-        "English": "Purple Dye"
+        "en-US": "Purple Dye"
       },
       {
         "zType": "TEXT_PROJECT_PROPAGANDA",
-        "English": "Propaganda"
+        "en-US": "Propaganda"
       },
       {
         "zType": "TEXT_PROJECT_CHILD_LABOR",
-        "English": "Child Labor"
+        "en-US": "Child Labor"
       },
       {
         "zType": "TEXT_PROJECT_CORRUPTION_REFORM",
-        "English": "Corruption Reform"
+        "en-US": "Corruption Reform"
       },
       {
         "zType": "TEXT_PROJECT_ROYAL_INSCRIPTIONS",
-        "English": "Royal Inscriptions"
+        "en-US": "Royal Inscriptions"
       },
       {
         "zType": "TEXT_PROJECT_IMPERIAL_NECROPOLIS",
-        "English": "Imperial Necropolis"
+        "en-US": "Imperial Necropolis"
       },
       {
         "zType": "TEXT_PROJECT_FORCED_DEPORTATIONS",
-        "English": "Forced Deportations"
+        "en-US": "Forced Deportations"
       },
       {
         "zType": "TEXT_PROJECT_GLADIATORS",
-        "English": "Gladiators"
+        "en-US": "Gladiators"
       },
       {
         "zType": "TEXT_PROJECT_PLAYS",
-        "English": "Dramatic Plays"
+        "en-US": "Dramatic Plays"
       },
       {
         "zType": "TEXT_PROJECT_MERCHANT_TOWN",
-        "English": "Merchant Town"
+        "en-US": "Merchant Town"
       },
       {
         "zType": "TEXT_PROJECT_DEN_OF_VICE",
-        "English": "Den of Vice"
+        "en-US": "Den of Vice"
       },
       {
         "zType": "TEXT_PROJECT_OUTBREAK",
-        "English": "Outbreak"
+        "en-US": "Outbreak"
       },
       {
         "zType": "TEXT_PROJECT_MIDWIFERY",
-        "English": "Midwifery"
+        "en-US": "Midwifery"
       },
       {
         "zType": "TEXT_PROJECT_LUXURIOUS_DELIGHTS",
-        "English": "Luxurious Delights"
+        "en-US": "Luxurious Delights"
       },
       {
         "zType": "TEXT_PROJECT_NEIGHBORS_FEAST_PERSIA",
-        "English": "Annual Feast for Persian Guests"
+        "en-US": "Annual Feast for Persian Guests"
       },
       {
         "zType": "TEXT_PROJECT_MISTHOPHORIA",
-        "English": "Misthophoria"
+        "en-US": "Misthophoria"
       },
       {
         "zType": "TEXT_PROJECT_GRAIN_DOLE",
-        "English": "Grain Dole"
+        "en-US": "Grain Dole"
       },
       {
         "zType": "TEXT_PROJECT_FOREIGN_FIGHTERS",
-        "English": "Foreign Fighters"
+        "en-US": "Foreign Fighters"
       },
       {
         "zType": "TEXT_PROJECT_WAR_COUNCIL",
-        "English": "War Council"
+        "en-US": "War Council"
       },
       {
         "zType": "TEXT_PROJECT_SEWER_SYSTEM",
-        "English": "Sewer System"
+        "en-US": "Sewer System"
       },
       {
         "zType": "TEXT_PROJECT_CASE_HARDENING",
-        "English": "Case-Hardening"
+        "en-US": "Case-Hardening"
       },
       {
         "zType": "TEXT_PROJECT_TURPAN_WELLS",
-        "English": "Turpan Wells"
+        "en-US": "Turpan Wells"
       },
       {
         "zType": "TEXT_PROJECT_NATIONAL_HOLIDAY",
-        "English": "National Holiday"
+        "en-US": "National Holiday"
       },
       {
         "zType": "TEXT_PROJECT_SCIENTIFIC_METHOD",
-        "English": "Scientific Method"
+        "en-US": "Scientific Method"
       },
       {
         "zType": "TEXT_PROJECT_PROTECTION_EDICTS",
-        "English": "Protection Edicts"
+        "en-US": "Protection Edicts"
       },
       {
         "zType": "TEXT_PROJECT_HORREUM",
-        "English": "Horreum Storehouse"
+        "en-US": "Horreum Storehouse"
       },
       {
         "zType": "TEXT_PROJECT_AVESTA_TREASURY",
-        "English": "Avesta Treasury"
+        "en-US": "Avesta Treasury"
       },
       {
         "zType": "TEXT_PROJECT_DISEASED_SETTLERS",
-        "English": "Diseased Citizens"
+        "en-US": "Diseased Citizens"
       },
       {
         "zType": "TEXT_PROJECT_TERRACE_LOVE_SHRINE",
-        "English": "Ziggurat Love Shrine"
+        "en-US": "Ziggurat Love Shrine"
       },
       {
         "zType": "TEXT_PROJECT_TERRACE_WISDOM_SHRINE",
-        "English": "Ziggurat Wisdom Shrine"
+        "en-US": "Ziggurat Wisdom Shrine"
       },
       {
         "zType": "TEXT_PROJECT_TERRACE_WAR_SHRINE",
-        "English": "Ziggurat War Shrine"
+        "en-US": "Ziggurat War Shrine"
       },
       {
         "zType": "TEXT_PROJECT_CONSULAR_TRIBUNES",
-        "English": "Consular Tribunes"
+        "en-US": "Consular Tribunes"
       },
       {
         "zType": "TEXT_PROJECT_CONFUCIANISM",
-        "English": "Confucianism"
+        "en-US": "Confucianism"
       },
       {
         "zType": "TEXT_PROJECT_SALT_PRODUCTION",
-        "English": "Salt Production"
+        "en-US": "Salt Production"
       },
       {
         "zType": "TEXT_PROJECT_MANUAL_OF_RHETORIC",
-        "English": "Manual of Rhetoric"
+        "en-US": "Manual of Rhetoric"
       },
       {
         "zType": "TEXT_PROJECT_LOCAL_ASCETIC",
-        "English": "Local Ascetic"
+        "en-US": "Local Ascetic"
       },
       {
         "zType": "TEXT_PROJECT_AUTONOMOUS_RULE",
-        "English": "Autonomous Rule"
+        "en-US": "Autonomous Rule"
       },
       {
         "zType": "TEXT_PROJECT_MONUMENTAL_GATE",
-        "English": "Monumental Gate"
+        "en-US": "Monumental Gate"
       },
       {
         "zType": "TEXT_PROJECT_LEVIATHAN",
-        "English": "Leviathan Skull"
+        "en-US": "Leviathan Skull"
       },
       {
         "zType": "TEXT_PROJECT_GODS_CONSORT_CULT",
-        "English": "God's Consort Cult"
+        "en-US": "God's Consort Cult"
       },
       {
         "zType": "TEXT_PROJECT_LABYRINTH",
-        "English": "Labyrinth"
+        "en-US": "Labyrinth"
       },
       {
         "zType": "TEXT_PROJECT_WORK_OF_ART",
-        "English": "Work of Art"
+        "en-US": "Work of Art"
       },
       {
         "zType": "TEXT_PROJECT_PIRACY_SUPPRESSION",
-        "English": "Piracy Suppression"
+        "en-US": "Piracy Suppression"
       },
       {
         "zType": "TEXT_PROJECT_COHORTES",
-        "English": "Urban Cohorts"
+        "en-US": "Urban Cohorts"
       },
       {
         "zType": "TEXT_PROJECT_HUNT_KILLER",
-        "English": "Hunt for the Killer"
+        "en-US": "Hunt for the Killer"
       },
       {
         "zType": "TEXT_PROJECT_STATUE_OF_DIONYSUS",
-        "English": "Statue of Dionysus"
+        "en-US": "Statue of Dionysus"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_COLLEGES",
-        "English": "Pagan Colleges"
+        "en-US": "Pagan Colleges"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_WAR",
-        "English": "Pagan Cult of War"
+        "en-US": "Pagan Cult of War"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_FIRE",
-        "English": "Pagan Cult of Fire"
+        "en-US": "Pagan Cult of Fire"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_WISDOM",
-        "English": "Pagan Cult of Wisdom"
+        "en-US": "Pagan Cult of Wisdom"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_SUN",
-        "English": "Pagan Cult of the Sun"
+        "en-US": "Pagan Cult of the Sun"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_WATER",
-        "English": "Pagan Cult of the Seas"
+        "en-US": "Pagan Cult of the Seas"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_LOVE",
-        "English": "Pagan Cult of Love"
+        "en-US": "Pagan Cult of Love"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_UNDERWORLD",
-        "English": "Pagan Cult of Death"
+        "en-US": "Pagan Cult of Death"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_HEALING",
-        "English": "Pagan Cult of Healing"
+        "en-US": "Pagan Cult of Healing"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_KINGSHIP",
-        "English": "Pagan Cult of Royalty"
+        "en-US": "Pagan Cult of Royalty"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_HEARTH",
-        "English": "Pagan Cult of the Hearth"
+        "en-US": "Pagan Cult of the Hearth"
       },
       {
         "zType": "TEXT_PROJECT_PAGAN_CULT_HUNTING",
-        "English": "Pagan Cult of Hunting"
+        "en-US": "Pagan Cult of Hunting"
       },
       {
         "zType": "TEXT_PROJECT_FERTILE_SOIL",
-        "English": "Mineral-Rich Soil"
+        "en-US": "Mineral-Rich Soil"
       },
       {
         "zType": "TEXT_PROJECT_IMPROVED_LUDUS",
-        "English": "Improved Education"
+        "en-US": "Improved Education"
       },
       {
         "zType": "TEXT_PROJECT_ATHLETICS_ARCHERY",
-        "English": "Athletic Tradition: Archery"
+        "en-US": "Athletic Tradition: Archery"
       },
       {
         "zType": "TEXT_PROJECT_ATHLETICS_WRESTLING",
-        "English": "Athletic Tradition: Wrestling"
+        "en-US": "Athletic Tradition: Wrestling"
       },
       {
         "zType": "TEXT_PROJECT_ATHLETICS_EQUESTRIAN",
-        "English": "Athletic Tradition: Equestrian"
+        "en-US": "Athletic Tradition: Equestrian"
       }
     ]
   }

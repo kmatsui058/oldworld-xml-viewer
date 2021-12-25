@@ -6,177 +6,177 @@
         "zType": {
           
         },
-        "English": {
+        "en-US": {
           
         }
       },
       {
         "zType": "TEXT_PROMOTION_COMBAT1",
-        "English": "Combat I"
+        "en-US": "Combat I"
       },
       {
         "zType": "TEXT_PROMOTION_COMBAT2",
-        "English": "Combat II"
+        "en-US": "Combat II"
       },
       {
         "zType": "TEXT_PROMOTION_COMBAT3",
-        "English": "Combat III"
+        "en-US": "Combat III"
       },
       {
         "zType": "TEXT_PROMOTION_STRIKE1",
-        "English": "Strike I"
+        "en-US": "Strike I"
       },
       {
         "zType": "TEXT_PROMOTION_STRIKE2",
-        "English": "Strike II"
+        "en-US": "Strike II"
       },
       {
         "zType": "TEXT_PROMOTION_STRIKE3",
-        "English": "Strike III"
+        "en-US": "Strike III"
       },
       {
         "zType": "TEXT_PROMOTION_GUARD1",
-        "English": "Guard I"
+        "en-US": "Guard I"
       },
       {
         "zType": "TEXT_PROMOTION_GUARD2",
-        "English": "Guard II"
+        "en-US": "Guard II"
       },
       {
         "zType": "TEXT_PROMOTION_GUARD3",
-        "English": "Guard III"
+        "en-US": "Guard III"
       },
       {
         "zType": "TEXT_PROMOTION_FOCUS1",
-        "English": "Focus I"
+        "en-US": "Focus I"
       },
       {
         "zType": "TEXT_PROMOTION_FOCUS2",
-        "English": "Focus II"
+        "en-US": "Focus II"
       },
       {
         "zType": "TEXT_PROMOTION_FOCUS3",
-        "English": "Focus III"
+        "en-US": "Focus III"
       },
       {
         "zType": "TEXT_PROMOTION_TRACKER",
-        "English": "Tracker"
+        "en-US": "Tracker"
       },
       {
         "zType": "TEXT_PROMOTION_SWIFT",
-        "English": "Swift"
+        "en-US": "Swift"
       },
       {
         "zType": "TEXT_PROMOTION_EAGLE_EYE",
-        "English": "Eagle Eye"
+        "en-US": "Eagle Eye"
       },
       {
         "zType": "TEXT_PROMOTION_MARKSMAN",
-        "English": "Marksman"
+        "en-US": "Marksman"
       },
       {
         "zType": "TEXT_PROMOTION_AMPHIBIOUS",
-        "English": "Amphibious"
+        "en-US": "Amphibious"
       },
       {
         "zType": "TEXT_PROMOTION_BESIEGER",
-        "English": "Besieger"
+        "en-US": "Besieger"
       },
       {
         "zType": "TEXT_PROMOTION_WARDEN",
-        "English": "Warden"
+        "en-US": "Warden"
       },
       {
         "zType": "TEXT_PROMOTION_TOUGH",
-        "English": "Tough"
+        "en-US": "Tough"
       },
       {
         "zType": "TEXT_PROMOTION_BLOODTHIRSTY",
-        "English": "Bloodthirsty"
+        "en-US": "Bloodthirsty"
       },
       {
         "zType": "TEXT_PROMOTION_HECKLER",
-        "English": "Heckler"
+        "en-US": "Heckler"
       },
       {
         "zType": "TEXT_PROMOTION_STEADFAST",
-        "English": "Steadfast"
+        "en-US": "Steadfast"
       },
       {
         "zType": "TEXT_PROMOTION_HERBALIST",
-        "English": "Herbalist"
+        "en-US": "Herbalist"
       },
       {
         "zType": "TEXT_PROMOTION_HEALER",
-        "English": "Healer"
+        "en-US": "Healer"
       },
       {
         "zType": "TEXT_PROMOTION_HIGHLANDER",
-        "English": "Highlander"
+        "en-US": "Highlander"
       },
       {
         "zType": "TEXT_PROMOTION_RANGER",
-        "English": "Ranger"
+        "en-US": "Ranger"
       },
       {
         "zType": "TEXT_PROMOTION_BRAVE",
-        "English": "Brave"
+        "en-US": "Brave"
       },
       {
         "zType": "TEXT_PROMOTION_SHIELDBEARER",
-        "English": "Shieldbearer"
+        "en-US": "Shieldbearer"
       },
       {
         "zType": "TEXT_PROMOTION_FIERCE",
-        "English": "Fierce"
+        "en-US": "Fierce"
       },
       {
         "zType": "TEXT_PROMOTION_HORSEBANE",
-        "English": "Horsebane"
+        "en-US": "Horsebane"
       },
       {
         "zType": "TEXT_PROMOTION_ENGINEER",
-        "English": "Engineer"
+        "en-US": "Engineer"
       },
       {
         "zType": "TEXT_PROMOTION_SHRAPNEL",
-        "English": "Shrapnel"
+        "en-US": "Shrapnel"
       },
       {
         "zType": "TEXT_PROMOTION_COCKSWAIN",
-        "English": "Cockswain"
+        "en-US": "Cockswain"
       },
       {
         "zType": "TEXT_PROMOTION_GRAPPLER",
-        "English": "Grappler"
+        "en-US": "Grappler"
       },
       {
         "zType": "TEXT_PROMOTION_SEABORN",
-        "English": "Seaborn"
+        "en-US": "Seaborn"
       },
       {
         "zType": "TEXT_PROMOTION_OVERWHELM",
-        "English": "Overwhelm"
+        "en-US": "Overwhelm"
       },
       {
         "zType": "TEXT_PROMOTION_FIRESHIP",
-        "English": "Fireship"
+        "en-US": "Fireship"
       },
       {
         "zType": "TEXT_PROMOTION_LADING",
-        "English": "Lading"
+        "en-US": "Lading"
       },
       {
         "zType": "TEXT_PROMOTION_INGENUITY",
-        "English": "Ingenuity"
+        "en-US": "Ingenuity"
       },
       {
         "zType": "TEXT_PROMOTION_SADDLEBORN",
-        "English": "Saddleborn"
+        "en-US": "Saddleborn"
       },
       {
         "zType": "TEXT_PROMOTION_SENTINEL",
-        "English": "Sentinel"
+        "en-US": "Sentinel"
       }
     ]
   }

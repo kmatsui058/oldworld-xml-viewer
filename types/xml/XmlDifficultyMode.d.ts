@@ -9,11 +9,11 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  Difficulty?: ZType | string;
-  Development?: ZType | string;
-  OpponentLevel?: ZType | string;
-  TribeLevel?: ZType | string;
-  Advantage?: ZType | string;
+  Difficulty: ZType | string;
+  Development: ZType | string;
+  OpponentLevel: ZType | string;
+  TribeLevel: ZType | string;
+  Advantage: ZType | string;
 }
 export interface ZType {
 }

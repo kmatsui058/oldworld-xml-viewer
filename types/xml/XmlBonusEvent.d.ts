@@ -20,7 +20,7 @@ export interface Entry {
   ForgetPlayer?: ZType | string;
   MemoryAllPlayers?: ZType | string;
   MemoryTribe?: ZType | string;
-  ForgetTribe?: ZType;
+  ForgetTribe?: ZType | string;
   MemoryAllTribes?: ZType;
   MemoryReligion?: ZType | string;
   ForgetReligion?: ZType;
@@ -40,15 +40,18 @@ export interface Entry {
   FreeLaw?: ZType | string;
   FoundReligion?: ZType | string;
   FreeTheology?: ZType | string;
-  Quest?: ZType | string;
-  QuestForce?: ZType;
+  Goal?: ZType | string;
+  GoalForce?: ZType;
   Ambition?: ZType | string;
-  FinishGoal?: ZType;
-  FailGoal?: ZType;
+  AmbitionFamily?: ZType | string;
+  AmbitionReligion?: ZType | string;
+  FinishGoal?: ZType | string;
+  FailGoal?: ZType | string;
   Mission?: ZType | string;
   Council?: ZType | string;
   SetArchetype?: ZType | string;
   SetName?: ZType;
+  SetTitle?: ZType | string;
   SetVegetation?: ZType | string;
   SetResource?: ZType | string;
   AddResource?: ZType | string;
@@ -81,7 +84,7 @@ export interface Entry {
   iGovernorOfSubject?: ZType | string;
   iGeneralOfSubject?: ZType | string;
   iJoinSubject?: ZType | string;
-  iJoinReverse?: ZType;
+  iJoinReverse?: ZType | string;
   iSeizeThroneSubject?: ZType | string;
   iSpreadToSubject?: ZType | string;
   iRemoveFromSubject?: ZType | string;
@@ -116,6 +119,7 @@ export interface Entry {
   bFreeTheology?: ZType | string;
   bRandomTech?: ZType | string;
   bDistantRaid?: ZType | string;
+  bLoseAgentNetwork?: ZType;
   bConvertStateReligion?: ZType;
   bNoCourtier?: ZType | string;
   bLeaveCouncil?: ZType | string;
@@ -142,6 +146,7 @@ export interface Entry {
   aiGlobalYieldsPer?: ZType;
   aiOtherYieldsBase?: ZType;
   aiOtherYieldsPer?: ZType;
+  aiYieldsSend?: AiGlobalYieldsBase;
   aiYieldsSendBase?: AiCityYields;
   aiYieldsSendPerUs?: AiCityYields;
   aiYieldsSendPerThem?: ZType;

@@ -66,10 +66,16 @@
         "TechPrereq": {
           
         },
+        "Diplomacy": {
+          
+        },
         "SubjectPlayerEnabled": {
           
         },
         "SubjectCharacter": {
+          
+        },
+        "SubjectCharacterStart": {
           
         },
         "SubjectCharacterEnabled": {
@@ -223,8 +229,7 @@
         "bNoPopup": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_US",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_DIPLOMAT",
+        "SubjectCharacter": "SUBJECT_LEADER_DIPLOMAT",
         "SubjectTarget": "SUBJECT_PLAYER_CAN_ALLIANCE",
         "SubjectTargetEnabled": "SUBJECT_PLAYER_PEACE_FRIENDLY",
         "aiResultDie": {
@@ -299,6 +304,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_PEACE",
+        "Diplomacy": "DIPLOMACY_PEACE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_TRUCE",
         "aiResultDie": {
@@ -330,6 +336,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_PEACE",
+        "Diplomacy": "DIPLOMACY_PEACE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_TRUCE",
         "aiResultDie": {
@@ -361,6 +368,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_PEACE",
+        "Diplomacy": "DIPLOMACY_PEACE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_TRUCE",
         "aiResultDie": {
@@ -436,6 +444,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_TRUCE",
+        "Diplomacy": "DIPLOMACY_TRUCE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_WAR",
         "aiResultDie": {
@@ -467,6 +476,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_TRUCE",
+        "Diplomacy": "DIPLOMACY_TRUCE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_WAR",
         "aiResultDie": {
@@ -498,6 +508,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "MissionRoot": "MISSION_PLAYER_TRUCE",
+        "Diplomacy": "DIPLOMACY_TRUCE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_WAR",
         "aiResultDie": {
@@ -660,8 +671,7 @@
         "bNoPopup": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
-        "SubjectCharacter": "SUBJECT_LEADER_US",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_DIPLOMAT",
+        "SubjectCharacter": "SUBJECT_LEADER_DIPLOMAT",
         "SubjectTarget": "SUBJECT_TRIBE_CAN_ALLIANCE",
         "SubjectTargetEnabled": "SUBJECT_TRIBE_PEACE",
         "aiResultDie": {
@@ -698,6 +708,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
+        "Diplomacy": "DIPLOMACY_PEACE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_TRIBE_TRUCE",
         "SubjectTargetEnabled": "SUBJECT_TRIBE_MIN_PLEASED",
@@ -736,6 +747,7 @@
         "bCharacterNoEvents": "1",
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
+        "Diplomacy": "DIPLOMACY_TRUCE",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_TRIBE_WAR",
         "aiResultDie": {
@@ -887,7 +899,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_CAN_MARRY",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
+        "SubjectCharacterStart": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_PLAYER_PEACE_OR_TRUCE",
         "aiResultDie": {
           "Pair": {
@@ -922,7 +934,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_CAN_MARRY",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
+        "SubjectCharacterStart": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_TRIBE_PEACE_OR_TRUCE",
         "aiResultDie": {
           "Pair": {
@@ -957,7 +969,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_CAN_MARRY",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
+        "SubjectCharacterStart": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_FAMILY_US",
         "aiResultDie": {
           "Pair": {
@@ -992,7 +1004,7 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_CAN_MARRY",
-        "SubjectCharacterEnabled": "SUBJECT_LEADER_OR_DESCENDANT",
+        "SubjectCharacterStart": "SUBJECT_LEADER_OR_DESCENDANT",
         "SubjectTarget": "SUBJECT_COURTIER_US",
         "aiResultDie": {
           "Pair": {
@@ -1130,7 +1142,7 @@
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_LEADER_US",
         "SubjectCharacterEnabled": "SUBJECT_TEENAGER_OR_ADULT",
-        "SubjectTarget": "SUBJECT_CHARACTER_US_OR_THEM",
+        "SubjectTarget": "SUBJECT_CHARACTER_US_OR_THEM_HUMAN_OR_AI",
         "SubjectTargetStart": "SUBJECT_CHARACTER_NOT_ME",
         "SubjectTargetEnabled": "SUBJECT_TEENAGER_OR_ADULT",
         "SubjectTargetDisabled": "SUBJECT_INFLUENCED_BY_LEADER",
@@ -1306,7 +1318,7 @@
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_RELIGION_HEAD_US",
         "SubjectCharacterEnabled": "SUBJECT_CHARACTER_MIN_PLEASED",
-        "SubjectTarget": "SUBJECT_CHARACTER_US_OR_THEM",
+        "SubjectTarget": "SUBJECT_CHARACTER_US_OR_THEM_HUMAN_OR_AI",
         "SubjectTargetStart": "SUBJECT_CHARACTER_NOT_ME",
         "SubjectTargetEnabled": "SUBJECT_TEENAGER_OR_ADULT",
         "SubjectTargetDisabled": "SUBJECT_INTERCEDED_FOR_LEADER",
@@ -1688,13 +1700,17 @@
         "bCharacterUs": "1",
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_AGENT",
-        "SubjectTarget": "SUBJECT_CITY_THEM",
+        "SubjectTarget": "SUBJECT_CITY_THEM_HUMAN_OR_AI",
         "SubjectRelationStart": "SUBJECTRELATION_CITY_SAME",
         "aiResultDie": {
           "Pair": [
             {
               "zIndex": "MISSIONRESULT_TREACHERY_SUCCESS",
-              "iValue": "3"
+              "iValue": "1"
+            },
+            {
+              "zIndex": "MISSIONRESULT_TREACHERY_EXPOSED",
+              "iValue": "1"
             },
             {
               "zIndex": "MISSIONRESULT_TREACHERY_FAILURE",
@@ -1733,7 +1749,7 @@
         "bEncyclopedia": "1",
         "TechPrereq": "TECH_JURISPRUDENCE",
         "SubjectCharacter": "SUBJECT_AGENT",
-        "SubjectTarget": "SUBJECT_CITY_THEM",
+        "SubjectTarget": "SUBJECT_CITY_THEM_HUMAN_OR_AI",
         "SubjectRelationStart": "SUBJECTRELATION_CITY_SAME",
         "aiResultDie": {
           "Pair": [
@@ -1742,7 +1758,7 @@
               "iValue": "1"
             },
             {
-              "zIndex": "MISSIONRESULT_INSURRECTION_DISCONTENT",
+              "zIndex": "MISSIONRESULT_INSURRECTION_EXPOSED",
               "iValue": "1"
             },
             {
@@ -1784,6 +1800,7 @@
         "bEncyclopedia": "1",
         "SubjectCharacter": "SUBJECT_AMBASSADOR",
         "SubjectTarget": "SUBJECT_PLAYER_TRUCE",
+        "SubjectTargetEnabled": "SUBJECT_PLAYER_NOT_MIN_CONFLICT_TURNS",
         "aiResultDie": {
           "Pair": {
             "zIndex": "MISSIONRESULT_DEMAND_TRIBUTE_EVENT",
@@ -2260,12 +2277,6 @@
           "Pair": {
             "zIndex": "YIELD_ORDERS",
             "iValue": "2"
-          }
-        },
-        "aiYieldCostOpinion": {
-          "Pair": {
-            "zIndex": "YIELD_MONEY",
-            "iValue": "200"
           }
         }
       },

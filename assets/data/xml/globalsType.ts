@@ -259,56 +259,40 @@
         "zValue": "NATION_BABYLONIA"
       },
       {
-        "zType": "DEFAULT_OPPONENTLEVEL",
-        "zValue": "OPPONENTLEVEL_NORMAL"
-      },
-      {
-        "zType": "DEFAULT_TRIBELEVEL_SP",
-        "zValue": "TRIBELEVEL_NORMAL"
-      },
-      {
         "zType": "DEFAULT_TRIBELEVEL_PREVIEW",
         "zValue": "TRIBELEVEL_RAGING"
-      },
-      {
-        "zType": "DEFAULT_TRIBELEVEL_MP",
-        "zValue": "TRIBELEVEL_NORMAL"
-      },
-      {
-        "zType": "DEFAULT_DEVELOPMENT_SP",
-        "zValue": "DEVELOPMENT_ESTABLISHED"
-      },
-      {
-        "zType": "DEFAULT_DEVELOPMENT_MP",
-        "zValue": "DEVELOPMENT_NONE"
-      },
-      {
-        "zType": "DEFAULT_ADVANTAGE",
-        "zValue": "ADVANTAGE_NONE"
-      },
-      {
-        "zType": "DEFAULT_DIFFICULTY",
-        "zValue": "DIFFICULTY_GOOD"
-      },
-      {
-        "zType": "CUSTOM_DIFFICULTYMODE",
-        "zValue": "DIFFICULTYMODE_CUSTOM"
       },
       {
         "zType": "DEFAULT_DIFFICULTYMODE",
         "zValue": "DIFFICULTYMODE_JUST"
       },
       {
+        "zType": "DEFAULT_DIFFICULTYMODE_MP",
+        "zValue": "DIFFICULTYMODE_GOOD"
+      },
+      {
+        "zType": "AI_DIFFICULTY",
+        "zValue": "DIFFICULTY_GOOD"
+      },
+      {
         "zType": "DEFAULT_MAPSIZE",
         "zValue": "MAPSIZE_MEDIUM"
       },
       {
-        "zType": "HURRY_CULTURE",
-        "zValue": "CULTURE_DEVELOPING"
+        "zType": "ALLOW_DUPLICATE_NATIONS",
+        "zValue": "TEAMNATION_ALLOW_DUPLICATES"
       },
       {
-        "zType": "SUCCESSIONORDER_LAWCLASS",
-        "zValue": "LAWCLASS_ORDER"
+        "zType": "TEAM_UNIQUE_NATIONS",
+        "zValue": "TEAMNATION_TEAM_UNIQUE"
+      },
+      {
+        "zType": "GAME_UNIQUE_NATIONS",
+        "zValue": "TEAMNATION_GAME_UNIQUE"
+      },
+      {
+        "zType": "HURRY_CULTURE",
+        "zValue": "CULTURE_DEVELOPING"
       },
       {
         "zType": "AMBASSADOR_COUNCIL",
@@ -567,28 +551,12 @@
         "zValue": "PLAYEROPTION_DISABLE_EDGE_SCROLLING"
       },
       {
-        "zType": "MOVE_TO_FATIGUE",
-        "zValue": "PLAYEROPTION_MOVE_TO_FATIGUE"
-      },
-      {
         "zType": "SHOW_ORDERS_COST",
         "zValue": "PLAYEROPTION_SHOW_ORDERS_COST"
       },
       {
-        "zType": "HIDE_MINIMAP",
-        "zValue": "PLAYEROPTION_HIDE_MINIMAP"
-      },
-      {
-        "zType": "HIDE_COUNCIL",
-        "zValue": "PLAYEROPTION_HIDE_COUNCIL"
-      },
-      {
         "zType": "MINI_TECH_CARDS",
         "zValue": "PLAYEROPTION_MINI_TECH_CARDS"
-      },
-      {
-        "zType": "COMPACT_TECH_TREE",
-        "zValue": "PLAYEROPTION_COMPACT_TECH_TREE"
       },
       {
         "zType": "SHOW_SYSTEM_TIME",
@@ -775,40 +743,16 @@
         "zValue": "VICTORY_AMBITION"
       },
       {
+        "zType": "SUCCESSIONORDER_LAWCLASS",
+        "zValue": "LAWCLASS_ORDER"
+      },
+      {
         "zType": "DEFAULT_SUCCESSION_GENDER",
         "zValue": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC"
       },
       {
         "zType": "DEFAULT_SUCCESSION_ORDER",
         "zValue": "SUCCESSIONORDER_PRIMOGENITURE"
-      },
-      {
-        "zType": "DEFAULT_MAP_ELEMENT_NAMES",
-        "zValue": "MAP_ELEMENT_NAMES_GENERIC"
-      },
-      {
-        "zType": "TEAM_DIPLOMACY",
-        "zValue": "DIPLOMACY_TEAM"
-      },
-      {
-        "zType": "PEACE_DIPLOMACY",
-        "zValue": "DIPLOMACY_PEACE"
-      },
-      {
-        "zType": "TRUCE_DIPLOMACY",
-        "zValue": "DIPLOMACY_TRUCE"
-      },
-      {
-        "zType": "WAR_DIPLOMACY",
-        "zValue": "DIPLOMACY_WAR"
-      },
-      {
-        "zType": "FEMALE_GENDER",
-        "zValue": "GENDER_FEMALE"
-      },
-      {
-        "zType": "MALE_GENDER",
-        "zValue": "GENDER_MALE"
       },
       {
         "zType": "PRIMOGENITURE_SUCCESSIONORDER",
@@ -837,6 +781,34 @@
       {
         "zType": "RANDOM_SUCCESSIONGENDER",
         "zValue": "SUCCESSIONGENDER_RANDOM"
+      },
+      {
+        "zType": "DEFAULT_MAP_ELEMENT_NAMES",
+        "zValue": "MAP_ELEMENT_NAMES_GENERIC"
+      },
+      {
+        "zType": "TEAM_DIPLOMACY",
+        "zValue": "DIPLOMACY_TEAM"
+      },
+      {
+        "zType": "PEACE_DIPLOMACY",
+        "zValue": "DIPLOMACY_PEACE"
+      },
+      {
+        "zType": "TRUCE_DIPLOMACY",
+        "zValue": "DIPLOMACY_TRUCE"
+      },
+      {
+        "zType": "WAR_DIPLOMACY",
+        "zValue": "DIPLOMACY_WAR"
+      },
+      {
+        "zType": "FEMALE_GENDER",
+        "zValue": "GENDER_FEMALE"
+      },
+      {
+        "zType": "MALE_GENDER",
+        "zValue": "GENDER_MALE"
       },
       {
         "zType": "PLAYER_US_SUBJECT",
@@ -1063,12 +1035,12 @@
         "zValue": "EVENTTRIGGER_AMBITION_FINISHED"
       },
       {
-        "zType": "QUEST_FINISHED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_QUEST_FINISHED"
+        "zType": "GOAL_FINISHED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GOAL_FINISHED"
       },
       {
-        "zType": "QUEST_FAILED_EVENTTRIGGER",
-        "zValue": "EVENTTRIGGER_QUEST_FAILED"
+        "zType": "GOAL_FAILED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GOAL_FAILED"
       },
       {
         "zType": "MISSION_FINISHED_EVENTTRIGGER",
@@ -1267,20 +1239,24 @@
         "zValue": "MEMORYFAMILY_REGAINED_CITY"
       },
       {
-        "zType": "LOST_CITY_MEMORY",
-        "zValue": "MEMORYFAMILY_LOST_CITY"
-      },
-      {
         "zType": "GIVEN_CITY_MEMORY",
         "zValue": "MEMORYFAMILY_GIVEN_CITY"
       },
       {
-        "zType": "OUR_AMBITION_MEMORY",
+        "zType": "OUR_AMBITION_MEMORY_FAMILY",
         "zValue": "MEMORYFAMILY_OUR_AMBITION"
       },
       {
-        "zType": "OUR_LEGACY_MEMORY",
+        "zType": "OUR_LEGACY_MEMORY_FAMILY",
         "zValue": "MEMORYFAMILY_OUR_LEGACY"
+      },
+      {
+        "zType": "OUR_AMBITION_MEMORY_RELIGION",
+        "zValue": "MEMORYRELIGION_OUR_AMBITION"
+      },
+      {
+        "zType": "OUR_LEGACY_MEMORY_RELIGION",
+        "zValue": "MEMORYRELIGION_OUR_LEGACY"
       },
       {
         "zType": "ADOPTED_RELIGION_MEMORY",
@@ -1571,22 +1547,6 @@
         "zValue": "BORDER_PATTERN_TRIANGLE"
       },
       {
-        "zType": "ALLOW_DUPLICATE_NATIONS",
-        "zValue": "TEAMNATION_ALLOW_DUPLICATES"
-      },
-      {
-        "zType": "GAME_UNIQUE_NATIONS",
-        "zValue": "TEAMNATION_GAME_UNIQUE"
-      },
-      {
-        "zType": "TEAM_UNIQUE_NATIONS",
-        "zValue": "TEAMNATION_TEAM_UNIQUE"
-      },
-      {
-        "zType": "BARBARIAN_INVASION_ACHIEVEMENT",
-        "zValue": "ACHIEVEMENT_BARBARIAN_INVASION"
-      },
-      {
         "zType": "RANGED_TRAIT",
         "zValue": "UNITTRAIT_RANGED"
       },
@@ -1605,6 +1565,54 @@
       {
         "zType": "INIT_UNIT_FACING",
         "zValue": "DIRECTION_SW"
+      },
+      {
+        "zType": "LEADER_TITLE",
+        "zValue": "TITLE_LEADER"
+      },
+      {
+        "zType": "LEADER_CONSORT_TITLE",
+        "zValue": "TITLE_LEADER_CONSORT"
+      },
+      {
+        "zType": "LEADER_DOWAGER_TITLE",
+        "zValue": "TITLE_LEADER_DOWAGER"
+      },
+      {
+        "zType": "HEIR_TITLE",
+        "zValue": "TITLE_HEIR"
+      },
+      {
+        "zType": "SUCCESSOR_TITLE",
+        "zValue": "TITLE_SUCCESSOR"
+      },
+      {
+        "zType": "HEIR_CONSORT_TITLE",
+        "zValue": "TITLE_HEIR_CONSORT"
+      },
+      {
+        "zType": "SUCCESSOR_CONSORT_TITLE",
+        "zValue": "TITLE_SUCCESSOR_CONSORT"
+      },
+      {
+        "zType": "GENERAL_TITLE",
+        "zValue": "TITLE_GENERAL"
+      },
+      {
+        "zType": "FAMILY_HEAD_TITLE",
+        "zValue": "TITLE_FAMILY_HEAD"
+      },
+      {
+        "zType": "RELIGION_HEAD_TITLE",
+        "zValue": "TITLE_RELIGION_HEAD"
+      },
+      {
+        "zType": "GOVERNOR_TITLE",
+        "zValue": "TITLE_GOVERNOR"
+      },
+      {
+        "zType": "AGENT_TITLE",
+        "zValue": "TITLE_AGENT"
       }
     ]
   }

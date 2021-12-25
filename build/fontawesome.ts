@@ -1,5 +1,4 @@
-const solid: string[] = ['faBug'
-]
+const solid: string[] = ['faBug']
 
 const regular: string[] = []
 

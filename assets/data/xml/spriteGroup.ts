@@ -175,7 +175,10 @@
       {
         "zType": "SPRITE_GROUP_TRAIT_ICONS",
         "aeSpriteSheets": {
-          "zValue": "ASSET_SPRITE_SHEET_TRAITS"
+          "zValue": [
+            "ASSET_SPRITE_SHEET_TRAITS",
+            "ASSET_SPRITE_SHEET_TRAITS_SMALL_SILVER"
+          ]
         }
       },
       {

@@ -9,10 +9,10 @@
   </div>
 </template>
 <script lang="ts">
-import { Vue, Component } from 'nuxt-property-decorator'
+import { defineComponent } from '@nuxtjs/composition-api'
 import CommonHeader from '@/components/CommonHeader.vue'
-@Component({ components: { CommonHeader } })
-export default class Default extends Vue {
-
-}
+export default defineComponent({
+  name: 'DefaultLayout',
+  components: { CommonHeader },
+})
 </script>

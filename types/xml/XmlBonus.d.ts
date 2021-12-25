@@ -40,15 +40,18 @@ export interface Entry {
   FreeLaw?: CharacterName;
   FoundReligion?: CharacterName;
   FreeTheology?: CharacterName;
-  Quest?: CharacterName;
-  QuestForce?: CharacterName;
+  Goal?: CharacterName;
+  GoalForce?: CharacterName;
   Ambition?: ZType | Name2 | string;
+  AmbitionFamily?: CharacterName;
+  AmbitionReligion?: CharacterName;
   FinishGoal?: CharacterName;
   FailGoal?: CharacterName;
   Mission?: CharacterName;
   Council?: ZType | Name2 | string;
   SetArchetype?: ZType | Name2 | string;
   SetName?: CharacterName;
+  SetTitle?: Name2;
   SetVegetation?: CharacterName;
   SetResource?: CharacterName;
   AddResource?: ZType | Name2 | string;
@@ -77,7 +80,7 @@ export interface Entry {
   iDivorcedBySubject?: ZType | Name2 | string;
   iBirthWithSubject?: CharacterName;
   iAdoptedBySubject?: ZType | Name2 | string;
-  iConvertedBySubject?: CharacterName;
+  iConvertedBySubject?: ZType | Name2 | string;
   iGovernorOfSubject?: CharacterName;
   iGeneralOfSubject?: CharacterName;
   iJoinSubject?: CharacterName;
@@ -116,6 +119,7 @@ export interface Entry {
   bFreeTheology?: ZType | Name2 | string;
   bRandomTech?: ZType | Name2 | string;
   bDistantRaid?: CharacterName;
+  bLoseAgentNetwork?: Name2 | string;
   bConvertStateReligion?: ZType | Name2 | string;
   bNoCourtier?: ZType | Name2 | string;
   bLeaveCouncil?: ZType | Name2 | string;
@@ -142,6 +146,7 @@ export interface Entry {
   aiGlobalYieldsPer?: AiGlobalYieldsBase;
   aiOtherYieldsBase?: AiGlobalYieldsBase;
   aiOtherYieldsPer?: AiGlobalYieldsBase;
+  aiYieldsSend?: Name2;
   aiYieldsSendBase?: AiGlobalYieldsBase;
   aiYieldsSendPerUs?: AiGlobalYieldsBase;
   aiYieldsSendPerThem?: CharacterName;

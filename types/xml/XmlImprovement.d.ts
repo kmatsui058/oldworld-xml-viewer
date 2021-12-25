@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GrammaticalGenders?: ZType;
   Hint?: ZType | string;
   Class?: ZType | string;
   AssetVariation: ZType | string;
@@ -65,6 +66,7 @@ export interface Entry {
   bRemoveBonus?: ZType | string;
   bNoAnalytics?: ZType | string;
   bText?: ZType | string;
+  bIgnoreHillHeight?: ZType | string;
   Achievement?: ZType | string;
   NationPrereq?: ZType | string;
   ReligionPrereq?: ZType | string;
@@ -84,17 +86,18 @@ export interface Entry {
   BonusCities?: ZType | string;
   aiYieldCost?: AiYieldCost;
   aiYieldOutput?: AiYieldCost;
-  aiWonderYieldOutput?: AiWonderYieldOutput;
-  aiAdjacentResourceYieldOutput?: AiWonderYieldOutput;
-  aiTradeNetworkYieldOutput?: AiWonderYieldOutput;
-  aiYieldPillage?: AiWonderYieldOutput;
-  aiYieldFreshWaterModifier?: AiWonderYieldOutput;
-  aiYieldRiverModifier?: AiWonderYieldOutput;
-  aiAdjacentImprovementModifier?: AiWonderYieldOutput;
-  aiAdjacentImprovementClassModifier?: AiWonderYieldOutput;
+  aiYieldConsumption?: AiYieldConsumption;
+  aiWonderYieldOutput?: AiYieldConsumption;
+  aiAdjacentResourceYieldOutput?: AiYieldConsumption;
+  aiTradeNetworkYieldOutput?: AiYieldConsumption;
+  aiYieldPillage?: AiYieldConsumption;
+  aiYieldFreshWaterModifier?: AiYieldConsumption;
+  aiYieldRiverModifier?: AiYieldConsumption;
+  aiAdjacentImprovementModifier?: AiYieldConsumption;
+  aiAdjacentImprovementClassModifier?: AiYieldConsumption;
   aiUnitTraitHeal?: ZType;
-  aiUnitTraitXP?: AiWonderYieldOutput;
-  aiUnitDie?: AiWonderYieldOutput;
+  aiUnitTraitXP?: AiYieldConsumption;
+  aiUnitDie?: AiYieldConsumption;
   aiBonusDie?: AiBonusDie;
   abTerrainValid?: AbTerrainValid;
   abTerrainInvalid?: AbTerrainInvalid;
@@ -157,7 +160,7 @@ export interface Pair2 {
 export interface AiBonusDie {
   Pair?: Pair[];
 }
-export interface AiWonderYieldOutput {
+export interface AiYieldConsumption {
   Pair?: Pair;
 }
 export interface AiYieldCost {

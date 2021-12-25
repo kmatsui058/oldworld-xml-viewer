@@ -12,6 +12,9 @@
         "zIconName": {
           
         },
+        "HeadTitle": {
+          
+        },
         "iCostBase": {
           
         },

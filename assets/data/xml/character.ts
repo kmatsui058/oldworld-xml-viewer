@@ -18,6 +18,9 @@
         "Cognomen": {
           
         },
+        "Title": {
+          
+        },
         "PlayerNation": {
           
         },
@@ -72,8 +75,13 @@
         "bSuitorTemp": "1"
       },
       {
+        "zType": "CHARACTER_SUITOR_TEMP_GOOD",
+        "iRating": "3",
+        "bSuitorTemp": "1"
+      },
+      {
         "zType": "CHARACTER_SUITOR_TEMP_BAD",
-        "iRating": "-2",
+        "iRating": "-3",
         "bSuitorTemp": "1"
       },
       {
@@ -204,10 +212,7 @@
         "PlayerNation": "NATION_BABYLONIA",
         "Father": "CHARACTER_NEBUCHADNEZZAR",
         "Mother": "CHARACTER_AMYTIS",
-        "iAge": "1",
-        "aeTraits": {
-          "zValue": "TRAIT_ILL"
-        }
+        "iAge": "1"
       },
       {
         "zType": "CHARACTER_DIDO",
@@ -250,8 +255,9 @@
       {
         "zType": "CHARACTER_PYGMALION",
         "Gender": "GENDER_MALE",
-        "FirstName": "NAME_PYGMALION",
+        "FirstName": "NAME_PYGMALION_OF_TYRE",
         "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_01",
+        "Title": "TITLE_LEADER",
         "PlayerNation": "NATION_CARTHAGE",
         "Father": "CHARACTER_MATTAN",
         "iAge": "27",
@@ -273,6 +279,7 @@
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_ACERBAS",
         "PreferredPortrait": "CHARACTER_PORTRAIT_CARTHAGE_LEADER_MALE_02",
+        "Title": "TITLE_PRIEST_OF_MELQUART",
         "PlayerNation": "NATION_CARTHAGE",
         "Spouse": "CHARACTER_DIDO",
         "iBirth": "-11",
@@ -280,8 +287,7 @@
         "aeTraits": {
           "zValue": [
             "TRAIT_BUILDER_ARCHETYPE",
-            "TRAIT_GREEDY",
-            "TRAIT_CHEIF_PRIEST_OF_MELQUART"
+            "TRAIT_GREEDY"
           ]
         },
         "aeRelationships": {
@@ -401,8 +407,8 @@
         "iAge": "32",
         "aeTraits": {
           "zValue": [
-            "TRAIT_DEBAUCHED",
-            "TRAIT_SCHEMER_ARCHETYPE"
+            "TRAIT_SCHEMER_ARCHETYPE",
+            "TRAIT_DEBAUCHED"
           ]
         },
         "aeRelationships": {
@@ -537,24 +543,6 @@
             "zValue": "RELATIONSHIP_VENGEFUL_AGAINST"
           }
         }
-      },
-      {
-        "zType": "CHARACTER_MATCH_FEMALE_BAD",
-        "Gender": "GENDER_FEMALE",
-        "iAge": "22",
-        "iRating": "-3"
-      },
-      {
-        "zType": "CHARACTER_MATCH_FEMALE_NEUTRAL",
-        "Gender": "GENDER_FEMALE",
-        "iAge": "22",
-        "iRating": "0"
-      },
-      {
-        "zType": "CHARACTER_MATCH_FEMALE_GOOD",
-        "Gender": "GENDER_FEMALE",
-        "iAge": "22",
-        "iRating": "3"
       },
       {
         "zType": "CHARACTER_YOUNG_HOSTAGE",
@@ -1212,6 +1200,7 @@
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_PROPHET",
         "PreferredPortrait": "CHARACTER_PORTRAIT_PROPHET",
+        "Title": "TITLE_PROPHET",
         "iAge": "31",
         "iRating": "2",
         "bNoNickname": "1",
@@ -1229,6 +1218,7 @@
         "Gender": "GENDER_FEMALE",
         "FirstName": "NAME_SEER",
         "PreferredPortrait": "CHARACTER_PORTRAIT_SEER",
+        "Title": "TITLE_SEER",
         "iAge": "31",
         "iRating": "2",
         "bNoNickname": "1",
@@ -1260,7 +1250,6 @@
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_DIEGYLIS",
         "PreferredPortrait": "CHARACTER_PORTRAIT_THRACIAN_MALE_01",
-        "Tribe": "TRIBE_THRACIANS",
         "iAge": "35",
         "iRating": "2",
         "aeTraits": {
@@ -1274,6 +1263,7 @@
       },
       {
         "zType": "CHARACTER_REBEL_SLAVE",
+        "Title": "TITLE_REBEL_LEADER",
         "iAge": "28",
         "aeTraits": {
           "zValue": [

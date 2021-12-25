@@ -503,6 +503,10 @@
         "MaxDiplomacyPlayer": "DIPLOMACY_WAR"
       },
       {
+        "zType": "SUBJECTRELATION_PLAYER_ALLIANCE",
+        "bTeamAlliance": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_PLAYER_NO_ALLIANCE",
         "bNotTeamAlliance": "1"
       },
@@ -1094,10 +1098,6 @@
       {
         "zType": "SUBJECTRELATION_NATION_DIFF",
         "bNationDiff": "1"
-      },
-      {
-        "zType": "SUBJECTRELATION_PLAYER_ALLIANCE",
-        "bTeamAlliance": "1"
       },
       {
         "zType": "SUBJECTRELATION_CAN_END_WAR",

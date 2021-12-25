@@ -24,6 +24,24 @@
         }
       },
       {
+        "zType": "EVENTLINK_A_TIME_TO_KILL_FAST",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "A_TIME_TO_KILL_SAFE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "EVENTLINK_RUINS_ELDERLY_COUPLE_ABDUCTED",
         "iTurnLimit": "4",
@@ -600,6 +618,24 @@
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER",
             "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_A_TIME_TO_KILL_FAST_RESULTS",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_A_TIME_TO_KILL_SAFE_RESULTS",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_PLAYER"
           ]
         }
       },
@@ -2805,6 +2841,99 @@
         "zType": "EVENTLINK_AMBITION_RIVALS",
         "aeSubjectClasses": {
           "zValue": "SUBJECTCLASS_PLAYER"
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_RELIGIOUS_COUNCIL",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_RELIGION"
+        }
+      },
+      {
+        "zType": "EVENTLINK_REGENT",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_REGENT",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_SACRED_CITY",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_RELIGION",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_THE_ROAD_TO_GLORY",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SMOKE_AND_ASH",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_LAND_OF_VENERATION",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_OATH",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_FALLEN_BANNER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
         }
       }
     ]

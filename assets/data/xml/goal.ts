@@ -57,6 +57,9 @@
         "iConnectedCities": {
           
         },
+        "iAgentNetworks": {
+          
+        },
         "iCitizens": {
           
         },
@@ -142,6 +145,9 @@
           
         },
         "bTribeDead": {
+          
+        },
+        "bHideStatThreshold": {
           
         },
         "bScenario": {
@@ -294,6 +300,9 @@
           
         },
         "iConnectedCities": {
+          
+        },
+        "iAgentNetworks": {
           
         },
         "iCitizens": {
@@ -4527,12 +4536,12 @@
         }
       },
       {
-        "zType": "GOAL_THREE_GOVERNORS",
-        "Name": "TEXT_GOAL_THREE_GOVERNORS",
+        "zType": "GOAL_FOUR_GOVERNORS",
+        "Name": "TEXT_GOAL_FOUR_GOVERNORS",
         "iAmbitionClass": "21",
         "iMinTier": "3",
         "iMaxTier": "5",
-        "iGovernorCount": "3",
+        "iGovernorCount": "4",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -4571,12 +4580,12 @@
         }
       },
       {
-        "zType": "GOAL_SIX_GOVERNORS",
-        "Name": "TEXT_GOAL_SIX_GOVERNORS",
+        "zType": "GOAL_EIGHT_GOVERNORS",
+        "Name": "TEXT_GOAL_EIGHT_GOVERNORS",
         "iAmbitionClass": "21",
         "iMinTier": "5",
         "iMaxTier": "7",
-        "iGovernorCount": "6",
+        "iGovernorCount": "8",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -5713,9 +5722,10 @@
         }
       },
       {
-        "zType": "GOAL_QUEST_INQUIRING_MINDS",
-        "Name": "TEXT_GOAL_QUEST_INQUIRING_MINDS",
-        "iMaxTurns": "20",
+        "zType": "GOAL_INQUIRING_MINDS",
+        "Name": "TEXT_GOAL_INQUIRING_MINDS",
+        "iMinTier": "1",
+        "iMaxTier": "3",
         "aiProjectCount": {
           "Pair": {
             "zIndex": "PROJECT_INQUIRY",
@@ -5724,43 +5734,36 @@
         }
       },
       {
-        "zType": "GOAL_QUEST_FOUNDING_SIGNS",
-        "Name": "TEXT_GOAL_QUEST_FOUNDING_SIGNS",
-        "iMaxTurns": "20",
+        "zType": "GOAL_FOUNDING_SIGNS",
+        "Name": "TEXT_GOAL_FOUNDING_SIGNS",
+        "iMinTier": "2",
+        "iMaxTier": "4",
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_CITY_FOUNDED",
-            "iValue": "1"
+            "iValue": "2"
           }
         }
       },
       {
-        "zType": "GOAL_QUEST_KILL_5_ENEMIES",
-        "Name": "TEXT_GOAL_QUEST_KILL_5_ENEMIES",
-        "iMaxTurns": "10",
-        "iPlayerKilledData": "5"
+        "zType": "GOAL_KILL_10_ENEMIES",
+        "Name": "TEXT_GOAL_KILL_10_ENEMIES",
+        "iMinTier": "3",
+        "iMaxTier": "5",
+        "iPlayerKilledData": "10"
       },
       {
-        "zType": "GOAL_QUEST_KILL_5_BARBS",
-        "Name": "TEXT_GOAL_QUEST_KILL_5_BARBS",
-        "iMaxTurns": "10",
+        "zType": "GOAL_KILL_5_BARBS",
+        "Name": "TEXT_GOAL_KILL_5_BARBS",
+        "iMinTier": "1",
+        "iMaxTier": "3",
         "iTribeKilledData": "5"
       },
       {
-        "zType": "GOAL_QUEST_PHILOSOPHY",
-        "Name": "TEXT_GOAL_QUEST_PHILOSOPHY",
-        "iMaxTurns": "20",
-        "StartLaw": "LAW_PHILOSOPHY"
-      },
-      {
-        "zType": "GOAL_QUEST_ENACT_ORTHODOXY",
-        "Name": "TEXT_GOAL_QUEST_ENACT_ORTHODOXY",
-        "iMaxTurns": "20"
-      },
-      {
-        "zType": "GOAL_QUEST_COLOSSUS",
-        "Name": "TEXT_GOAL_QUEST_COLOSSUS",
-        "iMaxTurns": "20",
+        "zType": "GOAL_CONTROL_COLOSSUS",
+        "Name": "TEXT_GOAL_CONTROL_COLOSSUS",
+        "iMinTier": "4",
+        "iMaxTier": "6",
         "aiImprovementCount": {
           "Pair": {
             "zIndex": "IMPROVEMENT_COLOSSUS",
@@ -5815,6 +5818,97 @@
             "iValue": "1"
           }
         }
+      },
+      {
+        "zType": "GOAL_RELIGIOUS_COUNCIL",
+        "Name": "TEXT_GOAL_RELIGIOUS_COUNCIL",
+        "iMinTier": "4",
+        "iMaxTier": "6"
+      },
+      {
+        "zType": "GOAL_TO_BE_KING",
+        "Name": "TEXT_GOAL_TO_BE_KING",
+        "iMinTier": "2",
+        "iMaxTier": "6"
+      },
+      {
+        "zType": "GOAL_SPECIFIC_CITY",
+        "Name": "TEXT_GOAL_SPECIFIC_CITY",
+        "iMinTier": "2",
+        "iMaxTier": "5"
+      },
+      {
+        "zType": "GOAL_FOUR_AGENT_NETWORKS",
+        "Name": "TEXT_GOAL_FOUR_AGENT_NETWORKS",
+        "iAmbitionClass": "4",
+        "iMinTier": "4",
+        "iMaxTier": "6",
+        "TechPrereq": "TECH_PORTCULLIS",
+        "iAgentNetworks": "4",
+        "aiFamilyClassWeight": {
+          "Pair": [
+            {
+              "zIndex": "FAMILYCLASS_STATESMEN",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "FAMILYCLASS_LANDOWNERS",
+              "iValue": "1000"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "GOAL_SIX_AGENTS",
+        "Name": "TEXT_GOAL_SIX_AGENTS",
+        "iAmbitionClass": "4",
+        "iMinTier": "6",
+        "iMaxTier": "8",
+        "TechPrereq": "TECH_PORTCULLIS",
+        "iAgentCount": "6",
+        "aiFamilyClassWeight": {
+          "Pair": [
+            {
+              "zIndex": "FAMILYCLASS_STATESMEN",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "FAMILYCLASS_LANDOWNERS",
+              "iValue": "1000"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "GOAL_FIVE_NAVAL",
+        "Name": "TEXT_GOAL_FIVE_NAVAL",
+        "iAmbitionClass": "19",
+        "iMinTier": "3",
+        "iMaxTier": "4",
+        "aiUnitTraitCount": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "iValue": "5"
+          }
+        }
+      },
+      {
+        "zType": "GOAL_THE_GREAT",
+        "Name": "TEXT_GOAL_THE_GREAT",
+        "iMinTier": "10",
+        "iMaxTier": "10"
+      },
+      {
+        "zType": "GOAL_ALL_HOLY_CITIES",
+        "Name": "TEXT_GOAL_ALL_HOLY_CITIES",
+        "iMinTier": "10",
+        "iMaxTier": "10"
+      },
+      {
+        "zType": "GOAL_DESTROY_RIVALS",
+        "Name": "TEXT_GOAL_DESTROY_RIVALS",
+        "iMinTier": "10",
+        "iMaxTier": "10"
       }
     ]
   }

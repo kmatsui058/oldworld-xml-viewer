@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GenderedNames": {
+          
+        },
         "zLink": {
           
         },
@@ -332,6 +335,11 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_DIPLOMACY_PEACE_PLAYER"
       },
       {
+        "zType": "CONCEPT_PILLAGE",
+        "Name": "TEXT_CONCEPT_PILLAGE",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_PILLAGE"
+      },
+      {
         "zType": "CONCEPT_POWER",
         "Name": "TEXT_CONCEPT_POWER",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_POWER"
@@ -450,6 +458,11 @@
         "zType": "CONCEPT_TRIBE",
         "Name": "TEXT_CONCEPT_TRIBE",
         "zHelpText": "TEXT_HELPTEXT_HELP_TRIBE"
+      },
+      {
+        "zType": "CONCEPT_TRIBE_RAID",
+        "Name": "TEXT_CONCEPT_TRIBE_RAID",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_TRIBE_RAID"
       },
       {
         "zType": "CONCEPT_TRIBE_INVASION",

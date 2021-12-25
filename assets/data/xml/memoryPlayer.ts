@@ -896,6 +896,25 @@
         "zType": "MEMORYPLAYER_ACCEPTED_MARRIAGE",
         "Text": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_SKIRMISH_HELPED",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_HELPED",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_SKIRMISH_FOUGHT",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_FOUGHT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_SKIRMISH_IGNORED",
+        "Text": "TEXT_MEMORYPLAYER_SKIRMISH_IGNORED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_FUNDED_RESEARCH",
+        "Text": "TEXT_MEMORYPLAYER_FUNDED_RESEARCH"
       }
     ]
   }

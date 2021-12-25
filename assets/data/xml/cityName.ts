@@ -8,6 +8,9 @@
         },
         "Name": {
           
+        },
+        "GrammaticalGenders": {
+          
         }
       },
       {

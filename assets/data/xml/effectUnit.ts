@@ -12,6 +12,9 @@
         "zIconName": {
           
         },
+        "GrammaticalGenderNames": {
+          
+        },
         "Class": {
           
         },
@@ -132,10 +135,16 @@
         "bHealNeutral": {
           
         },
+        "bHealPillage": {
+          
+        },
         "bLaunchOffensive": {
           
         },
         "bNoRoadCooldown": {
+          
+        },
+        "bRemoveVegetation": {
           
         },
         "aiAttackValue": {
@@ -884,12 +893,7 @@
         "zType": "EFFECTUNIT_SADDLEBORN",
         "Name": "TEXT_EFFECTUNIT_SADDLEBORN",
         "zIconName": "EFFECTUNIT_SADDLEBORN",
-        "aiUnitTraitModifierDefense": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MELEE",
-            "iValue": "50"
-          }
-        }
+        "iFlankingAttackModifier": "25"
       },
       {
         "zType": "EFFECTUNIT_SENTINEL",
@@ -1259,10 +1263,33 @@
         "bNoRoadCooldown": "1"
       },
       {
+        "zType": "EFFECTUNIT_EPICS",
+        "Name": "TEXT_EFFECTUNIT_EPICS",
+        "zIconName": "EFFECTUNIT_EPICS",
+        "aiMilitaryKillYield": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        }
+      },
+      {
         "zType": "EFFECTUNIT_ASSYRIA",
         "Name": "TEXT_EFFECTUNIT_ASSYRIA",
         "zIconName": "EFFECTUNIT_ASSYRIA",
-        "iPillageYieldModifier": "100"
+        "iPillageYieldModifier": "100",
+        "aiMilitaryKillYield": {
+          "Pair": {
+            "zIndex": "YIELD_ORDERS",
+            "iValue": "2"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ROME",
+        "Name": "TEXT_EFFECTUNIT_ROME",
+        "zIconName": "EFFECTUNIT_ROME",
+        "iFatigueExtra": "1"
       },
       {
         "zType": "EFFECTUNIT_HERO",
@@ -1279,11 +1306,17 @@
         "bLaunchOffensive": "1"
       },
       {
-        "zType": "EFFECTUNIT_HERO_MELEE",
-        "Name": "TEXT_EFFECTUNIT_HERO_MELEE",
-        "zIconName": "EFFECTUNIT_HERO_MELEE",
-        "iAttackModifier": "10",
-        "bSkipIcon": "1"
+        "zType": "EFFECTUNIT_HERO_ALL",
+        "Name": "TEXT_EFFECTUNIT_HERO_ALL",
+        "zIconName": "EFFECTUNIT_HERO_ALL",
+        "bSkipIcon": "1",
+        "bHealPillage": "1",
+        "aiMilitaryKillYield": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "40"
+          }
+        }
       },
       {
         "zType": "EFFECTUNIT_COMMANDER",
@@ -1296,7 +1329,7 @@
         "zType": "EFFECTUNIT_COMMANDER_LEADER",
         "Name": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
         "zIconName": "EFFECTUNIT_COMMANDER_LEADER",
-        "iFlankingAttackModifier": "20",
+        "iFlankingAttackModifier": "50",
         "bSkipIcon": "1"
       },
       {
@@ -1348,6 +1381,13 @@
         "bSkipIcon": "1"
       },
       {
+        "zType": "EFFECTUNIT_ZEALOT_ALL",
+        "Name": "TEXT_EFFECTUNIT_ZEALOT_ALL",
+        "zIconName": "EFFECTUNIT_ZEALOT_ALL",
+        "iFatigueExtra": "1",
+        "bSkipIcon": "1"
+      },
+      {
         "zType": "EFFECTUNIT_OPINIONFAMILY_FURIOUS",
         "Name": "TEXT_EFFECTUNIT_OPINIONFAMILY_FURIOUS",
         "zIconName": "EFFECTUNIT_FURIOUS",
@@ -1384,6 +1424,142 @@
         "aiUnitTraitModifier": {
           "Pair": {
             "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_PIERCE1",
+        "Name": "TEXT_EFFECTUNIT_PIERCE1",
+        "zIconName": "EFFECTUNIT_PIERCE1",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_PIERCE2",
+        "Name": "TEXT_EFFECTUNIT_PIERCE2",
+        "zIconName": "EFFECTUNIT_PIERCE2",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_PIERCE3",
+        "Name": "TEXT_EFFECTUNIT_PIERCE3",
+        "zIconName": "EFFECTUNIT_PIERCE3",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "2"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_PIERCE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_CLEAVE1",
+        "Name": "TEXT_EFFECTUNIT_CLEAVE1",
+        "zIconName": "EFFECTUNIT_CLEAVE1",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_CLEAVE",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_CLEAVE",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_CLEAVE2",
+        "Name": "TEXT_EFFECTUNIT_CLEAVE2",
+        "zIconName": "EFFECTUNIT_CLEAVE2",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_CLEAVE",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_CLEAVE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_CIRCLE",
+        "Name": "TEXT_EFFECTUNIT_CIRCLE",
+        "zIconName": "EFFECTUNIT_CIRCLE",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_CIRCLE",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_CIRCLE",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SPLASH1",
+        "Name": "TEXT_EFFECTUNIT_SPLASH1",
+        "zIconName": "EFFECTUNIT_SPLASH1",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_SPLASH2",
+        "Name": "TEXT_EFFECTUNIT_SPLASH2",
+        "zIconName": "EFFECTUNIT_SPLASH2",
+        "aiAttackValue": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
+            "iValue": "1"
+          }
+        },
+        "aiAttackPercent": {
+          "Pair": {
+            "zIndex": "ATTACK_SPLASH",
             "iValue": "50"
           }
         }
@@ -1440,7 +1616,13 @@
         "zType": "EFFECTUNIT_CAMEL",
         "Name": "TEXT_UNITTRAIT_CAMEL",
         "zIconName": "UNITTRAIT_CAMEL",
-        "SourceUnitTrait": "UNITTRAIT_CAMEL"
+        "SourceUnitTrait": "UNITTRAIT_CAMEL",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_HORSE",
+            "iValue": "50"
+          }
+        }
       },
       {
         "zType": "EFFECTUNIT_ELEPHANT",

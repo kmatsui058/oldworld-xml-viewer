@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GrammaticalGenderNames?: ZType;
   Source?: ZType | string;
   EffectCityUnlock?: ZType | string;
   SourceUnlock?: ZType | string;
@@ -33,6 +34,7 @@ export interface Entry {
   aeSourceProjects?: AeSourceImprovements;
   aeSourceResources?: AeSourceImprovements;
   CultureBonus?: ZType | string;
+  LuxuryResource?: ZType;
   iCityHP?: ZType | string;
   iUnitXP?: ZType | string;
   iUnitLevel?: ZType | string;
@@ -65,7 +67,6 @@ export interface Entry {
   bAlwaysConnected?: ZType | string;
   bBuyTile?: ZType | string;
   bNoReligionSpread?: ZType | string;
-  bStateReligionImprovements?: ZType | string;
   aiYieldRate?: AiYieldRate;
   aiYieldRatePopulation?: AiYieldRate;
   aiYieldRateCulture?: AiYieldRateCulture;
@@ -97,11 +98,15 @@ export interface Entry {
   aeFreePromotion?: AeHurryMoney;
   aeFreeUnitEffectCity?: AeSourceImprovements;
   aeTraitPromotion?: AeTraitPromotion;
+  aaiImprovementYield?: AaiImprovementYield;
   aaiImprovementClassYield?: AaiImprovementClassYield;
   aaiEffectCityYieldRate?: AaiImprovementClassYield;
 }
 export interface AaiImprovementClassYield {
   Pair?: Pair4[] | Pair4;
+}
+export interface AaiImprovementYield {
+  Pair?: Pair4;
 }
 export interface Pair4 {
   zIndex: string;
