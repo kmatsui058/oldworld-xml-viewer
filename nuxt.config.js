@@ -77,4 +77,8 @@ export default {
   render: {
     csp: false,
   },
+  server: {
+    port: 3000, // デフォルト: 3000
+    host: '0.0.0.0', // デフォルト: localhost
+  },
 }
