@@ -1,4 +1,4 @@
-import Yield from './Yield'
+import YieldEffect from './YieldEffect'
 import textInfo from '~/assets/data/xml/text-infos'
 import effectCities from '~/assets/data/xml/effectCity'
 
@@ -24,8 +24,8 @@ export default class EffectCity {
     return test?.['en-US']?.toString() || ''
   }
 
-  get yields(): Yield[] {
-    const result: Yield[] = []
+  get yields(): YieldEffect[] {
+    const result: YieldEffect[] = []
     for (const [key, value] of Object.entries(this.entry)) {
       if (!value) continue
       if (key.includes('aiYield') && typeof value !== 'string' && 'Pair' in value) {
@@ -33,12 +33,12 @@ export default class EffectCity {
         if (Array.isArray(pair)) {
           for (const item of pair) {
             if ('iValue' in item) {
-              result.push(new Yield(key, item))
+              result.push(new YieldEffect(key, item))
             }
           }
         }
         if (pair && 'iValue' in pair) {
-          result.push(new Yield(key, pair))
+          result.push(new YieldEffect(key, pair))
         }
       }
     }

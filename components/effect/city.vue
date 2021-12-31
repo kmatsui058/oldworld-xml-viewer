@@ -1,7 +1,7 @@
 <template>
   <ul class="effect-city">
     <li v-for="(yieldItem, key) in yeilds" :key="key">
-      <img :src="yieldItem.icon" alt="" class="icon" />
+      <YieldIcon :z-type="yieldItem.pair.zIndex" class="icon" />
       {{ yieldItem.text }}
     </li>
   </ul>
@@ -10,8 +10,12 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import EffectCity from '~/classes/EffectCity'
 import getSpriteIcons from '~/assets/Sprite/SpriteIcons'
+import YieldIcon from '~/components/yeild/icon.vue'
 export default defineComponent({
   name: 'EffectCity',
+  components: {
+    YieldIcon,
+  },
   props: {
     effectCity: {
       type: Object as PropType<EffectCity>,

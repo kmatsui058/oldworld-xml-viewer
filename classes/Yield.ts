@@ -1,27 +1,27 @@
 import getSpriteIcons from '~/assets/Sprite/SpriteIcons'
-
+import yields from '~/assets/data/xml/yield'
+import yieldText from '~/assets/data/xml/text-yield'
 export default class Yield {
-  readonly key: string
-  readonly pair: Readonly<XmlEffectCity.Pair>
-  constructor(key: Yield['key'], pair: Yield['pair']) {
-    this.key = key
-    this.pair = pair
+  readonly entry: XmlYield.Entry
+  constructor(zType: string | XmlYield.ZType) {
+    const targetEntry = yields.Root.Entry.find((entry) => entry.zType === zType)
+    if (!targetEntry) throw new Error('invalid zType')
+    this.entry = targetEntry
   }
 
   get icon(): string | null {
-    const zIndex = this.pair.zIndex
+    const zIndex = this.entry.zIconName
+    if (typeof zIndex !== 'string') return null
     return getSpriteIcons[zIndex] || null
   }
 
-  get unit(): string {
-    return this.key.includes('Modifier') ? '%' : ' / Turn'
+  get name(): string | null {
+    const textObject = yieldText.Root.Entry.find((test) => test.zType === this.entry.Name)
+    return typeof textObject?.['en-US'] === 'string' ? textObject['en-US'] : null
   }
 
-  get text(): string {
-    const value = this.key.includes('Modifier')
-      ? Number(this.pair.iValue)
-      : Number(this.pair.iValue) / 10
-    const sign = value >= 0 ? '+' : '-'
-    return sign + value + this.unit
+  get helpText(): string | null {
+    const textObject = yieldText.Root.Entry.find((test) => test.zType === this.entry.Help)
+    return typeof textObject?.['en-US'] === 'string' ? textObject['en-US'] : null
   }
 }
