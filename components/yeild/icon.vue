@@ -1,14 +1,20 @@
 <template>
-  <nuxt-link class="yield-icon" :to="{ name: 'yield', hash: `#${yieldItem.entry.zType}` }">
-    <img :src="yieldItem.icon" alt="" class="icon" />
-  </nuxt-link>
+  <VTooltip>
+    <nuxt-link class="yield-icon" :to="{ name: 'yield', hash: `#${yieldItem.entry.zType}` }">
+      <img :src="yieldItem.icon" alt="" class="icon" />
+    </nuxt-link>
+    <template #popper><YieldDetail :z-type="yieldItem.entry.zType" /></template>
+  </VTooltip>
 </template>
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
+import YieldDetail from '~/components/yeild/detail.vue'
 
 import Yield from '~/classes/Yield'
+
 export default defineComponent({
-  name: 'YieldDetail',
+  name: 'YieldIcon',
+  components: { YieldDetail },
   props: {
     zType: {
       type: String,
@@ -29,6 +35,9 @@ export default defineComponent({
   height: 1em;
   width: 1em;
   vertical-align: text-bottom;
+}
+.v-popper {
+  display: inline;
 }
 </style>
 

@@ -14,7 +14,7 @@
         :to="{ name: 'yield', hash: '#' + item.zType }"
       >
         {{ item.preText }}
-        <YieldIcon :key="key" :z-type="item.zType" />
+        <img :src="item.yield.icon" alt="" class="icon" />
         {{ item.afterText }}
       </nuxt-link>
       <span v-else-if="item.type === 'text'" :key="key">
@@ -25,7 +25,7 @@
 </template>
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
-import YieldIcon from '~/components/yeild/icon.vue'
+import Yield from '~/classes/Yield'
 export interface LinkItem {
   type: 'link'
   name: string
@@ -38,6 +38,7 @@ export interface YieldItem {
   zType: string
   preText: string
   afterText: string
+  yield: Yield
 }
 
 export interface TextItem {
@@ -49,7 +50,6 @@ export type ConvertedTextItem = LinkItem | YieldItem | TextItem
 
 export default defineComponent({
   name: 'ConvertedText',
-  components: { YieldIcon },
   props: {
     text: {
       type: String,
@@ -75,6 +75,7 @@ export default defineComponent({
             zType: /\S*\{(.*?)\}\S*/.exec(item)?.[1] || '',
             preText: /(\S*)\{.*?\}\S*/.exec(item)?.[1] || '',
             afterText: /\S*\{.*?\}(\S*)/.exec(item)?.[1] || '',
+            yield: new Yield(/\S*\{(.*?)\}\S*/.exec(item)?.[1] || ''),
           }
           return result
         }
@@ -91,6 +92,10 @@ export default defineComponent({
 })
 </script>
 <style lang="scss" scoped>
-
+.icon {
+  height: 1em;
+  width: 1em;
+  vertical-align: text-bottom;
+}
 </style>
 
