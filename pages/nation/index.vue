@@ -1,57 +1,29 @@
 <template>
   <section class="section">
     <h2 class="title is-2">NATIONS</h2>
-    <table class="table is-fullwidth">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Stating Tech</th>
-          <th>Families</th>
-        </tr>
-      </thead>
-      <tbody>
-        <template v-for="nation in nations">
-          <tr :id="nation.entry.zType" :key="nation.entry.zType">
-            <td>
-              <nuxt-link :key="nation.zType" :to="`/nation/${nation.zType}`">
-                {{ nation.name }}
-              </nuxt-link>
-            </td>
-            <td>
-              <template v-for="(tech, index) in nation.teches">
-                <nuxt-link :key="tech.zType" :to="`/tech/${tech.zType}`">
-                  {{ tech.name }} </nuxt-link
-                ><template v-if="index + 1 < nation.teches.length"> / </template>
-              </template>
-            </td>
-            <td>
-              <template v-for="(family, index) in nation.families">
-                <nuxt-link :key="family.zType" :to="`/family/${family.zType}`">
-                  {{ family.name }}
-                </nuxt-link>
-                (<nuxt-link
-                  :key="family.familyClass.zType"
-                  :to="`/family-class/${family.familyClass.zType}`"
-                >
-                  {{ family.familyClass.name }} </nuxt-link
-                >)
-                <template v-if="index + 1 < nation.families.length"> / </template>
-              </template>
-            </td>
-          </tr>
-        </template>
-      </tbody>
-    </table>
+    <div class="content">
+      <NationList :nations="nations" />
+      <div v-for="(nation, key) in nations" :key="key">
+        <h3 :id="nation.zType">{{ nation.name }}</h3>
+        <NationItem :nation="nation" />
+      </div>
+    </div>
   </section>
 </template>
 
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
+import NationList from '@/components/nation/list.vue'
+import NationItem from '@/components/nation/item.vue'
 import Nation from '~/classes/Nation'
 import nation from '~/assets/data/xml/nation'
 
 export default defineComponent({
   name: 'NationIndex',
+  components: {
+    NationList,
+    NationItem,
+  },
   setup() {
     const nations = computed((): Nation[] => {
       return nation.Root.Entry.map((item) => {
