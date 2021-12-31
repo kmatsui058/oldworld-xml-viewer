@@ -7,7 +7,6 @@
         </nuxt-link>
         <template #popper> <component :is="item.component" :z-type="item.zType" /></template>
       </VTooltip>
-
       <VTooltip v-else-if="item.type === 'yield'" :key="key">
         <nuxt-link :to="{ name: 'yield', hash: '#' + item.zType }">
           {{ item.preText }}
@@ -25,9 +24,6 @@
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
 import Yield from '~/classes/Yield'
-import ImprovementDetail from '~/components/improvement/detail.vue'
-import ConceptDetail from '~/components/concept/detail.vue'
-import UnitDetail from '~/components/unit/detail.vue'
 import SpecialistDetail from '~/components/specialist/detail.vue'
 import MissionDetail from '~/components/mission/detail.vue'
 import ProjectDetail from '~/components/project/detail.vue'
@@ -42,7 +38,6 @@ import HeightDetail from '~/components/height/detail.vue'
 import VegetationDetail from '~/components/vegetation/detail.vue'
 import UnitTraitDetail from '~/components/unit-trait/detail.vue'
 
-import YieldPopup from '~/components/yield/popup.vue'
 export interface LinkItem {
   type: 'link'
   name: string
@@ -69,12 +64,12 @@ export type ConvertedTextItem = LinkItem | YieldItem | TextItem
 export default defineComponent({
   name: 'ConvertedText',
   components: {
-    ImprovementDetail,
-    ConceptDetail,
-    UnitDetail,
+    ImprovementDetail: () => import('~/components/improvement/detail.vue'),
+    ConceptDetail: () => import('~/components/concept/detail.vue'),
+    UnitDetail: () => import('~/components/unit/detail.vue'),
     SpecialistDetail,
     MissionDetail,
-    YieldPopup,
+    YieldPopup: () => import('~/components/yield/detail.vue') as any,
     ProjectDetail,
     RatingDetail,
     CultureDetail,

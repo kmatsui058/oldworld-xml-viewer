@@ -1,5 +1,6 @@
 import YieldEffect from './YieldEffect'
-import textInfo from '~/assets/data/xml/text-infos'
+import IValueModifire from './IValueModifier'
+
 import effectCities from '~/assets/data/xml/effectCity'
 
 export default class EffectCity {
@@ -11,17 +12,12 @@ export default class EffectCity {
     this.entry = targetEntry
   }
 
-  get textInfo() {
-    return textInfo.Root.Entry
-  }
-
   get zIndex(): string {
     return typeof this.entry.zType === 'string' ? this.entry.zType : ''
   }
 
   get name(): string {
-    const test = this.textInfo.find((el) => el.zType === this.entry.Name)
-    return test?.['en-US']?.toString() || ''
+    return this.zIndex
   }
 
   get yields(): YieldEffect[] {
@@ -39,6 +35,29 @@ export default class EffectCity {
         }
         if (pair && 'iValue' in pair) {
           result.push(new YieldEffect(key, pair))
+        }
+      }
+    }
+    return result
+  }
+
+  get iValueModifiers() {
+    const result: IValueModifire[] = []
+    for (const [key, value] of Object.entries(this.entry)) {
+      if (!value) continue
+      if (
+        !key.includes('aiYield') &&
+        key.indexOf('ai') === 0 &&
+        typeof value !== 'string' &&
+        'Pair' in value
+      ) {
+        const pair = value.Pair
+        if (Array.isArray(pair)) {
+          const initPair: XmlEffectCity.Pair[] = []
+          for (const item of pair) {
+            if ('iValue' in item) initPair.push(item)
+          }
+          result.push(new IValueModifire(key, initPair))
         }
       }
     }

@@ -8,8 +8,13 @@ export default class Improvement {
     this.entry = targetEntry
   }
 
-  get name(): string | null {
+  get nameText(): string | null {
     const textObject = improvementText.Root.Entry.find((test) => test.zType === this.entry.Name)
     return typeof textObject?.['en-US'] === 'string' ? textObject['en-US'] : null
+  }
+
+  get name(): string {
+    if (!this.nameText) throw new Error('name text not found' + this.entry.zType)
+    return this.nameText.split('~')[0]
   }
 }

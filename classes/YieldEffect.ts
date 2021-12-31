@@ -14,7 +14,7 @@ export default class YieldEffect {
     const value = this.key.includes('Modifier')
       ? Number(this.pair.iValue)
       : Number(this.pair.iValue) / 10
-    const sign = value >= 0 ? '+' : '-'
+    const sign = value >= 0 ? '+' : ''
     return sign + value + this.unit
   }
 }
