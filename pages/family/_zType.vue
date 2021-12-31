@@ -26,22 +26,7 @@
       <h3 class="title">Effect City</h3>
       <hr />
       <div class="content">
-        <h4>Yield</h4>
-        <p v-if="family.familyClass.effectCity.yields.length">
-          <template v-for="(yeild, index) in family.familyClass.effectCity.yields">
-            {{ yeild.zIndex }}: {{ yeild.iValue }}
-            <template v-if="index + 1 < family.familyClass.effectCity.yields.length"> / </template>
-          </template>
-        </p>
-        <p v-else>-</p>
-        <h4>Free Promotion</h4>
-        <p>
-          {{
-            family.familyClass.effectCity.entry.aeFreePromotion
-              ? family.familyClass.effectCity.entry.aeFreePromotion.zValue
-              : '-'
-          }}
-        </p>
+        <EffectCity :effect-city="family.familyClass.effectCity" />
       </div>
     </section>
     <section id="abmitions" class="section">
@@ -59,8 +44,11 @@ import Family from '~/classes/Family'
 import AmbitionTierTable from '~/components/AmbitionTierTable.vue'
 import goalsRaw from '~/assets/data/xml/goal'
 import Goal from '~/classes/Goal'
+
+import EffectCity from '~/components/effect/city.vue'
+
 export default defineComponent({
-  components: { AmbitionTierTable },
+  components: { AmbitionTierTable, EffectCity },
   setup() {
     const route = useRoute()
     const family = computed((): Family => {

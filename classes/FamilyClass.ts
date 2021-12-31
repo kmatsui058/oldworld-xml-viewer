@@ -47,6 +47,6 @@ export default class FamilyClass {
     if (!test) {
       throw new Error('not found')
     }
-    return new EffectCity(test)
+    return new EffectCity(test.zType)
   }
 }

@@ -1,10 +1,14 @@
+import Yield from './Yield'
 import textInfo from '~/assets/data/xml/text-infos'
+import effectCities from '~/assets/data/xml/effectCity'
 
 export default class EffectCity {
   readonly entry: Readonly<XmlEffectCity.Entry>
 
-  constructor(entry: XmlEffectCity.Entry) {
-    this.entry = entry
+  constructor(zType: string | XmlEffectCity.ZType) {
+    const targetEntry = effectCities.Root.Entry.find((entry) => entry.zType === zType)
+    if (!targetEntry) throw new Error('invalid zType')
+    this.entry = targetEntry
   }
 
   get textInfo() {
@@ -20,14 +24,28 @@ export default class EffectCity {
     return test?.['en-US']?.toString() || ''
   }
 
-  get yields(): XmlEffectCity.Pair[] {
-    const pair = this.entry.aiYieldRate?.Pair
-    if (!pair) {
-      return []
+  get yields(): Yield[] {
+    const result: Yield[] = []
+    for (const [key, value] of Object.entries(this.entry)) {
+      if (!value) continue
+      if (key.includes('aiYield') && typeof value !== 'string' && 'Pair' in value) {
+        const pair = value.Pair
+        if (Array.isArray(pair)) {
+          for (const item of pair) {
+            if ('iValue' in item) {
+              result.push(new Yield(key, item))
+            }
+          }
+        }
+        if (pair && 'iValue' in pair) {
+          result.push(new Yield(key, pair))
+        }
+      }
     }
-    if (Array.isArray(pair)) {
-      return pair
-    }
-    return [pair]
+    return result
+  }
+
+  get freePromotion() {
+    return this.entry.aeFreePromotion
   }
 }

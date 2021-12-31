@@ -1,4 +1,5 @@
 import Family from './Family'
+import EffectPlayer from './EffectPlayer'
 import Tech from '~/classes/Tech'
 import families from '~/assets/data/xml/family'
 import textNation from '~/assets/data/xml/text-nation'
@@ -42,5 +43,9 @@ export default class Nation {
         return new Family(family)
       }
     )
+  }
+
+  get effectPlayer(): EffectPlayer {
+    return new EffectPlayer(this.entry.EffectPlayer)
   }
 }
