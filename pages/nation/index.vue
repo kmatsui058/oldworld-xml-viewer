@@ -4,8 +4,8 @@
     <div class="content">
       <NationList :nations="nations" />
       <template v-for="(nation, key) in nations">
-        <h3 :id="nation.zType" :key="key">{{ nation.name }}</h3>
-        <NationItem :key="key" :nation="nation" />
+        <h3 :id="nation.zType" :key="'h3' + key">{{ nation.name }}</h3>
+        <NationItem :key="'nation-item' + key" :nation="nation" />
       </template>
     </div>
   </section>

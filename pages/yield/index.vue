@@ -2,10 +2,10 @@
   <section class="section">
     <h2 class="title is-2">YIELDS</h2>
     <div class="content">
-      <template v-for="(yieldItem, key) in yields">
-        <YieldDetail :id="yieldItem.entry.zType" :key="key" :z-type="yieldItem.entry.zType" />
-        <hr v-if="key < yields.length - 1" :key="key" />
-      </template>
+      <div v-for="(yieldItem, key) in yields" :key="key">
+        <YieldDetail :id="yieldItem.entry.zType" :z-type="yieldItem.entry.zType" />
+        <hr v-if="key < yields.length - 1" />
+      </div>
     </div>
   </section>
 </template>
@@ -14,7 +14,7 @@
 import { computed, defineComponent } from '@nuxtjs/composition-api'
 import yieldData from '~/assets/data/xml/yield'
 import Yield from '~/classes/Yield'
-import YieldDetail from '~/components/yeild/detail.vue'
+import YieldDetail from '~/components/yield/detail.vue'
 export default defineComponent({
   name: 'NationIndex',
   components: {

@@ -1,6 +1,6 @@
 <template>
   <ul class="effect-city">
-    <li v-for="(yieldItem, key) in yeilds" :key="key">
+    <li v-for="(yieldItem, key) in yields" :key="key">
       <YieldIcon :z-type="yieldItem.pair.zIndex" class="icon" />
       {{ yieldItem.text }}
     </li>
@@ -10,7 +10,7 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import EffectCity from '~/classes/EffectCity'
 import getSpriteIcons from '~/assets/Sprite/SpriteIcons'
-import YieldIcon from '~/components/yeild/icon.vue'
+import YieldIcon from '~/components/yield/icon.vue'
 export default defineComponent({
   name: 'EffectCity',
   components: {
@@ -23,11 +23,11 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const yeilds = computed(() => {
+    const yields = computed(() => {
       return props.effectCity.yields
     })
 
-    return { yeilds, getSpriteIcons }
+    return { yields, getSpriteIcons }
   },
 })
 </script>

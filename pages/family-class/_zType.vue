@@ -23,22 +23,7 @@
       <h3 class="title">Effect City</h3>
       <hr />
       <div class="content">
-        <h4>Yield</h4>
-        <p v-if="familyClass.effectCity.yields.length">
-          <template v-for="(yeild, index) in familyClass.effectCity.yields">
-            {{ yeild.zIndex }}: {{ yeild.iValue }}
-            <template v-if="index + 1 < familyClass.effectCity.yields.length"> / </template>
-          </template>
-        </p>
-        <p v-else>-</p>
-        <h4>Free Promotion</h4>
-        <p>
-          {{
-            familyClass.effectCity.entry.aeFreePromotion
-              ? familyClass.effectCity.entry.aeFreePromotion.zValue
-              : '-'
-          }}
-        </p>
+        <EffectCity :effect-city="familyClass.effectCity" />
       </div>
     </section>
     <section id="abmitions" class="section">
@@ -54,8 +39,10 @@ import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
 import familyClasses from '~/assets/data/xml/familyClass'
 import FamilyClass from '~/classes/FamilyClass'
 import AmbitionTable from '~/components/AmbitionTable.vue'
+import EffectCity from '~/components/effect/city.vue'
+
 export default defineComponent({
-  components: { AmbitionTable },
+  components: { AmbitionTable, EffectCity },
   setup() {
     const route = useRoute()
     const familyClass = computed((): FamilyClass => {

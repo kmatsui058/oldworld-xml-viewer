@@ -1,9 +1,11 @@
 <template>
   <table class="table is-bordered">
-    <tr v-if="effectCity">
-      <th>EffectCity</th>
-      <td><EffectCity :effect-city="effectCity" /></td>
-    </tr>
+    <tbody>
+      <tr v-if="effectCity">
+        <th>EffectCity</th>
+        <td><EffectCity :effect-city="effectCity" /></td>
+      </tr>
+    </tbody>
   </table>
 </template>
 
