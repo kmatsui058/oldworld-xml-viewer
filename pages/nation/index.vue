@@ -3,10 +3,10 @@
     <h2 class="title is-2">NATIONS</h2>
     <div class="content">
       <NationList :nations="nations" />
-      <template v-for="(nation, key) in nations">
-        <h3 :id="nation.zType" :key="'h3' + key">{{ nation.name }}</h3>
-        <NationItem :key="'nation-item' + key" :nation="nation" />
-      </template>
+      <div v-for="(nation, key) in nations" :key="key">
+        <h3 :id="nation.zType">{{ nation.name }}</h3>
+        <NationItem :nation="nation" />
+      </div>
     </div>
   </section>
 </template>

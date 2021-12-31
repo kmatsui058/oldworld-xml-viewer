@@ -2,7 +2,7 @@
   <div>
     <template v-for="(item, key) in items">
       <VTooltip v-if="item.type === 'link'" :key="key">
-        <nuxt-link :to="{ name: item.name, hash: '#' + item.zType }">
+        <nuxt-link :to="{ name: item.name.toLowerCase(), hash: '#' + item.zType }">
           {{ item.text.toLowerCase() }}
         </nuxt-link>
         <template #popper> <component :is="item.component" :z-type="item.zType" /></template>

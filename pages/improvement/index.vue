@@ -2,14 +2,13 @@
   <section class="section">
     <h2 class="title is-2">IMPROVEMENTS</h2>
     <div class="content">
-      <template v-for="(improvementItem, key) in improvements">
+      <div v-for="(improvementItem, key) in improvements" :key="key">
         <ImprovementDetail
           :id="improvementItem.entry.zType"
-          :key="key"
           :z-type="improvementItem.entry.zType"
         />
-        <hr v-if="key < improvements.length - 1" :key="key" />
-      </template>
+        <hr v-if="key < improvements.length - 1" />
+      </div>
     </div>
   </section>
 </template>
