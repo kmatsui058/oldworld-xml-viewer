@@ -51,5 +51,6 @@ export default defineComponent({
       families,
     }
   },
+  head: { title: 'FAMILIES' },
 })
 </script>

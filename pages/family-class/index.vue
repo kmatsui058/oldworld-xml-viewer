@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <h2 class="title is-2">Family Classes</h2>
+    <h2 class="title is-2">FAMILY CLASSES</h2>
     <table class="table is-fullwidth">
       <thead>
         <tr>
@@ -37,5 +37,6 @@ export default defineComponent({
     })
     return { familyClasses }
   },
+  head: { title: 'FAMILY CLASSES' },
 })
 </script>

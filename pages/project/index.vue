@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { projects }
   },
+  head: { title: 'PROJECTS' },
 })
 </script>

@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { units }
   },
+  head: { title: 'UNITS' },
 })
 </script>

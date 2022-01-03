@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { cultures }
   },
+  head: { title: 'CULTURES' },
 })
 </script>

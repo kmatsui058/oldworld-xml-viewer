@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { yields }
   },
+  head: { title: 'YIELDS' },
 })
 </script>

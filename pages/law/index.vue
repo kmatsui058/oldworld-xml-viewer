@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { laws }
   },
+  head: { title: 'LAWS' },
 })
 </script>

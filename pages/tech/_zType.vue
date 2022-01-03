@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, useMeta, useRoute } from '@nuxtjs/composition-api'
 import families from '~/assets/data/xml/tech'
 import Tech from '~/classes/Tech'
 
@@ -21,7 +21,10 @@ export default defineComponent({
       }
       return new Tech(entry)
     })
+    const meta = useMeta()
+    meta.title.value = tech.value?.name
     return { tech }
   },
+  head: { title: 'TECHES' },
 })
 </script>

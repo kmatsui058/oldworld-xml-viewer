@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, useRoute, useMeta } from '@nuxtjs/composition-api'
 import nationRaw from '~/assets/data/xml/nation'
 import Nation from '~/classes/Nation'
 
@@ -30,7 +30,10 @@ export default defineComponent({
       }
       return new Nation(entry)
     })
+    const meta = useMeta()
+    meta.title.value = nation?.value?.name || ''
     return { nation }
   },
+  head: { title: 'NATIONS' },
 })
 </script>

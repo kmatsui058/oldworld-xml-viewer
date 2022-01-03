@@ -35,7 +35,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, useRoute, useMeta } from '@nuxtjs/composition-api'
 import familyClasses from '~/assets/data/xml/familyClass'
 import FamilyClass from '~/classes/FamilyClass'
 import AmbitionTable from '~/components/AmbitionTable.vue'
@@ -54,7 +54,10 @@ export default defineComponent({
       }
       return new FamilyClass(entry)
     })
+    const meta = useMeta()
+    meta.title.value = familyClass.value?.name
     return { familyClass }
   },
+  head: { title: 'FAMILY CLASSES' },
 })
 </script>

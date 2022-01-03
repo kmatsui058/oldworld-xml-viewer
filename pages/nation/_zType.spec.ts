@@ -25,8 +25,11 @@ describe('基本動作確認', () => {
               zType: 'hoge',
             },
           },
+          $meta: {
+            title: '',
+          },
         },
       })
-    }).toThrowError(new Error('not found'))
+    }).toThrowError()
   })
 })

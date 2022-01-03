@@ -1,7 +1,7 @@
 <template>
   <VTooltip>
     <nuxt-link class="yield-icon" :to="{ name: 'yield', hash: `#${yieldItem.entry.zType}` }">
-      <img :src="yieldItem.icon" alt="" class="icon" />
+      <img :src="yieldItem.icon" :alt="yieldItem.name" class="icon" />
     </nuxt-link>
     <template #popper><YieldDetail :z-type="yieldItem.entry.zType" /></template>
   </VTooltip>

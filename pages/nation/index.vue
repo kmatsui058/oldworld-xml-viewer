@@ -37,5 +37,6 @@ export default defineComponent({
     })
     return { nations }
   },
+  head: { title: 'NATIONS' },
 })
 </script>

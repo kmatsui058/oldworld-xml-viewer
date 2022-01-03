@@ -50,5 +50,6 @@ export default defineComponent({
     })
     return { teches }
   },
+  head: { title: 'TECHES' },
 })
 </script>

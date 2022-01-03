@@ -33,5 +33,6 @@ export default defineComponent({
     })
     return { improvements }
   },
+  head: { title: 'IMPROVEMENTS' },
 })
 </script>

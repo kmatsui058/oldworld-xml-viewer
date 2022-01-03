@@ -38,7 +38,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, useRoute, useMeta } from '@nuxtjs/composition-api'
 import families from '~/assets/data/xml/family'
 import Family from '~/classes/Family'
 import AmbitionTierTable from '~/components/AmbitionTierTable.vue'
@@ -66,7 +66,10 @@ export default defineComponent({
         return new Goal(item)
       }).filter((test) => test.name)
     })
+    const meta = useMeta()
+    meta.title.value = family.value?.name
     return { family, goals }
   },
+  head: { title: 'FAMILIES' },
 })
 </script>

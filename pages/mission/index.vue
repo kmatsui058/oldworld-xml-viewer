@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { missions }
   },
+  head: { title: 'MISSIONS' },
 })
 </script>
