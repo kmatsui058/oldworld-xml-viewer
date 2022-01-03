@@ -1890,9 +1890,9 @@
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.20.tgz"
   integrity sha512-88p7+M0QGxKpmnkfXjS4V26AnoC/eiqZutE8GLdaI5X12NY75bXSdTY9NkmYb2Xyk1O+MmkuO6Frmsj84V6I8Q==
 
-"@popperjs/core@^2.10.2":
+"@popperjs/core@^2.11.0":
   version "2.11.0"
-  resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.0.tgz"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.0.tgz#6734f8ebc106a0860dff7f92bf90df193f0935d7"
   integrity sha512-zrsUxjLOKAzdewIDRWy9nsV1GQsKBCWaGwsZQlCgr6/q+vjyZhFgqedLfFBuI9anTPEUT4APq9Mu0SZBTzIcGQ==
 
 "@rollup/pluginutils@^4.1.1":
@@ -8027,10 +8027,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^12.1.4:
-  version "12.1.4"
-  resolved "https://registry.npmjs.org/lint-staged/-/lint-staged-12.1.4.tgz"
-  integrity sha512-RgDz9nsFsE0/5eL9Vat0AvCuk0+j5mEuzBIVfrRH5FRtt5wibYe8zTjZs2nuqLFrLAGQGYnj8+HJxolcj08i/A==
+lint-staged@^12.1.5:
+  version "12.1.5"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-12.1.5.tgz#e05582fc39aed5cb13b9dd1dfb8330407246d809"
+  integrity sha512-WyKb+0sNKDTd1LwwAfTBPp0XmdaKkAOEbg4oHE4Kq2+oQVchg/VAcjVQtSqZih1izNsTURjc2EkhG/syRQUXdA==
   dependencies:
     cli-truncate "^3.1.0"
     colorette "^2.0.16"
@@ -12578,12 +12578,12 @@ uuid@^3.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-v-tooltip@^3.0.0-beta.1:
-  version "3.0.0-beta.1"
-  resolved "https://registry.npmjs.org/v-tooltip/-/v-tooltip-3.0.0-beta.1.tgz"
-  integrity sha512-sItlARqYRsTePth1OniRsvxp0jfbxYTbiJobrgHV+WnevR5Tm+V4vmW1FdYKCTENxjmCUbfTQUvpjuEblnS+vw==
+v-tooltip@^3.0.0-beta.3:
+  version "3.0.0-beta.3"
+  resolved "https://registry.yarnpkg.com/v-tooltip/-/v-tooltip-3.0.0-beta.3.tgz#f20c59aefb30250436ac7a56f931b4a0fd6f754b"
+  integrity sha512-lj4jpmp9qlXaUD9zJxXe0yzFv7eJr3nSFTooru6Ko3iKUydF+qhpbWcWKqZ/1VNJdlpcIPf9K3OsU4SiF6+0Bw==
   dependencies:
-    "@popperjs/core" "^2.10.2"
+    "@popperjs/core" "^2.11.0"
     vue-resize "^1.0.0"
 
 v8-compile-cache@^2.0.3, v8-compile-cache@^2.3.0:
