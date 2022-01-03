@@ -39,7 +39,7 @@ import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
 import familyClasses from '~/assets/data/xml/familyClass'
 import FamilyClass from '~/classes/FamilyClass'
 import AmbitionTable from '~/components/AmbitionTable.vue'
-import EffectCity from '~/components/effect/city.vue'
+import EffectCity from '~/components/effect-city/effect.vue'
 
 export default defineComponent({
   components: { AmbitionTable, EffectCity },

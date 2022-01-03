@@ -18,27 +18,27 @@
 <script lang="ts">
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import UnitTrait from '~/classes/UnitTrait'
-import IValueModifier from '~/classes/IValueModifier'
+import IValue from '~/classes/IValue'
 
 export default defineComponent({
   name: 'AiUnitTraitXP',
   components: { UnitTraitDetail: () => import('~/components/unit-trait/detail.vue') },
   props: {
-    iValueModifier: {
-      type: Object as PropType<IValueModifier>,
+    iValue: {
+      type: Object as PropType<IValue>,
       required: true,
     },
   },
   setup(props) {
     const unitTraits = computed(() => {
-      return props.iValueModifier.pair.map((item) => new UnitTrait(item.zIndex))
+      return props.iValue.pair.map((item) => new UnitTrait(item.zIndex))
     })
     const sign = computed((): string => {
-      return Number(props.iValueModifier.pair[0].iValue) > 0 ? '+' : ''
+      return Number(props.iValue.pair[0].iValue) > 0 ? '+' : ''
     })
 
     const value = computed((): string => {
-      return props.iValueModifier.pair[0].iValue
+      return props.iValue.pair[0].iValue
     })
     return { unitTraits, sign, value }
   },

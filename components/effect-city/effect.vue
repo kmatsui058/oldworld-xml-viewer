@@ -1,11 +1,10 @@
 <template>
   <ul class="effect-city">
-    <li v-for="(yieldItem, key) in yields" :key="'yield' + key">
-      <YieldIcon :z-type="yieldItem.pair.zIndex" class="icon" />
-      {{ yieldItem.text }}
+    <li v-for="(iValue, key) in iValues" :key="'iValue' + key">
+      <IValue :i-value="iValue" />
     </li>
-    <li v-for="(iValue, key) in iValueModifiers" :key="'iValue' + key">
-      <IValue :i-value-modifier="iValue" />
+    <li v-for="(bValue, key) in bValues" :key="'bValue' + key">
+      <BValue :b-value="bValue" />
     </li>
   </ul>
 </template>
@@ -13,14 +12,14 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import EffectCity from '~/classes/EffectCity'
 import getSpriteIcons from '~/assets/Sprite/SpriteIcons'
-import YieldIcon from '~/components/yield/icon.vue'
 import IValue from '~/components/effect-city/iValue.vue'
+import BValue from '~/components/effect-city/bValue.vue'
 
 export default defineComponent({
   name: 'EffectCityEffect',
   components: {
-    YieldIcon,
     IValue,
+    BValue,
   },
   props: {
     effectCity: {
@@ -29,14 +28,14 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const yields = computed(() => {
-      return props.effectCity.yields
+    const iValues = computed(() => {
+      return props.effectCity.iValues
     })
 
-    const iValueModifiers = computed(() => {
-      return props.effectCity.iValueModifiers
+    const bValues = computed(() => {
+      return props.effectCity.bValues
     })
-    return { yields, iValueModifiers, getSpriteIcons }
+    return { iValues, bValues, getSpriteIcons }
   },
 })
 </script>

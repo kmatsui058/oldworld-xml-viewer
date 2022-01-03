@@ -8,8 +8,28 @@ export default class Unit {
     this.entry = targetEntry
   }
 
-  get name(): string | null {
+  get nameText(): string | null {
     const textObject = texts.Root.Entry.find((test) => test.zType === this.entry.Name)
     return typeof textObject?.['en-US'] === 'string' ? textObject['en-US'] : null
+  }
+
+  get name(): string {
+    if (!this.nameText) throw new Error('name text not found' + this.entry.zType)
+    return this.nameText.split('~')[0]
+  }
+
+  get singularName(): string {
+    if (!this.nameText) throw new Error('name text not found' + this.entry.zType)
+    return this.nameText.split('~')[1]
+  }
+
+  get pluralName(): string {
+    if (!this.nameText) throw new Error('name text not found' + this.entry.zType)
+    return this.nameText.split('~')[2]
+  }
+
+  get names(): string[] {
+    if (!this.nameText) throw new Error('name text not found' + this.entry.zType)
+    return this.nameText.split('~')
   }
 }

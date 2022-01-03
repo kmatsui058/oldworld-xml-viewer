@@ -45,7 +45,7 @@ import AmbitionTierTable from '~/components/AmbitionTierTable.vue'
 import goalsRaw from '~/assets/data/xml/goal'
 import Goal from '~/classes/Goal'
 
-import EffectCity from '~/components/effect/city.vue'
+import EffectCity from '~/components/effect-city/effect.vue'
 
 export default defineComponent({
   components: { AmbitionTierTable, EffectCity },

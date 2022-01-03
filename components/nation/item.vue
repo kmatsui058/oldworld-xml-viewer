@@ -12,7 +12,7 @@
 <script lang="ts">
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import Nation from '~/classes/Nation'
-import EffectCity from '~/components/effect/city.vue'
+import EffectCity from '~/components/effect-city/effect.vue'
 
 export default defineComponent({
   name: 'NationItem',

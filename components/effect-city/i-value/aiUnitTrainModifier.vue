@@ -1,27 +1,27 @@
 <template>
   <span>
-    <span v-for="(improvement, key) in improvements" :key="key">
+    {{ sign }}{{ value }}% Production Time For
+    <span v-for="(Unit, key) in Units" :key="key">
       <VTooltip>
-        <nuxt-link :to="{ name: 'improvement', hash: '#' + improvement.entry.zType }">
-          {{ improvement.name }}
+        <nuxt-link :to="{ name: 'unit', hash: '#' + Unit.entry.zType }">
+          {{ Unit.pluralName }}
         </nuxt-link>
         <template #popper>
-          <ImprovementDetail :z-type="improvement.entry.zType" />
+          <UnitDetail :z-type="Unit.entry.zType" />
         </template>
       </VTooltip>
-      <span v-if="key < improvements.length - 1"> and </span>
+      <span v-if="key < Units.length - 1"> and </span>
     </span>
-    : {{ sign }}{{ value }}% Output.
   </span>
 </template>
 <script lang="ts">
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
-import Improvement from '~/classes/Improvement'
+import Unit from '~/classes/Unit'
 import IValue from '~/classes/IValue'
 
 export default defineComponent({
-  name: 'AiImprovementClasModifier',
-  components: { ImprovementDetail: () => import('~/components/improvement/detail.vue') },
+  name: 'AiUnitTrainModifier',
+  components: { UnitDetail: () => import('~/components/unit/detail.vue') },
   props: {
     iValue: {
       type: Object as PropType<IValue>,
@@ -29,8 +29,8 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const improvements = computed(() => {
-      return props.iValue.pair.map((item) => new Improvement(item.zIndex))
+    const Units = computed(() => {
+      return props.iValue.pair.map((item) => new Unit(item.zIndex))
     })
     const sign = computed((): string => {
       return Number(props.iValue.pair[0].iValue) > 0 ? '+' : ''
@@ -39,7 +39,7 @@ export default defineComponent({
     const value = computed((): string => {
       return props.iValue.pair[0].iValue
     })
-    return { improvements, sign, value }
+    return { Units, sign, value }
   },
 })
 </script>
