@@ -1,5 +1,6 @@
-import YieldEffect from './YieldEffect'
-import textInfo from '~/assets/data/xml/text-infos'
+import IValueModifire from './IValue'
+
+import BValue from './BValue'
 import effectCities from '~/assets/data/xml/effectCity'
 
 export default class EffectCity {
@@ -11,35 +12,47 @@ export default class EffectCity {
     this.entry = targetEntry
   }
 
-  get textInfo() {
-    return textInfo.Root.Entry
-  }
-
   get zIndex(): string {
     return typeof this.entry.zType === 'string' ? this.entry.zType : ''
   }
 
   get name(): string {
-    const test = this.textInfo.find((el) => el.zType === this.entry.Name)
-    return test?.['en-US']?.toString() || ''
+    return this.zIndex
   }
 
-  get yields(): YieldEffect[] {
-    const result: YieldEffect[] = []
+  get iValues() {
+    const result: IValueModifire[] = []
     for (const [key, value] of Object.entries(this.entry)) {
       if (!value) continue
-      if (key.includes('aiYield') && typeof value !== 'string' && 'Pair' in value) {
+      if (key.indexOf('ai') === 0 && typeof value !== 'string' && 'Pair' in value) {
         const pair = value.Pair
         if (Array.isArray(pair)) {
+          const initPair: XmlEffectCity.Pair[] = []
           for (const item of pair) {
-            if ('iValue' in item) {
-              result.push(new YieldEffect(key, item))
-            }
+            if ('iValue' in item) initPair.push(item)
           }
+          result.push(new IValueModifire(key, initPair))
         }
-        if (pair && 'iValue' in pair) {
-          result.push(new YieldEffect(key, pair))
+        if (pair && 'iValue' in pair) result.push(new IValueModifire(key, [pair]))
+      }
+    }
+    return result
+  }
+
+  get bValues() {
+    const result: BValue[] = []
+    for (const [key, value] of Object.entries(this.entry)) {
+      if (!value) continue
+      if (key.indexOf('ab') === 0 && typeof value !== 'string' && 'Pair' in value) {
+        const pair = value.Pair
+        if (Array.isArray(pair)) {
+          const initPair: XmlEffectCity.Pair2[] = []
+          for (const item of pair) {
+            if ('bValue' in item) initPair.push(item)
+          }
+          result.push(new BValue(key, initPair))
         }
+        if (pair && 'bValue' in pair) result.push(new BValue(key, [pair]))
       }
     }
     return result

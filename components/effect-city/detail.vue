@@ -3,14 +3,18 @@
     <h3>
       {{ title }}
     </h3>
+    <EffectCityEffect :effect-city="effectCityItem" />
   </div>
 </template>
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
 
 import EffectCity from '~/classes/EffectCity'
+import EffectCityEffect from '~/components/effect-city/effect.vue'
+
 export default defineComponent({
   name: 'EffectCityDetail',
+  components: { EffectCityEffect },
   props: {
     zType: {
       type: String,
@@ -23,7 +27,7 @@ export default defineComponent({
     })
 
     const title = computed(() => {
-      const items = effectCityItem.value.name?.split('~')[0]
+      const items = effectCityItem.value.name
       return items
     })
 

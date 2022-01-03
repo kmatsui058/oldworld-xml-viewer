@@ -23,7 +23,7 @@ export default defineComponent({
     })
 
     const title = computed(() => {
-      const items = conceptItem.value.name?.split('~')[0]
+      const items = conceptItem.value.names[0]
       return items
     })
 

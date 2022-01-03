@@ -1,14 +1,19 @@
 <template>
-  <section class="section">
-    <h2 class="title is-2">NATIONS</h2>
-    <div class="content">
-      <NationList :nations="nations" />
-      <div v-for="(nation, key) in nations" :key="key">
+  <div>
+    <section class="section">
+      <h2 class="title is-2">NATIONS</h2>
+      <div class="content">
+        <NationList :nations="nations" />
+      </div>
+    </section>
+
+    <section v-for="(nation, key) in nations" :key="key" class="section">
+      <div class="content">
         <h3 :id="nation.zType">{{ nation.name }}</h3>
         <NationItem :nation="nation" />
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </template>
 
 <script lang="ts">

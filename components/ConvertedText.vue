@@ -7,14 +7,13 @@
         </nuxt-link>
         <template #popper> <component :is="item.component" :z-type="item.zType" /></template>
       </VTooltip>
-
       <VTooltip v-else-if="item.type === 'yield'" :key="key">
         <nuxt-link :to="{ name: 'yield', hash: '#' + item.zType }">
           {{ item.preText }}
           <img :src="item.yield.icon" alt="" class="icon" />
           {{ item.afterText }}
         </nuxt-link>
-        <template #popper><YieldPopup :z-type="item.zType" /></template>
+        <template #popper><YeildDetail :z-type="item.zType" /></template>
       </VTooltip>
       <span v-else-if="item.type === 'text'" :key="key">
         {{ item.text }}
@@ -25,9 +24,6 @@
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
 import Yield from '~/classes/Yield'
-import ImprovementDetail from '~/components/improvement/detail.vue'
-import ConceptDetail from '~/components/concept/detail.vue'
-import UnitDetail from '~/components/unit/detail.vue'
 import SpecialistDetail from '~/components/specialist/detail.vue'
 import MissionDetail from '~/components/mission/detail.vue'
 import ProjectDetail from '~/components/project/detail.vue'
@@ -41,8 +37,10 @@ import ResourceDetail from '~/components/resource/detail.vue'
 import HeightDetail from '~/components/height/detail.vue'
 import VegetationDetail from '~/components/vegetation/detail.vue'
 import UnitTraitDetail from '~/components/unit-trait/detail.vue'
-
-import YieldPopup from '~/components/yield/popup.vue'
+import ImprovementDetail from '~/components/improvement/detail.vue'
+import ConceptDetail from '~/components/concept/detail.vue'
+import UnitDetail from '~/components/unit/detail.vue'
+import YeildDetail from '~/components/yield/detail.vue'
 export interface LinkItem {
   type: 'link'
   name: string
@@ -66,6 +64,8 @@ export interface TextItem {
 
 export type ConvertedTextItem = LinkItem | YieldItem | TextItem
 
+const yeildDetail: any = YeildDetail
+
 export default defineComponent({
   name: 'ConvertedText',
   components: {
@@ -74,7 +74,7 @@ export default defineComponent({
     UnitDetail,
     SpecialistDetail,
     MissionDetail,
-    YieldPopup,
+    YeildDetail: yeildDetail,
     ProjectDetail,
     RatingDetail,
     CultureDetail,
@@ -107,7 +107,7 @@ export default defineComponent({
         case 'MISSION':
           return 'MissionDetail'
         case 'YIELD':
-          return 'YieldPopup'
+          return 'YeildDetail'
         case 'PROJECT':
           return 'ProjectDetail'
         case 'RATING':

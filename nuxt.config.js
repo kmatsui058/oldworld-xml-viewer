@@ -47,6 +47,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
+    '@nuxtjs/sitemap',
   ],
   /*
    ** Build configuration
@@ -80,5 +81,8 @@ export default {
   server: {
     port: 3000, // デフォルト: 3000
     host: '0.0.0.0', // デフォルト: localhost
+  },
+  sitemap: {
+    hostname: 'https://owxv.km058.net/',
   },
 }
