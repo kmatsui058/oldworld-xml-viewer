@@ -11,7 +11,7 @@ import aiUnitTrainModifier from '~/components/effect-city/i-value/aiUnitTrainMod
 import aiYieldRate from '~/components/effect-city/i-value/aiYieldRate.vue'
 import aiYieldRatePopulation from '~/components/effect-city/i-value/aiYieldRatePopulation.vue'
 import aiYieldRateCulture from '~/components/effect-city/i-value/aiYieldRateCulture.vue'
-
+import aiYieldRateOpinion from '~/components/effect-city/i-value/aiYieldRateOpinion.vue'
 export default defineComponent({
   name: 'EffectCityIValue',
   components: {
@@ -22,6 +22,7 @@ export default defineComponent({
     aiYieldRate,
     aiYieldRatePopulation,
     aiYieldRateCulture,
+    aiYieldRateOpinion,
   },
   props: {
     iValue: {
@@ -38,6 +39,8 @@ export default defineComponent({
           return 'aiYieldRatePopulation'
         case 'aiYieldRateCulture':
           return 'aiYieldRateCulture'
+        case 'aiYieldRateOpinion':
+          return 'aiYieldRateOpinion'
         case 'aiImprovementClassModifier':
           return 'aiImprovementClassModifier'
         case 'aiImprovementModifier':

@@ -1,16 +1,20 @@
 <template>
-  <div class="content">
-    <h3>
-      {{ title }}
-    </h3>
-  </div>
+  <VTooltip>
+    <nuxt-link :to="{ name: 'concept', hash: `#${conceptItem.entry.zType}` }">
+      {{ conceptItem.names[1] }}
+    </nuxt-link>
+    <template #popper><ConceptDetail :z-type="conceptItem.entry.zType" /></template>
+  </VTooltip>
 </template>
 <script lang="ts">
 import { computed, defineComponent } from '@nuxtjs/composition-api'
+import ConceptDetail from '~/components/concept/detail.vue'
 
 import Concept from '~/classes/Concept'
+
 export default defineComponent({
-  name: 'ConceptDetail',
+  name: 'ConceptInlien',
+  components: { ConceptDetail },
   props: {
     zType: {
       type: String,
@@ -22,24 +26,13 @@ export default defineComponent({
       return new Concept(props.zType)
     })
 
-    const title = computed(() => {
-      const items = conceptItem.value.names[0]
-      return items
-    })
-
-    return { conceptItem, title }
+    return { conceptItem }
   },
 })
 </script>
 <style lang="scss" scoped>
-.effect-city {
-  margin: 0;
-  list-style: none;
-}
-.icon {
-  height: 1em;
-  width: 1em;
-  vertical-align: text-bottom;
+.v-popper {
+  display: inline;
 }
 </style>
 
