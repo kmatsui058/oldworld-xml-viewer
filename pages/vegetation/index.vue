@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { vegetations }
   },
+  head: { title: 'VEGETATIONS' },
 })
 </script>

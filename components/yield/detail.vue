@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <h3>
-      <img :src="yieldItem.icon" alt="" class="icon" />
+      <img :src="yieldItem.icon" :alt="yieldItem.name" class="icon" />
       {{ title }}
     </h3>
     <ConvertedText :text="yieldItem.helpText" />

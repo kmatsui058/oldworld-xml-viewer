@@ -23,5 +23,6 @@ export default defineComponent({
     })
     return { goals }
   },
+  head: { title: 'AMBITIONS' },
 })
 </script>

@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, useRoute } from '@nuxtjs/composition-api'
+import { computed, defineComponent, useRoute, useMeta } from '@nuxtjs/composition-api'
 import families from '~/assets/data/xml/goal'
 import Goal from '~/classes/Goal'
 
@@ -21,7 +21,10 @@ export default defineComponent({
       }
       return new Goal(entry)
     })
+    const meta = useMeta()
+    meta.title.value = goal?.value?.name
     return { goal }
   },
+  head: { title: 'AMBITIONS' },
 })
 </script>

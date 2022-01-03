@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { ratings }
   },
+  head: { title: 'RATINGS' },
 })
 </script>

@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { effectCitys }
   },
+  head: { title: 'EFFECT CITY' },
 })
 </script>

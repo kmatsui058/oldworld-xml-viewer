@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { heights }
   },
+  head: { title: 'HEIGHTS' },
 })
 </script>

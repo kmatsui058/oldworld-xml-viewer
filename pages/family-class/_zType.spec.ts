@@ -27,6 +27,6 @@ describe('基本動作確認', () => {
           },
         },
       })
-    }).toThrowError(new Error('not found'))
+    }).toThrowError()
   })
 })

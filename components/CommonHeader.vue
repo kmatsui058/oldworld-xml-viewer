@@ -19,6 +19,10 @@
         <span />
       </span>
       <div class="navbar-end navbar-menu">
+        <span class="navbar-item">
+          <AlgoliaSearch />
+        </span>
+
         <a
           href="https://github.com/kmatsui058/oldworld-xml-viewer/stargazers"
           class="navbar-item"
@@ -59,8 +63,9 @@
 </template>
 <script lang="ts">
 import { defineComponent } from '@nuxtjs/composition-api'
+import AlgoliaSearch from '~/components/search/search.vue'
 import GeneralNavigation from '~/components/navigation/GeneralNavigation.vue'
 export default defineComponent({
-  components: { GeneralNavigation },
+  components: { GeneralNavigation, AlgoliaSearch },
 })
 </script>

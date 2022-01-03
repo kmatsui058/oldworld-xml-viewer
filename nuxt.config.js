@@ -5,7 +5,10 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    titleTemplate: (titleChunk) => {
+      // If undefined or blank then we don't need the hyphen
+      return titleChunk ? `${titleChunk} - oldworld-xml-viewer` : 'oldworld-xml-viewer'
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -67,6 +70,7 @@ export default {
      ** You can extend webpack config here
      */
     extend(_config, _ctx) {},
+    transpile: ['vue-instantsearch', 'instantsearch.js/es'],
   },
   fontawesome: {
     icons: {

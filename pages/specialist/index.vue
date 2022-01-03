@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { specialists }
   },
+  head: { title: 'SPECIALISTS' },
 })
 </script>

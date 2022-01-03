@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { terrains }
   },
+  head: { title: 'TERRAINS' },
 })
 </script>

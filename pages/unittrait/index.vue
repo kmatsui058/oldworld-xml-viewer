@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { unitTraits }
   },
+  head: { title: 'UNIT TRAITS' },
 })
 </script>

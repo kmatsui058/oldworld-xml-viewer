@@ -15,4 +15,5 @@ module.exports = {
   collectCoverageFrom: ['<rootDir>/components/**/*.vue', '<rootDir>/pages/**/*.vue'],
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['./jest.setup.ts'],
+  transformIgnorePatterns: ['node_modules/(?!vue-instantsearch)'],
 }

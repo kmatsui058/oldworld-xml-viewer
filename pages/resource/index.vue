@@ -30,5 +30,6 @@ export default defineComponent({
     })
     return { resources }
   },
+  head: { title: 'RESOURCES' },
 })
 </script>
