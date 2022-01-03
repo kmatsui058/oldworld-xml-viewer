@@ -18,10 +18,11 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import Unit from '~/classes/Unit'
 import IValue from '~/classes/IValue'
+import UnitDetail from '~/components/unit/detail.vue'
 
 export default defineComponent({
   name: 'AiUnitTrainModifier',
-  components: { UnitDetail: () => import('~/components/unit/detail.vue') },
+  components: { UnitDetail },
   props: {
     iValue: {
       type: Object as PropType<IValue>,

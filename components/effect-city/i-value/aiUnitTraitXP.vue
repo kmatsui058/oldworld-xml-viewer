@@ -19,10 +19,11 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import UnitTrait from '~/classes/UnitTrait'
 import IValue from '~/classes/IValue'
+import UnitTraitDetail from '~/components/unit-trait/detail.vue'
 
 export default defineComponent({
   name: 'AiUnitTraitXP',
-  components: { UnitTraitDetail: () => import('~/components/unit-trait/detail.vue') },
+  components: { UnitTraitDetail },
   props: {
     iValue: {
       type: Object as PropType<IValue>,

@@ -18,10 +18,10 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import ImprovementClass from '~/classes/ImprovementClass'
 import IValue from '~/classes/IValue'
-
+import ImprovementClassDetail from '~/components/improvement-class/detail.vue'
 export default defineComponent({
   name: 'AiImprovementClasModifier',
-  components: { ImprovementClassDetail: () => import('~/components/improvement-class/detail.vue') },
+  components: { ImprovementClassDetail },
   props: {
     iValue: {
       type: Object as PropType<IValue>,

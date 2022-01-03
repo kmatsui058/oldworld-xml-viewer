@@ -18,10 +18,10 @@
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
 import Improvement from '~/classes/Improvement'
 import IValue from '~/classes/IValue'
-
+import ImprovementDetail from '~/components/improvement/detail.vue'
 export default defineComponent({
   name: 'AiImprovementClasModifier',
-  components: { ImprovementDetail: () => import('~/components/improvement/detail.vue') },
+  components: { ImprovementDetail },
   props: {
     iValue: {
       type: Object as PropType<IValue>,
@@ -32,6 +32,7 @@ export default defineComponent({
     const improvements = computed(() => {
       return props.iValue.pair.map((item) => new Improvement(item.zIndex))
     })
+
     const sign = computed((): string => {
       return Number(props.iValue.pair[0].iValue) > 0 ? '+' : ''
     })

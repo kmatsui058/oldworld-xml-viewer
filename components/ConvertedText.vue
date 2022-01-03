@@ -13,7 +13,7 @@
           <img :src="item.yield.icon" alt="" class="icon" />
           {{ item.afterText }}
         </nuxt-link>
-        <template #popper><YieldPopup :z-type="item.zType" /></template>
+        <template #popper><YeildDetail :z-type="item.zType" /></template>
       </VTooltip>
       <span v-else-if="item.type === 'text'" :key="key">
         {{ item.text }}
@@ -37,7 +37,10 @@ import ResourceDetail from '~/components/resource/detail.vue'
 import HeightDetail from '~/components/height/detail.vue'
 import VegetationDetail from '~/components/vegetation/detail.vue'
 import UnitTraitDetail from '~/components/unit-trait/detail.vue'
-
+import ImprovementDetail from '~/components/improvement/detail.vue'
+import ConceptDetail from '~/components/concept/detail.vue'
+import UnitDetail from '~/components/unit/detail.vue'
+import YeildDetail from '~/components/yield/detail.vue'
 export interface LinkItem {
   type: 'link'
   name: string
@@ -61,15 +64,17 @@ export interface TextItem {
 
 export type ConvertedTextItem = LinkItem | YieldItem | TextItem
 
+const yeildDetail: any = YeildDetail
+
 export default defineComponent({
   name: 'ConvertedText',
   components: {
-    ImprovementDetail: () => import('~/components/improvement/detail.vue'),
-    ConceptDetail: () => import('~/components/concept/detail.vue'),
-    UnitDetail: () => import('~/components/unit/detail.vue'),
+    ImprovementDetail,
+    ConceptDetail,
+    UnitDetail,
     SpecialistDetail,
     MissionDetail,
-    YieldPopup: () => import('~/components/yield/detail.vue') as any,
+    YeildDetail: yeildDetail,
     ProjectDetail,
     RatingDetail,
     CultureDetail,
@@ -102,7 +107,7 @@ export default defineComponent({
         case 'MISSION':
           return 'MissionDetail'
         case 'YIELD':
-          return 'YieldPopup'
+          return 'YeildDetail'
         case 'PROJECT':
           return 'ProjectDetail'
         case 'RATING':

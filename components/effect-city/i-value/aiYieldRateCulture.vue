@@ -10,7 +10,6 @@
 </template>
 <script lang="ts">
 import { computed, defineComponent, PropType } from '@nuxtjs/composition-api'
-import UnitTrait from '~/classes/UnitTrait'
 import IValue from '~/classes/IValue'
 import YieldIcon from '~/components/yield/icon.vue'
 import YieldInline from '~/components/yield/inline.vue'
@@ -25,9 +24,6 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const unitTraits = computed(() => {
-      return props.iValue.pair.map((item) => new UnitTrait(item.zIndex))
-    })
     const pairs = computed(() => {
       return props.iValue.pair.map((pair) => {
         return {
@@ -38,7 +34,7 @@ export default defineComponent({
       })
     })
 
-    return { unitTraits, pairs }
+    return { pairs }
   },
 })
 </script>
