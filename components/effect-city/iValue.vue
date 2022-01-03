@@ -12,6 +12,11 @@ import aiYieldRate from '~/components/effect-city/i-value/aiYieldRate.vue'
 import aiYieldRatePopulation from '~/components/effect-city/i-value/aiYieldRatePopulation.vue'
 import aiYieldRateCulture from '~/components/effect-city/i-value/aiYieldRateCulture.vue'
 import aiYieldRateOpinion from '~/components/effect-city/i-value/aiYieldRateOpinion.vue'
+import aiYieldModifier from '~/components/effect-city/i-value/aiYieldModifier.vue'
+import aiYieldRateSpecialist from '~/components/effect-city/i-value/aiYieldRateSpecialist.vue'
+import aiImprovementClassUpgradeTurnChange from '~/components/effect-city/i-value/aiImprovementClassUpgradeTurnChange.vue'
+import aiUnitTraitLevel from '~/components/effect-city/i-value/aiUnitTraitLevel.vue'
+
 export default defineComponent({
   name: 'EffectCityIValue',
   components: {
@@ -23,6 +28,10 @@ export default defineComponent({
     aiYieldRatePopulation,
     aiYieldRateCulture,
     aiYieldRateOpinion,
+    aiYieldModifier,
+    aiYieldRateSpecialist,
+    aiImprovementClassUpgradeTurnChange,
+    aiUnitTraitLevel,
   },
   props: {
     iValue: {
@@ -41,14 +50,22 @@ export default defineComponent({
           return 'aiYieldRateCulture'
         case 'aiYieldRateOpinion':
           return 'aiYieldRateOpinion'
+        case 'aiYieldModifier':
+          return 'aiYieldModifier'
+        case 'aiYieldRateSpecialist':
+          return 'aiYieldRateSpecialist'
         case 'aiImprovementClassModifier':
           return 'aiImprovementClassModifier'
         case 'aiImprovementModifier':
           return 'aiImprovementModifier'
+        case 'aiImprovementClassUpgradeTurnChange':
+          return 'aiImprovementClassUpgradeTurnChange'
         case 'aiUnitTraitXP':
           return 'aiUnitTraitXP'
         case 'aiUnitTrainModifier':
           return 'aiUnitTrainModifier'
+        case 'aiUnitTraitLevel':
+          return 'aiUnitTraitLevel'
         default:
         // throw new Error('component not mount: ' + iValueModifire.key)
       }

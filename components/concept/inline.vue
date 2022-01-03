@@ -1,7 +1,7 @@
 <template>
   <VTooltip>
     <nuxt-link :to="{ name: 'concept', hash: `#${conceptItem.entry.zType}` }">
-      {{ conceptItem.names[1] }}
+      {{ conceptItem.names[nameIndex] }}
     </nuxt-link>
     <template #popper><ConceptDetail :z-type="conceptItem.entry.zType" /></template>
   </VTooltip>
@@ -19,6 +19,11 @@ export default defineComponent({
     zType: {
       type: String,
       required: true,
+    },
+    nameIndex: {
+      type: Number,
+      required: false,
+      default: 1,
     },
   },
   setup(props) {
