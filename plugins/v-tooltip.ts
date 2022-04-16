@@ -1,5 +1,4 @@
 import Vue from 'vue'
-import 'v-tooltip/dist/v-tooltip.css'
 const VTooltip = require('v-tooltip')
 
 const config = {
