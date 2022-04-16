@@ -25,7 +25,7 @@ export default class Family {
   }
 
   get nation(): Nation {
-    const test = nation.Root.Entry.find((entry) => entry.zType === this.entry.abNation)
+    const test = nation.Root.Entry.find((entry) => entry.zType === this.entry.abNation.Pair?.zIndex)
     if (!test) {
       throw new Error('not found')
     }

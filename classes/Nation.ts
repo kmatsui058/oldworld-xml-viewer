@@ -38,11 +38,11 @@ export default class Nation {
   }
 
   get families(): Family[] {
-    return families.Root.Entry.filter((entry) => entry.abNation === this.entry.zType).map(
-      (family) => {
-        return new Family(family)
-      }
-    )
+    return families.Root.Entry.filter(
+      (entry) => entry.abNation.Pair?.zIndex === this.entry.zType
+    ).map((family) => {
+      return new Family(family)
+    })
   }
 
   get effectPlayer(): EffectPlayer {
