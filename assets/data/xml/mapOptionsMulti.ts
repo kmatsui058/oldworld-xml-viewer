@@ -113,36 +113,6 @@
         "bMultiPlayerValid": "0"
       },
       {
-        "zType": "MAP_OPTIONS_MULTI_ARID_TRIBES_SP",
-        "Name": "TEXT_MAP_OPTION_TRIBES",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_ARID_TRIBES_RANDOM",
-            "MAP_OPTION_ARID_TRIBES_FIVE",
-            "MAP_OPTION_ARID_TRIBES_FOUR",
-            "MAP_OPTION_ARID_TRIBES_THREE",
-            "MAP_OPTION_ARID_TRIBES_TWO"
-          ]
-        },
-        "Default": "MAP_OPTION_ARID_TRIBES_RANDOM",
-        "bMultiPlayerValid": "0"
-      },
-      {
-        "zType": "MAP_OPTIONS_MULTI_ARID_TRIBES_MP",
-        "Name": "TEXT_MAP_OPTION_TRIBES",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_ARID_TRIBES_BARBARIANS",
-            "MAP_OPTION_ARID_TRIBES_FOUR",
-            "MAP_OPTION_ARID_TRIBES_THREE",
-            "MAP_OPTION_ARID_TRIBES_ONE",
-            "MAP_OPTION_ARID_TRIBES_RANDOM"
-          ]
-        },
-        "Default": "MAP_OPTION_ARID_TRIBES_BARBARIANS",
-        "bSinglePlayerValid": "0"
-      },
-      {
         "zType": "MAP_OPTIONS_MULTI_ARID_WATER_LOCATION",
         "Name": "TEXT_MAP_OPTION_WATER_LOCATION",
         "Choices": {
@@ -290,36 +260,6 @@
         },
         "Default": "MAP_OPTION_PLAYER_START_ANYWHERE",
         "bMultiPlayerValid": "0"
-      },
-      {
-        "zType": "MAP_OPTIONS_MULTI_COASTAL_RAIN_BASIN_TERRAIN_TRIBES_SP",
-        "Name": "TEXT_MAP_OPTION_TRIBES",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO"
-          ]
-        },
-        "Default": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
-        "bMultiPlayerValid": "0"
-      },
-      {
-        "zType": "MAP_OPTIONS_MULTI_COASTAL_RAIN_BASIN_TERRAIN_TRIBES_MP",
-        "Name": "TEXT_MAP_OPTION_TRIBES",
-        "Choices": {
-          "zValue": [
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE",
-            "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM"
-          ]
-        },
-        "Default": "MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
-        "bSinglePlayerValid": "0"
       },
       {
         "zType": "MAP_OPTIONS_MULTI_DISJUNCTION_CONTINENTS",

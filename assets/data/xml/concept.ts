@@ -80,6 +80,11 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_CITY_SITE"
       },
       {
+        "zType": "CONCEPT_CITY",
+        "Name": "TEXT_CONCEPT_CITY",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_CITY"
+      },
+      {
         "zType": "CONCEPT_CLEAR",
         "Name": "TEXT_CONCEPT_CLEAR",
         "zLink": "HELP_CLEAR"
@@ -102,17 +107,12 @@
       {
         "zType": "CONCEPT_COURTIER",
         "Name": "TEXT_CONCEPT_COURTIER",
-        "zLink": "HELP_COURTIERS_ALL"
+        "zLink": "HELP_COURTIER"
       },
       {
         "zType": "CONCEPT_COUNCILOR",
         "Name": "TEXT_CONCEPT_COUNCILOR",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_COUNCILOR"
-      },
-      {
-        "zType": "CONCEPT_POPULATION",
-        "Name": "TEXT_CONCEPT_POPULATION",
-        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_POPULATION"
       },
       {
         "zType": "CONCEPT_CRITICAL_HIT",
@@ -340,6 +340,11 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_PILLAGE"
       },
       {
+        "zType": "CONCEPT_POPULATION",
+        "Name": "TEXT_CONCEPT_POPULATION",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_POPULATION"
+      },
+      {
         "zType": "CONCEPT_POWER",
         "Name": "TEXT_CONCEPT_POWER",
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_POWER"
@@ -525,9 +530,29 @@
         "zHelpText": "TEXT_HELPTEXT_LINK_HELP_XP"
       },
       {
+        "zType": "CONCEPT_HP",
+        "Name": "TEXT_CONCEPT_HP",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_HP"
+      },
+      {
         "zType": "CONCEPT_ZOC",
         "Name": "TEXT_CONCEPT_ZOC",
         "zLink": "HELP_ZOC"
+      },
+      {
+        "zType": "CONCEPT_ASSIMILATION",
+        "Name": "TEXT_CONCEPT_ASSIMILATION",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_ASSIMILATION"
+      },
+      {
+        "zType": "CONCEPT_TERRITORY",
+        "Name": "TEXT_CONCEPT_TERRITORY",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_TERRITORY"
+      },
+      {
+        "zType": "CONCEPT_VICTORY_POINT",
+        "Name": "TEXT_CONCEPT_VICTORY_POINT",
+        "zHelpText": "TEXT_HELPTEXT_LINK_HELP_VICTORY_POINT"
       }
     ]
   }

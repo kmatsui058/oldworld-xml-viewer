@@ -176,7 +176,7 @@
       },
       {
         "zType": "TEXT_ACHIEVEMENT_HARDCORE",
-        "en-US": "Hardcore (Won a game on The Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, Play to Win AI, and No Undo)"
+        "en-US": "Hardcore (Won a game on The Great difficulty against all nations with High Event Level, Realistic Mortality, Locked Save, Ruthless AI, and No Undo)"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_COGNOMEN_WARRIOR",
@@ -776,7 +776,7 @@
       },
       {
         "zType": "TEXT_ACHIEVEMENT_ATHENS_ACROPOLIS",
-        "en-US": "Built the Acropolis in Athens"
+        "en-US": "Built the Acropolis in Athenai"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_RHODES_COLOSSUS",
@@ -796,7 +796,7 @@
       },
       {
         "zType": "TEXT_ACHIEVEMENT_BYZANTIUM_HAGIA_SOPHIA",
-        "en-US": "Built the Hagia Sophia in Byzantium"
+        "en-US": "Built the Hagia Sophia in Byzantion"
       },
       {
         "zType": "TEXT_ACHIEVEMENT_DAMASCUS_VIA_RECTA_SOUK",

@@ -23,8 +23,14 @@
         "en-US": "In Love with"
       },
       {
+        "zType": "TEXT_RELATIONSHIP_IN_LOVE_WITH_F"
+      },
+      {
         "zType": "TEXT_RELATIONSHIP_IN_LOVE_WITH_VERB",
         "en-US": "Is In Love with"
+      },
+      {
+        "zType": "TEXT_RELATIONSHIP_IN_LOVE_WITH_VERB_F"
       },
       {
         "zType": "TEXT_RELATIONSHIP_LOVER_OF",
@@ -47,8 +53,14 @@
         "en-US": "Terrified of"
       },
       {
+        "zType": "TEXT_RELATIONSHIP_TERRIFIED_OF_F"
+      },
+      {
         "zType": "TEXT_RELATIONSHIP_TERRIFIED_OF_VERB",
         "en-US": "Becomes Terrified of"
+      },
+      {
+        "zType": "TEXT_RELATIONSHIP_TERRIFIED_OF_VERB_F"
       },
       {
         "zType": "TEXT_RELATIONSHIP_OWES_FAVOR_TO",
@@ -71,6 +83,9 @@
         "en-US": "Jealous about"
       },
       {
+        "zType": "TEXT_RELATIONSHIP_JEALOUS_ABOUT_F"
+      },
+      {
         "zType": "TEXT_RELATIONSHIP_JEALOUS_ABOUT_VERB",
         "en-US": "Becomes Jealous about"
       },
@@ -87,8 +102,14 @@
         "en-US": "Disappointed with"
       },
       {
+        "zType": "TEXT_RELATIONSHIP_DISAPPOINTED_WITH_F"
+      },
+      {
         "zType": "TEXT_RELATIONSHIP_DISAPPOINTED_WITH_VERB",
         "en-US": "Becomes Disappointed with"
+      },
+      {
+        "zType": "TEXT_RELATIONSHIP_DISAPPOINTED_WITH_VERB_F"
       },
       {
         "zType": "TEXT_RELATIONSHIP_ESTRANGED_FROM",
@@ -143,8 +164,14 @@
         "en-US": "Made Heir by"
       },
       {
+        "zType": "TEXT_RELATIONSHIP_MADE_HEIR_BY_F"
+      },
+      {
         "zType": "TEXT_RELATIONSHIP_MADE_HEIR_BY_VERB",
         "en-US": "Is Made Heir by"
+      },
+      {
+        "zType": "TEXT_RELATIONSHIP_MADE_HEIR_BY_VERB_F"
       },
       {
         "zType": "TEXT_RELATIONSHIP_BYPASSED_BY",

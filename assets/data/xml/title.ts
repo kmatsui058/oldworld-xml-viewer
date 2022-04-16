@@ -56,6 +56,21 @@
         }
       },
       {
+        "zType": "TITLE_LEADER_REGENT",
+        "aeTitles": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "TEXT_CHARACTER_TITLE_LEADER_REGENT"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "TEXT_CHARACTER_TITLE_LEADER_REGENT_F"
+            }
+          ]
+        }
+      },
+      {
         "zType": "TITLE_HEIR",
         "aeTitles": {
           "Pair": [
@@ -191,6 +206,21 @@
         }
       },
       {
+        "zType": "TITLE_TRIBE_LEADER",
+        "aeTitles": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "TEXT_CHARACTER_TITLE_TRIBE_LEADER"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "TEXT_CHARACTER_TITLE_TRIBE_LEADER_F"
+            }
+          ]
+        }
+      },
+      {
         "zType": "TITLE_PROPHET",
         "aeTitles": {
           "Pair": [
@@ -306,6 +336,21 @@
             {
               "zIndex": "GENDER_FEMALE",
               "zValue": "TEXT_CHARACTER_TITLE_PRIEST_OF_MELQUART_F"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "TITLE_GRAND_EXPLORER",
+        "aeTitles": {
+          "Pair": [
+            {
+              "zIndex": "GENDER_MALE",
+              "zValue": "TEXT_CHARACTER_TITLE_GRAND_EXPLORER"
+            },
+            {
+              "zIndex": "GENDER_FEMALE",
+              "zValue": "TEXT_CHARACTER_TITLE_GRAND_EXPLORER_F"
             }
           ]
         }

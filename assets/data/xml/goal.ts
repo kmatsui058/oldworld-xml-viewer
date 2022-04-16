@@ -181,10 +181,10 @@
           "comment": "Specify the Luxury type(s) to be given to another Player."
         },
         "aiTribeLuxuryCount": {
-          "comment": "Specify the Luxury type(s) to be given to another Player."
+          "comment": "Specify the Luxury type(s) to be given to another Tribe."
         },
         "aiFamilyLuxuryCount": {
-          "comment": "Specify the Luxury type(s) to be given to another Player."
+          "comment": "Specify the Luxury type(s) to be given to the Player's families."
         },
         "aiImprovementCount": {
           "comment": "Use this field for specific Improvements, which either do not have multiple versions or you want a specific version."
@@ -640,8 +640,8 @@
         "zType": "GOAL_MONOTHEISM",
         "Name": "TEXT_GOAL_MONOTHEISM",
         "iAmbitionClass": "1",
-        "iMinTier": "2",
-        "iMaxTier": "3",
+        "iMinTier": "3",
+        "iMaxTier": "4",
         "TechObsolete": "TECH_MONASTICISM",
         "StartLaw": "LAW_MONOTHEISM",
         "aiFamilyClassWeight": {
@@ -655,8 +655,8 @@
         "zType": "GOAL_POLYTHEISM",
         "Name": "TEXT_GOAL_POLYTHEISM",
         "iAmbitionClass": "1",
-        "iMinTier": "2",
-        "iMaxTier": "3",
+        "iMinTier": "3",
+        "iMaxTier": "4",
         "TechObsolete": "TECH_MONASTICISM",
         "StartLaw": "LAW_POLYTHEISM",
         "aiFamilyClassWeight": {
@@ -700,8 +700,8 @@
         "zType": "GOAL_TOLERANCE",
         "Name": "TEXT_GOAL_TOLERANCE",
         "iAmbitionClass": "1",
-        "iMinTier": "3",
-        "iMaxTier": "4",
+        "iMinTier": "4",
+        "iMaxTier": "5",
         "TechObsolete": "TECH_DOCTRINE",
         "StartLaw": "LAW_TOLERANCE",
         "aiFamilyClassWeight": {
@@ -715,8 +715,8 @@
         "zType": "GOAL_ORTHODOXY",
         "Name": "TEXT_GOAL_ORTHODOXY",
         "iAmbitionClass": "1",
-        "iMinTier": "3",
-        "iMaxTier": "4",
+        "iMinTier": "4",
+        "iMaxTier": "5",
         "TechObsolete": "TECH_DOCTRINE",
         "StartLaw": "LAW_ORTHODOXY",
         "aiFamilyClassWeight": {
@@ -730,8 +730,8 @@
         "zType": "GOAL_PROFESSIONAL_ARMY",
         "Name": "TEXT_GOAL_PROFESSIONAL_ARMY",
         "iAmbitionClass": "1",
-        "iMinTier": "3",
-        "iMaxTier": "4",
+        "iMinTier": "4",
+        "iMaxTier": "5",
         "TechObsolete": "TECH_MANOR",
         "StartLaw": "LAW_PROFESSIONAL_ARMY",
         "aiFamilyClassWeight": {
@@ -745,8 +745,8 @@
         "zType": "GOAL_VOLUNTEERS",
         "Name": "TEXT_GOAL_VOLUNTEERS",
         "iAmbitionClass": "1",
-        "iMinTier": "3",
-        "iMaxTier": "4",
+        "iMinTier": "4",
+        "iMaxTier": "5",
         "TechObsolete": "TECH_MANOR",
         "StartLaw": "LAW_VOLUNTEERS",
         "aiFamilyClassWeight": {
@@ -790,8 +790,8 @@
         "zType": "GOAL_ICONOGRAPHY",
         "Name": "TEXT_GOAL_ICONOGRAPHY",
         "iAmbitionClass": "1",
-        "iMinTier": "4",
-        "iMaxTier": "5",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_VAULTING",
         "StartLaw": "LAW_ICONOGRAPHY",
         "aiFamilyClassWeight": {
@@ -805,8 +805,8 @@
         "zType": "GOAL_CALLIGRAPHY",
         "Name": "TEXT_GOAL_CALLIGRAPHY",
         "iAmbitionClass": "1",
-        "iMinTier": "4",
-        "iMaxTier": "5",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_VAULTING",
         "StartLaw": "LAW_CALLIGRAPHY",
         "aiFamilyClassWeight": {
@@ -820,8 +820,8 @@
         "zType": "GOAL_PILGRIMAGE",
         "Name": "TEXT_GOAL_PILGRIMAGE",
         "iAmbitionClass": "1",
-        "iMinTier": "4",
-        "iMaxTier": "5",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_MARTIAL_CODE",
         "StartLaw": "LAW_PILGRIMAGE",
         "aiFamilyClassWeight": {
@@ -835,8 +835,8 @@
         "zType": "GOAL_HOLY_WAR",
         "Name": "TEXT_GOAL_HOLY_WAR",
         "iAmbitionClass": "1",
-        "iMinTier": "4",
-        "iMaxTier": "5",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_MARTIAL_CODE",
         "StartLaw": "LAW_HOLY_WAR",
         "aiFamilyClassWeight": {
@@ -880,8 +880,8 @@
         "zType": "GOAL_AUTARKY",
         "Name": "TEXT_GOAL_AUTARKY",
         "iAmbitionClass": "1",
-        "iMinTier": "5",
-        "iMaxTier": "6",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_LATEEN_SAIL",
         "StartLaw": "LAW_AUTARKY",
         "aiFamilyClassWeight": {
@@ -895,8 +895,8 @@
         "zType": "GOAL_TRADE_LEAGUE",
         "Name": "TEXT_GOAL_TRADE_LEAGUE",
         "iAmbitionClass": "1",
-        "iMinTier": "5",
-        "iMaxTier": "6",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_LATEEN_SAIL",
         "StartLaw": "LAW_TRADE_LEAGUE",
         "aiFamilyClassWeight": {
@@ -910,8 +910,8 @@
         "zType": "GOAL_COIN_DEBASEMENT",
         "Name": "TEXT_GOAL_COIN_DEBASEMENT",
         "iAmbitionClass": "1",
-        "iMinTier": "5",
-        "iMaxTier": "6",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_FISCAL_POLICY",
         "StartLaw": "LAW_COIN_DEBASEMENT",
         "aiFamilyClassWeight": {
@@ -925,8 +925,8 @@
         "zType": "GOAL_MONETARY_REFORM",
         "Name": "TEXT_GOAL_MONETARY_REFORM",
         "iAmbitionClass": "1",
-        "iMinTier": "5",
-        "iMaxTier": "6",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechObsolete": "TECH_FISCAL_POLICY",
         "StartLaw": "LAW_MONETARY_REFORM",
         "aiFamilyClassWeight": {
@@ -1698,7 +1698,7 @@
         "Name": "TEXT_GOAL_MONEY_2000",
         "iAmbitionClass": "6",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_TRADERS",
@@ -1716,7 +1716,7 @@
         "zType": "GOAL_MONEY_5000",
         "Name": "TEXT_GOAL_MONEY_5000",
         "iAmbitionClass": "6",
-        "iMinTier": "4",
+        "iMinTier": "5",
         "iMaxTier": "6",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -1735,8 +1735,8 @@
         "zType": "GOAL_MONEY_10000",
         "Name": "TEXT_GOAL_MONEY_10000",
         "iAmbitionClass": "6",
-        "iMinTier": "5",
-        "iMaxTier": "7",
+        "iMinTier": "7",
+        "iMaxTier": "8",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_TRADERS",
@@ -1944,7 +1944,7 @@
         "iAmbitionClass": "8",
         "iMinTier": "5",
         "iMaxTier": "7",
-        "TechPrereq": "TECH_HYDRAULICS",
+        "TechPrereq": "TECH_CARTOGRAPHY",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_ARTISANS",
@@ -2053,11 +2053,11 @@
         }
       },
       {
-        "zType": "GOAL_SIX_REPAIRED",
-        "Name": "TEXT_GOAL_SIX_REPAIRED",
+        "zType": "GOAL_FOUR_REPAIRED",
+        "Name": "TEXT_GOAL_FOUR_REPAIRED",
         "iAmbitionClass": "8",
         "iMinTier": "2",
-        "iMaxTier": "6",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_LANDOWNERS",
@@ -2067,7 +2067,7 @@
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_IMPROVEMENT_REPAIRED",
-            "iValue": "6"
+            "iValue": "4"
           }
         }
       },
@@ -2075,7 +2075,7 @@
         "zType": "GOAL_EIGHT_REPAIRED",
         "Name": "TEXT_GOAL_EIGHT_REPAIRED",
         "iAmbitionClass": "8",
-        "iMinTier": "3",
+        "iMinTier": "5",
         "iMaxTier": "7",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -3029,8 +3029,8 @@
         "zType": "GOAL_SIX_MOATS",
         "Name": "TEXT_GOAL_SIX_MOATS",
         "iAmbitionClass": "13",
-        "iMinTier": "3",
-        "iMaxTier": "4",
+        "iMinTier": "4",
+        "iMaxTier": "5",
         "TechPrereq": "TECH_POLIS",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -3055,8 +3055,8 @@
         "zType": "GOAL_SIX_TOWERS",
         "Name": "TEXT_GOAL_SIX_TOWERS",
         "iAmbitionClass": "13",
-        "iMinTier": "4",
-        "iMaxTier": "5",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "TechPrereq": "TECH_ARCHITECTURE",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -3254,37 +3254,8 @@
         }
       },
       {
-        "zType": "GOAL_FIVE_TRIBE_CLEARED",
-        "Name": "TEXT_GOAL_FIVE_TRIBE_CLEARED",
-        "iAmbitionClass": "14",
-        "iMinTier": "2",
-        "iMaxTier": "3",
-        "aiFamilyClassWeight": {
-          "Pair": [
-            {
-              "zIndex": "FAMILYCLASS_CHAMPIONS",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "FAMILYCLASS_RIDERS",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "FAMILYCLASS_HUNTERS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aiStatCountData": {
-          "Pair": {
-            "zIndex": "STAT_TRIBE_CLEARED",
-            "iValue": "5"
-          }
-        }
-      },
-      {
-        "zType": "GOAL_SEVEN_TRIBE_CLEARED",
-        "Name": "TEXT_GOAL_SEVEN_TRIBE_CLEARED",
+        "zType": "GOAL_SIX_TRIBE_CLEARED",
+        "Name": "TEXT_GOAL_SIX_TRIBE_CLEARED",
         "iAmbitionClass": "14",
         "iMinTier": "3",
         "iMaxTier": "4",
@@ -3307,7 +3278,7 @@
         "aiStatCountData": {
           "Pair": {
             "zIndex": "STAT_TRIBE_CLEARED",
-            "iValue": "7"
+            "iValue": "6"
           }
         }
       },
@@ -3316,7 +3287,7 @@
         "Name": "TEXT_GOAL_TRIBE_PEACE",
         "iAmbitionClass": "14",
         "iMinTier": "2",
-        "iMaxTier": "4",
+        "iMaxTier": "3",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_STATESMEN",
@@ -3334,7 +3305,7 @@
         "zType": "GOAL_TRIBE_ALLIANCE",
         "Name": "TEXT_GOAL_TRIBE_ALLIANCE",
         "iAmbitionClass": "14",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -3446,7 +3417,7 @@
         "Name": "TEXT_GOAL_FOUR_RELIGION_SPREAD",
         "iAmbitionClass": "15",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_CLERICS",
@@ -3464,7 +3435,7 @@
         "zType": "GOAL_EIGHT_RELIGION_SPREAD",
         "Name": "TEXT_GOAL_EIGHT_RELIGION_SPREAD",
         "iAmbitionClass": "15",
-        "iMinTier": "4",
+        "iMinTier": "5",
         "iMaxTier": "6",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -3521,8 +3492,8 @@
         "zType": "GOAL_SCHOLARSHIP_VAULTING",
         "Name": "TEXT_GOAL_SCHOLARSHIP_VAULTING",
         "iAmbitionClass": "16",
-        "iMinTier": "7",
-        "iMaxTier": "8",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -3546,8 +3517,8 @@
         "zType": "GOAL_ARCHITECTURE_JURISPRUDENCE",
         "Name": "TEXT_GOAL_ARCHITECTURE_JURISPRUDENCE",
         "iAmbitionClass": "16",
-        "iMinTier": "7",
-        "iMaxTier": "8",
+        "iMinTier": "6",
+        "iMaxTier": "7",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -3568,8 +3539,8 @@
         }
       },
       {
-        "zType": "GOAL_COINAGE_FISCAL_POLICY",
-        "Name": "TEXT_GOAL_COINAGE_FISCAL_POLICY",
+        "zType": "GOAL_DOCTRINE_FISCAL_POLICY",
+        "Name": "TEXT_GOAL_DOCTRINE_FISCAL_POLICY",
         "iAmbitionClass": "16",
         "iMinTier": "7",
         "iMaxTier": "8",
@@ -3581,14 +3552,14 @@
         },
         "aeTechsAcquired": {
           "zValue": [
-            "TECH_COINAGE",
+            "TECH_DOCTRINE",
             "TECH_FISCAL_POLICY"
           ]
         }
       },
       {
-        "zType": "GOAL_HYDRAULICS_CHAIN_DRIVE",
-        "Name": "TEXT_GOAL_HYDRAULICS_CHAIN_DRIVE",
+        "zType": "GOAL_PORTCULLIS_CHAIN_DRIVE",
+        "Name": "TEXT_GOAL_PORTCULLIS_CHAIN_DRIVE",
         "iAmbitionClass": "16",
         "iMinTier": "7",
         "iMaxTier": "8",
@@ -3600,52 +3571,8 @@
         },
         "aeTechsAcquired": {
           "zValue": [
-            "TECH_HYDRAULICS",
+            "TECH_PORTCULLIS",
             "TECH_CHAIN_DRIVE"
-          ]
-        }
-      },
-      {
-        "zType": "GOAL_COHORTS_MARTIAL_CODE",
-        "Name": "TEXT_GOAL_COHORTS_MARTIAL_CODE",
-        "iAmbitionClass": "16",
-        "iMinTier": "7",
-        "iMaxTier": "8",
-        "aiFamilyClassWeight": {
-          "Pair": [
-            {
-              "zIndex": "FAMILYCLASS_CHAMPIONS",
-              "iValue": "1000"
-            },
-            {
-              "zIndex": "FAMILYCLASS_CLERICS",
-              "iValue": "1000"
-            }
-          ]
-        },
-        "aeTechsAcquired": {
-          "zValue": [
-            "TECH_COHORTS",
-            "TECH_MARTIAL_CODE"
-          ]
-        }
-      },
-      {
-        "zType": "GOAL_BODKIN_ARROW_BALLISTICS",
-        "Name": "TEXT_GOAL_BODKIN_ARROW_BALLISTICS",
-        "iAmbitionClass": "16",
-        "iMinTier": "7",
-        "iMaxTier": "8",
-        "aiFamilyClassWeight": {
-          "Pair": {
-            "zIndex": "FAMILYCLASS_HUNTERS",
-            "iValue": "1000"
-          }
-        },
-        "aeTechsAcquired": {
-          "zValue": [
-            "TECH_BODKIN_ARROW",
-            "TECH_BALLISTICS"
           ]
         }
       },
@@ -3675,11 +3602,55 @@
         }
       },
       {
+        "zType": "GOAL_COHORTS_MARTIAL_CODE",
+        "Name": "TEXT_GOAL_COHORTS_MARTIAL_CODE",
+        "iAmbitionClass": "16",
+        "iMinTier": "8",
+        "iMaxTier": "9",
+        "aiFamilyClassWeight": {
+          "Pair": [
+            {
+              "zIndex": "FAMILYCLASS_CHAMPIONS",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "FAMILYCLASS_CLERICS",
+              "iValue": "1000"
+            }
+          ]
+        },
+        "aeTechsAcquired": {
+          "zValue": [
+            "TECH_COHORTS",
+            "TECH_MARTIAL_CODE"
+          ]
+        }
+      },
+      {
+        "zType": "GOAL_BODKIN_ARROW_BALLISTICS",
+        "Name": "TEXT_GOAL_BODKIN_ARROW_BALLISTICS",
+        "iAmbitionClass": "16",
+        "iMinTier": "8",
+        "iMaxTier": "9",
+        "aiFamilyClassWeight": {
+          "Pair": {
+            "zIndex": "FAMILYCLASS_HUNTERS",
+            "iValue": "1000"
+          }
+        },
+        "aeTechsAcquired": {
+          "zValue": [
+            "TECH_BODKIN_ARROW",
+            "TECH_BALLISTICS"
+          ]
+        }
+      },
+      {
         "zType": "GOAL_BARDING_INFANTRY_SQUARE",
         "Name": "TEXT_GOAL_BARDING_INFANTRY_SQUARE",
         "iAmbitionClass": "16",
-        "iMinTier": "7",
-        "iMaxTier": "8",
+        "iMinTier": "8",
+        "iMaxTier": "9",
         "aiFamilyClassWeight": {
           "Pair": {
             "zIndex": "FAMILYCLASS_RIDERS",
@@ -3965,7 +3936,7 @@
         "Name": "TEXT_GOAL_FIVE_MILITARY",
         "iAmbitionClass": "19",
         "iMinTier": "1",
-        "iMaxTier": "2",
+        "iMaxTier": "1",
         "iMilitaryUnits": "5",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -4023,8 +3994,8 @@
         }
       },
       {
-        "zType": "GOAL_FIVE_SIEGE",
-        "Name": "TEXT_GOAL_FIVE_SIEGE",
+        "zType": "GOAL_THREE_SIEGE",
+        "Name": "TEXT_GOAL_THREE_SIEGE",
         "iAmbitionClass": "19",
         "iMinTier": "4",
         "iMaxTier": "5",
@@ -4037,7 +4008,7 @@
         "aiUnitTraitCount": {
           "Pair": {
             "zIndex": "UNITTRAIT_SIEGE",
-            "iValue": "5"
+            "iValue": "3"
           }
         }
       },
@@ -4183,7 +4154,7 @@
         "zType": "GOAL_TWO_BATTERING_RAM",
         "Name": "TEXT_GOAL_TWO_BATTERING_RAM",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_DRAMA",
         "NationPrereq": "NATION_ASSYRIA",
@@ -4204,7 +4175,7 @@
         "zType": "GOAL_TWO_SIEGE_TOWER",
         "Name": "TEXT_GOAL_TWO_SIEGE_TOWER",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_MACHINERY",
         "NationPrereq": "NATION_ASSYRIA",
@@ -4225,7 +4196,7 @@
         "zType": "GOAL_TWO_AKKADIAN_ARCHER",
         "Name": "TEXT_GOAL_TWO_AKKADIAN_ARCHER",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_IRONWORKING",
         "NationPrereq": "NATION_BABYLONIA",
@@ -4246,7 +4217,7 @@
         "zType": "GOAL_TWO_CIMMERIAN_ARCHER",
         "Name": "TEXT_GOAL_TWO_CIMMERIAN_ARCHER",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_LAND_CONSOLIDATION",
         "NationPrereq": "NATION_BABYLONIA",
@@ -4267,7 +4238,7 @@
         "zType": "GOAL_TWO_AFRICAN_ELEPHANT",
         "Name": "TEXT_GOAL_TWO_AFRICAN_ELEPHANT",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_MILITARY_DRILL",
         "NationPrereq": "NATION_CARTHAGE",
@@ -4288,7 +4259,7 @@
         "zType": "GOAL_TWO_TURRETED_ELEPHANT",
         "Name": "TEXT_GOAL_TWO_TURRETED_ELEPHANT",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_PORTCULLIS",
         "NationPrereq": "NATION_CARTHAGE",
@@ -4309,7 +4280,7 @@
         "zType": "GOAL_TWO_LIGHT_CHARIOT",
         "Name": "TEXT_GOAL_TWO_LIGHT_CHARIOT",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_IRONWORKING",
         "NationPrereq": "NATION_EGYPT",
@@ -4330,7 +4301,7 @@
         "zType": "GOAL_TWO_KUSHITE_CAVALRY",
         "Name": "TEXT_GOAL_TWO_KUSHITE_CAVALRY",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_LAND_CONSOLIDATION",
         "NationPrereq": "NATION_EGYPT",
@@ -4351,7 +4322,7 @@
         "zType": "GOAL_TWO_HOPLITE",
         "Name": "TEXT_GOAL_TWO_HOPLITE",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_LABOR_FORCE",
         "NationPrereq": "NATION_GREECE",
@@ -4372,7 +4343,7 @@
         "zType": "GOAL_TWO_PHALANGITE",
         "Name": "TEXT_GOAL_TWO_PHALANGITE",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_BODKIN_ARROW",
         "NationPrereq": "NATION_GREECE",
@@ -4393,7 +4364,7 @@
         "zType": "GOAL_TWO_PALTON_CAVALRY",
         "Name": "TEXT_GOAL_TWO_PALTON_CAVALRY",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_RHETORIC",
         "NationPrereq": "NATION_PERSIA",
@@ -4414,7 +4385,7 @@
         "zType": "GOAL_TWO_CATAPHRACT_ARCHER",
         "Name": "TEXT_GOAL_TWO_CATAPHRACT_ARCHER",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_CARTOGRAPHY",
         "NationPrereq": "NATION_PERSIA",
@@ -4435,7 +4406,7 @@
         "zType": "GOAL_TWO_HASTATUS",
         "Name": "TEXT_GOAL_TWO_HASTATUS",
         "iAmbitionClass": "20",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "TechPrereq": "TECH_MILITARY_DRILL",
         "NationPrereq": "NATION_ROME",
@@ -4456,7 +4427,7 @@
         "zType": "GOAL_TWO_LEGIONARY",
         "Name": "TEXT_GOAL_TWO_LEGIONARY",
         "iAmbitionClass": "20",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "TechPrereq": "TECH_MACHINERY",
         "NationPrereq": "NATION_ROME",
@@ -4516,7 +4487,7 @@
         "Name": "TEXT_GOAL_FOUR_GENERALS",
         "iAmbitionClass": "21",
         "iMinTier": "2",
-        "iMaxTier": "4",
+        "iMaxTier": "3",
         "iGeneralCount": "4",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -4540,7 +4511,7 @@
         "Name": "TEXT_GOAL_FOUR_GOVERNORS",
         "iAmbitionClass": "21",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "iGovernorCount": "4",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -4758,11 +4729,74 @@
         }
       },
       {
+        "zType": "GOAL_TRIBE_WATER_LUXURIES",
+        "Name": "TEXT_GOAL_TRIBE_WATER_LUXURIES",
+        "iAmbitionClass": "24",
+        "iMinTier": "3",
+        "iMaxTier": "5",
+        "aiFamilyClassWeight": {
+          "Pair": {
+            "zIndex": "FAMILYCLASS_TRADERS",
+            "iValue": "1000"
+          }
+        },
+        "aiTribeLuxuryCount": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_DYE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_PEARL",
+              "iValue": "1"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "GOAL_PLAYER_GROVE_LUXURIES",
+        "Name": "TEXT_GOAL_PLAYER_GROVE_LUXURIES",
+        "iAmbitionClass": "24",
+        "iMinTier": "4",
+        "iMaxTier": "6",
+        "TechPrereq": "TECH_FORESTRY",
+        "aiFamilyClassWeight": {
+          "Pair": {
+            "zIndex": "FAMILYCLASS_TRADERS",
+            "iValue": "1000"
+          }
+        },
+        "aiPlayerLuxuryCount": {
+          "Pair": [
+            {
+              "zIndex": "RESOURCE_HONEY",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_INCENSE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_LAVENDER",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_OLIVE",
+              "iValue": "1"
+            },
+            {
+              "zIndex": "RESOURCE_WINE",
+              "iValue": "1"
+            }
+          ]
+        }
+      },
+      {
         "zType": "GOAL_ONE_RECAPTURE_CITY",
         "Name": "TEXT_GOAL_ONE_RECAPTURE_CITY",
         "iAmbitionClass": "25",
         "iMinTier": "3",
-        "iMaxTier": "6",
+        "iMaxTier": "4",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -4791,7 +4825,7 @@
         "Name": "TEXT_GOAL_TWO_RECAPTURE_CITY",
         "iAmbitionClass": "25",
         "iMinTier": "5",
-        "iMaxTier": "8",
+        "iMaxTier": "6",
         "aiFamilyClassWeight": {
           "Pair": [
             {
@@ -4812,6 +4846,35 @@
           "Pair": {
             "zIndex": "STAT_CITY_RECAPTURED",
             "iValue": "2"
+          }
+        }
+      },
+      {
+        "zType": "GOAL_THREE_RECAPTURE_CITY",
+        "Name": "TEXT_GOAL_THREE_RECAPTURE_CITY",
+        "iAmbitionClass": "25",
+        "iMinTier": "7",
+        "iMaxTier": "8",
+        "aiFamilyClassWeight": {
+          "Pair": [
+            {
+              "zIndex": "FAMILYCLASS_CHAMPIONS",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "FAMILYCLASS_RIDERS",
+              "iValue": "1000"
+            },
+            {
+              "zIndex": "FAMILYCLASS_HUNTERS",
+              "iValue": "1000"
+            }
+          ]
+        },
+        "aiStatCountData": {
+          "Pair": {
+            "zIndex": "STAT_CITY_RECAPTURED",
+            "iValue": "3"
           }
         }
       },
@@ -4907,7 +4970,7 @@
         "Name": "TEXT_GOAL_TEN_POPULATION",
         "iAmbitionClass": "26",
         "iMinTier": "1",
-        "iMaxTier": "3",
+        "iMaxTier": "2",
         "iPopulation": "10",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -4920,7 +4983,7 @@
         "zType": "GOAL_30_POPULATION",
         "Name": "TEXT_GOAL_30_POPULATION",
         "iAmbitionClass": "26",
-        "iMinTier": "3",
+        "iMinTier": "4",
         "iMaxTier": "5",
         "iPopulation": "30",
         "aiFamilyClassWeight": {
@@ -4934,7 +4997,7 @@
         "zType": "GOAL_100_POPULATION",
         "Name": "TEXT_GOAL_100_POPULATION",
         "iAmbitionClass": "26",
-        "iMinTier": "5",
+        "iMinTier": "6",
         "iMaxTier": "7",
         "iPopulation": "100",
         "aiFamilyClassWeight": {
@@ -5406,8 +5469,8 @@
         "zType": "GOAL_FOUR_MONASTERY",
         "Name": "TEXT_GOAL_FOUR_MONASTERY",
         "iAmbitionClass": "28",
-        "iMinTier": "4",
-        "iMaxTier": "6",
+        "iMinTier": "3",
+        "iMaxTier": "4",
         "TechPrereq": "TECH_MONASTICISM",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -5427,7 +5490,7 @@
         "Name": "TEXT_GOAL_FOUR_TEMPLE",
         "iAmbitionClass": "28",
         "iMinTier": "5",
-        "iMaxTier": "7",
+        "iMaxTier": "6",
         "TechPrereq": "TECH_DOCTRINE",
         "aiFamilyClassWeight": {
           "Pair": {
@@ -5446,7 +5509,7 @@
         "zType": "GOAL_THREE_CATHEDRAL",
         "Name": "TEXT_GOAL_THREE_CATHEDRAL",
         "iAmbitionClass": "28",
-        "iMinTier": "6",
+        "iMinTier": "7",
         "iMaxTier": "8",
         "TechPrereq": "TECH_VAULTING",
         "aiFamilyClassWeight": {
@@ -5493,7 +5556,7 @@
         "Name": "TEXT_GOAL_SIX_URBAN_IMPROVEMENTS",
         "iAmbitionClass": "29",
         "iMinTier": "2",
-        "iMaxTier": "4",
+        "iMaxTier": "3",
         "iUrbanImprovements": "6",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -5525,7 +5588,7 @@
         "Name": "TEXT_GOAL_20_URBAN_TILES",
         "iAmbitionClass": "29",
         "iMinTier": "3",
-        "iMaxTier": "5",
+        "iMaxTier": "4",
         "iUrbanTiles": "20",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -5549,7 +5612,7 @@
         "Name": "TEXT_GOAL_20_URBAN_IMPROVEMENTS",
         "iAmbitionClass": "29",
         "iMinTier": "4",
-        "iMaxTier": "6",
+        "iMaxTier": "5",
         "iUrbanImprovements": "20",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -5581,7 +5644,7 @@
         "Name": "TEXT_GOAL_50_URBAN_TILES",
         "iAmbitionClass": "29",
         "iMinTier": "5",
-        "iMaxTier": "7",
+        "iMaxTier": "6",
         "iUrbanTiles": "50",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -5605,7 +5668,7 @@
         "Name": "TEXT_GOAL_50_URBAN_IMPROVEMENTS",
         "iAmbitionClass": "29",
         "iMinTier": "6",
-        "iMaxTier": "8",
+        "iMaxTier": "7",
         "iUrbanImprovements": "50",
         "aiFamilyClassWeight": {
           "Pair": [
@@ -5649,16 +5712,23 @@
         }
       },
       {
+        "zType": "GOAL_TWO_CITIES_FOREIGN",
+        "Name": "TEXT_GOAL_TWO_CITIES_FOREIGN",
+        "iMinTier": "3",
+        "iMaxTier": "4",
+        "iPlayerCapturedData": "2"
+      },
+      {
         "zType": "GOAL_THREE_CITIES_FOREIGN",
         "Name": "TEXT_GOAL_THREE_CITIES_FOREIGN",
-        "iMinTier": "2",
-        "iMaxTier": "7",
+        "iMinTier": "5",
+        "iMaxTier": "6",
         "iPlayerCapturedData": "3"
       },
       {
         "zType": "GOAL_FOUR_CITIES_FOREIGN",
         "Name": "TEXT_GOAL_FOUR_CITIES_FOREIGN",
-        "iMinTier": "3",
+        "iMinTier": "7",
         "iMaxTier": "8",
         "iPlayerCapturedData": "4"
       },

@@ -8,6 +8,9 @@
 				"Name": {
 					
 				},
+				"GenderedNames": {
+					
+				},
 				"Class": {
 					
 				},
@@ -35,11 +38,17 @@
 				"Resource": {
 					"comment": "Is or Tile has this Resource."
 				},
+				"Goal": {
+					"comment": "Is this Goal."
+				},
 				"Character": {
 					"comment": "Is this Character (automatically created for Events)."
 				},
 				"CityName": {
 					"comment": "Is this City Name"
+				},
+				"ActiveAmbition": {
+					"comment": "Has this Active Ambition."
 				},
 				"ActiveQuest": {
 					"comment": "Has this Active Quest."
@@ -95,6 +104,9 @@
 				"FamilyClassPrereq": {
 					"comment": "Family FamilyClass required for this Subject or this Subject’s Family."
 				},
+				"FamilyPrereq": {
+					"comment": "Exact Family required for this Subject or this Subject’s Family."
+				},
 				"GenderPrereq": {
 					"comment": "Required gender for this Character Subject."
 				},
@@ -148,6 +160,9 @@
 				},
 				"Improvement": {
 					"comment": "Tile has this Improvement."
+				},
+				"iCityID": {
+					"comment": "The City Subject must have this ID (for scenarios)."
 				},
 				"iTileID": {
 					"comment": "The Tile Subject must have this ID (useful for Scenarios)."
@@ -220,12 +235,6 @@
 				},
 				"bIsSameTeam": {
 					"comment": "The player Subject must be different from the player getting the event but on the same team."
-				},
-				"bIsDiffTeam": {
-					"comment": "The player Subject must be on a different team."
-				},
-				"bContactBoth": {
-					"comment": "This player Subject has contacted us and vice-versa."
 				},
 				"bNoContact": {
 					"comment": "This player Subject must not have been contacted."
@@ -482,6 +491,9 @@
 				"bTribeTerritory": {
 					"comment": "This Tile has a Tribal settlement."
 				},
+				"bUndiscoveredLandmark": {
+					"comment": "This Tile contains a landmark that has not yet been discovered by any player."
+				},
 				"aiMinRating": {
 					"comment": "List of minimum ratings (Leadership, etc.) required for this Subject."
 				},
@@ -529,10 +541,16 @@
 				"Resource": {
 					
 				},
+				"Goal": {
+					
+				},
 				"Character": {
 					
 				},
 				"CityName": {
+					
+				},
+				"ActiveAmbition": {
 					
 				},
 				"ActiveQuest": {
@@ -589,6 +607,9 @@
 				"FamilyClassPrereq": {
 					
 				},
+				"FamilyPrereq": {
+					
+				},
 				"GenderPrereq": {
 					
 				},
@@ -641,6 +662,9 @@
 					
 				},
 				"Improvement": {
+					
+				},
+				"iCityID": {
 					
 				},
 				"iTileID": {
@@ -697,6 +721,9 @@
 				"iMaxHeirs": {
 					
 				},
+				"iMinLevel": {
+					
+				},
 				"bIgnoreRandom": {
 					
 				},
@@ -712,10 +739,7 @@
 				"bIsSameTeam": {
 					
 				},
-				"bIsDiffTeam": {
-					
-				},
-				"bContactBoth": {
+				"bNoContact": {
 					
 				},
 				"bHuman": {
@@ -970,6 +994,9 @@
 				"bTribeTerritory": {
 					
 				},
+				"bUndiscoveredLandmark": {
+					
+				},
 				"aiMinRating": {
 					
 				},
@@ -1049,17 +1076,10 @@
 				"bHuman": "1"
 			},
 			{
-				"zType": "SUBJECT_PLAYER_DIFF_TEAM",
+				"zType": "SUBJECT_PLAYER_HUMAN_DIPLOMACY_FOUND",
+				"Name": "TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_FOUND",
 				"Class": "SUBJECTCLASS_PLAYER",
-				"bIsNotUs": "1",
-				"bIsDiffTeam": "1"
-			},
-			{
-				"zType": "SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND",
-				"Name": "TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND",
-				"Class": "SUBJECTCLASS_PLAYER",
-				"MemoryPlayerInvalid": "MEMORYPLAYER_HUMAN_DIPLOMACY",
-				"bContactBoth": "1"
+				"MemoryPlayerPrereq": "MEMORYPLAYER_HUMAN_DIPLOMACY"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_OFFER_NOT_FOUND",
@@ -1156,17 +1176,17 @@
 				"bHuman": "1"
 			},
 			{
-				"zType": "SUBJECT_PLAYER_CAN_ALLIANCE_PEACE_HUMAN",
-				"Class": "SUBJECTCLASS_PLAYER",
-				"RelationUs": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE_PEACE",
-				"bIsNotUs": "1",
-				"bHuman": "1"
-			},
-			{
 				"zType": "SUBJECT_PLAYER_CAN_ALLIANCE",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"RelationUs": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE",
 				"bIsNotUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_CAN_ALLIANCE_HUMAN",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"RelationUs": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE",
+				"bIsNotUs": "1",
+				"bHuman": "1"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_PEACE_FRIENDLY",
@@ -1768,9 +1788,9 @@
 				"TechPrereq": "TECH_MANOR"
 			},
 			{
-				"zType": "SUBJECT_PLAYER_TORSION",
+				"zType": "SUBJECT_PLAYER_HYDRAULICS",
 				"Class": "SUBJECTCLASS_PLAYER",
-				"TechPrereq": "TECH_TORSION"
+				"TechPrereq": "TECH_HYDRAULICS"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_ARCHITECTURE",
@@ -1781,11 +1801,6 @@
 				"zType": "SUBJECT_PLAYER_BODKIN_ARROW",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"TechPrereq": "TECH_BODKIN_ARROW"
-			},
-			{
-				"zType": "SUBJECT_PLAYER_HYDRAULICS",
-				"Class": "SUBJECTCLASS_PLAYER",
-				"TechPrereq": "TECH_HYDRAULICS"
 			},
 			{
 				"zType": "SUBJECT_PLAYER_VAULTING",
@@ -2129,6 +2144,22 @@
 				"aeYieldNegative": {
 					"zValue": "YIELD_WOOD"
 				}
+			},
+			{
+				"comment": "Subjects that check for active Ambitions",
+				"zType": "SUBJECT_PLAYER_GOAL_REVEAL_40",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"ActiveAmbition": "GOAL_REVEAL_40"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_GOAL_REVEAL_60",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"ActiveAmbition": "GOAL_REVEAL_60"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_GOAL_REVEAL_80",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"ActiveAmbition": "GOAL_REVEAL_80"
 			},
 			{
 				"comment": "A tribal faction",
@@ -2583,11 +2614,6 @@
 				"bIsUs": "1"
 			},
 			{
-				"zType": "SUBJECT_FAMILY_THEM",
-				"Class": "SUBJECTCLASS_FAMILY",
-				"bIsNotUs": "1"
-			},
-			{
 				"zType": "SUBJECT_FAMILY_ORDERED_US",
 				"Class": "SUBJECTCLASS_FAMILY",
 				"bIgnoreRandom": "1",
@@ -2994,12 +3020,6 @@
 				"Tech": "TECH_STONECUTTING"
 			},
 			{
-				"zType": "SUBJECT_TECH_TORSION_DISCOVERED_US",
-				"Class": "SUBJECTCLASS_TECH",
-				"RelationUs": "SUBJECTRELATION_TECH_ACQUIRED",
-				"Tech": "TECH_TORSION"
-			},
-			{
 				"zType": "SUBJECT_TECH_WINDLASS_DISCOVERED_US",
 				"Class": "SUBJECTCLASS_TECH",
 				"RelationUs": "SUBJECTRELATION_TECH_ACQUIRED",
@@ -3373,6 +3393,10 @@
 				"zType": "SUBJECT_RESOURCE_GOAT",
 				"Class": "SUBJECTCLASS_RESOURCE",
 				"Resource": "RESOURCE_GOAT"
+			},
+			{
+				"zType": "SUBJECT_AMBITION",
+				"Class": "SUBJECTCLASS_GOAL"
 			},
 			{
 				"comment": "A Character in our nation",
@@ -3755,6 +3779,11 @@
 			},
 			{
 				"comment": "Head of a Family",
+				"zType": "SUBJECT_FAMILY_HEAD",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"bFamilyHead": "1"
+			},
+			{
 				"zType": "SUBJECT_FAMILY_HEAD_US",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bIsUs": "1",
@@ -3961,6 +3990,12 @@
 				"RelationUs": "SUBJECTRELATION_CHARACTER_MAX_FURIOUS"
 			},
 			{
+				"zType": "SUBJECT_CHARACTER_MIN_UPSET",
+				"Name": "TEXT_SUBJECT_CHARACTER_MIN_UPSET",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"RelationUs": "SUBJECTRELATION_CHARACTER_MIN_UPSET"
+			},
+			{
 				"zType": "SUBJECT_CHARACTER_MIN_CAUTIOUS",
 				"Name": "TEXT_SUBJECT_CHARACTER_MIN_CAUTIOUS",
 				"Class": "SUBJECTCLASS_CHARACTER",
@@ -4060,6 +4095,11 @@
 				"RelationLeader": "SUBJECTRELATION_HOLDS_FAVOR_FROM"
 			},
 			{
+				"zType": "SUBJECT_NOT_HOLDS_FAVOR_FROM_LEADER",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"NoRelationLeader": "SUBJECTRELATION_HOLDS_FAVOR_FROM"
+			},
+			{
 				"zType": "SUBJECT_OWES_FAVOR_TO_LEADER",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"RelationLeader": "SUBJECTRELATION_OWES_FAVOR_TO"
@@ -4121,8 +4161,19 @@
 			},
 			{
 				"zType": "SUBJECT_HEALTHY",
+				"Name": "TEXT_SUBJECT_HEALTHY",
 				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitInvalid": "TRAIT_SEVERELY_ILL"
+				"aeTraitNone": {
+					"zValue": [
+						"TRAIT_INCUBATED",
+						"TRAIT_ILL",
+						"TRAIT_SEVERELY_ILL",
+						"TRAIT_WOUNDED",
+						"TRAIT_SEVERELY_WOUNDED",
+						"TRAIT_POISONED",
+						"TRAIT_DOOMED"
+					]
+				}
 			},
 			{
 				"zType": "SUBJECT_BABY",
@@ -4176,6 +4227,13 @@
 				"Name": "TEXT_SUBJECT_TEENAGER_OR_ADULT",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"iMinAge": "12"
+			},
+			{
+				"zType": "SUBJECT_LATE_TEEN_OR_ADULT",
+				"Name": "TEXT_SUBJECT_TEENAGER_OR_ADULT",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"iMinAge": "16",
+				"iMaxAge": "40"
 			},
 			{
 				"zType": "SUBJECT_MIDDLE_AGE",
@@ -4242,6 +4300,12 @@
 			{
 				"zType": "SUBJECT_SINGLE",
 				"Class": "SUBJECTCLASS_CHARACTER",
+				"bHasNoSpouse": "1"
+			},
+			{
+				"zType": "SUBJECT_SINGLE_ADULT",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"iMinAge": "18",
 				"bHasNoSpouse": "1"
 			},
 			{
@@ -4321,6 +4385,12 @@
 			{
 				"zType": "SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD",
 				"Name": "TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bNonLeader": "1",
 				"bNonHeir": "1",
@@ -4342,6 +4412,12 @@
 			{
 				"zType": "SUBJECT_AMBASSADOR",
 				"Name": "TEXT_SUBJECT_AMBASSADOR",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_AMBASSADOR_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"CouncilPrereq": "COUNCIL_AMBASSADOR"
 			},
@@ -4354,6 +4430,12 @@
 			{
 				"zType": "SUBJECT_SPYMASTER",
 				"Name": "TEXT_SUBJECT_SPYMASTER",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_SPYMASTER_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"CouncilPrereq": "COUNCIL_SPYMASTER"
 			},
@@ -4380,6 +4462,7 @@
 			},
 			{
 				"zType": "SUBJECT_CAN_MARRY",
+				"Name": "TEXT_SUBJECT_CAN_MARRY",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"bCanMarry": "1"
 			},
@@ -5084,11 +5167,6 @@
 				"TraitInvalid": "TRAIT_LOYAL"
 			},
 			{
-				"zType": "SUBJECT_CUNNING",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_CUNNING"
-			},
-			{
 				"zType": "SUBJECT_HUMBLE",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_HUMBLE"
@@ -5194,6 +5272,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_AWAY_FROM_COURT",
 				"Name": "TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5213,6 +5297,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_HONORABLE",
 				"Name": "TEXT_SUBJECT_CHARACTER_HONORABLE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_HONORABLE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5226,6 +5316,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_HONORABLE",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_HONORABLE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_HONORABLE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5239,6 +5335,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_VILLAINOUS",
 				"Name": "TEXT_SUBJECT_CHARACTER_VILLAINOUS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_VILLAINOUS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5253,6 +5355,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_VILLAINOUS",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5295,6 +5403,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_WEAK",
 				"Name": "TEXT_SUBJECT_CHARACTER_WEAK",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_WEAK_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5308,6 +5422,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_WEAK",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_WEAK",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_WEAK_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5347,6 +5467,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_PRODUCTIVE",
 				"Name": "TEXT_SUBJECT_CHARACTER_PRODUCTIVE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_PRODUCTIVE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5360,6 +5486,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_PRODUCTIVE",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5373,6 +5505,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_RELIGIOUS",
 				"Name": "TEXT_SUBJECT_CHARACTER_RELIGIOUS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_RELIGIOUS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5387,6 +5525,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_RELIGIOUS",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_RELIGIOUS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_RELIGIOUS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5401,6 +5545,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_INQUISITIVE",
 				"Name": "TEXT_SUBJECT_CHARACTER_INQUISITIVE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_INQUISITIVE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5413,6 +5563,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_INQUISITIVE",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5453,6 +5609,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_SYLVAN",
 				"Name": "TEXT_SUBJECT_CHARACTER_SYLVAN",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_SYLVAN_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5468,6 +5630,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_SYLVAN",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_SYLVAN",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_SYLVAN_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5483,6 +5651,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_VAIN",
 				"Name": "TEXT_SUBJECT_CHARACTER_VAIN",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_VAIN_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5497,6 +5671,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_VAIN",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_VAIN",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_VAIN_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5539,6 +5719,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_CHARMING",
 				"Name": "TEXT_SUBJECT_CHARACTER_CHARMING",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_CHARMING_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5553,6 +5739,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_CHARMING",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_CHARMING",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_CHARMING_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5595,13 +5787,19 @@
 			{
 				"zType": "SUBJECT_CHARACTER_CONSPIRATOR",
 				"Name": "TEXT_SUBJECT_CHARACTER_CONSPIRATOR",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_CONSPIRATOR_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
 						"TRAIT_SCHEMER_ARCHETYPE",
 						"TRAIT_TIMID",
 						"TRAIT_DECEITFUL",
-						"TRAIT_CUNNING",
+						"TRAIT_DEALMAKER",
 						"TRAIT_RUTHLESS"
 					]
 				}
@@ -5609,13 +5807,19 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_CONSPIRATOR",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
 						"TRAIT_SCHEMER_ARCHETYPE",
 						"TRAIT_TIMID",
 						"TRAIT_DECEITFUL",
-						"TRAIT_CUNNING",
+						"TRAIT_DEALMAKER",
 						"TRAIT_RUTHLESS"
 					]
 				}
@@ -5623,6 +5827,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_TERRIFYING",
 				"Name": "TEXT_SUBJECT_CHARACTER_TERRIFYING",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_TERRIFYING_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5638,6 +5848,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_TERRIFYING",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5653,6 +5869,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_SEVEN_SINS",
 				"Name": "TEXT_SUBJECT_CHARACTER_SEVEN_SINS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_SEVEN_SINS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5669,6 +5891,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_SEVEN_SINS",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5685,6 +5913,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_SEVEN_VIRTUES",
 				"Name": "TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5701,6 +5935,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES",
 				"Name": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5717,6 +5957,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_REGAL",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5731,6 +5977,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5771,6 +6023,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_COVERT",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_COVERT",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_COVERT_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5782,6 +6040,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
@@ -5793,6 +6057,12 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitAny": {
 					"zValue": [
@@ -5805,12 +6075,30 @@
 			{
 				"zType": "SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL",
 				"Name": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL",
+				"GenderedNames": {
+					"Pair": {
+						"First": "GENDER_FEMALE",
+						"Second": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL_F"
+					}
+				},
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"aeTraitNone": {
 					"zValue": [
 						"TRAIT_JUDGE_ARCHETYPE",
 						"TRAIT_DIPLOMAT_ARCHETYPE",
 						"TRAIT_SCHOLAR_ARCHETYPE"
+					]
+				}
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_DEATHBED",
+				"Name": "TEXT_SUBJECT_CHARACTER_DEATHBED",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"aeTraitAny": {
+					"zValue": [
+						"TRAIT_SEVERELY_ILL",
+						"TRAIT_SEVERELY_WOUNDED",
+						"TRAIT_POISONED"
 					]
 				}
 			},
@@ -5925,6 +6213,11 @@
 				"TraitPrereq": "TRAIT_DESERTER"
 			},
 			{
+				"zType": "SUBJECT_EXCLUDED",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"TraitPrereq": "TRAIT_EXCLUDED"
+			},
+			{
 				"zType": "SUBJECT_DOOMED",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_DOOMED"
@@ -6010,11 +6303,6 @@
 				"TraitInvalid": "TRAIT_ABDICATED"
 			},
 			{
-				"zType": "SUBJECT_EXCLUDED",
-				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitPrereq": "TRAIT_EXCLUDED"
-			},
-			{
 				"zType": "SUBJECT_DIVINE",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"TraitPrereq": "TRAIT_DIVINE"
@@ -6067,7 +6355,7 @@
 			{
 				"zType": "SUBJECT_NOT_MONKEY_OWNER",
 				"Class": "SUBJECTCLASS_CHARACTER",
-				"TraitInvalid": "TRAIT_DRUNK"
+				"TraitInvalid": "TRAIT_PET_MONKEY"
 			},
 			{
 				"zType": "SUBJECT_MONKEY_ASSASSIN",
@@ -6770,6 +7058,12 @@
 				"bCityTerritory": "1"
 			},
 			{
+				"zType": "SUBJECT_TILE_FARM",
+				"Class": "SUBJECTCLASS_TILE",
+				"ImprovementTile": "IMPROVEMENT_FARM",
+				"bCityTerritory": "1"
+			},
+			{
 				"comment": "Water tile with Coastal terrain type",
 				"zType": "SUBJECT_TILE_COASTAL_WATER",
 				"Class": "SUBJECTCLASS_TILE",
@@ -6853,14 +7147,74 @@
 				"Vegetation": "VEGETATION_SCRUB"
 			},
 			{
-				"zType": "SUBJECT_TILE_SCRUB_CUT",
+				"zType": "SUBJECT_TILE_MARBLE",
 				"Class": "SUBJECTCLASS_TILE",
-				"Vegetation": "VEGETATION_SCRUB_CUT"
+				"Resource": "RESOURCE_MARBLE"
 			},
 			{
-				"zType": "SUBJECT_TILE_RESOURCE_NO",
+				"zType": "SUBJECT_TILE_ORE",
 				"Class": "SUBJECTCLASS_TILE",
-				"Vegetation": "VEGETATION_SCRUB_CUT"
+				"Resource": "RESOURCE_ORE"
+			},
+			{
+				"zType": "SUBJECT_TILE_DYE",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_DYE"
+			},
+			{
+				"zType": "SUBJECT_TILE_FUR",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_FUR"
+			},
+			{
+				"zType": "SUBJECT_TILE_GEM",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_GEM"
+			},
+			{
+				"zType": "SUBJECT_TILE_HONEY",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_HONEY"
+			},
+			{
+				"zType": "SUBJECT_TILE_INCENSE",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_INCENSE"
+			},
+			{
+				"zType": "SUBJECT_TILE_LAVENDER",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_LAVENDER"
+			},
+			{
+				"zType": "SUBJECT_TILE_OLIVE",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_OLIVE"
+			},
+			{
+				"zType": "SUBJECT_TILE_PEARL",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_PEARL"
+			},
+			{
+				"zType": "SUBJECT_TILE_SALT",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_SALT"
+			},
+			{
+				"zType": "SUBJECT_TILE_WINE",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_WINE"
+			},
+			{
+				"zType": "SUBJECT_TILE_WHEAT",
+				"Class": "SUBJECTCLASS_TILE",
+				"Resource": "RESOURCE_WHEAT"
+			},
+			{
+				"zType": "SUBJECT_TILE_UNDISCOVERED_LANDMARK",
+				"Class": "SUBJECTCLASS_TILE",
+				"bUndiscoveredLandmark": "1"
 			},
 			{
 				"zType": "SUBJECT_SUITOR_TEMP",
@@ -7118,6 +7472,11 @@
 				"Character": "CHARACTER_SEER"
 			},
 			{
+				"zType": "SUBJECT_CHARACTER_MERCHANT_HOSTAGE",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_MERCHANT_HOSTAGE"
+			},
+			{
 				"zType": "SUBJECT_INCITATUS",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"Character": "CHARACTER_INCITATUS"
@@ -7126,6 +7485,11 @@
 				"zType": "SUBJECT_DIEGYLIS",
 				"Class": "SUBJECTCLASS_CHARACTER",
 				"Character": "CHARACTER_DIEGYLIS"
+			},
+			{
+				"zType": "SUBJECT_TRIBAL_COURTIER",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_TRIBAL_COURTIER"
 			},
 			{
 				"zType": "SUBJECT_ALEXANDER",
@@ -7142,6 +7506,18 @@
 				"zType": "SUBJECT_PLAYER_NATION_CONTACTED",
 				"Class": "SUBJECTCLASS_PLAYER",
 				"MemoryPlayerPrereq": "MEMORYPLAYER_CONTACTED_FIRST_NATION",
+				"bIsUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_EXPEDITION_GOOD_CONTACT",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"MemoryPlayerPrereq": "MEMORYPLAYER_EXPEDITION_CONTACT_GOOD",
+				"bIsUs": "1"
+			},
+			{
+				"zType": "SUBJECT_PLAYER_EXPEDITION_BAD_CONTACT",
+				"Class": "SUBJECTCLASS_PLAYER",
+				"MemoryPlayerPrereq": "MEMORYPLAYER_EXPEDITION_CONTACT_BAD",
 				"bIsUs": "1"
 			},
 			{
@@ -7314,6 +7690,51 @@
 				"zType": "SUBJECT_CITY_GLADIATORS",
 				"Class": "SUBJECTCLASS_CITY",
 				"ProjectPrereq": "PROJECT_GLADIATORS"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_ASHURBANIPAL",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_ASHURBANIPAL"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_NEBUCHADNEZZAR",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_NEBUCHADNEZZAR"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_DIDO",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_DIDO"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_HATSHEPSUT",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_HATSHEPSUT"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_PHILIP",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_PHILIP"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_CYRUS",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_CYRUS"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_ROMULUS",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_ROMULUS"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_REMUS",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_REMUS"
+			},
+			{
+				"zType": "SUBJECT_CHARACTER_PYGMALION",
+				"Class": "SUBJECTCLASS_CHARACTER",
+				"Character": "CHARACTER_PYGMALION"
 			}
 		]
 	}

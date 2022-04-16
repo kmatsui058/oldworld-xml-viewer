@@ -312,6 +312,12 @@
         "aeSpriteSheets": {
           "zValue": "ASSET_EVENTSTORY_BACKGROUNDS"
         }
+      },
+      {
+        "zType": "SPRITE_GROUP_ACHIEVEMENTS",
+        "aeSpriteSheets": {
+          "zValue": "ASSET_SPRITE_SHEET_ACHIEVEMENTS"
+        }
       }
     ]
   }

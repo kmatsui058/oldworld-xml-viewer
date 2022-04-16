@@ -111,7 +111,7 @@
         "zType": "RELATIONSHIP_OWES_FAVOR_TO",
         "Name": "TEXT_RELATIONSHIP_OWES_FAVOR_TO",
         "NameVerb": "TEXT_RELATIONSHIP_OWES_FAVOR_TO_VERB",
-        "iOpinion": "20",
+        "iOpinion": "40",
         "iMinAgeUs": "15",
         "iMinAgeThem": "15",
         "aeInvalidateRelationship": {

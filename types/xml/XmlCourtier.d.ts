@@ -10,25 +10,32 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
-  GenderedNames?: ZType;
+  GenderedNames: GenderedNames;
   aiRatingBase: AiRatingBase;
   aiRatingRand: AiRatingBase;
   aiAdjectiveDie: AiAdjectiveDie;
   aiArchetypeDie: AiAdjectiveDie;
-  azNicknames: AzNicknames;
+  Nicknames: Nicknames;
 }
-export interface AzNicknames {
-  zValue?: string;
-}
-export interface AiAdjectiveDie {
+export interface Nicknames {
   Pair?: Pair[];
 }
+export interface AiAdjectiveDie {
+  Pair?: Pair2[];
+}
 export interface AiRatingBase {
+  Pair?: Pair2;
+}
+export interface Pair2 {
+  zIndex: string;
+  iValue: string;
+}
+export interface GenderedNames {
   Pair?: Pair;
 }
 export interface Pair {
-  zIndex: string;
-  iValue: string;
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

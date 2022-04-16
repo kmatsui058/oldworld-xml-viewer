@@ -23,6 +23,9 @@
         "en-US": "Spymaster"
       },
       {
+        "zType": "TEXT_EFFECTPLAYER_COUNCIL_SPYMASTER_F"
+      },
+      {
         "zType": "TEXT_EFFECTPLAYER_DIFFICULTY_ABLE",
         "en-US": "The Able"
       },

@@ -24,6 +24,21 @@
         }
       },
       {
+        "zType": "EVENTLINK_MONKEY_ASSASSIN_LEADER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_BLOODSPORT_FIGHT_OUTCOME",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_CHARACTER"
+        }
+      },
+      {
         "zType": "EVENTLINK_A_TIME_TO_KILL_FAST",
         "aeSubjectClasses": {
           "zValue": [
@@ -38,6 +53,33 @@
           "zValue": [
             "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_PLAYER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_TWO",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_THREE",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_SIX",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CITY"
           ]
         }
       },
@@ -109,6 +151,35 @@
             "SUBJECTCLASS_CITY"
           ]
         }
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_ONE"
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_FOUR",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_PLAYER",
+            "SUBJECTCLASS_CITY"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_EXPEDITION_CENTERAL_ASIA_FIVE"
+      },
+      {
+        "zType": "EVENTLINK_SUPPORTED_CHAMPION_0",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_FAMILY",
+            "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_SUPPORTED_CHAMPION_1"
       },
       {
         "beginGroup": "Contact",
@@ -1367,6 +1438,39 @@
         }
       },
       {
+        "zType": "EVENTLINK_OUT_FOR_BLOOD",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_OUT_FOR_BLOOD_COMBAT",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_OUT_FOR_BLOOD_SCHEMER",
+        "aeSubjectClasses": {
+          "zValue": [
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER",
+            "SUBJECTCLASS_CHARACTER"
+          ]
+        }
+      },
+      {
         "beginGroup": "City",
         "zType": "EVENTLINK_HAPPINESS_IMMIGRANTS_YES",
         "aeSubjectClasses": {
@@ -2226,6 +2330,7 @@
       },
       {
         "zType": "EVENTLINK_PROPHET_AND_THE_PARCHED_LAND",
+        "iTurnLimit": "4",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_RELIGION",
@@ -2237,6 +2342,7 @@
       },
       {
         "zType": "EVENTLINK_A_NEW_HOPE",
+        "iTurnLimit": "4",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_RELIGION",
@@ -2342,6 +2448,7 @@
       },
       {
         "zType": "EVENTLINK_CHARIOT_OF_THE_ANOINTED_OPTION_0",
+        "iTurnLimit": "4",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_PLAYER",
@@ -2416,6 +2523,7 @@
       },
       {
         "zType": "EVENTLINK_THE_GROVE_OF_CHARACTER",
+        "iTurnLimit": "8",
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CHARACTER",
@@ -2650,6 +2758,7 @@
         "aeSubjectClasses": {
           "zValue": [
             "SUBJECTCLASS_CITY",
+            "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_PLAYER"
           ]
         }
@@ -2934,6 +3043,24 @@
             "SUBJECTCLASS_PLAYER",
             "SUBJECTCLASS_CHARACTER"
           ]
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_RIVALS_1",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_PLAYER"
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_RIVALS_2",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_PLAYER"
+        }
+      },
+      {
+        "zType": "EVENTLINK_AMBITION_RIVALS_3",
+        "aeSubjectClasses": {
+          "zValue": "SUBJECTCLASS_PLAYER"
         }
       }
     ]

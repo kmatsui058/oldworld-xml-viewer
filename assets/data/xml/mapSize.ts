@@ -21,6 +21,12 @@
         "iHeightMPTwoTeams": {
           
         },
+        "iWidthMPOneVersusOne": {
+          
+        },
+        "iHeightMPOneVersusOne": {
+          
+        },
         "iMaxOpponents": {
           
         },
@@ -31,11 +37,13 @@
       {
         "zType": "MAPSIZE_DUEL",
         "Name": "TEXT_MAPSIZE_DUEL",
-        "iWidth": "56",
-        "iHeight": "56",
-        "iWidthMPTwoTeams": "42",
+        "iWidth": "58",
+        "iHeight": "58",
+        "iWidthMPTwoTeams": "48",
         "iHeightMPTwoTeams": "34",
-        "iMaxOpponents": "2",
+        "iWidthMPOneVersusOne": "52",
+        "iHeightMPOneVersusOne": "30",
+        "iMaxOpponents": "3",
         "iVP": "50"
       },
       {
@@ -43,9 +51,11 @@
         "Name": "TEXT_MAPSIZE_SMALL",
         "iWidth": "66",
         "iHeight": "66",
-        "iWidthMPTwoTeams": "44",
+        "iWidthMPTwoTeams": "50",
         "iHeightMPTwoTeams": "44",
-        "iMaxOpponents": "3",
+        "iWidthMPOneVersusOne": "54",
+        "iHeightMPOneVersusOne": "36",
+        "iMaxOpponents": "4",
         "iVP": "75"
       },
       {
@@ -53,9 +63,11 @@
         "Name": "TEXT_MAPSIZE_MEDIUM",
         "iWidth": "74",
         "iHeight": "74",
-        "iWidthMPTwoTeams": "46",
+        "iWidthMPTwoTeams": "52",
         "iHeightMPTwoTeams": "54",
-        "iMaxOpponents": "4",
+        "iWidthMPOneVersusOne": "56",
+        "iHeightMPOneVersusOne": "42",
+        "iMaxOpponents": "5",
         "iVP": "100"
       },
       {
@@ -63,9 +75,11 @@
         "Name": "TEXT_MAPSIZE_LARGE",
         "iWidth": "82",
         "iHeight": "82",
-        "iWidthMPTwoTeams": "48",
+        "iWidthMPTwoTeams": "54",
         "iHeightMPTwoTeams": "64",
-        "iMaxOpponents": "5",
+        "iWidthMPOneVersusOne": "58",
+        "iHeightMPOneVersusOne": "48",
+        "iMaxOpponents": "6",
         "iVP": "125"
       },
       {
@@ -73,9 +87,11 @@
         "Name": "TEXT_MAPSIZE_HUGE",
         "iWidth": "90",
         "iHeight": "90",
-        "iWidthMPTwoTeams": "50",
+        "iWidthMPTwoTeams": "56",
         "iHeightMPTwoTeams": "74",
-        "iMaxOpponents": "6",
+        "iWidthMPOneVersusOne": "60",
+        "iHeightMPOneVersusOne": "54",
+        "iMaxOpponents": "7",
         "iVP": "150"
       }
     ]

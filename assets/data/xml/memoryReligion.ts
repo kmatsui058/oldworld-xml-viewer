@@ -188,6 +188,11 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
+        "zType": "MEMORYRELIGION_AMARNA_REFORMER",
+        "Text": "TEXT_MEMORYRELIGION_MEMORYRELIGION_AMARNA_REFORMER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "MEMORYRELIGION_RUINS_RESTORED_TEMPLE",
         "Text": "TEXT_MEMORYRELIGION_RUINS_RESTORED_TEMPLE",
@@ -325,9 +330,14 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
-        "zType": "MEMORYRELIGION_PLACED_SECURITY",
-        "Text": "TEXT_MEMORYRELIGION_PLACED_SECURITY",
+        "zType": "MEMORYRELIGION_PROTECTED_STREETS",
+        "Text": "TEXT_MEMORYRELIGION_PROTECTED_STREETS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYRELIGION_PLACED_SECURITY",
+        "Text": "TEXT_MEMORYRELIGION_PROTECTED_STREETS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYRELIGION_BUILT_SHRINE_TO_MARTYRS",
@@ -411,6 +421,11 @@
         "zType": "MEMORYRELIGION_SHRINE_DEDICATION_NO",
         "Text": "TEXT_MEMORYRELIGION_SHRINE_DEDICATION_NO",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYRELIGION_SUPPORTED_THE_OLD_GODS",
+        "Text": "TEXT_MEMORYRELIGION_MEMORYRELIGION_SUPPORTED_THE_OLD_GODS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
         "beginGroup": "Community",
@@ -569,11 +584,6 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
-        "zType": "MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD",
-        "Text": "TEXT_MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD",
-        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
-      },
-      {
         "zType": "MEMORYRELIGION_CRUMBLING_ZIGGURAT",
         "Text": "TEXT_MEMORYRELIGION_CRUMBLING_ZIGGURAT",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
@@ -672,6 +682,12 @@
         "zType": "MEMORYRELIGION_DIVORCED_SPOUSE",
         "Text": "TEXT_MEMORYRELIGION_DIVORCED_SPOUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "MEMORYRELIGION_ALLOWED_RAIDS",
+        "Text": "TEXT_MEMORYRELIGION_MEMORYRELIGION_ALLOWED_RAIDS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       }
     ]
   }

@@ -15,6 +15,10 @@
         "en-US": "Abdju"
       },
       {
+        "zType": "TEXT_CITYNAME_ABU",
+        "en-US": "Abu"
+      },
+      {
         "zType": "TEXT_CITYNAME_AEMINIUM",
         "en-US": "Aeminium"
       },
@@ -89,6 +93,10 @@
       {
         "zType": "TEXT_CITYNAME_ASCRIVIUM",
         "en-US": "Ascrivium"
+      },
+      {
+        "zType": "TEXT_CITYNAME_ASPADANA",
+        "en-US": "Aspadana"
       },
       {
         "zType": "TEXT_CITYNAME_ASPALATHOS",
@@ -275,6 +283,10 @@
         "en-US": "Tamiat"
       },
       {
+        "zType": "TEXT_CITYNAME_DARBAND",
+        "en-US": "Darband"
+      },
+      {
         "zType": "TEXT_CITYNAME_DELPHI",
         "en-US": "Delphi"
       },
@@ -324,11 +336,11 @@
       },
       {
         "zType": "TEXT_CITYNAME_ELEPHANTINE",
-        "en-US": "Abu"
+        "en-US": "Elephantine"
       },
       {
         "zType": "TEXT_CITYNAME_ELLASAR",
-        "en-US": "Ellasar"
+        "en-US": "Dur-Athara"
       },
       {
         "zType": "TEXT_CITYNAME_EPHESUS",
@@ -648,7 +660,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_MELIDDU",
-        "en-US": "Meliddu"
+        "en-US": "Malidiya"
       },
       {
         "zType": "TEXT_CITYNAME_TUSHPA",
@@ -864,7 +876,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_POMPALEO",
-        "en-US": "Pompaleo"
+        "en-US": "Pompaelo"
       },
       {
         "zType": "TEXT_CITYNAME_POMPEII",
@@ -872,7 +884,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_PONUS_AELIUS",
-        "en-US": "Ponus Aelius"
+        "en-US": "Pons Aelius"
       },
       {
         "zType": "TEXT_CITYNAME_POTIDAEA",
@@ -1272,7 +1284,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_EUSPERIDES",
-        "en-US": "Eusperides"
+        "en-US": "Euesperides"
       },
       {
         "zType": "TEXT_CITYNAME_GADES",

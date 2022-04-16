@@ -59,6 +59,12 @@
         "zType": "COUNCIL_AMBASSADOR",
         "Name": "TEXT_COUNCIL_AMBASSADOR",
         "zIconName": "COUNCIL_AMBASSADOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COUNCIL_AMBASSADOR_F"
+          }
+        },
         "TechPrereq": "TECH_ARISTOCRACY",
         "iXP": "5",
         "iOpinion": "40",
@@ -111,6 +117,12 @@
         "zType": "COUNCIL_CHANCELLOR",
         "Name": "TEXT_COUNCIL_CHANCELLOR",
         "zIconName": "COUNCIL_CHANCELLOR",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COUNCIL_CHANCELLOR_F"
+          }
+        },
         "TechPrereq": "TECH_SPOKED_WHEEL",
         "iXP": "5",
         "iOpinion": "40",
@@ -170,6 +182,12 @@
         "zType": "COUNCIL_SPYMASTER",
         "Name": "TEXT_COUNCIL_SPYMASTER",
         "zIconName": "COUNCIL_SPYMASTER",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_COUNCIL_SPYMASTER_F"
+          }
+        },
         "TechPrereq": "TECH_PORTCULLIS",
         "iXP": "5",
         "iOpinion": "40",

@@ -99,7 +99,7 @@
         "iPillagedOpinion": {
           
         },
-        "iHostileUnitOpinion": {
+        "iHostileTribeUnitOpinion": {
           
         },
         "bPrefersDistant": {
@@ -1129,7 +1129,7 @@
         "Crest": "CREST_FAMILYCLASS_HUNTERS",
         "SeatCrest": "CREST_FAMILYCLASS_HUNTERS_SEAT",
         "iCityDefendedOpinion": "20",
-        "iHostileUnitOpinion": "-10",
+        "iHostileTribeUnitOpinion": "-20",
         "EffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS",
         "SeatEffectCity": "EFFECTCITY_FAMILYCLASS_HUNTERS_SEAT",
         "SeatFoundBonus": "BONUS_FAMILYCLASS_HUNTERS_SEAT",

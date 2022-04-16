@@ -24,7 +24,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_MEDIUM_RESOURCES_HELP",
-        "en-US": "Regular amount of resources"
+        "en-US": "Default amount of resources"
       },
       {
         "zType": "TEXT_MAP_OPTION_LOW_RESOURCES",
@@ -40,7 +40,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_DEFAULT_RESOURCES_HELP",
-        "en-US": "Use painted map's resources"
+        "en-US": "Use the map's designed resource placement"
       },
       {
         "zType": "TEXT_MAP_OPTION_RANDOM_RESOURCES",
@@ -64,7 +64,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_WATER_SIZE_RANDOM_HELP",
-        "en-US": "Randomly chooses an option"
+        "en-US": "Choose a random option"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_COAST",
@@ -80,7 +80,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_PLAYER_START_INLAND_HELP",
-        "en-US": "Start away from salt water"
+        "en-US": "Start away from the coast"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TRIBES_RANDOM",
@@ -104,7 +104,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TRIBES_FOUR_HELP",
-        "en-US": "Quadrants"
+        "en-US": "Tribes will be placed in quadrants"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TRIBES_THREE",
@@ -120,7 +120,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_RANDOM_HELP",
-        "en-US": "Randomly choose one of the other selections"
+        "en-US": "Choose a random option"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_TUNDRA",
@@ -128,7 +128,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_TUNDRA_HELP",
-        "en-US": "This game will include some Tundra"
+        "en-US": "The map will include some Tundra"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_DESERT",
@@ -136,7 +136,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_DESERT_HELP",
-        "en-US": "This game will include a major Desert"
+        "en-US": "The map will include a major Desert"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_MOUNTAINS",
@@ -144,7 +144,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_MOUNTAINS_HELP",
-        "en-US": "This game will include extra Mountains"
+        "en-US": "The map will include extra Mountains"
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_WATER",
@@ -152,7 +152,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_SEASIDE_TERRAIN_WATER_HELP",
-        "en-US": "This game will include extra Water"
+        "en-US": "The map will include extra Water"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_PLAYER_START_PLATEAU",
@@ -160,7 +160,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_PLAYER_START_PLATEAU_HELP",
-        "en-US": "Start in the south, on the great plateau"
+        "en-US": "Start in the south on a great plateau"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_PLAYER_START_MIDLAND",
@@ -177,62 +177,6 @@
       {
         "zType": "TEXT_MAP_OPTION_ARID_PLAYER_START_TUNDRA_HELP",
         "en-US": "Start in the north, where it is colder"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_FIVE",
-        "en-US": "Five Tribes"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_FIVE_HELP",
-        "en-US": "Scattered"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_FOUR",
-        "en-US": "Four Tribes"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_FOUR_HELP",
-        "en-US": "Quadrants"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_THREE",
-        "en-US": "Three Tribes"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_THREE_HELP",
-        "en-US": "One Tribe per latitude band"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_TWO",
-        "en-US": "Two Tribes"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_TWO_HELP",
-        "en-US": "One Tribe prefers flat areas and water. The other prefers to live on hills"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS",
-        "en-US": "Barbarians Only"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_BARBARIANS_HELP",
-        "en-US": "No Tribes, only Barbarian camps"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_ONE",
-        "en-US": "One Tribe"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_ONE_HELP",
-        "en-US": "One colossal Tribe owns the middle of the map"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_RANDOM",
-        "en-US": "Random"
-      },
-      {
-        "zType": "TEXT_MAP_OPTION_ARID_TRIBES_RANDOM_HELP",
-        "en-US": "Varied in number and distribution"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_SIZE_LARGE",
@@ -256,7 +200,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_RANDOM_HELP",
-        "en-US": "Randomly chooses an option"
+        "en-US": "Choose a random option"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH",
@@ -264,7 +208,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_FAR_NORTH_HELP",
-        "en-US": "Usually forms bays that range offscreen"
+        "en-US": "Bays that range offscreen to the north"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH",
@@ -272,7 +216,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_ARID_WATER_LOCATION_MIDDLE_NORTH_HELP",
-        "en-US": "Usually forms seas with land passage to their north"
+        "en-US": "Seas with land passage to their north"
       },
       {
         "zType": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX",
@@ -280,7 +224,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_SIX_HELP",
-        "en-US": "Clockwise around the inland sea(s)"
+        "en-US": "Six tribes distributed evenly around the inland sea(s)"
       },
       {
         "zType": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_RANDOM",
@@ -296,7 +240,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_FOUR_HELP",
-        "en-US": "Quadrants"
+        "en-US": "Tribes will be placed in quadrants"
       },
       {
         "zType": "TEXT_MAP_OPTION_INLAND_SEA_TRIBES_THREE",
@@ -344,7 +288,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_HARDWOOD_FOREST_PLAYER_START_INLAND_HELP",
-        "en-US": "Start away from salt water"
+        "en-US": "Start away from the sea"
       },
       {
         "zType": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_FOREST",
@@ -368,7 +312,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_HARDWOOD_FOREST_TRIBES_SCATTERED_HELP",
-        "en-US": "Nations and Tribes can start anywhere"
+        "en-US": "Nations and Tribes can start anywhere."
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT",
@@ -376,7 +320,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_CONTINENT_HELP",
-        "en-US": "Start on the main continent. Selecting a high number of Nations may require some to be in the north."
+        "en-US": "Start on the main continent. Selecting a high number of Nations may require some to start in the north."
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS",
@@ -384,7 +328,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_PLAYER_START_ISLANDS_HELP",
-        "en-US": "Start in the north, on an island or snaky peninsula. Selecting a high number of Nations may require some to be on the continent."
+        "en-US": "Start in the north, on an island or peninsula. Selecting a high number of Nations may require some to start on the continent."
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE",
@@ -392,7 +336,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_NATIVE_HELP",
-        "en-US": "Use Tribal homelands native to Northern Ocean"
+        "en-US": "Use Tribal homelands native to the Northern Ocean"
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM",
@@ -400,7 +344,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_NORTHERN_OCEAN_TRIBES_RANDOM_HELP",
-        "en-US": "Makes use of a randomly selected core Tribe method instead of using the one tailored to this map"
+        "en-US": "Randomly distribute tribes"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_SEA",
@@ -416,7 +360,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_PLAYER_START_INLAND_HELP",
-        "en-US": "Start away from salt water"
+        "en-US": "Start away from the coast"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_RANDOM",
@@ -432,7 +376,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_SCATTERED_HELP",
-        "en-US": "Scattered"
+        "en-US": "Tribe placement will be scattered"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS",
@@ -440,7 +384,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_QUADRANTS_HELP",
-        "en-US": "Quadrants"
+        "en-US": "Tribes will be placed in quadrants"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND",
@@ -448,7 +392,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_INLAND_HELP",
-        "en-US": "Two Tribes in play, all camps away from the ocean"
+        "en-US": "Two Tribes in play, with all camps away from the ocean"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL",
@@ -456,7 +400,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TRIBES_COASTAL_HELP",
-        "en-US": "Two Mounted Tribes in play, all camps near salt water"
+        "en-US": "Two Mounted Tribes in play, with all camps near the coast"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER",
@@ -464,7 +408,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_EITHER_HELP",
-        "en-US": "Extreme terrain can be either tundra or desert"
+        "en-US": "Extreme terrain can be either Tundra or Desert"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA",
@@ -472,7 +416,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_TUNDRA_HELP",
-        "en-US": "Extreme terrain on this map will be tundra"
+        "en-US": "Extreme terrain on the map will be Tundra"
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT",
@@ -480,7 +424,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_CONTINENT_TERRAIN_DESERT_HELP",
-        "en-US": "Extreme terrain on this map will be desert"
+        "en-US": "Extreme terrain on the map will be Desert"
       },
       {
         "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU",
@@ -488,7 +432,7 @@
       },
       {
         "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_PLATEAU_HELP",
-        "en-US": "Start in the south, on the great plateau"
+        "en-US": "Start in the south on a great plateau"
       },
       {
         "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_PLAYER_START_MIDLAND",
@@ -507,60 +451,84 @@
         "en-US": "Start in the north, near the ocean"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM",
-        "en-US": "Random"
+        "zType": "TEXT_MAP_NAME_ARCHIPELAGO",
+        "en-US": "Archipelago"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_RANDOM_HELP",
-        "en-US": "Varied in number and distribution"
+        "zType": "TEXT_MAP_HELP_ARCHIPELAGO",
+        "en-US": "A large stretch of water containing many islands."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE",
-        "en-US": "Five Tribes"
+        "zType": "TEXT_MAP_NAME_ARID_PLATEAU",
+        "en-US": "Arid Plateau"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FIVE_HELP",
-        "en-US": "Scattered"
+        "zType": "TEXT_MAP_HELP_ARID_PLATEAU",
+        "en-US": "A region deep inland, behind a mountain range, where little rain falls.{br}{br}Balanced to support two teams in multi-player games."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR",
-        "en-US": "Four Tribes"
+        "zType": "TEXT_MAP_NAME_COASTAL_RAIN_BASIN",
+        "en-US": "Coastal Rain Basin"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_FOUR_HELP",
-        "en-US": "Quadrants"
+        "zType": "TEXT_MAP_HELP_COASTAL_RAIN_BASIN",
+        "en-US": "A coastal region bordered by a mountain range, which catches rain and creates a fertile band near the mountains.{br}{br}Balanced to support two teams in multi-player games."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE",
-        "en-US": "Three Tribes"
+        "zType": "TEXT_MAP_NAME_CONTINENT",
+        "en-US": "Continent"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_THREE_HELP",
-        "en-US": "One Tribe per latitude band"
+        "zType": "TEXT_MAP_HELP_CONTINENT",
+        "en-US": "A small continent, on the scale of Australia. Guaranteed to be circumnavigable within the map boundary."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO",
-        "en-US": "Two Tribes"
+        "zType": "TEXT_MAP_NAME_CONTINENTS",
+        "en-US": "Multiple Continents"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_TWO_HELP",
-        "en-US": "One Tribe in the west, the other in the east"
+        "zType": "TEXT_MAP_HELP_CONTINENTS",
+        "en-US": "Two or Three Continents."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE",
-        "en-US": "One Tribe"
+        "zType": "TEXT_MAP_NAME_DISJUNCTION",
+        "en-US": "Disjunction"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_ONE_HELP",
-        "en-US": "One colossal Tribe owns the middle of the map"
+        "zType": "TEXT_MAP_HELP_DISJUNCTION",
+        "en-US": "A series of channels extend radially from the center, dividing a land map into separate regions.{br}{br}Balanced to support either teams or free-for-all in multi-player games."
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS",
-        "en-US": "Barbarians Only"
+        "zType": "TEXT_MAP_NAME_HARDWOOD_FOREST",
+        "en-US": "Hardwood Forest"
       },
       {
-        "zType": "TEXT_MAP_OPTION_COASTAL_RAIN_BASIN_TRIBES_BARBARIANS_HELP",
-        "en-US": "No Tribes, only Barbarian camps"
+        "zType": "TEXT_MAP_HELP_HARDWOOD_FOREST",
+        "en-US": "Land whose northern half is covered with a dense hardwood forest. South of the leafy trees lies a band of lush terrain. Rains come from the west, but there are also seas to north and south."
+      },
+      {
+        "zType": "TEXT_MAP_NAME_INLAND_SEA",
+        "en-US": "Inland Sea"
+      },
+      {
+        "zType": "TEXT_MAP_HELP_INLAND_SEA",
+        "en-US": "Land that completely surrounds a sea or group of seas.{br}{br}Balanced to support free-for-all in multi-player games."
+      },
+      {
+        "zType": "TEXT_MAP_NAME_NORTHERN_OCEAN",
+        "en-US": "Northern Ocean"
+      },
+      {
+        "zType": "TEXT_MAP_HELP_NORTHERN_OCEAN",
+        "en-US": "A cold oceanic region containing numerous islands, large and small, bordered by a continent to the south. Resources on the continent are depleted (fewer resources per city).{br}{br}An adventure map intended for single player games, with larger dimensions to compensate for a lower percentage of habitable tiles."
+      },
+      {
+        "zType": "TEXT_MAP_NAME_SEASIDE",
+        "en-US": "Seaside"
+      },
+      {
+        "zType": "TEXT_MAP_HELP_SEASIDE",
+        "en-US": "A region bordered by or containing large seas, gulfs, or bays, offering a substantial amount of coastline.{br}{br}Default map type for Old World, inspired by the Middle East but with a generally milder climate."
       },
       {
         "zType": "TEXT_MAP_OPTION_DISJUNCTION_CONTINENTS_WEIGHTED_RANDOM",
@@ -604,11 +572,15 @@
       },
       {
         "zType": "TEXT_MAP_OPTIONS_SINGLE_MIRROR_HELP",
-        "en-US": "East-West symmetric map: need even number of teams"
+        "en-US": "East-West symmetric map. Requires two teams."
       },
       {
         "zType": "TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP",
         "en-US": "A resource-rich center instead of water at the channel intersection area"
+      },
+      {
+        "zType": "TEXT_MAP_OPTIONS_SINGLE_GOOD_PLAYER_START_RESOURCES_HELP",
+        "en-US": "All starting locations have access to important resources like horses or iron"
       },
       {
         "zType": "TEXT_MAP_OPTION_ARCHIPELAGO_LANDMASS_SMALL",
@@ -657,6 +629,10 @@
       {
         "zType": "TEXT_MAP_OPTION_CONTINENTS_NUMBER_THREE_HELP",
         "en-US": "Three continents, with either the North or South containing two continents"
+      },
+      {
+        "zType": "TEXT_PREMADE_MAP_MEDITERRANEAN_DESCRIPTION",
+        "en-US": "A four-player map set in the Mediterranean area"
       }
     ]
   }

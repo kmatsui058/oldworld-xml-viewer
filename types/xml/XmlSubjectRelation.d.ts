@@ -34,13 +34,13 @@ export interface Entry {
   MaxOpinionPlayer?: ZType | string;
   MinOpinionTribe?: ZType | string;
   MaxOpinionTribe?: ZType | string;
-  MinOpinionReligion?: ZType;
+  MinOpinionReligion?: ZType | string;
   MaxOpinionReligion?: ZType | string;
   MinOpinionFamily?: ZType | string;
   MaxOpinionFamily?: ZType | string;
   MinOpinionCharacter?: ZType | string;
   MaxOpinionCharacter?: ZType | string;
-  iMinDistance?: ZType;
+  iMinDistance?: ZType | string;
   iMaxDistance?: ZType | string;
   bAnyDescendant?: ZType | string;
   bNotDescendant?: ZType | string;
@@ -72,6 +72,7 @@ export interface Entry {
   bTribeAlliance?: ZType | string;
   bNotTribeAlliance?: ZType | string;
   bCanTribeAlliance?: ZType | string;
+  bWarTribeAlliance?: ZType | string;
   bFamilySame?: ZType | string;
   bFamilyDiff?: ZType | string;
   bReligionSame?: ZType | string;
@@ -109,6 +110,7 @@ export interface Entry {
   bUnitSame?: ZType | string;
   bTileSame?: ZType | string;
   bTileAdjacent?: ZType | string;
+  bTileRevealed?: ZType | string;
   bNoDebugHelp?: ZType | string;
 }
 export interface ZType {

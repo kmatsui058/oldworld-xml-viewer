@@ -1,20 +1,20 @@
 <template>
   <div>
     <template v-for="(item, key) in items">
-      <VTooltip v-if="item.type === 'link'" :key="key">
+      <v-popper v-if="item.type === 'link'" :key="key">
         <nuxt-link :to="{ name: item.name.toLowerCase(), hash: '#' + item.zType }">
           {{ item.text.toLowerCase() }}
         </nuxt-link>
         <template #popper> <component :is="item.component" :z-type="item.zType" /></template>
-      </VTooltip>
-      <VTooltip v-else-if="item.type === 'yield'" :key="key">
+      </v-popper>
+      <v-popper v-else-if="item.type === 'yield'" :key="key">
         <nuxt-link :to="{ name: 'yield', hash: '#' + item.zType }">
           {{ item.preText }}
           <img :src="item.yield.icon" alt="" class="icon" />
           {{ item.afterText }}
         </nuxt-link>
         <template #popper><YeildDetail :z-type="item.zType" /></template>
-      </VTooltip>
+      </v-popper>
       <span v-else-if="item.type === 'text'" :key="key">
         {{ item.text }}
       </span>
@@ -29,6 +29,8 @@ import MissionDetail from '~/components/mission/detail.vue'
 import ProjectDetail from '~/components/project/detail.vue'
 import RatingDetail from '~/components/rating/detail.vue'
 import CultureDetail from '~/components/culture/detail.vue'
+import TechDetail from '~/components/tech/detail.vue'
+
 import ImprovementClassDetail from '~/components/improvement-class/detail.vue'
 import LawDetail from '~/components/law/detail.vue'
 import EffectCityDetail from '~/components/effect-city/detail.vue'
@@ -41,6 +43,7 @@ import ImprovementDetail from '~/components/improvement/detail.vue'
 import ConceptDetail from '~/components/concept/detail.vue'
 import UnitDetail from '~/components/unit/detail.vue'
 import YeildDetail from '~/components/yield/detail.vue'
+
 export interface LinkItem {
   type: 'link'
   name: string
@@ -78,6 +81,7 @@ export default defineComponent({
     ProjectDetail,
     RatingDetail,
     CultureDetail,
+    TechDetail,
     ImprovementClassDetail,
     LawDetail,
     EffectCityDetail,
@@ -114,6 +118,8 @@ export default defineComponent({
           return 'RatingDetail'
         case 'CULTURE':
           return 'CultureDetail'
+        case 'TECH':
+          return 'TechDetail'
         case 'IMPROVEMENTCLASS':
           return 'ImprovementClassDetail'
         case 'LAW':

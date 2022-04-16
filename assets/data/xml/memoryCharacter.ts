@@ -48,7 +48,7 @@
       {
         "zType": "MEMORYCHARACTER_ASSASSINATE_FAIL",
         "Text": "TEXT_MEMORYCHARACTER_ASSASSINATE_FAIL",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_FOREVER"
       },
       {
         "zType": "MEMORYCHARACTER_MATCH_PREVENT",
@@ -875,6 +875,21 @@
         "Text": "TEXT_MEMORYCHARACTER_LIED_TO"
       },
       {
+        "zType": "MEMORYCHARACTER_NOT_A_THREAT",
+        "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_NOT_A_THREAT",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SAW_AS_THREAT",
+        "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_SAW_AS_THREAT",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL",
+        "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
         "beginGroup": "Character",
         "zType": "MEMORYCHARACTER_MARRIAGE_OF_STATE",
         "Text": "TEXT_MEMORYCHARACTER_MARRIAGE_OF_STATE",
@@ -921,9 +936,9 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
-        "zType": "MEMORYCHARACTER_GIVEN_BAD_JOB",
-        "Text": "TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB",
-        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+        "zType": "MEMORYCHARACTER_AGREED_TO_KEEP_EYE",
+        "Text": "TEXT_MEMORYCHARACTER_AGREED_TO_KEEP_EYE",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
         "zType": "MEMORYCHARACTER_CONVINCE_TO_CHANGE",
@@ -965,6 +980,12 @@
         "zType": "MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
         "Text": "TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT",
+        "bName": "1"
+      },
+      {
+        "zType": "MEMORYCHARACTER_NO_REST",
+        "Text": "TEXT_MEMORYCHARACTER_NO_REST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT",
         "bName": "1"
       },
       {
@@ -1202,6 +1223,16 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
+        "zType": "MEMORYCHARACTER_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_DISSATISFIED_LEADER",
+        "Text": "TEXT_MEMORYCHARACTER_DISSATISFIED_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
         "beginGroup": "Courtier",
         "zType": "MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
         "Text": "TEXT_MEMORYCHARACTER_GP_DIPLOMATIC_MISSION_GOOD",
@@ -1245,6 +1276,11 @@
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_LONG"
       },
       {
+        "zType": "MEORYCHARCTER_IGNORED_REQUEST",
+        "Text": "TEXT_MEMORYCHARACTER_MEORYCHARCTER_IGNORED_REQUEST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
         "beginGroup": "Family",
         "zType": "MEMORYCHARACTER_FAVORED_SPOUSE",
         "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_FAVORED_SPOUSE",
@@ -1254,6 +1290,16 @@
         "zType": "MEMORYCHARACTER_DISFAVORED_SPOUSE",
         "Text": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_DISFAVORED_SPOUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYCHARACTER_RAISED_PIG",
+        "Text": "TEXT_MEMORYCHARACTER_RAISED_PIG",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYCHARACTER_SPOUSE_TOO_HELPFUL",
+        "Text": "TEXT_MEMORYCHARACTER_SPOUSE_TOO_HELPFUL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       }
     ]
   }

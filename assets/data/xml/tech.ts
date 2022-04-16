@@ -469,6 +469,24 @@
         }
       },
       {
+        "zType": "TECH_STEEL_BONUS_TRAINING",
+        "Name": "TEXT_TECH_STEEL_BONUS_TRAINING",
+        "Advice": "TEXT_GUIDE_TECH_STEEL_BONUS_TRAINING",
+        "zIconName": "BONUS_TRAINING",
+        "BonusDiscover": "BONUS_TECH_STEEL_BONUS_TRAINING",
+        "iCost": "100",
+        "bHide": "1",
+        "bTrash": "1",
+        "bNoFree": "1",
+        "bValidAll": "1",
+        "abTechPrereq": {
+          "Pair": {
+            "zIndex": "TECH_STEEL",
+            "bValue": "1"
+          }
+        }
+      },
+      {
         "zType": "TECH_SOVEREIGNTY",
         "Name": "TEXT_TECH_SOVEREIGNTY",
         "Advice": "TEXT_GUIDE_TECH_SOVEREIGNTY",
@@ -974,10 +992,10 @@
         }
       },
       {
-        "zType": "TECH_TORSION",
-        "Name": "TEXT_TECH_TORSION",
-        "Advice": "TEXT_GUIDE_TECH_TORSION",
-        "zIconName": "TECH_TORSION",
+        "zType": "TECH_HYDRAULICS",
+        "Name": "TEXT_TECH_HYDRAULICS",
+        "Advice": "TEXT_GUIDE_TECH_HYDRAULICS",
+        "zIconName": "TECH_HYDRAULICS",
         "iCost": "600",
         "iColumn": "4",
         "iRow": "9",
@@ -990,11 +1008,11 @@
         }
       },
       {
-        "zType": "TECH_TORSION_BONUS_BALLISTA",
-        "Name": "TEXT_TECH_TORSION_BONUS_BALLISTA",
-        "Advice": "TEXT_GUIDE_TECH_TORSION_BONUS_BALLISTA",
+        "zType": "TECH_HYDRAULICS_BONUS_BALLISTA",
+        "Name": "TEXT_TECH_HYDRAULICS_BONUS_BALLISTA",
+        "Advice": "TEXT_GUIDE_TECH_HYDRAULICS_BONUS_BALLISTA",
         "zIconName": "BONUS_BALLISTA",
-        "BonusDiscover": "BONUS_TECH_TORSION_BONUS_BALLISTA",
+        "BonusDiscover": "BONUS_TECH_HYDRAULICS_BONUS_BALLISTA",
         "iCost": "400",
         "bHide": "1",
         "bTrash": "1",
@@ -1002,7 +1020,7 @@
         "bValidAll": "1",
         "abTechPrereq": {
           "Pair": {
-            "zIndex": "TECH_TORSION",
+            "zIndex": "TECH_HYDRAULICS",
             "bValue": "1"
           }
         }
@@ -1048,27 +1066,33 @@
         }
       },
       {
-        "zType": "TECH_HYDRAULICS",
-        "Name": "TEXT_TECH_HYDRAULICS",
-        "Advice": "TEXT_GUIDE_TECH_HYDRAULICS",
-        "zIconName": "TECH_HYDRAULICS",
-        "iCost": "800",
+        "zType": "TECH_LATEEN_SAIL",
+        "Name": "TEXT_TECH_LATEEN_SAIL",
+        "Advice": "TEXT_GUIDE_TECH_LATEEN_SAIL",
+        "zIconName": "TECH_LATEEN_SAIL",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "0",
         "bValidAll": "1",
         "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_COINAGE",
-            "bValue": "1"
-          }
+          "Pair": [
+            {
+              "zIndex": "TECH_COINAGE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TECH_CARTOGRAPHY",
+              "bValue": "1"
+            }
+          ]
         }
       },
       {
-        "zType": "TECH_HYDRAULICS_BONUS_MERCHANT",
-        "Name": "TEXT_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "Advice": "TEXT_GUIDE_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "zIconName": "BONUS_COURTIER",
-        "BonusDiscover": "BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
+        "zType": "TECH_LATEEN_SAIL_BONUS_DROMON",
+        "Name": "TEXT_TECH_LATEEN_SAIL_BONUS_DROMON",
+        "Advice": "TEXT_GUIDE_TECH_LATEEN_SAIL_BONUS_DROMON",
+        "zIconName": "BONUS_DROMON",
+        "BonusDiscover": "BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
         "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
@@ -1076,7 +1100,7 @@
         "bValidAll": "1",
         "abTechPrereq": {
           "Pair": {
-            "zIndex": "TECH_HYDRAULICS",
+            "zIndex": "TECH_LATEEN_SAIL",
             "bValue": "1"
           }
         }
@@ -1086,7 +1110,7 @@
         "Name": "TEXT_TECH_JURISPRUDENCE",
         "Advice": "TEXT_GUIDE_TECH_JURISPRUDENCE",
         "zIconName": "TECH_JURISPRUDENCE",
-        "iCost": "800",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "1",
         "bValidAll": "1",
@@ -1098,11 +1122,29 @@
         }
       },
       {
+        "zType": "TECH_JURISPRUDENCE_BONUS_MINISTER",
+        "Name": "TEXT_TECH_JURISPRUDENCE_BONUS_MINISTER",
+        "Advice": "TEXT_GUIDE_TECH_JURISPRUDENCE_BONUS_MINISTER",
+        "zIconName": "BONUS_COURTIER",
+        "BonusDiscover": "BONUS_TECH_JURISPRUDENCE_BONUS_MINISTER",
+        "iCost": "600",
+        "bHide": "1",
+        "bTrash": "1",
+        "bNoFree": "1",
+        "bValidAll": "1",
+        "abTechPrereq": {
+          "Pair": {
+            "zIndex": "TECH_JURISPRUDENCE",
+            "bValue": "1"
+          }
+        }
+      },
+      {
         "zType": "TECH_MARTIAL_CODE",
         "Name": "TEXT_TECH_MARTIAL_CODE",
         "Advice": "TEXT_GUIDE_TECH_MARTIAL_CODE",
         "zIconName": "TECH_MARTIAL_CODE",
-        "iCost": "800",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "3",
         "bValidAll": "1",
@@ -1118,7 +1160,7 @@
         "Name": "TEXT_TECH_VAULTING",
         "Advice": "TEXT_GUIDE_TECH_VAULTING",
         "zIconName": "TECH_VAULTING",
-        "iCost": "800",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "4",
         "bValidAll": "1",
@@ -1152,7 +1194,7 @@
         "Name": "TEXT_TECH_BODKIN_ARROW",
         "Advice": "TEXT_GUIDE_TECH_BODKIN_ARROW",
         "zIconName": "TECH_BODKIN_ARROW",
-        "iCost": "800",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "5",
         "bValidAll": "1",
@@ -1164,59 +1206,25 @@
         }
       },
       {
-        "zType": "TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "Name": "TEXT_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "Advice": "TEXT_GUIDE_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "zIconName": "BONUS_TRAINING",
-        "BonusDiscover": "BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "iCost": "600",
-        "bHide": "1",
-        "bTrash": "1",
-        "bNoFree": "1",
-        "bValidAll": "1",
-        "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_BODKIN_ARROW",
-            "bValue": "1"
-          }
-        }
-      },
-      {
-        "zType": "TECH_COHORTS",
-        "Name": "TEXT_TECH_COHORTS",
-        "Advice": "TEXT_GUIDE_TECH_COHORTS",
-        "zIconName": "TECH_COHORTS",
-        "iCost": "800",
-        "iColumn": "5",
-        "iRow": "7",
-        "bValidAll": "1",
-        "abTechPrereq": {
-          "Pair": [
-            {
-              "zIndex": "TECH_CITIZENSHIP",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "TECH_BATTLELINE",
-              "bValue": "1"
-            }
-          ]
-        }
-      },
-      {
         "zType": "TECH_WINDLASS",
         "Name": "TEXT_TECH_WINDLASS",
         "Advice": "TEXT_GUIDE_TECH_WINDLASS",
         "zIconName": "TECH_WINDLASS",
-        "iCost": "800",
+        "iCost": "1000",
         "iColumn": "5",
         "iRow": "9",
         "bValidAll": "1",
         "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_TORSION",
-            "bValue": "1"
-          }
+          "Pair": [
+            {
+              "zIndex": "TECH_SCHOLARSHIP",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TECH_HYDRAULICS",
+              "bValue": "1"
+            }
+          ]
         }
       },
       {
@@ -1238,53 +1246,25 @@
         }
       },
       {
-        "zType": "TECH_LATEEN_SAIL",
-        "Name": "TEXT_TECH_LATEEN_SAIL",
-        "Advice": "TEXT_GUIDE_TECH_LATEEN_SAIL",
-        "zIconName": "TECH_LATEEN_SAIL",
-        "iCost": "1000",
-        "iColumn": "6",
-        "iRow": "0",
-        "bValidAll": "1",
-        "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_HYDRAULICS",
-            "bValue": "1"
-          }
-        }
-      },
-      {
-        "zType": "TECH_LATEEN_SAIL_BONUS_DROMON",
-        "Name": "TEXT_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "Advice": "TEXT_GUIDE_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "zIconName": "BONUS_DROMON",
-        "BonusDiscover": "BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "iCost": "800",
-        "bHide": "1",
-        "bTrash": "1",
-        "bNoFree": "1",
-        "bValidAll": "1",
-        "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_LATEEN_SAIL",
-            "bValue": "1"
-          }
-        }
-      },
-      {
         "zType": "TECH_FISCAL_POLICY",
         "Name": "TEXT_TECH_FISCAL_POLICY",
         "Advice": "TEXT_GUIDE_TECH_FISCAL_POLICY",
         "zIconName": "TECH_FISCAL_POLICY",
-        "iCost": "1000",
+        "iCost": "1500",
         "iColumn": "6",
         "iRow": "1",
         "bValidAll": "1",
         "abTechPrereq": {
-          "Pair": {
-            "zIndex": "TECH_JURISPRUDENCE",
-            "bValue": "1"
-          }
+          "Pair": [
+            {
+              "zIndex": "TECH_LATEEN_SAIL",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TECH_JURISPRUDENCE",
+              "bValue": "1"
+            }
+          ]
         }
       },
       {
@@ -1293,7 +1273,7 @@
         "Advice": "TEXT_GUIDE_TECH_FISCAL_POLICY_BONUS_MERCHANT",
         "zIconName": "BONUS_COURTIER",
         "BonusDiscover": "BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
-        "iCost": "800",
+        "iCost": "1000",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1310,7 +1290,7 @@
         "Name": "TEXT_TECH_BARDING",
         "Advice": "TEXT_GUIDE_TECH_BARDING",
         "zIconName": "TECH_BARDING",
-        "iCost": "1000",
+        "iCost": "1500",
         "iColumn": "6",
         "iRow": "3",
         "bValidAll": "1",
@@ -1332,7 +1312,7 @@
         "Name": "TEXT_TECH_INFANTRY_SQUARE",
         "Advice": "TEXT_GUIDE_TECH_INFANTRY_SQUARE",
         "zIconName": "TECH_INFANTRY_SQUARE",
-        "iCost": "1000",
+        "iCost": "1500",
         "iColumn": "6",
         "iRow": "5",
         "bValidAll": "1",
@@ -1349,7 +1329,7 @@
         "Advice": "TEXT_GUIDE_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
         "zIconName": "BONUS_COURTIER",
         "BonusDiscover": "BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
-        "iCost": "600",
+        "iCost": "1000",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1362,11 +1342,33 @@
         }
       },
       {
+        "zType": "TECH_COHORTS",
+        "Name": "TEXT_TECH_COHORTS",
+        "Advice": "TEXT_GUIDE_TECH_COHORTS",
+        "zIconName": "TECH_COHORTS",
+        "iCost": "1500",
+        "iColumn": "6",
+        "iRow": "7",
+        "bValidAll": "1",
+        "abTechPrereq": {
+          "Pair": [
+            {
+              "zIndex": "TECH_LAND_CONSOLIDATION",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TECH_BATTLELINE",
+              "bValue": "1"
+            }
+          ]
+        }
+      },
+      {
         "zType": "TECH_CHAIN_DRIVE",
         "Name": "TEXT_TECH_CHAIN_DRIVE",
         "Advice": "TEXT_GUIDE_TECH_CHAIN_DRIVE",
         "zIconName": "TECH_CHAIN_DRIVE",
-        "iCost": "1000",
+        "iCost": "1500",
         "iColumn": "6",
         "iRow": "9",
         "bValidAll": "1",
@@ -1378,12 +1380,12 @@
         }
       },
       {
-        "zType": "TECH_CHAIN_DRIVE_BONUS_MINISTER",
-        "Name": "TEXT_TECH_CHAIN_DRIVE_BONUS_MINISTER",
-        "Advice": "TEXT_GUIDE_TECH_CHAIN_DRIVE_BONUS_MINISTER",
+        "zType": "TECH_CHAIN_DRIVE_BONUS_MERCHANT",
+        "Name": "TEXT_TECH_CHAIN_DRIVE_BONUS_MERCHANT",
+        "Advice": "TEXT_GUIDE_TECH_CHAIN_DRIVE_BONUS_MERCHANT",
         "zIconName": "BONUS_COURTIER",
-        "BonusDiscover": "BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
-        "iCost": "600",
+        "BonusDiscover": "BONUS_TECH_CHAIN_DRIVE_BONUS_MERCHANT",
+        "iCost": "1000",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1400,7 +1402,7 @@
         "Name": "TEXT_TECH_BALLISTICS",
         "Advice": "TEXT_GUIDE_TECH_BALLISTICS",
         "zIconName": "TECH_BALLISTICS",
-        "iCost": "1000",
+        "iCost": "1500",
         "iColumn": "6",
         "iRow": "10",
         "bValidAll": "1",
@@ -1411,7 +1413,7 @@
               "bValue": "1"
             },
             {
-              "zIndex": "TECH_TORSION",
+              "zIndex": "TECH_HYDRAULICS",
               "bValue": "1"
             }
           ]
@@ -1425,23 +1427,17 @@
         "Achievement": "ACHIEVEMENT_TECH_ECONOMIC_REFORM",
         "BonusDiscover": "BONUS_TECH_ECONOMIC_REFORM",
         "EffectPlayer": "EFFECTPLAYER_TECH_ECONOMIC_REFORM",
-        "iCost": "1200",
+        "iCost": "2000",
         "iColumn": "7",
         "iRow": "1",
         "bNoFree": "1",
         "bReturn": "1",
         "bValidAll": "1",
         "abTechPrereq": {
-          "Pair": [
-            {
-              "zIndex": "TECH_FISCAL_POLICY",
-              "bValue": "1"
-            },
-            {
-              "zIndex": "TECH_LATEEN_SAIL",
-              "bValue": "1"
-            }
-          ]
+          "Pair": {
+            "zIndex": "TECH_FISCAL_POLICY",
+            "bValue": "1"
+          }
         }
       },
       {
@@ -1452,9 +1448,9 @@
         "Achievement": "ACHIEVEMENT_TECH_MILITARY_PRESTIGE",
         "BonusDiscover": "BONUS_TECH_MILITARY_PRESTIGE",
         "EffectPlayer": "EFFECTPLAYER_TECH_MILITARY_PRESTIGE",
-        "iCost": "1200",
+        "iCost": "2000",
         "iColumn": "7",
-        "iRow": "4",
+        "iRow": "5",
         "bNoFree": "1",
         "bReturn": "1",
         "bValidAll": "1",
@@ -1466,6 +1462,10 @@
             },
             {
               "zIndex": "TECH_INFANTRY_SQUARE",
+              "bValue": "1"
+            },
+            {
+              "zIndex": "TECH_COHORTS",
               "bValue": "1"
             }
           ]
@@ -1479,7 +1479,7 @@
         "Achievement": "ACHIEVEMENT_TECH_INDUSTRIAL_PROGRESS",
         "BonusDiscover": "BONUS_TECH_INDUSTRIAL_PROGRESS",
         "EffectPlayer": "EFFECTPLAYER_TECH_INDUSTRIAL_PROGRESS",
-        "iCost": "1200",
+        "iCost": "2000",
         "iColumn": "7",
         "iRow": "9",
         "bNoFree": "1",
@@ -1527,7 +1527,7 @@
         "Advice": "TEXT_GUIDE_TECH_SIEGE_TOWER_BONUS",
         "zIconName": "BONUS_SIEGE_TOWER",
         "BonusDiscover": "BONUS_TECH_SIEGE_TOWER_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1573,7 +1573,7 @@
         "Advice": "TEXT_GUIDE_TECH_CIMMERIAN_ARCHER_BONUS",
         "zIconName": "BONUS_CIMMERIAN_ARCHER",
         "BonusDiscover": "BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1619,7 +1619,7 @@
         "Advice": "TEXT_GUIDE_TECH_TURRETED_ELEPHANT_BONUS",
         "zIconName": "BONUS_TURRETED_ELEPHANT",
         "BonusDiscover": "BONUS_TECH_TURRETED_ELEPHANT_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1665,7 +1665,7 @@
         "Advice": "TEXT_GUIDE_TECH_KUSHITE_CAVALRY_BONUS",
         "zIconName": "BONUS_KUSHITE_CAVALRY",
         "BonusDiscover": "BONUS_TECH_KUSHITE_CAVALRY_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1711,7 +1711,7 @@
         "Advice": "TEXT_GUIDE_TECH_PHALANGITE_BONUS",
         "zIconName": "BONUS_PHALANGITE",
         "BonusDiscover": "BONUS_TECH_PHALANGITE_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1757,7 +1757,7 @@
         "Advice": "TEXT_GUIDE_TECH_CATAPHRACT_ARCHER_BONUS",
         "zIconName": "BONUS_CATAPHRACT_ARCHER",
         "BonusDiscover": "BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",
@@ -1803,7 +1803,7 @@
         "Advice": "TEXT_GUIDE_TECH_LEGIONARY_BONUS",
         "zIconName": "BONUS_LEGIONARY",
         "BonusDiscover": "BONUS_TECH_LEGIONARY_UNIT",
-        "iCost": "800",
+        "iCost": "600",
         "bHide": "1",
         "bTrash": "1",
         "bNoFree": "1",

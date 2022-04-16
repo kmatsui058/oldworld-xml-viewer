@@ -101,7 +101,7 @@
 				"FreeTheology": {
 					
 				},
-				"Goal": {
+				"GoalAdd": {
 					
 				},
 				"GoalForce": {
@@ -152,7 +152,13 @@
 				"AddImprovement": {
 					
 				},
+				"AddUrbanImprovement": {
+					
+				},
 				"SetSpecialist": {
+					
+				},
+				"BirthCharacter": {
 					
 				},
 				"iSpreadUnits": {
@@ -180,6 +186,9 @@
 					
 				},
 				"iHPCity": {
+					
+				},
+				"iHPCityPercent": {
 					
 				},
 				"iHPUnit": {
@@ -278,6 +287,9 @@
 				"iAmbitionFamilySubject": {
 					
 				},
+				"iAmbitionReligionSubject": {
+					
+				},
 				"bMissionFree": {
 					
 				},
@@ -332,10 +344,16 @@
 				"bFreeTheology": {
 					
 				},
+				"bAddAmbition": {
+					
+				},
 				"bRandomTech": {
 					
 				},
 				"bDistantRaid": {
+					
+				},
+				"bAddAgentNetwork": {
 					
 				},
 				"bLoseAgentNetwork": {
@@ -461,10 +479,16 @@
 				"aiRebelUnits": {
 					
 				},
+				"aeNewUnitNames": {
+					
+				},
 				"aiLawOpinion": {
 					
 				},
 				"aiRatings": {
+					
+				},
+				"aiStats": {
 					
 				},
 				"aeAddProjects": {
@@ -524,13 +548,16 @@
 				"RemoveRelationshipReverse": {
 					
 				},
-				"AddCourtierForce": {
-					
-				},
 				"AddCourtier": {
 					
 				},
 				"AddCourtierOther": {
+					
+				},
+				"AddTraitReligion": {
+					
+				},
+				"RemoveTraitReligion": {
 					
 				}
 			},
@@ -758,12 +785,6 @@
 				"MemoryPlayer": "MEMORYPLAYER_FEAST_REJECTED_CITY"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_ORACLE_NO_OFFERING",
-				"aeBonuses": {
-					"zValue": "BONUS_DISCONTENT_GAIN_SMALL"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_ORACLE_INDIGNANT",
 				"aiRatings": {
 					"Pair": {
@@ -785,20 +806,6 @@
 				},
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_LOSS_SMALL"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_CEREMONY_PLAYER",
-				"Name": "TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_CEREMONY_PLAYER",
-				"iLegitimacy": "2"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_GIFTS_HEIR",
-				"aiRatings": {
-					"Pair": {
-						"zIndex": "RATING_CHARISMA",
-						"iValue": "1"
-					}
 				}
 			},
 			{
@@ -1145,12 +1152,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_UNLIKELY_ALLIES_OPTION_0_CHARACTER_0",
-				"aeAddTraits": {
-					"zValue": "TRAIT_FUGITIVE"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_RESTORE_PLAYER",
 				"Name": "TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_RESTORE_PLAYER",
 				"iLegitimacy": "4",
@@ -1461,6 +1462,351 @@
 				}
 			},
 			{
+				"zType": "BONUS_GIVE_TRAIT_MOURNING_DISCIPLINE",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_DISCIPLINE",
+						"iValue": "1"
+					}
+				},
+				"aeAddTraits": {
+					"zValue": "TRAIT_MOURNING"
+				}
+			},
+			{
+				"zType": "BONUS_GIVE_TRAIT_MOURNING_WISDOM",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_WISDOM",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_GIVE_TRAIT_MOURNING_CHARISMA",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_CHARISMA",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_ENEMIES_TOGETHER_NO_PLAYER",
+				"Name": "TEXT_BONUS_EVENTOPTION_ENEMIES_TOGETHER_NO_PLAYER",
+				"iLegitimacy": "-2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED_ALL",
+				"MemoryAllFamilies": "MEMORYFAMILY_REFUSED_MARRIAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_0_RELIGION_1",
+				"MemoryReligion": "MEMORYRELIGION_PLACED_SECURITY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_BREAK_PLAYER",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_IRON_GAIN_SMALL",
+						"BONUS_WOOD_GAIN_SMALL"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_CHARACTER_0",
+				"MemoryPlayer": "MEMORYPLAYE_AGENT_TOOLS_RETURNED"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_PLAYER",
+				"Name": "TEXT_BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_PLAYER",
+				"iLegitimacy": "3"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_DISCOVERED_SUBTERFUGE_CHARACTER_2",
+				"iAgentCitySubject": "4"
+			},
+			{
+				"zType": "BONUS_EXPEDITION_CONTACT_GOOD",
+				"MemoryPlayer": "MEMORYPLAYER_EXPEDITION_CONTACT_GOOD",
+				"aeBonuses": {
+					"zValue": "BONUS_MONEY_LOSS_LARGE"
+				}
+			},
+			{
+				"zType": "BONUS_EXPEDITION_CONTACT_BAD",
+				"MemoryPlayer": "MEMORYPLAYER_EXPEDITION_CONTACT_BAD"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_1_CHARACTER_1",
+				"aiUnits": {
+					"Pair": {
+						"zIndex": "UNIT_WARRIOR",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_2_CHARACTER_0",
+				"MemoryCharacter": "MEMORYCHARACTER_NOT_A_THREAT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_1_CHARACTER_1",
+				"MemoryCharacter": "MEMORYCHARACTER_SAW_AS_THREAT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_2_CHARACTER_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CULTURE_GAIN_SMALL",
+						"BONUS_GROWTH_GAIN_SMALL"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SALT_OF_THE_SEA_OPTION_1_PLAYER",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_AMBITION_SIX_LUMBERMILLS",
+						"BONUS_GIVE_TRAIT_CARPENTER"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_0_FAMILY_0",
+				"AmbitionFamily": "GOAL_SIX_WALLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_1_FAMILY_0",
+				"AmbitionFamily": "GOAL_EIGHT_GENERALS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_2_CHARACTER",
+				"MemoryCharacter": "MEMORYCHARACTER_NOT_A_THREAT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1_CHARACTER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1_CHARACTER_1",
+				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_2_CITY",
+				"aiUnits": {
+					"Pair": {
+						"zIndex": "UNIT_MILITIA",
+						"iValue": "1"
+					}
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_REBEL_UNITS_1"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LAWS_OF_ROME_OPTION_3_PLAYER",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "-1"
+					}
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_ORDERS_LOSS_LARGE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RAISED_BY_WOLVES_OPTION_0",
+				"Ambition": "GOAL_TEN_POPULATION",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RAISED_BY_WOLVES_OPTION_1",
+				"Ambition": "GOAL_SIX_TECHS",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_CHARISMA",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_NO_CHARACTER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_NO_CHARACTER_1",
+				"iLegitimacy": "5",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES_CHARACTER_0",
+				"iLegitimacy": "-5"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES_CHARACTER_1",
+				"iSeizeThroneSubject": "1",
+				"AddRelationshipReverse": {
+					"Pair": {
+						"First": "RELATIONSHIP_IN_LOVE_WITH",
+						"Second": "2"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL_CHARACTER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL_CHARACTER_1",
+				"zIcon": "icon(DIPLOMACY_TRUCE)",
+				"iLegitimacy": "-2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL_CHARACTER_3",
+				"AddCourtierOther": {
+					"Pair": {
+						"zIndex": "COURTIER_MINISTER",
+						"zValue": {
+							
+						}
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_CONSPIRATOR_PLAYER",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE",
+				"bRevealTerritory": "1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_PEACE_CHARACTER_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_LOSS_AVERAGE",
+						"BONUS_GAIN_CHARISMA_1"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_TRUCE_PLAYER",
+				"aeBonuses": {
+					"zValue": "BONUS_DECLARE_WAR_PLAYER"
+				},
+				"DiplomacySubjects": {
+					"Pair": {
+						"First": "DIPLOMACY_WAR",
+						"Second": "0"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_DEATH_PLAYER_1",
+				"MemoryAllPlayers": "MEMORYPLAYER_ASSASSINATION_EXPOSED"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_HOSTAGE_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_TRUCE_MINISTER_PLAYER",
+				"aeBonuses": {
+					"zValue": "BONUS_PLAYER_TRUCE"
+				},
+				"AddCourtierOther": {
+					"Pair": {
+						"zIndex": "COURTIER_MINISTER",
+						"zValue": {
+							
+						}
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION_PLAYER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION_PLAYER_1",
+				"iLegitimacy": "4",
+				"bStateReligionEnd": "1",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_REBEL_WRITER_2_CHARACTER_0",
+				"MemoryCharacter": "MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_3_CHARACTER_1",
+				"iAdoptedBySubject": "1",
+				"aeAddTraits": {
+					"zValue": "TRAIT_POLITICAL_WARD"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_MONEY_5000",
+				"Ambition": "GOAL_MONEY_5000",
+				"aeAddTraits": {
+					"zValue": "TRAIT_GREEDY"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_MONEY_10000",
+				"Ambition": "GOAL_MONEY_10000",
+				"aeAddTraits": {
+					"zValue": "TRAIT_GREEDY"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_FOUR_CARAVANS",
+				"Ambition": "GOAL_FOUR_CARAVANS",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_CHARISMA",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_SIX_CONVOYS",
+				"Ambition": "GOAL_SIX_CONVOYS",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_CHARISMA",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_DOCTRINE_FISCAL_POLICY",
+				"Ambition": "GOAL_DOCTRINE_FISCAL_POLICY",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_WISDOM",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_APOLOGY_CHARACTER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_APOLOGY_CHARACTER_1",
+				"iLegitimacy": "-4"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_PROOF_OF_FRIENDSHIP_OPTION_2_CITY",
+				"iBorderGrowth": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_0_CITY",
+				"aeAddSpecialistClasses": {
+					"zValue": "SPECIALISTCLASS_DOCTOR"
+				}
+			},
+			{
 				"beginGroup": "Exploration",
 				"zType": "BONUS_EVENTOPTION_RUINS_SURVIVORS_INVITE",
 				"aiUnits": {
@@ -1497,19 +1843,10 @@
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_RITUAL_PERFORMANCE_TRAIT",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				},
 				"aeBonuses": {
 					"zValue": "BONUS_XP_CHARACTER_LARGE"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_RUINS_CARVED_WALL_TAKE",
-				"aeAddTraits": {
-					"zValue": "TRAIT_STEADFAST"
-				},
-				"aeBonuses": {
-					"zValue": "BONUS_CULTURE_GAIN_LARGE"
 				}
 			},
 			{
@@ -1520,6 +1857,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_MONUMENTS_OF_LAW_SAGES",
+				"Ambition": "GOAL_CONSTITUTION",
 				"aiGlobalYieldsBase": {
 					"Pair": {
 						"zIndex": "YIELD_CIVICS",
@@ -1821,6 +2159,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_FRUIT_TREES_CULTURE",
+				"Ambition": "GOAL_SIX_GROVES",
 				"aiCityYields": {
 					"Pair": {
 						"zIndex": "YIELD_CULTURE",
@@ -1864,6 +2203,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_GREAT_MIGRATION_OPTION_0_CHARACTER",
+				"Ambition": "GOAL_EXPLORATION",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_SCOUT",
@@ -1969,10 +2309,6 @@
 				"aeAddTraits": {
 					"zValue": "TRAIT_FOOLISH"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_RUINS_NEW_HUMANS_OPTION_0_CHARACTER_1",
-				"MemoryCharacter": "MEMORYCHARACTER_RUINS_NEW_HUMANS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_SUNKEN_TOMBS_OPTION_0_CHARACTER",
@@ -2100,8 +2436,16 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_BEADS_AND_FIGURINES_OPTION_0_CHARACTER",
+				"Ambition": "GOAL_PHILOSOPHY",
 				"aeTechs": {
 					"zValue": "TECH_IRONWORKING"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_BEADS_AND_FIGURINES_OPTION_1_CHARACTER",
+				"Ambition": "GOAL_TWO_SCRIBES",
+				"aeBonuses": {
+					"zValue": "BONUS_CIVICS_GAIN_HUGE"
 				}
 			},
 			{
@@ -2130,15 +2474,6 @@
 						"TRAIT_INSPIRING",
 						"TRAIT_CURSED"
 					]
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_RUINS_THE_DIVINER_OPTION_0_CHARACTER",
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MINISTER",
-						"zValue": "GENDER_FEMALE"
-					}
 				}
 			},
 			{
@@ -2272,7 +2607,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HARVEST_PIG_IN_THE_PALACE_OPTION_0_CHARACTER_1",
-				"AddLeaderRelationship": "RELATIONSHIP_ENDEARED_TO",
+				"MemoryCharacter": "MEMORYCHARACTER_RAISED_PIG",
 				"aeAddTraits": {
 					"zValue": "TRAIT_CULTIVATOR"
 				}
@@ -2407,7 +2742,15 @@
 			{
 				"zType": "BONUS_EVENTOPTION_RUINS_COMET_SIGHTED_OMEN",
 				"Name": "TEXT_BONUS_EVENTOPTION_RUINS_COMET_SIGHTED_OMEN",
+				"Ambition": "GOAL_FOUND_WORLD_RELIGION",
 				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_COMET_SIGHTED_SCIENCE",
+				"Ambition": "GOAL_SIX_ARCHIVES",
+				"aeBonuses": {
+					"zValue": "BONUS_SCIENCE_GAIN_AVERAGE"
+				}
 			},
 			{
 				"zType": "BONUS_RUINS_CHOSEN_CHILD_ADOPT",
@@ -2421,13 +2764,6 @@
 				"iXPCharacter": "50",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_POISONED"
-				}
-			},
-			{
-				"zType": "BONUS_RUINS_STRANGE_MEDICINE_OPTION_HEAL_ILL",
-				"iXPCharacter": "50",
-				"aeRemoveTraits": {
-					"zValue": "TRAIT_ILL"
 				}
 			},
 			{
@@ -2454,22 +2790,30 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTSTORY_TRIBE_ELIMINATED_FINAL_SURGE",
+				"zType": "BONUS_EVENTSTORY_TRIBE_ELIMINATED_FINAL_SURGE_0",
 				"aiTribeUnits": {
-					"Pair": [
-						{
-							"zIndex": "UNIT_MARAUDER_2",
-							"iValue": "1"
-						},
-						{
-							"zIndex": "UNIT_SKIRMISHER_2",
-							"iValue": "1"
-						},
-						{
-							"zIndex": "UNIT_WARLORD_1",
-							"iValue": "1"
-						}
-					]
+					"Pair": {
+						"zIndex": "UNIT_MARAUDER_2",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_TRIBE_ELIMINATED_FINAL_SURGE_1",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_SKIRMISHER_2",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_TRIBE_ELIMINATED_FINAL_SURGE_2",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_WARLORD_1",
+						"iValue": "1"
+					}
 				}
 			},
 			{
@@ -2761,6 +3105,29 @@
 				}
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION_CHARACTER_0",
+				"iLegitimacy": "4",
+				"aeBonuses": {
+					"zValue": "BONUS_GIVE_TRAIT_STEADFAST"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION_TRIBE_0",
+				"bTribeInvade": "1",
+				"aeBonuses": {
+					"zValue": "BONUS_TRIBE_OFFER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_PACIFY_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_PACIFY_CHARACTER_0",
+				"iLegitimacy": "-2",
+				"aeBonuses": {
+					"zValue": "BONUS_MONEY_LOSS_SMALL"
+				}
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_AMBITION_REVEAL40_FAMILY",
 				"MemoryFamily": "MEMORYFAMILY_ENACTED_AMBITION_REVEAL_40"
 			},
@@ -2821,12 +3188,8 @@
 				"Ambition": "GOAL_THREE_CONNECTED_CITIES"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_FIVE_TRIBE_CLEARED",
-				"Ambition": "GOAL_FIVE_TRIBE_CLEARED"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_SEVEN_TRIBE_CLEARED",
-				"Ambition": "GOAL_SEVEN_TRIBE_CLEARED"
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_SIX_TRIBE_CLEARED",
+				"Ambition": "GOAL_SIX_TRIBE_CLEARED"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_EPICS_OPTION_FIVE_KILLS_GENERAL",
@@ -3339,6 +3702,70 @@
 				"Ambition": "GOAL_THREE_CITIES_FOREIGN"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_SIX_TREASURIES",
+				"Ambition": "GOAL_SIX_TREASURIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_FOUR_MARKET_2",
+				"Ambition": "GOAL_FOUR_MARKET_2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_5_KILLS_GENERAL",
+				"Ambition": "GOAL_5_KILLS_GENERAL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_15_KILLS",
+				"Ambition": "GOAL_15_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_20_KILLS",
+				"Ambition": "GOAL_20_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_TEN_PROMOTIONS",
+				"Ambition": "GOAL_TEN_PROMOTIONS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_TWO_MAX_LEVEL_UNIT",
+				"Ambition": "GOAL_TWO_MAX_LEVEL_UNIT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_FIVE_SWORDSMAN_PIKEMAN",
+				"Ambition": "GOAL_FIVE_SWORDSMAN_PIKEMAN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_30_POPULATION",
+				"Ambition": "GOAL_30_POPULATION"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_100_POPULATION",
+				"Ambition": "GOAL_100_POPULATION"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_MOUNTED",
+				"Ambition": "GOAL_FIVE_MOUNTED"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_THREE_SIEGE",
+				"Ambition": "GOAL_THREE_SIEGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN",
+				"Ambition": "GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_SWORDSMAN_PIKEMAN",
+				"Ambition": "GOAL_FIVE_SWORDSMAN_PIKEMAN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_TWO_CAPTURE_CITIES",
+				"Ambition": "GOAL_TWO_CAPTURE_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_ONE_CAPITAL",
+				"Ambition": "GOAL_ONE_CAPITAL"
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOUR_CITIES_OPTION_FIVE_WORKERS",
 				"Ambition": "GOAL_FIVE_WORKERS"
 			},
@@ -3371,12 +3798,338 @@
 				"Ambition": "GOAL_FOUR_GOVERNORS"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_FARMERS",
+				"Ambition": "GOAL_FOUR_FARMERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SERFDOM",
+				"Ambition": "GOAL_SERFDOM"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_GRANARY",
+				"Ambition": "GOAL_FOUR_GRANARY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOOD_800",
+				"Ambition": "GOAL_FOOD_800"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_20_GOODS_TURN",
+				"Ambition": "GOAL_20_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_CITIES",
+				"Ambition": "GOAL_FOUR_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SEVEN_CITIES",
+				"Ambition": "GOAL_SEVEN_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SIX_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_SIX_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_20_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_20_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_SEVEN_CITIES",
+				"Ambition": "GOAL_SEVEN_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_TEN_CITIES",
+				"Ambition": "GOAL_TEN_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_10_SPECIALISTS",
+				"Ambition": "GOAL_10_SPECIALISTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_20_SPECIALISTS",
+				"Ambition": "GOAL_20_SPECIALISTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_5_ELDER_SPECIALISTS",
+				"Ambition": "GOAL_5_ELDER_SPECIALISTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_20_GOODS_TURN",
+				"Ambition": "GOAL_20_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_50_GOODS_TURN",
+				"Ambition": "GOAL_50_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_WOOD_800",
+				"Ambition": "GOAL_WOOD_800"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_FOUR_WOODCUTTERS",
+				"Ambition": "GOAL_FOUR_WOODCUTTERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_STONE_800",
+				"Ambition": "GOAL_STONE_800"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_20_GOODS_TURN",
+				"Ambition": "GOAL_20_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_HANGING_GARDENS",
+				"Ambition": "GOAL_HANGING_GARDENS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_MUSAEUM",
+				"Ambition": "GOAL_MUSAEUM"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_FOUR_MARKET_1",
+				"Ambition": "GOAL_FOUR_MARKET_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_NATURALIST",
+				"aeAddTraits": {
+					"zValue": "TRAIT_NATURALIST"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_WOODCUTTERS",
+				"Ambition": "GOAL_FOUR_WOODCUTTERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FIVE_LONGBOWMAN_CROSSBOWMAN",
+				"Ambition": "GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_AUTARKY",
+				"Ambition": "GOAL_AUTARKY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_20_GOODS_TURN",
+				"Ambition": "GOAL_20_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_50_GOODS_TURN",
+				"Ambition": "GOAL_50_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_MUSAEUM",
+				"Ambition": "GOAL_MUSAEUM"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_VIA_RECTA_SOUK",
+				"Ambition": "GOAL_VIA_RECTA_SOUK"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_MARKET_1",
+				"Ambition": "GOAL_FOUR_MARKET_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_MARKET_2",
+				"Ambition": "GOAL_FOUR_MARKET_2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_STONECUTTERS",
+				"Ambition": "GOAL_FOUR_STONECUTTERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_ENGINEERING",
+				"Ambition": "GOAL_ENGINEERING"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_REPAIRED",
+				"Ambition": "GOAL_FOUR_REPAIRED"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_SIX_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_SIX_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_20_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_20_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_THEATER_1",
+				"Ambition": "GOAL_FOUR_THEATER_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_PYRAMIDS",
+				"Ambition": "GOAL_PYRAMIDS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_GREAT_ZIGGURAT",
+				"Ambition": "GOAL_GREAT_ZIGGURAT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_NECROPOLIS",
+				"Ambition": "GOAL_NECROPOLIS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_APADANA",
+				"Ambition": "GOAL_APADANA"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_ENGINEERING",
+				"Ambition": "GOAL_ENGINEERING"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_AUTARKY",
+				"Ambition": "GOAL_AUTARKY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_20_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_20_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_50_URBAN_TILES",
+				"Ambition": "GOAL_50_URBAN_TILES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_100_URBAN_TILES",
+				"Ambition": "GOAL_100_URBAN_TILES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_FOUR_THEATER_2",
+				"Ambition": "GOAL_FOUR_THEATER_2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_NECROPOLIS",
+				"Ambition": "GOAL_NECROPOLIS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_APADANA",
+				"Ambition": "GOAL_APADANA"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_MAUSOLEUM",
+				"Ambition": "GOAL_MAUSOLEUM"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_ACROPOLIS",
+				"Ambition": "GOAL_ACROPOLIS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_5_KILLS",
+				"Ambition": "GOAL_5_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_10_KILLS",
+				"Ambition": "GOAL_10_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_WOOD_400",
+				"Ambition": "GOAL_WOOD_400"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_WOOD_800",
+				"Ambition": "GOAL_WOOD_800"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_SIX_BARRACKS_RANGES",
+				"Ambition": "GOAL_SIX_BARRACKS_RANGES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_FOUR_MINERS",
+				"Ambition": "GOAL_FOUR_MINERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_IRON_800",
+				"Ambition": "GOAL_IRON_800"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_10_KILLS",
+				"Ambition": "GOAL_10_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_15_KILLS",
+				"Ambition": "GOAL_15_KILLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_TWO_CAPTURE_CITIES",
+				"Ambition": "GOAL_TWO_CAPTURE_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_ONE_CAPITAL",
+				"Ambition": "GOAL_ONE_CAPITAL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_20_GOODS_TURN",
+				"Ambition": "GOAL_20_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_50_GOODS_TURN",
+				"Ambition": "GOAL_50_GOODS_TURN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_SEVEN_CITIES",
+				"Ambition": "GOAL_SEVEN_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_TEN_CITIES",
+				"Ambition": "GOAL_TEN_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_TEN_PROMOTIONS",
+				"Ambition": "GOAL_TEN_PROMOTIONS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_TWO_MAX_LEVEL_UNIT",
+				"Ambition": "GOAL_TWO_MAX_LEVEL_UNIT"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_EIGHT_GENERALS",
+				"Ambition": "GOAL_EIGHT_GENERALS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_REVEAL_40",
+				"Ambition": "GOAL_REVEAL_40"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_REVEAL_60",
+				"Ambition": "GOAL_REVEAL_60"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_RESOURCE_IMPROVEMENTS",
+				"Ambition": "GOAL_SIX_RESOURCE_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_SIX_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_20_URBAN_IMPROVEMENTS",
+				"Ambition": "GOAL_20_URBAN_IMPROVEMENTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_GARRISON_1",
+				"Ambition": "GOAL_FOUR_GARRISON_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_GARRISON_2",
+				"Ambition": "GOAL_FOUR_GARRISON_2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_THEATER_1",
+				"Ambition": "GOAL_FOUR_THEATER_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_THEATER_2",
+				"Ambition": "GOAL_FOUR_THEATER_2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_BARRACKS_RANGES",
+				"Ambition": "GOAL_SIX_BARRACKS_RANGES"
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_5_KILLS_THREE_TRIBE_CLEARED",
 				"Ambition": "GOAL_THREE_TRIBE_CLEARED"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_5_KILLS_FIVE_TRIBE_CLEARED",
-				"Ambition": "GOAL_FIVE_TRIBE_CLEARED"
+				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_5_KILLS_SIX_TRIBE_CLEARED",
+				"Ambition": "GOAL_SIX_TRIBE_CLEARED"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_AMBITION_FINISHED_5_KILLS_10_KILLS_",
@@ -3921,22 +4674,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_THE_LAND_OF_THE_MIDNIGHT_SUN_FOLLOWUP_OPTION_2_CHARACTER_0",
-				"iXPCharacter": "20",
-				"aeAddTraits": {
-					"zValue": "TRAIT_ROBUST"
-				},
-				"aeRemoveTraits": {
-					"zValue": "TRAIT_EXPLORING"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_THE_LAND_OF_THE_MIDNIGHT_SUN_FOLLOWUP_OPTION_2_CHARACTER_1",
-				"Name": "TEXT_BONUS_EVENTOPTION_MIDNIGHT_SUN_FOLLOWUP",
-				"iXPCharacter": "20",
-				"iLegitimacy": "2"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_MONSTERS_OF_THE_DEEP_FOLLOWUP_OPTION_0_CHARACTER_0",
 				"iXPCharacter": "20",
 				"aeRemoveTraits": {
@@ -3986,26 +4723,12 @@
 				"iLegitimacy": "2"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CHOOSE_WAR_RELIGION_1A",
-				"MemoryPlayer": "MEMORYPLAYER_REFUSED_HOLY_WAR",
-				"aeBonuses": {
-					"zValue": "BONUS_PLAYER_WAR"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_CHOOSE_WAR_RELIGION_1B",
 				"MemoryReligion": "MEMORYRELIGION_REFUSED_HOLY_WAR"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CHOOSE_WAR_RELIGION_2A",
 				"MemoryPlayer": "MEMORYPLAYER_REFUSED_HOLY_WAR"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHOOSE_WAR_SPOUSE_1A",
-				"MemoryPlayer": "MEMORYPLAYER_REFUSED_SPOUSE_WAR",
-				"aeBonuses": {
-					"zValue": "BONUS_PLAYER_WAR"
-				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CHOOSE_WAR_SPOUSE_1B",
@@ -4065,6 +4788,30 @@
 				"MemoryTribe": "MEMORYTRIBE_SKIRMISH_IGNORED"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_RIVAL_EXPEDITION_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVAL_EXPEDITION_APOLOGIZE",
+				"MemoryPlayer": "MEMORYPLAYER_RECOGNIZED_CLAIM"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVAL_EXPEDITION_ASK",
+				"bRevealTerritory": "1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_PLAYER",
+				"Name": "TEXT_BONUS_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_PLAYER",
+				"iLegitimacy": "2",
+				"aeBonuses": {
+					"zValue": "BONUS_CIVICS_LOSS_AVERAGE"
+				}
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_ROCK_CHOSEN_HEIR_SWORD",
 				"bChosenHeir": "1",
 				"aeAddTraits": {
@@ -4081,6 +4828,152 @@
 				"zType": "BONUS_EVENTOPTION_ROCK_IGNORED_SWORD",
 				"Name": "TEXT_BONUS_EVENTOPTION_ROCK_IGNORED_SWORD",
 				"iLegitimacy": "-3"
+			},
+			{
+				"zType": "BONUS_ADD_SILK",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_SILK"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_PERFUME",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_PERFUME"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_PORCELAIN",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_PORCELAIN"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_EXOTIC_FUR",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_EXOTIC_FUR"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_EBONY",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_EBONY"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_IVORY",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_IVORY"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_TEA",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_TEA"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_SPICES",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_SPICES"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_EXOTIC_ANIMALS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_EXOTIC_ANIMALS"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_SILPHIUM",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_SILPHIUM"
+				}
+			},
+			{
+				"zType": "BONUS_ADD_JADE",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GIVE_JADE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_CHARACTER_GRAND_EXPEDITION_OPTION_DETAILS_CHARACTER_1",
+				"AddLeaderRelationship": "RELATIONSHIP_ENDEARED_TO",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_EXPLORING"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_CHARACTER_GRAND_EXPEDITION_OPTION_CONTINUE_CHARACTER_1",
+				"MemoryCharacter": "MEMORYCHARACTER_NO_REST",
+				"SetTitle": "TITLE_GRAND_EXPLORER"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AUTONOMOUS_LIBERTIES_OPTION_REMOVE_CITY",
+				"aeRemoveProjects": {
+					"zValue": "PROJECT_AUTONOMOUS_RULE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AUTONOMOUS_LIBERTIES_OPTION_FRIEND_CHARACTER_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GAIN_CHARISMA_1",
+						"BONUS_ORDERS_LOSS_TINY"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MASTER_OF_THE_HARVEST_SPECIALIST_",
+				"aeAddSpecialistClasses": {
+					"zValue": "SPECIALISTCLASS_FARMER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MASTER_OF_THE_HARVEST_SCOUT_UNIT",
+				"aeBonuses": {
+					"zValue": "BONUS_ORDERS_GAIN_SMALL"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_MELEE_CHARACTER",
+				"aePromotions": {
+					"zValue": "PROMOTION_SHIELDBEARER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_CAVALRY_CHARACTER",
+				"aePromotions": {
+					"zValue": "PROMOTION_SWIFT"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_MISSILE_CHARACTER",
+				"aePromotions": {
+					"zValue": "PROMOTION_EAGLE_EYE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_ON_THE_WALL_AMBITION_CHARACTER",
+				"Ambition": "GOAL_EXPLORATION",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RUINS_ON_THE_WALL_SIGHT_TILE",
+				"iRevealRange": "5"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY_COPY_CITY",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CULTURE_GAIN_AVERAGE",
+						"BONUS_DISCONTENT_LOSS_AVERAGE"
+					]
+				}
 			},
 			{
 				"beginGroup": "Contact",
@@ -4284,10 +5177,6 @@
 				"aeBonuses": {
 					"zValue": "BONUS_TRIBUTE_GIVE_MONEY_LARGE"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_1",
-				"MemoryCharacter": "MEMORYCHARACTER_NEIGHBORS_IGNORED_US"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_OPTION_1_PLAYER",
@@ -4596,17 +5485,6 @@
 				"SetArchetype": "TRAIT_SCHOLAR_ARCHETYPE"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_WELCOME_BABYLON_APPRECIATE_OPTION_1_PLAYER_1",
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SCIENTIST",
-						"zValue": {
-							
-						}
-					}
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_LAVISH_GREECE_OPTION_2_PLAYER_1",
 				"aeAddTraits": {
 					"zValue": "TRAIT_PROSPEROUS"
@@ -4676,21 +5554,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ROME_OPTION_1",
-				"aiYieldsTributeBase": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_SCIENCE",
-							"iValue": "50"
-						},
-						{
-							"zIndex": "YIELD_IRON",
-							"iValue": "100"
-						}
-					]
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ROME_OPTION_1_PLAYER_1",
 				"Name": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ROME_OPTION_1_PLAYER_1",
 				"iLegitimacy": "-4",
@@ -4753,7 +5616,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_0_PLAYER_1",
-				"Name": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_0_PLAYER_1",
 				"aiRatings": {
 					"Pair": {
 						"zIndex": "RATING_DISCIPLINE",
@@ -5404,7 +6266,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_CONTACT_A_LEARNING_OPPORTUNITY_OPTION_1_CHARACTER",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -5522,11 +6384,8 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CONTACT_POLITICAL_PRISONER_OPTION_1_PLAYER_0",
-				"MemoryPlayer": "MEMORYPLAYER_FOUGHT_FOR_PRISONER"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CONTACT_POLITICAL_PRISONER_OPTION_1_PLAYER_1",
-				"AddCourtier": {
+				"MemoryPlayer": "MEMORYPLAYER_FOUGHT_FOR_PRISONER",
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_MINISTER",
 						"zValue": "GENDER_MALE"
@@ -5556,6 +6415,9 @@
 						"zIndex": "UNIT_WORKER",
 						"iValue": "1"
 					}
+				},
+				"aeNewUnitNames": {
+					"zValue": "TEXT_NAME_PIEFACE"
 				}
 			},
 			{
@@ -7160,22 +8022,6 @@
 				"iLegitimacy": "-10"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_DEMAND_TRIBUTE_CIVICS",
-				"MemoryPlayer": "MEMORYPLAYER_TRADE_DEAL",
-				"aiYieldsTradeBase": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_MONEY",
-							"iValue": "500"
-						},
-						{
-							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
-						}
-					]
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_TRADE_MISSION_YES_MONEY_ORDERS_GOOD",
 				"MemoryPlayer": "MEMORYPLAYER_TRADE_DEAL",
 				"aiYieldsTradeBase": {
@@ -7202,7 +8048,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-40"
+							"iValue": "-20"
 						}
 					]
 				}
@@ -7218,7 +8064,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7266,7 +8112,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-40"
+							"iValue": "-20"
 						}
 					]
 				}
@@ -7282,7 +8128,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7330,7 +8176,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-40"
+							"iValue": "-20"
 						}
 					]
 				}
@@ -7346,7 +8192,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7394,7 +8240,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-40"
+							"iValue": "-20"
 						}
 					]
 				}
@@ -7410,7 +8256,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7458,7 +8304,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-40"
+							"iValue": "-20"
 						}
 					]
 				}
@@ -7474,7 +8320,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-60"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7522,7 +8368,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "40"
+							"iValue": "20"
 						}
 					]
 				}
@@ -7538,7 +8384,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "60"
+							"iValue": "40"
 						}
 					]
 				}
@@ -7586,7 +8432,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "40"
+							"iValue": "20"
 						}
 					]
 				}
@@ -7602,7 +8448,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "60"
+							"iValue": "40"
 						}
 					]
 				}
@@ -7650,7 +8496,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "40"
+							"iValue": "20"
 						}
 					]
 				}
@@ -7666,7 +8512,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "60"
+							"iValue": "40"
 						}
 					]
 				}
@@ -7714,7 +8560,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "40"
+							"iValue": "20"
 						}
 					]
 				}
@@ -7730,7 +8576,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "60"
+							"iValue": "40"
 						}
 					]
 				}
@@ -7778,7 +8624,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "40"
+							"iValue": "20"
 						}
 					]
 				}
@@ -7794,7 +8640,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "60"
+							"iValue": "40"
 						}
 					]
 				}
@@ -7842,7 +8688,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-80"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7858,7 +8704,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-120"
+							"iValue": "-80"
 						}
 					]
 				}
@@ -7906,7 +8752,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-80"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7922,7 +8768,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-120"
+							"iValue": "-80"
 						}
 					]
 				}
@@ -7970,7 +8816,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-80"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -7986,7 +8832,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-120"
+							"iValue": "-80"
 						}
 					]
 				}
@@ -8034,7 +8880,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-80"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -8050,7 +8896,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-120"
+							"iValue": "-80"
 						}
 					]
 				}
@@ -8098,7 +8944,7 @@
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "-80"
+							"iValue": "-40"
 						}
 					]
 				}
@@ -8114,7 +8960,7 @@
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "-120"
+							"iValue": "-80"
 						}
 					]
 				}
@@ -8142,11 +8988,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_MONEY",
-							"iValue": "-500"
+							"iValue": "-1000"
 						},
 						{
 							"zIndex": "YIELD_ORDERS",
-							"iValue": "20"
+							"iValue": "10"
 						}
 					]
 				}
@@ -8158,11 +9004,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_MONEY",
-							"iValue": "-500"
+							"iValue": "-1000"
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "80"
+							"iValue": "20"
 						}
 					]
 				}
@@ -8174,11 +9020,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_MONEY",
-							"iValue": "-500"
+							"iValue": "-1000"
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "120"
+							"iValue": "40"
 						}
 					]
 				}
@@ -8190,11 +9036,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_MONEY",
-							"iValue": "-500"
+							"iValue": "-1000"
 						},
 						{
 							"zIndex": "YIELD_TRAINING",
-							"iValue": "160"
+							"iValue": "80"
 						}
 					]
 				}
@@ -8206,11 +9052,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_FOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_ORDERS",
-							"iValue": "20"
+							"iValue": "10"
 						}
 					]
 				}
@@ -8222,11 +9068,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_FOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "80"
+							"iValue": "20"
 						}
 					]
 				}
@@ -8238,11 +9084,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_FOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "120"
+							"iValue": "40"
 						}
 					]
 				}
@@ -8254,11 +9100,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_FOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_TRAINING",
-							"iValue": "160"
+							"iValue": "80"
 						}
 					]
 				}
@@ -8270,11 +9116,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_IRON",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_ORDERS",
-							"iValue": "20"
+							"iValue": "10"
 						}
 					]
 				}
@@ -8286,11 +9132,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_IRON",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "80"
+							"iValue": "20"
 						}
 					]
 				}
@@ -8302,11 +9148,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_IRON",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "120"
+							"iValue": "40"
 						}
 					]
 				}
@@ -8318,11 +9164,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_IRON",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_TRAINING",
-							"iValue": "160"
+							"iValue": "80"
 						}
 					]
 				}
@@ -8334,11 +9180,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_WOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_ORDERS",
-							"iValue": "20"
+							"iValue": "10"
 						}
 					]
 				}
@@ -8350,11 +9196,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_WOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "80"
+							"iValue": "20"
 						}
 					]
 				}
@@ -8366,11 +9212,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_WOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "120"
+							"iValue": "40"
 						}
 					]
 				}
@@ -8382,11 +9228,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_WOOD",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_TRAINING",
-							"iValue": "160"
+							"iValue": "80"
 						}
 					]
 				}
@@ -8398,11 +9244,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_STONE",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_ORDERS",
-							"iValue": "20"
+							"iValue": "10"
 						}
 					]
 				}
@@ -8414,11 +9260,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_STONE",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_SCIENCE",
-							"iValue": "80"
+							"iValue": "20"
 						}
 					]
 				}
@@ -8430,11 +9276,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_STONE",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_CIVICS",
-							"iValue": "120"
+							"iValue": "40"
 						}
 					]
 				}
@@ -8446,11 +9292,11 @@
 					"Pair": [
 						{
 							"zIndex": "YIELD_STONE",
-							"iValue": "-100"
+							"iValue": "-200"
 						},
 						{
 							"zIndex": "YIELD_TRAINING",
-							"iValue": "160"
+							"iValue": "80"
 						}
 					]
 				}
@@ -8691,9 +9537,6 @@
 				"aeBonuses": {
 					"zValue": "BONUS_TRIBUTE_GIVE_SCIENCE_AVERAGE"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_LEADER4_OPTION_0_PLAYER_1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_LEADER4_OPTION_1_PLAYER_0",
@@ -9329,7 +10172,7 @@
 				"MemoryCharacter": "MEMORYCHARACTER_EVENTOPTION_WAR_OFFER_RELIGION_STATE_YES"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_CUNNING",
+				"zType": "BONUS_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_DEALMAKER",
 				"DiplomacySubjects": {
 					"Pair": {
 						"First": "DIPLOMACY_WAR",
@@ -9509,9 +10352,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_WORLD_TOUR_OPTION_0_PLAYER_1",
-				"aeTechs": {
-					"zValue": "TECH_STEEL"
-				}
+				"bRandomTech": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_WORLD_TOUR_OPTION_1_PLAYER_0",
@@ -9521,16 +10362,21 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_WORLD_TOUR_OPTION_1_CITY",
-				"aeAddProjects": {
-					"zValue": "PROJECT_FESTIVAL_4"
-				},
+				"Name": "TEXT_BONUS_EVENTOPTION_WORLD_TOUR_OPTION_1_CITY",
+				"iLegitimacy": "4",
 				"aeBonuses": {
-					"zValue": "BONUS_CULTURE_GAIN_AVERAGE"
+					"zValue": "BONUS_CULTURE_GAIN_SMALL"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_WORLD_TOUR_OPTION_2_PLAYER_0",
 				"MemoryPlayer": "MEMORYPLAYER_REFUSED_TECH"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WORLD_TOUR_OPTION_2_PLAYER_1",
+				"aeAllCityBonuses": {
+					"zValue": "BONUS_CULTURE_GAIN_SMALL"
+				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_OOPS_OPTION_0_PLAYER_0",
@@ -9623,10 +10469,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTSTORY_TOKEN_OF_GOODWILL_RESOURCE",
-				"iTradeResourceSubject": "1"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_0_PLAYER_0",
 				"MemoryPlayer": "MEMORYPLAYER_REFUSED_TECH"
 			},
@@ -9643,9 +10485,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_1_PLAYER_1",
-				"aeTechs": {
-					"zValue": "TECH_DOCTRINE"
-				}
+				"bRandomTech": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_2_PLAYER_0",
@@ -9655,9 +10495,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_2_PLAYER_1",
-				"aeTechs": {
-					"zValue": "TECH_DOCTRINE"
-				},
+				"bRandomTech": "1",
 				"aeBonuses": {
 					"zValue": "BONUS_SCIENCE_GAIN_SMALL"
 				}
@@ -9805,9 +10643,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_FACE_IN_GOLD_OPTION_2_PLAYER_1",
-				"aeTechs": {
-					"zValue": "TECH_ARCHITECTURE"
-				}
+				"bRandomTech": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_FACE_IN_GOLD_OPTION_3_PLAYER_0",
@@ -9817,11 +10653,9 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_FACE_IN_GOLD_OPTION_3_PLAYER_1",
+				"bRandomTech": "1",
 				"aeAddTraits": {
 					"zValue": "TRAIT_ENGINEER"
-				},
-				"aeTechs": {
-					"zValue": "TECH_ARCHITECTURE"
 				}
 			},
 			{
@@ -9847,6 +10681,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_AKKADIAN",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_AKKADIAN_ARCHER",
@@ -9856,6 +10691,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_HOPLITE",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HOPLITE",
@@ -9988,10 +10824,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_BATTLE_PLANS_OPTION_0",
 				"bRevealTerritory": "1"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_EXECUTED_SPIES_OPTION_0_BARBARIAN",
-				"MemoryTribe": "MEMORYTRIBE_SENT_SPIES"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HOSTILE_PLAYER_PLAYER_WAR_DEALMAKER",
@@ -10131,12 +10963,6 @@
 						"BONUS_TRIBUTE_RECEIVE_FOOD_AVERAGE"
 					]
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_DEMAND_TRIBUTE_PLOT_DISCOVERED",
-				"Mission": "MISSION_ASSASSINATE",
-				"iMissionSubject": "1",
-				"bMissionFree": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DEMAND_TRIBUTE_INTERMEDIARY",
@@ -10341,14 +11167,14 @@
 			{
 				"zType": "BONUS_EVENTOPTION_HEIR_TO_HEIR_OPTION_2_CHARACTER_2",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HEIR_TO_HEIR_OPTION_3_CHARACTER_2",
 				"bRandomTech": "1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -10440,7 +11266,7 @@
 				"Name": "TEXT_BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_0_CHARACTER_0",
 				"iLegitimacy": "2",
 				"aeRemoveTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -10462,10 +11288,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_0_CHARACTER_0",
-				"AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY",
-				"aeAddSpecialistClasses": {
-					"zValue": "SPECIALISTCLASS_DOCTOR"
-				}
+				"AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_1_CHARACTER_0",
@@ -10544,7 +11367,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_INTRUDER_IN_THE_PALACE_OPTION_2_CHARACTER_1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				},
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_LOSS_AVERAGE"
@@ -10710,6 +11533,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_RAM",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_BATTERING_RAM",
@@ -10719,6 +11543,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_MAHOUT",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_AFRICAN_ELEPHANT",
@@ -10728,6 +11553,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_CHARIOT",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_LIGHT_CHARIOT",
@@ -10737,6 +11563,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_PALTON",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_PALTON_CAVALRY",
@@ -10746,6 +11573,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_HASTATUS",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HASTATUS",
@@ -10757,6 +11585,27 @@
 				"zType": "BONUS_COIN_FACE",
 				"Name": "TEXT_BONUS_COIN_FACE",
 				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_RETURN_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_RETURN_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_NATION_YES_1_CHARACTER_2",
+				"iMarrySubject": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_PRICE_OF_A_CITY_ALLIANCE_CITY",
+				"iTradeCitySubject": "0"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_PRICE_OF_A_CITY_WAR_PLAYER_1",
+				"DiplomacySubjects": {
+					"Pair": {
+						"First": "DIPLOMACY_WAR",
+						"Second": "0"
+					}
+				}
 			},
 			{
 				"beginGroup": "Tribe",
@@ -11367,6 +12216,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_GAESATA",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_GAESATA_2",
@@ -11376,6 +12226,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_HUSCARL",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HUSCARL_2",
@@ -11385,6 +12236,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_LIBYAN_CAVALRY",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_LIBYAN_CAVALRY_2",
@@ -11394,6 +12246,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_AMAZON_CAVALRY",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_AMAZON_CAVALRY_2",
@@ -11403,6 +12256,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_PELTAST",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_PELTAST_2",
@@ -11412,6 +12266,7 @@
 			},
 			{
 				"zType": "BONUS_GIVE_CLUBTHROWER",
+				"bMercenaryUnit": "1",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CLUBTHROWER_2",
@@ -11532,6 +12387,544 @@
 			{
 				"zType": "BONUS_FORTUNE_FAVORS_HELPED_TRIBE",
 				"MemoryTribe": "MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE"
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_REFUSAL",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_REFUSAL"
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_GAULS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_GAESATA_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_GAULS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_GAESATA_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_THRACIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_PELTAST_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_THRACIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_PELTAST_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_VANDALS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_CLUBTHROWER_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_VANDALS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_CLUBTHROWER_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_DANES",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_HUSCARL_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_DANES",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_HUSCARL_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_NUMIDIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_LIBYAN_CAVALRY_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_NUMIDIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_LIBYAN_CAVALRY_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_AID_SCYTHIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_AMAZON_CAVALRY_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_ENEMY_OF_MY_ENEMY_ALL_IN_SCYTHIANS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+				"aiTribeUnits": {
+					"Pair": {
+						"zIndex": "UNIT_AMAZON_CAVALRY_2",
+						"iValue": "4"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_AN_ACT_OF_BRAVERY_STATUE",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_STATUE"
+			},
+			{
+				"zType": "BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS"
+			},
+			{
+				"zType": "BONUS_CRUEL_SUMMER_COMMON_INTERESTS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_CRUEL_SUMMER_COMMON_INTERESTS"
+			},
+			{
+				"zType": "BONUS_HEROES_OF_TWO_REALMS_TRIUMPH",
+				"aeAddProjects": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						"PROJECT_TRIUMPH"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION"
+			},
+			{
+				"zType": "BONUS_WILD_HORSES_TRIBE",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE"
+			},
+			{
+				"zType": "BONUS_LANDS_OF_PLENTY_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_LOSS_GIGANTIC",
+						"BONUS_CIVICS_LOSS_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_FROM_ONE_COMMANDER_TO_ANOTHER",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_LOSS_GIGANTIC",
+						"BONUS_TRAINING_GAIN_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_TOUGH_AS_NAILS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_GLADIATORS"
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_MONEY_LOSS_HUGE"
+				}
+			},
+			{
+				"zType": "BONUS_FIELDCRAFT_HERBALISM",
+				"aeAddProjects": {
+					"zValue": "PROJECT_PAGAN_CULT_HEALING"
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_MONEY_LOSS_HUGE"
+				}
+			},
+			{
+				"zType": "BONUS_WARDENS_OF_THE_WILDS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_WARDENS_OF_THE_WILDS"
+				}
+			},
+			{
+				"zType": "BONUS_TRAINING_PITS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_TRAINING_PITS"
+				}
+			},
+			{
+				"zType": "BONUS_WARRIOR_TRADITION",
+				"aeAddProjects": {
+					"zValue": "PROJECT_WARRIOR_TRADITION"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_STONE_LOSS_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_MONUMENT_OF_HOPE_SHARED_BURDEN",
+				"aeAddProjects": {
+					"zValue": "PROJECT_MONUMENT_OF_HOPE"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_AVERAGE",
+						"BONUS_MONEY_LOSS_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_MONUMENT_OF_HOPE_FULL_BURDEN",
+				"aeAddProjects": {
+					"zValue": "PROJECT_MONUMENT_OF_HOPE"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						"BONUS_MONEY_LOSS_HUGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT"
+			},
+			{
+				"zType": "BONUS_ANTICAVALRY_TACTICS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_ANTICAVALRY_TACTICS"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						"BONUS_MONEY_LOSS_GIGANTIC",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_BY_THE_NUMBERS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_BY_THE_NUMBERS"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_STONE_LOSS_HUGE",
+						"BONUS_MONEY_LOSS_HUGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_SOMETIMES_THE_GODS_SMILE_SHRINE",
+				"aeAddProjects": {
+					"zValue": "PROJECT_SHRINE_OF_THE_UNKNOWN_GOD"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_STONE_LOSS_HUGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_THROUGH_THICK_AND_THIN_TRIBE",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_THROUGH_THICK_AND_THIN_TRIBE"
+			},
+			{
+				"zType": "BONUS_FORESTRY_MANAGEMENT",
+				"aeAddProjects": {
+					"zValue": "PROJECT_FORESTRY_GUILD"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_STONE_LOSS_LARGE",
+						"BONUS_MONEY_LOSS_AVERAGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_CODEX_OF_HIGHLAND_WISDOM",
+				"aeAddProjects": {
+					"zValue": "PROJECT_CODEX_OF_HIGHLAND_WISDOM"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE"
+			},
+			{
+				"zType": "BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE"
+			},
+			{
+				"zType": "BONUS_TRIBAL_FORUM",
+				"aeAddProjects": {
+					"zValue": "PROJECT_TRIBAL_FORUM"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						},
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_CLUCKING_BONUS",
+				"ForgetPlayer": "MEMORYPLAYER_FUNDED_RESEARCH",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_TRAINING_GAIN_HUGE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_CHARACTER_MERCHANT_HOSTAGE",
+				"MakeCourtier": "COURTIER_MERCHANT"
+			},
+			{
+				"zType": "BONUS_SOLDIER_OF_FORTUNE_HIRE",
+				"MakeCourtier": "COURTIER_SOLDIER"
+			},
+			{
+				"zType": "BONUS_MERCHANT_HIRE",
+				"MakeCourtier": "COURTIER_MERCHANT"
+			},
+			{
+				"zType": "BONUS_IRON_GIANT_KUDOS",
+				"MemoryTribe": "MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS"
+			},
+			{
+				"zType": "BONUS_GHOST_RAIDER_HIRED",
+				"AddCourtier": {
+					"Pair": {
+						"zIndex": "COURTIER_SOLDIER",
+						"zValue": "GENDER_FEMALE"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_MERCY_FOR_THE_WEAK_LEGITIMACY",
+				"Name": "TEXT_BONUS_MERCY_FOR_THE_WEAK_LEGITIMACY",
+				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_MERCY_FOR_THE_WEAK_ANGRY_FAMILIES",
+				"MemoryAllFamilies": "MEMORYFAMILY_MERCY_FOR_THE_WEAK_REFUSED_TRUCE"
+			},
+			{
+				"zType": "BONUS_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER",
+				"MemoryCharacter": "MEMORYCHARACTER_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER"
+			},
+			{
+				"zType": "BONUS_DISSATISFIED_LEADER",
+				"MemoryCharacter": "MEMORYCHARACTER_DISSATISFIED_LEADER"
+			},
+			{
+				"zType": "BONUS_THE_DANCE_OF_DIPLOMACY_GIFT",
+				"aeBonuses": {
+					"zValue": [
+						{
+							
+						},
+						{
+							
+						},
+						"BONUS_CIVICS_LOSS_LARGE",
+						"BONUS_FOOD_LOSS_HUGE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELIGIOUS_RAIDS_IGNORE_RELIGION",
+				"MemoryReligion": "MEMORYRELIGION_ALLOWED_RAIDS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TRIBAL_HERO_OPTION_2_UNIT",
+				"aePromotions": {
+					"zValue": "PROMOTION_STEADFAST"
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_DAMAGE_UNIT_LOW"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES_CHARACTER_0",
+				"MemoryTribe": "MEMORYTRIBE_MARRIED_LEADER"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES_CHARACTER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES_CHARACTER_1",
+				"iLegitimacy": "-4",
+				"iMarrySubject": "0"
 			},
 			{
 				"beginGroup": "Combat",
@@ -11801,6 +13194,10 @@
 				}
 			},
 			{
+				"zType": "BONUS_HOMELAND_BURNING_TYRANNY",
+				"Ambition": "GOAL_TYRANNY"
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_TRIBE_LIBERATED_OPTION_1",
 				"iDiscontentLevels": "1",
 				"aiBonusUnits": {
@@ -11840,6 +13237,15 @@
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_GAIN_AVERAGE"
 				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3",
+				"MemoryTribe": "MEMORYTRIBE_ACCEPTED_CUSTOMS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3_CHARACTER",
+				"Name": "TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3_CHARACTER",
+				"iLegitimacy": "3"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_0",
@@ -11937,10 +13343,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRIBE_CULT_OF_FLAME_KEEP",
-				"MemoryTribe": "MEMORYTRIBE_RESPECT",
-				"aeBonuses": {
-					"zValue": "BONUS_GAIN_WISDOM_1"
-				}
+				"MemoryTribe": "MEMORYTRIBE_RESPECT"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRIBE_CULT_OF_FLAME_SMASH",
@@ -12411,10 +13814,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_DUEL_VICTORY_0",
-				"MemoryPlayer": "MEMORYPLAYER_KILLED_GENERAL"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_DUEL_VICTORY_1",
 				"MemoryPlayer": "MEMORYPLAYER_SPARED_GENERAL"
 			},
@@ -12670,7 +14069,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_EPIC_POETRY_TEACH",
-				"Name": "TEXT_BONUS_EVENTOPTION_EPIC_POETRY_TEACH",
 				"aiRatings": {
 					"Pair": {
 						"zIndex": "RATING_WISDOM",
@@ -12716,7 +14114,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK",
-				"Name": "TEXT_BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK",
 				"aiRatings": {
 					"Pair": {
 						"zIndex": "RATING_DISCIPLINE",
@@ -13547,6 +14944,14 @@
 				}
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2",
+				"Name": "TEXT_BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2",
+				"iLegitimacy": "4",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_REGENT"
+				}
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_THE_HEIRS_JOURNEY_OPTION_0_CHARACTER_1",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_EXPLORING"
@@ -13632,10 +15037,9 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_LEADER_THE_HEIRS_CUP_POISONED_OPTION_0",
-				"Name": "TEXT_BONUS_EVENTOPTION_LEADER_THE_HEIRS_CUP_POISONED_OPTION_0",
 				"MemoryCharacter": "MEMORYCHARACTER_POISONED_MY_PREDECESSOR",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -13981,7 +15385,7 @@
 					"zValue": [
 						"TRAIT_TIMID",
 						"TRAIT_SLOTHFUL",
-						"TRAIT_CUNNING"
+						"TRAIT_DEALMAKER"
 					]
 				}
 			},
@@ -14176,16 +15580,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_INHERITANCE_CUNNING",
-				"aeRandomTrait": {
-					"zValue": [
-						"TRAIT_CUNNING",
-						"TRAIT_INTELLIGENT",
-						"TRAIT_INSANE"
-					]
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_INHERITANCE_EXOTIC",
 				"aeRandomTrait": {
 					"zValue": [
@@ -14320,7 +15714,7 @@
 				"aeRandomTrait": {
 					"zValue": [
 						"TRAIT_INTELLIGENT",
-						"TRAIT_CUNNING",
+						"TRAIT_DEALMAKER",
 						"TRAIT_CORRUPT"
 					]
 				}
@@ -14579,24 +15973,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CHILD_FALSE_ACCUSATION_OPTION_0_CHARACTER_1",
-				"aeAddTraits": {
-					"zValue": "TRAIT_BOLD"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHILD_FALSE_ACCUSATION_OPTION_1_CHARACTER_1",
-				"aeAddTraits": {
-					"zValue": "TRAIT_DEALMAKER"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHILD_FALSE_ACCUSATION_OPTION_2_CHARACTER_1",
-				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_CHILD_THE_BIRTHDAY_GIFT_OPTION_0_CHARACTER_1",
 				"aeAddTraits": {
 					"zValue": "TRAIT_FOOLISH"
@@ -14788,6 +16164,11 @@
 				"iMarrySubject": "1"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_2_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_2_CHARACTER_0",
+				"iLegitimacy": "2"
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0_CHARACTER_1",
 				"aeAddTraits": {
 					"zValue": "TRAIT_SOLDIER"
@@ -14801,13 +16182,8 @@
 			{
 				"zType": "BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_2_CHARACTER_1",
 				"SetArchetype": "TRAIT_TACTICIAN_ARCHETYPE",
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SOLDIER",
-						"zValue": {
-							
-						}
-					}
+				"aeBonuses": {
+					"zValue": "BONUS_ADD_GREAT_SOLDIER"
 				}
 			},
 			{
@@ -14855,7 +16231,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_CHILD_NATAL_ASTROLOGER_OPTION_1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -15038,7 +16414,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
-				"Name": "TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
 				"Mission": "MISSION_INFLUENCE",
 				"iMissionSubject": "1"
 			},
@@ -16022,6 +17397,12 @@
 				"MemoryReligion": "MEMORYRELIGION_DIVORCED_SPOUSE"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_RIGHTFUL_HEIR_REGENT_DEAD_LEADER_YES_CHARACTER_1",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_RIGHTFUL_HEIR"
+				}
+			},
+			{
 				"beginGroup": "Courtier",
 				"zType": "BONUS_EVENTOPTION_THE_WEAKNESS_OF_STRENGTH_OPTION_0_CHARACTER",
 				"aiRatings": {
@@ -16064,7 +17445,7 @@
 					}
 				},
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -17105,8 +18486,13 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_1_CHARACTER_1",
-				"MemoryCharacter": "MEMORYCHARACTER_GIVEN_BAD_JOB",
-				"AddLeaderRelationship": "RELATIONSHIP_SUSPICIOUS_OF"
+				"MemoryCharacter": "MEMORYCHARACTER_AGREED_TO_KEEP_EYE",
+				"AddRelationshipSubjects": {
+					"Pair": {
+						"First": "RELATIONSHIP_SUSPICIOUS_OF",
+						"Second": "0"
+					}
+				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_3_CHARACTER_0",
@@ -17141,113 +18527,73 @@
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_B2_SCIENTIST",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_HUGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SCIENTIST",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_HUGE",
+						"BONUS_ADD_GREAT_SCIENTIST"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_B2_MINISTER",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_HUGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MINISTER",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_HUGE",
+						"BONUS_ADD_GREAT_MINISTER"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_B1_SCIENTIST",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_LARGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SCIENTIST",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_ADD_GREAT_SCIENTIST"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_B1_MINISTER",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_LARGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MINISTER",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_ADD_GREAT_MINISTER"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_A2_SOLDIER",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_HUGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SOLDIER",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_HUGE",
+						"BONUS_ADD_GREAT_SOLDIER"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_A2_MERCHANT",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_HUGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MERCHANT",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_HUGE",
+						"BONUS_ADD_GREAT_MERCHANT"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_A1_SOLDIER",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_LARGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SOLDIER",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_ADD_GREAT_SOLDIER"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COURTIER_A1_MERCHANT",
 				"aeBonuses": {
-					"zValue": "BONUS_MONEY_LOSS_LARGE"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MERCHANT",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_ADD_GREAT_MERCHANT"
+					]
 				}
 			},
 			{
@@ -17428,6 +18774,37 @@
 				"iLegitimacy": "-2"
 			},
 			{
+				"zType": "BONUS_SKITTISH_BANDITS_CARAVAN",
+				"aiUnits": {
+					"Pair": {
+						"zIndex": "UNIT_CARAVAN",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_BEER_RUN_COURTIER",
+				"AddCourtier": {
+					"Pair": {
+						"zIndex": "COURTIER_MERCHANT",
+						"zValue": "GENDER_FEMALE"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_INDEPENDENT_MERCHANT_YES",
+				"AddCourtier": {
+					"Pair": {
+						"zIndex": "COURTIER_MERCHANT",
+						"zValue": "GENDER_MALE"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_BARGAINING_CHIPS_TRADE",
+				"iTradeResourceSubject": "0"
+			},
+			{
 				"beginGroup": "Character",
 				"zType": "BONUS_EVENTOPTION_LOOKING_OUTWARD_MYSELF",
 				"aeAddTraits": {
@@ -17587,12 +18964,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2_PLAYER",
 				"MemoryCharacter": "MEMORYCHARACTER_RELEASED_CONSORT"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2_CHARACTER_1",
-				"aeAddTraits": {
-					"zValue": "TRAIT_EXCLUDED"
-				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2_CHARACTER_2",
@@ -17945,13 +19316,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_HOMELESS_CHILDREN_SHELTER",
-				"MemoryAllFamilies": "MEMORYFAMILY_OVERCROWDED_CITY",
-				"aeAddTraits": {
-					"zValue": "TRAIT_GRACIOUS"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_HOMELESS_CHILDREN_CHILD_LABOR_CITY",
 				"aeAddProjects": {
 					"zValue": "PROJECT_CHILD_LABOR"
@@ -17967,10 +19331,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CHILD_JOY_AND_PAIN_OPTION_0",
-				"iMarrySubject": "2"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_ADULTHOOD_THE_CALLING_OPTION_0",
 				"aeAddTraits": {
 					"zValue": "TRAIT_TIMID"
@@ -17979,11 +19339,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_ADULTHOOD_THE_CALLING_OPTION_1",
 				"SetArchetype": "TRAIT_ZEALOT_ARCHETYPE"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0",
-				"Name": "TEXT_BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0",
-				"iLegitimacy": "2"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_HARSH_WORDS_OPTION_0",
@@ -18040,13 +19395,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_STUDY_TIME_FOR_REJOICING_OPTION_1",
 				"SetArchetype": "TRAIT_SCHOLAR_ARCHETYPE"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_GRADUATED_CHILD_RETURNS_OPTION_0",
-				"iXPCharacter": "50",
-				"aeRemoveTraits": {
-					"zValue": "TRAIT_STUDY_POLITICS"
-				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_GRADUATED_CHILD_RETURNS_OPTION_1",
@@ -18243,15 +19591,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CAUSE_FOR_WORRY_INVESTIGATE",
-				"AddRelationshipSubjects": {
-					"Pair": {
-						"First": "RELATIONSHIP_SUSPICIOUS_OF",
-						"Second": "0"
-					}
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_PLOTS_AND_BETRAYALS_IMPRISON",
 				"aeAddTraits": {
 					"zValue": "TRAIT_IMPRISONED"
@@ -18378,10 +19717,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_DISMISSAL_CENTRALIZATION_PLAYER",
-				"StartLaw": "LAW_CENTRALIZATION"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0",
 				"Name": "TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0",
 				"iLegitimacy": "-4"
@@ -18444,22 +19779,8 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0_CHARACTER_0",
-				"aeAddTraits": {
-					"zValue": "TRAIT_TIMID"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_0_CHARACTER_1",
 				"MemoryCharacter": "MEMORYCHARACTER_SUPPORTED_ALLIANCE",
-				"aeAddTraits": {
-					"zValue": "TRAIT_BOLD"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0",
-				"Name": "TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0",
-				"iLegitimacy": "2",
 				"aeAddTraits": {
 					"zValue": "TRAIT_BOLD"
 				}
@@ -18471,11 +19792,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_FAMILY",
 				"MemoryFamily": "MEMORYFAMILY_ACCUSED_OF_CORRUPTION"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0",
-				"Name": "TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0",
-				"iLegitimacy": "2"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_A_RULER_FALLS_OPTION_0_CHARACTER_0",
@@ -18830,15 +20146,10 @@
 			{
 				"zType": "BONUS_EVENTOPTION_EXPLORING_ENDS_GREAT_SOLDIER",
 				"aeBonuses": {
-					"zValue": "BONUS_REMOVE_TRAIT_EXPLORING"
-				},
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_SOLDIER",
-						"zValue": {
-							
-						}
-					}
+					"zValue": [
+						"BONUS_REMOVE_TRAIT_EXPLORING",
+						"BONUS_ADD_GREAT_SOLDIER"
+					]
 				}
 			},
 			{
@@ -19084,12 +20395,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_TUTOR_DEAD_END_OPTION_0_CHARACTER_2",
-				"aeAddTraits": {
-					"zValue": "TRAIT_VIGILANT"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_LISTLESS_GOVERNING_OPTION_0_CHARACTER_0",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_SLOTHFUL"
@@ -19209,22 +20514,6 @@
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_EXPLORING"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_0_CHARACTER_0",
-				"aeAddTraits": {
-					"zValue": "TRAIT_MOURNING"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_0_CHARACTER_1",
-				"aeAddTraits": {
-					"zValue": "TRAIT_MISSING"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRAIT_PAYMENT_IN_FULL_OPTION_0_CHARACTER_2",
-				"AddLeaderRelationship": "RELATIONSHIP_VENGEFUL_AGAINST"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_DOCTOR_PIEFACE_OPTION_0_CHARACTER_1",
@@ -19393,10 +20682,6 @@
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_IMPRISONED"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTSTORY_SURPRISE_BIRTH_CHARACTER_1",
-				"iBirthWithSubject": "0"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SURPRISE_BIRTH_OPTION_2_CHARACTER_1",
@@ -20011,13 +21296,6 @@
 			{
 				"zType": "BONUS_EVENTSTORY_TRAIT_TRIBE_BRIDE_CHARACTER_1",
 				"iMarrySubject": "0"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRAIT_TRIBE_BRIDE_OPTION_1_CHARACTER_1",
-				"AddLeaderRelationship": "RELATIONSHIP_VENGEFUL_AGAINST",
-				"aeAddTraits": {
-					"zValue": "TRAIT_IMPRISONED"
-				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_STUDY_LETTER_FOR_TOOLS_OPTION_0",
@@ -20771,9 +22049,6 @@
 				"iMarrySubject": "0"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_NEW_BEGINNINGS_1"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_PAWS_AND_TAILS_OPTION_2_CHARACTER_1",
 				"bLeaveCouncil": "1"
 			},
@@ -21279,13 +22554,6 @@
 				"MemoryReligion": "MEMORYRELIGION_ACCEPTED_MARRIAGE"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_MARRIAGE_OFFER_FAMILY_REJECTED_ALL",
-				"MemoryAllFamilies": "MEMORYFAMILY_REFUSED_MARRIAGE",
-				"aeBonuses": {
-					"zValue": "BONUS_MONEY_GAIN_LARGE"
-				}
-			},
-			{
 				"zType": "BONUS_MARRY_S0",
 				"iMarrySubject": "0"
 			},
@@ -21364,16 +22632,64 @@
 				"MemoryPlayer": "MEMORYPLAYER_FUNDED_RESEARCH"
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_TURNING_OF_THE_WHEELS_BITTER_CHARACTER_3",
+				"aeRandomTrait": {
+					"zValue": [
+						"TRAIT_CRUEL",
+						"TRAIT_BLOODTHIRSTY",
+						"TRAIT_BITTER"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_NAMED_A_MURDERER_WAIT_CHARACTER_2",
+				"MemoryAllFamilies": "MEMORYFAMILY_NAMED_MURDERER",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_DISCIPLINE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_BEG_CHARACTER_3",
+				"Name": "TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_BEG_CHARACTER_3",
+				"iLegitimacy": "-12"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_REFUSE_CHARACTER_3",
+				"Name": "TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_REFUSE_CHARACTER_3",
+				"iLegitimacy": "-5"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_FISH_CHARACTER_1",
+				"aeAddTraits": {
+					"zValue": "TRAIT_PET_FISH"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_LANDMARK_CHARACTER_0",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_ORDERS_LOSS_SMALL",
+						"BONUS_MONEY_LOSS_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_LANDMARK_CHARACTER_1",
+				"AddLeaderRelationship": "RELATIONSHIP_ENDEARED_TO",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_MISERABLE"
+				}
+			},
+			{
 				"beginGroup": "Family",
 				"zType": "BONUS_EVENTOPTION_FAMILY_GIFT_YES",
 				"MemoryFamily": "MEMORYFAMILY_FAMILY_GIFT_YES"
 			},
 			{
 				"zType": "BONUS_EVENTSTORY_IN_YOUR_HONOR_FAMILY",
-				"MemoryFamily": "MEMORYFAMILY_RECEIVED_GIFT"
-			},
-			{
-				"zType": "BONUS_EVENTSTORY_UNEXPECTED_FEELINGS_FAMILY",
 				"MemoryFamily": "MEMORYFAMILY_RECEIVED_GIFT"
 			},
 			{
@@ -21844,23 +23160,6 @@
 				"iLegitimacy": "3"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_PLOTTING_FOR_LUST",
-				"Name": "TEXT_BONUS_PLOTTING_FOR_LUST",
-				"iLegitimacy": "10",
-				"aeBonuses": {
-					"zValue": "BONUS_KILL_CHARACTER"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_PLOTTING_FOR_LUST_1",
-				"aeBonuses": {
-					"zValue": [
-						"BONUS_LEADER_LOVER_OF",
-						"BONUS_GIVE_TRAIT_POISONED"
-					]
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_WHAT_LENGTHS_0",
 				"aeRandomTrait": {
 					"zValue": [
@@ -22094,7 +23393,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_2_CHARACTER_1",
-				"Name": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_2_CHARACTER_1",
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_LOSS_TINY"
 				}
@@ -22481,6 +23779,14 @@
 				}
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_3",
+				"Name": "TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_3",
+				"iLegitimacy": "6",
+				"aeBonuses": {
+					"zValue": "BONUS_DISCONTENT_DOWN"
+				}
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_0",
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_LOSS_LARGE"
@@ -22605,6 +23911,10 @@
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_GAIN_AVERAGE"
 				}
+			},
+			{
+				"zType": "BONUS_FAMILY_RELATIONS_PENALTY",
+				"MemoryFamily": "MEMORYFAMILY_DISFAVORED_SPOUSE"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CONTEST_OF_RHETORIC_MYSELF",
@@ -22807,10 +24117,6 @@
 				"MemoryFamily": "MEMORYFAMILY_SLAVE_REVOLT_1"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_FAMILY",
-				"MemoryFamily": "MEMORYFAMILY_SLAVE_REVOLT_4"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_SLAVE_REVOLT_4_FREEDOM_LAWS",
 				"Name": "TEXT_BONUS_EVENTOPTION_SLAVE_REVOLT_4_FORGIVENESS_REBEL_SLAVE",
 				"EndLaw": "LAW_SLAVERY",
@@ -22873,6 +24179,74 @@
 			{
 				"zType": "BONUS_DISFAVORED_SPOUSE",
 				"MemoryCharacter": "MEMORYCHARACTER_DISFAVORED_SPOUSE"
+			},
+			{
+				"zType": "BONUS_LOSE_DISFAVORED_SPOUSE_MEMORY",
+				"ForgetCharacter": "MEMORYCHARACTER_DISFAVORED_SPOUSE"
+			},
+			{
+				"zType": "BONUS_FAMILY_RELATIONS",
+				"MemoryFamily": "MEMORYFAMILY_FAVORED_SPOUSE"
+			},
+			{
+				"zType": "BONUS_FAMILY_RELATIONS_COPY",
+				"MemoryFamily": "MEMORYFAMILY_FAVORED_SPOUSE_COPY"
+			},
+			{
+				"zType": "BONUS_TRIBE_RELATIONS_PENALTY",
+				"MemoryTribe": "MEMORYTRIBE_DISFAVORS_SPOUSE"
+			},
+			{
+				"zType": "BONUS_PLAYER_DISFAVORED_SPOUSE",
+				"MemoryPlayer": "MEMORYPLAYER_DISFAVORED_SPOUSE"
+			},
+			{
+				"zType": "BONUS_A_DISPLAY_OF_BENEVOLENCE_TRUCE",
+				"MemoryAllFamilies": "MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_TRUCE"
+			},
+			{
+				"zType": "BONUS_DISPLAY_OF_BENEVOLENCE_LEGITIMACY",
+				"Name": "TEXT_DISPLAY_OF_BENEVOLENCE_LEGITIMACY",
+				"iLegitimacy": "5"
+			},
+			{
+				"zType": "BONUS_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE",
+				"MemoryAllFamilies": "MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LUXURY_SEEKERS_OPTION_YES_FAMILY",
+				"Name": "TEXT_BONUS_LUXURY_SEEKERS_LEGITIMACY",
+				"MemoryFamily": "MEMORYFAMILY_LUXURY_SEEKERS_YES",
+				"iLegitimacy": "-1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LUXURY_SEEKERS_OPTION_NO_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_LUXURY_SEEKERS_NO"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LUXURY_SEEKERS_OPTION_PERSONAL_SUPPLY_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_0_TRIBE",
+				"MemoryTribe": "MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_YES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_1_TRIBE",
+				"MemoryTribe": "MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_NO"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_CITY",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CULTURE_GAIN_AVERAGE",
+						"BONUS_DISCONTENT_LOSS_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_TOURNAMENT_OPTION_0_FAMILY_0",
+				"MemoryFamily": "MEMORYFAMILY_SUPPORTED_CHAMPION"
 			},
 			{
 				"beginGroup": "City",
@@ -23278,6 +24652,14 @@
 				}
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_CULTURE_OPPORTUNITIES_FOR_ALL_SPECIALISTS",
+				"Ambition": "GOAL_10_SPECIALISTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_CULTURE_OPPORTUNITIES_FOR_ALL_FORUMS",
+				"Ambition": "GOAL_SIX_FORUMS"
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_0_CHARACTER_1",
 				"Name": "TEXT_BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_0_CHARACTER_1",
 				"iLegitimacy": "-2",
@@ -23498,10 +24880,6 @@
 				"iGovernorOfSubject": "0"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_CITY_AUTONOMY_NO_CHARACTER_1",
-				"iMarrySubject": "1"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_TO_ARMS_OPTION_2",
 				"iCitizens": "1",
 				"aeAddProjects": {
@@ -23563,6 +24941,12 @@
 			{
 				"zType": "BONUS_EVENTOPTION_UNHAPPY_PEASANTS_DECLINE",
 				"iRebelUnits": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_UNHAPPY_PEASANTS_BLESSED",
+				"aeBonuses": {
+					"zValue": "BONUS_DISCONTENT_DOWN"
+				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_FOUNDING_SIGNS_OK",
@@ -23687,9 +25071,6 @@
 				}
 			},
 			{
-				"zType": "NONEVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_5"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_NO_SMALL_FAVOR_OPTION_1",
 				"AddLeaderRelationship": "RELATIONSHIP_ESTRANGED_FROM",
 				"aeBonuses": {
@@ -23778,6 +25159,12 @@
 				}
 			},
 			{
+				"zType": "BONUS_EVENTOPTION_INDEPENDENT_CITY_BLESSED",
+				"aeBonuses": {
+					"zValue": "BONUS_DISCONTENT_DOWN"
+				}
+			},
+			{
 				"zType": "BONUS_EVENTOPTION_RECLAIMING_CONTROL",
 				"aeRemoveProjects": {
 					"zValue": "PROJECT_AUTONOMOUS_RULE"
@@ -23829,6 +25216,81 @@
 			{
 				"zType": "BONUS_EVENTOPTION_PROTECTOR_OF_THE_BORDERLANDS_PASSED_OVER",
 				"MemoryFamily": "MEMORYFAMILY_PASSED_OVER_FOR_HONORIFIC_TITLE"
+			},
+			{
+				"zType": "BONUS_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+				"aeAddProjects": {
+					"zValue": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						"BONUS_MONEY_LOSS_HUGE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+				"aeAddProjects": {
+					"zValue": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER"
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CIVICS_LOSS_LARGE",
+						"BONUS_MONEY_LOSS_HUGE",
+						{
+							
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_COASTAL_CULTURE_TRADE_CITY",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_GROWTH_GAIN_LARGE",
+						"BONUS_CITY_ADD_RESOURCE_SALT"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_COASTAL_CULTURE_FLEET_CHARACTER_1",
+				"Ambition": "GOAL_FIVE_NAVAL",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_WOOD_GAIN_AVERAGE",
+						"BONUS_TRAINING_GAIN_SMALL"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_COASTAL_CULTURE_GOVERNOR_CHARACTER_0",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_DISCIPLINE",
+						"iValue": "1"
+					}
+				},
+				"aeAddTraits": {
+					"zValue": "TRAIT_CARPENTER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_FAMILY_GOVERNOR_YES_CHARACTER_1",
+				"iGovernorOfSubject": "0"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_FAMILY_GOVERNOR_NO_CHARACTER_0",
+				"MemoryFamily": "MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR"
+			},
+			{
+				"zType": "BONUS_SAND_PITS",
+				"aeAddProjects": {
+					"zValue": "PROJECT_THE_SAND_PITS"
+				}
 			},
 			{
 				"beginGroup": "Religion",
@@ -24470,17 +25932,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_HIGH_PRIESTHOOD_0",
-				"FreeLaw": "LAW_ORTHODOXY",
-				"aeBonuses": {
-					"zValue": "BONUS_DISCONTENT_GAIN_LARGE"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_HIGH_PRIESTHOOD_1",
-				"MemoryFamily": "MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_EL_YAHWEH_BAAL_0",
 				"MemoryReligion": "MEMORYRELIGION_QUESTIONED_GOD"
 			},
@@ -24572,10 +26023,6 @@
 				"iLegitimacy": "4"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_LEADER_OF_FAITH_0",
-				"MemoryReligion": "MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_LEADER_OF_FAITH_1",
 				"Name": "TEXT_BONUS_EVENTOPTION_LEADER_OF_FAITH_1",
 				"iLegitimacy": "-4"
@@ -24605,15 +26052,6 @@
 			{
 				"zType": "BONUS_EVENTOPTION_RELIGIOUS_ABDICATION_YES",
 				"MemoryReligion": "MEMORYRELIGION_ABDICATED_TO_RELIGIOUS_HEIR"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_FOUNDING_AVESTAN_0",
-				"MemoryFamily": "MEMORYFAMILY_DIVINE_LINEAGE"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_FOUNDING_AVESTAN_1",
-				"Name": "TEXT_BONUS_EVENTOPTION_FOUNDING_AVESTAN_1",
-				"iLegitimacy": "3"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SET_S0_AS_RELIGION_HEAD",
@@ -24737,6 +26175,22 @@
 				"aeBonuses": {
 					"zValue": "BONUS_ORDERS_GAIN_LARGE"
 				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_TRUE_GOD_ATEN_MONOTHEISM_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_THE_TRUE_GOD_ATEN_MONOTHEISM_CHARACTER_0",
+				"FreeLaw": "LAW_MONOTHEISM",
+				"iLegitimacy": "5"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_TRUE_GOD_ATEN_NO_RELIGION",
+				"MemoryReligion": "MEMORYRELIGION_SUPPORTED_THE_OLD_GODS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_AKHENATEN_OPTION_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_AKHENATEN_OPTION_0",
+				"CharacterName": "TEXT_NAME_AKHENATEN",
+				"iLegitimacy": "1"
 			},
 			{
 				"beginGroup": "Law",
@@ -25363,15 +26817,15 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TEMPLE_FROM_THE_EAST_YES",
-				"Ambition": "GOAL_HOLY_SITE_MANICHAEISM"
+				"AmbitionReligion": "GOAL_HOLY_SITE_MANICHAEISM"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_THREE_CROSSES_YES",
-				"Ambition": "GOAL_HOLY_SITE_CHRISTIANITY"
+				"AmbitionReligion": "GOAL_HOLY_SITE_CHRISTIANITY"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_PLACE_OF_DWELLING_YES",
-				"Ambition": "GOAL_HOLY_SITE_JUDAISM"
+				"AmbitionReligion": "GOAL_HOLY_SITE_JUDAISM"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_GREEDY_AMBITION_0",
@@ -25389,7 +26843,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_DIPLO_OFFER_FAMILY_RELIGION_WAR_AMBITION",
 				"Ambition": "GOAL_FOUR_CITIES_FOREIGN",
-				"iAmbitionFamilySubject": "0"
+				"iAmbitionFamilySubject": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRIBE_WAR_AMBITION_YES",
@@ -25473,11 +26927,20 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_TRAINING",
-				"Ambition": "GOAL_TRAINING_2000"
+				"Ambition": "GOAL_TRAINING_2000",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_DISCIPLINE",
+						"iValue": "1"
+					}
+				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COGNOMEN_DRILLMASTER_ENGINEERING",
-				"Ambition": "GOAL_ENGINEERING"
+				"Ambition": "GOAL_ENGINEERING",
+				"aeAddTraits": {
+					"zValue": "TRAIT_ENGINEER"
+				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_COGNOMEN_INTERCESSOR_DOCTORS",
@@ -25684,12 +27147,8 @@
 				"AmbitionFamily": "GOAL_THREE_CATHEDRAL"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_5_TRIBES",
-				"AmbitionFamily": "GOAL_FIVE_TRIBE_CLEARED"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_7_TRIBES",
-				"AmbitionFamily": "GOAL_SEVEN_TRIBE_CLEARED"
+				"zType": "BONUS_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_6_TRIBES",
+				"AmbitionFamily": "GOAL_SIX_TRIBE_CLEARED"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_15_KILLS",
@@ -25793,15 +27252,15 @@
 			},
 			{
 				"zType": "BONUS_AMBITION_KILL_10_ENEMIES",
-				"Goal": "GOAL_KILL_10_ENEMIES"
+				"Ambition": "GOAL_KILL_10_ENEMIES"
 			},
 			{
 				"zType": "BONUS_AMBITION_FOUR_GOVERNORS",
-				"Goal": "GOAL_FOUR_GOVERNORS"
+				"Ambition": "GOAL_FOUR_GOVERNORS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_THE_ROAD_TO_GLORY_YES_PLAYER",
-				"Goal": "GOAL_THE_GREAT"
+				"GoalAdd": "GOAL_THE_GREAT"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_THE_ROAD_TO_GLORY_FINISHED_OKAY_PLAYER",
@@ -25813,7 +27272,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_LAND_OF_VENERATION_YES_PLAYER",
-				"Goal": "GOAL_ALL_HOLY_CITIES"
+				"GoalAdd": "GOAL_ALL_HOLY_CITIES"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_LAND_OF_VENERATION_FINISHED_OKAY_PLAYER",
@@ -25825,7 +27284,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SMOKE_AND_ASH_YES_PLAYER_1",
-				"Goal": "GOAL_DESTROY_RIVALS"
+				"GoalAdd": "GOAL_DESTROY_RIVALS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SMOKE_AND_ASH_FINISHED_OKAY_PLAYER_1",
@@ -25864,6 +27323,326 @@
 				"zType": "BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER",
 				"Name": "TEXT_BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER",
 				"iLegitimacy": "-4"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_OUR_SHIELD_WALLS_FAMILY",
+				"AmbitionFamily": "GOAL_SIX_WALLS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_OUR_SHIELD_PROMOTIONS_FAMILY",
+				"AmbitionFamily": "GOAL_TEN_PROMOTIONS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_OUR_SHIELD_NO_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_REFUSED_AMBITION"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WARRIOR_CLAN_BARDING_FAMILY",
+				"AmbitionFamily": "GOAL_BARDING_INFANTRY_SQUARE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WARRIOR_CLAN_COHORTS_FAMILY",
+				"AmbitionFamily": "GOAL_COHORTS_MARTIAL_CODE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MODERN_MARVELS_HYDRAULICS_FAMILY",
+				"AmbitionFamily": "GOAL_PORTCULLIS_CHAIN_DRIVE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MODERN_MARVELS_WINDLASS_FAMILY",
+				"AmbitionFamily": "GOAL_WINDLASS_LATEEN_SAIL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_MODERN_MARVELS_ARCHITECTURE_FAMILY",
+				"AmbitionFamily": "GOAL_ARCHITECTURE_JURISPRUDENCE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LEADER_AND_THE_TRIBES_TRIBE_CHARACTER_1",
+				"MemoryAllFamilies": "MEMORYFAMILY_TRIBE_ALLIANCE",
+				"Ambition": "GOAL_TRIBE_ALLIANCE",
+				"aeAddTraits": {
+					"zValue": "TRAIT_COMPASSIONATE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LEADER_AND_THE_TRIBES_NO_CHARACTER_0",
+				"MemoryCharacter": "MEORYCHARCTER_IGNORED_REQUEST"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_LEADER_AND_THE_TRIBES_FAMILY_TRIBE",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_AMBITION_CLEAR_THREE_BARBS",
+						"BONUS_DECLARE_WAR_TRIBE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_0_CHARACTER_1",
+				"MemoryCharacter": "MEMORYCHARACTER_ACCEPTED_AMBITION",
+				"aeRemoveTraits": {
+					"zValue": "TRAIT_KING_OF_TYRE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_2_CHARACTER_0",
+				"Name": "TEXT_BONUS_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_2_CHARACTER_0",
+				"iLegitimacy": "3"
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_BY_OUR_BORDERS_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_BORDER_DISPUTES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_PEACE_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_STOLE_TRIBE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_BACK_OFF_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_STAYED_OUT_OF_WAY"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_BACK_OFF_TRIBE",
+				"DiplomacySubjects": {
+					"Pair": {
+						"First": "DIPLOMACY_PEACE",
+						"Second": "0"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_BACK_OFF_PLAYER_1",
+				"Ambition": "GOAL_TRIBE_PEACE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_VOLUNTEERS_PLAYER",
+				"MemoryPlayer": "MEMORYPLAYER_RAISED_MILITIA"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_VOLUNTEERS_FAMILY",
+				"AmbitionFamily": "GOAL_VOLUNTEERS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_CAPTURE_PLAYER",
+				"MemoryPlayer": "MEMORYPLAYER_SHOWING_OFF"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_CAPTURE_FAMILY",
+				"AmbitionFamily": "GOAL_TWO_CAPTURE_CITIES"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_REFUSE_PLAYER",
+				"MemoryPlayer": "MEMORYPLAYER_BACKED_DOWN"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_GIVE_CITY",
+				"iTradeCitySubject": "0"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_GIVE_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_GAVE_AWAY_CITY"
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_RIVALS2_REBELS_AT_WAR_TRIBE",
+				"DiplomacySubjects": {
+					"Pair": {
+						"First": "DIPLOMACY_WAR",
+						"Second": "0"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_REBELS_AT_WAR_YES_PLAYER",
+				"Ambition": "GOAL_KILL_10_ENEMIES",
+				"aeBonuses": {
+					"zValue": "BONUS_DECLARE_WAR_PLAYER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_REBELS_AT_WAR_YES_TRIBE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_REBELS_AT_WAR_YES_CHARACTER",
+				"MemoryAllFamilies": "MEMORYFAMILY_WAR_WITH_RIVAL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_REBELS_AT_WAR_NO_TRIBE",
+				"DiplomacyTribe": "DIPLOMACY_TRUCE",
+				"aeBonuses": {
+					"zValue": "BONUS_LEADER_ESTRANGED_FROM"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_CALLING_FOR_WAR_YES_PLAYER_0",
+				"MemoryAllFamilies": "MEMORYFAMILY_WAR_WITH_RIVAL",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_AMBITION_TWO_CITIES_FOREIGN",
+						"BONUS_DECLARE_WAR_PLAYER"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_CALLING_FOR_WAR_YES_PLAYER_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS2_CALLING_FOR_WAR_NO_PLAYER_1",
+				"MemoryAllFamilies": "MEMORYFAMILY_AVOIDED_WAR"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE_PLAYER_1",
+				"Name": "TEXT_BONUS_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE_PLAYER_1",
+				"iLegitimacy": "-5"
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_RIVALS3_BITTER_RIVALS_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_BITTER_RIVALS"
+			},
+			{
+				"zType": "BONUS_EVENTSTORY_RIVALS3_BITTER_RIVALS_CHARACTER",
+				"aeAddTraits": {
+					"zValue": "TRAIT_FAMOUS"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_BITTER_RIVALS_GENERALS_CHARACTER",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				},
+				"aeAddTraits": {
+					"zValue": "TRAIT_WOUNDED"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_BITTER_RIVALS_OPTION_1_CHARACTER",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "2"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_BITTER_RIVALS_OPTION_1_PLAYER_1",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_MONEY_LOSS_LARGE",
+						"BONUS_DISCONTENT_LOSS_AVERAGE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_RAZE_CITY_0",
+				"bRazeCity": "1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_CELEBRATE_PLAYER_0",
+				"MemoryPlayer": "MEMORYPLAYER_BITTER_RIVALS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS4_NO_SURRENDER_YES_PLAYER_1",
+				"Ambition": "GOAL_DESTROY_RIVALS",
+				"aiBonusUnits": {
+					"Pair": {
+						"zIndex": "BONUSUNITCLASS_HEAVY_INFANTRY",
+						"iValue": "3"
+					}
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_ORDERS_GAIN_AVERAGE",
+						"BONUS_TRAINING_GAIN_HUGE"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS4_NO_SURRENDER_NO_PLAYER_1",
+				"MemoryAllFamilies": "MEMORYFAMILY_AVOIDED_WAR"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS4_OUT_OF_THE_ASHES_OPTION_1_PLAYER_1",
+				"Ambition": "GOAL_ALL_PEACE",
+				"aeAddTraits": {
+					"zValue": "TRAIT_DEALMAKER"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RIVALS4_NO_SURRENDER_FINISHED_DONE",
+				"FinishGoal": "GOAL_DESTROY_RIVALS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_CHARACTER",
+				"Name": "TEXT_BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_CHARACTER",
+				"iLegitimacy": "3"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_RELIGION",
+				"AmbitionReligion": "GOAL_DIVINE_RULE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_1_CHARACTER",
+				"aiRatings": {
+					"Pair": {
+						"zIndex": "RATING_COURAGE",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_CIVICS",
+				"Ambition": "GOAL_CIVICS_2000",
+				"aeBonuses": {
+					"zValue": "BONUS_STONE_LOSS_AVERAGE"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_CIVICS_CITY",
+				"AddImprovement": "IMPROVEMENT_LIBRARY_1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_ACOLYTES",
+				"Ambition": "GOAL_TWO_ACOYLTES",
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_CULTURE_GAIN_LARGE",
+						"BONUS_CIVICS_LOSS_SMALL"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+				"Name": "TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+				"iLegitimacy": "1"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_GROWING_AMBITIONS_NO",
+				"Name": "TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_DEVELOPING_AMBITIONS_NO",
+				"Name": "TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+				"iLegitimacy": "3"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_ULTIMATE_AMBITIONS_NO",
+				"Name": "TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+				"iLegitimacy": "4"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_FAMILY_AMBITIONS_NO_FAMILY",
+				"MemoryFamily": "MEMORYFAMILY_REFUSED_AMBITION"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_FAMILY_AMBITIONS_TWO_NO_FAMILY_0",
+				"MemoryFamily": "MEMORYFAMILY_REFUSED_AMBITION"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_FAMILY_AMBITIONS_TWO_NO_FAMILY_1",
+				"MemoryFamily": "MEMORYFAMILY_REFUSED_AMBITION"
 			},
 			{
 				"beginGroup": "Tutorial",
@@ -26174,29 +27953,23 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_SLAVERY_VERSION_OPTION_0",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_STONE",
-						"iValue": "10"
-					}
-				},
 				"aeAddTraits": {
 					"zValue": "TRAIT_CRUEL"
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_STONE_GAIN_AVERAGE"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_SLAVERY_VERSION_OPTION_1",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_FOOD",
-						"iValue": "-20"
-					}
-				},
 				"aiRatings": {
 					"Pair": {
 						"zIndex": "RATING_WISDOM",
 						"iValue": "1"
 					}
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_FOOD_LOSS_AVERAGE"
 				}
 			},
 			{
@@ -26212,95 +27985,60 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_SLAVERY_VERSION_OPTION_3",
-				"aiCityYields": {
-					"Pair": {
-						"zIndex": "YIELD_DISCONTENT",
-						"iValue": "40"
-					}
+				"aeBonuses": {
+					"zValue": "BONUS_DISCONTENT_GAIN_SMALL"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_FREEDOM_VERSION_OPTION_0",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_STONE",
-						"iValue": "50"
-					}
+				"aeBonuses": {
+					"zValue": "BONUS_STONE_GAIN_AVERAGE"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_FREEDOM_VERSION_OPTION_1",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_MONEY",
-						"iValue": "-100"
-					}
-				},
 				"aeBonuses": {
-					"zValue": "BONUS_SCIENCE_GAIN_SMALL"
+					"zValue": [
+						"BONUS_SCIENCE_GAIN_SMALL",
+						"BONUS_MONEY_LOSS_SMALL"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_FREEDOM_VERSION_OPTION_2",
 				"Name": "TEXT_BONUS_EVENTOPTION_DINOSAUR_BONES_FREEDOM_VERSION_OPTION_2",
 				"iLegitimacy": "4",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_TRAINING",
-						"iValue": "100"
-					}
-				},
 				"aeAddTraits": {
 					"zValue": "TRAIT_EXTRAVAGANT"
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_TRAINING_GAIN_AVERAGE"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_EXPLORATION_VERSION_OPTION_0",
-				"aiGlobalYieldsBase": {
-					"Pair": {
-						"zIndex": "YIELD_ORDERS",
-						"iValue": "5"
-					}
-				},
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_SCOUT",
 						"iValue": "1"
 					}
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_ORDERS_GAIN_SMALL"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_EXPLORATION_VERSION_OPTION_2",
-				"aiGlobalYieldsBase": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_TRAINING",
-							"iValue": "-50"
-						},
-						{
-							"zIndex": "YIELD_IRON",
-							"iValue": "-50"
-						}
-					]
-				},
 				"aeBonuses": {
-					"zValue": "BONUS_UNITCLASS_HEAVY_INFANTRY"
+					"zValue": [
+						"BONUS_UNITCLASS_HEAVY_INFANTRY",
+						"BONUS_IRON_LOSS_SMALL",
+						"BONUS_TRAINING_LOSS_SMALL"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_LITERATURE_VERSION_OPTION_0",
-				"aiGlobalYieldsBase": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_FOOD",
-							"iValue": "-50"
-						},
-						{
-							"zIndex": "YIELD_IRON",
-							"iValue": "-50"
-						}
-					]
-				},
 				"aiBonusUnits": {
 					"Pair": [
 						{
@@ -26312,21 +28050,24 @@
 							"iValue": "1"
 						}
 					]
+				},
+				"aeBonuses": {
+					"zValue": [
+						"BONUS_FOOD_LOSS_AVERAGE",
+						"BONUS_IRON_LOSS_AVERAGE"
+					]
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_DINOSAUR_BONES_LITERATURE_VERSION_OPTION_1",
-				"aiCityYields": {
-					"Pair": {
-						"zIndex": "YIELD_CULTURE",
-						"iValue": "20"
-					}
-				},
 				"aiBonusUnits": {
 					"Pair": {
 						"zIndex": "BONUSUNITCLASS_MELEE_CAVALRY",
 						"iValue": "1"
 					}
+				},
+				"aeBonuses": {
+					"zValue": "BONUS_CULTURE_GAIN_SMALL"
 				}
 			},
 			{
@@ -27284,12 +29025,14 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CULTURE_SHOOTING_STAR_OPTION_1",
+				"Ambition": "GOAL_REDEMPTION",
 				"aeAddTraits": {
 					"zValue": "TRAIT_GRACIOUS"
 				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CULTURE_SHOOTING_STAR_OPTION_2",
+				"Ambition": "GOAL_PROFESSIONAL_ARMY",
 				"aeAddTraits": {
 					"zValue": "TRAIT_FIERCE"
 				}
@@ -27956,10 +29699,6 @@
 				"iLegitimacy": "-2"
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_1_TRIBE",
-				"MemoryTribe": "MEMORYTRIBE_SMUGGLED_SPIES"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_2_PLAYER",
 				"MemoryPlayer": "MEMORYPLAYER_FOREIGN_INTRUSION",
 				"bRevealTerritory": "1"
@@ -28185,7 +29924,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_BAD_BLOOD_OPTION_1_CHARACTER_1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				},
 				"aeBonuses": {
 					"zValue": "BONUS_GAIN_WISDOM_1"
@@ -28510,11 +30249,19 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_0_RELIGION_0",
-				"MemoryReligion": "MEMORYRELIGION_PLACED_SECURITY"
+				"MemoryReligion": "MEMORYRELIGION_PROTECTED_STREETS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_1_RELIGION_1",
-				"MemoryReligion": "MEMORYRELIGION_PLACED_SECURITY"
+				"MemoryReligion": "MEMORYRELIGION_PROTECTED_STREETS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_3_RELIGION_0",
+				"MemoryReligion": "MEMORYRELIGION_IMPRESSED_PRIESTS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_3_RELIGION_1",
+				"MemoryReligion": "MEMORYRELIGION_IMPRESSED_PRIESTS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_2_CITY",
@@ -28574,14 +30321,6 @@
 				"MemoryReligion": "MEMORYRELIGION_SPREAD_NO"
 			},
 			{
-				"zType": "BONUS_EVENTSTORY_ZOROASTRIANISM_FOUNDED",
-				"FoundReligion": "RELIGION_ZOROASTRIANISM"
-			},
-			{
-				"zType": "BONUS_EVENTSTORY_JUDAISM_FOUNDED",
-				"FoundReligion": "RELIGION_JUDAISM"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_ZOROASTRIANISM_TEMPLES_YES",
 				"Ambition": "GOAL_SIX_TEMPLES_ZOROASTRIANISM"
 			},
@@ -28599,7 +30338,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_GUARDIAN_FIRE_YES",
-				"Ambition": "GOAL_HOLY_SITE_ZOROASTRIANISM"
+				"AmbitionReligion": "GOAL_HOLY_SITE_ZOROASTRIANISM"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HOLY_ARMY_YES",
@@ -28607,11 +30346,11 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HOLY_CITY_FESTIVALS",
-				"Ambition": "GOAL_SIX_FESTIVALS"
+				"AmbitionFamily": "GOAL_SIX_FESTIVALS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HOLY_CITY_PRIESTS",
-				"Ambition": "GOAL_TWO_PRIESTS"
+				"AmbitionReligion": "GOAL_TWO_PRIESTS"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CHARACTER_CREATURES_OF_THE_COAST_OPTION_0_CHARACTER_1",
@@ -28867,6 +30606,12 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_2_CHARACTER_1",
+				"aeAddTraits": {
+					"zValue": "TRAIT_ELOQUENT"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_3_CHARACTER_1",
 				"Name": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_2_CHARACTER_1",
 				"iLegitimacy": "2"
 			},
@@ -28944,15 +30689,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0_CHARACTER_1",
-				"Name": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0_CHARACTER_1",
-				"iLegitimacy": "2"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_1_CHARACTER_1",
-				"FreeLaw": "LAW_FREEDOM"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0_CHARACTER_1",
 				"Name": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0_CHARACTER_1",
 				"iLegitimacy": "2"
@@ -28981,8 +30717,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_PROOF_OF_FRIENDSHIP_OPTION_2_CHARACTER_0",
-				"AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY",
-				"iBorderGrowth": "2"
+				"AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_RELATIONSHIP_PROOF_OF_FRIENDSHIP_OPTION_3_CHARACTER_0",
@@ -29043,7 +30778,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_THE_RUNAWAY_PRINCE_OPTION_2_PLAYER_1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				}
 			},
 			{
@@ -29309,7 +31044,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_THE_POX_SPREADS_OPTION_0_PLAYER",
-				"AddCourtierForce": {
+				"AddCourtier": {
 					"Pair": {
 						"zIndex": "COURTIER_SCIENTIST",
 						"zValue": "GENDER_FEMALE"
@@ -29897,7 +31632,7 @@
 			{
 				"zType": "BONUS_EVENTOPTION_FAILED_ASSASSINATION_OPTION_0_CHARACTER_1",
 				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
+					"zValue": "TRAIT_DEALMAKER"
 				},
 				"aeBonuses": {
 					"zValue": "BONUS_MONEY_LOSS_SMALL"
@@ -30022,7 +31757,7 @@
 					"zValue": [
 						"TRAIT_TRACKER",
 						"TRAIT_TOUGH",
-						"TRAIT_CUNNING"
+						"TRAIT_DEALMAKER"
 					]
 				}
 			},
@@ -30458,7 +32193,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TREACHERY_STEAL_AWAY_OPTION_GUEST_COURTIER",
-				"AddCourtierForce": {
+				"AddCourtier": {
 					"Pair": {
 						"zIndex": "COURTIER_MINISTER",
 						"zValue": {
@@ -30666,7 +32401,7 @@
 				"zType": "BONUS_EVENTOPTION_INFLUENCE_ABUSE_AND_RIDICULE_OPTION_1_CHARACTER_2",
 				"aeRandomTrait": {
 					"zValue": [
-						"TRAIT_CUNNING",
+						"TRAIT_DEALMAKER",
 						"TRAIT_TIMID"
 					]
 				},
@@ -30975,21 +32710,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_FULL_OF_IDEAS_OPTION_2_CHARACTER_2",
-				"aeAddProjects": {
-					"zValue": "PROJECT_SCIENTIFIC_METHOD"
-				}
-			},
-			{
-				"zType": "BONUS_EVENTSTORY_BLINDED_BY_THE_LIGHT_CHARACTER_0",
-				"aeAddTraits": {
-					"zValue": [
-						"TRAIT_BLINDED",
-						"TRAIT_CRIPPLED"
-					]
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_BLINDED_BY_THE_LIGHT_OPTION_0_RELIGION",
 				"MemoryReligion": "MEMORYRELIGION_PROTECTED_PRACTITIONERS"
 			},
@@ -31162,13 +32882,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_TROOPS_RANSACK_OPTION_1_CITY",
-				"iDestroyImprovements": "3",
-				"aeBonuses": {
-					"zValue": "BONUS_LOSE_CITIZEN_2"
-				}
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_TROOPS_RANSACK_OPTION_1_LEADER",
 				"Name": "TEXT_BONUS_EVENTOPTION_TROOPS_RANSACK_OPTION_1_LEADER",
 				"iLegitimacy": "2"
@@ -31216,31 +32929,17 @@
 			{
 				"zType": "BONUS_EVENTOPTION_AMBASSADOR_TRIBE_PEACE_MISSION",
 				"Mission": "MISSION_TRIBE_PEACE",
-				"iMissionSubject": "1",
-				"bMissionFree": "1"
+				"iMissionSubject": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_AMBASSADOR_PEACE_MISSION",
 				"Mission": "MISSION_PLAYER_PEACE",
-				"iMissionSubject": "1",
-				"bMissionFree": "1"
+				"iMissionSubject": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_HIGH_SYNOD_PEACE_MISSION",
 				"Mission": "MISSION_PLAYER_PEACE",
-				"iMissionSubject": "1",
-				"bMissionFree": "1"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_MEDDLING_CHANCELLOR_COURTIER",
-				"AddCourtier": {
-					"Pair": {
-						"zIndex": "COURTIER_MINISTER",
-						"zValue": {
-							
-						}
-					}
-				}
+				"iMissionSubject": "1"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_MEDDLING_SPYMASTER_INFILTRATE",
@@ -31249,12 +32948,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SUSPICIOUS_OF_NEIGHBOR_INFILTRATE",
-				"Mission": "MISSION_INFILTRATE",
-				"iMissionSubject": "2",
-				"bMissionFree": "1"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_PLOTTING_NEIGHBOR_INFILTRATE",
 				"Mission": "MISSION_INFILTRATE",
 				"iMissionSubject": "2",
 				"bMissionFree": "1"
@@ -31682,7 +33375,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTSTORY_CHARIOT_DIPLOMACY_CHARACTER_2",
+				"zType": "BONUS_EVENTSTORY_CHARIOT_DIPLOMACY",
 				"iSeizeThroneSubject": "0"
 			},
 			{
@@ -31990,7 +33683,7 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_FIFTH_COLUMN_TRICK_CITY",
-				"iHPCity": "20"
+				"iHPCityPercent": "100"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_CENTERS_OF_LEARNING_SPECIALIST_CITY_0",
@@ -32636,7 +34329,6 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_0_PLAYER",
-				"FreeLaw": "LAW_MONOTHEISM",
 				"aeBonuses": {
 					"zValue": [
 						"BONUS_FOOD_GAIN_AVERAGE",
@@ -32647,26 +34339,13 @@
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_0_CHARACTER",
-				"MemoryAllFamilies": "REFORMED_RELIGION_ATENISM",
 				"aeAddTraits": {
 					"zValue": "TRAIT_AMARNA_REFORMER"
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_1_PLAYER",
-				"aeBonuses": {
-					"zValue": [
-						"BONUS_FOOD_GAIN_AVERAGE",
-						"BONUS_MONEY_GAIN_SMALL",
-						"BONUS_WOOD_GAIN_TINY"
-					]
-				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_1_CHARACTER",
-				"aeBonuses": {
-					"zValue": "BONUS_GAIN_WISDOM_1"
-				}
+				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_0_RELIGION",
+				"MemoryReligion": "MEMORYRELIGION_AMARNA_REFORMER"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_SIGN_FROM_ATEN_OPTION_2_CHARACTER",
@@ -32751,12 +34430,6 @@
 			{
 				"zType": "BONUS_EVENTSTORY_ATENISM_PLOT_SUCCEEDS_KILL",
 				"bKillCharacter": "1"
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_ATENISM_PLOT_UNCOVERED_PUNISH_CHARACTER_0",
-				"aeAddTraits": {
-					"zValue": "TRAIT_STRICT"
-				}
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_ATENISM_PLOT_UNCOVERED_PUNISH_CHARACTER_1",
@@ -33327,9 +35000,6 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTOPTION_A_SCHOLAR_DENOUNCED"
-			},
-			{
 				"zType": "BONUS_EVENTOPTION_CULINARY_ESCAPADES_0",
 				"MemoryAllFamilies": "MEMORYFAMILY_IMPRESSED_BY_CHEF",
 				"aeBonuses": {
@@ -33356,9 +35026,6 @@
 				"aeBonuses": {
 					"zValue": "BONUS_GAIN_WISDOM_1"
 				}
-			},
-			{
-				"zType": "BONUS_EVENTOPTION_TRIBAL_TRAINING_0"
 			},
 			{
 				"zType": "BONUS_EVENTOPTION_TRIBAL_TRAINING_1",
@@ -33414,8 +35081,186 @@
 			},
 			{
 				"zType": "BONUS_PURPLE_FAMILY",
-				"Name": "TEXT_BONUS_PURPLE_FAMILY",
 				"MemoryFamily": "BONUS_PERMITTED_PURPLE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WAYWARD_SON_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WAYWARD_SON_PLAYER",
+				"Name": "TEXT_BONUS_EVENTOPTION_WAYWARD_SON_PLAYER",
+				"iLegitimacy": "2"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WAYWARD_SON_CHARMED",
+				"MemoryPlayer": "MEMORYPLAYER_RETURNED_WAYWARD_SON",
+				"aiYieldsTradeBase": {
+					"Pair": [
+						{
+							"zIndex": "YIELD_CIVICS",
+							"iValue": "200"
+						},
+						{
+							"zIndex": "YIELD_SCIENCE",
+							"iValue": "20"
+						}
+					]
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WARRIOR_OF_NATION_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WARRIOR_OF_NATION_KILL",
+				"MemoryPlayer": "MEMORYPLAYER_WARRIOR_OF_NATION_KILL"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_WARRIOR_OF_NATION_BLOODTHIRSTY",
+				"Ambition": "GOAL_5_KILLS_GENERAL",
+				"aeAddTraits": {
+					"zValue": "TRAIT_BLOODTHIRSTY"
+				}
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TAKING_UP_A_HOBBY_HOSTAGE",
+				"MemoryPlayer": "MEMORYPLAYER_HOLD_HOSTAGE"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_TAKING_UP_A_HOBBY_GOAL",
+				"Ambition": "GOAL_FOUR_AGENT_NETWORKS"
+			},
+			{
+				"zType": "BONUS_EVENTOPTION_SPOUSE_TOO_HELPFUL",
+				"MemoryCharacter": "MEMORYCHARACTER_SPOUSE_TOO_HELPFUL"
+			},
+			{
+				"zType": "BONUS_STRANGE_ART",
+				"Ambition": "GOAL_FIVE_DEVELOPING",
+				"aeBonuses": {
+					"zValue": "BONUS_CULTURE_GAIN_AVERAGE"
+				}
+			},
+			{
+				"zType": "BONUS_WISE_MAN_WAR",
+				"Ambition": "GOAL_SIX_BARRACKS_RANGES",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_COURAGE_1"
+				}
+			},
+			{
+				"zType": "BONUS_WISE_MAN_TRADE",
+				"Ambition": "GOAL_TWO_CARAVANS",
+				"aeBonuses": {
+					"zValue": "BONUS_MONEY_GAIN_LARGE"
+				}
+			},
+			{
+				"zType": "BONUS_WISE_MAN_NONE",
+				"aeRandomTrait": {
+					"zValue": [
+						"TRAIT_BOLD",
+						"TRAIT_FOOLISH",
+						"TRAIT_PROUD"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_DILIGENT_CLERK_MONEY",
+				"Ambition": "GOAL_MONEY_2000"
+			},
+			{
+				"zType": "BONUS_DILIGENT_CLERK_CIVICS",
+				"Ambition": "GOAL_CIVICS_2000"
+			},
+			{
+				"zType": "BONUS_GIFTED_INVENTOR_SCIENTIFIC_METHOD",
+				"aeAddProjects": {
+					"zValue": "PROJECT_SCIENTIFIC_METHOD"
+				}
+			},
+			{
+				"zType": "BONUS_GIFTED_INVENTOR_THINKER",
+				"Ambition": "GOAL_FOUR_LIBRARY_1"
+			},
+			{
+				"zType": "BONUS_GIFTED_INVENTOR_ENGINEER",
+				"Ambition": "GOAL_ENGINEERING"
+			},
+			{
+				"zType": "BONUS_HORSING_GOAL",
+				"Ambition": "GOAL_FIVE_MOUNTED",
+				"aeBonuses": {
+					"zValue": "BONUS_TRAINING_GAIN_LARGE"
+				}
+			},
+			{
+				"zType": "BONUS_SEEING_SERPENTS_SCARY",
+				"Ambition": "GOAL_FIVE_NAVAL",
+				"aeAddTraits": {
+					"zValue": "TRAIT_VIGILANT"
+				}
+			},
+			{
+				"zType": "BONUS_WINTERS_TO_COME_SAVE",
+				"Ambition": "GOAL_WOOD_400",
+				"aeAddTraits": {
+					"zValue": "TRAIT_INTELLIGENT"
+				}
+			},
+			{
+				"zType": "BONUS_WINTERS_TO_COME_INFLUENCED",
+				"AddLeaderRelationship": "RELATIONSHIP_INFLUENCED_BY"
+			},
+			{
+				"zType": "BONUS_THE_OPEN_AIR_PLAN",
+				"Ambition": "GOAL_SIX_PASTURES",
+				"aeAddTraits": {
+					"zValue": "TRAIT_PROSPEROUS"
+				}
+			},
+			{
+				"zType": "BONUS_THE_OPEN_AIR_PROJECT",
+				"aeAddProjects": {
+					"zValue": "PROJECT_ATHLETICS_EQUESTRIAN"
+				}
+			},
+			{
+				"zType": "BONUS_THE_SPORT_OF_KINGS_FAVOR",
+				"MemoryFamily": "MEMORYFAMILY_PROMISED_SERFDOM"
+			},
+			{
+				"zType": "BONUS_THE_SPORT_OF_KINGS_DISFAVOR",
+				"MemoryFamily": "MEMORYFAMILY_SUPPORTED_PEASANTS"
+			},
+			{
+				"zType": "BONUS_THE_SPORT_OF_KINGS_AGREE_SERFDOM",
+				"Ambition": "GOAL_SERFDOM"
+			},
+			{
+				"zType": "BONUS_THE_SPORT_OF_KINGS_DISAGREE_CAMPS",
+				"Ambition": "GOAL_SIX_CAMPS",
+				"aeAddTraits": {
+					"zValue": "TRAIT_BUILDER_ARCHETYPE"
+				}
+			},
+			{
+				"zType": "BONUS_THE_SPORT_OF_KINGS_WAFFLE",
+				"aeRandomTrait": {
+					"zValue": [
+						"TRAIT_AFFABLE",
+						"TRAIT_DRUNK",
+						"TRAIT_GRACIOUS"
+					]
+				}
+			},
+			{
+				"zType": "BONUS_SEA_FOR_OURSELVES_EXPAND",
+				"Ambition": "GOAL_SIX_NETS",
+				"aeBonuses": {
+					"zValue": "BONUS_GAIN_WISDOM_1"
+				}
 			}
 		]
 	}

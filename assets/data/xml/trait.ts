@@ -15,7 +15,13 @@
         "Description": {
           
         },
+        "Title": {
+          
+        },
         "Nickname": {
+          
+        },
+        "GenderedNicknames": {
           
         },
         "GainTexts": {
@@ -96,6 +102,12 @@
         "iBirthModifier": {
           
         },
+        "iFamilyHeadModifier": {
+          
+        },
+        "iReligionHeadModifier": {
+          
+        },
         "iTribeAllianceModifier": {
           
         },
@@ -120,7 +132,7 @@
         "bWeakness": {
           
         },
-        "bNickname": {
+        "bForceNickname": {
           
         },
         "bDisplay": {
@@ -144,7 +156,13 @@
         "bNoBirth": {
           
         },
-        "bNoHeir": {
+        "bNoSuccession": {
+          
+        },
+        "bNoSuccessionChildren": {
+          
+        },
+        "bDoBypass": {
           
         },
         "bNoJob": {
@@ -207,6 +225,9 @@
         "MemoryCharacter": {
           
         },
+        "Religion": {
+          
+        },
         "aiRating": {
           
         },
@@ -214,6 +235,12 @@
           
         },
         "aiTraitProb": {
+          
+        },
+        "aiReligionOpinion": {
+          
+        },
+        "aiFamilyClassOpinion": {
           
         },
         "aiLawOpinion": {
@@ -236,6 +263,18 @@
         }
       },
       {
+        "zType": "TRAIT_PRESET_ARCHETYPE",
+        "Name": "TEXT_TRAIT_PRESET_ARCHETYPE"
+      },
+      {
+        "zType": "TRAIT_RANDOM_ARCHETYPE",
+        "Name": "TEXT_TRAIT_RANDOM_ARCHETYPE"
+      },
+      {
+        "zType": "TRAIT_PICK_LATER_ARCHETYPE",
+        "Name": "TEXT_TRAIT_PICK_LATER_ARCHETYPE"
+      },
+      {
         "zType": "TRAIT_HERO_ARCHETYPE",
         "Name": "TEXT_TRAIT_HERO_ARCHETYPE",
         "GenderedNames": {
@@ -245,11 +284,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_HERO",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iBarbDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "3",
+        "iOpinionSame": "60",
         "iOpinionProximity": "-40",
         "iTruceModifier": "-50",
         "iWarModifier": "50",
@@ -288,11 +333,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_COMMANDER_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HERO_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_COMMANDER",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iBarbDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "3",
+        "iOpinionSame": "60",
         "iOpinionGenerals": "-40",
         "iTruceModifier": "-50",
         "iWarModifier": "50",
@@ -336,11 +387,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_TACTICIAN_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TACTICIAN_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_TACTICIAN",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iBarbDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "3",
+        "iOpinionSame": "60",
         "iOpinionStrength": "-40",
         "iTruceModifier": "-50",
         "iWarModifier": "50",
@@ -384,12 +441,19 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ZEALOT_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ZEALOT_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_ZEALOT",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iBarbDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "2",
+        "iOpinionSame": "60",
         "iOpinionReligion": "-40",
+        "iReligionHeadModifier": "10",
         "iTruceModifier": "-50",
         "iWarModifier": "50",
         "bArchetype": "1",
@@ -432,13 +496,20 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SCHEMER_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SCHEMER_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_SCHEMER",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iBarbDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "2",
+        "iOpinionSame": "60",
         "iOpinionCognomen": "-40",
         "iAgentModifier": "20",
+        "iFamilyHeadModifier": "10",
         "iTribeAllianceModifier": "50",
         "iAllianceModifier": "50",
         "iPeaceModifier": "50",
@@ -486,10 +557,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ORATOR_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ORATOR_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_ORATOR",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "1",
+        "iOpinionSame": "60",
         "iOpinionGovernors": "-40",
         "iPeaceModifier": "50",
         "bArchetype": "1",
@@ -531,10 +609,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DIPLOMAT_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DIPLOMAT_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_DIPLOMAT",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "1",
+        "iOpinionSame": "60",
         "iOpinionTrades": "-40",
         "iPeaceModifier": "50",
         "bArchetype": "1",
@@ -570,10 +655,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_JUDGE_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_JUDGE_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_JUDGE",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "1",
+        "iOpinionSame": "60",
         "iOpinionLaws": "-40",
         "iTruceModifier": "25",
         "iWarModifier": "-25",
@@ -616,10 +708,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BUILDER_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BUILDER_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_BUILDER",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "1",
+        "iOpinionSame": "60",
         "iOpinionWonders": "-40",
         "iTruceModifier": "25",
         "iWarModifier": "-25",
@@ -656,10 +755,17 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SCHOLAR_ARCHETYPE_NICKNAME_F"
+          }
+        },
         "zIconName": "TRAIT_SCHOLAR",
         "iMinAge": "12",
         "iNoFamilyDie": "1",
-        "iOpinionSame": "40",
+        "iBarbDie": "1",
+        "iOpinionSame": "60",
         "iOpinionKnowledge": "-40",
         "iTruceModifier": "25",
         "iWarModifier": "-25",
@@ -696,6 +802,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_AFFABLE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_AFFABLE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_AFFABLE_GAIN_1",
@@ -705,6 +817,7 @@
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
+        "iFamilyHeadModifier": "10",
         "bStrength": "1",
         "bUpgrade": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_AFFABLE",
@@ -735,6 +848,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_CRUEL_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CRUEL_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_CRUEL_GAIN_1",
@@ -771,6 +890,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ELOQUENT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ELOQUENT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_ELOQUENT_GAIN_1",
@@ -807,6 +932,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_INTOLERANT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INTOLERANT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_INTOLERANT_GAIN_1",
@@ -842,6 +973,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_WARLIKE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WARLIKE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_WARLIKE_GAIN_1",
@@ -882,6 +1019,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SLOTHFUL_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SLOTHFUL_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_SLOTHFUL_GAIN_1",
@@ -920,6 +1063,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_INSPIRING_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INSPIRING_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_INSPIRING_GAIN_1",
@@ -957,6 +1106,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_UNCOUTH_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_UNCOUTH_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_UNCOUTH_GAIN_1",
@@ -992,6 +1147,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_INTELLIGENT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INTELLIGENT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_INTELLIGENT_GAIN_1",
@@ -1031,6 +1192,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_FOOLISH_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FOOLISH_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_FOOLISH_GAIN_1",
@@ -1069,6 +1236,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_PROSPEROUS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PROSPEROUS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_PROSPEROUS_GAIN_1",
@@ -1106,6 +1279,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_EXTRAVAGANT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXTRAVAGANT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_EXTRAVAGANT_GAIN_1",
@@ -1142,6 +1321,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_FRUGAL_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FRUGAL_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_FRUGAL_GAIN_1",
@@ -1178,6 +1363,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_CORRUPT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CORRUPT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_CORRUPT_GAIN_1",
@@ -1187,6 +1378,7 @@
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "40",
+        "iFamilyHeadModifier": "10",
         "bWeakness": "1",
         "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CORRUPT",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_CORRUPT",
@@ -1213,6 +1405,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_RIGHTEOUS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RIGHTEOUS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_RIGHTEOUS_GAIN_1",
@@ -1249,6 +1447,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DEBAUCHED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DEBAUCHED_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_DEBAUCHED_GAIN_1",
@@ -1287,6 +1491,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ROBUST_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ROBUST_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_ROBUST_GAIN_1",
@@ -1311,6 +1521,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_VIGILANT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_VIGILANT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_VIGILANT_GAIN_1",
@@ -1338,6 +1554,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_STRICT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STRICT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_STRICT_GAIN_1",
@@ -1366,6 +1588,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_EQUESTRIAN_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EQUESTRIAN_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_EQUESTRIAN_GAIN_1",
@@ -1391,6 +1619,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_CARPENTER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CARPENTER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CARPENTER_GAIN_1"
         },
@@ -1412,6 +1646,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_PATHFINDER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PATHFINDER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PATHFINDER_GAIN_1"
         },
@@ -1433,6 +1673,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_CULTIVATOR_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CULTIVATOR_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CULTIVATOR_GAIN_1"
         },
@@ -1454,6 +1700,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_NATURALIST_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_NATURALIST_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_NATURALIST_GAIN_1"
         },
@@ -1475,6 +1727,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DELVER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DELVER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_DELVER_GAIN_1"
         },
@@ -1496,6 +1754,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DEALMAKER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DEALMAKER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_DEALMAKER_GAIN_1",
@@ -1505,8 +1769,10 @@
         "iMinAge": "10",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
+        "iFamilyHeadModifier": "10",
         "bStrength": "1",
         "bUpgrade": "1",
+        "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_DEALMAKER",
         "GovernorEffectCity": "EFFECTCITY_TRAIT_DEALMAKER"
       },
       {
@@ -1519,6 +1785,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_TRACKER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TRACKER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TRACKER_GAIN_1"
         },
@@ -1541,6 +1813,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SWIFT_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SWIFT_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SWIFT_GAIN_1"
         },
@@ -1563,6 +1841,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BESIEGER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BESIEGER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BESIEGER_GAIN_1"
         },
@@ -1585,6 +1869,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_TOUGH_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TOUGH_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TOUGH_GAIN_1"
         },
@@ -1607,6 +1897,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BLOODTHIRSTY_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLOODTHIRSTY_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_BLOODTHIRSTY_GAIN_1",
@@ -1632,6 +1928,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HECKLER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HECKLER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HECKLER_GAIN_1"
         },
@@ -1654,6 +1956,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_STEADFAST_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_STEADFAST_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_STEADFAST_GAIN_1"
         },
@@ -1676,6 +1984,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HERBALIST_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HERBALIST_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HERBALIST_GAIN_1"
         },
@@ -1698,6 +2012,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HIGHLANDER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HIGHLANDER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HIGHLANDER_GAIN_1"
         },
@@ -1720,6 +2040,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_RANGER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RANGER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_RANGER_GAIN_1"
         },
@@ -1742,6 +2068,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BRAVE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BRAVE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BRAVE_GAIN_1"
         },
@@ -1767,6 +2099,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SHIELDBEARER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SHIELDBEARER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SHIELDBEARER_GAIN_1"
         },
@@ -1789,6 +2127,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_FIERCE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FIERCE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_FIERCE_GAIN_1"
         },
@@ -1814,6 +2158,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HORSEBANE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HORSEBANE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HORSEBANE_GAIN_1"
         },
@@ -1836,6 +2186,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ENGINEER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ENGINEER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_ENGINEER_GAIN_1"
         },
@@ -1858,6 +2214,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BOLD_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BOLD_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BOLD_GAIN_1"
         },
@@ -1875,6 +2237,12 @@
           "Pair": {
             "zIndex": "TRAIT_TIMID",
             "iValue": "-20"
+          }
+        },
+        "aiFamilyClassOpinion": {
+          "Pair": {
+            "zIndex": "FAMILYCLASS_CHAMPIONS",
+            "iValue": "10"
           }
         },
         "aeTraitInvalid": {
@@ -1897,6 +2265,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_TIMID_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_TIMID_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_TIMID_GAIN_1"
         },
@@ -1936,6 +2310,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_GRACIOUS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GRACIOUS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_GRACIOUS_GAIN_1"
         },
@@ -1972,6 +2352,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_GREEDY_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GREEDY_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_GREEDY_GAIN_1"
         },
@@ -2008,6 +2394,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_ROMANTIC_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_ROMANTIC_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_ROMANTIC_GAIN_1"
         },
@@ -2042,6 +2434,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BITTER_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BITTER_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BITTER_GAIN_1"
         },
@@ -2075,6 +2473,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_EDUCATED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EDUCATED_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_EDUCATED_GAIN_1"
         },
@@ -2114,6 +2518,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SUPERSTITIOUS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SUPERSTITIOUS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SUPERSTITIOUS_GAIN_1"
         },
@@ -2154,6 +2564,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_COMPASSIONATE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_COMPASSIONATE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_COMPASSIONATE_GAIN_1"
         },
@@ -2197,6 +2613,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_RUTHLESS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_RUTHLESS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_RUTHLESS_GAIN_1"
         },
@@ -2240,12 +2662,19 @@
           }
         },
         "Nickname": "TEXT_TRAIT_PIOUS_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PIOUS_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PIOUS_GAIN_1"
         },
         "iMinAge": "7",
         "iAdjectiveDie": "1",
         "iOpinionSame": "20",
+        "iReligionHeadModifier": "10",
         "bStrength": "1",
         "aiRating": {
           "Pair": [
@@ -2282,6 +2711,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_WANTON_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WANTON_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_WANTON_GAIN_1"
         },
@@ -2325,6 +2760,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_LOYAL_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_LOYAL_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_LOYAL_GAIN_1"
         },
@@ -2361,6 +2802,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DECEITFUL_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DECEITFUL_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_DECEITFUL_GAIN_1"
         },
@@ -2397,6 +2844,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_HUMBLE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_HUMBLE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_HUMBLE_GAIN_1"
         },
@@ -2436,6 +2889,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_PROUD_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_PROUD_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_PROUD_GAIN_1"
         },
@@ -2443,7 +2902,7 @@
         "iAdjectiveDie": "1",
         "iBarbDie": "1",
         "iOpinion": "-40",
-        "bStrength": "1",
+        "bWeakness": "1",
         "aiRating": {
           "Pair": [
             {
@@ -2467,25 +2926,6 @@
         }
       },
       {
-        "zType": "TRAIT_CUNNING",
-        "Name": "TEXT_TRAIT_CUNNING",
-        "GenderedNames": {
-          "Pair": {
-            "First": "GENDER_FEMALE",
-            "Second": "TEXT_TRAIT_CUNNING_F"
-          }
-        },
-        "Nickname": "TEXT_TRAIT_CUNNING_NICKNAME",
-        "GainTexts": {
-          "zValue": "TEXT_TRAIT_CUNNING_GAIN_1"
-        },
-        "iMinAge": "7",
-        "iAdjectiveDie": "1",
-        "iOpinionSame": "20",
-        "bStrength": "1",
-        "LeaderEffectPlayer": "EFFECTPLAYER_TRAIT_CUNNING"
-      },
-      {
         "zType": "TRAIT_WITTY",
         "Name": "TEXT_TRAIT_WITTY",
         "GenderedNames": {
@@ -2495,6 +2935,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_WITTY_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_WITTY_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_WITTY_GAIN_1"
         },
@@ -2525,6 +2971,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SPOILED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SPOILED_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_SPOILED_GAIN_1"
         },
@@ -2549,6 +3001,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_DRUNK_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_DRUNK_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": [
             "TEXT_TRAIT_DRUNK_GAIN_1",
@@ -2577,6 +3035,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_INSANE_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_INSANE_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_INSANE_GAIN_1"
         },
@@ -2612,6 +3076,13 @@
         },
         "Description": "TEXT_TRAIT_BLESSED_DESCRIPTION",
         "Nickname": "TEXT_TRAIT_BLESSED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLESSED_NICKNAME_F"
+          }
+        },
+        "iReligionHeadModifier": "10",
         "bDisplay": "1"
       },
       {
@@ -2625,6 +3096,12 @@
         },
         "Description": "TEXT_TRAIT_CURSED_DESCRIPTION",
         "Nickname": "TEXT_TRAIT_CURSED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CURSED_NICKNAME_F"
+          }
+        },
         "bDisplay": "1"
       },
       {
@@ -2637,6 +3114,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_EXOTIC_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXOTIC_NICKNAME_F"
+          }
+        },
         "iBarbDie": "1",
         "bDisplay": "1",
         "aiRating": {
@@ -2655,6 +3138,7 @@
             "Second": "TEXT_TRAIT_DIVINE_F"
           }
         },
+        "iReligionHeadModifier": "10",
         "bDisplay": "1",
         "aiRating": {
           "Pair": {
@@ -2672,6 +3156,7 @@
             "Second": "TEXT_TRAIT_STUDY_PHILOSOPHY_F"
           }
         },
+        "Description": "TEXT_TRAIT_STUDY_PHILOSOPHY_DESCRIPTION",
         "bDisplay": "1"
       },
       {
@@ -2683,6 +3168,7 @@
             "Second": "TEXT_TRAIT_STUDY_POLITICS_F"
           }
         },
+        "Description": "TEXT_TRAIT_STUDY_POLITICS_DESCRIPTION",
         "bDisplay": "1"
       },
       {
@@ -2694,6 +3180,7 @@
             "Second": "TEXT_TRAIT_STUDY_TACTICS_F"
           }
         },
+        "Description": "TEXT_TRAIT_STUDY_TACTICS_DESCRIPTION",
         "bDisplay": "1"
       },
       {
@@ -2705,6 +3192,7 @@
             "Second": "TEXT_TRAIT_STUDY_COMMERCE_F"
           }
         },
+        "Description": "TEXT_TRAIT_STUDY_COMMERCE_DESCRIPTION",
         "bDisplay": "1"
       },
       {
@@ -2746,9 +3234,10 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
+        "bNoFamilyHead": "1",
         "MemoryCharacter": "MEMORYCHARACTER_IMPRISONED_RECENTLY"
       },
       {
@@ -2765,7 +3254,7 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoFamilyHead": "1"
@@ -2784,11 +3273,10 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
-        "bNoFamilyHead": "1",
-        "bNoReligionHead": "1"
+        "bNoFamilyHead": "1"
       },
       {
         "zType": "TRAIT_UNDER_ASYLUM",
@@ -2804,7 +3292,7 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoFamilyHead": "1"
@@ -2821,7 +3309,7 @@
         "bDisplay": "1",
         "bNoEvents": "1",
         "bNoMissions": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1"
       },
@@ -2840,7 +3328,7 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1"
       },
@@ -2859,7 +3347,7 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoFamilyHead": "1"
@@ -2878,10 +3366,34 @@
         "bNoMissions": "1",
         "bNoMarry": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoFamilyHead": "1"
+      },
+      {
+        "zType": "TRAIT_EXCLUDED",
+        "Name": "TEXT_TRAIT_EXCLUDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_EXCLUDED_F"
+          }
+        },
+        "iOpinion": "-100",
+        "bNoSuccession": "1"
+      },
+      {
+        "zType": "TRAIT_FAMILY_EXCLUDED",
+        "Name": "TEXT_TRAIT_FAMILY_EXCLUDED",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_FAMILY_EXCLUDED_F"
+          }
+        },
+        "iOpinion": "-50",
+        "bNoSuccessionChildren": "1"
       },
       {
         "zType": "TRAIT_INCUBATED",
@@ -3274,6 +3786,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_CRIPPLED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_CRIPPLED_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_CRIPPLED_GAIN_1"
         },
@@ -3290,6 +3808,12 @@
           }
         },
         "Nickname": "TEXT_TRAIT_BLINDED_NICKNAME",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_BLINDED_NICKNAME_F"
+          }
+        },
         "GainTexts": {
           "zValue": "TEXT_TRAIT_BLINDED_GAIN_1"
         },
@@ -3330,8 +3854,10 @@
             "Second": "TEXT_TRAIT_BASTARD_F"
           }
         },
+        "bDisplay": "1",
         "bNoMarry": "1",
-        "bNoHeir": "1"
+        "bNoSuccession": "1",
+        "bDoBypass": "1"
       },
       {
         "zType": "TRAIT_LEGITIMIZED",
@@ -3380,7 +3906,7 @@
         "bDisplay": "1",
         "bNoSpouse": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "aiRating": {
           "Pair": {
@@ -3492,6 +4018,7 @@
             "Second": "TEXT_TRAIT_REGENT_F"
           }
         },
+        "Title": "TITLE_LEADER_REGENT",
         "iOpinionFamily": "40"
       },
       {
@@ -3503,18 +4030,6 @@
             "Second": "TEXT_TRAIT_RIGHTFUL_HEIR_F"
           }
         }
-      },
-      {
-        "zType": "TRAIT_EXCLUDED",
-        "Name": "TEXT_TRAIT_EXCLUDED",
-        "GenderedNames": {
-          "Pair": {
-            "First": "GENDER_FEMALE",
-            "Second": "TEXT_TRAIT_EXCLUDED_F"
-          }
-        },
-        "iOpinion": "-100",
-        "bNoHeir": "1"
       },
       {
         "zType": "TRAIT_SOLDIER",
@@ -3589,10 +4104,16 @@
         "zType": "TRAIT_KING_OF_TYRE",
         "Name": "TEXT_TRAIT_KING_OF_TYRE",
         "Nickname": "TEXT_TRAIT_KING_OF_TYRE_NICKNAME",
-        "bNickname": "1",
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_KING_OF_TYRE_NICKNAME_F"
+          }
+        },
+        "bForceNickname": "1",
         "bDisplay": "1",
         "bNoMissions": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1",
         "bNoReligionHead": "1"
@@ -3664,7 +4185,13 @@
           }
         },
         "Nickname": "TEXT_TRAIT_GODS_CONSORT_NICKNAME",
-        "bNickname": "1"
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_GODS_CONSORT_NICKNAME_F"
+          }
+        },
+        "bForceNickname": "1"
       },
       {
         "zType": "TRAIT_DROUGHT_STRICKEN",
@@ -3693,7 +4220,7 @@
         },
         "bNoEvents": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "aiRating": {
           "Pair": [
             {
@@ -3746,7 +4273,13 @@
           }
         },
         "Nickname": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE_NICKNAME",
-        "bNickname": "1"
+        "GenderedNicknames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_SAVIOR_OF_THE_THRONE_NICKNAME_F"
+          }
+        },
+        "bForceNickname": "1"
       },
       {
         "zType": "TRAIT_SAOSHYANT",
@@ -3787,7 +4320,7 @@
         "bNoMarry": "1",
         "bNoSpouse": "1",
         "bNoBirth": "1",
-        "bNoHeir": "1",
+        "bNoSuccession": "1",
         "bNoJob": "1",
         "bNoCourtier": "1"
       },
@@ -3836,6 +4369,18 @@
             }
           ]
         }
+      },
+      {
+        "zType": "TRAIT_POLITICAL_WARD",
+        "Name": "TEXT_TRAIT_POLITICAL_WARD",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRAIT_POLITICAL_WARD_F"
+          }
+        },
+        "bDisplay": "1",
+        "bNoSuccession": "1"
       }
     ]
   }

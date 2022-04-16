@@ -198,6 +198,9 @@
         "bCanTribeAlliance": {
           
         },
+        "bWarTribeAlliance": {
+          
+        },
         "bFamilySame": {
           
         },
@@ -307,6 +310,9 @@
           
         },
         "bTileAdjacent": {
+          
+        },
+        "bTileRevealed": {
           
         },
         "bNoDebugHelp": {
@@ -515,12 +521,6 @@
         "bCanTeamAlliance": "1"
       },
       {
-        "zType": "SUBJECTRELATION_PLAYER_CAN_ALLIANCE_PEACE",
-        "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
-        "MaxDiplomacyPlayer": "DIPLOMACY_PEACE",
-        "bCanTeamAlliance": "1"
-      },
-      {
         "zType": "SUBJECTRELATION_PLAYER_PEACE_FRIENDLY",
         "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
         "MaxDiplomacyPlayer": "DIPLOMACY_PEACE",
@@ -558,6 +558,11 @@
       {
         "zType": "SUBJECTRELATION_TRIBE_CAN_ALLIANCE",
         "bCanTribeAlliance": "1"
+      },
+      {
+        "zType": "SUBJECTRELATION_TRIBE_WAR_ALLIANCE",
+        "Name": "TEXT_SUBJECTRELATION_TRIBE_WAR_ALLIANCE",
+        "bWarTribeAlliance": "1"
       },
       {
         "zType": "SUBJECTRELATION_TRIBE_PEACE_FRIENDLY",
@@ -918,6 +923,10 @@
         "MaxOpinionReligion": "OPINIONRELIGION_ANGRY"
       },
       {
+        "zType": "SUBJECTRELATION_RELIGION_MIN_PLEASED",
+        "MinOpinionReligion": "OPINIONRELIGION_PLEASED"
+      },
+      {
         "zType": "SUBJECTRELATION_FAMILY_ANGRY",
         "MinOpinionFamily": "OPINIONFAMILY_ANGRY",
         "MaxOpinionFamily": "OPINIONFAMILY_ANGRY"
@@ -975,6 +984,10 @@
         "MaxOpinionCharacter": "OPINIONCHARACTER_FURIOUS"
       },
       {
+        "zType": "SUBJECTRELATION_CHARACTER_MIN_UPSET",
+        "MinOpinionCharacter": "OPINIONCHARACTER_UPSET"
+      },
+      {
         "zType": "SUBJECTRELATION_CHARACTER_MIN_CAUTIOUS",
         "MinOpinionCharacter": "OPINIONCHARACTER_CAUTIOUS"
       },
@@ -1009,6 +1022,11 @@
       {
         "zType": "SUBJECTRELATION_CHARACTER_FURIOUS",
         "MaxOpinionCharacter": "OPINIONCHARACTER_FURIOUS"
+      },
+      {
+        "zType": "SUBJECTRELATION_DISTANCE_1",
+        "iMinDistance": "1",
+        "iMaxDistance": "1"
       },
       {
         "zType": "SUBJECTRELATION_MAX_DISTANCE_10",
@@ -1239,6 +1257,10 @@
         "bTileResource": "1"
       },
       {
+        "zType": "SUBJECTRELATION_TILE_REVEALED",
+        "bTileRevealed": "1"
+      },
+      {
         "zType": "SUBJECTRELATION_CITY_SAME",
         "bCitySame": "1"
       },
@@ -1277,8 +1299,7 @@
       {
         "zType": "SUBJECTRELATION_MISSION_PLAYER_PLAYER_WAR",
         "MinDiplomacyPlayer": "DIPLOMACY_PEACE",
-        "MaxDiplomacyPlayer": "DIPLOMACY_TRUCE",
-        "bPlayerDiff": "1"
+        "MaxDiplomacyPlayer": "DIPLOMACY_TRUCE"
       }
     ]
   }

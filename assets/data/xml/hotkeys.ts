@@ -515,6 +515,12 @@
         "Keys": "F7"
       },
       {
+        "zType": "HOTKEY_STATS_SCREEN",
+        "Name": "TEXT_HOTKEY_STATS_SCREEN",
+        "HotkeyClass": "HOTKEYCLASS_SCREENS",
+        "Keys": "F8"
+      },
+      {
         "zType": "HOTKEY_HELP_SCREEN",
         "Name": "TEXT_HOTKEY_HELP_SCREEN",
         "HotkeyClass": "HOTKEYCLASS_SCREENS",
@@ -614,6 +620,12 @@
         "Name": "TEXT_HOTKEY_AUTO_LOAD",
         "HotkeyClass": "HOTKEYCLASS_SAVES",
         "Keys": "LeftShift+F11,RightShift+F11"
+      },
+      {
+        "zType": "HOTKEY_SCREENSHOT",
+        "Name": "TEXT_HOTKEY_SCREENSHOT",
+        "HotkeyClass": "HOTKEYCLASS_SAVES",
+        "Keys": "F12"
       },
       {
         "zType": "HOTKEY_DEBUG_MENU",

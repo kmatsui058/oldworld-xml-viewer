@@ -10,15 +10,16 @@ export interface Entry {
   zType: ZType | string;
   zName: ZType | string;
   zHelp: ZType | string;
+  EffectPlayer?: ZType | string;
   bDefaultSinglePlayer?: ZType;
   bDefaultMultiPlayer?: ZType | string;
   bSinglePlayer?: ZType | string;
   bMultiPlayer?: ZType | string;
   bDebug?: ZType;
-  DisableWhenActive?: DisableWhenActive;
+  abDisableWhenActive?: AbDisableWhenActive;
 }
-export interface DisableWhenActive {
-  Pair?: Pair | Pair[];
+export interface AbDisableWhenActive {
+  Pair?: Pair;
 }
 export interface Pair {
   zIndex: string;

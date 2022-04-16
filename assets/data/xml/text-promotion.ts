@@ -167,6 +167,10 @@
         "en-US": "Lading"
       },
       {
+        "zType": "TEXT_PROMOTION_MANEUVERS",
+        "en-US": "Maneuvers"
+      },
+      {
         "zType": "TEXT_PROMOTION_INGENUITY",
         "en-US": "Ingenuity"
       },

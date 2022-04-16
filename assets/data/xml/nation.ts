@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GenderedNames": {
+          
+        },
         "TeamColor": {
           
         },
@@ -112,6 +115,12 @@
       {
         "zType": "NATION_ASSYRIA",
         "Name": "TEXT_NATION_ASSYRIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_ASSYRIA_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_ASSYRIA",
         "Crest": "CREST_NATION_ASSYRIA",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -218,9 +227,7 @@
             "CITYNAME_ASSUR",
             "CITYNAME_NINEVEH",
             "CITYNAME_KALHU",
-            "CITYNAME_HALAB",
             "CITYNAME_ARPAD",
-            "CITYNAME_KANESH",
             "CITYNAME_DUR_SHARRUKIN",
             "CITYNAME_QATNA",
             "CITYNAME_HARRAN",
@@ -235,14 +242,9 @@
             "CITYNAME_KAHAT",
             "CITYNAME_GOZAN",
             "CITYNAME_NISIBIS",
-            "CITYNAME_TARSUS",
             "CITYNAME_PTERIA",
             "CITYNAME_RESEN",
             "CITYNAME_KAR_SULMANU_ASAREDU",
-            "CITYNAME_MALIDIYA",
-            "CITYNAME_HAMAT",
-            "CITYNAME_QADESH",
-            "CITYNAME_MELIDDU",
             "CITYNAME_TUSHPA",
             "CITYNAME_GAZA"
           ]
@@ -317,6 +319,12 @@
       {
         "zType": "NATION_BABYLONIA",
         "Name": "TEXT_NATION_BABYLONIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_BABYLONIA_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_BABYLONIA",
         "Crest": "CREST_NATION_BABYLONIA",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -516,6 +524,12 @@
       {
         "zType": "NATION_CARTHAGE",
         "Name": "TEXT_NATION_CARTHAGE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_CARTHAGE_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_CARTHAGE",
         "Crest": "CREST_NATION_CARTHAGE",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -742,6 +756,12 @@
       {
         "zType": "NATION_EGYPT",
         "Name": "TEXT_NATION_EGYPT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_EGYPT_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_EGYPT",
         "Crest": "CREST_NATION_EGYPT",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -874,7 +894,7 @@
             "CITYNAME_AVARIS",
             "CITYNAME_PI_RAMESSES",
             "CITYNAME_PER_SOPDU",
-            "CITYNAME_ELEPHANTINE",
+            "CITYNAME_ABU",
             "CITYNAME_SWENETT",
             "CITYNAME_NUBT",
             "CITYNAME_BEHDET",
@@ -987,6 +1007,12 @@
       {
         "zType": "NATION_GREECE",
         "Name": "TEXT_NATION_GREECE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_GREECE_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_GREECE",
         "Crest": "CREST_NATION_GREECE",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -1259,6 +1285,12 @@
       {
         "zType": "NATION_PERSIA",
         "Name": "TEXT_NATION_PERSIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_PERSIA_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_PERSIA",
         "Crest": "CREST_NATION_PERSIA",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",
@@ -1334,9 +1366,7 @@
             "NAME_TIRIDATES",
             "NAME_VOLOGASES",
             "NAME_XERXES",
-            "NAME_YAZDEGERD",
-            "NAME_DARBAND",
-            "NAME_ASPADANA"
+            "NAME_YAZDEGERD"
           ]
         },
         "aeFirstNamesFemale": {
@@ -1403,7 +1433,9 @@
             "CITYNAME_HORMIRZAD",
             "CITYNAME_TEREDON",
             "CITYNAME_CATURA",
-            "CITYNAME_KOMIS"
+            "CITYNAME_KOMIS",
+            "CITYNAME_DARBAND",
+            "CITYNAME_ASPADANA"
           ]
         },
         "aeCharacterPortraits": {
@@ -1474,6 +1506,12 @@
       {
         "zType": "NATION_ROME",
         "Name": "TEXT_NATION_ROME",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_NATION_ROME_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_NATION_ROME",
         "Crest": "CREST_NATION_ROME",
         "zAttackPortraitName": "ATTACKPREVIEW_CITY",

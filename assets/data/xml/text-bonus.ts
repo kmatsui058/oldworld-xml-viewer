@@ -12,39 +12,39 @@
       },
       {
         "zType": "TEXT_BONUS_FAMILY_SEAT",
-        "en-US": "Founded link(CONCEPT_FAMILY_SEAT)"
+        "en-US": "Founded a link(CONCEPT_FAMILY_SEAT)"
       },
       {
         "zType": "TEXT_BONUS_DISCOVERED_LANDMARK",
-        "en-US": "Landmark Discovered"
+        "en-US": "Discovered a Landmark"
       },
       {
         "zType": "TEXT_BONUS_NAMED_LANDMARK",
-        "en-US": "Landmark Named"
+        "en-US": "Named a Landmark"
       },
       {
-        "zType": "TEXT_BONUS_EVENTPLAYER_LEGITIMACY",
+        "zType": "TEXT_BONUS_PLAYER_LEGITIMACY",
         "en-US": "Player Event"
       },
       {
         "zType": "TEXT_BONUS_FINISHED_AMBITION",
-        "en-US": "Finished Ambition(s)"
+        "en-US": "Finished an Ambition"
       },
       {
         "zType": "TEXT_BONUS_FINISHED_LEGACY",
-        "en-US": "Finished Legac(ies)"
+        "en-US": "Finished a Legacy"
       },
       {
         "zType": "TEXT_BONUS_ABANDONED_AMBITION",
-        "en-US": "Abandoned Ambition(s)"
+        "en-US": "Abandoned an Ambition"
       },
       {
         "zType": "TEXT_BONUS_FAILED_LEGACY",
-        "en-US": "Failed Legac(ies)"
+        "en-US": "Failed a Legacy"
       },
       {
         "zType": "TEXT_BONUS_FINISHED_GOAL",
-        "en-US": "Finished Goal(s)"
+        "en-US": "Finished a Goal"
       },
       {
         "zType": "TEXT_BONUS_FINISHED_HOLY_SITE",
@@ -68,7 +68,7 @@
       },
       {
         "zType": "TEXT_BONUS_INSPIRED_BY_WONDER",
-        "en-US": "Inspired by a link(CONCEPT_WONDER)"
+        "en-US": "Was inspired by a link(CONCEPT_WONDER)"
       },
       {
         "zType": "TEXT_BONUS_HIGH_SYNOD",
@@ -84,23 +84,23 @@
       },
       {
         "zType": "TEXT_BONUS_BREAK_PEACE",
-        "en-US": "Broke Peace Treaty"
+        "en-US": "Broke a Peace Treaty"
       },
       {
         "zType": "TEXT_BONUS_END_ALLIANCE",
-        "en-US": "Ended Alliance"
+        "en-US": "Ended an Alliance"
       },
       {
         "zType": "TEXT_BONUS_TRIBE_MARRIAGE",
-        "en-US": "Marriage with a Tribe"
+        "en-US": "Married into a Tribe"
       },
       {
         "zType": "TEXT_BONUS_TRIBE_WAR_LEGITIMACY",
-        "en-US": "Unafraid of Tribes"
+        "en-US": "Was unafraid of Tribes"
       },
       {
         "zType": "TEXT_BONUS_TRIBE_TRUCE_LEGITIMACY",
-        "en-US": "Made a Truce with a Tribe"
+        "en-US": "Established a Truce with a Tribe"
       },
       {
         "zType": "TEXT_BONUS_TRIBE_PEACE_LEGITIMACY",
@@ -112,7 +112,7 @@
       },
       {
         "zType": "TEXT_BONUS_TRIBAL_INVASION_LEGITIMACY",
-        "en-US": "Unafraid of Invasion"
+        "en-US": "Was unafraid of a Tribal Invasion"
       },
       {
         "zType": "TEXT_BONUS_TRIBE_ELIMINATED_LEGITIMACY",
@@ -120,91 +120,31 @@
       },
       {
         "zType": "TEXT_BONUS_PLAYER_WAR_LEGITIMACY",
-        "en-US": "Unafraid of War"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION",
-        "en-US": "Leave link(CONCEPT_STATE_RELIGION)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_SEND_COURTIER",
-        "en-US": "Send link(CONCEPT_COURTIER)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS",
-        "en-US": "Rally Troops"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_HOLD_COURT",
-        "en-US": "Hold Court"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_INFLUENCE",
-        "en-US": "Influence (Success)"
+        "en-US": "Was unafraid of War"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_INFLUENCE_WEAKEN",
         "en-US": "Influence (Success, Weaken)"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_SELF",
-        "en-US": "Convert Self"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_STATE",
-        "en-US": "Convert to link(CONCEPT_STATE_RELIGION)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
-        "en-US": "Convert link(CONCEPT_RELIGION)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_INTERCESSION",
-        "en-US": "Intercession (Success)"
-      },
-      {
         "zType": "TEXT_BONUS_MISSIONRESULT_INTERCESSION_WEAKEN",
         "en-US": "Intercession (Success, Weaken)"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_ADOPT",
-        "en-US": "Adoption"
-      },
-      {
         "zType": "TEXT_BONUS_MISSIONRESULT_LEGITIMIZE",
-        "en-US": "Legitimized Bastard"
+        "en-US": "Legitimized a Bastard"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_CHOSEN_HEIR",
-        "en-US": "Chosen Heir"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL",
-        "en-US": "Infiltrate (Success)"
+        "en-US": "Chose my Heir"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL_EXPOSED",
         "en-US": "Infiltrate (Success, Exposed)"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS",
-        "en-US": "Slander (Success)"
-      },
-      {
         "zType": "TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS_EXPOSED",
         "en-US": "Slander (Success, Exposed)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS",
-        "en-US": "Steal Research (Success)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED",
-        "en-US": "Steal Research (Success, Exposed)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL",
-        "en-US": "Assassinate (Kill)"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL_EXPOSED",
@@ -240,7 +180,7 @@
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_SUCCESS",
-        "en-US": "High Synod (Success)"
+        "en-US": "High Synoid (Success)"
       },
       {
         "zType": "TEXT_BONUS_MISSIONRESULT_HIGH_SYNOD_FAILURE",
@@ -263,10 +203,6 @@
         "en-US": "Pacify City (Success, Weaken)"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST",
-        "en-US": "Imprison (Just)"
-      },
-      {
         "zType": "TEXT_BONUS_MISSIONRESULT_IMPRISON_UNJUST",
         "en-US": "Imprison (Unjust)"
       },
@@ -275,236 +211,8 @@
         "en-US": "Imprison (Escape)"
       },
       {
-        "zType": "TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL",
-        "en-US": "Release (Grateful)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER",
-        "en-US": "Release (Bitter)"
-      },
-      {
         "zType": "TEXT_BONUS_MISSIONRESULT_RELEASE_UNJUST",
         "en-US": "Release (Unjust)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER",
-        "en-US": "Capture (Surrender)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED",
-        "en-US": "Capture (Killed)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE",
-        "en-US": "Capture (Flee)"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_PAY_RANSOM",
-        "en-US": "Capture Ransom"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER",
-        "en-US": "Marry"
-      },
-      {
-        "zType": "TEXT_BONUS_MISSIONRESULT_DIVORCE",
-        "en-US": "Divorce"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE",
-        "en-US": "link(YIELD_STONE) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD",
-        "en-US": "link(YIELD_FOOD) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER",
-        "en-US": "Free link(UNIT_SETTLER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_POLIS_BONUS_WORKER",
-        "en-US": "Free link(UNIT_WORKER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
-        "en-US": "Border Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME",
-        "en-US": "Free link(UNIT_BIREME)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS",
-        "en-US": "link(YIELD_ORDERS) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
-        "en-US": "Free link(UNIT_CHARIOT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
-        "en-US": "link(YIELD_CIVICS) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
-        "en-US": "New link(COURTIER_SCIENTIST)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
-        "en-US": "New link(COURTIER_MINISTER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN",
-        "en-US": "Free link(UNIT_MACEMAN)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
-        "en-US": "Free link(UNIT_CAMEL_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
-        "en-US": "Free link(UNIT_WAR_ELEPHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER",
-        "en-US": "Free link(UNIT_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
-        "en-US": "link(YIELD_MONEY) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-        "en-US": "New link(COURTIER_SCIENTIST)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA",
-        "en-US": "Free link(UNIT_BALLISTA)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN",
-        "en-US": "Free link(UNIT_HORSEMAN)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
-        "en-US": "Free link(UNIT_HORSE_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_MANOR_BONUS_GOODS",
-        "en-US": "Goods Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
-        "en-US": "New link(COURTIER_SOLDIER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER",
-        "en-US": "Free link(UNIT_ONAGER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME",
-        "en-US": "Free link(UNIT_TRIREME)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
-        "en-US": "New link(COURTIER_MERCHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT",
-        "en-US": "link(YIELD_DISCONTENT) Reduction"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
-        "en-US": "link(YIELD_TRAINING) Boost"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
-        "en-US": "Free link(UNIT_CROSSBOWMAN)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
-        "en-US": "Free link(UNIT_DROMON)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
-        "en-US": "New link(COURTIER_MERCHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
-        "en-US": "New link(COURTIER_SOLDIER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
-        "en-US": "New link(COURTIER_MINISTER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_ECONOMIC_REFORM",
-        "en-US": "New link(COURTIER_MERCHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_MILITARY_PRESTIGE",
-        "en-US": "New link(COURTIER_SOLDIER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS",
-        "en-US": "New link(COURTIER_MINISTER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_BATTERING_RAM_UNIT",
-        "en-US": "Free link(UNIT_BATTERING_RAM)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_SIEGE_TOWER_UNIT",
-        "en-US": "Free link(UNIT_SIEGE_TOWER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT",
-        "en-US": "Free link(UNIT_AKKADIAN_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
-        "en-US": "Free link(UNIT_CIMMERIAN_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT",
-        "en-US": "Free link(UNIT_AFRICAN_ELEPHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT",
-        "en-US": "Free link(UNIT_TURRETED_ELEPHANT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT",
-        "en-US": "Free link(UNIT_LIGHT_CHARIOT)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT",
-        "en-US": "Free link(UNIT_KUSHITE_CAVALRY)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_HOPLITE_UNIT",
-        "en-US": "Free link(UNIT_HOPLITE)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_PHALANGITE_UNIT",
-        "en-US": "Free link(UNIT_PHALANGITE)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT",
-        "en-US": "Free link(UNIT_PALTON_CAVALRY)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
-        "en-US": "Free link(UNIT_CATAPHRACT_ARCHER)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_HASTATUS_UNIT",
-        "en-US": "Free link(UNIT_HASTATUS)"
-      },
-      {
-        "zType": "TEXT_BONUS_TECH_LEGIONARY_UNIT",
-        "en-US": "Free link(UNIT_LEGIONARY)"
       },
       {
         "zType": "TEXT_BONUS_KILL_CHARACTER_AGENT",
@@ -512,23 +220,7 @@
       },
       {
         "zType": "TEXT_BONUS_ABDICATE",
-        "en-US": "Abdication"
-      },
-      {
-        "zType": "TEXT_BONUS_ZOROASTRIANISM_DISCIPLE",
-        "en-US": "Free link(UNIT_ZOROASTRIANISM_DISCIPLE)"
-      },
-      {
-        "zType": "TEXT_BONUS_JUDAISM_DISCIPLE",
-        "en-US": "Free link(UNIT_JUDAISM_DISCIPLE)"
-      },
-      {
-        "zType": "TEXT_BONUS_CHRISTIANITY_DISCIPLE",
-        "en-US": "Free link(UNIT_CHRISTIANITY_DISCIPLE)"
-      },
-      {
-        "zType": "TEXT_BONUS_MANICHAEISM_DISCIPLE",
-        "en-US": "Free link(UNIT_MANICHAEISM_DISCIPLE)"
+        "en-US": "Abdicated the throne"
       },
       {
         "zType": "TEXT_BONUS_PROJECT_PROTECTION_EDICTS",
@@ -540,15 +232,11 @@
       },
       {
         "zType": "TEXT_BONUS_PROJECT_CORRUPTION_REFORM",
-        "en-US": "Corruption Reform"
+        "en-US": "Eradicated corruption in the trade guilds"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_FEAST_REJECTED_CITY_PLAYER",
         "en-US": "Didn't pander to foreigners"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_CEREMONY_PLAYER",
-        "en-US": "Coming of Age"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_MOUTHPIECE_OF_THE_GODS_OPTION_0",
@@ -556,7 +244,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DIVINE_MANDATE_OPTION_1",
-        "en-US": "I listened to my advisors"
+        "en-US": "Listened to my advisors"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_OF_THE_PEOPLE_OPTION_0",
@@ -564,7 +252,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_QUESTION_AUTHORITY_OPTION_2",
-        "en-US": "Punished outspoken general"
+        "en-US": "Punished an outspoken General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_COLLISION_COURSE_OPTION_1",
@@ -576,15 +264,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_OPTION_2",
-        "en-US": "Declared war when challenged"
+        "en-US": "Declared War when challenged"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_VICTORIOUS_OPTION_0",
-        "en-US": "Victorious in single combat"
+        "en-US": "Was victorious in single combat"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DUEL_OF_FATES_DEFEATED_OPTION_0",
-        "en-US": "Defeated in single combat"
+        "en-US": "Was defeated in single combat"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_RETREAT_OPTION_0",
@@ -592,7 +280,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FAMILY_TARNISHED_OPTION_1_FAMILY",
-        "en-US": "Released prisoner to please a Family"
+        "en-US": "Released a prisoner to please a Family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PRETTY_PERSUASION_OPTION_2_CHARACTER_2",
@@ -612,7 +300,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_STUDY_PLAYER",
-        "en-US": "Restored and Studied The Great Ziggurat"
+        "en-US": "Restored and studied The Great Ziggurat"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_ZIGGURAT_CRUMBLES_OPTION_SHRINE_PLAYER",
@@ -620,7 +308,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RUINS_GIANT_STATUE_CARVE",
-        "en-US": "Remade statue in my image"
+        "en-US": "Remade a statue in my image"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RUINS_CURSED_LAND_ROCKS",
@@ -640,15 +328,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RUINS_EMERALD_MINE_REBUILT_OPTION_0_CHARACTER",
-        "en-US": "Rebuilt ancient emerald mine"
+        "en-US": "Rebuilt an ancient emerald mine"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_0_CHARACTER",
-        "en-US": "Disciplined thieving scout"
+        "en-US": "Disciplined a thieving scout"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HARVEST_CAUGHT_IN_THE_ACT_OPTION_1_CHARACTER",
-        "en-US": "Allowed scout to steal silver"
+        "en-US": "Allowed a scout to steal silver"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_PLAYER",
+        "en-US": "Claimed royal hunting grounds"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_WAYWARD_SON_PLAYER",
+        "en-US": "Took initiative against a hostile power"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RUINS_STRANGE_SCROLL_DESTROY",
@@ -668,7 +364,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTSTORY_TRIBE_ELIMINATED_FATAL_OVERSIGHT",
-        "en-US": "Vanquished a tribe (to which my spouse happened to belong)"
+        "en-US": "Vanquished a tribe to which my spouse happened to belong"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_ELIMINATED_IN_THEIR_PLACE_PURGE",
@@ -688,31 +384,27 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RIVER_CROSSING_1",
-        "en-US": "Bridged natural landmark"
+        "en-US": "Bridged a natural landmark"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THOSE_BEFORE_3",
-        "en-US": "I refused to change my laws"
+        "en-US": "Refused to change my laws"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_CONTACT_GRINNING_EMISSARY_WAR",
-        "en-US": "I refused peace in exchange for a gift"
+        "en-US": "Refused Peace in exchange for a gift"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MONSTERS_DEEP_FOLLOWUP",
         "en-US": "Refused adoption of foreign Fisher"
       },
       {
-        "zType": "TEXT_BONUS_EVENTOPTION_MIDNIGHT_SUN_FOLLOWUP",
-        "en-US": "Brought home exploring character."
-      },
-      {
         "zType": "TEXT_BONUS_EVENTOPTION_RESOLVED_ADULT_CHILDREN_DISPUTE",
-        "en-US": "Resolved adult children hunting dispute"
+        "en-US": "Resolved my adult children's hunting dispute"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RESOLVED_DISAGREEMENT_COUNCIL_DISPUTE",
-        "en-US": "Resolved council dispute"
+        "en-US": "Resolved a council dispute"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_ASSYRIA_ROOT_OPTION_1_NO",
@@ -728,7 +420,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_HUMBLE_PERSIA_EXCHANGE_OPTION_1_PLAYER_1",
-        "en-US": "Ongoing Exchange of Ideas With Persia"
+        "en-US": "Established an exchange of ideas with Persia"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_EGYPT_REFUSED_DONATION_OPTION_1_PLAYER_1",
@@ -736,7 +428,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_LAVISH_GREECE_OPTION_0_PLAYER_1",
-        "en-US": "Extravagant gifts to Greece"
+        "en-US": "Sent extravagant gifts to Greece"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_FRIENDLY_LAVISH_MORE_OPTION_0_PLAYER_1",
@@ -755,16 +447,12 @@
         "en-US": "Vowed to destroy the entire Roman civilization"
       },
       {
-        "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_CAPTURED_ROMAN_CITY_OPTION_0_PLAYER_1",
-        "en-US": "Captured a Roman City then agreed to accept Peace"
-      },
-      {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_ROMANS_HAVE_TAKEN_OUR_CITY_OPTION_1_PLAYER_1",
-        "en-US": "Refused to bow to Rome even after they captured our city"
+        "en-US": "Refused to bow to Rome even after they captured our City"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_ROMANS_HAVE_TAKEN_OUR_CITY_OPTION_0_PLAYER_1",
-        "en-US": "Bowed to Rome after they captured our city"
+        "en-US": "Bowed to Rome after they captured our City"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_PERSIA_OPTION_1_PLAYER_1",
@@ -780,11 +468,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_SUGGEST_OPTION_0_PLAYER_1",
-        "en-US": "Our pride has led to peace"
+        "en-US": "My pride led us to Peace"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEIGHBORS_PRIDEFUL_ASSYRIA_OPTION_1_PLAYER_1",
-        "en-US": "Rejected Assyria's Peace Offer in the boldest way"
+        "en-US": "Rejected Assyria's Peace offer in the boldest way"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOSTILE_NEIGHBORS_OPTION_4_PLAYER_1",
@@ -792,7 +480,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOSTILE_NEIGHBORS_WAR_OPTION_1_PLAYER_1",
-        "en-US": "Increase training and raised militias"
+        "en-US": "Increased training and raised militias"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_BORDER_DISPUTE_OPTION_2_CHARACTER",
@@ -808,15 +496,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_LETHAL_AFFLICTION_OPTION_2_PLAYER_0",
-        "en-US": "Declared war after subjects poisoned"
+        "en-US": "Declared War after my subjects were poisoned"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_HONORARY_COUNSEL_OPTION_1_PLAYER_0",
-        "en-US": "Refused to house foreign counsel"
+        "en-US": "Refused to house a foreign counsel"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_PLOTTING_HEIR_OPTION_1_CHARACTER_0",
-        "en-US": "Denied foreign ruler's request"
+        "en-US": "Denied a foreign ruler's request"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_DEADLY_INHERITANCE_OPTION_2_CHARACTER_0",
@@ -824,11 +512,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WRITING_ON_THE_WALL_OPTION_0_CHARACTER_1",
-        "en-US": "Intrepreted writings on wall"
+        "en-US": "Interpreted writings on a wall"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_IMMUNITY_OPTION_3_CHARACTER_0",
-        "en-US": "Executed foreign counsel for crimes"
+        "en-US": "Executed a foreign counsel for their crimes"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_SECRET_OF_THE_FOOL_OPTION_0_CHARACTER_1",
@@ -836,19 +524,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_ART_AND_FAITH_1",
-        "en-US": "Banned foreign iconography"
+        "en-US": "Banned foreign Iconography"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_ART_AND_FAITH_2",
-        "en-US": "Allowed foreign iconography"
+        "en-US": "Allowed foreign Iconography"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_ZEALOT_3",
-        "en-US": "Took hostage from other nation"
+        "en-US": "Took a hostage from another Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONTACT_TROUBLE_ON_THE_ROAD",
-        "en-US": "Praised another nation's heroism"
+        "en-US": "Praised another Nation's heroism"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_PARENTAL_WISDOM_0",
@@ -860,11 +548,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_PARENTAL_WISDOM_2",
-        "en-US": "Carving own path"
+        "en-US": "Carved out my own path"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_ART",
-        "en-US": "Statues emphasizing legitimacy"
+        "en-US": "Raised statues in my form"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_SUCCESSORS",
@@ -872,43 +560,43 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_INSULT",
-        "en-US": "Ignored insult from another ruler"
+        "en-US": "Ignored an insult from another ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_0",
-        "en-US": "Punished dissenting city"
+        "en-US": "Punished a dissenting city"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_1",
-        "en-US": "Refused dissenting city"
+        "en-US": "Refused a dissenting city"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_RULER_LEGACY_2",
-        "en-US": "Trod on ancestor's legacy"
+        "en-US": "Trod on an ancestor's legacy"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBAL_ENVOY_PEACE",
-        "en-US": "Barbarian Envoy"
+        "en-US": "Made Peace with a Tribe"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOSTILE_GARRISON_ACCEPT",
-        "en-US": "Hostile Garrison"
+        "en-US": "Allowed the establishment of a Hostile Garrison"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOSTILE_GARRISON_EXPEL_YES",
-        "en-US": "Expelling the Garrison"
+        "en-US": "Expelled a Hostile Garrison from my City"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SCALES_OF_TRIBUTE_ACQUIESCE",
-        "en-US": "Scales of Tribute"
+        "en-US": "Gave in to demands for tribute"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SECURING_PEACE_FURIOUS_EMISSARY_MISUNDERSTANDING",
-        "en-US": "Furious Emissary"
+        "en-US": "Apologized to a Tribe"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASSASSINATION_OF_MONARCH_SUCCESS",
-        "en-US": "Assassination Revenge"
+        "en-US": "Avenged the assassination of our Leader"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AT_PEACE_HUNTING_GROUNDS_DISPUTE_OPTION_2_PLAYER_1",
@@ -916,15 +604,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_UPSET_OPTION_1_PLAYER_1",
-        "en-US": "Tactician Leader inspired our people to War!"
+        "en-US": "Inspired my people to go to War!"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_OPTION_1_PLAYER_1",
-        "en-US": "We trained Ranged Units to prepare for War"
+        "en-US": "Trained Ranged Units to prepare for War"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_OPTION_2_PLAYER_1",
-        "en-US": "We trained Melee Units to prepare for War"
+        "en-US": "Trained Melee Units to prepare for War"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_TACTICIAN_ARCHETYPE_ANGRY_2_OPTION_1_PLAYER_1",
@@ -940,11 +628,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_REFUSE_LEGITIMACY",
-        "en-US": "Backed down after link(MISSION_DEMAND_TRIBUTE) Mission"
+        "en-US": "Backed down after a link(MISSION_DEMAND_TRIBUTE) Mission"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_OPTION_1_PLAYER_1",
-        "en-US": "Negotiated peace and an extradition treaty"
+        "en-US": "Negotiated Peace and an extradition treaty"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_DELAY_OPTION_0_PLAYER_1",
@@ -960,11 +648,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_OPTION_0_PLAYER_1",
-        "en-US": "Delivered justice in cases involving a neighboring nation"
+        "en-US": "Delivered justice in cases involving a neighboring Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_UPSET_OPTION_1_PLAYER_1",
-        "en-US": "Allowed another nation to put our citizens on trial"
+        "en-US": "Allowed another Nation to put our citizens on trial"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_PLEASED_OPTION_0_PLAYER_1",
@@ -976,7 +664,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_SCHOLAR_ARCHETYPE_CAUTIOUS_TRADE_OPTION_0_PLAYER_1",
-        "en-US": "Avoided a war by striking up a research agreement"
+        "en-US": "Avoided a War by striking up a research agreement"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AMBITION_CAPTURE_PLAYER_CITIES_NO_PLAYER_1",
@@ -984,15 +672,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AMBITION_NEW_PLAYER_WAR_NO_PLAYER_1",
-        "en-US": "Did not commit to war"
+        "en-US": "Did not commit to War"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_WAR_MARRIAGE_YES",
-        "en-US": "Pressured into Tribal Marriage"
+        "en-US": "Was pressured into a Tribal Marriage"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_PLEASED_OPTION_1_PLAYER_1",
-        "en-US": "We built a Granary for a Nation who had Food struggles"
+        "en-US": "Built a Granary for a Nation who had Food struggles"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_BUILDER_ARCHETYPE_CAUTIOUS_LEADER4_INTIMIDATED_OPTION_0_PLAYER_1",
@@ -1000,7 +688,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_ANGRY_OPTION_0_PLAYER_1",
-        "en-US": "We calmed down an angry Nation through diplomacy"
+        "en-US": "Calmed an angry Nation through diplomacy"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_ANGRY_OPTION_1_PLAYER_1",
@@ -1008,7 +696,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_DIPLOMAT_ARCHETYPE_UPSET_OPTION_0_PLAYER_1",
-        "en-US": "Spent big to turn a burgeoning adversary into a Peace partner"
+        "en-US": "Spent money to turn a burgeoning adversary into a Peace partner"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_ZEALOT_CAUTIOUS_OR_BETTER_OPTION_0_PLAYER_1",
@@ -1016,7 +704,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_WAR_DECLARE_PLAY_TO_WIN",
-        "en-US": "I asked for this, apparently"
+        "en-US": "Showed no fear to jealous Nations"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_PEACE_END_OPINION_PLAYER_1",
@@ -1028,15 +716,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_0_PLAYER_1",
-        "en-US": "Refused to give tech to foreign nation"
+        "en-US": "Refused to give a Tech to a foreign Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FACE_IN_GOLD_OPTION_0_PLAYER_1",
-        "en-US": "Coins only have my face"
+        "en-US": "Refused any face but my own appearing on coins"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CARAVAN_OF_LOVE_OPTION_1_CHARACTER_2",
-        "en-US": "Warned heir of falling in love with a foreigner"
+        "en-US": "Warned my Heir of falling in love with a foreigner"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_EXECUTED_SPIES_OPTION_1_CHARACTER_1",
@@ -1044,23 +732,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEW_ALLIANCE_OPTION_0_CHARACTER_1",
-        "en-US": "Successfully forced barbarian alliance"
+        "en-US": "Successfully forced a Tribal Alliance"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MERCY_AGREE",
-        "en-US": "Backed out of demanding tribute"
+        "en-US": "Backed out of a demanding tribute"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_THE_FAITHFUL_LEG",
-        "en-US": "Backed out of demanding tribute"
+        "en-US": "Backed out of a demanding tribute"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DENOUNCED",
-        "en-US": "Fought back against corrupt religion head"
+        "en-US": "Fought back against a corrupt religion head"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_DEPOSED_RD",
-        "en-US": "Deposed Religion head"
+        "en-US": "Deposed a Religion head"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_MISSING_AMBASSADOR_3",
@@ -1068,11 +756,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_CUT_0",
-        "en-US": "Allowed ambassador’s shady dealings"
+        "en-US": "Allowed my Ambassador’s shady dealings"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEMAND_TRIBUTE_CUT_1",
-        "en-US": "Honorable tribute dealings"
+        "en-US": "Remained honorable in my tribute dealings"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_A_FRIENDLY_WARNING_REJECT_PLAYER",
@@ -1092,19 +780,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PEACE_1",
-        "en-US": "Accepted new ruler's peace"
+        "en-US": "Accepted a new ruler's Peace"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_0",
-        "en-US": "Went to war to avenge an insult"
+        "en-US": "Went to War to avenge an insult"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_1",
-        "en-US": "Returned insult to proud ruler"
+        "en-US": "Returned an insult to a Proud ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_PRIDE_2",
-        "en-US": "Ignored insult from a proud ruler"
+        "en-US": "Ignored an insult from a Proud ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_TRIBUTE",
@@ -1112,11 +800,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_SNUBBED_1",
-        "en-US": "Refused to be snubbed by new leader"
+        "en-US": "Refused to be snubbed by a new Leader"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_THEM_AGENT_0",
-        "en-US": "Exposed leader's agent"
+        "en-US": "Exposed a Leader's agent"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCESSION_THEM_DEPOSED_0",
@@ -1124,35 +812,76 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_0_CHARACTER",
-        "en-US": "Told another leader they are more blessed than yourself"
+        "en-US": "Told another Leader they are more blessed than myself"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MOST_BLESSED_PEOPLE_ON_EARTH_OPTION_2_CHARACTER",
-        "en-US": "The most blessed"
-      },
-      {
-        "zType": "TEXT_BONUS_GIVE_TRAIT_DECEITFUL"
+        "en-US": "Claimed to be the most blessed"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_3_CHARACTER",
-        "en-US": "\"Disregarded\" Barbarian knowledge"
+        "en-US": "\"Disregarded\" Tribal knowledge"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RUINS_PROPHECY_OPTION_3_CHARACTER",
-        "en-US": "Divine right to rule"
+        "en-US": "Claimed a divine right to rule"
       },
       {
         "zType": "TEXT_BONUS_SMELLS_GOOD",
-        "en-US": "Smells great!"
+        "en-US": "Impressed my people with incense"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_REFUSE_CHARACTER_3",
+        "en-US": "Refused a duel of honor"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_ENEMIES_TOGETHER_NO_PLAYER",
+        "en-US": "Refused a challenge"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_PLAYER",
+        "en-US": "Humiliated enemy agents"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION_CHARACTER_0",
+        "en-US": "Faced a link(CONCEPT_TRIBE_INVASION) without fear"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_IRON_AND_ANGUISH_OPTION_PACIFY_CHARACTER_0",
+        "en-US": "Stood down in the face of a link(CONCEPT_TRIBE_INVASION)"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1_CHARACTER_1",
+        "en-US": "Led plan to serve the people"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_NO_CHARACTER_1",
+        "en-US": "Resisted an attempt at foreign rule"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES_CHARACTER_0",
+        "en-US": "Gave in to foreign rule"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL_CHARACTER_1",
+        "en-US": "Allowed an enemy to join our court"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION_PLAYER_1",
+        "en-US": "Renounced the state religion to spite my enemy"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_APOLOGY_CHARACTER_1",
+        "en-US": "Begged for forgiveness"
       },
       {
         "beginGroup": "Combat",
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_SMITING_FOES_STATUE",
-        "en-US": "Smiting Foes"
+        "en-US": "Erected a statue in honor of my victories"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ORDER_OF_BUSINESS_HEIR_FIRST_CHARACTER_1",
-        "en-US": "Celebrations for the birth of my Heir"
+        "en-US": "Celebrated the birth of my Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_BATTLEFIELD_BRILLIANCE_AMUSE",
@@ -1160,35 +889,39 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_SECRET_ALLIANCES_OPTION_1",
-        "en-US": "I declared war on a conspiring nation"
+        "en-US": "Declared War on a conspiring nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_2",
-        "en-US": "Refused a barbarian ward"
+        "en-US": "Refused a Tribal ward"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_WITCH_QUEEN_OPTION_2",
-        "en-US": "Removed witch queen"
+        "en-US": "Removed a witch queen"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_TEACHING_THE_ENEMY_OPTION_0_CHARACTER_0",
-        "en-US": "I made a barbarian a courtier"
+        "en-US": "Appointed a Tribal Courtier"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_HOMELAND_BURNING_OPTION_2",
-        "en-US": "Not afraid of unrest"
+        "en-US": "Was not afraid of unrest"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_0_CHARACTER",
-        "en-US": "Refused barbarian customs"
+        "en-US": "Refused Tribal customs"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_1_CHARACTER",
-        "en-US": "Displayed barbarian spoils"
+        "en-US": "Displayed Tribal spoils"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3_CHARACTER",
+        "en-US": "Recovered the crest of an ancient hero"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_1_CHARACTER_0",
-        "en-US": "Took barbarian royal family"
+        "en-US": "Took a Tribal royal family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_CULT_OF_FLAME_SMASH",
@@ -1196,39 +929,39 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_PRINCE_ENSLAVE",
-        "en-US": "Enslaved a barbarian chief"
+        "en-US": "Enslaved a Tribal chief"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_PRINCE_WARD",
-        "en-US": "Adopted a barbarian prince"
+        "en-US": "Adopted a Tribal prince"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_TRIBAL_CONFEDERATION_OPTION_1",
-        "en-US": "Warred with tribal confederation"
+        "en-US": "Warred with a Tribal confederation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_RIVALS_OPTION_2",
-        "en-US": "Kept rival barbarians from seizing land"
+        "en-US": "Kept rival Tribes from seizing land"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_REBEL_GLADIATORS_OPTION_1",
-        "en-US": "Recruited rebel gladiators as citizens"
+        "en-US": "Recruited Rebel gladiators as Citizens"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LOVE_AND_WAR_OPTION_0_CHARACTER_0",
-        "en-US": "Refused barbarian marriage proposal"
+        "en-US": "Refused a Tribal marriage proposal"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ACQUIRED_TASTES_DESTROY",
-        "en-US": "Not tempted by foreign philosophers"
+        "en-US": "Was not tempted by foreign philosophers"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEFIANCE_OPTION_1_CHARACTER",
-        "en-US": "Rallied city under siege"
+        "en-US": "Rallied a City under siege"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MERCY_IN_CITY_OPTION_0_PLAYER_1",
-        "en-US": "Made an example of enemy city's leadership"
+        "en-US": "Made an example of an enemy City's leadership"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_TIDE_OF_BATTLE_OPTION_2_PLAYER_1",
@@ -1236,27 +969,27 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GENERAL_DUEL",
-        "en-US": "Erected statue of famous duel"
+        "en-US": "Erected a statue of a famous duel"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_NEG",
-        "en-US": "General honored by enemy"
+        "en-US": "My General was honored by the enemy"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HONORED_ENEMY_LEG_POS",
-        "en-US": "General honored by enemy"
+        "en-US": "My General was honored by the enemy"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BARRACKS_HEIR_1",
-        "en-US": "Refused the army's chosen heir"
+        "en-US": "Refused the army's chosen Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THREE_WEEKS_2",
-        "en-US": "Heir returned from elopement in disgrace"
+        "en-US": "My Heir returned from elopement in disgrace"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUDDEN_RETURN_WELCOME",
-        "en-US": "Welcomed back eloper"
+        "en-US": "Welcomed back an eloper"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_TRANSLATIONS_YES_LEADER",
@@ -1268,7 +1001,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INCRIMINATING_MESSAGES_OPTION_0_CHARACTER_0",
-        "en-US": "Exposed alliance against me"
+        "en-US": "Exposed an alliance against me"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BASELESS_ACCUSATIONS_OPTION_0_CHARACTER_0",
@@ -1276,47 +1009,39 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTSTORY_NO_EVIDENCE_CHARACTER_2",
-        "en-US": "Ordered failed investigation"
+        "en-US": "Ordered a failed investigation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WINNING_FAVOR_OPTION_2_CHARACTER_2",
-        "en-US": "Threatened family"
+        "en-US": "Threatened a family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBE_FEAST_OPTION_3_CHARACTER",
-        "en-US": "Attended tribal feast alone"
+        "en-US": "Attended a tribal feast alone"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_RIVALS_2",
-        "en-US": "Child under-performing in studies"
+        "en-US": "My child was under-performing in studies"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TEEN_IDOL_0",
-        "en-US": "Child encouraged in leadership"
+        "en-US": "My child was encouraged in leadership"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TEEN_IDOL_1",
-        "en-US": "Child following others"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_TIME_FOR_A_BREAK_DRINK",
-        "en-US": "Time for a Break"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_EPIC_POETRY_TEACH",
-        "en-US": "Epic Poetry"
+        "en-US": "My child followed others"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_LOST_RELATIVE_OPTION_0_CHARACTER_0",
-        "en-US": "Held audience with lost relative"
+        "en-US": "Held an audience with a lost relative"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_LOST_RELATIVE_OPTION_2_CHARACTER_0",
-        "en-US": "Ignored the false heir"
+        "en-US": "Ignored the false Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_A_PRIVATE_AUDIENCE_OPTION_0",
-        "en-US": "Added mysterious relative to court"
+        "en-US": "Added a mysterious relative to the court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DEMAND_FOR_JUSTICE_OPTION_0",
@@ -1324,7 +1049,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DEMAND_FOR_JUSTICE_OPTION_1",
-        "en-US": "Added questionable relative to my court"
+        "en-US": "Added a questionable relative to my court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_PEACEMAKER_OPTION_2",
@@ -1340,7 +1065,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FORBIDDEN_KNOWLEDGE_OPTION_2",
-        "en-US": "Disregarded Barbarian knowledge"
+        "en-US": "Disregarded Tribal knowledge"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_1",
@@ -1348,7 +1073,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_KIDNAPPED_CONSORT_OPTION_2",
-        "en-US": "I removed my son as heir"
+        "en-US": "Removed my son as Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_AMITY_OR_TREASON_OPTION_0",
@@ -1356,23 +1081,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_TEDIUM_ON_THE_THRONE_OPTION_0",
-        "en-US": "Appointed horse to council"
+        "en-US": "Appointed a horse to council"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_0",
-        "en-US": "I went on the Wild Hunt"
+        "en-US": "Went on the Wild Hunt"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_THE_WILD_HUNT_OPTION_1",
-        "en-US": "I refused the Wild Hunt"
+        "en-US": "Refused the Wild Hunt"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_A_FAMILY_WARNING_OPTION_1",
-        "en-US": "Imprisoned member of noble family"
+        "en-US": "Imprisoned a member of a noble family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_JOB_OPENING_OPTION_0",
-        "en-US": "I took over a minister's role on the council"
+        "en-US": "Took over a minister's role on the council"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_COUNCIL_OPTION_0",
@@ -1380,7 +1105,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FAMILY_COUNCIL_OPTION_2",
-        "en-US": "Attemped cooperative leadership"
+        "en-US": "Attempted cooperative leadership"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_AN_EXODUS_OPTION_0",
@@ -1388,7 +1113,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_AN_EXODUS_OPTION_1",
-        "en-US": "I made peace with my rivals"
+        "en-US": "Made Peace with my rivals"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_A_BITTER_ALLIANCE_OPTION_0",
@@ -1396,7 +1121,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_A_MAN_OF_PEACE_OPTION_1",
-        "en-US": "Disagreed with retiring general"
+        "en-US": "Disagreed with a retiring General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DAUGHTERS_DREAM_OPTION_0",
@@ -1404,15 +1129,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_TOO_MUCH_OF_A_GOOD_THING_OPTION_0",
-        "en-US": "I defied medicine"
+        "en-US": "Defied medicine"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_ROYAL_BIRTH_PRESENT",
-        "en-US": "Royal Birth"
+        "en-US": "Celebrated a royal birth"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BULLYING_HEIR_ESCALATION_DISCOVERED_OK",
-        "en-US": "Plotted to kill own Heir"
+        "en-US": "Plotted to kill my own Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOLD_COURT_HAPPY_FAMILIES_OK",
@@ -1420,7 +1145,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_BRUTAL_HEIR_OPTION_1",
-        "en-US": "Allowed heir to act out"
+        "en-US": "Allowed my Heir to act out"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HEIR_HOLY_WAR_OPTION_0",
@@ -1428,23 +1153,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HEIR_COMING_OF_AGE_GIFTS_PLAYER",
-        "en-US": "Coming of Age"
+        "en-US": "Commissioned new regalia for my Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HEIR_OF_CORRUPTION_OPTION_2",
-        "en-US": "Ejected my heir"
+        "en-US": "Ejected my Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MASTER_OF_WHISPERS_FRIENDS",
-        "en-US": "Just friends"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_SITUATION_INFLUENCE",
-        "en-US": "They'll come around"
+        "en-US": "Denied my spouse's affair"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASSASSINATION_BETRAYAL_ADMIT",
-        "en-US": "Assassination Betrayal"
+        "en-US": "Admitted my role in a failed assassination attempt"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FAMILY_PARTISANS_HELP",
@@ -1452,11 +1173,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SABOTAGE_OK",
-        "en-US": "Punished disloyal Family"
+        "en-US": "Punished a disloyal Family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FAVORED_VASSAL_CEREMONY_OK_PLAYER",
-        "en-US": "Vassal Ceremony"
+        "en-US": "Funded a vassal ceremony"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_A_PROMOTION_OPTION_2_CHARACTER_1",
@@ -1464,11 +1185,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_POISON_ON_THE_TREE_OPTION_0_CHARACTER_1",
-        "en-US": "Purged conspirator"
+        "en-US": "Purged a conspirator"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_A_GRUESOME_EXAMPLE_OPTION_0_CHARACTER_1",
-        "en-US": "No more taking prisoners"
+        "en-US": "Took no prisoners"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_FOREIGN_FIGHTERS_OPTION_1_CHARACTER_1",
@@ -1480,11 +1201,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_LEFT_BEHIND_OPTION_2_CHARACTER_1",
-        "en-US": "I gilded my halls with imported marble"
+        "en-US": "Gilded my halls with imported marble"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GP_MERCHANT_TOWN_OPTION_1_CHARACTER_1",
-        "en-US": "All must respect the same laws"
+        "en-US": "Refused a request to establish a Merchant Town"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEATH_VANISHED_OPTION_2",
@@ -1492,7 +1213,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DEATH_THE_PRICE_OF_POWER_OPTION_0_CHARACTER",
-        "en-US": "I disowned my tainted child"
+        "en-US": "Disowned my tainted child"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_MYSTERIOUS_INFANT_OPTION_0_CHARACTER_0",
@@ -1500,27 +1221,27 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_MYSTERIOUS_INFANT_OPTION_2_CHARACTER_0",
-        "en-US": "Refused adoption of mysterious child"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0",
-        "en-US": "Urged child to join military"
+        "en-US": "Refused adoption of a mysterious child"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_1_CHARACTER_0",
-        "en-US": "Child married a commoner"
+        "en-US": "Allowed my child to marry a commoner"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_2_CHARACTER_0",
+        "en-US": "Celebrated a storybook romance"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_THE_PUPPIES_OPTION_1_CHARACTER_1",
-        "en-US": "Had to enlist problem child"
+        "en-US": "Had to enlist a problem child"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHILD_ELOPED_OPTION_2_CHARACTER_0",
-        "en-US": "Brought back eloping child"
+        "en-US": "Brought back an eloping child"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DOWNWARD_SPIRAL_OPTION_1",
-        "en-US": "Stayed in city while spouse mourned"
+        "en-US": "Stayed in the city while my spouse mourned"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_1",
@@ -1528,7 +1249,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_2",
-        "en-US": "Imprisoned rival who threatened me"
+        "en-US": "Imprisoned a rival who threatened me"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_HARSH_WORDS_OPTION_0",
@@ -1536,11 +1257,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_WISDOM_WITH_AGE_OPTION_1",
-        "en-US": "Kept the laws of succession"
+        "en-US": "Upheld the laws of succession"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_2",
         "en-US": "Brought my rival to ruin"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_3",
+        "en-US": "Reasserted right to rule"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_LEGACY_OF_GOLD_OPTION_0",
@@ -1548,11 +1273,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_TWILIGHT_YEARS_OPTION_0_CHARACTER_2",
-        "en-US": "Parent abdicated to me"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_LEADER_THE_HEIRS_CUP_POISONED_OPTION_0",
-        "en-US": "Poisoned my predecessor"
+        "en-US": "My parent abdicated to me"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_FINAL_CAMPAIGN_OPTION_1",
@@ -1564,27 +1285,27 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_PROBLEM_CHILD_OPTION_0",
-        "en-US": "Made foolish sibling chancellor"
+        "en-US": "Made a foolish sibling Chancellor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_DEATH_IN_THE_FAMILY_OPTION_1",
-        "en-US": "Admitted military blunder"
+        "en-US": "Admitted to a military blunder"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GRADUATED_RIVAL_MENTOR_OPTION_1_CHARACTER_1",
-        "en-US": "Allow rival to influnce our child"
+        "en-US": "Allowed a rival to influence my child"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GRADUATE_AIR_OF_CERTAINTY_OPTION_2",
-        "en-US": "Could not decide between child and courtier"
+        "en-US": "Could not decide between my child and a Courtier"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_DISCIPLINARY_ACTION_OPTION_2_CHARACTER_1",
-        "en-US": "Covered up child's misdeeds"
+        "en-US": "Covered up my child's misdeeds"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GRADUATE_TAKING_THE_MANTLE_OPTION_1_CHARACTER_1",
-        "en-US": "Bowed to pressure over governship"
+        "en-US": "Bowed to pressure over governorship"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GRADUATE_A_RAISED_VOICE_OPTION_0_CHARACTER_1",
@@ -1592,23 +1313,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GRADUATE_A_RAISED_VOICE_OPTION_2_CHARACTER_1",
-        "en-US": "Disciplined rowdy youth"
+        "en-US": "Disciplined a rowdy youth"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLEA_FOR_MERCY_YES",
-        "en-US": "Mercy for the guily"
+        "en-US": "Showed mercy for the guilty"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WORD_OF_A_COUP_THE_COUP_SUCCEEDS",
-        "en-US": "Successful Coup"
+        "en-US": "Allowed a Coup"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HEIR_BYPASSED_COUP",
-        "en-US": "Palace Coup"
+        "en-US": "Fell victim to a Coup"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LOVE_AFFAIR_END",
-        "en-US": "Forced to send away my lover"
+        "en-US": "Was forced to send away my lover"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_01_OPTION_0_CHARACTER_0",
@@ -1616,19 +1337,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_SPECIAL_RECOGNITION_02_OPTION_0_CHARACTER_0",
-        "en-US": "Expelled attempt usurper"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_1_CHARACTER_0",
-        "en-US": "Accused courtiers of corruption"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_NEW_FRIENDS_01_OPTION_2_CHARACTER_0",
-        "en-US": "Ingratiated myself to rival"
+        "en-US": "Expelled an attempt usurper"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PAY_TO_PLAY_OPTION_0_CHARACTER_1",
-        "en-US": "Refused to pay courtier dispensation"
+        "en-US": "Refused to pay a courtier dispensation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_AFFAIRS_OF_THE_HEART_OPTION_2_CHARACTER_1",
@@ -1640,7 +1353,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_WARMONGERS_OPTION_1_CHARACTER_1",
-        "en-US": "Waged war against barbarians"
+        "en-US": "Waged War against Tribes"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_THE_SPEECHES_OPTION_1_CHARACTER_1",
@@ -1664,7 +1377,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_FAMILY_FEUD_OPTION_0_CHARACTER_1",
-        "en-US": "Bowed to pressure from Oligarch"
+        "en-US": "Bowed to pressure from an Oligarch"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_EXPLORING_ENDS_LEGITIMACY",
@@ -1676,19 +1389,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_A_CALL_FOR_HELP_OPTION_2_CHARACTER_1",
-        "en-US": "Brokered peace between warring nations"
+        "en-US": "Brokered Peace between warring nations"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_INSIDER_OPTION_2_CHARACTER_1",
-        "en-US": "Refused foreign ruler's demands"
+        "en-US": "Refused a foreign ruler's demands"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CHARACTER_A_NOBLE_UPBRINGING_OPTION_1_PLAYER",
-        "en-US": "Did not fraternize captured princess"
+        "en-US": "Did not fraternize with a captured princess"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_2_CHARACTER_1",
-        "en-US": "Ignored ruler's desperate plea"
+        "en-US": "Ignored a ruler's desperate plea"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MOTHER_IN_EXILE_RETURN",
@@ -1696,39 +1409,39 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_UNFAITHFUL_TIDINGS_STOP_LEADER",
-        "en-US": "Chastened for being unfaithful"
+        "en-US": "Was chastened for being unfaithful"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CONFIRMATION_YES",
-        "en-US": "Bullied to confirm my heir"
+        "en-US": "Got bullied into confirming my Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULTURE_VISITOR_FROM_THE_EAST_OPTION_2_CHARACTER_1",
-        "en-US": "Refused influence of foreign prophet"
+        "en-US": "Rejected the influence of a foreign prophet"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TUTOR_RULE_OF_LAW_OPTION_0_CHARACTER_2",
-        "en-US": "Recognized as seat of law"
+        "en-US": "Got recognition as the seat of law"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TUTOR_BETRAYED_OPTION_1_CHARACTER_2",
-        "en-US": "Left the heir's fate to chance"
+        "en-US": "Left the Heir's fate to chance"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_SECRET_STRIKE_OPTION_0_CHARACTER_0",
-        "en-US": "Refused to approve murder plot"
+        "en-US": "Refused to approve a murder plot"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_A_TIME_TO_REAP_OPTION_3_CHARACTER_0",
-        "en-US": "Let Courtier walk away"
+        "en-US": "Let a Courtier walk away"
       },
       {
         "zType": "TEXT_BONUS_EVENTSTORY_TRAIT_ENTRAILS",
-        "en-US": "Held audience with diviner"
+        "en-US": "Held an audience with a diviner"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_DISTURBING_THE_PEACE_OPTION_2_CHARACTER_0",
-        "en-US": "Held foreign heir for ransom"
+        "en-US": "Held a foreign Heir for ransom"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FREED_SLAVE_KEEP",
@@ -1740,31 +1453,31 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_RIDING_CONTEST_OPTION_1_CHARACTER_0",
-        "en-US": "Rode in barbarian contests"
+        "en-US": "Rode in Tribal contests"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_AMNESTY_OPTION_1_CHARACTER_0",
-        "en-US": "Defied calls to release prisoner"
+        "en-US": "Defied calls to release a prisoner"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_SECRET_FUND_OPTION_0_CHARACTER",
-        "en-US": "Overlooked family tax theft"
+        "en-US": "Overlooked Family tax theft"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_PUSHED_TOO_FAR_OPTION_0_CHARACTER_0",
-        "en-US": "Gave vengeful courtier a second chance"
+        "en-US": "Gave a vengeful Courtier a second chance"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_PUSHED_TOO_FAR_OPTION_1_CHARACTER_0",
-        "en-US": "Punished treacherous courtier"
+        "en-US": "Punished a treacherous Courtier"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_THE_TRAVELER_OPTION_2_CHARACTER_0",
-        "en-US": "Gave bed to traveling beggar"
+        "en-US": "Gave bed to a traveling beggar"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_SACRILEGE_OPTION_0_CHARACTER",
-        "en-US": "Appeased barbarians"
+        "en-US": "Appeased a Tribe"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_UNCHALLENGED_OPTION_0_CHARACTER_1",
@@ -1780,7 +1493,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CUTS_BOTH_WAYS_OPTION_0_CHARACTER_0",
-        "en-US": "My renown grows... by supenatural means"
+        "en-US": "Gained renown from roaming poets"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CRONE_KILLER_OPTION_0_CHARACTER_0",
@@ -1788,23 +1501,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_IN_PRIVATE_OPTION_2_CHARACTER_1",
-        "en-US": "Rebuffed barbarian ruler"
+        "en-US": "Rebuffed a Tribal ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_SURPRISE_PROPOSAL_OPTION_2_CHARACTER_1",
-        "en-US": "Married barbrian leader"
+        "en-US": "Married a Tribal Leader"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_THE_ORPHAN_EATER_OPTION_0_CHARACTER_3",
-        "en-US": "Refused a barbarian general"
+        "en-US": "Refused a Tribal General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_REQUEST_REFUSED_OPTION_0_CHARACTER_1",
-        "en-US": "Pleaded with barbarian ruler"
+        "en-US": "Pleaded with a Tribal ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLEA_FOR_LENIENCY_OPTION_1_CHARACTER_2",
-        "en-US": "Refused leniency for political prisoner"
+        "en-US": "Refused leniency for a political prisoner"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_ALLIES_OF_CONVENIENCE_OPTION_3_CHARACTER_2",
@@ -1812,35 +1525,35 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_YOUR_SPOUSES_WEDDING_OPTION_2_CHARACTER_0",
-        "en-US": "Insulted foreign ruler on wedding day"
+        "en-US": "Insulted a foreign ruler on their wedding day"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_IN_SEARCH_OF_TRUTH_OPTION_0_CHARACTER_1",
-        "en-US": "Insisted that royal heir return to court"
+        "en-US": "Insisted that a royal Heir return to court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_CARAVAN_ATTACK_OPTION_1_CHARACTER_1",
-        "en-US": "Would not accept blame for barbarian incident"
+        "en-US": "Refused to accept blame for a Tribal incident"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_VOYAGE_RUSE_OPTION_1_CHARACTER_2",
-        "en-US": "Punished plotter"
+        "en-US": "Punished a plotter"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_LONG_NIGHT_OPTION_1_CHARACTER_1",
-        "en-US": "Executed my murderous heir"
+        "en-US": "Executed my murderous Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_UNEXPECTED_GUEST_OPTION_1_CHARACTER_2",
-        "en-US": "Scolded Heir for interrupting meeting"
+        "en-US": "Scolded my Heir for interrupting a meeting"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_VIOLENT_ALTERCATION_OPTION_1_CHARACTER_2",
-        "en-US": "Ruler refused to punish rightful heir"
+        "en-US": "Refused to punish my rightful Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DISHONOR_OUR_ANCESTORS_OPTION_1_CHARACTER_2",
-        "en-US": "Imprisoned rightful heir"
+        "en-US": "Imprisoned my rightful Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ROGUE_NATION_OPTION_0_CHARACTER_1",
@@ -1848,7 +1561,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SNAKE_CHARMER_OPTION_0_CHARACTER_1",
-        "en-US": "Did not seek revenge on tribal ruler"
+        "en-US": "Did not seek revenge on a Tribal ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_FEEL_THE_PRESSURE_OPTION_0_CHARACTER_1",
@@ -1856,47 +1569,47 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLOTTING_NOBLES_OPTION_1",
-        "en-US": "Imprisoned nobles unjustly"
+        "en-US": "Unjustly imprisoned nobles"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEGITIMIZE_BASTARDS_BODY_RELEASE",
-        "en-US": "We did not prosecute the murder of a royal bastard"
+        "en-US": "Did not prosecute the murder of a royal bastard"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_YOUNG_BOND",
-        "en-US": "Heir bonded with nobles"
+        "en-US": "My Heir bonded with nobles"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_ELOPEMENT_LEGITIMACY",
-        "en-US": "Heir had scandelous marriage"
+        "en-US": "My Heir had a scandalous marriage"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_FEAST_IGNORE",
-        "en-US": "Ignored family slander"
+        "en-US": "Ignored Family slander"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_FEAST_ACCEPT",
-        "en-US": "Accepted drunken apology"
+        "en-US": "Accepted a drunken apology"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_FAMILY_UNITED_LEG_NEG",
-        "en-US": "Interfered in family affairs"
+        "en-US": "Interfered in Family affairs"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTERCESSION_FAMILY_UNITED_LEG_POS",
-        "en-US": "Above family affairs"
+        "en-US": "Was above Family affairs"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MERCINARY_ARMY_1",
-        "en-US": "Invited exile home"
+        "en-US": "Invited an exile home"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLEA_FOR_FORGIVENESS_0",
-        "en-US": "Revoked punishment"
+        "en-US": "Revoked a punishment"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLEA_FOR_FORGIVENESS_1",
-        "en-US": "Upheld punishment"
+        "en-US": "Upheld a punishment"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_COVERT_MARRIAGE_LEADER",
@@ -1916,15 +1629,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FOREST_FIRE_EMBERS_OPTION_0_PLAYER",
-        "en-US": "Helped your people after a forest fire"
+        "en-US": "Helped my people after a forest fire"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FOREST_FIRE_ORPHAN_OPTION_0_PLAYER",
-        "en-US": "Invited forest fire orphan to your Court"
+        "en-US": "Invited a forest fire orphan to my Court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FOREST_FIRE_ORPHAN_OPTION_1_PLAYER",
-        "en-US": "Forest fire orphan became a Scribe"
+        "en-US": "Invited a forest fire orphan to be a Scribe"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FOREST_FIRE_TOMB_OPTION_1_PLAYER",
@@ -1944,11 +1657,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NEW_TYPE_OF_ANIMAL_SYMBOL_PLAYER",
-        "en-US": "Made noble creature a symbol of our nation"
+        "en-US": "Made a noble creature a symbol of our Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_0_CHARACTER_1",
-        "en-US": "Added foreign refugees to military"
+        "en-US": "Added foreign refugees to my military"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULTURE_A_BEACON_OPTION_2_CHARACTER_1",
@@ -1972,7 +1685,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_OLYMPIAD_SPEECH",
-        "en-US": "Eloquent speech during the link(PROJECT_OLYMPICS)"
+        "en-US": "Gave an eloquent speech during the link(PROJECT_OLYMPICS)"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_LABYRINTH_SUCCESS",
@@ -1980,7 +1693,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CITY_ANARCHY_DISTRACT",
-        "en-US": "Choose to entertain the rebels"
+        "en-US": "Choose to entertain the Rebels"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUPPORTING_THE_FAITH_OPTION_REFUSE",
@@ -1996,7 +1709,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_RIGHTEOUS_PATH_OPTION_2_CHARACTER",
-        "en-US": "Avoided difficult decision about religion"
+        "en-US": "Avoided a difficult decision about religion"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SHRINE_REFUSE",
@@ -2004,7 +1717,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_DEDICATION_2",
-        "en-US": "Forging my own path"
+        "en-US": "Forged my own path"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FIRE_OF_FIRES_YES",
@@ -2016,7 +1729,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HOUSE_OF_SONG",
-        "en-US": "Palace compared to the Divine's"
+        "en-US": "Compared my palace to the Divine's"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BEATING_THE_POETS_RULER",
@@ -2024,7 +1737,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_OFFERINGS_TO_THE_DEAD_1",
-        "en-US": "Moved past tragic a loss"
+        "en-US": "Moved past a tragic loss"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INTO_THE_SKY_1",
@@ -2048,7 +1761,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_NOWRUZ_1",
-        "en-US": "Toasted you court"
+        "en-US": "Toasted the Court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_SACRIFICIAL_DEER_2",
@@ -2056,7 +1769,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_RITUAL_AND_LIFE_0",
-        "en-US": "Bound by legal code"
+        "en-US": "Allowed myself to be bound by religious legal code"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_RITUAL_AND_LIFE_1",
@@ -2064,67 +1777,67 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_DIVINE_PRIEST_0",
-        "en-US": "Adopted new god as patron"
+        "en-US": "Adopted a new god as a patron"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTIONS_FOUNDING_AVESTAN_1",
-        "en-US": "Claims divine lineage"
+        "en-US": "Claimed to be part of a divine lineage"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RIVAL_AT_THE_BRIDGE_LEG_0",
-        "en-US": "Got final vengence on rival"
+        "en-US": "Got final vengeance on a rival"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RIVAL_AT_THE_BRIDGE_LEG_1",
-        "en-US": "Forgave rival after death"
+        "en-US": "Forgave a rival after their death"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MEDICAL_AID_PAID",
-        "en-US": "Paid for opponent's treatment"
+        "en-US": "Paid for an opponent's treatment"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGIOUS_GOVERNOR_LEGIT",
-        "en-US": "Refused proposed Governor"
+        "en-US": "Refused a proposed Governor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ZURVANITES_1",
-        "en-US": "Ahura Mazda weakened"
+        "en-US": "Allowed Ahura Mazda to be weakened"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ZURVANITES_2",
-        "en-US": "Ahura Mazda weakened"
+        "en-US": "Allowed Ahura Mazda to be weakened"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BONDED_BY_FAITH_0",
-        "en-US": "Accepted Religion Head’s alliance"
+        "en-US": "Accepted a Religion Head’s alliance"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BABY_IN_THE_BASKET_0",
-        "en-US": "Accepted child from the river"
+        "en-US": "Accepted a child from the river"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BABY_IN_THE_BASKET_3",
-        "en-US": "Cast out child from the river"
+        "en-US": "Cast out a child from the river"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASHERAH_1",
-        "en-US": "Spouse took support"
+        "en-US": "Bowed to my spouse's demands"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASHERAH_2",
-        "en-US": "Spouse took support"
+        "en-US": "Bowed to my spouse's demands"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WEALTH_OF_DAVID_RELIGION_LEG_NEG",
-        "en-US": "Ancestor’s tomb defiled"
+        "en-US": "Allowed my ancestor’s tomb to be defiled"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WEALTH_OF_DAVID_RELIGION_LEG_POS",
-        "en-US": "Avenged tomb robbing"
+        "en-US": "Avenged the robbing of my ancestor's tomb"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADER_OF_FAITH_1",
-        "en-US": "Treated equally with religion head"
+        "en-US": "Treated equally with a religion head"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GENEROUS_OFFER_REFUSE",
@@ -2135,12 +1848,8 @@
         "en-US": "Refused to abdicate"
       },
       {
-        "zType": "TEXT_BONUS_EVENTOPTION_FOUNDING_AVESTAN_1",
-        "en-US": "Claims descent from Zoroaster"
-      },
-      {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGIOUS_INTRIGUE_DISCOVERED_0",
-        "en-US": "Begged religion head for forgiveness"
+        "en-US": "Begged a religion head for forgiveness"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LAW_HEAVENS_CHOSEN_OPTION_0_CHARACTER",
@@ -2156,11 +1865,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_COLOSSUS_ANCESTOR",
-        "en-US": "Dedication of the Colossus"
+        "en-US": "Dedicated the Colossus to my ancestor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NECROPOLIS_RECORD_CITY",
-        "en-US": "Records at the Necropolis"
+        "en-US": "Recorded my ancestor's accomplishments at the Necropolis"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DINOSAUR_BONES_SLAVERY_VERSION_OPTION_2",
@@ -2176,35 +1885,35 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PILLAGING_TRIBE_SUCCESS",
-        "en-US": "Pillaging Revenge"
+        "en-US": "Got revenge against a Tribe"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_EXOTIC_PETS_MONKEY_BAD_POLITICS",
-        "en-US": "Too much monkey business"
+        "en-US": "Prioritized quality time with my pet monkey"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MYSTERIOUS_SWORD_USING_DISPLAY_LEADER",
-        "en-US": "Displaying the Sword"
+        "en-US": "Put my Mysterious Sword on display for all"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MYSTERIOUS_SWORD_BREAK_ACCEPT",
-        "en-US": "Sword Break"
+        "en-US": "Broke the Sword of the Gods"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ASCETIC_MOVEMENT_ALLOW",
-        "en-US": "Unafraid of Ascetic movement"
+        "en-US": "Was unafraid of the Ascetic movement"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INSOLENT_GENERALS_TRAINING_CHARACTER_0",
-        "en-US": "Allowed us to be insulted"
+        "en-US": "Allowed foreign generals to insult my people"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_VIEW_FROM_THE_THRONE_OPTION_2",
-        "en-US": "I sit alone on the high throne"
+        "en-US": "Sat alone on the high throne"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WONDER_ETERNAL_REST_OPTION_2",
-        "en-US": "I built myself a grand Mausoleum"
+        "en-US": "Built myself a grand Mausoleum"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WONDER_GODS_AND_MEN_OPTION_0",
@@ -2216,23 +1925,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGION_THE_APOSTLES_OPTION_1_CHARACTER",
-        "en-US": "Broke up Christian gathering"
+        "en-US": "Broke up a Christian gathering"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGION_YOUR_BLESSING_OPTION_2_CHARACTER_1",
-        "en-US": "Kept courtier from leaving"
+        "en-US": "Kept a Courtier from leaving"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULTURE_GADFLY_OPTION_0",
-        "en-US": "Added gadfly to court"
+        "en-US": "Added a gadfly to the Court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULTURE_GADFLY_OPTION_1",
-        "en-US": "Banished a gadfly from nation"
+        "en-US": "Banished a gadfly from the Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TECH_VAULTING_NEW_OBSESSION_OPTION_0_CHARACTER_0",
-        "en-US": "Chose a new royal ambition"
+        "en-US": "Chose a new royal Ambition"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TECH_LATEEN_CAPSIZED_SPIES_OPTION_0_CHARACTER_0",
@@ -2240,19 +1949,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TECH_WINDLASS_ROPE_AND_WINCH_OPTION_0_CHARACTER_0",
-        "en-US": "Refused to build torture device"
+        "en-US": "Refused to build a torture device"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TECH_BARDING_NOBLE_EXCESS_OPTION_0_CHARACTER_0",
-        "en-US": "Claimed noble's horse armor"
+        "en-US": "Claimed a noble's horse armor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TECH_BARDING_CLEMENCY_OPTION_2_CHARACTER_0",
-        "en-US": "Negotiated political exile"
+        "en-US": "Negotiated a political exile"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_TREACHERY_OPTION_2_CHARACTER_1",
-        "en-US": "Bowed to traitor's pressure"
+        "en-US": "Bowed to a traitor's pressure"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_ALLIED_INTELLIGENCE_OPTION_1_CHARACTER_1",
@@ -2264,14 +1973,10 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_BAD_BLOOD_OPTION_2_CHARACTER_1",
-        "en-US": "Warned other nation against meddling"
+        "en-US": "Warned a nation against meddling"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_1_CHARACTER_1",
-        "en-US": "Threatened lowly debt collectors"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_FAMILY_DEBTS_OPTION_2_CHARACTER_1",
         "en-US": "Threatened lowly debt collectors"
       },
       {
@@ -2288,7 +1993,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGION_OUR_ALLEGIANCE_OPTION_1_CHARACTER",
-        "en-US": "My armies fight for me, not a god"
+        "en-US": "Proclaimed that my armies fight for me, not a god"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRAIT_MONSOON_OPTION_2_CHARACTER",
@@ -2296,23 +2001,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_SHARED_INTERESTS_OPTION_0_CHARACTER",
-        "en-US": "Formed friendship with foreign ruler"
+        "en-US": "Formed a friendship with a foreign ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MAKING_PEACE_OPTION_1_CHARACTER_1",
-        "en-US": "Sentence mutinous general to short prison term"
+        "en-US": "Sentenced a mutinous General to a short prison term"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_2_CHARACTER_1",
-        "en-US": "Toyed with foreign ruler"
+        "en-US": "Toyed with a foreign ruler"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_INNER_CIRCLE_OPTION_0",
-        "en-US": "Added foreign adviser to court"
-      },
-      {
-        "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0_CHARACTER_1",
-        "en-US": "Resisted foreign intervention"
+        "en-US": "Added a foreign advisor to court"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0_CHARACTER_1",
@@ -2324,15 +2025,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_REINED_IN_OPTION_1_CHARACTER_0",
-        "en-US": "Refused to impose tyranny"
+        "en-US": "Refused to impose Tyranny"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HANDS_TIED_OPTION_2_CHARACTER_0",
-        "en-US": "Publicly admonished outspoken heir"
+        "en-US": "Publicly admonished my outspoken Heir"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_THE_BIG_PICTURE_OPTION_1_CHARACTER_0",
-        "en-US": "Defended law"
+        "en-US": "Defended existing laws"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUPPLY_CHAIN_WOES_OPTION_0_CHARACTER_0",
@@ -2340,19 +2041,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_IRREPARABLE_DAMAGE_OPTION_2_CHARACTER_0",
-        "en-US": "Broke up radical sect"
+        "en-US": "Broke up a radical sect"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SMALL_MINDEDNESS_OPTION_1_CHARACTER_0",
-        "en-US": "Bullied by rival family"
+        "en-US": "Was bullied by a rival Family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_2_CHARACTER_0",
-        "en-US": "Removed eccentric governor"
+        "en-US": "Removed an eccentric Governor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_A_MESSY_AFFAIR_OPTION_1_CHARACTER_1",
-        "en-US": "Investigated controversial murder"
+        "en-US": "Investigated a controversial murder"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_HIRED_KILLERS_OPTION_2_CHARACTER_0",
@@ -2360,7 +2061,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LAST_KISS_OPTION_0_CHARACTER_2",
-        "en-US": "Accuse family of murder"
+        "en-US": "Accused a Family of murder"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_WOOD_SHORTAGES_OPTION_0_PLAYER_0",
@@ -2368,15 +2069,15 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SLANDER_NO_MORE_SECRETS_OPTION_0_PLAYER_0",
-        "en-US": "Spies surrendered secrets"
+        "en-US": "My spies surrendered state secrets"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PACIFY_SEND_HIM_OUT_OPTION_2_PLAYER",
-        "en-US": "Heard rebellious city's demands"
+        "en-US": "Heard a rebellious City's demands"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DIVORCE_FLIGHT_FROM_NATION_OPTION_0_CHARACTER_0",
-        "en-US": "Declared traitorous heir illegitimate"
+        "en-US": "Declared my traitorous Heir as illegitimate"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INFLUENCE_A_DEADLY_REQUEST_OPTION_2_CHARACTER_2",
@@ -2416,11 +2117,11 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TWO_MOTHERS_ONE_CHILD_2",
-        "en-US": "Decreed a brutal judgement"
+        "en-US": "Decreed a brutal judgment"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_END_OF_A_SIEGE_BAD_OPTION_1",
-        "en-US": "Fooled by a wooden horse"
+        "en-US": "Was fooled by a wooden horse"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TROOPS_RANSACK_OPTION_1_LEADER",
@@ -2428,7 +2129,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TROOPS_RANSACK_SLAVERY_OPTION_2",
-        "en-US": "Showed our enemies no mercy"
+        "en-US": "Showed my enemies no mercy"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MERCENARY_DEMANDS_YES",
@@ -2444,23 +2145,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RIOTS_AT_THE_RACES_OPTION_1",
-        "en-US": "Frightened of angering the people"
+        "en-US": "Was frightened of angering the people"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LEGITIMACY_CALENDAR",
-        "en-US": "Named a new calendar after oneself"
+        "en-US": "Named a new calendar after myself"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CAPTURED_NOBLE_EXECUTE",
-        "en-US": "We take no prisoners"
+        "en-US": "Executed a foreign noble to send a message"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MONUMENTAL_EVENING",
-        "en-US": "A memorable feast was thrown in your honor"
+        "en-US": "A memorable feast was thrown in my honor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DISMAL_EVENING",
-        "en-US": "A terrible feast was thrown in your honor"
+        "en-US": "A terrible feast was thrown in my honor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_SUCCESSION_POWER_STRUGGLES_OPTION_REMOVE_LEADER",
@@ -2472,7 +2173,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NAIVE_AMBASSADOR_CHASTIZE_CHARACTER",
-        "en-US": "Chastised an incompetent ambassador"
+        "en-US": "Chastised an incompetent Ambassador"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_FIFTH_COLUMN_EXECUTE_CITY",
@@ -2508,19 +2209,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_LOST_IN_TRANSLATION_DEALMAKER_PLAYER_0",
-        "en-US": "Charmed our neighbors in a diplomatic mediation"
+        "en-US": "Charmed my neighbors in a diplomatic mediation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_A_GREEN_DEDICATION_SELF_CHARACTER_1",
-        "en-US": "Supported by your governors"
+        "en-US": "Gained support from a Governor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_GOLDEN_GIFTS_WEAR_CHARACTER",
-        "en-US": "Resplendent in golden gifts"
+        "en-US": "Became resplendent in golden gifts"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_VICTORY_FOR_THE_LEADER_SELF_CHARACTER_0",
-        "en-US": "Leadership proclaimed by your generals"
+        "en-US": "A General proclaimed my good leadership"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RESISTANCE_TO_ATENISM_OPTION_1_PLAYER_0",
@@ -2532,7 +2233,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PURIM_BAN_PLAYER",
-        "en-US": "Banned a festival that spoke ill of your nation"
+        "en-US": "Banned a festival that spoke ill of the Nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_PLOT_BY_HERETICS_SURRENDER_PLAYER",
@@ -2544,7 +2245,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BLOODSHED_AMONG_THE_RIGHTEOUS_ELOQUENT_CHARACTER",
-        "en-US": "Emphasized nation as the true followers of the faith"
+        "en-US": "Emphasized that our people are the true followers of the faith"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_COMING_OF_AGE_SELF_PLAYER",
@@ -2552,23 +2253,23 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INAPPROPRIATE_FAITH_CONVINCE_LEGITIMACY",
-        "en-US": "Led a family to the light"
+        "en-US": "Led a Family to the light"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AN_UNUSUAL_CHANCELLOR_PROCLAIM",
-        "en-US": "Refused to name a chancellor"
+        "en-US": "Refused to name a Chancellor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_INSOLENT_GENERAL_OPTION_1_PLAYER",
-        "en-US": "Rebuked insolent general"
+        "en-US": "Rebuked an insolent General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_UNEXPECTED_REUNION_REINSTATE_CHARACTER_1",
-        "en-US": "Forgave a deserter general"
+        "en-US": "Forgave a deserter General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_UNEXPECTED_REUNION_IMPRISON_CHARACTER_1",
-        "en-US": "Punished a deserter general"
+        "en-US": "Punished a deserter General"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_BATTLE_IN_THE_SKIES_LEGITIMACY_CITY",
@@ -2580,31 +2281,31 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGIOUS_PRAISE_YES",
-        "en-US": "Allowed other families to sponsor religious events"
+        "en-US": "Allowed other Families to sponsor religious events"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RELIGIOUS_PRAISE_NO",
-        "en-US": "Prevented other families from sponsoring religious events"
+        "en-US": "Prevented other Families from sponsoring religious events"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_CULINARY_ESCAPADES_3",
-        "en-US": "Shown up by another family"
+        "en-US": "Was shown up by another Family"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBAL_TRAINING_1",
-        "en-US": "Turned down tribal training"
+        "en-US": "Turned down Tribal training"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_TRIBAL_TRAINING_3",
-        "en-US": "Accepted tribal training"
+        "en-US": "Accepted Tribal training"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_LEADER_MARK_LARGE",
-        "en-US": "Making large changes to the nation"
+        "en-US": "Made a large changes to the nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_YOUNG_LEADER_MARK_SMALL",
-        "en-US": "Making changes to the nation"
+        "en-US": "Made changes to the nation"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_FOREIGN_LIT",
@@ -2616,19 +2317,19 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_MORAL_CORRUPTION_1",
-        "en-US": "Steered student away from corruption"
+        "en-US": "Steered a student away from corruption"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_MUSIC_0",
-        "en-US": "Encouraged student in playing music"
+        "en-US": "Encouraged a student in playing music"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_CURSE_OF_AGADE_0",
-        "en-US": "Instilled pride in successor"
+        "en-US": "Instilled pride in my successor"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_STUDY_CURSE_OF_AGADE_1",
-        "en-US": "Encouraged humility in successor"
+        "en-US": "Encouraged humility in my successor"
       },
       {
         "zType": "TEXT_LEGIT_LOSS_FIVE",
@@ -2644,31 +2345,27 @@
       },
       {
         "zType": "TEXT_BONUS_LEGITIMACY_FROM_SCHEMING",
-        "en-US": "Mastermind Schemer"
+        "en-US": "Schemed a way out of a War"
       },
       {
         "zType": "TEXT_BONUS_LEGITIMACY_LOVE_AFFAIR_KEEP",
-        "en-US": "Unashamed of my lover"
+        "en-US": "Was unashamed of my lover"
       },
       {
         "zType": "TEXT_BONUS_LEGITIMACY_REJECTED_CHILD",
-        "en-US": "Rejected mysterious child"
+        "en-US": "Rejected a mysterious child"
       },
       {
         "zType": "TEXT_BONUS_RELIGION_HEAD_REFUSED",
-        "en-US": "Refused religious head"
+        "en-US": "Refused a religious head"
       },
       {
         "zType": "TEXT_BONUS_RELIGION_HEAD_HUMBLED_BY",
-        "en-US": "Humbled by religious head"
+        "en-US": "Was humbled by a religious head"
       },
       {
         "zType": "TEXT_BONUS_RETURNED_BODIES",
         "en-US": "Honored fallen bodyguards"
-      },
-      {
-        "zType": "TEXT_BONUS_PLOTTING_FOR_LUST",
-        "en-US": "Chose death over being pressured"
       },
       {
         "zType": "TEXT_WILD_REVELS_DISCOVERED",
@@ -2676,7 +2373,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_RAID_FRIENDS_IN_FAR_PLACES",
-        "en-US": "Protected courtier from invaders"
+        "en-US": "Protected a Courtier from invaders"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_AUTONOMOUS_EMPRESS_1",
@@ -2692,7 +2389,7 @@
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_MYTHICAL_BEASTS",
-        "en-US": "Adopted elephant as royal symbol"
+        "en-US": "Adopted an elephant as a royal symbol"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_NAMED_UNIT_MEDJAY",
@@ -2749,55 +2446,113 @@
       {
         "beginGroup": "Character",
         "zType": "TEXT_BONUS_EVENTOPTION_GROWING_MILITARY_MIGHT_PROMOTE_FROM_WITHIN",
-        "en-US": "Promoted from within"
+        "en-US": "Promoted an elite bodyguard from within"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DAUGHTER_OF_THE_STORM_TEMPLE_REFUSE",
-        "en-US": "I got this"
+        "en-US": "Refused treatment from the Daughter of the Storm"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_BEG_CHARACTER_3",
+        "en-US": "Begged for life in a duel"
       },
       {
         "beginGroup": "Diplomacy",
         "zType": "TEXT_BONUS_COIN_FACE",
-        "en-US": "Face on a coin."
+        "en-US": "Put my face on a coin"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ROCK_IGNORED_SWORD",
         "en-US": "Ignored a sign to change the succession"
       },
       {
+        "zType": "TEXT_BONUS_MERCY_FOR_THE_WEAK_ANGRY_FAMILIES",
+        "en-US": "Refused to heed the wisdom of your vassals"
+      },
+      {
+        "zType": "TEXT_DISPLAY_OF_BENEVOLENCE_LEGITIMACY",
+        "en-US": "Greater appreciation from your peers for your display of benevolence"
+      },
+      {
+        "zType": "TEXT_BONUS_LUXURY_SEEKERS_LEGITIMACY",
+        "en-US": "Allowed an impatient family to dictate your rule"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_WORLD_TOUR_OPTION_1_CITY",
+        "en-US": "Spread culture through drama"
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_BONUS_TAKING_TROPHIES",
-        "en-US": "Mighty hunter"
+        "en-US": "Collected a truly magnificent set of antlers"
       },
       {
         "zType": "TEXT_BONUS_MARBLE_MADNESS_GATE",
-        "en-US": "Beautiful statue"
+        "en-US": "Built a gate statue"
       },
       {
         "beginGroup": "Tribe",
         "zType": "TEXT_BONUS_PURPLE_DYE",
-        "en-US": "Wears Purple"
+        "en-US": "Wore Purple"
       },
       {
         "zType": "TEXT_BONUS_SHARED_PURPLE",
-        "en-US": "Wears purple"
+        "en-US": "Wore purple"
       },
       {
-        "zType": "TEXT_BONUS_PURPLE_FAMILY",
-        "en-US": "Permitted purple"
+        "zType": "TEXT_BONUS_MERCY_FOR_THE_WEAK_LEGITIMACY",
+        "en-US": "Showed mercy to those weaker than you"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES_CHARACTER_1",
+        "en-US": "Married tribal leader"
       },
       {
         "beginGroup": "Ambition",
         "zType": "TEXT_BONUS_EVENTOPTION_BOUND_BY_AN_OATH_NO_CHARACTER_1",
-        "en-US": "Known as an oath-breaker"
+        "en-US": "Became known as an oath-breaker"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_ANCESTRAL_OATH_NO_CHARACTER_3",
-        "en-US": "Broke ancestral oath"
+        "en-US": "Broke an ancestral oath"
       },
       {
         "zType": "TEXT_BONUS_EVENTOPTION_DRUNKEN_AMBITION_NO_PLAYER",
-        "en-US": "Renowned drunk"
+        "en-US": "Became a renowned drunk"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_2_CHARACTER_0",
+        "en-US": "Refused Pygmalion"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_2_CHARACTER_0",
+        "en-US": "Refused to honor brother"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE_PLAYER_1",
+        "en-US": "Peace with rivals"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_THE_GOD_QUEEN_OPTION_0_CHARACTER",
+        "en-US": "Birth myth"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_EARLY_AMBITIONS_NO",
+        "en-US": "Forging my own path"
+      },
+      {
+        "beginGroup": "Royalty",
+        "zType": "TEXT_BONUS_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY_CHARACTER_2",
+        "en-US": "No longer regent"
+      },
+      {
+        "beginGroup": "Religion",
+        "zType": "TEXT_BONUS_EVENTOPTION_THE_TRUE_GOD_ATEN_MONOTHEISM_CHARACTER_0",
+        "en-US": "Child of Aten"
+      },
+      {
+        "zType": "TEXT_BONUS_EVENTOPTION_AKHENATEN_OPTION_0",
+        "en-US": "Named after Aten"
       }
     ]
   }

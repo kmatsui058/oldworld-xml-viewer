@@ -82,10 +82,6 @@ export interface Entry {
   bBarbRaid?: ZType | string;
   bNoHurry?: ZType;
   aiStartDifficulty?: AiStartDifficulty;
-  aiUnitTraitModifier?: AiUnitTraitModifier;
-  aiUnitTraitModifierAttack?: AiUnitTraitModifier;
-  aiUnitTraitModifierDefense?: AiUnitTraitModifier;
-  aiUnitTraitModifierMelee?: AiUnitTraitModifier;
   aiYieldCost?: AiStartDifficulty;
   aiYieldConsumption?: AiStartDifficulty;
   aeObsoleteTech?: AeObsoleteTech;
@@ -108,9 +104,6 @@ export interface SubPair {
 }
 export interface AeObsoleteTech {
   zValue?: string[] | string;
-}
-export interface AiUnitTraitModifier {
-  Pair?: Pair2;
 }
 export interface AiStartDifficulty {
   Pair?: Pair2[] | Pair2;

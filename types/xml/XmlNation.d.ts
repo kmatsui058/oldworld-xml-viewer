@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GenderedNames: GenderedNames;
   TeamColor: ZType | string;
   Crest: ZType | string;
   zAttackPortraitName: ZType | string;
@@ -47,14 +48,21 @@ export interface AeStartingTech {
   zValue?: string[];
 }
 export interface AiCityUnit {
-  Pair?: Pair[];
+  Pair?: Pair2[];
 }
 export interface AiStartUnit {
+  Pair?: Pair2;
+}
+export interface Pair2 {
+  zIndex: string;
+  iValue: string;
+}
+export interface GenderedNames {
   Pair?: Pair;
 }
 export interface Pair {
-  zIndex: string;
-  iValue: string;
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

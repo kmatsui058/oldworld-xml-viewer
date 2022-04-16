@@ -455,6 +455,9 @@
         "en-US": "God's Consort Shrine~a God's Consort Shrine~God's Consort Shrines"
       },
       {
+        "zType": "TEXT_IMPROVEMENT_GODS_CONSORT_SHRINE_F"
+      },
+      {
         "zType": "TEXT_IMPROVEMENT_SHRINE_TRIBE_PAGANISM",
         "en-US": "Tribal Shrine~a Tribal Shrine~Tribal Shrines"
       },

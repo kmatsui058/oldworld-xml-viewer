@@ -440,11 +440,11 @@
       },
       {
         "zType": "TEXT_MISSION_TUTOR_LEADER",
-        "en-US": "link(CONCEPT_TUTOR) Child (Leader)"
+        "en-US": "link(CONCEPT_TUTOR) Child (as Leader)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_COURTIER",
-        "en-US": "link(CONCEPT_TUTOR) Child (Courtier)"
+        "en-US": "link(CONCEPT_TUTOR) Child (as Courtier)"
       },
       {
         "zType": "TEXT_MISSION_TUTOR_TARGET",

@@ -39,6 +39,9 @@
         "bRoadValid": {
           
         },
+        "bFreshWaterSource": {
+          
+        },
         "DefaultHeight": {
           
         },
@@ -273,28 +276,28 @@
         "iBorderValue": "100",
         "iUnitDamage": "1",
         "bNoVegetation": "1",
+        "bFreshWaterSource": "1",
         "DefaultHeight": "HEIGHT_FLAT",
         "aeHeightAsset": {
           "Pair": [
             {
               "zIndex": "HEIGHT_FLAT",
-              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+              "zValue": "ASSET_VARIATION_TILE_MARSH_FLAT"
             },
             {
               "zIndex": "HEIGHT_HILL",
-              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+              "zValue": "ASSET_VARIATION_TILE_HILL_MARSH"
             },
             {
               "zIndex": "HEIGHT_MOUNTAIN",
-              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+              "zValue": "ASSET_VARIATION_TILE_MARSH_FLAT"
             },
             {
               "zIndex": "HEIGHT_VOLCANO",
-              "zValue": "ASSET_VARIATION_TILE_TUNDRA_FLAT"
+              "zValue": "ASSET_VARIATION_TILE_MARSH_FLAT"
             }
           ]
         },
-        "AssetVariation": "ASSET_VARIATION_TILE_HILL_TUNDRA",
         "zAudioAmbienceSwitch": "TEMPERATE"
       }
     ]

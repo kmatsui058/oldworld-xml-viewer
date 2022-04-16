@@ -283,6 +283,12 @@
         "bUpgrade": "1"
       },
       {
+        "zType": "PROMOTION_MANEUVERS",
+        "Name": "TEXT_PROMOTION_MANEUVERS",
+        "EffectUnit": "EFFECTUNIT_MANEUVERS",
+        "bUpgrade": "1"
+      },
+      {
         "zType": "PROMOTION_INGENUITY",
         "Name": "TEXT_PROMOTION_INGENUITY",
         "EffectUnit": "EFFECTUNIT_INGENUITY"

@@ -11,6 +11,50 @@
         }
       },
       {
+        "zType": "TEXT_PROJECT_GIVE_SILK",
+        "en-US": "Silk"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_PORCELAIN",
+        "en-US": "Porcelain"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_EXOTIC_FUR",
+        "en-US": "Exotic Fur"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_EBONY",
+        "en-US": "Ebony"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_PERFUME",
+        "en-US": "Perfume"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_IVORY",
+        "en-US": "Carved Ivory"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_EXOTIC_ANIMALS",
+        "en-US": "Exotic Animals"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_SILPHIUM",
+        "en-US": "Silphium"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_JADE",
+        "en-US": "Jade"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_TEA",
+        "en-US": "Tea"
+      },
+      {
+        "zType": "TEXT_PROJECT_GIVE_SPICES",
+        "en-US": "Spices"
+      },
+      {
         "zType": "TEXT_PROJECT_SWORD_CULT",
         "en-US": "Sword Cult"
       },
@@ -289,6 +333,58 @@
       {
         "zType": "TEXT_PROJECT_ATHLETICS_EQUESTRIAN",
         "en-US": "Athletic Tradition: Equestrian"
+      },
+      {
+        "zType": "TEXT_PROJECT_WARDENS_OF_THE_WILDS",
+        "en-US": "Wardens of the Wilds"
+      },
+      {
+        "zType": "TEXT_PROJECT_TRAINING_PITS",
+        "en-US": "Training Pits"
+      },
+      {
+        "zType": "TEXT_PROJECT_WARRIOR_TRADITION",
+        "en-US": "Warrior Tradition"
+      },
+      {
+        "zType": "TEXT_PROJECT_MONUMENT_OF_HOPE",
+        "en-US": "Beacon of Hope"
+      },
+      {
+        "zType": "TEXT_PROJECT_ANTICAVALRY_TACTICS",
+        "en-US": "Anti-Mounted Tactics"
+      },
+      {
+        "zType": "TEXT_PROJECT_BY_THE_NUMBERS",
+        "en-US": "Office of Efficient Taxation"
+      },
+      {
+        "zType": "TEXT_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "en-US": "Shrine of the Unknown God"
+      },
+      {
+        "zType": "TEXT_PROJECT_FORESTRY_GUILD",
+        "en-US": "Forester's Guild"
+      },
+      {
+        "zType": "TEXT_PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "en-US": "Codex of Highland Wisdom"
+      },
+      {
+        "zType": "TEXT_PROJECT_TRIBAL_FORUM",
+        "en-US": "Tribal Forum"
+      },
+      {
+        "zType": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "en-US": "Zoo"
+      },
+      {
+        "zType": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "en-US": "Research Cloister"
+      },
+      {
+        "zType": "TEXT_PROJECT_THE_SAND_PITS",
+        "en-US": "The Sand Pits"
       }
     ]
   }

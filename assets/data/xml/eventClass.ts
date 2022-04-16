@@ -45,6 +45,11 @@
         "iMinRepeat": "2"
       },
       {
+        "zType": "EVENTCLASS_LUXURY_USE",
+        "iPlayerProb": "50",
+        "iMinRepeat": "2"
+      },
+      {
         "zType": "EVENTCLASS_SUDDEN_DEATH",
         "iMinTurns": "20",
         "iMinRepeat": "20"
@@ -123,6 +128,11 @@
         "zType": "EVENTCLASS_INTRIGUE",
         "iPlayerProb": "5",
         "iMinTurns": "10"
+      },
+      {
+        "zType": "EVENTCLASS_AMBITION",
+        "iMinTurns": "5",
+        "iMinRepeat": "5"
       }
     ]
   }

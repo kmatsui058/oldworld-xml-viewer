@@ -296,11 +296,6 @@
       },
       {
         "beginGroup": "Miscellaneous",
-        "zType": "MEMORYTRIBE_SMUGGLED_SPIES",
-        "Text": "TEXT_MEMORYTRIBE_SMUGGLED_SPIES",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
-      },
-      {
         "zType": "MEMORYTRIBE_ASSISTED_IN_MONSOON",
         "Text": "TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
@@ -334,6 +329,81 @@
         "zType": "MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE",
         "Text": "TEXT_MEMORYTRIBE_BONUS_FORTUNE_FAVORS_HELPED_TRIBE",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_REFUSAL",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_REFUSAL",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_STATUE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_STATUE",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_CRUEL_SUMMER_COMMON_INTERESTS",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_CRUEL_SUMMER_COMMON_INTERESTS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_THROUGH_THICK_AND_THIN_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_THROUGH_THICK_AND_THIN_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_LONG"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS",
+        "Text": "TEXT_MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_YES",
+        "Text": "TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_NO",
+        "Text": "TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Character",
@@ -443,7 +513,7 @@
       {
         "zType": "MEMORYTRIBE_ATTEND_HARVEST_FESTIVAL_TRIBE",
         "Text": "TEXT_MEMORYTRIBE_ATTEND_HARVEST_FESTIVAL_TRIBE",
-        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYTRIBE_DO_NOT_ATTEND_HARVEST_FESTIVAL",
@@ -527,6 +597,18 @@
         "zType": "MEMORYTRIBE_SKIRMISH_IGNORED",
         "Text": "TEXT_MEMORYPLAYER_SKIRMISH_IGNORED",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "beginGroup": "Family",
+        "zType": "MEMORYTRIBE_DISFAVORS_SPOUSE",
+        "Text": "TEXT_MEMORYTRIBE_MEMORYTRIBE_DISFAVORS_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "beginGroup": "Tribe",
+        "zType": "MEMORYTRIBE_MARRIED_LEADER",
+        "Text": "TEXT_MEMORYTRIBE_MARRIED_LEADER",
+        "MemoryLevel": "MEMORYLEVEL_POS_HIGH_LONG"
       }
     ]
   }

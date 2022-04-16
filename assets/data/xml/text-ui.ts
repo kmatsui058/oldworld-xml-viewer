@@ -31,6 +31,10 @@
         "en-US": "None"
       },
       {
+        "zType": "TEXT_UI_FAILED_LOAD_SAVE",
+        "en-US": "Failed to load save. Specified file is either invalid or no longer compatible"
+      },
+      {
         "zType": "TEXT_UI_FAILED_LOAD_LOCKED_SAVE",
         "en-US": "Failed to load save. Specified file is either invalid or was started with the \"Locked Save\" option enabled and the file has subsequently been modified"
       },
@@ -49,6 +53,14 @@
       {
         "zType": "TEXT_UI_YOUR_TURN",
         "en-US": "Your Turn"
+      },
+      {
+        "zType": "TEXT_UI_SIMULTANEOUS_TURN",
+        "en-US": "Simultaneous"
+      },
+      {
+        "zType": "TEXT_UI_SIMULTANEOUS_TURNS_LEFT",
+        "en-US": "Simultaneous ({0} Left)"
       },
       {
         "zType": "TEXT_UI_TURN_ENDED",
@@ -283,6 +295,14 @@
         "en-US": "GIFT GOOD"
       },
       {
+        "zType": "TEXT_UI_EVENT_LOG_GIFT_PLAYER_UNIT",
+        "en-US": "GIFT UNIT"
+      },
+      {
+        "zType": "TEXT_UI_EVENT_LOG_GIFT_PLAYER_CITY",
+        "en-US": "GIFT CITY"
+      },
+      {
         "zType": "TEXT_UI_EVENT_LOG_MISSION_CANCELLED",
         "en-US": "MISSION CANCELLED"
       },
@@ -293,6 +313,10 @@
       {
         "zType": "TEXT_UI_EVENT_LOG_CHARACTER_BIRTH",
         "en-US": "CHARACTER BIRTH"
+      },
+      {
+        "zType": "TEXT_UI_EVENT_LOG_CHARACTER_MARRIAGE",
+        "en-US": "CHARACTER MARRIAGE"
       },
       {
         "zType": "TEXT_UI_EVENT_LOG_CHARACTER_DEATH",
@@ -309,6 +333,38 @@
       {
         "zType": "TEXT_UI_EVENT_LOG_DISMISS_TOOLTIP",
         "en-US": "{TEXT_HOTKEY_RIGHT_CLICK} to dismiss this notification{br}{TEXT_HOTKEY_CTRL_RIGHT_CLICK} to dismiss all notifications"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_CITY_GOVERNOR",
+        "en-US": "Governors Available ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_CITY_AGENT",
+        "en-US": "Agents Available ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_AGENT_MISSION",
+        "en-US": "Idle Agents ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_COUNCIL_CHARACTER",
+        "en-US": "Councillors Available ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_COUNCIL_MISSION",
+        "en-US": "Idle Councillors ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_TUTOR",
+        "en-US": "Tutoring Available ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_FAMILY_RELIGION_HEAD",
+        "en-US": "Idle Family/Religion Heads ({0_count})"
+      },
+      {
+        "zType": "TEXT_UI_REMINDER_CATEGORY_LEADER",
+        "en-US": "Idle Leader ({0_count})"
       },
       {
         "zType": "TEXT_UI_TILE_BOUNDARY_TOOLTIP_WATER_TITLE",
@@ -423,6 +479,10 @@
         "en-US": "Fortify"
       },
       {
+        "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_TESTUDO",
+        "en-US": "link(CONCEPT_TESTUDO)"
+      },
+      {
         "zType": "TEXT_UI_UNIT_ATTACK_PREVIEW_FAMILY_TERRITORY",
         "en-US": "{0_family} Territory"
       },
@@ -437,6 +497,14 @@
       {
         "zType": "TEXT_UI_CITY_ATTACK_PREVIEW_POPULATION",
         "en-US": "Population"
+      },
+      {
+        "zType": "TEXT_UI_ATTACK_PREVIEW_COUNTER_DAMAGE",
+        "en-US": "Counterattack"
+      },
+      {
+        "zType": "TEXT_UI_ATTACK_PREVIEW_DAMAGE",
+        "en-US": "Attack Damage"
       },
       {
         "zType": "TEXT_UI_UNIT_COOLDOWN_FATIGUED",
@@ -539,6 +607,10 @@
         "en-US": "Civics: Specialists"
       },
       {
+        "zType": "TEXT_UI_CITY_ACTIONS_SPECIALIST_AVAILABLE_RESOURCES",
+        "en-US": "Potential Resources: {0_luxuryList}"
+      },
+      {
         "zType": "TEXT_UI_CHARACTER_ACTIONS_SEND_RESOURCE",
         "en-US": "Send {0}"
       },
@@ -553,22 +625,6 @@
       {
         "zType": "TEXT_UI_CHARACTER_ACTIONS_LEAVE",
         "en-US": "Leave {0}"
-      },
-      {
-        "zType": "TEXT_UI_CHARACTER_ACTIONS_RELATIVE_FATHER_LABEL",
-        "en-US": "Father"
-      },
-      {
-        "zType": "TEXT_UI_CHARACTER_ACTIONS_RELATIVE_MOTHER_LABEL",
-        "en-US": "Mother"
-      },
-      {
-        "zType": "TEXT_UI_CHARACTER_ACTIONS_RELATIVE_SPOUSE_LABEL",
-        "en-US": "Spouse"
-      },
-      {
-        "zType": "TEXT_UI_CHARACTER_ACTIONS_RELATIVE_CHILD_LABEL",
-        "en-US": "Child"
       },
       {
         "zType": "TEXT_UI_CHARACTER_ACTIONS_RELATIVES_TITLE",
@@ -899,6 +955,10 @@
         "en-US": "[Killed Unit]"
       },
       {
+        "zType": "TEXT_UI_EVENT_STORY_UNIT_KILLED",
+        "en-US": "[Unit Killed]"
+      },
+      {
         "zType": "TEXT_UI_EVENT_STORY_GENERAL_ATTACK",
         "en-US": "[Attacked with General]"
       },
@@ -964,7 +1024,7 @@
       },
       {
         "zType": "TEXT_UI_CHARACTERLIST_FILTER_GENERAL_AGE",
-        "en-US": "Must be Younger than int(GENERAL_START_AGE)"
+        "en-US": "Must be Younger than int(GENERAL_START_MAX_AGE)"
       },
       {
         "zType": "TEXT_UI_UNITLIST_CIVILIAN_FILTER",
@@ -1051,6 +1111,10 @@
         "en-US": "Are you sure you want to restart? \nAny unsaved progress will be lost."
       },
       {
+        "zType": "TEXT_UI_CLOUD_CONTINUE_DIALOG",
+        "en-US": "Are you sure you want to continue this game on the cloud?\nThe network connection will be terminated."
+      },
+      {
         "zType": "TEXT_UI_KICK_DIALOG",
         "en-US": "Are you sure you want to remove this player from the game?"
       },
@@ -1119,120 +1183,264 @@
         "en-US": "Family Classes"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_FAMILYCLASSES_LABEL",
+        "en-US": "(Family Class)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_CONCEPTS",
         "en-US": "Concepts"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_CONCEPTS_LABEL",
+        "en-US": "(Concept)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_YIELDS",
         "en-US": "Yields"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_YIELDS_LABEL",
+        "en-US": "(Yield)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES",
         "en-US": "Technologies"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TECHNOLOGIES_LABEL",
+        "en-US": "(Technology)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_UNITS",
         "en-US": "Units"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_UNITS_LABEL",
+        "en-US": "(Unit)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_SPECIALISTS",
         "en-US": "Specialists"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_SPECIALISTS_LABEL",
+        "en-US": "(Specialist)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_PROJECTS",
         "en-US": "Projects"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_PROJECTS_LABEL",
+        "en-US": "(Project)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_LAWS",
         "en-US": "Laws"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_LAWS_LABEL",
+        "en-US": "(Law)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_RELIGIONS",
         "en-US": "Religions"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_RELIGIONS_LABEL",
+        "en-US": "(Religion)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_NATIONS",
         "en-US": "Nations"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_NATIONS_LABEL",
+        "en-US": "(Nation)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TRIBES",
         "en-US": "Tribes"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TRIBES_LABEL",
+        "en-US": "(Tribe)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_COGNOMEN",
         "en-US": "Cognomen"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_COGNOMEN_LABEL",
+        "en-US": "(Cognomen)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_CHARACTERS",
         "en-US": "Characters"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_CHARACTERS_LABEL",
+        "en-US": "(Character)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS",
         "en-US": "Improvements (General)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_IMPROVEMENTS_LABEL",
+        "en-US": "(Improvement)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_RESOURCES",
         "en-US": "Resources"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_RESOURCES_LABEL",
+        "en-US": "(Resource)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_VEGETATION",
         "en-US": "Vegetation"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_VEGETATION_LABEL",
+        "en-US": "(Vegetation)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_HEIGHTS",
         "en-US": "Heights"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_HEIGHTS_LABEL",
+        "en-US": "(Height)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_RATINGS",
         "en-US": "Ratings"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_RATINGS_LABEL",
+        "en-US": "(Rating)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TERRAIN",
         "en-US": "Terrain"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TERRAIN_LABEL",
+        "en-US": "(Terrain)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES",
         "en-US": "Traits (Archetypes)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_ARCHETYPES_LABEL",
+        "en-US": "(Archetype)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_COUNCILS",
         "en-US": "Councilors"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_COUNCILS_LABEL",
+        "en-US": "(Councilor)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_WONDERS",
         "en-US": "Improvements (Wonders)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_WONDERS_LABEL",
+        "en-US": "(Wonder)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_MISSIONS",
         "en-US": "Missions"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_MISSIONS_LABEL",
+        "en-US": "(Mission)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS",
         "en-US": "Improvements (Religion)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_RELIGIOUSIMPROVEMENTS_LABEL",
+        "en-US": "(Improvement)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TRAITS",
         "en-US": "Traits (Other)"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TRAITS_LABEL",
+        "en-US": "(Trait)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS",
         "en-US": "Hints"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_HINTTEXTS_LABEL",
+        "en-US": "(Hint)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS",
         "en-US": "Promotions"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_PROMOTIONS_LABEL",
+        "en-US": "(Promotion)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_UNITEFFECTS",
+        "en-US": "Unit Effects"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_UNITEFFECTS_LABEL",
+        "en-US": "(Unit Effect)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES",
         "en-US": "Traits (Adjectives)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TRAITSADJECTIVES_LABEL",
+        "en-US": "(Trait)"
       },
       {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES",
         "en-US": "Theologies"
       },
       {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_THEOLOGIES_LABEL",
+        "en-US": "(Theology)"
+      },
+      {
         "zType": "TEXT_WIKI_NAV_UI_SECTION_TUTORIALS",
         "en-US": "Tutorials"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_TUTORIALS_LABEL",
+        "en-US": "(Tutorial)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_DIFFICULTYLEVELS",
+        "en-US": "Difficulty Levels"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_DIFFICULTYLEVELS_LABEL",
+        "en-US": "(Difficulty Level)"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_VICTORYTYPES",
+        "en-US": "Victory Types"
+      },
+      {
+        "zType": "TEXT_WIKI_NAV_UI_SECTION_VICTORYTYPES_LABEL",
+        "en-US": "(Victory Type)"
       },
       {
         "zType": "TEXT_WORKER_FILTERS_LABEL",
@@ -1271,6 +1479,26 @@
         "en-US": "Agent Networks"
       },
       {
+        "zType": "TEXT_CHARACTER_MISSIONS_AVAILABLE",
+        "en-US": "{0_character} is idle and can be sent on a mission"
+      },
+      {
+        "zType": "TEXT_CHARACTER_MISSIONS_AVAILABLE_HEAD",
+        "en-US": "{0_character} (Head of {1_head}) is idle and can be sent on a mission"
+      },
+      {
+        "zType": "TEXT_CHARACTER_MISSIONS_AVAILABLE_LEADER",
+        "en-US": "{0_character} is idle and can be sent on a mission"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TUTOR_AVAILABLE",
+        "en-US": "{0_character} can be tutored"
+      },
+      {
+        "zType": "TEXT_DISMISS_REMINDER",
+        "en-US": "{TEXT_HOTKEY_RIGHT_CLICK} to dismiss this reminder.{true_0: This reminder will not reappear unless a new candidate becomes available.}"
+      },
+      {
         "zType": "TEXT_AGENT_MISSION_NAME",
         "en-US": "{0_missionLink} <color=#e3c08c>({1_cityLink})</color>"
       },
@@ -1293,6 +1521,10 @@
       {
         "zType": "TEXT_SP_MENU_SCREEN_BACK_BUTTON",
         "en-US": "Back"
+      },
+      {
+        "zType": "TEXT_SP_MENU_SCREEN_NEXT_BUTTON",
+        "en-US": "Next"
       },
       {
         "zType": "TEXT_MP_KICK_ACTIVE_PLAYER",
@@ -1345,6 +1577,38 @@
       {
         "zType": "TEXT_CLOUD_SCREEN_DELETE_GAME",
         "en-US": "Delete"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_SET_MESSAGE",
+        "en-US": "Set Message"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_AWAY_BUTTON_SET",
+        "en-US": "Set"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_AWAY_BUTTON_CLEAR",
+        "en-US": "Clear"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_AWAY_BUTTON_UPDATE",
+        "en-US": "Update"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_STATUS_MESSAGE",
+        "en-US": "Status Message"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_MESSAGE_PROMPT",
+        "en-US": "Enter Status Message"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_APPLY_MESSAGE",
+        "en-US": "Apply to All"
+      },
+      {
+        "zType": "TEXT_CLOUD_SCREEN_SAVE_MESSAGE",
+        "en-US": "Save"
       },
       {
         "zType": "TEXT_CLOUD_SCREEN_HOST_CONTROLS",
@@ -1415,6 +1679,18 @@
         "en-US": "Servers"
       },
       {
+        "zType": "TEXT_MP_SERVERS_SCREEN_HELP",
+        "en-US": "Remote servers are listed here. To launch a game, enter the server password and select a server to set up a multiplayer game. The launched game is sent to the remote server where it functions just like any other network game. Multiple games may be hosted on the same server. To launch a local server, run the OldWorldServer batch file that is in the same location as the OldWorld executable file. To control the remotely hosted game and change some parameters while it is running, enter the server password on the nation selection screen after joining."
+      },
+      {
+        "zType": "TEXT_MP_SERVER_PASSWORD_HELP",
+        "en-US": "Enter the password to join this remotely hosted game as the host. Hosts have the ability to change game parameters, such as turn timer and turn style, they can continue the game on the cloud, and they can remove other players from the game."
+      },
+      {
+        "zType": "TEXT_MP_SERVER_HOST_CONTROLS_HELP",
+        "en-US": "Access some host functionality without joining the game. Enter the host password first."
+      },
+      {
         "zType": "TEXT_GAME_HEADER_NAME_CELL",
         "en-US": "Name"
       },
@@ -1453,6 +1729,142 @@
       {
         "zType": "TEXT_MP_PLAYER_DISCONNECTED",
         "en-US": "{0} has disconnected from the server"
+      },
+      {
+        "zType": "TEXT_HOF_ACHIEVEMENT_BUTTON",
+        "en-US": "View Achievements"
+      },
+      {
+        "zType": "TEXT_HOF_GAME_BUTTON",
+        "en-US": "View Games"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_NUMBER",
+        "en-US": "#"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_SCENARIO",
+        "en-US": "Scenario"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_LEADER",
+        "en-US": "Leader"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_LEADERS",
+        "en-US": "Leaders"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_NATION",
+        "en-US": "Nation"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_VICTORY",
+        "en-US": "Victory Type"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_VICTORY_SCENARIO",
+        "en-US": "Scenario Victory"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DEFEAT_SCENARIO",
+        "en-US": "Scenario Defeat"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DEFEAT",
+        "en-US": "Defeat"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DEFEAT_BY",
+        "en-US": "Defeat by {0}"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_AMBITIONS",
+        "en-US": "Ambitions"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_VP",
+        "en-US": "VPs"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_LEGITIMACY",
+        "en-US": "icon(YIELD_LEGITIMACY)"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_LOAD",
+        "en-US": "Load"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DELETE",
+        "en-US": "Delete"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DETAILS",
+        "en-US": "Game Details"
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_LOAD_HELP",
+        "en-US": "Load the game to explore the final state of play."
+      },
+      {
+        "zType": "TEXT_HOF_HEADER_DELETE_HELP",
+        "en-US": "Delete the game from the Hall of Fame."
+      },
+      {
+        "zType": "TEXT_HOF_GAME_COMPLETED_ON",
+        "en-US": "Game completed on {0}"
+      },
+      {
+        "zType": "TEXT_HOF_ACHIEVEMENTS_UNLOCKED",
+        "en-US": "Achievements Unlocked"
+      },
+      {
+        "zType": "TEXT_HOF_ACHIEVEMENTS_LOCKED",
+        "en-US": "Achievements Locked"
+      },
+      {
+        "zType": "TEXT_HOF_HALL_OF_STATS",
+        "en-US": "Player Stats"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_NONE",
+        "en-US": "Win a game to generate stats"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_VICTORY",
+        "en-US": "Most Common Victory:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_NATION",
+        "en-US": "Favorite Nation:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_MAPCLASS",
+        "en-US": "Favorite Map:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_LEGITIMACY",
+        "en-US": "Highest Legitimacy:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_POINTS",
+        "en-US": "Highest Victory Points:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_ACHIEVEMENTS",
+        "en-US": "Achievements Unlocked:"
+      },
+      {
+        "zType": "TEXT_HOF_STATS_GAMES_WON",
+        "en-US": "Games Won:"
+      },
+      {
+        "zType": "TEXT_HOF_HALL_OF_GREATS",
+        "en-US": "Hall of the Greats"
+      },
+      {
+        "zType": "TOOLS_SCREEN_HALL_OF_FAME_BUTTON",
+        "en-US": "Hall of Fame"
       },
       {
         "zType": "TOOLS_SCREEN_MAP_EDITOR_BUTTON",
@@ -1547,6 +1959,10 @@
         "en-US": "Back"
       },
       {
+        "zType": "TEXT_HOF_SCREEN_BACK_BUTTON",
+        "en-US": "Back"
+      },
+      {
         "zType": "TEXT_MP_SETUP_SEC_BUTTON_BACK",
         "en-US": "Back"
       },
@@ -1581,6 +1997,10 @@
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_HOSTPASSWORD",
         "en-US": "Host Password"
+      },
+      {
+        "zType": "TEXT_MP_PLAYERS_SCREEN_HOST_CONTROL_BUTTON",
+        "en-US": "Host Controls"
       },
       {
         "zType": "TEXT_MP_SETUP_GAMEOPTIONS_LABEL_TURN_URL",
@@ -1715,8 +2135,16 @@
         "en-US": "There are more players than unique nations, or duplicate nations have been selected."
       },
       {
+        "zType": "TEXT_MP_SETUP_INVALID_START_TEAMS",
+        "en-US": "There are teams without any players assigned to them."
+      },
+      {
         "zType": "TEXT_MP_SETUP_INVALID_START_MAP",
         "en-US": "\"Premade Map\" is selected, but no map file has been specified"
+      },
+      {
+        "zType": "TEXT_MP_SETUP_NO_HUMANS",
+        "en-US": "There are no human players"
       },
       {
         "zType": "TEXT_MP_SETUP_PLAYERS_NAME",
@@ -1725,6 +2153,10 @@
       {
         "zType": "TEXT_MP_SETUP_PLAYERS_NATION",
         "en-US": "Nation"
+      },
+      {
+        "zType": "TEXT_MP_SETUP_PLAYERS_ARCHETYPE",
+        "en-US": "Archetype"
       },
       {
         "zType": "TEXT_MP_SETUP_PLAYERS_DIFFICULTY",
@@ -1839,6 +2271,10 @@
         "en-US": "Nation"
       },
       {
+        "zType": "TEXT_SCENARIO_SETUP_ARCHETYPE",
+        "en-US": "Leader Archetype"
+      },
+      {
         "zType": "TEXT_SCENARIO_SETUP_OPPONENTS",
         "en-US": "Opponents"
       },
@@ -1939,8 +2375,16 @@
         "en-US": "Map Size"
       },
       {
+        "zType": "TEXT_SP_SETUP_SIMPLE_GAME_OPTION_PRESETS",
+        "en-US": "Option Presets"
+      },
+      {
         "zType": "TEXT_SP_SETUP_ADVANCED_NATION",
         "en-US": "Nation"
+      },
+      {
+        "zType": "TEXT_SP_SETUP_ADVANCED_ARCHETYPE",
+        "en-US": "Leader Archetype"
       },
       {
         "zType": "TEXT_SP_SETUP_ADVANCED_NUMOPPS",
@@ -1949,6 +2393,10 @@
       {
         "zType": "TEXT_SP_SETUP_ADVANCED_NUMOPPS_OPTION",
         "en-US": "{0_count} {singular_0:Opponent:Opponents}"
+      },
+      {
+        "zType": "TEXT_SP_SETUP_ADVANCED_ARCHETYPES",
+        "en-US": "Initial Leader Archetype"
       },
       {
         "zType": "TEXT_SP_SETUP_ADVANCED_MORTALITY",
@@ -2523,6 +2971,14 @@
         "en-US": "{0_family} ({1_class})"
       },
       {
+        "zType": "TEXT_CITY_RAZE_DECISION",
+        "en-US": "Raze the city"
+      },
+      {
+        "zType": "TEXT_CITY_NO_RAZE_DECISION",
+        "en-US": "Spare the city"
+      },
+      {
         "zType": "TEXT_CHARACTER_UPGRADE_DECISION_RATING",
         "en-US": "Upgrade: +1 {0_ratingtype} ({1_startrating} to {2_endrating})"
       },
@@ -2541,6 +2997,122 @@
       {
         "zType": "TEXT_TECH_TREE_BONUS_CARD_DISCARDED",
         "en-US": "Permanently trashed when discarded"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_STATS",
+        "en-US": "Stats"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_OTHER",
+        "en-US": "Miscellaneous"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_TURN_AXIS_LABEL",
+        "en-US": "Turn"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_PRODUCTION",
+        "en-US": "Resource Production"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_YIELD",
+        "en-US": "{0_yield} Production"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_MILITARY",
+        "en-US": "Military Score"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_TERRITORY",
+        "en-US": "Territory Owned"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_TURN",
+        "en-US": "Turn {0_turnNumber}"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_TILES_OWNED",
+        "en-US": "{0_numTiles} Tiles"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_EXPLORATION",
+        "en-US": "Territory Explored"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_POINTS",
+        "en-US": "Victory Points"
+      },
+      {
+        "zType": "TEXT_UI_GRAPHS_PRICES",
+        "en-US": "Resource Prices"
+      },
+      {
+        "zType": "TEXT_UI_STATS_RESOURCE_VALUE",
+        "en-US": "National Wealth"
+      },
+      {
+        "zType": "TEXT_UI_STATS_POPULATION",
+        "en-US": "Total Population"
+      },
+      {
+        "zType": "TEXT_UI_STATS_SPECIALISTS",
+        "en-US": "Specialists Trained"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TOTAL_TECHS",
+        "en-US": "Technologies Discovered"
+      },
+      {
+        "zType": "TEXT_UI_STATS_BEST_LEADER",
+        "en-US": "Longest Reign"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TOTAL_IMPROVEMENTS",
+        "en-US": "Improvements Built"
+      },
+      {
+        "zType": "TEXT_UI_STATS_WONDERS",
+        "en-US": "Wonders Controlled"
+      },
+      {
+        "zType": "TEXT_UI_STATS_LAWS_ADOPTED",
+        "en-US": "Laws Adopted"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TOTAL_WORKERS",
+        "en-US": "Workers Produced"
+      },
+      {
+        "zType": "TEXT_UI_STATS_UNITS_LOST",
+        "en-US": "Units Lost"
+      },
+      {
+        "zType": "TEXT_UI_STATS_UNITS_KILLED",
+        "en-US": "Units Killed"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TRIBE_CLEARED",
+        "en-US": "Camps Cleared"
+      },
+      {
+        "zType": "TEXT_UI_STATS_COURTIERS",
+        "en-US": "Courtiers Recruited"
+      },
+      {
+        "zType": "TEXT_UI_STATS_RUINS_EXPLORED",
+        "en-US": "Ruins Explored"
+      },
+      {
+        "zType": "TEXT_UI_STATS_STAT_RANK",
+        "en-US": "{0_rank}. {1_player}: {2_value}"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TOTAL_MILITARY",
+        "en-US": "Military Units Produced"
+      },
+      {
+        "zType": "TEXT_UI_STATS_TOTAL_VALUE",
+        "en-US": "Total Value: {0_moneyValue}"
       },
       {
         "zType": "TEXT_MAIN_MENU_ACTIVE_MODS",
@@ -2603,6 +3175,18 @@
         "en-US": "Let the game choose a nation for you."
       },
       {
+        "zType": "TEXT_UI_MP_SETUP_PICK_ARCHETYPE_AT_START",
+        "en-US": "Pick a Leader Archetype after the game has started"
+      },
+      {
+        "zType": "TEXT_UI_MP_SETUP_GAME_PICKS_ARCHETYPE",
+        "en-US": "Let the game choose an Archetype for the first ruler."
+      },
+      {
+        "zType": "TEXT_UI_MP_SETUP_ARCHETYPE_PRESET",
+        "en-US": "Start the game with the nation's preset character."
+      },
+      {
         "zType": "TEXT_UI_MP_SETUP_START_SIMULTANEOUS_TURNS",
         "en-US": "Play the first turns in simultaneous turn style"
       },
@@ -2629,6 +3213,46 @@
       {
         "zType": "TEXT_UI_MODS_POWERED_BY_MODIO_TOOLTIP",
         "en-US": "Powered by mod.io"
+      },
+      {
+        "zType": "TEXT_UI_MODS_POWERED_BY_WORKSHOP_TOOLTIP",
+        "en-US": "Powered by Workshop"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_TOOLTIP",
+        "en-US": "Mods sorted by"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_1",
+        "en-US": "oldest to newest."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_2",
+        "en-US": "newest to oldest."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_3",
+        "en-US": "alphabetical A-Z."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_4",
+        "en-US": "alphabetical Z-A."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_5",
+        "en-US": "oldest to newest, with installed on top."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_6",
+        "en-US": "newest to oldest, with installed on top."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_7",
+        "en-US": "alphabetical A-Z, with installed on top."
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SORTING_8",
+        "en-US": "alphabetical Z-A, with installed on top."
       },
       {
         "zType": "TEXT_UI_MODS_BACK_TO_MENU",
@@ -2675,6 +3299,46 @@
         "en-US": "Map Scripts"
       },
       {
+        "zType": "TEXT_UI_MODS_FILTER_NATIONS",
+        "en-US": "Mods with Nations"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_TRIBES",
+        "en-US": "Mods with Tribes"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_CHARACTERS",
+        "en-US": "Mods with Characters"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_FAMILIES",
+        "en-US": "Mods with Families"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_GAMEINFOS",
+        "en-US": "Mods with GameInfos"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_EVENTS",
+        "en-US": "Mods with Events"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_SCENARIOS",
+        "en-US": "Mods with Scenarios"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_AI",
+        "en-US": "Mods with AI changes"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_UI",
+        "en-US": "Mods with UI changes"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FILTER_WORKSHOP_TOGGLE_LABEL",
+        "en-US": "Steam Workshop"
+      },
+      {
         "zType": "TEXT_UI_MODS_INCLUDE_INTERNAL_TOGGLE_LABEL",
         "en-US": "Include Internal"
       },
@@ -2697,6 +3361,34 @@
       {
         "zType": "TEXT_UI_MODS_HOMEPAGE_LABEL",
         "en-US": "Homepage:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_PLATFORM_LABEL",
+        "en-US": "Mod Platform:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_BUILD_LABEL",
+        "en-US": "Built For:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_INFO_HEADER",
+        "en-US": "Mod Info"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_TYPE_HEADER",
+        "en-US": "Mod Type"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_TAGS_HEADER",
+        "en-US": "Mod Tags"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_TAGS_HEADER_TEXT",
+        "en-US": "(Choose all that apply)"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_OPTIONS_HEADER",
+        "en-US": "Mod Options"
       },
       {
         "zType": "TEXT_UI_MODS_MOD_NAME_LABEL",
@@ -2739,6 +3431,42 @@
         "en-US": "Translation:"
       },
       {
+        "zType": "TEXT_UI_MODS_MOD_NATION_TOGGLE_LABEL",
+        "en-US": "Nation:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_TRIBE_TOGGLE_LABEL",
+        "en-US": "Tribe:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_CHARACTER_TOGGLE_LABEL",
+        "en-US": "Character:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_FAMILY_TOGGLE_LABEL",
+        "en-US": "Family:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_GAMEINFO_TOGGLE_LABEL",
+        "en-US": "GameInfo:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_EVENT_TOGGLE_LABEL",
+        "en-US": "Event:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_SCENARIO_TOGGLE_LABEL",
+        "en-US": "Scenario:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_AI_TOGGLE_LABEL",
+        "en-US": "AI:"
+      },
+      {
+        "zType": "TEXT_UI_MODS_MOD_UI_TOGGLE_LABEL",
+        "en-US": "UI:"
+      },
+      {
         "zType": "TEXT_UI_MODS_SINGLEPLAYER_TAG",
         "en-US": "[Singleplayer]"
       },
@@ -2757,6 +3485,42 @@
       {
         "zType": "TEXT_UI_MODS_MAP_SCRIPT_TAG",
         "en-US": "[Map Script]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_NATION_TAG",
+        "en-US": "[Nation]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_TRIBE_TAG",
+        "en-US": "[Tribe]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_CHARACTER_TAG",
+        "en-US": "[Character]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_FAMILY_TAG",
+        "en-US": "[Family]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_GAMEINFO_TAG",
+        "en-US": "[GameInfo]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_EVENT_TAG",
+        "en-US": "[Event]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_SCENARIO_TAG",
+        "en-US": "[Scenario]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_AI_TAG",
+        "en-US": "[AI]"
+      },
+      {
+        "zType": "TEXT_UI_MODS_UI_TAG",
+        "en-US": "[UI]"
       },
       {
         "zType": "TEXT_UI_MODS_MOD_FILES",
@@ -2795,8 +3559,12 @@
         "en-US": "Save Local Changes"
       },
       {
-        "zType": "TEXT_UI_MODS_UPLOAD_BUILD_BUTTON",
-        "en-US": "Upload Build"
+        "zType": "TEXT_UI_MODS_UPLOAD_MODIO_BUTTON",
+        "en-US": "Upload to mod.io"
+      },
+      {
+        "zType": "TEXT_UI_MODS_UPLOAD_WORKSHOP_BUTTON",
+        "en-US": "Upload to Workshop"
       },
       {
         "zType": "TEXT_UI_MODS_CLEAR_MOD_SELECTION_BUTTON",
@@ -2816,11 +3584,11 @@
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_CREATE_MOD_PROFILE_BUTTON",
-        "en-US": "Create Mod Profile"
+        "en-US": "Create mod.io Profile"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_UPDATE_MOD_PROFILE_BUTTON",
-        "en-US": "Update Profile"
+        "en-US": "Update mod.io Profile"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_UPDATE_MOD_BUTTON",
@@ -2852,11 +3620,19 @@
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_DIFF",
-        "en-US": "{0_modName} - current: {1}, latest: {2}"
+        "en-US": "{0_modName} - installed: {1}, available ({2}): {3}{br}"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_NOTIFICATION1",
+        "en-US": "The following mods have an update available to install from the Manage Mods menu.{br}{br}"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_MOD_UPDATE_VERSION_NOTIFICATION2",
+        "en-US": "icon(bullet) {0_modName} ({1}){br}"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_MOD_UPDATE_MODS_POPUP_TITLE",
-        "en-US": "Update Mods?"
+        "en-US": "Update Mods"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_MODS_UPDATED_CONFIRMED_POPUP_TITLE",
@@ -2927,6 +3703,10 @@
         "en-US": "Mod File Uploaded"
       },
       {
+        "zType": "TEXT_UI_MODS_PANEL_MOD_FILE_UPLOADED_POPUP_BODY",
+        "en-US": "Your Mod has now been uploaded. Please note that it could take up to 15 minutes before it is available for players to download."
+      },
+      {
         "zType": "TEXT_UI_MODS_PANEL_MOD_DEFAULT_DESCRIPTION",
         "en-US": "Enter Description here..."
       },
@@ -2937,6 +3717,14 @@
       {
         "zType": "TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY",
         "en-US": "The following mods are active:{br}{0_list}"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY_INCOMPAT",
+        "en-US": "{br}{br}The following mods are incompatible and now disabled:{br}{0_list}"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_MODS_ASSIGNED_POPUP_BODY_DEPENDENT",
+        "en-US": "{br}{br}The following mods are dependencies and now active:{br}{0_list}"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_NEW_GAME_SINGLEPLAYER_OR_MULTIPLAYER_POPUP_TITLE",
@@ -2980,7 +3768,11 @@
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_PUBLISH_NEW_BUILD_TOOLTIP",
-        "en-US": "Create and Publish a new build file for your mod"
+        "en-US": "Create and Publish a new build file for your mod{br}Required items:{br}icon(bullet)Mod Name{br}icon(bullet)File Name (should automatically generate from Mod Name){br}icon(bullet)Mod Picture (Check picture requirements){br}icon(bullet)Description{br}icon(bullet)Author"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_PUBLISH_NEW_WORKSHOP_TOOLTIP",
+        "en-US": "Create and Publish a new build file for your mod{br}Required items:{br}icon(bullet)Mod Name{br}icon(bullet)File Name (should automatically generate from Mod Name){br}icon(bullet)Mod Picture (Check picture requirements){br}icon(bullet)Description{br}icon(bullet)Author"
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_VERSION_NOT_LATEST_TOOLTIP",
@@ -2992,7 +3784,11 @@
       },
       {
         "zType": "TEXT_UI_MODS_PANEL_MOD_PICTURE_TOOLTIP",
-        "en-US": "icon(bullet)1280x720 or larger recommended{br}icon(bullet)16:9 aspect ratio recommended{br}icon(bullet)8mb maximum{br}icon(bullet)GIFs will be converted to PNG"
+        "en-US": "Mod.io requirements:{br}icon(bullet)1280x720 or larger recommended{br}icon(bullet)16:9 aspect ratio recommended{br}icon(bullet)Less than 8MB file size{br}icon(bullet)GIFs will be converted to PNG"
+      },
+      {
+        "zType": "TEXT_UI_MODS_PANEL_MOD_PICTURE_WORKSHOP_TOOLTIP",
+        "en-US": "Mod.io requirements:{br}icon(bullet)1280x720 or larger recommended{br}icon(bullet)16:9 aspect ratio recommended{br}icon(bullet)Less than 8MB file size{br}icon(bullet)GIFs will be converted to PNG{br}{br}Workshop requirements:{br}icon(bullet)256x256 or larger recommended{br}icon(bullet)Less than 1MB file size{br}icon(bullet)PNG or JPG image"
       },
       {
         "zType": "TEXT_UI_MODS_REPORT_TOOLTIP",
@@ -3008,7 +3804,7 @@
       },
       {
         "zType": "TEXT_UI_LOAD_GAME_MODS_NOT_FOUND_POPUP_BODY",
-        "en-US": "The following mods were not found on your system, would you like try to download them?"
+        "en-US": "The following mods were not found on your system, would you like to go to the Mod install screen?"
       },
       {
         "zType": "TEXT_UI_DOWNLOADING_MODS_POPUP_TITLE",
@@ -3021,6 +3817,22 @@
       {
         "zType": "TEXT_UI_MODS_NOT_FOUND_ON_SERVER_POPUP_TITLE",
         "en-US": "The requested mods were not found on the mod.io servers"
+      },
+      {
+        "zType": "TEXT_UI_MODS_NOT_DOWNLOADED_WORKSHOP_TITLE",
+        "en-US": "Workshop Error"
+      },
+      {
+        "zType": "TEXT_UI_MODS_NOT_DOWNLOADED_WORKSHOP_BODY",
+        "en-US": "Failed to download mod from Workshop"
+      },
+      {
+        "zType": "TEXT_SP_SETUP_CHOOSE_LEADER",
+        "en-US": "Choose a Leader"
+      },
+      {
+        "zType": "TEXT_UI_SP_SETUP_UNKNOWN_LEADER",
+        "en-US": "Unknown"
       }
     ]
   }

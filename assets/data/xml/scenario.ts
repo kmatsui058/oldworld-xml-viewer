@@ -51,6 +51,9 @@
         "Difficulty": {
           
         },
+        "Archetype": {
+          
+        },
         "TurnScale": {
           
         },
@@ -87,25 +90,22 @@
         "DisableOptions": {
           
         },
-        "azVictoryEnabled": {
+        "VictoryEnabled": {
           
         },
-        "azOptionEnabled": {
+        "OptionValid": {
           
         },
-        "azOptionValid": {
+        "MapSizeDisabled": {
           
         },
-        "azMapSizeDisabled": {
+        "DifficultyDisabled": {
           
         },
-        "azDifficultyDisabled": {
+        "TribeLevelDisabled": {
           
         },
-        "azTribeLevelDisabled": {
-          
-        },
-        "azParametersInvalid": {
+        "ParametersInvalid": {
           
         }
       },
@@ -230,6 +230,7 @@
         "SubTitle": "TEXT_SCENARIO_LEARNTOPLAY_5_SUB",
         "ScenarioClass": "SCENARIOCLASS_LEARNTOPLAY",
         "zIcon": "HowToPlay_Thumbnail",
+        "bPublic": "1",
         "zMapFile": "Learn To Play Five",
         "zModName": "LearnToPlay5",
         "azAchievements": {
@@ -253,6 +254,105 @@
         "DisableOptions": "1"
       },
       {
+        "zType": "SCENARIO_OLD_WORLD",
+        "Name": "TEXT_SCENARIO_OLD_WORLD",
+        "SubTitle": "TEXT_SCENARIO_OLD_WORLD_SUB",
+        "ScenarioClass": "SCENARIOCLASS_WORLD_MAPS",
+        "bPublic": "1",
+        "zMapFile": "The Old World",
+        "VictoryEnabled": {
+          "zValue": [
+            "VICTORY_POINTS",
+            "VICTORY_DOUBLE",
+            "VICTORY_AMBITION",
+            "VICTORY_TIME",
+            "VICTORY_CONQUEST"
+          ]
+        },
+        "OptionValid": {
+          "zValue": [
+            "GAMEOPTION_NO_CHARACTERS",
+            "GAMEOPTION_NO_FOG_OF_WAR",
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO",
+            "GAMEOPTION_LOCK_PLAYER_OPTIONS",
+            "GAMEOPTION_RANDOMIZE_FAMILIES",
+            "GAMEOPTION_NO_STARTING_TECHS",
+            "GAMEOPTION_CRITICAL_HIT_PREVIEW",
+            "GAMEOPTION_ROLE_PLAYING",
+            "GAMEOPTION_PLAY_TO_WIN",
+            "GAMEOPTION_ONE_CITY_CHALLENGE",
+            "GAMEOPTION_ALLOW_CITY_RAZING"
+          ]
+        }
+      },
+      {
+        "zType": "SCENARIO_MEDITERRANEAN",
+        "Name": "TEXT_SCENARIO_MEDITERRANEAN",
+        "SubTitle": "TEXT_SCENARIO_MEDITERRANEAN_SUB",
+        "ScenarioClass": "SCENARIOCLASS_WORLD_MAPS",
+        "bPublic": "1",
+        "zMapFile": "The Mediterranean",
+        "VictoryEnabled": {
+          "zValue": [
+            "VICTORY_POINTS",
+            "VICTORY_DOUBLE",
+            "VICTORY_AMBITION",
+            "VICTORY_TIME",
+            "VICTORY_CONQUEST"
+          ]
+        },
+        "OptionValid": {
+          "zValue": [
+            "GAMEOPTION_NO_CHARACTERS",
+            "GAMEOPTION_NO_FOG_OF_WAR",
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO",
+            "GAMEOPTION_LOCK_PLAYER_OPTIONS",
+            "GAMEOPTION_RANDOMIZE_FAMILIES",
+            "GAMEOPTION_NO_STARTING_TECHS",
+            "GAMEOPTION_CRITICAL_HIT_PREVIEW",
+            "GAMEOPTION_ROLE_PLAYING",
+            "GAMEOPTION_PLAY_TO_WIN",
+            "GAMEOPTION_ONE_CITY_CHALLENGE",
+            "GAMEOPTION_ALLOW_CITY_RAZING"
+          ]
+        }
+      },
+      {
+        "zType": "SCENARIO_MIDDLE_EAST",
+        "Name": "TEXT_SCENARIO_MIDDLE_EAST",
+        "SubTitle": "TEXT_SCENARIO_MIDDLE_EAST_SUB",
+        "ScenarioClass": "SCENARIOCLASS_WORLD_MAPS",
+        "bPublic": "1",
+        "zMapFile": "The Middle East",
+        "VictoryEnabled": {
+          "zValue": [
+            "VICTORY_POINTS",
+            "VICTORY_DOUBLE",
+            "VICTORY_AMBITION",
+            "VICTORY_TIME",
+            "VICTORY_CONQUEST"
+          ]
+        },
+        "OptionValid": {
+          "zValue": [
+            "GAMEOPTION_NO_CHARACTERS",
+            "GAMEOPTION_NO_FOG_OF_WAR",
+            "GAMEOPTION_LOCKED_SAVE",
+            "GAMEOPTION_NO_UNDO",
+            "GAMEOPTION_LOCK_PLAYER_OPTIONS",
+            "GAMEOPTION_RANDOMIZE_FAMILIES",
+            "GAMEOPTION_NO_STARTING_TECHS",
+            "GAMEOPTION_CRITICAL_HIT_PREVIEW",
+            "GAMEOPTION_ROLE_PLAYING",
+            "GAMEOPTION_PLAY_TO_WIN",
+            "GAMEOPTION_ONE_CITY_CHALLENGE",
+            "GAMEOPTION_ALLOW_CITY_RAZING"
+          ]
+        }
+      },
+      {
         "zType": "SCENARIO_BARBARIAN",
         "Name": "TEXT_SCENARIO_BARBARIAN",
         "SubTitle": "TEXT_SCENARIO_BARBARIAN_SUB",
@@ -260,27 +360,32 @@
         "bPublic": "1",
         "bAllowMap": "0",
         "zModName": "Barbarian",
-        "Difficulty": "DIFFICULTY_GOOD",
         "DevelopmentLevel": "DEVELOPMENT_NONE",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "azOptionValid": {
+        "OptionValid": {
           "zValue": [
             "GAMEOPTION_NO_CHARACTERS",
             "GAMEOPTION_NO_FOG_OF_WAR",
             "GAMEOPTION_LOCKED_SAVE",
             "GAMEOPTION_NO_UNDO",
             "GAMEOPTION_RANDOMIZE_FAMILIES",
+            "GAMEOPTION_NO_STARTING_TECHS",
+            "GAMEOPTION_CRITICAL_HIT_PREVIEW",
+            "GAMEOPTION_ROLE_PLAYING",
             "GAMEOPTION_ONE_CITY_CHALLENGE"
           ]
         },
-        "azMapSizeDisabled": {
+        "MapSizeDisabled": {
           "zValue": [
             "MAPSIZE_DUEL",
             "MAPSIZE_HUGE"
           ]
         },
-        "azTribeLevelDisabled": {
+        "TribeLevelDisabled": {
           "zValue": "TRIBELEVEL_NONE"
+        },
+        "ParametersInvalid": {
+          "zValue": "OpponentLevel"
         }
       },
       {
@@ -296,16 +401,15 @@
           "zValue": "ACHIEVEMENT_CARTHAGE_1"
         },
         "Nation": "NATION_CARTHAGE",
-        "Difficulty": "DIFFICULTY_CARTHAGE_MEDIUM",
         "TurnScale": "TURNSCALE_YEAR",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "azOptionValid": {
+        "OptionValid": {
           "zValue": [
             "GAMEOPTION_LOCKED_SAVE",
             "GAMEOPTION_NO_UNDO"
           ]
         },
-        "azDifficultyDisabled": {
+        "DifficultyDisabled": {
           "zValue": [
             "DIFFICULTY_ABLE",
             "DIFFICULTY_JUST",
@@ -318,11 +422,13 @@
             "DIFFICULTY_ABLE"
           ]
         },
-        "azParametersInvalid": {
+        "ParametersInvalid": {
           "zValue": [
             "TurnScale",
+            "TribeLevel",
             "SuccessionGender",
-            "SuccessionOrder"
+            "SuccessionOrder",
+            "Archetype"
           ]
         }
       },
@@ -341,20 +447,20 @@
         "bContinue": "1",
         "Prereq": "SCENARIO_CARTHAGE_1",
         "Nation": "NATION_CARTHAGE",
-        "Difficulty": "DIFFICULTY_STRONG",
         "TurnScale": "TURNSCALE_YEAR",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "azOptionValid": {
+        "OptionValid": {
           "zValue": [
             "GAMEOPTION_LOCKED_SAVE",
             "GAMEOPTION_NO_UNDO"
           ]
         },
-        "azParametersInvalid": {
+        "ParametersInvalid": {
           "zValue": [
             "TurnScale",
             "SuccessionGender",
-            "SuccessionOrder"
+            "SuccessionOrder",
+            "Archetype"
           ]
         }
       },
@@ -373,14 +479,14 @@
         "bContinue": "1",
         "Prereq": "SCENARIO_CARTHAGE_2",
         "Nation": "NATION_CARTHAGE",
-        "Difficulty": "DIFFICULTY_STRONG",
         "TurnScale": "TURNSCALE_SEMESTER",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "azParametersInvalid": {
+        "ParametersInvalid": {
           "zValue": [
             "TurnScale",
             "SuccessionGender",
-            "SuccessionOrder"
+            "SuccessionOrder",
+            "Archetype"
           ]
         }
       },
@@ -402,14 +508,14 @@
         "bContinue": "1",
         "Prereq": "SCENARIO_CARTHAGE_3",
         "Nation": "NATION_CARTHAGE",
-        "Difficulty": "DIFFICULTY_STRONG",
         "TurnScale": "TURNSCALE_SEASON",
         "TribeLevel": "TRIBELEVEL_NORMAL",
-        "azParametersInvalid": {
+        "ParametersInvalid": {
           "zValue": [
             "TurnScale",
             "SuccessionGender",
-            "SuccessionOrder"
+            "SuccessionOrder",
+            "Archetype"
           ]
         }
       }

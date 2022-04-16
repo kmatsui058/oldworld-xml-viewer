@@ -11,20 +11,36 @@
         }
       },
       {
-        "zType": "TEXT_GAME_LOST_TEAM_ALLIANCE",
-        "en-US": "You are no longer in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}."
+        "zType": "TEXT_GAME_GAINED_TEAM_ALLIANCE",
+        "en-US": "{0_team} is now in a link(CONCEPT_ALLIANCE_PLAYER) with {1_team}."
       },
       {
-        "zType": "TEXT_GAME_GAINED_TEAM_ALLIANCE",
+        "zType": "TEXT_GAME_GAINED_TEAM_ALLIANCE_PLAYER",
         "en-US": "You are now in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}."
       },
       {
-        "zType": "TEXT_GAME_LOST_TRIBE_ALLIANCE",
-        "en-US": "You are no longer in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}."
+        "zType": "TEXT_GAME_LOST_TEAM_ALLIANCE",
+        "en-US": "{0_team} is no longer in a link(CONCEPT_ALLIANCE_PLAYER) with {1_team}."
+      },
+      {
+        "zType": "TEXT_GAME_LOST_TEAM_ALLIANCE_PLAYER",
+        "en-US": "You are no longer in a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}."
       },
       {
         "zType": "TEXT_GAME_GAINED_TRIBE_ALLIANCE",
+        "en-US": "{0_team} is now in a link(CONCEPT_ALLIANCE_TRIBE) with the {1_tribe}."
+      },
+      {
+        "zType": "TEXT_GAME_GAINED_TRIBE_ALLIANCE_PLAYER",
         "en-US": "You are now in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}."
+      },
+      {
+        "zType": "TEXT_GAME_LOST_TRIBE_ALLIANCE",
+        "en-US": "{0_team} is no longer in a link(CONCEPT_ALLIANCE_TRIBE) with the {1_tribe}."
+      },
+      {
+        "zType": "TEXT_GAME_LOST_TRIBE_ALLIANCE_PLAYER",
+        "en-US": "You are no longer in a link(CONCEPT_ALLIANCE_TRIBE) with the {0_tribe}."
       },
       {
         "zType": "TEXT_GAME_MET_TRIBE",
@@ -56,11 +72,11 @@
       },
       {
         "zType": "TEXT_GAME_TEAM_ALLIANCE_WAR",
-        "en-US": "Because of a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}, {1_player} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!"
+        "en-US": "Because of a link(CONCEPT_ALLIANCE_PLAYER) with {0_team}, {1_player} responds to the {3_diplomacy} Declaration by {2_team} with {3_diplomacy}!"
       },
       {
         "zType": "TEXT_GAME_TRIBE_ALLIANCE_WAR",
-        "en-US": "Because of a link(CONCEPT_ALLIANCE_TRIBE) with {0_team}, {1_tribe} responds to the link(DIPLOMACY_WAR) Declaration by {2_team} with link(DIPLOMACY_WAR)!"
+        "en-US": "Because of a link(CONCEPT_ALLIANCE_TRIBE) with {0_team}, {1_tribe} responds to the {3_diplomacy} Declaration by {2_team} with {3_diplomacy}!"
       },
       {
         "zType": "TEXT_GAME_RELIGION_THEOLOGY",
@@ -135,6 +151,10 @@
         "en-US": "{0_religion} spreads to {1_city}."
       },
       {
+        "zType": "TEXT_GAME_RELIGION_SPREAD_TO_CITY_DISCIPLE",
+        "en-US": "A Disciple arriving from {2_player} has spread {0_religion} to {1_city}."
+      },
+      {
         "zType": "TEXT_GAME_DOOMED_POPUP",
         "en-US": "Your doctors and diviners have warned you that the end is near! Time to get your affairs in order."
       },
@@ -148,11 +168,11 @@
       },
       {
         "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_POPUP",
-        "en-US": "News arrives from abroad that {0_oldLeader} is dead. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)"
+        "en-US": "News arrives from {0_player} that {1_oldLeader} is dead. A new ruler, {2_newLeader}, has taken the throne. (Their Opinion of you is now {3_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_OTHER_TEAM_NEW_RULER_ABDICATE_POPUP",
-        "en-US": "News arrives from abroad that {0_oldLeader} has abdicated. A new ruler, {1_newLeader}, has taken the throne. (Their Opinion of you is now {2_opinion}.)"
+        "en-US": "News arrives from {0_player} that {1_oldLeader} has abdicated. A new ruler, {2_newLeader}, has taken the throne. (Their Opinion of you is now {3_opinion}.)"
       },
       {
         "zType": "TEXT_GAME_TRIBE_NEW_RULER_POPUP",
@@ -252,11 +272,11 @@
       },
       {
         "zType": "TEXT_GAME_CITY_FINISHED_PROJECT_LOG_DATA",
-        "en-US": "{0_city} finished a link(CONCEPT_PROJECT,1): {1_project}"
+        "en-US": "{0_city} finished a link(CONCEPT_PROJECT): {1_project}"
       },
       {
         "zType": "TEXT_GAME_CITY_DEVELOPED_SPECIALIST_LOG_DATA",
-        "en-US": "{0_city} developed a link(CONCEPT_SPECIALIST,1): {1_specialist}"
+        "en-US": "{0_city} developed a link(CONCEPT_SPECIALIST): {1_specialist}"
       },
       {
         "zType": "TEXT_GAME_CITY_TRAINED_UNIT_LOG_DATA",
@@ -520,7 +540,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_HP",
-        "en-US": "{0_damage} HP"
+        "en-US": "{0_damage} HP {true_1:(to {1_final} HP)}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_AGENT_CITY",
@@ -529,6 +549,10 @@
       {
         "zType": "TEXT_GAME_DO_BONUS_DISTANT_RAID",
         "en-US": "Distant link(CONCEPT_TRIBE_RAID)"
+      },
+      {
+        "zType": "TEXT_GAME_DO_BONUS_ADD_AGENT_NETWORK",
+        "en-US": "Add link(CONCEPT_AGENT_NETWORK)"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_LOSE_AGENT_NETWORK",
@@ -607,6 +631,10 @@
         "en-US": "Adopted by {0_parent}"
       },
       {
+        "zType": "TEXT_GAME_DO_BONUS_CONVERTED_BY",
+        "en-US": "Converts {true_0:to {0_religion}:link(CONCEPT_RELIGION)}"
+      },
+      {
         "zType": "TEXT_GAME_DO_BONUS_MARRIES",
         "en-US": "Marries {0_suitor}"
       },
@@ -660,7 +688,7 @@
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_REVEAL_RANGE",
-        "en-US": "Reveals All {0_dist} {singular_0:Tile:Tiles} Away"
+        "en-US": "Reveals Map Within {0_dist} {singular_0:Tile:Tiles}"
       },
       {
         "zType": "TEXT_GAME_DO_BONUS_SET_VEGETATION",
@@ -764,11 +792,11 @@
       },
       {
         "zType": "TEXT_GAME_UNIT_ATTACKED_LOG_DATA",
-        "en-US": "{0_unit} Attacked by {1,2_owner} {2_unit}."
+        "en-US": "{0_unit} Attacked by {1,2_owner} {2_unit} ({3} HP Left)."
       },
       {
         "zType": "TEXT_GAME_UNIT_CRITICAL_LOG_DATA",
-        "en-US": "{0_unit} link(CONCEPT_CRITICAL_HIT) by {1,2_owner} {2_unit}."
+        "en-US": "{0_unit} link(CONCEPT_CRITICAL_HIT) by {1,2_owner} {2_unit} ({3} HP Left)."
       },
       {
         "zType": "TEXT_GAME_UNIT_KILLED_LOG_DATA",
@@ -787,12 +815,28 @@
         "en-US": "{0_unit} canceled auto-move"
       },
       {
+        "zType": "TEXT_GAME_LAUNCH_OFFENSIVE",
+        "en-US": "Offensive!"
+      },
+      {
         "zType": "TEXT_GAME_LAUNCH_OFFENSIVE_LOG_DATA",
         "en-US": "{0,1_player} {1_unit} launches an Offensive!"
       },
       {
         "zType": "TEXT_GAME_UNIT_ESTABLISH_THEOLOGY_LOG_DATA",
         "en-US": "{0,1_religion} {1_theology} established by {2_player}."
+      },
+      {
+        "zType": "TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_TRUCE",
+        "en-US": "{0_player} has sent you an envoy with a link(DIPLOMACY_TRUCE) Proposal."
+      },
+      {
+        "zType": "TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_PEACE",
+        "en-US": "{0_player} has sent you an envoy with a link(DIPLOMACY_PEACE) Proposal."
+      },
+      {
+        "zType": "TEXT_GAME_HUMAN_DIPLOMACY_PROPOSAL_ALLIANCE",
+        "en-US": "{0_player} has sent you an envoy with a link(CONCEPT_ALLIANCE_PLAYER) Proposal."
       },
       {
         "zType": "TEXT_GAME_TILE_CITY_SITE",
@@ -851,6 +895,10 @@
         "en-US": "{0} {1,2_citizenLink}"
       },
       {
+        "zType": "TEXT_GAME_UNIT_BURNED_IMPROVEMENT_LOG_DATA",
+        "en-US": "{0} Burned by {1_owner} {2_unit}."
+      },
+      {
         "zType": "TEXT_GAME_UNIT_PILLAGED_IMPROVEMENT_LOG_DATA",
         "en-US": "{0} Pillaged by {1_owner} {2_unit}."
       },
@@ -876,7 +924,7 @@
       },
       {
         "zType": "TEXT_GAME_CITY_REBEL_UNITS_NEAR_CITY",
-        "en-US": "link(TRIBE_REBELS) have formed a {0_unit} near {1_city}!"
+        "en-US": "link(TRIBE_REBELS) have formed {0,1_unit} near {1_city}!"
       },
       {
         "zType": "TEXT_GAME_CITY_CURRY_POPULATION_CITIZENS_COST",
@@ -903,6 +951,10 @@
         "en-US": "{0} is converted into {1}"
       },
       {
+        "zType": "TEXT_GAME_PLAYER_MAP_REVEALED",
+        "en-US": "Map revealed near {0_tile}"
+      },
+      {
         "zType": "TEXT_GAME_PLAYER_SAVE_AND_RELOAD_TO_PLAY_POPUP",
         "en-US": "No user ID found: Save and reload to play as next player."
       },
@@ -912,7 +964,15 @@
       },
       {
         "zType": "TEXT_GAME_PLAYER_YIELD_GIFT_RECIEVED",
-        "en-US": "{0_amount} {1_resource} Received from {2_player}"
+        "en-US": "{0_amount} {1_resource} received from {2_player}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_UNIT_GIFT_RECIEVED",
+        "en-US": "{0_unit} received from {1_player}"
+      },
+      {
+        "zType": "TEXT_GAME_PLAYER_CITY_GIFT_RECIEVED",
+        "en-US": "{0_player} has granted you control of {1_city}"
       },
       {
         "zType": "TEXT_GAME_PLAYER_DECLARED_WAR_ON",

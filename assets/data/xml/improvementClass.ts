@@ -769,15 +769,15 @@
           "Pair": [
             {
               "zIndex": "IMPROVEMENTCLASS_MINE",
-              "iValue": "60"
+              "iValue": "100"
             },
             {
               "zIndex": "IMPROVEMENTCLASS_QUARRY",
-              "iValue": "60"
+              "iValue": "100"
             },
             {
               "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
-              "iValue": "60"
+              "iValue": "100"
             }
           ]
         }
@@ -809,7 +809,7 @@
       {
         "zType": "IMPROVEMENTCLASS_RANGE",
         "Name": "TEXT_IMPROVEMENTCLASS_RANGE",
-        "TechPrereq": "TECH_MACHINERY",
+        "TechPrereq": "TECH_COMPOSITE_BOW",
         "SpecialistClass": "SPECIALISTCLASS_OFFICER"
       },
       {

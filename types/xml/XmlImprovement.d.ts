@@ -24,6 +24,7 @@ export interface Entry {
   iRevealChange?: ZType | string;
   iVisionChange?: ZType | string;
   iDefenseModifier?: ZType | string;
+  iDefenseModifierFriendly?: ZType | string;
   iFreshWaterModifier?: ZType;
   iRiverModifier?: ZType;
   iSpecialistCost?: ZType | string;
@@ -38,6 +39,7 @@ export interface Entry {
   iUnitHeal?: ZType | string;
   iLegitimacy?: ZType | string;
   iOpinionReligion?: ZType | string;
+  bHideWorkers?: ZType | string;
   bBuild?: ZType | string;
   bHolyCity?: ZType | string;
   bTerritoryOnly?: ZType | string;
@@ -64,6 +66,7 @@ export interface Entry {
   bTribe?: ZType | string;
   bRemoveBorder?: ZType | string;
   bRemoveBonus?: ZType | string;
+  bShowAlways?: ZType | string;
   bNoAnalytics?: ZType | string;
   bText?: ZType | string;
   bIgnoreHillHeight?: ZType | string;

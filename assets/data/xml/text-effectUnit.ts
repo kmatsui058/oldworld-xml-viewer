@@ -79,8 +79,14 @@
         "en-US": "Tracker"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_TRACKER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_TRACKER_ALL",
         "en-US": "Tracker Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_TRACKER_ALL_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SWIFT",
@@ -99,8 +105,14 @@
         "en-US": "Marksman"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_MARKSMAN_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_AMPHIBIOUS",
         "en-US": "Amphibious"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_AMPHIBIOUS_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_BESIEGER",
@@ -115,20 +127,35 @@
         "en-US": "Warden"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_WARDEN_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_TOUGH",
         "en-US": "Tough"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_TOUGH_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TOUGH_ALL",
         "en-US": "Tough Leader"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_TOUGH_ALL_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY",
         "en-US": "Bloodthirsty"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL",
         "en-US": "Bloodthirsty Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_BLOODTHIRSTY_ALL_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HECKLER",
@@ -159,6 +186,9 @@
         "en-US": "Healer"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_HEALER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_NOMAD",
         "en-US": "Nomad"
       },
@@ -167,12 +197,21 @@
         "en-US": "Cold"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_COLD_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_HIGHLANDER",
         "en-US": "Highlander"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_HIGHLANDER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_HIGHLANDER_ALL",
         "en-US": "Highlander Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_HIGHLANDER_ALL_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_RANGER",
@@ -195,8 +234,14 @@
         "en-US": "Shieldbearer"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_SHIELDBEARER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_SHIELDBEARER_ALL",
         "en-US": "Shieldbearer Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SHIELDBEARER_ALL_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_FIERCE",
@@ -219,8 +264,14 @@
         "en-US": "Engineer"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_ENGINEER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_ENGINEER_ALL",
         "en-US": "Engineer Leader"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ENGINEER_ALL_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SHRAPNEL",
@@ -235,8 +286,14 @@
         "en-US": "Grappler"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_GRAPPLER_F"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_SEABORN",
         "en-US": "Seaborn"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SEABORN_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_OVERWHELM",
@@ -251,12 +308,19 @@
         "en-US": "Lading"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_MANEUVERS",
+        "en-US": "Maneuvers"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_INGENUITY",
         "en-US": "Ingenuity"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SADDLEBORN",
         "en-US": "Saddleborn"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SADDLEBORN_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SENTINEL",
@@ -275,6 +339,10 @@
         "en-US": "Stealth"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_RAPID_FIRE",
+        "en-US": "Rapid Fire"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_ASSAULT",
         "en-US": "Assault"
       },
@@ -283,8 +351,15 @@
         "en-US": "Formation"
       },
       {
+        "zType": "TEXT_EFFECTUNIT_CENTURION",
+        "en-US": "Centurion"
+      },
+      {
         "zType": "TEXT_EFFECTUNIT_CRIPPLED",
         "en-US": "Crippled"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_CRIPPLED_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_SOLDIER",
@@ -297,6 +372,9 @@
       {
         "zType": "TEXT_EFFECTUNIT_SURVEYOR",
         "en-US": "Surveyor"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_SURVEYOR_F"
       },
       {
         "zType": "TEXT_EFFECTUNIT_EPICS",
@@ -312,11 +390,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO",
-        "en-US": "link(TRAIT_HERO_ARCHETYPE)"
+        "en-US": "link(TRAIT_HERO_ARCHETYPE) General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO_LEADER",
-        "en-US": "link(TRAIT_HERO_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_HERO_ARCHETYPE) Leader General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_HERO_ALL",
@@ -324,11 +402,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER",
-        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE)"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_LEADER",
-        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_COMMANDER_ARCHETYPE) Leader General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_COMMANDER_INFANTRY",
@@ -336,11 +414,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN",
-        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE)"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_LEADER",
-        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_TACTICIAN_ARCHETYPE) Leader General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_TACTICIAN_RANGED",
@@ -348,11 +426,11 @@
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT",
-        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE)"
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT_LEADER",
-        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) Leader"
+        "en-US": "link(TRAIT_ZEALOT_ARCHETYPE) Leader General"
       },
       {
         "zType": "TEXT_EFFECTUNIT_ZEALOT_ALL",
@@ -381,6 +459,38 @@
       {
         "zType": "TEXT_EFFECTUNIT_SWORD_OF_THE_GODS",
         "en-US": "Sword of the Gods"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIMELEE",
+        "en-US": "Anti-link(UNITTRAIT_MELEE)"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIRANGED",
+        "en-US": "Anti-link(UNITTRAIT_RANGED)"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIPOLEARM",
+        "en-US": "Anti-link(UNITTRAIT_POLEARM)"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIINFANTRY1",
+        "en-US": "Anti-link(UNITTRAIT_INFANTRY) I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIINFANTRY2",
+        "en-US": "Anti-link(UNITTRAIT_INFANTRY) II"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIMOUNTED1",
+        "en-US": "Anti-link(UNITTRAIT_MOUNTED) I"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIMOUNTED2",
+        "en-US": "Anti-link(UNITTRAIT_MOUNTED) II"
+      },
+      {
+        "zType": "TEXT_EFFECTUNIT_ANTIMOUNTED3",
+        "en-US": "Anti-link(UNITTRAIT_MOUNTED) III"
       },
       {
         "zType": "TEXT_EFFECTUNIT_PIERCE1",

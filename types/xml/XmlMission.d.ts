@@ -26,6 +26,7 @@ export interface Entry {
   bCharacterUs?: ZType | string;
   bDisabled?: ZType;
   bEncyclopedia?: ZType | string;
+  bRemindLeader?: BRemindLeader | string;
   MissionRoot?: ZType | string;
   TechPrereq?: ZType | string;
   Diplomacy?: ZType | string;
@@ -40,7 +41,7 @@ export interface Entry {
   SubjectTargetDisabled?: ZType | string;
   SubjectRelationStart?: ZType | string;
   SubjectRelationEnabled?: ZType | string;
-  SubjectRelationDisabled?: ZType;
+  SubjectRelationDisabled?: ZType | string;
   aiResultDie: AiResultDie;
   aiYieldCost?: AiResultDie;
   aiYieldCostOpinion?: AiYieldCostOpinion;
@@ -54,6 +55,9 @@ export interface AiResultDie {
 export interface Pair {
   zIndex: string;
   iValue: string;
+}
+export interface BRemindLeader {
+  comment: string;
 }
 export interface ZType {
 }

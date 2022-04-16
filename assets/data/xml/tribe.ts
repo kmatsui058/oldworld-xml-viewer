@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GenderedNames": {
+          
+        },
         "Help": {
           
         },
@@ -42,7 +45,7 @@
         "aeFirstNamesFemale": {
           
         },
-        "azNicknames": {
+        "Nicknames": {
           
         },
         "zPortraitBackground": {
@@ -58,6 +61,12 @@
       {
         "zType": "TRIBE_REBELS",
         "Name": "TEXT_TRIBE_REBELS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_REBELS_F"
+          }
+        },
         "Help": "TEXT_TRIBE_REBELS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_REBELS",
         "bPersistent": "1",
@@ -77,6 +86,12 @@
       {
         "zType": "TRIBE_RAIDERS",
         "Name": "TEXT_TRIBE_RAIDERS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_RAIDERS_F"
+          }
+        },
         "Help": "TEXT_TRIBE_RAIDERS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_RAIDERS",
         "bPersistent": "1",
@@ -88,6 +103,12 @@
       {
         "zType": "TRIBE_BARBARIANS",
         "Name": "TEXT_TRIBE_BARBARIANS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_BARBARIANS_F"
+          }
+        },
         "Help": "TEXT_TRIBE_BARBARIANS_HELP",
         "TeamColor": "TEAMCOLOR_TRIBE_BARBARIANS",
         "bMercenary": "1",
@@ -99,6 +120,12 @@
       {
         "zType": "TRIBE_GAULS",
         "Name": "TEXT_TRIBE_GAULS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_GAULS_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_GAULS",
         "iLatitude": "45",
         "bDiplomacy": "1",
@@ -153,8 +180,17 @@
             "NAME_VLATUCA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_GAULS_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_GAULS_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_GAULS_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_GAULS",
@@ -179,6 +215,12 @@
       {
         "zType": "TRIBE_VANDALS",
         "Name": "TEXT_TRIBE_VANDALS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_VANDALS_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_VANDALS",
         "iLatitude": "55",
         "bDiplomacy": "1",
@@ -233,8 +275,17 @@
             "NAME_WELLA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_VANDALS_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_VANDALS_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_VANDALS_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_VANDALS",
@@ -256,6 +307,12 @@
       {
         "zType": "TRIBE_DANES",
         "Name": "TEXT_TRIBE_DANES",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_DANES_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_DANES",
         "iLatitude": "60",
         "bDiplomacy": "1",
@@ -311,8 +368,17 @@
             "NAME_WISNA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_DANES_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_DANES_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_DANES_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_DANES",
@@ -336,6 +402,12 @@
       {
         "zType": "TRIBE_THRACIANS",
         "Name": "TEXT_TRIBE_THRACIANS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_THRACIANS_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_THRACIANS",
         "iLatitude": "40",
         "bDiplomacy": "1",
@@ -390,8 +462,17 @@
             "NAME_TATAZA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_THRACIANS_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_THRACIANS_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_THRACIANS_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_THRACIANS",
@@ -414,6 +495,12 @@
       {
         "zType": "TRIBE_SCYTHIANS",
         "Name": "TEXT_TRIBE_SCYTHIANS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_SCYTHIANS_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_SCYTHIANS",
         "iLatitude": "50",
         "bDiplomacy": "1",
@@ -468,8 +555,17 @@
             "NAME_ZARINA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_SCYTHIANS_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_SCYTHIANS_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_SCYTHIANS_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_SCYTHIANS",
@@ -491,6 +587,12 @@
       {
         "zType": "TRIBE_NUMIDIANS",
         "Name": "TEXT_TRIBE_NUMIDIANS",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_TRIBE_NUMIDIANS_F"
+          }
+        },
         "TeamColor": "TEAMCOLOR_TRIBE_NUMIDIANS",
         "iLatitude": "30",
         "bDiplomacy": "1",
@@ -545,8 +647,17 @@
             "NAME_ZAMRA"
           ]
         },
-        "azNicknames": {
-          "zValue": "TEXT_TRIBE_NUMIDIANS_NICK"
+        "Nicknames": {
+          "Pair": [
+            {
+              "First": "GENDER_MALE",
+              "Second": "TEXT_TRIBE_NUMIDIANS_NICK"
+            },
+            {
+              "First": "GENDER_FEMALE",
+              "Second": "TEXT_TRIBE_NUMIDIANS_NICK_F"
+            }
+          ]
         },
         "zPortraitBackground": "GenericBarbarianAttackBackground",
         "zCharacterPortraitBackground": "PORTRAIT_BACKGROUND_NUMIDIANS",

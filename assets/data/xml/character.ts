@@ -30,6 +30,9 @@
         "Tribe": {
           
         },
+        "Religion": {
+          
+        },
         "Family": {
           
         },
@@ -52,6 +55,9 @@
           
         },
         "iRating": {
+          
+        },
+        "iSafeDuration": {
           
         },
         "bInfertile": {
@@ -227,7 +233,7 @@
         "aeTraits": {
           "zValue": [
             "TRAIT_DIPLOMAT_ARCHETYPE",
-            "TRAIT_CUNNING"
+            "TRAIT_DEALMAKER"
           ]
         },
         "aeRelationships": {
@@ -305,7 +311,7 @@
         "PlayerNation": "NATION_EGYPT",
         "Spouse": "CHARACTER_THUTMOSE_II",
         "CharacterSelectPortrait": "CHARACTER_SELECT_HATSHEPSUT",
-        "iAge": "35",
+        "iAge": "34",
         "bInfertile": "1",
         "aeTraits": {
           "zValue": [
@@ -321,7 +327,7 @@
         "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_MALE_01",
         "PlayerNation": "NATION_EGYPT",
         "iBirth": "-8",
-        "iAge": "31",
+        "iAge": "30",
         "aeTraits": {
           "zValue": [
             "TRAIT_BUILDER_ARCHETYPE",
@@ -336,7 +342,7 @@
         "PreferredPortrait": "CHARACTER_PORTRAIT_EGYPT_LEADER_FEMALE_05",
         "PlayerNation": "NATION_EGYPT",
         "Spouse": "CHARACTER_THUTMOSE_II",
-        "iAge": "32",
+        "iAge": "31",
         "aeTraits": {
           "zValue": [
             "TRAIT_ZEALOT_ARCHETYPE",
@@ -358,7 +364,7 @@
         "PlayerNation": "NATION_EGYPT",
         "Father": "CHARACTER_THUTMOSE_II",
         "Mother": "CHARACTER_HATSHEPSUT",
-        "iAge": "12",
+        "iAge": "11",
         "aeRelationships": {
           "Pair": {
             "zIndex": "CHARACTER_HATSHEPSUT",
@@ -374,7 +380,7 @@
         "PlayerNation": "NATION_EGYPT",
         "Father": "CHARACTER_THUTMOSE_II",
         "Mother": "CHARACTER_ISIS",
-        "iAge": "9",
+        "iAge": "8",
         "aeRelationships": {
           "Pair": {
             "zIndex": "CHARACTER_HATSHEPSUT",
@@ -632,7 +638,7 @@
           "zValue": [
             "TRAIT_SCHEMER_ARCHETYPE",
             "TRAIT_INTELLIGENT",
-            "TRAIT_CUNNING"
+            "TRAIT_DEALMAKER"
           ]
         }
       },
@@ -709,7 +715,7 @@
         "zType": "CHARACTER_CATO",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_CATO",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_CATO",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_ROMAN_LEADER_MALE_06",
         "iAge": "40",
         "iRating": "3",
         "aeTraits": {
@@ -730,7 +736,7 @@
         "aeTraits": {
           "zValue": [
             "TRAIT_ZEALOT_ARCHETYPE",
-            "TRAIT_CUNNING",
+            "TRAIT_DEALMAKER",
             "TRAIT_INTOLERANT"
           ]
         }
@@ -739,7 +745,7 @@
         "zType": "CHARACTER_AUGUSTINE",
         "Gender": "GENDER_MALE",
         "FirstName": "NAME_AUGUSTINE",
-        "PreferredPortrait": "CHARACTER_PORTRAIT_HIARBAS",
+        "PreferredPortrait": "CHARACTER_PORTRAIT_AUGUSTINE",
         "iAge": "50",
         "iRating": "1",
         "aeTraits": {
@@ -890,7 +896,7 @@
           "zValue": [
             "TRAIT_ZEALOT_ARCHETYPE",
             "TRAIT_DIVINE",
-            "TRAIT_CUNNING",
+            "TRAIT_DEALMAKER",
             "TRAIT_DELVER"
           ]
         }
@@ -1225,7 +1231,7 @@
         "aeTraits": {
           "zValue": [
             "TRAIT_SCHEMER_ARCHETYPE",
-            "TRAIT_CUNNING",
+            "TRAIT_DEALMAKER",
             "TRAIT_DIVINE",
             "TRAIT_INTELLIGENT"
           ]
@@ -1262,6 +1268,18 @@
         }
       },
       {
+        "zType": "CHARACTER_TRIBAL_COURTIER",
+        "iAge": "25",
+        "iRating": "2",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_TACTICIAN_ARCHETYPE",
+            "TRAIT_BOLD",
+            "TRAIT_INTELLIGENT"
+          ]
+        }
+      },
+      {
         "zType": "CHARACTER_REBEL_SLAVE",
         "Title": "TITLE_REBEL_LEADER",
         "iAge": "28",
@@ -1271,6 +1289,16 @@
             "TRAIT_BOLD",
             "TRAIT_TOUGH",
             "TRAIT_REBEL_SLAVE"
+          ]
+        }
+      },
+      {
+        "zType": "CHARACTER_MERCHANT_HOSTAGE",
+        "iAge": "25",
+        "aeTraits": {
+          "zValue": [
+            "TRAIT_COMPASSIONATE",
+            "TRAIT_HUMBLE"
           ]
         }
       }

@@ -9,6 +9,11 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  iMin?: IMin;
+  iMax?: IMin;
+}
+export interface IMin {
+  comment: string;
 }
 export interface ZType {
 }

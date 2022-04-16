@@ -331,6 +331,18 @@
         "en-US": "Yeraz"
       },
       {
+        "zType": "TEXT_AUDIO_MUSIC_BG_NARA",
+        "en-US": "Nara"
+      },
+      {
+        "zType": "TEXT_AUDIO_MUSIC_BG_REWIND",
+        "en-US": "Rewind"
+      },
+      {
+        "zType": "TEXT_AUDIO_MUSIC_BG_SAMAI_RAST",
+        "en-US": "Samai Rast"
+      },
+      {
         "zType": "TEXT_AUDIO_MUSIC_BG_ZABLEYALO_AGNE",
         "en-US": "Zableyalo Agne"
       },
@@ -433,6 +445,10 @@
       {
         "zType": "TEXT_AUDIO_ARTIST_KOMITAS_VARDAPET",
         "en-US": "Komitas Vardapet"
+      },
+      {
+        "zType": "TEXT_AUDIO_ARTIST_CHARBEL_ROUHANA",
+        "en-US": "Charbel Rouhana"
       },
       {
         "zType": "TEXT_AUDIO_MUSIC_BG_ASCENT___CATHEDRAL",

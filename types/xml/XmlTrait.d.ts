@@ -11,7 +11,9 @@ export interface Entry {
   Name: ZType | string;
   GenderedNames?: GenderedNames;
   Description?: ZType | string;
+  Title?: ZType | string;
   Nickname?: ZType | string;
+  GenderedNicknames?: GenderedNames;
   GainTexts?: GainTexts;
   LoseTexts?: GainTexts;
   zIconName?: ZType | string;
@@ -38,6 +40,8 @@ export interface Entry {
   iOpinionTrades?: ZType | string;
   iAgentModifier?: ZType | string;
   iBirthModifier?: ZType | string;
+  iFamilyHeadModifier?: ZType | string;
+  iReligionHeadModifier?: ZType | string;
   iTribeAllianceModifier?: ZType | string;
   iAllianceModifier?: ZType | string;
   iPeaceModifier?: ZType | string;
@@ -46,7 +50,7 @@ export interface Entry {
   bArchetype?: ZType | string;
   bStrength?: ZType | string;
   bWeakness?: ZType | string;
-  bNickname?: ZType | string;
+  bForceNickname?: ZType | string;
   bDisplay?: ZType | string;
   bUpgrade?: ZType | string;
   bNoEvents?: ZType | string;
@@ -54,7 +58,9 @@ export interface Entry {
   bNoMarry?: ZType | string;
   bNoSpouse?: ZType | string;
   bNoBirth?: ZType | string;
-  bNoHeir?: ZType | string;
+  bNoSuccession?: ZType | string;
+  bNoSuccessionChildren?: ZType | string;
+  bDoBypass?: ZType | string;
   bNoJob?: ZType | string;
   bNoCourtier?: ZType | string;
   bNoFamilyHead?: ZType | string;
@@ -75,9 +81,12 @@ export interface Entry {
   LeaderEffectUnit?: ZType | string;
   AdjacentEffectUnit?: ZType;
   MemoryCharacter?: ZType | string;
+  Religion?: ZType;
   aiRating?: AiRating;
   aiTraitOpinion?: AiTraitOpinion;
   aiTraitProb?: AiRating;
+  aiReligionOpinion?: ZType;
+  aiFamilyClassOpinion?: AiTraitOpinion;
   aiLawOpinion?: AiRating;
   aiMortalityDieProb?: AiMortalityDieProb;
   aiDecadeProb?: AiDecadeProb;

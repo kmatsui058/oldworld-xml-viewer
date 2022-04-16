@@ -8,8 +8,8 @@ export interface Root {
 }
 export interface Entry {
   zType: ZType | string;
-  Text?: Text | string;
-  MemoryLevel?: ZType | string;
+  Text: Text | string;
+  MemoryLevel: ZType | string;
   iValue?: Text;
   iTurns?: Text;
   bName?: Text;

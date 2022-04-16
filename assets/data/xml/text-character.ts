@@ -43,6 +43,14 @@
         "en-US": "{0_title} Dowager"
       },
       {
+        "zType": "TEXT_CHARACTER_TITLE_LEADER_REGENT",
+        "en-US": "King Regent"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_LEADER_REGENT_F",
+        "en-US": "Queen Regent"
+      },
+      {
         "zType": "TEXT_CHARACTER_TITLE_HEIR",
         "en-US": "Prince"
       },
@@ -77,6 +85,14 @@
       {
         "zType": "TEXT_CHARACTER_TITLE_AGENT_F",
         "en-US": "Agent"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_TRIBE_LEADER",
+        "en-US": "King"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_TRIBE_LEADER_F",
+        "en-US": "Queen"
       },
       {
         "zType": "TEXT_CHARACTER_TITLE_RELIGION_HEAD",
@@ -163,6 +179,14 @@
         "en-US": "Chief Priestess"
       },
       {
+        "zType": "TEXT_CHARACTER_TITLE_GRAND_EXPLORER",
+        "en-US": "Grand Explorer"
+      },
+      {
+        "zType": "TEXT_CHARACTER_TITLE_GRAND_EXPLORER_F",
+        "en-US": "Grand Explorer"
+      },
+      {
         "comment": "TEXT_CHARACTER_RELATION texts have the leader (i.e. 'You') as variable index 1 for gender",
         "zType": "TEXT_CHARACTER_RELATION_YOU",
         "en-US": "you"
@@ -244,6 +268,82 @@
         "en-US": "your In-Law"
       },
       {
+        "zType": "TEXT_CHARACTER_RELATION_SPOUSE_SHORT",
+        "en-US": "{masculine_0:Husband:Wife}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_CHILD_SHORT",
+        "en-US": "{masculine_0:Son:Daughter}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_GRANDCHILD_SHORT",
+        "en-US": "{masculine_0:Grandson:Granddaughter}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_DESCENDANT_SHORT",
+        "en-US": "Descendant"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_PARENT_SHORT",
+        "en-US": "{masculine_0:Father:Mother}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_GRANDPARENT_SHORT",
+        "en-US": "{masculine_0:Grandfather:Grandmother}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_ANCESTOR_SHORT",
+        "en-US": "Ancestor"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_SIBLING_SHORT",
+        "en-US": "{masculine_0:Brother:Sister}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_SIBLING_IN_LAW_SHORT",
+        "en-US": "{masculine_0:Brother-in-Law:Sister-in-Law}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_HALF_SIBLING_SHORT",
+        "en-US": "{masculine_0:Half-Brother:Half-Sister}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_COUSIN_SHORT",
+        "en-US": "Cousin"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_AUNT_UNCLE_SHORT",
+        "en-US": "{masculine_0:Uncle:Aunt}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_NIECE_NEPHEW_SHORT",
+        "en-US": "{masculine_0:Nephew:Niece}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_CHILD_IN_LAW_SHORT",
+        "en-US": "{masculine_0:Son-in-Law:Daughter-in-Law}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_PARENT_IN_LAW_SHORT",
+        "en-US": "{masculine_0:Father-in-Law:Mother-in-Law}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_STEPCHILD_SHORT",
+        "en-US": "{masculine_0:Stepson:Stepdaughter}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_STEPPARENT_SHORT",
+        "en-US": "{masculine_0:Stepfather:Stepmother}"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_RELATIVE_SHORT",
+        "en-US": "Relative"
+      },
+      {
+        "zType": "TEXT_CHARACTER_RELATION_IN_LAW_SHORT",
+        "en-US": "In-Law"
+      },
+      {
         "zType": "TEXT_CHARACTER_HEIR_ORDER_1",
         "en-US": "Heir"
       },
@@ -308,7 +408,15 @@
         "en-US": "the Younger"
       },
       {
+        "zType": "TEXT_CHARACTER_THE_YOUNGER_F",
+        "en-US": "the Younger"
+      },
+      {
         "zType": "TEXT_CHARACTER_THE_ELDER",
+        "en-US": "the Elder"
+      },
+      {
+        "zType": "TEXT_CHARACTER_THE_ELDER_F",
         "en-US": "the Elder"
       },
       {

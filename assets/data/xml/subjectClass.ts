@@ -43,6 +43,10 @@
         "Name": "TEXT_SUBJECTCLASS_RESOURCE"
       },
       {
+        "zType": "SUBJECTCLASS_GOAL",
+        "Name": "TEXT_SUBJECTCLASS_GOAL"
+      },
+      {
         "zType": "SUBJECTCLASS_CHARACTER",
         "Name": "TEXT_SUBJECTCLASS_CHARACTER"
       },

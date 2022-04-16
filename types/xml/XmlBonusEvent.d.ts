@@ -10,7 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name?: ZType | string;
   zIcon?: ZType | string;
-  CharacterName?: ZType;
+  CharacterName?: ZType | string;
   CityName?: ZType;
   UnitName?: ZType | string;
   Victory?: ZType;
@@ -40,7 +40,7 @@ export interface Entry {
   FreeLaw?: ZType | string;
   FoundReligion?: ZType | string;
   FreeTheology?: ZType | string;
-  Goal?: ZType | string;
+  GoalAdd?: ZType | string;
   GoalForce?: ZType;
   Ambition?: ZType | string;
   AmbitionFamily?: ZType | string;
@@ -57,9 +57,11 @@ export interface Entry {
   AddResource?: ZType | string;
   SetImprovement?: ZType | string;
   AddImprovement?: ZType | string;
+  AddUrbanImprovement?: ZType;
   SetSpecialist?: ZType | string;
+  BirthCharacter?: ZType;
   iSpreadUnits?: ZType | string;
-  iRevealRange?: ZType;
+  iRevealRange?: ZType | string;
   iCitizens?: ZType | string;
   iBorderGrowth?: ZType | string;
   iCultureLevels?: ZType | string;
@@ -67,6 +69,7 @@ export interface Entry {
   iRebelUnits?: ZType | string;
   iDestroyImprovements?: ZType | string;
   iHPCity?: ZType | string;
+  iHPCityPercent?: ZType | string;
   iHPUnit?: ZType | string;
   iXPUnit?: ZType | string;
   iXPCharacter?: ZType | string;
@@ -93,12 +96,13 @@ export interface Entry {
   iHeadFamilySubject?: ZType;
   iAcquireTechSubject?: ZType | string;
   iTradeResourceSubject?: ZType | string;
-  iAgentCitySubject?: ZType;
+  iAgentCitySubject?: ZType | string;
   iTradeCitySubject?: ZType | string;
   iConvertUnitSubject?: ZType | string;
   iMissionSubject?: ZType | string;
   iMissionReverse?: ZType | string;
   iAmbitionFamilySubject?: ZType | string;
+  iAmbitionReligionSubject?: ZType;
   bMissionFree?: ZType | string;
   bMercenaryUnit?: ZType | string;
   bRevealTerritory?: ZType | string;
@@ -117,8 +121,10 @@ export interface Entry {
   bStartLaw?: ZType;
   bFreeLaw?: ZType;
   bFreeTheology?: ZType | string;
+  bAddAmbition?: ZType;
   bRandomTech?: ZType | string;
   bDistantRaid?: ZType | string;
+  bAddAgentNetwork?: ZType;
   bLoseAgentNetwork?: ZType;
   bConvertStateReligion?: ZType;
   bNoCourtier?: ZType | string;
@@ -137,7 +143,7 @@ export interface Entry {
   bClearImprovement?: ZType;
   bPillageImprovement?: ZType;
   bTribeRaid?: ZType;
-  bRazeCity?: ZType;
+  bRazeCity?: ZType | string;
   bRazeCityNoCitySite?: ZType;
   bDefeat?: ZType;
   aiCityYields?: AiCityYields;
@@ -157,39 +163,39 @@ export interface Entry {
   aiYieldsTributePerUs?: AiCityYields;
   aiYieldsTributePerThem?: AiCityYields;
   aiUnits?: AiGlobalYieldsBase;
-  aiTribeUnits?: AiTribeUnits;
+  aiTribeUnits?: AiCityYields;
   aiBonusUnits?: AiGlobalYieldsBase;
   aiRebelUnits?: ZType;
+  aeNewUnitNames?: AeNewUnitNames;
   aiLawOpinion?: AiCityYields;
   aiRatings?: AiGlobalYieldsBase;
+  aiStats?: ZType;
   aeAddProjects?: AeAddProjects;
-  aeRemoveProjects?: AeAddProjects;
+  aeRemoveProjects?: AeNewUnitNames;
   aeAddSpecialistClasses?: AeAddSpecialistClasses;
   aePromotions?: AeAddSpecialistClasses;
   aeRandomTrait?: AeRandomTrait;
   aeAddTraits?: AeAddTraits;
   aeRemoveTraits?: AeRemoveTrait | AeRemoveTraits2 | ZType | string;
   aeRandomLeaderRelationship?: AeRandomTrait;
-  aeTechs?: AeAddProjects;
+  aeTechs?: AeNewUnitNames;
   aeCultureProject?: AeCultureProject;
   aaiCultureYield?: ZType;
   aeBonuses?: AeAddTraits;
   aeFamilyBonuses?: ZType;
-  aeAllCityBonuses?: AeAddProjects;
+  aeAllCityBonuses?: AeNewUnitNames;
   DiplomacySubjects?: DiplomacySubjects;
   AddRelationshipSubjects?: DiplomacySubjects;
   AddRelationshipReverse?: DiplomacySubjects;
   RemoveRelationshipSubjects?: ZType;
   RemoveRelationshipReverse?: ZType;
-  AddCourtierForce?: AddCourtierForce;
-  AddCourtier?: AddCourtierForce;
-  AddCourtierOther?: AddCourtierOther;
+  AddCourtier?: AddCourtier;
+  AddCourtierOther?: AddCourtier;
+  AddTraitReligion?: ZType;
+  RemoveTraitReligion?: ZType;
   beginGroup?: string;
 }
-export interface AddCourtierOther {
-  Pair?: Pair2;
-}
-export interface AddCourtierForce {
+export interface AddCourtier {
   Pair?: Pair4;
 }
 export interface Pair4 {
@@ -226,10 +232,10 @@ export interface AeAddSpecialistClasses {
   zValue?: string[] | string;
 }
 export interface AeAddProjects {
-  zValue?: string;
+  zValue?: (ZType | string)[] | string;
 }
-export interface AiTribeUnits {
-  Pair?: Pair[];
+export interface AeNewUnitNames {
+  zValue?: string;
 }
 export interface AiGlobalYieldsBase {
   Pair?: Pair[] | Pair;

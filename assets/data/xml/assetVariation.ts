@@ -114,6 +114,26 @@
         "SingleAsset": "ASSET_TERRAIN_TILE_TUNDRA_FLAT"
       },
       {
+        "zType": "ASSET_VARIATION_TILE_MARSH_FLAT",
+        "aiValidRotations": "0",
+        "aiRandomAssets": {
+          "Pair": [
+            {
+              "zIndex": "ASSET_TERRAIN_TILE_MARSH_FLAT_01",
+              "iValue": "50"
+            },
+            {
+              "zIndex": "ASSET_TERRAIN_TILE_MARSH_FLAT_02",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "ASSET_TERRAIN_TILE_MARSH_FLAT_03",
+              "iValue": "30"
+            }
+          ]
+        }
+      },
+      {
         "zType": "ASSET_VARIATION_CITY_ASSYRIA_CAPITAL",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_CITY_ASSYRIA_CAPITAL"
@@ -277,6 +297,11 @@
         "zType": "ASSET_VARIATION_TILE_HILL_TUNDRA",
         "aiValidRotations": "0",
         "SingleAsset": "ASSET_TERRAIN_TILE_HILL_TUNDRA"
+      },
+      {
+        "zType": "ASSET_VARIATION_TILE_HILL_MARSH",
+        "aiValidRotations": "0",
+        "SingleAsset": "ASSET_TERRAIN_TILE_HILL_MARSH"
       },
       {
         "zType": "ASSET_VARIATION_TILE_COAST_1",

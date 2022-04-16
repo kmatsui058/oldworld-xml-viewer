@@ -65,8 +65,8 @@ export interface Entry {
   aiYieldCount?: AiTribesKilledData;
   aiResourceRevealed?: TechPrereq2;
   aiLuxuryCount?: IMaxLevelUnits;
-  aiPlayerLuxuryCount?: IMaxLevelUnits;
-  aiTribeLuxuryCount?: IMaxLevelUnits;
+  aiPlayerLuxuryCount?: AiPlayerLuxuryCount;
+  aiTribeLuxuryCount?: AiPlayerLuxuryCount;
   aiFamilyLuxuryCount?: IMaxLevelUnits;
   aiImprovementCount?: AiImprovementCount;
   aiCityImprovementCount?: ZType;
@@ -96,6 +96,10 @@ export interface AeTechsAcquired {
 export interface AiImprovementCount {
   comment?: string;
   Pair?: Pair[] | Pair;
+}
+export interface AiPlayerLuxuryCount {
+  comment?: string;
+  Pair?: Pair[];
 }
 export interface AiYieldRate {
   Pair?: Pair[];

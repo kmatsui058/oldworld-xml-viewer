@@ -16,7 +16,7 @@
       },
       {
         "zType": "TEXT_HINT_2",
-        "en-US": "Units on link(HEIGHT_FLAT) terrain are vulnerable to attacks from link(UNITTRAIT_MOUNTED) Units."
+        "en-US": "Units on link(HEIGHT_FLAT) and link(CONCEPT_CLEAR) terrain are vulnerable to attacks from link(UNITTRAIT_MOUNTED) Units."
       },
       {
         "zType": "TEXT_HINT_3",
@@ -60,11 +60,11 @@
       },
       {
         "zType": "TEXT_HINT_13",
-        "en-US": "link(TRIBE_BARBARIANS) are xenophobic tribes hostile to all nations. There are no diplomatic consequences for attacking their units or taking over their land. They have no allies, including other link(CONCEPT_TRIBE,2)."
+        "en-US": "link(TRIBE_BARBARIANS) are xenophobic tribes hostile to all link(CONCEPT_NATION,2). There are no diplomatic consequences for attacking their Units or taking over their land. They have no allies, including other link(CONCEPT_TRIBE,2)."
       },
       {
         "zType": "TEXT_HINT_14",
-        "en-US": "If your territory has scant supplies of link(YIELD_WOOD,1), consider training military units that rely on link(YIELD_STONE,1) or link(YIELD_IRON,1). Concentrate your limited link(YIELD_WOOD,1) supply on building Rural tile link(CONCEPT_IMPROVEMENT,2)."
+        "en-US": "If your territory has scant supplies of link(YIELD_WOOD,1), consider training military Units that rely on link(YIELD_STONE,1) or link(YIELD_IRON,1). Concentrate your limited link(YIELD_WOOD,1) supply on building Rural tile link(CONCEPT_IMPROVEMENT,2)."
       },
       {
         "zType": "TEXT_HINT_15",
@@ -84,7 +84,7 @@
       },
       {
         "zType": "TEXT_HINT_19",
-        "en-US": "Expect demand for link(YIELD_FOOD,1) to rise as your cities grow and mature."
+        "en-US": "Expect demand for link(YIELD_FOOD,1) to rise as your Cities grow and mature."
       },
       {
         "zType": "TEXT_HINT_20",
@@ -112,7 +112,7 @@
       },
       {
         "zType": "TEXT_HINT_26",
-        "en-US": "A city may build ships if it controls water tiles labeled as link(HEIGHT_COAST)."
+        "en-US": "A City may build ships if it controls water tiles labeled as link(HEIGHT_COAST)."
       },
       {
         "zType": "TEXT_HINT_27",
@@ -124,11 +124,11 @@
       },
       {
         "zType": "TEXT_HINT_29",
-        "en-US": "The rate at which military Units are produced by a city is tied directly to its link(YIELD_TRAINING,1) output."
+        "en-US": "The rate at which military Units are produced by a City is tied directly to its link(YIELD_TRAINING,1) output."
       },
       {
         "zType": "TEXT_HINT_30",
-        "en-US": "The rate at which link(CONCEPT_PROJECT,2) are completed at a city depends on its link(YIELD_CIVICS,1) output."
+        "en-US": "The rate at which link(CONCEPT_PROJECT,2) are completed at a City depends on its link(YIELD_CIVICS,1) output."
       },
       {
         "zType": "TEXT_HINT_31",
@@ -140,7 +140,7 @@
       },
       {
         "zType": "TEXT_HINT_33",
-        "en-US": "link(UNITTRAIT_RANGED) units are efficient in battle, often attacking an enemy without having to spend link(YIELD_ORDERS,1) on movement."
+        "en-US": "link(UNITTRAIT_RANGED) Units are efficient in battle, often attacking an enemy without having to spend link(YIELD_ORDERS,1) on movement."
       },
       {
         "zType": "TEXT_HINT_34",
@@ -148,11 +148,11 @@
       },
       {
         "zType": "TEXT_HINT_35",
-        "en-US": "link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) units cannot be link(CONCEPT_PROMOTION,3), but they are produced with link(YIELD_GROWTH,1) instead of link(YIELD_TRAINING,1). Cities with high link(YIELD_GROWTH) output may be able to train them rapidly."
+        "en-US": "link(UNIT_MILITIA) and link(UNIT_CONSCRIPT) Units cannot be link(CONCEPT_PROMOTION,3), but they are produced with link(YIELD_GROWTH,1) instead of link(YIELD_TRAINING,1). Cities with high link(YIELD_GROWTH) output may be able to train them rapidly."
       },
       {
         "zType": "TEXT_HINT_36",
-        "en-US": "Many link(UNITTRAIT_MOUNTED) units have the link(CONCEPT_ROUT) ability. When they slay an enemy Unit, they occupy that Unit's tile. Although they cannot move again, they can attack again if another target is adjacent to them."
+        "en-US": "Many link(UNITTRAIT_MOUNTED) Units have the link(CONCEPT_ROUT) ability. When they slay an enemy Unit, they occupy that Unit's tile. Although they cannot move again, they can attack again if another target is adjacent to them."
       },
       {
         "zType": "TEXT_HINT_37",
@@ -160,11 +160,11 @@
       },
       {
         "zType": "TEXT_HINT_38",
-        "en-US": "Tribes are not Nations. When at link(DIPLOMACY_WAR) with you, only their Units near your Units or territory pose a threat, unless you anger them enough for them to launch a link(CONCEPT_TRIBE_INVASION)."
+        "en-US": "link(CONCEPT_TRIBE,2) are not link(CONCEPT_NATION,2). When at link(DIPLOMACY_WAR) with you, only their Units near your Units or territory pose a threat, unless you anger them enough for them to launch a link(CONCEPT_TRIBE_INVASION)."
       },
       {
         "zType": "TEXT_HINT_39",
-        "en-US": "Coastal cities control less land than inland cities, but they tend to be less vulnerable to attack."
+        "en-US": "Coastal Cities control less land than inland Cities, but they tend to be less vulnerable to attack."
       },
       {
         "zType": "TEXT_HINT_40",
@@ -200,7 +200,7 @@
       },
       {
         "zType": "TEXT_HINT_48",
-        "en-US": "Hold [hotkey(HOTKEY_SHOW_DANGER_TILES)] to highlight Tiles which enemy Units can target."
+        "en-US": "Hold [hotkey(HOTKEY_SHOW_DANGER_TILES)] to highlight tiles which enemy Units can target."
       },
       {
         "zType": "TEXT_HINT_49",
@@ -228,7 +228,7 @@
       },
       {
         "zType": "TEXT_HINT_55",
-        "en-US": "link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2) on the coast need only be adjacent to one other link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT) or the City tile."
+        "en-US": "link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT,2) on the coast need only be adjacent to one other link(CONCEPT_URBAN) link(CONCEPT_IMPROVEMENT) on the same coast or the City tile."
       },
       {
         "zType": "TEXT_HINT_56",
@@ -236,7 +236,7 @@
       },
       {
         "zType": "TEXT_HINT_57",
-        "en-US": "link(UNIT_SCOUT,2) are link(CONCEPT_HIDDEN) while on a link(VEGETATION_TREES) Tile in neutral or friendly territory."
+        "en-US": "link(UNIT_SCOUT,2) are link(CONCEPT_HIDDEN) while on a link(VEGETATION_TREES) tile in neutral or friendly territory."
       },
       {
         "zType": "TEXT_HINT_58",
@@ -248,7 +248,7 @@
       },
       {
         "zType": "TEXT_HINT_60",
-        "en-US": "Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its link(CONCEPT_FATIGUE) range) towards that Tile each turn."
+        "en-US": "Hold down [SHIFT] when moving a Unit to assign a multi-turn destination. The Unit will move (to the edge of its link(CONCEPT_FATIGUE) range) towards that tile each turn."
       },
       {
         "zType": "TEXT_HINT_61",
@@ -264,7 +264,7 @@
       },
       {
         "zType": "TEXT_HINT_64",
-        "en-US": "You can reduce link(YIELD_DISCONTENT,1) by connecting your cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2). Certain other combinations of link(CONCEPT_IMPROVEMENT,2), link(CONCEPT_SPECIALIST,2), and laws reduce link(YIELD_DISCONTENT,1) as well."
+        "en-US": "You can reduce link(YIELD_DISCONTENT,1) by connecting your Cities with link(CONCEPT_ROAD,2), recruiting link(SPECIALISTCLASS_PRIEST,1), and building link(IMPROVEMENTCLASS_BATHS,2). Certain other combinations of link(CONCEPT_IMPROVEMENT,2), link(CONCEPT_SPECIALIST,2), and laws reduce link(YIELD_DISCONTENT,1) as well."
       },
       {
         "zType": "TEXT_HINT_65",
@@ -284,7 +284,7 @@
       },
       {
         "zType": "TEXT_HINT_69",
-        "en-US": "link(CONCEPT_GOVERNOR,2) can be appointed in Cities with a link(IMPROVEMENT_GARRISON_1) to provide a boost to Yields."
+        "en-US": "link(CONCEPT_GOVERNOR,2) can be appointed in Cities with a link(IMPROVEMENT_GARRISON_1). Their stats apply a multiplier to the City Yields and their traits can add other bonuses."
       },
       {
         "zType": "TEXT_HINT_70",
@@ -296,7 +296,7 @@
       },
       {
         "zType": "TEXT_HINT_72",
-        "en-US": "icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) is obtained achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher link(CONCEPT_LEGITIMACY) improves link(CONCEPT_OPINION_FAMILY,2) and produces more link(YIELD_ORDERS,1) per year."
+        "en-US": "icon(YIELD_LEGITIMACY)link(CONCEPT_LEGITIMACY) is obtained achieving link(CONCEPT_AMBITION,2) and acquiring better link(CONCEPT_COGNOMEN,2) (such as link(COGNOMEN_GREAT)). Higher link(CONCEPT_LEGITIMACY) improves link(CONCEPT_OPINION_FAMILY,2) and produces more link(YIELD_ORDERS,1) per turn."
       },
       {
         "zType": "TEXT_HINT_73",
@@ -304,7 +304,7 @@
       },
       {
         "zType": "TEXT_HINT_74",
-        "en-US": "link(CONCEPT_LUXURY,2) can be Traded to a City to reduce link(YIELD_DISCONTENT,1). They can also be Traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation."
+        "en-US": "link(CONCEPT_LUXURY,2) can be traded to a City to reduce link(YIELD_DISCONTENT,1). They can also be traded to other link(CONCEPT_NATION,2), link(CONCEPT_TRIBE,2), and link(CONCEPT_FAMILY,2) to improve their Opinion of your Nation."
       },
       {
         "zType": "TEXT_HINT_75",
@@ -324,7 +324,7 @@
       },
       {
         "zType": "TEXT_HINT_79",
-        "en-US": "The link(CONCEPT_TRADE_NETWORK) consists of all Tiles connected to your link(CONCEPT_CAPITAL) City."
+        "en-US": "The link(CONCEPT_TRADE_NETWORK) consists of all tiles connected to your link(CONCEPT_CAPITAL) City."
       },
       {
         "zType": "TEXT_HINT_80",
@@ -380,11 +380,11 @@
       },
       {
         "zType": "TEXT_HINT_93",
-        "en-US": "The Cities of link(CONCEPT_FAMILY,2) with a low link(CONCEPT_OPINION_FAMILY,3) of you cost more link(YIELD_MAINTENANCE) and produce fewer link(YIELD_CIVICS) and less link(YIELD_TRAINING). Their Units fight less effectively too!"
+        "en-US": "The Cities of link(CONCEPT_FAMILY,2) with a low link(CONCEPT_OPINION_FAMILY,3) of you cost more link(YIELD_MAINTENANCE). Their Units fight less effectively too!"
       },
       {
         "zType": "TEXT_HINT_94",
-        "en-US": "Angry link(CONCEPT_FAMILY,2) can rebel against your rule, spawning link(TRIBE_REBELS,1) Units around their Cities. Your Units from that link(CONCEPT_FAMILY) are not as effective when fighting against link(TRIBE_REBELS)."
+        "en-US": "Angry link(CONCEPT_FAMILY,2) can rebel against your rule, spawning link(TRIBE_REBELS,1) Units around their Cities. Your Units from that link(CONCEPT_FAMILY) are not as effective when fighting against their own link(TRIBE_REBELS)."
       },
       {
         "zType": "TEXT_HINT_95",
@@ -400,11 +400,11 @@
       },
       {
         "zType": "TEXT_HINT_98",
-        "en-US": "link(UNIT_SCOUT,2) can establish link(CONCEPT_AGENT_NETWORK,2) in Foreign Cities to immediately gain visibility of the City and its territory. Subsequently, you can assign Characters as link(CONCEPT_AGENT,2), who can perform link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities."
+        "en-US": "link(UNIT_SCOUT,2) can establish link(CONCEPT_AGENT_NETWORK,2) in Foreign Cities. Subsequently, you can assign Characters as link(CONCEPT_AGENT,2) to gain visibility of the City and its territory. link(CONCEPT_AGENT,2) can also perform link(MISSION_TREACHERY) or link(MISSION_INSURRECTION) Missions on their Cities."
       },
       {
         "zType": "TEXT_HINT_99",
-        "en-US": "Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your Nation, and they raise their link(CONCEPT_FAMILY)'s link(CONCEPT_OPINION_FAMILY,3) of you."
+        "en-US": "Don't forget to assign link(CONCEPT_COUNCILOR,2). They perform essential Missions for your link(CONCEPT_NATION), and they raise their link(CONCEPT_FAMILY)'s link(CONCEPT_OPINION_FAMILY,3) of you."
       },
       {
         "zType": "TEXT_HINT_100",
@@ -425,6 +425,18 @@
       {
         "zType": "TEXT_HINT_104",
         "en-US": "With a link(UNIT_WORKER) selected, hold down [SHIFT] to queue up multiple moves and link(CONCEPT_IMPROVEMENT,2)."
+      },
+      {
+        "zType": "TEXT_HINT_105",
+        "en-US": "Units inside their own link(CONCEPT_FAMILY)'s territory receive a favorable modifier to their combat strength."
+      },
+      {
+        "zType": "TEXT_HINT_106",
+        "en-US": "With a unit selected, hover the mouse cursor over enemy Units to preview combat damage. Hold [ALT] to preview even for non-enemy Units."
+      },
+      {
+        "zType": "TEXT_HINT_107",
+        "en-US": "To predict the number of orders needed for a Unit to go from one tile to another by way of a third tile, select the Unit and [CTRL+Click] on the third tile."
       }
     ]
   }

@@ -32,6 +32,12 @@
         "zType": "MAP_OPTIONS_SINGLE_KING_OF_THE_HILL",
         "Name": "TEXT_MAP_OPTION_KING_OF_THE_HILL",
         "Description": "TEXT_MAP_OPTIONS_SINGLE_KING_OF_THE_HILL_HELP"
+      },
+      {
+        "zType": "MAP_OPTIONS_SINGLE_GOOD_PLAYER_START_RESOURCES",
+        "Name": "TEXT_MAP_OPTION_GOOD_PLAYER_START_RESOURCES",
+        "Description": "TEXT_MAP_OPTIONS_SINGLE_GOOD_PLAYER_START_RESOURCES_HELP",
+        "bSinglePlayerValid": "0"
       }
     ]
   }
