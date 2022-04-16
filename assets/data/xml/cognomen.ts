@@ -70,7 +70,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -99,7 +99,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -128,7 +128,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -157,7 +157,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -186,7 +186,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -215,7 +215,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -244,7 +244,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             }
           ]
         }
@@ -481,13 +481,13 @@
             "Second": "TEXT_COGNOMEN_RESTORER_F"
           }
         },
-        "iLegitimacy": "30",
-        "iMinValue": "3000",
+        "iLegitimacy": "40",
+        "iMinValue": "4000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_RESTORER",
         "aiStatValue": {
           "Pair": {
             "zIndex": "STAT_CITY_RECAPTURED",
-            "iValue": "1500"
+            "iValue": "2000"
           }
         }
       },
@@ -500,13 +500,13 @@
             "Second": "TEXT_COGNOMEN_LIBERATOR_F"
           }
         },
-        "iLegitimacy": "50",
-        "iMinValue": "5000",
+        "iLegitimacy": "60",
+        "iMinValue": "6000",
         "Achievement": "ACHIEVEMENT_COGNOMEN_LIBERATOR",
         "aiStatValue": {
           "Pair": {
             "zIndex": "STAT_CITY_RECAPTURED",
-            "iValue": "1500"
+            "iValue": "2000"
           }
         }
       },
@@ -1053,7 +1053,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1125,7 +1125,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1206,7 +1206,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1278,7 +1278,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1359,7 +1359,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1431,7 +1431,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1512,7 +1512,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1584,7 +1584,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1665,7 +1665,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1737,7 +1737,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1818,7 +1818,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -1890,7 +1890,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -1971,7 +1971,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2043,7 +2043,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -2124,7 +2124,7 @@
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "1500"
+              "iValue": "2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2196,7 +2196,7 @@
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_WONDER_FINISHED",
@@ -2219,16 +2219,16 @@
           }
         },
         "iLegitimacy": "-20",
-        "iMinValue": "1000",
+        "iMinValue": "2000",
         "aiStatValue": {
           "Pair": [
             {
               "zIndex": "STAT_CITY_CAPTURED",
-              "iValue": "-1000"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "-750"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2236,15 +2236,15 @@
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "100"
+              "iValue": "200"
             }
           ]
         }
@@ -2259,16 +2259,16 @@
           }
         },
         "iLegitimacy": "-40",
-        "iMinValue": "2000",
+        "iMinValue": "4000",
         "aiStatValue": {
           "Pair": [
             {
               "zIndex": "STAT_CITY_CAPTURED",
-              "iValue": "-1000"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "-750"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2276,15 +2276,15 @@
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "100"
+              "iValue": "200"
             }
           ]
         }
@@ -2299,16 +2299,16 @@
           }
         },
         "iLegitimacy": "-60",
-        "iMinValue": "3000",
+        "iMinValue": "6000",
         "aiStatValue": {
           "Pair": [
             {
               "zIndex": "STAT_CITY_CAPTURED",
-              "iValue": "-1000"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "-750"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2316,15 +2316,15 @@
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "100"
+              "iValue": "200"
             }
           ]
         }
@@ -2339,16 +2339,16 @@
           }
         },
         "iLegitimacy": "-80",
-        "iMinValue": "4000",
+        "iMinValue": "8000",
         "aiStatValue": {
           "Pair": [
             {
               "zIndex": "STAT_CITY_CAPTURED",
-              "iValue": "-1000"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "-750"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2356,15 +2356,15 @@
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "100"
+              "iValue": "200"
             }
           ]
         }
@@ -2379,16 +2379,16 @@
           }
         },
         "iLegitimacy": "-100",
-        "iMinValue": "5000",
+        "iMinValue": "10000",
         "aiStatValue": {
           "Pair": [
             {
               "zIndex": "STAT_CITY_CAPTURED",
-              "iValue": "-1000"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_RECAPTURED",
-              "iValue": "-750"
+              "iValue": "-2000"
             },
             {
               "zIndex": "STAT_CITY_LOST",
@@ -2396,15 +2396,15 @@
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_MILITARY_KILLED_GENERAL",
-              "iValue": "-100"
+              "iValue": "-200"
             },
             {
               "zIndex": "STAT_UNIT_LOST",
-              "iValue": "100"
+              "iValue": "200"
             }
           ]
         }

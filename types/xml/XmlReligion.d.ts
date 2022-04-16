@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GenderedNames: GenderedNames;
   zIconName: ZType | string;
   HeadTitle?: ZType;
   iCostBase: ZType | string;
@@ -32,14 +33,21 @@ export interface Entry {
   aiRequiresReligion?: AiRequiresReligion;
 }
 export interface AiRequiresReligion {
-  Pair?: Pair[] | Pair;
+  Pair?: Pair2[] | Pair2;
 }
 export interface AiRequiresSpecialist {
+  Pair?: Pair2;
+}
+export interface Pair2 {
+  zIndex: string;
+  iValue: string;
+}
+export interface GenderedNames {
   Pair?: Pair;
 }
 export interface Pair {
-  zIndex: string;
-  iValue: string;
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

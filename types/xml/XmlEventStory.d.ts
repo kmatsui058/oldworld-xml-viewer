@@ -45,7 +45,7 @@ export interface Entry {
   LawPrereq?: ZType | Name2 | string;
   CouncilInvalid?: ZType | Name2 | string;
   MinOpponentLevel?: ZType | Name2 | string;
-  MaxOpponentLevel?: ZFrameType;
+  MaxOpponentLevel?: ZType | Name2 | string;
   MinTribeLevel?: ZFrameType;
   MaxTribeLevel?: ZFrameType;
   MinDifficulty?: ZType | Name2 | string;
@@ -59,6 +59,8 @@ export interface Entry {
   iRepeatTurns: ZType | Name2 | string;
   bHidePrereqs?: ZType | Name2 | string;
   bNoCharacters?: ZType | Name2 | string;
+  bSinglePlayer?: Name2;
+  bMultiplayer?: Name2;
   bAllOptions?: ZType | Name2 | string;
   bIgnoreOptions?: ZType | Name2 | string;
   bAlwaysTriggers?: ZType | Name2 | string;
@@ -69,9 +71,14 @@ export interface Entry {
   aiRatingWeight?: AiRatingWeight;
   aiMortalitySkipProb?: AiRatingWeight;
   aeLawInvalid?: AeSubjects;
+  aeGameOptionInvalid?: AeGameOptionInvalid;
   aeEventStoryRepeatTurns?: AeSubjects;
   beginGroup?: string;
   comment?: string;
+}
+export interface AeGameOptionInvalid {
+  comment?: string;
+  zValue?: string;
 }
 export interface AiRatingWeight {
   comment?: string;

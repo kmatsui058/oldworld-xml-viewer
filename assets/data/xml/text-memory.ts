@@ -48,7 +48,7 @@
       },
       {
         "zType": "TEXT_MEMORYTRIBE_PLAYER_TRIBE_WAR",
-        "en-US": "Convinced a Nation to declare on us"
+        "en-US": "Convinced a Nation to declare war on us"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_ATTACKED_UNIT",
@@ -68,19 +68,19 @@
       },
       {
         "zType": "TEXT_MEMORYTRIBE_EXECUTION",
-        "en-US": "They executed our prisoners."
+        "en-US": "They executed our prisoners"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_DESECRATION",
-        "en-US": "Our tombs were desecrated."
+        "en-US": "Our tombs were desecrated"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_RESPECT",
-        "en-US": "Our tombs were spared."
+        "en-US": "Our tombs were spared"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_DENIED_SPOILS",
-        "en-US": "Denied our rival's spoils."
+        "en-US": "Denied our rival's spoils"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_SALTED_FIELDS",
@@ -208,7 +208,7 @@
       },
       {
         "zType": "TEXT_MEMORYTRIBE_RUINS_RESTORED_CITY",
-        "en-US": "Restores our ancient capital"
+        "en-US": "Restored our ancient capital"
       },
       {
         "zType": "TEXT_MEMORY_IGNORED_PROPOSAL",
@@ -221,10 +221,6 @@
       {
         "zType": "TEXT_MEMORYTRIBE_MARRIAGE_OFFER_NO",
         "en-US": "Rejected marriage proposal"
-      },
-      {
-        "zType": "TEXT_MEMORYTRIBE_SMUGGLED_SPIES",
-        "en-US": "Smuggled our spies"
       },
       {
         "zType": "TEXT_MEMORYTRIBE_ASSISTED_IN_MONSOON",
@@ -392,7 +388,7 @@
       },
       {
         "zType": "TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_NEG",
-        "en-US": "Refused Help Citizens"
+        "en-US": "Refused to Help Citizens"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_SECOND_CLASS_CITIZENS_POS",
@@ -444,11 +440,11 @@
       },
       {
         "zType": "TEXT_MEMORYPLAYER_TRIBE_PLAYER_WAR",
-        "en-US": "Convinced a Tribe to declare on us"
+        "en-US": "Convinced a Tribe to declare war on us"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_PLAYER_PLAYER_WAR",
-        "en-US": "Convinced a Nation to declare on us"
+        "en-US": "Convinced a Nation to declare war on us"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_PEACEMAKER_BAD",
@@ -532,7 +528,7 @@
       },
       {
         "zType": "TEXT_MEMORYPLAYER_ENDED_FRIENDSHIP",
-        "en-US": "You choose another empire over us."
+        "en-US": "You choose another empire over us"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_HONORED_RULER",
@@ -592,7 +588,7 @@
       },
       {
         "zType": "TEXT_MEMORYPLAYER_KEPT_FRIENDSHIP",
-        "en-US": "You choose us over another empire."
+        "en-US": "You choose us over another empire"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_REFUSED_TO_PAY_TRIBUTE",
@@ -685,6 +681,10 @@
       {
         "zType": "TEXT_MEMORY_ACCEPTED_MARRIAGE",
         "en-US": "Accepted our offered suitor"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_RECOGNIZED_CLAIM",
+        "en-US": "Did not contradict expeditions claims of ownership"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_DENOUNCED_US",
@@ -825,6 +825,14 @@
       {
         "zType": "TEXT_MEMORYPLAYER_DISCOURTEOUS_RULER",
         "en-US": "Treated discourteously in court"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_RETURNED_WAYWARD_SON",
+        "en-US": "Returned wayward son"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_WARRIOR_OF_NATION_KILL",
+        "en-US": "Killed wounded noble"
       },
       {
         "zType": "TEXT_MEMORYPLAYER_EXECUTED_OUR_AGENT",
@@ -1029,6 +1037,10 @@
       {
         "zType": "TEXT_MEMORYCHARACTER_SPOUSE_TOO_EXPENSIVE",
         "en-US": "Didn't help my education"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_SPOUSE_TOO_HELPFUL",
+        "en-US": "Didn't appreciate my help"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_DENIED_PEACE_DEAL",
@@ -1396,7 +1408,7 @@
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_PLAYER_WAR_OFFER_WAR_DECLARED_BECAUSE_NO_TRIBUTE",
-        "en-US": "We declared War over your refusal to pay Tribute."
+        "en-US": "We declared War over your refusal to pay Tribute"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_CANCEL_TRADE_DEMAND_YES",
@@ -1412,7 +1424,7 @@
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_LET_KEEP_LOOT",
-        "en-US": "Let me keet the loot"
+        "en-US": "Let me keep the loot"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_ADOPTED_MYSTERIOUS_CHILD",
@@ -1643,8 +1655,8 @@
         "en-US": "Watching me closely"
       },
       {
-        "zType": "TEXT_MEMORYCHARACTER_GIVEN_BAD_JOB",
-        "en-US": "Told to watch dangerous student"
+        "zType": "TEXT_MEMORYCHARACTER_AGREED_TO_KEEP_EYE",
+        "en-US": "Agreed to keep an eye on a dangerous student"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_CONVINCE_TO_CHANGE",
@@ -1677,6 +1689,10 @@
       {
         "zType": "TEXT_MEMORYCHARACTER_CARES_ABOUT_INTERESTS",
         "en-US": "My spouse cares about my interests"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_NO_REST",
+        "en-US": "Gave me no rest after a long expedition"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_TOOK_MY_AMBITION",
@@ -1816,7 +1832,7 @@
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_ACCEPTED_PRAISE",
-        "en-US": "Denounced my findings"
+        "en-US": "Accepted praise"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_IGNORED_OBJECTION",
@@ -1859,6 +1875,10 @@
         "en-US": "Trusted me"
       },
       {
+        "zType": "TEXT_MEMORYFAMILY_SHOWED_FAVOR",
+        "en-US": "Showed us favor"
+      },
+      {
         "zType": "TEXT_MEMORYFAMILY_OUR_AMBITION",
         "en-US": "Completed our link(CONCEPT_AMBITION)"
       },
@@ -1892,7 +1912,7 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_REFUSED_US_LUXURY",
-        "en-US": "Refused to give us a Luxury"
+        "en-US": "Refused to give us a link(CONCEPT_LUXURY)"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_PURSUED_AMBITION",
@@ -1988,11 +2008,11 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_WAR_COUNCIL_POS",
-        "en-US": "Accepted our offer to provide a retinue at court."
+        "en-US": "Accepted our offer to provide a retinue at court"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_WAR_COUNCIL_NEG",
-        "en-US": "Declined our offer to provide a retinue at court."
+        "en-US": "Declined our offer to provide a retinue at court"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_POS",
@@ -2000,7 +2020,7 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_PILLAGED_COMPENSATION_NEG",
-        "en-US": "Declined to offer compensation for pillaged improvements."
+        "en-US": "Declined to offer compensation for pillaged improvements"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_MONKEY_THIEF_KEPT",
@@ -2041,10 +2061,6 @@
       {
         "zType": "TEXT_MEMORYFAMILY_GENERAL_TRIUMPH",
         "en-US": "Triumph for our General"
-      },
-      {
-        "zType": "TEXT_MEMORYFAMILY_OVERCROWDED_CITY",
-        "en-US": "Overcrowded our cities with children"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_HIGH_PRIESTS",
@@ -2563,6 +2579,14 @@
         "en-US": "Attended tribal feast alone"
       },
       {
+        "zType": "TEXT_MEMORYFAMILY_INVITED_TO_FEAST",
+        "en-US": "Invited to tribal feast"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_NOT_INVITED_TO_FEAST",
+        "en-US": "Not invited to tribal feast"
+      },
+      {
         "zType": "TEXT_MEMORYFAMILY_IGNORED_FESTIVAL_REQUEST",
         "en-US": "Ignored request for a festival"
       },
@@ -2796,7 +2820,7 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_COMPROMISED",
-        "en-US": "Comprised with other family on key issue"
+        "en-US": "Compromised with other family on key issue"
       },
       {
         "zType": "TEXT_MEMORY_DEFIED_ACCUSATION",
@@ -2884,7 +2908,7 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_SEIZED_ESTATES_INFLATION",
-        "en-US": "Seized family estates to cover debasement induced inflation."
+        "en-US": "Seized family estates to cover debasement induced inflation"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_WATCHED_BABY_LEADER_CRY",
@@ -2972,7 +2996,7 @@
       },
       {
         "zType": "TEXT_MEMORYFAMILY_HONORED_GENERAL",
-        "en-US": "Honored our Geneal"
+        "en-US": "Honored our General"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_GAVE_DELICIOUS_WINE",
@@ -3047,7 +3071,7 @@
         "en-US": "Sorted out a family dispute in a diplomatic way"
       },
       {
-        "zType": "TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
+        "zType": "TEXT_MEMORYFAMILY_DENOUNCED_FAITH",
         "en-US": "Undermined religious standing"
       },
       {
@@ -3172,11 +3196,11 @@
       },
       {
         "zType": "TEXT_MEMORYRELIGION_REFUSED_OFFERINGS",
-        "en-US": "Refuse to make offerings"
+        "en-US": "Refused to make offerings"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_RELEASED_PRIESTS",
-        "en-US": "Release zealous priests"
+        "en-US": "Released zealous priests"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_FAMILY_WAR_YES",
@@ -3284,7 +3308,7 @@
       },
       {
         "zType": "TEXT_MEMORYRELIGION_REFUSED_HOLY_WAR",
-        "en-US": "Refused to join holy war."
+        "en-US": "Refused to join holy war"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_PROTECTED_PRACTITIONERS",
@@ -3379,6 +3403,10 @@
         "en-US": "Refused to support new treasury"
       },
       {
+        "zType": "TEXT_MEMORYRELIGION_PROTECTED_STREETS",
+        "en-US": "Protected our streets"
+      },
+      {
         "zType": "TEXT_MEMORYRELIGION_PLACED_SECURITY",
         "en-US": "Saw us as instigators"
       },
@@ -3424,7 +3452,7 @@
       },
       {
         "zType": "TEXT_MEMORYRELIGION_SHOWED_DEVOTION",
-        "en-US": "Show devotion to the faith"
+        "en-US": "Showed devotion to the faith"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_PARTICIPATED_IN_OPPOSING_RITUAL",
@@ -3488,7 +3516,7 @@
       },
       {
         "zType": "TEXT_MEMORYRELIGION_PRAISED_AHURA_MAZDA",
-        "en-US": "Payed devotion to Ahura Mazda"
+        "en-US": "Paid devotion to Ahura Mazda"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_SACRED_FIRE",
@@ -3567,10 +3595,6 @@
         "en-US": "Punished Priest's initiative"
       },
       {
-        "zType": "TEXT_MEMORYRELIGION_TREATED_EQUALLY_WITH_HEAD",
-        "en-US": "Treated equally with our religion head"
-      },
-      {
         "zType": "TEXT_MEMORYRELIGION_CRUMBLING_ZIGGURAT",
         "en-US": "Failed to restore The Great Ziggurat"
       },
@@ -3588,7 +3612,7 @@
       },
       {
         "zType": "TEXT_MEMORYRELIGION_DISCRACED_BY_RELIGION_HEAD",
-        "en-US": "Discraced by our Religion Head"
+        "en-US": "Disgraced by our Religion Head"
       },
       {
         "zType": "TEXT_MEMORYRELIGION_CENSORED_HEAD_YES",
@@ -3645,6 +3669,26 @@
       {
         "zType": "TEXT_MEMORYPLAYER_SCHISM_AGAINST",
         "en-US": "Sided against us in religious schism"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYE_AGENT_TOOLS_RETURNED",
+        "en-US": "Humiliated our agents"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_NOT_A_THREAT",
+        "en-US": "Didn't treat me as a threat"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_SAW_AS_THREAT",
+        "en-US": "Treated me as a threat"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_REBEL_WRITER_ON_TRIAL",
+        "en-US": "Gave the rebel writer a trial"
+      },
+      {
+        "zType": "TEXT_MEMORYRELIGION_MEMORYRELIGION_AMARNA_REFORMER",
+        "en-US": "Amarna Reformer"
       },
       {
         "beginGroup": "Tribe",
@@ -3760,6 +3804,62 @@
         "en-US": "Helped us improve the lives of our People"
       },
       {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_REFUSAL",
+        "en-US": "Refused to help us against our enemies"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_ALL_IN",
+        "en-US": "Joined our war against a common enemy"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_ENEMY_OF_MY_ENEMY_AID",
+        "en-US": "Joined our war against a common enemy"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_STATUE",
+        "en-US": "Immortalized our leader in stone"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_AN_ACT_OF_BRAVERY_HEARTFELT_THANKS",
+        "en-US": "Acknowledged our leader's bravery"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_CRUEL_SUMMER_COMMON_INTERESTS",
+        "en-US": "Our friendship is built on common interests"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_A_TOUCH_OF_THE_EXOTIC_RECIPROCATION",
+        "en-US": "Exchanged gifts with us"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_WILD_HORSES_TRIBE",
+        "en-US": "Funded our initiative"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_MONUMENT_OF_HOPE_TRIBE_CREDIT",
+        "en-US": "Credited us for inspiring the Beacon"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_THROUGH_THICK_AND_THIN_TRIBE",
+        "en-US": "Friends through thick and thin"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_ROOM_FOR_ONE_MORE_TRIBAL_SPOUSE",
+        "en-US": "Married into the Tribe"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_THEYLL_NEVER_SEE_IT_COMING_TRIBE",
+        "en-US": "Won us over with your natural charm"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_BONUS_IRON_GIANT_KUDOS",
+        "en-US": "Acknowledged an act of kindness and generosity"
+      },
+      {
+        "zType": "TEXT_MEMORYRELIGION_MEMORYRELIGION_ALLOWED_RAIDS",
+        "en-US": "Allowed raids against our temples"
+      },
+      {
         "beginGroup": "Family",
         "zType": "TEXT_MEMORYFAMILY_CHOSEN_HEIR_NO",
         "en-US": "Refused to make one of us the Heir"
@@ -3775,6 +3875,14 @@
       {
         "zType": "TEXT_MEMORYFAMILY_CEREMONIAL_OFFERING_REQUISITION",
         "en-US": "Requisitioned supplies for ceremonies"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_PROMISED_SERFDOM",
+        "en-US": "Promised to put peasants in thier place"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_SUPPORTED_PEASANTS",
+        "en-US": "Supported peasant hunters over nobles"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_FAMILY_GAMES",
@@ -3901,12 +4009,72 @@
         "en-US": "Punished us for sabotage"
       },
       {
+        "zType": "TEXT_MEMORYFAMILY_FAVORED_SPOUSE",
+        "en-US": "Favors a spouse from our Family"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_FAVORED_SPOUSE_COPY",
+        "en-US": "Favors a spouse from our Family"
+      },
+      {
         "zType": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_FAVORED_SPOUSE",
         "en-US": "Favored spouse"
       },
       {
         "zType": "TEXT_MEMORYCHARACTER_MEMORYCHARACTER_DISFAVORED_SPOUSE",
         "en-US": "Spurned spouse"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_DISFAVORED_SPOUSE",
+        "en-US": "Disfavors spouse from our Family"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_MEMORYTRIBE_DISFAVORS_SPOUSE",
+        "en-US": "Disfavors spouse from our Tribe"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_DISFAVORED_SPOUSE",
+        "en-US": "Disfavors spouse from our Empire"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MERCY_FOR_THE_WEAK_REFUSED_TRUCE",
+        "en-US": "Refused to heed the wisdom of your vassals"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_OF_THE_FAITH_HAPPY_RELIGIOUS_LEADER",
+        "en-US": "Heeded our advice"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_DISSATISFIED_LEADER",
+        "en-US": "Refused to heed our advice"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_TRUCE",
+        "en-US": "Kept our wise counsel"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE",
+        "en-US": "Refused our counsel"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_YES",
+        "en-US": "Agreed to seek out Luxury Resources"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_NO",
+        "en-US": "Refused to seek out Luxury Resources"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY",
+        "en-US": "Shared personal supply of Luxury Resources"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_YES",
+        "en-US": "Agreed to pursue a common enemy"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_A_VOICE_BREAKS_THROUGH_NO",
+        "en-US": "Refused to pursue a common enemy"
       },
       {
         "beginGroup": "Royalty",
@@ -3959,6 +4127,10 @@
         "en-US": "Wished to treat with our ambassadors"
       },
       {
+        "zType": "TEXT_MEMORYPLAYER_RETURN_HOSTAGE",
+        "en-US": "Returned a hostage to us"
+      },
+      {
         "beginGroup": "Leader",
         "zType": "TEXT_MEMORYFAMILY_DELICIOUS_DRINKS_FRIEND",
         "en-US": "Insulted at feast"
@@ -3966,10 +4138,6 @@
       {
         "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_1",
         "en-US": "Allowed us to try to deal with slave revolt"
-      },
-      {
-        "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4",
-        "en-US": "Freed the slaves who killed our family head"
       },
       {
         "zType": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
@@ -4020,9 +4188,89 @@
         "en-US": "Did not give our family an honoric title"
       },
       {
-        "beginGroup": "Player",
         "zType": "TEXT_MEMORYPLAYER_FUNDED_RESEARCH",
         "en-US": "Funded research"
+      },
+      {
+        "beginGroup": "Character",
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_NAMED_MURDERER",
+        "en-US": "Accused of murder"
+      },
+      {
+        "beginGroup": "Ambition",
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_AMBITION",
+        "en-US": "Refused our ambition"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_TRIBE_ALLIANCE",
+        "en-US": "Continued tribe friendship"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_MEORYCHARCTER_IGNORED_REQUEST",
+        "en-US": "Ignored my request"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BORDER_DISPUTES",
+        "en-US": "Border disputes"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_STOLE_TRIBE",
+        "en-US": "Interfered with our diplomacy"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_STAYED_OUT_OF_WAY",
+        "en-US": "Stayed out of our way in diplomacy"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_RAISED_MILITIA",
+        "en-US": "Raised a militia against us"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_SHOWING_OFF",
+        "en-US": "Threatened our cities"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BACKED_DOWN",
+        "en-US": "Backed down from our threat"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_WAR_WITH_RIVAL",
+        "en-US": "At war with our rivals"
+      },
+      {
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_AVOIDED_WAR",
+        "en-US": "Avoided war"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BITTER_RIVALS",
+        "en-US": "Bitter rivals"
+      },
+      {
+        "zType": "TEXT_MEMORYTRIBE_MARRIED_LEADER",
+        "en-US": "Married our leader"
+      },
+      {
+        "zType": "TEXT_MEMORYCHARACTER_RAISED_PIG",
+        "en-US": "Raised a pig together"
+      },
+      {
+        "beginGroup": "Exploration",
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_SUPPORTED_CHAMPION",
+        "en-US": "Supported our champion"
+      },
+      {
+        "zType": "TEXT_MEMORYPLAYER_RETURNED_HUNTRESS",
+        "en-US": "Returned injured huntress from royal family"
+      },
+      {
+        "beginGroup": "City",
+        "zType": "TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR",
+        "en-US": "Refused to appoint a governor of our family"
+      },
+      {
+        "beginGroup": "Religion",
+        "zType": "TEXT_MEMORYRELIGION_MEMORYRELIGION_SUPPORTED_THE_OLD_GODS",
+        "en-US": "Supported the old gods"
       }
     ]
   }

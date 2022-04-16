@@ -15,12 +15,21 @@
         "en-US": "Settler~a Settler~Settlers"
       },
       {
+        "zType": "TEXT_UNIT_SETTLER_F"
+      },
+      {
         "zType": "TEXT_UNIT_WORKER",
         "en-US": "Worker~a Worker~Workers"
       },
       {
+        "zType": "TEXT_UNIT_WORKER_F"
+      },
+      {
         "zType": "TEXT_UNIT_SCOUT",
         "en-US": "Scout~a Scout~Scouts"
+      },
+      {
+        "zType": "TEXT_UNIT_SCOUT_F"
       },
       {
         "zType": "TEXT_UNIT_CARAVAN",
@@ -31,6 +40,9 @@
         "en-US": "{UNIT-RELIGION,1} Disciple~{UNIT-RELIGION,2} Disciple~{UNIT-RELIGION,1} Disciples"
       },
       {
+        "zType": "TEXT_UNIT_RELIGION_DISCIPLE_F"
+      },
+      {
         "zType": "TEXT_UNIT_MILITIA",
         "en-US": "Militia~a Militia~Militias"
       },
@@ -39,44 +51,77 @@
         "en-US": "Conscript~a Conscript~Conscripts"
       },
       {
+        "zType": "TEXT_UNIT_CONSCRIPT_F"
+      },
+      {
         "zType": "TEXT_UNIT_WARRIOR",
         "en-US": "Warrior~a Warrior~Warriors"
+      },
+      {
+        "zType": "TEXT_UNIT_WARRIOR_F"
       },
       {
         "zType": "TEXT_UNIT_AXEMAN",
         "en-US": "Axeman~an Axeman~Axemen"
       },
       {
+        "zType": "TEXT_UNIT_AXEMAN_F"
+      },
+      {
         "zType": "TEXT_UNIT_SPEARMAN",
         "en-US": "Spearman~a Spearman~Spearmen"
+      },
+      {
+        "zType": "TEXT_UNIT_SPEARMAN_F"
       },
       {
         "zType": "TEXT_UNIT_MACEMAN",
         "en-US": "Maceman~a Maceman~Macemen"
       },
       {
+        "zType": "TEXT_UNIT_MACEMAN_F"
+      },
+      {
         "zType": "TEXT_UNIT_SWORDSMAN",
         "en-US": "Swordsman~a Swordsman~Swordsmen"
+      },
+      {
+        "zType": "TEXT_UNIT_SWORDSMAN_F"
       },
       {
         "zType": "TEXT_UNIT_PIKEMAN",
         "en-US": "Pikeman~a Pikeman~Pikemen"
       },
       {
+        "zType": "TEXT_UNIT_PIKEMAN_F"
+      },
+      {
         "zType": "TEXT_UNIT_SLINGER",
         "en-US": "Slinger~a Slinger~Slingers"
+      },
+      {
+        "zType": "TEXT_UNIT_SLINGER_F"
       },
       {
         "zType": "TEXT_UNIT_ARCHER",
         "en-US": "Archer~an Archer~Archers"
       },
       {
+        "zType": "TEXT_UNIT_ARCHER_F"
+      },
+      {
         "zType": "TEXT_UNIT_LONGBOWMAN",
         "en-US": "Longbowman~a Longbowman~Longbowmen"
       },
       {
+        "zType": "TEXT_UNIT_LONGBOWMAN_F"
+      },
+      {
         "zType": "TEXT_UNIT_CROSSBOWMAN",
         "en-US": "Crossbowman~a Crossbowman~Crossbowmen"
+      },
+      {
+        "zType": "TEXT_UNIT_CROSSBOWMAN_F"
       },
       {
         "zType": "TEXT_UNIT_CHARIOT",
@@ -87,6 +132,9 @@
         "en-US": "Horseman~a Horseman~Horsemen"
       },
       {
+        "zType": "TEXT_UNIT_HORSEMAN_F"
+      },
+      {
         "zType": "TEXT_UNIT_CATAPHRACT",
         "en-US": "Cataphract~a Cataphract~Cataphracts"
       },
@@ -95,8 +143,14 @@
         "en-US": "Horse Archer~a Horse Archer~Horse Archers"
       },
       {
+        "zType": "TEXT_UNIT_HORSE_ARCHER_F"
+      },
+      {
         "zType": "TEXT_UNIT_CAMEL_ARCHER",
         "en-US": "Camel Archer~a Camel Archer~Camel Archers"
+      },
+      {
+        "zType": "TEXT_UNIT_CAMEL_ARCHER_F"
       },
       {
         "zType": "TEXT_UNIT_WAR_ELEPHANT",

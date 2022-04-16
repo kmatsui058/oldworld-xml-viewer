@@ -1056,7 +1056,7 @@
       },
       {
         "zType": "TEXT_NAME_NEOPTLEMUS",
-        "en-US": "Neoptlemus"
+        "en-US": "Neoptolemus"
       },
       {
         "zType": "TEXT_NAME_NICIAS",
@@ -1788,7 +1788,7 @@
       },
       {
         "zType": "TEXT_NAME_DIVITIACOS",
-        "en-US": "Divitiacos"
+        "en-US": "Divitiacus"
       },
       {
         "zType": "TEXT_NAME_DUMNORIX",
@@ -2280,7 +2280,7 @@
       },
       {
         "zType": "TEXT_NAME_RHAISCUS",
-        "en-US": "Rhaiscus"
+        "en-US": "Rhascus"
       },
       {
         "zType": "TEXT_NAME_RHESCUPORIS",

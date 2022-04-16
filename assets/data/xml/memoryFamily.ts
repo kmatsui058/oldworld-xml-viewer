@@ -23,6 +23,11 @@
         }
       },
       {
+        "zType": "MEMORYFAMILY_SHOWED_FAVOR",
+        "Text": "TEXT_MEMORYFAMILY_SHOWED_FAVOR",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "zType": "MEMORYFAMILY_OUR_AMBITION",
         "Text": "TEXT_MEMORYFAMILY_OUR_AMBITION",
         "MemoryLevel": "MEMORYLEVEL_POS_HIGH_NORMAL"
@@ -115,7 +120,7 @@
       {
         "zType": "MEMORYFAMILY_MEMBER_IMPRISONED",
         "Text": "TEXT_MEMORYFAMILY_MEMBER_IMPRISONED",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_REFUSED_LAW",
@@ -251,11 +256,6 @@
         "zType": "MEMORYFAMILY_GENERAL_TRIUMPH",
         "Text": "TEXT_MEMORYFAMILY_GENERAL_TRIUMPH",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
-      },
-      {
-        "zType": "MEMORYFAMILY_OVERCROWDED_CITY",
-        "Text": "TEXT_MEMORYFAMILY_OVERCROWDED_CITY",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_HIGH_PRIESTS",
@@ -816,6 +816,11 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
+        "zType": "MEMORYFAMILY_NAMED_MURDERER",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_NAMED_MURDERER",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
         "beginGroup": "Contact",
         "zType": "MEMORYFAMILY_FORCED_TO_KISS_FEET",
         "Text": "TEXT_MEMORYFAMILY_FORCED_TO_KISS_FEET",
@@ -908,10 +913,14 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
-        "zType": "MEMORYFAMILY_INVITED_TO_FEAST"
+        "zType": "MEMORYFAMILY_INVITED_TO_FEAST",
+        "Text": "TEXT_MEMORYFAMILY_INVITED_TO_FEAST",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
-        "zType": "MEMORYFAMILY_NOT_INVITED_TO_FEAST"
+        "zType": "MEMORYFAMILY_NOT_INVITED_TO_FEAST",
+        "Text": "TEXT_MEMORYFAMILY_NOT_INVITED_TO_FEAST",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "zType": "MEMORYFAMILY_ATTENDED_FEAST_ALONE",
@@ -1099,6 +1108,46 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
+        "zType": "MEMORYFAMILY_FAVORED_SPOUSE",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_FAVORED_SPOUSE_COPY",
+        "Text": "TEXT_MEMORYFAMILY_FAVORED_SPOUSE_COPY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_DISFAVORED_SPOUSE",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_DISFAVORED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_TRUCE",
+        "Text": "TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_TRUCE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE",
+        "Text": "TEXT_MEMORYFAMILY_A_DISPLAY_OF_BENEVOLENCE_NO_TRUCE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_LUXURY_SEEKERS_YES",
+        "Text": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_YES",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_LUXURY_SEEKERS_NO",
+        "Text": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_NO",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY",
+        "Text": "TEXT_MEMORYFAMILY_LUXURY_SEEKERS_PERSONAL_SUPPLY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "beginGroup": "City",
         "zType": "MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY",
         "Text": "TEXT_MEMORYFAMILY_SENT_DOCTORS_TO_PLAGUED_CITY",
@@ -1138,6 +1187,11 @@
         "zType": "MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION",
         "Text": "TEXT_MEMORYFAMILY_HEIR_EXPERTISE_ELDER_RECOGNITION",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_FAMILY_GOVERNOR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_LONG"
       },
       {
         "beginGroup": "Miscellaneous",
@@ -1487,6 +1541,11 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
+        "zType": "MEMORYFAMILY_SUPPORTED_CHAMPION",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_SUPPORTED_CHAMPION",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "beginGroup": "Law",
         "zType": "MEMORYFAMILY_IMPRISONED_MEMBER",
         "Text": "TEXT_MEMORYFAMILY_IMPRISONED_MEMBER",
@@ -1704,11 +1763,6 @@
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
       },
       {
-        "zType": "MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
-        "Text": "TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
-      },
-      {
         "zType": "MEMORYFAMILY_IMPRESSED_BY_CHEF",
         "Text": "TEXT_MEMORYFAMILY_IMPRESSED_BY_CHEF",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
@@ -1756,7 +1810,7 @@
       {
         "zType": "MEMORYFAMILY_DUEL_PARDON",
         "Text": "TEXT_MEMORYFAMILY_DUEL_PARDON",
-        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       },
       {
         "zType": "MEMORYFAMILY_FAMILY_GENERAL_TRAGEDY_SUPPORTED",
@@ -1815,7 +1869,7 @@
       },
       {
         "zType": "MEMORYFAMILY_DENOUNCED_FAITH",
-        "Text": "TEXT_MEMORYFAMILY_UNDERMINED_RELIGIOUS_POSITION",
+        "Text": "TEXT_MEMORYFAMILY_DENOUNCED_FAITH",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
       },
       {
@@ -1833,6 +1887,11 @@
         "zType": "MEMORYFAMILY_RAID_DEFAULT_POS",
         "Text": "TEXT_MEMORYFAMILY_RAID_DEFAULT_POS",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_MERCY_FOR_THE_WEAK_REFUSED_TRUCE",
+        "Text": "TEXT_MEMORYFAMILY_MERCY_FOR_THE_WEAK_REFUSED_TRUCE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
       },
       {
         "beginGroup": "Royalty",
@@ -1867,11 +1926,6 @@
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
-        "zType": "MEMORYFAMILY_SLAVE_REVOLT_4",
-        "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4",
-        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
-      },
-      {
         "zType": "MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
         "Text": "TEXT_MEMORYFAMILY_SLAVE_REVOLT_4_FORGIVENESS",
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
@@ -1900,6 +1954,37 @@
         "zType": "BONUS_PERMITTED_PURPLE",
         "Text": "TEXT_MEMORYFAMILY_BONUS_PERMITTED_PURPLE",
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "beginGroup": "Ambition",
+        "zType": "MEMORYFAMILY_REFUSED_AMBITION",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_REFUSED_AMBITION",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_TRIBE_ALLIANCE",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_TRIBE_ALLIANCE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_LONG"
+      },
+      {
+        "zType": "MEMORYFAMILY_WAR_WITH_RIVAL",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_WAR_WITH_RIVAL",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_AVOIDED_WAR",
+        "Text": "TEXT_MEMORYFAMILY_MEMORYFAMILY_AVOIDED_WAR",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_PROMISED_SERFDOM",
+        "Text": "TEXT_MEMORYFAMILY_PROMISED_SERFDOM",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYFAMILY_SUPPORTED_PEASANTS",
+        "Text": "TEXT_MEMORYFAMILY_SUPPORTED_PEASANTS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_LOW_NORMAL"
       }
     ]
   }

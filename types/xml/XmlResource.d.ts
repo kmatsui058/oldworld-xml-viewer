@@ -9,25 +9,26 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  AssetVariation: ZType | string;
+  AssetVariation?: ZType | string;
   zIconName: ZType | string;
   zAudioSwitchName?: ZType | string;
-  iProbThousand: ZType | string;
+  iProbThousand?: ZType | string;
   iMinDist?: ZType | string;
   iMinLatitude?: ZType | string;
   iMaxLatitude?: ZType | string;
   iMinPerPlayer?: ZType | string;
-  iBorderValue: ZType | string;
-  iHarvestCost: ZType | string;
-  iHarvestRoll: ZType | string;
+  iBorderValue?: ZType | string;
+  iHarvestCost?: ZType | string;
+  iHarvestRoll?: ZType | string;
   bNoVegetation?: ZType | string;
   bClearVegetation?: ZType | string;
   bUseAnimLOD?: ZType | string;
   bFadeWithUnits?: ZType | string;
-  aiYieldReveal: AiYieldReveal;
-  aiYieldHarvest: AiYieldReveal;
-  abTerrainValid: AbTerrainValid;
-  abHeightValid: AbTerrainValid;
+  aiYieldReveal?: AiYieldReveal;
+  aiYieldHarvest?: AiYieldReveal;
+  aiYieldNoImprovement?: AiYieldReveal;
+  abTerrainValid?: AbTerrainValid;
+  abHeightValid?: AbTerrainValid;
   abVegetationValid?: AbTerrainValid;
 }
 export interface AbTerrainValid {

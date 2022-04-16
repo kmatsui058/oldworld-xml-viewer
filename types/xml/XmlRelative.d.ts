@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Text: ZType | string;
+  ShortText?: ZType | string;
   bClose?: ZType | string;
 }
 export interface ZType {

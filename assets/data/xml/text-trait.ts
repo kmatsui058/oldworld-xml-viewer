@@ -11,6 +11,18 @@
         }
       },
       {
+        "zType": "TEXT_TRAIT_PICK_LATER_ARCHETYPE",
+        "en-US": "Pick Later"
+      },
+      {
+        "zType": "TEXT_TRAIT_RANDOM_ARCHETYPE",
+        "en-US": "Random"
+      },
+      {
+        "zType": "TEXT_TRAIT_PRESET_ARCHETYPE",
+        "en-US": "Preset Leader"
+      },
+      {
         "zType": "TEXT_TRAIT_HERO_ARCHETYPE",
         "en-US": "Hero~a Hero~Heroes"
       },
@@ -796,17 +808,6 @@
         "en-US": "{0_character} takes a deep pleasure in {masculine_0:his:her} own achievements. It is no lie to call {masculine_0:him:her} {1_trait}."
       },
       {
-        "zType": "TEXT_TRAIT_CUNNING",
-        "en-US": "Cunning"
-      },
-      {
-        "zType": "TEXT_TRAIT_CUNNING_F"
-      },
-      {
-        "zType": "TEXT_TRAIT_CUNNING_GAIN_1",
-        "en-US": "Elusive and evasive, {0_character} is known to be {1_trait}."
-      },
-      {
         "zType": "TEXT_TRAIT_WITTY",
         "en-US": "Witty"
       },
@@ -833,11 +834,19 @@
         "en-US": "Philosophy Student"
       },
       {
+        "zType": "TEXT_TRAIT_STUDY_PHILOSOPHY_DESCRIPTION",
+        "en-US": "Can lead to link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), or link(TRAIT_SCHOLAR_ARCHETYPE)"
+      },
+      {
         "zType": "TEXT_TRAIT_STUDY_PHILOSOPHY_F"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_POLITICS",
         "en-US": "Politics Student"
+      },
+      {
+        "zType": "TEXT_TRAIT_STUDY_POLITICS_DESCRIPTION",
+        "en-US": "Can lead to link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), or link(TRAIT_DIPLOMAT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_POLITICS_F"
@@ -847,11 +856,19 @@
         "en-US": "Tactics Student"
       },
       {
+        "zType": "TEXT_TRAIT_STUDY_TACTICS_DESCRIPTION",
+        "en-US": "Can lead to link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), or link(TRAIT_SCHEMER_ARCHETYPE)"
+      },
+      {
         "zType": "TEXT_TRAIT_STUDY_TACTICS_F"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_COMMERCE",
         "en-US": "Commerce Student"
+      },
+      {
+        "zType": "TEXT_TRAIT_STUDY_COMMERCE_DESCRIPTION",
+        "en-US": "Can lead to link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), or link(TRAIT_DIPLOMAT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_TRAIT_STUDY_COMMERCE_F"
@@ -1097,6 +1114,20 @@
         "zType": "TEXT_TRAIT_DESERTER_F"
       },
       {
+        "zType": "TEXT_TRAIT_EXCLUDED",
+        "en-US": "Excluded from Succession"
+      },
+      {
+        "zType": "TEXT_TRAIT_EXCLUDED_F"
+      },
+      {
+        "zType": "TEXT_TRAIT_FAMILY_EXCLUDED",
+        "en-US": "Family Excluded from Succession"
+      },
+      {
+        "zType": "TEXT_TRAIT_FAMILY_EXCLUDED_F"
+      },
+      {
         "zType": "TEXT_TRAIT_DOOMED",
         "en-US": "Doomed"
       },
@@ -1208,13 +1239,6 @@
       },
       {
         "zType": "TEXT_TRAIT_RIGHTFUL_HEIR_F"
-      },
-      {
-        "zType": "TEXT_TRAIT_EXCLUDED",
-        "en-US": "Excluded from Succession"
-      },
-      {
-        "zType": "TEXT_TRAIT_EXCLUDED_F"
       },
       {
         "zType": "TEXT_TRAIT_DIVINE",
@@ -1363,9 +1387,6 @@
         "zType": "TEXT_TRAIT_STEWARD_OF_THE_CHAMBER_F"
       },
       {
-        "zType": "TEXT_TRAIT_ENEMY_OF_THE_STATE_F"
-      },
-      {
         "zType": "TEXT_TRAIT_AMULET_OWNER_POSITIVE",
         "en-US": "Open Fertility Amulet Owner"
       },
@@ -1485,6 +1506,14 @@
       },
       {
         "zType": "TEXT_TRAIT_COMMANDER_BORDER_FORTS_F"
+      },
+      {
+        "zType": "TEXT_TRAIT_POLITICAL_WARD",
+        "en-US": "Political Ward"
+      },
+      {
+        "zType": "TEXT_TRAIT_POLITICAL_WARD_F",
+        "en-US": "Political Ward"
       }
     ]
   }

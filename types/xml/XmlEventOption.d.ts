@@ -18,6 +18,8 @@ export interface Entry {
   PlayerSubject?: ZType | EventLinkAdd2 | string;
   LeaderSubject?: ZType | EventLinkAdd2 | string;
   LeaderSubjectAny?: LeaderSubjectAny;
+  LeaderSubjectNotAny?: LeaderSubjectAny;
+  IndexSubject?: IndexSubject;
   OpenTabOverlay?: ZType | EventLinkAdd2 | string;
   bKeepOpen?: ZType | EventLinkAdd2 | string;
   bMainMenu?: ZType | EventLinkAdd2 | string;
@@ -31,15 +33,23 @@ export interface Entry {
 }
 export interface AiEventOptionProb {
   comment?: string;
-  Pair?: Pair[];
+  Pair?: Pair2[] | Pair2;
 }
 export interface AiMinPrice {
+  comment?: string;
+  Pair?: Pair2;
+}
+export interface Pair2 {
+  zIndex: string;
+  iValue: string;
+}
+export interface IndexSubject {
   comment?: string;
   Pair?: Pair;
 }
 export interface Pair {
-  zIndex: string;
-  iValue: string;
+  First: string;
+  Second: string;
 }
 export interface LeaderSubjectAny {
   comment?: string;

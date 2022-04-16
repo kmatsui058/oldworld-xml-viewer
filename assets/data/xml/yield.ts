@@ -24,6 +24,9 @@
         "iMinimum": {
           
         },
+        "iTriangleOffset": {
+          
+        },
         "iLeaderGovernor": {
           
         },
@@ -73,6 +76,9 @@
           
         },
         "iVolitility": {
+          
+        },
+        "iBurnCost": {
           
         },
         "iGeneralCost": {
@@ -171,6 +177,7 @@
         "Encyclopedia": "TEXT_YIELD_CIVICS_ENCYCLOPEDIA",
         "zIconName": "YIELD_CIVICS",
         "iMinimum": "10",
+        "iTriangleOffset": "-1",
         "iGovernorCost": "100",
         "iUIPosition": "7",
         "bGlobal": "1",
@@ -185,6 +192,8 @@
         "Encyclopedia": "TEXT_YIELD_TRAINING_ENCYCLOPEDIA",
         "zIconName": "YIELD_TRAINING",
         "iMinimum": "10",
+        "iTriangleOffset": "0",
+        "iBurnCost": "100",
         "iGeneralCost": "100",
         "iOffensiveCost": "600",
         "iUIPosition": "8",
@@ -235,6 +244,7 @@
         "Color": "COLOR_YIELD_SCIENCE",
         "Help": "TEXT_YIELD_SCIENCE_HELP",
         "zIconName": "YIELD_SCIENCE",
+        "iTriangleOffset": "-2",
         "iDiscontentModifier": "-5",
         "iUIPosition": "6",
         "bGlobal": "1"
@@ -245,6 +255,7 @@
         "Color": "COLOR_YIELD_MONEY",
         "Help": "TEXT_YIELD_MONEY_HELP",
         "zIconName": "YIELD_MONEY",
+        "iTriangleOffset": "1",
         "iPerConnectedForeign": "10",
         "iPerLivingRoyal": "-20",
         "iPerLivingCourtier": "-50",

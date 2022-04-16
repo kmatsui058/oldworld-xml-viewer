@@ -228,18 +228,6 @@
         "aiStartDifficulty": {
           
         },
-        "aiUnitTraitModifier": {
-          
-        },
-        "aiUnitTraitModifierAttack": {
-          
-        },
-        "aiUnitTraitModifierDefense": {
-          
-        },
-        "aiUnitTraitModifierMelee": {
-          
-        },
         "aiYieldCost": {
           
         },
@@ -357,7 +345,7 @@
         "iHPMax": "20",
         "iProduction": "50",
         "iProductionPer": "5",
-        "iUpgradeCost": "80",
+        "iUpgradeCost": "60",
         "bTerritoryWater": "1",
         "bOutsideOpinion": "1",
         "bRemoveVegetation": "1",
@@ -374,6 +362,9 @@
             "zIndex": "YIELD_FOOD",
             "iValue": "2"
           }
+        },
+        "aeUpgradeUnit": {
+          "zValue": "UNIT_MILITIA"
         },
         "aeUnitTrait": {
           "zValue": "UNITTRAIT_INFANTRY"
@@ -739,6 +730,7 @@
         "iHPMax": "20",
         "iProduction": "60",
         "iProductionPer": "2",
+        "iUpgradeCost": "60",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -797,12 +789,6 @@
         "bZOC": "1",
         "bBlocks": "1",
         "bPillage": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "25"
-          }
-        },
         "aiYieldConsumption": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
@@ -814,6 +800,12 @@
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY",
             "UNITTRAIT_POLEARM"
+          ]
+        },
+        "aeEffectUnit": {
+          "zValue": [
+            "EFFECTUNIT_ANTIMOUNTED1",
+            "EFFECTUNIT_CLEAVE1"
           ]
         }
       },
@@ -919,12 +911,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_POLEARM",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -953,7 +939,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_CLEAVE1"
+          "zValue": [
+            "EFFECTUNIT_ANTIPOLEARM",
+            "EFFECTUNIT_CLEAVE1"
+          ]
         }
       },
       {
@@ -992,12 +981,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1033,7 +1016,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_PIERCE1"
+          "zValue": [
+            "EFFECTUNIT_ANTIMOUNTED2",
+            "EFFECTUNIT_PIERCE1"
+          ]
         }
       },
       {
@@ -1072,12 +1058,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -1110,6 +1090,9 @@
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_ANTIINFANTRY1"
         }
       },
       {
@@ -1148,12 +1131,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -1179,7 +1156,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_CLEAVE2"
+          "zValue": [
+            "EFFECTUNIT_ANTIINFANTRY2",
+            "EFFECTUNIT_CLEAVE2"
+          ]
         }
       },
       {
@@ -1206,8 +1186,8 @@
         "iFatigue": "3",
         "iStrength": "80",
         "iHPMax": "20",
-        "iProduction": "120",
-        "iUpgradeCost": "120",
+        "iProduction": "100",
+        "iUpgradeCost": "100",
         "fAttackDuration": "2",
         "bMelee": "1",
         "bOutsideOpinion": "1",
@@ -1218,17 +1198,11 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "100"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
               "zIndex": "YIELD_WOOD",
-              "iValue": "100"
+              "iValue": "50"
             },
             {
               "zIndex": "YIELD_IRON",
@@ -1240,11 +1214,11 @@
           "Pair": [
             {
               "zIndex": "YIELD_TRAINING",
-              "iValue": "2"
+              "iValue": "1"
             },
             {
               "zIndex": "YIELD_IRON",
-              "iValue": "4"
+              "iValue": "3"
             }
           ]
         },
@@ -1256,7 +1230,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_PIERCE2"
+          "zValue": [
+            "EFFECTUNIT_ANTIMOUNTED3",
+            "EFFECTUNIT_PIERCE2"
+          ]
         }
       },
       {
@@ -1490,12 +1467,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MELEE",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -1527,7 +1498,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_PIERCE2"
+          "zValue": [
+            "EFFECTUNIT_ANTIMELEE",
+            "EFFECTUNIT_PIERCE2"
+          ]
         }
       },
       {
@@ -1923,7 +1897,7 @@
         "iFatigue": "3",
         "iStrength": "60",
         "iHPMax": "20",
-        "iProduction": "120",
+        "iProduction": "100",
         "fAttackDuration": "2.5",
         "fAnimNormalMoveDuration": "2.5",
         "fAnimNormalMoveSpeed": "2",
@@ -1990,12 +1964,12 @@
           ]
         },
         "UnitCycle": "UNITCYCLE_MILITARY_SIEGE",
-        "TechPrereq": "TECH_TORSION",
+        "TechPrereq": "TECH_HYDRAULICS",
         "ProductionType": "YIELD_TRAINING",
         "iMovement": "1",
         "iVision": "3",
         "iFatigue": "3",
-        "iStrength": "50",
+        "iStrength": "60",
         "iRangeMax": "1",
         "iHPMax": "20",
         "iProduction": "100",
@@ -2011,12 +1985,6 @@
         "bBlocks": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierAttack": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "100"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2054,7 +2022,10 @@
           ]
         },
         "aeEffectUnit": {
-          "zValue": "EFFECTUNIT_PIERCE3"
+          "zValue": [
+            "EFFECTUNIT_RAPID_FIRE",
+            "EFFECTUNIT_PIERCE3"
+          ]
         }
       },
       {
@@ -2076,7 +2047,7 @@
         "UnitCycle": "UNITCYCLE_MILITARY_RANGED",
         "TechPrereq": "TECH_CHAIN_DRIVE",
         "ProductionType": "YIELD_TRAINING",
-        "iMovement": "2",
+        "iMovement": "1",
         "iVision": "4",
         "iFatigue": "3",
         "iStrength": "100",
@@ -2091,12 +2062,6 @@
         "bPromote": "1",
         "bGeneral": "1",
         "bBarbCity": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2129,6 +2094,7 @@
         },
         "aeEffectUnit": {
           "zValue": [
+            "EFFECTUNIT_ANTIRANGED",
             "EFFECTUNIT_CLEAVE2",
             "EFFECTUNIT_PIERCE2"
           ]
@@ -2537,12 +2503,6 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierDefense": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -2622,12 +2582,6 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierDefense": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_RANGED",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -3137,12 +3091,6 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -3180,6 +3128,7 @@
         "aeEffectUnit": {
           "zValue": [
             "EFFECTUNIT_FORMATION",
+            "EFFECTUNIT_ANTIMOUNTED2",
             "EFFECTUNIT_PIERCE1"
           ]
         }
@@ -3222,12 +3171,6 @@
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifierMelee": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_MOUNTED",
-            "iValue": "50"
-          }
-        },
         "aiYieldCost": {
           "Pair": [
             {
@@ -3262,6 +3205,7 @@
         "aeEffectUnit": {
           "zValue": [
             "EFFECTUNIT_FORMATION",
+            "EFFECTUNIT_ANTIMOUNTED2",
             "EFFECTUNIT_PIERCE1"
           ]
         }
@@ -3446,19 +3390,12 @@
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
-        "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bFortify": "1",
         "bTestudo": "1",
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -3485,6 +3422,9 @@
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_CENTURION"
         }
       },
       {
@@ -3520,19 +3460,12 @@
         "bMelee": "1",
         "bOutsideOpinion": "1",
         "bZOC": "1",
-        "bIgnoreZOC": "1",
         "bBlocks": "1",
         "bFortify": "1",
         "bTestudo": "1",
         "bPillage": "1",
         "bPromote": "1",
         "bGeneral": "1",
-        "aiUnitTraitModifier": {
-          "Pair": {
-            "zIndex": "UNITTRAIT_INFANTRY",
-            "iValue": "25"
-          }
-        },
         "aiYieldCost": {
           "Pair": {
             "zIndex": "YIELD_IRON",
@@ -3556,6 +3489,9 @@
             "UNITTRAIT_MELEE",
             "UNITTRAIT_INFANTRY"
           ]
+        },
+        "aeEffectUnit": {
+          "zValue": "EFFECTUNIT_CENTURION"
         }
       },
       {
@@ -3612,6 +3548,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "1"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -3698,6 +3640,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "1"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -3778,6 +3726,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "1"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -3847,6 +3801,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "1"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -3923,6 +3883,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4006,6 +3972,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4083,6 +4055,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4153,6 +4131,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "2"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4217,6 +4201,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4280,6 +4270,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4343,6 +4339,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": [
             {
@@ -4401,6 +4403,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_GAULS",
@@ -4458,6 +4466,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_DANES",
@@ -4515,6 +4529,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_VANDALS",
@@ -4569,6 +4589,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_THRACIANS",
@@ -4629,6 +4655,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_SCYTHIANS",
@@ -4690,6 +4722,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "3"
+          }
+        },
         "aeTribeUpgradeUnit": {
           "Pair": {
             "zIndex": "TRIBE_NUMIDIANS",
@@ -4751,6 +4789,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4802,6 +4846,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -4853,6 +4903,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4899,6 +4955,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -4950,6 +5012,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_MELEE",
@@ -5001,6 +5069,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -5049,6 +5123,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -5103,6 +5183,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",
@@ -5152,6 +5238,12 @@
         "bPillage": "1",
         "bGeneral": "1",
         "bBarbRaid": "1",
+        "aiYieldConsumption": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "4"
+          }
+        },
         "aeUnitTrait": {
           "zValue": [
             "UNITTRAIT_RANGED",

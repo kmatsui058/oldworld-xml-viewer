@@ -139,6 +139,14 @@
         "en-US": "King of the Hill"
       },
       {
+        "zType": "TEXT_MAP_OPTION_GOOD_PLAYER_START_RESOURCES",
+        "en-US": "Balanced starting resources"
+      },
+      {
+        "zType": "TEXT_SUBJECTRELATION_TRIBE_WAR_ALLIANCE",
+        "en-US": "At link(DIPLOMACY_WAR) with their link(CONCEPT_ALLIANCE_TRIBE,4)"
+      },
+      {
         "zType": "TEXT_SUBJECTRELATION_MIN_CONFLICT_TURNS",
         "en-US": "Shorter than int(MIN_TREATY_TURNS) Turns since last link(DIPLOMACY_WAR)"
       },
@@ -151,12 +159,21 @@
         "en-US": "Ambassador~an Ambassador"
       },
       {
+        "zType": "TEXT_COUNCIL_AMBASSADOR_F"
+      },
+      {
         "zType": "TEXT_COUNCIL_CHANCELLOR",
         "en-US": "Chancellor~a Chancellor"
       },
       {
+        "zType": "TEXT_COUNCIL_CHANCELLOR_F"
+      },
+      {
         "zType": "TEXT_COUNCIL_SPYMASTER",
         "en-US": "Spymaster~a Spymaster"
+      },
+      {
+        "zType": "TEXT_COUNCIL_SPYMASTER_F"
       },
       {
         "zType": "TEXT_MAPCLASS_RANDOM",
@@ -204,11 +221,7 @@
       },
       {
         "zType": "TEXT_TURN_COMBAT_ATTACKED",
-        "en-US": "Your units were attacked {1} time{true_0:s}!"
-      },
-      {
-        "zType": "TEXT_TURN_DIPLOMACY",
-        "en-US": "-Diplomacy-"
+        "en-US": "Your units were attacked by {2} {1} time{true_0:s}!"
       },
       {
         "zType": "TEXT_TURN_ECONOMY",
@@ -225,6 +238,90 @@
       {
         "zType": "TEXT_TURN_RELIGION",
         "en-US": "-Religion-"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_START_GAME",
+        "en-US": "Failed to generate a new game: please try different settings"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_JOIN_GAME",
+        "en-US": "Failed to join game: {0}"
+      },
+      {
+        "zType": "TEXT_ERROR_PLATFORM_NOT_CONNECTED",
+        "en-US": "Online platform not connected"
+      },
+      {
+        "zType": "TEXT_ERROR_ENTER_DISPLAY_NAME",
+        "en-US": "Enter a display name for each player"
+      },
+      {
+        "zType": "TEXT_ERROR_INVALID_DISPLAY_NAME",
+        "en-US": "Invalid display name: {0}"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_JOIN_SERVER",
+        "en-US": "Failed to join server"
+      },
+      {
+        "zType": "TEXT_ERROR_INVALID_GAME_PASSWORD",
+        "en-US": "Invalid game password"
+      },
+      {
+        "zType": "TEXT_ERROR_INVALID_HOST_PASSWORD",
+        "en-US": "Invalid host password"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_MAP",
+        "en-US": "Failed to load scenario map ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_SCRIPT",
+        "en-US": "Failed to load scenario script ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_LOAD_SCENARIO_MAP_DATA",
+        "en-US": "Failed to assign scenario map data ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_INITIALIZE_SCENARIO_SCRIPT",
+        "en-US": "Failed to initialize scenario script ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_INITIALIZE_MAP_DATA",
+        "en-US": "Failed to initialize map data ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_LOAD_MAP",
+        "en-US": "Failed to load map ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_INITIALIZE_MAP",
+        "en-US": "Failed to load map ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_ASSIGN_MAP",
+        "en-US": "Failed to assign map ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_TO_GENERATE_MAP",
+        "en-US": "Failed to generate map ({0})"
+      },
+      {
+        "zType": "TEXT_ERROR_FAILED_CONNECT_SERVER",
+        "en-US": "Failed to connect to the server"
+      },
+      {
+        "zType": "TEXT_EMAIL_SUBJECT_YOUR_TURN",
+        "en-US": "Old World {0} - Your turn"
+      },
+      {
+        "zType": "TEXT_EMAIL_SUBJECT_DEFEAT",
+        "en-US": "Old World {0} - You have been defeated"
+      },
+      {
+        "zType": "TEXT_POPUP_SCREENSHOT_TAKEN",
+        "en-US": "Screenshot taken"
       }
     ]
   }

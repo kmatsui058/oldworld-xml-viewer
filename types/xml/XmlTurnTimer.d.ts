@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   iBase?: ZType | string;
+  iExtend?: ZType | string;
   iPerCity?: ZType | string;
   iPerUnit?: ZType | string;
   bOff?: ZType | string;

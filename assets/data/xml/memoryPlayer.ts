@@ -141,8 +141,9 @@
       {
         "zType": "MEMORYPLAYER_HOLD_HOSTAGE",
         "Text": "TEXT_MEMORYPLAYER_HOLD_HOSTAGE",
-        "iValue": "-40",
-        "iTurns": "40"
+        "iValue": "20",
+        "iTurns": "40",
+        "bName": "1"
       },
       {
         "zType": "MEMORYPLAYER_KILLED_NOBLE_HOSTAGE",
@@ -212,6 +213,11 @@
       {
         "zType": "MEMORYPLAYER_FEAST_EXILED_PEOPLE",
         "Text": "TEXT_MEMORYPLAYER_FEAST_EXILED_PEOPLE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_WARRIOR_OF_NATION_KILL",
+        "Text": "TEXT_MEMORYPLAYER_WARRIOR_OF_NATION_KILL",
         "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
       },
       {
@@ -361,6 +367,11 @@
         "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT",
         "bName": "1",
         "bVisible": "1"
+      },
+      {
+        "zType": "MEMORYPLAYE_AGENT_TOOLS_RETURNED",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYE_AGENT_TOOLS_RETURNED",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
       },
       {
         "beginGroup": "Character",
@@ -600,6 +611,11 @@
         "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
+        "zType": "MEMORYPLAYER_RETURN_HOSTAGE",
+        "Text": "TEXT_MEMORYPLAYER_RETURN_HOSTAGE",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
         "beginGroup": "Miscellaneous",
         "zType": "MEMORYPLAYER_DELIVERED_ASSASSINS",
         "Text": "TEXT_MEMORYPLAYER_DELIVERED_ASSASSINS",
@@ -609,6 +625,11 @@
         "zType": "MEMORYPLAYER_ACCEPTED_EXCUSE",
         "Text": "TEXT_MEMORYPLAYER_ACCEPTED_EXCUSE",
         "MemoryLevel": "MEMORYLEVEL_NEG_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_RETURNED_WAYWARD_SON",
+        "Text": "TEXT_MEMORYPLAYER_RETURNED_WAYWARD_SON",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
       },
       {
         "zType": "MEMORYPLAYER_SENT_UNIT",
@@ -755,6 +776,20 @@
       {
         "zType": "MEMORYPLAYER_RETURNED_LOOT",
         "Text": "TEXT_MEMORYPLAYER_RETURNED_LOOT",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_EXPEDITION_CONTACT_GOOD",
+        "Text": "TEXT_MEMORYPLAYER_PEACE",
+        "iTurns": "-1"
+      },
+      {
+        "zType": "MEMORYPLAYER_EXPEDITION_CONTACT_BAD",
+        "iTurns": "-1"
+      },
+      {
+        "zType": "MEMORYPLAYER_RECOGNIZED_CLAIM",
+        "Text": "TEXT_MEMORYPLAYER_RECOGNIZED_CLAIM",
         "MemoryLevel": "MEMORYLEVEL_POS_LOW_SHORT"
       },
       {
@@ -915,6 +950,53 @@
       {
         "zType": "MEMORYPLAYER_FUNDED_RESEARCH",
         "Text": "TEXT_MEMORYPLAYER_FUNDED_RESEARCH"
+      },
+      {
+        "beginGroup": "Family",
+        "zType": "MEMORYPLAYER_DISFAVORED_SPOUSE",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_DISFAVORED_SPOUSE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "beginGroup": "Ambition",
+        "zType": "MEMORYPLAYER_BORDER_DISPUTES",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BORDER_DISPUTES",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_SHORT"
+      },
+      {
+        "zType": "MEMORYPLAYER_STOLE_TRIBE",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_STOLE_TRIBE",
+        "MemoryLevel": "MEMORYLEVEL_NEG_HIGH_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_STAYED_OUT_OF_WAY",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_STAYED_OUT_OF_WAY",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_RAISED_MILITIA",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_RAISED_MILITIA",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_LONG"
+      },
+      {
+        "zType": "MEMORYPLAYER_SHOWING_OFF",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_SHOWING_OFF",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_BACKED_DOWN",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BACKED_DOWN",
+        "MemoryLevel": "MEMORYLEVEL_POS_MEDIUM_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_RETURNED_HUNTRESS",
+        "Text": "TEXT_MEMORYPLAYER_RETURNED_HUNTRESS",
+        "MemoryLevel": "MEMORYLEVEL_POS_LOW_NORMAL"
+      },
+      {
+        "zType": "MEMORYPLAYER_BITTER_RIVALS",
+        "Text": "TEXT_MEMORYPLAYER_MEMORYPLAYER_BITTER_RIVALS",
+        "MemoryLevel": "MEMORYLEVEL_NEG_MEDIUM_FOREVER"
       }
     ]
   }

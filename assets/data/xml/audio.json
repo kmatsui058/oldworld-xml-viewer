@@ -50,6 +50,10 @@
 				"zAsset": "IMPROVEMENT_PILLAGED"
 			},
 			{
+				"zType": "AUDIO_LANDMARK_DISCOVERED",
+				"zAsset": "LANDMARK_DISCOVERED"
+			},
+			{
 				"zType": "AUDIO_CITY_ATTACKED",
 				"zAsset": "CITY_ATTACKED"
 			},
@@ -5260,7 +5264,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_AVE_MARIA_GRATIA_PLENA",
 				"zAsset": "Play_Ave_Maria_gratia_plena",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_EINOJUHANI_RAUTAVAARA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_AVE_MARIA_GRATIA_PLENA"
 			},
@@ -5323,7 +5327,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_LUX_AURUMQUE__LIGHT_OF_GOLD_",
 				"zAsset": "Play_Lux_aurumque__Light_of_Gold_",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ERIC_WHITACRE",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LUX_AURUMQUE__LIGHT_OF_GOLD_"
 			},
@@ -5481,7 +5485,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_TABAT___YA_HABIBI__TABAT__A_SONG_OF_PRAISE____YA_HABIBI__MY_BELOVED_",
 				"zAsset": "Play_Tabat___Ya_Habibi__Tabat__A_Song_of_Praise____Ya_habibi__My_Beloved_",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
 				"Artist": {
 					
 				},
@@ -5581,6 +5585,27 @@
 				"Description": "TEXT_AUDIO_MUSIC_BG_YERAZ"
 			},
 			{
+				"zType": "AUDIO_MUSIC_BG_01_NARA",
+				"zAsset": "Play_01_Nara",
+				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHARBEL_ROUHANA",
+				"Description": "TEXT_AUDIO_MUSIC_BG_NARA"
+			},
+			{
+				"zType": "AUDIO_MUSIC_BG_06_REWIND",
+				"zAsset": "Play_06_Rewind",
+				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHARBEL_ROUHANA",
+				"Description": "TEXT_AUDIO_MUSIC_BG_REWIND"
+			},
+			{
+				"zType": "AUDIO_MUSIC_BG_11_SAMAI_RAST",
+				"zAsset": "Play_11_Samai_Rast",
+				"zTags": "BackgroundMusic,LicensedMusic",
+				"Artist": "TEXT_AUDIO_ARTIST_CHARBEL_ROUHANA",
+				"Description": "TEXT_AUDIO_MUSIC_BG_SAMAI_RAST"
+			},
+			{
 				"zType": "AUDIO_MUSIC_BG_01_OUR_FATHER",
 				"zAsset": "Play_01_Our_Father",
 				"zTags": "BackgroundMusic,LicensedMusic",
@@ -5660,7 +5685,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Dark_Travels___Alistair_Sung",
 				"zAsset": "Play_Dark_Travels___Alistair_Sung",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_ALISTAIR_SUNG",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DARK_TRAVELS___ALISTAIR_SUNG"
 			},
@@ -5695,7 +5720,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Don_t_Go___Chris_Coleman",
 				"zAsset": "Play_Don_t_Go___Chris_Coleman",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHRIS_COLEMAN",
 				"Description": "TEXT_AUDIO_MUSIC_BG_DON_T_GO___CHRIS_COLEMAN"
 			},
@@ -5744,7 +5769,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Iris___Topu",
 				"zAsset": "Play_Iris___Topu",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_TOPU",
 				"Description": "TEXT_AUDIO_MUSIC_BG_IRIS___TOPU"
 			},
@@ -5807,7 +5832,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Secrets_of_Silk___Max_LL",
 				"zAsset": "Play_Secrets_of_Silk___Max_LL",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_MAX_LL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SECRETS_OF_SILK___MAX_LL"
 			},
@@ -5842,7 +5867,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Touch___Chad_Lawson",
 				"zAsset": "Play_Touch___Chad_Lawson",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CHAD_LAWSON",
 				"Description": "TEXT_AUDIO_MUSIC_BG_TOUCH___CHAD_LAWSON"
 			},
@@ -6038,7 +6063,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_When_the_glorious_disciples",
 				"zAsset": "Play_When_the_glorious_disciples",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_WHEN_THE_GLORIOUS_DISCIPLES"
 			},
@@ -6066,21 +6091,21 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Sepulto_Domino",
 				"zAsset": "Play_Sepulto_Domino",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__SPYRIDON_ANTONOPOULOS__AARON_CAIN__MARK_POWELL",
 				"Description": "TEXT_AUDIO_MUSIC_BG_SEPULTO_DOMINO"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_Let_all_mortal_flesh_keep_silence",
 				"zAsset": "Play_Let_all_mortal_flesh_keep_silence",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LET_ALL_MORTAL_FLESH_KEEP_SILENCE"
 			},
 			{
 				"zType": "AUDIO_MUSIC_BG_O_dulcissime",
 				"zAsset": "Play_O_dulcissime",
-				"zTags": "BackgroundMusic,MenuMusic",
+				"zTags": "BackgroundMusic,MenuMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS__PHOTINI_DOWNIE_ROBINSON__KERRY_MCCARTHY",
 				"Description": "TEXT_AUDIO_MUSIC_BG_O_DULCISSIME"
 			},
@@ -6108,7 +6133,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_Lift_up_your_gates___Greek",
 				"zAsset": "Play_Lift_up_your_gates___Greek",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic,LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA__ALEXANDER_LINGAS",
 				"Description": "TEXT_AUDIO_MUSIC_BG_LIFT_UP_YOUR_GATES___GREEK"
 			},
@@ -6136,7 +6161,7 @@
 			{
 				"zType": "AUDIO_MUSIC_BG_The_Wise_Thief",
 				"zAsset": "Play_The_Wise_Thief",
-				"zTags": "BackgroundMusic",
+				"zTags": "BackgroundMusic, LicensedMusic",
 				"Artist": "TEXT_AUDIO_ARTIST_CAPPELLA_ROMANA",
 				"Description": "TEXT_AUDIO_MUSIC_BG_THE_WISE_THIEF"
 			},

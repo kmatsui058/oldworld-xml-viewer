@@ -42,6 +42,9 @@
         "iVisionExtra": {
           
         },
+        "iRevealExtra": {
+          
+        },
         "iMovementExtra": {
           
         },
@@ -54,6 +57,9 @@
         "iWaterControlExtra": {
           
         },
+        "iRoadMovementModifier": {
+          
+        },
         "iPillageYieldModifier": {
           
         },
@@ -64,9 +70,6 @@
           
         },
         "iHomeModifier": {
-          
-        },
-        "iSettlementAttackModifier": {
           
         },
         "iUrbanAttackModifier": {
@@ -108,7 +111,16 @@
         "bMeleeCounter": {
           
         },
+        "bZOC": {
+          
+        },
+        "bIgnoreZOC": {
+          
+        },
         "bRout": {
+          
+        },
+        "bNoRout": {
           
         },
         "bPush": {
@@ -184,6 +196,9 @@
           
         },
         "abUnitTraitInvalid": {
+          
+        },
+        "aeIgnoreHeightCost": {
           
         },
         "aeUnitTraitZOC": {
@@ -363,6 +378,7 @@
         "Name": "TEXT_EFFECTUNIT_TRACKER",
         "zIconName": "EFFECTUNIT_TRACKER",
         "iVisionExtra": "3",
+        "iRevealExtra": "1",
         "abUnitTraitValid": {
           "Pair": [
             {
@@ -884,6 +900,19 @@
         }
       },
       {
+        "zType": "EFFECTUNIT_MANEUVERS",
+        "Name": "TEXT_EFFECTUNIT_MANEUVERS",
+        "zIconName": "EFFECTUNIT_MANEUVERS",
+        "iFatigueExtra": "1",
+        "bIgnoreZOC": "1",
+        "abUnitTraitValid": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_SHIP",
+            "bValue": "1"
+          }
+        }
+      },
+      {
         "zType": "EFFECTUNIT_INGENUITY",
         "Name": "TEXT_EFFECTUNIT_INGENUITY",
         "zIconName": "EFFECTUNIT_INGENUITY",
@@ -989,7 +1018,7 @@
         "aiUnitTraitModifier": {
           "Pair": {
             "zIndex": "UNITTRAIT_TRIBAL",
-            "iValue": "25"
+            "iValue": "10"
           }
         },
         "abUnitTraitValid": {
@@ -1216,17 +1245,44 @@
         }
       },
       {
+        "zType": "EFFECTUNIT_RAPID_FIRE",
+        "Name": "TEXT_EFFECTUNIT_RAPID_FIRE",
+        "zIconName": "EFFECTUNIT_RAPID_FIRE",
+        "aiUnitTraitModifierAttack": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "100"
+          }
+        }
+      },
+      {
         "zType": "EFFECTUNIT_ASSAULT",
         "Name": "TEXT_EFFECTUNIT_ASSAULT",
         "zIconName": "EFFECTUNIT_ASSAULT",
-        "iSettlementAttackModifier": "50",
-        "iUrbanAttackModifier": "25"
+        "iUrbanAttackModifier": "50",
+        "aiUnitTraitModifierDefense": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_RANGED",
+            "iValue": "25"
+          }
+        }
       },
       {
         "zType": "EFFECTUNIT_FORMATION",
         "Name": "TEXT_EFFECTUNIT_FORMATION",
         "zIconName": "EFFECTUNIT_FORMATION",
         "iAdjacentSameDefenseModifier": "20"
+      },
+      {
+        "zType": "EFFECTUNIT_CENTURION",
+        "Name": "TEXT_EFFECTUNIT_CENTURION",
+        "zIconName": "EFFECTUNIT_CENTURION",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "25"
+          }
+        }
       },
       {
         "zType": "EFFECTUNIT_CRIPPLED",
@@ -1429,6 +1485,94 @@
         }
       },
       {
+        "zType": "EFFECTUNIT_ANTIMELEE",
+        "Name": "TEXT_EFFECTUNIT_ANTIMELEE",
+        "zIconName": "EFFECTUNIT_ANTIMELEE",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MELEE",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIRANGED",
+        "Name": "TEXT_EFFECTUNIT_ANTIRANGED",
+        "zIconName": "EFFECTUNIT_ANTIRANGED",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_RANGED",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIPOLEARM",
+        "Name": "TEXT_EFFECTUNIT_ANTIPOLEARM",
+        "zIconName": "EFFECTUNIT_ANTIPOLEARM",
+        "aiUnitTraitModifier": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_POLEARM",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIINFANTRY1",
+        "Name": "TEXT_EFFECTUNIT_ANTIINFANTRY1",
+        "zIconName": "EFFECTUNIT_ANTIINFANTRY1",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIINFANTRY2",
+        "Name": "TEXT_EFFECTUNIT_ANTIINFANTRY2",
+        "zIconName": "EFFECTUNIT_ANTIINFANTRY2",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_INFANTRY",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIMOUNTED1",
+        "Name": "TEXT_EFFECTUNIT_ANTIMOUNTED1",
+        "zIconName": "EFFECTUNIT_ANTIMOUNTED1",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MOUNTED",
+            "iValue": "25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIMOUNTED2",
+        "Name": "TEXT_EFFECTUNIT_ANTIMOUNTED2",
+        "zIconName": "EFFECTUNIT_ANTIMOUNTED2",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MOUNTED",
+            "iValue": "50"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTUNIT_ANTIMOUNTED3",
+        "Name": "TEXT_EFFECTUNIT_ANTIMOUNTED3",
+        "zIconName": "EFFECTUNIT_ANTIMOUNTED3",
+        "aiUnitTraitModifierMelee": {
+          "Pair": {
+            "zIndex": "UNITTRAIT_MOUNTED",
+            "iValue": "100"
+          }
+        }
+      },
+      {
         "zType": "EFFECTUNIT_PIERCE1",
         "Name": "TEXT_EFFECTUNIT_PIERCE1",
         "zIconName": "EFFECTUNIT_PIERCE1",
@@ -1590,6 +1734,7 @@
         "Name": "TEXT_UNITTRAIT_POLEARM",
         "zIconName": "UNITTRAIT_POLEARM",
         "SourceUnitTrait": "UNITTRAIT_POLEARM",
+        "bNoRout": "1",
         "aeUnitTraitZOC": {
           "zValue": "UNITTRAIT_MOUNTED"
         }
@@ -1635,6 +1780,7 @@
         "Name": "TEXT_UNITTRAIT_SIEGE",
         "zIconName": "UNITTRAIT_SIEGE",
         "SourceUnitTrait": "UNITTRAIT_SIEGE",
+        "iRoadMovementModifier": "-50",
         "iUrbanAttackModifier": "50",
         "bIgnoresDistance": "1"
       },

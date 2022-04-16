@@ -95,6 +95,94 @@
         }
       },
       {
+        "zType": "PROJECT_GIVE_SILK",
+        "Name": "TEXT_PROJECT_GIVE_SILK",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_SILK",
+        "EffectCity": "EFFECTCITY_GIVE_SILK"
+      },
+      {
+        "zType": "PROJECT_GIVE_PORCELAIN",
+        "Name": "TEXT_PROJECT_GIVE_PORCELAIN",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_PORCELAIN",
+        "EffectCity": "EFFECTCITY_GIVE_PORCELAIN"
+      },
+      {
+        "zType": "PROJECT_GIVE_EXOTIC_FUR",
+        "Name": "TEXT_PROJECT_GIVE_EXOTIC_FUR",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_EXOTIC_FUR",
+        "EffectCity": "EFFECTCITY_GIVE_EXOTIC_FUR"
+      },
+      {
+        "zType": "PROJECT_GIVE_EBONY",
+        "Name": "TEXT_PROJECT_GIVE_EBONY",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_EBONY",
+        "EffectCity": "EFFECTCITY_GIVE_EBONY"
+      },
+      {
+        "zType": "PROJECT_GIVE_PERFUME",
+        "Name": "TEXT_PROJECT_GIVE_PERFUME",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_PERFUME",
+        "EffectCity": "EFFECTCITY_GIVE_PERFUME"
+      },
+      {
+        "zType": "PROJECT_GIVE_IVORY",
+        "Name": "TEXT_PROJECT_GIVE_IVORY",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_IVORY",
+        "EffectCity": "EFFECTCITY_GIVE_IVORY"
+      },
+      {
+        "zType": "PROJECT_GIVE_TEA",
+        "Name": "TEXT_PROJECT_GIVE_TEA",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_TEA",
+        "EffectCity": "EFFECTCITY_GIVE_TEA"
+      },
+      {
+        "zType": "PROJECT_GIVE_SPICES",
+        "Name": "TEXT_PROJECT_GIVE_SPICES",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_SPICES",
+        "EffectCity": "EFFECTCITY_GIVE_SPICES"
+      },
+      {
+        "zType": "PROJECT_GIVE_EXOTIC_ANIMALS",
+        "Name": "TEXT_PROJECT_GIVE_EXOTIC_ANIMALS",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_EXOTIC_ANIMALS",
+        "EffectCity": "EFFECTCITY_GIVE_EXOTIC_ANIMALS"
+      },
+      {
+        "zType": "PROJECT_GIVE_SILPHIUM",
+        "Name": "TEXT_PROJECT_GIVE_SILPHIUM",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_SILPHIUM",
+        "EffectCity": "EFFECTCITY_GIVE_SILPHIUM"
+      },
+      {
+        "zType": "PROJECT_GIVE_JADE",
+        "Name": "TEXT_PROJECT_GIVE_JADE",
+        "zIcon": "PROJECT_MONARCH",
+        "bHidden": "1",
+        "CityProject": "PROJECT_GIVE_JADE",
+        "EffectCity": "EFFECTCITY_GIVE_JADE"
+      },
+      {
         "zType": "PROJECT_SWORD_CULT",
         "Name": "TEXT_PROJECT_SWORD_CULT",
         "zIcon": "PROJECT_MONARCH",
@@ -728,6 +816,123 @@
         "bHidden": "1",
         "CityProject": "PROJECT_ATHLETICS_EQUESTRIAN",
         "EffectCity": "EFFECTCITY_PROJECT_ATHLETICS_EQUESTRIAN"
+      },
+      {
+        "zType": "PROJECT_WARDENS_OF_THE_WILDS",
+        "Name": "TEXT_PROJECT_WARDENS_OF_THE_WILDS",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_WARDENS_OF_THE_WILDS",
+        "EffectCity": "EFFECTCITY_PROJECT_WARDENS_OF_THE_WILDS"
+      },
+      {
+        "zType": "PROJECT_TRAINING_PITS",
+        "Name": "TEXT_PROJECT_TRAINING_PITS",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_TRAINING_PITS",
+        "EffectCity": "EFFECTCITY_PROJECT_TRAINING_PITS"
+      },
+      {
+        "zType": "PROJECT_WARRIOR_TRADITION",
+        "Name": "TEXT_PROJECT_WARRIOR_TRADITION",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_WARRIOR_TRADITION",
+        "EffectCity": "EFFECTCITY_PROJECT_WARRIOR_TRADITION"
+      },
+      {
+        "zType": "PROJECT_MONUMENT_OF_HOPE",
+        "Name": "TEXT_PROJECT_MONUMENT_OF_HOPE",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_MONUMENT_OF_HOPE",
+        "EffectCity": "EFFECTCITY_PROJECT_MONUMENT_OF_HOPE"
+      },
+      {
+        "zType": "PROJECT_ANTICAVALRY_TACTICS",
+        "Name": "TEXT_PROJECT_ANTICAVALRY_TACTICS",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ANTICAVALRY_TACTICS",
+        "EffectCity": "EFFECTCITY_PROJECT_ANTICAVALRY_TACTICS"
+      },
+      {
+        "zType": "PROJECT_BY_THE_NUMBERS",
+        "Name": "TEXT_PROJECT_BY_THE_NUMBERS",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_BY_THE_NUMBERS",
+        "EffectCity": "EFFECTCITY_PROJECT_BY_THE_NUMBERS"
+      },
+      {
+        "zType": "PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "Name": "TEXT_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "EffectCity": "EFFECTCITY_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD"
+      },
+      {
+        "zType": "PROJECT_FORESTRY_GUILD",
+        "Name": "TEXT_PROJECT_FORESTRY_GUILD",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_FORESTRY_GUILD",
+        "EffectCity": "EFFECTCITY_PROJECT_FORESTRY_GUILD"
+      },
+      {
+        "zType": "PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "Name": "TEXT_PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "EffectCity": "EFFECTCITY_PROJECT_CODEX_OF_HIGHLAND_WISDOM"
+      },
+      {
+        "zType": "PROJECT_TRIBAL_FORUM",
+        "Name": "TEXT_PROJECT_TRIBAL_FORUM",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_TRIBAL_FORUM",
+        "EffectCity": "EFFECTCITY_PROJECT_TRIBAL_FORUM"
+      },
+      {
+        "zType": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "Name": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "EffectCity": "EFFECTCITY_PROJECT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO"
+      },
+      {
+        "zType": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "Name": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "zIcon": "PROJECT_MONARCH",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "EffectCity": "EFFECTCITY_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER"
+      },
+      {
+        "zType": "PROJECT_THE_SAND_PITS",
+        "Name": "TEXT_PROJECT_THE_SAND_PITS",
+        "zIcon": "PROJECT_THE_SAND_PITS",
+        "iMaxCount": "1",
+        "bHidden": "1",
+        "CityProject": "PROJECT_THE_SAND_PITS",
+        "EffectCity": "EFFECTCITY_PROJECT_THE_SAND_PITS"
       }
     ]
   }

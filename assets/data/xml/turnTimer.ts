@@ -12,6 +12,9 @@
         "iBase": {
           
         },
+        "iExtend": {
+          
+        },
         "iPerCity": {
           
         },
@@ -64,6 +67,7 @@
         "zType": "TURNTIMER_SLOW",
         "Name": "TEXT_TURNTIMER_SLOW",
         "iBase": "60",
+        "iExtend": "40",
         "iPerCity": "3",
         "iPerUnit": "3",
         "bDynamic": "1"
@@ -72,6 +76,7 @@
         "zType": "TURNTIMER_MEDIUM",
         "Name": "TEXT_TURNTIMER_MEDIUM",
         "iBase": "45",
+        "iExtend": "30",
         "iPerCity": "2",
         "iPerUnit": "2",
         "bDynamic": "1"
@@ -80,6 +85,7 @@
         "zType": "TURNTIMER_FAST",
         "Name": "TEXT_TURNTIMER_FAST",
         "iBase": "30",
+        "iExtend": "20",
         "iPerCity": "1",
         "iPerUnit": "1",
         "bDynamic": "1"

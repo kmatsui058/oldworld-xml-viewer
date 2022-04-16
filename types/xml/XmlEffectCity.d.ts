@@ -34,7 +34,7 @@ export interface Entry {
   aeSourceProjects?: AeSourceImprovements;
   aeSourceResources?: AeSourceImprovements;
   CultureBonus?: ZType | string;
-  LuxuryResource?: ZType;
+  LuxuryResource?: ZType | string;
   iCityHP?: ZType | string;
   iUnitXP?: ZType | string;
   iUnitLevel?: ZType | string;
@@ -73,6 +73,7 @@ export interface Entry {
   aiYieldRateOpinion?: AiYieldRateCulture;
   aiYieldRateMilitary?: AiYieldRateCulture;
   aiYieldRateSpecialist?: AiYieldRateCulture;
+  aiYieldRateSpecialistUrban?: AiYieldRateCulture;
   aiYieldRateDefending?: AiYieldRateCulture;
   aiYieldRateReligion?: AiYieldRateCulture;
   aiYieldRateReligionNonState?: AiYieldRateCulture;

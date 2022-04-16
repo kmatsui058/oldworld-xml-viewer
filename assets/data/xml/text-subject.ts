@@ -11,8 +11,8 @@
         }
       },
       {
-        "zType": "TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_NOT_FOUND",
-        "en-US": "Mutual Contact and No Diplomatic Mission"
+        "zType": "TEXT_SUBJECT_PLAYER_HUMAN_DIPLOMACY_FOUND",
+        "en-US": "Active Diplomatic Mission"
       },
       {
         "zType": "TEXT_SUBJECT_PLAYER_WAR",
@@ -243,6 +243,10 @@
         "en-US": "Max link(OPINIONCHARACTER_FURIOUS)"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_MIN_UPSET",
+        "en-US": "Min link(OPINIONCHARACTER_UPSET)"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_MIN_CAUTIOUS",
         "en-US": "Min link(OPINIONCHARACTER_CAUTIOUS)"
       },
@@ -257,6 +261,10 @@
       {
         "zType": "TEXT_SUBJECT_INFLUENCED_BY_LEADER",
         "en-US": "Influence By You"
+      },
+      {
+        "zType": "TEXT_SUBJECT_HEALTHY",
+        "en-US": "Healthy"
       },
       {
         "zType": "TEXT_SUBJECT_BABY",
@@ -335,8 +343,14 @@
         "en-US": "Ambassador"
       },
       {
+        "zType": "TEXT_SUBJECT_AMBASSADOR_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD",
         "en-US": "Royal and not Leader, Heir, or Bastard"
+      },
+      {
+        "zType": "TEXT_SUBJECT_ROYAL_NON_LEADER_OR_HEIR_OR_BASTARD_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHANCELLOR",
@@ -347,6 +361,13 @@
         "en-US": "Spymaster"
       },
       {
+        "zType": "TEXT_SUBJECT_SPYMASTER_F"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CAN_MARRY",
+        "en-US": "Can Marry"
+      },
+      {
         "zType": "TEXT_SUBJECT_STUDY_ANY",
         "en-US": "Student"
       },
@@ -355,20 +376,35 @@
         "en-US": "Away From Court"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_AWAY_FROM_COURT_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_HONORABLE",
         "en-US": "Honorable"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_HONORABLE_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_HONORABLE",
         "en-US": "Not Honorable"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_HONORABLE_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_VILLAINOUS",
         "en-US": "Villainous"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_VILLAINOUS_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS",
         "en-US": "Not Villainous"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_VILLAINOUS_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_STRONG",
@@ -383,8 +419,14 @@
         "en-US": "Weak"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_WEAK_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_WEAK",
         "en-US": "Not Weak"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_WEAK_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_CARNAL",
@@ -399,24 +441,42 @@
         "en-US": "Productive"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_PRODUCTIVE_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE",
         "en-US": "Not Productive"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_PRODUCTIVE_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_RELIGIOUS",
         "en-US": "Religious"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_RELIGIOUS_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_RELIGIOUS",
         "en-US": "Not Religious"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_RELIGIOUS_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_INQUISITIVE",
         "en-US": "Inquisitive"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_INQUISITIVE_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE",
         "en-US": "Not Inquisitive"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_INQUISITIVE_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_URBAN",
@@ -431,16 +491,28 @@
         "en-US": "Sylvan"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_SYLVAN_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_SYLVAN",
         "en-US": "Not Sylvan"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_SYLVAN_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_VAIN",
         "en-US": "Vain"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_VAIN_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_VAIN",
         "en-US": "Not Vain"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_VAIN_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_TRADITIONAL",
@@ -455,8 +527,14 @@
         "en-US": "Charming"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_CHARMING_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_CHARMING",
         "en-US": "Not Charming"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_CHARMING_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_DILIGENT",
@@ -471,40 +549,70 @@
         "en-US": "Conspiratorial"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_CONSPIRATOR_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR",
         "en-US": "Not Conspiratorial"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_CONSPIRATOR_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_TERRIFYING",
         "en-US": "Terrifying"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_TERRIFYING_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING",
         "en-US": "Not Terrifying"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_TERRIFYING_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_SEVEN_SINS",
         "en-US": "Seven Sins"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_SEVEN_SINS_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS",
         "en-US": "Not Seven Sins"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_SINS_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES",
         "en-US": "Seven Virtues"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_SEVEN_VIRTUES_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES",
         "en-US": "Not Seven Virtues"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_NOT_SEVEN_VIRTUES_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL",
         "en-US": "Regal"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_REGAL_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL",
         "en-US": "Not Regal"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_REGAL_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_MARTIAL",
@@ -519,20 +627,36 @@
         "en-US": "Covert"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_COVERT_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT",
         "en-US": "Not Covert"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_COVERT_F"
       },
       {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL",
         "en-US": "Thoughtful"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_THOUGHTFUL_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL",
         "en-US": "Not Thoughtful"
       },
       {
+        "zType": "TEXT_SUBJECT_CHARACTER_ARCHETYPE_NOT_THOUGHTFUL_F"
+      },
+      {
         "zType": "TEXT_SUBJECT_CHARACTER_NO_IMPRISONED_RECENTLY",
         "en-US": "Not link(TRAIT_IMPRISONED) recently"
+      },
+      {
+        "zType": "TEXT_SUBJECT_CHARACTER_DEATHBED",
+        "en-US": "Close to Death"
       }
     ]
   }

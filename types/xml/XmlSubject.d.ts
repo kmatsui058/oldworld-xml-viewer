@@ -9,35 +9,39 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name?: ZType | string;
+  GenderedNames?: GenderedNames;
   Class: ZType | string;
   RelationUs?: ZType | RelationUs2 | string;
   RelationLeader?: ZType | RelationUs2 | string;
-  NoRelationLeader?: RelationUs2;
+  NoRelationLeader?: RelationUs2 | string;
   Religion?: ZType | RelationUs2 | string;
   Tech?: ZType | RelationUs2 | string;
   Law?: ZType | RelationUs2 | string;
   Theology?: ZType | RelationUs2 | string;
   Resource?: ZType | RelationUs2 | string;
+  Goal?: Goal;
   Character?: ZType | RelationUs2 | string;
   CityName?: ZType | RelationUs2 | string;
-  ActiveQuest?: ActiveQuest;
+  ActiveAmbition?: ZType | RelationUs2 | string;
+  ActiveQuest?: Goal;
   MemoryPlayerPrereq?: ZType | RelationUs2 | string;
   MemoryPlayerInvalid?: ZType | RelationUs2 | string;
   MemoryTribePrereq?: ZType | RelationUs2 | string;
   MemoryTribeInvalid?: ZType | RelationUs2 | string;
-  MemoryReligionPrereq?: ActiveQuest;
-  MemoryReligionInvalid?: ActiveQuest;
+  MemoryReligionPrereq?: Goal;
+  MemoryReligionInvalid?: Goal;
   MemoryFamilyPrereq?: ZType | RelationUs2 | string;
-  MemoryFamilyInvalid?: ActiveQuest;
+  MemoryFamilyInvalid?: Goal;
   MemoryCharacterPrereq?: ZType | RelationUs2 | string;
   MemoryCharacterInvalid?: ZType | RelationUs2 | string;
   NationPrereq?: ZType | RelationUs2 | string;
   TechPrereq?: ZType | RelationUs2 | string;
-  TechInvalid?: ActiveQuest;
+  TechInvalid?: Goal;
   LawPrereq?: ZType | RelationUs2 | string;
   TribePrereq?: ZType | RelationUs2 | string;
   HasFamilyClass?: ZType | RelationUs2 | string;
   FamilyClassPrereq?: ZType | RelationUs2 | string;
+  FamilyPrereq?: Goal;
   GenderPrereq?: ZType | RelationUs2 | string;
   CouncilPrereq?: ZType | RelationUs2 | string;
   CourtierPrereq?: ZType | RelationUs2 | string;
@@ -49,14 +53,15 @@ export interface Entry {
   ImprovementCity?: ZType | RelationUs2 | string;
   ImprovementTile?: ZType | RelationUs2 | string;
   ImprovementClassCity?: ZType | RelationUs2 | string;
-  ImprovementClassTile?: ActiveQuest;
+  ImprovementClassTile?: Goal;
   UnitType?: ZType | RelationUs2 | string;
   UnitTrait?: ZType | RelationUs2 | string;
   Terrain?: ZType | RelationUs2 | string;
   Height?: ZType | RelationUs2 | string;
   Vegetation?: ZType | RelationUs2 | string;
-  Improvement?: ActiveQuest;
-  iTileID?: ActiveQuest;
+  Improvement?: Goal;
+  iCityID?: Goal;
+  iTileID?: Goal;
   iMinPlayerWars?: ZType | RelationUs2 | string;
   iMaxPlayerWars?: ZType | RelationUs2 | string;
   iMinDiplomacyTurns?: ZType | RelationUs2 | string;
@@ -64,25 +69,23 @@ export interface Entry {
   iMinTotalWarScore?: ZType | RelationUs2 | string;
   iMaxTotalWarScore?: ZType | RelationUs2 | string;
   iMinCamps?: ZType | RelationUs2 | string;
-  iMaxCamps?: ActiveQuest;
+  iMaxCamps?: Goal;
   iMinDiscontentLevel?: ZType | RelationUs2 | string;
   iMinDamagePercent?: ZType | RelationUs2 | string;
   iMinAge?: ZType | RelationUs2 | string;
   iMaxAge?: ZType | RelationUs2 | string;
   iMinReign?: ZType | RelationUs2 | string;
   iMaxReign?: ZType | RelationUs2 | string;
-  iMinCourtiers?: ActiveQuest;
+  iMinCourtiers?: Goal;
   iMaxCourtiers?: ZType | RelationUs2 | string;
   iMaxHeirs?: ZType | RelationUs2 | string;
-  iMinLevel?: RelationUs2 | string;
+  iMinLevel?: ZType | RelationUs2 | string;
   bIgnoreRandom?: ZType | RelationUs2 | string;
   bIsUs?: ZType | RelationUs2 | string;
   bIsNotUs?: ZType | RelationUs2 | string;
   bIsUsOrThem?: ZType | RelationUs2 | string;
   bIsSameTeam?: ZType | RelationUs2 | string;
-  bIsDiffTeam?: ZType | RelationUs2 | string;
-  bContactBoth?: ZType | RelationUs2 | string;
-  bNoContact?: RelationUs2 | string;
+  bNoContact?: ZType | RelationUs2 | string;
   bHuman?: ZType | RelationUs2 | string;
   bHumanOrAI?: ZType | RelationUs2 | string;
   bHasPlayer?: ZType | RelationUs2 | string;
@@ -137,10 +140,10 @@ export interface Entry {
   bTutorStudent?: ZType | RelationUs2 | string;
   bOfStateReligion?: ZType | RelationUs2 | string;
   bReligionHead?: ZType | RelationUs2 | string;
-  bNonReligionHead?: ActiveQuest;
+  bNonReligionHead?: Goal;
   bWasReligionHead?: ZType | RelationUs2 | string;
   bFamilyHead?: ZType | RelationUs2 | string;
-  bNonFamilyHead?: ActiveQuest;
+  bNonFamilyHead?: Goal;
   bWasFamilyHead?: ZType | RelationUs2 | string;
   bTribe?: ZType | RelationUs2 | string;
   bTribeLeader?: ZType | RelationUs2 | string;
@@ -167,6 +170,7 @@ export interface Entry {
   bNoImprovement?: ZType | RelationUs2 | string;
   bTribeImprovement?: ZType | RelationUs2 | string;
   bTribeTerritory?: ZType | RelationUs2 | string;
+  bUndiscoveredLandmark?: ZType | RelationUs2 | string;
   aiMinRating?: AiMinRating;
   aiMaxRating?: AiMinRating;
   aeTraitAny?: AeTraitAny;
@@ -188,17 +192,24 @@ export interface AeTraitAny {
 }
 export interface AiMinRating {
   comment?: string;
-  Pair?: Pair;
+  Pair?: Pair2;
 }
-export interface Pair {
+export interface Pair2 {
   zIndex: string;
   iValue: string;
 }
-export interface ActiveQuest {
+export interface Goal {
   comment?: string;
 }
 export interface RelationUs2 {
   comment: string;
+}
+export interface GenderedNames {
+  Pair?: Pair;
+}
+export interface Pair {
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

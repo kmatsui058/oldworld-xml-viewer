@@ -243,18 +243,6 @@
         "zValue": "TURNTIMER_NONE"
       },
       {
-        "zType": "DEFAULT_TURNSCALE",
-        "zValue": "TURNSCALE_YEAR"
-      },
-      {
-        "zType": "DEFAULT_EVENTLEVEL",
-        "zValue": "EVENTLEVEL_MODERATE"
-      },
-      {
-        "zType": "DEFAULT_MORTALITY",
-        "zValue": "MORTALITY_STANDARD"
-      },
-      {
         "zType": "DEFAULT_NATION",
         "zValue": "NATION_BABYLONIA"
       },
@@ -291,6 +279,10 @@
         "zValue": "TEAMNATION_GAME_UNIQUE"
       },
       {
+        "zType": "DEFAULT_GAMEOPTIONPRESET",
+        "zValue": "GAME_OPTION_PRESET_NONE"
+      },
+      {
         "zType": "HURRY_CULTURE",
         "zValue": "CULTURE_DEVELOPING"
       },
@@ -323,12 +315,28 @@
         "zValue": "MISSION_ADOPT_RELIGION"
       },
       {
+        "zType": "RELIGION_INTERCESSION_MISSION",
+        "zValue": "MISSION_INTERCESSION_RELIGION"
+      },
+      {
+        "zType": "FAMILY_INTERCESSION_MISSION",
+        "zValue": "MISSION_INTERCESSION_FAMILY"
+      },
+      {
+        "zType": "CONVERT_RELIGION_MISSION",
+        "zValue": "MISSION_CONVERT_RELIGION"
+      },
+      {
         "zType": "PACIFY_CITY_MISSION",
         "zValue": "MISSION_PACIFY_CITY"
       },
       {
         "zType": "TUTOR_MISSION",
         "zValue": "MISSION_TUTOR"
+      },
+      {
+        "zType": "SCHOLAR_TUTOR_MISSION",
+        "zValue": "MISSION_TUTOR_SCHOLAR"
       },
       {
         "zType": "WEAK_CULTURE",
@@ -389,6 +397,10 @@
       {
         "zType": "BASE_EFFECTPLAYER",
         "zValue": "EFFECTPLAYER_BASE"
+      },
+      {
+        "zType": "START_BONUS",
+        "zValue": "BONUS_START"
       },
       {
         "zType": "FAMILY_SEAT_BONUS",
@@ -507,6 +519,18 @@
         "zValue": "TRAIT_ABDICATED"
       },
       {
+        "zType": "PRESET_ARCHETYPE_TRAIT",
+        "zValue": "TRAIT_PRESET_ARCHETYPE"
+      },
+      {
+        "zType": "RANDOM_ARCHETYPE_TRAIT",
+        "zValue": "TRAIT_RANDOM_ARCHETYPE"
+      },
+      {
+        "zType": "PICK_LATER_ARCHETYPE_TRAIT",
+        "zValue": "TRAIT_PICK_LATER_ARCHETYPE"
+      },
+      {
         "zType": "MADE_HEIR_RELATIONSHIP",
         "zValue": "RELATIONSHIP_MADE_HEIR_BY"
       },
@@ -541,10 +565,6 @@
       {
         "zType": "FATIGUE_CYCLING",
         "zValue": "PLAYEROPTION_FATIGUE_CYCLING"
-      },
-      {
-        "zType": "AUTOMATED_UNITS_LAST",
-        "zValue": "PLAYEROPTION_AUTOMATED_UNITS_LAST"
       },
       {
         "zType": "DISABLE_EDGE_SCROLLING",
@@ -641,6 +661,10 @@
       {
         "zType": "STUNNED_COOLDOWN",
         "zValue": "COOLDOWN_STUNNED"
+      },
+      {
+        "zType": "CAPTURING_COOLDOWN",
+        "zValue": "COOLDOWN_CAPTURING"
       },
       {
         "zType": "BUILDING_COOLDOWN",
@@ -747,14 +771,6 @@
         "zValue": "LAWCLASS_ORDER"
       },
       {
-        "zType": "DEFAULT_SUCCESSION_GENDER",
-        "zValue": "SUCCESSIONGENDER_ABSOLUTE_COGNATIC"
-      },
-      {
-        "zType": "DEFAULT_SUCCESSION_ORDER",
-        "zValue": "SUCCESSIONORDER_PRIMOGENITURE"
-      },
-      {
         "zType": "PRIMOGENITURE_SUCCESSIONORDER",
         "zValue": "SUCCESSIONORDER_PRIMOGENITURE"
       },
@@ -849,6 +865,10 @@
       {
         "zType": "RESOURCE_SUBJECTCLASS",
         "zValue": "SUBJECTCLASS_RESOURCE"
+      },
+      {
+        "zType": "GOAL_SUBJECTCLASS",
+        "zValue": "SUBJECTCLASS_GOAL"
       },
       {
         "zType": "CHARACTER_SUBJECTCLASS",
@@ -1163,12 +1183,20 @@
         "zValue": "EVENTTRIGGER_GENERAL_INJURY"
       },
       {
+        "zType": "GENERAL_INJURY_RANGED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_INJURY_RANGED"
+      },
+      {
         "zType": "GENERAL_INJURY_WATER_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_INJURY_WATER"
       },
       {
         "zType": "GENERAL_UNIT_KILLED_EVENTTRIGGER",
         "zValue": "EVENTTRIGGER_GENERAL_UNIT_KILLED"
+      },
+      {
+        "zType": "GENERAL_UNIT_KILLED_RANGED_EVENTTRIGGER",
+        "zValue": "EVENTTRIGGER_GENERAL_UNIT_KILLED_RANGED"
       },
       {
         "zType": "GENERAL_UNIT_KILLED_WATER_EVENTTRIGGER",
@@ -1237,10 +1265,6 @@
       {
         "zType": "REGAINED_CITY_MEMORY",
         "zValue": "MEMORYFAMILY_REGAINED_CITY"
-      },
-      {
-        "zType": "GIVEN_CITY_MEMORY",
-        "zValue": "MEMORYFAMILY_GIVEN_CITY"
       },
       {
         "zType": "OUR_AMBITION_MEMORY_FAMILY",
@@ -1613,6 +1637,10 @@
       {
         "zType": "AGENT_TITLE",
         "zValue": "TITLE_AGENT"
+      },
+      {
+        "zType": "TRIBE_LEADER_TITLE",
+        "zValue": "TITLE_TRIBE_LEADER"
       }
     ]
   }

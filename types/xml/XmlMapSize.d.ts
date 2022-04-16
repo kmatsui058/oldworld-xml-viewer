@@ -13,6 +13,8 @@ export interface Entry {
   iHeight: ZType | string;
   iWidthMPTwoTeams: ZType | string;
   iHeightMPTwoTeams: ZType | string;
+  iWidthMPOneVersusOne: ZType | string;
+  iHeightMPOneVersusOne: ZType | string;
   iMaxOpponents: ZType | string;
   iVP: ZType | string;
 }

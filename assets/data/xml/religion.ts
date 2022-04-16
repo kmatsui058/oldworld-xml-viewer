@@ -9,6 +9,9 @@
         "Name": {
           
         },
+        "GenderedNames": {
+          
+        },
         "zIconName": {
           
         },
@@ -76,6 +79,12 @@
       {
         "zType": "RELIGION_ZOROASTRIANISM",
         "Name": "TEXT_RELIGION_ZOROASTRIANISM",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_ZOROASTRIANISM_F"
+          }
+        },
         "zIconName": "RELIGION_ZOROASTRIANISM",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -95,6 +104,12 @@
       {
         "zType": "RELIGION_JUDAISM",
         "Name": "TEXT_RELIGION_JUDAISM",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_JUDAISM_F"
+          }
+        },
         "zIconName": "RELIGION_JUDAISM",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -115,6 +130,12 @@
       {
         "zType": "RELIGION_CHRISTIANITY",
         "Name": "TEXT_RELIGION_CHRISTIANITY",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_CHRISTIANITY_F"
+          }
+        },
         "zIconName": "RELIGION_CHRISTIANITY",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -137,6 +158,12 @@
       {
         "zType": "RELIGION_MANICHAEISM",
         "Name": "TEXT_RELIGION_MANICHAEISM",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_MANICHAEISM_F"
+          }
+        },
         "zIconName": "RELIGION_MANICHAEISM",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -163,6 +190,12 @@
       {
         "zType": "RELIGION_PAGAN_ASSYRIA",
         "Name": "TEXT_RELIGION_PAGAN_ASSYRIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_ASSYRIA_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_ASSYRIA",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -174,6 +207,12 @@
       {
         "zType": "RELIGION_PAGAN_BABYLONIA",
         "Name": "TEXT_RELIGION_PAGAN_BABYLONIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_BABYLONIA_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_BABYLONIA",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -185,6 +224,12 @@
       {
         "zType": "RELIGION_PAGAN_CARTHAGE",
         "Name": "TEXT_RELIGION_PAGAN_CARTHAGE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_CARTHAGE_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_CARTHAGE",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -196,6 +241,12 @@
       {
         "zType": "RELIGION_PAGAN_EGYPT",
         "Name": "TEXT_RELIGION_PAGAN_EGYPT",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_EGYPT_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_EGYPT",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -207,6 +258,12 @@
       {
         "zType": "RELIGION_PAGAN_GREECE",
         "Name": "TEXT_RELIGION_PAGAN_GREECE",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_GREECE_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_GREECE",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -218,6 +275,12 @@
       {
         "zType": "RELIGION_PAGAN_ROME",
         "Name": "TEXT_RELIGION_PAGAN_ROME",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_ROME_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_ROME",
         "iCostBase": "400",
         "iCostPerChange": "200",
@@ -229,6 +292,12 @@
       {
         "zType": "RELIGION_PAGAN_PERSIA",
         "Name": "TEXT_RELIGION_PAGAN_PERSIA",
+        "GenderedNames": {
+          "Pair": {
+            "First": "GENDER_FEMALE",
+            "Second": "TEXT_RELIGION_PAGAN_PERSIA_F"
+          }
+        },
         "zIconName": "RELIGION_PAGAN_PERSIA",
         "iCostBase": "400",
         "iCostPerChange": "200",

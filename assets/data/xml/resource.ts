@@ -60,6 +60,9 @@
         "aiYieldHarvest": {
           
         },
+        "aiYieldNoImprovement": {
+          
+        },
         "abTerrainValid": {
           
         },
@@ -83,6 +86,7 @@
         "iHarvestRoll": "6",
         "bNoVegetation": "1",
         "bClearVegetation": "1",
+        "bFadeWithUnits": "1",
         "aiYieldReveal": {
           "Pair": {
             "zIndex": "YIELD_STONE",
@@ -90,6 +94,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_STONE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_STONE",
             "iValue": "10"
@@ -142,6 +152,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_IRON",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -183,6 +199,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "10"
@@ -230,6 +252,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -272,6 +300,12 @@
             "iValue": "50"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -309,6 +343,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
             "iValue": "50"
@@ -361,6 +401,12 @@
             "iValue": "50"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -407,6 +453,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_LUSH",
@@ -442,6 +494,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "10"
@@ -487,6 +545,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "10"
@@ -543,6 +607,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_ARID",
@@ -591,6 +661,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_TEMPERATE",
@@ -627,6 +703,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_LUSH",
@@ -658,6 +740,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "10"
@@ -708,6 +796,12 @@
             "iValue": "50"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_ARID",
@@ -752,6 +846,12 @@
             "iValue": "50"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_MONEY",
+            "iValue": "50"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_TEMPERATE",
@@ -789,6 +889,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "10"
@@ -842,6 +948,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "10"
@@ -901,6 +1013,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": [
             {
@@ -948,6 +1066,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_LUSH",
@@ -984,6 +1108,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "10"
@@ -1030,6 +1160,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_TEMPERATE",
@@ -1062,6 +1198,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "10"
@@ -1110,6 +1252,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_TEMPERATE",
@@ -1141,6 +1289,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_CULTURE",
             "iValue": "10"
@@ -1182,6 +1336,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_WATER",
@@ -1200,7 +1360,7 @@
         "Name": "TEXT_RESOURCE_FISH",
         "AssetVariation": "ASSET_VARIATION_RESOURCE_FISH",
         "zIconName": "RESOURCE_FISH",
-        "iProbThousand": "20",
+        "iProbThousand": "15",
         "iBorderValue": "2000",
         "iHarvestCost": "1",
         "iHarvestRoll": "6",
@@ -1212,6 +1372,12 @@
           }
         },
         "aiYieldHarvest": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
+        "aiYieldNoImprovement": {
           "Pair": {
             "zIndex": "YIELD_FOOD",
             "iValue": "10"
@@ -1252,6 +1418,12 @@
             "iValue": "10"
           }
         },
+        "aiYieldNoImprovement": {
+          "Pair": {
+            "zIndex": "YIELD_FOOD",
+            "iValue": "10"
+          }
+        },
         "abTerrainValid": {
           "Pair": {
             "zIndex": "TERRAIN_WATER",
@@ -1264,6 +1436,61 @@
             "bValue": "1"
           }
         }
+      },
+      {
+        "zType": "RESOURCE_SILK",
+        "Name": "TEXT_RESOURCE_SILK",
+        "zIconName": "RESOURCE_SILK"
+      },
+      {
+        "zType": "RESOURCE_PORCELAIN",
+        "Name": "TEXT_RESOURCE_PORCELAIN",
+        "zIconName": "RESOURCE_PORCELAIN"
+      },
+      {
+        "zType": "RESOURCE_EXOTIC_FUR",
+        "Name": "TEXT_RESOURCE_EXOTIC_FUR",
+        "zIconName": "RESOURCE_EXOTIC_FUR"
+      },
+      {
+        "zType": "RESOURCE_EBONY",
+        "Name": "TEXT_RESOURCE_EBONY",
+        "zIconName": "RESOURCE_EBONY"
+      },
+      {
+        "zType": "RESOURCE_PERFUME",
+        "Name": "TEXT_RESOURCE_PERFUME",
+        "zIconName": "RESOURCE_PERFUME"
+      },
+      {
+        "zType": "RESOURCE_IVORY",
+        "Name": "TEXT_RESOURCE_IVORY",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
+      },
+      {
+        "zType": "RESOURCE_TEA",
+        "Name": "TEXT_RESOURCE_TEA",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
+      },
+      {
+        "zType": "RESOURCE_SPICES",
+        "Name": "TEXT_RESOURCE_SPICES",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
+      },
+      {
+        "zType": "RESOURCE_EXOTIC_ANIMALS",
+        "Name": "TEXT_RESOURCE_EXOTIC_ANIMALS",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
+      },
+      {
+        "zType": "RESOURCE_SILPHIUM",
+        "Name": "TEXT_RESOURCE_SILPHIUM",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
+      },
+      {
+        "zType": "RESOURCE_JADE",
+        "Name": "TEXT_RESOURCE_JADE",
+        "zIconName": "RESOURCE_GENERIC_LUXURY"
       }
     ]
   }

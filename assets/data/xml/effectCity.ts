@@ -201,6 +201,9 @@
         "aiYieldRateSpecialist": {
           
         },
+        "aiYieldRateSpecialistUrban": {
+          
+        },
         "aiYieldRateDefending": {
           
         },
@@ -322,10 +325,6 @@
             {
               "zIndex": "YIELD_MONEY",
               "iValue": "80"
-            },
-            {
-              "zIndex": "YIELD_FOOD",
-              "iValue": "40"
             }
           ]
         }
@@ -382,7 +381,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
-            "iValue": "40"
+            "iValue": "20"
           }
         }
       },
@@ -608,7 +607,18 @@
             "RESOURCE_OLIVE",
             "RESOURCE_WINE",
             "RESOURCE_DYE",
-            "RESOURCE_PEARL"
+            "RESOURCE_PEARL",
+            "RESOURCE_SILK",
+            "RESOURCE_PORCELAIN",
+            "RESOURCE_EXOTIC_FUR",
+            "RESOURCE_EBONY",
+            "RESOURCE_IVORY",
+            "RESOURCE_TEA",
+            "RESOURCE_SPICES",
+            "RESOURCE_EXOTIC_ANIMALS",
+            "RESOURCE_SILPHIUM",
+            "RESOURCE_JADE",
+            "RESOURCE_PERFUME"
           ]
         },
         "aiYieldRate": {
@@ -1112,18 +1122,18 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
+            "iValue": "-20"
           }
         },
         "aiImprovementClassModifier": {
           "Pair": [
             {
               "zIndex": "IMPROVEMENTCLASS_MONASTERY",
-              "iValue": "20"
+              "iValue": "50"
             },
             {
               "zIndex": "IMPROVEMENTCLASS_TEMPLE",
-              "iValue": "20"
+              "iValue": "50"
             }
           ]
         },
@@ -1922,7 +1932,7 @@
       {
         "zType": "EFFECTCITY_IMPROVEMENT_PANTHEON_STATE",
         "Name": "TEXT_IMPROVEMENT_PANTHEON",
-        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
         "SourceImprovement": "IMPROVEMENT_PANTHEON",
         "aiYieldRateCulture": {
           "Pair": {
@@ -2094,10 +2104,21 @@
         "zType": "EFFECTCITY_LAW_FREEDOM",
         "Name": "TEXT_LAW_FREEDOM",
         "SourceLaw": "LAW_FREEDOM",
-        "aiYieldRate": {
+        "aiYieldRateSpecialistUrban": {
           "Pair": {
             "zIndex": "YIELD_SCIENCE",
             "iValue": "10"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_LAW_FREEDOM_CAPITAL",
+        "Name": "TEXT_LAW_FREEDOM",
+        "SourceLaw": "LAW_FREEDOM",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_CULTURE",
+            "iValue": "20"
           }
         }
       },
@@ -2119,7 +2140,7 @@
         "aiYieldRateMilitary": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "100"
+            "iValue": "80"
           }
         }
       },
@@ -2130,7 +2151,7 @@
         "aiYieldRateSpecialist": {
           "Pair": {
             "zIndex": "YIELD_MONEY",
-            "iValue": "30"
+            "iValue": "40"
           }
         }
       },
@@ -2154,7 +2175,7 @@
       {
         "zType": "EFFECTCITY_LAW_MONOTHEISM_STATE",
         "Name": "TEXT_LAW_MONOTHEISM",
-        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
         "SourceLaw": "LAW_MONOTHEISM",
         "aiYieldRate": {
           "Pair": {
@@ -2202,7 +2223,7 @@
       {
         "zType": "EFFECTCITY_LAW_ORTHODOXY_STATE",
         "Name": "TEXT_LAW_ORTHODOXY",
-        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
         "SourceLaw": "LAW_ORTHODOXY",
         "aeHurryOrders": {
           "zValue": "BUILD_SPECIALIST"
@@ -2257,15 +2278,15 @@
             {
               "zIndex": "IMPROVEMENTCLASS_MONASTERY",
               "SubPair": {
-                "zSubIndex": "YIELD_CULTURE",
+                "zSubIndex": "YIELD_TRAINING",
                 "iValue": "20"
               }
             },
             {
               "zIndex": "IMPROVEMENTCLASS_TEMPLE",
               "SubPair": {
-                "zSubIndex": "YIELD_GROWTH",
-                "iValue": "20"
+                "zSubIndex": "YIELD_MONEY",
+                "iValue": "100"
               }
             },
             {
@@ -2413,7 +2434,7 @@
       {
         "zType": "EFFECTCITY_LAW_HOLY_WAR_STATE",
         "Name": "TEXT_LAW_HOLY_WAR",
-        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
         "SourceLaw": "LAW_HOLY_WAR",
         "aeHurryMoney": {
           "zValue": "BUILD_UNIT"
@@ -3592,6 +3613,61 @@
         }
       },
       {
+        "zType": "EFFECTCITY_GIVE_SILK",
+        "Name": "TEXT_PROJECT_GIVE_SILK",
+        "LuxuryResource": "RESOURCE_SILK"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_PORCELAIN",
+        "Name": "TEXT_PROJECT_GIVE_PORCELAIN",
+        "LuxuryResource": "RESOURCE_PORCELAIN"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_EXOTIC_FUR",
+        "Name": "TEXT_PROJECT_GIVE_EXOTIC_FUR",
+        "LuxuryResource": "RESOURCE_EXOTIC_FUR"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_EBONY",
+        "Name": "TEXT_PROJECT_GIVE_EBONY",
+        "LuxuryResource": "RESOURCE_EBONY"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_PERFUME",
+        "Name": "TEXT_PROJECT_GIVE_PERFUME",
+        "LuxuryResource": "RESOURCE_PERFUME"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_IVORY",
+        "Name": "TEXT_PROJECT_GIVE_IVORY",
+        "LuxuryResource": "RESOURCE_IVORY"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_TEA",
+        "Name": "TEXT_PROJECT_GIVE_TEA",
+        "LuxuryResource": "RESOURCE_TEA"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_SPICES",
+        "Name": "TEXT_PROJECT_GIVE_SPICES",
+        "LuxuryResource": "RESOURCE_SPICES"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_EXOTIC_ANIMALS",
+        "Name": "TEXT_PROJECT_GIVE_EXOTIC_ANIMALS",
+        "LuxuryResource": "RESOURCE_EXOTIC_ANIMALS"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_SILPHIUM",
+        "Name": "TEXT_PROJECT_GIVE_SILPHIUM",
+        "LuxuryResource": "RESOURCE_SILPHIUM"
+      },
+      {
+        "zType": "EFFECTCITY_GIVE_JADE",
+        "Name": "TEXT_PROJECT_GIVE_JADE",
+        "LuxuryResource": "RESOURCE_JADE"
+      },
+      {
         "zType": "EFFECTCITY_PROJECT_SWORD_CULT",
         "Name": "TEXT_PROJECT_SWORD_CULT",
         "SourceProject": "PROJECT_SWORD_CULT",
@@ -4569,13 +4645,13 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_DISCONTENT",
-            "iValue": "10"
+            "iValue": "-10"
           }
         },
         "aiYieldModifier": {
           "Pair": {
-            "zIndex": "YIELD_CULTURE",
-            "iValue": "20"
+            "zIndex": "YIELD_MONEY",
+            "iValue": "-20"
           }
         }
       },
@@ -4645,8 +4721,8 @@
         "SourceProject": "PROJECT_PAGAN_CULT_HEARTH",
         "aiYieldRate": {
           "Pair": {
-            "zIndex": "YIELD_DISCONTENT",
-            "iValue": "-10"
+            "zIndex": "YIELD_CIVICS",
+            "iValue": "10"
           }
         },
         "aiYieldModifier": {
@@ -5642,7 +5718,7 @@
       {
         "zType": "EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
         "Name": "TEXT_EFFECTCITY_TRAIT_ZEALOT_ARCHETYPE_STATE",
-        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_SOURCE",
+        "Source": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
         "SourceEffectPlayer": "EFFECTPLAYER_TRAIT_ZEALOT_ARCHETYPE",
         "bHurryTraining": "1"
       },
@@ -6212,7 +6288,7 @@
               "iValue": "50"
             },
             {
-              "zIndex": "IMPROVEMENT_PASTURE",
+              "zIndex": "IMPROVEMENT_GROVE",
               "iValue": "50"
             }
           ]
@@ -6229,7 +6305,7 @@
               "iValue": "20"
             },
             {
-              "zIndex": "IMPROVEMENT_PASTURE",
+              "zIndex": "IMPROVEMENT_GROVE",
               "iValue": "20"
             }
           ]
@@ -6246,7 +6322,7 @@
               "iValue": "50"
             },
             {
-              "zIndex": "IMPROVEMENT_GROVE",
+              "zIndex": "IMPROVEMENT_PASTURE",
               "iValue": "50"
             }
           ]
@@ -6263,7 +6339,7 @@
               "iValue": "20"
             },
             {
-              "zIndex": "IMPROVEMENT_GROVE",
+              "zIndex": "IMPROVEMENT_PASTURE",
               "iValue": "20"
             }
           ]
@@ -6352,6 +6428,225 @@
         "zType": "EFFECTCITY_UNIT_CARAVAN",
         "Name": "TEXT_UNIT_CARAVAN",
         "SourceUnit": "UNIT_CARAVAN"
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_WARDENS_OF_THE_WILDS",
+        "Name": "TEXT_PROJECT_WARDENS_OF_THE_WILDS",
+        "SourceProject": "PROJECT_WARDENS_OF_THE_WILDS",
+        "aiImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_FARM",
+            "iValue": "-10"
+          }
+        },
+        "aeFreePromotion": {
+          "zValue": "PROMOTION_TRACKER"
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_TRAINING_PITS",
+        "Name": "TEXT_PROJECT_TRAINING_PITS",
+        "SourceProject": "PROJECT_TRAINING_PITS",
+        "aiImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_QUARRY",
+            "iValue": "-5"
+          }
+        },
+        "aeFreePromotion": {
+          "zValue": "PROMOTION_FIERCE"
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_WARRIOR_TRADITION",
+        "Name": "TEXT_PROJECT_WARRIOR_TRADITION",
+        "SourceProject": "PROJECT_WARRIOR_TRADITION",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CIVICS",
+              "iValue": "-5"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "10"
+            }
+          ]
+        },
+        "aiImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_FARM",
+            "iValue": "-10"
+          }
+        },
+        "aeFreePromotion": {
+          "zValue": "PROMOTION_SHIELDBEARER"
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_MONUMENT_OF_HOPE",
+        "Name": "TEXT_PROJECT_MONUMENT_OF_HOPE",
+        "SourceProject": "PROJECT_MONUMENT_OF_HOPE",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_CULTURE",
+              "iValue": "25"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_ANTICAVALRY_TACTICS",
+        "Name": "TEXT_PROJECT_ANTICAVALRY_TACTICS",
+        "SourceProject": "PROJECT_ANTICAVALRY_TACTICS",
+        "aiYieldModifier": {
+          "Pair": {
+            "zIndex": "YIELD_TRAINING",
+            "iValue": "-10"
+          }
+        },
+        "aeFreePromotion": {
+          "zValue": "PROMOTION_HORSEBANE"
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_BY_THE_NUMBERS",
+        "Name": "TEXT_PROJECT_BY_THE_NUMBERS",
+        "SourceProject": "PROJECT_BY_THE_NUMBERS",
+        "aiYieldModifier": {
+          "Pair": {
+            "zIndex": "YIELD_MAINTENANCE",
+            "iValue": "-25"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "Name": "TEXT_PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "SourceProject": "PROJECT_SHRINE_OF_THE_UNKNOWN_GOD",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "YIELD_MONEY",
+              "iValue": "10"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_FORESTRY_GUILD",
+        "Name": "TEXT_PROJECT_FORESTRY_GUILD",
+        "SourceProject": "PROJECT_FORESTRY_GUILD",
+        "aiImprovementClassModifier": {
+          "Pair": {
+            "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
+            "iValue": "20"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "Name": "TEXT_PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "SourceProject": "PROJECT_CODEX_OF_HIGHLAND_WISDOM",
+        "aiImprovementClassModifier": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_LUMBERMILL",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_MINE",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_FARM",
+              "iValue": "5"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_QUARRY",
+              "iValue": "5"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_TRIBAL_FORUM",
+        "Name": "TEXT_PROJECT_TRIBAL_FORUM",
+        "SourceProject": "PROJECT_TRIBAL_FORUM",
+        "aiImprovementClassModifier": {
+          "Pair": [
+            {
+              "zIndex": "IMPROVEMENTCLASS_PASTURE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_MINE",
+              "iValue": "10"
+            },
+            {
+              "zIndex": "IMPROVEMENTCLASS_FARM",
+              "iValue": "10"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "Name": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "SourceProject": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_ZOO",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-10"
+            },
+            {
+              "zIndex": "YIELD_CULTURE",
+              "iValue": "20"
+            }
+          ]
+        }
+      },
+      {
+        "zType": "EFFECTCITY_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "Name": "TEXT_PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "SourceProject": "PROJECT_ZOOLOGICAL_SOCIETY_PROJECT_RESEARCH_CLOISTER",
+        "aiYieldModifier": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "30"
+          }
+        }
+      },
+      {
+        "zType": "EFFECTCITY_PROJECT_THE_SAND_PITS",
+        "Name": "TEXT_PROJECT_THE_SAND_PITS",
+        "SourceProject": "PROJECT_THE_SAND_PITS",
+        "aiYieldModifier": {
+          "Pair": [
+            {
+              "zIndex": "YIELD_TRAINING",
+              "iValue": "20"
+            },
+            {
+              "zIndex": "YIELD_DISCONTENT",
+              "iValue": "-20"
+            }
+          ]
+        }
       }
     ]
   }

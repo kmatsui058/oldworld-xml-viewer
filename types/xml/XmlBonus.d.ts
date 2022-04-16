@@ -40,7 +40,7 @@ export interface Entry {
   FreeLaw?: CharacterName;
   FoundReligion?: CharacterName;
   FreeTheology?: CharacterName;
-  Goal?: CharacterName;
+  GoalAdd?: CharacterName;
   GoalForce?: CharacterName;
   Ambition?: ZType | Name2 | string;
   AmbitionFamily?: CharacterName;
@@ -56,8 +56,10 @@ export interface Entry {
   SetResource?: CharacterName;
   AddResource?: ZType | Name2 | string;
   SetImprovement?: CharacterName;
-  AddImprovement?: ZType | Name2 | string;
+  AddImprovement?: CharacterName;
+  AddUrbanImprovement?: ZType | Name2 | string;
   SetSpecialist?: CharacterName;
+  BirthCharacter?: CharacterName;
   iSpreadUnits?: CharacterName;
   iRevealRange?: ZType | Name2 | string;
   iCitizens?: ZType | Name2 | string;
@@ -67,6 +69,7 @@ export interface Entry {
   iRebelUnits?: ZType | Name2 | string;
   iDestroyImprovements?: CharacterName;
   iHPCity?: ZType | Name2 | string;
+  iHPCityPercent?: ZType | Name2 | string;
   iHPUnit?: ZType | Name2 | string;
   iXPUnit?: ZType | Name2 | string;
   iXPCharacter?: ZType | Name2 | string;
@@ -98,7 +101,8 @@ export interface Entry {
   iConvertUnitSubject?: CharacterName;
   iMissionSubject?: CharacterName;
   iMissionReverse?: CharacterName;
-  iAmbitionFamilySubject?: CharacterName;
+  iAmbitionFamilySubject?: ZType | Name2 | string;
+  iAmbitionReligionSubject?: ZType | Name2 | string;
   bMissionFree?: CharacterName;
   bMercenaryUnit?: CharacterName;
   bRevealTerritory?: ZType | Name2 | string;
@@ -117,8 +121,10 @@ export interface Entry {
   bStartLaw?: ZType | Name2 | string;
   bFreeLaw?: ZType | Name2 | string;
   bFreeTheology?: ZType | Name2 | string;
+  bAddAmbition?: ZType | Name2 | string;
   bRandomTech?: ZType | Name2 | string;
   bDistantRaid?: CharacterName;
+  bAddAgentNetwork?: Name2;
   bLoseAgentNetwork?: Name2 | string;
   bConvertStateReligion?: ZType | Name2 | string;
   bNoCourtier?: ZType | Name2 | string;
@@ -160,8 +166,10 @@ export interface Entry {
   aiTribeUnits?: CharacterName;
   aiBonusUnits?: AiGlobalYieldsBase;
   aiRebelUnits?: CharacterName;
+  aeNewUnitNames?: Name2;
   aiLawOpinion?: CharacterName;
   aiRatings?: AiGlobalYieldsBase;
+  aiStats?: CharacterName;
   aeAddProjects?: AeAddProjects;
   aeRemoveProjects?: CharacterName;
   aeAddSpecialistClasses?: CharacterName;
@@ -181,11 +189,12 @@ export interface Entry {
   AddRelationshipReverse?: CharacterName;
   RemoveRelationshipSubjects?: CharacterName;
   RemoveRelationshipReverse?: CharacterName;
-  AddCourtierForce?: AddCourtierForce;
-  AddCourtier?: AddCourtierForce;
-  AddCourtierOther?: CharacterName;
+  AddCourtier?: AddCourtier;
+  AddCourtierOther?: AddCourtier;
+  AddTraitReligion?: CharacterName;
+  RemoveTraitReligion?: CharacterName;
 }
-export interface AddCourtierForce {
+export interface AddCourtier {
   comment?: string;
   Pair?: Pair3;
 }

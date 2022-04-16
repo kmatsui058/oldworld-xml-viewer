@@ -347,32 +347,16 @@
         "en-US": "{G0:He:She} will study Philosophy."
       },
       {
-        "zType": "TEXT_EVENTOPTION_STUDY_PHILOSOPHY_HELP",
-        "en-US": "Can lead to link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), or link(TRAIT_SCHOLAR_ARCHETYPE)"
-      },
-      {
         "zType": "TEXT_EVENTOPTION_STUDY_POLITICS",
         "en-US": "{G0:He:She} will study Politics."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_STUDY_POLITICS_HELP",
-        "en-US": "Can lead to link(TRAIT_HERO_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_JUDGE_ARCHETYPE), link(TRAIT_SCHOLAR_ARCHETYPE), or link(TRAIT_DIPLOMAT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_TACTICS",
         "en-US": "{G0:He:She} will study Tactics."
       },
       {
-        "zType": "TEXT_EVENTOPTION_STUDY_TACTICS_HELP",
-        "en-US": "Can lead to link(TRAIT_HERO_ARCHETYPE), link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_TACTICIAN_ARCHETYPE), link(TRAIT_ZEALOT_ARCHETYPE), or link(TRAIT_SCHEMER_ARCHETYPE)"
-      },
-      {
         "zType": "TEXT_EVENTOPTION_STUDY_COMMERCE",
         "en-US": "{G0:He:She} will study Commerce."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_STUDY_COMMERCE_HELP",
-        "en-US": "Can lead to link(TRAIT_COMMANDER_ARCHETYPE), link(TRAIT_SCHEMER_ARCHETYPE), link(TRAIT_ORATOR_ARCHETYPE), link(TRAIT_BUILDER_ARCHETYPE), or link(TRAIT_DIPLOMAT_ARCHETYPE)"
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_EXPLORING",
@@ -796,7 +780,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_IMPERFECT_MADE_PERFECT_0",
-        "en-US": "Do not lecture a {G3:king:queen}."
+        "en-US": "Do not lecture a {TITLE-3}."
       },
       {
         "zType": "TEXT_EVENTOPTION_IMPERFECT_MADE_PERFECT_1",
@@ -828,7 +812,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_WAR_IN_THE_STARS_0",
-        "en-US": "Offer extra sacrifices to Tishtriya."
+        "en-US": "Offer extra sacrifices to Tishtrya."
       },
       {
         "zType": "TEXT_EVENTOPTION_WAR_IN_THE_STARS_1",
@@ -1048,11 +1032,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FIGHTING_FOR_THE_DIVINE_0",
-        "en-US": "My blade belongs to {p.is_sub.S0=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S0=SUBJECT_RELIGION_PAGAN:the gods:God}."
+        "en-US": "My blade belongs to {S0.GOD}."
       },
       {
         "zType": "TEXT_EVENTOPTION_FIGHTING_FOR_THE_DIVINE_2",
-        "en-US": "May {p.is_sub.S0=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S0=SUBJECT_RELIGION_PAGAN:the gods:God} bless my sword."
+        "en-US": "May {S0.GOD} bless my sword."
       },
       {
         "zType": "TEXT_EVENTOPTION_ZOROASTRIANISM_FOUNDED_THEM_STATE_0",
@@ -1084,7 +1068,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DIVINE_PUNISHMENT_1",
-        "en-US": "Order extra worship to appease {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}."
+        "en-US": "Order extra worship to appease {S2.GOD}."
       },
       {
         "zType": "TEXT_EVENTOPTION_DIVINE_PUNISHMENT_2",
@@ -1092,7 +1076,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_0",
-        "en-US": "Ratify the marriage before {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGANISM:the gods:God}."
+        "en-US": "Ratify the marriage before {S1.GOD}."
       },
       {
         "zType": "TEXT_EVENTOPTION_RETURNED_TO_THE_FOLD_1",
@@ -1309,10 +1293,6 @@
       {
         "zType": "TEXT_EVENTOPTION_JACHIN_AND_BOAZ_2",
         "en-US": "Decline and proceed inside."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_JACHIN_AND_BOAZ_TOOLTIP",
-        "en-US": "{CHARACTER-3} will owe {CHARACTER-2} a favor."
       },
       {
         "zType": "TEXT_EVENTOPTION_ASHERAH_0",
@@ -1540,7 +1520,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_RETURNING_THE_FAVOR_TOOLTIP",
-        "en-US": "I no longer owe {CHARACTER-0}"
+        "en-US": "I no longer owe {CHARACTER-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_RIVAL_AT_THE_BRIDGE_0",
@@ -1668,7 +1648,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_REJECTED_0",
-        "en-US": "Your {G2:king:queen} demands it."
+        "en-US": "Your {TITLE-2} demands it."
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_REJECTED_1",
@@ -1724,7 +1704,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGIOUS_ABDICATION_1",
-        "en-US": "If that is {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda’s:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods’:God’s} will, then so be it."
+        "en-US": "If that is {S1.GOD,3} will, then so be it."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGIOUS_ABDICATION_2",
@@ -1900,7 +1880,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_LEADER_LOVED_SPREAD_VISIBLE_MISMATCH_HELP",
-        "en-US": "{G0:He:She} is cute though."
+        "en-US": "{G1:He:She} is cute though."
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_RELIGION_REJECTED_0",
@@ -2008,7 +1988,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_DONATION_2",
-        "en-US": "We need money to aid {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods:God}. Lots of money."
+        "en-US": "We need money to aid {S1.GOD}. Lots of money."
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_TRUCE_0",
@@ -2344,7 +2324,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SPARRING_PARTNERS_2",
-        "en-US": "Fighting {G1:him:her} with real blades will test your metal."
+        "en-US": "Fighting {G1:him:her} with real blades will test your mettle."
       },
       {
         "zType": "TEXT_EVENTOPTION_YOUNG_HERO_0",
@@ -2963,7 +2943,7 @@
         "en-US": "These lands are crowded. Let’s make room for expansion."
       },
       {
-        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_FIVE_TRIBE_CLEARED",
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_5_KILLS_SIX_TRIBE_CLEARED",
         "en-US": "These lands are crowded. Let’s make room for expansion."
       },
       {
@@ -3432,7 +3412,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_CLIENTA_2",
-        "en-US": "I am {G0:king:queen}. All shall respect me no matter what."
+        "en-US": "I am {TITLE-0}. All shall respect me no matter what."
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_IDEAL_KING_0",
@@ -3596,7 +3576,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_GYMNASIUM_2",
-        "en-US": "Horse and running races to find swiftest among us."
+        "en-US": "Horse and running races to find the swiftest among us."
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_GYMNASIUM_3",
@@ -3636,15 +3616,15 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_WISDOM_TEXTS_0",
-        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:The Debate Between a Man and his Soul:Dialogue between a Man and His God}"
+        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:The Debate Between a Man and his Soul:Dialogue between a Man and His God}."
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_WISDOM_TEXTS_1",
-        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:The Maxims of Ptahhotep:The Poem of the Righteous Sufferer}"
+        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:The Maxims of Ptahhotep:The Poem of the Righteous Sufferer}."
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_WISDOM_TEXTS_2",
-        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:A Prayer to Re-Har-akhti:Debate Between Winter and Summer}"
+        "en-US": "{p.is_sub.S0=SUBJECT_PLAYER_EGYPT:A Prayer to Re-Har-akhti:Debate Between Winter and Summer}."
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_IMMORTALITY_OF_WRITERS_0",
@@ -3732,7 +3712,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_SELF_BEFORE_GOD_2",
-        "en-US": "\"We are all the same before {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}.\""
+        "en-US": "\"We are all the same before {S2.GOD}.\""
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_SELF_FOOL_0",
@@ -3763,7 +3743,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_SELF_ALL_THINGS_1",
-        "en-US": "Explain that you believe it comes from a unique connection with {p.is_sub.S2=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S2=SUBJECT_RELIGION_PAGAN:the gods:God}."
+        "en-US": "Explain that you believe it comes from a unique connection with {S2.GOD}."
       },
       {
         "zType": "TEXT_EVENTOPTION_CONVERT_SELF_ALL_THINGS_2",
@@ -4090,6 +4070,18 @@
         "en-US": "This is only the beginning!"
       },
       {
+        "zType": "TEXT_EVENTOPTION_WAYWARD_SON_0",
+        "en-US": "Take him into custody, and make sure {PLAYER-1} learns of our leverage."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WAYWARD_SON_1",
+        "en-US": "Support his dreams of leading an artistic community in {CITY-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WAYWARD_SON_2",
+        "en-US": "Convince him to return to his homeland and heal the divide between our nations."
+      },
+      {
         "zType": "TEXT_EVENTOPTION_RAID_FAMILY_FURY_0",
         "en-US": "Promise to defend {CITY-0} to the last."
       },
@@ -4343,7 +4335,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_A_TIME_TO_KILL_FAST",
-        "en-US": "The sooner {G0:He’s:She’s} dead the better!"
+        "en-US": "The sooner {G0:he’s:she’s} dead the better!"
       },
       {
         "zType": "TEXT_EVENTOPTION_A_TIME_TO_KILL_SAFE",
@@ -4690,6 +4682,694 @@
         "en-US": "{PLAYER-1} must pay for their heathen ways."
       },
       {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_SIX_TREASURIES",
+        "en-US": "Expand national link(EFFECTCITY_PROJECT_TREASURY,2) at once."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_FOUR_MARKET_2",
+        "en-US": "Bolster the economy to support our growing army."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_5_KILLS_GENERAL",
+        "en-US": "I will personally oversee the deployment of our troops."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_15_KILLS",
+        "en-US": "Put the army to practical use."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_20_KILLS",
+        "en-US": "Put the army to practical use."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_TEN_PROMOTIONS",
+        "en-US": "Have our soldiers focus their training on specialized skills."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_TWO_MAX_LEVEL_UNIT",
+        "en-US": "Have our soldiers focus their training on specialized skills."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_PROFESSIONAL_ARMY_OPTION_GOAL_FIVE_SWORDSMAN_PIKEMAN",
+        "en-US": "Train the finest infantry available."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_SCHEMER",
+        "en-US": "Agree. Nothing says that you have to fight fair..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_30_POPULATION",
+        "en-US": "{PLAYER-0}’s numbers first must grow in order to support the war effort."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_100_POPULATION",
+        "en-US": "{PLAYER-0}’s numbers first must grow in order to support the war effort."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_MOUNTED",
+        "en-US": "Begin training volunteers at once."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_THREE_SIEGE",
+        "en-US": "Begin training volunteers at once."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_LONGBOWMAN_CROSSBOWMAN",
+        "en-US": "Begin training volunteers at once."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_FIVE_SWORDSMAN_PIKEMAN",
+        "en-US": "Begin training volunteers at once."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_TWO_CAPTURE_CITIES",
+        "en-US": "Let’s waste no time. We are ready for war!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_VOLUNTEERS_OPTION_GOAL_ONE_CAPITAL",
+        "en-US": "Let’s waste no time. We are ready for war!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_KILLS_2",
+        "en-US": "Prove your worth on the field of battle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_SWORDSMAN_2",
+        "en-US": "Dismiss these claims by the might of your armies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_NO_2",
+        "en-US": "Rise above the baseless claims."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_OR_MERCHANT_OPTION_2",
+        "en-US": "{G0:He:She} shall marry neither."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_TRIBE_PEACE_OPTION_2",
+        "en-US": "{G0:He:She} shall marry neither."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_FARMERS",
+        "en-US": "{PLAYER-0}’s food production could be made yet more efficient."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SERFDOM",
+        "en-US": "{PLAYER-0}’s food production could be made yet more efficient."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_GRANARY",
+        "en-US": "{PLAYER-0}’s food production could be made yet more efficient."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOOD_800",
+        "en-US": "{PLAYER-0}’s food production could be made yet more efficient."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_20_GOODS_TURN",
+        "en-US": "It’s time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_FOUR_CITIES",
+        "en-US": "We now have the means to expand {PLAYER-0} into new lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SEVEN_CITIES",
+        "en-US": "We now have the means to expand {PLAYER-0} into new lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_SIX_URBAN_IMPROVEMENTS",
+        "en-US": "Those within our cities should benefit from the surplus."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_400_OPTION_20_URBAN_IMPROVEMENTS",
+        "en-US": "Those within our cities should benefit from the surplus."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_SEVEN_CITIES",
+        "en-US": "{PLAYER-0} is well prepared for expansion."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_TEN_CITIES",
+        "en-US": "{PLAYER-0} is well prepared for expansion."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_10_SPECIALISTS",
+        "en-US": "Our citizens should benefit from this surplus."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_20_SPECIALISTS",
+        "en-US": "Our citizens should benefit from this surplus."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_5_ELDER_SPECIALISTS",
+        "en-US": "Our citizens should benefit from this surplus."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_20_GOODS_TURN",
+        "en-US": "It’s time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FOOD_800_OPTION_50_GOODS_TURN",
+        "en-US": "It’s time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_WOOD_800",
+        "en-US": "This is a good start, but we must further enhance our forestry operations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_FOUR_WOODCUTTERS",
+        "en-US": "This is a good start, but we must further enhance our forestry operations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_STONE_800",
+        "en-US": "It’s time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_20_GOODS_TURN",
+        "en-US": "It’s time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_HANGING_GARDENS",
+        "en-US": "We will build magnificent gardens, second to no other."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_MUSAEUM",
+        "en-US": "The construction of a grand Musaeum is the only project worthy of {PLAYER-0,1} lumber."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_FOUR_MARKET_1",
+        "en-US": "With this lumber we will construct a framework of link(IMPROVEMENT_MARKET_1,2) to bolster the economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_400_OPTION_NATURALIST",
+        "en-US": "My calling is clear."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WILDERNESS_BEYOND_OPTION_MARBLE",
+        "en-US": "link(RESOURCE_MARBLE,1) to shape into great cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WILDERNESS_BEYOND_OPTION_ORE",
+        "en-US": "link(RESOURCE_ORE,1) to prepare us for the struggles ahead."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WILDERNESS_BEYOND_OPTION_NO",
+        "en-US": "We will find what we need on our own."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_WOODCUTTERS",
+        "en-US": "No! I must share my knowledge with others."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FIVE_LONGBOWMAN_CROSSBOWMAN",
+        "en-US": "It seems a waste, but I suppose we could put this wood to more practical use."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_AUTARKY",
+        "en-US": "I’m merely setting {PLAYER-0} on the path to self-sufficiency."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_20_GOODS_TURN",
+        "en-US": "Yes. I suppose it is time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_50_GOODS_TURN",
+        "en-US": "Yes. I suppose it is time to diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_MUSAEUM",
+        "en-US": "The construction of a grand Musaeum is the only project worthy of {PLAYER-0,1} lumber."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_VIA_RECTA_SOUK",
+        "en-US": "I know of no better use for this lumber than to aid in the construction of link(IMPROVEMENT_VIA_RECTA_SOUK)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_MARKET_1",
+        "en-US": "With this lumber we will construct a framework of link(IMPROVEMENT_MARKET_1,2) to bolster the economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_FOUR_MARKET_2",
+        "en-US": "With this lumber we will construct a framework of link(IMPROVEMENT_MARKET_2,2) to bolster the economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_WOOD_800_OPTION_NATURALIST",
+        "en-US": "I have but one calling. Do not mock me!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_0",
+        "en-US": "This could work. Thank the {TRIBE-0} for their aid."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_1",
+        "en-US": "The risk is too high. We will defeat {PLAYER-1} by more conventional means."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_PEACE",
+        "en-US": "Perhaps closer ties with the {TRIBE-0} could be arranged."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_VOICE_BREAKS_THROUGH_OPTION_ALLIANCE",
+        "en-US": "Perhaps closer ties with the {TRIBE-0} could be arranged."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IRON_AND_ANGUISH_OPTION_INVASION",
+        "en-US": "None shall misread our borders once they’re marked in {TRIBE-1,1} blood!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IRON_AND_ANGUISH_OPTION_PACIFY",
+        "en-US": "Tell the {TRIBE-1} that we mean them no harm."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IRON_AND_ANGUISH_OPTION_COURTIER",
+        "en-US": "Reassure them of our intentions by inviting a representative to live among us."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_STONECUTTERS",
+        "en-US": "We must further improve the craft of stoneworking."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_ENGINEERING",
+        "en-US": "We must further improve the craft of stoneworking."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_REPAIRED",
+        "en-US": "Repairs are our top priority."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_SIX_URBAN_IMPROVEMENTS",
+        "en-US": "Our cities shall be built on a sturdy foundation."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_20_URBAN_IMPROVEMENTS",
+        "en-US": "Our cities shall be built on a sturdy foundation."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_FOUR_THEATER_1",
+        "en-US": "I have something grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_PYRAMIDS",
+        "en-US": "I have something grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_GREAT_ZIGGURAT",
+        "en-US": "I have something grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_NECROPOLIS",
+        "en-US": "I have something grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_400_OPTION_APADANA",
+        "en-US": "I have something grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_ENGINEERING",
+        "en-US": "We will perfect {PLAYER-0,1} construction techniques."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_AUTARKY",
+        "en-US": "We are on the path to self-sufficiency."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_20_URBAN_IMPROVEMENTS",
+        "en-US": "Lay the stone as foundation for our sturdy cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_50_URBAN_TILES",
+        "en-US": "Lay the stone as foundation for our sturdy cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_100_URBAN_TILES",
+        "en-US": "Lay the stone as foundation for our sturdy cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_FOUR_THEATER_2",
+        "en-US": "I have something quite grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_NECROPOLIS",
+        "en-US": "I have something quite grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_APADANA",
+        "en-US": "I have something quite grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_MAUSOLEUM",
+        "en-US": "I have something quite grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_STONE_800_OPTION_ACROPOLIS",
+        "en-US": "I have something quite grand in mind!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_5_KILLS",
+        "en-US": "Let’s put this iron to use"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_10_KILLS",
+        "en-US": "Let’s put this iron to use"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_WOOD_400",
+        "en-US": "For a robust army we first will need wood."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_WOOD_800",
+        "en-US": "For a robust army we first will need wood."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_SIX_BARRACKS_RANGES",
+        "en-US": "Our army needs proper training before going into battle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_FOUR_MINERS",
+        "en-US": "Dig deeper. The land has more to give."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_400_OPTION_IRON_800",
+        "en-US": "Dig deeper. The land has more to give."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_10_KILLS",
+        "en-US": "It is time to show our enemies what {PLAYER-0,1} iron can do!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_15_KILLS",
+        "en-US": "It is time to show our enemies what {PLAYER-0,1} iron can do!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_TWO_CAPTURE_CITIES",
+        "en-US": "It is time to show our enemies what {PLAYER-0,1} iron can do!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_ONE_CAPITAL",
+        "en-US": "It is time to show our enemies what {PLAYER-0,1} iron can do!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_20_GOODS_TURN",
+        "en-US": "We must diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_50_GOODS_TURN",
+        "en-US": "We must diversify {PLAYER-0}’s production."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_SEVEN_CITIES",
+        "en-US": "With our military supply lines secured, {PLAYER-0} is primed for expansion."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_IRON_800_OPTION_TEN_CITIES",
+        "en-US": "With our military supply lines secured, {PLAYER-0} is primed for expansion."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AUTONOMOUS_LIBERTIES_OPTION_PAY",
+        "en-US": "Very well. I trust {CHARACTER-SHORT-1}’s judgment."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AUTONOMOUS_LIBERTIES_OPTION_REMOVE",
+        "en-US": "{CHARACTER-SHORT-1} is taking advantage of {G1:his:her} position. This experiment must end."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AUTONOMOUS_LIBERTIES_OPTION_FRIEND",
+        "en-US": "I will work with my friend {CHARACTER-SHORT-1} to find the funds elsewhere in {CITY-2}’s budget."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_RESOURCE_IMPROVEMENTS",
+        "en-US": "Have our workers tame these wild lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_URBAN_IMPROVEMENTS",
+        "en-US": "Let’s focus on developing our urban centres."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_20_URBAN_IMPROVEMENTS",
+        "en-US": "Let’s focus on developing our urban centres."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_GARRISON_1",
+        "en-US": "We must build the infrastructure needed for proper governance of our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_GARRISON_2",
+        "en-US": "We must build the infrastructure needed for proper governance of our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_THEATER_1",
+        "en-US": "See that our workers focus on developing cultural attractions in our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_FOUR_THEATER_2",
+        "en-US": "See that our workers focus on developing cultural attractions in our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_FIVE_WORKERS_OPTION_SIX_BARRACKS_RANGES",
+        "en-US": "We must build military training grounds in preparation for the struggles to come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_0_2",
+        "en-US": "Send scouts to find new resources and landmarks."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_1_2",
+        "en-US": "Mark out land for your cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_2_2",
+        "en-US": "Focus on your current cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LAWS_OF_ROME_OPTION_3",
+        "en-US": "Send troops to imprison {CHARACTER-SHORT-0} immediately."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LAWS_OF_ROME_OPTION_3_HELP",
+        "en-US": "I am not taking any chances!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CRISIS_ON_THE_BORDER_0",
+        "en-US": "Send them whatever food they need in order to get them through the current crisis."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CRISIS_ON_THE_BORDER_1",
+        "en-US": "Send food yes, but engineer a trade. They have warriors of renown and we could use them to bolster our own ranks."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CRISIS_ON_THE_BORDER_2",
+        "en-US": "Sadly, we are in no position to help them. Leave them to their own devices."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BUDDING_CONNECTIONS_0",
+        "en-US": "Investing in the future security of the Realm is always a good thing."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BUDDING_CONNECTIONS_1",
+        "en-US": "Encourage them to continue training together, but do not formally invite {CHARACTER-1} to Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MORE_PROSPEROUS_FUTURE_0",
+        "en-US": "We should absolutely pay to bring {CHARACTER-1} to Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MORE_PROSPEROUS_FUTURE_1",
+        "en-US": "I think no...instead of that, let us fund a caravan and send {CHARACTER-3} with it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MORE_PROSPEROUS_FUTURE_2",
+        "en-US": "Encourage {CHARACTER-3} to learn from {CHARACTER-1}, but do not formally bring {G1:him:her} to Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_NO",
+        "en-US": "{CHARACTER-SHORT-4} will not dictate {PLAYER-1,1} rule!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_YES",
+        "en-US": "Very well. I will do it for {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_REGAL",
+        "en-US": "We will instead invite a member of the {PLAYER-0,1} nobility to join our court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_FOREIGN_RULE_OPTION_CONSPIRATOR",
+        "en-US": "{CHARACTER-SHORT-4} is a fool, but surely this envoy can teach us things we don’t yet know."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_TEN_PROMOTIONS",
+        "en-US": "Run strict military drills to harden our troops."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_TWO_MAX_LEVEL_UNIT",
+        "en-US": "Run strict military drills to harden our troops."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_EIGHT_GENERALS",
+        "en-US": "Appoint generals to lead our forces."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_REVEAL_40",
+        "en-US": "Train our scouts to peak physical form, so they might march beyond the limits of ordinary explorers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_TRAINING_2000_OPTION_REVEAL_60",
+        "en-US": "Train our scouts to peak physical form, so they might march beyond the limits of ordinary explorers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_FOUR_LAWS",
+        "en-US": "Laws must be established to secure order in our growing nation."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_EIGHT_LAWS",
+        "en-US": "Laws must be established to secure order in our growing nation."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_EIGHT_TECHS",
+        "en-US": "Refocus our legislative efforts on scientific discovery."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_TWO_WONDERS",
+        "en-US": "I have some ideas for elaborate construction projects to keep the people busy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_FOUR_GOVERNORS",
+        "en-US": "Send the troublemakers to separate cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_CIVICS_2000_OPTION_EIGHT_GOVERNORS",
+        "en-US": "Send the troublemakers to separate cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_NO",
+        "en-US": "Alas, peace is not the best path forward for {PLAYER-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_TRUCE",
+        "en-US": "Very well. Let us end this war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_PEACE",
+        "en-US": "You are right, {CHARACTER-SHORT-2}. Please accept this gift of good will, and let our nations move forward together."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SHARED_HISTORIES_OPTION_DEATH",
+        "en-US": "You should not have come here, {CHARACTER-SHORT-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_TRUCE",
+        "en-US": "Yes. Let’s focus on the greater threat."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_NO",
+        "en-US": "We have no qualms with {PLAYER-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_SLANDER",
+        "en-US": "There are more subtle ways to deal with {PLAYER-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_HOSTAGE",
+        "en-US": "Guards, arrest this trespasser."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_OPTION_HOSTAGE_HELP",
+        "en-US": "You never know when a hostage might prove useful…"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_3",
+        "en-US": "The child will be raised as a political prisoner in our court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_TRUCE",
+        "en-US": "May {RELIGION-2} unite our people."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_TRUCE_MINISTER",
+        "en-US": "Call an end to the war and invite one of the visiting {S2.PRIEST,2} to the court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO",
+        "en-US": "Devoted followers of {RELIGION-2} are always welcome in {CITY-3}, but the war is a separate matter."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_SOLEMN_PROCESSION_OPTION_NO_RELIGION",
+        "en-US": "{PLAYER-0,1} ways have corrupted {RELIGION-2}. We want nothing to do with either."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_WAR_AMONG_FRIENDS_OPTION_TRUCE",
+        "en-US": "In the name of friendship!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_WAR_AMONG_FRIENDS_OPTION_PEACE",
+        "en-US": "Let’s never fight again."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_WAR_AMONG_FRIENDS_OPTION_NO",
+        "en-US": "Actually, I’ve changed my mind."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_GUILDS",
+        "en-US": "We will empower our merchants by establishing link(LAW_GUILDS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_TRADE_LEAGUE",
+        "en-US": "I will establish a link(LAW_TRADE_LEAGUE) to further strengthen the economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_MONETARY_REFORM",
+        "en-US": "I will strengthen the economy through link(LAW_MONETARY_REFORM)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_MONEY_5000",
+        "en-US": "There is plenty of room left in {PLAYER-0}’s coffers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_MONEY_10000",
+        "en-US": "There is plenty of room left in {PLAYER-0}’s coffers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_FOUR_CARAVANS",
+        "en-US": "Let’s broaden the markets through trade with our neighbours."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_SIX_CONVOYS",
+        "en-US": "Let’s broaden the markets through trade with our neighbours."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_DOCTRINE_FISCAL_POLICY",
+        "en-US": "Let’s develop new ways to mature our economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_MONEY_2000_OPTION_PROSPEROUS",
+        "en-US": "{PLAYER-0} is prosperous enough already."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_OK",
+        "en-US": "So be it. {CHARACTER-SHORT-2} had {G2:his:her} chance."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_APOLOGY",
+        "en-US": "Apologize to {CHARACTER-SHORT-2}, begging {G2:him:her} for forgiveness."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_VAIN",
+        "en-US": "Appeal to {CHARACTER-SHORT-2}’s vanity with compliments and gifts."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_OPTION_THOUGHTFUL",
+        "en-US": "Surely there must be some way to reason with {CHARACTER-SHORT-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_AFAR_OPTION_OK",
+        "en-US": "Well, I suppose we have more important matters closer to home."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_AFAR_OPTION_AMBITION",
+        "en-US": "{CHARACTER-SHORT-2} will regret this."
+      },
+      {
         "beginGroup": "Exploration",
         "zType": "TEXT_EVENTOPTION_RUINS_SURVIVORS_INVITE",
         "en-US": "Invite them to resettle in our nation."
@@ -4712,7 +5392,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_CARVED_WALL_TAKE",
-        "en-US": "Advise? I command! Bring the wall to {CITY-0}!"
+        "en-US": "Advise? I command! Bring the wall to {CITY-2}!"
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_CARVED_WALL_LEAVE",
@@ -4820,7 +5500,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_TRIBAL_HUNTERS_OBSERVE",
-        "en-US": "Invite them to settle with us.."
+        "en-US": "Invite them to settle with us."
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_STAR_CHARTS_YOUTH",
@@ -4840,7 +5520,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_FRUIT_TREES_CULTURE",
-        "en-US": "Let our artists gaze on the scene for inspiration."
+        "en-US": "Let these trees inspire our artists and thinkers."
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_OLD_SOLDIER_MILITARY_DRILL",
@@ -4916,7 +5596,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SACRED_TOMB_DESTROY",
-        "en-US": "There will be no {G1:King:Queen} but me. Destroy it!"
+        "en-US": "There will be no {TITLE-1} but me. Destroy it!"
       },
       {
         "zType": "TEXT_EVENTOPTION_SACRED_TOMB_STUDY",
@@ -5352,7 +6032,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_STRANGE_ART_KEEP",
-        "en-US": "Display it in {CITY-0}!"
+        "en-US": "It should inspire us -- display it in {CITY-0}!"
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_STRANGE_ART_SELL",
@@ -5379,6 +6059,10 @@
         "en-US": "Heed his advice on trade."
       },
       {
+        "zType": "TEXT_EVENTOPTION_RUINS_WISE_MAN_NONE",
+        "en-US": "Trust only your own instincts."
+      },
+      {
         "zType": "TEXT_EVENTOPTION_RUINS_GIANT_STATUE_CARVE",
         "en-US": "I shall have the statue repaired in my own image."
       },
@@ -5397,6 +6081,10 @@
       {
         "zType": "TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_SCIENCE",
         "en-US": "A fascinating observation!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_COMET_SIGHTED_NONE",
+        "en-US": "It is none of our concern."
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_CHOSEN_CHILD_ADOPT",
@@ -5448,7 +6136,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RUINS_STRANGE_MEDICINE_OPTION_NO",
-        "en-US": "I’m not waging my life on unproven remedies."
+        "en-US": "I’m not wagering my life on unproven remedies!"
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_AMBITION_REVEAL",
@@ -5459,11 +6147,7 @@
         "en-US": "Yes, let's explore these lands by expanding our nation."
       },
       {
-        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_FIVE_TRIBE_CLEARED",
-        "en-US": "I find these lands crowded. Let's give {PLAYER-0} room to expand."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_SEVEN_TRIBE_CLEARED",
+        "zType": "TEXT_EVENTOPTION_AMBITION_FINISHED_EXPLORATION_OPTION_SIX_TRIBE_CLEARED",
         "en-US": "I find these lands crowded. Let's give {PLAYER-0} room to expand."
       },
       {
@@ -5512,7 +6196,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DRUIDS_OF_THE_FOREST_2",
-        "en-US": "Send priests and naturalists out to study these Druids, and see what we might learn from their ways."
+        "en-US": "Send priests out to study these Druids and see what we might learn from their ways."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_EXPLORING_PILGRIMAGE_OPTION_0",
@@ -5556,11 +6240,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DRUIDS_OF_THE_FOREST_FOLLOWUP_OPTION_0",
-        "en-US": "Yes, {CHARACTER-SHORT-0}, stay among the Druids awhile. When ready, return to us with what you've learned."
+        "en-US": "Stay and, when ready, return to us with what you've learned."
       },
       {
         "zType": "TEXT_EVENTOPTION_DRUIDS_OF_THE_FOREST_FOLLOWUP_OPTION_1",
-        "en-US": "Foreign creeds hold no interest for me. Keep exploring until you find something of real value!"
+        "en-US": "Foreign creeds hold no interest for me. Go and find something of real value!"
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_LAND_OF_THE_MIDNIGHT_SUN_FOLLOWUP_OPTION_0",
@@ -5675,12 +6359,32 @@
         "en-US": "They must have found something valuable to fight over. Kill them all!"
       },
       {
+        "zType": "TEXT_EVENTOPTION_RUINS_RIVAL_EXPEDITION_0",
+        "en-US": "Capture the young noble, and seize the trove."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_RIVAL_EXPEDITION_1",
+        "en-US": "Offer apologies and promises of friendship."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_RIVAL_EXPEDITION_2",
+        "en-US": "Beg forgiveness for your crude maps of mighty {PLAYER-0}, and ask for corrections."
+      },
+      {
         "zType": "TEXT_EVENTOPTION_HARVEST_TAKING_TROPHIES_ONE",
         "en-US": "Indeed, off with its head!"
       },
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_TAKING_TROPHIES_TWO",
         "en-US": "No, it wouldn’t be right."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_0",
+        "en-US": "Make a legal claim to local hunting rights, and imprison the young noble as a poacher."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HARVEST_HUNTING_ACCIDENT_1",
+        "en-US": "Provide for her recovery and send her on her way."
       },
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_HORSING_ONE",
@@ -5793,6 +6497,190 @@
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_SEEING_SERPENTS_ONE",
         "en-US": "What an amazing creature!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HARVEST_SEEING_SERPENTS_TWO",
+        "en-US": "We must be prepared if it poses a danger."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_SILK_A",
+        "en-US": "Cease talking and accept my coin!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_SILK_B",
+        "en-US": "I cannot afford that!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_SILK_C",
+        "en-US": "Perhaps we can discuss the price…"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_SILK_D",
+        "en-US": "Rough wool and leather is all I need."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_PERFUME_ONE_PERFUME_TRADE_YES",
+        "en-US": "I can’t turn my nose up at this!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_PERFUME_ONE_PERFUME_TRADE_NO",
+        "en-US": "I smell fine as it is."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_IVORY_TRADE_IVORY_YES",
+        "en-US": "I’ll take a trunkful!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADE_IVORY_TRADE_IVORY_NO",
+        "en-US": "Forget it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_START_EXPEDITION_CENTERAL_ASIA_START_YES",
+        "en-US": "A wonderful opportunity. Of course!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_START_EXPEDITION_CENTERAL_ASIA_START_NO",
+        "en-US": "What can foreign lands offer {PLAYER-0}? Begone!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_START_EXPEDITION_CENTERAL_ASIA_START_NO_HELP",
+        "en-US": "{PLAYER-0} is clearly superior!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_CONTACT_EXPEDITION_CENTERAL_ASIA_CONTACT_GOOD",
+        "en-US": "Whatever the cost!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_CONTACT_EXPEDITION_CENTERAL_ASIA_CONTACT_BAD",
+        "en-US": "No, you’ve had enough. Do what you must."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_RESULTS_ONE_RESULTS",
+        "en-US": "What luxuries!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_TWO_YES",
+        "en-US": "Of course!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_TWO_NO",
+        "en-US": "Once was enough."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_CONTACT_TWO_GOOD_GOOD_NEWS",
+        "en-US": "Excellent news!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_CONTACT_TWO_BAD_BAD_YES",
+        "en-US": "It’s worth the price."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_CONTACT_TWO_BAD_BAD_NO",
+        "en-US": "I think not!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_RESULTS_TWO_A",
+        "en-US": "He served me well!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_RESULTS_TWO_A_HELP",
+        "en-US": "He served me well!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EXPEDITION_CENTERAL_ASIA_RESULTS_TWO_BAD_A",
+        "en-US": "Alas!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_US_ZEALOT_NO_RELIGION_A",
+        "en-US": "We shall give them time to learn."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MAINTAIN_TRUCE_HELP_COPY_2_COPY_2",
+        "en-US": "Maintain the initial link(DIPLOMACY_TRUCE)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_US_ZEALOT_NO_RELIGION_B",
+        "en-US": "Why wait? Let us start with the sword!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_GRAND_EXPEDITION_OPTION_DETAILS",
+        "en-US": "Set aside my duties for the day. I must hear every detail!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_GRAND_EXPEDITION_OPTION_CONTINUE",
+        "en-US": "You do {PLAYER-0} a great service, {CHARACTER-SHORT-1}, but your exploration is not yet finished."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_GRAND_EXPEDITION_OPTION_SAFE",
+        "en-US": "I am glad that you’re safe."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MASTER_OF_THE_HARVEST_AMBITION",
+        "en-US": "Ask about his techniques to train your own farmers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MASTER_OF_THE_HARVEST_SPECIALIST",
+        "en-US": "Invite the farmer to settle in {CITY-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MASTER_OF_THE_HARVEST_SCOUT",
+        "en-US": "Accept the meal and set off with a full stomach."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_MELEE",
+        "en-US": "Equip your {UNIT-0,2} with the ancient shields, leather pulled taut across a wooden frame."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_CAVALRY",
+        "en-US": "Take the saddles, incredibly lightweight and pliable to avoid tiring the horse."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_MISSILE",
+        "en-US": "The longbows have an immense pull weight, able to fire across great distances."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ANCIENT_SUPPLIES_OPTION_3",
+        "en-US": "Send the equipment for study, to see what may be gleaned from this discovery."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ON_THE_WALL_AMBITION",
+        "en-US": "Determine to explore the corners of the world yourself."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_ON_THE_WALL_SIGHT",
+        "en-US": "Spend time studying the maps of the area."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_AMBITIONS_0",
+        "en-US": "The {FAMILY-1,1} ask that you {GOAL-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_AMBITIONS_1",
+        "en-US": "The {FAMILY-2,1} want you to {GOAL-5}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_AMBITIONS_2",
+        "en-US": "The {FAMILY-3} family suggest that you {GOAL-6}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY",
+        "en-US": "People will be talking about this fight for years to come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY_HELP",
+        "en-US": "If only my champion had won!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY_2",
+        "en-US": "People will be talking about this fight for years to come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY_COPY",
+        "en-US": "People will be talking about this fight for years to come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0_COPY_HELP_COPY",
+        "en-US": "If only my champion had won!"
       },
       {
         "beginGroup": "Contact",
@@ -6405,7 +7293,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_NEIGHBORS_PRIDEFUL_BABYLON_OPTION_2",
-        "en-US": "Refill his cup, praise  his boldness, and offer him a trade deal."
+        "en-US": "Refill his cup, praise his boldness, and offer him a trade deal."
       },
       {
         "zType": "TEXT_EVENTOPTION_NEIGHBORS_PRIDEFUL_SUGGEST_BABYLON_OPTION_0",
@@ -6601,7 +7489,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CONTACT_A_LEARNING_OPPORTUNITY_OPTION_1",
-        "en-US": "We should devise ways to destroy them."
+        "en-US": "We should find out who their enemies are and make deals to undermine them."
       },
       {
         "zType": "TEXT_EVENTOPTION_CONTACT_BORDER_DISPUTE_OPTION_0",
@@ -6857,7 +7745,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_CONTACT_ANIMAL_WORSHIPPERS_WAR",
-        "en-US": "We respect animals...as food!"
+        "en-US": "We respect animals... as food!"
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_CONTACT_WOOD_TRIBE_TRUCE",
@@ -6992,6 +7880,22 @@
         "en-US": "We shall engage in some practical learning."
       },
       {
+        "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_US_ZEALOT_NO_RELIGION_A_COPY",
+        "en-US": "We shall give them time to learn."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MAINTAIN_TRUCE_HELP_COPY_2_COPY_2_COPY",
+        "en-US": "Maintain the initial link(DIPLOMACY_TRUCE)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_US_ZEALOT_NO_RELIGION_B_COPY",
+        "en-US": "Why wait? Let us start with the sword!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_US_ZEALOT_SAME_RELIGION_A",
+        "en-US": "Welcome them as brothers!"
+      },
+      {
         "beginGroup": "Diplomacy",
         "zType": "TEXT_EVENTOPTION_TRIBE_ALLIANCE_OFFER_YES",
         "en-US": "Yes, we agree to this offer."
@@ -7090,15 +7994,15 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRUCE_PROPOSAL_OFFER_TRIBUTE",
-        "en-US": "Accept our gift to end the war"
+        "en-US": "Accept our gift to end the war."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRUCE_PROPOSAL_NO_TRIBUTE",
-        "en-US": "No hard feelings; let's call it off"
+        "en-US": "No hard feelings; let's call it off."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRUCE_PROPOSAL_DEMAND_TRIBUTE",
-        "en-US": "We are the superior power and demand tribute"
+        "en-US": "We are the superior power and demand tribute."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRUCE_PROPOSAL_CANCEL",
@@ -7534,7 +8438,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_TRAINING",
-        "en-US": "Let us trade Stone for additional Training."
+        "en-US": "Let us share our Training for Stone."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRADE_MISSION_YES_STONE_SCIENCE",
@@ -7662,7 +8566,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DECLARE_WAR_DEMAND_TRIBE_NO",
-        "en-US": "Surely you can handle these {TRIBE-2, 1} link(CONCEPT_TRIBE,2) yourself?"
+        "en-US": "Surely you can handle these {TRIBE-2,1} link(CONCEPT_TRIBE,2) yourself?"
       },
       {
         "zType": "TEXT_EVENTOPTION_PLAYER_WAR_OFFER_TRAIT_JUDGE_ARCHETYPE_CAUTIOUS_OPTION_0",
@@ -7810,7 +8714,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_NEW_PLAYER_WAR_GOAL_ONE_CAPITAL",
-        "en-US": "Sacking the royal Capital of {CITY-2} would be a crushing blow to {PLAYER-0,1} morale"
+        "en-US": "Sacking the royal Capital of {CITY-2} would be a crushing blow to {PLAYER-0,1} morale."
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_NEW_PLAYER_WAR_GOAL_FIVE_CAPTURE_CITIES",
@@ -8189,7 +9093,7 @@
         "en-US": "{PLAYER-0} was next, regardless. Do your worst."
       },
       {
-        "zType": "TEXT_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_CUNNING",
+        "zType": "TEXT_EVENTOPTION_WAR_OFFER_ALREADY_FIGHTING_DEALMAKER",
         "en-US": "Perhaps I can fool {PLAYER-2} into confronting {PLAYER-0} instead."
       },
       {
@@ -8370,7 +9274,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TOKEN_OF_GOODWILL_OPTION_2",
-        "en-US": "If you want it, you must sweeten the deal."
+        "en-US": "If you want it, you must show me your latest works."
       },
       {
         "zType": "TEXT_EVENTOPTION_BATTERED_OPTION_0",
@@ -8430,7 +9334,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FACE_IN_GOLD_OPTION_0",
-        "en-US": "This privilege is reserved for the true {G1:king:queen} - me."
+        "en-US": "This privilege is reserved for the true {TITLE-1} - me."
       },
       {
         "zType": "TEXT_EVENTOPTION_FACE_IN_GOLD_OPTION_1",
@@ -8605,7 +9509,7 @@
         "en-US": "Embrace the certainty of war!"
       },
       {
-        "zType": "TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_CUNNING_PLAN",
+        "zType": "TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_SCHEMER_DEALMAKER_PLAN",
         "en-US": "This is merely a ruse to train {G0:his:her} army, easily dealt with."
       },
       {
@@ -8634,7 +9538,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_JUDGE_NO_FATE_HELP",
-        "en-US": "It is a simple matter to prove that their war is Illegal."
+        "en-US": "It is a simple matter to prove that their war is illegal."
       },
       {
         "zType": "TEXT_EVENTOPTION_PLAYER_WAR_OFFER_ENEMY_TRAIT_BUILDER_TRIBUTE",
@@ -9073,7 +9977,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_HEIR_TO_HEIR_OPTION_3",
-        "en-US": "Openly discuss  the latest scientific developments."
+        "en-US": "Openly discuss the latest scientific developments."
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_FINAL_FAVOR_PLAYER_HEIR_OPTION_0",
@@ -9173,7 +10077,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_AT_DEATHS_DOOR_OPTION_3",
-        "en-US": "I will arrange a visit and see to him myself."
+        "en-US": "I will arrange a visit and see to {G2:him:her} myself."
       },
       {
         "zType": "TEXT_EVENTOPTION_A_FALLEN_RIVAL_OPTION_0",
@@ -9193,7 +10097,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_VENGEANCE_FROM_AFAR_OPTION_1",
-        "en-US": "Send a mission to congratulate the new {G0:king:queen}."
+        "en-US": "Send a mission to congratulate the new {G3:king:queen}."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_VENGEANCE_FROM_AFAR_OPTION_2",
@@ -9580,6 +10484,42 @@
         "en-US": "{G0:He:She} shall marry {CHARACTER-5}"
       },
       {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_NATION_YES_1",
+        "en-US": "{CHARACTER-SHORT-2} will marry {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_NATION_YES_2",
+        "en-US": "{CHARACTER-SHORT-4} is the right choice."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_NATION_NO",
+        "en-US": "Neither of these options are good enough."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PRICE_OF_A_CITY_ALLIANCE",
+        "en-US": "Agree to trade {CITY-1} for an alliance."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PRICE_OF_A_CITY_WAR",
+        "en-US": "Trade the city for help in the war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PRICE_OF_A_CITY_NO",
+        "en-US": "Decline the diplomatic offer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LETTER_OF_TREASON_OPTION_0",
+        "en-US": "Lay the traps, {CHARACTER-2} will not escape!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LETTER_OF_TREASON_OPTION_1",
+        "en-US": "Make the edits so that {CHARACTER-2} rises up against {PLAYER-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LETTER_OF_TREASON_OPTION_2",
+        "en-US": "Pretend like we know nothing, and use the information to be one step ahead."
+      },
+      {
         "beginGroup": "Combat",
         "zType": "TEXT_EVENTOPTION_LEADER_SMITING_FOES_STATUE",
         "en-US": "Erect a statue in the capital."
@@ -9623,6 +10563,14 @@
       {
         "zType": "TEXT_EVENTOPTION_ABANDONED_SUPPLIES_FOOD",
         "en-US": "Take any food they left behind."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_OF_NATION_0",
+        "en-US": "Such a bargaining chip could prove useful."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_OF_NATION_1",
+        "en-US": "We take no prisoners."
       },
       {
         "zType": "TEXT_EVENTOPTION_CAPTURED_PRISONERS_RANSOM",
@@ -9730,7 +10678,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_1",
-        "en-US": "He is too valuable. He will be my ward."
+        "en-US": "He is too valuable, I will raise the boy as my own."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_YOUNG_HOSTAGE_OPTION_2",
@@ -9787,6 +10735,10 @@
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_2",
         "en-US": "Put these treasures in our nation's coffers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBE_EXOTIC_INFLUENCE_OPTION_3",
+        "en-US": "This piece bears the crest of one of our ancient heros! I shall wear it proudly!"
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_KINGS_RANSOM_OPTION_0",
@@ -9978,7 +10930,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DEFIANCE_OPTION_1",
-        "en-US": "Dying for your {G1:king:queen} is the highest honor!"
+        "en-US": "Dying for your {TITLE-1} is the highest honor!"
       },
       {
         "zType": "TEXT_EVENTOPTION_CITY_ABLAZE_OPTION_0",
@@ -10106,7 +11058,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SPOLIA_OPIMA_CRIPPLED_OPTION_1",
-        "en-US": "ALALALALALALALA!"
+        "en-US": "Focus on the pain and charge {CHARACTER-SHORT-1} with dissolute fury."
       },
       {
         "zType": "TEXT_EVENTOPTION_SPOLIA_OPIMA_CRIPPLED_OPTION_1_HELP",
@@ -10579,7 +11531,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DEVOTED_FOLLOWERS_OPTION_0",
-        "en-US": "The court will do all it can for {RELIGION-2}"
+        "en-US": "The court will do all it can for {RELIGION-2}."
       },
       {
         "zType": "TEXT_EVENTOPTION_DEVOTED_FOLLOWERS_OPTION_1",
@@ -10679,7 +11631,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_HEIR_AMBITION_OPTIONS_DISCIPLINE_APADANA",
-        "en-US": "I preside over court in a great stone  hall."
+        "en-US": "I preside over court in a great stone hall."
       },
       {
         "zType": "TEXT_EVENTOPTION_HEIR_AMBITION_OPTIONS_DISCIPLINE_CITIES",
@@ -10878,6 +11830,10 @@
         "en-US": "Yes, we must uncover any harmful plots."
       },
       {
+        "zType": "TEXT_EVENTOPTION_DESIGNS_ON_THE_THRONE_OPTION_2",
+        "en-US": "No need, an enemy of {CHARACTER-SHORT-1} has provided ample evidence of {G1:his:her} guilt."
+      },
+      {
         "zType": "TEXT_EVENTOPTION_WHISPERS_OF_BETRAYAL_OPTION_0",
         "en-US": "We must stay our hand to keep the peace."
       },
@@ -11067,7 +12023,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_DUEL_0",
-        "en-US": "Family killing family is a crime worthy of death."
+        "en-US": "Family fighting family is a crime worthy of death."
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_DUEL_1",
@@ -11111,7 +12067,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_SACRIFICE_2",
-        "en-US": "Pay for dedications to {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S1=SUBJECT_RELIGION_PAGAN:the gods:God} in {G0:his:her} name."
+        "en-US": "Pay for dedications to {S1.GOD} in {G0:his:her} name."
       },
       {
         "zType": "TEXT_EVENTOPTION_INTERCESSION_SACRIFICE_3",
@@ -11223,7 +12179,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_YOU_OWE_ME_FAMILY_OPTION_1",
-        "en-US": "No. I am the {G0:king:queen}. I owe no one."
+        "en-US": "No. I am the {TITLE-0}. I owe no one."
       },
       {
         "zType": "TEXT_EVENTOPTION_YOU_OWE_ME_FAMILY_OPTION_2",
@@ -11456,6 +12412,10 @@
       {
         "zType": "TEXT_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_2",
         "en-US": "Ignore {CHARACTER-1}... but make {G1:him:her} suffer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEADER_BLOODLESS_REBELLION_OPTION_3",
+        "en-US": "Surely you dare not ignore the many omens that the heavens themselves favor my rule?"
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_OPPORTUNISTS_OPTION_0",
@@ -11702,11 +12662,11 @@
         "en-US": "Please stop, I value you both equally."
       },
       {
-        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_FAVORARRIAGE_OFFER_FAMILY_1_COPY",
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_FAVOR_1",
         "en-US": "Accept."
       },
       {
-        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_FAVORARRIAGE_OFFER_FAMILY_2_COPY",
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_OFFER_FAMILY_FAVOR_2",
         "en-US": "Decline."
       },
       {
@@ -11728,6 +12688,106 @@
       {
         "zType": "TEXT_EVENTOPTION_PLAYER_CONTACT_WAR_DIPLOMAT",
         "en-US": "We shall continue diplomacy by other means!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_INFANTICIDE_KILL",
+        "en-US": "A life for a life."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_INFANTICIDE_JAIL",
+        "en-US": "Jail for {CHARACTER-SHORT-1}!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_INFANTICIDE_BANISH",
+        "en-US": "Banish {CHARACTER-SHORT-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_SPOUSICIDE_KILL",
+        "en-US": "A life for a life."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_SPOUSICIDE_JAIL",
+        "en-US": "Jail for {CHARACTER-SHORT-1}!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_SPOUSICIDE_BANISH",
+        "en-US": "Banish {CHARACTER-SHORT-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_SPOUSICIDE_PRACTICAL",
+        "en-US": "There’s no point losing another {G1:husband:wife}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_FAMILY_INFLUENCE",
+        "en-US": "I treasure {CHARACTER-SHORT-1} as I do the {FAMILY-2,1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_FAMILY_DISPLEASURE_FIGHT",
+        "en-US": "I care little for either of you."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_FAMILY_DISPLEASURE_TALK",
+        "en-US": "Perhaps I can show {CHARACTER-SHORT-1} more favor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_FAMILY_DISPLEASURE_FIGHT_COPY",
+        "en-US": "Indeed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SPOUSE_FAVORED_SPOUSE_NATION_ANGER",
+        "en-US": "Indeed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LUXURY_SEEKERS_OPTION_YES",
+        "en-US": "Very well. We will see what can be found."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LUXURY_SEEKERS_OPTION_NO",
+        "en-US": "{PLAYER-1} has other priorities that must take precedence."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LUXURY_SEEKERS_OPTION_PERSONAL_SUPPLY",
+        "en-US": "Why didn’t they just say so? The {FAMILY-0,1} are welcome to my personal supply!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_FAMILY_YES_1",
+        "en-US": "{CHARACTER-SHORT-2} will marry {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_FAMILY_YES_2",
+        "en-US": "{CHARACTER-SHORT-4} is the right choice."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_FAMILY_NO",
+        "en-US": "Neither of these options are good enough."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STUBBORN_AS_A_MULE_WHOLE_FAMILY",
+        "en-US": "Encourage the whole family to apply pressure."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STUBBORN_AS_A_MULE_CHARM",
+        "en-US": "A simple application of charm always works."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STUBBORN_AS_A_MULE_FEAR",
+        "en-US": "Advise the use of fear and threats to break down {G0:his:her} walls."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STUBBORN_AS_A_MULE_NO",
+        "en-US": "Abandon the effort."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_0_WIN_OPTION_0",
+        "en-US": "People will be talking about this fight for years to come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_OPTION_0",
+        "en-US": "Bet on the {FAMILY-0} fighter."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TOURNAMENT_OPTION_1",
+        "en-US": "Cheer for the {FAMILY-1} champion."
       },
       {
         "beginGroup": "Character",
@@ -11816,7 +12876,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_THE_MORNING_AFTER_OPTION_0",
-        "en-US": "Pay it There is always more money."
+        "en-US": "Pay it. There is always more money."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_THE_MORNING_AFTER_OPTION_1",
@@ -12676,7 +13736,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_A_TOAST_MOTHERS_TOUCH_EXILE",
-        "en-US": "{CHARACTER-3} is clearly responsible. She must face exile."
+        "en-US": "{CHARACTER-3} is clearly responsible. {G3:He:She} must face exile."
       },
       {
         "zType": "TEXT_EVENTOPTION_A_TOAST_MOTHERS_TOUCH_IGNORE",
@@ -12796,7 +13856,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FREED_SLAVE_ABOLISH",
-        "en-US": "His words have convinced me. It is time for freedom."
+        "en-US": "His words have convinced me, {PLAYER-0} will no longer permit slavery."
       },
       {
         "zType": "TEXT_EVENTOPTION_FREED_SLAVE_KEEP",
@@ -13236,7 +14296,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_VOYAGE_RUSE_OPTION_0",
-        "en-US": "I will deal with him eventually."
+        "en-US": "I will deal with {G0:him:her} eventually."
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_VOYAGE_RUSE_OPTION_1",
@@ -13400,7 +14460,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_UNDER_ARREST_OPTION_2",
-        "en-US": "Say nothing. Do not dignify this with a response.."
+        "en-US": "Say nothing. Do not dignify this with a response."
       },
       {
         "zType": "TEXT_EVENTOPTION_FOUND_INNOCENT_OPTION_0",
@@ -13472,7 +14532,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_FEEL_THE_PRESSURE_OPTION_1",
-        "en-US": "{LAW-1} is not worth the trouble"
+        "en-US": "{LAW-1} is not worth the trouble."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_FEEL_THE_PRESSURE_OPTION_2",
@@ -14219,7 +15279,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_MONEY_OR_FRIENDS_OPTION_1",
-        "en-US": "Why it's only a matter of spending money on your friends!"
+        "en-US": "Why, it's only a matter of spending money on your friends!"
       },
       {
         "zType": "TEXT_EVENTOPTION_STUDY_MONEY_OR_FRIENDS_OPTION_2",
@@ -14330,10 +15390,6 @@
         "en-US": "There are many other mysteries to see in the world."
       },
       {
-        "zType": "TEXT_EVENTOPTION_WONDER_INSPIRATION_CUNNING",
-        "en-US": "The trick is to know what everyone wants."
-      },
-      {
         "zType": "TEXT_EVENTOPTION_WONDER_INSPIRATION_COMMANDER",
         "en-US": "Our generals and soldiers keep us safe."
       },
@@ -14382,7 +15438,7 @@
         "en-US": "Wisdom can be found under the very ground we walk on."
       },
       {
-        "zType": "TEXT_EVENTOPTION_NATURE_INSPIRATION_CUNNING",
+        "zType": "TEXT_EVENTOPTION_NATURE_INSPIRATION_DEALMAKER",
         "en-US": "Be as cunning as the serpent."
       },
       {
@@ -14447,7 +15503,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_JUDGE",
-        "en-US": "There is good and evil. Those who say are otherwise are fools."
+        "en-US": "There is good and evil. Those who say otherwise are fools."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_SCHOLAR",
@@ -14459,11 +15515,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_INSPIRING",
-        "en-US": "Never forget this feeling and learn to share it with other."
+        "en-US": "Never forget this feeling and learn to share it with others."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_EDUCATED",
-        "en-US": "Dedicated your life to learning from this faith."
+        "en-US": "Dedicate your life to learning from this faith."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_FRUGAL",
@@ -14479,7 +15535,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_ROBUST",
-        "en-US": "There is much good work to be done. We must never weary if it."
+        "en-US": "There is much good work to be done. We must never weary of it."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_WONDER_INSPIRATION_STRICT",
@@ -14507,7 +15563,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_PROPHETS_REBUKE_OPTION_0",
-        "en-US": "I am the king, I may do as I please."
+        "en-US": "I am the {TITLE-0}, I may do as I please."
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_PROPHETS_REBUKE_OPTION_1",
@@ -14640,10 +15696,6 @@
       {
         "zType": "TEXT_EVENTOPTION_MISSING_ADVENTURE_DELVER",
         "en-US": "\"...worked underground for a year.\""
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_MISSING_ADVENTURE_CUNNING",
-        "en-US": "\"...lived by my wits and blades in the slums.\""
       },
       {
         "zType": "TEXT_EVENTOPTION_MISSING_ADVENTURE_TRACKER",
@@ -14907,7 +15959,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SCHEMING_HEIR_MOB_DIE_HELP",
-        "en-US": "This seemed...excessive..."
+        "en-US": "This seemed... excessive."
       },
       {
         "zType": "TEXT_EVENTOPTION_SCHEMING_HEIR_VISIT_STRUGGLE",
@@ -15263,7 +16315,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_WINTER_SOLSTICE_ENGINEERING",
-        "en-US": "Only by applying the rules of mathematics will we amount to anything.."
+        "en-US": "Only by applying the rules of mathematics will we amount to anything."
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_WINTER_SOLSTICE_ICONOGRAPHY",
@@ -15295,7 +16347,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_WINTER_SOLSTICE_TRADE_LEAGUE",
-        "en-US": "We must reach out and exchange goods, ideas and and dreams with the world."
+        "en-US": "We must reach out and exchange goods, ideas, and dreams with the world."
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_WINTER_SOLSTICE_COIN_DEBASEMENT",
@@ -15551,11 +16603,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_GRACIOUS",
-        "en-US": "One must never forget that other have feelings too."
+        "en-US": "One must never forget that others have feelings too."
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_ROMANTIC",
-        "en-US": "Love, oh love, has there ever been a better feeling in the world."
+        "en-US": "Love, oh love, has there ever been a better feeling in the world?"
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_COMPASSIONATE",
@@ -15563,7 +16615,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_SPOILED",
-        "en-US": "I want a pony and a castle and my a three foot long sword!"
+        "en-US": "I want a pony and a castle and a three foot long sword!"
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_PIOUS",
@@ -15571,7 +16623,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_HUMBLE",
-        "en-US": "Please there other others far more deserving than I."
+        "en-US": "Please, there are others far more deserving than I."
       },
       {
         "zType": "TEXT_EVENTOPTION_REGAL_INSPIRATION_DRUNK",
@@ -15627,10 +16679,10 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COVERT_INSPIRATION_ENGINEER",
-        "en-US": "Leavers, wedges, angles, plumb lines, all very useful for this business."
+        "en-US": "Levers, wedges, angles, plumb lines, all very useful for this business."
       },
       {
-        "zType": "TEXT_EVENTOPTION_COVERT_INSPIRATION_CUNNING",
+        "zType": "TEXT_EVENTOPTION_COVERT_INSPIRATION_DEALMAKER",
         "en-US": "If you think you are alone, double check and then double back."
       },
       {
@@ -15639,7 +16691,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COVERT_INSPIRATION_EDUCATED",
-        "en-US": "It never hurts to know the price of poppy in Bactria"
+        "en-US": "It never hurts to know the price of poppy in Bactria."
       },
       {
         "zType": "TEXT_EVENTOPTION_COVERT_INSPIRATION_EXOTIC",
@@ -15755,7 +16807,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_STRICT",
-        "en-US": "I shall bind {CHARACTER-1} to me and never waiver."
+        "en-US": "I shall bind {CHARACTER-1} to me and never waver."
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_EQUESTRIAN",
@@ -15831,7 +16883,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_SHIELDBEARER",
-        "en-US": "I shall speak softly and carry a big shield"
+        "en-US": "I shall speak softly and carry a big shield."
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_FIERCE",
@@ -15848,10 +16900,6 @@
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_LOYAL",
         "en-US": "I shall bind {CHARACTER-1} to me and never betray a companion."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_CUNNING",
-        "en-US": "I shall bind {CHARACTER-1} to me and betray anyone if I must."
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_BOLD",
@@ -15923,7 +16971,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_DRUNK",
-        "en-US": "I shall bind {CHARACTER-1} to me and never turn down another free drink.."
+        "en-US": "I shall bind {CHARACTER-1} to me and never turn down another free drink."
       },
       {
         "zType": "TEXT_EVENTOPTION_COMPANIONSHIP_INSANE",
@@ -15935,7 +16983,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_YOU_OWE_ME_RELIGION_OPTION_1",
-        "en-US": "No. I am the {G0:king:queen}. I owe no one."
+        "en-US": "No. I am the {TITLE-0}. I owe no one."
       },
       {
         "zType": "TEXT_EVENTOPTION_YOU_OWE_ME_RELIGION_OPTION_2",
@@ -15967,7 +17015,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FAUX_PAS_REGAL_OPTION_1",
-        "en-US": "Who will believe your word against the {G0:king:queen}'s?"
+        "en-US": "Who will believe your word against the {TITLE-0}'s?"
       },
       {
         "zType": "TEXT_EVENTOPTION_FAUX_PAS_MARTIAL_OPTION_0",
@@ -15975,7 +17023,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FAUX_PAS_MARTIAL_OPTION_1",
-        "en-US": "Do not make demands of your {G0:king:queen}."
+        "en-US": "Do not make demands of your {TITLE-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_FAUX_PAS_COVERT_OPTION_0",
@@ -15983,7 +17031,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FAUX_PAS_COVERT_OPTION_1",
-        "en-US": "Do not threaten your {G0:king:queen}."
+        "en-US": "Do not threaten your {TITLE-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_AS_IRON_SHARPENS_IRON_FAVOR",
@@ -16443,7 +17491,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_LEADER_THE_HEIRS_CUP_OPTION_0_COPY",
-        "en-US": "It's good to be {G0:King:Queen}!"
+        "en-US": "It's good to be {TITLE-0}!"
       },
       {
         "zType": "TEXT_EVENTOPTION_SUDDEN_RETURN_WELCOME",
@@ -16615,15 +17663,15 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FRIENDS_IN_LOW_PLACES_TRAINING",
-        "en-US": "Hire the warrior to provide training to {CHARACTER-0}"
+        "en-US": "Hire the warrior to provide training to {CHARACTER-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_FRIENDS_IN_LOW_PLACES_REWARD",
-        "en-US": "Reward the tribe as a whole"
+        "en-US": "Reward the tribe as a whole."
       },
       {
         "zType": "TEXT_EVENTOPTION_FRIENDS_IN_LOW_PLACES_THANKS",
-        "en-US": "Send a polite thank you note, acknowleding the action, but nothing more."
+        "en-US": "Send a polite thank you note, acknowledging the action, but nothing more."
       },
       {
         "zType": "TEXT_EVENTOPTION_ASSASSINATE_WITH_MONKEY",
@@ -16639,7 +17687,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RITUAL_OF_THE_PIT_NO",
-        "en-US": "Uhh...yeah no.  That's nuts."
+        "en-US": "Uhh...yeah no. That's nuts."
       },
       {
         "zType": "TEXT_EVENTOPTION_ASSASSINATE_WITH_MONKEY_FAILED",
@@ -16659,7 +17707,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PROTECTOR_OF_THE_BORDERLANDS_NEPOTISM",
-        "en-US": "A good idea, but let's promote from within our own family.  We'll give {CHARACTER-4} a title to keep {G4:his:her} mind off of matters of succession."
+        "en-US": "A good idea, but let's promote from within our own family. We'll give {CHARACTER-4} a title to keep {G4:his:her} mind off of matters of succession."
       },
       {
         "zType": "TEXT_EVENTOPTION_PROTECTOR_OF_THE_BORDERLANDS_FAMILY1",
@@ -16675,7 +17723,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PROTECTOR_OF_THE_BORDERLANDS_NO",
-        "en-US": "I see no reason to create a new title at this time.  Enough with this foolishness."
+        "en-US": "I see no reason to create a new title at this time. Enough with this foolishness."
       },
       {
         "zType": "TEXT_EVENTOPTION_ALWAYS_VIGILANT_BRIBE",
@@ -16692,6 +17740,130 @@
       {
         "zType": "TEXT_EVENTOPTION_ALWAYS_VIGILANT_NO",
         "en-US": "Not yet, we will wait to strike when the time is right..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNING_OF_THE_WHEELS_BITTER",
+        "en-US": "{CHARACTER-SHORT-1} will watch as {G1:he:she} loses everything that {G1:he:she} loves."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNING_OF_THE_WHEELS_GRIEVE",
+        "en-US": "Leave me to grieve my {G2:son:daughter}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SINS_OF_THE_PAST_OKAY",
+        "en-US": "The darkness closes in..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_NAMED_A_MURDERER_IMPRISON",
+        "en-US": "Imprison {CHARACTER-SHORT-1} for these accusations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_NAMED_A_MURDERER_WAIT",
+        "en-US": "I will not be bated into rash action by this young fool."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_NAMED_A_MURDERER_TYRANNY",
+        "en-US": "Silence {G1:him:her}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_IMPRISON",
+        "en-US": "I will not give {CHARACTER-SHORT-2} the chance to strike."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_WAIT",
+        "en-US": "We will wait for a better opportunity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_ASSASSINS_VIGILANT",
+        "en-US": "You spot the flash of the blade and are able to move out of the way in time."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_ASSASSINS_DISCIPLINE",
+        "en-US": "{CHARACTER-SHORT-2} reaches you, but you stay calm under attack and call for help."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_ASSASSINS_DEATH",
+        "en-US": "The guards reach you too late, and {CHARACTER-SHORT-2} is hacked down as your own lifeless body hits the floor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_FIGHT",
+        "en-US": "This ends here!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_REFUSE",
+        "en-US": "I will not sully myself with this fight."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_WIN_OPTION_0",
+        "en-US": "No, {CHARACTER-2} is too dangerous to be left alive."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_WIN_OPTION_1",
+        "en-US": "Allow {CHARACTER-2} to walk free."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_BEG",
+        "en-US": "Admit everything and beg to be released."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_LOSE_REFUSE",
+        "en-US": "Refuse to plead."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_COMBAT_SCHEMER_OKAY",
+        "en-US": "That is one less enemy to worry about."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_BLOOD_DEATH_HELP",
+        "en-US": "I am a {TITLE-3}, and will die a {TITLE-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUT_FOR_COMBAT_BEG_HELP",
+        "en-US": "I must live, no matter the cost!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_DISPLAY_OF_BENEVOLENCE_0",
+        "en-US": "I will not risk angering my vassals. Conquering our enemies can wait. Let's keep the peace at home."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_DISPLAY_OF_BENEVOLENCE_1",
+        "en-US": "My vassals can choke on their desire for benevolence. We're fighting this war to its logical conclusion!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAITH_AND_UNITY_0",
+        "en-US": "Very well. For the time being, we shall set aside our differences and call an end to the fighting."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAITH_AND_UNITY_1",
+        "en-US": "We will end hostilities when I decide, and not a moment sooner. I will bow to pressure from no one."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EVENTSTORY_BALANCING_ACT_0",
+        "en-US": "Keeping my vassals happy is more important than continuing the fight. We shall heed their advice and make a truce with {PLAYER-2}...for now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EVENTSTORY_BALANCING_ACT_1",
+        "en-US": "{CHARACTER-2} forgets {G2:his:her} place. I am the ruler of these lands. The fighting stops when I say it does."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EVENTSTORY_BALANCING_ACT_2",
+        "en-US": "Put {CHARACTER-2} in prison for {G2:his:her} insolence and let us speak no more about the matter."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_FISH",
+        "en-US": "A pet fish might cheer {CHARACTER-SHORT-1} up."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_LANDMARK",
+        "en-US": "I will fund an independent expedition and name some new marvel of the land after {G1:him:her}!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_MATTER_OF_CONCERN_OPTION_BUSY",
+        "en-US": "I do worry about {CHARACTER-SHORT-1}, but I also have a nation to run."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SHOEMAKER_OPTION_1",
+        "en-US": "Scold {CHARACTER-SHORT-0} for abandoning {G0:his:her} formal studies."
       },
       {
         "beginGroup": "City",
@@ -16812,15 +17984,23 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_HAPPINESS_GIFTED_INVENTOR_SOLDIER",
-        "en-US": "As a military engineer"
+        "en-US": "As a military engineer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HAPPINESS_GIFTED_INVENTOR_NONE",
+        "en-US": "{CITY-0} needs them."
       },
       {
         "zType": "TEXT_EVENTOPTION_HAPPINESS_DILIGENT_CLERK_MERCHANT",
-        "en-US": "To manage my ledger."
+        "en-US": "To manage the ledgers."
       },
       {
         "zType": "TEXT_EVENTOPTION_HAPPINESS_DILIGENT_CLERK_MINISTER",
         "en-US": "To oversee affairs of state."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HAPPINESS_DILIGENT_CLERK_NONE",
+        "en-US": "As my personal assistant."
       },
       {
         "zType": "TEXT_EVENTOPTION_HAPPINESS_MATHEMATICAL_BREAKTHROUGH_SCIENTIST",
@@ -17320,7 +18500,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_IMPORT_AND_EXPORT_BUSINESS_INCENSE",
-        "en-US": "I support the import and development of the honey, and will provide capital."
+        "en-US": "I support the import and development of the incense, and will provide capital."
       },
       {
         "zType": "TEXT_EVENTOPTION_IMPORT_AND_EXPORT_BUSINESS_LAVENDER",
@@ -17369,6 +18549,10 @@
       {
         "zType": "TEXT_EVENTOPTION_UNHAPPY_PEASANTS_DECLINE",
         "en-US": "Our goods are too precious to waste."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_UNHAPPY_PEASANTS_BLESSED",
+        "en-US": "The gods have only tested our mettle. Behold, already the skies darken with rain!"
       },
       {
         "zType": "TEXT_EVENTOPTION_FOUNDING_SIGNS_SUCCESS_OK",
@@ -17456,7 +18640,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_4",
-        "en-US": "EQUESTRIAN: {CHARACTER-SHORT-1}, on Champion."
+        "en-US": "{CHARACTER-SHORT-1}, on Champion."
       },
       {
         "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_5",
@@ -17543,12 +18727,76 @@
         "en-US": "Very well, let them rule themselves."
       },
       {
+        "zType": "TEXT_EVENTOPTION_INDEPENDENT_CITY_2",
+        "en-US": "The people know my reign is ordained by the heavens, no usurpers will sway them."
+      },
+      {
         "zType": "TEXT_EVENTOPTION_RECLAIMING_CONTROL_0",
         "en-US": "Welcome {CITY-0} back into the fold."
       },
       {
         "zType": "TEXT_EVENTOPTION_RECLAIMING_CONTROL_1",
         "en-US": "Permit their own rule."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ZOOLOGICAL_SOCIETY_0",
+        "en-US": "Let us create a lush park and zoo, allowing our citizens to view and learn about them."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ZOOLOGICAL_SOCIETY_1",
+        "en-US": "We should build enclosures that allow our wise men to study them. Surely there is much we could learn."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ZOOLOGICAL_SOCIETY_2",
+        "en-US": "It's a wonderful idea, but not an expense we can currently afford."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MERCY_FOR_THE_WEAK_0",
+        "en-US": "Yes. Let there be an end to the fighting. They are beaten."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MERCY_FOR_THE_WEAK_1",
+        "en-US": "There will be no mercy. After all, what is best in life?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_0_HELP",
+        "en-US": "I hear he has been on especially fine form this year."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_2_HELP",
+        "en-US": "The best steed, but can Puzur-Ashur control him?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_3_HELP",
+        "en-US": "The underdog of the race, but I wouldn’t count him out."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CULTURE_A_FIERY_RIDE_OPTION_4_HELP",
+        "en-US": "I will win this myself!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CULTURE_THE_LOSER_OPTION_1",
+        "en-US": "If only I had riden myself!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_COASTAL_CULTURE_TRADE",
+        "en-US": "Encourage the burgeoning city's naval trade routes."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_COASTAL_CULTURE_FLEET",
+        "en-US": "Order preparations to build a fleet to control the waters around {CITY-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_COASTAL_CULTURE_GOVERNOR",
+        "en-US": "Praise {CHARACTER-POSS-1} progress with the city."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_GOVERNOR_YES",
+        "en-US": "Appoint {CHARACTER-2} as governor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_GOVERNOR_NO",
+        "en-US": "Refuse the proposal."
       },
       {
         "beginGroup": "Religion",
@@ -17570,6 +18818,10 @@
       {
         "zType": "TEXT_EVENTOPTION_SUPPORTING_THE_FAITH_OPTION_PRAYER",
         "en-US": "Lead a public service in the capital."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SUPPORTING_THE_FAITH_OPTION_PRAISE",
+        "en-US": "Publicly credit the {RELIGION-0,1} faith with the nation's successes and good fortune."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGIOUS_MOB_OPTION_MILITARY",
@@ -17745,7 +18997,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_BLESSING_OF_NUSKA_OPTION_1",
-        "en-US": "Alas,matters are most pressing."
+        "en-US": "Alas, matters are most pressing."
       },
       {
         "zType": "TEXT_EVENTOPTION_DEDICATION_OF_NUSKA_OPTION_0",
@@ -17825,7 +19077,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DEDICATION_OF_NABU_OPTION_1",
-        "en-US": "Please accept my deepest apologies"
+        "en-US": "Please accept my deepest apologies."
       },
       {
         "zType": "TEXT_EVENTOPTION_DISPLEASURE_OF_NABU_OPTION_0",
@@ -17873,7 +19125,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DEDICATION_OF_SHAMASH_OPTION_1",
-        "en-US": "DePlease accept my deepest apologies"
+        "en-US": "Please accept my deepest apologies."
       },
       {
         "zType": "TEXT_EVENTOPTION_DISPLEASURE_OF_SHAMASH_OPTION_0",
@@ -18473,7 +19725,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_ASSYRIA_ENLIL",
-        "en-US": "Enlil, the great mountain and bridge between heaven and earth"
+        "en-US": "Enlil, the great mountain and bridge between heaven and earth."
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_ASSYRIA_NINURTA",
@@ -18497,7 +19749,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_BABYLON_GERRA",
-        "en-US": "Gerra, maintainer the cunning tools and lord of the fire and the forge."
+        "en-US": "Gerra, maintainer of the cunning tools and lord of the fire and the forge."
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_BABYLON_NABU",
@@ -18525,7 +19777,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_BABYLON_MARDUK",
-        "en-US": "Marduk, the heroic king who by his deeds became ruler of the gods"
+        "en-US": "Marduk, the heroic king who by his deeds became ruler of the gods."
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_BABYLON_ANU",
@@ -18585,7 +19837,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_EGYPT_WADJET",
-        "en-US": "Wadjet, the protective serpent goddess who sends burns her enemies."
+        "en-US": "Wadjet, the protective serpent goddess who burns her enemies."
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_EGYPT_THOTH",
@@ -18697,7 +19949,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_PERSIA_HAOMA",
-        "en-US": "God of health, strengths and vitality."
+        "en-US": "Haoma, god of health, strength, and vitality."
       },
       {
         "zType": "TEXT_EVENTOPTION_PATRON_GODS_PERSIA_AHURA_MAZDA",
@@ -18984,13 +20236,33 @@
         "en-US": "Give praise to Aten for his blessings."
       },
       {
+        "zType": "TEXT_EVENTOPTION_THE_TRUE_GOD_ATEN_MONOTHEISM",
+        "en-US": "Aten is the one god of {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRUE_GOD_ATEN_CULT",
+        "en-US": "Aten is the one god, and his cult will spread across {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRUE_GOD_ATEN_NO",
+        "en-US": "No, we cannot abandon the old gods."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AKHENATEN_OPTION_0",
+        "en-US": "Yes, I will now be known as Akhenaten."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AKHENATEN_OPTION_1",
+        "en-US": "No, I shall remain {CHARACTER-SHORT-0}."
+      },
+      {
         "beginGroup": "Law",
         "zType": "TEXT_EVENTOPTION_THREAT_OF_MUTINY_OPTION_0",
         "en-US": "{PLAYER-1} will adopt freedom."
       },
       {
         "zType": "TEXT_EVENTOPTION_THREAT_OF_MUTINY_OPTION_1",
-        "en-US": "The court obeys the will of its {G1:king:queen}."
+        "en-US": "The court obeys the will of its {TITLE-1}."
       },
       {
         "zType": "TEXT_EVENTOPTION_WEAK_WILL_OPTION_0",
@@ -19186,7 +20458,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RULE_OF_LAW_OPTION_1",
-        "en-US": "No, they are needed at court for other matters"
+        "en-US": "No, they are needed at court for other matters."
       },
       {
         "zType": "TEXT_EVENTOPTION_REIGN_OF_TERROR_OPTION_0",
@@ -19270,7 +20542,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_REIGN_OF_A_GOD_OPTION_0",
-        "en-US": "I no mere god! I am the divine emperor!"
+        "en-US": "I am no mere god! I am the divine emperor!"
       },
       {
         "zType": "TEXT_EVENTOPTION_REIGN_OF_A_GOD_OPTION_1",
@@ -20887,7 +22159,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_LOVER_NO_MORE_OPTION_0",
-        "en-US": "Order {CHARACTER-SHORT-3} to assassinate the {G2:king:queen}."
+        "en-US": "Order {CHARACTER-SHORT-3} to assassinate the {TITLE-2}."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_LOVER_NO_MORE_OPTION_1",
@@ -21052,6 +22324,10 @@
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_2",
         "en-US": "The court will not put itself in the middle of this conflict."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_BLOOD_IN_THE_STREETS_OPTION_3",
+        "en-US": "Personally make an appeal to both groups of followers, in the name of respect and unity."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELIGION_THE_TWENTY_SAINTS_OPTION_0",
@@ -21279,6 +22555,10 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_2",
+        "en-US": "What odd metaphor {CHARACTER-SHORT-0} uses! Still, a lovely sentiment, I must write {G0:him:her} in kind."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELATIONSHIP_THE_RANT_OPTION_3",
         "en-US": "Write a reply that sows {G0:his:her} further paranoia."
       },
       {
@@ -21338,14 +22618,6 @@
         "en-US": "Reassure {G0:him:her} of our peaceful intentions."
       },
       {
-        "zType": "TEXT_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_0",
-        "en-US": "We will never bow to foreign pressure."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_RELATIONSHIP_MORAL_DEGRADATION_OPTION_1",
-        "en-US": "{CHARACTER-0} is right, and we must abolish slavery."
-      },
-      {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_GIVE_AN_INCH_OPTION_0",
         "en-US": "We will never bow to foreign pressure."
       },
@@ -21371,7 +22643,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_PROOF_OF_FRIENDSHIP_OPTION_3",
-        "en-US": "Assign troops for security duties in {PLAYER-1}."
+        "en-US": "Assign troops for security duties in {PLAYER-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_TWO_VISIONS_OPTION_0",
@@ -21703,7 +22975,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_LEADERS_OR_LUNATICS_OPTION_2",
-        "en-US": "Remove {CHARACTER-SHORT-2}. He can meditate elsewhere."
+        "en-US": "Remove {CHARACTER-SHORT-2}. {G2:He:She} can meditate elsewhere."
       },
       {
         "zType": "TEXT_EVENTOPTION_GODLESS_OPTION_0",
@@ -22795,15 +24067,15 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_CAUGHT_EXECUTE",
-        "en-US": "[KILL]"
+        "en-US": "Make an example of {G0:him:her} to deter any other agents."
       },
       {
         "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_CAUGHT_RECRUIT",
-        "en-US": "[RECRUIT]"
+        "en-US": "Recruit {G0:him:her} to serve you and {PLAYER-2}."
       },
       {
         "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_CAUGHT_CHARM",
-        "en-US": "[RECRUIT AND CHARM]"
+        "en-US": "Convince {G0:him:her} to share the secrets of those who left {G0:him:her} to rot."
       },
       {
         "zType": "TEXT_EVENTOPTION_HIGH_SYNOD_MONEY_YES",
@@ -22863,7 +24135,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_HIGH_SYNOD_FOOD_NO",
-        "en-US": "We have no resources to spare"
+        "en-US": "We have no resources to spare."
       },
       {
         "zType": "TEXT_EVENTOPTION_HIGH_SYNOD_WOOD_YES",
@@ -22892,6 +24164,70 @@
       {
         "zType": "TEXT_EVENTOPTION_HOLD_COURT_MISSION_NO",
         "en-US": "I am too busy for that at the moment."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_TOOLS",
+        "en-US": "See if your Spymaster {CHARACTER-SHORT-3} can learn the secrets of these devices."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_BREAK",
+        "en-US": "Break the failed contraptions down for their components."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN",
+        "en-US": "Send the devices with an ambassador to be returned to {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_DISCOVERED_KILL",
+        "en-US": "Capture and kill {G0:him:her} as soon as possible."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_DISCOVERED_FOLLOW",
+        "en-US": "Send agents to follow {CHARACTER-SHORT-0} and discover the enemies' plans."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_DISCOVERED_SUBTERFUGE",
+        "en-US": "Have {CHARACTER-SHORT-4} make contact, pretending to be a traitor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_BRIBE_GOLD",
+        "en-US": "Thank {CHARACTER-SHORT-4} and keep the money for yourself."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_BRIBE_RECRUIT",
+        "en-US": "Offer the wealth to {CHARACTER-0} if {G0:he:she} is willing to join your court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_BRIBE_LOYALTY",
+        "en-US": "Let {CHARACTER-SHORT-4} keep it for protecting you against these schemes."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_PEOPLE_CELEBRATE",
+        "en-US": "Throw a huge celebration to thank of the people of {CITY-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_PEOPLE_KILL",
+        "en-US": "Have the execution take place in front of the gathered mob."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_OFFER_KILL_AGENT",
+        "en-US": "Refuse to listen to the lies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_OFFER_KILL_CHARACTER",
+        "en-US": "Execute {CHARACTER-SHORT-4} as a traitor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INSURRECTION_THEM_AGENT_OFFER_BOTH",
+        "en-US": "Set both free, but let them know that you are watching every movement."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TREACHERY_THEM_AGENT_SECRETS_RETURN_HELP",
+        "en-US": "Better luck next time!"
+      },
+      {
+        "zType": "TEXT_INSURRECTION_THEM_AGENT_OFFER_KILL_AGENT_HELP",
+        "en-US": "They are lies, right?"
       },
       {
         "beginGroup": "Tutorial",
@@ -22939,12 +24275,20 @@
         "en-US": "I'll link(CONCEPT_HURRY) in my Cities if I need to!"
       },
       {
-        "zType": "TEXT_EVENTOPTION_VICTORY_OK",
+        "zType": "TEXT_EVENTOPTION_VICTORY_TIMELINE",
         "en-US": "Show me how this came to pass."
       },
       {
-        "zType": "TEXT_EVENTOPTION_VICTORY_OK_HELP",
+        "zType": "TEXT_EVENTOPTION_VICTORY_TIMELINE_HELP",
         "en-US": "Opens the timeline so you can view your history."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_VICTORY_RECORDS",
+        "en-US": "Show me how history will remember these times."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_VICTORY_RECORDS_HELP",
+        "en-US": "Opens the records screen so you can view stats and graphs for you and your opponents."
       },
       {
         "zType": "TEXT_EVENTOPTION_VICTORY_CONTINUE",
@@ -22960,15 +24304,23 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_VICTORY_MAIN_MENU_HELP",
-        "en-US": "Exit to the Main Menu"
+        "en-US": "Exit to the Main Menu."
       },
       {
-        "zType": "TEXT_EVENTOPTION_LOSS_OK",
+        "zType": "TEXT_EVENTOPTION_LOSS_TIMELINE",
         "en-US": "Show me how this came to pass."
       },
       {
-        "zType": "TEXT_EVENTOPTION_LOSS_OK_HELP",
+        "zType": "TEXT_EVENTOPTION_LOSS_TIMELINE_HELP",
         "en-US": "Opens the timeline so you can view your history."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOSS_RECORDS",
+        "en-US": "Show me how history will remember these times."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOSS_RECORDS_HELP",
+        "en-US": "Opens the records screen so you can view stats and graphs for you and your opponents."
       },
       {
         "zType": "TEXT_EVENTOPTION_LOSS_MAIN_MENU",
@@ -22976,7 +24328,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_LOSS_MAIN_MENU_HELP",
-        "en-US": "Exit to the Main Menu"
+        "en-US": "Exit to the Main Menu."
       },
       {
         "zType": "TEXT_EVENTOPTION_TUTORIAL_INTRO_OKAY",
@@ -23989,7 +25341,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_PROPHET_STRIKES_BACK_OPTION_2",
-        "en-US": "That is enough. Guards, kill {CHARACTER-SHORT-2}."
+        "en-US": "That is enough. Guards, kill {CHARACTER-SHORT-1}."
       },
       {
         "zType": "TEXT_EVENTOPTION_RETURN_OF_THE_PROPHET_OPTION_0",
@@ -24121,7 +25473,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RESISTANCE_TO_ATENISM_OPTION_0",
-        "en-US": "Destroy temples to other gods, none shall be above Aten!."
+        "en-US": "Destroy temples to other gods, none shall be above Aten!"
       },
       {
         "zType": "TEXT_EVENTOPTION_RESISTANCE_TO_ATENISM_OPTION_1",
@@ -26113,11 +27465,7 @@
         "en-US": "I will not be swayed by hot tempers."
       },
       {
-        "zType": "TEXT_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_5_TRIBES",
-        "en-US": "The {FAMILY-0,1} will get the fight they so desire."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_7_TRIBES",
+        "zType": "TEXT_EVENTOPTION_RESTLESS_OLIGARCHS_CHAMPIONS_6_TRIBES",
         "en-US": "The {FAMILY-0,1} will get the fight they so desire."
       },
       {
@@ -26178,7 +27526,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_SACRED_CITY_COMPLETE",
-        "en-US": "We shall thank {p.is_sub.S1=SUBJECT_ZOROASTRIANISM:Ahura Mazda:p.is_sub.S0=SUBJECT_RELIGION_PAGAN:the gods:God} for this victory."
+        "en-US": "We shall thank {S1.GOD} for this victory."
       },
       {
         "zType": "TEXT_EVENTOPTION_THE_SACRED_CITY_START_NO",
@@ -26546,7 +27894,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_ZEALOT_2_PILGRIMAGE",
-        "en-US": "Traveling to the holy sites will bring us closer to <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>."
+        "en-US": "Traveling to the holy sites will bring us closer to {S1.GOD}."
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_ZEALOT_2_SPREAD",
@@ -26810,7 +28158,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_SCHEMER_1_RELIGION",
-        "en-US": "People will follow a god when they would refuse a {G0:king:queen}. That could be useful."
+        "en-US": "People will follow a god when they would refuse a {TITLE-0}. That could be useful."
       },
       {
         "zType": "TEXT_EVENTOPTION_AMBITION_SCHEMER_1_KILLS",
@@ -26990,11 +28338,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_A_VOICE_IN_THE_DARK_MONASTERIES",
-        "en-US": "I want others to feel this close to <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>! We will build places of holy reflection."
+        "en-US": "I want others to feel this close to {S0.GOD}! We will build places of holy reflection."
       },
       {
         "zType": "TEXT_EVENTOPTION_A_VOICE_IN_THE_DARK_NO",
-        "en-US": "This was not <p.is_sub.S0=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end> but some cruel trick of nature."
+        "en-US": "This was not {S0.GOD} but some cruel trick of nature."
       },
       {
         "zType": "TEXT_EVENTOPTION_TO_HEAR_YOUR_VOICE_CITIES",
@@ -27042,7 +28390,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SPEAR_OR_STAFF_NO",
-        "en-US": "This is a matter for priests, not a {G2:king:queen}."
+        "en-US": "This is a matter for priests, not a {TITLE-2}."
       },
       {
         "zType": "TEXT_EVENTOPTION_ELDER_WISDOM_WONDERS",
@@ -27247,6 +28595,1270 @@
       {
         "zType": "TEXT_EVENTOPTION_MOVED_TO_ACTION_NO",
         "en-US": "Just listening is enough."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EPICS",
+        "en-US": "We will tell the stories of our people through word and song."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EXPLORATION",
+        "en-US": "Our scouts will travel to the ends of the earth!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SLAVERY",
+        "en-US": "I will dominate the people of this world."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FREEDOM",
+        "en-US": "Every person has a right to be free!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_CENTRALIZATION",
+        "en-US": "Gathering our administration in the capital will tighten my control!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_VASSALAGE",
+        "en-US": "I can not be everywhere at once, my vassals should have more power to act in my name."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TYRANNY",
+        "en-US": "{PLAYER-0} has one ruler and one alone. All shall obey!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_CONSTITUTION",
+        "en-US": "We shall enshrine our constitution in law!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_COLONIES",
+        "en-US": "Our settlers will set off for the furthest shores."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SERFDOM",
+        "en-US": "I will bend our people to tending the land."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_MONOTHEISM",
+        "en-US": "Following a single god will unite the people!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_POLYTHEISM",
+        "en-US": "The gods of our ancestors will lead us to victory."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_DIVINE_RULE",
+        "en-US": "I am the voice and hand of the divine."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_LEGAL_CODE",
+        "en-US": "Our laws will be spread across the land for all to see and follow."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TOLERANCE",
+        "en-US": "We should be open to others, how else will we grow?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_ORTHODOXY",
+        "en-US": "Deviance from the one true way of thinking is dangerous and must be stopped!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PROFESSIONAL_ARMY",
+        "en-US": "Our merchants and farmers should not be fighting, we need people who live for war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_VOLUNTEERS",
+        "en-US": "The army should welcome anyone who wants to raise a spear to protect their home."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PHILOSOPHY",
+        "en-US": "Our greatest struggle is to find our purpose!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_ENGINEERING",
+        "en-US": "The rational mind will find new direction for our tools."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_ICONOGRAPHY",
+        "en-US": "Our statues and paintings will tell the stories of our gods."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_CALLIGRAPHY",
+        "en-US": "There is so much to learn about the art of writing!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PILGRIMAGE",
+        "en-US": "We should seek to be close to the divine!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_HOLY_WAR",
+        "en-US": "We will spread our religion, by any means."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_GUILDS",
+        "en-US": "We need guilds to protect the tradesmen of {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_ELITES",
+        "en-US": "The rights of the families need to be protected above all else."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_AUTARKY",
+        "en-US": "We will secure our borders and protect our land."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TRADE_LEAGUE",
+        "en-US": "Free and open trade will strengthen us!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_COIN_DEBASEMENT",
+        "en-US": "Adding other metals to our coins will give more to our administration."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_MONETARY_REFORM",
+        "en-US": "{PLAYER-0} needs complete economic reform!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_LAWS",
+        "en-US": "Our laws are vital to the continuation of {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_THEOLOGY",
+        "en-US": "I will shape the path of religion in {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_CITIES_FOUR",
+        "en-US": "Our cities will cover the world!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_CITIES_THREE_CONNECTED",
+        "en-US": "We will build a network of roads and rivers for trade and travel."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_GAULS",
+        "en-US": "We will strike at the link(TRIBE_GAULS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_VANDALS",
+        "en-US": "We will strike at the link(TRIBE_VANDALS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_DANES",
+        "en-US": "We will strike at the link(TRIBE_DANES)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_THRACIANS",
+        "en-US": "We will strike at the link(TRIBE_THRACIANS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_SCYTHIANS",
+        "en-US": "We will strike at the link(TRIBE_SCYTHIANS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_KILLED_5_NUMIDIANS",
+        "en-US": "We will strike at the link(TRIBE_NUMIDIANS)."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PRODUCE_FOOD_400",
+        "en-US": "We must stockpile food for the seasons of scarcity ahead."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PRODUCE_WOOD_400",
+        "en-US": "We should gather wood for construction!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PRODUCE_STONE_400",
+        "en-US": "We will build a stockpile of stone that will allow the buildings of {PLAYER-0} to stand above all!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PRODUCE_IRON_400",
+        "en-US": "Iron can be tough to find, we will make a stockpile so our military never runs out."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_PRODUCE_20_GOODS_TURN",
+        "en-US": "I will turn {PLAYER-0} into a land of plenty!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_STOCKPILE_CIVICS_2000",
+        "en-US": "I will strengthen our administration and gather resources for my scribes and agents."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_STOCKPILE_TRAINING_2000",
+        "en-US": "Our officers should gather the very best of our trained recruits in reserve."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_STOCKPILE_MONEY_2000",
+        "en-US": "The coffers of {PLAYER-0} should never be empty."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_WORKERS",
+        "en-US": "Our workers will build this into a strong nation."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_FARMS",
+        "en-US": "We need farms to ensure that our people are always fed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_MINES",
+        "en-US": "I will build mines to get iron for our armies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_QUARRIES",
+        "en-US": "Quarries are the future, their stone will make roads, buildings and great wonders!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_LUMBERMILLS",
+        "en-US": "Too much time is being spent cutting trees by hand, we must build mills!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_PASTURES",
+        "en-US": "Farms are not enough, we need other sources of food!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_CAMPS",
+        "en-US": "Our riders and hunters will make good use of camps."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_GROVES",
+        "en-US": "There are many resources that we could gather from groves."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_NETS",
+        "en-US": "We should look to the seas for our food!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_HARBORS",
+        "en-US": "Our harbors will be the gateway to distant shores!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_GRANARY",
+        "en-US": "We need places to gather food for the lean harvests."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_BARRACKS_RANGES",
+        "en-US": "Our armies need places to train!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EIGHT_TOWNS",
+        "en-US": "We will grow our hamlets into towns, way-points of trade and commerce."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_RESOURCE_IMPROVEMENTS",
+        "en-US": "I will make full use of the resources of this land."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_REPAIRED",
+        "en-US": "We need to focus on repairing and rebuilding."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_PYRAMIDS",
+        "en-US": "I deserve only the grandest of tombs!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_ZIGGURAT",
+        "en-US": "Our gods deserve the largest of shrines."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_ORACLE",
+        "en-US": "I will build a seat for the priests to speak the words of the gods!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_HANGING_GARDENS",
+        "en-US": "I will build a garden of incredible engineering and beauty!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_NECROPOLIS",
+        "en-US": "My family will be tended to in death by the royal mortuary cult."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_ISHTAR_GATE",
+        "en-US": "Even the gates of our city will be marked by the gods."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_LIGHTHOUSE",
+        "en-US": "A lighthouse will show our control of the seas!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_APADANA",
+        "en-US": "The royal palace is not enough, we should have a grand hall that shows my power!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_MAUSOLEUM",
+        "en-US": "I deserve only the grandest of tombs!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_ACROPOLIS",
+        "en-US": "I will raise a center of worship and administration!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_COLOSSUS",
+        "en-US": "I will cast a statue, the likes of which has never been seen!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_MUSAEUM",
+        "en-US": "We must build a center of learning and knowledge!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_CIRCUS_MAXIMUS",
+        "en-US": "The people want to be entertained, and we will give them the best."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_PANTHEON",
+        "en-US": "I will build a temple where all of the gods are equal!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_HAGIA_SOPHIA",
+        "en-US": "Only the most beautiful of temples will be enough for the divine."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_WONDER_VIA_RECTA_SOUK",
+        "en-US": "I will create the most magnificent center of trade and sharing!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_DEVELOPING_CITIES",
+        "en-US": "Our cities will be beacons of culture and civilization!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_WONDERS",
+        "en-US": "{PLAYER-0} will be filled with marvels of the world!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_FARMERS",
+        "en-US": "Farmers will make the most of our agriculture!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_MINERS",
+        "en-US": "We need experts to oversee our mines."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_STONECUTTERS",
+        "en-US": "Professional stonecutters will ensure the best quality stone from our quarries."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_WOODCUTTERS",
+        "en-US": "We need people willing to work in the woods."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_ACOLYTES",
+        "en-US": "The gods and their shrines need tending to, to show our dedication."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_POETS",
+        "en-US": "It is not a simple job to keep the people entertained."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_OFFICERS",
+        "en-US": "We need people to whip our soldiers into shape!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_SCRIBES",
+        "en-US": "Those who can read and write are the lifeblood of {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_MONKS",
+        "en-US": "What can be more worthwhile than reflecting on the nature of the divine?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_DOCTORS",
+        "en-US": "Doctors will keep our people healthy and looked after."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_PRIESTS",
+        "en-US": "We must tend to the spiritual needs of the people, priests will provide a connection."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_SHOPKEEPERS",
+        "en-US": "Merchants and shopkeepers will keep the money flowing."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_PHILOSOPHERS",
+        "en-US": "We need to gather the finest minds together."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_THREE_SPECIALISTS",
+        "en-US": "We need well-trained craftsmen and specialists!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_10_SPECIALISTS",
+        "en-US": "We need well-trained craftsmen and specialists!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_5_ELDER_SPECIALISTS",
+        "en-US": "I will only accept the very best craftsmen and specialists!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_WALLS",
+        "en-US": "I will do everything possible to protect our cities from attack."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_TREASURIES",
+        "en-US": "Our treasuries will keep the taxes and spoils of war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_FORUMS",
+        "en-US": "Giving the people a voice and a place to debate keeps them engaged!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_ARCHIVES",
+        "en-US": "We need places to keep our records for future generations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_FESTIVALS",
+        "en-US": "Give the people what they want!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_CONVOYS",
+        "en-US": "We should send out convoys to improve relations and encourage trade."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_LEGENDARY_PROJECTS",
+        "en-US": "Our cities will be improved beyond recognition."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_THREE_TRIBES_CLEARED",
+        "en-US": "The first priority must be clearing out the tribes who surround our lands!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TRIBE_PEACE",
+        "en-US": "Peace with the tribes will keep our nation stable."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TRIBE_ALLIANCE",
+        "en-US": "The tribes are strong and loyal, they would make good allies!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_THREE_PEACE",
+        "en-US": "War is the enemy of all, we will seek peace!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_STATE_RELIGION",
+        "en-US": "Bringing religion together with the throne will strengthen both."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUND_WORLD_RELIGION",
+        "en-US": "There must be other paths to the divine out there!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_RELIGION_SPREAD",
+        "en-US": "We will spread our religion across the land!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_TECHS",
+        "en-US": "The only way forwards is to learn and explore."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_SCHOLARSHIP_VAULTING",
+        "en-US": "We will push the boundaries of knowledge!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_ARCHITECTURE_JURISPRUDENCE",
+        "en-US": "Giving our architects the chance to try new techniques will undoubtedly help our buildings!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_DOCTRINE_FISCAL_POLICY",
+        "en-US": "Complete social and economic reform is needed for {PLAYER-0} to survive."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_PORTCULLIS_CHAIN_DRIVE",
+        "en-US": "Our engineers have been making interesting developments that could be improved upon."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_WINDLASS_LATEEN_SAIL",
+        "en-US": "There must be more that can be done with the mechanics of sailing!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_COHORTS_MARTIAL_CODE",
+        "en-US": "We should look to reform how our armies are organized."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_BODKIN_ARROW_BALLISTICS",
+        "en-US": "Finding ways to improve our archers and siege engines would give a real advantage."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TECH_BARDING_INFANTRY_SQUARE",
+        "en-US": "Our armies should have the best training and the best equipment."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_5_KILLS",
+        "en-US": "I will not rest until our enemies are completely crushed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_5_KILLS_GENERAL",
+        "en-US": "I will take to the field myself and show our enemies what it means to cross {PLAYER-0}!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_PROMOTIONS",
+        "en-US": "We must train our soldiers to be the best."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_MAX_LEVEL_UNITS",
+        "en-US": "{PLAYER-0} will have the finest soldiers in the world."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_MILITARY",
+        "en-US": "We must start to build our armies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_RANGED",
+        "en-US": "We will bolster our ranged forces."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_MOUNTED",
+        "en-US": "Mounted troops will be able to chase down the enemy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_THREE_SIEGE",
+        "en-US": "I will oversee the construction of siege engines to take the enemy’s cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_RANGED_MOUNTED",
+        "en-US": "Mounted archers will give us both range and flexibility."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_LONGBOWMAN_CROSSBOWMAN",
+        "en-US": "We will train the best archers possible."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_POLYBOS_CATAPHRACT",
+        "en-US": "We will train the best cavalry possible."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_SWORDSMAN_PIKEMAN",
+        "en-US": "We will train the best infantry possible."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_20_UNITS",
+        "en-US": "Our armies will be a force to be feared."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_UU",
+        "en-US": "We must play to our strengths and use the unique units of {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_COURTIERS",
+        "en-US": "Our court will be the envy of other leaders."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_GENERALS",
+        "en-US": "I will select the best commanders to lead our armies to victory."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EIGHT_GOVERNORS",
+        "en-US": "We need strong leaders for our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_REVEAL_40",
+        "en-US": "Our scouts will explore even the most hidden paths."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_CARAVANS",
+        "en-US": "We should send out caravans to improve relations and encourage trade."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_TRIBAL_LUXURIES",
+        "en-US": "Sending luxuries to the tribes will secure their good opinion."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_PLAYER_LUXURIES",
+        "en-US": "I will use luxuries to endear {PLAYER-0} to the other nations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_FAMILY_LUXURIES",
+        "en-US": "The families must be kept in line, perhaps luxuries will secure their favor?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EIGHT_LUXURIES",
+        "en-US": "My court will be filled with luxuries and splendor!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_RECAPTURE_ONE_CITY",
+        "en-US": "We must retake what is ours!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TEN_POPULATION",
+        "en-US": "The people of {PLAYER-0} will fill the land!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_BATHS_1",
+        "en-US": "I want to keep the people happy and relaxed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_THEATER_1",
+        "en-US": "Let there be entertainment in every city!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_MARKET_1",
+        "en-US": "Centers of trade will increase spending in our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_LIBRARY_1",
+        "en-US": "We must have places for the people to study and learn."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_COURTHOUSE_1",
+        "en-US": "Courts will see order maintained throughout {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_GARRISON_1",
+        "en-US": "We must focus on building up our fortifications!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_LEGENDARY_IMPROVEMENTS_1",
+        "en-US": "We must develop our cities with the best improvements!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_EIGHT_SHRINES",
+        "en-US": "We will build shrines to the gods to gain their favors."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_MONASTERY",
+        "en-US": "I will build places of thought and reflection."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_URBAN_IMPROVEMENTS",
+        "en-US": "We will fill our cities with public buildings and improvements."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_20_URBAN_TILES",
+        "en-US": "Our cities will be great urban centers!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_AGENT_NETWORKS",
+        "en-US": "My agent networks will be my eyes and ears."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_SIX_AGENTS",
+        "en-US": "I need agents to move in the shadows and undermine my enemies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FIVE_NAVAL",
+        "en-US": "We will be the rulers of the seas!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_ESTABLISH_THEOLOGY",
+        "en-US": "I will shape the path of religion in {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_GOVERNORS",
+        "en-US": "We need strong leaders for our cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_FOUR_TEMPLE",
+        "en-US": "We will build wondrous buildings of gathering and praise!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AMBITION_TWO_HOLY_SITE_SIX_CATHEDRAL",
+        "en-US": "{PLAYER-0} shall be the holiest of lands!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUR_SHIELD_WALLS",
+        "en-US": "Promise to build walls to protect the border cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUR_SHIELD_PROMOTIONS",
+        "en-US": "Agree to train expert troops to ensure the cities don’t fall."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OUR_SHIELD_NO",
+        "en-US": "The war makes targets of us all."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_CLAN_BARDING",
+        "en-US": "Agree to research new techniques and equipment."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_CLAN_COHORTS",
+        "en-US": "Order the development of new organizational practices."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_CLAN_NO",
+        "en-US": "Refuse to commit your support to this arms race."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_CROSSROADS_NO",
+        "en-US": "I will not take council from strangers on the road."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TOGETHER_IN_THE_WORLD_NO",
+        "en-US": "We are not so close that I would share my secrets."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MODERN_MARVELS_HYDRAULICS",
+        "en-US": "The cranes and corkscrews moving bricks and water are most impressive."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MODERN_MARVELS_WINDLASS",
+        "en-US": "Praise the model ships, floating around on an artificial pool."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MODERN_MARVELS_ARCHITECTURE",
+        "en-US": "Ask if these buildings of domes and arches can really be constructed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MODERN_MARVELS_NO",
+        "en-US": "Advise the {FAMILY-1,1} to try and get their money back."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_KILLS",
+        "en-US": "Prove your worth by taking to the field."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_SWORDSMAN",
+        "en-US": "Dismiss these claims by the might of your armies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ENEMIES_TOGETHER_NO",
+        "en-US": "Rise above the baseless claims."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_CROSSROADS_NO_HELP",
+        "en-US": "Especially one so suspicious!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_0",
+        "en-US": "Train specialist forces to repel any attack."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_0_HELP",
+        "en-US": "My armies will contain the most elite fighters."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_1",
+        "en-US": "Send your armies to gain experience on the field of battle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_1_HELP",
+        "en-US": "Nothing else can train for a real war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_2",
+        "en-US": "Refuse to commit to such actions."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_THREAT_OF_TYRE_OPTION_2_HELP",
+        "en-US": "Seeking conflict is not the way forwards."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_0",
+        "en-US": "Send scouts to find new resources and landmarks."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_0_HELP",
+        "en-US": "We must learn every detail of our new land."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_1",
+        "en-US": "Mark out land for your cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_1_HELP",
+        "en-US": "We will build a nation to drive {CHARACTER-SHORT-1} to jealousy!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_2",
+        "en-US": "Focus on improving your nation’s lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CARTHAGE_IS_BORN_OPTION_2_HELP",
+        "en-US": "There is still so much to be done!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SALT_OF_THE_SEA_OPTION_0",
+        "en-US": "Prepare laws to create colonies in far off lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SALT_OF_THE_SEA_OPTION_1",
+        "en-US": "Build lumbermills to gather wood for shipbuilding."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SALT_OF_THE_SEA_OPTION_2",
+        "en-US": "It is more important to keep enemy ships from our shores!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_0",
+        "en-US": "Six cities with six walls will be a tough fortress to crack."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_1",
+        "en-US": "Generals will prepare our troops in case of an attack."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_WALLS_OF_CARTHAGE_OPTION_2",
+        "en-US": "There is no threat yet, diplomacy can still win out!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILDREN_OF_TYRE_OPTION_0",
+        "en-US": "Open the ports to any who wish to travel here."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILDREN_OF_TYRE_OPTION_1",
+        "en-US": "Anyone is welcome if they agree to live by our laws."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILDREN_OF_TYRE_OPTION_2",
+        "en-US": "Send the Tyre scouts out to discover new sites to settle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILDREN_OF_TYRE_OPTION_3",
+        "en-US": "Turn the travelers away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEADER_AND_THE_TRIBES_FAMILY",
+        "en-US": "Very well, then it is war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEADER_AND_THE_TRIBES_TRIBE",
+        "en-US": "Friendship with the {TRIBE-0} is true strength."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEADER_AND_THE_TRIBES_NO",
+        "en-US": "Demand that {CHARACTER-SHORT-2} stands down."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_0",
+        "en-US": "Pay close attention to his lesson on keeping power."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_0_HELP",
+        "en-US": "He does have some interesting ideas about leadership…"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_1",
+        "en-US": "Accept his insistence that war is the best way to deal with the tribes."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_1_HELP",
+        "en-US": "Maybe diplomacy is overrated..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_INFLUENCE_OF_PYGMALION_OPTION_2",
+        "en-US": "He will never set foot in our land!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_0",
+        "en-US": "Agree to the demands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1",
+        "en-US": "Promise a building plan that will serve the people."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_2",
+        "en-US": "Call your own supporters to take up arms in your defense!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LAWS_OF_ROME_OPTION_0",
+        "en-US": "Build forums to act as legal and political centers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LAWS_OF_ROME_OPTION_1",
+        "en-US": "Prepare scribes and laws for any civic emergency."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LAWS_OF_ROME_OPTION_2",
+        "en-US": "Declare the point moot, any punishment will be doled out by your successor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RAISED_BY_WOLVES_OPTION_0",
+        "en-US": "Take strength from your new pack."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RAISED_BY_WOLVES_OPTION_1",
+        "en-US": "Enjoy the luxuries and technologies you never had as a child."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RAISED_BY_WOLVES_OPTION_2",
+        "en-US": "That wolf cub is not who I am any more!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_0",
+        "en-US": "Order reserves of military equipment and experienced officers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_0_HELP",
+        "en-US": "Discipline will see us victorious."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_1",
+        "en-US": "Order the construction of new barracks and ranges."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_1_HELP",
+        "en-US": "Our armies will be trained and ready for anything!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_2",
+        "en-US": "Give no new orders."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_OUR_BORDERS_OPTION_2_HELP",
+        "en-US": "The {PLAYER-0,3} are no threat to us."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEADER_AND_THE_TRIBES_NO_HELP",
+        "en-US": "Do not forget who is in charge here."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_0_HELP",
+        "en-US": "Will I ever be rid of {CHARACTER-SHORT-POSS-0} plans?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_OF_ROMULUS_OPTION_1_HELP",
+        "en-US": "At least this is my own idea..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_PEACE",
+        "en-US": "Make peace with the tribe, no matter the cost."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_PEACE_HELP",
+        "en-US": "We should keep an eye on the {PLAYER-0,3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_BACK_OFF",
+        "en-US": "Back down, for now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_TRIBAL_COMPETITION_THREATS",
+        "en-US": "The diplomats use the fear of your name to make the {PLAYER-0,1} back off."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_VOLUNTEERS",
+        "en-US": "Raise a militia in the city to scare off the diplomats."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_CAPTURE",
+        "en-US": "I will show them how to take a city."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_REFUSE",
+        "en-US": "Refuse to risk raising tensions."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS1_CLOSE_ENCOUNTERS_GIVE",
+        "en-US": "Maybe {G0:he:she} should have {CITY-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_REBELS_AT_WAR_YES",
+        "en-US": "We will strike against these rivals."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_REBELS_AT_WAR_NO",
+        "en-US": "{PLAYER-0} is not our enemy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_CALLING_FOR_WAR_YES",
+        "en-US": "{PLAYER-0} will pay for their crimes."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_CALLING_FOR_WAR_NO",
+        "en-US": "They are not our rivals."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_FIRE_AND_DUST_CITIES",
+        "en-US": "Just wait until I take their cities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_FIRE_AND_DUST_KILLS",
+        "en-US": "Kill them all."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS2_FIRE_AND_DUST_NO",
+        "en-US": "I will not add fuel to the fire."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE",
+        "en-US": "Put the rivalry behind you and agree to peace between your nations."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE_HELP",
+        "en-US": "Too much blood has been spilt!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_RENEWED_HOPE_PEACE2",
+        "en-US": "Make a speech, promising a period of peace and prosperity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_RENEWED_HOPE_RELUCTANT",
+        "en-US": "Make no commitments to peace."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_RENEWED_HOPE_RELUCTANT_HELP",
+        "en-US": "This is just temporary..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_BITTER_RIVALS_GENERALS",
+        "en-US": "Bring more generals to the field."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_BITTER_RIVALS_GENERALS_HELP",
+        "en-US": "Strike one down and a legion will rise to take their place."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_BITTER_RIVALS_OPTION_1",
+        "en-US": "Focus on treating {CHARACTER-SHORT-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_BITTER_RIVALS_OPTION_1_HELP",
+        "en-US": "We cannot let the people's symbol die."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_BITTER_RIVALS_OPTION_2",
+        "en-US": "Promise to have vengeance against {PLAYER-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_RAZE",
+        "en-US": "Raze the city until nothing stands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_CITIES",
+        "en-US": "Waste no time, get you armies ready for the next assault."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_CELEBRATE",
+        "en-US": "Loot the city, taking the centerpiece back to {CITY-3} in triumph."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS3_LET_THE_LAND_BURN_CITIES_HELP",
+        "en-US": "This is only the start."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_NO_SURRENDER_YES",
+        "en-US": "We will defeat {PLAYER-0}, once and for all."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_NO_SURRENDER_NO",
+        "en-US": "It is time to leave these troubles in the past."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_OUT_OF_THE_ASHES_OPTION_0",
+        "en-US": "Hold a grand triumph in {CITY-2}, with a celebration lasting for weeks."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_OUT_OF_THE_ASHES_OPTION_1",
+        "en-US": "Send out diplomats with subtle warnings that {PLAYER-1} is not to be crossed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_OUT_OF_THE_ASHES_OPTION_1_HELP",
+        "en-US": "None shall contest us again."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIVALS4_NO_SURRENDER_FINISHED_DONE",
+        "en-US": "It is done."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GOD_QUEEN_OPTION_0",
+        "en-US": "I am Amun's favored, possessor of the Two Lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GOD_QUEEN_OPTION_1",
+        "en-US": "It is my strength that grants me the title of {TITLE-0}, not some god."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_CIVICS",
+        "en-US": "Gather scribes to be amass a great library of documents and teachings."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_CIVICS_HELP",
+        "en-US": "All shall marvel at this collection of the greatest texts."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_ACOLYTES",
+        "en-US": "Trait acolytes to pass down the myths and stories of your people."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_ACOLYTES_HELP",
+        "en-US": "Our culture will leave a lasting legacy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_LIBRARY_OF_ASHURBANIPAL_OPTION_2",
+        "en-US": "I will prove my worth through the strength of my sword."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARLY_AMBITIONS_OPTION_0",
+        "en-US": "Decree that you intend to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARLY_AMBITIONS_OPTION_1",
+        "en-US": "Decree that you intend to {GOAL-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARLY_AMBITIONS_OPTION_2",
+        "en-US": "Decree that you intend to {GOAL-5}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARLY_AMBITIONS_OPTION_3",
+        "en-US": "None of these ideas suffice."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_GROWING_AMBITIONS_OPTION_0",
+        "en-US": "Decree that you intend to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_GROWING_AMBITIONS_OPTION_1",
+        "en-US": "Decree that you intend to {GOAL-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_GROWING_AMBITIONS_OPTION_2",
+        "en-US": "Decree that you intend to {GOAL-5}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_GROWING_AMBITIONS_OPTION_3",
+        "en-US": "I will forge my own path."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEVELOPING_AMBITIONS_OPTION_0",
+        "en-US": "The {FAMILY-0,1} ask that you {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEVELOPING_AMBITIONS_OPTION_1",
+        "en-US": "The {FAMILY-1,1} ask that you {GOAL-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEVELOPING_AMBITIONS_OPTION_2",
+        "en-US": "The {FAMILY-2,1} ask that you {GOAL-5}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEVELOPING_AMBITIONS_OPTION_3",
+        "en-US": "I will forge my own path."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ULTIMATE_AMBITIONS_OPTION_0",
+        "en-US": "The {FAMILY-0,1} ask that you {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ULTIMATE_AMBITIONS_OPTION_1",
+        "en-US": "The {FAMILY-1,1} ask that you {GOAL-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ULTIMATE_AMBITIONS_OPTION_2",
+        "en-US": "The {FAMILY-2,1} ask that you {GOAL-5}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ULTIMATE_AMBITIONS_OPTION_3",
+        "en-US": "I will forge my own path."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_OPTION_0",
+        "en-US": "Agree to {GOAL-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_OPTION_1",
+        "en-US": "Offer to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_OPTION_2",
+        "en-US": "d"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_NO",
+        "en-US": "Turn them away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_TWO_OPTION_0",
+        "en-US": "Support the {FAMILY-0,1} and {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_TWO_OPTION_1",
+        "en-US": "Support the {FAMILY-1,1} and {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_AMBITIONS_TWO_NO",
+        "en-US": "Refuse their requests."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_RELIGION_AMBITIONS_RELIGION",
+        "en-US": "Support the {RELIGION-1,1} desire to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_RELIGION_AMBITIONS_FAMILY",
+        "en-US": "Support the {FAMILY-0} desire to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAMILY_RELIGION_AMBITIONS_NO",
+        "en-US": "Refuse to commit to a new ambition."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STATE_RELIGION_AMBITIONS_OPTION_0",
+        "en-US": "Agree to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STATE_RELIGION_AMBITIONS_OPTION_1",
+        "en-US": "Offer to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_STATE_RELIGION_AMBITIONS_OPTION_2",
+        "en-US": "Refuse to support {RELIGION-0} at this time."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_OPTION_0",
+        "en-US": "Decree that you will {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_OPTION_1",
+        "en-US": "Decree that you will {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_NO",
+        "en-US": "Turn the {S0.PRIEST,2} away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_TWO_OPTION_0",
+        "en-US": "Support the {RELIGION-0,1} ambition to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_TWO_OPTION_1",
+        "en-US": "Support the {RELIGION-1,1} ambition to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGION_AMBITIONS_TWO_NO",
+        "en-US": "Turn both away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_RELIGION_AMBITIONS_OPTION_0",
+        "en-US": "Agree to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_RELIGION_AMBITIONS_OPTION_1",
+        "en-US": "Agree to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_RELIGION_AMBITIONS_NO",
+        "en-US": "Refuse {CHARACTER-SHORT-POSS-0} request."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_FAMILY_AMBITIONS_OPTION_0",
+        "en-US": "Agree to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_FAMILY_AMBITIONS_OPTION_1",
+        "en-US": "Agree to {GOAL-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHARACTER_FAMILY_AMBITIONS_NO",
+        "en-US": "Refuse {CHARACTER-SHORT-POSS-0} request."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_YES",
+        "en-US": "Decree that you will {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_REFUSE",
+        "en-US": "Accept, but with this your debt is paid."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_BREAK",
+        "en-US": "Turn {CHARACTER-SHORT-0} away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_YES_COPY",
+        "en-US": "Agree to {GOAL-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_REFUSE_COPY",
+        "en-US": "Accept, but with this your debt is paid."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_OLIGARCH_AMBITIONS_BREAK_COPY",
+        "en-US": "Turn {CHARACTER-SHORT-0} away."
       },
       {
         "beginGroup": "Tribe",
@@ -27471,7 +30083,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SCALES_OF_TRIBUTE_PERSUADE",
-        "en-US": "Persuade him to accept a smaller amount."
+        "en-US": "Persuade {G0:him:her} to accept a smaller amount."
       },
       {
         "zType": "TEXT_EVENTOPTION_SCALES_OF_TRIBUTE_REFUSE",
@@ -27520,6 +30132,10 @@
       {
         "zType": "TEXT_EVENTOPTION_TRIBAL_INVASION_NO",
         "en-US": "Let them come!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_INVASION_IMPRESS",
+        "en-US": "I think a quick display of our army's prowess should disuade such a plan."
       },
       {
         "zType": "TEXT_EVENTOPTION_AN_UNLIKELY_MATCH_SUBMISSION_MARRIAGE",
@@ -27623,7 +30239,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_ALLIANCE_WELCOME",
-        "en-US": "We welcome an alliance with {PLAYER-0}."
+        "en-US": "We welcome an alliance with the {TRIBE-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBE_ALLIANCE_NO",
@@ -27787,7 +30403,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_RIDING_CONTEST_OPTION_2",
-        "en-US": "The {G0:King:Queen} of {PLAYER-0} in a barbarian contest? Never."
+        "en-US": "The {TITLE-0} of {PLAYER-0} in a barbarian contest? Never."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRAIT_FACING_THE_HORDE_OPTION_0",
@@ -27819,7 +30435,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_WIDE_AWAKE_OPTION_0",
-        "en-US": "I am not dead!"
+        "en-US": "Stop, I am not dead!"
       },
       {
         "zType": "TEXT_EVENTOPTION_SNAKE_CHARMER_OPTION_0",
@@ -27923,11 +30539,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_ENAMORED_OPTION_1",
-        "en-US": "I refuse to have {CHARACTER-SHORT-0} as family."
+        "en-US": "I have no time for flights of fancy."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_ENAMORED_OPTION_2",
-        "en-US": "{CHARACTER-SHORT-1} will woo {G0:him:her}, but as our spy."
+        "en-US": "I will woo {G0:him:her}, in order to secure favorable trade deals."
       },
       {
         "zType": "TEXT_EVENTOPTION_RELATIONSHIP_POLITICAL_ARENA_OPTION_0",
@@ -28115,7 +30731,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_DRINKING_BUDDIES_OPTION_1",
-        "en-US": "It pains me, but I must decline.  I need to try and turn over a new leaf."
+        "en-US": "It pains me, but I must decline. I need to try and turn over a new leaf."
       },
       {
         "zType": "TEXT_EVENTOPTION_SCHOLARS_IN_ARMS_FUND_RESEARCH_YES",
@@ -28127,11 +30743,11 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_SCHOLARS_IN_ARMS_PROJECT_COMPLETE",
-        "en-US": "Spledid!"
+        "en-US": "Splendid!"
       },
       {
         "zType": "TEXT_EVENTOPTION_FAMINE_RELIEF_HELP_NOSTRINGS",
-        "en-US": "They need help, and we are in a position to provide it.  It's as simple as that."
+        "en-US": "They need help, and we are in a position to provide it. It's as simple as that."
       },
       {
         "zType": "TEXT_EVENTOPTION_FAMINE_RELIEF_HELP",
@@ -28139,7 +30755,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_FAMINE_RELIEF_NO_HELP",
-        "en-US": "Sorry, no.  This is not our problem."
+        "en-US": "Sorry, no. This is not our problem."
       },
       {
         "zType": "TEXT_EVENTOPTION_PLOTTING_AND_SCHEMING_PROCEED",
@@ -28155,7 +30771,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_POWDER_KEG_NO_INVOLVEMENT",
-        "en-US": "Don't get involved.  Allow the Captain of the Watch to carry out his sentence."
+        "en-US": "Don't get involved. Allow the Captain of the Watch to carry out his sentence."
       },
       {
         "zType": "TEXT_EVENTOPTION_POWDER_KEG_RANSOM",
@@ -28239,7 +30855,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBAL_PARTNERSHIP_MONEY_FOR_ORDERS",
-        "en-US": "We will pay the upkeep of {TRIBE-3,1} elders for a year in exchange for their wisdom."
+        "en-US": "We will pay the upkeep of {TRIBE-3,1} scouts and ministers for a year in exchange for their knowledge of the area and expertise."
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBAL_PARTNERSHIP_TRAINING_FOR_CIVICS",
@@ -28271,7 +30887,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TRIBAL_TRIBAL_FINDING_RELIGION_WELCOME",
-        "en-US": "There is nothing to be done.  Welcome to our Brothers and Sisters of Faith!"
+        "en-US": "There is nothing to be done. Welcome to our Brothers and Sisters of Faith!"
       },
       {
         "zType": "TEXT_EVENTOPTION_GROWING_MILITARY_MIGHT_HIRE_OUTSIDER",
@@ -28295,7 +30911,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_BIRDS_OF_A_FEATHER_OPTION_0",
-        "en-US": "No need to force it.  Simply continuing to spend time with {CHARACTER-SHORT-2} will naturally improve relations with the {TRIBE-2}"
+        "en-US": "No need to force it. Simply continuing to spend time with {CHARACTER-SHORT-2} will naturally improve relations with the {TRIBE-2}"
       },
       {
         "zType": "TEXT_EVENTOPTION_BIRDS_OF_A_FEATHER_OPTION_1",
@@ -28319,7 +30935,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TAKE_THE_MONEY_AND_RUN_0",
-        "en-US": "By all means.  Let's get rich together!"
+        "en-US": "By all means. Let's get rich together!"
       },
       {
         "zType": "TEXT_EVENTOPTION_TAKE_THE_MONEY_AND_RUN_1",
@@ -28327,7 +30943,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TAKE_THE_MONEY_AND_RUN_2",
-        "en-US": "Hard pass.  We'll sit this one out."
+        "en-US": "Hard pass. We'll sit this one out."
       },
       {
         "zType": "TEXT_EVENTOPTION_BITTER_HARVEST_0",
@@ -28376,6 +30992,566 @@
       {
         "zType": "TEXT_EVENTOPTION_FORTUNE_FAVORS_3",
         "en-US": "Do nothing."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ENEMY_OF_MY_ENEMY_0",
+        "en-US": "Let's hit {PLAYER-3} with everything we have. Declare war on {PLAYER-3} and fund the training of new units for the {TRIBE-2}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ENEMY_OF_MY_ENEMY_1",
+        "en-US": "We should aid {CHARACTER-SHORT-2} quietly, so as not to be drawn into the war ourselves. Fund the training of new units for the {TRIBE-2}, but do it quietly."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ENEMY_OF_MY_ENEMY_2",
+        "en-US": "Although all the warring is distasteful, this is none of our concern."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ORPHANS_0",
+        "en-US": "Host a lavish festival, sparing no expense, and inviting the orphaned children of the {TRIBE-3} to attend as well."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ORPHANS_1",
+        "en-US": "It's a good idea, but we lack the resources to make it expansive enough to invite the {TRIBE-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ORPHANS_2",
+        "en-US": "A splendid idea, but sadly, one we simply cannot afford."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_ACT_OF_BRAVERY_0",
+        "en-US": "Let us immortalize the deed by erecting a statue in {CITY-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_ACT_OF_BRAVERY_1",
+        "en-US": "Reward {CHARACTER-SHORT-3} with coin and a feast in {G3:his:her} honor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_ACT_OF_BRAVERY_2",
+        "en-US": "Although the deed is certainly worthy of more, all we can afford at present is a heartfelt thank you."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CRUEL_SUMMER_0",
+        "en-US": "Not only should we build them for public display, I shall give {CHARACTER-SHORT-3} {G3:his:her} favorite as a gift!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CRUEL_SUMMER_1",
+        "en-US": "Although it's a tempting idea, {CHARACTER-SHORT-3} and I will content ourselves with late night conversations about such devices."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_VAST_PROPORTIONS_0",
+        "en-US": "Let us spare no expense in the endeavor, so if these creatures really do exist, we secure enough for both ourselves and for {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_VAST_PROPORTIONS_1",
+        "en-US": "Even if these stories prove true, we simply do not have the resources at present to fund a proper expedition, but keep the drinks and the tales coming!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HEROES_OF_TWO_REALMS_0",
+        "en-US": "Arrange a Great Hunt, followed by a Triumphant parade through the streets of {CITY-4}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HEROES_OF_TWO_REALMS_1",
+        "en-US": "Leverage our collective fame to improve the readiness of our military."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HEROES_OF_TWO_REALMS_2",
+        "en-US": "Take advantage of our fame to improve the lives of our People."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HEROES_OF_TWO_REALMS_3",
+        "en-US": "As thrilling as it might be to do something together, now is simply not the time."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_THINKERS_AND_TINKERERS_0",
+        "en-US": "We will happily lend the wisdom of our ministers in exchange for access to the best minds {CHARACTER-SHORT-3} can make available."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_THINKERS_AND_TINKERERS_1",
+        "en-US": "It's not what {CHARACTER-SHORT-3} wants, but let us trade resources for for materials to better the lives of our People on a more practical level."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_THINKERS_AND_TINKERERS_2",
+        "en-US": "Alas, we are not in a position to take advantage of this offer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_TOUCH_OF_THE_EXOTIC_0",
+        "en-US": "We graciously accept this generous offer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_TOUCH_OF_THE_EXOTIC_1",
+        "en-US": "While we appreciate the generosity, we feel we must reciprocate."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MY_LITTLE_PONIES_0",
+        "en-US": "A tremendous opportunity. Let us fund the entire effort, so we can simultaneously gain access to a new resource and bolster relations with the {TRIBE-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MY_LITTLE_PONIES_1",
+        "en-US": "Let us split the cost of the effort with the {TRIBE-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MY_LITTLE_PONIES_2",
+        "en-US": "Sadly, we lack the resources to take advantage of this opportunity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EMBRACING_IRREVERENCE_0",
+        "en-US": "Sure!  Let's turn it into a party!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EMBRACING_IRREVERENCE_1",
+        "en-US": "Perhaps it's best if we keep our biting wit between us, unless we're on the field of battle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FOOLS_AND_MADMEN_0",
+        "en-US": "Excellent, and much more entertaining than a spelling bee!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LANDS_OF_PLENTY_0",
+        "en-US": "Let us collaborate on initiatives designed to make our two Peoples happier."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LANDS_OF_PLENTY_1",
+        "en-US": "We should collaborate on initiatives that look to the future, exploring scientific mysteries."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LANDS_OF_PLENTY_2",
+        "en-US": "As wonderful as these conversations are, we don't currently have the resources to bring them to light and life."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_ONE_COMMANDER_TO_ANOTHER_0",
+        "en-US": "This is an opportunity too good to ignore."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_ONE_COMMANDER_TO_ANOTHER_1",
+        "en-US": "As tempting as the offer is, we lack the resources to take advantage of it at present."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TOUGH_AS_NAILS_0",
+        "en-US": "We should build an arena and start showing professional matches."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TOUGH_AS_NAILS_1",
+        "en-US": "As amazing as it would be to host regular, professional matches, we can't afford something so extravagant. We can still beat the hell out of each other in Court though."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FIELDCRAFT_HERBAL_MEDICINE_0",
+        "en-US": "We can't afford not to. This skill is far too important, and {CHARACTER-3} deserves credit for inspiring the idea."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FIELDCRAFT_HERBAL_MEDICINE_1",
+        "en-US": "It's a spectacular idea, but we just aren't in a position to implement it. Of course that doesn't mean that {CHARACTER-SHORT-3} and I can't continue to hone our skills together!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARDENS_OF_THE_WILDS_0",
+        "en-US": "Let us turn this idea into a reality by establishing The Wardens of the Wilds."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARDENS_OF_THE_WILDS_1",
+        "en-US": "Tempting as the idea is, it's something we can't afford right now, but by all means, we should continue our rides with {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FEROCIOUS_0",
+        "en-US": "We should build a training pit and throw our new recruits in with wild dogs to teach them to let their most ferocious selves come to the fore."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FEROCIOUS_1",
+        "en-US": "While I would dearly love to watch my soldiers learn to live and fight as {CHARACTER-SHORT-3} do, we simply cannot afford the expense right now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_TRADITION_0",
+        "en-US": "How can we not embrace this idea?  Let us do so at once!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WARRIOR_TRADITION_1",
+        "en-US": "It is very tempting, but no. Our current resources simply don't allow for it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BRIGHT_LIGHTS_IN_A_DARK_WORLD_0",
+        "en-US": "Ask {CHARACTER-3} to share the burden of building this new monument."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BRIGHT_LIGHTS_IN_A_DARK_WORLD_1",
+        "en-US": "Shoulder the entire expense of the new monument and credit {CHARACTER-3} as being one of the inspirations behind the idea."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BRIGHT_LIGHTS_IN_A_DARK_WORLD_2",
+        "en-US": "At present, we simply lack the resources to do this idea justice."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THUNDER_AND_SILENCE_0",
+        "en-US": "This is something we simply must do, costs be damned."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THUNDER_AND_SILENCE_1",
+        "en-US": "Much as it pains me to admit it, we cannot afford the expense right now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_THE_NUMBERS_0",
+        "en-US": "Let us model the taxation system of {CITY-4} after that used by the {TRIBE-3}. It will be expensive to set up initially, but should yield excellent dividends in the long run."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BY_THE_NUMBERS_1",
+        "en-US": "It's a novel idea, to be sure, but not one we can afford in the here and now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SOMETIMES_THE_GODS_SMILE_0",
+        "en-US": "We should take no chances where the gods are concerned. Let's build the shrine in hopes of appeasing any we may not be aware of."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SOMETIMES_THE_GODS_SMILE_1",
+        "en-US": "While we may be a bit superstitious, there's no need to get carried away..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THICK_AND_THIN_0",
+        "en-US": "Let us throw an lavish party in honor of {CHARACTER-SHORT-3} and to show our appreciation for {G3:his:her} friendship."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THICK_AND_THIN_1",
+        "en-US": "We should honor the {TRIBE-3} as a whole, but still emphasize our friendhsip with {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THICK_AND_THIN_2",
+        "en-US": "Sadly, while we do admire the {TRIBE-3} and we like {CHARACTER-SHORT-3} very much, we lack the resources to demonstrate it in any meaningful way."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_ONE_RANGER_TO_ANOTHER_0",
+        "en-US": "Work with {CHARACTER-SHORT-3} to teach our woodsmen how to get more out of the forest."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FROM_ONE_RANGER_TO_ANOTHER_1",
+        "en-US": "It's one of those ideas that sounds good to the ear, but in practice, would be frustratingly difficult. Let's go for another ride instead!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WISDOM_OF_THE_HIGHLAND_CLANS_0",
+        "en-US": "We should not only hire scribes to pen a Codex of Highland wisdom to keep in {CITY-4}, but also give {CHARACTER-SHORT-3} credit for being the inspiration behind it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WISDOM_OF_THE_HIGHLAND_CLANS_1",
+        "en-US": "No. Unfortunately, we lack the resources to do anything like that at this time. But we should continue to celebrate our shared heritage!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RAID_EARLY_WARNING_3",
+        "en-US": "Why wait?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ROOM_FOR_ONE_MORE_0",
+        "en-US": "As long as {CHARACTER-SHORT-4} supports the idea, then yes!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ROOM_FOR_ONE_MORE_1",
+        "en-US": "No. I do not feel comfortable with this. It seems most...unwise."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOOK_UPON_MY_ARMIES_AND_DESPAIR_0",
+        "en-US": "Force them into an alliance so that we may begin making plans to settle their lands."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOOK_UPON_MY_ARMIES_AND_DESPAIR_1",
+        "en-US": "Force them to pay a tribute in iron, in exchange for continued peace."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOOK_UPON_MY_ARMIES_AND_DESPAIR_2",
+        "en-US": "They may continue to exist if they provide food for our People."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOOK_UPON_MY_ARMIES_AND_DESPAIR_3",
+        "en-US": "We will not destroy them (for now), if they provide us with a steady supply of stone."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LOOK_UPON_MY_ARMIES_AND_DESPAIR_4",
+        "en-US": "Continued peace between us may be purchased with regular supplies of wood."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THEYLL_NEVER_SEE_IT_COMING_0",
+        "en-US": "Oh, I think a donation to our national treasury would be appropriate."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THEYLL_NEVER_SEE_IT_COMING_1",
+        "en-US": "The gift of friendship is sufficient for now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PUBLIC_RELATIONS_GUILD_0",
+        "en-US": "Of course!  One must endeavor to use every tool available, after all."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PUBLIC_RELATIONS_GUILD_1",
+        "en-US": "I don't mind sharing, but, in this case, I think not."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WAGGING_THE_DOG_0",
+        "en-US": "Thank him for informing you personally and tell him you'll see him on the field of battle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WAGGING_THE_DOG_1",
+        "en-US": "Murder {G2:him:her}. {CHARACTER-SHORT-2} was an idiot to have come to you under minimal guard."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WAGGING_THE_DOG_2",
+        "en-US": "Convince {G2:him:her} that some of {G2:his:her} own People are plotting to assassinate {G2:him:her} and offer to assist in uncovering the plot."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_READY_FOR_ANYTHING_0",
+        "en-US": "I have been privately preparing to conduct emergency training drills for our forces."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_READY_FOR_ANYTHING_1",
+        "en-US": "I have been seeking the council of our wisest ministers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_READY_FOR_ANYTHING_2",
+        "en-US": "I have been studying the tactics our enemy has used historically to discover how to defeat them."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_NIGHT_TO_REMEMBER_0",
+        "en-US": "I accept your gracious offer of tribute."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_NIGHT_TO_REMEMBER_1",
+        "en-US": "I choose to avail myself of the wisdom of your ministers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_NIGHT_TO_REMEMBER_2",
+        "en-US": "I would like to see my troops trained by your finest warriors, and benefit from their skills myself."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_NIGHT_TO_REMEMBER_3",
+        "en-US": "I need nothing but your friendship."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHANCE_DISCOVERY_0",
+        "en-US": "We shall translate it at once, but keep the findings to ourselves, refusing to share the fruits of the discovery with the {TRIBE-2}"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHANCE_DISCOVERY_1",
+        "en-US": "Translate the scroll and share the wisdom it contains with {CHARACTER-SHORT-2}"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EMBRACING_CHANGE_0",
+        "en-US": "I don't see how we can ignore the opportunity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EMBRACING_CHANGE_1",
+        "en-US": "As attractive as it sounds, we simply don't have the resources to spare."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_FRIEND_INDEED_0",
+        "en-US": "I am the leader. We can afford it if I say we can."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_FRIEND_INDEED_1",
+        "en-US": "Probably best not to risk it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FATES_AND_FORTUNES_0",
+        "en-US": "This could definitely work to our advantage."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FATES_AND_FORTUNES_1",
+        "en-US": "Intriguing idea or not, it's just not something we can afford to do at present."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HOSTAGES_0",
+        "en-US": "Yes!  Let us buy his freedom and return him to his people to gain political advantage."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HOSTAGES_1",
+        "en-US": "Intriguing. And we could always use a new, capable person at Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HOSTAGES_2",
+        "en-US": "As tempting as the offer is, it is something we cannot presently afford."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SOLDIER_OF_FORTUNE_0",
+        "en-US": "We could always use another talented soldier."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SOLDIER_OF_FORTUNE_1",
+        "en-US": "No. Not at this time."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_IRON_GIANT_0",
+        "en-US": "Very good that {G4:he:she} has a doting protector. We should hire {CHARACTER-3} and make it official."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_IRON_GIANT_1",
+        "en-US": "If {CHARACTER-3} is going to continue to linger at Court, redirect {G3:his:her} attention to training our troops, which is of more immediate value."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_AN_IRON_GIANT_2",
+        "en-US": "Send word to {CHARACTER-2} and sing {CHARACTER-3} praises."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_RAIDERS_0",
+        "en-US": "With resignation. Periodic raids are a fact of life. Our existing forces will deal with them."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_RAIDERS_1",
+        "en-US": "Let's give them money to just go away."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_GHOST_RAIDERS_2",
+        "en-US": "Enough!  Let's find this leader and hire her. We'll add her to the Court and she can help us deal with such problem in the future."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WIDE_AWAKE_OPTION_0_HELP",
+        "en-US": "Why can I not move my mouth!?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BROTHERS_AND_SISTERS_OF_THE_FAITH_0",
+        "en-US": "We will honor the wishes of {CHARACTER-4} and make a truce...grudgingly."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BROTHERS_AND_SISTERS_OF_THE_FAITH_1",
+        "en-US": "I am the ruler of this Realm, not {CHARACTER-4}. There will be no peace."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DISSENTION_IN_THE_RANKS_0",
+        "en-US": "I would rather preserve my relationship with {CHARACTER-3} than continue this war, so yes. We will call an end to the fighting."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DISSENTION_IN_THE_RANKS_1",
+        "en-US": "I am not interested in anything {CHARACTER-3} has to say on the matter. The war against the {TRIBE-2} ends when I say it ends."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ADROIT_DIPLOMACY_0",
+        "en-US": "We will add {CHARACTER-0} to Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ADROIT_DIPLOMACY_1",
+        "en-US": "Let us add {CHARACTER-1} to the Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ADROIT_DIPLOMACY_2",
+        "en-US": "While we appreciate the gesture, your friendship is sufficient. We would not rob you of your own talent."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_DANCE_OF_DIPLOMACY_0",
+        "en-US": "Give {CHARACTER-0} food to distribute to {G0:his:her} people."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_DANCE_OF_DIPLOMACY_1",
+        "en-US": "Offer to provide engineering expertise to {CHARACTER-0}"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_DANCE_OF_DIPLOMACY_2",
+        "en-US": "Make a show of negotiating a settlement that will solve both problems while providing a gain to your own Realm as well, then reverse course and make a gift of our resources."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_DANCE_OF_DIPLOMACY_3",
+        "en-US": "Alas, at present we are not in a position to take advantage of these intelligences."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PROGRESS_AND_PROSPERITY_0",
+        "en-US": "Help the {TRIBE-1} fund a caravan and share in the profits."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PROGRESS_AND_PROSPERITY_1",
+        "en-US": "Make a sizeable donation to the coffers of the {TRIBE-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PROGRESS_AND_PROSPERITY_2",
+        "en-US": "Gift {CHARACTER-1} with access to your military planners and civil engineers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_PROGRESS_AND_PROSPERITY_3",
+        "en-US": "Sadly, at present, we are not in a position to take advantage of any other opportunities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRAVELING_CIRCUS_0",
+        "en-US": "Send a heartfelt note of thanks to {CHARACTER-0}, expressing our appreciation for making our Festival all the brighter."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRAVELING_CIRCUS_1",
+        "en-US": "Ask them to remain for an extended engagement."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRAVELING_CIRCUS_2",
+        "en-US": "Hire {CHARACTER-5}, leader of the Traveling Circus. We know talent when we see it!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_TRAVELING_CIRCUS_3",
+        "en-US": "While the Festival was lovely, we lack the resources at the moment to take advantage of the other opportunities the traveling circus represents."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGIOUS_RAIDS_IGNORE",
+        "en-US": "Refuse to make such a request."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RELIGIOUS_RAIDS_WAR",
+        "en-US": "Demand that the raids cease immediately."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_HERO_OPTION_0",
+        "en-US": "Use the fear of this general to form a new militia."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_HERO_OPTION_1",
+        "en-US": "Lead your soldiers in extra training drills for fighting {TRIBE-0}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRIBAL_HERO_OPTION_2",
+        "en-US": "Punish the soldiers that let him escape."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_TRIBE_LEADER_YES",
+        "en-US": "Gladly accept to be joined in marriage."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MARRIAGE_TRIBE_LEADER_NO",
+        "en-US": "Refuse the offer."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_TRIBE_YES_1",
+        "en-US": "{CHARACTER-SHORT-2} will marry {CHARACTER-SHORT-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_TRIBE_YES_2",
+        "en-US": "{CHARACTER-SHORT-4} is the right choice."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MISSION_MARRIAGE_DIPLOMAT_TRIBE_NO",
+        "en-US": "Neither of these options are good enough."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNCOATS_0",
+        "en-US": "Let us bring {CHARACTER-3} into our service."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNCOATS_1",
+        "en-US": "Let us bring the trademen into our fold."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNCOATS_2",
+        "en-US": "Let's invite both {CHARACTER-3} and the tradesmen into our Realm."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TURNCOATS_3",
+        "en-US": "At present, we're in no position to take advantage of this opportunity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SWORD_SAINT_0",
+        "en-US": "Yes!  Let us add this talented {G1:man:woman} to our Court!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SWORD_SAINT_1",
+        "en-US": "I think {CHARACTER-1} would be of more use as a crowd pleaser. Let us build an arena and let {G1:him:her} perform."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SWORD_SAINT_2",
+        "en-US": "Sadly, we cannot afford to take advantage of this opportunity at present."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PERFUME_MERCHANT_0",
+        "en-US": "Perfume, you say?  Let's definitely get some and try it!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PERFUME_MERCHANT_1",
+        "en-US": "We should not only acquire this 'Perfume,' but also add {CHARACTER-1} to our Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_PERFUME_MERCHANT_2",
+        "en-US": "Alas, we must focus on fundamentals just now. Fineries will have to wait."
       },
       {
         "beginGroup": "Royalty",
@@ -28592,7 +31768,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RIGHTFUL_HEIR_OPTION_1",
-        "en-US": "Welcome back! The throne is yours my {G2:king:queen}."
+        "en-US": "Welcome back! The throne is yours my {G2:King:Queen}."
       },
       {
         "zType": "TEXT_EVENTOPTION_BIRTH_A_NEW_HEIR_OPTION_0",
@@ -28737,6 +31913,10 @@
       {
         "zType": "TEXT_EVENTOPTION_HEIR_CRISIS_NOTHING",
         "en-US": "If the gods will it..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HEIR_CRISIS_BLESSED",
+        "en-US": "The gods have always looked after me, and behold, they have blessed us again!"
       },
       {
         "zType": "TEXT_EVENTOPTION_HEIR_BUDDING_ARCHER_EYES",
@@ -28924,7 +32104,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_INHERITANCE_HUMBLE_OPTION_0",
-        "en-US": "Humble yourselves in the presence of the Lord, and he will exalt you."
+        "en-US": "Humble yourselves before the divine and you will be exalted."
       },
       {
         "zType": "TEXT_EVENTOPTION_INHERITANCE_PROUD_OPTION_0",
@@ -28969,10 +32149,6 @@
       {
         "zType": "TEXT_EVENTOPTION_INHERITANCE_DEALMAKER_OPTION_0",
         "en-US": "Every deal is a rope. Be careful who you're tied to."
-      },
-      {
-        "zType": "TEXT_EVENTOPTION_INHERITANCE_CUNNING_OPTION_0",
-        "en-US": "The hunter must take care to avoid {G0:his:her} own traps."
       },
       {
         "zType": "TEXT_EVENTOPTION_INHERITANCE_EXOTIC_OPTION_0",
@@ -29164,7 +32340,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_CHILD_THE_BAD_SEED_OPTION_3",
-        "en-US": "{G1:He:She} must die...  but make it look like an accident."
+        "en-US": "{G1:He:She} must die... but make it look like an accident."
       },
       {
         "zType": "TEXT_EVENTOPTION_CHILD_THE_BAD_SEED_OPTION_4",
@@ -29313,6 +32489,10 @@
       {
         "zType": "TEXT_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_1",
         "en-US": "Follow your heart and find happiness."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILD_COMMON_LOVE_OPTION_2",
+        "en-US": "Thank the heavens! It seems {CHARACTER-SHORT-2} was heir to an ancient title all along!"
       },
       {
         "zType": "TEXT_EVENTOPTION_CHILD_ENLISTMENT_OPTION_0",
@@ -29473,6 +32653,14 @@
       {
         "zType": "TEXT_EVENTOPTION_MASTER_OF_WHISPERS_ASSASSINATE",
         "en-US": "End my {G0:husband's:wife's} affair one way or another."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TAKING_UP_A_HOBBY_HOSTAGE",
+        "en-US": "A masterstroke! Dearest, clearly your talents were being wasted on inconsequential trivialities."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TAKING_UP_A_HOBBY_UNHAPPY",
+        "en-US": "Dearest, isn't this a little... drastic?"
       },
       {
         "zType": "TEXT_EVENTOPTION_AXES_HIGH_TREMBLE",
@@ -29876,7 +33064,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_UNFAITHFUL_TIDINGS_IGNORE",
-        "en-US": "I am the {G0:King:Queen}. I can do what I please."
+        "en-US": "I am the {TITLE-0}. I can do what I please."
       },
       {
         "zType": "TEXT_EVENTOPTION_CONFIRMATION_YES",
@@ -30361,6 +33549,26 @@
       {
         "zType": "TEXT_EVENTOPTION_DRAWN_FROM_THE_ROCK_2",
         "en-US": "What a curious sword! I must have it for myself."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIGHTFUL_HEIR_DEAD_OKAY",
+        "en-US": "The throne is now yours, and yours alone."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIGHTFUL_HEIR_REGENT_DEAD_REFUSE",
+        "en-US": "The throne is mine!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIGHTFUL_HEIR_REGENT_DEAD_RETURN",
+        "en-US": "It is time for {CHARACTER-SHORT-2} to return to the throne."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RIGHTFUL_HEIR_REGENT_DEAD_LEADER_YES",
+        "en-US": "This is what I was born for."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CHILD_THE_BAD_SEED_OPTION_5",
+        "en-US": "{CHARACTER-SHORT-1} can do as {G1:he:she} wants."
       },
       {
         "beginGroup": "Courtier",
@@ -30945,7 +34153,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_1",
-        "en-US": "Instruct {CHARACTER-SHORT-1} to keep an eye on {G0:him:her}."
+        "en-US": "Agree with {CHARACTER-SHORT-1} to keep an eye on {CHARACTER-SHORT-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_TUTOR_UNHEALTHY_INTERESTS_OPTION_2",
@@ -31210,6 +34418,350 @@
       {
         "zType": "TEXT_EVENTOPTION_TECH_THE_LAST_PIECE_2",
         "en-US": "Send your agents to steal their reseach for {CHARACTER-SHORT-1} to complete."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOODSPORT_OPTION_4_HELP",
+        "en-US": "This could be dangerous..."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOODSPORT_OUTCOME_WINPTION_0_COPY",
+        "en-US": "I am the champion!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOODSPORT_OUTCOME_WINPTION_0_COPY_COPY",
+        "en-US": "No! I was supposed to… win…"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SKITTISH_BANDITS_0",
+        "en-US": "Agree to take him in and add him to your Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SKITTISH_BANDITS_1",
+        "en-US": "We don't need another merchant on the Court, but fund his trade mission so that we might profit from it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SKITTISH_BANDITS_2",
+        "en-US": "Kill the merchant and take his supplies."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BEER_RUN_0",
+        "en-US": "She's brilliant. Let's give this woman a job!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BEER_RUN_1",
+        "en-US": "Lovely! Bring this ale back to {CITY-1} so we can all enjoy it."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BEER_RUN_2",
+        "en-US": "Interesting, but I'm more interested in the grain itself. Order the men to bring back seeds so we can plant fields near {CITY-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCATTERED_INDEPENDENTS_0",
+        "en-US": "By all means, let us negotiate with them and bring them into the fold."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCATTERED_INDEPENDENTS_1",
+        "en-US": "We have people enough already, but let us hire the cream of the crop to serve in our military."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCATTERED_INDEPENDENTS_2",
+        "en-US": "I'm not really interested in bringing in large numbers of people, but we'll selectively absorb their most talented into our Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SWORDS_OR_PLOWSHARES_0",
+        "en-US": "Ready our forces. I choose the path of war."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SWORDS_OR_PLOWSHARES_1",
+        "en-US": "Let us remain vigilant, but focus our attention on peace and prosperity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TALENT_SCOUT_0",
+        "en-US": "Let us add a merchant to the Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TALENT_SCOUT_1",
+        "en-US": "We could always use more military leaders."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TALENT_SCOUT_2",
+        "en-US": "Sadly, at present we lack the resources to add anyone."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INDEPENDENT_MERCHANT_0",
+        "en-US": "By all means. The more merchants in our employ, the better!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_INDEPENDENT_MERCHANT_1",
+        "en-US": "No. We must maintain discipline. We can't just go hiring any and everyone."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADING_FAVORS_0",
+        "en-US": "Consider it done!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TRADING_FAVORS_1",
+        "en-US": "We cannot afford to pay this miscreant's debts, and we do not want {G4:him:her} at Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTELAGE_0",
+        "en-US": "By all means!  Let us take {CHARACTER-4} under our wing."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_TUTELAGE_1",
+        "en-US": "We are in no position to grant this favor right now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEBT_REPAID_0",
+        "en-US": "That works for me, we could always use more talent at Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_DEBT_REPAID_1",
+        "en-US": "I would not feel right about essentially making a hostage of one of your kin, and no matter how we dress it up, that's what it would feel like to me."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IN_A_BIND_0",
+        "en-US": "We would be happy to assist, and will even pay to have {CHARACTER-3} relocated."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IN_A_BIND_1",
+        "en-US": "We're glad to help, but you will have to bear the cost of getting {G3:him:her} here."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_IN_A_BIND_2",
+        "en-US": "I'm sorry, but no. Whatever {G3:he:she} has done is your problem to deal with."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MILITARY_LEADERSHIP_0",
+        "en-US": "Let us divert some of our current military resources to the task of hiring a new military leader."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MILITARY_LEADERSHIP_1",
+        "en-US": "We will divert civilian resources to bulk up our military leadership."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_MILITARY_LEADERSHIP_2",
+        "en-US": "Ignore these whimperings from Court. Our current leadership is fine."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ECONOMIC_FOCUS_0",
+        "en-US": "Now is the perfect time to direct civic resources toward building a brighter future."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ECONOMIC_FOCUS_1",
+        "en-US": "Let us divert military resources to bolstering our economy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_ECONOMIC_FOCUS_2",
+        "en-US": "We shall stay our current course. Ignore these whimperings from Court. Our current leadership is fine."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BARGAINING_CHIPS_0",
+        "en-US": "This seems like a good trade. We shall part with some of our luxuries in exchange for a Great Merchant."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BARGAINING_CHIPS_1",
+        "en-US": "I like it. Let's leverage our luxuries to add a Great Soldier to the court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BARGAINING_CHIPS_2",
+        "en-US": "No. We'll keep our luxuries for the time being."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEVERAGING_LUXURIES_0",
+        "en-US": "We could certainly see our way clear to do that if it means adding a new merchant to the Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEVERAGING_LUXURIES_1",
+        "en-US": "We would happily make that trade for the opportunity to add a new minister to the Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_LEVERAGING_LUXURIES_2",
+        "en-US": "No. We'll keep our luxuries for the time being."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CAMPAIGN_PLANNING_TRAINING",
+        "en-US": "Focus on training drills and exercises."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CAMPAIGN_PLANNING_AMBITION",
+        "en-US": "Send the word out, the next campaign will be against {PLAYER-1}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CAMPAIGN_PLANNING_DEFENSE",
+        "en-US": "Send the generals to defend the roads and trade routes."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_CAMPAIGN_PLANNING_AMBITION_HELP",
+        "en-US": "We will prepare and strike when the time is right!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ABACUS_0",
+        "en-US": "Let us bring {CHARACTER-1} to Court and teach the fine art of finance to {CHARACTER-3}."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ABACUS_1",
+        "en-US": "Bring {CHARACTER-1} to Court, but {G1:his:her} first duty should be to organize an expedition which {CHARACTER-3} will lead in a bid to further {G3:his:her} education."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ABACUS_2",
+        "en-US": "By all means, let us bring {CHARACTER-1} to Court, but regarding {CHARACTER-3}'s education, we should ensure it is as well-rounded as possible."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_ABACUS_3",
+        "en-US": "At present, our coffers cannot bear such an expense."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCHOOL_OF_HARD_KNOCKS_0",
+        "en-US": "No need to intervene. Let {CHARACTER-1} take {G1:his:her} lumps as they come."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCHOOL_OF_HARD_KNOCKS_1",
+        "en-US": "Hire {CHARACTER-1} and quietly add {G1:him:her} to Court. Direct {G1:him:her} to focus {CHARACTER-3}'s education on discipline."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SCHOOL_OF_HARD_KNOCKS_2",
+        "en-US": "Reach out to the high chief of the {TRIBE-0} and ensure that {CHARACTER-1} is too busy to spend time with your heir."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SHAPING_THE_FUTURE_0",
+        "en-US": "Provide {CHARACTER-3} with the funds necessary to acquire this new drink."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SHAPING_THE_FUTURE_1",
+        "en-US": "Rather than providing luxuries, we should focus on bringing mercantile expertise to Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SHAPING_THE_FUTURE_2",
+        "en-US": "Why not do both?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_SHAPING_THE_FUTURE_3",
+        "en-US": "At present, we cannot afford any of these options."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_BIRTHDAY_PRESENT_0",
+        "en-US": "Let us focus on luxurious delights this year."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_BIRTHDAY_PRESENT_1",
+        "en-US": "We shall hire a tutor for {CHARACTER-3}. A warrior of renown."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_BIRTHDAY_PRESENT_2",
+        "en-US": "I can't decide. Let's do both!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_BIRTHDAY_PRESENT_3",
+        "en-US": "These types of fineries are simply beyond our reach at present."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_BURIED_TREASURE_0",
+        "en-US": "Let's spend what we need to in order to get this mine operational again."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_RUINS_BURIED_TREASURE_1",
+        "en-US": "Sadly, our treasury cannot bear the expense at the moment."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_CAPTURED_LION_0",
+        "en-US": "Talent is talent. Bring {CHARACTER-4} into the fold."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_CAPTURED_LION_1",
+        "en-US": "I don't like it. Let's treat {G4:him:her} as we would any other prisoner."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAVOR_FOR_A_FAVOR_0",
+        "en-US": "We could always use another talented merchant in our inner circle."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAVOR_FOR_A_FAVOR_1",
+        "en-US": "We'll call our favor repaid in exchange for the services of a skilled General."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FAVOR_FOR_A_FAVOR_2",
+        "en-US": "No. For the moment, at least, we'll hold onto that favor."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_DEBT_REPAID_0",
+        "en-US": "Indeed. The addition to a new, skilled merchant to our inner circle would certainly settle accounts."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_DEBT_REPAID_1",
+        "en-US": "I would consider the matter settled if you gifted us the service of a talented General."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_A_DEBT_REPAID_2",
+        "en-US": "Regardless of how skilled the offered Courtiers may be, holding onto the favor for the time being is more valuable still."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARL_GREY_HOT_0",
+        "en-US": "Yes, let's take control of the tea, but let's be smart about it, and pay the {FAMILY-2} a fair price."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARL_GREY_HOT_1",
+        "en-US": "Let us not only take control of the supply of tea, but of the talented merchant who introduced it to our realm."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_EARL_GREY_HOT_2",
+        "en-US": "Alas, no. We are in no position to take advantage of this opportunity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THE_SMOKE_0",
+        "en-US": "A heroic deed deserves a statue and other accolades!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THE_SMOKE_1",
+        "en-US": "Bring {CHARACTER-4}. Let us not lose sight of such talent."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THROUGH_THE_SMOKE_2",
+        "en-US": "Thank {G4:him:her} for {G4:his:her} service but don't make a fuss."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FRESH_PERSPECTIVES_0",
+        "en-US": "Let us add {CHARACTER-4} to our Court. Another Merchant is always useful."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FRESH_PERSPECTIVES_1",
+        "en-US": "We should bring {CHARACTER-5} into the fold. {G5:He:She} looks promising indeed."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FRESH_PERSPECTIVES_2",
+        "en-US": "Let's pay to add {CHARACTER-6} to our ranks."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_FRESH_PERSPECTIVES_3",
+        "en-US": "As tempting as these Courtiers are, we're just not in a position to do that."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_FAIR_0",
+        "en-US": "Let us add {CHARACTER-5} to our collection of Courtiers."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_FAIR_1",
+        "en-US": "We should bring {CHARACTER-6} into the fold."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_FAIR_2",
+        "en-US": "Forget the people, let's acquire those spices!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_FAIR_3",
+        "en-US": "This is a wondrous offer, but it's just not something we can afford to take advantage of right now."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOOD_AND_SAND_0",
+        "en-US": "Formalize the Blood Pits by building a proper structure around the impromptu arena, turning it into a means to subtly control the population."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOOD_AND_SAND_1",
+        "en-US": "It's a simple curiosity that will die out in short order. On the other hand, {CHARACTER-5} is a good find, and would make an excellent addition to your Court."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_BLOOD_AND_SAND_2",
+        "en-US": "Enjoy the Sand Pits while they exist, and hone your skills in battle there."
       },
       {
         "beginGroup": "Leader",
@@ -31494,7 +35046,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_RECOGNIZED_OPTION_3",
-        "en-US": "Bow before them, for a {G1:king:queen} is nothing without {G1:his:her} subjects."
+        "en-US": "Bow before them, for a {TITLE-1} is nothing without {G1:his:her} subjects."
       },
       {
         "zType": "TEXT_EVENTOPTION_RECOGNIZED_OPTION_4",
@@ -31654,7 +35206,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_BEE_OF_BUMBLE_OPTION_2",
-        "en-US": "Head-butt the bee. Show it the power of a {G0:king:queen}!"
+        "en-US": "Head-butt the bee. Show it the power of a {TITLE-0}!"
       },
       {
         "zType": "TEXT_EVENTOPTION_ALTRUISM_OPTION_0",
@@ -31682,7 +35234,7 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_ASCETICISM_OPTION_0",
-        "en-US": "It is good to be the {G0:king:queen}"
+        "en-US": "It is good to be the {TITLE-0}."
       },
       {
         "zType": "TEXT_EVENTOPTION_ASCETICISM_OPTION_1",
@@ -31990,19 +35542,55 @@
       },
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_TO_DYE_FOR_ONE",
-        "en-US": "Me, and only me!"
+        "en-US": "I, and only I!"
       },
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_TO_DYE_FOR_TWO",
-        "en-US": "I will allow the {FAMILY-4} family to also wear the purple."
+        "en-US": "I will also allow the {FAMILY-4} family to wear purple."
       },
       {
         "zType": "TEXT_EVENTOPTION_HARVEST_TO_DYE_FOR_THREE",
-        "en-US": "Anyone who can afford them may wear them."
+        "en-US": "Anyone who can afford them, may wear them."
       },
       {
         "zType": "TEXT_EVENTOPTION_BLESSED_TRADE_0",
         "en-US": "Remarkable!"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WINTERS_TO_COME_PRAY",
+        "en-US": "Let us pray together for the gods' mercy."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_WINTERS_TO_COME_SAVE",
+        "en-US": "We must then be prepared."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_OPEN_AIR_ENJOY",
+        "en-US": "The open air is exactly what I need."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_OPEN_AIR_PLAN",
+        "en-US": "Let us speak of the future."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SPORT_OF_KINGS_AGREE",
+        "en-US": "Indeed, I believe the laws can be improved."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SPORT_OF_KINGS_DISAGREE",
+        "en-US": "Done? Those hunters have made {CITY-0} prosperous, they set an example."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_THE_SPORT_OF_KINGS_WAFFLE",
+        "en-US": "Alas, you have my sympathies. More wine?"
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HARVEST_SEA_FOR_OURSELVES_RARE",
+        "en-US": "Profit from the rarity."
+      },
+      {
+        "zType": "TEXT_EVENTOPTION_HARVEST_SEA_FOR_OURSELVES_EXPAND",
+        "en-US": "Aim to expand operations."
       }
     ]
   }

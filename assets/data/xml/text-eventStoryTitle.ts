@@ -488,7 +488,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_CONVERT_PERSONAL_RELIGION_TITLE",
-        "en-US": "State Religion"
+        "en-US": "Personal Religion"
       },
       {
         "zType": "TEXT_EVENTSTORY_RETURNING_THE_FAVOR_TITLE",
@@ -1128,7 +1128,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_CONVERT_SELF_BEFORE_GOD_TITLE",
-        "en-US": "Before <p.is_sub.S2=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>"
+        "en-US": "Before {S2.GOD}"
       },
       {
         "zType": "TEXT_EVENTSTORY_CONVERT_SELF_FOOL_TITLE",
@@ -1244,15 +1244,19 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_INFLUENCE_INVASION_TITLE",
-        "en-US": "Influence of Invasions"
+        "en-US": "Tribal Factions"
       },
       {
         "zType": "TEXT_EVENTSTORY_TRAIT_MIDNIGHT_MEETING_SECURITY",
-        "en-US": "The guards rush into the garden, surrounding the hapless serving {G0:girl:boy}. It doesn't take long to find out the truth, that {G0:she:he} is an assassin sent by {CHARACTER-1} to lure you to your death. \n\nIt seems that your quick thinking has saved you on this occassion, but what will you do with the knowledge of {CHARACTER-SHORT-1}'s plans?"
+        "en-US": "The guards rush into the garden, surrounding the hapless serving {G0:girl:boy}. It doesn't take long to find out the truth, that {G0:she:he} is an assassin sent by {CHARACTER-1} to lure you to your death. \n\nIt seems that your quick thinking has saved you on this occasion, but what will you do with the knowledge of {CHARACTER-SHORT-1}'s plans?"
       },
       {
         "zType": "TEXT_EVENTSTORY_THE_THREE_THOUSAND_TITLE",
         "en-US": "The 3,000 Events"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WAYWARD_SON_TITLE",
+        "en-US": "Wayward Son"
       },
       {
         "zType": "TEXT_EVENTSTORY_RAID_FAMILY_FURY_TITLE",
@@ -1413,6 +1417,130 @@
       {
         "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_ORTHODOXY_TITLE",
         "en-US": "No Room for Heathens"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_PROFESSIONAL_ARMY_TITLE",
+        "en-US": "The Weight of Gold"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_VOLUNTEERS_TITLE",
+        "en-US": "The Brave Among Us"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_FOOD_400_TITLE",
+        "en-US": "Harvest and Hunt"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_FOOD_800_TITLE",
+        "en-US": "Relief of Harvest"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_WOOD_400_TITLE",
+        "en-US": "{PLAYER-0,1} Wood"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_WILDERNESS_BEYOND_TITLE",
+        "en-US": "The Wilderness Beyond"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_WOOD_800_TITLE",
+        "en-US": "Wildwood Companions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_VOICE_BREAKS_THROUGH_TITLE",
+        "en-US": "A Voice Breaks Through"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_IRON_AND_ANGUISH_TITLE",
+        "en-US": "Iron and Anguish"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_STONE_400_TITLE",
+        "en-US": "Gray Dust"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_STONE_800_TITLE",
+        "en-US": "Fair Quarry"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_IRON_400_TITLE",
+        "en-US": "Hungry Forge"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_IRON_800_TITLE",
+        "en-US": "The Pitted Land"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AUTONOMOUS_LIBERTIES_TITLE",
+        "en-US": "Autonomous Liberties"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_FIVE_WORKERS_TITLE",
+        "en-US": "National Workforce"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CRISIS_ON_THE_BORDER_TITLE",
+        "en-US": "Crisis on the Border"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BUDDING_CONNECTIONS_TITLE",
+        "en-US": "Budding Connections"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_MORE_PROSPEROUS_FUTURE_TITLE",
+        "en-US": "A More Prosperous Future"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TURNCOATS_TITLE",
+        "en-US": "Turncoats"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_SWORD_SAINT_TITLE",
+        "en-US": "The Sword Saint"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PERFUME_MERCHANT_TITLE",
+        "en-US": "The Perfume Merchant"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_FOREIGN_RULE_TITLE",
+        "en-US": "Foreign Rule"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_TRAINING_2000_TITLE",
+        "en-US": "The Menacing Edge"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_CIVICS_2000_TITLE",
+        "en-US": "Civic Trajectory"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_SHARED_HISTORIES_TITLE",
+        "en-US": "Shared Histories"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_KEEN_EDGE_OF_WAR_TITLE",
+        "en-US": "The Keen Edge of War"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_SOLEMN_PROCESSION_TITLE",
+        "en-US": "A Solemn Procession"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_WAR_AMONG_FRIENDS_TITLE",
+        "en-US": "War Among Friends"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AMBITION_FINISHED_MONEY_2000_TITLE",
+        "en-US": "Counting Coins"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_TRUCE_RESPONSE_FESTERING_VENGEANCE_TITLE",
+        "en-US": "Festering Vengeance"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FROM_AFAR_TITLE",
+        "en-US": "From Afar"
       },
       {
         "beginGroup": "Exploration",
@@ -1808,8 +1936,16 @@
         "en-US": "Skirmish in the Ruins"
       },
       {
+        "zType": "TEXT_EVENTSTORY_RUINS_RIVAL_EXPEDITION_TITLE",
+        "en-US": "Rival Expedition"
+      },
+      {
         "zType": "TEXT_EVENTSTORY_HARVEST_TAKING_TROPHIES_TITLE",
         "en-US": "Taking Trophies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HARVEST_HUNTING_ACCIDENT_TITLE",
+        "en-US": "Hunting Accident"
       },
       {
         "zType": "TEXT_EVENTSTORY_HARVEST_HORSING_AROUND_TITLE",
@@ -1870,6 +2006,74 @@
       {
         "zType": "TEXT_EVENTSTORY_HARVEST_SEEING_SERPENTS_TITLE",
         "en-US": "Seeing Serpents"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRADE_SILK_TITLE",
+        "en-US": "Material Needs"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRADE_PERFUME_ONE_TITLE",
+        "en-US": "Sweet Scents"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRADE_IVORY_TITLE",
+        "en-US": "Carved Jewelry"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_START_TITLE",
+        "en-US": "Distant Riches: Proposal"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_CONTACT_TITLE",
+        "en-US": "Distant Riches: Contact"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_RESULTS_ONE_TITLE",
+        "en-US": "Distant Riches: Results!"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_TWO_TITLE",
+        "en-US": "Distant Riches: A Second Expedition?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_CONTACT_TWO_GOOD_TITLE",
+        "en-US": "Second Expedition: Contact"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_CONTACT_TWO_BAD_TITLE",
+        "en-US": "Second Expedition: Contact"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_RESULTS_TWO_TITLE",
+        "en-US": "Second Expedition: Results!"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EXPEDITION_CENTERAL_ASIA_RESULTS_TWO_BAD_TITLE",
+        "en-US": "Second Expedition: Results!"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_CONTACT_US_ZEALOT_NO_RELIGION_TITLE",
+        "en-US": "Sharing Spirits"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CHARACTER_GRAND_EXPEDITION_TITLE",
+        "en-US": "{CHARACTER-SHORT-1}’s Grand Expedition"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MASTER_OF_THE_HARVEST_TITLE",
+        "en-US": "Master of the Harvest"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RUINS_ANCIENT_SUPPLIES_TITLE",
+        "en-US": "Ancient Supplies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RUINS_ON_THE_WALL_TITLE",
+        "en-US": "The World on a Wall"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RUINS_AMBITIONS_TITLE",
+        "en-US": "Ruined Ambitions"
       },
       {
         "beginGroup": "Contact",
@@ -2121,6 +2325,14 @@
         "en-US": "Anthropology"
       },
       {
+        "zType": "TEXT_EVENTSTORY_PLAYER_CONTACT_US_ZEALOT_DIFF_RELIGION_TITLE",
+        "en-US": "Convert or Kill"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PLAYER_CONTACT_US_ZEALOT_SAME_RELIGION_TITLE",
+        "en-US": "Happy Days!"
+      },
+      {
         "beginGroup": "Diplomacy",
         "zType": "TEXT_EVENTSTORY_HOSTILE_NEIGHBORS_TITLE",
         "en-US": "Hostile Neighbors"
@@ -2247,7 +2459,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_WINDMILLS_AND_WATERMILLS_TITLE",
-        "en-US": "Windmills and Watermill"
+        "en-US": "Windmills and Watermills"
       },
       {
         "zType": "TEXT_EVENTSTORY_RETURNING_A_FAVOR_TITLE",
@@ -2447,7 +2659,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_DIPLO_OFFER_FAMILY_RELIGION_WAR_TITLE",
-        "en-US": "Wrath of the {FAMILY-0,1}"
+        "en-US": "Wrath of the {FAMILY-1,1}"
       },
       {
         "zType": "TEXT_EVENTSTORY_DIPLO_OFFER_FAMILY_LAW_DENOUNCE_TITLE",
@@ -3102,6 +3314,18 @@
         "en-US": "Connections versus Relations"
       },
       {
+        "zType": "TEXT_EVENTSTORY_MISSION_MARRIAGE_DIPLOMAT_NATION_TITLE",
+        "en-US": "Only the Best"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PRICE_OF_A_CITY_TITLE",
+        "en-US": "The Price of {CITY-1}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LETTER_OF_TREASON_TITLE",
+        "en-US": "Letter of Treason"
+      },
+      {
         "beginGroup": "Combat",
         "zType": "TEXT_EVENTSTORY_LEADER_SMITING_FOES_TITLE",
         "en-US": "Smiting Foes"
@@ -3121,6 +3345,10 @@
       {
         "zType": "TEXT_EVENTSTORY_ABANDONED_SUPPLIES_TITLE",
         "en-US": "Abandoned Supplies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WARRIOR_OF_NATION_TITLE",
+        "en-US": "Warrior of {PLAYER-1}"
       },
       {
         "zType": "TEXT_EVENTSTORY_CAPTURED_PRISONERS_TITLE",
@@ -3934,6 +4162,74 @@
       {
         "zType": "TEXT_EVENTSTORY_PLAYER_CONTACT_US_DIPLOMAT_TITLE",
         "en-US": "Treaty Time"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_INFANTICIDE_TITLE",
+        "en-US": "Infanticide"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_SPOUSICIDE_TITLE",
+        "en-US": "Spousicide"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_FAMILY_INFLUENCE_TITLE",
+        "en-US": "{FAMILY-2} influence"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_FAMILY_DISPLEASURE_TITLE",
+        "en-US": "{FAMILY-2} displeasure"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_TRIBE_ANGER_TITLE",
+        "en-US": "{TRIBE-2,1} Anger"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SPOUSE_FAVORED_SPOUSE_NATION_ANGR_TITLE",
+        "en-US": "{PLAYER-2,1} Anger"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_DISPLAY_OF_BENEVOLENCE_TITLE",
+        "en-US": "A Display of Benevolence"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAITH_AND_UNITY_TITLE",
+        "en-US": "Faith and Unity"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BALANCING_ACT_TITLE",
+        "en-US": "Balancing Act"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LUXURY_SEEKERS_TITLE",
+        "en-US": "Luxury Seekers"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MISSION_MARRIAGE_DIPLOMAT_FAMILY_TITLE",
+        "en-US": "Only the Best"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_STUBBORN_AS_A_MULE_TITLE",
+        "en-US": "Stubborn as a Mule"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TOURNAMENT_1_LOSE_TITLE",
+        "en-US": "The Tournament at {CITY-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TOURNAMENT_0_LOSE_TITLE",
+        "en-US": "The Tournament at {CITY-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TOURNAMENT_1_WIN_TITLE",
+        "en-US": "The Tournament at {CITY-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TOURNAMENT_0_WIN_TITLE",
+        "en-US": "The Tournament at {CITY-2}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TOURNAMENT_TITLE",
+        "en-US": "The Tournament at {CITY-2}"
       },
       {
         "beginGroup": "Character",
@@ -5365,6 +5661,46 @@
         "en-US": "Always Vigilant"
       },
       {
+        "zType": "TEXT_EVENTSTORY_TURNING_OF_THE_WHEELS_TITLE",
+        "en-US": "Turning of the Wheels"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SINS_OF_THE_PAST_TITLE",
+        "en-US": "Sins of the Past"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_NAMED_A_MURDERER_TITLE",
+        "en-US": "Name of the Murderer"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_TITLE",
+        "en-US": "Out For Blood"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_ASSASSINS_TITLE",
+        "en-US": "A Dagger for a Dagger"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_COMBAT_TITLE",
+        "en-US": "A Challenge of Honor"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_COMBAT_WIN_TITLE",
+        "en-US": "The Last One Standing"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_COMBAT_LOSE_TITLE",
+        "en-US": "The Last One Standing"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OUT_FOR_BLOOD_COMBAT_SCHEMER_TITLE",
+        "en-US": "The Last One Standing"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_MATTER_OF_CONCERN_TITLE",
+        "en-US": "A Matter of Concern"
+      },
+      {
         "beginGroup": "City",
         "zType": "TEXT_EVENTSTORY_HAPPINESS_IMMIGRANTS_TITLE",
         "en-US": "Immigrants"
@@ -5684,6 +6020,30 @@
       {
         "zType": "TEXT_EVENTSTORY_RECLAIMING_CONTROL_TITLE",
         "en-US": "Reclaiming Control"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_ZOOLOGICAL_SOCIETY_TITLE",
+        "en-US": "The Zoological Society"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MERCY_FOR_THE_WEAK_TITLE",
+        "en-US": "Mercy for the Weak"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BROTHERS_AND_SISTERS_OF_THE_FAITH_TITLE",
+        "en-US": "Brothers and Sisters of the Faith"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DISSENTION_IN_THE_RANKS_TITLE",
+        "en-US": "Dissention in the Ranks"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_COASTAL_CULTURE_TITLE",
+        "en-US": "Coastal Culture"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_GOVERNOR_TITLE",
+        "en-US": "Family Governor"
       },
       {
         "beginGroup": "Religion",
@@ -6193,6 +6553,18 @@
       {
         "zType": "TEXT_EVENTSTORY_CONVERTING_FOR_ATEN_TITLE",
         "en-US": "A Convert for Aten"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CONVERT_PERSONAL_RELIGION_STATE_TITLE",
+        "en-US": "State Religion"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TRUE_GOD_ATEN_TITLE",
+        "en-US": "The True God Aten"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AKHENATEN_TITLE",
+        "en-US": "Akhenaten"
       },
       {
         "beginGroup": "Law",
@@ -7293,10 +7665,6 @@
         "en-US": "Urging Caution"
       },
       {
-        "zType": "TEXT_EVENTSTORY_RELATIONSHIP_MORAL_DEGRADATION_TITLE",
-        "en-US": "Moral Degradation"
-      },
-      {
         "zType": "TEXT_EVENTSTORY_RELATIONSHIP_GIVE_AN_INCH_TITLE",
         "en-US": "Give an inch"
       },
@@ -7894,7 +8262,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_TREACHERY_THEM_AGENT_CAUGHT_TITLE",
-        "en-US": "[AGENT CAUGHT]"
+        "en-US": "Agent Caught"
       },
       {
         "zType": "TEXT_EVENTSTORY_HIGH_SYNOD_MONEY_TITLE",
@@ -7939,6 +8307,26 @@
       {
         "zType": "TEXT_EVENTSTORY_TUTORIAL_HOLD_COURT_MISSION_TITLE",
         "en-US": "Tutorial: Hold Court"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TREACHERY_THEM_AGENT_SECRETS_TITLE",
+        "en-US": "Agent Secrets"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TREACHERY_THEM_AGENT_DISCOVERED_TITLE",
+        "en-US": "Agent Discovered"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INSURRECTION_THEM_AGENT_BRIBE_TITLE",
+        "en-US": "Agent Bribe"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INSURRECTION_THEM_AGENT_PEOPLE_TITLE",
+        "en-US": "Protected by the People"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INSURRECTION_THEM_AGENT_OFFER_TITLE",
+        "en-US": "Agent Offer"
       },
       {
         "beginGroup": "Tutorial",
@@ -8953,7 +9341,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_THE_HOLY_CITY_TITLE",
-        "en-US": "The link(CONCEPT_HOLY_CITY)"
+        "en-US": "Sacred Coin"
       },
       {
         "zType": "TEXT_EVENTSTORY_DIVINE_RETRIBUTION_TITLE",
@@ -9125,15 +9513,15 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_YOUNG_TITLE",
-        "en-US": "Legacy of the Young"
+        "en-US": "Legacy of the {TITLE-0}"
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_RULER_TITLE",
-        "en-US": "Legacy of the {G0:King:Queen}"
+        "en-US": "Legacy of the {TITLE-0}"
       },
       {
         "zType": "TEXT_EVENTSTORY_LEGACY_OF_THE_OLD_TITLE",
-        "en-US": "Legacy of the Old"
+        "en-US": "Legacy of the {TITLE-0}"
       },
       {
         "zType": "TEXT_EVENTSTORY_GROWING_COMPETITION_TITLE",
@@ -9193,7 +9581,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_GLORY_FOR_GOD_TITLE",
-        "en-US": "Glory for <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the gods<else>God<end>"
+        "en-US": "Glory for {S1.GOD}"
       },
       {
         "zType": "TEXT_EVENTSTORY_BEHIND_THE_THRONE_TITLE",
@@ -9520,6 +9908,182 @@
         "en-US": "Moved to Action"
       },
       {
+        "zType": "TEXT_EVENTSTORY_OUR_SHIELD_TITLE",
+        "en-US": "Our Shield"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WARRIOR_CLAN_TITLE",
+        "en-US": "Warrior Clan"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_CROSSROADS_TITLE",
+        "en-US": "The Crossroads"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TOGETHER_IN_THE_WORLD_TITLE",
+        "en-US": "Together in the World"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MODERN_MARVELS_TITLE",
+        "en-US": "Modern Marvels"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ENEMIES_TOGETHER_TITLE",
+        "en-US": "Enemies Together"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_THREAT_OF_TYRE_TITLE",
+        "en-US": "The Threat of Tyre"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CARTHAGE_IS_BORN_TITLE",
+        "en-US": "Carthage Is Born"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SALT_OF_THE_SEA_TITLE",
+        "en-US": "Salt of the Sea"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_WALLS_OF_CARTHAGE_TITLE",
+        "en-US": "The Walls of {PLAYER-1}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CHILDREN_OF_TYRE_TITLE",
+        "en-US": "The Children of Tyre"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEADER_AND_THE_TRIBES_TITLE",
+        "en-US": "{CHARACTER-SHORT-1} and the Tribes"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_INFLUENCE_OF_PYGMALION_TITLE",
+        "en-US": "The Influence of Pygmalion"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_GHOST_OF_ROMULUS_TITLE",
+        "en-US": "The Ghost of {CHARACTER-SHORT-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LAWS_OF_ROME_TITLE",
+        "en-US": "Plotting Against the Law"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RAISED_BY_WOLVES_TITLE",
+        "en-US": "Raised by Wolves"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BY_OUR_BORDERS_TITLE",
+        "en-US": "By Our Borders"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS1_TRIBAL_COMPETITION_TITLE",
+        "en-US": "Vying for Favor"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS1_CLOSE_ENCOUNTERS_TITLE",
+        "en-US": "Ancestral Claim"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS2_REBELS_AT_WAR_TITLE",
+        "en-US": "United Front"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS2_CALLING_FOR_WAR_TITLE",
+        "en-US": "Calling for War"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS2_FIRE_AND_DUST_TITLE",
+        "en-US": "Fire and Dust"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS3_RENEWED_HOPE_TITLE",
+        "en-US": "Renewed Hope?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS3_BITTER_RIVALS_TITLE",
+        "en-US": "Bitter Rivals"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS3_LET_THE_LAND_BURN_TITLE",
+        "en-US": "Let the Land Burn"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS4_NO_SURRENDER_TITLE",
+        "en-US": "No Surrender"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS4_OUT_OF_THE_ASHES_TITLE",
+        "en-US": "Out of the Ashes"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIVALS4_NO_SURRENDER_FINISHED_TITLE",
+        "en-US": "No Surrender"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_GOD_QUEEN_TITLE",
+        "en-US": "The God-Queen"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_LIBRARY_OF_ASHURBANIPAL_TITLE",
+        "en-US": "The Library of Ashurbanipal"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EARLY_AMBITIONS_TITLE",
+        "en-US": "Early Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_GROWING_AMBITIONS_TITLE",
+        "en-US": "Growing Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEVELOPING_AMBITIONS_TITLE",
+        "en-US": "Developing Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ULTIMATE_AMBITIONS_TITLE",
+        "en-US": "Ultimate Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_AMBITIONS_TITLE",
+        "en-US": "{FAMILY-0} Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_AMBITIONS_TWO_TITLE",
+        "en-US": "Family Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAMILY_RELIGION_AMBITIONS_TITLE",
+        "en-US": "Noble {RELIGION-1,1} Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_STATE_RELIGION_AMBITIONS_TITLE",
+        "en-US": "{RELIGION-0,1} Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RELIGION_AMBITIONS_TITLE",
+        "en-US": "{RELIGION-0,1} Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RELIGION_AMBITIONS_TWO_TITLE",
+        "en-US": "Religion Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CHARACTER_RELIGION_AMBITIONS_TITLE",
+        "en-US": "Ambitions of Faith"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CHARACTER_FAMILY_AMBITIONS_TITLE",
+        "en-US": "The Ambitions of {G0:His:Her} Family"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_OLIGARCH_AMBITIONS_TITLE",
+        "en-US": "Oligarch Ambitions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RHEAD_AMBITIONS_TITLE",
+        "en-US": "{TITLE-0} Ambitions"
+      },
+      {
         "beginGroup": "Tribe",
         "zType": "TEXT_EVENTSTORY_RAID_MERCENARIES_TITLE",
         "en-US": "Mercenary Raid"
@@ -9838,7 +10402,7 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_WIDE_AWAKE_TITLE",
-        "en-US": "Not Dead"
+        "en-US": "As Still as Death"
       },
       {
         "zType": "TEXT_EVENTSTORY_SNAKE_CHARMER_TITLE",
@@ -10055,6 +10619,198 @@
       {
         "zType": "TEXT_EVENTSTORY_HEROES_OF_THE_BLOOD_PIT_TITLE",
         "en-US": "Heroes of the Blood Pit"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_ENEMY_OF_MY_ENEMY_TITLE",
+        "en-US": "The Enemy of My Enemy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ORPHANS_TITLE",
+        "en-US": "Orphans"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_ACT_OF_BRAVERY_TITLE",
+        "en-US": "An Act of Bravery"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CRUEL_SUMMER_TITLE",
+        "en-US": "Cruel Summer"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_VAST_PROPORTIONS_TITLE",
+        "en-US": "Vast Proportions"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEROES_OF_TWO_REALMS_TITLE",
+        "en-US": "Heroes of Two Realms"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRIBAL_THINKERS_AND_TINKERERS_TITLE",
+        "en-US": "Thinkers and Tinkerers"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_TOUCH_OF_THE_EXOTIC_TITLE",
+        "en-US": "A Touch of the Exotic"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MY_LITTLE_PONIES_TITLE",
+        "en-US": "My Little Ponies"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EMBRACING_IRREVERENCE_TITLE",
+        "en-US": "Embracing Irreverence"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FOOLS_AND_MADMEN_TITLE",
+        "en-US": "Fools and Madmen"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LANDS_OF_PLENTY_TITLE",
+        "en-US": "Lands of Plenty"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FROM_ONE_COMMANDER_TO_ANOTHER_TITLE",
+        "en-US": "From One Commander To Another"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TOUGH_AS_NAILS_TITLE",
+        "en-US": "Tough As Nails"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FIELDCRAFT_HERBAL_MEDICINE_TITLE",
+        "en-US": "Fieldcraft - Herbal Medicine"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WARDENS_OF_THE_WILDS_TITLE",
+        "en-US": "Wardens of the Wilds"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FEROCIOUS_TITLE",
+        "en-US": "Ferocity"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WARRIOR_TRADITION_TITLE",
+        "en-US": "Warrior Tradition"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BRIGHT_LIGHTS_IN_A_DARK_WORLD_TITLE",
+        "en-US": "Bright Lights in a Dark World"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THUNDER_AND_SILENCE_TITLE",
+        "en-US": "The Thunder and the Silence"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BY_THE_NUMBERS_TITLE",
+        "en-US": "By the Numbers"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SOMETIMES_THE_GODS_SMILE_TITLE",
+        "en-US": "Sometimes the Gods Smile"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THROUGH_THICK_AND_THIN_TITLE",
+        "en-US": "Through Thick and Thin"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FROM_ONE_RANGER_TO_ANOTHER_TITLE",
+        "en-US": "From One Ranger to Another"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WISDOM_OF_THE_HIGHLAND_CLANS_TITLE",
+        "en-US": "Wisdom of the Highland Clans"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ROOM_FOR_ONE_MORE_TITLE",
+        "en-US": "Room For One More?"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LOOK_UPON_MY_ARMIES_AND_DESPAIR_TITLE",
+        "en-US": "Look Upon My Armies And Despair"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THEYLL_NEVER_SEE_IT_COMING_TITLE",
+        "en-US": "They'll Never See It Coming..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_PUBLIC_RELATIONS_GUILD_TITLE",
+        "en-US": "The Public Relations Guild"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WAGGING_THE_DOG_TITLE",
+        "en-US": "Wagging the Dog"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_READY_FOR_ANYTHING_TITLE",
+        "en-US": "Ready for Anything"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_NIGHT_TO_REMEMBER_TITLE",
+        "en-US": "A Night to Remember"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CHANCE_DISCOVERY_TITLE",
+        "en-US": "Chance Discovery"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EMBRACING_CHANGE_TITLE",
+        "en-US": "Embracing Change"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_FRIEND_INDEED_TITLE",
+        "en-US": "A Friend Indeed..."
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FATES_AND_FORTUNES_TITLE",
+        "en-US": "Fates and Fortunes"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HOSTAGES_TITLE",
+        "en-US": "Hostages"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SOLDIER_OF_FORTUNE_TITLE",
+        "en-US": "Soldier of Fortune"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_AN_IRON_GIANT_TITLE",
+        "en-US": "An Iron Giant"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_GHOST_RAIDERS_TITLE",
+        "en-US": "The Ghost Raiders"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ADROIT_DIPLOMACY_TITLE",
+        "en-US": "Adroit Diplomacy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_DANCE_OF_DIPLOMACY_TITLE",
+        "en-US": "The Dance of Diplomacy"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_PROGRESS_AND_PROSPERITY_TITLE",
+        "en-US": "Progress and Prosperity"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_TRAVELING_CIRCUS_TITLE",
+        "en-US": "The Traveling Circus"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RELIGIOUS_RAIDS_TITLE",
+        "en-US": "Religious Raids"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRIBAL_HERO_TITLE",
+        "en-US": "Tribal Hero"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MARRIAGE_TRIBE_LEADER_TITLE",
+        "en-US": "To Wed a {TITLE-0}"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MISSION_MARRIAGE_DIPLOMAT_TRIBE_TITLE",
+        "en-US": "Only the Best"
       },
       {
         "beginGroup": "Royalty",
@@ -10606,10 +11362,6 @@
         "en-US": "Like {G1:father:mother}, like {G0:son:daughter}"
       },
       {
-        "zType": "TEXT_EVENTSTORY_INHERITANCE_CUNNING_TITLE",
-        "en-US": "Like {G1:father:mother}, like {G0:son:daughter}"
-      },
-      {
         "zType": "TEXT_EVENTSTORY_INHERITANCE_EXOTIC_TITLE",
         "en-US": "Like {G1:father:mother}, like {G0:son:daughter}"
       },
@@ -10848,6 +11600,10 @@
       {
         "zType": "TEXT_EVENTSTORY_MASTER_OF_WHISPERS_TITLE",
         "en-US": "Master of Whispers"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TAKING_UP_A_HOBBY_TITLE",
+        "en-US": "Taking Up a Hobby"
       },
       {
         "zType": "TEXT_EVENTSTORY_AXES_HIGH_TITLE",
@@ -11199,11 +11955,27 @@
       },
       {
         "zType": "TEXT_EVENTSTORY_IN_THE_EYES_TITLE",
-        "en-US": "In The Eyes of <p.is_sub.S1=SUBJECT_ZOROASTRIANISM>Ahura Mazda<p=SUBJECT_RELIGION_PAGAN>the Gods<else>God<end>"
+        "en-US": "In The Eyes of {S1.GOD}"
       },
       {
         "zType": "TEXT_EVENTSTORY_DRAWN_FROM_THE_ROCK_TITLE",
         "en-US": "Drawn From the Rock"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIGHTFUL_HEIR_DEAD_TITLE",
+        "en-US": "Rightful Heir"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIGHTFUL_HEIR_REGENT_DEAD_TITLE",
+        "en-US": "Rightful Heir"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RIGHTFUL_HEIR_REGENT_DEAD_LEADER_TITLE",
+        "en-US": "Rightful Heir"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HEIR_EDUCATION_TITLE_COPY",
+        "en-US": "Education of the Rightful Heir"
       },
       {
         "beginGroup": "Courtier",
@@ -11529,6 +12301,126 @@
       {
         "zType": "TEXT_EVENTSTORY_TECH_THE_LAST_PIECE_TITLE",
         "en-US": "The Last Piece"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BLOODSPORT_OUTCOME_WIN_TITLE",
+        "en-US": "Bloodsport"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BLOODSPORT_OUTCOME_LOSE_TITLE",
+        "en-US": "Bloodsport"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SKITTISH_BANDITS_TITLE",
+        "en-US": "Skittish Bandits"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BEER_RUN_TITLE",
+        "en-US": "Beer Run"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SCATTERED_INDEPENDENTS_TITLE",
+        "en-US": "Scattered Independents"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SWORDS_OR_PLOWSHARES_TITLE",
+        "en-US": "Swords or Plowshares"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TALENT_SCOUT_TITLE",
+        "en-US": "Talent Scout"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_INDEPENDENT_MERCHANT_TITLE",
+        "en-US": "Independent Merchant"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TRADING_FAVORS_TITLE",
+        "en-US": "Trading Favors"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_TUTELAGE_TITLE",
+        "en-US": "Tutelage"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_DEBT_REPAID_TITLE",
+        "en-US": "Debt Repaid"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_IN_A_BIND_TITLE",
+        "en-US": "In a Bind"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_MILITARY_LEADERSHIP_TITLE",
+        "en-US": "Military Leadership"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_ECONOMIC_FOCUS_TITLE",
+        "en-US": "Economic Focus"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BARGAINING_CHIPS_TITLE",
+        "en-US": "Bargaining Chips"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_LEVERAGING_LUXURIES_TITLE",
+        "en-US": "Leveraging Luxuries"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_CAMPAIGN_PLANNING_TITLE",
+        "en-US": "Campaign Planning"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_ABACUS_TITLE",
+        "en-US": "The Abacus"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SCHOOL_OF_HARD_KNOCKS_TITLE",
+        "en-US": "The School of Hard Knocks"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_SHAPING_THE_FUTURE_TITLE",
+        "en-US": "Shaping The Future"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_BIRTHDAY_PRESENT_TITLE",
+        "en-US": "The Birthday Present"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_RUINS_BURIED_TREASURE_TITLE",
+        "en-US": "Buried Treasure"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_CAPTURED_LION_TITLE",
+        "en-US": "A Captured Lion"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FAVOR_FOR_A_FAVOR_TITLE",
+        "en-US": "Favor for a Favor"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_A_DEBT_REPAID_TITLE",
+        "en-US": "A Debt Repaid"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_EARL_GREY_HOT_TITLE",
+        "en-US": "Earl Grey, Hot"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THROUGH_THE_SMOKE_TITLE",
+        "en-US": "Through the Smoke"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_FRESH_PERSPECTIVES_TITLE",
+        "en-US": "Fresh Perspectives"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_FAIR_TITLE",
+        "en-US": "The Fair"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_BLOOD_AND_SAND_TITLE",
+        "en-US": "Blood and Sand"
       },
       {
         "beginGroup": "Leader",
@@ -11870,6 +12762,22 @@
       {
         "zType": "TEXT_EVENTSTORY_BLESSED_TRADE_TITLE",
         "en-US": "Blessed Trade"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_WINTERS_TO_COME_TITLE",
+        "en-US": "Winters to Come"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_OPEN_AIR_TITLE",
+        "en-US": "The Open Air"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_THE_SPORT_OF_KINGS_TITLE",
+        "en-US": "The Sport of Kings"
+      },
+      {
+        "zType": "TEXT_EVENTSTORY_HARVEST_SEA_FOR_OURSELVES_TITLE",
+        "en-US": "Sea for Ourselves"
       }
     ]
   }

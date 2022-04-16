@@ -204,6 +204,16 @@
         "Name": "TEXT_EFFECTPLAYER_BASE"
       },
       {
+        "zType": "EFFECTPLAYER_NO_STARTING_TECHS",
+        "Name": "TEXT_GAMEOPTION_NO_STARTING_TECHS",
+        "aiYieldRate": {
+          "Pair": {
+            "zIndex": "YIELD_SCIENCE",
+            "iValue": "80"
+          }
+        }
+      },
+      {
         "zType": "EFFECTPLAYER_ADVANTAGE_LOW",
         "Name": "TEXT_ADVANTAGE_LOW",
         "EffectCity": "EFFECTCITY_ADVANTAGE_LOW",
@@ -600,7 +610,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_ORDERS",
-            "iValue": "50"
+            "iValue": "40"
           }
         }
       },
@@ -608,7 +618,8 @@
         "zType": "EFFECTPLAYER_LAW_FREEDOM",
         "Name": "TEXT_LAW_FREEDOM",
         "SourceLaw": "LAW_FREEDOM",
-        "EffectCity": "EFFECTCITY_LAW_FREEDOM"
+        "EffectCity": "EFFECTCITY_LAW_FREEDOM",
+        "CapitalEffectCity": "EFFECTCITY_LAW_FREEDOM_CAPITAL"
       },
       {
         "zType": "EFFECTPLAYER_LAW_CENTRALIZATION",
@@ -618,7 +629,7 @@
         "aiYieldRate": {
           "Pair": {
             "zIndex": "YIELD_CIVICS",
-            "iValue": "200"
+            "iValue": "100"
           }
         }
       },
@@ -1198,6 +1209,12 @@
         "EffectCity": "EFFECTCITY_TRAIT_DELVER_ALL"
       },
       {
+        "zType": "EFFECTPLAYER_TRAIT_DEALMAKER",
+        "Name": "TEXT_TRAIT_DEALMAKER",
+        "SourceTrait": "TRAIT_DEALMAKER",
+        "iLeaderOpinionChange": "20"
+      },
+      {
         "zType": "EFFECTPLAYER_TRAIT_TRACKER",
         "Name": "TEXT_TRAIT_TRACKER",
         "SourceTrait": "TRAIT_TRACKER",
@@ -1316,12 +1333,6 @@
         "Name": "TEXT_TRAIT_MOURNING",
         "SourceTrait": "TRAIT_MOURNING",
         "EffectCity": "EFFECTCITY_TRAIT_MOURNING_ALL"
-      },
-      {
-        "zType": "EFFECTPLAYER_TRAIT_CUNNING",
-        "Name": "TEXT_TRAIT_CUNNING",
-        "SourceTrait": "TRAIT_CUNNING",
-        "iLeaderOpinionChange": "20"
       },
       {
         "zType": "EFFECTPLAYER_TRAIT_DROUGHT_STRICKEN",

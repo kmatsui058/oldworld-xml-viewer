@@ -20,15 +20,16 @@ export interface Entry {
   iCriticalChance?: ZType | string;
   iEnlistOnKillChance?: ZType | string;
   iVisionExtra?: ZType | string;
+  iRevealExtra?: ZType | string;
   iMovementExtra?: ZType | string;
   iFatigueExtra?: ZType | string;
   iRangeExtra?: ZType | string;
   iWaterControlExtra?: ZType | string;
+  iRoadMovementModifier?: ZType | string;
   iPillageYieldModifier?: ZType | string;
   iRiverAttackModifier?: ZType | string;
   iWaterLandAttackModifier?: ZType | string;
   iHomeModifier?: ZType | string;
-  iSettlementAttackModifier?: ZType | string;
   iUrbanAttackModifier?: ZType | string;
   iUrbanDefenseModifier?: ZType | string;
   iDamagedUsModifier?: ZType | string;
@@ -42,7 +43,10 @@ export interface Entry {
   bSkipIcon?: ZType | string;
   bMultiTeams?: ZType | string;
   bMeleeCounter?: ZType | string;
+  bZOC?: ZType;
+  bIgnoreZOC?: ZType | string;
   bRout?: ZType | string;
+  bNoRout?: ZType | string;
   bPush?: ZType | string;
   bPushWater?: ZType | string;
   bStun?: ZType | string;
@@ -62,12 +66,13 @@ export interface Entry {
   aiVegetationFromModifier?: AiAttackValue;
   aiUnitTraitModifier?: AiUnitTraitModifier;
   aiUnitTraitModifierAttack?: AiAttackValue;
-  aiUnitTraitModifierDefense?: ZType;
+  aiUnitTraitModifierDefense?: AiAttackValue;
   aiUnitTraitModifierMelee?: AiAttackValue;
   aiMilitaryKillYield?: AiAttackValue;
   abHideVegetation?: AbHideVegetation;
   abUnitTraitValid?: AbUnitTraitValid;
   abUnitTraitInvalid?: AbHideVegetation;
+  aeIgnoreHeightCost?: ZType;
   aeUnitTraitZOC?: AeUnitTraitZOC;
 }
 export interface AeUnitTraitZOC {

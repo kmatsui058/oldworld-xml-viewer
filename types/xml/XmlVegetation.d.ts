@@ -15,7 +15,7 @@ export interface Entry {
   zRemoveIcon: ZType | string;
   zRemovalAudio?: ZType | string;
   iMovementCost?: ZType | string;
-  iRemoveCost?: ZType | string;
+  iRemoveCost: ZType | string;
   iRemoveStat: ZType | string;
   iBuildCost: ZType | string;
   iGrowthRoll?: ZType | string;

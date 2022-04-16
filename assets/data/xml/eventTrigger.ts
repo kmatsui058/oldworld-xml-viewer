@@ -289,7 +289,7 @@
       },
       {
         "zType": "EVENTTRIGGER_CHOOSE_AMBITION",
-        "iProb": "40"
+        "iProb": "60"
       },
       {
         "comment": "Data = GoalType",
@@ -549,6 +549,15 @@
       },
       {
         "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_INJURY_RANGED",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bLevel": "1",
+        "bModal": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_INJURY_WATER",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
@@ -559,6 +568,14 @@
       {
         "comment": "Subject = Character, Extra = Player",
         "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED",
+        "SubjectClass": "SUBJECTCLASS_CHARACTER",
+        "ExtraClass": "SUBJECTCLASS_PLAYER",
+        "iProb": "10",
+        "bLevel": "1"
+      },
+      {
+        "comment": "Subject = Character, Extra = Player",
+        "zType": "EVENTTRIGGER_GENERAL_UNIT_KILLED_RANGED",
         "SubjectClass": "SUBJECTCLASS_CHARACTER",
         "ExtraClass": "SUBJECTCLASS_PLAYER",
         "iProb": "10",

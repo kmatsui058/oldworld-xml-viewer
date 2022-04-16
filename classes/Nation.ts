@@ -21,7 +21,7 @@ export default class Nation {
 
   get name(): string {
     const test = this.textNations.find((el) => el.zType === this.entry.Name)
-    return test ? test['en-US'].toString().split('~')[0] : ''
+    return test?.['en-US']?.toString().split('~')[0] || ''
   }
 
   get teches(): Tech[] {
@@ -38,7 +38,7 @@ export default class Nation {
   }
 
   get families(): Family[] {
-    return families.Root.Entry.filter((entry) => entry.Nation === this.entry.zType).map(
+    return families.Root.Entry.filter((entry) => entry.abNation === this.entry.zType).map(
       (family) => {
         return new Family(family)
       }

@@ -77,7 +77,6 @@
             "TEXT_CAUCASUS_MOUNTAINS",
             "TEXT_PAROPAMISADAE",
             "TEXT_KACKAR_MOUNTAINS",
-            "TEXT_PONTIC_MOUNTAINS",
             "TEXT_LEBANON_MOUNTAINS",
             "TEXT_MOUNT_CARMEL"
           ]
@@ -98,8 +97,7 @@
             "TEXT_TRIGLAV",
             "TEXT_MOUNT_HERMINIUS",
             "TEXT_MOUNT_HERMON",
-            "TEXT_MOUNT_SANNINE",
-            "TEXT_MOUNT_DINDYMON"
+            "TEXT_MOUNT_SANNINE"
           ]
         },
         "azRiverNames": {
@@ -118,12 +116,6 @@
             "TEXT_TISIA_RIVER",
             "TEXT_DRAUS_RIVER",
             "TEXT_NARENTA_RIVER",
-            "TEXT_SANGARIUS_RIVER",
-            "TEXT_MACESTUS_RIVER",
-            "TEXT_CALBIS_RIVER",
-            "TEXT_HALYS_RIVER",
-            "TEXT_CAECUS_RIVER",
-            "TEXT_SAROS_RIVER",
             "TEXT_RHODANUS_RIVER",
             "TEXT_DRUENTIA_RIVER",
             "TEXT_LIGER_RIVER",
@@ -175,7 +167,6 @@
             "TEXT_SINGIDUNUM_FOREST",
             "TEXT_THE_JOGLLAND",
             "TEXT_IRATI_FIR_FOREST",
-            "TEXT_ANATOLIAN_CONIFER_FOREST",
             "TEXT_RETEZAT_FOREST",
             "TEXT_CARPATHIAN_BEECH_FOREST",
             "TEXT_ORDESA_FOREST",
@@ -638,7 +629,6 @@
           "zValue": [
             "TEXT_PHIOM",
             "TEXT_LAKE_MOERIS",
-            "TEXT_TOSHKA_LAKES",
             "TEXT_GREAT_BITTER_LAKE",
             "TEXT_LAKE_SERBONIS"
           ]

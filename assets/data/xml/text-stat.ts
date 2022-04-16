@@ -12,19 +12,19 @@
       },
       {
         "zType": "TEXT_STAT_AMBITION_ACHIEVED",
-        "en-US": "Ambition Achieved"
+        "en-US": "{singular_0:Ambition:Ambitions} Achieved"
       },
       {
         "zType": "TEXT_STAT_LEGACY_ACHIEVED",
-        "en-US": "Legacy Achieved"
+        "en-US": "{singular_0:Legacy:Legacies} Achieved"
       },
       {
         "zType": "TEXT_STAT_TRIBE_CONTACTED",
-        "en-US": "Tribe Contacted"
+        "en-US": "{singular_0:Tribe:Tribes} Contacted"
       },
       {
         "zType": "TEXT_STAT_TRIBE_CLEARED",
-        "en-US": "Tribe Cleared"
+        "en-US": "Tribal {singular_0:Site:Sites} Cleared"
       },
       {
         "zType": "TEXT_STAT_TRIBE_PEACE",
@@ -32,19 +32,19 @@
       },
       {
         "zType": "TEXT_STAT_TRIBE_ALLIANCE",
-        "en-US": "Tribal Alliance"
+        "en-US": "Tribal {singular_0:Alliance:Alliances} Formed"
       },
       {
         "zType": "TEXT_STAT_MERCENARIES_RECRUITED",
-        "en-US": "Mercenaries Recruited"
+        "en-US": "{singular_0:Mercenary:Mercenaries} Recruited"
       },
       {
         "zType": "TEXT_STAT_MERCENARIES_HIRED",
-        "en-US": "Mercenaries Hired"
+        "en-US": "{singular_0:Mercenary:Mercenaries} Hired"
       },
       {
         "zType": "TEXT_STAT_TEAM_CONTACTED",
-        "en-US": "Nation Contacted"
+        "en-US": "{singular_0:Nation:Nations} Contacted"
       },
       {
         "zType": "TEXT_STAT_TEAM_PEACE",
@@ -52,51 +52,51 @@
       },
       {
         "zType": "TEXT_STAT_TEAM_ALLIANCE",
-        "en-US": "National Alliance"
+        "en-US": "National {singular_0:Alliance:Alliances} Formed"
       },
       {
         "zType": "TEXT_STAT_CARAVAN_ARRIVED",
-        "en-US": "Caravan Arrived"
+        "en-US": "{singular_0:Caravan:Caravans} Arrived"
       },
       {
         "zType": "TEXT_STAT_CAPITAL_CAPTURED",
-        "en-US": "Capitals Captured"
+        "en-US": "{singular_0:Capital:Capitals} Captured"
       },
       {
         "zType": "TEXT_STAT_CITY_FOUNDED",
-        "en-US": "Cities Founded"
+        "en-US": "{singular_0:City:Cities} Founded"
       },
       {
         "zType": "TEXT_STAT_CITY_CAPTURED",
-        "en-US": "Cities Captured"
+        "en-US": "{singular_0:City:Cities} Captured"
       },
       {
         "zType": "TEXT_STAT_CITY_RECAPTURED",
-        "en-US": "Cities Recaptured"
+        "en-US": "{singular_0:City:Cities} Recaptured"
       },
       {
         "zType": "TEXT_STAT_CITY_LOST",
-        "en-US": "Cities Lost"
+        "en-US": "{singular_0:City:Cities} Lost"
       },
       {
         "zType": "TEXT_STAT_COURTIER_ADDED",
-        "en-US": "Courtier Added"
+        "en-US": "{singular_0:Courtier:Courtiers} Added"
       },
       {
         "zType": "TEXT_STAT_IMPROVEMENT_FINISHED",
-        "en-US": "Improvements Finished"
+        "en-US": "{singular_0:Improvement:Improvements} Finished"
       },
       {
         "zType": "TEXT_STAT_IMPROVEMENT_REPAIRED",
-        "en-US": "Improvements Repaired"
+        "en-US": "{singular_0:Improvement:Improvements} Repaired"
       },
       {
         "zType": "TEXT_STAT_LANDMARK_DISCOVERED",
-        "en-US": "Landmarks Discovered"
+        "en-US": "{singular_0:Landmark:Landmarks} Discovered"
       },
       {
         "zType": "TEXT_STAT_LANDMARK_NAMED",
-        "en-US": "Landmarks Named"
+        "en-US": "{singular_0:Landmark:Landmarks} Named"
       },
       {
         "zType": "TEXT_STAT_LEADER_COUNT",
@@ -108,7 +108,7 @@
       },
       {
         "zType": "TEXT_STAT_WORLD_RELIGION_FOUNDED",
-        "en-US": "World Religion Founded"
+        "en-US": "World {singular_0:Religion:Religions} Founded"
       },
       {
         "zType": "TEXT_STAT_RELIGION_SPREAD",
@@ -120,39 +120,39 @@
       },
       {
         "zType": "TEXT_STAT_SPECIALIST_PRODUCED",
-        "en-US": "Specialist Trained"
+        "en-US": "{singular_0:Specialist:Specialists} Trained"
       },
       {
         "zType": "TEXT_STAT_TECH_DISCOVERED",
-        "en-US": "Techs Discovered"
+        "en-US": "{singular_0:Tech:Techs} Discovered"
       },
       {
         "zType": "TEXT_STAT_THEOLOGY_ESTABLISHED",
-        "en-US": "Theology Established"
+        "en-US": "{singular_0:Theology:Theologies} Established"
       },
       {
         "zType": "TEXT_STAT_TILES_REVEALED",
-        "en-US": "Tiles Revealed"
+        "en-US": "{singular_0:Tile:Tiles} Revealed"
       },
       {
         "zType": "TEXT_STAT_UNIT_TRAINED",
-        "en-US": "Units Trained"
+        "en-US": "{singular_0:Unit:Units} Trained"
       },
       {
         "zType": "TEXT_STAT_UNIT_PROMOTED",
-        "en-US": "Units Promoted"
+        "en-US": "{singular_0:Unit:Units} Promoted"
       },
       {
         "zType": "TEXT_STAT_UNIT_MILITARY_KILLED",
-        "en-US": "Military Units Killed"
+        "en-US": "Military {singular_0:Unit:Units} Killed"
       },
       {
         "zType": "TEXT_STAT_UNIT_MILITARY_KILLED_GENERAL",
-        "en-US": "Military Units Killed (as General)"
+        "en-US": "Military {singular_0:Unit:Units} Killed (as General)"
       },
       {
         "zType": "TEXT_STAT_UNIT_LOST",
-        "en-US": "Units Lost"
+        "en-US": "{singular_0:Unit:Units} Lost"
       },
       {
         "zType": "TEXT_STAT_VEGETATION_REMOVED",
@@ -160,7 +160,7 @@
       },
       {
         "zType": "TEXT_STAT_WONDER_FINISHED",
-        "en-US": "Wonder Finished"
+        "en-US": "{singular_0:Wonder:Wonders} Finished"
       },
       {
         "zType": "TEXT_STAT_YEARS_REIGNED",

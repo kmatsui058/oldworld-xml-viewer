@@ -18,6 +18,10 @@
         "Name": "TEXT_CITYNAME_ABYDOS"
       },
       {
+        "zType": "CITYNAME_ABU",
+        "Name": "TEXT_CITYNAME_ABU"
+      },
+      {
         "zType": "CITYNAME_AEMINIUM",
         "Name": "TEXT_CITYNAME_AEMINIUM"
       },
@@ -92,6 +96,10 @@
       {
         "zType": "CITYNAME_ASCRIVIUM",
         "Name": "TEXT_CITYNAME_ASCRIVIUM"
+      },
+      {
+        "zType": "CITYNAME_ASPADANA",
+        "Name": "TEXT_CITYNAME_ASPADANA"
       },
       {
         "zType": "CITYNAME_ASPALATHOS",
@@ -276,6 +284,10 @@
       {
         "zType": "CITYNAME_DAMIETTA",
         "Name": "TEXT_CITYNAME_DAMIETTA"
+      },
+      {
+        "zType": "CITYNAME_DARBAND",
+        "Name": "TEXT_CITYNAME_DARBAND"
       },
       {
         "zType": "CITYNAME_DELPHI",
@@ -648,10 +660,6 @@
       {
         "zType": "CITYNAME_MEGARA",
         "Name": "TEXT_CITYNAME_MEGARA"
-      },
-      {
-        "zType": "CITYNAME_MELIDDU",
-        "Name": "TEXT_CITYNAME_MELIDDU"
       },
       {
         "zType": "CITYNAME_TUSHPA",

@@ -67,6 +67,11 @@
         "zIconName": "COOLDOWN_STUNNED"
       },
       {
+        "zType": "COOLDOWN_CAPTURING",
+        "Name": "TEXT_COOLDOWN_CAPTURING",
+        "zIconName": "COOLDOWN_CAPTURING"
+      },
+      {
         "zType": "COOLDOWN_BUILDING",
         "Name": "TEXT_COOLDOWN_BUILDING",
         "zIconName": "COOLDOWN_BUILD"

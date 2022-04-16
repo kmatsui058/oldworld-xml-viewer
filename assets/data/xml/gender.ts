@@ -29,15 +29,6 @@
         }
       },
       {
-        "zType": "GENDER_FEMALE",
-        "Name": "TEXT_GENDER_FEMALE",
-        "NameShort": "F",
-        "bMasculine": "0",
-        "iMaxFertile": "38",
-        "iMaxSpouseAgeDifference": "5",
-        "iMarriageDelayTurns": "2"
-      },
-      {
         "zType": "GENDER_MALE",
         "Name": "TEXT_GENDER_MALE",
         "NameShort": "M",
@@ -45,6 +36,15 @@
         "iMaxFertile": "70",
         "iMaxSpouseAgeDifference": "25",
         "iMarriageDelayTurns": "4"
+      },
+      {
+        "zType": "GENDER_FEMALE",
+        "Name": "TEXT_GENDER_FEMALE",
+        "NameShort": "F",
+        "bMasculine": "0",
+        "iMaxFertile": "38",
+        "iMaxSpouseAgeDifference": "5",
+        "iMarriageDelayTurns": "2"
       }
     ]
   }

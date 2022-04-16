@@ -39,7 +39,7 @@ export interface Entry {
   iCityDamagedOpinion?: ZType | string;
   iCityDefendedOpinion?: ZType | string;
   iPillagedOpinion?: ZType | string;
-  iHostileUnitOpinion?: ZType | string;
+  iHostileTribeUnitOpinion?: ZType | string;
   bPrefersDistant?: ZType | string;
   EffectUnit?: ZType | string;
   EffectCity: ZType | string;

@@ -16,6 +16,7 @@ export interface Entry {
   PlayerNation?: ZType | string;
   Nation?: ZType;
   Tribe?: ZType;
+  Religion?: ZType;
   Family?: ZType;
   Father?: ZType | string;
   Mother?: ZType | string;
@@ -24,6 +25,7 @@ export interface Entry {
   iBirth?: ZType | string;
   iAge?: ZType | string;
   iRating?: ZType | string;
+  iSafeDuration?: ZType;
   bInfertile?: ZType | string;
   bNoNickname?: ZType | string;
   bSuitorTemp?: ZType | string;

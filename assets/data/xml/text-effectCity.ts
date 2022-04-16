@@ -19,6 +19,10 @@
         "en-US": "as link(CONCEPT_STATE_RELIGION)"
       },
       {
+        "zType": "TEXT_EFFECTCITY_STATE_RELIGION_CITY",
+        "en-US": "and link(CONCEPT_STATE_RELIGION)"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_BASE",
         "en-US": "Base"
       },
@@ -35,8 +39,14 @@
         "en-US": "Connected"
       },
       {
+        "zType": "TEXT_EFFECTCITY_CONNECTED_F"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_DAMAGED",
         "en-US": "Damaged"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_DAMAGED_F"
       },
       {
         "zType": "TEXT_EFFECTCITY_HOLY_CITY",
@@ -45,6 +55,9 @@
       {
         "zType": "TEXT_EFFECTCITY_CITIZEN",
         "en-US": "Citizen"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_CITIZEN_F"
       },
       {
         "zType": "TEXT_EFFECTCITY_POPULATION",
@@ -263,6 +276,9 @@
         "en-US": "Rural Specialist~a Rural Specialist~Rural Specialists"
       },
       {
+        "zType": "TEXT_EFFECTCITY_SPECIALIST_RURAL_F"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_SPECIALIST_APPRENTICE",
         "en-US": "Apprentice Specialist"
       },
@@ -271,8 +287,14 @@
         "en-US": "Master Specialist"
       },
       {
+        "zType": "TEXT_EFFECTCITY_SPECIALIST_MASTER_F"
+      },
+      {
         "zType": "TEXT_EFFECTCITY_SPECIALIST_ELDER",
         "en-US": "Elder Specialist"
+      },
+      {
+        "zType": "TEXT_EFFECTCITY_SPECIALIST_ELDER_F"
       },
       {
         "zType": "TEXT_EFFECTCITY_TRAIT_COMMANDER_ARCHETYPE_CAPITAL",

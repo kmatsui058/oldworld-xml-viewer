@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GenderedNames?: GenderedNames;
   Help?: ZType | string;
   TeamColor: ZType | string;
   iLatitude?: ZType | string;
@@ -20,16 +21,23 @@ export interface Entry {
   Diplomacy: ZType | string;
   aeFirstNamesMale?: AeFirstNamesMale;
   aeFirstNamesFemale?: AeFirstNamesMale;
-  azNicknames?: AzNicknames;
+  Nicknames?: Nicknames;
   zPortraitBackground: ZType | string;
   zCharacterPortraitBackground?: ZType | string;
   aeCharacterPortraits?: AeFirstNamesMale;
 }
-export interface AzNicknames {
-  zValue?: string;
+export interface Nicknames {
+  Pair?: Pair[];
 }
 export interface AeFirstNamesMale {
   zValue?: string[];
+}
+export interface GenderedNames {
+  Pair?: Pair;
+}
+export interface Pair {
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

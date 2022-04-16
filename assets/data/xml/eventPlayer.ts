@@ -14,9 +14,14 @@
         }
       },
       {
+        "zType": "EVENTPLAYER_FAMILY",
+        "iDie": "4",
+        "Bonus": "BONUS_PLAYER_FAMILY"
+      },
+      {
         "zType": "EVENTPLAYER_LEGITIMACY",
         "iDie": "4",
-        "Bonus": "BONUS_EVENTPLAYER_LEGITIMACY"
+        "Bonus": "BONUS_PLAYER_LEGITIMACY"
       },
       {
         "zType": "EVENTPLAYER_GAIN_COURAGE",

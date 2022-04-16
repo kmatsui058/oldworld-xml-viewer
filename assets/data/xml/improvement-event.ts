@@ -54,6 +54,9 @@
         "iDefenseModifier": {
           
         },
+        "iDefenseModifierFriendly": {
+          
+        },
         "iFreshWaterModifier": {
           
         },
@@ -94,6 +97,9 @@
           
         },
         "iOpinionReligion": {
+          
+        },
+        "bHideWorkers": {
           
         },
         "bBuild": {
@@ -172,6 +178,9 @@
           
         },
         "bRemoveBonus": {
+          
+        },
+        "bShowAlways": {
           
         },
         "bNoAnalytics": {

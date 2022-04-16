@@ -10,9 +10,17 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   NameFemale: ZType | string;
+  TeamColor: ZType | string;
   iColorIndex: ZType | string;
-  Nation: ZType | string;
   FamilyClass: ZType | string;
+  abNation: AbNation;
+}
+export interface AbNation {
+  Pair?: Pair;
+}
+export interface Pair {
+  zIndex: string;
+  bValue: string;
 }
 export interface ZType {
 }

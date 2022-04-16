@@ -127,6 +127,14 @@
         "iValue": "1"
       },
       {
+        "zType": "NO_UNIT_GIFTING",
+        "iValue": "0"
+      },
+      {
+        "zType": "NO_UNIT_DISBANDING",
+        "iValue": "0"
+      },
+      {
         "zType": "AGENT_NETWORK_TURNS",
         "iValue": "5"
       },
@@ -332,7 +340,7 @@
       },
       {
         "zType": "BORDER_VISIBILITY",
-        "iValue": "4"
+        "iValue": "3"
       },
       {
         "zType": "MOVEMENT_MULTIPLER",
@@ -371,8 +379,12 @@
         "iValue": "20"
       },
       {
-        "zType": "CITY_HP_HEAL_PER_TURN",
-        "iValue": "1"
+        "zType": "CITY_HEAL_PERCENT_PER_TURN",
+        "iValue": "5"
+      },
+      {
+        "zType": "CITY_HEAL_PERCENT_PER_TURN_TRIBE",
+        "iValue": "20"
       },
       {
         "zType": "CITY_DAMAGE_YIELD_MODIFIER",
@@ -447,6 +459,10 @@
         "iValue": "1"
       },
       {
+        "zType": "COUNTER_ROUT_DAMAGE",
+        "iValue": "1"
+      },
+      {
         "zType": "DISTANCE_MODIFIER",
         "iValue": "-20"
       },
@@ -496,11 +512,11 @@
       },
       {
         "zType": "MAX_TESTUDO_TURNS",
-        "iValue": "5"
+        "iValue": "3"
       },
       {
         "zType": "TESTUDO_BONUS_PER",
-        "iValue": "10"
+        "iValue": "20"
       },
       {
         "zType": "PROMOTIONS_AVAILABLE",
@@ -515,10 +531,6 @@
         "iValue": "50"
       },
       {
-        "zType": "COURTIER_SOFT_CAP",
-        "iValue": "4"
-      },
-      {
         "zType": "SUCCESSION_COUNT",
         "iValue": "4"
       },
@@ -531,7 +543,11 @@
         "iValue": "25"
       },
       {
-        "zType": "GENERAL_START_AGE",
+        "zType": "GENERAL_START_MIN_AGE",
+        "iValue": "18"
+      },
+      {
+        "zType": "GENERAL_START_MAX_AGE",
         "iValue": "50"
       },
       {
@@ -679,7 +695,7 @@
         "iValue": "100"
       },
       {
-        "zType": "DISLOYALY_OPINION",
+        "zType": "DISLOYALTY_OPINION",
         "iValue": "-20"
       },
       {
@@ -989,6 +1005,10 @@
       {
         "zType": "UI_DISPLAYED_TRAITS",
         "iValue": "3"
+      },
+      {
+        "zType": "UI_REMINDERS_OFF",
+        "iValue": "0"
       }
     ]
   }

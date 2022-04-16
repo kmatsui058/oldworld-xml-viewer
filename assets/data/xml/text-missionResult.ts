@@ -188,11 +188,11 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_HIGH_SYNOD_SUCCESS_DESCRIPTION",
-        "en-US": "The High Synond organized by {CHARACTER-SUBJECT} has improved our standing with the clergy."
+        "en-US": "The High Synod organized by {CHARACTER-SUBJECT} has improved our standing with the clergy."
       },
       {
         "zType": "TEXT_MISSIONRESULT_HIGH_SYNOD_FAILURE_DESCRIPTION",
-        "en-US": "The High Synond of {CHARACTER-SUBJECT} has ended prematurely in discord."
+        "en-US": "The High Synod of {CHARACTER-SUBJECT} has ended prematurely in discord."
       },
       {
         "zType": "TEXT_MISSIONRESULT_HIGH_SYNOD_EVENT_DESCRIPTION",
@@ -348,15 +348,15 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_TRUCE_OFFER_EVENT",
-        "en-US": "Offer Tribute for link(DIPLOMACY_PEACE) Event"
+        "en-US": "Offer Tribute for link(DIPLOMACY_TRUCE) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_TRUCE_NO_EVENT",
-        "en-US": "Ask for link(DIPLOMACY_PEACE) Event"
+        "en-US": "Ask for link(DIPLOMACY_TRUCE) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_TRUCE_DEMAND_EVENT",
-        "en-US": "Demand Tribute for link(DIPLOMACY_PEACE) Event"
+        "en-US": "Demand Tribute for link(DIPLOMACY_TRUCE) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_PLAYER_TRUCE_HUMAN_EVENT",
@@ -468,19 +468,19 @@
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_STATE",
-        "en-US": "Converted to link(CONCEPT_STATE_RELIGION)"
+        "en-US": "Converted Target to link(CONCEPT_STATE_RELIGION)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_STATE_EVENT",
-        "en-US": "Convert to link(CONCEPT_STATE_RELIGION) Event"
+        "en-US": "Convert Target to link(CONCEPT_STATE_RELIGION) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION",
-        "en-US": "Converted link(CONCEPT_RELIGION)"
+        "en-US": "Converted Target to link(CONCEPT_RELIGION)"
       },
       {
         "zType": "TEXT_MISSIONRESULT_CONVERT_RELIGION_EVENT",
-        "en-US": "Convert link(CONCEPT_RELIGION) Event"
+        "en-US": "Convert Target to link(CONCEPT_RELIGION) Event"
       },
       {
         "zType": "TEXT_MISSIONRESULT_INTERCESSION_WEAKEN",

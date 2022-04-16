@@ -19,6 +19,7 @@ export interface Entry {
   bCitySite?: ZType | string;
   bStart?: ZType | string;
   bRoadValid?: ZType | string;
+  bFreshWaterSource?: ZType | string;
   DefaultHeight: ZType | string;
   aiDefendMeleeEffectUnit?: ZType;
   aeHeightAsset: AeHeightAsset;

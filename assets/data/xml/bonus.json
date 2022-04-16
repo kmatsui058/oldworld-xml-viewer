@@ -101,7 +101,7 @@
 				"FreeTheology": {
 					"comment": "Theology added to your state Religion (if any)"
 				},
-				"Goal": {
+				"GoalAdd": {
 					"comment": "A Quest given to the Player (similar to Ambitions)"
 				},
 				"GoalForce": {
@@ -152,8 +152,14 @@
 				"AddImprovement": {
 					"comment": "Adds Improvement to a random valid Tile for the City Subject"
 				},
+				"AddUrbanImprovement": {
+					"comment": "Adds Improvement to a random Urban Tile for the City Subject"
+				},
 				"SetSpecialist": {
 					"comment": "Sets the Tile's Specialist"
+				},
+				"BirthCharacter": {
+					"comment": "When using iBirthWithSubject, the child will be this predefined character"
 				},
 				"iSpreadUnits": {
 					"comment": "List of Religion units that will appear near the City Subject"
@@ -181,6 +187,9 @@
 				},
 				"iHPCity": {
 					"comment": "Changes the HP of the City"
+				},
+				"iHPCityPercent": {
+					"comment": "Changes the HP of the City by this percent"
 				},
 				"iHPUnit": {
 					"comment": "Changes the HP of the Unit"
@@ -278,6 +287,9 @@
 				"iAmbitionFamilySubject": {
 					"comment": "Subject index of the Family for this Ambition"
 				},
+				"iAmbitionReligionSubject": {
+					"comment": "Subject index of the Religion for this Ambition"
+				},
 				"bMissionFree": {
 					"comment": "The Mission will not have Yield costs"
 				},
@@ -332,11 +344,17 @@
 				"bFreeTheology": {
 					"comment": "Establishes the Theology without paying the cost"
 				},
+				"bAddAmbition": {
+					"comment": "Adds Ambition Subject for the Player"
+				},
 				"bRandomTech": {
 					"comment": "The Player will receive a random free Tech"
 				},
 				"bDistantRaid": {
 					"comment": "The City will be the target of a Raid from a Distant Land"
+				},
+				"bAddAgentNetwork": {
+					"comment": "Player's Agent Network added to the City"
 				},
 				"bLoseAgentNetwork": {
 					"comment": "Player's Agent Network removed in the City"
@@ -453,7 +471,7 @@
 					"comment": "List of Units that will appear near the City Subject"
 				},
 				"aiTribeUnits": {
-					"comment": "List of Tribe Units that will appear near the Tile Subject"
+					"comment": "List of Tribe Units that will appear near the Tile Subject. If the Tile does not belong to any Tribe, Barbarians will spawn."
 				},
 				"aiBonusUnits": {
 					"comment": "List of bonus Units (from bonusUnitClass.xml) that will appear near the Subject City. bonusUnitClass awards you the highest-indexed Unit you have researched in the indicated category"
@@ -461,11 +479,17 @@
 				"aiRebelUnits": {
 					"comment": "List of bonus units from bonusUnitClass.xml to spawn as rebels near the Subject City. The highest-indexed unit that the city's owner has researched appears"
 				},
+				"aeNewUnitNames": {
+					"comment": "Newly spawned units or bonus units will have custom names from this list"
+				},
 				"aiLawOpinion": {
 					"comment": "List of permanent opinion changes to laws added to the Family Subject. For example, if you could put Centralization and -5 here, the Family would gain a -5 opinion of the Centralization law"
 				},
 				"aiRatings": {
 					"comment": "List of changes to ratings (Charisma, Courage, etc.) applied to the character Subject"
+				},
+				"aiStats": {
+					"comment": "List of stats to change for the player subject"
 				},
 				"aeAddProjects": {
 					"comment": "List of projects added to the City Subject"
@@ -524,14 +548,17 @@
 				"RemoveRelationshipReverse": {
 					"comment": "Remove the Relationship of the previous Character at this index with this Character"
 				},
-				"AddCourtierForce": {
-					"comment": "List of courtiers with assigned gender to be added to the Subjects's court, ignoring the Courtier Capacity"
-				},
 				"AddCourtier": {
 					"comment": "List of courtiers with assigned gender to be added to the Subjects's court"
 				},
 				"AddCourtierOther": {
 					"comment": "List of courtiers with assigned gender to be added to the Humans's court but with the Subject's nationality"
+				},
+				"AddTraitReligion": {
+					"comment": "Add Trait based on the Character's Religion"
+				},
+				"RemoveTraitReligion": {
+					"comment": "Remove Trait based on the Character's Religion"
 				}
 			},
 			{
@@ -634,7 +661,7 @@
 				"FreeTheology": {
 					
 				},
-				"Goal": {
+				"GoalAdd": {
 					
 				},
 				"GoalForce": {
@@ -682,7 +709,13 @@
 				"AddImprovement": {
 					
 				},
+				"AddUrbanImprovement": {
+					
+				},
 				"SetSpecialist": {
+					
+				},
+				"BirthCharacter": {
 					
 				},
 				"iSpreadUnits": {
@@ -710,6 +743,9 @@
 					
 				},
 				"iHPCity": {
+					
+				},
+				"iHPCityPercent": {
 					
 				},
 				"iHPUnit": {
@@ -805,6 +841,9 @@
 				"iAmbitionFamilySubject": {
 					
 				},
+				"iAmbitionReligionSubject": {
+					
+				},
 				"bMissionFree": {
 					
 				},
@@ -857,6 +896,9 @@
 					
 				},
 				"bFreeTheology": {
+					
+				},
+				"bAddAmbition": {
 					
 				},
 				"bRandomTech": {
@@ -985,6 +1027,9 @@
 				"aiRatings": {
 					
 				},
+				"aiStats": {
+					
+				},
 				"aeAddProjects": {
 					
 				},
@@ -1042,13 +1087,16 @@
 				"RemoveRelationshipReverse": {
 					
 				},
-				"AddCourtierForce": {
-					
-				},
 				"AddCourtier": {
 					
 				},
 				"AddCourtierOther": {
+					
+				},
+				"AddTraitReligion": {
+					
+				},
+				"RemoveTraitReligion": {
 					
 				}
 			},
@@ -1057,13 +1105,21 @@
 				"MemoryPlayer": "MEMORYPLAYER_HUMAN_DIPLOMACY"
 			},
 			{
+				"zType": "BONUS_START",
+				"AddUrbanImprovement": "IMPROVEMENT_GARRISON_1"
+			},
+			{
 				"zType": "BONUS_FAMILY_SEAT",
 				"Name": "TEXT_BONUS_FAMILY_SEAT",
-				"iLegitimacy": "6"
+				"iLegitimacy": "4"
 			},
 			{
 				"zType": "BONUS_FAMILY_FOUND",
 				"iCitizens": "1"
+			},
+			{
+				"zType": "BONUS_PLAYER_FAMILY",
+				"MemoryAllFamilies": "MEMORYFAMILY_SHOWED_FAVOR"
 			},
 			{
 				"zType": "BONUS_DISCOVERED_LANDMARK",
@@ -1076,8 +1132,8 @@
 				"iLegitimacy": "2"
 			},
 			{
-				"zType": "BONUS_EVENTPLAYER_LEGITIMACY",
-				"Name": "TEXT_BONUS_EVENTPLAYER_LEGITIMACY",
+				"zType": "BONUS_PLAYER_LEGITIMACY",
+				"Name": "TEXT_BONUS_PLAYER_LEGITIMACY",
 				"iLegitimacy": "2"
 			},
 			{
@@ -1088,7 +1144,7 @@
 			{
 				"zType": "BONUS_FINISHED_LEGACY",
 				"Name": "TEXT_BONUS_FINISHED_LEGACY",
-				"iLegitimacy": "6"
+				"iLegitimacy": "5"
 			},
 			{
 				"zType": "BONUS_ABANDONED_AMBITION",
@@ -1143,11 +1199,11 @@
 			{
 				"zType": "BONUS_CONVERT_LEGITIMACY",
 				"Name": "TEXT_BONUS_CONVERT_LEGITIMACY",
-				"iLegitimacy": "-1",
+				"iLegitimacy": "-2",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_ORDERS",
-						"iValue": "6"
+						"iValue": "10"
 					}
 				}
 			},
@@ -1182,6 +1238,10 @@
 			{
 				"zType": "BONUS_FREE_THEOLOGY",
 				"bFreeTheology": "1"
+			},
+			{
+				"zType": "BONUS_ADD_AMBITION",
+				"bAddAmbition": "1"
 			},
 			{
 				"zType": "BONUS_BREAK_PEACE",
@@ -1347,7 +1407,12 @@
 			},
 			{
 				"zType": "BONUS_FAMILYCLASS_CHAMPIONS_SEAT",
-				"AddImprovement": "IMPROVEMENT_GARRISON_1"
+				"aiUnits": {
+					"Pair": {
+						"zIndex": "UNIT_WARRIOR",
+						"iValue": "1"
+					}
+				}
 			},
 			{
 				"zType": "BONUS_FAMILYCLASS_STATESMEN",
@@ -1366,7 +1431,7 @@
 			},
 			{
 				"zType": "BONUS_FAMILYCLASS_PATRONS_SEAT",
-				"AddCourtierForce": {
+				"AddCourtier": {
 					"Pair": {
 						"zIndex": "COURTIER_MINISTER",
 						"zValue": {
@@ -1385,7 +1450,7 @@
 			},
 			{
 				"zType": "BONUS_FAMILYCLASS_TRADERS_SEAT",
-				"AddCourtierForce": {
+				"AddCourtier": {
 					"Pair": {
 						"zIndex": "COURTIER_MERCHANT",
 						"zValue": {
@@ -1599,7 +1664,11 @@
 			},
 			{
 				"zType": "BONUS_REVEAL_MAP",
-				"iRevealRange": "5"
+				"iRevealRange": "6"
+			},
+			{
+				"zType": "BONUS_REVEAL_TWO",
+				"iRevealRange": "2"
 			},
 			{
 				"zType": "BONUS_RANDOM_TECH",
@@ -1636,31 +1705,44 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_LEAVE_RELIGION",
-				"Name": "TEXT_BONUS_MISSIONRESULT_LEAVE_RELIGION",
 				"bStateReligionEnd": "1"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_SEND_COURTIER",
-				"Name": "TEXT_BONUS_MISSIONRESULT_SEND_COURTIER",
 				"iJoinReverse": "0"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_RALLY_TROOPS",
-				"Name": "TEXT_BONUS_MISSIONRESULT_RALLY_TROOPS",
-				"aeBonuses": {
-					"zValue": "BONUS_TRAINING_GAIN_AVERAGE"
+				"aiGlobalYieldsBase": {
+					"Pair": {
+						"zIndex": "YIELD_TRAINING",
+						"iValue": "90"
+					}
+				},
+				"aiGlobalYieldsPer": {
+					"Pair": {
+						"zIndex": "YIELD_TRAINING",
+						"iValue": "10"
+					}
 				}
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_HOLD_COURT",
-				"Name": "TEXT_BONUS_MISSIONRESULT_HOLD_COURT",
-				"aeBonuses": {
-					"zValue": "BONUS_CIVICS_GAIN_AVERAGE"
+				"aiGlobalYieldsBase": {
+					"Pair": {
+						"zIndex": "YIELD_CIVICS",
+						"iValue": "90"
+					}
+				},
+				"aiGlobalYieldsPer": {
+					"Pair": {
+						"zIndex": "YIELD_CIVICS",
+						"iValue": "10"
+					}
 				}
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_INFLUENCE",
-				"Name": "TEXT_BONUS_MISSIONRESULT_INFLUENCE",
 				"aeBonuses": {
 					"zValue": "BONUS_LEADER_INFLUENCED_BY"
 				}
@@ -1675,22 +1757,18 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CONVERT_SELF",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_SELF",
 				"iConvertReligionSubject": "0"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CONVERT_STATE",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_STATE",
 				"bConvertStateReligion": "1"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CONVERT_RELIGION",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CONVERT_RELIGION",
 				"iConvertedBySubject": "0"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_INTERCESSION",
-				"Name": "TEXT_BONUS_MISSIONRESULT_INTERCESSION",
 				"aeBonuses": {
 					"zValue": "BONUS_LEADER_INTERCEDED_FOR"
 				}
@@ -1705,7 +1783,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_ADOPT",
-				"Name": "TEXT_BONUS_MISSIONRESULT_ADOPT",
 				"iAdoptedBySubject": "0"
 			},
 			{
@@ -1727,7 +1804,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_INFILTRATE_REVEAL",
-				"Name": "TEXT_BONUS_MISSIONRESULT_INFILTRATE_REVEAL",
 				"bRevealTerritory": "1"
 			},
 			{
@@ -1738,7 +1814,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_SLANDER_SUCCESS",
-				"Name": "TEXT_BONUS_MISSIONRESULT_SLANDER_SUCCESS",
 				"MemoryAllPlayers": "MEMORYPLAYER_SLANDER"
 			},
 			{
@@ -1749,7 +1824,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS",
-				"Name": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS",
 				"aiOtherYieldsBase": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
@@ -1765,7 +1839,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED",
-				"Name": "TEXT_BONUS_MISSIONRESULT_STEAL_RESEARCH_SUCCESS_EXPOSED",
 				"MemoryPlayer": "MEMORYPLAYER_STEAL_RESEARCH",
 				"aiOtherYieldsBase": {
 					"Pair": {
@@ -1782,7 +1855,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_ASSASSINATE_KILL",
-				"Name": "TEXT_BONUS_MISSIONRESULT_ASSASSINATE_KILL",
 				"AddLeaderRelationship": "RELATIONSHIP_ASSASSINATED_BY",
 				"bKillCharacter": "1"
 			},
@@ -1871,12 +1943,11 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_IMPRISON_JUST",
-				"Name": "TEXT_BONUS_MISSIONRESULT_IMPRISON_JUST",
 				"MemoryFamily": "MEMORYFAMILY_MEMBER_IMPRISONED",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
-						"iValue": "1000"
+						"iValue": "400"
 					}
 				},
 				"aeAddTraits": {
@@ -1891,7 +1962,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
-						"iValue": "1000"
+						"iValue": "400"
 					}
 				},
 				"aeAddTraits": {
@@ -1905,7 +1976,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
-						"iValue": "1000"
+						"iValue": "400"
 					}
 				},
 				"aeAddTraits": {
@@ -1917,14 +1988,12 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_RELEASE_GRATEFUL",
-				"Name": "TEXT_BONUS_MISSIONRESULT_RELEASE_GRATEFUL",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_IMPRISONED"
 				}
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_RELEASE_BITTER",
-				"Name": "TEXT_BONUS_MISSIONRESULT_RELEASE_BITTER",
 				"aeAddTraits": {
 					"zValue": "TRAIT_SLIGHTED"
 				},
@@ -1942,7 +2011,6 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CAPTURE_SURRENDER",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_SURRENDER",
 				"aeAddTraits": {
 					"zValue": "TRAIT_IMPRISONED"
 				},
@@ -1952,12 +2020,10 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CAPTURE_KILLED",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_KILLED",
 				"bKillCharacter": "1"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_CAPTURE_FLEE",
-				"Name": "TEXT_BONUS_MISSIONRESULT_CAPTURE_FLEE",
 				"aeAddTraits": {
 					"zValue": "TRAIT_UNDER_ASYLUM"
 				},
@@ -1967,19 +2033,16 @@
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_PAY_RANSOM",
-				"Name": "TEXT_BONUS_MISSIONRESULT_PAY_RANSOM",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_CAPTURED"
 				}
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_MARRY_COURTIER",
-				"Name": "TEXT_BONUS_MISSIONRESULT_MARRY_COURTIER",
 				"iMarrySubject": "0"
 			},
 			{
 				"zType": "BONUS_MISSIONRESULT_DIVORCE",
-				"Name": "TEXT_BONUS_MISSIONRESULT_DIVORCE",
 				"iDivorcedBySubject": "0"
 			},
 			{
@@ -2002,7 +2065,7 @@
 			},
 			{
 				"zType": "BONUS_PROJECT_REPAIRS",
-				"iHPCity": "4"
+				"iHPCityPercent": "20"
 			},
 			{
 				"zType": "BONUS_PROJECT_TREASURY_1",
@@ -2018,7 +2081,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
-						"iValue": "150"
+						"iValue": "200"
 					}
 				}
 			},
@@ -2027,7 +2090,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
-						"iValue": "250"
+						"iValue": "300"
 					}
 				}
 			},
@@ -2054,7 +2117,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_CIVICS",
-						"iValue": "30"
+						"iValue": "40"
 					}
 				}
 			},
@@ -2063,7 +2126,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_CIVICS",
-						"iValue": "50"
+						"iValue": "60"
 					}
 				}
 			},
@@ -2090,7 +2153,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "15"
+						"iValue": "20"
 					}
 				}
 			},
@@ -2099,7 +2162,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "25"
+						"iValue": "30"
 					}
 				}
 			},
@@ -2213,7 +2276,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "40"
+						"iValue": "20"
 					}
 				}
 			},
@@ -2222,7 +2285,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "80"
+						"iValue": "40"
 					}
 				}
 			},
@@ -2231,7 +2294,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "120"
+						"iValue": "60"
 					}
 				}
 			},
@@ -2240,7 +2303,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
-						"iValue": "160"
+						"iValue": "80"
 					}
 				}
 			},
@@ -2249,7 +2312,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_FOOD",
-						"iValue": "50"
+						"iValue": "100"
 					}
 				}
 			},
@@ -2258,7 +2321,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_FOOD",
-						"iValue": "100"
+						"iValue": "200"
 					}
 				}
 			},
@@ -2267,7 +2330,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_FOOD",
-						"iValue": "150"
+						"iValue": "300"
 					}
 				}
 			},
@@ -2276,7 +2339,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_FOOD",
-						"iValue": "200"
+						"iValue": "400"
 					}
 				}
 			},
@@ -2285,7 +2348,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_TRAINING",
-						"iValue": "40"
+						"iValue": "50"
 					}
 				}
 			},
@@ -2294,7 +2357,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_TRAINING",
-						"iValue": "80"
+						"iValue": "100"
 					}
 				}
 			},
@@ -2303,7 +2366,7 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_TRAINING",
-						"iValue": "120"
+						"iValue": "150"
 					}
 				}
 			},
@@ -2312,53 +2375,53 @@
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_TRAINING",
-						"iValue": "160"
+						"iValue": "200"
 					}
 				}
 			},
 			{
 				"zType": "BONUS_PROJECT_CONVOY_1",
+				"aiCityYields": {
+					"Pair": {
+						"zIndex": "YIELD_DISCONTENT",
+						"iValue": "-40"
+					}
+				},
 				"aiGlobalYields": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_MONEY",
-							"iValue": "100"
-						},
-						{
-							"zIndex": "YIELD_DISCONTENT",
-							"iValue": "-40"
-						}
-					]
+					"Pair": {
+						"zIndex": "YIELD_MONEY",
+						"iValue": "100"
+					}
 				}
 			},
 			{
 				"zType": "BONUS_PROJECT_CONVOY_2",
+				"aiCityYields": {
+					"Pair": {
+						"zIndex": "YIELD_DISCONTENT",
+						"iValue": "-60"
+					}
+				},
 				"aiGlobalYields": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_MONEY",
-							"iValue": "200"
-						},
-						{
-							"zIndex": "YIELD_DISCONTENT",
-							"iValue": "-60"
-						}
-					]
+					"Pair": {
+						"zIndex": "YIELD_MONEY",
+						"iValue": "200"
+					}
 				}
 			},
 			{
 				"zType": "BONUS_PROJECT_CONVOY_3",
+				"aiCityYields": {
+					"Pair": {
+						"zIndex": "YIELD_DISCONTENT",
+						"iValue": "-80"
+					}
+				},
 				"aiGlobalYields": {
-					"Pair": [
-						{
-							"zIndex": "YIELD_MONEY",
-							"iValue": "300"
-						},
-						{
-							"zIndex": "YIELD_DISCONTENT",
-							"iValue": "-80"
-						}
-					]
+					"Pair": {
+						"zIndex": "YIELD_MONEY",
+						"iValue": "300"
+					}
 				}
 			},
 			{
@@ -2403,7 +2466,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_STONECUTTING_BONUS_STONE",
-				"Name": "TEXT_BONUS_TECH_STONECUTTING_BONUS_STONE",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_STONE",
@@ -2413,7 +2475,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_HUSBANDRY_BONUS_FOOD",
-				"Name": "TEXT_BONUS_TECH_HUSBANDRY_BONUS_FOOD",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_FOOD",
@@ -2423,7 +2484,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_DRAMA_BONUS_SETTLER",
-				"Name": "TEXT_BONUS_TECH_DRAMA_BONUS_SETTLER",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_SETTLER",
@@ -2433,7 +2493,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_POLIS_BONUS_WORKER",
-				"Name": "TEXT_BONUS_TECH_POLIS_BONUS_WORKER",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_WORKER",
@@ -2443,18 +2502,16 @@
 			},
 			{
 				"zType": "BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
-				"Name": "TEXT_BONUS_TECH_ARISTOCRACY_BONUS_BORDERS",
 				"aeAllCityBonuses": {
 					"zValue": "BONUS_TECH_ARISTOCRACY_BONUS_BORDERS_ALL"
 				}
 			},
 			{
 				"zType": "BONUS_TECH_ARISTOCRACY_BONUS_BORDERS_ALL",
-				"iBorderGrowth": "5"
+				"iBorderGrowth": "6"
 			},
 			{
 				"zType": "BONUS_TECH_NAVIGATION_BONUS_BIREME",
-				"Name": "TEXT_BONUS_TECH_NAVIGATION_BONUS_BIREME",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_BIREME",
@@ -2464,7 +2521,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_PHALANX_BONUS_ORDERS",
-				"Name": "TEXT_BONUS_TECH_PHALANX_BONUS_ORDERS",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_ORDERS",
@@ -2474,7 +2530,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
-				"Name": "TEXT_BONUS_TECH_SPOKED_WHEEL_BONUS_CHARIOT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CHARIOT",
@@ -2484,8 +2539,7 @@
 			},
 			{
 				"zType": "BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
-				"Name": "TEXT_BONUS_TECH_FORESTRY_BONUS_SCIENTIST",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_SCIENTIST",
 						"zValue": {
@@ -2495,8 +2549,16 @@
 				}
 			},
 			{
+				"zType": "BONUS_TECH_STEEL_BONUS_TRAINING",
+				"aiGlobalYields": {
+					"Pair": {
+						"zIndex": "YIELD_TRAINING",
+						"iValue": "800"
+					}
+				}
+			},
+			{
 				"zType": "BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
-				"Name": "TEXT_BONUS_TECH_SOVEREIGNITY_BONUS_CIVICS",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_CIVICS",
@@ -2506,7 +2568,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_COINAGE_BONUS_MONEY",
-				"Name": "TEXT_BONUS_TECH_COINAGE_BONUS_MONEY",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
@@ -2516,8 +2577,7 @@
 			},
 			{
 				"zType": "BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
-				"Name": "TEXT_BONUS_TECH_CITIZENSHIP_BONUS_MINISTER",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_MINISTER",
 						"zValue": {
@@ -2528,7 +2588,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_PORTCULLIS_BONUS_MACEMAN",
-				"Name": "TEXT_BONUS_TECH_PORTCULLIS_BONUS_MACEMAN",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_MACEMAN",
@@ -2538,7 +2597,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
-				"Name": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_CAMEL_ARCHER",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CAMEL_ARCHER",
@@ -2548,7 +2606,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
-				"Name": "TEXT_BONUS_TECH_LAND_CONSOLIDATION_BONUS_WAR_ELEPHANT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_WAR_ELEPHANT",
@@ -2558,7 +2615,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER",
-				"Name": "TEXT_BONUS_TECH_COMPOSITE_BOW_BONUS_ARCHER",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_ARCHER",
@@ -2567,9 +2623,17 @@
 				}
 			},
 			{
+				"zType": "BONUS_TECH_MACHINERY_BONUS_ONAGER",
+				"aiUnits": {
+					"Pair": {
+						"zIndex": "UNIT_ONAGER",
+						"iValue": "1"
+					}
+				}
+			},
+			{
 				"zType": "BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-				"Name": "TEXT_BONUS_TECH_SCHOLARSHIP_BONUS_SCIENTIST",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_SCIENTIST",
 						"zValue": {
@@ -2579,18 +2643,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_TECH_TORSION_BONUS_BALLISTA",
-				"Name": "TEXT_BONUS_TECH_TORSION_BONUS_BALLISTA",
-				"aiUnits": {
-					"Pair": {
-						"zIndex": "UNIT_BALLISTA",
-						"iValue": "1"
-					}
-				}
-			},
-			{
 				"zType": "BONUS_TECH_STIRRUPS_BONUS_HORSEMAN",
-				"Name": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSEMAN",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HORSEMAN",
@@ -2600,7 +2653,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
-				"Name": "TEXT_BONUS_TECH_STIRRUPS_BONUS_HORSE_ARCHER",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HORSE_ARCHER",
@@ -2610,7 +2662,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_MANOR_BONUS_GOODS",
-				"Name": "TEXT_BONUS_TECH_MANOR_BONUS_GOODS",
 				"aiGlobalYields": {
 					"Pair": [
 						{
@@ -2630,8 +2681,7 @@
 			},
 			{
 				"zType": "BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
-				"Name": "TEXT_BONUS_TECH_BATTLELINE_BONUS_SOLDIER",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_SOLDIER",
 						"zValue": {
@@ -2641,18 +2691,16 @@
 				}
 			},
 			{
-				"zType": "BONUS_TECH_MACHINERY_BONUS_ONAGER",
-				"Name": "TEXT_BONUS_TECH_MACHINERY_BONUS_ONAGER",
+				"zType": "BONUS_TECH_HYDRAULICS_BONUS_BALLISTA",
 				"aiUnits": {
 					"Pair": {
-						"zIndex": "UNIT_ONAGER",
+						"zIndex": "UNIT_BALLISTA",
 						"iValue": "1"
 					}
 				}
 			},
 			{
 				"zType": "BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME",
-				"Name": "TEXT_BONUS_TECH_CARTOGRAPHY_BONUS_TRIREME",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_TRIREME",
@@ -2661,11 +2709,19 @@
 				}
 			},
 			{
-				"zType": "BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
-				"Name": "TEXT_BONUS_TECH_HYDRAULICS_BONUS_MERCHANT",
-				"AddCourtierForce": {
+				"zType": "BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
+				"aiUnits": {
 					"Pair": {
-						"zIndex": "COURTIER_MERCHANT",
+						"zIndex": "UNIT_DROMON",
+						"iValue": "1"
+					}
+				}
+			},
+			{
+				"zType": "BONUS_TECH_JURISPRUDENCE_BONUS_MINISTER",
+				"AddCourtierOther": {
+					"Pair": {
+						"zIndex": "COURTIER_MINISTER",
 						"zValue": {
 							
 						}
@@ -2674,7 +2730,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_VAULTING_BONUS_DISCONTENT",
-				"Name": "TEXT_BONUS_TECH_VAULTING_BONUS_DISCONTENT",
 				"aeAllCityBonuses": {
 					"zValue": "BONUS_TECH_VAULTING_BONUS_DISCONTENT_ALL"
 				}
@@ -2684,18 +2739,7 @@
 				"iDiscontentLevels": "-1"
 			},
 			{
-				"zType": "BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
-				"Name": "TEXT_BONUS_TECH_BODKIN_ARROW_BONUS_TRAINING",
-				"aiGlobalYields": {
-					"Pair": {
-						"zIndex": "YIELD_TRAINING",
-						"iValue": "1000"
-					}
-				}
-			},
-			{
 				"zType": "BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
-				"Name": "TEXT_BONUS_TECH_WINDLASS_BONUS_CROSSBOWMAN",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CROSSBOWMAN",
@@ -2704,19 +2748,8 @@
 				}
 			},
 			{
-				"zType": "BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
-				"Name": "TEXT_BONUS_TECH_LATEEN_SAIL_BONUS_DROMON",
-				"aiUnits": {
-					"Pair": {
-						"zIndex": "UNIT_DROMON",
-						"iValue": "1"
-					}
-				}
-			},
-			{
 				"zType": "BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
-				"Name": "TEXT_BONUS_TECH_FISCAL_POLICY_BONUS_MERCHANT",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_MERCHANT",
 						"zValue": {
@@ -2727,8 +2760,7 @@
 			},
 			{
 				"zType": "BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
-				"Name": "TEXT_BONUS_TECH_INFANTRY_SQUARE_BONUS_SOLDIER",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_SOLDIER",
 						"zValue": {
@@ -2738,11 +2770,10 @@
 				}
 			},
 			{
-				"zType": "BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
-				"Name": "TEXT_BONUS_TECH_CHAIN_DRIVE_BONUS_MINISTER",
-				"AddCourtierForce": {
+				"zType": "BONUS_TECH_CHAIN_DRIVE_BONUS_MERCHANT",
+				"AddCourtierOther": {
 					"Pair": {
-						"zIndex": "COURTIER_MINISTER",
+						"zIndex": "COURTIER_MERCHANT",
 						"zValue": {
 							
 						}
@@ -2751,9 +2782,8 @@
 			},
 			{
 				"zType": "BONUS_TECH_ECONOMIC_REFORM",
-				"Name": "TEXT_BONUS_TECH_ECONOMIC_REFORM",
 				"zIcon": "COURTIER_MERCHANT",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_MERCHANT",
 						"zValue": {
@@ -2764,9 +2794,8 @@
 			},
 			{
 				"zType": "BONUS_TECH_MILITARY_PRESTIGE",
-				"Name": "TEXT_BONUS_TECH_MILITARY_PRESTIGE",
 				"zIcon": "COURTIER_SOLDIER",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_SOLDIER",
 						"zValue": {
@@ -2777,9 +2806,8 @@
 			},
 			{
 				"zType": "BONUS_TECH_INDUSTRIAL_PROGRESS",
-				"Name": "TEXT_BONUS_TECH_INDUSTRIAL_PROGRESS",
 				"zIcon": "COURTIER_MINISTER",
-				"AddCourtierForce": {
+				"AddCourtierOther": {
 					"Pair": {
 						"zIndex": "COURTIER_MINISTER",
 						"zValue": {
@@ -2790,7 +2818,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_BATTERING_RAM_UNIT",
-				"Name": "TEXT_BONUS_TECH_BATTERING_RAM_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_BATTERING_RAM",
@@ -2800,7 +2827,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_SIEGE_TOWER_UNIT",
-				"Name": "TEXT_BONUS_TECH_SIEGE_TOWER_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_SIEGE_TOWER",
@@ -2810,7 +2836,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_AKKADIAN_ARCHER_UNIT",
-				"Name": "TEXT_BONUS_TECH_AKKADIAN_ARCHER_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_AKKADIAN_ARCHER",
@@ -2820,7 +2845,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
-				"Name": "TEXT_BONUS_TECH_CIMMERIAN_ARCHER_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CIMMERIAN_ARCHER",
@@ -2830,7 +2854,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_AFRICAN_ELEPHANT_UNIT",
-				"Name": "TEXT_BONUS_TECH_AFRICAN_ELEPHANT_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_AFRICAN_ELEPHANT",
@@ -2840,7 +2863,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_TURRETED_ELEPHANT_UNIT",
-				"Name": "TEXT_BONUS_TECH_TURRETED_ELEPHANT_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_TURRETED_ELEPHANT",
@@ -2850,7 +2872,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_LIGHT_CHARIOT_UNIT",
-				"Name": "TEXT_BONUS_TECH_LIGHT_CHARIOT_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_LIGHT_CHARIOT",
@@ -2860,7 +2881,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_KUSHITE_CAVALRY_UNIT",
-				"Name": "TEXT_BONUS_TECH_KUSHITE_CAVALRY_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_KUSHITE_CAVALRY",
@@ -2870,7 +2890,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_HOPLITE_UNIT",
-				"Name": "TEXT_BONUS_TECH_HOPLITE_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HOPLITE",
@@ -2880,7 +2899,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_PHALANGITE_UNIT",
-				"Name": "TEXT_BONUS_TECH_PHALANGITE_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_PHALANGITE",
@@ -2890,7 +2908,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_PALTON_CAVALRY_UNIT",
-				"Name": "TEXT_BONUS_TECH_PALTON_CAVALRY_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_PALTON_CAVALRY",
@@ -2900,7 +2917,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
-				"Name": "TEXT_BONUS_TECH_CATAPHRACT_ARCHER_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CATAPHRACT_ARCHER",
@@ -2910,7 +2926,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_HASTATUS_UNIT",
-				"Name": "TEXT_BONUS_TECH_HASTATUS_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_HASTATUS",
@@ -2920,7 +2935,6 @@
 			},
 			{
 				"zType": "BONUS_TECH_LEGIONARY_UNIT",
-				"Name": "TEXT_BONUS_TECH_LEGIONARY_UNIT",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_LEGIONARY",
@@ -3010,11 +3024,11 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTCITY_POPULATION_BOOM",
+				"zType": "BONUS_CITY_POPULATION_BOOM",
 				"iCitizens": "1"
 			},
 			{
-				"zType": "BONUS_EVENTCITY_CIVICS_BOOM",
+				"zType": "BONUS_CITY_CIVICS_BOOM",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_CIVICS",
@@ -3023,7 +3037,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTCITY_TRAINING_BOOM",
+				"zType": "BONUS_CITY_TRAINING_BOOM",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_TRAINING",
@@ -3032,7 +3046,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTCITY_SCIENCE_BOOM",
+				"zType": "BONUS_CITY_SCIENCE_BOOM",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_SCIENCE",
@@ -3041,7 +3055,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTCITY_MONEY_BOOM",
+				"zType": "BONUS_CITY_MONEY_BOOM",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_MONEY",
@@ -3050,7 +3064,7 @@
 				}
 			},
 			{
-				"zType": "BONUS_EVENTCITY_ORDERS_BOOM",
+				"zType": "BONUS_CITY_ORDERS_BOOM",
 				"aiGlobalYields": {
 					"Pair": {
 						"zIndex": "YIELD_ORDERS",
@@ -3342,7 +3356,6 @@
 			},
 			{
 				"zType": "BONUS_ZOROASTRIANISM_DISCIPLE",
-				"Name": "TEXT_BONUS_ZOROASTRIANISM_DISCIPLE",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_ZOROASTRIANISM_DISCIPLE",
@@ -3352,7 +3365,6 @@
 			},
 			{
 				"zType": "BONUS_JUDAISM_DISCIPLE",
-				"Name": "TEXT_BONUS_JUDAISM_DISCIPLE",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_JUDAISM_DISCIPLE",
@@ -3362,7 +3374,6 @@
 			},
 			{
 				"zType": "BONUS_CHRISTIANITY_DISCIPLE",
-				"Name": "TEXT_BONUS_CHRISTIANITY_DISCIPLE",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_CHRISTIANITY_DISCIPLE",
@@ -3372,7 +3383,6 @@
 			},
 			{
 				"zType": "BONUS_MANICHAEISM_DISCIPLE",
-				"Name": "TEXT_BONUS_MANICHAEISM_DISCIPLE",
 				"aiUnits": {
 					"Pair": {
 						"zIndex": "UNIT_MANICHAEISM_DISCIPLE",
@@ -8162,7 +8172,6 @@
 			},
 			{
 				"zType": "BONUS_GIVE_TRAIT_DECEITFUL",
-				"Name": "TEXT_BONUS_GIVE_TRAIT_DECEITFUL",
 				"aeAddTraits": {
 					"zValue": "TRAIT_DECEITFUL"
 				}
@@ -8219,18 +8228,6 @@
 				"zType": "BONUS_REMOVE_TRAIT_PROUD",
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_PROUD"
-				}
-			},
-			{
-				"zType": "BONUS_GIVE_TRAIT_CUNNING",
-				"aeAddTraits": {
-					"zValue": "TRAIT_CUNNING"
-				}
-			},
-			{
-				"zType": "BONUS_REMOVE_TRAIT_CUNNING",
-				"aeRemoveTraits": {
-					"zValue": "TRAIT_CUNNING"
 				}
 			},
 			{
@@ -8462,6 +8459,12 @@
 				}
 			},
 			{
+				"zType": "BONUS_GIVE_TRAIT_EXCLUDED",
+				"aeAddTraits": {
+					"zValue": "TRAIT_EXCLUDED"
+				}
+			},
+			{
 				"zType": "BONUS_GIVE_TRAIT_DOOMED",
 				"aeAddTraits": {
 					"zValue": "TRAIT_DOOMED"
@@ -8549,12 +8552,6 @@
 				"zType": "BONUS_GIVE_TRAIT_RIGHTFUL_HEIR",
 				"aeAddTraits": {
 					"zValue": "TRAIT_RIGHTFUL_HEIR"
-				}
-			},
-			{
-				"zType": "BONUS_GIVE_TRAIT_EXCLUDED",
-				"aeAddTraits": {
-					"zValue": "TRAIT_EXCLUDED"
 				}
 			},
 			{
@@ -9357,8 +9354,8 @@
 				"Ambition": "GOAL_SIX_RESOURCE_IMPROVEMENTS"
 			},
 			{
-				"zType": "BONUS_AMBITION_SIX_REPAIRED",
-				"Ambition": "GOAL_SIX_REPAIRED"
+				"zType": "BONUS_AMBITION_FOUR_REPAIRED",
+				"Ambition": "GOAL_FOUR_REPAIRED"
 			},
 			{
 				"zType": "BONUS_AMBITION_EIGHT_REPAIRED",
@@ -9569,12 +9566,8 @@
 				"Ambition": "GOAL_THREE_TRIBE_CLEARED"
 			},
 			{
-				"zType": "BONUS_AMBITION_FIVE_TRIBES_CLEARED",
-				"Ambition": "GOAL_FIVE_TRIBE_CLEARED"
-			},
-			{
-				"zType": "BONUS_AMBITION_SEVEN_TRIBES_CLEARED",
-				"Ambition": "GOAL_SEVEN_TRIBE_CLEARED"
+				"zType": "BONUS_AMBITION_SIX_TRIBES_CLEARED",
+				"Ambition": "GOAL_SIX_TRIBE_CLEARED"
 			},
 			{
 				"zType": "BONUS_AMBITION_TRIBE_PEACE",
@@ -9629,12 +9622,16 @@
 				"Ambition": "GOAL_ARCHITECTURE_JURISPRUDENCE"
 			},
 			{
-				"zType": "BONUS_AMBITION_TECH_COINAGE_FISCAL_POLICY",
-				"Ambition": "GOAL_COINAGE_FISCAL_POLICY"
+				"zType": "BONUS_AMBITION_TECH_DOCTRINE_FISCAL_POLICY",
+				"Ambition": "GOAL_DOCTRINE_FISCAL_POLICY"
 			},
 			{
-				"zType": "BONUS_AMBITION_TECH_HYDRAULICS_CHAIN_DRIVE",
-				"Ambition": "GOAL_HYDRAULICS_CHAIN_DRIVE"
+				"zType": "BONUS_AMBITION_TECH_PORTCULLIS_CHAIN_DRIVE",
+				"Ambition": "GOAL_PORTCULLIS_CHAIN_DRIVE"
+			},
+			{
+				"zType": "BONUS_AMBITION_TECH_WINDLASS_LATEEN_SAIL",
+				"Ambition": "GOAL_WINDLASS_LATEEN_SAIL"
 			},
 			{
 				"zType": "BONUS_AMBITION_TECH_COHORTS_MARTIAL_CODE",
@@ -9643,10 +9640,6 @@
 			{
 				"zType": "BONUS_AMBITION_TECH_BODKIN_ARROW_BALLISTICS",
 				"Ambition": "GOAL_BODKIN_ARROW_BALLISTICS"
-			},
-			{
-				"zType": "BONUS_AMBITION_TECH_WINDLASS_LATEEN_SAIL",
-				"Ambition": "GOAL_WINDLASS_LATEEN_SAIL"
 			},
 			{
 				"zType": "BONUS_AMBITION_TECH_BARDING_INFANTRY_SQUARE",
@@ -9701,8 +9694,8 @@
 				"Ambition": "GOAL_FIVE_MOUNTED"
 			},
 			{
-				"zType": "BONUS_AMBITION_FIVE_SIEGE",
-				"Ambition": "GOAL_FIVE_SIEGE"
+				"zType": "BONUS_AMBITION_THREE_SIEGE",
+				"Ambition": "GOAL_THREE_SIEGE"
 			},
 			{
 				"zType": "BONUS_AMBITION_TWO_RANGED_MOUNTED",
@@ -9847,6 +9840,10 @@
 			{
 				"zType": "BONUS_AMBITION_RECAPTURE_TWO_CITIES",
 				"Ambition": "GOAL_TWO_RECAPTURE_CITY"
+			},
+			{
+				"zType": "BONUS_AMBITION_RECAPTURE_THREE_CITIES",
+				"Ambition": "GOAL_THREE_RECAPTURE_CITY"
 			},
 			{
 				"zType": "BONUS_AMBITION_CAPTURE_TWO_CITIES",
@@ -9997,6 +9994,10 @@
 				"Ambition": "GOAL_100_URBAN_TILES"
 			},
 			{
+				"zType": "BONUS_AMBITION_TWO_CITIES_FOREIGN",
+				"Ambition": "GOAL_TWO_CITIES_FOREIGN"
+			},
+			{
 				"zType": "BONUS_AMBITION_THREE_CITIES_FOREIGN",
 				"Ambition": "GOAL_THREE_CITIES_FOREIGN"
 			},
@@ -10057,6 +10058,46 @@
 				"aeRemoveTraits": {
 					"zValue": "TRAIT_REGENT"
 				}
+			},
+			{
+				"zType": "BONUS_FAMILY_AMBITION_S0",
+				"iAmbitionFamilySubject": "0",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_FAMILY_AMBITION_S1",
+				"iAmbitionFamilySubject": "1",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_FAMILY_AMBITION_S2",
+				"iAmbitionFamilySubject": "2",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_FAMILY_AMBITION_S3",
+				"iAmbitionFamilySubject": "3",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_RELIGION_AMBITION_S0",
+				"iAmbitionReligionSubject": "0",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_RELIGION_AMBITION_S1",
+				"iAmbitionReligionSubject": "1",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_RELIGION_AMBITION_S2",
+				"iAmbitionReligionSubject": "2",
+				"bAddAmbition": "1"
+			},
+			{
+				"zType": "BONUS_RELIGION_AMBITION_S3",
+				"iAmbitionReligionSubject": "3",
+				"bAddAmbition": "1"
 			}
 		]
 	}

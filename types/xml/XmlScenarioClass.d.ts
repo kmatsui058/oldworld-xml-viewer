@@ -9,7 +9,8 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
-  zIcon: ZType | string;
+  Description?: ZType | string;
+  zIcon?: ZType | string;
 }
 export interface ZType {
 }

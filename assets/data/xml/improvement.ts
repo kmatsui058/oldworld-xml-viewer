@@ -54,6 +54,9 @@
         "iDefenseModifier": {
           
         },
+        "iDefenseModifierFriendly": {
+          
+        },
         "iFreshWaterModifier": {
           
         },
@@ -94,6 +97,9 @@
           
         },
         "iOpinionReligion": {
+          
+        },
+        "bHideWorkers": {
           
         },
         "bBuild": {
@@ -172,6 +178,9 @@
           
         },
         "bRemoveBonus": {
+          
+        },
+        "bShowAlways": {
           
         },
         "bNoAnalytics": {
@@ -1135,6 +1144,7 @@
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bShowAlways": "1",
         "bNoAnalytics": "1",
         "aiYieldCost": {
           "Pair": {
@@ -1247,6 +1257,7 @@
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bShowAlways": "1",
         "bNoAnalytics": "1",
         "aiYieldCost": {
           "Pair": {
@@ -1362,6 +1373,7 @@
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bNoVegetation": "1",
+        "bShowAlways": "1",
         "bNoAnalytics": "1",
         "aiYieldCost": {
           "Pair": {
@@ -1469,6 +1481,7 @@
         "iPillageTurns": "10",
         "bBuild": "1",
         "bTerritoryOnly": "1",
+        "bShowAlways": "1",
         "bNoAnalytics": "1",
         "aiYieldCost": {
           "Pair": {
@@ -1642,6 +1655,7 @@
         "iBuildTurns": "3",
         "iBuildCost": "1",
         "iPillageTurns": "10",
+        "bHideWorkers": "1",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bNoAnalytics": "1",
@@ -1753,7 +1767,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
+            "iValue": "20"
           }
         },
         "aiYieldConsumption": {
@@ -1797,7 +1811,7 @@
         "Class": "IMPROVEMENTCLASS_MILL",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_WATERMILL",
         "zIconName": "IMPROVEMENT_WATERMILL",
-        "iBuildTurns": "4",
+        "iBuildTurns": "2",
         "iBuildCost": "1",
         "iPillageTurns": "10",
         "bBuild": "1",
@@ -1843,7 +1857,7 @@
         "Class": "IMPROVEMENTCLASS_MILL",
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_WINDMILL",
         "zIconName": "IMPROVEMENT_WINDMILL",
-        "iBuildTurns": "4",
+        "iBuildTurns": "2",
         "iBuildCost": "1",
         "iPillageTurns": "10",
         "bBuild": "1",
@@ -2010,7 +2024,7 @@
         "AssetVariation": "ASSET_VARIATION_IMPROVEMENT_TOWN",
         "zIconName": "IMPROVEMENT_TOWN",
         "iPillageTurns": "10",
-        "iDefenseModifier": "10",
+        "iDefenseModifierFriendly": "10",
         "bTerritoryOnly": "1",
         "bUrban": "1",
         "bNoVegetation": "1",
@@ -3095,9 +3109,9 @@
         "iBuildTurns": "4",
         "iBuildCost": "1",
         "iPillageTurns": "10",
-        "iDefenseModifier": "20",
+        "iDefenseModifierFriendly": "20",
         "iMaxCityCount": "1",
-        "iPrereqLaws": "2",
+        "iPrereqLaws": "1",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -3160,7 +3174,7 @@
         "iBuildTurns": "5",
         "iBuildCost": "1",
         "iPillageTurns": "10",
-        "iDefenseModifier": "30",
+        "iDefenseModifierFriendly": "30",
         "iMaxCityCount": "1",
         "iPrereqLaws": "4",
         "bBuild": "1",
@@ -3226,9 +3240,9 @@
         "iBuildTurns": "6",
         "iBuildCost": "1",
         "iPillageTurns": "10",
-        "iDefenseModifier": "40",
+        "iDefenseModifierFriendly": "40",
         "iMaxCityCount": "1",
-        "iPrereqLaws": "6",
+        "iPrereqLaws": "7",
         "bBuild": "1",
         "bTerritoryOnly": "1",
         "bUrban": "1",
@@ -4143,7 +4157,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
+            "iValue": "20"
           }
         },
         "aiYieldPillage": {
@@ -4206,7 +4220,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
+            "iValue": "20"
           }
         },
         "aiYieldPillage": {
@@ -4269,7 +4283,7 @@
         "aiYieldOutput": {
           "Pair": {
             "zIndex": "YIELD_GROWTH",
-            "iValue": "10"
+            "iValue": "20"
           }
         },
         "aiYieldPillage": {

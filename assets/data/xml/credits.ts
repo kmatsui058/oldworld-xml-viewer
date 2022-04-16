@@ -488,7 +488,7 @@
       },
       {
         "zType": "CREDITS_Naxos07",
-        "zName": "\"Miserere\"\nby Henryk Mikolaj Górecki\nPerformed by Swedish Radio Chorus, Eric Ericson Chamber Choir, The, Tõnu Kaljuste \nCourtesy of Naxos of America, Inc.",
+        "zName": "\"Miserere\"\nby Henryk Mikolaj Górecki\nPerformed by Swedish Radio Chorus, Eric Ericson Chamber Choir, The, Tõnu Kaljuste\nCourtesy of Naxos of America, Inc.",
         "Section": "Music"
       },
       {
@@ -678,7 +678,7 @@
       },
       {
         "zType": "CREDITS_Naxos45",
-        "zName": "\"Ya Khalil\"\nPerformed by Salma Al Assal, Awadeya Othman Al Sheikh,\nSaadeya Ahmed Adam, Amira Mahmoud Mohammadein \nCourtesy of Naxos of America, Inc.",
+        "zName": "\"Ya Khalil\"\nPerformed by Salma Al Assal, Awadeya Othman Al Sheikh,\nSaadeya Ahmed Adam, Amira Mahmoud Mohammadein\nCourtesy of Naxos of America, Inc.",
         "Section": "Music"
       },
       {
@@ -699,6 +699,21 @@
       {
         "zType": "CREDITS_Naxos49",
         "zName": "\"Taqsim on Ney\"\nby Bedrudin Halibie\nCourtesy of Naxos of America, Inc.",
+        "Section": "Music"
+      },
+      {
+        "zType": "CREDITS_Naxos50",
+        "zName": "\"Nara\"\nby Charbel Rouhana\nCourtesy of Naxos of America, Inc.",
+        "Section": "Music"
+      },
+      {
+        "zType": "CREDITS_Naxos51",
+        "zName": "\"Rewind\"\nby Charbel Rouhana\nCourtesy of Naxos of America, Inc.",
+        "Section": "Music"
+      },
+      {
+        "zType": "CREDITS_Naxos52",
+        "zName": "\"Samai Rast\"\nby Charbel Rouhana\nCourtesy of Naxos of America, Inc.",
         "Section": "Music"
       },
       {
@@ -1053,22 +1068,22 @@
       },
       {
         "zType": "CREDITS_Cappella03",
-        "zName": "From the album The Fall of Constantinople\nKontakion of the Mother of God, «Τῇ ὑπερμάχῳ», \nfrom Hierarchical Entrance Rite for a Byzantine Divine Liturgy; Anonymous \n“Vasilissa ergo gaude,”\n “Lamentatio Sanctae Matris Ecclesiae Constantinopolitanae”; \ncomposer: Guillaume Dufay (1397–1474)",
+        "zName": "From the album The Fall of Constantinople\nKontakion of the Mother of God, «Τῇ ὑπερμάχῳ»,\nfrom Hierarchical Entrance Rite for a Byzantine Divine Liturgy; Anonymous\n“Vasilissa ergo gaude,”\n “Lamentatio Sanctae Matris Ecclesiae Constantinopolitanae”;\ncomposer: Guillaume Dufay (1397–1474)",
         "Section": "Cappella Records"
       },
       {
         "zType": "CREDITS_Cappella04",
-        "zName": "From the album Good Friday in Jerusalem \n“The Paradise in Eden,”\n “Rulers of the Peoples” / “They Laid a Lawless Charge” / “Let Us Bring Our Senses”; Anonymous",
+        "zName": "From the album Good Friday in Jerusalem\n“The Paradise in Eden,”\n “Rulers of the Peoples” / “They Laid a Lawless Charge” / “Let Us Bring Our Senses”; Anonymous",
         "Section": "Cappella Records"
       },
       {
         "zType": "CREDITS_Cappella05",
-        "zName": "From the album Lost Voices of Hagia Sophia\nChoral Stichologia (Palaion), “Lifted Up on the Cross,” \nFinal Teleutaion Antiphon Before the Entrance; Anonymous",
+        "zName": "From the album Lost Voices of Hagia Sophia\nChoral Stichologia (Palaion), “Lifted Up on the Cross,”\nFinal Teleutaion Antiphon Before the Entrance; Anonymous",
         "Section": "Cappella Records"
       },
       {
         "zType": "CREDITS_Cappella06",
-        "zName": "From the album Maximilian Steinberg: Passion Week\n“Let All Mortal Flesh Keep Silent,” Op. 22b: No. 2;\n composer: Nikolai Rimsky-Korsakov (1844–1908)\n “Of Thy Mystical Supper,” “Thy Bridal Chamber,” “The Wise Thief,” “When the Glorious Disciples”; \nfrom Passion Week, Op. 13; composer: Maximilian Steinberg (1883–1946)",
+        "zName": "From the album Maximilian Steinberg: Passion Week\n“Let All Mortal Flesh Keep Silent,” Op. 22b: No. 2;\n composer: Nikolai Rimsky-Korsakov (1844–1908)\n “Of Thy Mystical Supper,” “Thy Bridal Chamber,” “The Wise Thief,” “When the Glorious Disciples”;\nfrom Passion Week, Op. 13; composer: Maximilian Steinberg (1883–1946)",
         "Section": "Cappella Records"
       },
       {
@@ -1078,12 +1093,12 @@
       },
       {
         "zType": "CREDITS_Cappella08",
-        "zName": "From the album Venice in the East: Renaissance Crete & Cyprus « Ἄρατε πύλας» \n“Lift up your gates”; Anonymous, late 15th c.\n “Cum autem venissent ad locum,”\n “O dulcissime,” “Sepulto Domino”; composer: Johannes de Quadris (c.1410–c.1457)\n“O Great and Most Sacred Pascha”; composer: Hieronymos Tragodistēs (16th c.)\n“Already the pen” « Ἤδη βάπτεται» \nSticheron for the Holy Passion; composer: Manuel Gazēs the Lampadarios (15th c.)",
+        "zName": "From the album Venice in the East: Renaissance Crete & Cyprus « Ἄρατε πύλας»\n“Lift up your gates”; Anonymous, late 15th c.\n “Cum autem venissent ad locum,”\n “O dulcissime,” “Sepulto Domino”; composer: Johannes de Quadris (c.1410–c.1457)\n“O Great and Most Sacred Pascha”; composer: Hieronymos Tragodistēs (16th c.)\n“Already the pen” « Ἤδη βάπτεται»\nSticheron for the Holy Passion; composer: Manuel Gazēs the Lampadarios (15th c.)",
         "Section": "Cappella Records"
       },
       {
         "zType": "CREDITS_Cappella09",
-        "zName": "From the album When Augustus Reigned: Christmas Music from \nthe Byzantine Tradition Alleluiarion for Christmas Day; Anonymous, 13th c.",
+        "zName": "From the album When Augustus Reigned: Christmas Music from\nthe Byzantine Tradition Alleluiarion for Christmas Day; Anonymous, 13th c.",
         "Section": "Cappella Records"
       },
       {

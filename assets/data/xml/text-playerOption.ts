@@ -43,14 +43,6 @@
         "en-US": "Fatigued Units included in selection cycling"
       },
       {
-        "zType": "TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST",
-        "en-US": "Automated Units Last"
-      },
-      {
-        "zType": "TEXT_PLAYEROPTION_AUTOMATED_UNITS_LAST_DESC",
-        "en-US": "Automated Units move at the end of the turn"
-      },
-      {
         "zType": "TEXT_PLAYEROPTION_DISABLE_EDGE_SCROLLING",
         "en-US": "Disable Edge Scrolling"
       },

@@ -10,6 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   PingAsset: ZType | string;
+  MinimapPingAsset: ZType | string;
   zIconName: ZType | string;
   LogText: ZType | string;
   iMPTurnDuration?: ZType | string;

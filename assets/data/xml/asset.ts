@@ -207,6 +207,10 @@
         "zAsset": "Sprites/character-roles"
       },
       {
+        "zType": "ASSET_SPRITE_SHEET_ACHIEVEMENTS",
+        "zAsset": "Sprites/Achievement_Icons"
+      },
+      {
         "zType": "ASSET_EVENTSTORY_BACKGROUNDS",
         "zAsset": "Sprites/EventStory-Backgrounds"
       },
@@ -303,12 +307,16 @@
         "zAsset": "Prefabs/UI/TileUnitSelectedHighlight"
       },
       {
+        "zType": "ASSET_TILE_TUTORIAL_HIGHLIGHT",
+        "zAsset": "Prefabs/UI/TileTutorialHighlight"
+      },
+      {
         "zType": "ASSET_LIVING_WORLD_BIRDS",
         "zAsset": "Prefabs/Effects/BirdAnimatedFlock"
       },
       {
         "zType": "ASSET_LIVING_WORLD_PIGEON",
-        "zAsset": "Prefabs/Effects/PigeonFly_Slow"
+        "zAsset": "Prefabs/Effects/PigeonFly_Slow_AnimatedMesh"
       },
       {
         "zType": "ASSET_TILE_HIGHLIGHT",
@@ -387,24 +395,48 @@
         "zAsset": "Prefabs/UI/UI_Objects/Attack_Ping"
       },
       {
+        "zType": "ASSET_ATTACK_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Attack_Ping_Minimap"
+      },
+      {
         "zType": "ASSET_USE_PING",
         "zAsset": "Prefabs/UI/UI_Objects/Defend_Ping"
+      },
+      {
+        "zType": "ASSET_USE_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Defend_Ping_Minimap"
       },
       {
         "zType": "ASSET_FOUND_PING",
         "zAsset": "Prefabs/UI/UI_Objects/Claim_Ping"
       },
       {
+        "zType": "ASSET_FOUND_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Claim_Ping_Minimap"
+      },
+      {
         "zType": "ASSET_CAUTION_PING",
         "zAsset": "Prefabs/UI/UI_Objects/Warn_Ping"
+      },
+      {
+        "zType": "ASSET_CAUTION_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Warn_Ping_Minimap"
       },
       {
         "zType": "ASSET_RETREAT_PING",
         "zAsset": "Prefabs/UI/UI_Objects/Stop_Ping"
       },
       {
+        "zType": "ASSET_RETREAT_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Stop_Ping_Minimap"
+      },
+      {
         "zType": "ASSET_NOTE_PING",
         "zAsset": "Prefabs/UI/UI_Objects/Note_Ping"
+      },
+      {
+        "zType": "ASSET_NOTE_PING_MINIMAP",
+        "zAsset": "Prefabs/UI/UI_Objects/Note_Ping_Minimap"
       },
       {
         "zType": "ASSET_CITY_ASSYRIA_CAPITAL",
@@ -487,12 +519,24 @@
         "zAsset": "Prefabs/Units/Settler_portrait"
       },
       {
+        "zType": "ASSET_UNIT_SETTLER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Settler_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_WORKER",
         "zAsset": "Prefabs/Units/Worker"
       },
       {
+        "zType": "ASSET_UNIT_WORKER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Worker_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_WORKER_FEMALE",
         "zAsset": "Prefabs/Units/Female_Worker"
+      },
+      {
+        "zType": "ASSET_UNIT_WORKER_FEMALE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Female_Worker_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_WORKER_FEMALE",
@@ -511,6 +555,10 @@
         "zAsset": "Prefabs/Units/Scout"
       },
       {
+        "zType": "ASSET_UNIT_SCOUT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Scout_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_SCOUT",
         "zAsset": "Prefabs/Units/Scout_portrait"
       },
@@ -523,6 +571,10 @@
         "zAsset": "Prefabs/Units/Female_scout_portrait"
       },
       {
+        "zType": "ASSET_UNIT_SCOUT_FEMALE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Female_scout_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_CARAVAN",
         "zAsset": "Prefabs/Units/Caravan"
       },
@@ -531,8 +583,16 @@
         "zAsset": "Prefabs/Units/Caravan_portrait"
       },
       {
+        "zType": "ASSET_UNIT_CARAVAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Caravan_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_WARRIOR",
         "zAsset": "Prefabs/Units/Warrior"
+      },
+      {
+        "zType": "ASSET_UNIT_WARRIOR_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Warrior_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_WARRIOR",
@@ -541,6 +601,10 @@
       {
         "zType": "ASSET_UNIT_AXEMAN",
         "zAsset": "Prefabs/Units/Axeman"
+      },
+      {
+        "zType": "ASSET_UNIT_AXEMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Axeman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_AXEMAN",
@@ -555,8 +619,16 @@
         "zAsset": "Prefabs/Units/Spearman_portrait"
       },
       {
+        "zType": "ASSET_UNIT_SPEARMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Spearman_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_MACEMAN",
         "zAsset": "Prefabs/Units/Maceman"
+      },
+      {
+        "zType": "ASSET_UNIT_MACEMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Maceman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_MACEMAN",
@@ -571,12 +643,20 @@
         "zAsset": "Prefabs/Units/Swordsman_portrait"
       },
       {
+        "zType": "ASSET_UNIT_SWORDSMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Swordsman_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PIKEMAN",
         "zAsset": "Prefabs/Units/Pikeman"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_PIKEMAN",
         "zAsset": "Prefabs/Units/Pikeman_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_PIKEMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Pikeman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_MILITIA",
@@ -587,12 +667,20 @@
         "zAsset": "Prefabs/Units/Militia_portrait"
       },
       {
+        "zType": "ASSET_UNIT_MILITIA_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Militia_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_CONSCRIPT",
         "zAsset": "Prefabs/Units/Conscript"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_CONSCRIPT",
         "zAsset": "Prefabs/Units/Conscript_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_CONSCRIPT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Conscript_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_SLINGER",
@@ -615,8 +703,16 @@
         "zAsset": "Prefabs/Units/Archer"
       },
       {
+        "zType": "ASSET_UNIT_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Archer_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_ARCHER_FEMALE",
         "zAsset": "Prefabs/Units/Female_Archer"
+      },
+      {
+        "zType": "ASSET_UNIT_ARCHER_FEMALE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Female_Archer_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ARCHER",
@@ -639,8 +735,16 @@
         "zAsset": "Prefabs/Units/Longbowman_portrait"
       },
       {
+        "zType": "ASSET_UNIT_LONGBOWMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Longbowman_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_CROSSBOWMAN",
         "zAsset": "Prefabs/Units/Crossbowman"
+      },
+      {
+        "zType": "ASSET_UNIT_CROSSBOWMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Crossbowman_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_CROSSBOWMAN",
@@ -649,6 +753,10 @@
       {
         "zType": "ASSET_UNIT_CHARIOT",
         "zAsset": "Prefabs/Units/Chariot"
+      },
+      {
+        "zType": "ASSET_UNIT_CHARIOT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Chariot_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_CHARIOT",
@@ -663,8 +771,16 @@
         "zAsset": "Prefabs/Units/Horseman_portrait"
       },
       {
+        "zType": "ASSET_UNIT_HORSEMAN_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Horseman_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_HORSE_ARCHER",
         "zAsset": "Prefabs/Units/HorseArcher"
+      },
+      {
+        "zType": "ASSET_UNIT_HORSE_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/HorseArcher_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_HORSE_ARCHER",
@@ -675,12 +791,20 @@
         "zAsset": "Prefabs/Units/CamelArcher"
       },
       {
+        "zType": "ASSET_UNIT_CAMEL_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/CamelArcher_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_CAMEL_ARCHER",
         "zAsset": "Prefabs/Units/CamelArcher_portrait"
       },
       {
         "zType": "ASSET_UNIT_WAR_ELEPHANT",
         "zAsset": "Prefabs/Units/WarElephant"
+      },
+      {
+        "zType": "ASSET_UNIT_WAR_ELEPHANT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/WarElephant_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_WAR_ELEPHANT",
@@ -691,6 +815,10 @@
         "zAsset": "Prefabs/Units/Cataphract"
       },
       {
+        "zType": "ASSET_UNIT_CATAPHRACT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Cataphract_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_CATAPHRACT",
         "zAsset": "Prefabs/Units/Cataphract_portrait"
       },
@@ -699,8 +827,16 @@
         "zAsset": "Prefabs/Units/Catapult"
       },
       {
+        "zType": "ASSET_UNIT_ONAGER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Catapult_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_BALLISTA",
         "zAsset": "Prefabs/Units/Ballista"
+      },
+      {
+        "zType": "ASSET_UNIT_BALLISTA_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Ballista_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_BALLISTA",
@@ -709,6 +845,10 @@
       {
         "zType": "ASSET_UNIT_POLYBOLOS",
         "zAsset": "Prefabs/Units/Polybolos"
+      },
+      {
+        "zType": "ASSET_UNIT_POLYBOLOS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Polybolos_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_POLYBOLOS",
@@ -723,12 +863,20 @@
         "zAsset": "Prefabs/Units/Mangonel"
       },
       {
+        "zType": "ASSET_UNIT_MANGONEL_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Mangonel_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_MANGONEL",
         "zAsset": "Prefabs/Units/Mangonel_portrait"
       },
       {
         "zType": "ASSET_UNIT_BIREME",
         "zAsset": "Prefabs/Units/Bireme"
+      },
+      {
+        "zType": "ASSET_UNIT_BIREME_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Bireme_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_BIREME",
@@ -739,12 +887,20 @@
         "zAsset": "Prefabs/Units/Trireme"
       },
       {
+        "zType": "ASSET_UNIT_TRIREME_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Trireme_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_TRIREME",
         "zAsset": "Prefabs/Units/Trireme_portrait"
       },
       {
         "zType": "ASSET_UNIT_DROMON",
         "zAsset": "Prefabs/Units/Dromon"
+      },
+      {
+        "zType": "ASSET_UNIT_DROMON_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Dromon_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_DROMON",
@@ -755,12 +911,20 @@
         "zAsset": "Prefabs/Units/BatteringRam"
       },
       {
+        "zType": "ASSET_UNIT_BATTERINGRAM_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/BatteringRam_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_BATTERING_RAM",
         "zAsset": "Prefabs/Units/BatteringRam_portrait"
       },
       {
         "zType": "ASSET_UNIT_SIEGE_TOWER",
         "zAsset": "Prefabs/Units/SiegeTower"
+      },
+      {
+        "zType": "ASSET_UNIT_SIEGE_TOWER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/SiegeTower_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_SIEGE_TOWER",
@@ -771,6 +935,10 @@
         "zAsset": "Prefabs/Units/Akkadian_Archer"
       },
       {
+        "zType": "ASSET_UNIT_AKKADIAN_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Akkadian_Archer_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_AKKADIAN_ARCHER",
         "zAsset": "Prefabs/Units/Akkadian_Archer_portrait"
       },
@@ -779,12 +947,20 @@
         "zAsset": "Prefabs/Units/Cimmerian_Archer"
       },
       {
+        "zType": "ASSET_UNIT_CIMMERIAN_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Cimmerian_Archer_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_CIMMERIAN_ARCHER",
         "zAsset": "Prefabs/Units/Cimmerian_Archer_portrait"
       },
       {
         "zType": "ASSET_UNIT_AFRICAN_ELEPHANT",
         "zAsset": "Prefabs/Units/African_Elephant"
+      },
+      {
+        "zType": "ASSET_UNIT_AFRICAN_ELEPHANT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/African_Elephant_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_AFRICAN_ELEPHANT",
@@ -799,8 +975,16 @@
         "zAsset": "Prefabs/Units/Turreted_Elephant_portrait"
       },
       {
+        "zType": "ASSET_UNIT_TURRETED_ELEPHANT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Turreted_Elephant_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_LIGHT_CHARIOT",
         "zAsset": "Prefabs/Units/LightChariot"
+      },
+      {
+        "zType": "ASSET_UNIT_LIGHT_CHARIOT_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/LightChariot_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_LIGHT_CHARIOT",
@@ -811,12 +995,20 @@
         "zAsset": "Prefabs/Units/KushiteCavalry"
       },
       {
+        "zType": "ASSET_UNIT_KUSHITE_CAVALRY_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/KushiteCavalry_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_KUSHITE_CAVALRY",
         "zAsset": "Prefabs/Units/KushiteCavalry_portrait"
       },
       {
         "zType": "ASSET_UNIT_HOPLITE",
         "zAsset": "Prefabs/Units/Hoplite"
+      },
+      {
+        "zType": "ASSET_UNIT_HOPLITE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Hoplite_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_HOPLITE",
@@ -827,8 +1019,16 @@
         "zAsset": "Prefabs/Units/Phalangite"
       },
       {
+        "zType": "ASSET_UNIT_PHALANGITE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Phalangite_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PALTON_CAVALRY",
         "zAsset": "Prefabs/Units/PaltonCavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_PALTON_CAVALRY_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/PaltonCavalry_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_PALTON_CAVALRY",
@@ -839,12 +1039,20 @@
         "zAsset": "Prefabs/Units/CataphractArcher"
       },
       {
+        "zType": "ASSET_UNIT_CATAPHRACT_ARCHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/CataphractArcher_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_CATAPHRACT_ARCHER",
         "zAsset": "Prefabs/Units/CataphractArcher_portrait"
       },
       {
         "zType": "ASSET_UNIT_HASTATUS",
         "zAsset": "Prefabs/Units/Hastatus"
+      },
+      {
+        "zType": "ASSET_UNIT_HASTATUS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Hastatus_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_HASTATUS",
@@ -855,12 +1063,20 @@
         "zAsset": "Prefabs/Units/Legionary"
       },
       {
+        "zType": "ASSET_UNIT_LEGIONARY_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Legionary_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_LEGIONARY",
         "zAsset": "Prefabs/Units/Legionary_portrait"
       },
       {
         "zType": "ASSET_UNIT_ZOROASTRIANISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleZoroastrianism"
+      },
+      {
+        "zType": "ASSET_UNIT_ZOROASTRIANISM_DISCIPLE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/DiscipleZoroastrianism_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ZOROASTRIANISM_DISCIPLE",
@@ -871,12 +1087,20 @@
         "zAsset": "Prefabs/Units/DiscipleJudaism"
       },
       {
+        "zType": "ASSET_UNIT_JUDAISM_DISCIPLE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/DiscipleJudaism_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_JUDAISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleJudaism_portrait"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_CHRISTIANITY_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleChristianity_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_CHRISTIANITY_DISCIPLE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/DiscipleChristianity_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_CHRISTIANITY_DISCIPLE",
@@ -887,12 +1111,20 @@
         "zAsset": "Prefabs/Units/DiscipleManichaeism_portrait"
       },
       {
+        "zType": "ASSET_UNIT_MANICHAEISM_DISCIPLE_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/DiscipleManichaeism_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_MANICHAEISM_DISCIPLE",
         "zAsset": "Prefabs/Units/DiscipleManichaeism"
       },
       {
         "zType": "ASSET_UNIT_MARAUDER",
         "zAsset": "Prefabs/Units/Barbarians/Barbarian_Raider"
+      },
+      {
+        "zType": "ASSET_UNIT_MARAUDER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Barbarian_Raider_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_MARAUDER",
@@ -903,12 +1135,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Skirmisher"
       },
       {
+        "zType": "ASSET_UNIT_SKIRMISHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Skirmisher_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_SKIRMISHER",
         "zAsset": "Prefabs/Units/Barbarians/Skirmisher_portrait"
       },
       {
         "zType": "ASSET_UNIT_NOMAD_MARAUDER",
         "zAsset": "Prefabs/Units/Barbarians/Nomad_Raider"
+      },
+      {
+        "zType": "ASSET_UNIT_NOMAD_MARAUDER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Nomad_Raider_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_NOMAD_MARAUDER",
@@ -935,12 +1175,20 @@
         "zAsset": "Prefabs/Units/Barbarians/EliteSkirmisher"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_SKIRMISHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/EliteSkirmisher_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_SKIRMISHER",
         "zAsset": "Prefabs/Units/Barbarians/EliteSkirmisher_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_NOMAD_MARAUDER",
         "zAsset": "Prefabs/Units/Barbarians/EliteNomadMarauder"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_NOMAD_MARAUDER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/EliteNomadMarauder_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_MARAUDER",
@@ -951,6 +1199,10 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Skirmisher"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_NOMAD_SKIRMISHER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Nomad_Skirmisher_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_SKIRMISHER",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Skirmisher_portrait"
       },
@@ -959,12 +1211,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Warlord"
       },
       {
+        "zType": "ASSET_UNIT_WARLORD_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Warlord_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_WARLORD",
         "zAsset": "Prefabs/Units/Barbarians/Warlord_portrait"
       },
       {
         "zType": "ASSET_UNIT_JAVELINEER",
         "zAsset": "Prefabs/Units/Barbarians/Javelineer"
+      },
+      {
+        "zType": "ASSET_UNIT_JAVELINEER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Javelineer_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_JAVELINEER",
@@ -983,8 +1243,16 @@
         "zAsset": "Prefabs/Units/Barbarians/Gaesata"
       },
       {
+        "zType": "ASSET_UNIT_GAESATA_GAULS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Gaesata_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_GAESATA",
         "zAsset": "Prefabs/Units/Barbarians/Gaesata_portrait"
+      },
+      {
+        "zType": "ASSET_UNIT_HUSCARL_DANES_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Huscarl_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_HUSCARL_DANES",
@@ -999,6 +1267,10 @@
         "zAsset": "Prefabs/Units/Barbarians/ClubThrower"
       },
       {
+        "zType": "ASSET_UNIT_CLUBTHROWER_VANDALS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/ClubThrower_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_CLUBTHROWER_VANDALS_PROJECTILE",
         "zAsset": "Prefabs/Units/ClubThrower_Hammer"
       },
@@ -1011,12 +1283,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Peltast"
       },
       {
+        "zType": "ASSET_UNIT_PELTAST_TRACIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Peltast_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_PELTAST_THRACIANS",
         "zAsset": "Prefabs/Units/Barbarians/Peltast_portrait"
       },
       {
         "zType": "ASSET_UNIT_AMAZON_CAVALRY_SCYTHIANS",
         "zAsset": "Prefabs/Units/Barbarians/Amazon_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_AMAZON_CAVALRY_SCYTHIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Amazon_Cavalry_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_AMAZON_CAVALRY_SCYTHIANS",
@@ -1031,8 +1311,16 @@
         "zAsset": "Prefabs/Units/Barbarians/Libyan_Cavalry"
       },
       {
+        "zType": "ASSET_UNIT_LIBYAN_CAVALRY_NUMIDIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Libyan_Cavalry_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_ELITE_WARLORD",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Warlord"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_WARLORD_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Warlord_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_WARLORD",
@@ -1043,12 +1331,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Javelineer"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_JAVELINEER_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Javelineer_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_JAVELINEER",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Javelineer_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Nomad_Warlord"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_NOMAD_WARLORD_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Nomad_Warlord_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_NOMAD_WARLORD",
@@ -1059,6 +1355,10 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Gaesata"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_GAESATA_GAULS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Gaesata_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_GAESATA_GAULS",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Gaesata_portrait"
       },
@@ -1067,12 +1367,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Huscarl"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_HUSCARL_DANES_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Huscarl_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_HUSCARL_DANES",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Huscarl_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS",
         "zAsset": "Prefabs/Units/Barbarians/Elite_ClubThrower"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_ClubThrower_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_ELITE_CLUBTHROWER_VANDALS_PROJECTILE",
@@ -1087,6 +1395,10 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Peltast"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_PELTAST_TRACIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Peltast_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_PELTAST_THRACIANS",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Peltast_portrait"
       },
@@ -1095,12 +1407,20 @@
         "zAsset": "Prefabs/Units/Barbarians/Elite_Amazon_Cavalry"
       },
       {
+        "zType": "ASSET_UNIT_ELITE_AMAZON_CAVALRY_SCYTHIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Amazon_Cavalry_AnimatedMesh"
+      },
+      {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_AMAZON_CAVALRY_SCYTHIANS",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Amazon_Cavalry_portrait"
       },
       {
         "zType": "ASSET_UNIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
         "zAsset": "Prefabs/Units/Barbarians/Elite_Libyan_Cavalry"
+      },
+      {
+        "zType": "ASSET_UNIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS_MESH_ANIMATOR",
+        "zAsset": "Prefabs/Units/MeshAnimator/Elite_Libyan_Cavalry_AnimatedMesh"
       },
       {
         "zType": "ASSET_UNIT_PORTRAIT_ELITE_LIBYAN_CAVALRY_NUMIDIANS",
@@ -1173,6 +1493,18 @@
       {
         "zType": "ASSET_TERRAIN_TILE_TUNDRA_FLAT",
         "zAsset": "Prefabs/Terrain/TileTundra"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_MARSH_FLAT_01",
+        "zAsset": "Prefabs/Terrain/TileMarsh_01"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_MARSH_FLAT_02",
+        "zAsset": "Prefabs/Terrain/TileMarsh_01"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_MARSH_FLAT_03",
+        "zAsset": "Prefabs/Terrain/TileMarsh_01"
       },
       {
         "zType": "ASSET_TERRAIN_TILE_MOUNTAIN_1",
@@ -1249,6 +1581,10 @@
       {
         "zType": "ASSET_TERRAIN_TILE_HILL_TUNDRA",
         "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsTundra"
+      },
+      {
+        "zType": "ASSET_TERRAIN_TILE_HILL_MARSH",
+        "zAsset": "Prefabs/Terrain/Hills/HillsV2/HillsMarsh"
       },
       {
         "zType": "ASSET_TERRAIN_TILE_COAST_1",
@@ -1596,19 +1932,19 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_LUMBERMILL",
-        "zAsset": "Prefabs/Improvements/LumberMill"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/LumberMill/LumberMill_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_QUARRY",
-        "zAsset": "Prefabs/Improvements/Quarry"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Quarry/Quarry_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_QUARRY_MARBLE",
-        "zAsset": "Prefabs/Improvements/Quarry_Marble"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Quarry/Quarry_Marble_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MINE",
-        "zAsset": "Prefabs/Improvements/Mine"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Mine/Mine_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_MINE_ORE",
@@ -1672,23 +2008,23 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS",
-        "zAsset": "Prefabs/Improvements/Nets"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Nets/Nets_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS_FISH",
-        "zAsset": "Prefabs/Improvements/NetsFish"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Nets/NetsFish_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS_CRABS",
-        "zAsset": "Prefabs/Improvements/NetsCrabs"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Nets/NetsCrabs_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS_DYES",
-        "zAsset": "Prefabs/Improvements/NetsDyes"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Nets/NetsDyes_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_NETS_PEARLS",
-        "zAsset": "Prefabs/Improvements/NetsPearls"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Nets/NetsPearls_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HARBOR",
@@ -1700,11 +2036,11 @@
       },
       {
         "zType": "ASSET_IMPROVEMENT_WATERMILL",
-        "zAsset": "Prefabs/Improvements/Watermill"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Watermill/Watermill_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_WINDMILL",
-        "zAsset": "Prefabs/Improvements/Windmill"
+        "zAsset": "Prefabs/Improvements/MeshAnimator/Windmill/Windmill_AnimatedMesh"
       },
       {
         "zType": "ASSET_IMPROVEMENT_HAMLET",

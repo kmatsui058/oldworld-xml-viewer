@@ -39,7 +39,7 @@
         "Name": "TEXT_TURNSTYLE_SIMULTANEOUS",
         "Help": "TEXT_TURNSTYLE_SIMULTANEOUS_HELP",
         "iTimeModifier": "25",
-        "iCombatModifier": "50",
+        "iCombatModifier": "100",
         "bSimultaneous": "1",
         "bNoCooldown": "1"
       },
@@ -48,21 +48,21 @@
         "Name": "TEXT_TURNSTYLE_LOOSE",
         "Help": "TEXT_TURNSTYLE_LOOSE_HELP",
         "iTimeModifier": "-25",
-        "iCombatModifier": "50",
+        "iCombatModifier": "100",
         "bNoCooldown": "1"
       },
       {
         "zType": "TURNSTYLE_NORMAL",
         "Name": "TEXT_TURNSTYLE_NORMAL",
         "Help": "TEXT_TURNSTYLE_NORMAL_HELP",
-        "iCombatModifier": "25"
+        "iCombatModifier": "50"
       },
       {
         "zType": "TURNSTYLE_TIGHT",
         "Name": "TEXT_TURNSTYLE_TIGHT",
         "Help": "TEXT_TURNSTYLE_TIGHT_HELP",
         "iTimeModifier": "25",
-        "iCombatModifier": "25",
+        "iCombatModifier": "50",
         "bNoMilitary": "1"
       },
       {

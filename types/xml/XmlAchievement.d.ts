@@ -9,15 +9,17 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  IconName: ZType | string;
   Victory: ZType | string;
   EventLevel: ZType | string;
   Mortality: ZType | string;
   Difficulty: ZType | string;
   Nation: ZType | string;
   FamilyClass: ZType | string;
+  Archetype?: ZType | string;
   aiCultureCount: AiCultureCount;
   aiStatCount: AiCultureCount;
-  aeGameOptions: AeGameOptions;
+  aeGameOptions?: AeGameOptions;
   bGOTW?: ZType | string;
   bTrueFaith?: ZType | string;
   iNumOpponents?: ZType | string;

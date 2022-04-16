@@ -214,7 +214,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_DEVELOPING",
-        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_1",
         "aiYieldCost": {
           "Pair": {
@@ -246,7 +245,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_STRONG",
-        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_2",
         "aiYieldCost": {
           "Pair": {
@@ -272,7 +270,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_TREASURY_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_TREASURY",
         "MinimumCulture": "CULTURE_LEGENDARY",
-        "TechPrereq": "TECH_ADMINISTRATION",
         "ProjectPrereq": "PROJECT_TREASURY_3",
         "aiYieldCost": {
           "Pair": {
@@ -327,7 +324,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_DEVELOPING",
-        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_1",
         "aiYieldCost": {
           "Pair": {
@@ -359,7 +355,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_STRONG",
-        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_2",
         "aiYieldCost": {
           "Pair": {
@@ -385,7 +380,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_FORUM_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_FORUM",
         "MinimumCulture": "CULTURE_LEGENDARY",
-        "TechPrereq": "TECH_RHETORIC",
         "ProjectPrereq": "PROJECT_FORUM_3",
         "aiYieldCost": {
           "Pair": {
@@ -440,7 +434,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_2",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_DEVELOPING",
-        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_1",
         "aiYieldCost": {
           "Pair": {
@@ -472,7 +465,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_3",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_STRONG",
-        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_2",
         "aiYieldCost": {
           "Pair": {
@@ -498,7 +490,6 @@
         "EffectCity": "EFFECTCITY_PROJECT_ARCHIVE_4",
         "EffectCityExtra": "EFFECTCITY_PROJECT_ARCHIVE",
         "MinimumCulture": "CULTURE_LEGENDARY",
-        "TechPrereq": "TECH_METAPHYSICS",
         "ProjectPrereq": "PROJECT_ARCHIVE_3",
         "aiYieldCost": {
           "Pair": {

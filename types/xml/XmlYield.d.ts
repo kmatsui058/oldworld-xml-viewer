@@ -14,6 +14,7 @@ export interface Entry {
   Encyclopedia?: ZType | string;
   zIconName: ZType | string;
   iMinimum?: ZType | string;
+  iTriangleOffset?: ZType | string;
   iLeaderGovernor?: ZType | string;
   iForeignPopulation?: ZType | string;
   iPerMissingFamily?: ZType | string;
@@ -31,6 +32,7 @@ export interface Entry {
   iMaxPrice?: ZType | string;
   iDemand?: ZType | string;
   iVolitility?: ZType | string;
+  iBurnCost?: ZType | string;
   iGeneralCost?: ZType | string;
   iGovernorCost?: ZType | string;
   iOffensiveCost?: ZType | string;

@@ -12,7 +12,7 @@ export interface Entry {
   zIcon: ZType | string;
   ProjectAsset?: ZType;
   iCivics?: ZType;
-  iMaxCount: ZType | string;
+  iMaxCount?: ZType | string;
   iFreeNoCharacters?: ZType;
   iExtraPopRequired?: ZType;
   bHidden: ZType | string;

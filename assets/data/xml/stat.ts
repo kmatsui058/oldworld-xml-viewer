@@ -8,6 +8,12 @@
         },
         "Name": {
           
+        },
+        "iMin": {
+          "comment": "Lowest possible value of the stat. Defaults to 0, change if you want stats that can go negative"
+        },
+        "iMax": {
+          "comment": "Highest possible value of the stat. Defaults to no limit"
         }
       },
       {

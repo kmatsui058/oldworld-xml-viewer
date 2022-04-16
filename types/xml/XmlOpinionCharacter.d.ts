@@ -9,6 +9,7 @@ export interface Root {
 export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
+  GenderedNames?: ZType;
   Range: ZType | string;
   Color: ZType | string;
   iThreshold?: ZType | string;

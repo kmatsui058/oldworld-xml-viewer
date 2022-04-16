@@ -10,7 +10,7 @@ export interface Entry {
   zType: ZType | string;
   Name: ZType | string;
   zIconName: ZType | string;
-  GenderedNames?: ZType;
+  GenderedNames: GenderedNames;
   TechPrereq: ZType | string;
   iXP: ZType | string;
   iOpinion: ZType | string;
@@ -26,12 +26,12 @@ export interface Entry {
   aaiRatingYieldCity: AaiRatingYieldCity;
 }
 export interface AaiRatingYieldCity {
-  Pair?: Pair3;
+  Pair?: Pair4;
 }
 export interface AaiRatingYieldGlobal {
-  Pair?: Pair3[];
+  Pair?: Pair4[];
 }
-export interface Pair3 {
+export interface Pair4 {
   zIndex: string;
   SubPair: SubPair;
 }
@@ -40,18 +40,25 @@ export interface SubPair {
   iValue: string;
 }
 export interface AbTraitPrereq {
-  Pair?: Pair2[];
+  Pair?: Pair3[];
 }
-export interface Pair2 {
+export interface Pair3 {
   zIndex: string;
   bValue: string;
 }
 export interface AiPlayerOpinion {
+  Pair?: Pair2;
+}
+export interface Pair2 {
+  zIndex: string;
+  iValue: string;
+}
+export interface GenderedNames {
   Pair?: Pair;
 }
 export interface Pair {
-  zIndex: string;
-  iValue: string;
+  First: string;
+  Second: string;
 }
 export interface ZType {
 }

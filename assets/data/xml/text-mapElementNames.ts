@@ -656,7 +656,7 @@
       },
       {
         "zType": "TEXT_GEFIR_KEBIR_PLATEAU",
-        "en-US": "Gefir Kebir Plateau"
+        "en-US": "Gilf Kebir Plateau"
       },
       {
         "zType": "TEXT_GHEGAM_RIDGE",
@@ -692,7 +692,7 @@
       },
       {
         "zType": "TEXT_GULF_OF_CADIZ",
-        "en-US": "Gulf of Cadiz"
+        "en-US": "Gulf of Gadir"
       },
       {
         "zType": "TEXT_GULF_OF_GENOA",
@@ -744,7 +744,7 @@
       },
       {
         "zType": "TEXT_HALYS_RIVER",
-        "en-US": "Halys River"
+        "en-US": "Marassantiya River"
       },
       {
         "zType": "TEXT_HAMATA_MANGROVES",
@@ -1200,7 +1200,7 @@
       },
       {
         "zType": "TEXT_MALUA_RIVER",
-        "en-US": "Malua River"
+        "en-US": "Moulouya River"
       },
       {
         "zType": "TEXT_MANGROVE_FOREST_OF_QESHM",
@@ -1292,7 +1292,7 @@
       },
       {
         "zType": "TEXT_MOLDOVENU_PEAK",
-        "en-US": "Moldovenu Peak"
+        "en-US": "Moldoveanu Peak"
       },
       {
         "zType": "TEXT_MONA_ISLAND",
@@ -1872,7 +1872,7 @@
       },
       {
         "zType": "TEXT_SEA_OF_MARMARA",
-        "en-US": "Sea of Marmara"
+        "en-US": "Propontis"
       },
       {
         "zType": "TEXT_SEQUANA_RIVER",
@@ -1888,7 +1888,7 @@
       },
       {
         "zType": "TEXT_SHANNON_RIVER",
-        "en-US": "Shannon River"
+        "en-US": "Sionainn River"
       },
       {
         "zType": "TEXT_SHIR_KUH",
@@ -2131,10 +2131,6 @@
         "en-US": "Tomis"
       },
       {
-        "zType": "TEXT_TOSHKA_LAKES",
-        "en-US": "Toshka Lakes"
-      },
-      {
         "zType": "TEXT_TOUBKAL",
         "en-US": "Toubkal"
       },
@@ -2192,7 +2188,7 @@
       },
       {
         "zType": "TEXT_VIADRUS_RIVER",
-        "en-US": "Viadrus River"
+        "en-US": "Viadua River"
       },
       {
         "zType": "TEXT_VINDOBONA_WOODS",
@@ -2388,7 +2384,7 @@
       },
       {
         "zType": "TEXT_CITYNAME_UPI",
-        "en-US": "UPI"
+        "en-US": "Upi"
       },
       {
         "zType": "TEXT_CITYNAME_TOMIS",
@@ -2721,10 +2717,6 @@
       {
         "zType": "TEXT_CITYNAME_SALDUBA",
         "en-US": "Salduba"
-      },
-      {
-        "zType": "TEXT_FLUMEN_ANAS",
-        "en-US": "Flumen Anas"
       },
       {
         "zType": "TEXT_CIMERIAN_FOREST",
