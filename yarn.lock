@@ -2108,13 +2108,13 @@
     minimatch "^3.0.4"
     sitemap "^4.1.1"
 
-"@nuxtjs/stylelint-module@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/stylelint-module/-/stylelint-module-4.0.0.tgz"
-  integrity sha512-yNVCpbZQH07wr7nOoTdb7dNHSA2PUw/Y9Pw2rOQ3Dp2FSDh6/+o56Pojwnxf/xBON9EUBiCrglTMMO3mWd7YQA==
+"@nuxtjs/stylelint-module@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/stylelint-module/-/stylelint-module-4.1.0.tgz#2d69dc882a0b2b4391311c405b07d4b39a975ff5"
+  integrity sha512-XeUZobXlSVW5VDbZBDktB3oFkBm+4JhYlyvZqu4tD7F3Qf4IU5aFwlELbK+VLVewbGgKSEg4QaT5nZdWpgXQBw==
   dependencies:
-    consola "^2.12.1"
-    stylelint-webpack-plugin "^2.0.0"
+    consola "^2.15.3"
+    stylelint-webpack-plugin "^2.3.1"
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
@@ -2371,14 +2371,6 @@
   version "0.0.30"
   resolved "https://registry.npmjs.org/@types/strip-json-comments/-/strip-json-comments-0.0.30.tgz"
   integrity sha512-7NQmHra/JILCd1QqpSzl8+mJRc8ZHz3uDm8YV1Ks9IhK0epEiTw8aIErbvH9PI+6XbqhyIQy3462nEsn7UVzjQ==
-
-"@types/stylelint@^13.13.0":
-  version "13.13.2"
-  resolved "https://registry.npmjs.org/@types/stylelint/-/stylelint-13.13.2.tgz"
-  integrity sha512-5Yt1LQenR7uk+efCydQmN7ubOtO2qJ8Z9K/qqnlW87X1zkIQ8RkMCZbaOgZj/aBrR/h5Q738mJU6CYhXOj9sEg==
-  dependencies:
-    globby "11.x.x"
-    postcss "7.x.x"
 
 "@types/tapable@^1", "@types/tapable@^1.0.5":
   version "1.0.8"
@@ -4481,7 +4473,7 @@ connect@^3.7.0:
     parseurl "~1.3.3"
     utils-merge "1.0.1"
 
-consola@^2.10.0, consola@^2.10.1, consola@^2.12.1, consola@^2.13.0, consola@^2.15.0, consola@^2.15.3, consola@^2.6.0, consola@^2.9.0:
+consola@^2.10.0, consola@^2.10.1, consola@^2.13.0, consola@^2.15.0, consola@^2.15.3, consola@^2.6.0, consola@^2.9.0:
   version "2.15.3"
   resolved "https://registry.npmjs.org/consola/-/consola-2.15.3.tgz"
   integrity sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==
@@ -6524,7 +6516,7 @@ globals@^9.18.0:
   resolved "https://registry.npmjs.org/globals/-/globals-9.18.0.tgz"
   integrity sha512-S0nG3CLEQiY/ILxqtztTWH/3iRRdyBLw6KMDxnKMchrtbj2OFmehVh0WUCfW3DUrIgx/qFrJPICrq4Z4sTR9UQ==
 
-globby@11.x.x, globby@^11.0.3, globby@^11.0.4:
+globby@^11.0.3, globby@^11.0.4:
   version "11.0.4"
   resolved "https://registry.npmjs.org/globby/-/globby-11.0.4.tgz"
   integrity sha512-9O4MVG9ioZJ08ffbcyVYyLOJLk5JQ688pJ4eMGLpdWLHq/Wr1D9BlriLQyL0E+jbkuePVZXYFj47QM/v093wHg==
@@ -8012,15 +8004,6 @@ jest-worker@^26.5.0:
     "@types/node" "*"
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
-
-jest-worker@^27.0.2:
-  version "27.2.0"
-  resolved "https://registry.npmjs.org/jest-worker/-/jest-worker-27.2.0.tgz"
-  integrity sha512-laB0ZVIBz+voh/QQy9dmUuuDsadixeerrKqyVpgPz+CCWiOYjOBabUXHIXZhsdvkWbLqSHbgkAHWl5cg24Q6RA==
-  dependencies:
-    "@types/node" "*"
-    merge-stream "^2.0.0"
-    supports-color "^8.0.0"
 
 jest-worker@^27.3.1, jest-worker@^27.5.1:
   version "27.5.1"
@@ -10536,7 +10519,7 @@ postcss-values-parser@^2.0.0, postcss-values-parser@^2.0.1:
     indexes-of "^1.0.1"
     uniq "^1.0.1"
 
-postcss@7.x.x, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.36, postcss@^7.0.5, postcss@^7.0.6:
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.32, postcss@^7.0.35, postcss@^7.0.36, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.36"
   resolved "https://registry.npmjs.org/postcss/-/postcss-7.0.36.tgz"
   integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
@@ -12083,18 +12066,17 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylelint-webpack-plugin@^2.0.0:
-  version "2.2.2"
-  resolved "https://registry.npmjs.org/stylelint-webpack-plugin/-/stylelint-webpack-plugin-2.2.2.tgz"
-  integrity sha512-zfIsAF13xe6xuhwxZDFWQEmuVcxnRk9JFovyRL/23CWjPK1HLRw4QZdvo0Bz1bQZaDQA+6ha7cU0NO+LXaw4Mw==
+stylelint-webpack-plugin@^2.3.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/stylelint-webpack-plugin/-/stylelint-webpack-plugin-2.3.2.tgz#edb849250fb829349ddb41bc07d343c39d3391ce"
+  integrity sha512-gjerWQ7nY+4JdebL3LTDPp80DV10O1OOWtM+v+W29+ThzLsKGz3UptEVd0jVdFpWEohEXVilbnan2b/YXxakqA==
   dependencies:
-    "@types/stylelint" "^13.13.0"
     arrify "^2.0.1"
     globby "^11.0.4"
-    jest-worker "^27.0.2"
+    jest-worker "^27.3.1"
     micromatch "^4.0.4"
     normalize-path "^3.0.0"
-    schema-utils "^3.0.0"
+    schema-utils "^3.1.1"
 
 stylelint@^13.13.1:
   version "13.13.1"
