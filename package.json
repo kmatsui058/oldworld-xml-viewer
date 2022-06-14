@@ -39,7 +39,7 @@
     "bulma": "^0.9.4",
     "bulmaswatch": "^0.8.1",
     "case": "^1.6.3",
-    "core-js": "^3.22.8",
+    "core-js": "^3.23.0",
     "glob": "^8.0.3",
     "jest": "^27.5.1",
     "jest-transform-stub": "^2.0.0",
