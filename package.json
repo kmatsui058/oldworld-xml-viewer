@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "@babel/eslint-parser": "^7.18.9",
-    "@nuxtjs/composition-api": "^0.32.0",
+    "@nuxtjs/composition-api": "^0.33.0",
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "@nuxtjs/sitemap": "^2.4.0",
