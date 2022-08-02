@@ -13224,10 +13224,10 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-instantsearch@^4.4.1:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.4.1.tgz#586aa7adac745dc1789cb92b9ee26aeb7e7fb113"
-  integrity sha512-4APcxh9+5W70H/HwCwCOdFmvnxdmcrm3PXwWJKE6nY3RlAmzXjU/wjD3lJRdWWRaIUPBSH9NxGLCc/IVBD1bjg==
+vue-instantsearch@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.4.2.tgz#dc224040e98ff313ad77109d74ee0636d0c92509"
+  integrity sha512-IiyEHbcA3uCAYf7ca1MiB+zg7Bx8kU8OEmO+n62q/5Mbz4YZMIzkZhyWTgpF9jG9pwM/ounZDuA5wX0dUxLz1w==
   dependencies:
     instantsearch.js "^4.43.0"
     mitt "^2.1.0"
