@@ -2343,10 +2343,10 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@openapitools/openapi-generator-cli@^2.5.1":
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.5.1.tgz#3825be4f7317199183fbd0d464dd8a7ba055fcf5"
-  integrity sha512-WSRQBU0dCSVD+0Qv8iCsv0C4iMaZe/NpJ/CT4SmrEYLH3txoKTE8wEfbdj/kqShS8Or0YEGDPUzhSIKY151L0w==
+"@openapitools/openapi-generator-cli@^2.5.2":
+  version "2.5.2"
+  resolved "https://registry.yarnpkg.com/@openapitools/openapi-generator-cli/-/openapi-generator-cli-2.5.2.tgz#727a0f29fec1f91ffb467003d0d12ef35554e0ef"
+  integrity sha512-FLgkjzpDiHVsH821db0VDSElDoA6TcspGyq3RD4zLBJaJhbSsRwr4u87sNoyuHKBg4OMJbZMT4iJxAhkosKrzw==
   dependencies:
     "@nestjs/common" "8.4.4"
     "@nestjs/core" "8.4.4"
@@ -6725,19 +6725,7 @@ glob@7.1.6:
     once "^1.3.0"
     path-is-absolute "^1.0.0"
 
-glob@^7.0.0, glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7:
-  version "7.2.0"
-  resolved "https://registry.npmjs.org/glob/-/glob-7.2.0.tgz"
-  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
-  dependencies:
-    fs.realpath "^1.0.0"
-    inflight "^1.0.4"
-    inherits "2"
-    minimatch "^3.0.4"
-    once "^1.3.0"
-    path-is-absolute "^1.0.0"
-
-glob@^7.2.0:
+glob@^7.0.0, glob@^7.0.3, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6, glob@^7.1.7, glob@^7.2.0:
   version "7.2.3"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.3.tgz#b8df0fb802bbfa8e89bd1d938b4e16578ed44f2b"
   integrity sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==
