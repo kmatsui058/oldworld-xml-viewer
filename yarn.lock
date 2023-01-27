@@ -2472,6 +2472,11 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
+"@types/dom-speech-recognition@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@types/dom-speech-recognition/-/dom-speech-recognition-0.0.1.tgz#e326761a04b4a49c0eec2ac7948afc1c6aa12baa"
+  integrity sha512-udCxb8DvjcDKfk1WTBzDsxFbLgYxmQGKrE/ricoMqHRNjSlSUCcamVTA5lIQqzY10mY5qCY0QDwBfFEwhfoDPw==
+
 "@types/eslint@^7.28.2":
   version "7.29.0"
   resolved "https://registry.yarnpkg.com/@types/eslint/-/eslint-7.29.0.tgz#e56ddc8e542815272720bb0b4ccc2aff9c3e1c78"
@@ -7451,14 +7456,15 @@ inquirer@^7.3.3:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-instantsearch.js@^4.50.0:
-  version "4.50.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.50.0.tgz#621d26748e80facac1fe8f75c64968fdca74c6aa"
-  integrity sha512-xFh6O+SUQUSmcs8ycB2z2mdHyITD34Bx4iWuogmo8qxkLz2+7wMQeDgdOBjM198XHOzOOzmBpAcaZhiMEOMV0A==
+instantsearch.js@4.50.1:
+  version "4.50.1"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.50.1.tgz#3494865c727b27f8587b287a7e41669dc2c2c7d4"
+  integrity sha512-vLO1wxaJqrumryn1/4+6opSze04m6cPj2vYQtGlrYFMtVmYhrI42VXR0llNxgzSv6VJLEROjOxEj6iI3gfWaIw==
   dependencies:
     "@algolia/events" "^4.0.1"
     "@algolia/ui-components-highlight-vdom" "^1.2.1"
     "@algolia/ui-components-shared" "^1.2.1"
+    "@types/dom-speech-recognition" "^0.0.1"
     "@types/google.maps" "^3.45.3"
     "@types/hogan.js" "^3.0.0"
     "@types/qs" "^6.5.3"
@@ -13356,12 +13362,12 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-instantsearch@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.0.tgz#83de7a8c563f088a3d88dca707b296aa2add616c"
-  integrity sha512-VKQ118TPBdRYDL6ogJ7gMd5u5MYASsdQGlGdMxGYA+Gn8zwAz9KWlfxXiExCr/BnEc7ZsjEBwun0hMfze9Ns8Q==
+vue-instantsearch@^4.8.1:
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.1.tgz#bf7d756ae32e967d892a0e048cbdf8704e87ba89"
+  integrity sha512-epRwT1ATTvH8LnOfUltMgr5UsWX4pQKAHIbkAGn3i0yQSyocUm3scnwIfEDhM3IFEnDCs3UjMd1cKvzqa5XwIw==
   dependencies:
-    instantsearch.js "^4.50.0"
+    instantsearch.js "4.50.1"
     mitt "^2.1.0"
 
 vue-jest@^3.0.7:
