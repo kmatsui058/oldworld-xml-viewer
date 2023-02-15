@@ -1514,11 +1514,6 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
-"@fortawesome/fontawesome-common-types@6.2.1":
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.2.1.tgz#411e02a820744d3f7e0d8d9df9d82b471beaa073"
-  integrity sha512-Sz07mnQrTekFWLz5BMjOzHl/+NooTdW8F8kDQxjWwbpOJcnoSg4vUDng8d/WR1wOxM0O+CY9Zw0nR054riNYtQ==
-
 "@fortawesome/fontawesome-common-types@6.3.0":
   version "6.3.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-6.3.0.tgz#51f734e64511dbc3674cd347044d02f4dd26e86b"
@@ -7468,10 +7463,10 @@ inquirer@^7.3.3:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-instantsearch.js@4.50.3:
-  version "4.50.3"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.50.3.tgz#3b810fed3b52f0b887c3ae458cd9054433872742"
-  integrity sha512-xfVKe7/uAzxnSJeUI2M4RQZycnggx+jtKB6ZCp10Q2FGsPn0pwf2kHO1r0oy05SFYj/UmRf6NXV6h7GjR+ctKg==
+instantsearch.js@4.51.0:
+  version "4.51.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.51.0.tgz#21c28ffeb9b5ca538a4df9ab2c521da0a96aa0ab"
+  integrity sha512-WxW9JE3fzf82HD2hUwfVW/moRfEpNBbDZex0L44s7CEpmwkPcLcPUnZBcp5VTDeK1UuU+RzugFf0NDlo/SPGxQ==
   dependencies:
     "@algolia/events" "^4.0.1"
     "@algolia/ui-components-highlight-vdom" "^1.2.1"
@@ -13432,12 +13427,12 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-instantsearch@^4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.3.tgz#20479213851397b5ef5027c7dba59f79c076183a"
-  integrity sha512-a7zPcuDlzr/kpeC1uETv/03tjhQ9liZq2PBIq5HGFOgov4oFbCB7AVRyHT5I/E9gmMlA+ltbz0+Ls/hA38i7kA==
+vue-instantsearch@^4.8.4:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.4.tgz#95256ef57ecfabae52b56b2df976c2d6ba25cba9"
+  integrity sha512-+CBzpZsV6P3H93LIMmsSf3znqXWOaz1OdQ9zc4XO6AgALkWW65F4+ANhM1RVw/Cg2QPiAchkwPUp07AFTM23oA==
   dependencies:
-    instantsearch.js "4.50.3"
+    instantsearch.js "4.51.0"
     mitt "^2.1.0"
 
 vue-jest@^3.0.7:
