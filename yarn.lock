@@ -7895,10 +7895,10 @@ inquirer@^7.3.3:
     strip-ansi "^6.0.0"
     through "^2.3.6"
 
-instantsearch.js@4.52.0:
-  version "4.52.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.52.0.tgz#297294051eb988912046a28bbc3b6520f9526bcb"
-  integrity sha512-3GzSiZKmLv51pEoiN1fgRrziYKf/j3PWXQrtWPK3sVJ1DzicFlfy9XMdJ0+ThI0k+aweSGfaesO0WwUuL8i2WQ==
+instantsearch.js@4.53.0:
+  version "4.53.0"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.53.0.tgz#8dffe121681f514363762a4c70bc4c4344b9775d"
+  integrity sha512-YsKZo8yF/2/lc1FHwyP73k8IoIMPesP+8R4VSmWDf/No8EgELgpC7qgZOlQl/vLIoAAaDrKD/BfstposfMF8KQ==
   dependencies:
     "@algolia/events" "^4.0.1"
     "@algolia/ui-components-highlight-vdom" "^1.2.1"
@@ -14018,12 +14018,12 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
   integrity sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
 
-vue-instantsearch@^4.8.7:
-  version "4.8.7"
-  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.7.tgz#0d9536921318f64df6b1888fa200bfe2de56ba5b"
-  integrity sha512-Iqlc506fQpJPfX6+d2WW1pmiFkc67w5hF/WzpkJ4aj/C4aIS3jNyWK4oZkFu3n/7jybxQWM7BRX0t+SlK+0BFg==
+vue-instantsearch@^4.8.8:
+  version "4.8.8"
+  resolved "https://registry.yarnpkg.com/vue-instantsearch/-/vue-instantsearch-4.8.8.tgz#68350799b9c9a6d953ba2aaa60ada9c0439a8995"
+  integrity sha512-cQylbVL5sdtSe1ZSh8BfuHtIXqMscI5dXvMs+i88ZaDLdNf+TZ9sWQ1dnl5fZUqRKMEYrjGuOLc/+UiR8GF6jg==
   dependencies:
-    instantsearch.js "4.52.0"
+    instantsearch.js "4.53.0"
     mitt "^2.1.0"
 
 vue-jest@^3.0.7:
