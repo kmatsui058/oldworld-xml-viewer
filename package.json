@@ -56,7 +56,7 @@
     "xml2json": "^0.12.0"
   },
   "devDependencies": {
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@nuxt/typescript-build": "^2.1.0",
